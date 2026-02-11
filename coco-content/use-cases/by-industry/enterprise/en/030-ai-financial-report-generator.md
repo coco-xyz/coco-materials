@@ -4,9 +4,7 @@
 
 ---
 
-## Part 1: Social Media Copy
-
-### English
+## Social Media Copy
 
 Month-end close. The two words that make every FP&A analyst's eye twitch. Three days of pulling data from 6 systems, reconciling discrepancies, building pivot tables, formatting reports, writing variance commentary, and assembling the board deck. Every month. Like clockwork. Except the clock is always running out.
 
@@ -23,28 +21,9 @@ COCO's AI Financial Report Generator automated the mechanical, amplified the str
 
 Report production time: from 3 days to 4 hours. Error rate in financial reports: down 91%. Strategic analysis time: up from 15% to 45% of FP&A capacity. The CFO finally gets the "so what" behind the numbers.
 
-### 中文
-
-月末结账。让每个FP&A分析师眼皮跳的两个字。三天时间从6个系统拉数据、核对差异、做数据透视表、格式化报告、写差异分析、组装董事会汇报。每个月。如钟表般准确。只是时间永远不够。
-
-我们3人的FP&A团队40%的月度时间花在报告产出上。不是分析。不是战略洞察。不是预测。只是把数字拉进同样的模板，用略有不同的措辞第47次写"收入230万美元，比计划高12%，受北美企业板块强劲表现驱动"。
-
-CFO想要更多战略分析。团队想要更多战略分析。但战略分析需要时间，而时间被每月组装同样15份报告的机械工作消耗了。
-
-COCO的AI Financial Report Generator将机械工作自动化，放大战略工作：
-- 连接我们的ERP、CRM和计费系统，自动拉取实际数据
-- 生成全部15份月度报告，带正确的数字、差异计算和格式化图表
-- 撰写解释数字为什么变动的差异分析，而不只是变动了（"收入+12%，受3笔提前完成的企业交易驱动；被产品发布延迟导致的SMB8%不足部分抵消"）
-- 生成董事会汇报的初稿，含叙事、可视化和关键指标
-- FP&A团队审阅，添加战略洞察并交付——1天而非3天
-
-报告产出时间：从3天降至4小时。财务报告错误率：下降91%。战略分析时间：FP&A产能从15%上升至45%。CFO终于得到了数字背后的"所以呢"。
-
 ---
 
-## Part 2: Detailed Introduction
-
-### English
+## Detailed Introduction
 
 **The Pain: FP&A Teams Are Report Factories, Not Strategic Advisors**
 
@@ -77,11 +56,17 @@ COCO's AI Financial Report Generator automates the data assembly, calculation, a
 - **Forecast update cycle**: From weekly (5 hours) to daily (automated)
 - **Month-end close acceleration**: 2 days faster reporting to leadership
 
+**Who Benefits**
+
+- **FP&A Analysts**: Freed from mechanical report assembly to do the strategic analysis they were hired for
+- **CFO/Finance Leadership**: Gets the "so what" behind numbers, not just the numbers; faster decision-making
+- **Board Members**: Better-quality board decks with clearer narratives and actionable insights
+- **Department Heads**: Receive budget variance explanations faster; can course-correct sooner
+- **Auditors**: Consistent, well-documented financial reports reduce audit prep time
+
 ---
 
-## Part 3: Practical Prompts
-
-### English
+## Practical Prompts
 
 **Prompt 1: Generate Monthly Financial Summary**
 ```
@@ -160,81 +145,4 @@ Also provide:
 - Recommended reforecast adjustments
 ```
 
-### 中文
-
-**提示词 1: 生成月度财务摘要**
-```
-生成带差异分析的月度财务摘要报告。
-
-本月实际：
-[粘贴或描述：收入、成本、毛利率、按部门的运营费用、EBITDA、人数、关键SaaS指标如适用]
-
-本月预算：
-[粘贴预算数据]
-
-去年同月：
-[粘贴去年数据]
-
-生成：
-1. 执行摘要（3-4句话：表现如何、关键驱动因素、展望）
-2. 收入分析（按细分/产品/区域，附差异解释）
-3. 费用分析（按部门，标记超/低预算10%以上的项目）
-4. 盈利能力桥接（从预算到实际，量化每个驱动因素）
-5. 关键指标仪表板（列出相关KPI及趋势箭头）
-6. 风险/机会标记（领导层应关注什么）
-7. 前瞻性评论（对季度/全年预测的影响）
-
-格式化为适合C-suite审阅的专业财务报告。
-```
-
-**提示词 2: 撰写董事会汇报的财务部分**
-```
-为[季度/月份]的董事会汇报起草财务部分。
-
-财务数据：
-[粘贴季度财务数据：收入、费用、盈利能力、现金头寸、关键指标]
-
-对比数据：
-- vs预算：[粘贴]
-- vs去年同期：[粘贴]
-- vs上季度：[粘贴]
-
-董事会背景：
-- 董事会可能提出的关键问题：[列出预期问题]
-- 需要突出的战略举措：[列出]
-- 需要主动回应的关切：[列出]
-
-生成：
-1. 财务亮点页（5-6个要点，带方向箭头的指标）
-2. 收入深入分析页（细分、增长驱动、风险）
-3. 盈利能力页（利润趋势、成本结构变化）
-4. 现金和跑道页（烧钱率、跑道、融资需求）
-5. 关键指标页（客户指标、运营指标）
-6. 前瞻指引页（下季度展望及假设）
-
-每页：标题、4-6个数据点、2-3句评论。董事会成员应在30秒内理解每页。
-```
-
-**提示词 3: 预算差异分析**
-```
-对[部门/项目/公司]进行详细的差异分析。
-
-预算：
-[粘贴预算明细项和金额]
-
-实际：
-[粘贴实际明细项和金额]
-
-对每个差异>5%的明细项：
-1. 差异金额和百分比
-2. 根因分析（为什么偏离？）
-3. 这是时间性问题（会自动纠正）还是永久性差异？
-4. 对全年预测的影响
-5. 建议操作（接受/调查/重新预测）
-
-同时提供：
-- 整体预算健康评估
-- 前3个有利差异（好消息及背景）
-- 前3个不利差异（坏消息及缓解措施）
-- 建议的重新预测调整
-```
+---

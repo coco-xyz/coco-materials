@@ -4,24 +4,7 @@
 
 ---
 
-## Part 1: Social Media Copy
-
-### English
-
-Our biggest competitor launched a new feature that overlapped with 60% of our product. Within a week, our sales team lost 3 deals they'd been nurturing for months. The prospects all said the same thing: "Their messaging makes it sound like they do everything you do, but cheaper."
-
-The painful truth: it wasn't true. Our product was stronger in 4 key areas. But our messaging didn't say that. Our website copy hadn't been updated since the competitor's launch. Our sales deck still positioned us against their old product. Our battle cards were 6 months stale.
-
-We deployed COCO's AI Competitive Copywriter after that wake-up call:
-- Monitors competitor websites, press releases, G2 reviews, and product changelog pages weekly
-- Auto-updates our competitive battle cards when they ship changes
-- Generates differentiation-focused copy for every channel: website, sales decks, email sequences, ad copy
-- When a competitor launches something, we have updated positioning copy within 24 hours -- not 3 weeks
-- Creates objection-handling scripts based on real competitor claims
-
-6 months later: competitive win rate improved from 34% to 52%. Deals lost to "competitor messaging" dropped 61%. Our sales team stopped being caught off guard.
-
-### 中文
+## 社媒文案
 
 最大的竞品发布了一个新功能，和我们产品60%重叠。一周内，销售团队丢了3个培育了好几个月的机会。客户都说同样的话："他们的宣传听起来和你们做的一样，但更便宜。"
 
@@ -38,80 +21,9 @@ We deployed COCO's AI Competitive Copywriter after that wake-up call:
 
 ---
 
-## Part 2: Detailed Introduction
+---
 
-### English
-
-**The Pain: Your Competitive Messaging Is Always Out of Date**
-
-In competitive markets, messaging isn't static -- it's a constantly shifting battleground. Competitors launch new features, change pricing, update their website copy, publish new case studies, and hire new marketing teams. Each change potentially shifts how prospects perceive the competitive landscape.
-
-Most companies respond to competitive changes reactively and slowly. A competitor launches a new feature -- it takes 2-3 weeks for marketing to update battle cards, 4-6 weeks to update the website, and sales may not hear about it for a month. During that lag, deals are lost because reps are fighting with outdated ammunition.
-
-The intelligence-to-action gap is the real problem. Most organizations have some form of competitive intelligence. But turning that intelligence into actionable sales and marketing copy -- battle cards, objection handlers, comparison pages, email templates, ad copy -- is a manual, time-consuming process that always falls behind.
-
-**How COCO Solves It**
-
-COCO's AI Competitive Copywriter closes the gap between competitive intelligence and revenue-facing copy.
-
-1. **Continuous Competitive Monitoring**: COCO tracks competitor activities:
-   - Website changes (pricing pages, feature pages, homepage messaging)
-   - Product updates and changelogs
-   - Press releases and blog posts
-   - G2/Capterra/TrustRadius reviews (what customers love and hate)
-   - Social media announcements
-   - Job postings (reveal strategic direction)
-   - Generates weekly competitive intelligence summaries
-
-2. **Dynamic Battle Card Generation**: When competitive data changes, COCO auto-updates:
-   - Feature comparison matrices (us vs. them, honest and defensible)
-   - Pricing comparison analysis
-   - Strengths to emphasize and weaknesses to address
-   - Customer win stories relevant to each competitor
-   - Objection-handling talk tracks with specific counter-arguments
-
-3. **Differentiation Copy by Channel**: COCO generates competitive copy tailored to each use:
-   - **Website**: Comparison landing pages, "Why us over [Competitor]" pages
-   - **Sales Decks**: Competitive slides with talking points
-   - **Email Sequences**: Prospect-facing competitive differentiation emails
-   - **Ad Copy**: Competitive conquest campaigns
-   - **RFP Responses**: Competitive positioning for specific evaluation criteria
-
-4. **Objection Handling Scripts**: Based on actual competitor claims and common prospect objections:
-   - "They say they have [feature]. How do you compare?"
-   - "[Competitor] is 40% cheaper. Why should I pay more?"
-   - "I saw [Competitor] won [award]. Are they better?"
-   - Each script includes: Acknowledge, Reframe, Differentiate, Evidence
-
-5. **Win/Loss Analysis Support**: COCO helps structure and analyze win/loss data:
-   - Patterns in why deals are won vs. lost against each competitor
-   - Messaging themes that correlate with wins
-   - Competitive weaknesses most frequently cited by won customers
-   - Recommendations for messaging adjustments based on trends
-
-6. **Tone Calibration**: Competitive copy walks a fine line. COCO ensures:
-   - Differentiation without disparagement (professional, not aggressive)
-   - Claims are defensible and specific (not vague superlatives)
-   - Customer evidence backs up positioning claims
-   - Compliance with advertising standards for comparative claims
-
-**Measurable Results**
-
-- **Competitive win rate**: From 34% to 52% (+53% improvement)
-- **Deals lost to competitor messaging**: Reduced by 61%
-- **Battle card update frequency**: From quarterly to weekly
-- **Time to respond to competitor launches**: From 3 weeks to 24 hours
-- **Sales confidence in competitive situations**: +40% (self-reported survey)
-- **Competitive page conversion rate**: +28% on comparison landing pages
-
-**Who Benefits**
-
-- **Sales Teams**: Always armed with current, accurate competitive information
-- **Product Marketing**: Competitive positioning stays fresh without constant manual effort
-- **Marketing Leaders**: Faster, more coordinated competitive response
-- **Competitive Intelligence Teams**: Analysis translated into action faster
-
-### 中文
+## 详细介绍
 
 **痛点：你的竞品营销信息永远过时**
 
@@ -184,95 +96,9 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 
 ---
 
-## Part 3: Practical Prompts
+---
 
-### English
-
-**Prompt 1: Competitive Battle Card Generation**
-```
-Create a comprehensive sales battle card for competing against [Competitor Name].
-
-Our product: [describe your product, key features, pricing]
-Their product: [describe what you know about their product, features, pricing]
-Our target buyer: [describe ideal customer profile]
-
-Generate a battle card with these sections:
-1. **Quick Summary**: One-paragraph competitive overview
-2. **Why We Win**: Top 3 differentiation points with evidence
-3. **Where They're Strong**: Honest assessment (so reps aren't caught off guard)
-4. **Common Objections & Responses**: Top 5 objections prospects raise when considering them, with specific counter-talk tracks
-5. **Killer Questions**: 5 questions reps should ask prospects that expose the competitor's weaknesses
-6. **Landmines**: Things to position early in the sales process before the competitor gets involved
-7. **Customer Win Story**: A template narrative of a customer who evaluated both and chose us
-
-Keep language professional -- differentiate, don't disparage.
-```
-
-**Prompt 2: Comparison Landing Page Copy**
-```
-Write copy for a "[Our Product] vs [Competitor]" comparison landing page.
-
-Our product: [key features, pricing, ideal customer]
-Their product: [key features, pricing, their positioning]
-Our honest advantages: [list 4-5]
-Their honest advantages: [list 2-3 -- we need to acknowledge these credibly]
-Target audience landing on this page: [who they are and what they're researching]
-
-Page structure:
-1. Hero headline and subheadline (differentiation-focused, not aggressive)
-2. Quick comparison table (features, pricing, support, integrations)
-3. 3 detailed "Why [Our Product]" sections with specific use cases
-4. Honest "When [Competitor] might be a better fit" section (builds credibility)
-5. Customer testimonial from someone who switched
-6. CTA section
-
-Tone: Confident and fair. We want readers to trust us because we're honest, not because we trash the competition.
-```
-
-**Prompt 3: Competitive Response to New Feature Launch**
-```
-Our competitor [Name] just launched [describe their new feature/product]. We need to respond quickly across multiple channels.
-
-Their announcement: [paste or summarize their announcement]
-How our product compares: [do we have something similar? Better? Different approach?]
-Our actual advantage: [what we do that they still don't]
-
-Generate:
-1. **Internal Slack announcement** for sales team (what happened, what to say, what NOT to say)
-2. **Updated battle card section** addressing this specific feature
-3. **Sales email template** for reps to send to prospects currently evaluating the competitor
-4. **Social media response** (if appropriate -- sometimes the best response is silence)
-5. **FAQ for customer success** team (in case existing customers ask about it)
-
-Timeline: This needs to go out within 24 hours. Prioritize accuracy over polish.
-```
-
-**Prompt 4: Win/Loss Analysis Summary**
-```
-Analyze these win/loss data points and identify patterns for improving our competitive positioning.
-
-Recent competitive deals:
-
-Won deals:
-1. [Company] - vs [Competitor] - Won because: [reason] - Deal size: $[X]
-2. [Company] - vs [Competitor] - Won because: [reason] - Deal size: $[X]
-[...continue]
-
-Lost deals:
-1. [Company] - vs [Competitor] - Lost because: [reason] - Deal size: $[X]
-2. [Company] - vs [Competitor] - Lost because: [reason] - Deal size: $[X]
-[...continue]
-
-Analyze:
-1. Win/loss patterns by competitor
-2. Most common win themes and lose themes
-3. Deal size correlation with win/loss
-4. Messaging gaps (what we should be saying but aren't)
-5. Product gaps (features that cost us deals)
-6. Top 3 actionable recommendations to improve win rate next quarter
-```
-
-### 中文
+## 实用提示词
 
 **提示词 1: 竞品作战卡生成**
 ```
@@ -357,3 +183,5 @@ Analyze:
 5. 产品缺口（导致我们丢单的功能）
 6. 下个季度提升胜率的前3个可操作建议
 ```
+
+---

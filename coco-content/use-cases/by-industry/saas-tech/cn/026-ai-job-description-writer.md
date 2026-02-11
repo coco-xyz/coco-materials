@@ -4,24 +4,7 @@
 
 ---
 
-## Part 1: Social Media Copy
-
-### English
-
-We analyzed why our engineering roles took 47 days to fill while the industry median was 36. The bottleneck wasn't sourcing or interviews -- it was applications. Our pipeline was thin because qualified candidates weren't applying. When we audited our job descriptions, the reason became obvious. They read like compliance documents, not job advertisements.
-
-"Must have 7+ years in enterprise Java development with Spring Boot, Hibernate, and microservices architecture in a CI/CD environment utilizing Docker and Kubernetes in AWS." That was our opening line. Not what the role was about. Not why someone would want this job. Just a wall of requirements that made 70% of qualified women and underrepresented candidates self-select out (Stanford research shows women apply only when meeting 100% of requirements; men apply at 60%).
-
-COCO's AI Job Description Writer rewired our approach:
-- Analyzes the actual role needs and separates true requirements from nice-to-haves
-- Writes descriptions that lead with impact and growth, not requirement lists
-- Runs inclusive language analysis: removes gendered language, excessive requirements, and exclusionary jargon
-- Benchmarks compensation against market data so we don't underprice roles
-- Generates versions optimized for different channels (LinkedIn, Indeed, careers page)
-
-Application volume: +64%. Female applicants: +41%. Diverse candidates in pipeline: +38%. Time-to-fill: from 47 to 31 days. Same roles, better descriptions.
-
-### 中文
+## 社媒文案
 
 我们分析了为什么我们的工程职位需要47天才能填补，而行业中位数是36天。瓶颈不是寻源或面试——是申请量。Pipeline很薄因为合格候选人不申请。当我们审计职位描述时，原因变得明显了。它们读起来像合规文件，不像招聘广告。
 
@@ -38,79 +21,9 @@ COCO的AI Job Description Writer重构了我们的方法：
 
 ---
 
-## Part 2: Detailed Introduction
+---
 
-### English
-
-**The Pain: Bad Job Descriptions Are Invisible Pipeline Killers**
-
-Job descriptions are the most read and least optimized piece of content in most companies. They're written once, copied from templates or previous postings, edited minimally, and posted. Yet they are the single most important factor in determining who applies for your roles.
-
-Research consistently shows that poorly written JDs have measurable negative effects: excessive requirements reduce the applicant pool (particularly among women and underrepresented groups), jargon-heavy language discourages career changers, and "requirements" that are actually preferences cause the best candidates to self-select out.
-
-Most hiring managers write JDs that describe their ideal candidate -- someone who has already done this exact job. This eliminates candidates with high potential who could grow into the role, career changers who bring fresh perspectives, and candidates from adjacent fields with transferable skills.
-
-**How COCO Solves It**
-
-COCO's AI Job Description Writer creates compelling, inclusive, and effective job descriptions that attract the right candidates.
-
-1. **Role Analysis**: COCO works with the hiring manager to clarify the actual role:
-   - What will this person do in their first 90 days?
-   - What skills are genuinely required vs. learnable on the job?
-   - What does success look like at 6 and 12 months?
-   - What makes this role unique and exciting?
-
-2. **Impact-First Structure**: COCO writes JDs that lead with what matters to candidates:
-   - **Hook**: Why this role matters and what impact the person will have
-   - **What You'll Do**: Specific responsibilities framed as outcomes, not tasks
-   - **What You Bring**: Separated into "Required" (genuinely non-negotiable) and "Nice to Have"
-   - **What We Offer**: Compensation range, benefits, growth opportunities, culture
-   - **About Us**: Company mission and team context
-
-3. **Inclusive Language Optimization**: COCO scans for and corrects:
-   - Gendered language ("rockstar," "ninja," "he/she" defaults)
-   - Unnecessary requirements that exclude diverse candidates
-   - Jargon that discourages career changers
-   - Age-coded language ("digital native," "young and energetic")
-   - Ability-biased language that excludes disabled candidates
-
-4. **Compensation Intelligence**: COCO helps position compensation competitively:
-   - Market rate benchmarking based on role, location, and company stage
-   - Pay transparency compliance (where legally required)
-   - Benefits and perks framing that resonates with target candidates
-   - Total compensation positioning
-
-5. **Channel Optimization**: Different platforms need different versions:
-   - **LinkedIn**: Professional tone, network-shareable, emphasis on company brand
-   - **Indeed**: Keyword-optimized for search, clear compensation
-   - **Careers Page**: Detailed, culture-rich, with team information
-   - **Internal Posting**: Growth opportunity framing, internal mobility emphasis
-
-6. **Performance Tracking**: COCO helps measure JD effectiveness:
-   - Application rate per channel
-   - Quality of applicant pool (% meeting requirements)
-   - Demographic diversity of applicants
-   - Time-to-fill compared to previous versions
-
-**Measurable Results**
-
-- **Application volume**: +64% increase
-- **Female applicants**: +41% increase
-- **Diverse candidates in pipeline**: +38% increase
-- **Time-to-fill**: From 47 to 31 days (34% reduction)
-- **JD writing time**: From 2 hours to 20 minutes
-- **Application-to-interview ratio**: Improved from 8% to 14% (better qualified applicants)
-
-**Who Benefits**
-
-- **Recruiters**: Higher application volumes with better-qualified candidates
-- **Hiring Managers**: Clearer role definition leads to better hiring outcomes
-- **Candidates**: Understand the role, impact, and requirements clearly
-- **D&I Leaders**: More inclusive language attracts more diverse candidate pools
-
-### 中文
-
-(Content follows same structure as English with native Chinese writing)
+## 详细介绍
 
 **痛点：糟糕的职位描述是看不见的Pipeline杀手**
 
@@ -118,82 +31,71 @@ COCO's AI Job Description Writer creates compelling, inclusive, and effective jo
 
 研究持续表明，写得差的JD有可衡量的负面效果：过多的要求减少申请池（特别是女性和少数群体），充满术语的语言劝退转行者，实际上是"偏好"的"要求"导致最佳候选人自我淘汰。
 
+大多数用人经理写的JD描述的是他们的理想候选人——一个已经做过这个完全相同工作的人。这淘汰了有高潜力可以成长为角色的候选人、带来新视角的转行者、以及来自相邻领域具有可迁移技能的候选人。
+
 **COCO如何解决**
 
-COCO的AI Job Description Writer创建引人注目的、包容的、高效的职位描述。
+COCO的AI Job Description Writer创建引人注目的、包容的、高效的职位描述，吸引合适的候选人。
 
-（完整中文版内容结构与英文相同，以母语风格撰写，涵盖所有6个解决方案要点、可量化结果和受益角色）
+1. **角色分析**：COCO与用人经理合作，澄清实际角色：
+   - 这个人在前90天将做什么？
+   - 哪些技能是真正必需的vs可以在岗位上学习的？
+   - 6个月和12个月后成功是什么样子？
+   - 这个角色有什么独特和令人兴奋的地方？
+
+2. **影响力优先结构**：COCO撰写以候选人关心的内容开头的JD：
+   - **吸引点**：为什么这个角色重要，这个人将产生什么影响
+   - **你将做什么**：以成果而非任务框架的具体职责
+   - **你需要具备的**：分为"必须"（真正不可协商的）和"加分项"
+   - **我们提供的**：薪酬范围、福利、成长机会、文化
+   - **关于我们**：公司使命和团队背景
+
+3. **包容性语言优化**：COCO扫描并纠正：
+   - 性别化语言（"摇滚巨星"、"忍者"、默认"他/她"）
+   - 排除多元化候选人的不必要要求
+   - 劝退转行者的行话
+   - 年龄化语言（"数字原住民"、"年轻有活力"）
+   - 排除残障候选人的能力偏见语言
+
+4. **薪酬智能**：COCO帮助竞争性地定位薪酬：
+   - 基于角色、地点和公司阶段的市场费率基准
+   - 薪酬透明合规（法律要求的地方）
+   - 与目标候选人产生共鸣的福利框架
+   - 全面薪酬定位
+
+5. **渠道优化**：不同平台需要不同版本：
+   - **LinkedIn**：专业调性，可分享，强调公司品牌
+   - **招聘网站**：针对搜索优化关键词，明确薪酬
+   - **招聘页面**：详细、文化丰富、带团队信息
+   - **内部发布**：成长机会框架，强调内部流动
+
+6. **效果追踪**：COCO帮助衡量JD效果：
+   - 每个渠道的申请率
+   - 申请池质量（满足要求的百分比）
+   - 申请人的人口统计多样性
+   - 与之前版本相比的招聘周期
+
+**可量化的结果**
+
+- **申请量**：增长64%
+- **女性申请者**：增长41%
+- **Pipeline中多元化候选人**：增长38%
+- **招聘周期**：从47天降至31天（缩短34%）
+- **JD撰写时间**：从2小时降至20分钟
+- **申请到面试转化率**：从8%提升至14%（更高质量的申请人）
+
+**受益角色**
+
+- **招聘人员**：更高的申请量和更优质的候选人
+- **用人经理**：更清晰的角色定义带来更好的招聘结果
+- **候选人**：清楚了解角色、影响力和要求
+- **多元化负责人**：更包容的语言吸引更多元化的候选人池
 
 ---
 
-## Part 3: Practical Prompts
+---
 
-### English
-
-**Prompt 1: Write a Job Description**
-```
-Write a compelling job description for this role.
-
-Role: [title]
-Team: [which team/department]
-Reports to: [title]
-Location: [office/remote/hybrid]
-
-Hiring manager's input:
-- What this person will do: [describe key responsibilities]
-- Must-have skills: [list only genuinely non-negotiable skills]
-- Nice-to-have skills: [list preferred but not required]
-- What success looks like at 6 months: [describe]
-- Why this role is exciting: [what's unique about it]
-- Team size and culture: [describe]
-- Compensation range: $[X]-$[X]
-
-Write a JD with:
-1. Compelling opening paragraph (why this role matters, impact opportunity)
-2. "What You'll Do" (5-7 outcomes-focused responsibilities)
-3. "What You Bring" (split: Required vs Nice to Have -- be ruthless about what's truly required)
-4. "What We Offer" (compensation, benefits, growth)
-5. "About Us" (2-3 sentences about company and team)
-
-Run an inclusive language check and flag any problematic phrases. Keep the total length under 600 words.
-```
-
-**Prompt 2: Audit Existing Job Description for Inclusivity**
-```
-Audit this job description for inclusive language and effectiveness.
-
-Current JD:
-[paste the full job description]
-
-Analyze:
-1. **Language Inclusivity**: Flag gendered, age-coded, ability-biased, or exclusionary language
-2. **Requirement Inflation**: Which "requirements" are actually preferences? Recommend moving to "Nice to Have"
-3. **Readability**: Is it clear, scannable, and candidate-friendly?
-4. **Missing Elements**: What's missing that candidates care about? (compensation, growth, impact)
-5. **Keyword Optimization**: Is it discoverable on job boards?
-6. **Call to Action**: Does it make someone want to apply?
-
-Provide: Revised version with all improvements applied, plus a changelog explaining each change.
-```
-
-**Prompt 3: Generate Multiple Channel Versions**
-```
-Adapt this job description for different posting channels.
-
-Base JD:
-[paste your approved job description]
-
-Generate versions for:
-1. **LinkedIn** (short-form): 150-200 words, shareable, professional tone, key highlights only
-2. **Indeed** (search-optimized): Full detail, keyword-rich for search algorithms, clear compensation
-3. **Careers Page** (brand-rich): Full detail plus company culture, team description, application process info
-4. **Internal Posting** (employee-facing): Emphasis on growth opportunity, internal mobility, team context
-5. **Employee Referral Blurb** (sharing-friendly): 50-word summary employees can share with their network
-
-Each version should feel native to the platform while maintaining consistent core messaging.
-```
-
-### 中文
+## 实用提示词
 
 **提示词 1: 撰写职位描述**
 ```
@@ -257,3 +159,29 @@ Each version should feel native to the platform while maintaining consistent cor
 
 每个版本应该感觉是平台原生的，同时保持一致的核心信息。
 ```
+
+**提示词 4: 薪酬基准化**
+```
+帮我为这个职位进行薪酬基准化以确保竞争力。
+
+角色：[职位]
+地点：[城市/地区或远程]
+公司阶段：[初创/成长/企业]
+行业：[行业]
+经验级别：[初级/中级/高级/Staff/Principal]
+管理团队规模：[如适用]
+
+调研并提供：
+1. 市场薪资范围（25百分位、50百分位、75百分位、90百分位）
+2. 这个级别和阶段的典型股权/期权
+3. 签约奖金规范
+4. 此角色顶尖候选人期望的关键福利
+5. 我们提议的¥[X]-¥[X]范围与市场的比较
+6. 如果我们想吸引前25%人才的建议全面薪酬定位
+7. 如果远程的地理调整（生活成本因素）
+8. 我们薪酬可能导致的红旗（太低=无申请人；太高=错误期望）
+
+包含数据来源并注明基准化的任何局限性。
+```
+
+---

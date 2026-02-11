@@ -4,26 +4,7 @@
 
 ---
 
-## Part 1: Social Media Copy
-
-### English
-
-Month-end close. The two words that make every FP&A analyst's eye twitch. Three days of pulling data from 6 systems, reconciling discrepancies, building pivot tables, formatting reports, writing variance commentary, and assembling the board deck. Every month. Like clockwork. Except the clock is always running out.
-
-Our FP&A team of 3 spent 40% of their month on report production. Not analysis. Not strategic insight. Not forecasting. Just pulling numbers into the same templates, writing "Revenue was $2.3M, up 12% vs plan due to strong Enterprise performance in North America" for the 47th time in slightly different words.
-
-The CFO wanted more strategic analysis. The team wanted more strategic analysis. But strategic analysis requires time, and time was consumed by the mechanical work of assembling the same 15 reports every month.
-
-COCO's AI Financial Report Generator automated the mechanical, amplified the strategic:
-- Connects to our ERP, CRM, and billing systems; pulls actuals automatically
-- Generates all 15 monthly reports with correct numbers, variance calculations, and formatted charts
-- Writes variance commentary that explains WHY numbers moved, not just THAT they moved ("Revenue +12% driven by 3 Enterprise deals closed ahead of schedule; offset by 8% SMB shortfall from delayed product launch")
-- Produces first draft of board deck with narrative, visualizations, and key metrics
-- FP&A team reviews, adds strategic insight, and delivers -- in 1 day instead of 3
-
-Report production time: from 3 days to 4 hours. Error rate in financial reports: down 91%. Strategic analysis time: up from 15% to 45% of FP&A capacity. The CFO finally gets the "so what" behind the numbers.
-
-### 中文
+## 社媒文案
 
 月末结账。让每个FP&A分析师眼皮跳的两个字。三天时间从6个系统拉数据、核对差异、做数据透视表、格式化报告、写差异分析、组装董事会汇报。每个月。如钟表般准确。只是时间永远不够。
 
@@ -42,125 +23,54 @@ COCO的AI Financial Report Generator将机械工作自动化，放大战略工�
 
 ---
 
-## Part 2: Detailed Introduction
+---
 
-### English
+## 详细介绍
 
-**The Pain: FP&A Teams Are Report Factories, Not Strategic Advisors**
+**痛点：FP&A团队是报告工厂，而非战略顾问**
 
-FP&A teams exist to provide strategic financial insight. In practice, they spend most of their time assembling reports. McKinsey research shows that finance teams spend 60-70% of their time on data gathering and report preparation, leaving only 30-40% for actual analysis and strategic support. The irony: CFOs consistently rank "strategic business partnering" as FP&A's most important function -- and the one where they most underdeliver.
+FP&A团队存在的目的是提供战略性财务洞察。实际上，他们大部分时间都在组装报告。麦肯锡研究显示，财务团队将60-70%的时间花在数据收集和报告准备上，只留下30-40%用于实际分析和战略支持。讽刺的是：CFO始终将"战略业务合作"列为FP&A最重要的功能——也是他们最未能交付的功能。
 
-The monthly close and reporting cycle is the biggest time drain. FP&A analysts pull data from multiple systems (ERP, CRM, HRIS, billing), reconcile discrepancies, calculate variances, build charts, format reports, and write commentary -- the same process, with the same templates, every single month. It's highly skilled work done in a highly repetitive way.
+月末结账和报告周期是最大的时间消耗。FP&A分析师从多个系统（ERP、CRM、HRIS、计费）拉取数据、核对差异、计算偏差、构建图表、格式化报告、撰写评论——相同的流程、相同的模板、每个月都一样。这是高度熟练的工作，却以高度重复的方式完成。
 
-**How COCO Solves It**
+**COCO如何解决**
 
-COCO's AI Financial Report Generator automates the data assembly, calculation, and narrative generation, freeing FP&A for strategic work.
+COCO的AI Financial Report Generator自动化数据组装、计算和叙事生成，解放FP&A进行战略工作。
 
-1. **Automated Data Integration**: Connects to financial systems (ERP, CRM, billing, HRIS) and pulls actuals, budget, and prior-period data automatically.
+1. **自动化数据集成**：连接财务系统（ERP、CRM、计费、HRIS），自动拉取实际数据、预算和前期数据。
 
-2. **Report Generation**: Produces standard monthly reports: P&L, balance sheet, cash flow, departmental budgets, revenue analysis, headcount, and KPI dashboards -- all formatted to your templates with accurate calculations.
+2. **报告生成**：产出标准月度报告：损益表、资产负债表、现金流量表、部门预算、收入分析、人员和KPI仪表板——全部按你的模板格式化，计算准确。
 
-3. **Intelligent Variance Commentary**: COCO doesn't just calculate "Revenue +12%." It explains why: identifies the drivers (which segments, products, regions contributed), quantifies each driver's impact, and contextualizes against plan assumptions.
+3. **智能差异评论**：COCO不只是计算"收入+12%"。它解释为什么：识别驱动因素（哪些细分市场、产品、区域贡献了），量化每个驱动因素的影响，并对照计划假设进行情境化分析。
 
-4. **Board Deck Assembly**: Generates first-draft board presentations with executive summary, financial highlights, key metrics, risk/opportunity flags, and forward-looking guidance.
+4. **董事会汇报组装**：生成包含执行摘要、财务亮点、关键指标、风险/机会标记和前瞻性指引的董事会演示初稿。
 
-5. **Forecast Updates**: Based on actuals-to-date, COCO updates rolling forecasts, highlights tracking vs. plan, and flags items requiring reforecasting.
+5. **预测更新**：基于截至目前的实际数据，COCO更新滚动预测，突出显示与计划的跟踪情况，并标记需要重新预测的项目。
 
-6. **Anomaly Detection**: Flags unusual patterns in financial data: unexpected account balance changes, budget line items significantly over/under, and trends that deviate from historical patterns.
+6. **异常检测**：标记财务数据中的异常模式：意外的账户余额变化、显著超出/低于预算的明细项、以及偏离历史模式的趋势。
 
-**Measurable Results**
+**可量化的结果**
 
-- **Report production time**: From 3 days to 4 hours per month-end cycle
-- **Financial report errors**: Reduced by 91%
-- **FP&A strategic analysis time**: From 15% to 45% of capacity
-- **Board deck preparation**: From 2 days to 3 hours
-- **Forecast update cycle**: From weekly (5 hours) to daily (automated)
-- **Month-end close acceleration**: 2 days faster reporting to leadership
+- **报告产出时间**：从每个月末周期3天降至4小时
+- **财务报告错误**：减少91%
+- **FP&A战略分析时间**：从产能的15%升至45%
+- **董事会汇报准备**：从2天降至3小时
+- **预测更新周期**：从每周（5小时）到每天（自动化）
+- **月末结账加速**：向领导层报告提前2天
+
+**受益角色**
+
+- **FP&A分析师**：从机械的报告组装中解放出来，做他们被雇来做的战略分析
+- **CFO/财务领导**：获得数字背后的"所以呢"，而不只是数字；更快的决策
+- **董事会成员**：更高质量的董事会汇报，更清晰的叙事和可操作的洞察
+- **部门主管**：更快收到预算差异解释；可以更早进行航向纠正
+- **审计师**：一致的、文档化良好的财务报告减少审计准备时间
 
 ---
 
-## Part 3: Practical Prompts
+---
 
-### English
-
-**Prompt 1: Generate Monthly Financial Summary**
-```
-Generate a monthly financial summary report with variance analysis.
-
-Actuals this month:
-[paste or describe: revenue, COGS, gross margin, operating expenses by department, EBITDA, headcount, key SaaS metrics if applicable]
-
-Budget this month:
-[paste budget figures]
-
-Prior year same month:
-[paste prior year figures]
-
-Generate:
-1. Executive summary (3-4 sentences: how did we do, key drivers, outlook)
-2. Revenue analysis (by segment/product/region, with variance explanation)
-3. Expense analysis (by department, flag items >10% over/under budget)
-4. Profitability walk (bridge from budget to actual, quantifying each driver)
-5. Key metrics dashboard (list relevant KPIs with trend arrows)
-6. Risk/opportunity flags (what leadership should pay attention to)
-7. Forward-looking commentary (implications for quarter/year forecast)
-
-Format as a professional financial report suitable for C-suite review.
-```
-
-**Prompt 2: Write Board Deck Financial Section**
-```
-Draft the financial section of our board deck for [quarter/month].
-
-Financial data:
-[paste quarterly financials: revenue, expenses, profitability, cash position, key metrics]
-
-Comparison data:
-- vs. Budget: [paste]
-- vs. Prior Year: [paste]
-- vs. Prior Quarter: [paste]
-
-Board context:
-- Key questions the board will likely ask: [list anticipated questions]
-- Strategic initiatives to highlight: [list]
-- Concerns to address proactively: [list]
-
-Generate:
-1. Financial highlights slide (5-6 bullet points, metrics with directional arrows)
-2. Revenue deep-dive slide (segmentation, growth drivers, risks)
-3. Profitability slide (margin trends, cost structure changes)
-4. Cash and runway slide (burn rate, runway, funding needs)
-5. Key metrics slide (customer metrics, operational metrics)
-6. Forward guidance slide (next quarter outlook with assumptions)
-
-Each slide: headline, 4-6 data points, 2-3 sentence commentary. Board members should grasp each slide in 30 seconds.
-```
-
-**Prompt 3: Budget Variance Analysis**
-```
-Perform a detailed variance analysis for [department/project/company].
-
-Budget:
-[paste budget line items with amounts]
-
-Actuals:
-[paste actual line items with amounts]
-
-For each line item with >5% variance:
-1. Variance amount and percentage
-2. Root cause analysis (why did it deviate?)
-3. Is this a timing issue (will self-correct) or a permanent variance?
-4. Impact on full-year forecast
-5. Recommended action (accept / investigate / reforecast)
-
-Also provide:
-- Overall budget health assessment
-- Top 3 favorable variances (good news with context)
-- Top 3 unfavorable variances (bad news with mitigation)
-- Recommended reforecast adjustments
-```
-
-### 中文
+## 实用提示词
 
 **提示词 1: 生成月度财务摘要**
 ```
@@ -238,3 +148,5 @@ Also provide:
 - 前3个不利差异（坏消息及缓解措施）
 - 建议的重新预测调整
 ```
+
+---

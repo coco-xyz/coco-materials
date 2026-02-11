@@ -4,9 +4,7 @@
 
 ---
 
-## Part 1: Social Media Copy
-
-### English
+## Social Media Copy
 
 Our finance team manually reviewed 1,200 expense reports per month. Each review: open the report, check receipt images, verify amounts match, check against expense policy (is this meal within the $75 limit? is this hotel in the approved rate range? was this flight booked 14+ days in advance?), flag exceptions, email the submitter for clarification, wait for response, re-review. Average time per report: 8 minutes. That's 160 hours/month. Two full-time employees doing nothing but reading receipts.
 
@@ -21,26 +19,9 @@ COCO's AI Expense Auditor reviews every report in seconds:
 
 Audit coverage: from 60% violation detection to 97%. Processing time per report: from 8 minutes to 12 seconds. That $14K personal Uber scheme? Would have been flagged in month one. Finance team now focuses on strategic analysis, not receipt reading.
 
-### 中文
-
-我们的财务团队每月手动审核1200份报销单。每次审核：打开报告、检查收据图片、验证金额是否匹配、对照费用政策检查（这顿饭是否在75美元限额内？这家酒店是否在批准的费率范围内？这趟航班是否提前14天以上预订？）、标记例外、发邮件给提交人要求澄清、等待回复、重新审核。每份报告平均时间：8分钟。每月160小时。两个全职员工除了看收据什么都不做。
-
-尽管付出了这么多努力，我们的审计只发现了约60%的政策违规。溜掉的那些？一个高级总监系统性地将个人Uber行程报为客户招待——8个月里14000美元。是在一次随机深度审计中偶然发现的，而非通过我们的常规流程。
-
-COCO的AI Expense Auditor在几秒内审核每份报告：
-- 读取收据图片（OCR），提取金额，与申报值匹配
-- 对照公司费用政策检查每个明细项——每条规则、每个限额、每个例外
-- 检测模式：同一供应商出现频率过高、整数金额（通常是估算而非实际）、刚好低于审批阈值的费用
-- 用具体的政策引用和风险评分标记异常
-- 自动批准干净的报告，将例外路由给人工审核员并附完整上下文
-
-审计覆盖率：违规检测从60%升至97%。每份报告处理时间：从8分钟降至12秒。那个14000美元的个人Uber骗报？会在第一个月就被标记。财务团队现在专注于战略分析，而非看收据。
-
 ---
 
-## Part 2: Detailed Introduction
-
-### English
+## Detailed Introduction
 
 **The Pain: Manual Expense Auditing Is Slow, Incomplete, and Expensive**
 
@@ -48,36 +29,70 @@ Expense report auditing is one of those necessary finance functions that everyon
 
 Manual auditing has a fundamental sampling problem. When reviewing 1,200 reports takes 160 hours, finance teams resort to sampling -- auditing 20-30% of reports in detail and rubber-stamping the rest. This means 70-80% of expense reports receive minimal scrutiny, creating a known vulnerability that sophisticated bad actors exploit.
 
+The errors aren't just fraud. Honest mistakes are rampant: employees who don't know the policy, receipts that don't match claimed amounts due to currency conversion, duplicate submissions from confusing expense systems, and miscategorized expenses that distort departmental budgets. These errors, individually small, compound into material financial inaccuracies.
+
 **How COCO Solves It**
 
 COCO's AI Expense Auditor provides 100% audit coverage with consistent policy enforcement.
 
-1. **Receipt Processing**: OCR reads receipt images, extracts vendor, date, amount, and category. Matches against claimed values. Flags mismatches.
+1. **Receipt Processing**: OCR reads receipt images in any format -- paper scans, phone photos, PDF downloads, even screenshots. Extracts vendor name, date, amount, tax, and category. Cross-references against the claimed values. Flags mismatches with the exact discrepancy amount.
 
-2. **Policy Compliance Engine**: Checks every line item against your full expense policy: meal limits, hotel rate caps, flight booking windows, entertainment policies, mileage rates, per diem rules, and approval thresholds.
+2. **Policy Compliance Engine**: Checks every line item against your full expense policy:
+   - Meal limits (per person, per event, by meal type)
+   - Hotel rate caps (by city tier, season, advance booking)
+   - Flight booking windows (advance purchase requirements, class restrictions)
+   - Entertainment policies (client presence required, per-event limits, description requirements)
+   - Mileage rates (IRS standard vs. company rate, route verification)
+   - Per diem rules (domestic vs. international, city-specific rates)
+   - Approval thresholds (who needs to approve at each dollar level)
 
-3. **Pattern Detection**: Identifies suspicious patterns across time: split transactions to avoid limits, round numbers, weekend expenses without travel justification, repeat vendor anomalies, and expenses clustering just below approval thresholds.
+3. **Pattern Detection**: Identifies suspicious patterns across time and across submitters:
+   - **Split transactions**: Breaking a $300 dinner into two $150 receipts to stay below the $200 approval limit
+   - **Round numbers**: Too many expenses at exactly $50, $100, $75 -- likely estimates rather than actuals
+   - **Weekend/holiday anomalies**: Expenses on non-work days without corresponding travel authorization
+   - **Vendor frequency**: Same restaurant 15 times in a month raises questions
+   - **Threshold gaming**: 8 out of 10 expenses at $49 when the receipt requirement starts at $50
+   - **Cross-employee patterns**: Two employees claiming the same dinner on different reports
 
-4. **Risk Scoring**: Each expense report gets a risk score (0-100) based on number of flagged items, severity, submitter history, and pattern analysis.
+4. **Risk Scoring**: Each expense report gets a risk score (0-100):
+   - **0-20**: Clean, auto-approve
+   - **21-50**: Minor issues, auto-approve with notation
+   - **51-75**: Review recommended (specific items flagged with policy citations)
+   - **76-100**: High risk, mandatory human review with full analysis attached
 
-5. **Smart Routing**: Clean reports auto-approved. Medium-risk reports flagged with specific items for human review. High-risk reports escalated with full analysis.
+5. **Smart Routing**: Based on risk score and issue type:
+   - Clean reports: Auto-approved, no human touch needed
+   - Medium-risk: Flagged items sent to submitter for clarification before approval
+   - High-risk: Escalated to finance manager with full analysis, policy citations, and historical context
 
-6. **Reporting and Analytics**: Monthly summaries of policy compliance rates, top violation types, department-level spending patterns, and fraud risk trends.
+6. **Reporting and Analytics**: Monthly and quarterly dashboards:
+   - Policy compliance rates by department, team, and individual
+   - Top violation types and trends over time
+   - Estimated cost savings from fraud prevention and error correction
+   - Department-level spending patterns and budget impact
+   - Recommendations for policy updates based on common edge cases
 
 **Measurable Results**
 
 - **Policy violation detection**: From 60% to 97%
 - **Processing time per report**: From 8 minutes to 12 seconds
-- **Finance team time saved**: 150+ hours/month
+- **Finance team time saved**: 150+ hours/month reallocated to strategic work
 - **Fraudulent expenses caught**: $180K in first year (previously undetected)
 - **Average reimbursement turnaround**: From 8 days to 2 days
 - **False positive rate**: Under 5% (minimizing unnecessary human reviews)
+- **Policy compliance awareness**: 40% reduction in violations after employees learned every report is audited
+
+**Who Benefits**
+
+- **Finance/AP Teams**: 95% time savings on audit; focus shifts from receipt reading to financial strategy
+- **Controllers**: Confidence that every expense is policy-compliant; cleaner audit trails
+- **Employees**: Faster reimbursement (2 days vs. 8); clear feedback on policy violations
+- **CFO**: Material reduction in fraud risk; better spending visibility; cleaner financials
+- **Compliance Officers**: 100% audit coverage satisfies regulatory and internal audit requirements
 
 ---
 
-## Part 3: Practical Prompts
-
-### English
+## Practical Prompts
 
 **Prompt 1: Audit Expense Report**
 ```
@@ -124,49 +139,26 @@ Create detection rules for:
 For each rule: trigger condition, severity level, false positive mitigation, and recommended action.
 ```
 
-### 中文
-
-**提示词 1: 审核报销单**
+**Prompt 3: Expense Policy Review and Update**
 ```
-按我们的公司政策审核这份报销单。
+Review our current expense policy and recommend updates based on common issues.
 
-公司费用政策：
-- 餐饮：客户餐最高75美元/人，个人餐最高25美元
-- 酒店：国内最高250美元/晚，国际最高350美元/晚
-- 机票：必须提前14天以上预订以获取折扣；除非飞行超过6小时否则经济舱
-- 地面交通：Uber/Lyft批准使用；租车需预先审批
-- 招待：每次活动最高200美元，描述中需要客户姓名
-- 25美元以上的所有费用需要收据
+Current policy:
+[paste your current expense policy]
 
-报销单：
-[粘贴费用明细行，包括日期、金额、类别、描述]
+Common violations and edge cases we've seen:
+[describe recurring issues, gray areas, frequently asked questions]
 
-对每个明细行：
-1. 政策合规：通过/标记（引用具体政策规则）
-2. 收据匹配：已验证/缺失/不匹配
-3. 异常检查：正常/可疑（解释原因）
-4. 整体报告风险评分（0-100）
-5. 建议：自动批准/需人工审核/拒绝
+Analyze and provide:
+1. **Policy gaps**: What situations aren't covered that should be?
+2. **Unclear language**: Which rules are ambiguous or open to interpretation?
+3. **Outdated limits**: Which dollar limits need updating for current market rates?
+4. **Missing categories**: New expense types (home office, AI tools, wellness) not addressed?
+5. **Simplification opportunities**: Rules that could be simplified without increasing risk
+6. **Enforcement mechanisms**: How to make the policy self-enforcing through system controls
+7. **Communication plan**: How to roll out policy changes so employees actually read them
+
+Provide a revised policy draft with tracked changes and rationale for each update.
 ```
 
-**提示词 2: 构建费用欺诈检测规则**
-```
-为我们的报销系统设计欺诈检测规则。
-
-我们公司：[规模、行业]
-月度报销单：约[X]份
-常见费用类别：[列出]
-当前已知问题：[描述已知的欺诈模式]
-
-创建检测规则：
-1. **拆分交易检测**：拆分费用以保持在审批限额以下
-2. **整数金额警报**：过多整数金额费用（可能是估算）
-3. **周末/假日异常**：非工作日的费用但无出差记录
-4. **供应商频率**：同一供应商出现异常频繁
-5. **阈值博弈**：费用集中在审批阈值以下
-6. **幽灵员工**：已离职或不存在的员工提交的报销
-7. **重复提交**：同一费用申报两次
-8. **生活方式不匹配**：费用模式与角色/出差需求不一致
-
-每条规则：触发条件、严重级别、降低误报的方法、建议操作。
-```
+---

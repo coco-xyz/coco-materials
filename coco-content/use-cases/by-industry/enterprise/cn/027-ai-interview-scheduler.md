@@ -4,26 +4,7 @@
 
 ---
 
-## Part 1: Social Media Copy
-
-### English
-
-Our recruiting coordinator spent 67% of her week on one task: scheduling interviews. Not sourcing. Not candidate experience. Not process improvement. Just the soul-crushing back-and-forth of matching interviewer availability with candidate availability across time zones, while dodging meeting conflicts, respecting interview panel composition requirements, and rebooking when someone inevitably cancels 2 hours before.
-
-For a single onsite interview loop (5 interviewers, 1 candidate), the average coordination effort was 14 emails and 45 minutes. We were running 30+ interview loops per week. That's 22+ hours of calendar Tetris.
-
-The downstream damage: candidates waited 5.2 days between "we'd like to schedule" and "your interview is confirmed." In that window, 18% accepted offers from faster-moving competitors. We weren't losing candidates on quality. We were losing them on speed.
-
-COCO's AI Interview Scheduler eliminated the bottleneck:
-- Reads all interviewer calendars and finds optimal slots automatically
-- Respects constraints: panel composition, interviewer load limits, time zone preferences, room availability
-- Sends professional scheduling communication to candidates with one-click confirmation
-- Auto-handles reschedules without human intervention
-- Average scheduling time: from 45 minutes to 3 minutes per loop
-
-Candidate wait time: from 5.2 days to 1.4 days. Candidates lost to scheduling delays: from 18% to 4%. Our recruiting coordinator now does actual recruiting.
-
-### 中文
+## 社媒文案
 
 我们的招聘协调员每周67%的时间花在一个任务上：排面试。不是寻源。不是候选人体验。不是流程优化。只是令人窒息的来回沟通——在跨时区协调面试官可用时间和候选人可用时间，同时避开会议冲突、遵守面试小组组成要求、以及在有人不可避免地提前2小时取消时重新预约。
 
@@ -42,92 +23,84 @@ COCO的AI Interview Scheduler消除了这个瓶颈：
 
 ---
 
-## Part 2: Detailed Introduction
+---
 
-### English
+## 详细介绍
 
-**The Pain: Interview Scheduling Is the Silent Killer of Recruiting Speed**
+**痛点：面试排期是招聘速度的隐形杀手**
 
-In competitive talent markets, speed wins. Research from Glassdoor shows that the best candidates are off the market within 10 days. Yet the average interview process takes 23 days, with a significant portion of that time consumed not by evaluation but by scheduling logistics. The scheduling bottleneck is particularly acute for multi-person interview panels, cross-timezone coordination, and senior roles requiring multiple rounds.
+在竞争激烈的人才市场，速度决定胜负。Glassdoor的研究显示，最优秀的候选人在10天内就会离开市场。然而平均面试流程需要23天，其中很大一部分时间不是花在评估上，而是花在排期后勤上。排期瓶颈在多人面试小组、跨时区协调和需要多轮面试的高级职位上尤为严重。
 
-Recruiting coordinators -- the people managing this complexity -- are among the most overworked and undervalued roles in HR. They manage dozens of scheduling requests simultaneously, each one a multi-variable optimization problem. Finding a 1-hour slot where 5 busy people, the candidate, and a conference room are all available feels like solving a Rubik's cube that keeps changing colors.
+招聘协调员——管理这种复杂性的人——是HR中最过度工作和最被低估的角色之一。他们同时管理几十个排期请求，每一个都是一个多变量优化问题。找到一个1小时的时段让5个忙碌的人、候选人和会议室都可用，感觉就像解一个不断变色的魔方。
 
-**How COCO Solves It**
+隐性成本远不止协调员的时间。排期每延迟一天，丢失顶尖候选人的概率就增加。当你的流程仅确认面试就需要5天，而竞品1天就能确认，这个数学题简单而残酷。你丢失的候选人不是一般的——他们是有多个选择的人，这意味着他们是最优秀的。
 
-COCO's AI Interview Scheduler automates the entire scheduling workflow from initial availability to confirmation.
+**COCO如何解决**
 
-1. **Calendar Intelligence**: Integrates with Google Calendar, Outlook, and Calendly to read real-time availability across all interviewers.
+COCO的AI Interview Scheduler自动化从初始可用性到确认的整个排期工作流。
 
-2. **Constraint-Aware Optimization**: Finds optimal slots considering panel composition, interviewer load limits (max interviews/day), timezone preferences, buffer time between interviews, room availability, and candidate preferences.
+1. **日历智能**：集成Google Calendar、Outlook和Calendly，实时读取所有面试官的可用性。理解定期会议、专注时间块和休假安排。
 
-3. **Automated Candidate Communication**: Sends professional, branded scheduling emails with self-service confirmation links. Handles time zone display, calendar invites, and prep materials delivery.
+2. **约束感知优化**：考虑以下因素找到最优时段：
+   - 面试小组组成要求（如必须包含1个用人经理+2个技术+1个文化面试官）
+   - 面试官负荷限制（每人每天/每周最大面试数）
+   - 面试官和候选人的时区偏好
+   - 面试间的缓冲时间（避免背靠背排期疲劳）
+   - 会议室可用性和视频会议设置
+   - 候选人偏好和出行后勤
 
-4. **Dynamic Rescheduling**: When cancellations happen, COCO automatically finds replacement slots, notifies all parties, and updates calendar invites -- without human intervention.
+3. **自动化候选人沟通**：发送专业的、品牌化的排期邮件，包含：
+   - 自助确认链接（一键接受）
+   - 时区感知显示（候选人看到自己的当地时间）
+   - 带所有后勤信息的日历邀请（会议室、视频链接、准备材料）
+   - 每种面试类型的预期指南
+   - 面试官简介和LinkedIn资料
 
-5. **Interview Loop Management**: For multi-round processes, manages the entire pipeline: phone screen scheduling, technical round coordination, onsite loop assembly, and debrief scheduling.
+4. **动态改期**：当取消发生时（而且总会发生），COCO：
+   - 自动在原始时间范围内找到替代时段
+   - 从预先批准的备选名单中找到替代面试官
+   - 通知所有相关方并更新日历邀请
+   - 记录改期原因供报告使用（哪些面试官最常取消？）
+   - 90%的改期不需要人工干预
 
-6. **Analytics**: Tracks scheduling velocity, interviewer utilization, candidate wait times, and bottleneck identification.
+5. **面试循环管理**：对多轮面试流程，管理整个流水线：
+   - 电话面试排期（招聘人员+候选人，简单）
+   - 技术轮协调（1-3个技术面试官）
+   - 现场面试循环组装（全天5-7个面试官）
+   - 总结会排期（面试循环后24-48小时内所有面试官）
+   - 终面/高管面试（围绕VIP日历排期）
 
-**Measurable Results**
+6. **分析与洞察**：跟踪和报告：
+   - 排期速度（从"请求排期"到"已确认"的时间）
+   - 面试官利用率和可用性模式
+   - 按角色、团队和阶段分的候选人等待时间
+   - 瓶颈识别（哪些面试官最难排期？）
+   - 按面试官分的取消和改期率
+   - 排期速度与offer接受率的相关性
 
-- **Scheduling time per loop**: From 45 minutes to 3 minutes
-- **Candidate wait time**: From 5.2 days to 1.4 days
-- **Candidates lost to delays**: From 18% to 4%
-- **Coordinator time saved**: 22+ hours/week
-- **Interviewer satisfaction**: +35% (fewer scheduling conflicts and last-minute changes)
-- **Reschedule handling**: 90% automated (no human intervention needed)
+**可量化的结果**
+
+- **每次循环排期时间**：从45分钟降至3分钟（减少93%）
+- **候选人等待时间**：从5.2天降至1.4天
+- **因延迟丢失的候选人**：从18%降至4%
+- **协调员节省时间**：每周22+小时重新分配到候选人体验
+- **面试官满意度**：提升35%（更少的排期冲突和临时变更）
+- **改期处理**：90%自动化（不需要人工干预）
+- **Offer接受率**：归因于更快流程的12%提升
+
+**受益角色**
+
+- **招聘协调员**：从日历俄罗斯方块中解放出来，专注于候选人体验和流程优化
+- **面试官**：更少的排期冲突，更好的准备时间，均衡的面试负荷
+- **候选人**：更快的流程，专业的沟通，对他们时间的尊重
+- **用人经理**：更快的流水线速度意味着更快填补职位
+- **TA负责人**：更好的排期效率指标及其对招聘结果的影响
 
 ---
 
-## Part 3: Practical Prompts
+---
 
-### English
-
-**Prompt 1: Design Interview Loop Schedule**
-```
-Help me schedule an interview loop for a [role name] candidate.
-
-Candidate availability: [list dates/times, timezone]
-Required interviewers and their roles:
-1. [Name] - [Interview type: technical/behavioral/culture] - Available: [paste calendar availability]
-2. [Name] - [Interview type] - Available: [availability]
-3. [Name] - [Interview type] - Available: [availability]
-[...continue]
-
-Constraints:
-- Total interview time needed: [X hours]
-- Buffer between sessions: [X minutes]
-- Lunch break required: [yes/no, time range]
-- Room/virtual meeting requirements: [describe]
-- Candidate timezone: [timezone]
-
-Find the optimal schedule and generate:
-1. Proposed schedule with times in candidate's timezone
-2. Calendar invite descriptions for each session
-3. Candidate-facing agenda email (professional, warm, includes prep info)
-4. Backup options if primary slots don't work
-```
-
-**Prompt 2: Candidate Scheduling Email Templates**
-```
-Create professional scheduling email templates for our interview process.
-
-Company name: [name]
-Brand voice: [professional/warm/startup-casual]
-Role type: [engineering/sales/executive/etc.]
-
-Generate templates for:
-1. **Initial scheduling outreach**: "We'd like to schedule your interview..."
-2. **Confirmation with details**: Calendar confirmed, prep materials, what to expect
-3. **Reschedule request (company-initiated)**: Apologetic, professional, offering alternatives
-4. **Reschedule request (candidate-initiated)**: Accommodating, easy to respond to
-5. **Day-before reminder**: Logistics, contact info, encouragement
-6. **Post-interview thank you**: Timeline for next steps
-
-Each template should be warm but professional, include all necessary logistics, and represent our employer brand well.
-```
-
-### 中文
+## 实用提示词
 
 **提示词 1: 设计面试循环排期**
 ```
@@ -171,3 +144,29 @@ Each template should be warm but professional, include all necessary logistics, 
 
 每个模板应该温暖但专业，包含所有必要的后勤信息，并良好地代表我们的雇主品牌。
 ```
+
+**提示词 3: 面试官负荷分析与优化**
+```
+分析我们的面试官利用率并推荐优化方案。
+
+当前面试数据：
+[粘贴数据或描述：面试官姓名、每周面试数、取消率、他们进行的面试类型]
+
+团队招聘计划：
+- 开放职位：[X]
+- 每个职位预期面试轮数：[X轮]
+- 时间线：[X周]
+- 按类型可用的面试官：[列出]
+
+分析：
+1. **当前负荷分布**：谁做的面试最多？是否均衡？
+2. **瓶颈面试官**：谁的可用性最低/取消率最高？
+3. **产能预测**：当前面试官池能否承担招聘计划？
+4. **培训建议**：应该认证谁为新面试官以增加产能？
+5. **排期规则**：推荐每人每周最大面试数、缓冲时间和黑名单时段
+6. **质量维护**：如何防止面试疲劳降低评估质量
+
+提供下个季度的可操作建议。
+```
+
+---

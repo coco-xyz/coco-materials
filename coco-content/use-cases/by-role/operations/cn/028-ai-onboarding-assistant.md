@@ -4,24 +4,7 @@
 
 ---
 
-## Part 1: Social Media Copy
-
-### English
-
-We surveyed our employees hired in the last year. The #1 complaint wasn't compensation or work-life balance. It was onboarding. "I didn't know what I was supposed to be doing for the first 3 weeks." "It took 5 days to get my laptop, email, and Slack access." "Nobody told me who to talk to about X." "My manager was too busy to meet with me for the first week."
-
-HR was running onboarding manually: a 47-item checklist in a Google Sheet, shared across 8 people (IT, Facilities, HR, Manager, Buddy, Finance, Legal, Security), with no automated reminders. Tasks got missed. New hires fell through cracks. Every onboarding required 12+ hours of HR coordination -- and it still felt broken.
-
-COCO's AI Onboarding Assistant made it seamless:
-- Auto-triggers onboarding workflow the moment an offer is accepted
-- Coordinates across all 8 teams: IT provisions on day -3, security badge on day -1, desk setup confirmed
-- Generates a personalized 30/60/90 day plan for each new hire based on their role, team, and experience level
-- Acts as a 24/7 resource for new hires: "Where do I submit expenses?" "Who's my benefits contact?" "How do I set up VPN?"
-- Sends automated check-in prompts to managers at day 7, 30, 60, and 90
-
-New hire satisfaction (first 30 days): from 62% to 91%. Time-to-productivity: reduced by 23%. HR coordination time per hire: from 12 hours to 2 hours. Voluntary turnover in first 6 months: down 34%.
-
-### 中文
+## 社媒文案
 
 我们调查了过去一年入职的员工。排名第一的抱怨不是薪酬或工作生活平衡。是入职体验。"前3周我都不知道自己该做什么。""花了5天才拿到笔记本电脑、邮箱和Slack权限。""没人告诉我关于X该找谁。""我经理第一周忙得没空见我。"
 
@@ -38,101 +21,84 @@ COCO的AI Onboarding Assistant使之无缝：
 
 ---
 
-## Part 2: Detailed Introduction
+---
 
-### English
+## 详细介绍
 
-**The Pain: Broken Onboarding Costs You Employees Before They Start Contributing**
+**痛点：失败的入职体验在员工开始贡献之前就让你失去他们**
 
-Research from SHRM shows that organizations with a strong onboarding process improve new hire retention by 82% and productivity by over 70%. Yet only 12% of employees say their company does onboarding well. The gap is enormous and expensive: replacing an employee costs 50-200% of their annual salary, and poor onboarding is a leading cause of early turnover.
+SHRM的研究显示，拥有强入职流程的组织将新人保留率提高82%、生产力提高超过70%。然而只有12%的员工表示他们的公司入职做得好。差距巨大且昂贵：替换一个员工的成本是其年薪的50-200%，而糟糕的入职是早期离职的主要原因。
 
-The root cause is coordination complexity. Onboarding touches every department: IT (equipment, access), HR (paperwork, benefits), Facilities (desk, badge), Finance (payroll, expenses), Legal (contracts, NDAs), Security (background checks, access levels), the hiring manager (role expectations, projects), and often a buddy or mentor. Orchestrating all of these simultaneously, for multiple new hires, without dropping any balls, is a full-time coordination job that most HR teams do in addition to everything else.
+根本原因是协调复杂性。入职触及每个部门：IT（设备、权限）、HR（文书、福利）、设施（工位、门卡）、财务（薪资、报销）、法务（合同、保密协议）、安全（背景调查、权限级别）、用人经理（角色期望、项目），通常还有一个Buddy或导师。同时为多个新人协调所有这些，不遗漏任何事项，是一个全职的协调工作——而大多数HR团队是在其他所有工作之外做这件事。
 
-**How COCO Solves It**
+新人体验加剧了问题。新员工焦虑、渴望贡献、对第一印象极其敏感。当他们在第一周等设备、找信息、感到被忽视时，最初的热情会转化为沮丧和后悔。"买家后悔"窗口期——前90天——是员工决定是否做出了正确选择的时候。混乱的入职体验告诉他们没有。
 
-COCO's AI Onboarding Assistant orchestrates the entire onboarding experience from offer acceptance to the 90-day milestone.
+**COCO如何解决**
 
-1. **Automated Workflow Orchestration**: Triggers and tracks all onboarding tasks across teams, with automated reminders and escalation for overdue items.
+COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入职体验。
 
-2. **Personalized Onboarding Plans**: Generates role-specific 30/60/90 day plans with goals, learning milestones, key meetings, and success metrics.
+1. **自动化工作流编排**：offer被接受的那一刻，COCO触发角色特定的入职工作流：
+   - 为所有利益相关者分配带明确截止日期的任务（IT：入职前3天配置笔记本，HR：入职第1天福利注册，经理：入职第2天第一次1:1）
+   - 为逾期项目发送自动提醒
+   - 将错过截止日期的事项升级给正确的管理者
+   - 跟踪所有入职任务的完成百分比
+   - 不混乱地处理多个同时进行的入职
 
-3. **New Hire Knowledge Base**: Acts as a 24/7 concierge answering common questions about company policies, tools, processes, benefits, and culture.
+2. **个性化入职计划**：生成角色特定的30/60/90天计划：
+   - **第1-30天（学习）**：公司培训、工具设置、团队介绍、跟随学习、初始培训模块
+   - **第31-60天（贡献）**：第一个项目责任、更深入的流程理解、开始跨团队协作
+   - **第61-90天（独当一面）**：对关键交付物全面负责、绩效期望明确、第一次评估
+   - 计划按角色（工程师vs销售vs市场）、资历（初级vs高级）和团队规范量身定制
 
-4. **Manager Coaching**: Prompts managers with onboarding best practices, check-in reminders, and suggested conversation topics for 1:1s.
+3. **新人知识库**：充当24/7礼宾服务，回答常见问题：
+   - 公司政策（休假、报销、差旅、远程办公）
+   - 工具和系统（如何访问、如何使用、遇到问题找谁）
+   - 团队和组织结构（谁做什么、汇报关系）
+   - 文化规范（会议礼仪、沟通偏好、决策流程）
+   - 福利和特权（注册、截止日期、联系人）
 
-5. **Progress Tracking**: Dashboard showing onboarding completion, new hire engagement, and flag at-risk situations.
+4. **经理辅导**：大多数经理没有接受过入职培训。COCO帮助：
+   - 在关键里程碑提示经理进行check-in
+   - 建议1:1的谈话主题（"第1周：询问他们的第一印象和任何阻碍"）
+   - 提供入职最佳实践提示（"在第一周设定一个小胜利来建立信心"）
+   - 标记风险情况（新人未完成培训，经理未与他们会面）
 
-6. **Feedback Collection**: Automated surveys at key milestones to catch issues early.
+5. **进度仪表板**：为HR和经理提供实时可见性：
+   - 每个新人的入职完成百分比
+   - 所有利益相关者的任务状态（谁落后了？）
+   - 新人参与信号（他们在提问吗？在完成任务吗？）
+   - 与基准的比较（这次入职与公司平均水平相比进展如何？）
 
-**Measurable Results**
+6. **反馈收集与行动**：在关键里程碑自动发送调查：
+   - 第7天："第一周怎么样？有阻碍吗？"
+   - 第30天："你觉得有生产力吗？什么会有帮助？"
+   - 第60天："你清楚期望吗？团队氛围怎么样？"
+   - 第90天："你会推荐我们公司吗？入职有什么你想改变的？"
+   - 结果汇总用于入职计划的持续改进
 
-- **New hire satisfaction (30-day)**: From 62% to 91%
-- **Time-to-productivity**: Reduced by 23%
-- **HR coordination per hire**: From 12 hours to 2 hours
-- **Onboarding task completion**: From 78% to 98%
-- **First-6-month voluntary turnover**: Down 34%
-- **Manager onboarding effort**: Reduced by 40% through structured plans and automation
+**可量化的结果**
+
+- **新人满意度（30天）**：从62%升至91%
+- **达到生产力的时间**：缩短23%
+- **每次入职的HR协调**：从12小时降至2小时
+- **入职任务完成率**：从78%升至98%
+- **入职前6个月主动离职**：下降34%
+- **经理入职工作量**：通过结构化计划和自动化减少40%
+- **IT设备配置延迟**：从平均5天降至0天（入职第1天设备就绪）
+
+**受益角色**
+
+- **新人**：流畅、有组织的第一印象；24/7问题解答；从第1天起明确的期望
+- **HR/People Ops**：减少83%的协调时间；系统化追踪取代表格混乱
+- **用人经理**：结构化操作手册取代临时入职；关键check-in的提醒
+- **IT/设施**：带截止日期的明确任务分配，而非最后一刻的紧急救火
+- **领导层**：更低的早期离职率；更快达到生产力；更好的雇主品牌
 
 ---
 
-## Part 3: Practical Prompts
+---
 
-### English
-
-**Prompt 1: Generate 30/60/90 Day Onboarding Plan**
-```
-Create a 30/60/90 day onboarding plan for a new [role title] joining the [team name] team.
-
-New hire context:
-- Experience level: [junior/mid/senior]
-- Background: [brief professional background]
-- Start date: [date]
-- Manager: [name]
-- Team size: [X people]
-- Key tools they'll use: [list tools/systems]
-
-Generate a structured plan:
-
-**First 30 Days (Learn)**:
-- Week 1: Orientation, tool setup, meet the team, understand company context
-- Week 2-4: Shadow key processes, complete training, begin small tasks
-- 30-day milestone: [specific measurable outcome]
-
-**Days 31-60 (Contribute)**:
-- Take ownership of [specific responsibilities]
-- Complete [specific projects or deliverables]
-- 60-day milestone: [specific measurable outcome]
-
-**Days 61-90 (Own)**:
-- Full ownership of [scope]
-- Begin [longer-term initiative]
-- 90-day milestone: [specific measurable outcome]
-
-Include: key meetings to schedule, people to meet, documents to read, and success metrics for each phase.
-```
-
-**Prompt 2: Onboarding FAQ for New Hires**
-```
-Create a comprehensive FAQ document for new hires at [company name].
-
-Company context:
-- Industry: [industry]
-- Size: [employees]
-- Office setup: [remote/hybrid/office]
-- Key tools: [list main tools - Slack, Notion, Jira, etc.]
-
-Generate FAQs organized by category:
-1. **Getting Started**: Equipment, accounts, access, first-day logistics
-2. **Communication**: How to use [tools], team channels, meeting culture
-3. **HR & Benefits**: PTO policy, health insurance, expense reporting, payroll
-4. **Culture**: Values, norms, dress code, social events
-5. **IT & Security**: VPN, password policies, data handling
-6. **Career**: Performance reviews, growth opportunities, learning budget
-
-Write 5-8 Q&As per category. Answers should be friendly, clear, and direct.
-```
-
-### 中文
+## 实用提示词
 
 **提示词 1: 生成30/60/90天入职计划**
 ```
@@ -186,3 +152,39 @@ Write 5-8 Q&As per category. Answers should be friendly, clear, and direct.
 
 每个类别5-8个问答。回答应友好、清晰、直接。
 ```
+
+**提示词 3: 构建跨部门入职清单**
+```
+创建一份协调所有部门的全面入职清单。
+
+公司：[名称]
+典型新人部门：[工程/销售/市场/等]
+
+按负责团队和时间线组织清单：
+
+**入职前（第-7天到第-1天）**：
+- IT：[设备、账号、权限]
+- HR：[文书、福利注册]
+- 设施：[工位、门卡、停车]
+- 经理：[第一周日程、Buddy指派]
+- 财务：[薪资设置、报销卡]
+
+**第1天**：
+- HR：[培训、公司概览]
+- IT：[设置协助]
+- 经理：[欢迎、团队介绍、第一次1:1]
+- Buddy：[午餐、大楼导览]
+
+**第1周**：
+- [列出关键活动和负责方]
+
+**第8-30天**：
+- [持续培训、check-in、里程碑]
+
+**第31-90天**：
+- [绩效check-in、反馈调查、目标设定]
+
+每个任务：负责人、截止日期、依赖项、以及已完成的验证。
+```
+
+---

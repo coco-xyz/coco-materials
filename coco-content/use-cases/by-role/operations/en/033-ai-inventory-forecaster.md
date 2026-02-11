@@ -4,9 +4,7 @@
 
 ---
 
-## Part 1: Social Media Copy
-
-### English
+## Social Media Copy
 
 Last Black Friday, we stocked 40,000 units of our best-selling product. We sold out by 2 PM on Saturday. Lost an estimated $280K in sales over the remaining weekend. Meanwhile, we were sitting on $450K of slow-moving inventory from a product line that our demand planner had overestimated by 60%.
 
@@ -23,28 +21,9 @@ COCO's AI Inventory Forecaster replaced gut feel with signal detection:
 
 Stockout events: down 67%. Overstock write-downs: down 43%. Inventory turnover ratio: improved from 4.2x to 6.1x. Working capital freed up: $1.2M. We don't guess anymore.
 
-### 中文
-
-去年黑色星期五，我们囤了40000件畅销产品。周六下午2点就卖完了。整个剩余周末估计损失了28万美元的销售。与此同时，我们积压了45万美元的慢动销库存——来自需求规划师高估了60%的产品线。
-
-两个错误，同一个根因：我们的预测基于去年数据+增长系数+直觉。没有考虑到缺货的竞品（把需求推向了我们）、为某个SKU走红的TikTok视频、或者消费者偏好从我们积压品类转移的宏观变化。
-
-用电子表格做库存规划就像带着刀去打一场数据战。
-
-COCO的AI Inventory Forecaster用信号检测取代了直觉：
-- 分析每个SKU的36个月销售数据、季节性模式和趋势曲线
-- 整合外部信号：竞品库存状态、社交媒体提及、天气预报、经济指标
-- 在SKU级别生成带置信区间的需求预测（不只是一个单一数字）
-- 推荐平衡缺货风险和库存持有成本的最优补货点和数量
-- 标记异常："SKU #4721趋势比预测高340%——调查1月12日的TikTok提及"
-
-缺货事件：下降67%。积压减值：下降43%。库存周转率：从4.2倍提升到6.1倍。释放的营运资金：120万美元。我们不再靠猜了。
-
 ---
 
-## Part 2: Detailed Introduction
-
-### English
+## Detailed Introduction
 
 **The Pain: Inventory Forecasting with Spreadsheets Costs Millions in Stockouts and Overstock**
 
@@ -79,9 +58,9 @@ COCO's AI Inventory Forecaster combines historical analysis with real-time signa
 
 ---
 
-## Part 3: Practical Prompts
+---
 
-### English
+## Practical Prompts
 
 **Prompt 1: Generate Demand Forecast**
 ```
@@ -123,44 +102,4 @@ Analyze and identify:
 7. **Working capital opportunity**: How much capital can be freed by optimizing?
 ```
 
-### 中文
-
-**提示词 1: 生成需求预测**
-```
-为未来[3/6/12个月]在SKU级别生成需求预测。
-
-历史销售数据（过去24-36个月）：
-[粘贴按SKU的月度销售或描述数据可用性]
-
-额外背景：
-- 即将到来的促销：[列出计划的促销及日期]
-- 价格变更：[任何计划的价格调整]
-- 新品发布：[可能蚕食或互补的产品]
-- 已知供应约束：[任何供应链问题]
-- 季节性事件：[双十一、年货节、暑假等]
-
-对每个SKU提供：
-1. 月度需求预测含低/中/高场景
-2. 置信区间（80%）
-3. 关键假设
-4. 建议的安全库存水平
-5. 补货点和数量
-6. 高预测不确定性SKU的标记
-```
-
-**提示词 2: 库存健康审计**
-```
-审计我们当前库存以寻找优化机会。
-
-当前库存：
-[粘贴库存数据：SKU、在手数量、单位成本、月均销量、供应天数]
-
-分析并识别：
-1. **积压**（>90天供应）：哪些SKU有超额？预估持有成本？
-2. **缺货风险**（高周转项目<14天供应）：哪些SKU需要紧急补货？
-3. **死库存**（90天内<1件售出）：绑定在不动销库存中的价值？
-4. **ABC分类**：按收入贡献分类SKU（A=前80%、B=接下来15%、C=最后5%）
-5. **补货优先级**：本周需要补货的SKU排名列表
-6. **清仓候选**：考虑打折或减值的SKU
-7. **营运资金机会**：通过优化可以释放多少资金？
-```
+---
