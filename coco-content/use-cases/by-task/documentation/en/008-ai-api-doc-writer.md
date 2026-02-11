@@ -1,18 +1,383 @@
-# #8 - AI API Doc Writer
+# Use Case #008: AI API Doc Writer
 
-**Category**: Dev Team / Technical Writing
-**Pain**: API docs are always outdated because nobody wants to write them — new endpoints ship without docs, and external devs waste hours guessing
-**Solution**: COCO AI agent reads your codebase, generates complete API documentation with examples, and keeps it updated with every merge
-**Metric**: 1 week of manual documentation → 2 hours
+**Role**: Developer / Technical Writer / Developer Relations | **Industry**: Technology, SaaS, API-First Companies, Developer Tools | **Task**: API Documentation Generation, OpenAPI Spec Maintenance, Developer Guide Creation
 
 ---
 
-## Social Media Copy (English)
+## Part 1: Social Media Copy
 
-"Where are the API docs?" — Every external developer, every integration call.
+### English
 
-Your team hasn't updated them in 3 months. It would take a week to write them from scratch.
+Our API had 142 endpoints. Our documentation covered 89 of them. Of those 89, at least 30 were outdated -- wrong parameter names, missing error codes, example responses that hadn't been valid since Q2 last year. Our developer community was frustrated. Support tickets about "the docs say X but the API returns Y" made up 23% of our support volume.
 
-Our AI doc writer reads the codebase and generates full API docs in 2 hours. With examples.
+The problem wasn't laziness. We had a docs team of 2 people covering 4 products. Every sprint shipped new endpoints faster than they could document the old ones.
 
-coco.xyz
+COCO's AI API Doc Writer changed the equation:
+- Reads our codebase and generates OpenAPI specs from the actual implementation
+- Detects drift between code and existing docs, flags what's outdated
+- Generates complete endpoint docs: description, parameters, request/response examples, error codes, authentication requirements
+- Creates SDK code samples in Python, JavaScript, Go, and cURL
+- Updates automatically when code changes land on main
+
+8 weeks later: 142/142 endpoints documented. Zero drift. Developer support tickets dropped 34%. Time-to-first-API-call for new integrators dropped from 3 days to 4 hours.
+
+Your API is only as good as its documentation.
+
+### 中文
+
+我们的API有142个端点。文档覆盖了89个。那89个里面，至少30个已经过时——参数名称错误、缺少错误码、示例响应从去年Q2起就不再有效。开发者社区很沮丧。"文档说X但API返回Y"的支持工单占了我们工单量的23%。
+
+问题不是团队偷懒。我们的文档团队只有2个人，负责4个产品。每个sprint上线新端点的速度比他们记录旧端点的速度还快。
+
+COCO的AI API Doc Writer改变了这个等式：
+- 读取代码库，从实际实现生成OpenAPI规范
+- 检测代码和现有文档之间的偏差，标记过时内容
+- 生成完整的端点文档：描述、参数、请求/响应示例、错误码、认证要求
+- 创建Python、JavaScript、Go和cURL的SDK代码示例
+- 代码变更合并到main时自动更新
+
+8周后：142/142端点全部文档化。零偏差。开发者支持工单下降34%。新接入者的首次API调用时间从3天缩短到4小时。
+
+你的API质量，取决于你的文档质量。
+
+---
+
+## Part 2: Detailed Introduction
+
+### English
+
+**The Pain: Documentation Drift Is Silently Killing Your Developer Experience**
+
+API documentation is the front door to your product for every developer who integrates with you. When it's wrong, the consequences are expensive: developers waste hours debugging against incorrect docs, file support tickets, and sometimes abandon your API entirely for a competitor with better documentation.
+
+The root cause is structural. Documentation is a second-class citizen in most engineering workflows. It's written once during initial development, then gradually drifts as the code evolves. Parameter types change, new required fields get added, error codes are introduced -- and the docs lag behind. There's no CI/CD for documentation. No automated tests that catch when docs and code diverge.
+
+Technical writers, when companies even have them, are perpetually playing catch-up. They weren't in the room when the engineer changed the response format. They find out when a customer complains. The cycle repeats every sprint.
+
+**How COCO Solves It**
+
+COCO's AI API Doc Writer treats documentation as a living artifact that stays synchronized with your codebase automatically.
+
+1. **Code-First Documentation**: COCO analyzes your actual implementation -- route handlers, middleware, validation schemas, type definitions, database models -- and generates documentation from the source of truth. No more manually copying parameter names from code to docs.
+
+2. **OpenAPI/Swagger Generation**: COCO automatically generates or updates your OpenAPI 3.0 specification from the codebase. This includes:
+   - All endpoints with HTTP methods and paths
+   - Request body schemas with types, required fields, and validation rules
+   - Response schemas for all status codes (200, 400, 401, 404, 500)
+   - Authentication requirements per endpoint
+   - Rate limiting information
+   - Deprecation notices
+
+3. **Rich Endpoint Documentation**: For each endpoint, COCO produces:
+   - Human-readable description of what the endpoint does and when to use it
+   - Parameter documentation with types, constraints, and default values
+   - Multiple request/response examples covering common scenarios
+   - Error response catalog with causes and resolution steps
+   - Related endpoints and workflow context
+
+4. **Multi-Language Code Samples**: COCO generates working code examples in your users' languages:
+   - cURL (universal)
+   - Python (requests + your SDK if available)
+   - JavaScript/TypeScript (fetch + Node.js)
+   - Go, Ruby, Java, PHP as needed
+   - Each example includes proper authentication, error handling, and common patterns
+
+5. **Drift Detection**: COCO continuously compares existing documentation against the current codebase and flags:
+   - New endpoints that aren't documented
+   - Parameters that were added, removed, or changed type
+   - Response formats that no longer match documented schemas
+   - Deprecated endpoints still shown as active
+   - Authentication changes not reflected in docs
+
+6. **Developer Guide Generation**: Beyond reference docs, COCO generates conceptual guides:
+   - Getting started / quickstart tutorials
+   - Authentication and authorization guides
+   - Pagination and filtering patterns
+   - Webhook integration guides
+   - Migration guides when breaking changes occur
+
+**Measurable Results**
+
+- **100% documentation coverage** across all endpoints (vs. typical 60-70%)
+- **Zero documentation drift** -- docs always match current API behavior
+- **34% reduction** in developer support tickets
+- **75% faster** time-to-first-API-call for new integrators
+- **90% reduction** in docs maintenance effort for technical writers
+- **Developer NPS improvement**: +18 points average after deploying accurate docs
+
+**Who Benefits**
+
+- **External Developers/Partners**: Accurate, always-current docs reduce integration time and frustration
+- **Technical Writers**: Freed from keeping reference docs current to focus on tutorials, guides, and developer education
+- **Developer Relations**: Better docs = more adoption, fewer support escalations
+- **Engineering Teams**: No more "update the docs" as an afterthought PR comment
+
+### 中文
+
+**痛点：文档漂移正在悄悄毁掉你的开发者体验**
+
+API文档是每个接入开发者了解你产品的第一道门。当它出错时，代价高昂：开发者花数小时对着错误的文档debug，提交支持工单，有时直接放弃你的API转向文档更好的竞品。
+
+根本原因是结构性的。在大多数工程工作流中，文档是二等公民。初始开发时写一次，然后随着代码演进逐渐偏离。参数类型变了、新的必填字段加了、错误码引入了——但文档落后了。文档没有CI/CD，没有自动化测试来捕获文档和代码的分歧。
+
+技术写作者——如果公司有的话——永远在追赶。工程师修改响应格式时他们不在场。他们是在客户投诉时才知道的。这个循环每个sprint重复一次。
+
+**COCO如何解决**
+
+COCO的AI API Doc Writer将文档视为与代码库自动同步的活文档。
+
+1. **代码优先的文档**：COCO分析你的实际实现——路由处理器、中间件、验证schema、类型定义、数据库模型——从唯一真实来源生成文档。不再需要手动从代码抄参数名到文档。
+
+2. **OpenAPI/Swagger生成**：COCO自动从代码库生成或更新OpenAPI 3.0规范，包括：
+   - 所有端点的HTTP方法和路径
+   - 请求体schema，含类型、必填字段和验证规则
+   - 所有状态码的响应schema（200、400、401、404、500）
+   - 每个端点的认证要求
+   - 限流信息
+   - 弃用通知
+
+3. **丰富的端点文档**：为每个端点，COCO产出：
+   - 人类可读的端点功能描述和使用场景
+   - 参数文档，含类型、约束和默认值
+   - 覆盖常见场景的多个请求/响应示例
+   - 错误响应目录，含原因和解决步骤
+   - 相关端点和工作流上下文
+
+4. **多语言代码示例**：COCO用你用户的编程语言生成可运行的代码示例：
+   - cURL（通用）
+   - Python（requests + 你的SDK如有）
+   - JavaScript/TypeScript（fetch + Node.js）
+   - 按需支持Go、Ruby、Java、PHP
+   - 每个示例包含正确的认证、错误处理和常见模式
+
+5. **偏差检测**：COCO持续对比现有文档和当前代码库，标记：
+   - 未文档化的新端点
+   - 被添加、移除或更改类型的参数
+   - 不再匹配文档schema的响应格式
+   - 仍显示为活跃的已弃用端点
+   - 未反映在文档中的认证变更
+
+6. **开发者指南生成**：除了参考文档，COCO还生成概念指南：
+   - 入门/快速开始教程
+   - 认证和授权指南
+   - 分页和过滤模式
+   - Webhook集成指南
+   - 破坏性变更时的迁移指南
+
+**可量化的结果**
+
+- 所有端点**100%文档覆盖率**（对比行业典型的60-70%）
+- **零文档偏差**——文档始终匹配当前API行为
+- 开发者支持工单**减少34%**
+- 新接入者首次API调用时间**缩短75%**
+- 技术写作者文档维护工作量**减少90%**
+- **开发者NPS提升**：部署准确文档后平均+18分
+
+**受益角色**
+
+- **外部开发者/合作伙伴**：准确、始终最新的文档减少接入时间和挫败感
+- **技术写作者**：从维护参考文档中解放，专注于教程、指南和开发者教育
+- **开发者关系**：更好的文档=更多采用，更少的支持升级
+- **工程团队**：不再有"别忘了更新文档"的PR评论后遗症
+
+---
+
+## Part 3: Practical Prompts
+
+### English
+
+**Prompt 1: Generate API Endpoint Documentation**
+```
+Generate complete API documentation for the following endpoint implementation. Include:
+1. Endpoint description (what it does, when to use it)
+2. HTTP method and path
+3. Authentication requirements
+4. Request parameters (path, query, header, body) with types, required/optional, constraints
+5. Response schema for all status codes (success + all error cases)
+6. Two request/response examples (one success, one error)
+7. Rate limiting details (if applicable)
+8. Related endpoints
+
+Code implementation:
+[paste route handler, validation schema, and relevant model code]
+
+Output format: Markdown suitable for a developer documentation site.
+```
+
+**Prompt 2: Generate OpenAPI 3.0 Specification**
+```
+Generate an OpenAPI 3.0 YAML specification for the following API endpoints. Analyze the code to extract:
+- Paths and HTTP methods
+- Request body schemas (derive from validation rules and type definitions)
+- Response schemas (derive from serialization code and type definitions)
+- Authentication schemes (Bearer, API Key, OAuth2)
+- Error response schemas
+- Common components (reusable schemas, parameters, responses)
+
+Include proper descriptions, examples, and tags for organization.
+
+Source code:
+[paste router file(s) and relevant models/types]
+
+Existing endpoints to include:
+[list endpoint paths if not all should be included]
+```
+
+**Prompt 3: Generate Multi-Language Code Examples**
+```
+Generate working code examples for the following API endpoint in these languages: cURL, Python, JavaScript (Node.js), and Go.
+
+Endpoint: [METHOD] [path]
+Authentication: Bearer token in Authorization header
+Request body: [paste schema or example]
+Base URL: https://api.example.com/v1
+
+Each example should:
+- Include proper authentication headers
+- Handle the response (parse JSON, check status code)
+- Include basic error handling
+- Show both the request and expected response
+- Use the language's standard HTTP library (no unnecessary dependencies)
+- Include comments explaining each step
+```
+
+**Prompt 4: Documentation Drift Audit**
+```
+Compare the following API documentation against the actual implementation and identify discrepancies.
+
+Current documentation:
+[paste existing API docs or OpenAPI spec]
+
+Current implementation:
+[paste the actual route handlers, validation schemas, and models]
+
+Report:
+1. Endpoints in code but missing from docs
+2. Endpoints in docs but removed from code
+3. Parameter mismatches (name, type, required status)
+4. Response schema differences
+5. Missing error codes/responses
+6. Outdated examples
+7. Authentication requirement changes
+
+Priority each discrepancy as Critical (will cause integration failures), High (will cause confusion), or Low (cosmetic/minor).
+```
+
+**Prompt 5: Developer Quickstart Guide**
+```
+Write a developer quickstart guide for our API that takes a new user from zero to their first successful API call in under 10 minutes.
+
+API overview: [brief description of what the API does]
+Authentication method: [how to get API keys/tokens]
+Base URL: [URL]
+Most common first endpoint: [the endpoint new users typically call first]
+
+The guide should include:
+1. Prerequisites (account setup, getting API key)
+2. Making your first request (with cURL example)
+3. Understanding the response
+4. Common next steps (2-3 follow-up endpoints)
+5. Error troubleshooting (top 3 errors new users hit)
+6. Links to full documentation
+
+Write in a friendly, clear tone. Assume the reader is a developer but has never used this specific API before.
+```
+
+### 中文
+
+**提示词 1: 生成API端点文档**
+```
+为以下端点实现生成完整的API文档。包含：
+1. 端点描述（功能、使用场景）
+2. HTTP方法和路径
+3. 认证要求
+4. 请求参数（路径、查询、请求头、请求体），含类型、必填/可选、约束
+5. 所有状态码的响应schema（成功+所有错误情况）
+6. 两个请求/响应示例（一个成功，一个错误）
+7. 限流详情（如适用）
+8. 相关端点
+
+代码实现：
+[粘贴路由处理器、验证schema和相关模型代码]
+
+输出格式：适合开发者文档网站的Markdown。
+```
+
+**提示词 2: 生成OpenAPI 3.0规范**
+```
+为以下API端点生成OpenAPI 3.0 YAML规范。分析代码以提取：
+- 路径和HTTP方法
+- 请求体schema（从验证规则和类型定义推导）
+- 响应schema（从序列化代码和类型定义推导）
+- 认证方案（Bearer、API Key、OAuth2）
+- 错误响应schema
+- 公共组件（可复用的schema、参数、响应）
+
+包含恰当的描述、示例和用于组织的标签。
+
+源代码：
+[粘贴路由文件和相关模型/类型]
+
+需包含的端点：
+[如果不是全部，列出端点路径]
+```
+
+**提示词 3: 生成多语言代码示例**
+```
+为以下API端点生成可运行的代码示例，使用以下语言：cURL、Python、JavaScript（Node.js）和Go。
+
+端点：[HTTP方法] [路径]
+认证方式：Authorization请求头中的Bearer token
+请求体：[粘贴schema或示例]
+基础URL：https://api.example.com/v1
+
+每个示例应该：
+- 包含正确的认证请求头
+- 处理响应（解析JSON，检查状态码）
+- 包含基本的错误处理
+- 展示请求和预期响应
+- 使用语言的标准HTTP库（不引入不必要的依赖）
+- 包含解释每个步骤的注释
+```
+
+**提示词 4: 文档偏差审计**
+```
+对比以下API文档和实际实现，识别差异。
+
+当前文档：
+[粘贴现有API文档或OpenAPI规范]
+
+当前实现：
+[粘贴实际的路由处理器、验证schema和模型]
+
+报告：
+1. 代码中存在但文档中缺失的端点
+2. 文档中存在但代码中已移除的端点
+3. 参数不匹配（名称、类型、必填状态）
+4. 响应schema差异
+5. 缺失的错误码/响应
+6. 过时的示例
+7. 认证要求变更
+
+将每个差异按优先级分类：严重（将导致接入失败）、高（将导致困惑）、低（外观/细微问题）。
+```
+
+**提示词 5: 开发者快速入门指南**
+```
+为我们的API编写开发者快速入门指南，让新用户在10分钟内完成从零到第一次成功的API调用。
+
+API概述：[简要描述API功能]
+认证方式：[如何获取API密钥/令牌]
+基础URL：[URL]
+最常见的首次调用端点：[新用户通常首先调用的端点]
+
+指南应包含：
+1. 前置条件（账户设置、获取API密钥）
+2. 发起第一个请求（含cURL示例）
+3. 理解响应
+4. 常见的下一步操作（2-3个后续端点）
+5. 错误排查（新用户最常遇到的3个错误）
+6. 完整文档链接
+
+用友好、清晰的语调编写。假设读者是开发者但从未使用过这个特定API。
+```
