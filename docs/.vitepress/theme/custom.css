@@ -1,97 +1,68 @@
 :root {
-  /* COCO VI Standard Color - #FFD646 */
-  --vp-c-brand-1: #FFD646;
-  --vp-c-brand-2: #E5C13F;
-  --vp-c-brand-3: #CCAB38;
-  --vp-c-brand-soft: rgba(255, 214, 70, 0.12);
+  /* COCO brand yellow (from main) */
+  --vp-c-brand-1: #F5C542;
+  --vp-c-brand-2: #E0B23A;
+  --vp-c-brand-3: #D4A832;
+  --vp-c-brand-soft: rgba(245, 197, 66, 0.14);
 
-  /* Hero title — elegant dark gradient, not yellow */
+  /* Hero title — full yellow gradient (from main) */
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(135deg, #1a1a1a 0%, #27272A 50%, #3a3a3a 100%);
+  --vp-home-hero-name-background: linear-gradient(135deg, #F5C542, #E0A020);
 
-  /* Hero image glow — warm subtle gold */
-  --vp-home-hero-image-background-image: linear-gradient(135deg, rgba(255, 214, 70, 0.15), rgba(138, 113, 87, 0.08));
-  --vp-home-hero-image-filter: blur(68px);
+  /* Hero image glow (from main) */
+  --vp-home-hero-image-background-image: linear-gradient(135deg, rgba(245, 197, 66, 0.3), rgba(224, 160, 32, 0.2));
+  --vp-home-hero-image-filter: blur(56px);
 
-  /* Override sidebar active */
-  --vp-c-brand-active: #E5C13F;
+  /* Sidebar active */
+  --vp-c-brand-active: #E0B23A;
 
-  /* Brand button — dark elegant style */
-  --vp-button-brand-bg: #1a1a1a;
-  --vp-button-brand-border: #1a1a1a;
-  --vp-button-brand-text: #ffffff;
-  --vp-button-brand-hover-bg: #333333;
-  --vp-button-brand-hover-border: #333333;
-  --vp-button-brand-hover-text: #ffffff;
-  --vp-button-brand-active-bg: #000000;
-  --vp-button-brand-active-border: #000000;
-  --vp-button-brand-active-text: #ffffff;
+  /* Brand button — yellow style (from main) */
+  --vp-button-brand-bg: #F5C542;
+  --vp-button-brand-border: #F5C542;
+  --vp-button-brand-text: #1a1a1a;
+  --vp-button-brand-hover-bg: #E0B23A;
+  --vp-button-brand-hover-border: #E0B23A;
+  --vp-button-brand-hover-text: #1a1a1a;
+  --vp-button-brand-active-bg: #D4A832;
+  --vp-button-brand-active-border: #D4A832;
+  --vp-button-brand-active-text: #1a1a1a;
 }
 
 .dark {
-  --vp-c-brand-1: #FFD646;
-  --vp-c-brand-2: #E5C13F;
-  --vp-c-brand-3: #CCAB38;
-  --vp-c-brand-soft: rgba(255, 214, 70, 0.14);
+  --vp-c-brand-1: #F5C542;
+  --vp-c-brand-2: #E0B23A;
+  --vp-c-brand-3: #D4A832;
+  --vp-c-brand-soft: rgba(245, 197, 66, 0.16);
 
-  --vp-home-hero-name-background: linear-gradient(135deg, #ffffff 0%, #e0e0e0 50%, #c0c0c0 100%);
+  --vp-home-hero-name-background: linear-gradient(135deg, #FFD646, #F5C542);
 }
 
 /* ===== Brand Button ===== */
 .VPButton.brand {
-  background-color: #1a1a1a;
-  border-color: #1a1a1a;
-  color: #ffffff;
-  font-weight: 600;
-  letter-spacing: 0.01em;
+  background-color: #F5C542;
+  border-color: #F5C542;
+  color: #1a1a1a;
+  border-radius: 999px;
 }
 .VPButton.brand:hover {
-  background-color: #333333;
-  border-color: #333333;
-  color: #ffffff;
+  background-color: #E0B23A;
+  border-color: #E0B23A;
+  color: #1a1a1a;
 }
 
-/* Alt button with gold accent border */
+/* Alt button */
 .VPButton.alt {
-  border-color: #E5E5E5;
-  color: #27272A;
-}
-.VPButton.alt:hover {
-  border-color: #FFD646;
-  color: #1a1a1a;
+  border-radius: 999px;
 }
 
 .dark .VPButton.brand {
-  background-color: #FFD646;
-  border-color: #FFD646;
+  background-color: #F5C542;
+  border-color: #F5C542;
   color: #1a1a1a;
 }
 .dark .VPButton.brand:hover {
-  background-color: #E5C13F;
-  border-color: #E5C13F;
-}
-
-/* ===== Hero Section ===== */
-.VPHero .main .name {
-  font-size: 3rem !important;
-  line-height: 1.15 !important;
-}
-
-.VPHero .text {
-  color: #27272A;
-  font-weight: 600 !important;
-  font-size: 2.2rem !important;
-}
-
-.dark .VPHero .text {
-  color: #e0e0e0;
-}
-
-.VPHero .tagline {
-  color: #71717A !important;
-  font-size: 1.15rem !important;
-  max-width: 480px;
-  line-height: 1.7 !important;
+  background-color: #E0B23A;
+  border-color: #E0B23A;
 }
 
 /* ===== Feature Cards ===== */
@@ -101,56 +72,25 @@
   transition: all 0.25s ease;
 }
 .VPFeatures .VPFeature:hover {
-  border-color: #FFD646 !important;
-  box-shadow: 0 4px 24px rgba(255, 214, 70, 0.08);
+  border-color: #F5C542 !important;
+  box-shadow: 0 4px 24px rgba(245, 197, 66, 0.10);
   transform: translateY(-2px);
 }
 .dark .VPFeatures .VPFeature {
   border-color: #2a2a2a !important;
 }
 .dark .VPFeatures .VPFeature:hover {
-  border-color: #FFD646 !important;
-  box-shadow: 0 4px 24px rgba(255, 214, 70, 0.06);
-}
-
-.VPFeatures .VPFeature .title {
-  font-weight: 700 !important;
-  font-size: 1.05rem !important;
-  color: #1a1a1a;
-}
-.dark .VPFeatures .VPFeature .title {
-  color: #f0f0f0;
-}
-
-.VPFeatures .VPFeature .details {
-  color: #71717A !important;
-  font-size: 0.9rem !important;
-  line-height: 1.65 !important;
-}
-
-/* ===== Feature Icons ===== */
-.VPFeature .icon {
-  font-size: 1.8rem;
-  margin-bottom: 0.5rem;
-}
-
-/* ===== Subtle gold accent line below nav ===== */
-.VPNav {
-  border-bottom: 1px solid #f0f0f0 !important;
-}
-.dark .VPNav {
-  border-bottom: 1px solid #2a2a2a !important;
-}
-
-/* ===== Clean footer ===== */
-.VPFooter {
-  border-top: 1px solid #f0f0f0 !important;
-}
-.dark .VPFooter {
-  border-top: 1px solid #2a2a2a !important;
+  border-color: #F5C542 !important;
+  box-shadow: 0 4px 24px rgba(245, 197, 66, 0.06);
 }
 
 /* ===== Sidebar active indicator ===== */
 .VPSidebarItem.is-active > .item > .indicator {
-  background-color: #FFD646 !important;
+  background-color: #F5C542 !important;
+}
+
+/* ===== Navbar logo sizing ===== */
+.VPNavBarTitle .logo {
+  height: 28px;
+  width: auto;
 }

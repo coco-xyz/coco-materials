@@ -201,8 +201,8 @@ export default defineConfig({
   },
 
   themeConfig: {
-    logo: '/coco-icon.png',
-    siteTitle: 'COCO Docs',
+    logo: '/coco-logo-black.png',
+    siteTitle: false,
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/coco-xyz/coco-materials' },
