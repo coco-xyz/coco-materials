@@ -6,6 +6,10 @@ AI-powered use cases for operations, procurement, and business management.
 
 > Meeting notes ready instantly: transcript, summary, action items assigned.
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/032-ai-meeting-notes.mp4" type="video/mp4">
+</video>
+
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Meetings Produce Decisions and Action Items That Immediately Vanish**
@@ -162,6 +166,10 @@ Provide a specific "meeting diet" recommendation: what to keep, cut, shorten, me
 
 > Real-time inventory forecasting, replacing weekly manual stocktakes.
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/033-ai-inventory-forecaster.mp4" type="video/mp4">
+</video>
+
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Inventory Forecasting with Spreadsheets Costs Millions in Stockouts and Overstock**
@@ -313,6 +321,10 @@ For each scenario:
 ## 3. AI Vendor Evaluator
 
 > Vendor evaluation and ranking in 2 hours, replacing 1 week of manual research.
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/034-ai-vendor-evaluator.mp4" type="video/mp4">
+</video>
 
 ::: details Pain Point & How COCO Solves It
 

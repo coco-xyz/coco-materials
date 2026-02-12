@@ -318,6 +318,10 @@ Generate ONLY the missing tests, not duplicates of existing coverage.
 
 > Monitors every deploy in real-time, detects anomalies in 90s, auto-rollbacks. MTTR: 47min → 2min.
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/007-ai-deploy-monitor.mp4" type="video/mp4">
+</video>
+
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Deployments Are Your Biggest Source of Incidents**
@@ -482,6 +486,10 @@ Recommend new thresholds that reduce false positives by at least 50% while maint
 ## 4. AI Debug Assistant
 
 > Paste error logs, AI traces from symptom to root cause, provides ready-to-apply fix diffs.
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/009-ai-debug-assistant.mp4" type="video/mp4">
+</video>
 
 ::: details Pain Point & How COCO Solves It
 
@@ -676,6 +684,10 @@ Correlate the logs across services to reconstruct:
 
 > Calls, emails, meetings auto-synced to CRM. 45 min/day data entry becomes zero.
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/016-ai-crm-updater.mp4" type="video/mp4">
+</video>
+
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: CRM Data Entry Is Killing Sales Productivity and Pipeline Accuracy**
@@ -828,6 +840,10 @@ Also generate:
 
 > Auto-classifies and routes tickets. 5 min/ticket becomes instant.
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/021-ai-ticket-classifier.mp4" type="video/mp4">
+</video>
+
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Manual Ticket Triage Is a Bottleneck That Gets Worse at Scale**
@@ -976,6 +992,10 @@ Keep each response under 150 words. Test readability: would a frustrated custome
 ## 7. AI VIP Escalation
 
 > Auto-detects VIP customer anomalies. 30% missed issues drops to 0%.
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/024-ai-vip-escalation.mp4" type="video/mp4">
+</video>
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1127,6 +1147,10 @@ Tone: Senior, professional, genuine. This should sound like it comes from someon
 ## 8. AI Interview Scheduler
 
 > Schedules interviews in 3 minutes, auto-coordinating multiple calendars.
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/027-ai-interview-scheduler.mp4" type="video/mp4">
+</video>
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1280,6 +1304,10 @@ Provide actionable recommendations for the next quarter.
 ## 9. AI Onboarding Assistant
 
 > New hire fully onboarded in 3 days instead of 2 weeks.
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/028-ai-onboarding-assistant.mp4" type="video/mp4">
+</video>
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1453,6 +1481,10 @@ For each task: responsible person, deadline, dependencies, and verification that
 
 > Processes an invoice in 30 seconds: extract, match, route — fully automated.
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/031-ai-invoice-processor.mp4" type="video/mp4">
+</video>
+
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: AP Is the Most Labor-Intensive Function in Finance**
@@ -1613,6 +1645,10 @@ Provide a prioritized 90-day improvement roadmap.
 ## 11. AI Meeting Notes
 
 > Meeting notes ready instantly: transcript, summary, action items assigned.
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/032-ai-meeting-notes.mp4" type="video/mp4">
+</video>
 
 ::: details Pain Point & How COCO Solves It
 

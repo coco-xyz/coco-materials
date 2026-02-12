@@ -6,6 +6,10 @@ AI-powered use cases for finance teams, accountants, and analysts.
 
 > Instant expense report audit. Compliant: auto-approved. Anomalies: auto-flagged.
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/029-ai-expense-auditor.mp4" type="video/mp4">
+</video>
+
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Manual Expense Auditing Is Slow, Incomplete, and Expensive**
@@ -157,7 +161,7 @@ Provide a revised policy draft with tracked changes and rationale for each updat
 > Multi-source financial report in 3 hours, replacing 2 days of manual work.
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/auto-report-video-new.mp4" type="video/mp4">
+  <source src="/videos/en/030-ai-financial-report-generator.mp4" type="video/mp4">
 </video>
 
 ::: details Pain Point & How COCO Solves It
@@ -291,6 +295,10 @@ Also provide:
 ## 3. AI Invoice Processor
 
 > Processes an invoice in 30 seconds: extract, match, route — fully automated.
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/031-ai-invoice-processor.mp4" type="video/mp4">
+</video>
 
 ::: details Pain Point & How COCO Solves It
 

@@ -7,7 +7,7 @@ AI驱动的科技公司、SaaS平台和软件开发团队用例。
 > 自动审查每个PR：Bug、安全漏洞、性能问题——15分钟出完整报告。
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/code-reviewer-video-cn.mp4" type="video/mp4">
+  <source src="/videos/cn/005-ai-code-reviewer.mp4" type="video/mp4">
 </video>
 
 ::: details 痛点与解决方案
@@ -143,6 +143,10 @@ PR信息：
 ## 2. AI测试生成
 
 > 读取源码，30分钟生成包含边界条件的完整测试。覆盖率从34%提升到89%。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/006-ai-test-generator.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 
@@ -314,6 +318,10 @@ Bug描述：[描述bug]
 
 > 实时监控每次部署，90秒检测异常，自动回滚。MTTR从47分钟降至2分钟。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/007-ai-deploy-monitor.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：部署是你最大的事故来源**
@@ -478,6 +486,10 @@ COCO的AI Deploy Monitor作为智能层叠加在你现有的监控基础设施�
 ## 4. AI API文档编写
 
 > 从代码库自动生成并同步API文档，多语言示例，零偏差。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/008-ai-api-doc-writer.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 
@@ -657,6 +669,10 @@ API概述：[简要描述API功能]
 ## 5. AI调试助手
 
 > 粘贴错误日志，AI从症状追溯到根因，提供可直接应用的修复diff。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/009-ai-debug-assistant.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 
@@ -850,6 +866,10 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 ## 6. AI SEO内容写作
 
 > 20分钟产出一篇SEO优化的高质量文章，关键词研究到终稿一站式完成。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/010-ai-seo-content-writer.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 
@@ -1050,6 +1070,10 @@ COCO的AI SEO Content Writer将内容创作流水线从一个串行的、劳动�
 
 > 一次输入，全平台适配发布。每天3小时社媒运营缩减到15分钟。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/011-ai-social-media-manager.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：社交媒体要求在不兼容的平台上产出无限内容**
@@ -1230,6 +1254,10 @@ COCO的AI Social Media Manager作为社交媒体团队的力量倍增器，处�
 ## 8. AI广告文案生成
 
 > 10分钟生成200个A/B变体广告文案，数据驱动迭代优化。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/012-ai-ad-copy-generator.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 
@@ -1434,6 +1462,10 @@ COCO的AI Ad Copy Generator专为效果营销构建，理解各平台付费广�
 
 > 实时追踪竞品动态，2天调研变为1小时自动化输出。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/014-ai-competitive-copywriter.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：你的竞品营销信息永远过时**
@@ -1602,6 +1634,10 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 ## 10. AI线索调研
 
 > 一天调研200个线索，自动从LinkedIn、企查查抓取并打分。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/015-ai-lead-researcher.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 
@@ -1781,6 +1817,10 @@ LinkedIn URL：[URL]
 
 > 通话、邮件、会议自动同步CRM，45分钟/天数据录入变为0。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/016-ai-crm-updater.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：CRM数据录入正在扼杀销售效率和Pipeline准确性**
@@ -1933,6 +1973,10 @@ Pipeline数据：
 
 > 工单自动分类路由，5分钟/单变为即时处理。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/021-ai-ticket-classifier.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：手动工单分类是随着规模增长只会更严重的瓶颈**
@@ -2081,6 +2125,10 @@ SLA层级：[按优先级列出你的SLA要求]
 ## 13. AI知识库构建
 
 > 1小时生成50篇知识库文章，从工单和对话自动提取。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/022-ai-knowledge-base-builder.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 
@@ -2233,6 +2281,10 @@ COCO的AI Knowledge Base Builder将已解决的客服工单转化为已发布的
 ## 14. AI多语言客服
 
 > AI一键支持15+语言客服，替代5个翻译人员。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/023-ai-multi-language-support.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 
@@ -2388,6 +2440,10 @@ COCO的AI Multi-Language Support提供母语质量的多语言客户服务，无
 
 > 2小时筛选500份简历，替代3天人工筛选。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/025-ai-resume-screener.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：简历筛选是一个摧毁质量的数量问题**
@@ -2534,6 +2590,10 @@ COCO的AI Resume Screener对每份申请进行深度、一致的分析，对照�
 ## 16. AI职位描述编写
 
 > 10分钟生成无偏见、SEO优化的职位描述。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/026-ai-job-description-writer.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 
@@ -2703,6 +2763,10 @@ COCO的AI Job Description Writer创建引人注目的、包容的、高效的职
 ## 17. AI入职助手
 
 > 新员工3天完成入职，替代传统2周流程。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/028-ai-onboarding-assistant.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 
@@ -2875,6 +2939,10 @@ COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入�
 ## 18. AI会议纪要
 
 > 会议结束即出纪要：转录、摘要、待办分配一步到位。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/032-ai-meeting-notes.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 

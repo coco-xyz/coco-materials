@@ -6,6 +6,10 @@ AI use cases for content creation, copywriting, and documentation.
 
 > Auto-generates and syncs API docs from codebase, multi-language examples, zero drift.
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/008-ai-api-doc-writer.mp4" type="video/mp4">
+</video>
+
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Documentation Drift Is Silently Killing Your Developer Experience**
@@ -184,6 +188,10 @@ Write in a friendly, clear tone. Assume the reader is a developer but has never 
 ## 2. AI SEO Content Writer
 
 > Produces an SEO-optimized article in 20 minutes, from keyword research to final draft.
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/010-ai-seo-content-writer.mp4" type="video/mp4">
+</video>
 
 ::: details Pain Point & How COCO Solves It
 
@@ -384,6 +392,10 @@ For each page provide:
 
 > One input, all platforms. 3 hours/day social media ops reduced to 15 minutes.
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/011-ai-social-media-manager.mp4" type="video/mp4">
+</video>
+
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Social Media Demands Infinite Content Across Incompatible Platforms**
@@ -564,6 +576,10 @@ Only suggest participation if relevance is 6+ and risk is low-medium.
 ## 4. AI Ad Copy Generator
 
 > Generates 200 A/B ad copy variants in 10 minutes with data-driven optimization.
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/012-ai-ad-copy-generator.mp4" type="video/mp4">
+</video>
 
 ::: details Pain Point & How COCO Solves It
 
@@ -768,6 +784,10 @@ For each localized version:
 
 > Auto-curates industry news. 5 hours/week manual curation becomes 30 minutes.
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/013-ai-newsletter-curator.mp4" type="video/mp4">
+</video>
+
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Newsletter Production Is a Weekly Time Sink with Diminishing Returns**
@@ -913,6 +933,10 @@ For each segment, generate:
 ## 6. AI Competitive Copywriter
 
 > Real-time competitive tracking. 2 days of research becomes 1 hour of automated insights.
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/014-ai-competitive-copywriter.mp4" type="video/mp4">
+</video>
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1083,6 +1107,10 @@ Analyze:
 
 > Generates customized proposals in 15 minutes, auto-matched to client needs.
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/017-ai-proposal-generator.mp4" type="video/mp4">
+</video>
+
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Proposals Are High-Stakes Documents Built Under Impossible Time Pressure**
@@ -1251,7 +1279,7 @@ Max length: [X words or X pages]
 > Generates personalized follow-up emails in 2 minutes, based on meeting context.
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/smart-email-video.mp4" type="video/mp4">
+  <source src="/videos/en/018-ai-follow-up-writer.mp4" type="video/mp4">
 </video>
 
 ::: details Pain Point & How COCO Solves It
@@ -1421,6 +1449,10 @@ Each email should feel like it was written individually, not like 3 versions of 
 
 > Generates 50 knowledge base articles in 1 hour, auto-extracted from tickets and conversations.
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/022-ai-knowledge-base-builder.mp4" type="video/mp4">
+</video>
+
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Knowledge Bases That Don't Actually Help Anyone**
@@ -1572,6 +1604,10 @@ Compare the original and rewrite, noting specific improvements.
 ## 10. AI Multi-Language Support
 
 > One AI agent supports 15+ languages, replacing 5 translators.
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/023-ai-multi-language-support.mp4" type="video/mp4">
+</video>
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1726,6 +1762,10 @@ Important:
 ## 11. AI Job Description Writer
 
 > Generates bias-free, SEO-optimized job descriptions in 10 minutes.
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/026-ai-job-description-writer.mp4" type="video/mp4">
+</video>
 
 ::: details Pain Point & How COCO Solves It
 

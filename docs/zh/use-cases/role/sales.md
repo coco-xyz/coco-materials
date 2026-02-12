@@ -6,6 +6,10 @@ AI驱动的SDR、客户经理和销售负责人用例。
 
 > 一天调研200个线索，自动从LinkedIn、企查查抓取并打分。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/015-ai-lead-researcher.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：SDR花在调研上的时间比卖东西的时间多**
@@ -184,6 +188,10 @@ LinkedIn URL：[URL]
 
 > 通话、邮件、会议自动同步CRM，45分钟/天数据录入变为0。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/016-ai-crm-updater.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：CRM数据录入正在扼杀销售效率和Pipeline准确性**
@@ -335,6 +343,10 @@ Pipeline数据：
 ## 3. AI方案生成
 
 > 15分钟生成定制化方案书，基于客户需求自动匹配。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/017-ai-proposal-generator.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 
@@ -503,6 +515,10 @@ RFP问题/要求：
 
 > 2分钟生成个性化跟进邮件，基于会议上下文和客户行为。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/018-ai-follow-up-writer.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：跟进缺口是收入流失的最大黑洞**
@@ -670,6 +686,10 @@ COCO的AI Follow-up Writer通过生成及时、有上下文的跟进沟通确保
 
 > 8分钟生成客户会议简报，多源情报汇聚，高管画像深入。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/019-ai-client-research-brief.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：不充分的会前准备比你意识到的代价更大**
@@ -813,6 +833,10 @@ COCO的AI Client Research Brief在几分钟内为每次客户会议提供全面�
 ## 6. AI报价计算
 
 > 10分钟完成复杂报价计算，自动匹配折扣规则和审批流程。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/020-ai-quote-calculator.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 

@@ -6,6 +6,10 @@ AI驱动的HR团队、招聘人员和人力运营用例。
 
 > 2小时筛选500份简历，替代3天人工筛选。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/025-ai-resume-screener.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：简历筛选是一个摧毁质量的数量问题**
@@ -152,6 +156,10 @@ COCO的AI Resume Screener对每份申请进行深度、一致的分析，对照�
 ## 2. AI职位描述编写
 
 > 10分钟生成无偏见、SEO优化的职位描述。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/026-ai-job-description-writer.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 
@@ -322,6 +330,10 @@ COCO的AI Job Description Writer创建引人注目的、包容的、高效的职
 
 > 3分钟完成面试排期，自动协调多方日历。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/027-ai-interview-scheduler.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：面试排期是招聘速度的隐形杀手**
@@ -473,6 +485,10 @@ COCO的AI Interview Scheduler自动化从初始可用性到确认的整个排期
 ## 4. AI入职助手
 
 > 新员工3天完成入职，替代传统2周流程。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/028-ai-onboarding-assistant.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 

@@ -6,6 +6,10 @@ AI驱动的运营经理、采购和通用业务运营用例。
 
 > 会议结束即出纪要：转录、摘要、待办分配一步到位。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/032-ai-meeting-notes.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：会议产出的决策和行动项会立即消失**
@@ -162,6 +166,10 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 
 > 实时库存预测，替代每周手动盘点，减少滞销和缺货。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/033-ai-inventory-forecaster.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：用电子表格做库存预测在缺货和积压上损失数百万**
@@ -313,6 +321,10 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
 ## 3. AI供应商评估
 
 > 2小时完成供应商评估排名，替代1周人工调研。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/034-ai-vendor-evaluator.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 

@@ -6,6 +6,10 @@ AI驱动的财务团队、会计师和财务分析师用例。
 
 > 费用报告即时审核，合规自动通过，异常自动标记。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/029-ai-expense-auditor.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：手动报销审核缓慢、不完整且昂贵**
@@ -156,6 +160,10 @@ COCO的AI Expense Auditor提供100%的审计覆盖和一致的政策执行。
 
 > 3小时生成多源数据对账的财务报告，替代2天人工。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/030-ai-financial-report-generator.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：FP&A团队是报告工厂，而非战略顾问**
@@ -287,6 +295,10 @@ COCO的AI Financial Report Generator自动化数据组装、计算和叙事生�
 ## 3. AI发票处理
 
 > 30秒处理一张发票：提取、匹配、路由全自动。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/031-ai-invoice-processor.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 

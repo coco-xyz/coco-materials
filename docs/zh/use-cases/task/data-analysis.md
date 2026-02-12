@@ -6,6 +6,10 @@ AI驱动的数据分析、报告、审计和财务智能用例。
 
 > 8分钟生成客户会议简报，多源情报汇聚，高管画像深入。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/019-ai-client-research-brief.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：不充分的会前准备比你意识到的代价更大**
@@ -149,6 +153,10 @@ COCO的AI Client Research Brief在几分钟内为每次客户会议提供全面�
 ## 2. AI报价计算
 
 > 10分钟完成复杂报价计算，自动匹配折扣规则和审批流程。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/020-ai-quote-calculator.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 
@@ -307,6 +315,10 @@ COCO的AI Quote Calculator将报价流程从手动、易出错的工作流转变
 
 > 2小时筛选500份简历，替代3天人工筛选。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/025-ai-resume-screener.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：简历筛选是一个摧毁质量的数量问题**
@@ -453,6 +465,10 @@ COCO的AI Resume Screener对每份申请进行深度、一致的分析，对照�
 ## 4. AI费用审计
 
 > 费用报告即时审核，合规自动通过，异常自动标记。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/029-ai-expense-auditor.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 
@@ -604,6 +620,10 @@ COCO的AI Expense Auditor提供100%的审计覆盖和一致的政策执行。
 
 > 3小时生成多源数据对账的财务报告，替代2天人工。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/030-ai-financial-report-generator.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：FP&A团队是报告工厂，而非战略顾问**
@@ -735,6 +755,10 @@ COCO的AI Financial Report Generator自动化数据组装、计算和叙事生�
 ## 6. AI库存预测
 
 > 实时库存预测，替代每周手动盘点，减少滞销和缺货。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/033-ai-inventory-forecaster.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 
@@ -887,6 +911,10 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
 ## 7. AI供应商评估
 
 > 2小时完成供应商评估排名，替代1周人工调研。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/034-ai-vendor-evaluator.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 

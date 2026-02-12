@@ -6,6 +6,10 @@ AI驱动的内容创作、文案写作和文档编写用例。
 
 > 从代码库自动生成并同步API文档，多语言示例，零偏差。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/008-ai-api-doc-writer.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：文档漂移正在悄悄毁掉你的开发者体验**
@@ -184,6 +188,10 @@ API概述：[简要描述API功能]
 ## 2. AI SEO内容写作
 
 > 20分钟产出一篇SEO优化的高质量文章，关键词研究到终稿一站式完成。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/010-ai-seo-content-writer.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 
@@ -384,6 +392,10 @@ COCO的AI SEO Content Writer将内容创作流水线从一个串行的、劳动�
 
 > 一次输入，全平台适配发布。每天3小时社媒运营缩减到15分钟。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/011-ai-social-media-manager.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：社交媒体要求在不兼容的平台上产出无限内容**
@@ -564,6 +576,10 @@ COCO的AI Social Media Manager作为社交媒体团队的力量倍增器，处�
 ## 4. AI广告文案生成
 
 > 10分钟生成200个A/B变体广告文案，数据驱动迭代优化。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/012-ai-ad-copy-generator.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 
@@ -768,6 +784,10 @@ COCO的AI Ad Copy Generator专为效果营销构建，理解各平台付费广�
 
 > 自动汇聚行业资讯，5小时/周的人工策展变为30分钟。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/013-ai-newsletter-curator.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：Newsletter制作是每周消耗大量时间却收益递减的黑洞**
@@ -913,6 +933,10 @@ COCO的AI Newsletter Curator自动化Newsletter制作中劳动密集的部分，
 ## 6. AI竞品文案分析
 
 > 实时追踪竞品动态，2天调研变为1小时自动化输出。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/014-ai-competitive-copywriter.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 
@@ -1083,6 +1107,10 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 
 > 15分钟生成定制化方案书，基于客户需求自动匹配。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/017-ai-proposal-generator.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：Proposal是在不可能的时间压力下构建的高风险文档**
@@ -1249,6 +1277,10 @@ RFP问题/要求：
 ## 8. AI跟进邮件
 
 > 2分钟生成个性化跟进邮件，基于会议上下文和客户行为。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/018-ai-follow-up-writer.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 
@@ -1417,6 +1449,10 @@ COCO的AI Follow-up Writer通过生成及时、有上下文的跟进沟通确保
 
 > 1小时生成50篇知识库文章，从工单和对话自动提取。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/022-ai-knowledge-base-builder.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：根本帮不了任何人的知识库**
@@ -1568,6 +1604,10 @@ COCO的AI Knowledge Base Builder将已解决的客服工单转化为已发布的
 ## 10. AI多语言客服
 
 > AI一键支持15+语言客服，替代5个翻译人员。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/023-ai-multi-language-support.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 
@@ -1722,6 +1762,10 @@ COCO的AI Multi-Language Support提供母语质量的多语言客户服务，无
 ## 11. AI职位描述编写
 
 > 10分钟生成无偏见、SEO优化的职位描述。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/026-ai-job-description-writer.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 

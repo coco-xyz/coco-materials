@@ -6,6 +6,10 @@ AI-powered use cases for SDRs, account executives, and sales leaders.
 
 > Researches 200 leads/day, auto-enriched from LinkedIn, Crunchbase, scored and ready.
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/015-ai-lead-researcher.mp4" type="video/mp4">
+</video>
+
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: SDRs Spend More Time Researching Than Selling**
@@ -184,6 +188,10 @@ For each lead, provide:
 
 > Calls, emails, meetings auto-synced to CRM. 45 min/day data entry becomes zero.
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/016-ai-crm-updater.mp4" type="video/mp4">
+</video>
+
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: CRM Data Entry Is Killing Sales Productivity and Pipeline Accuracy**
@@ -335,6 +343,10 @@ Also generate:
 ## 3. AI Proposal Generator
 
 > Generates customized proposals in 15 minutes, auto-matched to client needs.
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/017-ai-proposal-generator.mp4" type="video/mp4">
+</video>
 
 ::: details Pain Point & How COCO Solves It
 
@@ -504,7 +516,7 @@ Max length: [X words or X pages]
 > Generates personalized follow-up emails in 2 minutes, based on meeting context.
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/smart-email-video.mp4" type="video/mp4">
+  <source src="/videos/en/018-ai-follow-up-writer.mp4" type="video/mp4">
 </video>
 
 ::: details Pain Point & How COCO Solves It
@@ -674,6 +686,10 @@ Each email should feel like it was written individually, not like 3 versions of 
 
 > Generates client meeting brief in 8 minutes: multi-source intel, executive profile deep-dive.
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/019-ai-client-research-brief.mp4" type="video/mp4">
+</video>
+
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Inadequate Meeting Prep Costs More Than You Realize**
@@ -817,6 +833,10 @@ Make this conversational -- I want to sound informed, not like I'm reading a rep
 ## 6. AI Quote Calculator
 
 > Complex quote calculation in 10 minutes, auto-matching discount rules and approval workflows.
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/020-ai-quote-calculator.mp4" type="video/mp4">
+</video>
 
 ::: details Pain Point & How COCO Solves It
 

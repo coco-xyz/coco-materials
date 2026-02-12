@@ -6,6 +6,10 @@ AI驱动的银行、保险、投资和金融机构用例。
 
 > 一天调研200个线索，自动从LinkedIn、企查查抓取并打分。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/015-ai-lead-researcher.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：SDR花在调研上的时间比卖东西的时间多**
@@ -184,6 +188,10 @@ LinkedIn URL：[URL]
 
 > 8分钟生成客户会议简报，多源情报汇聚，高管画像深入。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/019-ai-client-research-brief.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：不充分的会前准备比你意识到的代价更大**
@@ -327,6 +335,10 @@ COCO的AI Client Research Brief在几分钟内为每次客户会议提供全面�
 ## 3. AI VIP升级管理
 
 > 自动识别VIP客户异常，30%漏检降至0%。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/024-ai-vip-escalation.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 
@@ -479,6 +491,10 @@ CSM：[姓名]
 
 > 费用报告即时审核，合规自动通过，异常自动标记。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/029-ai-expense-auditor.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：手动报销审核缓慢、不完整且昂贵**
@@ -629,6 +645,10 @@ COCO的AI Expense Auditor提供100%的审计覆盖和一致的政策执行。
 
 > 3小时生成多源数据对账的财务报告，替代2天人工。
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/030-ai-financial-report-generator.mp4" type="video/mp4">
+</video>
+
 ::: details 痛点与解决方案
 
 **痛点：FP&A团队是报告工厂，而非战略顾问**
@@ -760,6 +780,10 @@ COCO的AI Financial Report Generator自动化数据组装、计算和叙事生�
 ## 6. AI发票处理
 
 > 30秒处理一张发票：提取、匹配、路由全自动。
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/031-ai-invoice-processor.mp4" type="video/mp4">
+</video>
 
 ::: details 痛点与解决方案
 

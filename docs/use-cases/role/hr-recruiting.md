@@ -6,6 +6,10 @@ AI-powered use cases for HR, recruiters, and people operations.
 
 > Screens 500 resumes in 2 hours, replacing 3 days of manual screening.
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/025-ai-resume-screener.mp4" type="video/mp4">
+</video>
+
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Resume Screening Is a Volume Problem That Destroys Quality**
@@ -155,6 +159,10 @@ Create a comparison matrix including:
 ## 2. AI Job Description Writer
 
 > Generates bias-free, SEO-optimized job descriptions in 10 minutes.
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/026-ai-job-description-writer.mp4" type="video/mp4">
+</video>
 
 ::: details Pain Point & How COCO Solves It
 
@@ -325,6 +333,10 @@ Include data sources and note any limitations in the benchmarking.
 
 > Schedules interviews in 3 minutes, auto-coordinating multiple calendars.
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/027-ai-interview-scheduler.mp4" type="video/mp4">
+</video>
+
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Interview Scheduling Is the Silent Killer of Recruiting Speed**
@@ -477,6 +489,10 @@ Provide actionable recommendations for the next quarter.
 ## 4. AI Onboarding Assistant
 
 > New hire fully onboarded in 3 days instead of 2 weeks.
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/028-ai-onboarding-assistant.mp4" type="video/mp4">
+</video>
 
 ::: details Pain Point & How COCO Solves It
 

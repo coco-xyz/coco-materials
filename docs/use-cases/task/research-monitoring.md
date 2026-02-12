@@ -6,6 +6,10 @@ AI use cases for market research, competitive intelligence, and monitoring.
 
 > Auto-curates industry news. 5 hours/week manual curation becomes 30 minutes.
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/013-ai-newsletter-curator.mp4" type="video/mp4">
+</video>
+
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Newsletter Production Is a Weekly Time Sink with Diminishing Returns**
@@ -151,6 +155,10 @@ For each segment, generate:
 ## 2. AI Competitive Copywriter
 
 > Real-time competitive tracking. 2 days of research becomes 1 hour of automated insights.
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/014-ai-competitive-copywriter.mp4" type="video/mp4">
+</video>
 
 ::: details Pain Point & How COCO Solves It
 
@@ -320,6 +328,10 @@ Analyze:
 ## 3. AI Lead Researcher
 
 > Researches 200 leads/day, auto-enriched from LinkedIn, Crunchbase, scored and ready.
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/015-ai-lead-researcher.mp4" type="video/mp4">
+</video>
 
 ::: details Pain Point & How COCO Solves It
 
@@ -499,6 +511,10 @@ For each lead, provide:
 
 > Generates client meeting brief in 8 minutes: multi-source intel, executive profile deep-dive.
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/019-ai-client-research-brief.mp4" type="video/mp4">
+</video>
+
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Inadequate Meeting Prep Costs More Than You Realize**
@@ -642,6 +658,10 @@ Make this conversational -- I want to sound informed, not like I'm reading a rep
 ## 5. AI VIP Escalation
 
 > Auto-detects VIP customer anomalies. 30% missed issues drops to 0%.
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/024-ai-vip-escalation.mp4" type="video/mp4">
+</video>
 
 ::: details Pain Point & How COCO Solves It
 
@@ -794,6 +814,10 @@ Tone: Senior, professional, genuine. This should sound like it comes from someon
 
 > Instant expense report audit. Compliant: auto-approved. Anomalies: auto-flagged.
 
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/029-ai-expense-auditor.mp4" type="video/mp4">
+</video>
+
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Manual Expense Auditing Is Slow, Incomplete, and Expensive**
@@ -943,6 +967,10 @@ Provide a revised policy draft with tracked changes and rationale for each updat
 ## 7. AI Inventory Forecaster
 
 > Real-time inventory forecasting, replacing weekly manual stocktakes.
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/033-ai-inventory-forecaster.mp4" type="video/mp4">
+</video>
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1095,6 +1123,10 @@ For each scenario:
 ## 8. AI Vendor Evaluator
 
 > Vendor evaluation and ranking in 2 hours, replacing 1 week of manual research.
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/034-ai-vendor-evaluator.mp4" type="video/mp4">
+</video>
 
 ::: details Pain Point & How COCO Solves It
 
