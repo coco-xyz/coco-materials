@@ -38,9 +38,9 @@ export default defineConfig({
               text: 'Getting Started',
               items: [
                 { text: 'Overview', link: '/getting-started/' },
-                { text: 'First-Time Tutorial', link: '/getting-started/first-time-tutorial' },
                 { text: 'Registration & Payment', link: '/getting-started/registration-payment' },
                 { text: 'Channel Deployment', link: '/getting-started/channel-deployment' },
+                { text: 'First-Time Tutorial', link: '/getting-started/first-time-tutorial' },
               ]
             },
           ],
@@ -124,9 +124,9 @@ export default defineConfig({
               text: '快速开始',
               items: [
                 { text: '概览', link: '/zh/getting-started/' },
-                { text: '首次使用教程', link: '/zh/getting-started/first-time-tutorial' },
                 { text: '注册与支付', link: '/zh/getting-started/registration-payment' },
                 { text: '渠道部署指南', link: '/zh/getting-started/channel-deployment' },
+                { text: '首次使用教程', link: '/zh/getting-started/first-time-tutorial' },
               ]
             },
           ],
