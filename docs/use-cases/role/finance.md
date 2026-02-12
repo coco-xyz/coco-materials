@@ -8,7 +8,7 @@ AI-powered use cases for finance teams, accountants, and analysts.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/029-ai-expense-auditor.mp4" type="video/mp4">
 </video>
 
@@ -166,7 +166,7 @@ Provide a revised policy draft with tracked changes and rationale for each updat
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/030-ai-financial-report-generator.mp4" type="video/mp4">
 </video>
 
@@ -306,7 +306,7 @@ Also provide:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/031-ai-invoice-processor.mp4" type="video/mp4">
 </video>
 

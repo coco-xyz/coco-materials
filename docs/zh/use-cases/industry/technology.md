@@ -8,7 +8,7 @@ AI驱动的科技公司、SaaS平台和软件开发团队用例。
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/005-ai-code-reviewer.mp4" type="video/mp4">
 </video>
 
@@ -150,7 +150,7 @@ PR信息：
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/006-ai-test-generator.mp4" type="video/mp4">
 </video>
 
@@ -328,7 +328,7 @@ Bug描述：[描述bug]
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/007-ai-deploy-monitor.mp4" type="video/mp4">
 </video>
 
@@ -501,7 +501,7 @@ COCO的AI Deploy Monitor作为智能层叠加在你现有的监控基础设施�
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/008-ai-api-doc-writer.mp4" type="video/mp4">
 </video>
 
@@ -688,7 +688,7 @@ API概述：[简要描述API功能]
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/009-ai-debug-assistant.mp4" type="video/mp4">
 </video>
 
@@ -889,7 +889,7 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/010-ai-seo-content-writer.mp4" type="video/mp4">
 </video>
 
@@ -1096,7 +1096,7 @@ COCO的AI SEO Content Writer将内容创作流水线从一个串行的、劳动�
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/011-ai-social-media-manager.mp4" type="video/mp4">
 </video>
 
@@ -1285,7 +1285,7 @@ COCO的AI Social Media Manager作为社交媒体团队的力量倍增器，处�
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/012-ai-ad-copy-generator.mp4" type="video/mp4">
 </video>
 
@@ -1496,7 +1496,7 @@ COCO的AI Ad Copy Generator专为效果营销构建，理解各平台付费广�
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/014-ai-competitive-copywriter.mp4" type="video/mp4">
 </video>
 
@@ -1673,7 +1673,7 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/015-ai-lead-researcher.mp4" type="video/mp4">
 </video>
 
@@ -1859,7 +1859,7 @@ LinkedIn URL：[URL]
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/016-ai-crm-updater.mp4" type="video/mp4">
 </video>
 
@@ -2019,7 +2019,7 @@ Pipeline数据：
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/021-ai-ticket-classifier.mp4" type="video/mp4">
 </video>
 
@@ -2176,7 +2176,7 @@ SLA层级：[按优先级列出你的SLA要求]
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/022-ai-knowledge-base-builder.mp4" type="video/mp4">
 </video>
 
@@ -2336,7 +2336,7 @@ COCO的AI Knowledge Base Builder将已解决的客服工单转化为已发布的
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/023-ai-multi-language-support.mp4" type="video/mp4">
 </video>
 
@@ -2498,7 +2498,7 @@ COCO的AI Multi-Language Support提供母语质量的多语言客户服务，无
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/025-ai-resume-screener.mp4" type="video/mp4">
 </video>
 
@@ -2653,7 +2653,7 @@ COCO的AI Resume Screener对每份申请进行深度、一致的分析，对照�
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/026-ai-job-description-writer.mp4" type="video/mp4">
 </video>
 
@@ -2830,7 +2830,7 @@ COCO的AI Job Description Writer创建引人注目的、包容的、高效的职
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/028-ai-onboarding-assistant.mp4" type="video/mp4">
 </video>
 
@@ -3010,7 +3010,7 @@ COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入�
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/032-ai-meeting-notes.mp4" type="video/mp4">
 </video>
 

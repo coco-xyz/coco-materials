@@ -8,7 +8,7 @@ AI驱动的财务团队、会计师和财务分析师用例。
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/029-ai-expense-auditor.mp4" type="video/mp4">
 </video>
 
@@ -166,7 +166,7 @@ COCO的AI Expense Auditor提供100%的审计覆盖和一致的政策执行。
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/030-ai-financial-report-generator.mp4" type="video/mp4">
 </video>
 
@@ -306,7 +306,7 @@ COCO的AI Financial Report Generator自动化数据组装、计算和叙事生�
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/031-ai-invoice-processor.mp4" type="video/mp4">
 </video>
 

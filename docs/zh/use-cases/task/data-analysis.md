@@ -8,7 +8,7 @@ AI驱动的数据分析、报告、审计和财务智能用例。
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/019-ai-client-research-brief.mp4" type="video/mp4">
 </video>
 
@@ -160,7 +160,7 @@ COCO的AI Client Research Brief在几分钟内为每次客户会议提供全面�
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/020-ai-quote-calculator.mp4" type="video/mp4">
 </video>
 
@@ -325,7 +325,7 @@ COCO的AI Quote Calculator将报价流程从手动、易出错的工作流转变
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/025-ai-resume-screener.mp4" type="video/mp4">
 </video>
 
@@ -480,7 +480,7 @@ COCO的AI Resume Screener对每份申请进行深度、一致的分析，对照�
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/029-ai-expense-auditor.mp4" type="video/mp4">
 </video>
 
@@ -638,7 +638,7 @@ COCO的AI Expense Auditor提供100%的审计覆盖和一致的政策执行。
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/030-ai-financial-report-generator.mp4" type="video/mp4">
 </video>
 
@@ -778,7 +778,7 @@ COCO的AI Financial Report Generator自动化数据组装、计算和叙事生�
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/033-ai-inventory-forecaster.mp4" type="video/mp4">
 </video>
 
@@ -938,7 +938,7 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
 
 ::: details 🎬 观看演示视频
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/034-ai-vendor-evaluator.mp4" type="video/mp4">
 </video>
 

@@ -8,7 +8,7 @@ AI-powered use cases for operations, procurement, and business management.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/032-ai-meeting-notes.mp4" type="video/mp4">
 </video>
 
@@ -172,7 +172,7 @@ Provide a specific "meeting diet" recommendation: what to keep, cut, shorten, me
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/033-ai-inventory-forecaster.mp4" type="video/mp4">
 </video>
 
@@ -332,7 +332,7 @@ For each scenario:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/034-ai-vendor-evaluator.mp4" type="video/mp4">
 </video>
 

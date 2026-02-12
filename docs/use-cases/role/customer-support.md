@@ -8,7 +8,7 @@ AI-powered use cases for support teams, help desk, and customer success.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/021-ai-ticket-classifier.mp4" type="video/mp4">
 </video>
 
@@ -165,7 +165,7 @@ Keep each response under 150 words. Test readability: would a frustrated custome
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/022-ai-knowledge-base-builder.mp4" type="video/mp4">
 </video>
 
@@ -325,7 +325,7 @@ Compare the original and rewrite, noting specific improvements.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/023-ai-multi-language-support.mp4" type="video/mp4">
 </video>
 
@@ -487,7 +487,7 @@ Important:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/024-ai-vip-escalation.mp4" type="video/mp4">
 </video>
 

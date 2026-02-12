@@ -8,7 +8,7 @@ AI use cases for content creation, copywriting, and documentation.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/008-ai-api-doc-writer.mp4" type="video/mp4">
 </video>
 
@@ -195,7 +195,7 @@ Write in a friendly, clear tone. Assume the reader is a developer but has never 
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/010-ai-seo-content-writer.mp4" type="video/mp4">
 </video>
 
@@ -402,7 +402,7 @@ For each page provide:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/011-ai-social-media-manager.mp4" type="video/mp4">
 </video>
 
@@ -591,7 +591,7 @@ Only suggest participation if relevance is 6+ and risk is low-medium.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/012-ai-ad-copy-generator.mp4" type="video/mp4">
 </video>
 
@@ -802,7 +802,7 @@ For each localized version:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/013-ai-newsletter-curator.mp4" type="video/mp4">
 </video>
 
@@ -956,7 +956,7 @@ For each segment, generate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/014-ai-competitive-copywriter.mp4" type="video/mp4">
 </video>
 
@@ -1133,7 +1133,7 @@ Analyze:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/017-ai-proposal-generator.mp4" type="video/mp4">
 </video>
 
@@ -1308,7 +1308,7 @@ Max length: [X words or X pages]
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/018-ai-follow-up-writer.mp4" type="video/mp4">
 </video>
 
@@ -1483,7 +1483,7 @@ Each email should feel like it was written individually, not like 3 versions of 
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/022-ai-knowledge-base-builder.mp4" type="video/mp4">
 </video>
 
@@ -1643,7 +1643,7 @@ Compare the original and rewrite, noting specific improvements.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/023-ai-multi-language-support.mp4" type="video/mp4">
 </video>
 
@@ -1805,7 +1805,7 @@ Important:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/026-ai-job-description-writer.mp4" type="video/mp4">
 </video>
 

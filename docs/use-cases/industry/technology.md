@@ -8,7 +8,7 @@ AI use cases for tech companies, SaaS platforms, and dev teams.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/005-ai-code-reviewer.mp4" type="video/mp4">
 </video>
 
@@ -150,7 +150,7 @@ PR:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/006-ai-test-generator.mp4" type="video/mp4">
 </video>
 
@@ -328,7 +328,7 @@ Generate ONLY the missing tests, not duplicates of existing coverage.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/007-ai-deploy-monitor.mp4" type="video/mp4">
 </video>
 
@@ -501,7 +501,7 @@ Recommend new thresholds that reduce false positives by at least 50% while maint
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/008-ai-api-doc-writer.mp4" type="video/mp4">
 </video>
 
@@ -688,7 +688,7 @@ Write in a friendly, clear tone. Assume the reader is a developer but has never 
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/009-ai-debug-assistant.mp4" type="video/mp4">
 </video>
 
@@ -889,7 +889,7 @@ Correlate the logs across services to reconstruct:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/010-ai-seo-content-writer.mp4" type="video/mp4">
 </video>
 
@@ -1096,7 +1096,7 @@ For each page provide:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/011-ai-social-media-manager.mp4" type="video/mp4">
 </video>
 
@@ -1285,7 +1285,7 @@ Only suggest participation if relevance is 6+ and risk is low-medium.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/012-ai-ad-copy-generator.mp4" type="video/mp4">
 </video>
 
@@ -1496,7 +1496,7 @@ For each localized version:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/014-ai-competitive-copywriter.mp4" type="video/mp4">
 </video>
 
@@ -1673,7 +1673,7 @@ Analyze:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/015-ai-lead-researcher.mp4" type="video/mp4">
 </video>
 
@@ -1859,7 +1859,7 @@ For each lead, provide:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/016-ai-crm-updater.mp4" type="video/mp4">
 </video>
 
@@ -2019,7 +2019,7 @@ Also generate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/021-ai-ticket-classifier.mp4" type="video/mp4">
 </video>
 
@@ -2176,7 +2176,7 @@ Keep each response under 150 words. Test readability: would a frustrated custome
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/022-ai-knowledge-base-builder.mp4" type="video/mp4">
 </video>
 
@@ -2336,7 +2336,7 @@ Compare the original and rewrite, noting specific improvements.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/023-ai-multi-language-support.mp4" type="video/mp4">
 </video>
 
@@ -2498,7 +2498,7 @@ Important:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/025-ai-resume-screener.mp4" type="video/mp4">
 </video>
 
@@ -2656,7 +2656,7 @@ Create a comparison matrix including:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/026-ai-job-description-writer.mp4" type="video/mp4">
 </video>
 
@@ -2833,7 +2833,7 @@ Include data sources and note any limitations in the benchmarking.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/028-ai-onboarding-assistant.mp4" type="video/mp4">
 </video>
 
@@ -3013,7 +3013,7 @@ For each task: responsible person, deadline, dependencies, and verification that
 
 ::: details 🎬 Watch Demo Video
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/032-ai-meeting-notes.mp4" type="video/mp4">
 </video>
 
