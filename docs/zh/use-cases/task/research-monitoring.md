@@ -6,9 +6,13 @@ AI驱动的市场调研、竞品分析、监控和趋势追踪用例。
 
 > 自动汇聚行业资讯，5小时/周的人工策展变为30分钟。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/013-ai-newsletter-curator.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -156,9 +160,13 @@ COCO的AI Newsletter Curator自动化Newsletter制作中劳动密集的部分，
 
 > 实时追踪竞品动态，2天调研变为1小时自动化输出。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/014-ai-competitive-copywriter.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -329,9 +337,13 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 
 > 一天调研200个线索，自动从LinkedIn、企查查抓取并打分。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/015-ai-lead-researcher.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -511,9 +523,13 @@ LinkedIn URL：[URL]
 
 > 8分钟生成客户会议简报，多源情报汇聚，高管画像深入。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/019-ai-client-research-brief.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -659,9 +675,13 @@ COCO的AI Client Research Brief在几分钟内为每次客户会议提供全面�
 
 > 自动识别VIP客户异常，30%漏检降至0%。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/024-ai-vip-escalation.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -814,9 +834,13 @@ CSM：[姓名]
 
 > 费用报告即时审核，合规自动通过，异常自动标记。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/029-ai-expense-auditor.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -968,9 +992,13 @@ COCO的AI Expense Auditor提供100%的审计覆盖和一致的政策执行。
 
 > 实时库存预测，替代每周手动盘点，减少滞销和缺货。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/033-ai-inventory-forecaster.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -1124,9 +1152,13 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
 
 > 2小时完成供应商评估排名，替代1周人工调研。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/034-ai-vendor-evaluator.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 

@@ -6,9 +6,13 @@ AI-powered use cases for content creators, marketing teams, and brand managers.
 
 > Produces an SEO-optimized article in 20 minutes, from keyword research to final draft.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/010-ai-seo-content-writer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -209,9 +213,13 @@ For each page provide:
 
 > One input, all platforms. 3 hours/day social media ops reduced to 15 minutes.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/011-ai-social-media-manager.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -394,9 +402,13 @@ Only suggest participation if relevance is 6+ and risk is low-medium.
 
 > Generates 200 A/B ad copy variants in 10 minutes with data-driven optimization.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/012-ai-ad-copy-generator.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -601,9 +613,13 @@ For each localized version:
 
 > Auto-curates industry news. 5 hours/week manual curation becomes 30 minutes.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/013-ai-newsletter-curator.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -751,9 +767,13 @@ For each segment, generate:
 
 > Real-time competitive tracking. 2 days of research becomes 1 hour of automated insights.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/014-ai-competitive-copywriter.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 

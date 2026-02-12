@@ -6,9 +6,13 @@ AI驱动的开发者、DevOps工程师、技术负责人和产品经理用例。
 
 > 自动审查每个PR：Bug、安全漏洞、性能问题——15分钟出完整报告。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/005-ai-code-reviewer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -144,9 +148,13 @@ PR信息：
 
 > 读取源码，30分钟生成包含边界条件的完整测试。覆盖率从34%提升到89%。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/006-ai-test-generator.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -318,9 +326,13 @@ Bug描述：[描述bug]
 
 > 实时监控每次部署，90秒检测异常，自动回滚。MTTR从47分钟降至2分钟。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/007-ai-deploy-monitor.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -487,9 +499,13 @@ COCO的AI Deploy Monitor作为智能层叠加在你现有的监控基础设施�
 
 > 从代码库自动生成并同步API文档，多语言示例，零偏差。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/008-ai-api-doc-writer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -670,9 +686,13 @@ API概述：[简要描述API功能]
 
 > 粘贴错误日志，AI从症状追溯到根因，提供可直接应用的修复diff。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/009-ai-debug-assistant.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 

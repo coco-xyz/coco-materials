@@ -6,9 +6,13 @@ AI驱动的工作流自动化、系统集成和运营效率用例。
 
 > 自动审查每个PR：Bug、安全漏洞、性能问题——15分钟出完整报告。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/005-ai-code-reviewer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -144,9 +148,13 @@ PR信息：
 
 > 读取源码，30分钟生成包含边界条件的完整测试。覆盖率从34%提升到89%。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/006-ai-test-generator.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -318,9 +326,13 @@ Bug描述：[描述bug]
 
 > 实时监控每次部署，90秒检测异常，自动回滚。MTTR从47分钟降至2分钟。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/007-ai-deploy-monitor.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -487,9 +499,13 @@ COCO的AI Deploy Monitor作为智能层叠加在你现有的监控基础设施�
 
 > 粘贴错误日志，AI从症状追溯到根因，提供可直接应用的修复diff。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/009-ai-debug-assistant.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -684,9 +700,13 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 
 > 通话、邮件、会议自动同步CRM，45分钟/天数据录入变为0。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/016-ai-crm-updater.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -840,9 +860,13 @@ Pipeline数据：
 
 > 工单自动分类路由，5分钟/单变为即时处理。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/021-ai-ticket-classifier.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -993,9 +1017,13 @@ SLA层级：[按优先级列出你的SLA要求]
 
 > 自动识别VIP客户异常，30%漏检降至0%。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/024-ai-vip-escalation.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -1148,9 +1176,13 @@ CSM：[姓名]
 
 > 3分钟完成面试排期，自动协调多方日历。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/027-ai-interview-scheduler.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -1304,9 +1336,13 @@ COCO的AI Interview Scheduler自动化从初始可用性到确认的整个排期
 
 > 新员工3天完成入职，替代传统2周流程。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/028-ai-onboarding-assistant.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -1480,9 +1516,13 @@ COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入�
 
 > 30秒处理一张发票：提取、匹配、路由全自动。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/031-ai-invoice-processor.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -1645,9 +1685,13 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 
 > 会议结束即出纪要：转录、摘要、待办分配一步到位。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/032-ai-meeting-notes.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 

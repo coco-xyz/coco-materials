@@ -6,9 +6,13 @@ AI-powered use cases for developers, DevOps, tech leads, and PMs.
 
 > Auto-reviews every PR: bugs, security, performance — full report in 15 minutes.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/005-ai-code-reviewer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -144,9 +148,13 @@ PR:
 
 > Reads source code and generates comprehensive tests with edge cases. Coverage: 34% → 89%.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/006-ai-test-generator.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -318,9 +326,13 @@ Generate ONLY the missing tests, not duplicates of existing coverage.
 
 > Monitors every deploy in real-time, detects anomalies in 90s, auto-rollbacks. MTTR: 47min → 2min.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/007-ai-deploy-monitor.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -487,9 +499,13 @@ Recommend new thresholds that reduce false positives by at least 50% while maint
 
 > Auto-generates and syncs API docs from codebase, multi-language examples, zero drift.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/008-ai-api-doc-writer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -670,9 +686,13 @@ Write in a friendly, clear tone. Assume the reader is a developer but has never 
 
 > Paste error logs, AI traces from symptom to root cause, provides ready-to-apply fix diffs.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/009-ai-debug-assistant.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 

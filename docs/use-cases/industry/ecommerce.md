@@ -6,9 +6,13 @@ AI use cases for e-commerce, retail, and online marketplaces.
 
 > Produces an SEO-optimized article in 20 minutes, from keyword research to final draft.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/010-ai-seo-content-writer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -209,9 +213,13 @@ For each page provide:
 
 > One input, all platforms. 3 hours/day social media ops reduced to 15 minutes.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/011-ai-social-media-manager.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -394,9 +402,13 @@ Only suggest participation if relevance is 6+ and risk is low-medium.
 
 > Generates 200 A/B ad copy variants in 10 minutes with data-driven optimization.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/012-ai-ad-copy-generator.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -601,9 +613,13 @@ For each localized version:
 
 > Real-time competitive tracking. 2 days of research becomes 1 hour of automated insights.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/014-ai-competitive-copywriter.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -774,9 +790,13 @@ Analyze:
 
 > Complex quote calculation in 10 minutes, auto-matching discount rules and approval workflows.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/020-ai-quote-calculator.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -935,9 +955,13 @@ Format as a clean, customer-facing document.
 
 > Auto-classifies and routes tickets. 5 min/ticket becomes instant.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/021-ai-ticket-classifier.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1088,9 +1112,13 @@ Keep each response under 150 words. Test readability: would a frustrated custome
 
 > One AI agent supports 15+ languages, replacing 5 translators.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/023-ai-multi-language-support.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1246,9 +1274,13 @@ Important:
 
 > Auto-detects VIP customer anomalies. 30% missed issues drops to 0%.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/024-ai-vip-escalation.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1401,9 +1433,13 @@ Tone: Senior, professional, genuine. This should sound like it comes from someon
 
 > Processes an invoice in 30 seconds: extract, match, route — fully automated.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/031-ai-invoice-processor.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1566,9 +1602,13 @@ Provide a prioritized 90-day improvement roadmap.
 
 > Real-time inventory forecasting, replacing weekly manual stocktakes.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/033-ai-inventory-forecaster.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 

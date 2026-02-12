@@ -389,11 +389,14 @@ function generatePage(pagePath, config, lang, docsBase) {
     // One-line summary (always visible)
     content += `> ${summary}\n\n`;
 
-    // Video embed if available (visible, not collapsed)
+    // Video embed — collapsible
     if (videos[pad]) {
+      const videoLabel = isEN ? '▶ Watch Demo Video' : '▶ 观看演示视频';
+      content += `::: details ${videoLabel}\n\n`;
       content += `<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">\n`;
       content += `  <source src="${videos[pad]}" type="video/mp4">\n`;
       content += `</video>\n\n`;
+      content += `:::\n\n`;
     }
 
     // Collapsible: Pain point + Solution

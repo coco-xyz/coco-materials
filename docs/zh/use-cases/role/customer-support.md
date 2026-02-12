@@ -6,9 +6,13 @@ AI驱动的客服团队、帮助台和客户成功用例。
 
 > 工单自动分类路由，5分钟/单变为即时处理。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/021-ai-ticket-classifier.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -159,9 +163,13 @@ SLA层级：[按优先级列出你的SLA要求]
 
 > 1小时生成50篇知识库文章，从工单和对话自动提取。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/022-ai-knowledge-base-builder.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -315,9 +323,13 @@ COCO的AI Knowledge Base Builder将已解决的客服工单转化为已发布的
 
 > AI一键支持15+语言客服，替代5个翻译人员。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/023-ai-multi-language-support.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -473,9 +485,13 @@ COCO的AI Multi-Language Support提供母语质量的多语言客户服务，无
 
 > 自动识别VIP客户异常，30%漏检降至0%。
 
+::: details ▶ 观看演示视频
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/024-ai-vip-escalation.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 

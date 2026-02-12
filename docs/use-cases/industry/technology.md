@@ -6,9 +6,13 @@ AI use cases for tech companies, SaaS platforms, and dev teams.
 
 > Auto-reviews every PR: bugs, security, performance — full report in 15 minutes.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/005-ai-code-reviewer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -144,9 +148,13 @@ PR:
 
 > Reads source code and generates comprehensive tests with edge cases. Coverage: 34% → 89%.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/006-ai-test-generator.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -318,9 +326,13 @@ Generate ONLY the missing tests, not duplicates of existing coverage.
 
 > Monitors every deploy in real-time, detects anomalies in 90s, auto-rollbacks. MTTR: 47min → 2min.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/007-ai-deploy-monitor.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -487,9 +499,13 @@ Recommend new thresholds that reduce false positives by at least 50% while maint
 
 > Auto-generates and syncs API docs from codebase, multi-language examples, zero drift.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/008-ai-api-doc-writer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -670,9 +686,13 @@ Write in a friendly, clear tone. Assume the reader is a developer but has never 
 
 > Paste error logs, AI traces from symptom to root cause, provides ready-to-apply fix diffs.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/009-ai-debug-assistant.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -867,9 +887,13 @@ Correlate the logs across services to reconstruct:
 
 > Produces an SEO-optimized article in 20 minutes, from keyword research to final draft.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/010-ai-seo-content-writer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1070,9 +1094,13 @@ For each page provide:
 
 > One input, all platforms. 3 hours/day social media ops reduced to 15 minutes.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/011-ai-social-media-manager.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1255,9 +1283,13 @@ Only suggest participation if relevance is 6+ and risk is low-medium.
 
 > Generates 200 A/B ad copy variants in 10 minutes with data-driven optimization.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/012-ai-ad-copy-generator.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1462,9 +1494,13 @@ For each localized version:
 
 > Real-time competitive tracking. 2 days of research becomes 1 hour of automated insights.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/014-ai-competitive-copywriter.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1635,9 +1671,13 @@ Analyze:
 
 > Researches 200 leads/day, auto-enriched from LinkedIn, Crunchbase, scored and ready.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/015-ai-lead-researcher.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1817,9 +1857,13 @@ For each lead, provide:
 
 > Calls, emails, meetings auto-synced to CRM. 45 min/day data entry becomes zero.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/016-ai-crm-updater.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1973,9 +2017,13 @@ Also generate:
 
 > Auto-classifies and routes tickets. 5 min/ticket becomes instant.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/021-ai-ticket-classifier.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2126,9 +2174,13 @@ Keep each response under 150 words. Test readability: would a frustrated custome
 
 > Generates 50 knowledge base articles in 1 hour, auto-extracted from tickets and conversations.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/022-ai-knowledge-base-builder.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2282,9 +2334,13 @@ Compare the original and rewrite, noting specific improvements.
 
 > One AI agent supports 15+ languages, replacing 5 translators.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/023-ai-multi-language-support.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2440,9 +2496,13 @@ Important:
 
 > Screens 500 resumes in 2 hours, replacing 3 days of manual screening.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/025-ai-resume-screener.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2594,9 +2654,13 @@ Create a comparison matrix including:
 
 > Generates bias-free, SEO-optimized job descriptions in 10 minutes.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/026-ai-job-description-writer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2767,9 +2831,13 @@ Include data sources and note any limitations in the benchmarking.
 
 > New hire fully onboarded in 3 days instead of 2 weeks.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/028-ai-onboarding-assistant.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2943,9 +3011,13 @@ For each task: responsible person, deadline, dependencies, and verification that
 
 > Meeting notes ready instantly: transcript, summary, action items assigned.
 
+::: details ▶ Watch Demo Video
+
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/032-ai-meeting-notes.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
