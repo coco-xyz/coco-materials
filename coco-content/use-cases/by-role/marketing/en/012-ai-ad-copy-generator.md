@@ -3,26 +3,6 @@
 **Role**: Performance Marketer / Paid Media Specialist / Growth Manager | **Industry**: SaaS, E-commerce, D2C, Fintech, B2B | **Task**: Ad Copywriting, A/B Testing Variations, Multi-Platform Ad Creation, Creative Optimization
 
 ---
-
-## Social Media Copy
-
-Our Google Ads account had 340 ad groups. Each needed at least 3 responsive search ad variations. That's 1,020 ad copies to write, test, and optimize. Our performance marketing team: 2 people.
-
-They were spending 60% of their time writing ad copy. The other 40%? Analyzing which copy worked. Zero time left for bid strategy, audience testing, or landing page optimization -- you know, the stuff that actually moves ROAS.
-
-Worst part: 70% of their hand-written ads were rated "Poor" or "Average" by Google's Ad Strength score. Not because they were bad writers -- because they were exhausted writers.
-
-COCO's AI Ad Copy Generator turned the bottleneck into a pipeline:
-- Generates 15 headline + description variations per ad group in minutes
-- Understands platform-specific requirements (Google RSAs, Meta primary text, LinkedIn sponsored content)
-- Writes with proven copywriting frameworks (PAS, AIDA, benefit-first, urgency-driven)
-- Learns from our winning ads -- new variations inherit the patterns that historically convert
-- A/B testing velocity went from 2 variants/month to 12 variants/month per ad group
-
-After 3 months: Ad Strength scores went from 48% "Good/Excellent" to 87%. CPC dropped 22%. CTR improved 31%. Our team finally had time to optimize what mattered -- and ROAS jumped 40%.
-
----
-
 ## Detailed Introduction
 
 **The Pain: The Ad Copy Volume Problem**

@@ -3,26 +3,6 @@
 **Role**: Developer / Technical Writer / Developer Relations | **Industry**: Technology, SaaS, API-First Companies, Developer Tools | **Task**: API Documentation Generation, OpenAPI Spec Maintenance, Developer Guide Creation
 
 ---
-
-## Social Media Copy
-
-Our API had 142 endpoints. Our documentation covered 89 of them. Of those 89, at least 30 were outdated -- wrong parameter names, missing error codes, example responses that hadn't been valid since Q2 last year. Our developer community was frustrated. Support tickets about "the docs say X but the API returns Y" made up 23% of our support volume.
-
-The problem wasn't laziness. We had a docs team of 2 people covering 4 products. Every sprint shipped new endpoints faster than they could document the old ones.
-
-COCO's AI API Doc Writer changed the equation:
-- Reads our codebase and generates OpenAPI specs from the actual implementation
-- Detects drift between code and existing docs, flags what's outdated
-- Generates complete endpoint docs: description, parameters, request/response examples, error codes, authentication requirements
-- Creates SDK code samples in Python, JavaScript, Go, and cURL
-- Updates automatically when code changes land on main
-
-8 weeks later: 142/142 endpoints documented. Zero drift. Developer support tickets dropped 34%. Time-to-first-API-call for new integrators dropped from 3 days to 4 hours.
-
-Your API is only as good as its documentation.
-
----
-
 ## Detailed Introduction
 
 **The Pain: Documentation Drift Is Silently Killing Your Developer Experience**

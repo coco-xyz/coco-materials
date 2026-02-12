@@ -3,28 +3,6 @@
 **Role**: Content Marketer / Email Marketer / Editor | **Industry**: SaaS, Media, B2B Services, Professional Communities | **Task**: Newsletter Content Curation, Email Copywriting, Audience Segmentation, Engagement Optimization
 
 ---
-
-## 社媒文案
-
-每个周四下午2点，我开始恐慌。我们的周刊周五早上发出。我还需要找8-10篇相关文章、为每篇写摘要、撰写编辑导语、为3个受众分层定制内容、写邮件标题、设置Mailchimp活动。
-
-每周都要花6-8小时。整个工作周的25%花在策划和排版一封邮件上。
-
-打开率？22%。徘徊在行业平均水平。因为我把所有时间花在生产上，完全没时间做策略——理解什么话题驱动点击、什么格式引起共鸣、什么发送时间产生转化。
-
-COCO的AI Newsletter Curator彻底改变了我的周四：
-- 监控50+行业信息源，基于与受众分层的相关性筛选头条新闻
-- 用我们的编辑风格总结每篇文章——不是机器人式的AI总结，而是真正的编辑点评
-- 生成3个邮件标题选项，按预测打开率排序
-- 为每个受众分层创建个性化的开头段落
-- 按我们的邮件模板格式化所有内容
-
-Newsletter制作：6小时降至75分钟。4个月后打开率：从22%升至34%。点击率：上升47%。我终于有时间和订阅者交流，了解他们真正想要什么。
-
----
-
----
-
 ## 详细介绍
 
 **痛点：Newsletter制作是每周消耗大量时间却收益递减的黑洞**

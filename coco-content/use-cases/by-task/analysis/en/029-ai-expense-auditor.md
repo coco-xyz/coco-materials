@@ -3,24 +3,6 @@
 **Role**: Finance Manager / Controller / Compliance Officer | **Industry**: Any Enterprise, Professional Services, Consulting, Government | **Task**: Expense Report Auditing, Policy Compliance, Fraud Detection, Reimbursement Processing
 
 ---
-
-## Social Media Copy
-
-Our finance team manually reviewed 1,200 expense reports per month. Each review: open the report, check receipt images, verify amounts match, check against expense policy (is this meal within the $75 limit? is this hotel in the approved rate range? was this flight booked 14+ days in advance?), flag exceptions, email the submitter for clarification, wait for response, re-review. Average time per report: 8 minutes. That's 160 hours/month. Two full-time employees doing nothing but reading receipts.
-
-Despite all that effort, our audit caught only about 60% of policy violations. The ones that slipped through? A senior director systematically claiming personal Uber rides as client entertainment -- $14,000 over 8 months. Discovered accidentally during a random deep audit, not through our regular process.
-
-COCO's AI Expense Auditor reviews every report in seconds:
-- Reads receipt images (OCR), extracts amounts, matches to claimed values
-- Checks every line item against company expense policy -- every rule, every limit, every exception
-- Detects patterns: same vendor appearing too frequently, round-number expenses (often estimates, not actuals), expenses just below approval thresholds
-- Flags anomalies with specific policy citations and risk scores
-- Auto-approves clean reports, routes exceptions to human reviewer with full context
-
-Audit coverage: from 60% violation detection to 97%. Processing time per report: from 8 minutes to 12 seconds. That $14K personal Uber scheme? Would have been flagged in month one. Finance team now focuses on strategic analysis, not receipt reading.
-
----
-
 ## Detailed Introduction
 
 **The Pain: Manual Expense Auditing Is Slow, Incomplete, and Expensive**

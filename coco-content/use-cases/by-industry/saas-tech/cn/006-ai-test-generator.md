@@ -3,27 +3,6 @@
 **Role**: Developer / QA Engineer | **Industry**: Technology, SaaS, Fintech, Healthcare IT | **Task**: Automated Test Generation, Test Coverage Improvement, Regression Testing
 
 ---
-
-## 社媒文案
-
-上个月我审计了我们的测试套件。结果很惭愧：分支覆盖率34%。整个模块零测试。支付流程的"关键路径"？只有一个2022年写的happy path测试。
-
-我们不是有测试问题，我们是有数学问题。20万行代码，2个QA工程师。按他们每周约15个有意义的测试的速度，达到80%覆盖率需要3.4年。到那时代码量早已翻倍。
-
-6周前我们部署了COCO的AI Test Generator：
-- 读取代码库，识别了847条未测试的代码路径
-- 生成了我们从未想到的边界测试（队列处理器的竞态条件、计费系统的时区边界bug）
-- 匹配我们现有的测试模式——Vitest、factory-bot fixtures、自定义断言工具
-- 前两周生成了2100个测试。89%首次运行通过。那11%失败的？发现了真实的bug。
-
-覆盖率从34%升到78%。我们的部署信心指标（以回滚率衡量）提升了60%。
-
-别再逐行写测试了。告诉你的AI员工该测什么。
-
----
-
----
-
 ## 详细介绍
 
 **痛点：永远还不清的测试覆盖率债务**

@@ -3,26 +3,6 @@
 **Role**: Recruiter / Hiring Manager / HR Business Partner | **Industry**: Any Industry | **Task**: Job Description Writing, Inclusive Language Optimization, Compensation Benchmarking, Employer Brand Messaging
 
 ---
-
-## 社媒文案
-
-我们分析了为什么我们的工程职位需要47天才能填补，而行业中位数是36天。瓶颈不是寻源或面试——是申请量。Pipeline很薄因为合格候选人不申请。当我们审计职位描述时，原因变得明显了。它们读起来像合规文件，不像招聘广告。
-
-"必须有7年以上企业级Java开发经验，使用Spring Boot、Hibernate和微服务架构，在使用Docker和Kubernetes的CI/CD环境中于AWS上。"这是我们的开头。不是关于这个角色做什么。不是为什么有人会想要这份工作。只是一堵需求墙，让70%合格的女性和少数群体候选人自动放弃了（斯坦福研究显示女性只有在满足100%要求时才申请；男性在60%时就会申请）。
-
-COCO的AI Job Description Writer重构了我们的方法：
-- 分析实际角色需求，将真正的要求和加分项分开
-- 撰写以影响力和成长开头的描述，而非需求清单
-- 运行包容性语言分析：移除性别化语言、过多要求和排斥性行话
-- 对照市场数据基准化薪酬以免定价过低
-- 生成针对不同渠道优化的版本（LinkedIn、Indeed、招聘页面）
-
-申请量：+64%。女性申请者：+41%。Pipeline中的多元化候选人：+38%。招聘周期：从47天降至31天。同样的职位，更好的描述。
-
----
-
----
-
 ## 详细介绍
 
 **痛点：糟糕的职位描述是看不见的Pipeline杀手**

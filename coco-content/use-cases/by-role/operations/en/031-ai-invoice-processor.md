@@ -3,25 +3,6 @@
 **Role**: Accounts Payable Clerk / AP Manager / Finance Operations | **Industry**: Any Enterprise, Manufacturing, Retail, Healthcare | **Task**: Invoice Processing, PO Matching, Payment Scheduling, AP Automation
 
 ---
-
-## Social Media Copy
-
-Our AP department processed 3,400 invoices per month. Each one: receive the invoice (email, mail, portal), enter it into the system, match to PO, verify quantities and pricing, code to GL accounts, route for approval, schedule payment. Average processing time: 14 minutes per invoice. Error rate: 8.3%. Late payment penalty fees: $23,000 last year.
-
-The invoices arrived in every imaginable format: PDFs attached to emails, scanned paper documents, supplier portal downloads, photos of receipts taken on phones. Three of our four AP clerks spent their entire day on data entry and matching. The fourth spent her day chasing approvals and resolving discrepancies.
-
-COCO's AI Invoice Processor turned our AP team from data entry operators into financial controllers:
-- Reads invoices in any format (PDF, image, email body, XML) and extracts all fields automatically
-- Matches to purchase orders with fuzzy matching (catches "Widget Corp" vs "Widget Corporation Inc.")
-- 3-way match: PO, invoice, and goods receipt -- flags discrepancies at the line-item level
-- Auto-codes GL accounts based on vendor, category, and historical patterns
-- Routes for approval based on amount thresholds and department rules
-- Schedules payments to optimize early payment discounts vs. cash flow
-
-Processing time per invoice: from 14 minutes to 45 seconds. Error rate: from 8.3% to 0.6%. Late payment penalties: from $23K to under $2K. The team now manages vendor relationships and cash flow strategy.
-
----
-
 ## Detailed Introduction
 
 **The Pain: AP Is the Most Labor-Intensive Function in Finance**

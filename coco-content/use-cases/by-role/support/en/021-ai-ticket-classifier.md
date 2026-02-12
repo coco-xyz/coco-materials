@@ -3,26 +3,6 @@
 **Role**: Support Operations / Support Manager / Customer Success | **Industry**: SaaS, E-commerce, Fintech, Healthcare, Telecommunications | **Task**: Ticket Routing, Priority Classification, Auto-Triage, SLA Management
 
 ---
-
-## Social Media Copy
-
-Our support team received 2,400 tickets per week. A team lead spent 3 hours every morning manually triaging them: reading each ticket, assigning priority, routing to the right specialist, tagging with category. By 11 AM, the morning queue was sorted. By noon, 200 more tickets had piled up unclassified.
-
-The misrouting rate was 31%. Nearly a third of tickets went to the wrong team first, bouncing between agents before reaching someone who could actually help. Average first-response time: 4.7 hours. For billing issues that were misrouted to technical support, it was 9+ hours.
-
-Customer satisfaction during this period: 72%. "We've been saying we'd fix triage for 3 years" was a running joke in the ops team.
-
-COCO's AI Ticket Classifier fixed it in one week:
-- Reads every incoming ticket (email, chat, form) and classifies in under 2 seconds
-- Assigns priority based on content analysis: payment failures get P1, "how do I" questions get P3
-- Routes to the correct team based on 42 category/subcategory combinations we defined
-- Detects sentiment -- angry customers get flagged for priority handling even if the issue seems routine
-- Auto-responds to 35% of tickets with KB article links that actually answer the question
-
-Misrouting: from 31% to 4%. First-response time: from 4.7 hours to 47 minutes. CSAT: from 72% to 89%. The team lead now coaches agents instead of sorting emails.
-
----
-
 ## Detailed Introduction
 
 **The Pain: Manual Ticket Triage Is a Bottleneck That Gets Worse at Scale**

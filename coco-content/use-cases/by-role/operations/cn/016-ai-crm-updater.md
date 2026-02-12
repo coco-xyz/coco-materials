@@ -3,27 +3,6 @@
 **Role**: Sales Rep / Account Executive / Sales Operations | **Industry**: B2B SaaS, Enterprise Sales, Professional Services | **Task**: CRM Data Entry, Activity Logging, Pipeline Hygiene, Deal Intelligence
 
 ---
-
-## 社媒文案
-
-我让销售团队追踪了一周的CRM更新。真实数据：每个销售每周花4.2小时在数据录入上。记录电话、更新交易阶段、添加会议笔记、填写联系人字段、创建跟进任务。
-
-每周整整半天——不在卖东西。12个销售加起来，每周50个小时的销售产能蒸发进了一个数据库。
-
-但真正的损害更严重。因为销售讨厌这些琐事，他们会在周五下午批量更新。到那时候，一半的细节已经忘了。交易阶段是过时的。会议笔记是模糊的一行话而非可操作的情报。我们的Pipeline预测基于的数据永远滞后3-5天。
-
-COCO的AI CRM Updater让数据录入变得无感：
-- 监听销售电话（Gong/Chorus集成），提取关键数据，自动填充CRM字段
-- 每次会议后生成结构化笔记：做出的决策、提出的异议、下一步行动、提到的利益相关者、预算信号
-- 基于对话内容检测交易阶段是否应该变更——而非等销售记得去点下拉菜单
-- 自动标记停滞交易（"14天无活动，上次联系人提到正在评估竞品"）
-
-CRM数据完整度：从61%升至94%。Pipeline预测准确度：提升38%。销售每周多出4+小时。VP Sales终于信任仪表板上的数字了。
-
----
-
----
-
 ## 详细介绍
 
 **痛点：CRM数据录入正在扼杀销售效率和Pipeline准确性**

@@ -3,28 +3,6 @@
 **Role**: Enterprise Support / Customer Success Manager / Support Operations | **Industry**: SaaS, Enterprise Software, Fintech, Healthcare | **Task**: VIP Customer Detection, Intelligent Escalation, Priority Queue Management, Churn Prevention
 
 ---
-
-## 社媒文案
-
-我们最大的客户——38万美元ARR——周五下午4:47提交了一个P3的账单问题。整个周末它在通用队列里排着。周一早上一个初级坐席用模板回复了，完全没有解决实际问题。客户的运营VP回复到（我们CEO的收件箱）："我们正在评估替代方案。"
-
-这是一个38万美元的账户。工单关于一个12美元的费用差异。问题不是那12美元。是被当作其他所有工单一样对待。
-
-那次差点流失的教训让我们认识到：我们的客服系统对客户价值是盲目的。38万美元的企业账户和29美元/月的入门计划得到完全相同的队列位置、相同的SLA和相同的自动回复。
-
-COCO的AI VIP Escalation改变了这一切：
-- 即时识别高价值客户：ARR层级、合同续约日期、账户健康评分、高管联系人
-- 基于客户价值+问题严重性+情绪检测自动升级
-- 将VIP工单路由给高级坐席，预加载完整的账户上下文
-- 检测工单语言中的流失信号（"评估"、"感到沮丧"、"没有得到价值"、"取消"）
-- 当VIP提交任何P2+问题时触发主动的CSM提醒
-
-那个38万美元的账户续约了——还扩展了。去年零VIP账户因客服体验流失。VIP平均首次响应时间：12分钟（vs标准的2小时）。
-
----
-
----
-
 ## 详细介绍
 
 **痛点：你的客服系统分不清50万的客户和免费试用用户**

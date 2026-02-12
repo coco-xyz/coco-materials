@@ -3,24 +3,6 @@
 **Role**: Marketing Strategist / Brand Manager / Competitive Intelligence Analyst | **Industry**: SaaS, Technology, E-commerce, B2B Services | **Task**: Competitive Analysis, Differentiation Messaging, Battle Card Creation, Win/Loss Analysis
 
 ---
-
-## Social Media Copy
-
-Our biggest competitor launched a new feature that overlapped with 60% of our product. Within a week, our sales team lost 3 deals they'd been nurturing for months. The prospects all said the same thing: "Their messaging makes it sound like they do everything you do, but cheaper."
-
-The painful truth: it wasn't true. Our product was stronger in 4 key areas. But our messaging didn't say that. Our website copy hadn't been updated since the competitor's launch. Our sales deck still positioned us against their old product. Our battle cards were 6 months stale.
-
-We deployed COCO's AI Competitive Copywriter after that wake-up call:
-- Monitors competitor websites, press releases, G2 reviews, and product changelog pages weekly
-- Auto-updates our competitive battle cards when they ship changes
-- Generates differentiation-focused copy for every channel: website, sales decks, email sequences, ad copy
-- When a competitor launches something, we have updated positioning copy within 24 hours -- not 3 weeks
-- Creates objection-handling scripts based on real competitor claims
-
-6 months later: competitive win rate improved from 34% to 52%. Deals lost to "competitor messaging" dropped 61%. Our sales team stopped being caught off guard.
-
----
-
 ## Detailed Introduction
 
 **The Pain: Your Competitive Messaging Is Always Out of Date**

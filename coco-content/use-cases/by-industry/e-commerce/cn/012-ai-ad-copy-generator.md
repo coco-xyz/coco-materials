@@ -3,28 +3,6 @@
 **Role**: Performance Marketer / Paid Media Specialist / Growth Manager | **Industry**: SaaS, E-commerce, D2C, Fintech, B2B | **Task**: Ad Copywriting, A/B Testing Variations, Multi-Platform Ad Creation, Creative Optimization
 
 ---
-
-## 社媒文案
-
-我们的Google Ads账户有340个广告组。每个至少需要3个自适应搜索广告变体。那就是1020条广告文案要写、要测试、要优化。我们的效果营销团队：2个人。
-
-他们60%的时间在写广告文案。剩下的40%？分析哪些文案有效。根本没时间做出价策略、受众测试或落地页优化——你知道的，那些真正影响ROAS的事情。
-
-最糟糕的是：他们手写的广告中70%被Google的Ad Strength评为"差"或"一般"。不是因为他们写得差——是因为他们写到精疲力竭。
-
-COCO的AI Ad Copy Generator把瓶颈变成了流水线：
-- 几分钟内为每个广告组生成15个标题+描述变体
-- 理解平台特定要求（Google RSA、Meta主文本、LinkedIn赞助内容）
-- 使用经过验证的文案框架（PAS、AIDA、利益优先、紧迫感驱动）
-- 从我们的获胜广告中学习——新变体继承历史转化的模式
-- A/B测试速度从每月2个变体提升到每广告组每月12个变体
-
-3个月后：Ad Strength评分从48%"好/优秀"升至87%。CPC下降22%。CTR提升31%。团队终于有时间优化真正重要的事情——ROAS跳增40%。
-
----
-
----
-
 ## 详细介绍
 
 **痛点：广告文案的量产难题**

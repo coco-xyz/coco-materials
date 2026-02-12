@@ -3,24 +3,6 @@
 **Role**: Support Manager / Customer Success / Global Operations | **Industry**: SaaS, E-commerce, Gaming, Fintech, Any Global Company | **Task**: Multi-Language Customer Support, Real-Time Translation, Localized Response Generation
 
 ---
-
-## Social Media Copy
-
-We expanded into Japan, Germany, and Brazil last year. Support tickets in Japanese, German, and Portuguese started arriving immediately. Our support team spoke English and Spanish. The plan was "hire native speakers for each market." The budget supported one agent per language. The ticket volume supported three.
-
-While we were recruiting (which took 4 months for the Japanese-speaking agent alone), we used Google Translate for customer emails. Our Japanese customers started posting on Twitter about the "robot-level" quality of our support responses. One screenshot of a badly translated reply got 2,000 retweets. Our NPS in Japan dropped to -15 before we even had boots on the ground.
-
-COCO's AI Multi-Language Support agent changed the economics entirely:
-- Detects language automatically (including mixed-language tickets)
-- Translates incoming tickets to English for our agents, preserving technical terms and context
-- Agents write responses in English, COCO translates back with native fluency -- not word-by-word translation
-- Understands cultural communication norms (Japanese honorific levels, German formal/informal conventions, Brazilian warmth expectations)
-- Handles 14 languages with consistent quality
-
-We scaled to 23 countries with the same team size. Multi-language CSAT: from 61% (Google Translate era) to 87%. We hired language specialists for our top 3 markets eventually -- but they handle escalations, not every ticket.
-
----
-
 ## Detailed Introduction
 
 **The Pain: Global Expansion Requires Support in Languages You Don't Speak**

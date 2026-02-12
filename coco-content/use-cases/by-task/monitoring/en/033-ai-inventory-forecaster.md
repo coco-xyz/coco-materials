@@ -3,26 +3,6 @@
 **Role**: Supply Chain Manager / Demand Planner / Operations Director | **Industry**: E-commerce, Retail, Manufacturing, Distribution, CPG | **Task**: Demand Forecasting, Inventory Optimization, Stockout Prevention, Overstock Reduction
 
 ---
-
-## Social Media Copy
-
-Last Black Friday, we stocked 40,000 units of our best-selling product. We sold out by 2 PM on Saturday. Lost an estimated $280K in sales over the remaining weekend. Meanwhile, we were sitting on $450K of slow-moving inventory from a product line that our demand planner had overestimated by 60%.
-
-Two mistakes, same root cause: our forecasting was based on last year's numbers plus a growth factor plus gut feel. It didn't account for the competitor who went out of stock (driving demand to us), the TikTok video that went viral for one SKU, or the macro shift in consumer preferences away from our overstock category.
-
-Inventory planning with spreadsheets is bringing a knife to a data fight.
-
-COCO's AI Inventory Forecaster replaced gut feel with signal detection:
-- Analyzes 36 months of sales data, seasonality patterns, and trend curves per SKU
-- Incorporates external signals: competitor stock status, social media mentions, weather forecasts, economic indicators
-- Generates demand forecasts at the SKU level with confidence intervals (not just a single number)
-- Recommends optimal reorder points and quantities balancing stockout risk vs. carrying cost
-- Flags anomalies: "SKU #4721 trending 340% above forecast -- investigate TikTok mention on Jan 12"
-
-Stockout events: down 67%. Overstock write-downs: down 43%. Inventory turnover ratio: improved from 4.2x to 6.1x. Working capital freed up: $1.2M. We don't guess anymore.
-
----
-
 ## Detailed Introduction
 
 **The Pain: Inventory Forecasting with Spreadsheets Costs Millions in Stockouts and Overstock**

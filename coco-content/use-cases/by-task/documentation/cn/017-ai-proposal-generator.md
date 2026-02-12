@@ -3,25 +3,6 @@
 **Role**: Account Executive / Sales Engineer / Business Development | **Industry**: B2B SaaS, Consulting, Professional Services, Enterprise Sales | **Task**: Sales Proposal Creation, RFP Response, SOW Drafting, Custom Pricing Packages
 
 ---
-
-## 社媒文案
-
-一个客户周四下午要proposal。他们在评估另外两个供应商，需要所有proposal周一前提交。我的AE手上还有3个处于关键阶段的交易。Proposal需要：公司特定的用例映射、基于他们数据的ROI预测、适配他们技术栈的架构图、3个档次的定价、实施时间线、来自类似公司的参考案例。
-
-之前从零构建一个proposal需要12-15小时。即使有模板，适当定制也至少6-8小时。AE花了周四晚上和整个周五来做，错过了另外3笔交易的关键跟进。
-
-部署COCO的AI Proposal Generator后：
-- AE从CRM输入潜客详情：行业、公司规模、用例、讨论过的痛点、预算范围
-- COCO在20分钟内生成初稿：定制的执行摘要、从我们案例库映射的用例、用潜客数据填充的ROI模型、适配其技术栈的架构方案
-- AE审阅，添加个人风格和战略定位，发送
-- 总时间：2.5小时而非12小时
-
-每个AE的proposal产出：提升3倍。Proposal胜率：提升22%（更高质量+更快周转）。没有一笔交易因为AE埋在PPT里而停滞。
-
----
-
----
-
 ## 详细介绍
 
 **痛点：Proposal是在不可能的时间压力下构建的高风险文档**

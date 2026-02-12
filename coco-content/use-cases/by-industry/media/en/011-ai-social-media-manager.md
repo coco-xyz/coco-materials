@@ -3,24 +3,6 @@
 **Role**: Social Media Manager / Content Creator / Marketing Coordinator | **Industry**: Any B2B/B2C, SaaS, E-commerce, D2C, Agencies | **Task**: Social Media Content Creation, Scheduling, Cross-Platform Management, Engagement Optimization
 
 ---
-
-## Social Media Copy
-
-Managing 5 social channels used to eat my entire week. Monday: plan content calendar. Tuesday-Wednesday: write posts, design briefs, find images. Thursday: schedule everything in Hootsuite. Friday: respond to comments and analyze last week's metrics. Repeat forever.
-
-The hardest part wasn't any single task -- it was the context switching. LinkedIn needs thought leadership. Twitter needs punchy takes. Instagram needs visual storytelling. TikTok needs trends. Each platform has different character limits, image specs, posting times, and audience expectations. One piece of content becomes 5 different pieces of work.
-
-We started using COCO's AI Social Media Manager 3 months ago:
-- Feed it one core idea or blog post, it generates platform-specific versions for all 5 channels
-- Knows that LinkedIn posts perform better with personal narratives, Twitter needs hot takes under 280 chars, Instagram captions need emoji patterns and hashtag strategy
-- Suggests optimal posting times based on our historical engagement data
-- Drafts replies to comments that match our brand voice
-- Generates a complete week's content calendar in 45 minutes
-
-Output went from 15 posts/week to 42 posts/week. Engagement rate up 34%. I went from being a full-time posting machine to actually doing strategy work.
-
----
-
 ## Detailed Introduction
 
 **The Pain: Social Media Demands Infinite Content Across Incompatible Platforms**

@@ -3,26 +3,6 @@
 **Role**: Recruiter / Talent Acquisition / HR Manager | **Industry**: Any Industry with Hiring Needs | **Task**: Resume Screening, Candidate Shortlisting, Skills Assessment, Bias Reduction
 
 ---
-
-## Social Media Copy
-
-We posted a Senior Backend Engineer role on LinkedIn. 847 applications in 10 days. Our recruiting team: 2 people covering 23 open positions. At 4 minutes per resume review, screening just this one role would take 56 hours. That's more than a full work week on a single job posting.
-
-So what actually happened? The recruiters spent 2 days on it, skimmed most resumes in under 60 seconds, and pattern-matched on keywords: "AWS," "Python," "5+ years." They missed a candidate who had 8 years building distributed systems at a fintech startup -- because her resume said "cloud infrastructure" instead of "AWS" and her title was "Platform Engineer" not "Backend Engineer."
-
-She got hired by our competitor. She's now their tech lead.
-
-COCO's AI Resume Screener reads what recruiters scan:
-- Evaluates every resume against the actual job requirements, not just keywords
-- Understands that "Platform Engineer building cloud infrastructure" matches "Senior Backend Engineer with AWS experience"
-- Scores candidates on a multi-dimensional rubric: technical skills, experience relevance, growth trajectory, culture indicators
-- Processes 847 resumes in 23 minutes, surfacing the top 40 with detailed justification for each ranking
-- Flags hidden gems: candidates whose titles don't match but whose experience does
-
-Screening time: from 56 hours to 23 minutes. Quality of shortlist: 3 out of 5 finalists now come from candidates the old process would have missed. Time-to-hire reduced by 8 days. We stopped hiring based on keyword bingo.
-
----
-
 ## Detailed Introduction
 
 **The Pain: Resume Screening Is a Volume Problem That Destroys Quality**

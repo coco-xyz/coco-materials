@@ -3,23 +3,6 @@
 **Role**: Account Executive / Sales Engineer / Business Development | **Industry**: B2B SaaS, Consulting, Professional Services, Enterprise Sales | **Task**: Sales Proposal Creation, RFP Response, SOW Drafting, Custom Pricing Packages
 
 ---
-
-## Social Media Copy
-
-A prospect asked for a proposal on Thursday afternoon. They were evaluating two other vendors and wanted all proposals by Monday. My AE had 3 other deals at critical stages. The proposal needed: company-specific use case mapping, ROI projections based on their data, technical architecture diagram for their stack, pricing with 3 tiers, implementation timeline, and references from similar companies.
-
-Previous proposals took 12-15 hours to build from scratch. Even with templates, 6-8 hours minimum for proper customization. My AE spent Thursday night and all of Friday on it, missing critical follow-ups on the other 3 deals.
-
-After implementing COCO's AI Proposal Generator:
-- AE inputs prospect details from the CRM: industry, company size, use case, pain points discussed, budget range
-- COCO generates a first draft in 20 minutes: tailored executive summary, use case mapping from our case library, ROI model populated with prospect-specific data, architecture fit for their tech stack
-- AE reviews, adds personal touches and strategic positioning, sends
-- Total time: 2.5 hours instead of 12
-
-Proposal output per AE: up 3x. Win rate on proposals: up 22% (better quality + faster turnaround). Not a single deal stalled because an AE was buried in PowerPoint.
-
----
-
 ## Detailed Introduction
 
 **The Pain: Proposals Are High-Stakes Documents Built Under Impossible Time Pressure**

@@ -3,26 +3,6 @@
 **Role**: FP&A Analyst / Finance Manager / Controller / CFO | **Industry**: Any Enterprise, SaaS, Manufacturing, Professional Services | **Task**: Financial Report Generation, Variance Analysis, Budget Forecasting, Board Deck Preparation
 
 ---
-
-## Social Media Copy
-
-Month-end close. The two words that make every FP&A analyst's eye twitch. Three days of pulling data from 6 systems, reconciling discrepancies, building pivot tables, formatting reports, writing variance commentary, and assembling the board deck. Every month. Like clockwork. Except the clock is always running out.
-
-Our FP&A team of 3 spent 40% of their month on report production. Not analysis. Not strategic insight. Not forecasting. Just pulling numbers into the same templates, writing "Revenue was $2.3M, up 12% vs plan due to strong Enterprise performance in North America" for the 47th time in slightly different words.
-
-The CFO wanted more strategic analysis. The team wanted more strategic analysis. But strategic analysis requires time, and time was consumed by the mechanical work of assembling the same 15 reports every month.
-
-COCO's AI Financial Report Generator automated the mechanical, amplified the strategic:
-- Connects to our ERP, CRM, and billing systems; pulls actuals automatically
-- Generates all 15 monthly reports with correct numbers, variance calculations, and formatted charts
-- Writes variance commentary that explains WHY numbers moved, not just THAT they moved ("Revenue +12% driven by 3 Enterprise deals closed ahead of schedule; offset by 8% SMB shortfall from delayed product launch")
-- Produces first draft of board deck with narrative, visualizations, and key metrics
-- FP&A team reviews, adds strategic insight, and delivers -- in 1 day instead of 3
-
-Report production time: from 3 days to 4 hours. Error rate in financial reports: down 91%. Strategic analysis time: up from 15% to 45% of FP&A capacity. The CFO finally gets the "so what" behind the numbers.
-
----
-
 ## Detailed Introduction
 
 **The Pain: FP&A Teams Are Report Factories, Not Strategic Advisors**

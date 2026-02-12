@@ -3,26 +3,6 @@
 **Role**: Support Manager / Customer Success / Global Operations | **Industry**: SaaS, E-commerce, Gaming, Fintech, Any Global Company | **Task**: Multi-Language Customer Support, Real-Time Translation, Localized Response Generation
 
 ---
-
-## 社媒文案
-
-去年我们扩展到了日本、德国和巴西。日语、德语和葡萄牙语的工单立刻涌入。我们的客服团队说英语和西班牙语。计划是"为每个市场招母语者"。预算支持每种语言一个坐席。工单量需要三个。
-
-在我们招聘期间（仅日语坐席就花了4个月），我们用谷歌翻译处理客户邮件。日本客户开始在Twitter上吐槽我们"机器人级别"的客服回复质量。一张翻译糟糕的回复截图被转发了2000次。我们在日本的NPS还没站稳脚跟就跌到了-15。
-
-COCO的AI Multi-Language Support彻底改变了经济模型：
-- 自动检测语言（包括混合语言工单）
-- 将收到的工单翻译成英文给坐席，保留技术术语和上下文
-- 坐席用英文写回复，COCO以母语级别的流畅度翻译回去——不是逐字翻译
-- 理解文化沟通规范（日语敬语级别、德语正式/非正式惯例、巴西人的热情期望）
-- 14种语言保持一致的质量
-
-我们用同样的团队规模扩展到了23个国家。多语言CSAT：从61%（谷歌翻译时代）升至87%。我们最终为前3大市场招了语言专家——但他们处理升级，不是每张工单。
-
----
-
----
-
 ## 详细介绍
 
 **痛点：全球扩展需要你不会说的语言的客户支持**

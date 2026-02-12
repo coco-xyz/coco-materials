@@ -3,26 +3,6 @@
 **Role**: Recruiting Coordinator / Talent Operations / HR | **Industry**: Any Industry with High Hiring Volume | **Task**: Interview Scheduling, Calendar Coordination, Candidate Communication, Interview Loop Management
 
 ---
-
-## Social Media Copy
-
-Our recruiting coordinator spent 67% of her week on one task: scheduling interviews. Not sourcing. Not candidate experience. Not process improvement. Just the soul-crushing back-and-forth of matching interviewer availability with candidate availability across time zones, while dodging meeting conflicts, respecting interview panel composition requirements, and rebooking when someone inevitably cancels 2 hours before.
-
-For a single onsite interview loop (5 interviewers, 1 candidate), the average coordination effort was 14 emails and 45 minutes. We were running 30+ interview loops per week. That's 22+ hours of calendar Tetris.
-
-The downstream damage: candidates waited 5.2 days between "we'd like to schedule" and "your interview is confirmed." In that window, 18% accepted offers from faster-moving competitors. We weren't losing candidates on quality. We were losing them on speed.
-
-COCO's AI Interview Scheduler eliminated the bottleneck:
-- Reads all interviewer calendars and finds optimal slots automatically
-- Respects constraints: panel composition, interviewer load limits, time zone preferences, room availability
-- Sends professional scheduling communication to candidates with one-click confirmation
-- Auto-handles reschedules without human intervention
-- Average scheduling time: from 45 minutes to 3 minutes per loop
-
-Candidate wait time: from 5.2 days to 1.4 days. Candidates lost to scheduling delays: from 18% to 4%. Our recruiting coordinator now does actual recruiting.
-
----
-
 ## Detailed Introduction
 
 **The Pain: Interview Scheduling Is the Silent Killer of Recruiting Speed**

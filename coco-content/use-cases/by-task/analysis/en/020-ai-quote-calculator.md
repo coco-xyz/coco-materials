@@ -3,25 +3,6 @@
 **Role**: Sales Rep / Sales Operations / Revenue Operations | **Industry**: SaaS, Manufacturing, Professional Services, Enterprise | **Task**: Quote Generation, Pricing Configuration, Discount Approval, Deal Structuring
 
 ---
-
-## Social Media Copy
-
-Our pricing had 4 tiers, 3 add-on modules, volume discounts starting at 100 seats, annual vs monthly billing differences, a partner margin table, and 6 different discount approval thresholds depending on deal size and contract length. The pricing spreadsheet was 47 tabs.
-
-Every quote took 30-45 minutes. A rep would build the quote, realize the discount needed VP approval, email the VP, wait 4 hours, get asked to restructure the deal, rebuild the quote, and send it to the prospect a full day later. Meanwhile, the competitor sent their quote in 20 minutes.
-
-We lost 3 deals last quarter where the prospect explicitly said: "The other vendor got back to us faster."
-
-COCO's AI Quote Calculator eliminated the bottleneck:
-- Rep describes the deal parameters in natural language: "200 seats, Enterprise tier, the analytics add-on, 2-year commitment, they want 15% off"
-- COCO generates the quote, checks it against discount policy, flags that 15% needs director approval for this deal size, suggests a 12% + extended payment terms alternative that doesn't need approval
-- Outputs a formatted quote document ready to send
-- Total time: 4 minutes. No spreadsheet. No waiting for approval on pre-approved structures.
-
-Quote generation time: from 45 minutes to 4 minutes. Approval cycle: from 6 hours to 20 minutes (for quotes that actually need approval). Deals lost to "too slow to quote": zero last quarter.
-
----
-
 ## Detailed Introduction
 
 **The Pain: Complex Pricing Slows Down Your Fastest Deals**

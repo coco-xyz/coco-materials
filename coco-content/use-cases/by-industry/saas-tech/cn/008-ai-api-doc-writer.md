@@ -3,28 +3,6 @@
 **Role**: Developer / Technical Writer / Developer Relations | **Industry**: Technology, SaaS, API-First Companies, Developer Tools | **Task**: API Documentation Generation, OpenAPI Spec Maintenance, Developer Guide Creation
 
 ---
-
-## 社媒文案
-
-我们的API有142个端点。文档覆盖了89个。那89个里面，至少30个已经过时——参数名称错误、缺少错误码、示例响应从去年Q2起就不再有效。开发者社区很沮丧。"文档说X但API返回Y"的支持工单占了我们工单量的23%。
-
-问题不是团队偷懒。我们的文档团队只有2个人，负责4个产品。每个sprint上线新端点的速度比他们记录旧端点的速度还快。
-
-COCO的AI API Doc Writer改变了这个等式：
-- 读取代码库，从实际实现生成OpenAPI规范
-- 检测代码和现有文档之间的偏差，标记过时内容
-- 生成完整的端点文档：描述、参数、请求/响应示例、错误码、认证要求
-- 创建Python、JavaScript、Go和cURL的SDK代码示例
-- 代码变更合并到main时自动更新
-
-8周后：142/142端点全部文档化。零偏差。开发者支持工单下降34%。新接入者的首次API调用时间从3天缩短到4小时。
-
-你的API质量，取决于你的文档质量。
-
----
-
----
-
 ## 详细介绍
 
 **痛点：文档漂移正在悄悄毁掉你的开发者体验**

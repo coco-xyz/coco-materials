@@ -3,26 +3,6 @@
 **Role**: Social Media Manager / Content Creator / Marketing Coordinator | **Industry**: Any B2B/B2C, SaaS, E-commerce, D2C, Agencies | **Task**: Social Media Content Creation, Scheduling, Cross-Platform Management, Engagement Optimization
 
 ---
-
-## 社媒文案
-
-管理5个社交渠道曾经吃掉我整个星期。周一：规划内容日历。周二周三：写帖子、设计brief、找图片。周四：在Hootsuite里排期。周五：回复评论，分析上周数据。永远循环。
-
-最难的不是任何单一任务——而是上下文切换。LinkedIn需要思想领袖式内容。Twitter需要犀利观点。Instagram需要视觉叙事。TikTok需要追热点。每个平台有不同的字数限制、图片规格、发布时间和受众期待。一条内容变成5份不同的工作。
-
-3个月前我们开始使用COCO的AI Social Media Manager：
-- 给它一个核心创意或博客文章，它为所有5个渠道生成平台特定版本
-- 知道LinkedIn帖子用个人叙事表现更好，Twitter需要280字以内的犀利观点，Instagram标题需要emoji模式和话题标签策略
-- 基于我们的历史互动数据建议最佳发布时间
-- 起草匹配品牌调性的评论回复
-- 45分钟生成一整周的内容日历
-
-产出从每周15条增至42条。互动率上升34%。我从一个全职发帖机器变成了真正做策略的人。
-
----
-
----
-
 ## 详细介绍
 
 **痛点：社交媒体要求在不兼容的平台上产出无限内容**

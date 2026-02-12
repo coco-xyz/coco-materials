@@ -3,24 +3,6 @@
 **Role**: Account Executive / SDR / Customer Success | **Industry**: B2B SaaS, Professional Services, Enterprise Sales | **Task**: Follow-up Email Writing, Meeting Recap, Nurture Sequences, Re-engagement Campaigns
 
 ---
-
-## Social Media Copy
-
-I pulled our CRM data last quarter and found the stat that keeps every sales leader up at night: 44% of reps give up after one follow-up. The industry data says 80% of sales require 5+ touchpoints. We were leaving millions on the table because our reps couldn't keep up with the follow-up volume.
-
-It wasn't laziness. Each rep had 60-80 active opportunities. Every meeting needed a recap email within 2 hours. Every proposal needed a check-in after 3 days. Every quiet deal needed a re-engagement nudge. That's 20-30 follow-up emails per day per rep -- each one needing to be contextual, timely, and not feel like a template.
-
-COCO's AI Follow-up Writer turned our follow-up gap into our competitive advantage:
-- After every call/meeting, auto-generates a recap email with action items, next steps, and a personal touch from conversation details
-- For quiet deals, writes contextual re-engagement emails: new case study that's relevant, product update they'd care about, industry news that connects to their pain point
-- Manages multi-touch sequences that adapt based on prospect behavior (opened but didn't reply = different angle; clicked the case study link = go deeper on ROI)
-
-Follow-up adherence: from 56% to 94%. Average touches per deal: from 2.3 to 6.1. Deals won from "gone dark" re-engagement: 23 last quarter ($1.2M in recovered pipeline).
-
-The deal isn't lost when the prospect says no. It's lost when you stop following up.
-
----
-
 ## Detailed Introduction
 
 **The Pain: The Follow-Up Gap Is Where Revenue Goes to Die**

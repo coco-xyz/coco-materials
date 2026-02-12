@@ -3,26 +3,6 @@
 **Role**: DevOps Engineer / SRE / Platform Engineer | **Industry**: Technology, SaaS, E-commerce, Fintech | **Task**: Deployment Monitoring, Incident Detection, Automated Rollback, Post-Deploy Analysis
 
 ---
-
-## Social Media Copy
-
-3:47 AM. PagerDuty fires. Error rate spiked 400% after a deploy that went out at 3:12 AM. The on-call engineer -- who didn't write the code -- opens Datadog, Sentry, CloudWatch, and the deployment log in four different tabs. Spends 23 minutes correlating timestamps before realizing the new Redis connection pool config is leaking connections under load.
-
-By 4:10 AM, 12,000 users hit errors. The rollback takes another 8 minutes because someone has to find the right commit hash.
-
-We set up COCO's AI Deploy Monitor after that incident:
-- Watches every deploy in real-time: error rates, latency p99, CPU, memory, queue depth
-- Detects anomalies within 90 seconds of deployment -- not 35 minutes
-- Auto-correlates which specific code change caused the spike
-- Triggers canary rollback before the blast radius spreads
-- Sends a root cause analysis to Slack before the on-call engineer finishes their coffee
-
-Last quarter: 47 deployments, 3 auto-caught regressions, 0 customer-facing incidents. Mean time to detection: 94 seconds. Mean time to rollback: under 3 minutes.
-
-Your monitoring stack has all the data. You just need something that never sleeps watching it.
-
----
-
 ## Detailed Introduction
 
 **The Pain: Deployments Are Your Biggest Source of Incidents**

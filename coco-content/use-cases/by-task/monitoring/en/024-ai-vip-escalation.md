@@ -3,26 +3,6 @@
 **Role**: Enterprise Support / Customer Success Manager / Support Operations | **Industry**: SaaS, Enterprise Software, Fintech, Healthcare | **Task**: VIP Customer Detection, Intelligent Escalation, Priority Queue Management, Churn Prevention
 
 ---
-
-## Social Media Copy
-
-Our biggest customer -- $380K ARR -- submitted a P3 billing question on a Friday at 4:47 PM. It sat in the general queue all weekend. A junior agent responded Monday morning with a templated answer that didn't address the actual issue. The customer's VP of Ops replied (to our CEO's inbox) with "We're evaluating alternatives."
-
-It was a $380K account. The ticket was about a $12 charge discrepancy. The issue wasn't the $12. It was being treated like every other ticket.
-
-That near-loss taught us something: our support system was blind to customer value. A $380K enterprise account and a $29/month starter plan got the exact same queue position, the same SLA, and the same auto-response.
-
-COCO's AI VIP Escalation changed this:
-- Identifies high-value customers instantly: ARR tier, contract renewal date, account health score, executive contacts
-- Auto-escalates based on customer value + issue severity + sentiment detection
-- Routes VIP tickets to senior agents with full account context preloaded
-- Detects churn signals in ticket language ("evaluating," "frustrated with," "not getting value," "cancel")
-- Triggers proactive CSM alerts when a VIP submits any P2+ issue
-
-That $380K account renewed -- with expansion. Zero VIP accounts churned last year due to support experience. Average VIP first-response time: 12 minutes (vs. 2 hours for standard).
-
----
-
 ## Detailed Introduction
 
 **The Pain: Your Support System Can't Tell a $500K Customer from a Free Trial User**

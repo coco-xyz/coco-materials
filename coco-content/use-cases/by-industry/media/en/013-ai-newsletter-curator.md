@@ -3,26 +3,6 @@
 **Role**: Content Marketer / Email Marketer / Editor | **Industry**: SaaS, Media, B2B Services, Professional Communities | **Task**: Newsletter Content Curation, Email Copywriting, Audience Segmentation, Engagement Optimization
 
 ---
-
-## Social Media Copy
-
-Every Thursday at 2 PM, I'd start panicking. Our weekly newsletter went out Friday morning. I still needed to find 8-10 relevant articles, write summaries for each, craft an editorial intro, segment the content for 3 audience tiers, write subject lines, and set up the Mailchimp campaign.
-
-It took 6-8 hours every single week. 25% of my entire work week spent curating and formatting a single email.
-
-The open rate? 22%. Hovering at the industry average. Because I was spending so much time on production, I had zero time for strategy -- for understanding what topics drove clicks, what formats resonated, what send times converted.
-
-COCO's AI Newsletter Curator changed my Thursdays completely:
-- Monitors 50+ industry sources and surfaces the top stories based on relevance to our audience segments
-- Summarizes each piece with our editorial voice -- not robotic AI summaries, but actual editorial commentary
-- Generates 3 subject line options ranked by predicted open rate
-- Creates personalized intro paragraphs per audience segment
-- Formats everything for our email template
-
-Newsletter production: 6 hours down to 75 minutes. Open rate after 4 months: from 22% to 34%. Click-through rate: up 47%. I finally have time to talk to subscribers and understand what they actually want.
-
----
-
 ## Detailed Introduction
 
 **The Pain: Newsletter Production Is a Weekly Time Sink with Diminishing Returns**

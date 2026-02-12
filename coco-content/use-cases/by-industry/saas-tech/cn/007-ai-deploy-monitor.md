@@ -3,28 +3,6 @@
 **Role**: DevOps Engineer / SRE / Platform Engineer | **Industry**: Technology, SaaS, E-commerce, Fintech | **Task**: Deployment Monitoring, Incident Detection, Automated Rollback, Post-Deploy Analysis
 
 ---
-
-## 社媒文案
-
-凌晨3:47，PagerDuty告警。3:12上线的部署导致错误率飙升400%。值班工程师——没写那段代码的人——同时打开Datadog、Sentry、CloudWatch和部署日志四个标签页。花了23分钟关联时间戳，才发现新的Redis连接池配置在高负载下泄漏连接。
-
-到凌晨4:10，12000用户遇到错误。回滚又花了8分钟，因为有人得找到正确的commit hash。
-
-那次事故后我们部署了COCO的AI Deploy Monitor：
-- 实时监控每次部署：错误率、延迟p99、CPU、内存、队列深度
-- 部署后90秒内检测异常——不是35分钟
-- 自动关联是哪个具体的代码变更导致了飙升
-- 在影响面扩大前触发金丝雀回滚
-- 在值班工程师咖啡还没喝完之前，就把根因分析发到了Slack
-
-上个季度：47次部署，3次自动捕获的回归，0次客户侧事故。平均检测时间：94秒。平均回滚时间：不到3分钟。
-
-你的监控系统有所有数据。你只需要一个永远不睡觉的东西盯着它。
-
----
-
----
-
 ## 详细介绍
 
 **痛点：部署是你最大的事故来源**

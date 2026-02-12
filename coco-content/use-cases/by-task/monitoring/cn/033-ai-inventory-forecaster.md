@@ -3,28 +3,6 @@
 **Role**: Supply Chain Manager / Demand Planner / Operations Director | **Industry**: E-commerce, Retail, Manufacturing, Distribution, CPG | **Task**: Demand Forecasting, Inventory Optimization, Stockout Prevention, Overstock Reduction
 
 ---
-
-## 社媒文案
-
-去年黑色星期五，我们囤了40000件畅销产品。周六下午2点就卖完了。整个剩余周末估计损失了28万美元的销售。与此同时，我们积压了45万美元的慢动销库存——来自需求规划师高估了60%的产品线。
-
-两个错误，同一个根因：我们的预测基于去年数据+增长系数+直觉。没有考虑到缺货的竞品（把需求推向了我们）、为某个SKU走红的TikTok视频、或者消费者偏好从我们积压品类转移的宏观变化。
-
-用电子表格做库存规划就像带着刀去打一场数据战。
-
-COCO的AI Inventory Forecaster用信号检测取代了直觉：
-- 分析每个SKU的36个月销售数据、季节性模式和趋势曲线
-- 整合外部信号：竞品库存状态、社交媒体提及、天气预报、经济指标
-- 在SKU级别生成带置信区间的需求预测（不只是一个单一数字）
-- 推荐平衡缺货风险和库存持有成本的最优补货点和数量
-- 标记异常："SKU #4721趋势比预测高340%——调查1月12日的TikTok提及"
-
-缺货事件：下降67%。积压减值：下降43%。库存周转率：从4.2倍提升到6.1倍。释放的营运资金：120万美元。我们不再靠猜了。
-
----
-
----
-
 ## 详细介绍
 
 **痛点：用电子表格做库存预测在缺货和积压上损失数百万**

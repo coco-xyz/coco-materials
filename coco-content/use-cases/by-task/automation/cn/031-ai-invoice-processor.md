@@ -3,27 +3,6 @@
 **Role**: Accounts Payable Clerk / AP Manager / Finance Operations | **Industry**: Any Enterprise, Manufacturing, Retail, Healthcare | **Task**: Invoice Processing, PO Matching, Payment Scheduling, AP Automation
 
 ---
-
-## 社媒文案
-
-我们的应付账款部门每月处理3400张发票。每一张：接收发票（邮件、信件、门户）、录入系统、匹配采购订单、验证数量和价格、编码总账科目、路由审批、安排付款。平均处理时间：每张14分钟。错误率：8.3%。逾期付款罚金：去年23000美元。
-
-发票以各种能想到的格式到达：邮件附件的PDF、扫描的纸质文件、供应商门户下载、手机拍的收据照片。四个AP文员中三个整天在做数据录入和匹配。第四个整天在追审批和解决差异。
-
-COCO的AI Invoice Processor将我们的AP团队从数据录入员转变为财务管理者：
-- 读取任何格式的发票（PDF、图片、邮件正文、XML）并自动提取所有字段
-- 与采购订单进行模糊匹配（识别"Widget Corp"和"Widget Corporation Inc."是同一家）
-- 三向匹配：采购订单、发票和收货单——在明细行级别标记差异
-- 基于供应商、类别和历史模式自动编码总账科目
-- 基于金额阈值和部门规则路由审批
-- 安排付款以优化早期付款折扣vs现金流
-
-每张发票处理时间：从14分钟降至45秒。错误率：从8.3%降至0.6%。逾期付款罚金：从23K降至不到2K美元。团队现在管理供应商关系和现金流策略。
-
----
-
----
-
 ## 详细介绍
 
 **痛点：AP是财务中劳动最密集的职能**

@@ -3,24 +3,6 @@
 **Role**: Recruiter / Hiring Manager / HR Business Partner | **Industry**: Any Industry | **Task**: Job Description Writing, Inclusive Language Optimization, Compensation Benchmarking, Employer Brand Messaging
 
 ---
-
-## Social Media Copy
-
-We analyzed why our engineering roles took 47 days to fill while the industry median was 36. The bottleneck wasn't sourcing or interviews -- it was applications. Our pipeline was thin because qualified candidates weren't applying. When we audited our job descriptions, the reason became obvious. They read like compliance documents, not job advertisements.
-
-"Must have 7+ years in enterprise Java development with Spring Boot, Hibernate, and microservices architecture in a CI/CD environment utilizing Docker and Kubernetes in AWS." That was our opening line. Not what the role was about. Not why someone would want this job. Just a wall of requirements that made 70% of qualified women and underrepresented candidates self-select out (Stanford research shows women apply only when meeting 100% of requirements; men apply at 60%).
-
-COCO's AI Job Description Writer rewired our approach:
-- Analyzes the actual role needs and separates true requirements from nice-to-haves
-- Writes descriptions that lead with impact and growth, not requirement lists
-- Runs inclusive language analysis: removes gendered language, excessive requirements, and exclusionary jargon
-- Benchmarks compensation against market data so we don't underprice roles
-- Generates versions optimized for different channels (LinkedIn, Indeed, careers page)
-
-Application volume: +64%. Female applicants: +41%. Diverse candidates in pipeline: +38%. Time-to-fill: from 47 to 31 days. Same roles, better descriptions.
-
----
-
 ## Detailed Introduction
 
 **The Pain: Bad Job Descriptions Are Invisible Pipeline Killers**

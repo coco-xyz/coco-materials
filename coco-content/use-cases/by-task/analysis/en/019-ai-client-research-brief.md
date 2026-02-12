@@ -3,23 +3,6 @@
 **Role**: Account Executive / Strategic Sales / Client Partner | **Industry**: Enterprise Sales, Consulting, Professional Services, B2B | **Task**: Pre-Meeting Research, Account Planning, Client Intelligence, Executive Briefing
 
 ---
-
-## Social Media Copy
-
-I walked into a meeting with a Fortune 500 CIO last year. Prepared for 2 hours. Felt ready. Then she mentioned their board had just approved a $40M digital transformation initiative -- announced in an earnings call 3 days earlier that I hadn't listened to. Her face when I asked "what digital transformation?" told me everything. The meeting was effectively over.
-
-Never again. But the research problem is real: a thorough executive meeting prep used to take 2-3 hours per meeting. Earnings calls, 10-K filings, LinkedIn activity, press releases, industry reports, Glassdoor for internal culture signals, patent filings, job postings for strategic direction. My calendar had 4-6 client meetings per week. That's 12-18 hours on research alone.
-
-COCO's AI Client Research Brief now gives me what used to take 3 hours in 8 minutes:
-- Pulls the latest company financials, press coverage, executive changes, and strategic initiatives
-- Cross-references with industry trends and competitive landscape
-- Generates a one-page executive brief: key talking points, potential pain points, landmines to avoid, and recommended conversation openers
-- Flags changes since my last meeting with this client
-
-I haven't walked into an unprepared meeting since. Close rate on executive-level meetings: up 35%. Because the best sales advantage is simply knowing more than the other vendor.
-
----
-
 ## Detailed Introduction
 
 **The Pain: Inadequate Meeting Prep Costs More Than You Realize**

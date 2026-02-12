@@ -3,24 +3,6 @@
 **Role**: HR Manager / People Ops / Hiring Manager | **Industry**: Any Industry | **Task**: Employee Onboarding, Day-1 Readiness, 30/60/90 Day Planning, New Hire Experience
 
 ---
-
-## Social Media Copy
-
-We surveyed our employees hired in the last year. The #1 complaint wasn't compensation or work-life balance. It was onboarding. "I didn't know what I was supposed to be doing for the first 3 weeks." "It took 5 days to get my laptop, email, and Slack access." "Nobody told me who to talk to about X." "My manager was too busy to meet with me for the first week."
-
-HR was running onboarding manually: a 47-item checklist in a Google Sheet, shared across 8 people (IT, Facilities, HR, Manager, Buddy, Finance, Legal, Security), with no automated reminders. Tasks got missed. New hires fell through cracks. Every onboarding required 12+ hours of HR coordination -- and it still felt broken.
-
-COCO's AI Onboarding Assistant made it seamless:
-- Auto-triggers onboarding workflow the moment an offer is accepted
-- Coordinates across all 8 teams: IT provisions on day -3, security badge on day -1, desk setup confirmed
-- Generates a personalized 30/60/90 day plan for each new hire based on their role, team, and experience level
-- Acts as a 24/7 resource for new hires: "Where do I submit expenses?" "Who's my benefits contact?" "How do I set up VPN?"
-- Sends automated check-in prompts to managers at day 7, 30, 60, and 90
-
-New hire satisfaction (first 30 days): from 62% to 91%. Time-to-productivity: reduced by 23%. HR coordination time per hire: from 12 hours to 2 hours. Voluntary turnover in first 6 months: down 34%.
-
----
-
 ## Detailed Introduction
 
 **The Pain: Broken Onboarding Costs You Employees Before They Start Contributing**

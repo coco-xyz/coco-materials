@@ -3,25 +3,6 @@
 **Role**: Support Lead / Technical Writer / Knowledge Manager | **Industry**: SaaS, Technology, E-commerce, Any Company with Customer Support | **Task**: Knowledge Base Creation, Article Writing, Content Gap Analysis, Self-Service Optimization
 
 ---
-
-## Social Media Copy
-
-We had a knowledge base with 340 articles. Sounds impressive until you look at the data: 127 articles hadn't been updated in 18+ months. 43 articles referenced features that no longer existed. The search function returned "no results" for 38% of customer queries. And our agents were answering the same 50 questions over and over because the KB articles for those questions were either missing, outdated, or so poorly written that customers couldn't follow them.
-
-The result? Only 12% of support tickets were deflected by self-service. Industry benchmark for a mature KB: 40-60%.
-
-Building knowledge base content is the task every support team knows they should do and never has time for. Each quality article takes 2-3 hours to write, review, screenshot, and publish. With a backlog of 200+ articles needed, one technical writer would need a full year just to catch up.
-
-COCO's AI Knowledge Base Builder erased the backlog:
-- Analyzed 6 months of resolved tickets to identify the top 200 questions customers ask
-- Cross-referenced against our existing KB to find gaps and outdated content
-- Generated draft articles from resolved ticket solutions, formatted with step-by-step instructions, screenshots placeholders, and troubleshooting trees
-- Technical writer's job shifted from writing to reviewing and publishing
-
-KB articles: from 340 (127 outdated) to 520 (all current). Self-service deflection: from 12% to 41%. Support ticket volume: down 29%. The best support interaction is the one that never needs to happen.
-
----
-
 ## Detailed Introduction
 
 **The Pain: Knowledge Bases That Don't Actually Help Anyone**

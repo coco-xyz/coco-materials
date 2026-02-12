@@ -3,25 +3,6 @@
 **Role**: Sales Rep / Account Executive / Sales Operations | **Industry**: B2B SaaS, Enterprise Sales, Professional Services | **Task**: CRM Data Entry, Activity Logging, Pipeline Hygiene, Deal Intelligence
 
 ---
-
-## Social Media Copy
-
-I asked my sales team to track their CRM updates for a week. The honest numbers: each rep spent 4.2 hours per week on data entry. Logging calls. Updating deal stages. Adding meeting notes. Filling in contact fields. Creating follow-up tasks.
-
-That's a full half-day every week -- not selling. Across 12 reps, that's 50 hours of selling capacity evaporated into a database.
-
-But the real damage was worse. Because reps hated the busywork, they'd batch-update on Friday afternoons. By then, half the details were forgotten. Deal stages were stale. Meeting notes were vague one-liners instead of actionable intelligence. Our pipeline forecast was based on data that was perpetually 3-5 days old.
-
-COCO's AI CRM Updater made data entry invisible:
-- Listens to sales calls (Gong/Chorus integration), extracts key data, auto-populates CRM fields
-- After every meeting, generates structured notes with: decisions made, objections raised, next steps, stakeholders mentioned, budget signals
-- Detects when a deal stage should change based on conversation content -- not when the rep remembers to click a dropdown
-- Flags stale deals automatically ("No activity in 14 days, last contact mentioned they were evaluating competitors")
-
-CRM data completeness: from 61% to 94%. Pipeline forecast accuracy: improved 38%. Reps got back 4+ hours/week. And our VP of Sales finally trusts the numbers in the dashboard.
-
----
-
 ## Detailed Introduction
 
 **The Pain: CRM Data Entry Is Killing Sales Productivity and Pipeline Accuracy**

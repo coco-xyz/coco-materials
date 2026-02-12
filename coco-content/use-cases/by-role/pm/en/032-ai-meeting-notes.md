@@ -3,26 +3,6 @@
 **Role**: Project Manager / Team Lead / Executive Assistant / Operations | **Industry**: Any Industry | **Task**: Meeting Transcription, Action Item Extraction, Decision Documentation, Follow-Up Tracking
 
 ---
-
-## Social Media Copy
-
-I did an experiment last month. I tracked every meeting across our 40-person team for two weeks. The results: 247 meetings. An estimated 340 action items were discussed. Of those, 127 were written down (in various formats: Slack messages, personal notebooks, Google Docs nobody shared). Of those 127, 71 were followed up on. 56 were forgotten entirely.
-
-That means 79% of action items discussed in meetings never happened. Not because people were lazy -- because nobody had a reliable system for capturing and tracking what was actually decided.
-
-The meeting notes problem is universal. Someone volunteers to "take notes" (usually the most junior person, who should be paying attention instead). Their notes are incomplete. Key decisions are captured as vague summaries. Action items lack owners or deadlines. The notes get posted 2 days later when the context is already fading.
-
-COCO's AI Meeting Notes changed our meeting culture:
-- Joins every meeting (Zoom, Google Meet, Teams) and transcribes in real-time
-- Generates structured notes within 5 minutes of meeting end: decisions made, action items with owners and deadlines, key discussion points, open questions
-- Auto-posts to the right Slack channel and Notion page
-- Tracks action items and sends reminders to owners before deadlines
-- Generates weekly "decisions and commitments" digest for leadership
-
-Action item completion: from 21% to 84%. "Wait, what did we decide in that meeting?" messages in Slack: down 90%. Nobody takes meeting notes manually anymore -- they actually participate instead.
-
----
-
 ## Detailed Introduction
 
 **The Pain: Meetings Produce Decisions and Action Items That Immediately Vanish**

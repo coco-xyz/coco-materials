@@ -3,25 +3,6 @@
 **Role**: SDR / BDR / Sales Development | **Industry**: B2B SaaS, Professional Services, Enterprise Sales, Fintech | **Task**: Prospect Research, Account Intelligence, Outreach Personalization, ICP Qualification
 
 ---
-
-## Social Media Copy
-
-My SDR team spent 45 minutes researching each prospect before outreach. LinkedIn profile. Company website. Recent news. Tech stack lookup on BuiltWith. G2 reviews of their current vendor. Conference speaking history. Crunchbase for funding data.
-
-45 minutes per lead. 8 leads researched per day per SDR. 40 per week. We needed to reach 200 qualified prospects per week to hit pipeline targets. The math required 5 SDRs doing nothing but research.
-
-The worst part? Half the prospects they researched turned out to be poor fits after the first call. All that research time -- wasted on leads that never should have been in the pipeline.
-
-COCO's AI Lead Researcher now does what used to take 45 minutes in 3 minutes:
-- Pulls prospect's professional background, company details, tech stack, recent news, funding history, and growth signals -- automatically
-- Cross-references against our ICP scoring model to flag low-fit prospects BEFORE research time is wasted
-- Generates a personalized brief: pain points this person likely faces based on their role and company stage, conversation starters from recent LinkedIn activity, connection points from mutual contacts or shared interests
-- Writes a custom first-touch email draft with specific, relevant hooks -- not "I noticed you're the VP of Sales at [Company]"
-
-SDRs now research 60+ leads per day. Qualified meetings booked per SDR: up 73%. Cost per qualified meeting: down 58%. My team finally sells instead of googling.
-
----
-
 ## Detailed Introduction
 
 **The Pain: SDRs Spend More Time Researching Than Selling**

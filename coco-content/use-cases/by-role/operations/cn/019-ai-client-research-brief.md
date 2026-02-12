@@ -3,25 +3,6 @@
 **Role**: Account Executive / Strategic Sales / Client Partner | **Industry**: Enterprise Sales, Consulting, Professional Services, B2B | **Task**: Pre-Meeting Research, Account Planning, Client Intelligence, Executive Briefing
 
 ---
-
-## 社媒文案
-
-去年我走进一个财富500强CIO的会议。准备了2小时。觉得自己胸有成竹。然后她提到他们董事会刚批准了一个4000万美元的数字化转型计划——3天前在财报电话会上宣布的，而我没听。当我问"什么数字化转型？"时她的表情说明了一切。会议实际上已经结束了。
-
-再也不能这样了。但调研问题是真实存在的：一次严谨的高管会议准备过去需要2-3小时。财报电话会、年报、LinkedIn动态、新闻稿、行业报告、Glassdoor了解内部文化信号、专利申请、招聘信息看战略方向。我每周有4-6个客户会议。光调研就是12-18小时。
-
-COCO的AI Client Research Brief现在8分钟给我过去3小时的内容：
-- 拉取最新的公司财务数据、媒体报道、高管变动和战略举措
-- 与行业趋势和竞争格局交叉参考
-- 生成一页高管简报：关键谈话要点、潜在痛点、需要避免的雷区、建议的对话开场
-- 标记自上次与该客户会议以来的变化
-
-从此再没走进过一个准备不充分的会议。高管级别会议的成交率：上升35%。因为最好的销售优势就是比另一个供应商知道得更多。
-
----
-
----
-
 ## 详细介绍
 
 **痛点：不充分的会前准备比你意识到的代价更大**

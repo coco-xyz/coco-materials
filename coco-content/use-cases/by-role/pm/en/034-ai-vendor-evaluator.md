@@ -3,26 +3,6 @@
 **Role**: Procurement Manager / Operations Director / Vendor Management | **Industry**: Any Enterprise, Manufacturing, Retail, Technology | **Task**: Vendor Evaluation, RFP Analysis, Contract Comparison, Vendor Risk Assessment
 
 ---
-
-## Social Media Copy
-
-We evaluated 47 vendors last year for various procurement needs. Each evaluation involved: collecting proposals (2-3 weeks of back-and-forth), building comparison matrices (4-6 hours per evaluation), checking references (3-4 calls per vendor), reviewing contracts (2-3 hours per contract with legal), and scoring against our evaluation criteria. Total effort per major vendor evaluation: 40-60 hours across procurement, legal, and the business unit.
-
-The worst part wasn't the time -- it was the inconsistency. Different evaluators weighted criteria differently. Some vendors looked better because they had a better slide deck, not a better product. And by the time we finished the evaluation, the business had already informally picked their favorite based on the demo they liked most.
-
-One vendor selection went wrong last year. A $180K/year HR platform that looked great on paper but had 68% implementation failure rate -- information we would have found if we'd systematically analyzed their Glassdoor reviews, G2 ratings, and reference patterns instead of relying on the 3 cherry-picked references they provided.
-
-COCO's AI Vendor Evaluator brought rigor and speed to every evaluation:
-- Generates standardized RFPs from your requirements, ensuring no criteria is missed
-- Analyzes vendor proposals against a consistent scoring framework -- no more subjective "I liked their team"
-- Cross-references vendor claims with G2 reviews, Glassdoor data, financial filings, and customer references
-- Performs contract comparison: highlights non-standard terms, missing SLAs, and hidden cost escalators
-- Risk assessment: financial stability, customer concentration, litigation history, key person dependency
-
-Evaluation time: from 50 hours to 8 hours. Vendor selection accuracy (measured by 2-year satisfaction): from 64% to 89%. That HR platform debacle? Would have been flagged with a 37/100 risk score.
-
----
-
 ## Detailed Introduction
 
 **The Pain: Vendor Evaluation Is Slow, Subjective, and Risky**

@@ -3,27 +3,6 @@
 **Role**: SDR / BDR / Sales Development | **Industry**: B2B SaaS, Professional Services, Enterprise Sales, Fintech | **Task**: Prospect Research, Account Intelligence, Outreach Personalization, ICP Qualification
 
 ---
-
-## 社媒文案
-
-我的SDR团队在触达每个潜客前花45分钟做调研。LinkedIn资料、公司网站、最近新闻、BuiltWith查技术栈、查他们现有供应商的G2评论、会议演讲历史、Crunchbase查融资数据。
-
-每个线索45分钟。每个SDR每天调研8个线索，每周40个。我们需要每周触达200个合格潜客才能达到Pipeline目标。这个算术需要5个SDR什么都不做只做调研。
-
-最糟糕的是？他们调研的潜客中一半在第一次通话后发现不匹配。所有调研时间——浪费在了不该进入Pipeline的线索上。
-
-COCO的AI Lead Researcher现在用3分钟完成原来45分钟的工作：
-- 自动拉取潜客的职业背景、公司详情、技术栈、最近新闻、融资历史和增长信号
-- 对照我们的ICP评分模型交叉验证，在浪费调研时间之前标记低匹配度的潜客
-- 生成个性化简报：基于角色和公司阶段这个人可能面临的痛点、来自最近LinkedIn动态的对话切入点、来自共同联系人或共同兴趣的连接点
-- 撰写带有具体、相关钩子的首次触达邮件草稿——不是"我注意到您是[公司]的销售VP"
-
-SDR现在每天调研60+线索。每个SDR预约的合格会议：增长73%。每个合格会议的成本：下降58%。我的团队终于在卖东西而不是在谷歌上搜东西了。
-
----
-
----
-
 ## 详细介绍
 
 **痛点：SDR花在调研上的时间比卖东西的时间多**
