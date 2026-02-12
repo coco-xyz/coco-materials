@@ -1,28 +1,51 @@
-# 社交媒体资源
+# 宣传视频
 
-COCO内容的视频脚本、分享文案和营销素材。
+观看COCO AI员工的实际工作演示。每个视频展示一个真实能力场景。
 
-## 视频脚本
+<div class="video-grid">
 
-所有脚本均包含中英文版本，以及可直接发布的社交媒体文案。
+## Agent团队30分钟交付MVP
+AI Agent团队30分钟内从需求到可运行产品的完整交付过程。
 
-| 视频 | 时长 | 状态 | 链接 |
-|------|------|------|------|
-| [Agent团队交付MVP](/zh/social-media/video-scripts/agent-team-mvp) | 60-75秒 | 已发布 | [脚本](/zh/social-media/video-scripts/agent-team-mvp) |
-| [竞品情报](/zh/social-media/video-scripts/competitive-intel) | 36秒 | 已发布 | [脚本](/zh/social-media/video-scripts/competitive-intel) |
-| [自动报告生成](/zh/social-media/video-scripts/auto-report) | 45秒 | 已发布 | [脚本](/zh/social-media/video-scripts/auto-report) |
-| [智能邮件管理](/zh/social-media/video-scripts/smart-email) | 45秒 | 已发布 | [脚本](/zh/social-media/video-scripts/smart-email) |
+<video controls width="100%" preload="metadata">
+  <source src="/videos/cn/agent-team-video-v4-cn.mp4" type="video/mp4">
+  您的浏览器不支持视频标签。
+</video>
 
-## 素材
+---
 
-- 视频MP4文件：[GitHub仓库](https://github.com/coco-xyz/coco-materials/tree/main/coco-content/social-media/videos)中的 `social-media/videos/`
-- 聊天截图素材：GitHub仓库中的 `assets/`
+## AI代码审查
+AI自动审查每个PR——15分钟内找出Bug、安全漏洞和代码风格问题。
 
-## 渠道
+<video controls width="100%" preload="metadata">
+  <source src="/videos/cn/code-reviewer-video-cn.mp4" type="video/mp4">
+  您的浏览器不支持视频标签。
+</video>
 
-| 平台 | 账号 | 状态 |
-|------|------|------|
-| X / Twitter | [@CocoAIxyz](https://x.com/CocoAIxyz) | 活跃 |
-| TikTok | COCO | 活跃 |
-| Discord | COCO社区 | 活跃 |
-| 微信 | COCO社区群 | 活跃 |
+---
+
+## 竞品调研
+实时竞品分析——从2天人工调研到1小时自动化洞察。
+
+<video controls width="100%" preload="metadata">
+  <source src="/videos/cn/competitive-research-video-cn.mp4" type="video/mp4">
+  您的浏览器不支持视频标签。
+</video>
+
+---
+
+## 自动报告生成
+自动化业务报告——数据采集、分析、格式化输出，无需人工干预。
+
+<video controls width="100%" preload="metadata">
+  <source src="/videos/cn/auto-report-video-cn.mp4" type="video/mp4">
+  您的浏览器不支持视频标签。
+</video>
+
+</div>
+
+---
+
+## 我们的渠道
+
+查看 [渠道页面](./channels) 了解关注COCO和联系我们的所有方式。

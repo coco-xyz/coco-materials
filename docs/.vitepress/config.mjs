@@ -26,50 +26,61 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'Home', link: '/' },
+          { text: 'Getting Started', link: '/getting-started/' },
           { text: 'Use Cases', link: '/use-cases/' },
           { text: 'Social Media', link: '/social-media/' },
           { text: 'Case Studies', link: '/case-studies/' },
-          { text: 'Getting Started', link: '/getting-started/' },
           { text: 'coco.xyz', link: 'https://coco.xyz' },
         ],
         sidebar: {
+          '/getting-started/': [
+            {
+              text: 'Getting Started',
+              items: [
+                { text: 'Overview', link: '/getting-started/' },
+                { text: 'First-Time Tutorial', link: '/getting-started/first-time-tutorial' },
+                { text: 'Registration & Payment', link: '/getting-started/registration-payment' },
+                { text: 'Channel Deployment', link: '/getting-started/channel-deployment' },
+              ]
+            },
+          ],
           '/use-cases/': [
             {
               text: 'Use Cases',
               items: [
                 { text: 'Overview', link: '/use-cases/' },
-                { text: 'Use Case Template', link: '/use-cases/template' },
               ]
             },
             {
-              text: 'Dev Team',
+              text: 'By Role',
               collapsed: false,
               items: [
-                { text: 'Agent Team Ships MVP', link: '/use-cases/dev-team/001-agent-team-mvp' },
-                { text: 'Competitive Intelligence', link: '/use-cases/dev-team/002-competitive-intelligence' },
-                { text: 'CI Autopilot', link: '/use-cases/dev-team/003-competitive-intelligence-autopilot' },
+                { text: 'Product / Dev', link: '/use-cases/role/product-dev' },
+                { text: 'Operations', link: '/use-cases/role/operations' },
+                { text: 'Finance', link: '/use-cases/role/finance' },
+                { text: 'Content / Marketing', link: '/use-cases/role/content-marketing' },
+                { text: 'Customer Support', link: '/use-cases/role/customer-support' },
+                { text: 'HR / Recruiting', link: '/use-cases/role/hr-recruiting' },
+                { text: 'Sales', link: '/use-cases/role/sales' },
               ]
             },
             {
-              text: 'Operations',
+              text: 'By Task',
               collapsed: false,
               items: [
-                { text: 'Auto Report Generation', link: '/use-cases/operations/auto-report-generation' },
-                { text: 'Smart Email Management', link: '/use-cases/operations/smart-email-management' },
+                { text: 'Writing & Content', link: '/use-cases/task/writing-content' },
+                { text: 'Data Analysis', link: '/use-cases/task/data-analysis' },
+                { text: 'Process Automation', link: '/use-cases/task/process-automation' },
+                { text: 'Research & Monitoring', link: '/use-cases/task/research-monitoring' },
               ]
             },
             {
-              text: 'Marketing',
+              text: 'By Industry',
               collapsed: true,
               items: [
-                { text: 'Coming Soon', link: '/use-cases/marketing/' },
-              ]
-            },
-            {
-              text: 'Product',
-              collapsed: true,
-              items: [
-                { text: 'Coming Soon', link: '/use-cases/product/' },
+                { text: 'Technology / SaaS', link: '/use-cases/industry/technology' },
+                { text: 'E-commerce / Retail', link: '/use-cases/industry/ecommerce' },
+                { text: 'Financial Services', link: '/use-cases/industry/financial-services' },
               ]
             },
           ],
@@ -77,17 +88,8 @@ export default defineConfig({
             {
               text: 'Social Media',
               items: [
-                { text: 'Overview', link: '/social-media/' },
-              ]
-            },
-            {
-              text: 'Video Scripts',
-              collapsed: false,
-              items: [
-                { text: 'Agent Team MVP', link: '/social-media/video-scripts/agent-team-mvp' },
-                { text: 'Competitive Intel', link: '/social-media/video-scripts/competitive-intel' },
-                { text: 'Auto Report', link: '/social-media/video-scripts/auto-report' },
-                { text: 'Smart Email', link: '/social-media/video-scripts/smart-email' },
+                { text: 'Promo Videos', link: '/social-media/' },
+                { text: 'Channels', link: '/social-media/channels' },
               ]
             },
           ],
@@ -95,15 +97,7 @@ export default defineConfig({
             {
               text: 'Case Studies',
               items: [
-                { text: 'Overview', link: '/case-studies/' },
-              ]
-            },
-          ],
-          '/getting-started/': [
-            {
-              text: 'Getting Started',
-              items: [
-                { text: 'Overview', link: '/getting-started/' },
+                { text: 'Capability Showcase', link: '/case-studies/' },
               ]
             },
           ],
@@ -118,50 +112,61 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: '首页', link: '/zh/' },
-          { text: '用例', link: '/zh/use-cases/' },
+          { text: '快速开始', link: '/zh/getting-started/' },
+          { text: '用例库', link: '/zh/use-cases/' },
           { text: '社交媒体', link: '/zh/social-media/' },
           { text: '案例研究', link: '/zh/case-studies/' },
-          { text: '快速开始', link: '/zh/getting-started/' },
           { text: 'coco.xyz', link: 'https://coco.xyz' },
         ],
         sidebar: {
+          '/zh/getting-started/': [
+            {
+              text: '快速开始',
+              items: [
+                { text: '概览', link: '/zh/getting-started/' },
+                { text: '首次使用教程', link: '/zh/getting-started/first-time-tutorial' },
+                { text: '注册与支付', link: '/zh/getting-started/registration-payment' },
+                { text: '渠道部署指南', link: '/zh/getting-started/channel-deployment' },
+              ]
+            },
+          ],
           '/zh/use-cases/': [
             {
-              text: '用例',
+              text: '用例库',
               items: [
                 { text: '概览', link: '/zh/use-cases/' },
-                { text: '用例模板', link: '/zh/use-cases/template' },
               ]
             },
             {
-              text: '开发团队',
+              text: '按角色',
               collapsed: false,
               items: [
-                { text: 'Agent团队30分钟交付MVP', link: '/zh/use-cases/dev-team/001-agent-team-mvp' },
-                { text: '竞品情报分析', link: '/zh/use-cases/dev-team/002-competitive-intelligence' },
-                { text: '竞品监控自动驾驶', link: '/zh/use-cases/dev-team/003-competitive-intelligence-autopilot' },
+                { text: '产品/研发', link: '/zh/use-cases/role/product-dev' },
+                { text: '运营', link: '/zh/use-cases/role/operations' },
+                { text: '财务', link: '/zh/use-cases/role/finance' },
+                { text: '内容/营销', link: '/zh/use-cases/role/content-marketing' },
+                { text: '客服', link: '/zh/use-cases/role/customer-support' },
+                { text: 'HR/招聘', link: '/zh/use-cases/role/hr-recruiting' },
+                { text: '销售', link: '/zh/use-cases/role/sales' },
               ]
             },
             {
-              text: '运营',
+              text: '按任务',
               collapsed: false,
               items: [
-                { text: '自动报告生成', link: '/zh/use-cases/operations/auto-report-generation' },
-                { text: '智能邮件管理', link: '/zh/use-cases/operations/smart-email-management' },
+                { text: '写作与内容', link: '/zh/use-cases/task/writing-content' },
+                { text: '数据分析', link: '/zh/use-cases/task/data-analysis' },
+                { text: '流程自动化', link: '/zh/use-cases/task/process-automation' },
+                { text: '调研与监控', link: '/zh/use-cases/task/research-monitoring' },
               ]
             },
             {
-              text: '市场营销',
+              text: '按行业',
               collapsed: true,
               items: [
-                { text: '即将推出', link: '/zh/use-cases/marketing/' },
-              ]
-            },
-            {
-              text: '产品',
-              collapsed: true,
-              items: [
-                { text: '即将推出', link: '/zh/use-cases/product/' },
+                { text: '科技/SaaS', link: '/zh/use-cases/industry/technology' },
+                { text: '电商/零售', link: '/zh/use-cases/industry/ecommerce' },
+                { text: '金融服务', link: '/zh/use-cases/industry/financial-services' },
               ]
             },
           ],
@@ -169,17 +174,8 @@ export default defineConfig({
             {
               text: '社交媒体',
               items: [
-                { text: '概览', link: '/zh/social-media/' },
-              ]
-            },
-            {
-              text: '视频脚本',
-              collapsed: false,
-              items: [
-                { text: 'Agent团队MVP', link: '/zh/social-media/video-scripts/agent-team-mvp' },
-                { text: '竞品情报', link: '/zh/social-media/video-scripts/competitive-intel' },
-                { text: '自动报告', link: '/zh/social-media/video-scripts/auto-report' },
-                { text: '智能邮件', link: '/zh/social-media/video-scripts/smart-email' },
+                { text: '宣传视频', link: '/zh/social-media/' },
+                { text: '渠道', link: '/zh/social-media/channels' },
               ]
             },
           ],
@@ -187,15 +183,7 @@ export default defineConfig({
             {
               text: '案例研究',
               items: [
-                { text: '概览', link: '/zh/case-studies/' },
-              ]
-            },
-          ],
-          '/zh/getting-started/': [
-            {
-              text: '快速开始',
-              items: [
-                { text: '概览', link: '/zh/getting-started/' },
+                { text: '能力展示', link: '/zh/case-studies/' },
               ]
             },
           ],
