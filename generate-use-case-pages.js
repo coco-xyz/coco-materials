@@ -393,7 +393,7 @@ function generatePage(pagePath, config, lang, docsBase) {
     if (videos[pad]) {
       const videoLabel = isEN ? '🎬 Watch Demo Video' : '🎬 观看演示视频';
       content += `::: details ${videoLabel}\n\n`;
-      content += `<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">\n`;
+      content += `<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">\n`;
       content += `  <source src="${videos[pad]}" type="video/mp4">\n`;
       content += `</video>\n\n`;
       content += `:::\n\n`;

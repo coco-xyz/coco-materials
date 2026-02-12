@@ -8,7 +8,7 @@ AI use cases for banking, insurance, and financial institutions.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/015-ai-lead-researcher.mp4" type="video/mp4">
 </video>
 
@@ -194,7 +194,7 @@ For each lead, provide:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/019-ai-client-research-brief.mp4" type="video/mp4">
 </video>
 
@@ -346,7 +346,7 @@ Make this conversational -- I want to sound informed, not like I'm reading a rep
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/024-ai-vip-escalation.mp4" type="video/mp4">
 </video>
 
@@ -505,7 +505,7 @@ Tone: Senior, professional, genuine. This should sound like it comes from someon
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/029-ai-expense-auditor.mp4" type="video/mp4">
 </video>
 
@@ -663,7 +663,7 @@ Provide a revised policy draft with tracked changes and rationale for each updat
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/030-ai-financial-report-generator.mp4" type="video/mp4">
 </video>
 
@@ -803,7 +803,7 @@ Also provide:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/031-ai-invoice-processor.mp4" type="video/mp4">
 </video>
 

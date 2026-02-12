@@ -8,7 +8,7 @@ AI-powered use cases for SDRs, account executives, and sales leaders.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/015-ai-lead-researcher.mp4" type="video/mp4">
 </video>
 
@@ -194,7 +194,7 @@ For each lead, provide:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/016-ai-crm-updater.mp4" type="video/mp4">
 </video>
 
@@ -354,7 +354,7 @@ Also generate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/017-ai-proposal-generator.mp4" type="video/mp4">
 </video>
 
@@ -529,7 +529,7 @@ Max length: [X words or X pages]
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/018-ai-follow-up-writer.mp4" type="video/mp4">
 </video>
 
@@ -704,7 +704,7 @@ Each email should feel like it was written individually, not like 3 versions of 
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/019-ai-client-research-brief.mp4" type="video/mp4">
 </video>
 
@@ -856,7 +856,7 @@ Make this conversational -- I want to sound informed, not like I'm reading a rep
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/020-ai-quote-calculator.mp4" type="video/mp4">
 </video>
 

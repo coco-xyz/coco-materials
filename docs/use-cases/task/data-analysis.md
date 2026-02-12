@@ -8,7 +8,7 @@ AI use cases for data analysis, reporting, auditing, and intelligence.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/019-ai-client-research-brief.mp4" type="video/mp4">
 </video>
 
@@ -160,7 +160,7 @@ Make this conversational -- I want to sound informed, not like I'm reading a rep
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/020-ai-quote-calculator.mp4" type="video/mp4">
 </video>
 
@@ -325,7 +325,7 @@ Format as a clean, customer-facing document.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/025-ai-resume-screener.mp4" type="video/mp4">
 </video>
 
@@ -483,7 +483,7 @@ Create a comparison matrix including:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/029-ai-expense-auditor.mp4" type="video/mp4">
 </video>
 
@@ -641,7 +641,7 @@ Provide a revised policy draft with tracked changes and rationale for each updat
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/030-ai-financial-report-generator.mp4" type="video/mp4">
 </video>
 
@@ -781,7 +781,7 @@ Also provide:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/033-ai-inventory-forecaster.mp4" type="video/mp4">
 </video>
 
@@ -941,7 +941,7 @@ For each scenario:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/034-ai-vendor-evaluator.mp4" type="video/mp4">
 </video>
 

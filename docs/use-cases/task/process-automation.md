@@ -8,7 +8,7 @@ AI use cases for workflow automation and operational efficiency.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/005-ai-code-reviewer.mp4" type="video/mp4">
 </video>
 
@@ -150,7 +150,7 @@ PR:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/006-ai-test-generator.mp4" type="video/mp4">
 </video>
 
@@ -328,7 +328,7 @@ Generate ONLY the missing tests, not duplicates of existing coverage.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/007-ai-deploy-monitor.mp4" type="video/mp4">
 </video>
 
@@ -501,7 +501,7 @@ Recommend new thresholds that reduce false positives by at least 50% while maint
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/009-ai-debug-assistant.mp4" type="video/mp4">
 </video>
 
@@ -702,7 +702,7 @@ Correlate the logs across services to reconstruct:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/016-ai-crm-updater.mp4" type="video/mp4">
 </video>
 
@@ -862,7 +862,7 @@ Also generate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/021-ai-ticket-classifier.mp4" type="video/mp4">
 </video>
 
@@ -1019,7 +1019,7 @@ Keep each response under 150 words. Test readability: would a frustrated custome
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/024-ai-vip-escalation.mp4" type="video/mp4">
 </video>
 
@@ -1178,7 +1178,7 @@ Tone: Senior, professional, genuine. This should sound like it comes from someon
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/027-ai-interview-scheduler.mp4" type="video/mp4">
 </video>
 
@@ -1339,7 +1339,7 @@ Provide actionable recommendations for the next quarter.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/028-ai-onboarding-assistant.mp4" type="video/mp4">
 </video>
 
@@ -1519,7 +1519,7 @@ For each task: responsible person, deadline, dependencies, and verification that
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/031-ai-invoice-processor.mp4" type="video/mp4">
 </video>
 
@@ -1688,7 +1688,7 @@ Provide a prioritized 90-day improvement roadmap.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/032-ai-meeting-notes.mp4" type="video/mp4">
 </video>
 

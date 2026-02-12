@@ -8,7 +8,7 @@ AI驱动的内容创作者、营销团队和品牌经理用例。
 
 ::: details 🎬 观看演示视频
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/010-ai-seo-content-writer.mp4" type="video/mp4">
 </video>
 
@@ -215,7 +215,7 @@ COCO的AI SEO Content Writer将内容创作流水线从一个串行的、劳动�
 
 ::: details 🎬 观看演示视频
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/011-ai-social-media-manager.mp4" type="video/mp4">
 </video>
 
@@ -404,7 +404,7 @@ COCO的AI Social Media Manager作为社交媒体团队的力量倍增器，处�
 
 ::: details 🎬 观看演示视频
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/012-ai-ad-copy-generator.mp4" type="video/mp4">
 </video>
 
@@ -615,7 +615,7 @@ COCO的AI Ad Copy Generator专为效果营销构建，理解各平台付费广�
 
 ::: details 🎬 观看演示视频
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/013-ai-newsletter-curator.mp4" type="video/mp4">
 </video>
 
@@ -769,7 +769,7 @@ COCO的AI Newsletter Curator自动化Newsletter制作中劳动密集的部分，
 
 ::: details 🎬 观看演示视频
 
-<video controls style="width: 360px; max-height: 480px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/014-ai-competitive-copywriter.mp4" type="video/mp4">
 </video>
 
