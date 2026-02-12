@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080, height=1920">
+<title>AI竞品监控 - COCO</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px; height: 1920px; overflow: hidden;
+    font-family: 'PingFang SC', 'Microsoft YaHei', -apple-system, Arial, sans-serif;
+    color: #ffffff; background: #0a0a0a;
+  }
+  #canvas {
+    width: 1080px; height: 1920px; position: relative; overflow: hidden;
+    background: radial-gradient(ellipse at 50% 30%, #1a1a2e 0%, #0a0a0a 70%);
+  }
+  .grid-bg {
+    position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+    background-image:
+      linear-gradient(rgba(255,215,0,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,215,0,0.03) 1px, transparent 1px);
+    background-size: 60px 60px; opacity: 0;
+  }
+  .scene {
+    position: absolute; top: 0; left: 0; width: 1080px; height: 1920px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    opacity: 0; padding: 60px;
+  }
+  .particle {
+    position: absolute; width: 4px; height: 4px; border-radius: 50%;
+    background: rgba(255, 215, 0, 0.3); opacity: 0;
+  }
+
+  /* Scene 1: Pain */
+  .scene1 .headline {
+    font-size: 72px; font-weight: 900; text-align: center; line-height: 1.3;
+    margin-bottom: 50px; opacity: 0;
+  }
+  .scene1 .headline .accent { color: #ff6b6b; }
+  .tab-mockup {
+    width: 900px; background: #1e1e2e; border-radius: 20px; overflow: hidden;
+    border: 1px solid #333; opacity: 0; transform: translateY(30px);
+  }
+  .tab-bar {
+    background: #252540; padding: 12px 20px; display: flex; gap: 8px;
+    border-bottom: 1px solid #333; overflow: hidden;
+  }
+  .tab {
+    background: #1a1a2e; padding: 10px 20px; border-radius: 8px 8px 0 0;
+    font-size: 18px; color: #888; white-space: nowrap; opacity: 0;
+  }
+  .tab.active { background: #2a2a4e; color: #fff; }
+  .tab-content { padding: 30px; text-align: center; }
+  .tab-content .tired {
+    font-size: 36px; color: #888; line-height: 1.6;
+  }
+  .scene1 .subtitle {
+    margin-top: 40px; font-size: 36px; color: #ff6b6b; text-align: center;
+    line-height: 1.5; opacity: 0;
+  }
+
+  /* Scene 2: Setup */
+  .scene2 .coco-badge {
+    background: linear-gradient(135deg, #FFD700, #FFA500); color: #000;
+    font-size: 28px; font-weight: 800; padding: 12px 40px; border-radius: 50px;
+    letter-spacing: 3px; margin-bottom: 50px; opacity: 0; transform: scale(0.8);
+  }
+  .scene2 .headline {
+    font-size: 68px; font-weight: 900; text-align: center; line-height: 1.3;
+    margin-bottom: 50px; opacity: 0;
+  }
+  .scene2 .headline .gold { color: #FFD700; }
+  .scene2 .subtext {
+    font-size: 34px; color: #aaa; text-align: center; line-height: 1.6; opacity: 0;
+    width: 850px;
+  }
+  .scene2 .subtext .em { color: #FFD700; font-weight: 700; }
+
+  /* Scene 3: AI Search */
+  .scene3 .headline {
+    font-size: 64px; font-weight: 800; text-align: center; line-height: 1.3;
+    margin-bottom: 60px; opacity: 0; color: #FFD700;
+  }
+  .search-items { width: 850px; display: flex; flex-direction: column; gap: 16px; }
+  .search-item {
+    display: flex; align-items: center; gap: 20px;
+    background: #1e1e2e; border-radius: 16px; padding: 22px 32px;
+    border: 1px solid #333; opacity: 0; transform: translateX(-40px);
+  }
+  .search-dot {
+    width: 16px; height: 16px; border-radius: 50%;
+    background: #FFD700; flex-shrink: 0;
+  }
+  .search-text { font-size: 32px; font-weight: 600; }
+  .search-check { font-size: 36px; color: #27c93f; opacity: 0; margin-left: auto; }
+
+  /* Scene 4: Filter */
+  .scene4 .headline {
+    font-size: 64px; font-weight: 800; text-align: center; line-height: 1.3;
+    margin-bottom: 60px; opacity: 0;
+  }
+  .scene4 .headline .gold { color: #FFD700; }
+  .filter-demo {
+    width: 850px; display: flex; flex-direction: column; gap: 16px;
+  }
+  .filter-item {
+    display: flex; align-items: center; gap: 20px;
+    background: #1e1e2e; border-radius: 16px; padding: 22px 32px;
+    border: 1px solid #333; opacity: 0;
+  }
+  .filter-item.known { border-color: rgba(136,136,136,0.3); }
+  .filter-item.new { border-color: rgba(255,215,0,0.3); }
+  .filter-item.dup { border-color: rgba(255,95,86,0.2); }
+  .filter-status {
+    font-size: 20px; font-weight: 700; padding: 6px 16px; border-radius: 20px;
+    flex-shrink: 0;
+  }
+  .filter-status.skip { background: #333; color: #888; }
+  .filter-status.flag { background: rgba(255,215,0,0.2); color: #FFD700; }
+  .filter-status.remove { background: rgba(255,95,86,0.2); color: #ff6b6b; }
+  .filter-text { font-size: 28px; color: #ccc; }
+
+  /* Scene 5: Notify */
+  .scene5 .headline {
+    font-size: 64px; font-weight: 800; text-align: center; line-height: 1.3;
+    margin-bottom: 50px; opacity: 0;
+  }
+  .scene5 .headline .gold { color: #FFD700; }
+  .notify-card {
+    width: 900px; background: #1e1e2e; border-radius: 20px;
+    border: 1px solid rgba(255,215,0,0.3); overflow: hidden; opacity: 0;
+  }
+  .notify-header {
+    background: linear-gradient(135deg, rgba(255,215,0,0.15), rgba(255,165,0,0.1));
+    padding: 20px 30px; border-bottom: 1px solid rgba(255,215,0,0.2);
+    display: flex; align-items: center; gap: 16px;
+  }
+  .notify-header .bot-tag {
+    background: #FFD700; color: #000; font-size: 18px; font-weight: 800;
+    padding: 6px 16px; border-radius: 20px;
+  }
+  .notify-header .title { font-size: 26px; font-weight: 700; }
+  .notify-body { padding: 24px 30px; }
+  .notify-entry {
+    margin-bottom: 16px; opacity: 0; transform: translateY(15px);
+  }
+  .notify-entry .label {
+    font-size: 20px; color: #FFD700; font-weight: 700; margin-bottom: 6px;
+  }
+  .notify-entry .content { font-size: 22px; color: #ccc; line-height: 1.5; }
+  .stats-bar {
+    margin-top: 50px; display: flex; gap: 40px; justify-content: center; opacity: 0;
+  }
+  .stat-box { text-align: center; }
+  .stat-num { font-size: 64px; font-weight: 900; color: #FFD700; }
+  .stat-label { font-size: 24px; color: #888; margin-top: 8px; }
+
+  /* Scene 6: CTA */
+  .scene6 { background: radial-gradient(ellipse at 50% 50%, #1a1a2e 0%, #0a0a0a 70%); }
+  .cta-glow {
+    position: absolute; width: 500px; height: 500px; border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,215,0,0.1) 0%, transparent 70%);
+    top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0;
+  }
+  .coco-logo-cta {
+    font-size: 120px; font-weight: 900; color: #FFD700; letter-spacing: 12px;
+    text-shadow: 0 0 60px rgba(255,215,0,0.4); opacity: 0; transform: scale(0.8);
+  }
+  .cta-line { width: 200px; height: 3px; background: linear-gradient(90deg, transparent, #FFD700, transparent); margin-top: 40px; opacity: 0; }
+  .cta-title { font-size: 44px; font-weight: 700; margin-top: 40px; color: #fff; opacity: 0; text-align: center; }
+  .cta-url { font-size: 44px; font-weight: 600; margin-top: 50px; color: #FFD700; letter-spacing: 4px; opacity: 0; }
+</style>
+</head>
+<body>
+<div id="canvas">
+  <div class="grid-bg" id="gridBg"></div>
+  <div class="particle" id="p1" style="left:100px;top:200px;"></div>
+  <div class="particle" id="p2" style="left:800px;top:400px;"></div>
+  <div class="particle" id="p3" style="left:300px;top:1500px;"></div>
+  <div class="particle" id="p4" style="left:900px;top:1000px;"></div>
+  <div class="particle" id="p5" style="left:150px;top:800px;"></div>
+  <div class="particle" id="p6" style="left:700px;top:1700px;"></div>
+
+  <!-- Scene 1: Pain (0-7s) -->
+  <div class="scene scene1" id="scene1">
+    <div class="headline" id="s1-headline">
+      还在<span class="accent">手动追踪</span><br>竞品动态？
+    </div>
+    <div class="tab-mockup" id="s1-tabs">
+      <div class="tab-bar">
+        <div class="tab active" id="t1">竞品A官网</div>
+        <div class="tab" id="t2">竞品B定价</div>
+        <div class="tab" id="t3">竞品C更新</div>
+        <div class="tab" id="t4">竞品D融资</div>
+        <div class="tab" id="t5">竞品E招聘</div>
+      </div>
+      <div class="tab-content">
+        <div class="tired">花几小时搜索<br>报告早已过时<br>更新总是错过</div>
+      </div>
+    </div>
+    <div class="subtitle" id="s1-subtitle">
+      耗时 · 低效 · 不及时
+    </div>
+  </div>
+
+  <!-- Scene 2: Setup (7-14s) -->
+  <div class="scene scene2" id="scene2">
+    <div class="coco-badge" id="s2-badge">COCO</div>
+    <div class="headline" id="s2-headline">
+      一个<span class="gold">定时任务</span>
+    </div>
+    <div class="subtext" id="s2-subtext">
+      AI自动搜索<span class="em">Web + GitHub</span><br>
+      对比<span class="em">700+行</span>知识库<br>
+      只推送<span class="em">新发现</span>
+    </div>
+  </div>
+
+  <!-- Scene 3: Search (14-22s) -->
+  <div class="scene scene3" id="scene3">
+    <div class="headline" id="s3-headline">AI全网搜索</div>
+    <div class="search-items" id="s3-items">
+      <div class="search-item" id="si1">
+        <div class="search-dot"></div>
+        <div class="search-text">产品更新</div>
+        <div class="search-check" id="sic1"></div>
+      </div>
+      <div class="search-item" id="si2">
+        <div class="search-dot"></div>
+        <div class="search-text">融资新闻</div>
+        <div class="search-check" id="sic2"></div>
+      </div>
+      <div class="search-item" id="si3">
+        <div class="search-dot"></div>
+        <div class="search-text">定价变化</div>
+        <div class="search-check" id="sic3"></div>
+      </div>
+      <div class="search-item" id="si4">
+        <div class="search-dot"></div>
+        <div class="search-text">新功能发布</div>
+        <div class="search-check" id="sic4"></div>
+      </div>
+      <div class="search-item" id="si5">
+        <div class="search-dot"></div>
+        <div class="search-text">招聘动态</div>
+        <div class="search-check" id="sic5"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scene 4: Filter (22-29s) -->
+  <div class="scene scene4" id="scene4">
+    <div class="headline" id="s4-headline"><span class="gold">智能</span>去重过滤</div>
+    <div class="filter-demo" id="s4-filters">
+      <div class="filter-item known" id="fi1">
+        <div class="filter-status skip">跳过</div>
+        <div class="filter-text">已知的 — 知识库已有记录</div>
+      </div>
+      <div class="filter-item new" id="fi2">
+        <div class="filter-status flag">新发现</div>
+        <div class="filter-text">CompetitorX 发布新定价方案</div>
+      </div>
+      <div class="filter-item dup" id="fi3">
+        <div class="filter-status remove">去除</div>
+        <div class="filter-text">重复信息 — 多来源相同内容</div>
+      </div>
+      <div class="filter-item new" id="fi4">
+        <div class="filter-status flag">新发现</div>
+        <div class="filter-text">CompetitorY 完成B轮融资</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scene 5: Notify (29-36s) -->
+  <div class="scene scene5" id="scene5">
+    <div class="headline" id="s5-headline"><span class="gold">自动推送</span>到群组</div>
+    <div class="notify-card" id="s5-card">
+      <div class="notify-header">
+        <div class="bot-tag">COCO</div>
+        <div class="title">竞品监控报告</div>
+      </div>
+      <div class="notify-body">
+        <div class="notify-entry" id="ne1">
+          <div class="label">CompetitorX</div>
+          <div class="content">新定价方案上线，Enterprise版降价30%</div>
+        </div>
+        <div class="notify-entry" id="ne2">
+          <div class="label">CompetitorY</div>
+          <div class="content">完成B轮融资$50M，计划扩展亚太市场</div>
+        </div>
+        <div class="notify-entry" id="ne3">
+          <div class="label">CompetitorZ</div>
+          <div class="content">发布AI Agent功能，支持多语言</div>
+        </div>
+      </div>
+    </div>
+    <div class="stats-bar" id="s5-stats">
+      <div class="stat-box">
+        <div class="stat-num">15+</div>
+        <div class="stat-label">竞品</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num">3次</div>
+        <div class="stat-label">每日扫描</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num">0</div>
+        <div class="stat-label">人工</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scene 6: CTA (36-40s) -->
+  <div class="scene scene6" id="scene6">
+    <div class="cta-glow" id="s6-glow"></div>
+    <div class="coco-logo-cta" id="s6-logo">COCO</div>
+    <div class="cta-line" id="s6-line"></div>
+    <div class="cta-title" id="s6-title">永不休息的竞品分析师</div>
+    <div class="cta-url" id="s6-url">coco.xyz</div>
+  </div>
+</div>
+
+<script>
+function easeOut(t) { return 1 - Math.pow(1 - t, 3); }
+function easeOutBack(t) { const c1=1.70158; const c3=c1+1; return 1+c3*Math.pow(t-1,3)+c1*Math.pow(t-1,2); }
+function lerp(s, e, t) { return s + (e - s) * Math.max(0, Math.min(1, t)); }
+function progress(timeMs, startMs, endMs) {
+  if (timeMs < startMs) return 0; if (timeMs > endMs) return 1;
+  return (timeMs - startMs) / (endMs - startMs);
+}
+
+window.renderFrame = function(t) {
+  document.getElementById('gridBg').style.opacity = 0.5 + 0.2 * Math.sin(t / 2000);
+  for (let i = 1; i <= 6; i++) {
+    const p = document.getElementById('p' + i);
+    const phase = i * 0.8;
+    p.style.opacity = 0.2 + 0.2 * Math.sin((t / 2000) + phase);
+    p.style.transform = `translate(${Math.cos((t/4000)+phase)*15}px, ${Math.sin((t/3000)+phase)*30}px)`;
+  }
+
+  // Scene 1: 0-7s
+  const s1 = document.getElementById('scene1');
+  if (t < 7000) {
+    s1.style.opacity = easeOut(progress(t, 0, 600)) * (t > 6400 ? 1 - easeOut(progress(t, 6400, 7000)) : 1);
+    const h = document.getElementById('s1-headline');
+    h.style.opacity = easeOut(progress(t, 300, 1300));
+    h.style.transform = `translateY(${lerp(40, 0, easeOut(progress(t, 300, 1300)))}px)`;
+    const tabs = document.getElementById('s1-tabs');
+    tabs.style.opacity = easeOut(progress(t, 1800, 2800));
+    tabs.style.transform = `translateY(${lerp(30, 0, easeOut(progress(t, 1800, 2800)))}px)`;
+    for (let i = 1; i <= 5; i++) {
+      document.getElementById('t' + i).style.opacity = easeOut(progress(t, 2000 + i * 300, 2300 + i * 300));
+    }
+    document.getElementById('s1-subtitle').style.opacity = easeOut(progress(t, 4500, 5500));
+  } else { s1.style.opacity = 0; }
+
+  // Scene 2: 7-14s
+  const s2 = document.getElementById('scene2');
+  if (t >= 6400 && t < 14000) {
+    s2.style.opacity = easeOut(progress(t, 7000, 7600)) * (t > 13400 ? 1 - easeOut(progress(t, 13400, 14000)) : 1);
+    const badge = document.getElementById('s2-badge');
+    badge.style.opacity = easeOut(progress(t, 7200, 7800));
+    badge.style.transform = `scale(${lerp(0.8, 1, easeOutBack(progress(t, 7200, 8000)))})`;
+    const h2 = document.getElementById('s2-headline');
+    h2.style.opacity = easeOut(progress(t, 8200, 9200));
+    h2.style.transform = `translateY(${lerp(30, 0, easeOut(progress(t, 8200, 9200)))}px)`;
+    document.getElementById('s2-subtext').style.opacity = easeOut(progress(t, 10000, 11000));
+  } else { s2.style.opacity = 0; }
+
+  // Scene 3: 14-22s
+  const s3 = document.getElementById('scene3');
+  if (t >= 13400 && t < 22000) {
+    s3.style.opacity = easeOut(progress(t, 14000, 14600)) * (t > 21400 ? 1 - easeOut(progress(t, 21400, 22000)) : 1);
+    document.getElementById('s3-headline').style.opacity = easeOut(progress(t, 14200, 15200));
+    const items = [
+      { id: 'si1', cid: 'sic1', start: 15500 },
+      { id: 'si2', cid: 'sic2', start: 16500 },
+      { id: 'si3', cid: 'sic3', start: 17500 },
+      { id: 'si4', cid: 'sic4', start: 18500 },
+      { id: 'si5', cid: 'sic5', start: 19500 },
+    ];
+    items.forEach(item => {
+      const el = document.getElementById(item.id);
+      const sp = easeOut(progress(t, item.start, item.start + 600));
+      el.style.opacity = sp;
+      el.style.transform = `translateX(${lerp(-40, 0, sp)}px)`;
+      const c = document.getElementById(item.cid);
+      const cp = progress(t, item.start + 800, item.start + 1000);
+      if (cp > 0) { c.textContent = '\u2713'; c.style.opacity = easeOut(cp); } else { c.style.opacity = 0; }
+    });
+  } else { s3.style.opacity = 0; }
+
+  // Scene 4: 22-29s
+  const s4 = document.getElementById('scene4');
+  if (t >= 21400 && t < 29000) {
+    s4.style.opacity = easeOut(progress(t, 22000, 22600)) * (t > 28400 ? 1 - easeOut(progress(t, 28400, 29000)) : 1);
+    document.getElementById('s4-headline').style.opacity = easeOut(progress(t, 22200, 23200));
+    const filters = [
+      { id: 'fi1', start: 23500 },
+      { id: 'fi2', start: 24500 },
+      { id: 'fi3', start: 25500 },
+      { id: 'fi4', start: 26500 },
+    ];
+    filters.forEach(f => {
+      document.getElementById(f.id).style.opacity = easeOut(progress(t, f.start, f.start + 600));
+    });
+  } else { s4.style.opacity = 0; }
+
+  // Scene 5: 29-36s
+  const s5 = document.getElementById('scene5');
+  if (t >= 28400 && t < 36000) {
+    s5.style.opacity = easeOut(progress(t, 29000, 29600)) * (t > 35400 ? 1 - easeOut(progress(t, 35400, 36000)) : 1);
+    document.getElementById('s5-headline').style.opacity = easeOut(progress(t, 29200, 30200));
+    document.getElementById('s5-card').style.opacity = easeOut(progress(t, 30500, 31500));
+    const entries = [
+      { id: 'ne1', start: 31000 },
+      { id: 'ne2', start: 32000 },
+      { id: 'ne3', start: 33000 },
+    ];
+    entries.forEach(e => {
+      const el = document.getElementById(e.id);
+      const sp = easeOut(progress(t, e.start, e.start + 700));
+      el.style.opacity = sp;
+      el.style.transform = `translateY(${lerp(15, 0, sp)}px)`;
+    });
+    document.getElementById('s5-stats').style.opacity = easeOut(progress(t, 34000, 35000));
+  } else { s5.style.opacity = 0; }
+
+  // Scene 6: 36-40s
+  const s6 = document.getElementById('scene6');
+  if (t >= 35400) {
+    s6.style.opacity = easeOut(progress(t, 36000, 36600));
+    document.getElementById('s6-glow').style.opacity = 0.5 + 0.3 * Math.sin((t - 36000) / 800);
+    const logo = document.getElementById('s6-logo');
+    const lp = easeOutBack(progress(t, 36200, 37200));
+    logo.style.opacity = easeOut(progress(t, 36200, 36800));
+    logo.style.transform = t > 37200 ? `scale(${1 + 0.02 * Math.sin((t-37200)/500)})` : `scale(${lerp(0.8, 1, lp)})`;
+    document.getElementById('s6-line').style.opacity = easeOut(progress(t, 37000, 37500));
+    document.getElementById('s6-title').style.opacity = easeOut(progress(t, 37500, 38200));
+    document.getElementById('s6-url').style.opacity = easeOut(progress(t, 38500, 39200));
+  } else { s6.style.opacity = 0; }
+};
+window.renderFrame(0);
+</script>
+</body>
+</html>

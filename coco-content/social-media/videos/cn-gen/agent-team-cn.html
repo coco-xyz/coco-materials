@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080, height=1920">
+<title>AI Agent团队 - COCO</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px; height: 1920px; overflow: hidden;
+    font-family: 'PingFang SC', 'Microsoft YaHei', -apple-system, Arial, sans-serif;
+    color: #ffffff; background: #0a0a0a;
+  }
+  #canvas {
+    width: 1080px; height: 1920px; position: relative; overflow: hidden;
+    background: radial-gradient(ellipse at 50% 30%, #1a1a2e 0%, #0a0a0a 70%);
+  }
+  .grid-bg {
+    position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+    background-image:
+      linear-gradient(rgba(255,215,0,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,215,0,0.03) 1px, transparent 1px);
+    background-size: 60px 60px; opacity: 0;
+  }
+  .scene {
+    position: absolute; top: 0; left: 0; width: 1080px; height: 1920px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    opacity: 0; padding: 60px;
+  }
+  .particle {
+    position: absolute; width: 4px; height: 4px; border-radius: 50%;
+    background: rgba(255, 215, 0, 0.3); opacity: 0;
+  }
+
+  /* Scene 1: Hook */
+  .scene1 .headline {
+    font-size: 72px; font-weight: 900; text-align: center; line-height: 1.3;
+    margin-bottom: 60px; opacity: 0;
+  }
+  .scene1 .headline .gold { color: #FFD700; }
+  .scene1 .subtitle {
+    font-size: 42px; color: #aaa; text-align: center; line-height: 1.5; opacity: 0;
+  }
+
+  /* Scene 2: Agents appear */
+  .scene2 .headline {
+    font-size: 56px; font-weight: 800; text-align: center; line-height: 1.3;
+    margin-bottom: 60px; opacity: 0; color: #FFD700;
+  }
+  .agent-card {
+    width: 850px; background: #1e1e2e; border-radius: 20px;
+    padding: 30px 40px; margin-bottom: 20px;
+    border: 1px solid #333; opacity: 0; transform: translateX(-60px);
+    display: flex; align-items: center; gap: 25px;
+  }
+  .agent-icon {
+    width: 60px; height: 60px; border-radius: 50%;
+    background: linear-gradient(135deg, #FFD700, #FFA500);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 28px; font-weight: 900; color: #000; flex-shrink: 0;
+  }
+  .agent-info { flex: 1; }
+  .agent-name { font-size: 34px; font-weight: 700; margin-bottom: 6px; }
+  .agent-desc { font-size: 24px; color: #888; }
+  .agent-check { font-size: 40px; color: #27c93f; opacity: 0; }
+
+  /* Scene 3: Parallel work */
+  .scene3 .headline {
+    font-size: 60px; font-weight: 800; text-align: center; line-height: 1.3;
+    margin-bottom: 60px; opacity: 0;
+  }
+  .scene3 .headline .gold { color: #FFD700; }
+  .code-block {
+    width: 900px; background: #1e1e2e; border-radius: 20px; overflow: hidden;
+    border: 1px solid rgba(255, 215, 0, 0.3); opacity: 0;
+  }
+  .code-header {
+    background: #252540; padding: 16px 30px; display: flex; align-items: center; gap: 12px;
+    border-bottom: 1px solid #333;
+  }
+  .code-header .dot { width: 12px; height: 12px; border-radius: 50%; }
+  .code-header .dot.red { background: #ff5f56; }
+  .code-header .dot.yellow { background: #ffbd2e; }
+  .code-header .dot.green { background: #27c93f; }
+  .code-header .filename { color: #888; font-family: monospace; font-size: 20px; margin-left: 12px; }
+  .code-lines { padding: 16px 0; }
+  .code-line {
+    font-family: 'Courier New', monospace; font-size: 20px; padding: 5px 30px;
+    line-height: 1.6; color: #666; opacity: 0;
+  }
+  .code-line.active { color: #27c93f; }
+
+  /* Scene 4: Results */
+  .scene4 .headline {
+    font-size: 60px; font-weight: 800; text-align: center; line-height: 1.3;
+    margin-bottom: 80px; opacity: 0;
+  }
+  .scene4 .headline .gold { color: #FFD700; }
+  .result-item {
+    display: flex; align-items: center; gap: 25px; width: 800px;
+    margin-bottom: 30px; opacity: 0; transform: translateY(30px);
+  }
+  .result-check { font-size: 44px; color: #27c93f; }
+  .result-text { font-size: 36px; font-weight: 600; }
+  .result-detail { font-size: 24px; color: #888; margin-top: 4px; }
+  .big-number {
+    margin-top: 60px; text-align: center; opacity: 0;
+  }
+  .big-number .num {
+    font-size: 140px; font-weight: 900; color: #FFD700;
+    font-variant-numeric: tabular-nums;
+  }
+  .big-number .unit { font-size: 48px; color: #FFD700; font-weight: 700; }
+  .big-number .label { font-size: 32px; color: #888; margin-top: 10px; }
+
+  /* Scene 5: Comparison */
+  .scene5 .headline {
+    font-size: 56px; font-weight: 800; text-align: center; margin-bottom: 80px; opacity: 0;
+  }
+  .comparison {
+    display: flex; gap: 40px; width: 900px;
+  }
+  .comp-side {
+    flex: 1; border-radius: 24px; padding: 40px 30px; text-align: center;
+    opacity: 0; transform: scale(0.9);
+  }
+  .comp-side.before {
+    background: linear-gradient(180deg, rgba(255,95,86,0.15), rgba(255,95,86,0.05));
+    border: 2px solid rgba(255,95,86,0.3);
+  }
+  .comp-side.after {
+    background: linear-gradient(180deg, rgba(39,201,63,0.15), rgba(39,201,63,0.05));
+    border: 2px solid rgba(39,201,63,0.3);
+  }
+  .comp-label { font-size: 30px; font-weight: 700; letter-spacing: 2px; margin-bottom: 30px; }
+  .before .comp-label { color: #ff6b6b; }
+  .after .comp-label { color: #27c93f; }
+  .comp-value { font-size: 72px; font-weight: 900; margin-bottom: 10px; }
+  .before .comp-value { color: #ff6b6b; }
+  .after .comp-value { color: #27c93f; }
+  .comp-desc { font-size: 28px; color: #aaa; }
+  .tagline {
+    margin-top: 80px; font-size: 44px; font-weight: 700; text-align: center;
+    line-height: 1.4; opacity: 0;
+  }
+  .tagline .gold { color: #FFD700; }
+
+  /* Scene 6: CTA */
+  .scene6 { background: radial-gradient(ellipse at 50% 50%, #1a1a2e 0%, #0a0a0a 70%); }
+  .cta-glow {
+    position: absolute; width: 500px; height: 500px; border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,215,0,0.1) 0%, transparent 70%);
+    top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0;
+  }
+  .coco-logo-cta {
+    font-size: 120px; font-weight: 900; color: #FFD700; letter-spacing: 12px;
+    text-shadow: 0 0 60px rgba(255,215,0,0.4); opacity: 0; transform: scale(0.8);
+  }
+  .cta-line {
+    width: 200px; height: 3px;
+    background: linear-gradient(90deg, transparent, #FFD700, transparent);
+    margin-top: 40px; opacity: 0;
+  }
+  .cta-title {
+    font-size: 48px; font-weight: 700; margin-top: 40px; color: #fff; opacity: 0;
+  }
+  .cta-url {
+    font-size: 44px; font-weight: 600; margin-top: 50px; color: #FFD700;
+    letter-spacing: 4px; opacity: 0;
+  }
+</style>
+</head>
+<body>
+<div id="canvas">
+  <div class="grid-bg" id="gridBg"></div>
+  <div class="particle" id="p1" style="left:100px;top:200px;"></div>
+  <div class="particle" id="p2" style="left:800px;top:400px;"></div>
+  <div class="particle" id="p3" style="left:300px;top:1500px;"></div>
+  <div class="particle" id="p4" style="left:900px;top:1000px;"></div>
+  <div class="particle" id="p5" style="left:150px;top:800px;"></div>
+  <div class="particle" id="p6" style="left:700px;top:1700px;"></div>
+
+  <!-- Scene 1: Hook (0-10s) -->
+  <div class="scene scene1" id="scene1">
+    <div class="headline" id="s1-headline">
+      如果你能在<span class="gold">30分钟</span><br>交付一个完整的MVP呢？
+    </div>
+    <div class="subtitle" id="s1-subtitle">
+      一条指令。四个AI Agent。<br>全程自动。
+    </div>
+  </div>
+
+  <!-- Scene 2: Agents (10-25s) -->
+  <div class="scene scene2" id="scene2">
+    <div class="headline" id="s2-headline">4个AI Agent启动</div>
+    <div class="agent-card" id="a1">
+      <div class="agent-icon">1</div>
+      <div class="agent-info">
+        <div class="agent-name">PRD写手</div>
+        <div class="agent-desc">撰写完整PRD，12个章节</div>
+      </div>
+      <div class="agent-check" id="ac1"></div>
+    </div>
+    <div class="agent-card" id="a2">
+      <div class="agent-icon">2</div>
+      <div class="agent-info">
+        <div class="agent-name">架构师</div>
+        <div class="agent-desc">设计技术架构，10个章节</div>
+      </div>
+      <div class="agent-check" id="ac2"></div>
+    </div>
+    <div class="agent-card" id="a3">
+      <div class="agent-icon">3</div>
+      <div class="agent-info">
+        <div class="agent-name">前端开发</div>
+        <div class="agent-desc">Chrome插件，18个源文件</div>
+      </div>
+      <div class="agent-check" id="ac3"></div>
+    </div>
+    <div class="agent-card" id="a4">
+      <div class="agent-icon">4</div>
+      <div class="agent-info">
+        <div class="agent-name">后端开发</div>
+        <div class="agent-desc">API服务，10个源文件</div>
+      </div>
+      <div class="agent-check" id="ac4"></div>
+    </div>
+  </div>
+
+  <!-- Scene 3: Working (25-40s) -->
+  <div class="scene scene3" id="scene3">
+    <div class="headline" id="s3-headline">
+      <span class="gold">并行工作</span><br>先设计 再实现
+    </div>
+    <div class="code-block" id="s3-code">
+      <div class="code-header">
+        <div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div>
+        <span class="filename">agent-output/</span>
+      </div>
+      <div class="code-lines">
+        <div class="code-line" id="cl1">  ├── PRD.md (12 sections)</div>
+        <div class="code-line" id="cl2">  ├── tech-design.md (10 sections)</div>
+        <div class="code-line" id="cl3">  ├── extension/</div>
+        <div class="code-line" id="cl4">  │   ├── manifest.json</div>
+        <div class="code-line" id="cl5">  │   ├── content.js</div>
+        <div class="code-line" id="cl6">  │   └── ... (18 files)</div>
+        <div class="code-line" id="cl7">  └── api-server/</div>
+        <div class="code-line" id="cl8">      ├── server.js</div>
+        <div class="code-line" id="cl9">      ├── auth.js</div>
+        <div class="code-line" id="cl10">      └── ... (10 files)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scene 4: Delivery (40-55s) -->
+  <div class="scene scene4" id="scene4">
+    <div class="headline" id="s4-headline">
+      <span class="gold">30分钟</span>后的交付
+    </div>
+    <div id="s4-results">
+      <div class="result-item" id="r1">
+        <div class="result-check">&#10003;</div>
+        <div>
+          <div class="result-text">完整的PRD</div>
+          <div class="result-detail">12个章节，产品需求文档</div>
+        </div>
+      </div>
+      <div class="result-item" id="r2">
+        <div class="result-check">&#10003;</div>
+        <div>
+          <div class="result-text">技术设计文档</div>
+          <div class="result-detail">10个章节，架构设计</div>
+        </div>
+      </div>
+      <div class="result-item" id="r3">
+        <div class="result-check">&#10003;</div>
+        <div>
+          <div class="result-text">Chrome插件</div>
+          <div class="result-detail">截图标注、元素选择、AI分析</div>
+        </div>
+      </div>
+      <div class="result-item" id="r4">
+        <div class="result-check">&#10003;</div>
+        <div>
+          <div class="result-text">后端API</div>
+          <div class="result-detail">认证、数据库、GitHub集成</div>
+        </div>
+      </div>
+    </div>
+    <div class="big-number" id="s4-bignum">
+      <div><span class="num" id="s4-num">0</span><span class="unit"> 个源文件</span></div>
+      <div class="label">零会议 · 零上下文切换</div>
+    </div>
+  </div>
+
+  <!-- Scene 5: Comparison (55-68s) -->
+  <div class="scene scene5" id="scene5">
+    <div class="headline" id="s5-headline">传统方式 vs AI Agent</div>
+    <div class="comparison" id="s5-comp">
+      <div class="comp-side before" id="s5-before">
+        <div class="comp-label">传统方式</div>
+        <div class="comp-value">4人</div>
+        <div class="comp-desc">1-2周</div>
+      </div>
+      <div class="comp-side after" id="s5-after">
+        <div class="comp-label">AI Agent</div>
+        <div class="comp-value">1人</div>
+        <div class="comp-desc">30分钟</div>
+      </div>
+    </div>
+    <div class="tagline" id="s5-tagline">
+      一个人，一条指令<br><span class="gold">30分钟</span>
+    </div>
+  </div>
+
+  <!-- Scene 6: CTA (68-75s) -->
+  <div class="scene scene6" id="scene6">
+    <div class="cta-glow" id="s6-glow"></div>
+    <div class="coco-logo-cta" id="s6-logo">COCO</div>
+    <div class="cta-line" id="s6-line"></div>
+    <div class="cta-title" id="s6-title">多Agent团队的未来</div>
+    <div class="cta-url" id="s6-url">coco.xyz</div>
+  </div>
+</div>
+
+<script>
+function easeOut(t) { return 1 - Math.pow(1 - t, 3); }
+function easeInOut(t) { return t < 0.5 ? 4*t*t*t : 1 - Math.pow(-2*t+2, 3)/2; }
+function easeOutBack(t) { const c1=1.70158; const c3=c1+1; return 1+c3*Math.pow(t-1,3)+c1*Math.pow(t-1,2); }
+function lerp(s, e, t) { return s + (e - s) * Math.max(0, Math.min(1, t)); }
+function progress(timeMs, startMs, endMs) {
+  if (timeMs < startMs) return 0;
+  if (timeMs > endMs) return 1;
+  return (timeMs - startMs) / (endMs - startMs);
+}
+
+window.renderFrame = function(t) {
+  // Grid
+  document.getElementById('gridBg').style.opacity = 0.5 + 0.2 * Math.sin(t / 2000);
+  // Particles
+  for (let i = 1; i <= 6; i++) {
+    const p = document.getElementById('p' + i);
+    const phase = i * 0.8;
+    p.style.opacity = 0.2 + 0.2 * Math.sin((t / 2000) + phase);
+    p.style.transform = `translate(${Math.cos((t/4000)+phase)*15}px, ${Math.sin((t/3000)+phase)*30}px)`;
+  }
+
+  const fadeDur = 600;
+
+  // Scene 1: 0-10s
+  const s1 = document.getElementById('scene1');
+  if (t < 10000) {
+    const fadeIn = easeOut(progress(t, 0, fadeDur));
+    const fadeOut = t > 9400 ? 1 - easeOut(progress(t, 9400, 10000)) : 1;
+    s1.style.opacity = fadeIn * fadeOut;
+    const h = document.getElementById('s1-headline');
+    h.style.opacity = easeOut(progress(t, 300, 1500));
+    h.style.transform = `translateY(${lerp(40, 0, easeOut(progress(t, 300, 1500)))}px)`;
+    const sub = document.getElementById('s1-subtitle');
+    sub.style.opacity = easeOut(progress(t, 3000, 4500));
+    sub.style.transform = `translateY(${lerp(30, 0, easeOut(progress(t, 3000, 4500)))}px)`;
+  } else { s1.style.opacity = 0; }
+
+  // Scene 2: 10-25s
+  const s2 = document.getElementById('scene2');
+  if (t >= 9400 && t < 25000) {
+    const fadeIn = easeOut(progress(t, 10000, 10600));
+    const fadeOut = t > 24400 ? 1 - easeOut(progress(t, 24400, 25000)) : 1;
+    s2.style.opacity = fadeIn * fadeOut;
+    document.getElementById('s2-headline').style.opacity = easeOut(progress(t, 10200, 11200));
+    const agents = [
+      { id: 'a1', cid: 'ac1', start: 12000 },
+      { id: 'a2', cid: 'ac2', start: 14000 },
+      { id: 'a3', cid: 'ac3', start: 16000 },
+      { id: 'a4', cid: 'ac4', start: 18000 },
+    ];
+    agents.forEach(a => {
+      const el = document.getElementById(a.id);
+      const p = easeOut(progress(t, a.start, a.start + 800));
+      el.style.opacity = p;
+      el.style.transform = `translateX(${lerp(-60, 0, p)}px)`;
+      const c = document.getElementById(a.cid);
+      const cp = progress(t, a.start + 1500, a.start + 1800);
+      if (cp > 0) { c.textContent = '\u2713'; c.style.opacity = easeOut(cp); }
+      else { c.style.opacity = 0; }
+    });
+  } else { s2.style.opacity = 0; }
+
+  // Scene 3: 25-40s
+  const s3 = document.getElementById('scene3');
+  if (t >= 24400 && t < 40000) {
+    const fadeIn = easeOut(progress(t, 25000, 25600));
+    const fadeOut = t > 39400 ? 1 - easeOut(progress(t, 39400, 40000)) : 1;
+    s3.style.opacity = fadeIn * fadeOut;
+    const h3 = document.getElementById('s3-headline');
+    h3.style.opacity = easeOut(progress(t, 25200, 26200));
+    h3.style.transform = `translateY(${lerp(30, 0, easeOut(progress(t, 25200, 26200)))}px)`;
+    const cb = document.getElementById('s3-code');
+    cb.style.opacity = easeOut(progress(t, 27000, 28000));
+    for (let i = 1; i <= 10; i++) {
+      const cl = document.getElementById('cl' + i);
+      const ls = 28000 + i * 600;
+      const lp = easeOut(progress(t, ls, ls + 500));
+      cl.style.opacity = lp;
+      if (lp > 0.5) cl.classList.add('active');
+    }
+  } else { s3.style.opacity = 0; }
+
+  // Scene 4: 40-55s
+  const s4 = document.getElementById('scene4');
+  if (t >= 39400 && t < 55000) {
+    const fadeIn = easeOut(progress(t, 40000, 40600));
+    const fadeOut = t > 54400 ? 1 - easeOut(progress(t, 54400, 55000)) : 1;
+    s4.style.opacity = fadeIn * fadeOut;
+    document.getElementById('s4-headline').style.opacity = easeOut(progress(t, 40200, 41200));
+    const results = [
+      { id: 'r1', start: 42000 },
+      { id: 'r2', start: 43500 },
+      { id: 'r3', start: 45000 },
+      { id: 'r4', start: 46500 },
+    ];
+    results.forEach(r => {
+      const el = document.getElementById(r.id);
+      const p = easeOut(progress(t, r.start, r.start + 800));
+      el.style.opacity = p;
+      el.style.transform = `translateY(${lerp(30, 0, p)}px)`;
+    });
+    const bn = document.getElementById('s4-bignum');
+    bn.style.opacity = easeOut(progress(t, 48500, 49500));
+    const numP = easeOut(progress(t, 48500, 51000));
+    document.getElementById('s4-num').textContent = Math.round(lerp(0, 28, numP));
+  } else { s4.style.opacity = 0; }
+
+  // Scene 5: 55-68s
+  const s5 = document.getElementById('scene5');
+  if (t >= 54400 && t < 68000) {
+    const fadeIn = easeOut(progress(t, 55000, 55600));
+    const fadeOut = t > 67400 ? 1 - easeOut(progress(t, 67400, 68000)) : 1;
+    s5.style.opacity = fadeIn * fadeOut;
+    document.getElementById('s5-headline').style.opacity = easeOut(progress(t, 55200, 56200));
+    const before = document.getElementById('s5-before');
+    const bp = easeOutBack(progress(t, 57000, 58000));
+    before.style.opacity = easeOut(progress(t, 57000, 57600));
+    before.style.transform = `scale(${lerp(0.9, 1, bp)})`;
+    const after = document.getElementById('s5-after');
+    const ap = easeOutBack(progress(t, 58500, 59500));
+    after.style.opacity = easeOut(progress(t, 58500, 59100));
+    after.style.transform = `scale(${lerp(0.9, 1, ap)})`;
+    const tl = document.getElementById('s5-tagline');
+    tl.style.opacity = easeOut(progress(t, 61000, 62000));
+  } else { s5.style.opacity = 0; }
+
+  // Scene 6: 68-75s
+  const s6 = document.getElementById('scene6');
+  if (t >= 67400) {
+    const fadeIn = easeOut(progress(t, 68000, 68600));
+    s6.style.opacity = fadeIn;
+    document.getElementById('s6-glow').style.opacity = 0.5 + 0.3 * Math.sin((t - 68000) / 800);
+    const logo = document.getElementById('s6-logo');
+    const lp = easeOutBack(progress(t, 68200, 69200));
+    logo.style.opacity = easeOut(progress(t, 68200, 68800));
+    logo.style.transform = t > 69200 ? `scale(${1 + 0.02 * Math.sin((t-69200)/500)})` : `scale(${lerp(0.8, 1, lp)})`;
+    document.getElementById('s6-line').style.opacity = easeOut(progress(t, 69000, 69500));
+    document.getElementById('s6-title').style.opacity = easeOut(progress(t, 69500, 70200));
+    document.getElementById('s6-url').style.opacity = easeOut(progress(t, 70500, 71200));
+  } else { s6.style.opacity = 0; }
+};
+window.renderFrame(0);
+</script>
+</body>
+</html>
