@@ -1,15 +1,12 @@
-# Operations Use Cases
+# Operations
 
-AI-powered use cases for operations managers, procurement, and general business operations.
+AI-powered use cases for operations, procurement, and business management.
 
----
+## 1. AI Meeting Notes
 
-# Use Case #032: AI Meeting Notes
+> Meeting notes ready instantly: transcript, summary, action items assigned.
 
-**Role**: Project Manager / Team Lead / Executive Assistant / Operations | **Industry**: Any Industry | **Task**: Meeting Transcription, Action Item Extraction, Decision Documentation, Follow-Up Tracking
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Meetings Produce Decisions and Action Items That Immediately Vanish**
 
@@ -66,6 +63,10 @@ COCO's AI Meeting Notes captures everything, structures it, and ensures follow-t
    - Cross-meeting pattern detection: "How many times have we discussed this topic without deciding?"
    - Compliance-friendly retention and access controls
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Action item completion**: From 21% to 84%
@@ -85,9 +86,9 @@ COCO's AI Meeting Notes captures everything, structures it, and ensures follow-t
 - **Remote/Async Workers**: Full context available even when they can't attend meetings
 - **New Employees**: Searchable meeting archive helps them understand past decisions and context
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Structure Meeting Notes**
 ```
@@ -155,16 +156,13 @@ Analyze:
 Provide a specific "meeting diet" recommendation: what to keep, cut, shorten, merge, or convert to async.
 ```
 
----
+:::
 
----
+## 2. AI Inventory Forecaster
 
-# Use Case #033: AI Inventory Forecaster
+> Real-time inventory forecasting, replacing weekly manual stocktakes.
 
-**Role**: Supply Chain Manager / Demand Planner / Operations Director | **Industry**: E-commerce, Retail, Manufacturing, Distribution, CPG | **Task**: Demand Forecasting, Inventory Optimization, Stockout Prevention, Overstock Reduction
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Inventory Forecasting with Spreadsheets Costs Millions in Stockouts and Overstock**
 
@@ -219,6 +217,10 @@ COCO's AI Inventory Forecaster combines historical analysis with real-time signa
    - "What if we expand to 3 new geographic markets?"
    - Helps leadership make inventory-aware business decisions
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Stockout reduction**: 67% fewer stockout events
@@ -239,9 +241,9 @@ COCO's AI Inventory Forecaster combines historical analysis with real-time signa
 - **Warehouse/Logistics**: More predictable inbound volumes; better space and labor planning
 - **Customers**: Better product availability; fewer backorders and cancellations
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Generate Demand Forecast**
 ```
@@ -306,16 +308,13 @@ For each scenario:
 - Communication plan for sales/marketing teams
 ```
 
----
+:::
 
----
+## 3. AI Vendor Evaluator
 
-# Use Case #034: AI Vendor Evaluator
+> Vendor evaluation and ranking in 2 hours, replacing 1 week of manual research.
 
-**Role**: Procurement Manager / Operations Director / Vendor Management | **Industry**: Any Enterprise, Manufacturing, Retail, Technology | **Task**: Vendor Evaluation, RFP Analysis, Contract Comparison, Vendor Risk Assessment
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Vendor Evaluation Is Slow, Subjective, and Risky**
 
@@ -371,6 +370,10 @@ COCO's AI Vendor Evaluator standardizes, accelerates, and deepens the vendor eva
    - Key person dependency
    - Technology platform maturity
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Evaluation time**: From 50 hours to 8 hours per vendor selection (84% reduction)
@@ -388,9 +391,9 @@ COCO's AI Vendor Evaluator standardizes, accelerates, and deepens the vendor eva
 - **Finance**: Better cost comparisons, fewer surprise cost escalations
 - **Leadership**: Confidence that vendor selections are data-driven, not politics-driven
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Generate Vendor Evaluation Scorecard**
 ```
@@ -490,5 +493,5 @@ Assess risk across dimensions:
 Overall risk score (0-100) with justification and recommended mitigation for each high-risk area.
 ```
 
----
+:::
 

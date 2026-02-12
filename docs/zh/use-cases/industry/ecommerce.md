@@ -1,15 +1,12 @@
-# 电商/零售用例
+# 电商/零售
 
 AI驱动的电商平台、零售运营和在线市场用例。
 
----
+## 1. AI SEO内容写作
 
-# Use Case #010: AI SEO Content Writer
+> 20分钟产出一篇SEO优化的高质量文章，关键词研究到终稿一站式完成。
 
-**Role**: Content Marketer / SEO Specialist / Growth Manager | **Industry**: SaaS, E-commerce, B2B, Media, Any Online Business | **Task**: SEO Article Creation, Keyword Optimization, Content Strategy Execution
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：SEO内容军备竞赛在人类速度下无法获胜**
 
@@ -65,6 +62,10 @@ COCO的AI SEO Content Writer将内容创作流水线从一个串行的、劳动�
    - 老化文章的内容刷新计划
    - 域名级别的竞品内容缺口分析
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **内容产量**：从每周2篇增至12+篇（6倍提升）
@@ -81,11 +82,9 @@ COCO的AI SEO Content Writer将内容创作流水线从一个串行的、劳动�
 - **增长经理**：不按比例增加人头的情况下实现有机流量复合增长
 - **创业公司创始人**：用零头的预算与成熟玩家的内容库竞争
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 基于关键词的完整SEO文章**
 ```
@@ -200,16 +199,13 @@ COCO的AI SEO Content Writer将内容创作流水线从一个串行的、劳动�
 - 预估CTR提升潜力（低/中/高）
 ```
 
----
+:::
 
----
+## 2. AI社媒管理
 
-# Use Case #011: AI Social Media Manager
+> 一次输入，全平台适配发布。每天3小时社媒运营缩减到15分钟。
 
-**Role**: Social Media Manager / Content Creator / Marketing Coordinator | **Industry**: Any B2B/B2C, SaaS, E-commerce, D2C, Agencies | **Task**: Social Media Content Creation, Scheduling, Cross-Platform Management, Engagement Optimization
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：社交媒体要求在不兼容的平台上产出无限内容**
 
@@ -256,6 +252,10 @@ COCO的AI Social Media Manager作为社交媒体团队的力量倍增器，处�
    - 粉丝增长趋势和互动模式变化
    - 下一周期内容策略建议
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **内容产出**：2.8倍增长（从每周15条到42条）
@@ -272,11 +272,9 @@ COCO的AI Social Media Manager作为社交媒体团队的力量倍增器，处�
 - **小企业主**：无需专职团队就能拥有专业的社交媒体形象
 - **代理商团队**：扩展客户社交账号管理而不按比例增加人员
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 从博客文章生成多平台内容**
 ```
@@ -382,16 +380,13 @@ COCO的AI Social Media Manager作为社交媒体团队的力量倍增器，处�
 只在相关性6+且风险为低-中时建议参与。
 ```
 
----
+:::
 
----
+## 3. AI广告文案生成
 
-# Use Case #012: AI Ad Copy Generator
+> 10分钟生成200个A/B变体广告文案，数据驱动迭代优化。
 
-**Role**: Performance Marketer / Paid Media Specialist / Growth Manager | **Industry**: SaaS, E-commerce, D2C, Fintech, B2B | **Task**: Ad Copywriting, A/B Testing Variations, Multi-Platform Ad Creation, Creative Optimization
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：广告文案的量产难题**
 
@@ -446,6 +441,10 @@ COCO的AI Ad Copy Generator专为效果营销构建，理解各平台付费广�
    - 设定准确的期望（减少信息错配导致的跳出率）
    - 建议落地页改进以匹配高表现广告角度
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **广告文案生产**：提速15倍（每广告组从4小时降至15分钟）
@@ -462,11 +461,9 @@ COCO的AI Ad Copy Generator专为效果营销构建，理解各平台付费广�
 - **增长团队**：更快测试更多角度，更快找到获胜信息
 - **电商品牌**：为数百个SKU生成产品特定的广告文案
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: Google自适应搜索广告生成**
 ```
@@ -586,16 +583,13 @@ COCO的AI Ad Copy Generator专为效果营销构建，理解各平台付费广�
 - 建议添加的当地信任信号（当地支付方式、当地社会证明等）
 ```
 
----
+:::
 
----
+## 4. AI竞品文案分析
 
-# Use Case #014: AI Competitive Copywriter
+> 实时追踪竞品动态，2天调研变为1小时自动化输出。
 
-**Role**: Marketing Strategist / Brand Manager / Competitive Intelligence Analyst | **Industry**: SaaS, Technology, E-commerce, B2B Services | **Task**: Competitive Analysis, Differentiation Messaging, Battle Card Creation, Win/Loss Analysis
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：你的竞品营销信息永远过时**
 
@@ -650,6 +644,10 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
    - 客户证据支撑定位声明
    - 符合比较广告的法规标准
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **竞品对战胜率**：从34%提升到52%（+53%提升）
@@ -666,11 +664,9 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 - **营销领导者**：更快、更协调的竞品响应
 - **竞品情报团队**：分析更快地转化为行动
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 竞品作战卡生成**
 ```
@@ -756,16 +752,13 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 6. 下个季度提升胜率的前3个可操作建议
 ```
 
----
+:::
 
----
+## 5. AI报价计算
 
-# Use Case #020: AI Quote Calculator
+> 10分钟完成复杂报价计算，自动匹配折扣规则和审批流程。
 
-**Role**: Sales Rep / Sales Operations / Revenue Operations | **Industry**: SaaS, Manufacturing, Professional Services, Enterprise | **Task**: Quote Generation, Pricing Configuration, Discount Approval, Deal Structuring
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：复杂定价拖慢你最快的交易**
 
@@ -818,6 +811,10 @@ COCO的AI Quote Calculator将报价流程从手动、易出错的工作流转变
    - 报价到签约时间分析
    - 基于赢单/丢单数据的定价优化建议
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **报价生成时间**：从45分钟降至4分钟（减少91%）
@@ -834,11 +831,9 @@ COCO的AI Quote Calculator将报价流程从手动、易出错的工作流转变
 - **财务/收入运营**：准确的定价、一致的利润保护、干净的交易数据
 - **客户**：快速、专业的报价，显示你珍视他们的时间
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 生成销售报价**
 ```
@@ -914,16 +909,13 @@ COCO的AI Quote Calculator将报价流程从手动、易出错的工作流转变
 格式化为干净的、面向客户的文档。
 ```
 
----
+:::
 
----
+## 6. AI工单分类
 
-# Use Case #021: AI Ticket Classifier
+> 工单自动分类路由，5分钟/单变为即时处理。
 
-**Role**: Support Operations / Support Manager / Customer Success | **Industry**: SaaS, E-commerce, Fintech, Healthcare, Telecommunications | **Task**: Ticket Routing, Priority Classification, Auto-Triage, SLA Management
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：手动工单分类是随着规模增长只会更严重的瓶颈**
 
@@ -976,6 +968,10 @@ COCO的AI Ticket Classifier为每张进入的支持工单提供即时、准确�
    - 随产品演进适应新的问题类型
    - 基于解决模式更新路由规则
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **错误路由率**：从31%降至4%（减少87%）
@@ -993,11 +989,9 @@ COCO的AI Ticket Classifier为每张进入的支持工单提供即时、准确�
 - **客户**：更快、更准确的首次响应，更少的"找错部门"弹跳
 - **运营**：干净的工单数据用于报告、容量规划和产品反馈循环
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 构建工单分类体系**
 ```
@@ -1064,16 +1058,13 @@ SLA层级：[按优先级列出你的SLA要求]
 每个回复控制在150字以内。测试可读性：一个沮丧的客户会觉得这有帮助还是烦人？
 ```
 
----
+:::
 
----
+## 7. AI多语言客服
 
-# Use Case #023: AI Multi-Language Support
+> AI一键支持15+语言客服，替代5个翻译人员。
 
-**Role**: Support Manager / Customer Success / Global Operations | **Industry**: SaaS, E-commerce, Gaming, Fintech, Any Global Company | **Task**: Multi-Language Customer Support, Real-Time Translation, Localized Response Generation
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：全球扩展需要你不会说的语言的客户支持**
 
@@ -1125,6 +1116,10 @@ COCO的AI Multi-Language Support提供母语质量的多语言客户服务，无
    - 文化审查标记（在目标语言中可能不恰当的内容）
    - 坐席反馈循环（懂该语言的坐席可以评分和纠正翻译）
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **支持的语言**：14种语言保持一致质量
@@ -1141,11 +1136,9 @@ COCO的AI Multi-Language Support提供母语质量的多语言客户服务，无
 - **客服领导**：扩展全球客服而不按语言比例增加人手
 - **业务领导者**：从第一天就具备客服准备度，更快进入新市场
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 翻译并回复外语工单**
 ```
@@ -1219,16 +1212,13 @@ COCO的AI Multi-Language Support提供母语质量的多语言客户服务，无
 - 标记任何方式应该因文化差异而不同的模板
 ```
 
----
+:::
 
----
+## 8. AI VIP升级管理
 
-# Use Case #024: AI VIP Escalation
+> 自动识别VIP客户异常，30%漏检降至0%。
 
-**Role**: Enterprise Support / Customer Success Manager / Support Operations | **Industry**: SaaS, Enterprise Software, Fintech, Healthcare | **Task**: VIP Customer Detection, Intelligent Escalation, Priority Queue Management, Churn Prevention
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：你的客服系统分不清50万的客户和免费试用用户**
 
@@ -1280,6 +1270,10 @@ COCO的AI VIP Escalation创建一个智能层，确保高价值客户获得与�
    - 以高管适当的语气和详细程度起草回复
    - 无论是否解决，24小时内安排跟进
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **VIP首次响应时间**：12分钟（vs标准2小时）
@@ -1296,11 +1290,9 @@ COCO的AI VIP Escalation创建一个智能层，确保高价值客户获得与�
 - **CSM**：风险账户的早期预警，主动触达的数据支持
 - **收入领导者**：保护企业收入，更高的续约率
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 构建VIP升级规则**
 ```
@@ -1371,16 +1363,13 @@ CSM：[姓名]
 语气：高级、专业、真诚。应该听起来像是一个真心在意这段关系的人写的，而不是公关模板。
 ```
 
----
+:::
 
----
+## 9. AI发票处理
 
-# Use Case #031: AI Invoice Processor
+> 30秒处理一张发票：提取、匹配、路由全自动。
 
-**Role**: Accounts Payable Clerk / AP Manager / Finance Operations | **Industry**: Any Enterprise, Manufacturing, Retail, Healthcare | **Task**: Invoice Processing, PO Matching, Payment Scheduling, AP Automation
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：AP是财务中劳动最密集的职能**
 
@@ -1437,6 +1426,10 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
    - 基于关系重要性和条款优先排序供应商付款
    - 为现金流规划预测即将到来的付款义务
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **每张发票处理时间**：从14分钟降至45秒（减少95%）
@@ -1457,11 +1450,9 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 - **供应商**：更快、更准确的付款改善业务关系
 - **采购**：更好的PO合规跟踪；供应商绩效数据
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 发票数据提取**
 ```
@@ -1533,16 +1524,13 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 提供优先级排序的90天改进路线图。
 ```
 
----
+:::
 
----
+## 10. AI库存预测
 
-# Use Case #033: AI Inventory Forecaster
+> 实时库存预测，替代每周手动盘点，减少滞销和缺货。
 
-**Role**: Supply Chain Manager / Demand Planner / Operations Director | **Industry**: E-commerce, Retail, Manufacturing, Distribution, CPG | **Task**: Demand Forecasting, Inventory Optimization, Stockout Prevention, Overstock Reduction
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：用电子表格做库存预测在缺货和积压上损失数百万**
 
@@ -1597,6 +1585,10 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
    - "如果我们扩展到3个新的地理市场会怎样？"
    - 帮助领导层做出考虑库存的商业决策
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **缺货减少**：缺货事件减少67%
@@ -1617,11 +1609,9 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
 - **仓库/物流**：更可预测的入库量；更好的空间和劳动力规划
 - **客户**：更好的产品可用性；更少的延期交货和取消
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 生成需求预测**
 ```
@@ -1686,5 +1676,5 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
 - 给销售/市场团队的沟通计划
 ```
 
----
+:::
 

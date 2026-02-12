@@ -1,15 +1,16 @@
-# 流程自动化用例
+# 流程自动化
 
 AI驱动的工作流自动化、系统集成和运营效率用例。
 
----
+## 1. AI代码审查
 
-# Use Case #005: AI Code Reviewer
+> 自动审查每个PR：Bug、安全漏洞、性能问题——15分钟出完整报告。
 
-**Role**: Developer / Engineering Lead | **Industry**: Technology, SaaS, Fintech, Enterprise Software | **Task**: Automated Code Review, Quality Assurance, Security Scanning
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/code-reviewer-video-cn.mp4" type="video/mp4">
+</video>
 
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：Code Review正在拖垮你的工程效率**
 
@@ -38,9 +39,12 @@ COCO的AI Code Reviewer直接集成到你现有的Git工作流（GitHub、GitLab
 
 6. **人工审查路由**：COCO第一轮审查完成后，PR被路由给最合适的人工审查者，基于代码所有权、专业领域和当前工作量。人工审查者看到COCO的分析结果，只需聚焦于架构决策、业务逻辑正确性和设计权衡。
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
-使用COCO AI Code Reviewer的团队反馈：
 - PR审查周期平均**缩短68%**
 - 合并前发现的bug**增加73%**
 - 到达生产环境的安全漏洞**减少85%**
@@ -54,11 +58,9 @@ COCO的AI Code Reviewer直接集成到你现有的Git工作流（GitHub、GitLab
 - **初级工程师**：更快的反馈循环加速成长，减少"等review"的阻塞
 - **安全团队**：每个PR都有一致的安全扫描，而不是定期审计
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 安全专项代码审查**
 ```
@@ -136,22 +138,13 @@ PR信息：
 [粘贴PR详情和diff]
 ```
 
----
+:::
 
-**演示视频：**
+## 2. AI测试生成
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 1rem 0;">
-  <source src="/videos/cn/code-reviewer-video-cn.mp4" type="video/mp4">
-</video>
+> 读取源码，30分钟生成包含边界条件的完整测试。覆盖率从34%提升到89%。
 
----
-
-# Use Case #006: AI Test Generator
-
-**Role**: Developer / QA Engineer | **Industry**: Technology, SaaS, Fintech, Healthcare IT | **Task**: Automated Test Generation, Test Coverage Improvement, Regression Testing
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：永远还不清的测试覆盖率债务**
 
@@ -196,6 +189,10 @@ COCO的AI Test Generator不只是创建样板测试。它对你的代码进行�
 
 6. **持续缺口分析**：初始生成后，COCO监控代码变更，自动为修改的代码建议新测试，确保覆盖率不退化。
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - 6周内覆盖率**从34%提升到78%**（中型代码库的典型结果）
@@ -212,11 +209,9 @@ COCO的AI Test Generator不只是创建样板测试。它对你的代码进行�
 - **技术经理**：可量化的质量指标可供汇报，生产环境bug导致的紧急救火更少
 - **产品团队**：重构不被缺失的测试阻塞，功能交付更快
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 为未测试模块生成测试**
 ```
@@ -313,16 +308,13 @@ Bug描述：[描述bug]
 只生成缺失的测试，不要重复已有的覆盖。
 ```
 
----
+:::
 
----
+## 3. AI部署监控
 
-# Use Case #007: AI Deploy Monitor
+> 实时监控每次部署，90秒检测异常，自动回滚。MTTR从47分钟降至2分钟。
 
-**Role**: DevOps Engineer / SRE / Platform Engineer | **Industry**: Technology, SaaS, E-commerce, Fintech | **Task**: Deployment Monitoring, Incident Detection, Automated Rollback, Post-Deploy Analysis
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：部署是你最大的事故来源**
 
@@ -359,6 +351,10 @@ COCO的AI Deploy Monitor作为智能层叠加在你现有的监控基础设施�
 
 6. **事件时间线构建**：当出问题时，COCO自动构建详细的事件时间线：部署了什么、指标何时开始偏离、哪些用户受影响、根因是什么、采取了哪些操作。这省去了数小时的事后调查。
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **平均检测时间（MTTD）**：从23分钟缩短到94秒
@@ -374,11 +370,9 @@ COCO的AI Deploy Monitor作为智能层叠加在你现有的监控基础设施�
 - **技术经理**：更快发版而不增加事故率
 - **业务干系人**：更高的可用性，更少的客户投诉，保护了收入
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 部署后健康检查分析**
 ```
@@ -479,16 +473,13 @@ COCO的AI Deploy Monitor作为智能层叠加在你现有的监控基础设施�
 推荐新阈值，将误报减少至少50%的同时保持对真实事故的检测能力。考虑基于时段的动态阈值。
 ```
 
----
+:::
 
----
+## 4. AI调试助手
 
-# Use Case #009: AI Debug Assistant
+> 粘贴错误日志，AI从症状追溯到根因，提供可直接应用的修复diff。
 
-**Role**: Developer / Full-Stack Engineer / Backend Engineer | **Industry**: Technology, SaaS, Fintech, Any Software Company | **Task**: Bug Diagnosis, Error Resolution, Performance Debugging, Log Analysis
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：Debug是工程效率最大的隐形税**
 
@@ -537,6 +528,10 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
    - 哪些组件脆弱以及为什么
    - bug中的重复模式（例如"每次缓存TTL配置变更，这三个端点就会挂"）
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - Debug时间**从每周9.2小时降至3.4小时**（减少63%）
@@ -552,11 +547,9 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 - **技术经理**：可量化的debug开销降低，更多时间用于功能开发
 - **值班工程师**：故障期间更快的事故诊断
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 带完整上下文的错误诊断**
 ```
@@ -673,16 +666,13 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 5. 从影响开始到恢复的时间线
 ```
 
----
+:::
 
----
+## 5. AI CRM管家
 
-# Use Case #016: AI CRM Updater
+> 通话、邮件、会议自动同步CRM，45分钟/天数据录入变为0。
 
-**Role**: Sales Rep / Account Executive / Sales Operations | **Industry**: B2B SaaS, Enterprise Sales, Professional Services | **Task**: CRM Data Entry, Activity Logging, Pipeline Hygiene, Deal Intelligence
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：CRM数据录入正在扼杀销售效率和Pipeline准确性**
 
@@ -733,6 +723,10 @@ COCO的AI CRM Updater通过从已经发生的对话和活动中提取情报来�
    - 周环比Pipeline变动分析
    - 面临滑移风险交易的早期预警
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **CRM数据完整度**：从61%升至94%
@@ -749,11 +743,9 @@ COCO的AI CRM Updater通过从已经发生的对话和活动中提取情报来�
 - **销售VP/CRO**：可靠的预测用于董事会汇报和资源规划
 - **销售运营**：干净的数据用于分析、区域规划和佣金计算
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 会议笔记转CRM更新**
 ```
@@ -826,16 +818,13 @@ Pipeline数据：
 - **考虑关闭的交易**：我可能应该移至丢单的交易
 ```
 
----
+:::
 
----
+## 6. AI工单分类
 
-# Use Case #021: AI Ticket Classifier
+> 工单自动分类路由，5分钟/单变为即时处理。
 
-**Role**: Support Operations / Support Manager / Customer Success | **Industry**: SaaS, E-commerce, Fintech, Healthcare, Telecommunications | **Task**: Ticket Routing, Priority Classification, Auto-Triage, SLA Management
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：手动工单分类是随着规模增长只会更严重的瓶颈**
 
@@ -888,6 +877,10 @@ COCO的AI Ticket Classifier为每张进入的支持工单提供即时、准确�
    - 随产品演进适应新的问题类型
    - 基于解决模式更新路由规则
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **错误路由率**：从31%降至4%（减少87%）
@@ -905,11 +898,9 @@ COCO的AI Ticket Classifier为每张进入的支持工单提供即时、准确�
 - **客户**：更快、更准确的首次响应，更少的"找错部门"弹跳
 - **运营**：干净的工单数据用于报告、容量规划和产品反馈循环
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 构建工单分类体系**
 ```
@@ -976,16 +967,13 @@ SLA层级：[按优先级列出你的SLA要求]
 每个回复控制在150字以内。测试可读性：一个沮丧的客户会觉得这有帮助还是烦人？
 ```
 
----
+:::
 
----
+## 7. AI VIP升级管理
 
-# Use Case #024: AI VIP Escalation
+> 自动识别VIP客户异常，30%漏检降至0%。
 
-**Role**: Enterprise Support / Customer Success Manager / Support Operations | **Industry**: SaaS, Enterprise Software, Fintech, Healthcare | **Task**: VIP Customer Detection, Intelligent Escalation, Priority Queue Management, Churn Prevention
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：你的客服系统分不清50万的客户和免费试用用户**
 
@@ -1037,6 +1025,10 @@ COCO的AI VIP Escalation创建一个智能层，确保高价值客户获得与�
    - 以高管适当的语气和详细程度起草回复
    - 无论是否解决，24小时内安排跟进
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **VIP首次响应时间**：12分钟（vs标准2小时）
@@ -1053,11 +1045,9 @@ COCO的AI VIP Escalation创建一个智能层，确保高价值客户获得与�
 - **CSM**：风险账户的早期预警，主动触达的数据支持
 - **收入领导者**：保护企业收入，更高的续约率
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 构建VIP升级规则**
 ```
@@ -1128,16 +1118,13 @@ CSM：[姓名]
 语气：高级、专业、真诚。应该听起来像是一个真心在意这段关系的人写的，而不是公关模板。
 ```
 
----
+:::
 
----
+## 8. AI面试排期
 
-# Use Case #027: AI Interview Scheduler
+> 3分钟完成面试排期，自动协调多方日历。
 
-**Role**: Recruiting Coordinator / Talent Operations / HR | **Industry**: Any Industry with High Hiring Volume | **Task**: Interview Scheduling, Calendar Coordination, Candidate Communication, Interview Loop Management
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：面试排期是招聘速度的隐形杀手**
 
@@ -1190,6 +1177,10 @@ COCO的AI Interview Scheduler自动化从初始可用性到确认的整个排期
    - 按面试官分的取消和改期率
    - 排期速度与offer接受率的相关性
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **每次循环排期时间**：从45分钟降至3分钟（减少93%）
@@ -1208,11 +1199,9 @@ COCO的AI Interview Scheduler自动化从初始可用性到确认的整个排期
 - **用人经理**：更快的流水线速度意味着更快填补职位
 - **TA负责人**：更好的排期效率指标及其对招聘结果的影响
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 设计面试循环排期**
 ```
@@ -1281,16 +1270,13 @@ COCO的AI Interview Scheduler自动化从初始可用性到确认的整个排期
 提供下个季度的可操作建议。
 ```
 
----
+:::
 
----
+## 9. AI入职助手
 
-# Use Case #028: AI Onboarding Assistant
+> 新员工3天完成入职，替代传统2周流程。
 
-**Role**: HR Manager / People Ops / Hiring Manager | **Industry**: Any Industry | **Task**: Employee Onboarding, Day-1 Readiness, 30/60/90 Day Planning, New Hire Experience
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：失败的入职体验在员工开始贡献之前就让你失去他们**
 
@@ -1343,6 +1329,10 @@ COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入�
    - 第90天："你会推荐我们公司吗？入职有什么你想改变的？"
    - 结果汇总用于入职计划的持续改进
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **新人满意度（30天）**：从62%升至91%
@@ -1361,11 +1351,9 @@ COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入�
 - **IT/设施**：带截止日期的明确任务分配，而非最后一刻的紧急救火
 - **领导层**：更低的早期离职率；更快达到生产力；更好的雇主品牌
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 生成30/60/90天入职计划**
 ```
@@ -1454,16 +1442,13 @@ COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入�
 每个任务：负责人、截止日期、依赖项、以及已完成的验证。
 ```
 
----
+:::
 
----
+## 10. AI发票处理
 
-# Use Case #031: AI Invoice Processor
+> 30秒处理一张发票：提取、匹配、路由全自动。
 
-**Role**: Accounts Payable Clerk / AP Manager / Finance Operations | **Industry**: Any Enterprise, Manufacturing, Retail, Healthcare | **Task**: Invoice Processing, PO Matching, Payment Scheduling, AP Automation
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：AP是财务中劳动最密集的职能**
 
@@ -1520,6 +1505,10 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
    - 基于关系重要性和条款优先排序供应商付款
    - 为现金流规划预测即将到来的付款义务
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **每张发票处理时间**：从14分钟降至45秒（减少95%）
@@ -1540,11 +1529,9 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 - **供应商**：更快、更准确的付款改善业务关系
 - **采购**：更好的PO合规跟踪；供应商绩效数据
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 发票数据提取**
 ```
@@ -1616,16 +1603,13 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 提供优先级排序的90天改进路线图。
 ```
 
----
+:::
 
----
+## 11. AI会议纪要
 
-# Use Case #032: AI Meeting Notes
+> 会议结束即出纪要：转录、摘要、待办分配一步到位。
 
-**Role**: Project Manager / Team Lead / Executive Assistant / Operations | **Industry**: Any Industry | **Task**: Meeting Transcription, Action Item Extraction, Decision Documentation, Follow-Up Tracking
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：会议产出的决策和行动项会立即消失**
 
@@ -1682,6 +1666,10 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
    - 跨会议模式检测："我们讨论这个话题多少次了却没有决定？"
    - 合规友好的保留和访问控制
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **行动项完成率**：从21%升至84%
@@ -1701,11 +1689,9 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 - **远程/异步工作者**：即使不能参加会议也能获得完整上下文
 - **新员工**：可搜索的会议存档帮助他们了解过去的决策和背景
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 结构化会议笔记**
 ```
@@ -1773,5 +1759,5 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 提供具体的"会议瘦身"建议：保留什么、砍掉什么、缩短什么、合并什么、或转为异步什么。
 ```
 
----
+:::
 

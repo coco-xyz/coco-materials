@@ -1,15 +1,16 @@
-# Technology / SaaS Use Cases
+# Technology / SaaS
 
-AI use cases tailored for technology companies, SaaS platforms, and software development teams.
+AI use cases for tech companies, SaaS platforms, and dev teams.
 
----
+## 1. AI Code Reviewer
 
-# Use Case #005: AI Code Reviewer
+> Auto-reviews every PR: bugs, security, performance — full report in 15 minutes.
 
-**Role**: Developer / Engineering Lead | **Industry**: Technology, SaaS, Fintech, Enterprise Software | **Task**: Automated Code Review, Quality Assurance, Security Scanning
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/005-ai-code-reviewer.mp4" type="video/mp4">
+</video>
 
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Code Review Is Crushing Your Engineering Velocity**
 
@@ -38,9 +39,12 @@ COCO's AI Code Reviewer integrates directly into your existing Git workflow (Git
 
 6. **Human Reviewer Routing**: After COCO's first pass, the PR is routed to the most appropriate human reviewer based on code ownership, expertise area, and current workload. The human reviewer sees COCO's analysis and focuses only on architectural decisions, business logic correctness, and design trade-offs.
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
-Teams using COCO's AI Code Reviewer report:
 - **68% reduction** in average PR review turnaround time
 - **73% increase** in bugs caught before merge
 - **85% reduction** in security vulnerabilities reaching production
@@ -54,9 +58,9 @@ Teams using COCO's AI Code Reviewer report:
 - **Junior Engineers**: Faster feedback loops accelerate learning and reduce "waiting on review" blocks
 - **Security Teams**: Consistent security scanning on every single PR, not just periodic audits
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Security-Focused Code Review**
 ```
@@ -134,22 +138,17 @@ PR:
 [paste PR details and diff]
 ```
 
----
+:::
 
-**Demo Video:**
+## 2. AI Test Generator
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 1rem 0;">
-  <source src="/videos/en/005-ai-code-reviewer.mp4" type="video/mp4">
+> Reads source code and generates comprehensive tests with edge cases. Coverage: 34% → 89%.
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/006-ai-test-generator.mp4" type="video/mp4">
 </video>
 
----
-
-# Use Case #006: AI Test Generator
-
-**Role**: Developer / QA Engineer | **Industry**: Technology, SaaS, Fintech, Healthcare IT | **Task**: Automated Test Generation, Test Coverage Improvement, Regression Testing
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: The Test Coverage Debt That Never Gets Paid**
 
@@ -194,6 +193,10 @@ COCO's AI Test Generator doesn't just create boilerplate tests. It performs deep
 
 6. **Continuous Gap Analysis**: After initial generation, COCO monitors code changes and automatically suggests new tests for modified code, ensuring coverage doesn't degrade over time.
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **34% to 78% coverage** in 6 weeks (typical for mid-size codebases)
@@ -210,9 +213,9 @@ COCO's AI Test Generator doesn't just create boilerplate tests. It performs deep
 - **Engineering Managers**: Measurable quality metrics to report; fewer fire drills from production bugs
 - **Product Teams**: Faster feature delivery when refactoring isn't blocked by missing tests
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Generate Tests for Untested Module**
 ```
@@ -309,22 +312,13 @@ Identify:
 Generate ONLY the missing tests, not duplicates of existing coverage.
 ```
 
----
+:::
 
-**Demo Video:**
+## 3. AI Deploy Monitor
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 1rem 0;">
-  <source src="/videos/en/006-ai-test-generator.mp4" type="video/mp4">
-</video>
+> Monitors every deploy in real-time, detects anomalies in 90s, auto-rollbacks. MTTR: 47min → 2min.
 
----
-
-# Use Case #007: AI Deploy Monitor
-
-**Role**: DevOps Engineer / SRE / Platform Engineer | **Industry**: Technology, SaaS, E-commerce, Fintech | **Task**: Deployment Monitoring, Incident Detection, Automated Rollback, Post-Deploy Analysis
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Deployments Are Your Biggest Source of Incidents**
 
@@ -361,6 +355,10 @@ COCO's AI Deploy Monitor acts as an intelligent layer on top of your existing mo
 
 6. **Incident Timeline Construction**: When things go wrong, COCO automatically constructs a detailed incident timeline: what was deployed, when metrics diverged, which users were affected, what the root cause was, and what actions were taken. This eliminates hours of post-incident investigation.
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Mean time to detection (MTTD)**: Reduced from 23 minutes to 94 seconds
@@ -376,9 +374,9 @@ COCO's AI Deploy Monitor acts as an intelligent layer on top of your existing mo
 - **Engineering Managers**: Ship faster without increasing incident rate
 - **Business Stakeholders**: Higher uptime, fewer customer complaints, protected revenue
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Post-Deploy Health Check Analysis**
 ```
@@ -479,16 +477,13 @@ Normal traffic patterns:
 Recommend new thresholds that reduce false positives by at least 50% while maintaining detection of real incidents. Consider dynamic thresholds based on time of day.
 ```
 
----
+:::
 
----
+## 4. AI API Doc Writer
 
-# Use Case #008: AI API Doc Writer
+> Auto-generates and syncs API docs from codebase, multi-language examples, zero drift.
 
-**Role**: Developer / Technical Writer / Developer Relations | **Industry**: Technology, SaaS, API-First Companies, Developer Tools | **Task**: API Documentation Generation, OpenAPI Spec Maintenance, Developer Guide Creation
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Documentation Drift Is Silently Killing Your Developer Experience**
 
@@ -540,6 +535,10 @@ COCO's AI API Doc Writer treats documentation as a living artifact that stays sy
    - Webhook integration guides
    - Migration guides when breaking changes occur
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **100% documentation coverage** across all endpoints (vs. typical 60-70%)
@@ -556,9 +555,9 @@ COCO's AI API Doc Writer treats documentation as a living artifact that stays sy
 - **Developer Relations**: Better docs = more adoption, fewer support escalations
 - **Engineering Teams**: No more "update the docs" as an afterthought PR comment
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Generate API Endpoint Documentation**
 ```
@@ -657,16 +656,13 @@ The guide should include:
 Write in a friendly, clear tone. Assume the reader is a developer but has never used this specific API before.
 ```
 
----
+:::
 
----
+## 5. AI Debug Assistant
 
-# Use Case #009: AI Debug Assistant
+> Paste error logs, AI traces from symptom to root cause, provides ready-to-apply fix diffs.
 
-**Role**: Developer / Full-Stack Engineer / Backend Engineer | **Industry**: Technology, SaaS, Fintech, Any Software Company | **Task**: Bug Diagnosis, Error Resolution, Performance Debugging, Log Analysis
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Debugging Is the Biggest Hidden Tax on Engineering Productivity**
 
@@ -715,6 +711,10 @@ COCO's AI Debug Assistant acts as a senior debugging partner that has read your 
    - Which components are fragile and why
    - Recurring patterns in bugs (e.g., "every time the cache TTL config changes, these three endpoints break")
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Debugging time reduced** from 9.2 to 3.4 hours/developer/week (63% reduction)
@@ -730,9 +730,9 @@ COCO's AI Debug Assistant acts as a senior debugging partner that has read your 
 - **Engineering Managers**: Quantifiable reduction in debugging overhead; more time on feature work
 - **On-Call Engineers**: Faster incident diagnosis during outages
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Error Diagnosis with Full Context**
 ```
@@ -849,16 +849,13 @@ Correlate the logs across services to reconstruct:
 5. Timeline of impact start to recovery
 ```
 
----
+:::
 
----
+## 6. AI SEO Content Writer
 
-# Use Case #010: AI SEO Content Writer
+> Produces an SEO-optimized article in 20 minutes, from keyword research to final draft.
 
-**Role**: Content Marketer / SEO Specialist / Growth Manager | **Industry**: SaaS, E-commerce, B2B, Media, Any Online Business | **Task**: SEO Article Creation, Keyword Optimization, Content Strategy Execution
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: The SEO Content Arms Race Is Unwinnable at Human Speed**
 
@@ -914,6 +911,10 @@ COCO's AI SEO Content Writer transforms the content creation pipeline from a ser
    - Content refresh schedules for aging articles
    - Competitive content gap analysis at the domain level
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Content production**: From 2 articles/week to 12+ articles/week (6x increase)
@@ -930,9 +931,9 @@ COCO's AI SEO Content Writer transforms the content creation pipeline from a ser
 - **Growth Managers**: Compound organic traffic growth without proportional headcount growth
 - **Startup Founders**: Compete with established players' content libraries on a fraction of the budget
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Complete SEO Article from Keyword**
 ```
@@ -1047,16 +1048,13 @@ For each page provide:
 - Estimated CTR improvement potential (Low/Medium/High)
 ```
 
----
+:::
 
----
+## 7. AI Social Media Manager
 
-# Use Case #011: AI Social Media Manager
+> One input, all platforms. 3 hours/day social media ops reduced to 15 minutes.
 
-**Role**: Social Media Manager / Content Creator / Marketing Coordinator | **Industry**: Any B2B/B2C, SaaS, E-commerce, D2C, Agencies | **Task**: Social Media Content Creation, Scheduling, Cross-Platform Management, Engagement Optimization
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Social Media Demands Infinite Content Across Incompatible Platforms**
 
@@ -1103,6 +1101,10 @@ COCO's AI Social Media Manager acts as a force multiplier for social media teams
    - Audience growth trends and engagement pattern changes
    - Recommendations for next cycle's content strategy
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Content output**: 2.8x increase (15 to 42 posts/week)
@@ -1119,9 +1121,9 @@ COCO's AI Social Media Manager acts as a force multiplier for social media teams
 - **Small Business Owners**: Professional social media presence without a dedicated team
 - **Agency Teams**: Scale client social accounts without proportional staff increases
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Multi-Platform Content Generation from Blog Post**
 ```
@@ -1227,16 +1229,13 @@ For each, rate:
 Only suggest participation if relevance is 6+ and risk is low-medium.
 ```
 
----
+:::
 
----
+## 8. AI Ad Copy Generator
 
-# Use Case #012: AI Ad Copy Generator
+> Generates 200 A/B ad copy variants in 10 minutes with data-driven optimization.
 
-**Role**: Performance Marketer / Paid Media Specialist / Growth Manager | **Industry**: SaaS, E-commerce, D2C, Fintech, B2B | **Task**: Ad Copywriting, A/B Testing Variations, Multi-Platform Ad Creation, Creative Optimization
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: The Ad Copy Volume Problem**
 
@@ -1291,6 +1290,10 @@ COCO's AI Ad Copy Generator is built specifically for performance marketing, und
    - Sets accurate expectations (reducing bounce rate from message mismatch)
    - Suggests landing page improvements to match high-performing ad angles
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Ad copy production**: 15x faster (from 4 hours to 15 minutes per ad group)
@@ -1307,9 +1310,9 @@ COCO's AI Ad Copy Generator is built specifically for performance marketing, und
 - **Growth Teams**: Test more angles faster, find winning messages sooner
 - **E-commerce Brands**: Generate product-specific ad copy across hundreds of SKUs
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Google Responsive Search Ad Generation**
 ```
@@ -1429,16 +1432,13 @@ For each localized version:
 - Suggest local trust signals to add (local payment methods, local social proof, etc.)
 ```
 
----
+:::
 
----
+## 9. AI Competitive Copywriter
 
-# Use Case #014: AI Competitive Copywriter
+> Real-time competitive tracking. 2 days of research becomes 1 hour of automated insights.
 
-**Role**: Marketing Strategist / Brand Manager / Competitive Intelligence Analyst | **Industry**: SaaS, Technology, E-commerce, B2B Services | **Task**: Competitive Analysis, Differentiation Messaging, Battle Card Creation, Win/Loss Analysis
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Your Competitive Messaging Is Always Out of Date**
 
@@ -1493,6 +1493,10 @@ COCO's AI Competitive Copywriter closes the gap between competitive intelligence
    - Customer evidence backs up positioning claims
    - Compliance with advertising standards for comparative claims
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Competitive win rate**: From 34% to 52% (+53% improvement)
@@ -1509,9 +1513,9 @@ COCO's AI Competitive Copywriter closes the gap between competitive intelligence
 - **Marketing Leaders**: Faster, more coordinated competitive response
 - **Competitive Intelligence Teams**: Analysis translated into action faster
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Competitive Battle Card Generation**
 ```
@@ -1597,16 +1601,13 @@ Analyze:
 6. Top 3 actionable recommendations to improve win rate next quarter
 ```
 
----
+:::
 
----
+## 10. AI Lead Researcher
 
-# Use Case #015: AI Lead Researcher
+> Researches 200 leads/day, auto-enriched from LinkedIn, Crunchbase, scored and ready.
 
-**Role**: SDR / BDR / Sales Development | **Industry**: B2B SaaS, Professional Services, Enterprise Sales, Fintech | **Task**: Prospect Research, Account Intelligence, Outreach Personalization, ICP Qualification
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: SDRs Spend More Time Researching Than Selling**
 
@@ -1653,6 +1654,10 @@ COCO's AI Lead Researcher automates the research and qualification process, deli
    - Recommended approach sequence (who to contact first, who to involve when)
    - Relationship paths through mutual connections
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Research time per lead**: From 45 minutes to 3 minutes (93% reduction)
@@ -1669,9 +1674,9 @@ COCO's AI Lead Researcher automates the research and qualification process, deli
 - **AEs**: Receive better-qualified, better-researched meetings from SDRs
 - **Revenue Operations**: More accurate pipeline data from better upfront qualification
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Comprehensive Prospect Research Brief**
 ```
@@ -1774,16 +1779,13 @@ For each lead, provide:
 - One-line personalization hook if qualified
 ```
 
----
+:::
 
----
+## 11. AI CRM Updater
 
-# Use Case #016: AI CRM Updater
+> Calls, emails, meetings auto-synced to CRM. 45 min/day data entry becomes zero.
 
-**Role**: Sales Rep / Account Executive / Sales Operations | **Industry**: B2B SaaS, Enterprise Sales, Professional Services | **Task**: CRM Data Entry, Activity Logging, Pipeline Hygiene, Deal Intelligence
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: CRM Data Entry Is Killing Sales Productivity and Pipeline Accuracy**
 
@@ -1834,6 +1836,10 @@ COCO's AI CRM Updater automates data entry by extracting intelligence from the c
    - Week-over-week pipeline movement analysis
    - Early warning for deals at risk of slipping
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **CRM data completeness**: From 61% to 94%
@@ -1850,9 +1856,9 @@ COCO's AI CRM Updater automates data entry by extracting intelligence from the c
 - **VP of Sales/CRO**: Reliable forecasts for board reporting and resource planning
 - **Sales Operations**: Clean data for analytics, territory planning, and compensation
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Meeting Notes to CRM Update**
 ```
@@ -1925,16 +1931,13 @@ Also generate:
 - **Deals to Consider Closing Out**: Deals I should probably move to lost
 ```
 
----
+:::
 
----
+## 12. AI Ticket Classifier
 
-# Use Case #021: AI Ticket Classifier
+> Auto-classifies and routes tickets. 5 min/ticket becomes instant.
 
-**Role**: Support Operations / Support Manager / Customer Success | **Industry**: SaaS, E-commerce, Fintech, Healthcare, Telecommunications | **Task**: Ticket Routing, Priority Classification, Auto-Triage, SLA Management
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Manual Ticket Triage Is a Bottleneck That Gets Worse at Scale**
 
@@ -1987,6 +1990,10 @@ COCO's AI Ticket Classifier provides instant, accurate triage for every incoming
    - Adapts to new issue types as products evolve
    - Updates routing rules based on resolution patterns
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Misrouting rate**: From 31% to 4% (87% reduction)
@@ -2004,9 +2011,9 @@ COCO's AI Ticket Classifier provides instant, accurate triage for every incoming
 - **Customers**: Faster, more accurate first responses; fewer "wrong department" bounces
 - **Operations**: Clean ticket data for reporting, capacity planning, and product feedback loops
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Build Ticket Classification Taxonomy**
 ```
@@ -2073,16 +2080,13 @@ For each ticket type, write:
 Keep each response under 150 words. Test readability: would a frustrated customer find this helpful, not annoying?
 ```
 
----
+:::
 
----
+## 13. AI Knowledge Base Builder
 
-# Use Case #022: AI Knowledge Base Builder
+> Generates 50 knowledge base articles in 1 hour, auto-extracted from tickets and conversations.
 
-**Role**: Support Lead / Technical Writer / Knowledge Manager | **Industry**: SaaS, Technology, E-commerce, Any Company with Customer Support | **Task**: Knowledge Base Creation, Article Writing, Content Gap Analysis, Self-Service Optimization
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Knowledge Bases That Don't Actually Help Anyone**
 
@@ -2135,6 +2139,10 @@ COCO's AI Knowledge Base Builder transforms resolved support tickets into publis
    - Search terms with no results (content gaps)
    - Ticket-to-article correlation (which articles actually prevent tickets)
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **KB article coverage**: From 340 (127 outdated) to 520 (all current)
@@ -2152,9 +2160,9 @@ COCO's AI Knowledge Base Builder transforms resolved support tickets into publis
 - **Technical Writers**: Shift from writer to editor; higher-impact work
 - **Support Leaders**: Lower cost per resolution; better CSAT; scalable support
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Generate KB Article from Resolved Tickets**
 ```
@@ -2224,16 +2232,13 @@ Rewrite the article with:
 Compare the original and rewrite, noting specific improvements.
 ```
 
----
+:::
 
----
+## 14. AI Multi-Language Support
 
-# Use Case #023: AI Multi-Language Support
+> One AI agent supports 15+ languages, replacing 5 translators.
 
-**Role**: Support Manager / Customer Success / Global Operations | **Industry**: SaaS, E-commerce, Gaming, Fintech, Any Global Company | **Task**: Multi-Language Customer Support, Real-Time Translation, Localized Response Generation
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Global Expansion Requires Support in Languages You Don't Speak**
 
@@ -2285,6 +2290,10 @@ COCO's AI Multi-Language Support provides native-quality multilingual customer s
    - Cultural review flags (content that might be culturally inappropriate in the target language)
    - Agent feedback loop (agents who speak the language can rate and correct translations)
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Languages supported**: 14 languages with consistent quality
@@ -2301,9 +2310,9 @@ COCO's AI Multi-Language Support provides native-quality multilingual customer s
 - **Support Leaders**: Scale global support without proportional headcount per language
 - **Business Leaders**: Expand into new markets faster with support readiness from day one
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Translate and Respond to Foreign Language Ticket**
 ```
@@ -2377,16 +2386,13 @@ Important:
 - Flag any template where the approach should differ culturally
 ```
 
----
+:::
 
----
+## 15. AI Resume Screener
 
-# Use Case #025: AI Resume Screener
+> Screens 500 resumes in 2 hours, replacing 3 days of manual screening.
 
-**Role**: Recruiter / Talent Acquisition / HR Manager | **Industry**: Any Industry with Hiring Needs | **Task**: Resume Screening, Candidate Shortlisting, Skills Assessment, Bias Reduction
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Resume Screening Is a Volume Problem That Destroys Quality**
 
@@ -2438,6 +2444,10 @@ COCO's AI Resume Screener performs deep, consistent analysis of every applicatio
    - Overqualified candidates who might be interested for specific reasons
    - Internal candidates who match but haven't applied
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Screening time**: From 56 hours to 23 minutes per role (99.3% reduction)
@@ -2454,9 +2464,9 @@ COCO's AI Resume Screener performs deep, consistent analysis of every applicatio
 - **Candidates**: Fair evaluation based on actual qualifications, not keyword optimization
 - **HR Leaders**: Faster, more consistent, and more equitable hiring process
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Screen Resumes Against Job Requirements**
 ```
@@ -2526,16 +2536,13 @@ Create a comparison matrix including:
 8. Questions for reference checks tailored to each candidate's risk areas
 ```
 
----
+:::
 
----
+## 16. AI Job Description Writer
 
-# Use Case #026: AI Job Description Writer
+> Generates bias-free, SEO-optimized job descriptions in 10 minutes.
 
-**Role**: Recruiter / Hiring Manager / HR Business Partner | **Industry**: Any Industry | **Task**: Job Description Writing, Inclusive Language Optimization, Compensation Benchmarking, Employer Brand Messaging
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Bad Job Descriptions Are Invisible Pipeline Killers**
 
@@ -2587,6 +2594,10 @@ COCO's AI Job Description Writer creates compelling, inclusive, and effective jo
    - Demographic diversity of applicants
    - Time-to-fill compared to previous versions
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Application volume**: +64% increase
@@ -2603,9 +2614,9 @@ COCO's AI Job Description Writer creates compelling, inclusive, and effective jo
 - **Candidates**: Understand the role, impact, and requirements clearly
 - **D&I Leaders**: More inclusive language attracts more diverse candidate pools
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Write a Job Description**
 ```
@@ -2694,16 +2705,13 @@ Research and provide:
 Include data sources and note any limitations in the benchmarking.
 ```
 
----
+:::
 
----
+## 17. AI Onboarding Assistant
 
-# Use Case #028: AI Onboarding Assistant
+> New hire fully onboarded in 3 days instead of 2 weeks.
 
-**Role**: HR Manager / People Ops / Hiring Manager | **Industry**: Any Industry | **Task**: Employee Onboarding, Day-1 Readiness, 30/60/90 Day Planning, New Hire Experience
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Broken Onboarding Costs You Employees Before They Start Contributing**
 
@@ -2756,6 +2764,10 @@ COCO's AI Onboarding Assistant orchestrates the entire onboarding experience fro
    - Day 90: "Would you recommend our company? What would you change about onboarding?"
    - Results aggregated for continuous improvement of the onboarding program
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **New hire satisfaction (30-day)**: From 62% to 91%
@@ -2774,9 +2786,9 @@ COCO's AI Onboarding Assistant orchestrates the entire onboarding experience fro
 - **IT/Facilities**: Clear task assignments with deadlines instead of last-minute fire drills
 - **Leadership**: Lower early turnover; faster time-to-productivity; better employer brand
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Generate 30/60/90 Day Onboarding Plan**
 ```
@@ -2865,16 +2877,13 @@ Build a checklist organized by responsible team and timeline:
 For each task: responsible person, deadline, dependencies, and verification that it's done.
 ```
 
----
+:::
 
----
+## 18. AI Meeting Notes
 
-# Use Case #032: AI Meeting Notes
+> Meeting notes ready instantly: transcript, summary, action items assigned.
 
-**Role**: Project Manager / Team Lead / Executive Assistant / Operations | **Industry**: Any Industry | **Task**: Meeting Transcription, Action Item Extraction, Decision Documentation, Follow-Up Tracking
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Meetings Produce Decisions and Action Items That Immediately Vanish**
 
@@ -2931,6 +2940,10 @@ COCO's AI Meeting Notes captures everything, structures it, and ensures follow-t
    - Cross-meeting pattern detection: "How many times have we discussed this topic without deciding?"
    - Compliance-friendly retention and access controls
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Action item completion**: From 21% to 84%
@@ -2950,9 +2963,9 @@ COCO's AI Meeting Notes captures everything, structures it, and ensures follow-t
 - **Remote/Async Workers**: Full context available even when they can't attend meetings
 - **New Employees**: Searchable meeting archive helps them understand past decisions and context
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Structure Meeting Notes**
 ```
@@ -3020,5 +3033,5 @@ Analyze:
 Provide a specific "meeting diet" recommendation: what to keep, cut, shorten, merge, or convert to async.
 ```
 
----
+:::
 

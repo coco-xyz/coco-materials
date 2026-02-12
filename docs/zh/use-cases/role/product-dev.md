@@ -1,15 +1,16 @@
-# 产品与研发用例
+# 产品与研发
 
 AI驱动的开发者、DevOps工程师、技术负责人和产品经理用例。
 
----
+## 1. AI代码审查
 
-# Use Case #005: AI Code Reviewer
+> 自动审查每个PR：Bug、安全漏洞、性能问题——15分钟出完整报告。
 
-**Role**: Developer / Engineering Lead | **Industry**: Technology, SaaS, Fintech, Enterprise Software | **Task**: Automated Code Review, Quality Assurance, Security Scanning
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/code-reviewer-video-cn.mp4" type="video/mp4">
+</video>
 
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：Code Review正在拖垮你的工程效率**
 
@@ -38,9 +39,12 @@ COCO的AI Code Reviewer直接集成到你现有的Git工作流（GitHub、GitLab
 
 6. **人工审查路由**：COCO第一轮审查完成后，PR被路由给最合适的人工审查者，基于代码所有权、专业领域和当前工作量。人工审查者看到COCO的分析结果，只需聚焦于架构决策、业务逻辑正确性和设计权衡。
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
-使用COCO AI Code Reviewer的团队反馈：
 - PR审查周期平均**缩短68%**
 - 合并前发现的bug**增加73%**
 - 到达生产环境的安全漏洞**减少85%**
@@ -54,11 +58,9 @@ COCO的AI Code Reviewer直接集成到你现有的Git工作流（GitHub、GitLab
 - **初级工程师**：更快的反馈循环加速成长，减少"等review"的阻塞
 - **安全团队**：每个PR都有一致的安全扫描，而不是定期审计
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 安全专项代码审查**
 ```
@@ -136,22 +138,13 @@ PR信息：
 [粘贴PR详情和diff]
 ```
 
----
+:::
 
-**演示视频：**
+## 2. AI测试生成
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 1rem 0;">
-  <source src="/videos/cn/code-reviewer-video-cn.mp4" type="video/mp4">
-</video>
+> 读取源码，30分钟生成包含边界条件的完整测试。覆盖率从34%提升到89%。
 
----
-
-# Use Case #006: AI Test Generator
-
-**Role**: Developer / QA Engineer | **Industry**: Technology, SaaS, Fintech, Healthcare IT | **Task**: Automated Test Generation, Test Coverage Improvement, Regression Testing
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：永远还不清的测试覆盖率债务**
 
@@ -196,6 +189,10 @@ COCO的AI Test Generator不只是创建样板测试。它对你的代码进行�
 
 6. **持续缺口分析**：初始生成后，COCO监控代码变更，自动为修改的代码建议新测试，确保覆盖率不退化。
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - 6周内覆盖率**从34%提升到78%**（中型代码库的典型结果）
@@ -212,11 +209,9 @@ COCO的AI Test Generator不只是创建样板测试。它对你的代码进行�
 - **技术经理**：可量化的质量指标可供汇报，生产环境bug导致的紧急救火更少
 - **产品团队**：重构不被缺失的测试阻塞，功能交付更快
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 为未测试模块生成测试**
 ```
@@ -313,16 +308,13 @@ Bug描述：[描述bug]
 只生成缺失的测试，不要重复已有的覆盖。
 ```
 
----
+:::
 
----
+## 3. AI部署监控
 
-# Use Case #007: AI Deploy Monitor
+> 实时监控每次部署，90秒检测异常，自动回滚。MTTR从47分钟降至2分钟。
 
-**Role**: DevOps Engineer / SRE / Platform Engineer | **Industry**: Technology, SaaS, E-commerce, Fintech | **Task**: Deployment Monitoring, Incident Detection, Automated Rollback, Post-Deploy Analysis
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：部署是你最大的事故来源**
 
@@ -359,6 +351,10 @@ COCO的AI Deploy Monitor作为智能层叠加在你现有的监控基础设施�
 
 6. **事件时间线构建**：当出问题时，COCO自动构建详细的事件时间线：部署了什么、指标何时开始偏离、哪些用户受影响、根因是什么、采取了哪些操作。这省去了数小时的事后调查。
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **平均检测时间（MTTD）**：从23分钟缩短到94秒
@@ -374,11 +370,9 @@ COCO的AI Deploy Monitor作为智能层叠加在你现有的监控基础设施�
 - **技术经理**：更快发版而不增加事故率
 - **业务干系人**：更高的可用性，更少的客户投诉，保护了收入
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 部署后健康检查分析**
 ```
@@ -479,16 +473,13 @@ COCO的AI Deploy Monitor作为智能层叠加在你现有的监控基础设施�
 推荐新阈值，将误报减少至少50%的同时保持对真实事故的检测能力。考虑基于时段的动态阈值。
 ```
 
----
+:::
 
----
+## 4. AI API文档编写
 
-# Use Case #008: AI API Doc Writer
+> 从代码库自动生成并同步API文档，多语言示例，零偏差。
 
-**Role**: Developer / Technical Writer / Developer Relations | **Industry**: Technology, SaaS, API-First Companies, Developer Tools | **Task**: API Documentation Generation, OpenAPI Spec Maintenance, Developer Guide Creation
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：文档漂移正在悄悄毁掉你的开发者体验**
 
@@ -540,6 +531,10 @@ COCO的AI API Doc Writer将文档视为与代码库自动同步的活文档。
    - Webhook集成指南
    - 破坏性变更时的迁移指南
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - 所有端点**100%文档覆盖率**（对比行业典型的60-70%）
@@ -556,11 +551,9 @@ COCO的AI API Doc Writer将文档视为与代码库自动同步的活文档。
 - **开发者关系**：更好的文档=更多采用，更少的支持升级
 - **工程团队**：不再有"别忘了更新文档"的PR评论后遗症
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 生成API端点文档**
 ```
@@ -659,16 +652,13 @@ API概述：[简要描述API功能]
 用友好、清晰的语调编写。假设读者是开发者但从未使用过这个特定API。
 ```
 
----
+:::
 
----
+## 5. AI调试助手
 
-# Use Case #009: AI Debug Assistant
+> 粘贴错误日志，AI从症状追溯到根因，提供可直接应用的修复diff。
 
-**Role**: Developer / Full-Stack Engineer / Backend Engineer | **Industry**: Technology, SaaS, Fintech, Any Software Company | **Task**: Bug Diagnosis, Error Resolution, Performance Debugging, Log Analysis
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：Debug是工程效率最大的隐形税**
 
@@ -717,6 +707,10 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
    - 哪些组件脆弱以及为什么
    - bug中的重复模式（例如"每次缓存TTL配置变更，这三个端点就会挂"）
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - Debug时间**从每周9.2小时降至3.4小时**（减少63%）
@@ -732,11 +726,9 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 - **技术经理**：可量化的debug开销降低，更多时间用于功能开发
 - **值班工程师**：故障期间更快的事故诊断
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 带完整上下文的错误诊断**
 ```
@@ -853,5 +845,5 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 5. 从影响开始到恢复的时间线
 ```
 
----
+:::
 

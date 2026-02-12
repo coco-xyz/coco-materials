@@ -1,15 +1,12 @@
-# Sales Use Cases
+# Sales
 
 AI-powered use cases for SDRs, account executives, and sales leaders.
 
----
+## 1. AI Lead Researcher
 
-# Use Case #015: AI Lead Researcher
+> Researches 200 leads/day, auto-enriched from LinkedIn, Crunchbase, scored and ready.
 
-**Role**: SDR / BDR / Sales Development | **Industry**: B2B SaaS, Professional Services, Enterprise Sales, Fintech | **Task**: Prospect Research, Account Intelligence, Outreach Personalization, ICP Qualification
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: SDRs Spend More Time Researching Than Selling**
 
@@ -56,6 +53,10 @@ COCO's AI Lead Researcher automates the research and qualification process, deli
    - Recommended approach sequence (who to contact first, who to involve when)
    - Relationship paths through mutual connections
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Research time per lead**: From 45 minutes to 3 minutes (93% reduction)
@@ -72,9 +73,9 @@ COCO's AI Lead Researcher automates the research and qualification process, deli
 - **AEs**: Receive better-qualified, better-researched meetings from SDRs
 - **Revenue Operations**: More accurate pipeline data from better upfront qualification
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Comprehensive Prospect Research Brief**
 ```
@@ -177,16 +178,13 @@ For each lead, provide:
 - One-line personalization hook if qualified
 ```
 
----
+:::
 
----
+## 2. AI CRM Updater
 
-# Use Case #016: AI CRM Updater
+> Calls, emails, meetings auto-synced to CRM. 45 min/day data entry becomes zero.
 
-**Role**: Sales Rep / Account Executive / Sales Operations | **Industry**: B2B SaaS, Enterprise Sales, Professional Services | **Task**: CRM Data Entry, Activity Logging, Pipeline Hygiene, Deal Intelligence
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: CRM Data Entry Is Killing Sales Productivity and Pipeline Accuracy**
 
@@ -237,6 +235,10 @@ COCO's AI CRM Updater automates data entry by extracting intelligence from the c
    - Week-over-week pipeline movement analysis
    - Early warning for deals at risk of slipping
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **CRM data completeness**: From 61% to 94%
@@ -253,9 +255,9 @@ COCO's AI CRM Updater automates data entry by extracting intelligence from the c
 - **VP of Sales/CRO**: Reliable forecasts for board reporting and resource planning
 - **Sales Operations**: Clean data for analytics, territory planning, and compensation
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Meeting Notes to CRM Update**
 ```
@@ -328,16 +330,13 @@ Also generate:
 - **Deals to Consider Closing Out**: Deals I should probably move to lost
 ```
 
----
+:::
 
----
+## 3. AI Proposal Generator
 
-# Use Case #017: AI Proposal Generator
+> Generates customized proposals in 15 minutes, auto-matched to client needs.
 
-**Role**: Account Executive / Sales Engineer / Business Development | **Industry**: B2B SaaS, Consulting, Professional Services, Enterprise Sales | **Task**: Sales Proposal Creation, RFP Response, SOW Drafting, Custom Pricing Packages
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Proposals Are High-Stakes Documents Built Under Impossible Time Pressure**
 
@@ -387,6 +386,10 @@ COCO's AI Proposal Generator creates customized, professional proposals from you
    - Professional charts and diagrams
    - Export to PDF, PowerPoint, or Google Slides
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Proposal creation time**: From 12 hours to 2.5 hours (79% reduction)
@@ -403,9 +406,9 @@ COCO's AI Proposal Generator creates customized, professional proposals from you
 - **Sales Leaders**: Consistent proposal quality across the team; faster competitive response
 - **Customers**: Receive relevant, detailed proposals that actually address their needs
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Complete Sales Proposal Draft**
 ```
@@ -494,16 +497,17 @@ Write a response that:
 Max length: [X words or X pages]
 ```
 
----
+:::
 
----
+## 4. AI Follow-up Writer
 
-# Use Case #018: AI Follow-up Writer
+> Generates personalized follow-up emails in 2 minutes, based on meeting context.
 
-**Role**: Account Executive / SDR / Customer Success | **Industry**: B2B SaaS, Professional Services, Enterprise Sales | **Task**: Follow-up Email Writing, Meeting Recap, Nurture Sequences, Re-engagement Campaigns
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/smart-email-video.mp4" type="video/mp4">
+</video>
 
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: The Follow-Up Gap Is Where Revenue Goes to Die**
 
@@ -557,6 +561,10 @@ COCO's AI Follow-up Writer ensures no deal falls through the cracks by generatin
    - Avoids over-following-up (spacing and frequency rules)
    - Escalation triggers when follow-ups consistently go unanswered
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Follow-up adherence**: From 56% to 94% (+68% improvement)
@@ -573,9 +581,9 @@ COCO's AI Follow-up Writer ensures no deal falls through the cracks by generatin
 - **Sales Managers**: Consistent follow-up execution across the team
 - **Revenue Operations**: Measurable improvement in pipeline velocity and conversion rates
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Post-Meeting Follow-up Email**
 ```
@@ -660,22 +668,13 @@ For each stakeholder, generate a personalized follow-up email that:
 Each email should feel like it was written individually, not like 3 versions of the same template.
 ```
 
----
+:::
 
-**Demo Video:**
+## 5. AI Client Research Brief
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 1rem 0;">
-  <source src="/videos/en/smart-email-video.mp4" type="video/mp4">
-</video>
+> Generates client meeting brief in 8 minutes: multi-source intel, executive profile deep-dive.
 
----
-
-# Use Case #019: AI Client Research Brief
-
-**Role**: Account Executive / Strategic Sales / Client Partner | **Industry**: Enterprise Sales, Consulting, Professional Services, B2B | **Task**: Pre-Meeting Research, Account Planning, Client Intelligence, Executive Briefing
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Inadequate Meeting Prep Costs More Than You Realize**
 
@@ -726,6 +725,10 @@ COCO's AI Client Research Brief provides comprehensive, actionable intelligence 
    - **Executive sponsor meeting**: Strategic alignment, financial metrics, business outcomes
    - **Renewal/expansion**: Account health, usage patterns, ROI achieved, growth opportunities
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Meeting prep time**: From 2-3 hours to 8 minutes per meeting (95% reduction)
@@ -741,9 +744,9 @@ COCO's AI Client Research Brief provides comprehensive, actionable intelligence 
 - **Sales Leaders**: Consistent, high-quality client engagement across the team
 - **Pre-Sales Teams**: Technical conversations grounded in the client's actual architecture and priorities
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Executive Meeting Prep Brief**
 ```
@@ -809,16 +812,13 @@ Compile:
 Make this conversational -- I want to sound informed, not like I'm reading a report.
 ```
 
----
+:::
 
----
+## 6. AI Quote Calculator
 
-# Use Case #020: AI Quote Calculator
+> Complex quote calculation in 10 minutes, auto-matching discount rules and approval workflows.
 
-**Role**: Sales Rep / Sales Operations / Revenue Operations | **Industry**: SaaS, Manufacturing, Professional Services, Enterprise | **Task**: Quote Generation, Pricing Configuration, Discount Approval, Deal Structuring
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Complex Pricing Slows Down Your Fastest Deals**
 
@@ -871,6 +871,10 @@ COCO's AI Quote Calculator transforms the quoting process from a manual, error-p
    - Quote-to-close time analysis
    - Pricing optimization recommendations based on win/loss data
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Quote generation time**: From 45 minutes to 4 minutes (91% reduction)
@@ -887,9 +891,9 @@ COCO's AI Quote Calculator transforms the quoting process from a manual, error-p
 - **Finance/RevOps**: Accurate pricing, consistent margin protection, clean deal data
 - **Customers**: Fast, professional quotes that show you value their time
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Generate a Sales Quote**
 ```
@@ -965,5 +969,5 @@ Create a comparison table with:
 Format as a clean, customer-facing document.
 ```
 
----
+:::
 

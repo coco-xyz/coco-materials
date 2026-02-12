@@ -1,15 +1,12 @@
-# 调研与监控用例
+# 调研与监控
 
 AI驱动的市场调研、竞品分析、监控和趋势追踪用例。
 
----
+## 1. AI简报策展
 
-# Use Case #013: AI Newsletter Curator
+> 自动汇聚行业资讯，5小时/周的人工策展变为30分钟。
 
-**Role**: Content Marketer / Email Marketer / Editor | **Industry**: SaaS, Media, B2B Services, Professional Communities | **Task**: Newsletter Content Curation, Email Copywriting, Audience Segmentation, Engagement Optimization
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：Newsletter制作是每周消耗大量时间却收益递减的黑洞**
 
@@ -62,6 +59,10 @@ COCO的AI Newsletter Curator自动化Newsletter制作中劳动密集的部分，
    - 内容长度偏好（简短摘要vs详细分析）
    - 退订触发因素以便避免
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **制作时间**：从6-8小时降至75分钟（减少82%）
@@ -78,11 +79,9 @@ COCO的AI Newsletter Curator自动化Newsletter制作中劳动密集的部分，
 - **社群经理**：与社群的高质量、一致性触点
 - **高管**：公司Newsletter成为真正的思想领导力资产
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 每周Newsletter内容策展**
 ```
@@ -147,16 +146,13 @@ COCO的AI Newsletter Curator自动化Newsletter制作中劳动密集的部分，
 - 分层特定的CTA
 ```
 
----
+:::
 
----
+## 2. AI竞品文案分析
 
-# Use Case #014: AI Competitive Copywriter
+> 实时追踪竞品动态，2天调研变为1小时自动化输出。
 
-**Role**: Marketing Strategist / Brand Manager / Competitive Intelligence Analyst | **Industry**: SaaS, Technology, E-commerce, B2B Services | **Task**: Competitive Analysis, Differentiation Messaging, Battle Card Creation, Win/Loss Analysis
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：你的竞品营销信息永远过时**
 
@@ -211,6 +207,10 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
    - 客户证据支撑定位声明
    - 符合比较广告的法规标准
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **竞品对战胜率**：从34%提升到52%（+53%提升）
@@ -227,11 +227,9 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 - **营销领导者**：更快、更协调的竞品响应
 - **竞品情报团队**：分析更快地转化为行动
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 竞品作战卡生成**
 ```
@@ -317,16 +315,13 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 6. 下个季度提升胜率的前3个可操作建议
 ```
 
----
+:::
 
----
+## 3. AI线索调研
 
-# Use Case #015: AI Lead Researcher
+> 一天调研200个线索，自动从LinkedIn、企查查抓取并打分。
 
-**Role**: SDR / BDR / Sales Development | **Industry**: B2B SaaS, Professional Services, Enterprise Sales, Fintech | **Task**: Prospect Research, Account Intelligence, Outreach Personalization, ICP Qualification
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：SDR花在调研上的时间比卖东西的时间多**
 
@@ -373,6 +368,10 @@ COCO的AI Lead Researcher自动化调研和资质判定过程，在几分钟内�
    - 建议的接触顺序（先联系谁、什么时候引入谁）
    - 通过共同联系人的关系路径
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **每个线索调研时间**：从45分钟降至3分钟（减少93%）
@@ -389,11 +388,9 @@ COCO的AI Lead Researcher自动化调研和资质判定过程，在几分钟内�
 - **AE**：从SDR那里获得资质更好、调研更充分的会议
 - **收入运营**：更好的前期资质判定带来更准确的Pipeline数据
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 全面的潜客调研简报**
 ```
@@ -496,16 +493,13 @@ LinkedIn URL：[URL]
 - 如合格，一行个性化钩子
 ```
 
----
+:::
 
----
+## 4. AI客户调研简报
 
-# Use Case #019: AI Client Research Brief
+> 8分钟生成客户会议简报，多源情报汇聚，高管画像深入。
 
-**Role**: Account Executive / Strategic Sales / Client Partner | **Industry**: Enterprise Sales, Consulting, Professional Services, B2B | **Task**: Pre-Meeting Research, Account Planning, Client Intelligence, Executive Briefing
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：不充分的会前准备比你意识到的代价更大**
 
@@ -556,6 +550,10 @@ COCO的AI Client Research Brief在几分钟内为每次客户会议提供全面�
    - **高管发起人会议**：战略对齐、财务指标、业务成果
    - **续约/扩展**：账户健康、使用模式、已实现的ROI、增长机会
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **会前准备时间**：从2-3小时降至8分钟（减少95%）
@@ -571,11 +569,9 @@ COCO的AI Client Research Brief在几分钟内为每次客户会议提供全面�
 - **销售领导者**：团队一致的高质量客户互动
 - **售前团队**：技术对话基于客户的实际架构和优先级
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 高管会议准备简报**
 ```
@@ -641,16 +637,13 @@ COCO的AI Client Research Brief在几分钟内为每次客户会议提供全面�
 写得对话化——我想听起来像是了解行情，而不是像在念报告。
 ```
 
----
+:::
 
----
+## 5. AI VIP升级管理
 
-# Use Case #024: AI VIP Escalation
+> 自动识别VIP客户异常，30%漏检降至0%。
 
-**Role**: Enterprise Support / Customer Success Manager / Support Operations | **Industry**: SaaS, Enterprise Software, Fintech, Healthcare | **Task**: VIP Customer Detection, Intelligent Escalation, Priority Queue Management, Churn Prevention
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：你的客服系统分不清50万的客户和免费试用用户**
 
@@ -702,6 +695,10 @@ COCO的AI VIP Escalation创建一个智能层，确保高价值客户获得与�
    - 以高管适当的语气和详细程度起草回复
    - 无论是否解决，24小时内安排跟进
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **VIP首次响应时间**：12分钟（vs标准2小时）
@@ -718,11 +715,9 @@ COCO的AI VIP Escalation创建一个智能层，确保高价值客户获得与�
 - **CSM**：风险账户的早期预警，主动触达的数据支持
 - **收入领导者**：保护企业收入，更高的续约率
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 构建VIP升级规则**
 ```
@@ -793,16 +788,13 @@ CSM：[姓名]
 语气：高级、专业、真诚。应该听起来像是一个真心在意这段关系的人写的，而不是公关模板。
 ```
 
----
+:::
 
----
+## 6. AI费用审计
 
-# Use Case #029: AI Expense Auditor
+> 费用报告即时审核，合规自动通过，异常自动标记。
 
-**Role**: Finance Manager / Controller / Compliance Officer | **Industry**: Any Enterprise, Professional Services, Consulting, Government | **Task**: Expense Report Auditing, Policy Compliance, Fraud Detection, Reimbursement Processing
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：手动报销审核缓慢、不完整且昂贵**
 
@@ -853,6 +845,10 @@ COCO的AI Expense Auditor提供100%的审计覆盖和一致的政策执行。
    - 部门级别的支出模式和预算影响
    - 基于常见边缘案例的政策更新建议
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **政策违规检测**：从60%升至97%
@@ -871,11 +867,9 @@ COCO的AI Expense Auditor提供100%的审计覆盖和一致的政策执行。
 - **CFO**：欺诈风险实质性降低；更好的支出可见性；更清洁的财务
 - **合规官**：100%审计覆盖满足监管和内部审计要求
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 审核报销单**
 ```
@@ -944,16 +938,13 @@ COCO的AI Expense Auditor提供100%的审计覆盖和一致的政策执行。
 提供带跟踪变更的修订政策草案以及每个更新的理由。
 ```
 
----
+:::
 
----
+## 7. AI库存预测
 
-# Use Case #033: AI Inventory Forecaster
+> 实时库存预测，替代每周手动盘点，减少滞销和缺货。
 
-**Role**: Supply Chain Manager / Demand Planner / Operations Director | **Industry**: E-commerce, Retail, Manufacturing, Distribution, CPG | **Task**: Demand Forecasting, Inventory Optimization, Stockout Prevention, Overstock Reduction
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：用电子表格做库存预测在缺货和积压上损失数百万**
 
@@ -1008,6 +999,10 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
    - "如果我们扩展到3个新的地理市场会怎样？"
    - 帮助领导层做出考虑库存的商业决策
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **缺货减少**：缺货事件减少67%
@@ -1028,11 +1023,9 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
 - **仓库/物流**：更可预测的入库量；更好的空间和劳动力规划
 - **客户**：更好的产品可用性；更少的延期交货和取消
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 生成需求预测**
 ```
@@ -1097,16 +1090,13 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
 - 给销售/市场团队的沟通计划
 ```
 
----
+:::
 
----
+## 8. AI供应商评估
 
-# Use Case #034: AI Vendor Evaluator
+> 2小时完成供应商评估排名，替代1周人工调研。
 
-**Role**: Procurement Manager / Operations Director / Vendor Management | **Industry**: Any Enterprise, Manufacturing, Retail, Technology | **Task**: Vendor Evaluation, RFP Analysis, Contract Comparison, Vendor Risk Assessment
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：供应商评估缓慢、主观且有风险**
 
@@ -1122,6 +1112,10 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 （完整中文版涵盖所有6个解决方案要点）
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **评估时间**：每次供应商选择从50小时降至8小时（减少84%）
@@ -1135,7 +1129,9 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 ---
 
-## 实用提示词
+:::
+
+::: details 实用提示词
 
 **提示词 1: 生成供应商评估记分卡**
 ```
@@ -1235,5 +1231,5 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 总体风险评分（0-100）附理由，以及每个高风险领域的建议缓解措施。
 ```
 
----
+:::
 

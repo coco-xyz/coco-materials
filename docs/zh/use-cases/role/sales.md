@@ -1,15 +1,12 @@
-# 销售用例
+# 销售
 
 AI驱动的SDR、客户经理和销售负责人用例。
 
----
+## 1. AI线索调研
 
-# Use Case #015: AI Lead Researcher
+> 一天调研200个线索，自动从LinkedIn、企查查抓取并打分。
 
-**Role**: SDR / BDR / Sales Development | **Industry**: B2B SaaS, Professional Services, Enterprise Sales, Fintech | **Task**: Prospect Research, Account Intelligence, Outreach Personalization, ICP Qualification
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：SDR花在调研上的时间比卖东西的时间多**
 
@@ -56,6 +53,10 @@ COCO的AI Lead Researcher自动化调研和资质判定过程，在几分钟内�
    - 建议的接触顺序（先联系谁、什么时候引入谁）
    - 通过共同联系人的关系路径
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **每个线索调研时间**：从45分钟降至3分钟（减少93%）
@@ -72,11 +73,9 @@ COCO的AI Lead Researcher自动化调研和资质判定过程，在几分钟内�
 - **AE**：从SDR那里获得资质更好、调研更充分的会议
 - **收入运营**：更好的前期资质判定带来更准确的Pipeline数据
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 全面的潜客调研简报**
 ```
@@ -179,16 +178,13 @@ LinkedIn URL：[URL]
 - 如合格，一行个性化钩子
 ```
 
----
+:::
 
----
+## 2. AI CRM管家
 
-# Use Case #016: AI CRM Updater
+> 通话、邮件、会议自动同步CRM，45分钟/天数据录入变为0。
 
-**Role**: Sales Rep / Account Executive / Sales Operations | **Industry**: B2B SaaS, Enterprise Sales, Professional Services | **Task**: CRM Data Entry, Activity Logging, Pipeline Hygiene, Deal Intelligence
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：CRM数据录入正在扼杀销售效率和Pipeline准确性**
 
@@ -239,6 +235,10 @@ COCO的AI CRM Updater通过从已经发生的对话和活动中提取情报来�
    - 周环比Pipeline变动分析
    - 面临滑移风险交易的早期预警
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **CRM数据完整度**：从61%升至94%
@@ -255,11 +255,9 @@ COCO的AI CRM Updater通过从已经发生的对话和活动中提取情报来�
 - **销售VP/CRO**：可靠的预测用于董事会汇报和资源规划
 - **销售运营**：干净的数据用于分析、区域规划和佣金计算
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 会议笔记转CRM更新**
 ```
@@ -332,16 +330,13 @@ Pipeline数据：
 - **考虑关闭的交易**：我可能应该移至丢单的交易
 ```
 
----
+:::
 
----
+## 3. AI方案生成
 
-# Use Case #017: AI Proposal Generator
+> 15分钟生成定制化方案书，基于客户需求自动匹配。
 
-**Role**: Account Executive / Sales Engineer / Business Development | **Industry**: B2B SaaS, Consulting, Professional Services, Enterprise Sales | **Task**: Sales Proposal Creation, RFP Response, SOW Drafting, Custom Pricing Packages
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：Proposal是在不可能的时间压力下构建的高风险文档**
 
@@ -391,6 +386,10 @@ COCO的AI Proposal Generator从你现有的资料库和客户特定数据创建�
    - 专业的图表和图示
    - 导出为PDF、PowerPoint或Google Slides
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **Proposal创建时间**：从12小时降至2.5小时（减少79%）
@@ -407,11 +406,9 @@ COCO的AI Proposal Generator从你现有的资料库和客户特定数据创建�
 - **销售领导者**：团队Proposal质量一致，竞争响应更快
 - **客户**：收到真正针对其需求的相关、详细的Proposal
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 完整销售Proposal草稿**
 ```
@@ -500,16 +497,13 @@ RFP问题/要求：
 最大长度：[X字或X页]
 ```
 
----
+:::
 
----
+## 4. AI跟进邮件
 
-# Use Case #018: AI Follow-up Writer
+> 2分钟生成个性化跟进邮件，基于会议上下文和客户行为。
 
-**Role**: Account Executive / SDR / Customer Success | **Industry**: B2B SaaS, Professional Services, Enterprise Sales | **Task**: Follow-up Email Writing, Meeting Recap, Nurture Sequences, Re-engagement Campaigns
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：跟进缺口是收入流失的最大黑洞**
 
@@ -563,6 +557,10 @@ COCO的AI Follow-up Writer通过生成及时、有上下文的跟进沟通确保
    - 避免过度跟进（间距和频率规则）
    - 跟进持续无回应时的升级触发
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **跟进执行率**：从56%升至94%（+68%提升）
@@ -579,11 +577,9 @@ COCO的AI Follow-up Writer通过生成及时、有上下文的跟进沟通确保
 - **销售经理**：团队一致的跟进执行力
 - **收入运营**：Pipeline速度和转化率的可量化改善
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 会后跟进邮件**
 ```
@@ -668,16 +664,13 @@ COCO的AI Follow-up Writer通过生成及时、有上下文的跟进沟通确保
 每封邮件应该感觉像是单独写的，而非同一模板的3个版本。
 ```
 
----
+:::
 
----
+## 5. AI客户调研简报
 
-# Use Case #019: AI Client Research Brief
+> 8分钟生成客户会议简报，多源情报汇聚，高管画像深入。
 
-**Role**: Account Executive / Strategic Sales / Client Partner | **Industry**: Enterprise Sales, Consulting, Professional Services, B2B | **Task**: Pre-Meeting Research, Account Planning, Client Intelligence, Executive Briefing
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：不充分的会前准备比你意识到的代价更大**
 
@@ -728,6 +721,10 @@ COCO的AI Client Research Brief在几分钟内为每次客户会议提供全面�
    - **高管发起人会议**：战略对齐、财务指标、业务成果
    - **续约/扩展**：账户健康、使用模式、已实现的ROI、增长机会
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **会前准备时间**：从2-3小时降至8分钟（减少95%）
@@ -743,11 +740,9 @@ COCO的AI Client Research Brief在几分钟内为每次客户会议提供全面�
 - **销售领导者**：团队一致的高质量客户互动
 - **售前团队**：技术对话基于客户的实际架构和优先级
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 高管会议准备简报**
 ```
@@ -813,16 +808,13 @@ COCO的AI Client Research Brief在几分钟内为每次客户会议提供全面�
 写得对话化——我想听起来像是了解行情，而不是像在念报告。
 ```
 
----
+:::
 
----
+## 6. AI报价计算
 
-# Use Case #020: AI Quote Calculator
+> 10分钟完成复杂报价计算，自动匹配折扣规则和审批流程。
 
-**Role**: Sales Rep / Sales Operations / Revenue Operations | **Industry**: SaaS, Manufacturing, Professional Services, Enterprise | **Task**: Quote Generation, Pricing Configuration, Discount Approval, Deal Structuring
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：复杂定价拖慢你最快的交易**
 
@@ -875,6 +867,10 @@ COCO的AI Quote Calculator将报价流程从手动、易出错的工作流转变
    - 报价到签约时间分析
    - 基于赢单/丢单数据的定价优化建议
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **报价生成时间**：从45分钟降至4分钟（减少91%）
@@ -891,11 +887,9 @@ COCO的AI Quote Calculator将报价流程从手动、易出错的工作流转变
 - **财务/收入运营**：准确的定价、一致的利润保护、干净的交易数据
 - **客户**：快速、专业的报价，显示你珍视他们的时间
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 生成销售报价**
 ```
@@ -971,5 +965,5 @@ COCO的AI Quote Calculator将报价流程从手动、易出错的工作流转变
 格式化为干净的、面向客户的文档。
 ```
 
----
+:::
 

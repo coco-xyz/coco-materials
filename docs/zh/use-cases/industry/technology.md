@@ -1,15 +1,16 @@
-# 科技/SaaS用例
+# 科技/SaaS
 
 AI驱动的科技公司、SaaS平台和软件开发团队用例。
 
----
+## 1. AI代码审查
 
-# Use Case #005: AI Code Reviewer
+> 自动审查每个PR：Bug、安全漏洞、性能问题——15分钟出完整报告。
 
-**Role**: Developer / Engineering Lead | **Industry**: Technology, SaaS, Fintech, Enterprise Software | **Task**: Automated Code Review, Quality Assurance, Security Scanning
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/code-reviewer-video-cn.mp4" type="video/mp4">
+</video>
 
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：Code Review正在拖垮你的工程效率**
 
@@ -38,9 +39,12 @@ COCO的AI Code Reviewer直接集成到你现有的Git工作流（GitHub、GitLab
 
 6. **人工审查路由**：COCO第一轮审查完成后，PR被路由给最合适的人工审查者，基于代码所有权、专业领域和当前工作量。人工审查者看到COCO的分析结果，只需聚焦于架构决策、业务逻辑正确性和设计权衡。
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
-使用COCO AI Code Reviewer的团队反馈：
 - PR审查周期平均**缩短68%**
 - 合并前发现的bug**增加73%**
 - 到达生产环境的安全漏洞**减少85%**
@@ -54,11 +58,9 @@ COCO的AI Code Reviewer直接集成到你现有的Git工作流（GitHub、GitLab
 - **初级工程师**：更快的反馈循环加速成长，减少"等review"的阻塞
 - **安全团队**：每个PR都有一致的安全扫描，而不是定期审计
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 安全专项代码审查**
 ```
@@ -136,22 +138,13 @@ PR信息：
 [粘贴PR详情和diff]
 ```
 
----
+:::
 
-**演示视频：**
+## 2. AI测试生成
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 1rem 0;">
-  <source src="/videos/cn/code-reviewer-video-cn.mp4" type="video/mp4">
-</video>
+> 读取源码，30分钟生成包含边界条件的完整测试。覆盖率从34%提升到89%。
 
----
-
-# Use Case #006: AI Test Generator
-
-**Role**: Developer / QA Engineer | **Industry**: Technology, SaaS, Fintech, Healthcare IT | **Task**: Automated Test Generation, Test Coverage Improvement, Regression Testing
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：永远还不清的测试覆盖率债务**
 
@@ -196,6 +189,10 @@ COCO的AI Test Generator不只是创建样板测试。它对你的代码进行�
 
 6. **持续缺口分析**：初始生成后，COCO监控代码变更，自动为修改的代码建议新测试，确保覆盖率不退化。
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - 6周内覆盖率**从34%提升到78%**（中型代码库的典型结果）
@@ -212,11 +209,9 @@ COCO的AI Test Generator不只是创建样板测试。它对你的代码进行�
 - **技术经理**：可量化的质量指标可供汇报，生产环境bug导致的紧急救火更少
 - **产品团队**：重构不被缺失的测试阻塞，功能交付更快
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 为未测试模块生成测试**
 ```
@@ -313,16 +308,13 @@ Bug描述：[描述bug]
 只生成缺失的测试，不要重复已有的覆盖。
 ```
 
----
+:::
 
----
+## 3. AI部署监控
 
-# Use Case #007: AI Deploy Monitor
+> 实时监控每次部署，90秒检测异常，自动回滚。MTTR从47分钟降至2分钟。
 
-**Role**: DevOps Engineer / SRE / Platform Engineer | **Industry**: Technology, SaaS, E-commerce, Fintech | **Task**: Deployment Monitoring, Incident Detection, Automated Rollback, Post-Deploy Analysis
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：部署是你最大的事故来源**
 
@@ -359,6 +351,10 @@ COCO的AI Deploy Monitor作为智能层叠加在你现有的监控基础设施�
 
 6. **事件时间线构建**：当出问题时，COCO自动构建详细的事件时间线：部署了什么、指标何时开始偏离、哪些用户受影响、根因是什么、采取了哪些操作。这省去了数小时的事后调查。
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **平均检测时间（MTTD）**：从23分钟缩短到94秒
@@ -374,11 +370,9 @@ COCO的AI Deploy Monitor作为智能层叠加在你现有的监控基础设施�
 - **技术经理**：更快发版而不增加事故率
 - **业务干系人**：更高的可用性，更少的客户投诉，保护了收入
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 部署后健康检查分析**
 ```
@@ -479,16 +473,13 @@ COCO的AI Deploy Monitor作为智能层叠加在你现有的监控基础设施�
 推荐新阈值，将误报减少至少50%的同时保持对真实事故的检测能力。考虑基于时段的动态阈值。
 ```
 
----
+:::
 
----
+## 4. AI API文档编写
 
-# Use Case #008: AI API Doc Writer
+> 从代码库自动生成并同步API文档，多语言示例，零偏差。
 
-**Role**: Developer / Technical Writer / Developer Relations | **Industry**: Technology, SaaS, API-First Companies, Developer Tools | **Task**: API Documentation Generation, OpenAPI Spec Maintenance, Developer Guide Creation
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：文档漂移正在悄悄毁掉你的开发者体验**
 
@@ -540,6 +531,10 @@ COCO的AI API Doc Writer将文档视为与代码库自动同步的活文档。
    - Webhook集成指南
    - 破坏性变更时的迁移指南
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - 所有端点**100%文档覆盖率**（对比行业典型的60-70%）
@@ -556,11 +551,9 @@ COCO的AI API Doc Writer将文档视为与代码库自动同步的活文档。
 - **开发者关系**：更好的文档=更多采用，更少的支持升级
 - **工程团队**：不再有"别忘了更新文档"的PR评论后遗症
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 生成API端点文档**
 ```
@@ -659,16 +652,13 @@ API概述：[简要描述API功能]
 用友好、清晰的语调编写。假设读者是开发者但从未使用过这个特定API。
 ```
 
----
+:::
 
----
+## 5. AI调试助手
 
-# Use Case #009: AI Debug Assistant
+> 粘贴错误日志，AI从症状追溯到根因，提供可直接应用的修复diff。
 
-**Role**: Developer / Full-Stack Engineer / Backend Engineer | **Industry**: Technology, SaaS, Fintech, Any Software Company | **Task**: Bug Diagnosis, Error Resolution, Performance Debugging, Log Analysis
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：Debug是工程效率最大的隐形税**
 
@@ -717,6 +707,10 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
    - 哪些组件脆弱以及为什么
    - bug中的重复模式（例如"每次缓存TTL配置变更，这三个端点就会挂"）
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - Debug时间**从每周9.2小时降至3.4小时**（减少63%）
@@ -732,11 +726,9 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 - **技术经理**：可量化的debug开销降低，更多时间用于功能开发
 - **值班工程师**：故障期间更快的事故诊断
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 带完整上下文的错误诊断**
 ```
@@ -853,16 +845,13 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 5. 从影响开始到恢复的时间线
 ```
 
----
+:::
 
----
+## 6. AI SEO内容写作
 
-# Use Case #010: AI SEO Content Writer
+> 20分钟产出一篇SEO优化的高质量文章，关键词研究到终稿一站式完成。
 
-**Role**: Content Marketer / SEO Specialist / Growth Manager | **Industry**: SaaS, E-commerce, B2B, Media, Any Online Business | **Task**: SEO Article Creation, Keyword Optimization, Content Strategy Execution
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：SEO内容军备竞赛在人类速度下无法获胜**
 
@@ -918,6 +907,10 @@ COCO的AI SEO Content Writer将内容创作流水线从一个串行的、劳动�
    - 老化文章的内容刷新计划
    - 域名级别的竞品内容缺口分析
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **内容产量**：从每周2篇增至12+篇（6倍提升）
@@ -934,11 +927,9 @@ COCO的AI SEO Content Writer将内容创作流水线从一个串行的、劳动�
 - **增长经理**：不按比例增加人头的情况下实现有机流量复合增长
 - **创业公司创始人**：用零头的预算与成熟玩家的内容库竞争
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 基于关键词的完整SEO文章**
 ```
@@ -1053,16 +1044,13 @@ COCO的AI SEO Content Writer将内容创作流水线从一个串行的、劳动�
 - 预估CTR提升潜力（低/中/高）
 ```
 
----
+:::
 
----
+## 7. AI社媒管理
 
-# Use Case #011: AI Social Media Manager
+> 一次输入，全平台适配发布。每天3小时社媒运营缩减到15分钟。
 
-**Role**: Social Media Manager / Content Creator / Marketing Coordinator | **Industry**: Any B2B/B2C, SaaS, E-commerce, D2C, Agencies | **Task**: Social Media Content Creation, Scheduling, Cross-Platform Management, Engagement Optimization
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：社交媒体要求在不兼容的平台上产出无限内容**
 
@@ -1109,6 +1097,10 @@ COCO的AI Social Media Manager作为社交媒体团队的力量倍增器，处�
    - 粉丝增长趋势和互动模式变化
    - 下一周期内容策略建议
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **内容产出**：2.8倍增长（从每周15条到42条）
@@ -1125,11 +1117,9 @@ COCO的AI Social Media Manager作为社交媒体团队的力量倍增器，处�
 - **小企业主**：无需专职团队就能拥有专业的社交媒体形象
 - **代理商团队**：扩展客户社交账号管理而不按比例增加人员
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 从博客文章生成多平台内容**
 ```
@@ -1235,16 +1225,13 @@ COCO的AI Social Media Manager作为社交媒体团队的力量倍增器，处�
 只在相关性6+且风险为低-中时建议参与。
 ```
 
----
+:::
 
----
+## 8. AI广告文案生成
 
-# Use Case #012: AI Ad Copy Generator
+> 10分钟生成200个A/B变体广告文案，数据驱动迭代优化。
 
-**Role**: Performance Marketer / Paid Media Specialist / Growth Manager | **Industry**: SaaS, E-commerce, D2C, Fintech, B2B | **Task**: Ad Copywriting, A/B Testing Variations, Multi-Platform Ad Creation, Creative Optimization
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：广告文案的量产难题**
 
@@ -1299,6 +1286,10 @@ COCO的AI Ad Copy Generator专为效果营销构建，理解各平台付费广�
    - 设定准确的期望（减少信息错配导致的跳出率）
    - 建议落地页改进以匹配高表现广告角度
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **广告文案生产**：提速15倍（每广告组从4小时降至15分钟）
@@ -1315,11 +1306,9 @@ COCO的AI Ad Copy Generator专为效果营销构建，理解各平台付费广�
 - **增长团队**：更快测试更多角度，更快找到获胜信息
 - **电商品牌**：为数百个SKU生成产品特定的广告文案
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: Google自适应搜索广告生成**
 ```
@@ -1439,16 +1428,13 @@ COCO的AI Ad Copy Generator专为效果营销构建，理解各平台付费广�
 - 建议添加的当地信任信号（当地支付方式、当地社会证明等）
 ```
 
----
+:::
 
----
+## 9. AI竞品文案分析
 
-# Use Case #014: AI Competitive Copywriter
+> 实时追踪竞品动态，2天调研变为1小时自动化输出。
 
-**Role**: Marketing Strategist / Brand Manager / Competitive Intelligence Analyst | **Industry**: SaaS, Technology, E-commerce, B2B Services | **Task**: Competitive Analysis, Differentiation Messaging, Battle Card Creation, Win/Loss Analysis
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：你的竞品营销信息永远过时**
 
@@ -1503,6 +1489,10 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
    - 客户证据支撑定位声明
    - 符合比较广告的法规标准
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **竞品对战胜率**：从34%提升到52%（+53%提升）
@@ -1519,11 +1509,9 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 - **营销领导者**：更快、更协调的竞品响应
 - **竞品情报团队**：分析更快地转化为行动
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 竞品作战卡生成**
 ```
@@ -1609,16 +1597,13 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 6. 下个季度提升胜率的前3个可操作建议
 ```
 
----
+:::
 
----
+## 10. AI线索调研
 
-# Use Case #015: AI Lead Researcher
+> 一天调研200个线索，自动从LinkedIn、企查查抓取并打分。
 
-**Role**: SDR / BDR / Sales Development | **Industry**: B2B SaaS, Professional Services, Enterprise Sales, Fintech | **Task**: Prospect Research, Account Intelligence, Outreach Personalization, ICP Qualification
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：SDR花在调研上的时间比卖东西的时间多**
 
@@ -1665,6 +1650,10 @@ COCO的AI Lead Researcher自动化调研和资质判定过程，在几分钟内�
    - 建议的接触顺序（先联系谁、什么时候引入谁）
    - 通过共同联系人的关系路径
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **每个线索调研时间**：从45分钟降至3分钟（减少93%）
@@ -1681,11 +1670,9 @@ COCO的AI Lead Researcher自动化调研和资质判定过程，在几分钟内�
 - **AE**：从SDR那里获得资质更好、调研更充分的会议
 - **收入运营**：更好的前期资质判定带来更准确的Pipeline数据
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 全面的潜客调研简报**
 ```
@@ -1788,16 +1775,13 @@ LinkedIn URL：[URL]
 - 如合格，一行个性化钩子
 ```
 
----
+:::
 
----
+## 11. AI CRM管家
 
-# Use Case #016: AI CRM Updater
+> 通话、邮件、会议自动同步CRM，45分钟/天数据录入变为0。
 
-**Role**: Sales Rep / Account Executive / Sales Operations | **Industry**: B2B SaaS, Enterprise Sales, Professional Services | **Task**: CRM Data Entry, Activity Logging, Pipeline Hygiene, Deal Intelligence
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：CRM数据录入正在扼杀销售效率和Pipeline准确性**
 
@@ -1848,6 +1832,10 @@ COCO的AI CRM Updater通过从已经发生的对话和活动中提取情报来�
    - 周环比Pipeline变动分析
    - 面临滑移风险交易的早期预警
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **CRM数据完整度**：从61%升至94%
@@ -1864,11 +1852,9 @@ COCO的AI CRM Updater通过从已经发生的对话和活动中提取情报来�
 - **销售VP/CRO**：可靠的预测用于董事会汇报和资源规划
 - **销售运营**：干净的数据用于分析、区域规划和佣金计算
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 会议笔记转CRM更新**
 ```
@@ -1941,16 +1927,13 @@ Pipeline数据：
 - **考虑关闭的交易**：我可能应该移至丢单的交易
 ```
 
----
+:::
 
----
+## 12. AI工单分类
 
-# Use Case #021: AI Ticket Classifier
+> 工单自动分类路由，5分钟/单变为即时处理。
 
-**Role**: Support Operations / Support Manager / Customer Success | **Industry**: SaaS, E-commerce, Fintech, Healthcare, Telecommunications | **Task**: Ticket Routing, Priority Classification, Auto-Triage, SLA Management
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：手动工单分类是随着规模增长只会更严重的瓶颈**
 
@@ -2003,6 +1986,10 @@ COCO的AI Ticket Classifier为每张进入的支持工单提供即时、准确�
    - 随产品演进适应新的问题类型
    - 基于解决模式更新路由规则
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **错误路由率**：从31%降至4%（减少87%）
@@ -2020,11 +2007,9 @@ COCO的AI Ticket Classifier为每张进入的支持工单提供即时、准确�
 - **客户**：更快、更准确的首次响应，更少的"找错部门"弹跳
 - **运营**：干净的工单数据用于报告、容量规划和产品反馈循环
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 构建工单分类体系**
 ```
@@ -2091,16 +2076,13 @@ SLA层级：[按优先级列出你的SLA要求]
 每个回复控制在150字以内。测试可读性：一个沮丧的客户会觉得这有帮助还是烦人？
 ```
 
----
+:::
 
----
+## 13. AI知识库构建
 
-# Use Case #022: AI Knowledge Base Builder
+> 1小时生成50篇知识库文章，从工单和对话自动提取。
 
-**Role**: Support Lead / Technical Writer / Knowledge Manager | **Industry**: SaaS, Technology, E-commerce, Any Company with Customer Support | **Task**: Knowledge Base Creation, Article Writing, Content Gap Analysis, Self-Service Optimization
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：根本帮不了任何人的知识库**
 
@@ -2153,6 +2135,10 @@ COCO的AI Knowledge Base Builder将已解决的客服工单转化为已发布的
    - 无结果的搜索词（内容缺口）
    - 工单到文章的关联（哪些文章真正阻止了工单）
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **KB文章覆盖率**：从340篇（127篇过时）到520篇（全部当前）
@@ -2170,11 +2156,9 @@ COCO的AI Knowledge Base Builder将已解决的客服工单转化为已发布的
 - **技术写作者**：从写作者转变为编辑，更高影响力的工作
 - **客服领导**：更低的每次解决成本，更好的CSAT，可扩展的客服
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 从已解决工单生成KB文章**
 ```
@@ -2244,16 +2228,13 @@ COCO的AI Knowledge Base Builder将已解决的客服工单转化为已发布的
 对比原文和重写，标注具体改进。
 ```
 
----
+:::
 
----
+## 14. AI多语言客服
 
-# Use Case #023: AI Multi-Language Support
+> AI一键支持15+语言客服，替代5个翻译人员。
 
-**Role**: Support Manager / Customer Success / Global Operations | **Industry**: SaaS, E-commerce, Gaming, Fintech, Any Global Company | **Task**: Multi-Language Customer Support, Real-Time Translation, Localized Response Generation
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：全球扩展需要你不会说的语言的客户支持**
 
@@ -2305,6 +2286,10 @@ COCO的AI Multi-Language Support提供母语质量的多语言客户服务，无
    - 文化审查标记（在目标语言中可能不恰当的内容）
    - 坐席反馈循环（懂该语言的坐席可以评分和纠正翻译）
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **支持的语言**：14种语言保持一致质量
@@ -2321,11 +2306,9 @@ COCO的AI Multi-Language Support提供母语质量的多语言客户服务，无
 - **客服领导**：扩展全球客服而不按语言比例增加人手
 - **业务领导者**：从第一天就具备客服准备度，更快进入新市场
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 翻译并回复外语工单**
 ```
@@ -2399,16 +2382,13 @@ COCO的AI Multi-Language Support提供母语质量的多语言客户服务，无
 - 标记任何方式应该因文化差异而不同的模板
 ```
 
----
+:::
 
----
+## 15. AI简历筛选
 
-# Use Case #025: AI Resume Screener
+> 2小时筛选500份简历，替代3天人工筛选。
 
-**Role**: Recruiter / Talent Acquisition / HR Manager | **Industry**: Any Industry with Hiring Needs | **Task**: Resume Screening, Candidate Shortlisting, Skills Assessment, Bias Reduction
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：简历筛选是一个摧毁质量的数量问题**
 
@@ -2460,6 +2440,10 @@ COCO的AI Resume Screener对每份申请进行深度、一致的分析，对照�
    - 可能因特定原因感兴趣的过度资质候选人
    - 匹配但未申请的内部候选人
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **筛选时间**：每个职位从56小时降至23分钟（减少99.3%）
@@ -2473,7 +2457,9 @@ COCO的AI Resume Screener对每份申请进行深度、一致的分析，对照�
 
 ---
 
-## 实用提示词
+:::
+
+::: details 实用提示词
 
 **提示词 1: 按职位要求筛选简历**
 ```
@@ -2543,16 +2529,13 @@ COCO的AI Resume Screener对每份申请进行深度、一致的分析，对照�
 8. 针对每个候选人风险领域的背景调查问题
 ```
 
----
+:::
 
----
+## 16. AI职位描述编写
 
-# Use Case #026: AI Job Description Writer
+> 10分钟生成无偏见、SEO优化的职位描述。
 
-**Role**: Recruiter / Hiring Manager / HR Business Partner | **Industry**: Any Industry | **Task**: Job Description Writing, Inclusive Language Optimization, Compensation Benchmarking, Employer Brand Messaging
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：糟糕的职位描述是看不见的Pipeline杀手**
 
@@ -2604,6 +2587,10 @@ COCO的AI Job Description Writer创建引人注目的、包容的、高效的职
    - 申请人的人口统计多样性
    - 与之前版本相比的招聘周期
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **申请量**：增长64%
@@ -2620,11 +2607,9 @@ COCO的AI Job Description Writer创建引人注目的、包容的、高效的职
 - **候选人**：清楚了解角色、影响力和要求
 - **多元化负责人**：更包容的语言吸引更多元化的候选人池
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 撰写职位描述**
 ```
@@ -2713,16 +2698,13 @@ COCO的AI Job Description Writer创建引人注目的、包容的、高效的职
 包含数据来源并注明基准化的任何局限性。
 ```
 
----
+:::
 
----
+## 17. AI入职助手
 
-# Use Case #028: AI Onboarding Assistant
+> 新员工3天完成入职，替代传统2周流程。
 
-**Role**: HR Manager / People Ops / Hiring Manager | **Industry**: Any Industry | **Task**: Employee Onboarding, Day-1 Readiness, 30/60/90 Day Planning, New Hire Experience
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：失败的入职体验在员工开始贡献之前就让你失去他们**
 
@@ -2775,6 +2757,10 @@ COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入�
    - 第90天："你会推荐我们公司吗？入职有什么你想改变的？"
    - 结果汇总用于入职计划的持续改进
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **新人满意度（30天）**：从62%升至91%
@@ -2793,11 +2779,9 @@ COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入�
 - **IT/设施**：带截止日期的明确任务分配，而非最后一刻的紧急救火
 - **领导层**：更低的早期离职率；更快达到生产力；更好的雇主品牌
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 生成30/60/90天入职计划**
 ```
@@ -2886,16 +2870,13 @@ COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入�
 每个任务：负责人、截止日期、依赖项、以及已完成的验证。
 ```
 
----
+:::
 
----
+## 18. AI会议纪要
 
-# Use Case #032: AI Meeting Notes
+> 会议结束即出纪要：转录、摘要、待办分配一步到位。
 
-**Role**: Project Manager / Team Lead / Executive Assistant / Operations | **Industry**: Any Industry | **Task**: Meeting Transcription, Action Item Extraction, Decision Documentation, Follow-Up Tracking
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：会议产出的决策和行动项会立即消失**
 
@@ -2952,6 +2933,10 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
    - 跨会议模式检测："我们讨论这个话题多少次了却没有决定？"
    - 合规友好的保留和访问控制
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **行动项完成率**：从21%升至84%
@@ -2971,11 +2956,9 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 - **远程/异步工作者**：即使不能参加会议也能获得完整上下文
 - **新员工**：可搜索的会议存档帮助他们了解过去的决策和背景
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 结构化会议笔记**
 ```
@@ -3043,5 +3026,5 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 提供具体的"会议瘦身"建议：保留什么、砍掉什么、缩短什么、合并什么、或转为异步什么。
 ```
 
----
+:::
 

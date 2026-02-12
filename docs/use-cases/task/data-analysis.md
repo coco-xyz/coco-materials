@@ -1,15 +1,12 @@
-# Data Analysis Use Cases
+# Data Analysis
 
-AI use cases for data analysis, reporting, auditing, and financial intelligence.
+AI use cases for data analysis, reporting, auditing, and intelligence.
 
----
+## 1. AI Client Research Brief
 
-# Use Case #019: AI Client Research Brief
+> Generates client meeting brief in 8 minutes: multi-source intel, executive profile deep-dive.
 
-**Role**: Account Executive / Strategic Sales / Client Partner | **Industry**: Enterprise Sales, Consulting, Professional Services, B2B | **Task**: Pre-Meeting Research, Account Planning, Client Intelligence, Executive Briefing
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Inadequate Meeting Prep Costs More Than You Realize**
 
@@ -60,6 +57,10 @@ COCO's AI Client Research Brief provides comprehensive, actionable intelligence 
    - **Executive sponsor meeting**: Strategic alignment, financial metrics, business outcomes
    - **Renewal/expansion**: Account health, usage patterns, ROI achieved, growth opportunities
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Meeting prep time**: From 2-3 hours to 8 minutes per meeting (95% reduction)
@@ -75,9 +76,9 @@ COCO's AI Client Research Brief provides comprehensive, actionable intelligence 
 - **Sales Leaders**: Consistent, high-quality client engagement across the team
 - **Pre-Sales Teams**: Technical conversations grounded in the client's actual architecture and priorities
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Executive Meeting Prep Brief**
 ```
@@ -143,16 +144,13 @@ Compile:
 Make this conversational -- I want to sound informed, not like I'm reading a report.
 ```
 
----
+:::
 
----
+## 2. AI Quote Calculator
 
-# Use Case #020: AI Quote Calculator
+> Complex quote calculation in 10 minutes, auto-matching discount rules and approval workflows.
 
-**Role**: Sales Rep / Sales Operations / Revenue Operations | **Industry**: SaaS, Manufacturing, Professional Services, Enterprise | **Task**: Quote Generation, Pricing Configuration, Discount Approval, Deal Structuring
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Complex Pricing Slows Down Your Fastest Deals**
 
@@ -205,6 +203,10 @@ COCO's AI Quote Calculator transforms the quoting process from a manual, error-p
    - Quote-to-close time analysis
    - Pricing optimization recommendations based on win/loss data
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Quote generation time**: From 45 minutes to 4 minutes (91% reduction)
@@ -221,9 +223,9 @@ COCO's AI Quote Calculator transforms the quoting process from a manual, error-p
 - **Finance/RevOps**: Accurate pricing, consistent margin protection, clean deal data
 - **Customers**: Fast, professional quotes that show you value their time
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Generate a Sales Quote**
 ```
@@ -299,16 +301,13 @@ Create a comparison table with:
 Format as a clean, customer-facing document.
 ```
 
----
+:::
 
----
+## 3. AI Resume Screener
 
-# Use Case #025: AI Resume Screener
+> Screens 500 resumes in 2 hours, replacing 3 days of manual screening.
 
-**Role**: Recruiter / Talent Acquisition / HR Manager | **Industry**: Any Industry with Hiring Needs | **Task**: Resume Screening, Candidate Shortlisting, Skills Assessment, Bias Reduction
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Resume Screening Is a Volume Problem That Destroys Quality**
 
@@ -360,6 +359,10 @@ COCO's AI Resume Screener performs deep, consistent analysis of every applicatio
    - Overqualified candidates who might be interested for specific reasons
    - Internal candidates who match but haven't applied
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Screening time**: From 56 hours to 23 minutes per role (99.3% reduction)
@@ -376,9 +379,9 @@ COCO's AI Resume Screener performs deep, consistent analysis of every applicatio
 - **Candidates**: Fair evaluation based on actual qualifications, not keyword optimization
 - **HR Leaders**: Faster, more consistent, and more equitable hiring process
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Screen Resumes Against Job Requirements**
 ```
@@ -448,16 +451,13 @@ Create a comparison matrix including:
 8. Questions for reference checks tailored to each candidate's risk areas
 ```
 
----
+:::
 
----
+## 4. AI Expense Auditor
 
-# Use Case #029: AI Expense Auditor
+> Instant expense report audit. Compliant: auto-approved. Anomalies: auto-flagged.
 
-**Role**: Finance Manager / Controller / Compliance Officer | **Industry**: Any Enterprise, Professional Services, Consulting, Government | **Task**: Expense Report Auditing, Policy Compliance, Fraud Detection, Reimbursement Processing
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Manual Expense Auditing Is Slow, Incomplete, and Expensive**
 
@@ -508,6 +508,10 @@ COCO's AI Expense Auditor provides 100% audit coverage with consistent policy en
    - Department-level spending patterns and budget impact
    - Recommendations for policy updates based on common edge cases
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Policy violation detection**: From 60% to 97%
@@ -526,9 +530,9 @@ COCO's AI Expense Auditor provides 100% audit coverage with consistent policy en
 - **CFO**: Material reduction in fraud risk; better spending visibility; cleaner financials
 - **Compliance Officers**: 100% audit coverage satisfies regulatory and internal audit requirements
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Audit Expense Report**
 ```
@@ -597,16 +601,17 @@ Analyze and provide:
 Provide a revised policy draft with tracked changes and rationale for each update.
 ```
 
----
+:::
 
----
+## 5. AI Financial Report Generator
 
-# Use Case #030: AI Financial Report Generator
+> Multi-source financial report in 3 hours, replacing 2 days of manual work.
 
-**Role**: FP&A Analyst / Finance Manager / Controller / CFO | **Industry**: Any Enterprise, SaaS, Manufacturing, Professional Services | **Task**: Financial Report Generation, Variance Analysis, Budget Forecasting, Board Deck Preparation
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/auto-report-video-new.mp4" type="video/mp4">
+</video>
 
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: FP&A Teams Are Report Factories, Not Strategic Advisors**
 
@@ -630,6 +635,10 @@ COCO's AI Financial Report Generator automates the data assembly, calculation, a
 
 6. **Anomaly Detection**: Flags unusual patterns in financial data: unexpected account balance changes, budget line items significantly over/under, and trends that deviate from historical patterns.
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Report production time**: From 3 days to 4 hours per month-end cycle
@@ -647,9 +656,9 @@ COCO's AI Financial Report Generator automates the data assembly, calculation, a
 - **Department Heads**: Receive budget variance explanations faster; can course-correct sooner
 - **Auditors**: Consistent, well-documented financial reports reduce audit prep time
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Generate Monthly Financial Summary**
 ```
@@ -728,22 +737,13 @@ Also provide:
 - Recommended reforecast adjustments
 ```
 
----
+:::
 
-**Demo Video:**
+## 6. AI Inventory Forecaster
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 1rem 0;">
-  <source src="/videos/en/auto-report-video-new.mp4" type="video/mp4">
-</video>
+> Real-time inventory forecasting, replacing weekly manual stocktakes.
 
----
-
-# Use Case #033: AI Inventory Forecaster
-
-**Role**: Supply Chain Manager / Demand Planner / Operations Director | **Industry**: E-commerce, Retail, Manufacturing, Distribution, CPG | **Task**: Demand Forecasting, Inventory Optimization, Stockout Prevention, Overstock Reduction
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Inventory Forecasting with Spreadsheets Costs Millions in Stockouts and Overstock**
 
@@ -798,6 +798,10 @@ COCO's AI Inventory Forecaster combines historical analysis with real-time signa
    - "What if we expand to 3 new geographic markets?"
    - Helps leadership make inventory-aware business decisions
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Stockout reduction**: 67% fewer stockout events
@@ -818,9 +822,9 @@ COCO's AI Inventory Forecaster combines historical analysis with real-time signa
 - **Warehouse/Logistics**: More predictable inbound volumes; better space and labor planning
 - **Customers**: Better product availability; fewer backorders and cancellations
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Generate Demand Forecast**
 ```
@@ -885,16 +889,13 @@ For each scenario:
 - Communication plan for sales/marketing teams
 ```
 
----
+:::
 
----
+## 7. AI Vendor Evaluator
 
-# Use Case #034: AI Vendor Evaluator
+> Vendor evaluation and ranking in 2 hours, replacing 1 week of manual research.
 
-**Role**: Procurement Manager / Operations Director / Vendor Management | **Industry**: Any Enterprise, Manufacturing, Retail, Technology | **Task**: Vendor Evaluation, RFP Analysis, Contract Comparison, Vendor Risk Assessment
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Vendor Evaluation Is Slow, Subjective, and Risky**
 
@@ -950,6 +951,10 @@ COCO's AI Vendor Evaluator standardizes, accelerates, and deepens the vendor eva
    - Key person dependency
    - Technology platform maturity
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Evaluation time**: From 50 hours to 8 hours per vendor selection (84% reduction)
@@ -967,9 +972,9 @@ COCO's AI Vendor Evaluator standardizes, accelerates, and deepens the vendor eva
 - **Finance**: Better cost comparisons, fewer surprise cost escalations
 - **Leadership**: Confidence that vendor selections are data-driven, not politics-driven
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Generate Vendor Evaluation Scorecard**
 ```
@@ -1069,5 +1074,5 @@ Assess risk across dimensions:
 Overall risk score (0-100) with justification and recommended mitigation for each high-risk area.
 ```
 
----
+:::
 

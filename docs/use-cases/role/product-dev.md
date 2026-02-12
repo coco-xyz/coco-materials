@@ -1,15 +1,16 @@
-# Product & Dev Use Cases
+# Product & Dev
 
-AI-powered use cases for developers, DevOps engineers, tech leads, and product managers.
+AI-powered use cases for developers, DevOps, tech leads, and PMs.
 
----
+## 1. AI Code Reviewer
 
-# Use Case #005: AI Code Reviewer
+> Auto-reviews every PR: bugs, security, performance — full report in 15 minutes.
 
-**Role**: Developer / Engineering Lead | **Industry**: Technology, SaaS, Fintech, Enterprise Software | **Task**: Automated Code Review, Quality Assurance, Security Scanning
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/005-ai-code-reviewer.mp4" type="video/mp4">
+</video>
 
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Code Review Is Crushing Your Engineering Velocity**
 
@@ -38,9 +39,12 @@ COCO's AI Code Reviewer integrates directly into your existing Git workflow (Git
 
 6. **Human Reviewer Routing**: After COCO's first pass, the PR is routed to the most appropriate human reviewer based on code ownership, expertise area, and current workload. The human reviewer sees COCO's analysis and focuses only on architectural decisions, business logic correctness, and design trade-offs.
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
-Teams using COCO's AI Code Reviewer report:
 - **68% reduction** in average PR review turnaround time
 - **73% increase** in bugs caught before merge
 - **85% reduction** in security vulnerabilities reaching production
@@ -54,9 +58,9 @@ Teams using COCO's AI Code Reviewer report:
 - **Junior Engineers**: Faster feedback loops accelerate learning and reduce "waiting on review" blocks
 - **Security Teams**: Consistent security scanning on every single PR, not just periodic audits
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Security-Focused Code Review**
 ```
@@ -134,22 +138,17 @@ PR:
 [paste PR details and diff]
 ```
 
----
+:::
 
-**Demo Video:**
+## 2. AI Test Generator
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 1rem 0;">
-  <source src="/videos/en/005-ai-code-reviewer.mp4" type="video/mp4">
+> Reads source code and generates comprehensive tests with edge cases. Coverage: 34% → 89%.
+
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/006-ai-test-generator.mp4" type="video/mp4">
 </video>
 
----
-
-# Use Case #006: AI Test Generator
-
-**Role**: Developer / QA Engineer | **Industry**: Technology, SaaS, Fintech, Healthcare IT | **Task**: Automated Test Generation, Test Coverage Improvement, Regression Testing
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: The Test Coverage Debt That Never Gets Paid**
 
@@ -194,6 +193,10 @@ COCO's AI Test Generator doesn't just create boilerplate tests. It performs deep
 
 6. **Continuous Gap Analysis**: After initial generation, COCO monitors code changes and automatically suggests new tests for modified code, ensuring coverage doesn't degrade over time.
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **34% to 78% coverage** in 6 weeks (typical for mid-size codebases)
@@ -210,9 +213,9 @@ COCO's AI Test Generator doesn't just create boilerplate tests. It performs deep
 - **Engineering Managers**: Measurable quality metrics to report; fewer fire drills from production bugs
 - **Product Teams**: Faster feature delivery when refactoring isn't blocked by missing tests
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Generate Tests for Untested Module**
 ```
@@ -309,22 +312,13 @@ Identify:
 Generate ONLY the missing tests, not duplicates of existing coverage.
 ```
 
----
+:::
 
-**Demo Video:**
+## 3. AI Deploy Monitor
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 1rem 0;">
-  <source src="/videos/en/006-ai-test-generator.mp4" type="video/mp4">
-</video>
+> Monitors every deploy in real-time, detects anomalies in 90s, auto-rollbacks. MTTR: 47min → 2min.
 
----
-
-# Use Case #007: AI Deploy Monitor
-
-**Role**: DevOps Engineer / SRE / Platform Engineer | **Industry**: Technology, SaaS, E-commerce, Fintech | **Task**: Deployment Monitoring, Incident Detection, Automated Rollback, Post-Deploy Analysis
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Deployments Are Your Biggest Source of Incidents**
 
@@ -361,6 +355,10 @@ COCO's AI Deploy Monitor acts as an intelligent layer on top of your existing mo
 
 6. **Incident Timeline Construction**: When things go wrong, COCO automatically constructs a detailed incident timeline: what was deployed, when metrics diverged, which users were affected, what the root cause was, and what actions were taken. This eliminates hours of post-incident investigation.
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Mean time to detection (MTTD)**: Reduced from 23 minutes to 94 seconds
@@ -376,9 +374,9 @@ COCO's AI Deploy Monitor acts as an intelligent layer on top of your existing mo
 - **Engineering Managers**: Ship faster without increasing incident rate
 - **Business Stakeholders**: Higher uptime, fewer customer complaints, protected revenue
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Post-Deploy Health Check Analysis**
 ```
@@ -479,16 +477,13 @@ Normal traffic patterns:
 Recommend new thresholds that reduce false positives by at least 50% while maintaining detection of real incidents. Consider dynamic thresholds based on time of day.
 ```
 
----
+:::
 
----
+## 4. AI API Doc Writer
 
-# Use Case #008: AI API Doc Writer
+> Auto-generates and syncs API docs from codebase, multi-language examples, zero drift.
 
-**Role**: Developer / Technical Writer / Developer Relations | **Industry**: Technology, SaaS, API-First Companies, Developer Tools | **Task**: API Documentation Generation, OpenAPI Spec Maintenance, Developer Guide Creation
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Documentation Drift Is Silently Killing Your Developer Experience**
 
@@ -540,6 +535,10 @@ COCO's AI API Doc Writer treats documentation as a living artifact that stays sy
    - Webhook integration guides
    - Migration guides when breaking changes occur
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **100% documentation coverage** across all endpoints (vs. typical 60-70%)
@@ -556,9 +555,9 @@ COCO's AI API Doc Writer treats documentation as a living artifact that stays sy
 - **Developer Relations**: Better docs = more adoption, fewer support escalations
 - **Engineering Teams**: No more "update the docs" as an afterthought PR comment
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Generate API Endpoint Documentation**
 ```
@@ -657,16 +656,13 @@ The guide should include:
 Write in a friendly, clear tone. Assume the reader is a developer but has never used this specific API before.
 ```
 
----
+:::
 
----
+## 5. AI Debug Assistant
 
-# Use Case #009: AI Debug Assistant
+> Paste error logs, AI traces from symptom to root cause, provides ready-to-apply fix diffs.
 
-**Role**: Developer / Full-Stack Engineer / Backend Engineer | **Industry**: Technology, SaaS, Fintech, Any Software Company | **Task**: Bug Diagnosis, Error Resolution, Performance Debugging, Log Analysis
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Debugging Is the Biggest Hidden Tax on Engineering Productivity**
 
@@ -715,6 +711,10 @@ COCO's AI Debug Assistant acts as a senior debugging partner that has read your 
    - Which components are fragile and why
    - Recurring patterns in bugs (e.g., "every time the cache TTL config changes, these three endpoints break")
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Debugging time reduced** from 9.2 to 3.4 hours/developer/week (63% reduction)
@@ -730,9 +730,9 @@ COCO's AI Debug Assistant acts as a senior debugging partner that has read your 
 - **Engineering Managers**: Quantifiable reduction in debugging overhead; more time on feature work
 - **On-Call Engineers**: Faster incident diagnosis during outages
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Error Diagnosis with Full Context**
 ```
@@ -849,5 +849,5 @@ Correlate the logs across services to reconstruct:
 5. Timeline of impact start to recovery
 ```
 
----
+:::
 

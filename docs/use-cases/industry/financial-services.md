@@ -1,15 +1,12 @@
-# Financial Services Use Cases
+# Financial Services
 
-AI use cases for banking, insurance, investment, and financial institutions.
+AI use cases for banking, insurance, and financial institutions.
 
----
+## 1. AI Lead Researcher
 
-# Use Case #015: AI Lead Researcher
+> Researches 200 leads/day, auto-enriched from LinkedIn, Crunchbase, scored and ready.
 
-**Role**: SDR / BDR / Sales Development | **Industry**: B2B SaaS, Professional Services, Enterprise Sales, Fintech | **Task**: Prospect Research, Account Intelligence, Outreach Personalization, ICP Qualification
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: SDRs Spend More Time Researching Than Selling**
 
@@ -56,6 +53,10 @@ COCO's AI Lead Researcher automates the research and qualification process, deli
    - Recommended approach sequence (who to contact first, who to involve when)
    - Relationship paths through mutual connections
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Research time per lead**: From 45 minutes to 3 minutes (93% reduction)
@@ -72,9 +73,9 @@ COCO's AI Lead Researcher automates the research and qualification process, deli
 - **AEs**: Receive better-qualified, better-researched meetings from SDRs
 - **Revenue Operations**: More accurate pipeline data from better upfront qualification
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Comprehensive Prospect Research Brief**
 ```
@@ -177,16 +178,13 @@ For each lead, provide:
 - One-line personalization hook if qualified
 ```
 
----
+:::
 
----
+## 2. AI Client Research Brief
 
-# Use Case #019: AI Client Research Brief
+> Generates client meeting brief in 8 minutes: multi-source intel, executive profile deep-dive.
 
-**Role**: Account Executive / Strategic Sales / Client Partner | **Industry**: Enterprise Sales, Consulting, Professional Services, B2B | **Task**: Pre-Meeting Research, Account Planning, Client Intelligence, Executive Briefing
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Inadequate Meeting Prep Costs More Than You Realize**
 
@@ -237,6 +235,10 @@ COCO's AI Client Research Brief provides comprehensive, actionable intelligence 
    - **Executive sponsor meeting**: Strategic alignment, financial metrics, business outcomes
    - **Renewal/expansion**: Account health, usage patterns, ROI achieved, growth opportunities
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Meeting prep time**: From 2-3 hours to 8 minutes per meeting (95% reduction)
@@ -252,9 +254,9 @@ COCO's AI Client Research Brief provides comprehensive, actionable intelligence 
 - **Sales Leaders**: Consistent, high-quality client engagement across the team
 - **Pre-Sales Teams**: Technical conversations grounded in the client's actual architecture and priorities
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Executive Meeting Prep Brief**
 ```
@@ -320,16 +322,13 @@ Compile:
 Make this conversational -- I want to sound informed, not like I'm reading a report.
 ```
 
----
+:::
 
----
+## 3. AI VIP Escalation
 
-# Use Case #024: AI VIP Escalation
+> Auto-detects VIP customer anomalies. 30% missed issues drops to 0%.
 
-**Role**: Enterprise Support / Customer Success Manager / Support Operations | **Industry**: SaaS, Enterprise Software, Fintech, Healthcare | **Task**: VIP Customer Detection, Intelligent Escalation, Priority Queue Management, Churn Prevention
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Your Support System Can't Tell a $500K Customer from a Free Trial User**
 
@@ -381,6 +380,10 @@ COCO's AI VIP Escalation creates a smart layer that ensures high-value customers
    - Response drafted with executive-appropriate tone and detail level
    - Follow-up scheduled within 24 hours regardless of resolution
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **VIP first-response time**: 12 minutes (vs. 2 hours standard)
@@ -397,9 +400,9 @@ COCO's AI VIP Escalation creates a smart layer that ensures high-value customers
 - **Customer Success Managers**: Early warning on at-risk accounts; data for proactive outreach
 - **Revenue Leaders**: Protected enterprise revenue; higher renewal rates
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Build VIP Escalation Rules**
 ```
@@ -470,16 +473,13 @@ Write an email that:
 Tone: Senior, professional, genuine. This should sound like it comes from someone who genuinely cares about the relationship, not a PR template.
 ```
 
----
+:::
 
----
+## 4. AI Expense Auditor
 
-# Use Case #029: AI Expense Auditor
+> Instant expense report audit. Compliant: auto-approved. Anomalies: auto-flagged.
 
-**Role**: Finance Manager / Controller / Compliance Officer | **Industry**: Any Enterprise, Professional Services, Consulting, Government | **Task**: Expense Report Auditing, Policy Compliance, Fraud Detection, Reimbursement Processing
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Manual Expense Auditing Is Slow, Incomplete, and Expensive**
 
@@ -530,6 +530,10 @@ COCO's AI Expense Auditor provides 100% audit coverage with consistent policy en
    - Department-level spending patterns and budget impact
    - Recommendations for policy updates based on common edge cases
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Policy violation detection**: From 60% to 97%
@@ -548,9 +552,9 @@ COCO's AI Expense Auditor provides 100% audit coverage with consistent policy en
 - **CFO**: Material reduction in fraud risk; better spending visibility; cleaner financials
 - **Compliance Officers**: 100% audit coverage satisfies regulatory and internal audit requirements
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Audit Expense Report**
 ```
@@ -619,16 +623,17 @@ Analyze and provide:
 Provide a revised policy draft with tracked changes and rationale for each update.
 ```
 
----
+:::
 
----
+## 5. AI Financial Report Generator
 
-# Use Case #030: AI Financial Report Generator
+> Multi-source financial report in 3 hours, replacing 2 days of manual work.
 
-**Role**: FP&A Analyst / Finance Manager / Controller / CFO | **Industry**: Any Enterprise, SaaS, Manufacturing, Professional Services | **Task**: Financial Report Generation, Variance Analysis, Budget Forecasting, Board Deck Preparation
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/auto-report-video-new.mp4" type="video/mp4">
+</video>
 
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: FP&A Teams Are Report Factories, Not Strategic Advisors**
 
@@ -652,6 +657,10 @@ COCO's AI Financial Report Generator automates the data assembly, calculation, a
 
 6. **Anomaly Detection**: Flags unusual patterns in financial data: unexpected account balance changes, budget line items significantly over/under, and trends that deviate from historical patterns.
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Report production time**: From 3 days to 4 hours per month-end cycle
@@ -669,9 +678,9 @@ COCO's AI Financial Report Generator automates the data assembly, calculation, a
 - **Department Heads**: Receive budget variance explanations faster; can course-correct sooner
 - **Auditors**: Consistent, well-documented financial reports reduce audit prep time
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Generate Monthly Financial Summary**
 ```
@@ -750,22 +759,13 @@ Also provide:
 - Recommended reforecast adjustments
 ```
 
----
+:::
 
-**Demo Video:**
+## 6. AI Invoice Processor
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 1rem 0;">
-  <source src="/videos/en/auto-report-video-new.mp4" type="video/mp4">
-</video>
+> Processes an invoice in 30 seconds: extract, match, route — fully automated.
 
----
-
-# Use Case #031: AI Invoice Processor
-
-**Role**: Accounts Payable Clerk / AP Manager / Finance Operations | **Industry**: Any Enterprise, Manufacturing, Retail, Healthcare | **Task**: Invoice Processing, PO Matching, Payment Scheduling, AP Automation
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: AP Is the Most Labor-Intensive Function in Finance**
 
@@ -822,6 +822,10 @@ COCO's AI Invoice Processor automates the entire AP workflow from receipt to pay
    - Prioritizes vendor payments based on relationship importance and terms
    - Forecasts upcoming payment obligations for cash flow planning
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Processing time per invoice**: From 14 minutes to 45 seconds (95% reduction)
@@ -842,9 +846,9 @@ COCO's AI Invoice Processor automates the entire AP workflow from receipt to pay
 - **Vendors**: Faster, more accurate payments improve the business relationship
 - **Procurement**: Better PO compliance tracking; vendor performance data
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Invoice Data Extraction**
 ```
@@ -916,5 +920,5 @@ Analyze and recommend:
 Provide a prioritized 90-day improvement roadmap.
 ```
 
----
+:::
 

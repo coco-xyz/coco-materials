@@ -1,15 +1,12 @@
-# Finance Use Cases
+# Finance
 
-AI-powered use cases for finance teams, accountants, and financial analysts.
+AI-powered use cases for finance teams, accountants, and analysts.
 
----
+## 1. AI Expense Auditor
 
-# Use Case #029: AI Expense Auditor
+> Instant expense report audit. Compliant: auto-approved. Anomalies: auto-flagged.
 
-**Role**: Finance Manager / Controller / Compliance Officer | **Industry**: Any Enterprise, Professional Services, Consulting, Government | **Task**: Expense Report Auditing, Policy Compliance, Fraud Detection, Reimbursement Processing
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Manual Expense Auditing Is Slow, Incomplete, and Expensive**
 
@@ -60,6 +57,10 @@ COCO's AI Expense Auditor provides 100% audit coverage with consistent policy en
    - Department-level spending patterns and budget impact
    - Recommendations for policy updates based on common edge cases
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Policy violation detection**: From 60% to 97%
@@ -78,9 +79,9 @@ COCO's AI Expense Auditor provides 100% audit coverage with consistent policy en
 - **CFO**: Material reduction in fraud risk; better spending visibility; cleaner financials
 - **Compliance Officers**: 100% audit coverage satisfies regulatory and internal audit requirements
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Audit Expense Report**
 ```
@@ -149,16 +150,17 @@ Analyze and provide:
 Provide a revised policy draft with tracked changes and rationale for each update.
 ```
 
----
+:::
 
----
+## 2. AI Financial Report Generator
 
-# Use Case #030: AI Financial Report Generator
+> Multi-source financial report in 3 hours, replacing 2 days of manual work.
 
-**Role**: FP&A Analyst / Finance Manager / Controller / CFO | **Industry**: Any Enterprise, SaaS, Manufacturing, Professional Services | **Task**: Financial Report Generation, Variance Analysis, Budget Forecasting, Board Deck Preparation
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/auto-report-video-new.mp4" type="video/mp4">
+</video>
 
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: FP&A Teams Are Report Factories, Not Strategic Advisors**
 
@@ -182,6 +184,10 @@ COCO's AI Financial Report Generator automates the data assembly, calculation, a
 
 6. **Anomaly Detection**: Flags unusual patterns in financial data: unexpected account balance changes, budget line items significantly over/under, and trends that deviate from historical patterns.
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Report production time**: From 3 days to 4 hours per month-end cycle
@@ -199,9 +205,9 @@ COCO's AI Financial Report Generator automates the data assembly, calculation, a
 - **Department Heads**: Receive budget variance explanations faster; can course-correct sooner
 - **Auditors**: Consistent, well-documented financial reports reduce audit prep time
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Generate Monthly Financial Summary**
 ```
@@ -280,22 +286,13 @@ Also provide:
 - Recommended reforecast adjustments
 ```
 
----
+:::
 
-**Demo Video:**
+## 3. AI Invoice Processor
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 1rem 0;">
-  <source src="/videos/en/auto-report-video-new.mp4" type="video/mp4">
-</video>
+> Processes an invoice in 30 seconds: extract, match, route — fully automated.
 
----
-
-# Use Case #031: AI Invoice Processor
-
-**Role**: Accounts Payable Clerk / AP Manager / Finance Operations | **Industry**: Any Enterprise, Manufacturing, Retail, Healthcare | **Task**: Invoice Processing, PO Matching, Payment Scheduling, AP Automation
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: AP Is the Most Labor-Intensive Function in Finance**
 
@@ -352,6 +349,10 @@ COCO's AI Invoice Processor automates the entire AP workflow from receipt to pay
    - Prioritizes vendor payments based on relationship importance and terms
    - Forecasts upcoming payment obligations for cash flow planning
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Processing time per invoice**: From 14 minutes to 45 seconds (95% reduction)
@@ -372,9 +373,9 @@ COCO's AI Invoice Processor automates the entire AP workflow from receipt to pay
 - **Vendors**: Faster, more accurate payments improve the business relationship
 - **Procurement**: Better PO compliance tracking; vendor performance data
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Invoice Data Extraction**
 ```
@@ -446,5 +447,5 @@ Analyze and recommend:
 Provide a prioritized 90-day improvement roadmap.
 ```
 
----
+:::
 

@@ -1,15 +1,12 @@
-# Customer Support Use Cases
+# Customer Support
 
 AI-powered use cases for support teams, help desk, and customer success.
 
----
+## 1. AI Ticket Classifier
 
-# Use Case #021: AI Ticket Classifier
+> Auto-classifies and routes tickets. 5 min/ticket becomes instant.
 
-**Role**: Support Operations / Support Manager / Customer Success | **Industry**: SaaS, E-commerce, Fintech, Healthcare, Telecommunications | **Task**: Ticket Routing, Priority Classification, Auto-Triage, SLA Management
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Manual Ticket Triage Is a Bottleneck That Gets Worse at Scale**
 
@@ -62,6 +59,10 @@ COCO's AI Ticket Classifier provides instant, accurate triage for every incoming
    - Adapts to new issue types as products evolve
    - Updates routing rules based on resolution patterns
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Misrouting rate**: From 31% to 4% (87% reduction)
@@ -79,9 +80,9 @@ COCO's AI Ticket Classifier provides instant, accurate triage for every incoming
 - **Customers**: Faster, more accurate first responses; fewer "wrong department" bounces
 - **Operations**: Clean ticket data for reporting, capacity planning, and product feedback loops
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Build Ticket Classification Taxonomy**
 ```
@@ -148,16 +149,13 @@ For each ticket type, write:
 Keep each response under 150 words. Test readability: would a frustrated customer find this helpful, not annoying?
 ```
 
----
+:::
 
----
+## 2. AI Knowledge Base Builder
 
-# Use Case #022: AI Knowledge Base Builder
+> Generates 50 knowledge base articles in 1 hour, auto-extracted from tickets and conversations.
 
-**Role**: Support Lead / Technical Writer / Knowledge Manager | **Industry**: SaaS, Technology, E-commerce, Any Company with Customer Support | **Task**: Knowledge Base Creation, Article Writing, Content Gap Analysis, Self-Service Optimization
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Knowledge Bases That Don't Actually Help Anyone**
 
@@ -210,6 +208,10 @@ COCO's AI Knowledge Base Builder transforms resolved support tickets into publis
    - Search terms with no results (content gaps)
    - Ticket-to-article correlation (which articles actually prevent tickets)
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **KB article coverage**: From 340 (127 outdated) to 520 (all current)
@@ -227,9 +229,9 @@ COCO's AI Knowledge Base Builder transforms resolved support tickets into publis
 - **Technical Writers**: Shift from writer to editor; higher-impact work
 - **Support Leaders**: Lower cost per resolution; better CSAT; scalable support
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Generate KB Article from Resolved Tickets**
 ```
@@ -299,16 +301,13 @@ Rewrite the article with:
 Compare the original and rewrite, noting specific improvements.
 ```
 
----
+:::
 
----
+## 3. AI Multi-Language Support
 
-# Use Case #023: AI Multi-Language Support
+> One AI agent supports 15+ languages, replacing 5 translators.
 
-**Role**: Support Manager / Customer Success / Global Operations | **Industry**: SaaS, E-commerce, Gaming, Fintech, Any Global Company | **Task**: Multi-Language Customer Support, Real-Time Translation, Localized Response Generation
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Global Expansion Requires Support in Languages You Don't Speak**
 
@@ -360,6 +359,10 @@ COCO's AI Multi-Language Support provides native-quality multilingual customer s
    - Cultural review flags (content that might be culturally inappropriate in the target language)
    - Agent feedback loop (agents who speak the language can rate and correct translations)
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Languages supported**: 14 languages with consistent quality
@@ -376,9 +379,9 @@ COCO's AI Multi-Language Support provides native-quality multilingual customer s
 - **Support Leaders**: Scale global support without proportional headcount per language
 - **Business Leaders**: Expand into new markets faster with support readiness from day one
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Translate and Respond to Foreign Language Ticket**
 ```
@@ -452,16 +455,13 @@ Important:
 - Flag any template where the approach should differ culturally
 ```
 
----
+:::
 
----
+## 4. AI VIP Escalation
 
-# Use Case #024: AI VIP Escalation
+> Auto-detects VIP customer anomalies. 30% missed issues drops to 0%.
 
-**Role**: Enterprise Support / Customer Success Manager / Support Operations | **Industry**: SaaS, Enterprise Software, Fintech, Healthcare | **Task**: VIP Customer Detection, Intelligent Escalation, Priority Queue Management, Churn Prevention
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Your Support System Can't Tell a $500K Customer from a Free Trial User**
 
@@ -513,6 +513,10 @@ COCO's AI VIP Escalation creates a smart layer that ensures high-value customers
    - Response drafted with executive-appropriate tone and detail level
    - Follow-up scheduled within 24 hours regardless of resolution
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **VIP first-response time**: 12 minutes (vs. 2 hours standard)
@@ -529,9 +533,9 @@ COCO's AI VIP Escalation creates a smart layer that ensures high-value customers
 - **Customer Success Managers**: Early warning on at-risk accounts; data for proactive outreach
 - **Revenue Leaders**: Protected enterprise revenue; higher renewal rates
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Build VIP Escalation Rules**
 ```
@@ -602,5 +606,5 @@ Write an email that:
 Tone: Senior, professional, genuine. This should sound like it comes from someone who genuinely cares about the relationship, not a PR template.
 ```
 
----
+:::
 

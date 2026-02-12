@@ -1,15 +1,12 @@
-# HR与招聘用例
+# HR与招聘
 
 AI驱动的HR团队、招聘人员和人力运营用例。
 
----
+## 1. AI简历筛选
 
-# Use Case #025: AI Resume Screener
+> 2小时筛选500份简历，替代3天人工筛选。
 
-**Role**: Recruiter / Talent Acquisition / HR Manager | **Industry**: Any Industry with Hiring Needs | **Task**: Resume Screening, Candidate Shortlisting, Skills Assessment, Bias Reduction
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：简历筛选是一个摧毁质量的数量问题**
 
@@ -61,6 +58,10 @@ COCO的AI Resume Screener对每份申请进行深度、一致的分析，对照�
    - 可能因特定原因感兴趣的过度资质候选人
    - 匹配但未申请的内部候选人
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **筛选时间**：每个职位从56小时降至23分钟（减少99.3%）
@@ -74,7 +75,9 @@ COCO的AI Resume Screener对每份申请进行深度、一致的分析，对照�
 
 ---
 
-## 实用提示词
+:::
+
+::: details 实用提示词
 
 **提示词 1: 按职位要求筛选简历**
 ```
@@ -144,16 +147,13 @@ COCO的AI Resume Screener对每份申请进行深度、一致的分析，对照�
 8. 针对每个候选人风险领域的背景调查问题
 ```
 
----
+:::
 
----
+## 2. AI职位描述编写
 
-# Use Case #026: AI Job Description Writer
+> 10分钟生成无偏见、SEO优化的职位描述。
 
-**Role**: Recruiter / Hiring Manager / HR Business Partner | **Industry**: Any Industry | **Task**: Job Description Writing, Inclusive Language Optimization, Compensation Benchmarking, Employer Brand Messaging
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：糟糕的职位描述是看不见的Pipeline杀手**
 
@@ -205,6 +205,10 @@ COCO的AI Job Description Writer创建引人注目的、包容的、高效的职
    - 申请人的人口统计多样性
    - 与之前版本相比的招聘周期
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **申请量**：增长64%
@@ -221,11 +225,9 @@ COCO的AI Job Description Writer创建引人注目的、包容的、高效的职
 - **候选人**：清楚了解角色、影响力和要求
 - **多元化负责人**：更包容的语言吸引更多元化的候选人池
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 撰写职位描述**
 ```
@@ -314,16 +316,13 @@ COCO的AI Job Description Writer创建引人注目的、包容的、高效的职
 包含数据来源并注明基准化的任何局限性。
 ```
 
----
+:::
 
----
+## 3. AI面试排期
 
-# Use Case #027: AI Interview Scheduler
+> 3分钟完成面试排期，自动协调多方日历。
 
-**Role**: Recruiting Coordinator / Talent Operations / HR | **Industry**: Any Industry with High Hiring Volume | **Task**: Interview Scheduling, Calendar Coordination, Candidate Communication, Interview Loop Management
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：面试排期是招聘速度的隐形杀手**
 
@@ -376,6 +375,10 @@ COCO的AI Interview Scheduler自动化从初始可用性到确认的整个排期
    - 按面试官分的取消和改期率
    - 排期速度与offer接受率的相关性
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **每次循环排期时间**：从45分钟降至3分钟（减少93%）
@@ -394,11 +397,9 @@ COCO的AI Interview Scheduler自动化从初始可用性到确认的整个排期
 - **用人经理**：更快的流水线速度意味着更快填补职位
 - **TA负责人**：更好的排期效率指标及其对招聘结果的影响
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 设计面试循环排期**
 ```
@@ -467,16 +468,13 @@ COCO的AI Interview Scheduler自动化从初始可用性到确认的整个排期
 提供下个季度的可操作建议。
 ```
 
----
+:::
 
----
+## 4. AI入职助手
 
-# Use Case #028: AI Onboarding Assistant
+> 新员工3天完成入职，替代传统2周流程。
 
-**Role**: HR Manager / People Ops / Hiring Manager | **Industry**: Any Industry | **Task**: Employee Onboarding, Day-1 Readiness, 30/60/90 Day Planning, New Hire Experience
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：失败的入职体验在员工开始贡献之前就让你失去他们**
 
@@ -529,6 +527,10 @@ COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入�
    - 第90天："你会推荐我们公司吗？入职有什么你想改变的？"
    - 结果汇总用于入职计划的持续改进
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **新人满意度（30天）**：从62%升至91%
@@ -547,11 +549,9 @@ COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入�
 - **IT/设施**：带截止日期的明确任务分配，而非最后一刻的紧急救火
 - **领导层**：更低的早期离职率；更快达到生产力；更好的雇主品牌
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 生成30/60/90天入职计划**
 ```
@@ -640,5 +640,5 @@ COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入�
 每个任务：负责人、截止日期、依赖项、以及已完成的验证。
 ```
 
----
+:::
 

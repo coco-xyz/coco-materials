@@ -1,15 +1,12 @@
-# E-commerce / Retail Use Cases
+# E-commerce / Retail
 
-AI use cases for e-commerce platforms, retail operations, and online marketplaces.
+AI use cases for e-commerce, retail, and online marketplaces.
 
----
+## 1. AI SEO Content Writer
 
-# Use Case #010: AI SEO Content Writer
+> Produces an SEO-optimized article in 20 minutes, from keyword research to final draft.
 
-**Role**: Content Marketer / SEO Specialist / Growth Manager | **Industry**: SaaS, E-commerce, B2B, Media, Any Online Business | **Task**: SEO Article Creation, Keyword Optimization, Content Strategy Execution
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: The SEO Content Arms Race Is Unwinnable at Human Speed**
 
@@ -65,6 +62,10 @@ COCO's AI SEO Content Writer transforms the content creation pipeline from a ser
    - Content refresh schedules for aging articles
    - Competitive content gap analysis at the domain level
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Content production**: From 2 articles/week to 12+ articles/week (6x increase)
@@ -81,9 +82,9 @@ COCO's AI SEO Content Writer transforms the content creation pipeline from a ser
 - **Growth Managers**: Compound organic traffic growth without proportional headcount growth
 - **Startup Founders**: Compete with established players' content libraries on a fraction of the budget
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Complete SEO Article from Keyword**
 ```
@@ -198,16 +199,13 @@ For each page provide:
 - Estimated CTR improvement potential (Low/Medium/High)
 ```
 
----
+:::
 
----
+## 2. AI Social Media Manager
 
-# Use Case #011: AI Social Media Manager
+> One input, all platforms. 3 hours/day social media ops reduced to 15 minutes.
 
-**Role**: Social Media Manager / Content Creator / Marketing Coordinator | **Industry**: Any B2B/B2C, SaaS, E-commerce, D2C, Agencies | **Task**: Social Media Content Creation, Scheduling, Cross-Platform Management, Engagement Optimization
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Social Media Demands Infinite Content Across Incompatible Platforms**
 
@@ -254,6 +252,10 @@ COCO's AI Social Media Manager acts as a force multiplier for social media teams
    - Audience growth trends and engagement pattern changes
    - Recommendations for next cycle's content strategy
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Content output**: 2.8x increase (15 to 42 posts/week)
@@ -270,9 +272,9 @@ COCO's AI Social Media Manager acts as a force multiplier for social media teams
 - **Small Business Owners**: Professional social media presence without a dedicated team
 - **Agency Teams**: Scale client social accounts without proportional staff increases
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Multi-Platform Content Generation from Blog Post**
 ```
@@ -378,16 +380,13 @@ For each, rate:
 Only suggest participation if relevance is 6+ and risk is low-medium.
 ```
 
----
+:::
 
----
+## 3. AI Ad Copy Generator
 
-# Use Case #012: AI Ad Copy Generator
+> Generates 200 A/B ad copy variants in 10 minutes with data-driven optimization.
 
-**Role**: Performance Marketer / Paid Media Specialist / Growth Manager | **Industry**: SaaS, E-commerce, D2C, Fintech, B2B | **Task**: Ad Copywriting, A/B Testing Variations, Multi-Platform Ad Creation, Creative Optimization
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: The Ad Copy Volume Problem**
 
@@ -442,6 +441,10 @@ COCO's AI Ad Copy Generator is built specifically for performance marketing, und
    - Sets accurate expectations (reducing bounce rate from message mismatch)
    - Suggests landing page improvements to match high-performing ad angles
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Ad copy production**: 15x faster (from 4 hours to 15 minutes per ad group)
@@ -458,9 +461,9 @@ COCO's AI Ad Copy Generator is built specifically for performance marketing, und
 - **Growth Teams**: Test more angles faster, find winning messages sooner
 - **E-commerce Brands**: Generate product-specific ad copy across hundreds of SKUs
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Google Responsive Search Ad Generation**
 ```
@@ -580,16 +583,13 @@ For each localized version:
 - Suggest local trust signals to add (local payment methods, local social proof, etc.)
 ```
 
----
+:::
 
----
+## 4. AI Competitive Copywriter
 
-# Use Case #014: AI Competitive Copywriter
+> Real-time competitive tracking. 2 days of research becomes 1 hour of automated insights.
 
-**Role**: Marketing Strategist / Brand Manager / Competitive Intelligence Analyst | **Industry**: SaaS, Technology, E-commerce, B2B Services | **Task**: Competitive Analysis, Differentiation Messaging, Battle Card Creation, Win/Loss Analysis
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Your Competitive Messaging Is Always Out of Date**
 
@@ -644,6 +644,10 @@ COCO's AI Competitive Copywriter closes the gap between competitive intelligence
    - Customer evidence backs up positioning claims
    - Compliance with advertising standards for comparative claims
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Competitive win rate**: From 34% to 52% (+53% improvement)
@@ -660,9 +664,9 @@ COCO's AI Competitive Copywriter closes the gap between competitive intelligence
 - **Marketing Leaders**: Faster, more coordinated competitive response
 - **Competitive Intelligence Teams**: Analysis translated into action faster
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Competitive Battle Card Generation**
 ```
@@ -748,16 +752,13 @@ Analyze:
 6. Top 3 actionable recommendations to improve win rate next quarter
 ```
 
----
+:::
 
----
+## 5. AI Quote Calculator
 
-# Use Case #020: AI Quote Calculator
+> Complex quote calculation in 10 minutes, auto-matching discount rules and approval workflows.
 
-**Role**: Sales Rep / Sales Operations / Revenue Operations | **Industry**: SaaS, Manufacturing, Professional Services, Enterprise | **Task**: Quote Generation, Pricing Configuration, Discount Approval, Deal Structuring
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Complex Pricing Slows Down Your Fastest Deals**
 
@@ -810,6 +811,10 @@ COCO's AI Quote Calculator transforms the quoting process from a manual, error-p
    - Quote-to-close time analysis
    - Pricing optimization recommendations based on win/loss data
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Quote generation time**: From 45 minutes to 4 minutes (91% reduction)
@@ -826,9 +831,9 @@ COCO's AI Quote Calculator transforms the quoting process from a manual, error-p
 - **Finance/RevOps**: Accurate pricing, consistent margin protection, clean deal data
 - **Customers**: Fast, professional quotes that show you value their time
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Generate a Sales Quote**
 ```
@@ -904,16 +909,13 @@ Create a comparison table with:
 Format as a clean, customer-facing document.
 ```
 
----
+:::
 
----
+## 6. AI Ticket Classifier
 
-# Use Case #021: AI Ticket Classifier
+> Auto-classifies and routes tickets. 5 min/ticket becomes instant.
 
-**Role**: Support Operations / Support Manager / Customer Success | **Industry**: SaaS, E-commerce, Fintech, Healthcare, Telecommunications | **Task**: Ticket Routing, Priority Classification, Auto-Triage, SLA Management
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Manual Ticket Triage Is a Bottleneck That Gets Worse at Scale**
 
@@ -966,6 +968,10 @@ COCO's AI Ticket Classifier provides instant, accurate triage for every incoming
    - Adapts to new issue types as products evolve
    - Updates routing rules based on resolution patterns
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Misrouting rate**: From 31% to 4% (87% reduction)
@@ -983,9 +989,9 @@ COCO's AI Ticket Classifier provides instant, accurate triage for every incoming
 - **Customers**: Faster, more accurate first responses; fewer "wrong department" bounces
 - **Operations**: Clean ticket data for reporting, capacity planning, and product feedback loops
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Build Ticket Classification Taxonomy**
 ```
@@ -1052,16 +1058,13 @@ For each ticket type, write:
 Keep each response under 150 words. Test readability: would a frustrated customer find this helpful, not annoying?
 ```
 
----
+:::
 
----
+## 7. AI Multi-Language Support
 
-# Use Case #023: AI Multi-Language Support
+> One AI agent supports 15+ languages, replacing 5 translators.
 
-**Role**: Support Manager / Customer Success / Global Operations | **Industry**: SaaS, E-commerce, Gaming, Fintech, Any Global Company | **Task**: Multi-Language Customer Support, Real-Time Translation, Localized Response Generation
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Global Expansion Requires Support in Languages You Don't Speak**
 
@@ -1113,6 +1116,10 @@ COCO's AI Multi-Language Support provides native-quality multilingual customer s
    - Cultural review flags (content that might be culturally inappropriate in the target language)
    - Agent feedback loop (agents who speak the language can rate and correct translations)
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Languages supported**: 14 languages with consistent quality
@@ -1129,9 +1136,9 @@ COCO's AI Multi-Language Support provides native-quality multilingual customer s
 - **Support Leaders**: Scale global support without proportional headcount per language
 - **Business Leaders**: Expand into new markets faster with support readiness from day one
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Translate and Respond to Foreign Language Ticket**
 ```
@@ -1205,16 +1212,13 @@ Important:
 - Flag any template where the approach should differ culturally
 ```
 
----
+:::
 
----
+## 8. AI VIP Escalation
 
-# Use Case #024: AI VIP Escalation
+> Auto-detects VIP customer anomalies. 30% missed issues drops to 0%.
 
-**Role**: Enterprise Support / Customer Success Manager / Support Operations | **Industry**: SaaS, Enterprise Software, Fintech, Healthcare | **Task**: VIP Customer Detection, Intelligent Escalation, Priority Queue Management, Churn Prevention
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Your Support System Can't Tell a $500K Customer from a Free Trial User**
 
@@ -1266,6 +1270,10 @@ COCO's AI VIP Escalation creates a smart layer that ensures high-value customers
    - Response drafted with executive-appropriate tone and detail level
    - Follow-up scheduled within 24 hours regardless of resolution
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **VIP first-response time**: 12 minutes (vs. 2 hours standard)
@@ -1282,9 +1290,9 @@ COCO's AI VIP Escalation creates a smart layer that ensures high-value customers
 - **Customer Success Managers**: Early warning on at-risk accounts; data for proactive outreach
 - **Revenue Leaders**: Protected enterprise revenue; higher renewal rates
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Build VIP Escalation Rules**
 ```
@@ -1355,16 +1363,13 @@ Write an email that:
 Tone: Senior, professional, genuine. This should sound like it comes from someone who genuinely cares about the relationship, not a PR template.
 ```
 
----
+:::
 
----
+## 9. AI Invoice Processor
 
-# Use Case #031: AI Invoice Processor
+> Processes an invoice in 30 seconds: extract, match, route — fully automated.
 
-**Role**: Accounts Payable Clerk / AP Manager / Finance Operations | **Industry**: Any Enterprise, Manufacturing, Retail, Healthcare | **Task**: Invoice Processing, PO Matching, Payment Scheduling, AP Automation
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: AP Is the Most Labor-Intensive Function in Finance**
 
@@ -1421,6 +1426,10 @@ COCO's AI Invoice Processor automates the entire AP workflow from receipt to pay
    - Prioritizes vendor payments based on relationship importance and terms
    - Forecasts upcoming payment obligations for cash flow planning
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Processing time per invoice**: From 14 minutes to 45 seconds (95% reduction)
@@ -1441,9 +1450,9 @@ COCO's AI Invoice Processor automates the entire AP workflow from receipt to pay
 - **Vendors**: Faster, more accurate payments improve the business relationship
 - **Procurement**: Better PO compliance tracking; vendor performance data
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Invoice Data Extraction**
 ```
@@ -1515,16 +1524,13 @@ Analyze and recommend:
 Provide a prioritized 90-day improvement roadmap.
 ```
 
----
+:::
 
----
+## 10. AI Inventory Forecaster
 
-# Use Case #033: AI Inventory Forecaster
+> Real-time inventory forecasting, replacing weekly manual stocktakes.
 
-**Role**: Supply Chain Manager / Demand Planner / Operations Director | **Industry**: E-commerce, Retail, Manufacturing, Distribution, CPG | **Task**: Demand Forecasting, Inventory Optimization, Stockout Prevention, Overstock Reduction
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Inventory Forecasting with Spreadsheets Costs Millions in Stockouts and Overstock**
 
@@ -1579,6 +1585,10 @@ COCO's AI Inventory Forecaster combines historical analysis with real-time signa
    - "What if we expand to 3 new geographic markets?"
    - Helps leadership make inventory-aware business decisions
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Stockout reduction**: 67% fewer stockout events
@@ -1599,9 +1609,9 @@ COCO's AI Inventory Forecaster combines historical analysis with real-time signa
 - **Warehouse/Logistics**: More predictable inbound volumes; better space and labor planning
 - **Customers**: Better product availability; fewer backorders and cancellations
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Generate Demand Forecast**
 ```
@@ -1666,5 +1676,5 @@ For each scenario:
 - Communication plan for sales/marketing teams
 ```
 
----
+:::
 

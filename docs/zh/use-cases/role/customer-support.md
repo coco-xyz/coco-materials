@@ -1,15 +1,12 @@
-# 客服用例
+# 客服
 
 AI驱动的客服团队、帮助台和客户成功用例。
 
----
+## 1. AI工单分类
 
-# Use Case #021: AI Ticket Classifier
+> 工单自动分类路由，5分钟/单变为即时处理。
 
-**Role**: Support Operations / Support Manager / Customer Success | **Industry**: SaaS, E-commerce, Fintech, Healthcare, Telecommunications | **Task**: Ticket Routing, Priority Classification, Auto-Triage, SLA Management
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：手动工单分类是随着规模增长只会更严重的瓶颈**
 
@@ -62,6 +59,10 @@ COCO的AI Ticket Classifier为每张进入的支持工单提供即时、准确�
    - 随产品演进适应新的问题类型
    - 基于解决模式更新路由规则
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **错误路由率**：从31%降至4%（减少87%）
@@ -79,11 +80,9 @@ COCO的AI Ticket Classifier为每张进入的支持工单提供即时、准确�
 - **客户**：更快、更准确的首次响应，更少的"找错部门"弹跳
 - **运营**：干净的工单数据用于报告、容量规划和产品反馈循环
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 构建工单分类体系**
 ```
@@ -150,16 +149,13 @@ SLA层级：[按优先级列出你的SLA要求]
 每个回复控制在150字以内。测试可读性：一个沮丧的客户会觉得这有帮助还是烦人？
 ```
 
----
+:::
 
----
+## 2. AI知识库构建
 
-# Use Case #022: AI Knowledge Base Builder
+> 1小时生成50篇知识库文章，从工单和对话自动提取。
 
-**Role**: Support Lead / Technical Writer / Knowledge Manager | **Industry**: SaaS, Technology, E-commerce, Any Company with Customer Support | **Task**: Knowledge Base Creation, Article Writing, Content Gap Analysis, Self-Service Optimization
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：根本帮不了任何人的知识库**
 
@@ -212,6 +208,10 @@ COCO的AI Knowledge Base Builder将已解决的客服工单转化为已发布的
    - 无结果的搜索词（内容缺口）
    - 工单到文章的关联（哪些文章真正阻止了工单）
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **KB文章覆盖率**：从340篇（127篇过时）到520篇（全部当前）
@@ -229,11 +229,9 @@ COCO的AI Knowledge Base Builder将已解决的客服工单转化为已发布的
 - **技术写作者**：从写作者转变为编辑，更高影响力的工作
 - **客服领导**：更低的每次解决成本，更好的CSAT，可扩展的客服
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 从已解决工单生成KB文章**
 ```
@@ -303,16 +301,13 @@ COCO的AI Knowledge Base Builder将已解决的客服工单转化为已发布的
 对比原文和重写，标注具体改进。
 ```
 
----
+:::
 
----
+## 3. AI多语言客服
 
-# Use Case #023: AI Multi-Language Support
+> AI一键支持15+语言客服，替代5个翻译人员。
 
-**Role**: Support Manager / Customer Success / Global Operations | **Industry**: SaaS, E-commerce, Gaming, Fintech, Any Global Company | **Task**: Multi-Language Customer Support, Real-Time Translation, Localized Response Generation
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：全球扩展需要你不会说的语言的客户支持**
 
@@ -364,6 +359,10 @@ COCO的AI Multi-Language Support提供母语质量的多语言客户服务，无
    - 文化审查标记（在目标语言中可能不恰当的内容）
    - 坐席反馈循环（懂该语言的坐席可以评分和纠正翻译）
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **支持的语言**：14种语言保持一致质量
@@ -380,11 +379,9 @@ COCO的AI Multi-Language Support提供母语质量的多语言客户服务，无
 - **客服领导**：扩展全球客服而不按语言比例增加人手
 - **业务领导者**：从第一天就具备客服准备度，更快进入新市场
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 翻译并回复外语工单**
 ```
@@ -458,16 +455,13 @@ COCO的AI Multi-Language Support提供母语质量的多语言客户服务，无
 - 标记任何方式应该因文化差异而不同的模板
 ```
 
----
+:::
 
----
+## 4. AI VIP升级管理
 
-# Use Case #024: AI VIP Escalation
+> 自动识别VIP客户异常，30%漏检降至0%。
 
-**Role**: Enterprise Support / Customer Success Manager / Support Operations | **Industry**: SaaS, Enterprise Software, Fintech, Healthcare | **Task**: VIP Customer Detection, Intelligent Escalation, Priority Queue Management, Churn Prevention
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：你的客服系统分不清50万的客户和免费试用用户**
 
@@ -519,6 +513,10 @@ COCO的AI VIP Escalation创建一个智能层，确保高价值客户获得与�
    - 以高管适当的语气和详细程度起草回复
    - 无论是否解决，24小时内安排跟进
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **VIP首次响应时间**：12分钟（vs标准2小时）
@@ -535,11 +533,9 @@ COCO的AI VIP Escalation创建一个智能层，确保高价值客户获得与�
 - **CSM**：风险账户的早期预警，主动触达的数据支持
 - **收入领导者**：保护企业收入，更高的续约率
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 构建VIP升级规则**
 ```
@@ -610,5 +606,5 @@ CSM：[姓名]
 语气：高级、专业、真诚。应该听起来像是一个真心在意这段关系的人写的，而不是公关模板。
 ```
 
----
+:::
 

@@ -1,15 +1,12 @@
-# 金融服务用例
+# 金融服务
 
 AI驱动的银行、保险、投资和金融机构用例。
 
----
+## 1. AI线索调研
 
-# Use Case #015: AI Lead Researcher
+> 一天调研200个线索，自动从LinkedIn、企查查抓取并打分。
 
-**Role**: SDR / BDR / Sales Development | **Industry**: B2B SaaS, Professional Services, Enterprise Sales, Fintech | **Task**: Prospect Research, Account Intelligence, Outreach Personalization, ICP Qualification
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：SDR花在调研上的时间比卖东西的时间多**
 
@@ -56,6 +53,10 @@ COCO的AI Lead Researcher自动化调研和资质判定过程，在几分钟内�
    - 建议的接触顺序（先联系谁、什么时候引入谁）
    - 通过共同联系人的关系路径
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **每个线索调研时间**：从45分钟降至3分钟（减少93%）
@@ -72,11 +73,9 @@ COCO的AI Lead Researcher自动化调研和资质判定过程，在几分钟内�
 - **AE**：从SDR那里获得资质更好、调研更充分的会议
 - **收入运营**：更好的前期资质判定带来更准确的Pipeline数据
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 全面的潜客调研简报**
 ```
@@ -179,16 +178,13 @@ LinkedIn URL：[URL]
 - 如合格，一行个性化钩子
 ```
 
----
+:::
 
----
+## 2. AI客户调研简报
 
-# Use Case #019: AI Client Research Brief
+> 8分钟生成客户会议简报，多源情报汇聚，高管画像深入。
 
-**Role**: Account Executive / Strategic Sales / Client Partner | **Industry**: Enterprise Sales, Consulting, Professional Services, B2B | **Task**: Pre-Meeting Research, Account Planning, Client Intelligence, Executive Briefing
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：不充分的会前准备比你意识到的代价更大**
 
@@ -239,6 +235,10 @@ COCO的AI Client Research Brief在几分钟内为每次客户会议提供全面�
    - **高管发起人会议**：战略对齐、财务指标、业务成果
    - **续约/扩展**：账户健康、使用模式、已实现的ROI、增长机会
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **会前准备时间**：从2-3小时降至8分钟（减少95%）
@@ -254,11 +254,9 @@ COCO的AI Client Research Brief在几分钟内为每次客户会议提供全面�
 - **销售领导者**：团队一致的高质量客户互动
 - **售前团队**：技术对话基于客户的实际架构和优先级
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 高管会议准备简报**
 ```
@@ -324,16 +322,13 @@ COCO的AI Client Research Brief在几分钟内为每次客户会议提供全面�
 写得对话化——我想听起来像是了解行情，而不是像在念报告。
 ```
 
----
+:::
 
----
+## 3. AI VIP升级管理
 
-# Use Case #024: AI VIP Escalation
+> 自动识别VIP客户异常，30%漏检降至0%。
 
-**Role**: Enterprise Support / Customer Success Manager / Support Operations | **Industry**: SaaS, Enterprise Software, Fintech, Healthcare | **Task**: VIP Customer Detection, Intelligent Escalation, Priority Queue Management, Churn Prevention
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：你的客服系统分不清50万的客户和免费试用用户**
 
@@ -385,6 +380,10 @@ COCO的AI VIP Escalation创建一个智能层，确保高价值客户获得与�
    - 以高管适当的语气和详细程度起草回复
    - 无论是否解决，24小时内安排跟进
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **VIP首次响应时间**：12分钟（vs标准2小时）
@@ -401,11 +400,9 @@ COCO的AI VIP Escalation创建一个智能层，确保高价值客户获得与�
 - **CSM**：风险账户的早期预警，主动触达的数据支持
 - **收入领导者**：保护企业收入，更高的续约率
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 构建VIP升级规则**
 ```
@@ -476,16 +473,13 @@ CSM：[姓名]
 语气：高级、专业、真诚。应该听起来像是一个真心在意这段关系的人写的，而不是公关模板。
 ```
 
----
+:::
 
----
+## 4. AI费用审计
 
-# Use Case #029: AI Expense Auditor
+> 费用报告即时审核，合规自动通过，异常自动标记。
 
-**Role**: Finance Manager / Controller / Compliance Officer | **Industry**: Any Enterprise, Professional Services, Consulting, Government | **Task**: Expense Report Auditing, Policy Compliance, Fraud Detection, Reimbursement Processing
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：手动报销审核缓慢、不完整且昂贵**
 
@@ -536,6 +530,10 @@ COCO的AI Expense Auditor提供100%的审计覆盖和一致的政策执行。
    - 部门级别的支出模式和预算影响
    - 基于常见边缘案例的政策更新建议
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **政策违规检测**：从60%升至97%
@@ -554,11 +552,9 @@ COCO的AI Expense Auditor提供100%的审计覆盖和一致的政策执行。
 - **CFO**：欺诈风险实质性降低；更好的支出可见性；更清洁的财务
 - **合规官**：100%审计覆盖满足监管和内部审计要求
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 审核报销单**
 ```
@@ -627,16 +623,13 @@ COCO的AI Expense Auditor提供100%的审计覆盖和一致的政策执行。
 提供带跟踪变更的修订政策草案以及每个更新的理由。
 ```
 
----
+:::
 
----
+## 5. AI财务报告生成
 
-# Use Case #030: AI Financial Report Generator
+> 3小时生成多源数据对账的财务报告，替代2天人工。
 
-**Role**: FP&A Analyst / Finance Manager / Controller / CFO | **Industry**: Any Enterprise, SaaS, Manufacturing, Professional Services | **Task**: Financial Report Generation, Variance Analysis, Budget Forecasting, Board Deck Preparation
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：FP&A团队是报告工厂，而非战略顾问**
 
@@ -660,6 +653,10 @@ COCO的AI Financial Report Generator自动化数据组装、计算和叙事生�
 
 6. **异常检测**：标记财务数据中的异常模式：意外的账户余额变化、显著超出/低于预算的明细项、以及偏离历史模式的趋势。
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **报告产出时间**：从每个月末周期3天降至4小时
@@ -677,11 +674,9 @@ COCO的AI Financial Report Generator自动化数据组装、计算和叙事生�
 - **部门主管**：更快收到预算差异解释；可以更早进行航向纠正
 - **审计师**：一致的、文档化良好的财务报告减少审计准备时间
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 生成月度财务摘要**
 ```
@@ -760,16 +755,13 @@ COCO的AI Financial Report Generator自动化数据组装、计算和叙事生�
 - 建议的重新预测调整
 ```
 
----
+:::
 
----
+## 6. AI发票处理
 
-# Use Case #031: AI Invoice Processor
+> 30秒处理一张发票：提取、匹配、路由全自动。
 
-**Role**: Accounts Payable Clerk / AP Manager / Finance Operations | **Industry**: Any Enterprise, Manufacturing, Retail, Healthcare | **Task**: Invoice Processing, PO Matching, Payment Scheduling, AP Automation
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：AP是财务中劳动最密集的职能**
 
@@ -826,6 +818,10 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
    - 基于关系重要性和条款优先排序供应商付款
    - 为现金流规划预测即将到来的付款义务
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **每张发票处理时间**：从14分钟降至45秒（减少95%）
@@ -846,11 +842,9 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 - **供应商**：更快、更准确的付款改善业务关系
 - **采购**：更好的PO合规跟踪；供应商绩效数据
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 发票数据提取**
 ```
@@ -922,5 +916,5 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 提供优先级排序的90天改进路线图。
 ```
 
----
+:::
 

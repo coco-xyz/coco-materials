@@ -1,15 +1,12 @@
-# 运营用例
+# 运营
 
 AI驱动的运营经理、采购和通用业务运营用例。
 
----
+## 1. AI会议纪要
 
-# Use Case #032: AI Meeting Notes
+> 会议结束即出纪要：转录、摘要、待办分配一步到位。
 
-**Role**: Project Manager / Team Lead / Executive Assistant / Operations | **Industry**: Any Industry | **Task**: Meeting Transcription, Action Item Extraction, Decision Documentation, Follow-Up Tracking
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：会议产出的决策和行动项会立即消失**
 
@@ -66,6 +63,10 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
    - 跨会议模式检测："我们讨论这个话题多少次了却没有决定？"
    - 合规友好的保留和访问控制
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **行动项完成率**：从21%升至84%
@@ -85,11 +86,9 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 - **远程/异步工作者**：即使不能参加会议也能获得完整上下文
 - **新员工**：可搜索的会议存档帮助他们了解过去的决策和背景
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 结构化会议笔记**
 ```
@@ -157,16 +156,13 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 提供具体的"会议瘦身"建议：保留什么、砍掉什么、缩短什么、合并什么、或转为异步什么。
 ```
 
----
+:::
 
----
+## 2. AI库存预测
 
-# Use Case #033: AI Inventory Forecaster
+> 实时库存预测，替代每周手动盘点，减少滞销和缺货。
 
-**Role**: Supply Chain Manager / Demand Planner / Operations Director | **Industry**: E-commerce, Retail, Manufacturing, Distribution, CPG | **Task**: Demand Forecasting, Inventory Optimization, Stockout Prevention, Overstock Reduction
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：用电子表格做库存预测在缺货和积压上损失数百万**
 
@@ -221,6 +217,10 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
    - "如果我们扩展到3个新的地理市场会怎样？"
    - 帮助领导层做出考虑库存的商业决策
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **缺货减少**：缺货事件减少67%
@@ -241,11 +241,9 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
 - **仓库/物流**：更可预测的入库量；更好的空间和劳动力规划
 - **客户**：更好的产品可用性；更少的延期交货和取消
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 生成需求预测**
 ```
@@ -310,16 +308,13 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
 - 给销售/市场团队的沟通计划
 ```
 
----
+:::
 
----
+## 3. AI供应商评估
 
-# Use Case #034: AI Vendor Evaluator
+> 2小时完成供应商评估排名，替代1周人工调研。
 
-**Role**: Procurement Manager / Operations Director / Vendor Management | **Industry**: Any Enterprise, Manufacturing, Retail, Technology | **Task**: Vendor Evaluation, RFP Analysis, Contract Comparison, Vendor Risk Assessment
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：供应商评估缓慢、主观且有风险**
 
@@ -335,6 +330,10 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 （完整中文版涵盖所有6个解决方案要点）
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **评估时间**：每次供应商选择从50小时降至8小时（减少84%）
@@ -348,7 +347,9 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 ---
 
-## 实用提示词
+:::
+
+::: details 实用提示词
 
 **提示词 1: 生成供应商评估记分卡**
 ```
@@ -448,5 +449,5 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 总体风险评分（0-100）附理由，以及每个高风险领域的建议缓解措施。
 ```
 
----
+:::
 

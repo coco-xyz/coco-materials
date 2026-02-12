@@ -1,15 +1,12 @@
-# Writing & Content Use Cases
+# Writing & Content
 
-AI use cases for content creation, copywriting, documentation, and written communications.
+AI use cases for content creation, copywriting, and documentation.
 
----
+## 1. AI API Doc Writer
 
-# Use Case #008: AI API Doc Writer
+> Auto-generates and syncs API docs from codebase, multi-language examples, zero drift.
 
-**Role**: Developer / Technical Writer / Developer Relations | **Industry**: Technology, SaaS, API-First Companies, Developer Tools | **Task**: API Documentation Generation, OpenAPI Spec Maintenance, Developer Guide Creation
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Documentation Drift Is Silently Killing Your Developer Experience**
 
@@ -61,6 +58,10 @@ COCO's AI API Doc Writer treats documentation as a living artifact that stays sy
    - Webhook integration guides
    - Migration guides when breaking changes occur
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **100% documentation coverage** across all endpoints (vs. typical 60-70%)
@@ -77,9 +78,9 @@ COCO's AI API Doc Writer treats documentation as a living artifact that stays sy
 - **Developer Relations**: Better docs = more adoption, fewer support escalations
 - **Engineering Teams**: No more "update the docs" as an afterthought PR comment
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Generate API Endpoint Documentation**
 ```
@@ -178,16 +179,13 @@ The guide should include:
 Write in a friendly, clear tone. Assume the reader is a developer but has never used this specific API before.
 ```
 
----
+:::
 
----
+## 2. AI SEO Content Writer
 
-# Use Case #010: AI SEO Content Writer
+> Produces an SEO-optimized article in 20 minutes, from keyword research to final draft.
 
-**Role**: Content Marketer / SEO Specialist / Growth Manager | **Industry**: SaaS, E-commerce, B2B, Media, Any Online Business | **Task**: SEO Article Creation, Keyword Optimization, Content Strategy Execution
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: The SEO Content Arms Race Is Unwinnable at Human Speed**
 
@@ -243,6 +241,10 @@ COCO's AI SEO Content Writer transforms the content creation pipeline from a ser
    - Content refresh schedules for aging articles
    - Competitive content gap analysis at the domain level
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Content production**: From 2 articles/week to 12+ articles/week (6x increase)
@@ -259,9 +261,9 @@ COCO's AI SEO Content Writer transforms the content creation pipeline from a ser
 - **Growth Managers**: Compound organic traffic growth without proportional headcount growth
 - **Startup Founders**: Compete with established players' content libraries on a fraction of the budget
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Complete SEO Article from Keyword**
 ```
@@ -376,16 +378,13 @@ For each page provide:
 - Estimated CTR improvement potential (Low/Medium/High)
 ```
 
----
+:::
 
----
+## 3. AI Social Media Manager
 
-# Use Case #011: AI Social Media Manager
+> One input, all platforms. 3 hours/day social media ops reduced to 15 minutes.
 
-**Role**: Social Media Manager / Content Creator / Marketing Coordinator | **Industry**: Any B2B/B2C, SaaS, E-commerce, D2C, Agencies | **Task**: Social Media Content Creation, Scheduling, Cross-Platform Management, Engagement Optimization
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Social Media Demands Infinite Content Across Incompatible Platforms**
 
@@ -432,6 +431,10 @@ COCO's AI Social Media Manager acts as a force multiplier for social media teams
    - Audience growth trends and engagement pattern changes
    - Recommendations for next cycle's content strategy
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Content output**: 2.8x increase (15 to 42 posts/week)
@@ -448,9 +451,9 @@ COCO's AI Social Media Manager acts as a force multiplier for social media teams
 - **Small Business Owners**: Professional social media presence without a dedicated team
 - **Agency Teams**: Scale client social accounts without proportional staff increases
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Multi-Platform Content Generation from Blog Post**
 ```
@@ -556,16 +559,13 @@ For each, rate:
 Only suggest participation if relevance is 6+ and risk is low-medium.
 ```
 
----
+:::
 
----
+## 4. AI Ad Copy Generator
 
-# Use Case #012: AI Ad Copy Generator
+> Generates 200 A/B ad copy variants in 10 minutes with data-driven optimization.
 
-**Role**: Performance Marketer / Paid Media Specialist / Growth Manager | **Industry**: SaaS, E-commerce, D2C, Fintech, B2B | **Task**: Ad Copywriting, A/B Testing Variations, Multi-Platform Ad Creation, Creative Optimization
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: The Ad Copy Volume Problem**
 
@@ -620,6 +620,10 @@ COCO's AI Ad Copy Generator is built specifically for performance marketing, und
    - Sets accurate expectations (reducing bounce rate from message mismatch)
    - Suggests landing page improvements to match high-performing ad angles
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Ad copy production**: 15x faster (from 4 hours to 15 minutes per ad group)
@@ -636,9 +640,9 @@ COCO's AI Ad Copy Generator is built specifically for performance marketing, und
 - **Growth Teams**: Test more angles faster, find winning messages sooner
 - **E-commerce Brands**: Generate product-specific ad copy across hundreds of SKUs
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Google Responsive Search Ad Generation**
 ```
@@ -758,16 +762,13 @@ For each localized version:
 - Suggest local trust signals to add (local payment methods, local social proof, etc.)
 ```
 
----
+:::
 
----
+## 5. AI Newsletter Curator
 
-# Use Case #013: AI Newsletter Curator
+> Auto-curates industry news. 5 hours/week manual curation becomes 30 minutes.
 
-**Role**: Content Marketer / Email Marketer / Editor | **Industry**: SaaS, Media, B2B Services, Professional Communities | **Task**: Newsletter Content Curation, Email Copywriting, Audience Segmentation, Engagement Optimization
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Newsletter Production Is a Weekly Time Sink with Diminishing Returns**
 
@@ -820,6 +821,10 @@ COCO's AI Newsletter Curator automates the labor-intensive parts of newsletter p
    - Content length preferences (short summaries vs. detailed analysis)
    - Unsubscribe triggers to avoid
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Production time**: From 6-8 hours to 75 minutes per issue (82% reduction)
@@ -836,9 +841,9 @@ COCO's AI Newsletter Curator automates the labor-intensive parts of newsletter p
 - **Community Managers**: High-quality, consistent touchpoint with the community
 - **Executives**: Company newsletter becomes a genuine thought leadership asset
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Weekly Newsletter Content Curation**
 ```
@@ -903,16 +908,13 @@ For each segment, generate:
 - Segment-specific CTA
 ```
 
----
+:::
 
----
+## 6. AI Competitive Copywriter
 
-# Use Case #014: AI Competitive Copywriter
+> Real-time competitive tracking. 2 days of research becomes 1 hour of automated insights.
 
-**Role**: Marketing Strategist / Brand Manager / Competitive Intelligence Analyst | **Industry**: SaaS, Technology, E-commerce, B2B Services | **Task**: Competitive Analysis, Differentiation Messaging, Battle Card Creation, Win/Loss Analysis
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Your Competitive Messaging Is Always Out of Date**
 
@@ -967,6 +969,10 @@ COCO's AI Competitive Copywriter closes the gap between competitive intelligence
    - Customer evidence backs up positioning claims
    - Compliance with advertising standards for comparative claims
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Competitive win rate**: From 34% to 52% (+53% improvement)
@@ -983,9 +989,9 @@ COCO's AI Competitive Copywriter closes the gap between competitive intelligence
 - **Marketing Leaders**: Faster, more coordinated competitive response
 - **Competitive Intelligence Teams**: Analysis translated into action faster
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Competitive Battle Card Generation**
 ```
@@ -1071,16 +1077,13 @@ Analyze:
 6. Top 3 actionable recommendations to improve win rate next quarter
 ```
 
----
+:::
 
----
+## 7. AI Proposal Generator
 
-# Use Case #017: AI Proposal Generator
+> Generates customized proposals in 15 minutes, auto-matched to client needs.
 
-**Role**: Account Executive / Sales Engineer / Business Development | **Industry**: B2B SaaS, Consulting, Professional Services, Enterprise Sales | **Task**: Sales Proposal Creation, RFP Response, SOW Drafting, Custom Pricing Packages
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Proposals Are High-Stakes Documents Built Under Impossible Time Pressure**
 
@@ -1130,6 +1133,10 @@ COCO's AI Proposal Generator creates customized, professional proposals from you
    - Professional charts and diagrams
    - Export to PDF, PowerPoint, or Google Slides
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Proposal creation time**: From 12 hours to 2.5 hours (79% reduction)
@@ -1146,9 +1153,9 @@ COCO's AI Proposal Generator creates customized, professional proposals from you
 - **Sales Leaders**: Consistent proposal quality across the team; faster competitive response
 - **Customers**: Receive relevant, detailed proposals that actually address their needs
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Complete Sales Proposal Draft**
 ```
@@ -1237,16 +1244,17 @@ Write a response that:
 Max length: [X words or X pages]
 ```
 
----
+:::
 
----
+## 8. AI Follow-up Writer
 
-# Use Case #018: AI Follow-up Writer
+> Generates personalized follow-up emails in 2 minutes, based on meeting context.
 
-**Role**: Account Executive / SDR / Customer Success | **Industry**: B2B SaaS, Professional Services, Enterprise Sales | **Task**: Follow-up Email Writing, Meeting Recap, Nurture Sequences, Re-engagement Campaigns
+<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/smart-email-video.mp4" type="video/mp4">
+</video>
 
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: The Follow-Up Gap Is Where Revenue Goes to Die**
 
@@ -1300,6 +1308,10 @@ COCO's AI Follow-up Writer ensures no deal falls through the cracks by generatin
    - Avoids over-following-up (spacing and frequency rules)
    - Escalation triggers when follow-ups consistently go unanswered
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Follow-up adherence**: From 56% to 94% (+68% improvement)
@@ -1316,9 +1328,9 @@ COCO's AI Follow-up Writer ensures no deal falls through the cracks by generatin
 - **Sales Managers**: Consistent follow-up execution across the team
 - **Revenue Operations**: Measurable improvement in pipeline velocity and conversion rates
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Post-Meeting Follow-up Email**
 ```
@@ -1403,22 +1415,13 @@ For each stakeholder, generate a personalized follow-up email that:
 Each email should feel like it was written individually, not like 3 versions of the same template.
 ```
 
----
+:::
 
-**Demo Video:**
+## 9. AI Knowledge Base Builder
 
-<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 1rem 0;">
-  <source src="/videos/en/smart-email-video.mp4" type="video/mp4">
-</video>
+> Generates 50 knowledge base articles in 1 hour, auto-extracted from tickets and conversations.
 
----
-
-# Use Case #022: AI Knowledge Base Builder
-
-**Role**: Support Lead / Technical Writer / Knowledge Manager | **Industry**: SaaS, Technology, E-commerce, Any Company with Customer Support | **Task**: Knowledge Base Creation, Article Writing, Content Gap Analysis, Self-Service Optimization
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Knowledge Bases That Don't Actually Help Anyone**
 
@@ -1471,6 +1474,10 @@ COCO's AI Knowledge Base Builder transforms resolved support tickets into publis
    - Search terms with no results (content gaps)
    - Ticket-to-article correlation (which articles actually prevent tickets)
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **KB article coverage**: From 340 (127 outdated) to 520 (all current)
@@ -1488,9 +1495,9 @@ COCO's AI Knowledge Base Builder transforms resolved support tickets into publis
 - **Technical Writers**: Shift from writer to editor; higher-impact work
 - **Support Leaders**: Lower cost per resolution; better CSAT; scalable support
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Generate KB Article from Resolved Tickets**
 ```
@@ -1560,16 +1567,13 @@ Rewrite the article with:
 Compare the original and rewrite, noting specific improvements.
 ```
 
----
+:::
 
----
+## 10. AI Multi-Language Support
 
-# Use Case #023: AI Multi-Language Support
+> One AI agent supports 15+ languages, replacing 5 translators.
 
-**Role**: Support Manager / Customer Success / Global Operations | **Industry**: SaaS, E-commerce, Gaming, Fintech, Any Global Company | **Task**: Multi-Language Customer Support, Real-Time Translation, Localized Response Generation
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Global Expansion Requires Support in Languages You Don't Speak**
 
@@ -1621,6 +1625,10 @@ COCO's AI Multi-Language Support provides native-quality multilingual customer s
    - Cultural review flags (content that might be culturally inappropriate in the target language)
    - Agent feedback loop (agents who speak the language can rate and correct translations)
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Languages supported**: 14 languages with consistent quality
@@ -1637,9 +1645,9 @@ COCO's AI Multi-Language Support provides native-quality multilingual customer s
 - **Support Leaders**: Scale global support without proportional headcount per language
 - **Business Leaders**: Expand into new markets faster with support readiness from day one
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Translate and Respond to Foreign Language Ticket**
 ```
@@ -1713,16 +1721,13 @@ Important:
 - Flag any template where the approach should differ culturally
 ```
 
----
+:::
 
----
+## 11. AI Job Description Writer
 
-# Use Case #026: AI Job Description Writer
+> Generates bias-free, SEO-optimized job descriptions in 10 minutes.
 
-**Role**: Recruiter / Hiring Manager / HR Business Partner | **Industry**: Any Industry | **Task**: Job Description Writing, Inclusive Language Optimization, Compensation Benchmarking, Employer Brand Messaging
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Bad Job Descriptions Are Invisible Pipeline Killers**
 
@@ -1774,6 +1779,10 @@ COCO's AI Job Description Writer creates compelling, inclusive, and effective jo
    - Demographic diversity of applicants
    - Time-to-fill compared to previous versions
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Application volume**: +64% increase
@@ -1790,9 +1799,9 @@ COCO's AI Job Description Writer creates compelling, inclusive, and effective jo
 - **Candidates**: Understand the role, impact, and requirements clearly
 - **D&I Leaders**: More inclusive language attracts more diverse candidate pools
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Write a Job Description**
 ```
@@ -1881,5 +1890,5 @@ Research and provide:
 Include data sources and note any limitations in the benchmarking.
 ```
 
----
+:::
 

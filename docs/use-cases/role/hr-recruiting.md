@@ -1,15 +1,12 @@
-# HR & Recruiting Use Cases
+# HR & Recruiting
 
-AI-powered use cases for HR teams, recruiters, and people operations.
+AI-powered use cases for HR, recruiters, and people operations.
 
----
+## 1. AI Resume Screener
 
-# Use Case #025: AI Resume Screener
+> Screens 500 resumes in 2 hours, replacing 3 days of manual screening.
 
-**Role**: Recruiter / Talent Acquisition / HR Manager | **Industry**: Any Industry with Hiring Needs | **Task**: Resume Screening, Candidate Shortlisting, Skills Assessment, Bias Reduction
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Resume Screening Is a Volume Problem That Destroys Quality**
 
@@ -61,6 +58,10 @@ COCO's AI Resume Screener performs deep, consistent analysis of every applicatio
    - Overqualified candidates who might be interested for specific reasons
    - Internal candidates who match but haven't applied
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Screening time**: From 56 hours to 23 minutes per role (99.3% reduction)
@@ -77,9 +78,9 @@ COCO's AI Resume Screener performs deep, consistent analysis of every applicatio
 - **Candidates**: Fair evaluation based on actual qualifications, not keyword optimization
 - **HR Leaders**: Faster, more consistent, and more equitable hiring process
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Screen Resumes Against Job Requirements**
 ```
@@ -149,16 +150,13 @@ Create a comparison matrix including:
 8. Questions for reference checks tailored to each candidate's risk areas
 ```
 
----
+:::
 
----
+## 2. AI Job Description Writer
 
-# Use Case #026: AI Job Description Writer
+> Generates bias-free, SEO-optimized job descriptions in 10 minutes.
 
-**Role**: Recruiter / Hiring Manager / HR Business Partner | **Industry**: Any Industry | **Task**: Job Description Writing, Inclusive Language Optimization, Compensation Benchmarking, Employer Brand Messaging
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Bad Job Descriptions Are Invisible Pipeline Killers**
 
@@ -210,6 +208,10 @@ COCO's AI Job Description Writer creates compelling, inclusive, and effective jo
    - Demographic diversity of applicants
    - Time-to-fill compared to previous versions
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Application volume**: +64% increase
@@ -226,9 +228,9 @@ COCO's AI Job Description Writer creates compelling, inclusive, and effective jo
 - **Candidates**: Understand the role, impact, and requirements clearly
 - **D&I Leaders**: More inclusive language attracts more diverse candidate pools
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Write a Job Description**
 ```
@@ -317,16 +319,13 @@ Research and provide:
 Include data sources and note any limitations in the benchmarking.
 ```
 
----
+:::
 
----
+## 3. AI Interview Scheduler
 
-# Use Case #027: AI Interview Scheduler
+> Schedules interviews in 3 minutes, auto-coordinating multiple calendars.
 
-**Role**: Recruiting Coordinator / Talent Operations / HR | **Industry**: Any Industry with High Hiring Volume | **Task**: Interview Scheduling, Calendar Coordination, Candidate Communication, Interview Loop Management
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Interview Scheduling Is the Silent Killer of Recruiting Speed**
 
@@ -379,6 +378,10 @@ COCO's AI Interview Scheduler automates the entire scheduling workflow from init
    - Cancellation and reschedule rates by interviewer
    - Correlation between scheduling speed and offer acceptance rates
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Scheduling time per loop**: From 45 minutes to 3 minutes (93% reduction)
@@ -397,9 +400,9 @@ COCO's AI Interview Scheduler automates the entire scheduling workflow from init
 - **Hiring Managers**: Faster pipeline velocity means roles filled sooner
 - **TA Leaders**: Better metrics on scheduling efficiency and its impact on hiring outcomes
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Design Interview Loop Schedule**
 ```
@@ -469,16 +472,13 @@ Analyze:
 Provide actionable recommendations for the next quarter.
 ```
 
----
+:::
 
----
+## 4. AI Onboarding Assistant
 
-# Use Case #028: AI Onboarding Assistant
+> New hire fully onboarded in 3 days instead of 2 weeks.
 
-**Role**: HR Manager / People Ops / Hiring Manager | **Industry**: Any Industry | **Task**: Employee Onboarding, Day-1 Readiness, 30/60/90 Day Planning, New Hire Experience
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Broken Onboarding Costs You Employees Before They Start Contributing**
 
@@ -531,6 +531,10 @@ COCO's AI Onboarding Assistant orchestrates the entire onboarding experience fro
    - Day 90: "Would you recommend our company? What would you change about onboarding?"
    - Results aggregated for continuous improvement of the onboarding program
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **New hire satisfaction (30-day)**: From 62% to 91%
@@ -549,9 +553,9 @@ COCO's AI Onboarding Assistant orchestrates the entire onboarding experience fro
 - **IT/Facilities**: Clear task assignments with deadlines instead of last-minute fire drills
 - **Leadership**: Lower early turnover; faster time-to-productivity; better employer brand
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Generate 30/60/90 Day Onboarding Plan**
 ```
@@ -640,5 +644,5 @@ Build a checklist organized by responsible team and timeline:
 For each task: responsible person, deadline, dependencies, and verification that it's done.
 ```
 
----
+:::
 

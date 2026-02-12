@@ -1,15 +1,12 @@
-# Content & Marketing Use Cases
+# Content & Marketing
 
 AI-powered use cases for content creators, marketing teams, and brand managers.
 
----
+## 1. AI SEO Content Writer
 
-# Use Case #010: AI SEO Content Writer
+> Produces an SEO-optimized article in 20 minutes, from keyword research to final draft.
 
-**Role**: Content Marketer / SEO Specialist / Growth Manager | **Industry**: SaaS, E-commerce, B2B, Media, Any Online Business | **Task**: SEO Article Creation, Keyword Optimization, Content Strategy Execution
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: The SEO Content Arms Race Is Unwinnable at Human Speed**
 
@@ -65,6 +62,10 @@ COCO's AI SEO Content Writer transforms the content creation pipeline from a ser
    - Content refresh schedules for aging articles
    - Competitive content gap analysis at the domain level
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Content production**: From 2 articles/week to 12+ articles/week (6x increase)
@@ -81,9 +82,9 @@ COCO's AI SEO Content Writer transforms the content creation pipeline from a ser
 - **Growth Managers**: Compound organic traffic growth without proportional headcount growth
 - **Startup Founders**: Compete with established players' content libraries on a fraction of the budget
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Complete SEO Article from Keyword**
 ```
@@ -198,16 +199,13 @@ For each page provide:
 - Estimated CTR improvement potential (Low/Medium/High)
 ```
 
----
+:::
 
----
+## 2. AI Social Media Manager
 
-# Use Case #011: AI Social Media Manager
+> One input, all platforms. 3 hours/day social media ops reduced to 15 minutes.
 
-**Role**: Social Media Manager / Content Creator / Marketing Coordinator | **Industry**: Any B2B/B2C, SaaS, E-commerce, D2C, Agencies | **Task**: Social Media Content Creation, Scheduling, Cross-Platform Management, Engagement Optimization
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Social Media Demands Infinite Content Across Incompatible Platforms**
 
@@ -254,6 +252,10 @@ COCO's AI Social Media Manager acts as a force multiplier for social media teams
    - Audience growth trends and engagement pattern changes
    - Recommendations for next cycle's content strategy
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Content output**: 2.8x increase (15 to 42 posts/week)
@@ -270,9 +272,9 @@ COCO's AI Social Media Manager acts as a force multiplier for social media teams
 - **Small Business Owners**: Professional social media presence without a dedicated team
 - **Agency Teams**: Scale client social accounts without proportional staff increases
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Multi-Platform Content Generation from Blog Post**
 ```
@@ -378,16 +380,13 @@ For each, rate:
 Only suggest participation if relevance is 6+ and risk is low-medium.
 ```
 
----
+:::
 
----
+## 3. AI Ad Copy Generator
 
-# Use Case #012: AI Ad Copy Generator
+> Generates 200 A/B ad copy variants in 10 minutes with data-driven optimization.
 
-**Role**: Performance Marketer / Paid Media Specialist / Growth Manager | **Industry**: SaaS, E-commerce, D2C, Fintech, B2B | **Task**: Ad Copywriting, A/B Testing Variations, Multi-Platform Ad Creation, Creative Optimization
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: The Ad Copy Volume Problem**
 
@@ -442,6 +441,10 @@ COCO's AI Ad Copy Generator is built specifically for performance marketing, und
    - Sets accurate expectations (reducing bounce rate from message mismatch)
    - Suggests landing page improvements to match high-performing ad angles
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Ad copy production**: 15x faster (from 4 hours to 15 minutes per ad group)
@@ -458,9 +461,9 @@ COCO's AI Ad Copy Generator is built specifically for performance marketing, und
 - **Growth Teams**: Test more angles faster, find winning messages sooner
 - **E-commerce Brands**: Generate product-specific ad copy across hundreds of SKUs
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Google Responsive Search Ad Generation**
 ```
@@ -580,16 +583,13 @@ For each localized version:
 - Suggest local trust signals to add (local payment methods, local social proof, etc.)
 ```
 
----
+:::
 
----
+## 4. AI Newsletter Curator
 
-# Use Case #013: AI Newsletter Curator
+> Auto-curates industry news. 5 hours/week manual curation becomes 30 minutes.
 
-**Role**: Content Marketer / Email Marketer / Editor | **Industry**: SaaS, Media, B2B Services, Professional Communities | **Task**: Newsletter Content Curation, Email Copywriting, Audience Segmentation, Engagement Optimization
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Newsletter Production Is a Weekly Time Sink with Diminishing Returns**
 
@@ -642,6 +642,10 @@ COCO's AI Newsletter Curator automates the labor-intensive parts of newsletter p
    - Content length preferences (short summaries vs. detailed analysis)
    - Unsubscribe triggers to avoid
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Production time**: From 6-8 hours to 75 minutes per issue (82% reduction)
@@ -658,9 +662,9 @@ COCO's AI Newsletter Curator automates the labor-intensive parts of newsletter p
 - **Community Managers**: High-quality, consistent touchpoint with the community
 - **Executives**: Company newsletter becomes a genuine thought leadership asset
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Weekly Newsletter Content Curation**
 ```
@@ -725,16 +729,13 @@ For each segment, generate:
 - Segment-specific CTA
 ```
 
----
+:::
 
----
+## 5. AI Competitive Copywriter
 
-# Use Case #014: AI Competitive Copywriter
+> Real-time competitive tracking. 2 days of research becomes 1 hour of automated insights.
 
-**Role**: Marketing Strategist / Brand Manager / Competitive Intelligence Analyst | **Industry**: SaaS, Technology, E-commerce, B2B Services | **Task**: Competitive Analysis, Differentiation Messaging, Battle Card Creation, Win/Loss Analysis
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Your Competitive Messaging Is Always Out of Date**
 
@@ -789,6 +790,10 @@ COCO's AI Competitive Copywriter closes the gap between competitive intelligence
    - Customer evidence backs up positioning claims
    - Compliance with advertising standards for comparative claims
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Competitive win rate**: From 34% to 52% (+53% improvement)
@@ -805,9 +810,9 @@ COCO's AI Competitive Copywriter closes the gap between competitive intelligence
 - **Marketing Leaders**: Faster, more coordinated competitive response
 - **Competitive Intelligence Teams**: Analysis translated into action faster
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Competitive Battle Card Generation**
 ```
@@ -893,5 +898,5 @@ Analyze:
 6. Top 3 actionable recommendations to improve win rate next quarter
 ```
 
----
+:::
 

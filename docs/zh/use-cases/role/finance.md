@@ -1,15 +1,12 @@
-# 财务用例
+# 财务
 
 AI驱动的财务团队、会计师和财务分析师用例。
 
----
+## 1. AI费用审计
 
-# Use Case #029: AI Expense Auditor
+> 费用报告即时审核，合规自动通过，异常自动标记。
 
-**Role**: Finance Manager / Controller / Compliance Officer | **Industry**: Any Enterprise, Professional Services, Consulting, Government | **Task**: Expense Report Auditing, Policy Compliance, Fraud Detection, Reimbursement Processing
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：手动报销审核缓慢、不完整且昂贵**
 
@@ -60,6 +57,10 @@ COCO的AI Expense Auditor提供100%的审计覆盖和一致的政策执行。
    - 部门级别的支出模式和预算影响
    - 基于常见边缘案例的政策更新建议
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **政策违规检测**：从60%升至97%
@@ -78,11 +79,9 @@ COCO的AI Expense Auditor提供100%的审计覆盖和一致的政策执行。
 - **CFO**：欺诈风险实质性降低；更好的支出可见性；更清洁的财务
 - **合规官**：100%审计覆盖满足监管和内部审计要求
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 审核报销单**
 ```
@@ -151,16 +150,13 @@ COCO的AI Expense Auditor提供100%的审计覆盖和一致的政策执行。
 提供带跟踪变更的修订政策草案以及每个更新的理由。
 ```
 
----
+:::
 
----
+## 2. AI财务报告生成
 
-# Use Case #030: AI Financial Report Generator
+> 3小时生成多源数据对账的财务报告，替代2天人工。
 
-**Role**: FP&A Analyst / Finance Manager / Controller / CFO | **Industry**: Any Enterprise, SaaS, Manufacturing, Professional Services | **Task**: Financial Report Generation, Variance Analysis, Budget Forecasting, Board Deck Preparation
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：FP&A团队是报告工厂，而非战略顾问**
 
@@ -184,6 +180,10 @@ COCO的AI Financial Report Generator自动化数据组装、计算和叙事生�
 
 6. **异常检测**：标记财务数据中的异常模式：意外的账户余额变化、显著超出/低于预算的明细项、以及偏离历史模式的趋势。
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **报告产出时间**：从每个月末周期3天降至4小时
@@ -201,11 +201,9 @@ COCO的AI Financial Report Generator自动化数据组装、计算和叙事生�
 - **部门主管**：更快收到预算差异解释；可以更早进行航向纠正
 - **审计师**：一致的、文档化良好的财务报告减少审计准备时间
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 生成月度财务摘要**
 ```
@@ -284,16 +282,13 @@ COCO的AI Financial Report Generator自动化数据组装、计算和叙事生�
 - 建议的重新预测调整
 ```
 
----
+:::
 
----
+## 3. AI发票处理
 
-# Use Case #031: AI Invoice Processor
+> 30秒处理一张发票：提取、匹配、路由全自动。
 
-**Role**: Accounts Payable Clerk / AP Manager / Finance Operations | **Industry**: Any Enterprise, Manufacturing, Retail, Healthcare | **Task**: Invoice Processing, PO Matching, Payment Scheduling, AP Automation
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：AP是财务中劳动最密集的职能**
 
@@ -350,6 +345,10 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
    - 基于关系重要性和条款优先排序供应商付款
    - 为现金流规划预测即将到来的付款义务
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **每张发票处理时间**：从14分钟降至45秒（减少95%）
@@ -370,11 +369,9 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 - **供应商**：更快、更准确的付款改善业务关系
 - **采购**：更好的PO合规跟踪；供应商绩效数据
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 发票数据提取**
 ```
@@ -446,5 +443,5 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 提供优先级排序的90天改进路线图。
 ```
 
----
+:::
 

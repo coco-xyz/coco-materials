@@ -1,15 +1,12 @@
-# 数据分析用例
+# 数据分析
 
 AI驱动的数据分析、报告、审计和财务智能用例。
 
----
+## 1. AI客户调研简报
 
-# Use Case #019: AI Client Research Brief
+> 8分钟生成客户会议简报，多源情报汇聚，高管画像深入。
 
-**Role**: Account Executive / Strategic Sales / Client Partner | **Industry**: Enterprise Sales, Consulting, Professional Services, B2B | **Task**: Pre-Meeting Research, Account Planning, Client Intelligence, Executive Briefing
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：不充分的会前准备比你意识到的代价更大**
 
@@ -60,6 +57,10 @@ COCO的AI Client Research Brief在几分钟内为每次客户会议提供全面�
    - **高管发起人会议**：战略对齐、财务指标、业务成果
    - **续约/扩展**：账户健康、使用模式、已实现的ROI、增长机会
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **会前准备时间**：从2-3小时降至8分钟（减少95%）
@@ -75,11 +76,9 @@ COCO的AI Client Research Brief在几分钟内为每次客户会议提供全面�
 - **销售领导者**：团队一致的高质量客户互动
 - **售前团队**：技术对话基于客户的实际架构和优先级
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 高管会议准备简报**
 ```
@@ -145,16 +144,13 @@ COCO的AI Client Research Brief在几分钟内为每次客户会议提供全面�
 写得对话化——我想听起来像是了解行情，而不是像在念报告。
 ```
 
----
+:::
 
----
+## 2. AI报价计算
 
-# Use Case #020: AI Quote Calculator
+> 10分钟完成复杂报价计算，自动匹配折扣规则和审批流程。
 
-**Role**: Sales Rep / Sales Operations / Revenue Operations | **Industry**: SaaS, Manufacturing, Professional Services, Enterprise | **Task**: Quote Generation, Pricing Configuration, Discount Approval, Deal Structuring
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：复杂定价拖慢你最快的交易**
 
@@ -207,6 +203,10 @@ COCO的AI Quote Calculator将报价流程从手动、易出错的工作流转变
    - 报价到签约时间分析
    - 基于赢单/丢单数据的定价优化建议
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **报价生成时间**：从45分钟降至4分钟（减少91%）
@@ -223,11 +223,9 @@ COCO的AI Quote Calculator将报价流程从手动、易出错的工作流转变
 - **财务/收入运营**：准确的定价、一致的利润保护、干净的交易数据
 - **客户**：快速、专业的报价，显示你珍视他们的时间
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 生成销售报价**
 ```
@@ -303,16 +301,13 @@ COCO的AI Quote Calculator将报价流程从手动、易出错的工作流转变
 格式化为干净的、面向客户的文档。
 ```
 
----
+:::
 
----
+## 3. AI简历筛选
 
-# Use Case #025: AI Resume Screener
+> 2小时筛选500份简历，替代3天人工筛选。
 
-**Role**: Recruiter / Talent Acquisition / HR Manager | **Industry**: Any Industry with Hiring Needs | **Task**: Resume Screening, Candidate Shortlisting, Skills Assessment, Bias Reduction
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：简历筛选是一个摧毁质量的数量问题**
 
@@ -364,6 +359,10 @@ COCO的AI Resume Screener对每份申请进行深度、一致的分析，对照�
    - 可能因特定原因感兴趣的过度资质候选人
    - 匹配但未申请的内部候选人
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **筛选时间**：每个职位从56小时降至23分钟（减少99.3%）
@@ -377,7 +376,9 @@ COCO的AI Resume Screener对每份申请进行深度、一致的分析，对照�
 
 ---
 
-## 实用提示词
+:::
+
+::: details 实用提示词
 
 **提示词 1: 按职位要求筛选简历**
 ```
@@ -447,16 +448,13 @@ COCO的AI Resume Screener对每份申请进行深度、一致的分析，对照�
 8. 针对每个候选人风险领域的背景调查问题
 ```
 
----
+:::
 
----
+## 4. AI费用审计
 
-# Use Case #029: AI Expense Auditor
+> 费用报告即时审核，合规自动通过，异常自动标记。
 
-**Role**: Finance Manager / Controller / Compliance Officer | **Industry**: Any Enterprise, Professional Services, Consulting, Government | **Task**: Expense Report Auditing, Policy Compliance, Fraud Detection, Reimbursement Processing
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：手动报销审核缓慢、不完整且昂贵**
 
@@ -507,6 +505,10 @@ COCO的AI Expense Auditor提供100%的审计覆盖和一致的政策执行。
    - 部门级别的支出模式和预算影响
    - 基于常见边缘案例的政策更新建议
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **政策违规检测**：从60%升至97%
@@ -525,11 +527,9 @@ COCO的AI Expense Auditor提供100%的审计覆盖和一致的政策执行。
 - **CFO**：欺诈风险实质性降低；更好的支出可见性；更清洁的财务
 - **合规官**：100%审计覆盖满足监管和内部审计要求
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 审核报销单**
 ```
@@ -598,16 +598,13 @@ COCO的AI Expense Auditor提供100%的审计覆盖和一致的政策执行。
 提供带跟踪变更的修订政策草案以及每个更新的理由。
 ```
 
----
+:::
 
----
+## 5. AI财务报告生成
 
-# Use Case #030: AI Financial Report Generator
+> 3小时生成多源数据对账的财务报告，替代2天人工。
 
-**Role**: FP&A Analyst / Finance Manager / Controller / CFO | **Industry**: Any Enterprise, SaaS, Manufacturing, Professional Services | **Task**: Financial Report Generation, Variance Analysis, Budget Forecasting, Board Deck Preparation
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：FP&A团队是报告工厂，而非战略顾问**
 
@@ -631,6 +628,10 @@ COCO的AI Financial Report Generator自动化数据组装、计算和叙事生�
 
 6. **异常检测**：标记财务数据中的异常模式：意外的账户余额变化、显著超出/低于预算的明细项、以及偏离历史模式的趋势。
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **报告产出时间**：从每个月末周期3天降至4小时
@@ -648,11 +649,9 @@ COCO的AI Financial Report Generator自动化数据组装、计算和叙事生�
 - **部门主管**：更快收到预算差异解释；可以更早进行航向纠正
 - **审计师**：一致的、文档化良好的财务报告减少审计准备时间
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 生成月度财务摘要**
 ```
@@ -731,16 +730,13 @@ COCO的AI Financial Report Generator自动化数据组装、计算和叙事生�
 - 建议的重新预测调整
 ```
 
----
+:::
 
----
+## 6. AI库存预测
 
-# Use Case #033: AI Inventory Forecaster
+> 实时库存预测，替代每周手动盘点，减少滞销和缺货。
 
-**Role**: Supply Chain Manager / Demand Planner / Operations Director | **Industry**: E-commerce, Retail, Manufacturing, Distribution, CPG | **Task**: Demand Forecasting, Inventory Optimization, Stockout Prevention, Overstock Reduction
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：用电子表格做库存预测在缺货和积压上损失数百万**
 
@@ -795,6 +791,10 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
    - "如果我们扩展到3个新的地理市场会怎样？"
    - 帮助领导层做出考虑库存的商业决策
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **缺货减少**：缺货事件减少67%
@@ -815,11 +815,9 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
 - **仓库/物流**：更可预测的入库量；更好的空间和劳动力规划
 - **客户**：更好的产品可用性；更少的延期交货和取消
 
----
+:::
 
----
-
-## 实用提示词
+::: details 实用提示词
 
 **提示词 1: 生成需求预测**
 ```
@@ -884,16 +882,13 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
 - 给销售/市场团队的沟通计划
 ```
 
----
+:::
 
----
+## 7. AI供应商评估
 
-# Use Case #034: AI Vendor Evaluator
+> 2小时完成供应商评估排名，替代1周人工调研。
 
-**Role**: Procurement Manager / Operations Director / Vendor Management | **Industry**: Any Enterprise, Manufacturing, Retail, Technology | **Task**: Vendor Evaluation, RFP Analysis, Contract Comparison, Vendor Risk Assessment
-
----
-## 详细介绍
+::: details 痛点与解决方案
 
 **痛点：供应商评估缓慢、主观且有风险**
 
@@ -909,6 +904,10 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 （完整中文版涵盖所有6个解决方案要点）
 
+:::
+
+::: details 量化结果与受益角色
+
 **可量化的结果**
 
 - **评估时间**：每次供应商选择从50小时降至8小时（减少84%）
@@ -922,7 +921,9 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 ---
 
-## 实用提示词
+:::
+
+::: details 实用提示词
 
 **提示词 1: 生成供应商评估记分卡**
 ```
@@ -1022,5 +1023,5 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 总体风险评分（0-100）附理由，以及每个高风险领域的建议缓解措施。
 ```
 
----
+:::
 

@@ -1,15 +1,12 @@
-# Research & Monitoring Use Cases
+# Research & Monitoring
 
-AI use cases for market research, competitive intelligence, monitoring, and trend tracking.
+AI use cases for market research, competitive intelligence, and monitoring.
 
----
+## 1. AI Newsletter Curator
 
-# Use Case #013: AI Newsletter Curator
+> Auto-curates industry news. 5 hours/week manual curation becomes 30 minutes.
 
-**Role**: Content Marketer / Email Marketer / Editor | **Industry**: SaaS, Media, B2B Services, Professional Communities | **Task**: Newsletter Content Curation, Email Copywriting, Audience Segmentation, Engagement Optimization
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Newsletter Production Is a Weekly Time Sink with Diminishing Returns**
 
@@ -62,6 +59,10 @@ COCO's AI Newsletter Curator automates the labor-intensive parts of newsletter p
    - Content length preferences (short summaries vs. detailed analysis)
    - Unsubscribe triggers to avoid
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Production time**: From 6-8 hours to 75 minutes per issue (82% reduction)
@@ -78,9 +79,9 @@ COCO's AI Newsletter Curator automates the labor-intensive parts of newsletter p
 - **Community Managers**: High-quality, consistent touchpoint with the community
 - **Executives**: Company newsletter becomes a genuine thought leadership asset
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Weekly Newsletter Content Curation**
 ```
@@ -145,16 +146,13 @@ For each segment, generate:
 - Segment-specific CTA
 ```
 
----
+:::
 
----
+## 2. AI Competitive Copywriter
 
-# Use Case #014: AI Competitive Copywriter
+> Real-time competitive tracking. 2 days of research becomes 1 hour of automated insights.
 
-**Role**: Marketing Strategist / Brand Manager / Competitive Intelligence Analyst | **Industry**: SaaS, Technology, E-commerce, B2B Services | **Task**: Competitive Analysis, Differentiation Messaging, Battle Card Creation, Win/Loss Analysis
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Your Competitive Messaging Is Always Out of Date**
 
@@ -209,6 +207,10 @@ COCO's AI Competitive Copywriter closes the gap between competitive intelligence
    - Customer evidence backs up positioning claims
    - Compliance with advertising standards for comparative claims
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Competitive win rate**: From 34% to 52% (+53% improvement)
@@ -225,9 +227,9 @@ COCO's AI Competitive Copywriter closes the gap between competitive intelligence
 - **Marketing Leaders**: Faster, more coordinated competitive response
 - **Competitive Intelligence Teams**: Analysis translated into action faster
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Competitive Battle Card Generation**
 ```
@@ -313,16 +315,13 @@ Analyze:
 6. Top 3 actionable recommendations to improve win rate next quarter
 ```
 
----
+:::
 
----
+## 3. AI Lead Researcher
 
-# Use Case #015: AI Lead Researcher
+> Researches 200 leads/day, auto-enriched from LinkedIn, Crunchbase, scored and ready.
 
-**Role**: SDR / BDR / Sales Development | **Industry**: B2B SaaS, Professional Services, Enterprise Sales, Fintech | **Task**: Prospect Research, Account Intelligence, Outreach Personalization, ICP Qualification
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: SDRs Spend More Time Researching Than Selling**
 
@@ -369,6 +368,10 @@ COCO's AI Lead Researcher automates the research and qualification process, deli
    - Recommended approach sequence (who to contact first, who to involve when)
    - Relationship paths through mutual connections
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Research time per lead**: From 45 minutes to 3 minutes (93% reduction)
@@ -385,9 +388,9 @@ COCO's AI Lead Researcher automates the research and qualification process, deli
 - **AEs**: Receive better-qualified, better-researched meetings from SDRs
 - **Revenue Operations**: More accurate pipeline data from better upfront qualification
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Comprehensive Prospect Research Brief**
 ```
@@ -490,16 +493,13 @@ For each lead, provide:
 - One-line personalization hook if qualified
 ```
 
----
+:::
 
----
+## 4. AI Client Research Brief
 
-# Use Case #019: AI Client Research Brief
+> Generates client meeting brief in 8 minutes: multi-source intel, executive profile deep-dive.
 
-**Role**: Account Executive / Strategic Sales / Client Partner | **Industry**: Enterprise Sales, Consulting, Professional Services, B2B | **Task**: Pre-Meeting Research, Account Planning, Client Intelligence, Executive Briefing
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Inadequate Meeting Prep Costs More Than You Realize**
 
@@ -550,6 +550,10 @@ COCO's AI Client Research Brief provides comprehensive, actionable intelligence 
    - **Executive sponsor meeting**: Strategic alignment, financial metrics, business outcomes
    - **Renewal/expansion**: Account health, usage patterns, ROI achieved, growth opportunities
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Meeting prep time**: From 2-3 hours to 8 minutes per meeting (95% reduction)
@@ -565,9 +569,9 @@ COCO's AI Client Research Brief provides comprehensive, actionable intelligence 
 - **Sales Leaders**: Consistent, high-quality client engagement across the team
 - **Pre-Sales Teams**: Technical conversations grounded in the client's actual architecture and priorities
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Executive Meeting Prep Brief**
 ```
@@ -633,16 +637,13 @@ Compile:
 Make this conversational -- I want to sound informed, not like I'm reading a report.
 ```
 
----
+:::
 
----
+## 5. AI VIP Escalation
 
-# Use Case #024: AI VIP Escalation
+> Auto-detects VIP customer anomalies. 30% missed issues drops to 0%.
 
-**Role**: Enterprise Support / Customer Success Manager / Support Operations | **Industry**: SaaS, Enterprise Software, Fintech, Healthcare | **Task**: VIP Customer Detection, Intelligent Escalation, Priority Queue Management, Churn Prevention
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Your Support System Can't Tell a $500K Customer from a Free Trial User**
 
@@ -694,6 +695,10 @@ COCO's AI VIP Escalation creates a smart layer that ensures high-value customers
    - Response drafted with executive-appropriate tone and detail level
    - Follow-up scheduled within 24 hours regardless of resolution
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **VIP first-response time**: 12 minutes (vs. 2 hours standard)
@@ -710,9 +715,9 @@ COCO's AI VIP Escalation creates a smart layer that ensures high-value customers
 - **Customer Success Managers**: Early warning on at-risk accounts; data for proactive outreach
 - **Revenue Leaders**: Protected enterprise revenue; higher renewal rates
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Build VIP Escalation Rules**
 ```
@@ -783,16 +788,13 @@ Write an email that:
 Tone: Senior, professional, genuine. This should sound like it comes from someone who genuinely cares about the relationship, not a PR template.
 ```
 
----
+:::
 
----
+## 6. AI Expense Auditor
 
-# Use Case #029: AI Expense Auditor
+> Instant expense report audit. Compliant: auto-approved. Anomalies: auto-flagged.
 
-**Role**: Finance Manager / Controller / Compliance Officer | **Industry**: Any Enterprise, Professional Services, Consulting, Government | **Task**: Expense Report Auditing, Policy Compliance, Fraud Detection, Reimbursement Processing
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Manual Expense Auditing Is Slow, Incomplete, and Expensive**
 
@@ -843,6 +845,10 @@ COCO's AI Expense Auditor provides 100% audit coverage with consistent policy en
    - Department-level spending patterns and budget impact
    - Recommendations for policy updates based on common edge cases
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Policy violation detection**: From 60% to 97%
@@ -861,9 +867,9 @@ COCO's AI Expense Auditor provides 100% audit coverage with consistent policy en
 - **CFO**: Material reduction in fraud risk; better spending visibility; cleaner financials
 - **Compliance Officers**: 100% audit coverage satisfies regulatory and internal audit requirements
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Audit Expense Report**
 ```
@@ -932,16 +938,13 @@ Analyze and provide:
 Provide a revised policy draft with tracked changes and rationale for each update.
 ```
 
----
+:::
 
----
+## 7. AI Inventory Forecaster
 
-# Use Case #033: AI Inventory Forecaster
+> Real-time inventory forecasting, replacing weekly manual stocktakes.
 
-**Role**: Supply Chain Manager / Demand Planner / Operations Director | **Industry**: E-commerce, Retail, Manufacturing, Distribution, CPG | **Task**: Demand Forecasting, Inventory Optimization, Stockout Prevention, Overstock Reduction
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Inventory Forecasting with Spreadsheets Costs Millions in Stockouts and Overstock**
 
@@ -996,6 +999,10 @@ COCO's AI Inventory Forecaster combines historical analysis with real-time signa
    - "What if we expand to 3 new geographic markets?"
    - Helps leadership make inventory-aware business decisions
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Stockout reduction**: 67% fewer stockout events
@@ -1016,9 +1023,9 @@ COCO's AI Inventory Forecaster combines historical analysis with real-time signa
 - **Warehouse/Logistics**: More predictable inbound volumes; better space and labor planning
 - **Customers**: Better product availability; fewer backorders and cancellations
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Generate Demand Forecast**
 ```
@@ -1083,16 +1090,13 @@ For each scenario:
 - Communication plan for sales/marketing teams
 ```
 
----
+:::
 
----
+## 8. AI Vendor Evaluator
 
-# Use Case #034: AI Vendor Evaluator
+> Vendor evaluation and ranking in 2 hours, replacing 1 week of manual research.
 
-**Role**: Procurement Manager / Operations Director / Vendor Management | **Industry**: Any Enterprise, Manufacturing, Retail, Technology | **Task**: Vendor Evaluation, RFP Analysis, Contract Comparison, Vendor Risk Assessment
-
----
-## Detailed Introduction
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Vendor Evaluation Is Slow, Subjective, and Risky**
 
@@ -1148,6 +1152,10 @@ COCO's AI Vendor Evaluator standardizes, accelerates, and deepens the vendor eva
    - Key person dependency
    - Technology platform maturity
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Evaluation time**: From 50 hours to 8 hours per vendor selection (84% reduction)
@@ -1165,9 +1173,9 @@ COCO's AI Vendor Evaluator standardizes, accelerates, and deepens the vendor eva
 - **Finance**: Better cost comparisons, fewer surprise cost escalations
 - **Leadership**: Confidence that vendor selections are data-driven, not politics-driven
 
----
+:::
 
-## Practical Prompts
+::: details Practical Prompts
 
 **Prompt 1: Generate Vendor Evaluation Scorecard**
 ```
@@ -1267,5 +1275,5 @@ Assess risk across dimensions:
 Overall risk score (0-100) with justification and recommended mitigation for each high-risk area.
 ```
 
----
+:::
 
