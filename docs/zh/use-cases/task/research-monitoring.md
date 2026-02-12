@@ -9,7 +9,7 @@ AI驱动的市场调研、竞品分析、监控和趋势追踪用例。
 ::: details 🎬 观看演示视频
 
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/013-ai-newsletter-curator.mp4" type="video/mp4">
+  <source src="/videos/cn/013-ai-newsletter-curator.mp4" type="video/mp4">
 </video>
 
 :::
@@ -163,7 +163,7 @@ COCO的AI Newsletter Curator自动化Newsletter制作中劳动密集的部分，
 ::: details 🎬 观看演示视频
 
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/014-ai-competitive-copywriter.mp4" type="video/mp4">
+  <source src="/videos/cn/014-ai-competitive-copywriter.mp4" type="video/mp4">
 </video>
 
 :::
@@ -340,7 +340,7 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 ::: details 🎬 观看演示视频
 
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/015-ai-lead-researcher.mp4" type="video/mp4">
+  <source src="/videos/cn/015-ai-lead-researcher.mp4" type="video/mp4">
 </video>
 
 :::
@@ -526,7 +526,7 @@ LinkedIn URL：[URL]
 ::: details 🎬 观看演示视频
 
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/019-ai-client-research-brief.mp4" type="video/mp4">
+  <source src="/videos/cn/019-ai-client-research-brief.mp4" type="video/mp4">
 </video>
 
 :::
@@ -678,7 +678,7 @@ COCO的AI Client Research Brief在几分钟内为每次客户会议提供全面�
 ::: details 🎬 观看演示视频
 
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/024-ai-vip-escalation.mp4" type="video/mp4">
+  <source src="/videos/cn/024-ai-vip-escalation.mp4" type="video/mp4">
 </video>
 
 :::
@@ -837,7 +837,7 @@ CSM：[姓名]
 ::: details 🎬 观看演示视频
 
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/029-ai-expense-auditor.mp4" type="video/mp4">
+  <source src="/videos/cn/029-ai-expense-auditor.mp4" type="video/mp4">
 </video>
 
 :::
@@ -995,7 +995,7 @@ COCO的AI Expense Auditor提供100%的审计覆盖和一致的政策执行。
 ::: details 🎬 观看演示视频
 
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/033-ai-inventory-forecaster.mp4" type="video/mp4">
+  <source src="/videos/cn/033-ai-inventory-forecaster.mp4" type="video/mp4">
 </video>
 
 :::
@@ -1155,7 +1155,7 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
 ::: details 🎬 观看演示视频
 
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/034-ai-vendor-evaluator.mp4" type="video/mp4">
+  <source src="/videos/cn/034-ai-vendor-evaluator.mp4" type="video/mp4">
 </video>
 
 :::

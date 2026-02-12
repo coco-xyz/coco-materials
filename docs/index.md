@@ -6,7 +6,7 @@ hero:
   tagline: "Use Cases, Resources & Documentation"
   actions:
     - theme: brand
-      text: Getting Started
+      text: Get Started
       link: /getting-started/
     - theme: alt
       text: Browse Use Cases
@@ -16,16 +16,20 @@ hero:
       link: https://coco.xyz
 
 features:
-  - title: Getting Started
-    details: Hire your first AI digital employee in minutes. Step-by-step tutorials for registration, payment, and channel deployment.
+  - icon: 🚀
+    title: Getting Started
+    details: Hire your first AI digital employee in minutes. Step-by-step guides for registration, payment, and channel deployment.
     link: /getting-started/
-  - title: Use Cases
-    details: 30+ real-world scenarios organized by Role, Industry, and Task. See how AI employees save time across every department.
+  - icon: 📋
+    title: 30+ Use Cases
+    details: Real-world scenarios by Role, Industry, and Task. From code review to financial reports — see measurable results.
     link: /use-cases/
-  - title: Social Media
-    details: Watch our promotional videos showcasing COCO AI employee capabilities in action.
+  - icon: 🎬
+    title: Social Media
+    details: Follow COCO on official channels for the latest updates. Find us on X, Telegram, TikTok, LinkedIn & more.
     link: /social-media/
-  - title: Case Studies
-    details: 8 core scenarios with real metrics — Code Review (4h to 15min), Resume Screening (3 days to 2h), and more.
+  - icon: 📊
+    title: Case Studies
+    details: 8 core scenarios benchmarked — Code review 4hrs→15min, resume screening 3days→2hrs. 5-10x efficiency gains.
     link: /case-studies/
 ---

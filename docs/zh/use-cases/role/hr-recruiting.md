@@ -9,7 +9,7 @@ AI驱动的HR团队、招聘人员和人力运营用例。
 ::: details 🎬 观看演示视频
 
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/025-ai-resume-screener.mp4" type="video/mp4">
+  <source src="/videos/cn/025-ai-resume-screener.mp4" type="video/mp4">
 </video>
 
 :::
@@ -164,7 +164,7 @@ COCO的AI Resume Screener对每份申请进行深度、一致的分析，对照�
 ::: details 🎬 观看演示视频
 
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/026-ai-job-description-writer.mp4" type="video/mp4">
+  <source src="/videos/cn/026-ai-job-description-writer.mp4" type="video/mp4">
 </video>
 
 :::
@@ -341,7 +341,7 @@ COCO的AI Job Description Writer创建引人注目的、包容的、高效的职
 ::: details 🎬 观看演示视频
 
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/027-ai-interview-scheduler.mp4" type="video/mp4">
+  <source src="/videos/cn/027-ai-interview-scheduler.mp4" type="video/mp4">
 </video>
 
 :::
@@ -501,7 +501,7 @@ COCO的AI Interview Scheduler自动化从初始可用性到确认的整个排期
 ::: details 🎬 观看演示视频
 
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/028-ai-onboarding-assistant.mp4" type="video/mp4">
+  <source src="/videos/cn/028-ai-onboarding-assistant.mp4" type="video/mp4">
 </video>
 
 :::

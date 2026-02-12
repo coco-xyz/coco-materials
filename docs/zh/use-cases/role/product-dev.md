@@ -151,7 +151,7 @@ PR信息：
 ::: details 🎬 观看演示视频
 
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/006-ai-test-generator.mp4" type="video/mp4">
+  <source src="/videos/cn/006-ai-test-generator.mp4" type="video/mp4">
 </video>
 
 :::
@@ -329,7 +329,7 @@ Bug描述：[描述bug]
 ::: details 🎬 观看演示视频
 
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/007-ai-deploy-monitor.mp4" type="video/mp4">
+  <source src="/videos/cn/007-ai-deploy-monitor.mp4" type="video/mp4">
 </video>
 
 :::
@@ -502,7 +502,7 @@ COCO的AI Deploy Monitor作为智能层叠加在你现有的监控基础设施�
 ::: details 🎬 观看演示视频
 
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/008-ai-api-doc-writer.mp4" type="video/mp4">
+  <source src="/videos/cn/008-ai-api-doc-writer.mp4" type="video/mp4">
 </video>
 
 :::
@@ -689,7 +689,7 @@ API概述：[简要描述API功能]
 ::: details 🎬 观看演示视频
 
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/009-ai-debug-assistant.mp4" type="video/mp4">
+  <source src="/videos/cn/009-ai-debug-assistant.mp4" type="video/mp4">
 </video>
 
 :::

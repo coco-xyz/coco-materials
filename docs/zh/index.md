@@ -16,16 +16,20 @@ hero:
       link: https://coco.xyz
 
 features:
-  - title: 快速开始
-    details: 几分钟内雇佣你的第一位AI数字员工。注册、支付、渠道部署全流程教程。
+  - icon: 🚀
+    title: 快速开始
+    details: 几分钟内雇佣你的第一位AI数字员工。注册、支付、渠道部署全流程指南。
     link: /zh/getting-started/
-  - title: 用例库
-    details: 30+真实场景，按角色、行业、任务三维分类。看AI员工如何为各部门节省时间和成本。
+  - icon: 📋
+    title: 30+ 用例库
+    details: 按角色、行业、任务三维分类的真实场景。从代码审查到财务报告，每个用例都有可量化的成效。
     link: /zh/use-cases/
-  - title: 社交媒体
-    details: 观看我们的宣传视频，了解COCO AI员工的实际工作能力。
+  - icon: 🎬
+    title: 社交媒体
+    details: 关注COCO官方渠道，获取最新动态。覆盖X、Telegram、TikTok、LinkedIn等主流平台。
     link: /zh/social-media/
-  - title: 案例研究
-    details: 8大核心场景实测数据 — 代码审查(4小时→15分钟)、简历筛选(3天→2小时)等。
+  - icon: 📊
+    title: 案例研究
+    details: 8大核心场景实测 — 代码审查4小时→15分钟、简历筛选3天→2小时，效率提升5-10倍。
     link: /zh/case-studies/
 ---

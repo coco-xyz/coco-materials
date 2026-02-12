@@ -12,7 +12,7 @@ export default defineConfig({
 
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/coco-icon.png' }],
-    ['meta', { name: 'theme-color', content: '#F5C542' }],
+    ['meta', { name: 'theme-color', content: '#FFD646' }],
     ['meta', { property: 'og:title', content: 'COCO Docs' }],
     ['meta', { property: 'og:description', content: 'AI Digital Employee — Use Cases, Resources & Documentation' }],
   ],
@@ -201,8 +201,8 @@ export default defineConfig({
   },
 
   themeConfig: {
-    logo: '/coco-icon.png',
-    siteTitle: 'COCO Docs',
+    logo: '/coco-logo-black.png',
+    siteTitle: false,
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/coco-xyz/coco-materials' },
