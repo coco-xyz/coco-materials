@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  base: '/docs-preview/',
+  base: process.env.VITEPRESS_BASE || '/',
   cleanUrls: true,
 
   vite: {
