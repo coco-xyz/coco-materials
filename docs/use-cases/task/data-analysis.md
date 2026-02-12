@@ -6,7 +6,7 @@ AI use cases for data analysis, reporting, auditing, and intelligence.
 
 > Generates client meeting brief in 8 minutes: multi-source intel, executive profile deep-dive.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/019-ai-client-research-brief.mp4" type="video/mp4">
@@ -158,7 +158,7 @@ Make this conversational -- I want to sound informed, not like I'm reading a rep
 
 > Complex quote calculation in 10 minutes, auto-matching discount rules and approval workflows.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/020-ai-quote-calculator.mp4" type="video/mp4">
@@ -323,7 +323,7 @@ Format as a clean, customer-facing document.
 
 > Screens 500 resumes in 2 hours, replacing 3 days of manual screening.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/025-ai-resume-screener.mp4" type="video/mp4">
@@ -481,7 +481,7 @@ Create a comparison matrix including:
 
 > Instant expense report audit. Compliant: auto-approved. Anomalies: auto-flagged.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/029-ai-expense-auditor.mp4" type="video/mp4">
@@ -639,7 +639,7 @@ Provide a revised policy draft with tracked changes and rationale for each updat
 
 > Multi-source financial report in 3 hours, replacing 2 days of manual work.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/030-ai-financial-report-generator.mp4" type="video/mp4">
@@ -779,7 +779,7 @@ Also provide:
 
 > Real-time inventory forecasting, replacing weekly manual stocktakes.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/033-ai-inventory-forecaster.mp4" type="video/mp4">
@@ -939,7 +939,7 @@ For each scenario:
 
 > Vendor evaluation and ranking in 2 hours, replacing 1 week of manual research.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/034-ai-vendor-evaluator.mp4" type="video/mp4">

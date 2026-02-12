@@ -6,7 +6,7 @@ AI use cases for banking, insurance, and financial institutions.
 
 > Researches 200 leads/day, auto-enriched from LinkedIn, Crunchbase, scored and ready.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/015-ai-lead-researcher.mp4" type="video/mp4">
@@ -192,7 +192,7 @@ For each lead, provide:
 
 > Generates client meeting brief in 8 minutes: multi-source intel, executive profile deep-dive.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/019-ai-client-research-brief.mp4" type="video/mp4">
@@ -344,7 +344,7 @@ Make this conversational -- I want to sound informed, not like I'm reading a rep
 
 > Auto-detects VIP customer anomalies. 30% missed issues drops to 0%.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/024-ai-vip-escalation.mp4" type="video/mp4">
@@ -503,7 +503,7 @@ Tone: Senior, professional, genuine. This should sound like it comes from someon
 
 > Instant expense report audit. Compliant: auto-approved. Anomalies: auto-flagged.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/029-ai-expense-auditor.mp4" type="video/mp4">
@@ -661,7 +661,7 @@ Provide a revised policy draft with tracked changes and rationale for each updat
 
 > Multi-source financial report in 3 hours, replacing 2 days of manual work.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/030-ai-financial-report-generator.mp4" type="video/mp4">
@@ -801,7 +801,7 @@ Also provide:
 
 > Processes an invoice in 30 seconds: extract, match, route — fully automated.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/031-ai-invoice-processor.mp4" type="video/mp4">

@@ -6,7 +6,7 @@ AI驱动的电商平台、零售运营和在线市场用例。
 
 > 20分钟产出一篇SEO优化的高质量文章，关键词研究到终稿一站式完成。
 
-::: details ▶ 观看演示视频
+::: details 🎬 观看演示视频
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/010-ai-seo-content-writer.mp4" type="video/mp4">
@@ -213,7 +213,7 @@ COCO的AI SEO Content Writer将内容创作流水线从一个串行的、劳动�
 
 > 一次输入，全平台适配发布。每天3小时社媒运营缩减到15分钟。
 
-::: details ▶ 观看演示视频
+::: details 🎬 观看演示视频
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/011-ai-social-media-manager.mp4" type="video/mp4">
@@ -402,7 +402,7 @@ COCO的AI Social Media Manager作为社交媒体团队的力量倍增器，处�
 
 > 10分钟生成200个A/B变体广告文案，数据驱动迭代优化。
 
-::: details ▶ 观看演示视频
+::: details 🎬 观看演示视频
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/012-ai-ad-copy-generator.mp4" type="video/mp4">
@@ -613,7 +613,7 @@ COCO的AI Ad Copy Generator专为效果营销构建，理解各平台付费广�
 
 > 实时追踪竞品动态，2天调研变为1小时自动化输出。
 
-::: details ▶ 观看演示视频
+::: details 🎬 观看演示视频
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/014-ai-competitive-copywriter.mp4" type="video/mp4">
@@ -790,7 +790,7 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 
 > 10分钟完成复杂报价计算，自动匹配折扣规则和审批流程。
 
-::: details ▶ 观看演示视频
+::: details 🎬 观看演示视频
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/020-ai-quote-calculator.mp4" type="video/mp4">
@@ -955,7 +955,7 @@ COCO的AI Quote Calculator将报价流程从手动、易出错的工作流转变
 
 > 工单自动分类路由，5分钟/单变为即时处理。
 
-::: details ▶ 观看演示视频
+::: details 🎬 观看演示视频
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/021-ai-ticket-classifier.mp4" type="video/mp4">
@@ -1112,7 +1112,7 @@ SLA层级：[按优先级列出你的SLA要求]
 
 > AI一键支持15+语言客服，替代5个翻译人员。
 
-::: details ▶ 观看演示视频
+::: details 🎬 观看演示视频
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/023-ai-multi-language-support.mp4" type="video/mp4">
@@ -1274,7 +1274,7 @@ COCO的AI Multi-Language Support提供母语质量的多语言客户服务，无
 
 > 自动识别VIP客户异常，30%漏检降至0%。
 
-::: details ▶ 观看演示视频
+::: details 🎬 观看演示视频
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/024-ai-vip-escalation.mp4" type="video/mp4">
@@ -1433,7 +1433,7 @@ CSM：[姓名]
 
 > 30秒处理一张发票：提取、匹配、路由全自动。
 
-::: details ▶ 观看演示视频
+::: details 🎬 观看演示视频
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/031-ai-invoice-processor.mp4" type="video/mp4">
@@ -1602,7 +1602,7 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 
 > 实时库存预测，替代每周手动盘点，减少滞销和缺货。
 
-::: details ▶ 观看演示视频
+::: details 🎬 观看演示视频
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/033-ai-inventory-forecaster.mp4" type="video/mp4">

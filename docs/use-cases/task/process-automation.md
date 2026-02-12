@@ -6,7 +6,7 @@ AI use cases for workflow automation and operational efficiency.
 
 > Auto-reviews every PR: bugs, security, performance — full report in 15 minutes.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/005-ai-code-reviewer.mp4" type="video/mp4">
@@ -148,7 +148,7 @@ PR:
 
 > Reads source code and generates comprehensive tests with edge cases. Coverage: 34% → 89%.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/006-ai-test-generator.mp4" type="video/mp4">
@@ -326,7 +326,7 @@ Generate ONLY the missing tests, not duplicates of existing coverage.
 
 > Monitors every deploy in real-time, detects anomalies in 90s, auto-rollbacks. MTTR: 47min → 2min.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/007-ai-deploy-monitor.mp4" type="video/mp4">
@@ -499,7 +499,7 @@ Recommend new thresholds that reduce false positives by at least 50% while maint
 
 > Paste error logs, AI traces from symptom to root cause, provides ready-to-apply fix diffs.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/009-ai-debug-assistant.mp4" type="video/mp4">
@@ -700,7 +700,7 @@ Correlate the logs across services to reconstruct:
 
 > Calls, emails, meetings auto-synced to CRM. 45 min/day data entry becomes zero.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/016-ai-crm-updater.mp4" type="video/mp4">
@@ -860,7 +860,7 @@ Also generate:
 
 > Auto-classifies and routes tickets. 5 min/ticket becomes instant.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/021-ai-ticket-classifier.mp4" type="video/mp4">
@@ -1017,7 +1017,7 @@ Keep each response under 150 words. Test readability: would a frustrated custome
 
 > Auto-detects VIP customer anomalies. 30% missed issues drops to 0%.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/024-ai-vip-escalation.mp4" type="video/mp4">
@@ -1176,7 +1176,7 @@ Tone: Senior, professional, genuine. This should sound like it comes from someon
 
 > Schedules interviews in 3 minutes, auto-coordinating multiple calendars.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/027-ai-interview-scheduler.mp4" type="video/mp4">
@@ -1337,7 +1337,7 @@ Provide actionable recommendations for the next quarter.
 
 > New hire fully onboarded in 3 days instead of 2 weeks.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/028-ai-onboarding-assistant.mp4" type="video/mp4">
@@ -1517,7 +1517,7 @@ For each task: responsible person, deadline, dependencies, and verification that
 
 > Processes an invoice in 30 seconds: extract, match, route — fully automated.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/031-ai-invoice-processor.mp4" type="video/mp4">
@@ -1686,7 +1686,7 @@ Provide a prioritized 90-day improvement roadmap.
 
 > Meeting notes ready instantly: transcript, summary, action items assigned.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/032-ai-meeting-notes.mp4" type="video/mp4">

@@ -6,7 +6,7 @@ AI-powered use cases for support teams, help desk, and customer success.
 
 > Auto-classifies and routes tickets. 5 min/ticket becomes instant.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/021-ai-ticket-classifier.mp4" type="video/mp4">
@@ -163,7 +163,7 @@ Keep each response under 150 words. Test readability: would a frustrated custome
 
 > Generates 50 knowledge base articles in 1 hour, auto-extracted from tickets and conversations.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/022-ai-knowledge-base-builder.mp4" type="video/mp4">
@@ -323,7 +323,7 @@ Compare the original and rewrite, noting specific improvements.
 
 > One AI agent supports 15+ languages, replacing 5 translators.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/023-ai-multi-language-support.mp4" type="video/mp4">
@@ -485,7 +485,7 @@ Important:
 
 > Auto-detects VIP customer anomalies. 30% missed issues drops to 0%.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/024-ai-vip-escalation.mp4" type="video/mp4">

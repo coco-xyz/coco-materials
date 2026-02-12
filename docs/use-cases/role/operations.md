@@ -6,7 +6,7 @@ AI-powered use cases for operations, procurement, and business management.
 
 > Meeting notes ready instantly: transcript, summary, action items assigned.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/032-ai-meeting-notes.mp4" type="video/mp4">
@@ -170,7 +170,7 @@ Provide a specific "meeting diet" recommendation: what to keep, cut, shorten, me
 
 > Real-time inventory forecasting, replacing weekly manual stocktakes.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/033-ai-inventory-forecaster.mp4" type="video/mp4">
@@ -330,7 +330,7 @@ For each scenario:
 
 > Vendor evaluation and ranking in 2 hours, replacing 1 week of manual research.
 
-::: details ▶ Watch Demo Video
+::: details 🎬 Watch Demo Video
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/034-ai-vendor-evaluator.mp4" type="video/mp4">

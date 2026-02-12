@@ -391,7 +391,7 @@ function generatePage(pagePath, config, lang, docsBase) {
 
     // Video embed — collapsible
     if (videos[pad]) {
-      const videoLabel = isEN ? '▶ Watch Demo Video' : '▶ 观看演示视频';
+      const videoLabel = isEN ? '🎬 Watch Demo Video' : '🎬 观看演示视频';
       content += `::: details ${videoLabel}\n\n`;
       content += `<video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">\n`;
       content += `  <source src="${videos[pad]}" type="video/mp4">\n`;

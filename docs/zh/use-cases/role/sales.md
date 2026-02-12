@@ -6,7 +6,7 @@ AI驱动的SDR、客户经理和销售负责人用例。
 
 > 一天调研200个线索，自动从LinkedIn、企查查抓取并打分。
 
-::: details ▶ 观看演示视频
+::: details 🎬 观看演示视频
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/015-ai-lead-researcher.mp4" type="video/mp4">
@@ -192,7 +192,7 @@ LinkedIn URL：[URL]
 
 > 通话、邮件、会议自动同步CRM，45分钟/天数据录入变为0。
 
-::: details ▶ 观看演示视频
+::: details 🎬 观看演示视频
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/016-ai-crm-updater.mp4" type="video/mp4">
@@ -352,7 +352,7 @@ Pipeline数据：
 
 > 15分钟生成定制化方案书，基于客户需求自动匹配。
 
-::: details ▶ 观看演示视频
+::: details 🎬 观看演示视频
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/017-ai-proposal-generator.mp4" type="video/mp4">
@@ -527,7 +527,7 @@ RFP问题/要求：
 
 > 2分钟生成个性化跟进邮件，基于会议上下文和客户行为。
 
-::: details ▶ 观看演示视频
+::: details 🎬 观看演示视频
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/018-ai-follow-up-writer.mp4" type="video/mp4">
@@ -702,7 +702,7 @@ COCO的AI Follow-up Writer通过生成及时、有上下文的跟进沟通确保
 
 > 8分钟生成客户会议简报，多源情报汇聚，高管画像深入。
 
-::: details ▶ 观看演示视频
+::: details 🎬 观看演示视频
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/019-ai-client-research-brief.mp4" type="video/mp4">
@@ -854,7 +854,7 @@ COCO的AI Client Research Brief在几分钟内为每次客户会议提供全面�
 
 > 10分钟完成复杂报价计算，自动匹配折扣规则和审批流程。
 
-::: details ▶ 观看演示视频
+::: details 🎬 观看演示视频
 
 <video controls width="100%" style="max-width: 720px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/020-ai-quote-calculator.mp4" type="video/mp4">
