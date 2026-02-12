@@ -28,8 +28,8 @@ export default defineConfig({
           { text: 'Home', link: '/' },
           { text: 'Getting Started', link: '/getting-started/' },
           { text: 'Use Cases', link: '/use-cases/' },
-          { text: 'Social Media', link: '/social-media/' },
           { text: 'Case Studies', link: '/case-studies/' },
+          { text: 'Social Media', link: '/social-media/' },
           { text: 'coco.xyz', link: 'https://coco.xyz' },
         ],
         sidebar: {
@@ -88,8 +88,7 @@ export default defineConfig({
             {
               text: 'Social Media',
               items: [
-                { text: 'Promo Videos', link: '/social-media/' },
-                { text: 'Channels', link: '/social-media/channels' },
+                { text: 'Channels', link: '/social-media/' },
               ]
             },
           ],
@@ -114,8 +113,8 @@ export default defineConfig({
           { text: '首页', link: '/zh/' },
           { text: '快速开始', link: '/zh/getting-started/' },
           { text: '用例库', link: '/zh/use-cases/' },
-          { text: '社交媒体', link: '/zh/social-media/' },
           { text: '案例研究', link: '/zh/case-studies/' },
+          { text: '社交媒体', link: '/zh/social-media/' },
           { text: 'coco.xyz', link: 'https://coco.xyz' },
         ],
         sidebar: {
@@ -174,8 +173,7 @@ export default defineConfig({
             {
               text: '社交媒体',
               items: [
-                { text: '宣传视频', link: '/zh/social-media/' },
-                { text: '渠道', link: '/zh/social-media/channels' },
+                { text: '渠道', link: '/zh/social-media/' },
               ]
             },
           ],
