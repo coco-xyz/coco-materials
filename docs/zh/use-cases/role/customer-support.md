@@ -9,7 +9,7 @@ AI驱动的客服团队、帮助台和客户成功用例。
 ::: details 🎬 观看演示视频
 
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/021-ai-ticket-classifier.mp4" type="video/mp4">
+  <source src="/videos/cn/021-ai-ticket-classifier.mp4" type="video/mp4">
 </video>
 
 :::
@@ -166,7 +166,7 @@ SLA层级：[按优先级列出你的SLA要求]
 ::: details 🎬 观看演示视频
 
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/022-ai-knowledge-base-builder.mp4" type="video/mp4">
+  <source src="/videos/cn/022-ai-knowledge-base-builder.mp4" type="video/mp4">
 </video>
 
 :::
@@ -326,7 +326,7 @@ COCO的AI Knowledge Base Builder将已解决的客服工单转化为已发布的
 ::: details 🎬 观看演示视频
 
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/023-ai-multi-language-support.mp4" type="video/mp4">
+  <source src="/videos/cn/023-ai-multi-language-support.mp4" type="video/mp4">
 </video>
 
 :::
@@ -488,7 +488,7 @@ COCO的AI Multi-Language Support提供母语质量的多语言客户服务，无
 ::: details 🎬 观看演示视频
 
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/024-ai-vip-escalation.mp4" type="video/mp4">
+  <source src="/videos/cn/024-ai-vip-escalation.mp4" type="video/mp4">
 </video>
 
 :::

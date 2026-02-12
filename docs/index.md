@@ -2,11 +2,11 @@
 layout: home
 hero:
   name: "COCO Docs"
-  text: "AI Digital Employee"
-  tagline: "Use Cases, Resources & Documentation"
+  text: "Your AI Digital Employee"
+  tagline: "Explore 30+ real-world use cases, enterprise case studies, and step-by-step guides. See how AI employees transform every department."
   actions:
     - theme: brand
-      text: Getting Started
+      text: Get Started
       link: /getting-started/
     - theme: alt
       text: Browse Use Cases
@@ -16,16 +16,20 @@ hero:
       link: https://coco.xyz
 
 features:
-  - title: Getting Started
-    details: Hire your first AI digital employee in minutes. Step-by-step tutorials for registration, payment, and channel deployment.
+  - icon: 🚀
+    title: Getting Started
+    details: Hire your first AI digital employee in minutes. Step-by-step guides for registration, payment, and channel deployment.
     link: /getting-started/
-  - title: Use Cases
-    details: 30+ real-world scenarios organized by Role, Industry, and Task. See how AI employees save time across every department.
+  - icon: 📋
+    title: 30+ Use Cases
+    details: Real-world scenarios by Role, Industry, and Task. From code review to financial reports — see measurable results.
     link: /use-cases/
-  - title: Social Media
-    details: Watch our promotional videos showcasing COCO AI employee capabilities in action.
+  - icon: 🎬
+    title: Social Media
+    details: Watch demo videos showcasing COCO AI employees in action across real business workflows.
     link: /social-media/
-  - title: Case Studies
-    details: 8 core scenarios with real metrics — Code Review (4h to 15min), Resume Screening (3 days to 2h), and more.
+  - icon: 📊
+    title: Case Studies
+    details: Enterprise results with real metrics — Klarna saved $60M, Coolpad reduced 80 to 5 employees, McKinsey 40M+ savings.
     link: /case-studies/
 ---
