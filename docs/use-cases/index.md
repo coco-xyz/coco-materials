@@ -1,6 +1,6 @@
 # Use Cases
 
-Discover 30+ real-world scenarios where COCO AI employees save time and money. Browse by **Role**, **Task**, or **Industry**.
+Discover 60+ real-world scenarios where COCO AI employees save time and money. Browse by **Role**, **Task**, or **Industry**.
 
 ## Browse by Role
 
@@ -8,13 +8,13 @@ Find use cases for your specific job function:
 
 | Role | Use Cases | Key Metric |
 |------|-----------|------------|
-| [Product / Dev](./role/product-dev) | Code Review, Test Generation, Deploy Monitor, API Docs, Debug Assistant | 4h → 15min per PR |
-| [Content / Marketing](./role/content-marketing) | SEO Writing, Social Media, Ad Copy, Newsletter, Competitive Copy | 3h/day → 15min |
-| [Sales](./role/sales) | Lead Research, CRM Updates, Proposals, Follow-ups, Quotes, Client Briefs | 20 → 200 leads/day |
-| [Customer Support](./role/customer-support) | Ticket Classification, Knowledge Base, Multi-language, VIP Escalation | 5min/ticket → instant |
-| [HR / Recruiting](./role/hr-recruiting) | Resume Screening, JD Writing, Interview Scheduling, Onboarding | 3 days → 2 hours |
-| [Finance](./role/finance) | Expense Auditing, Financial Reports, Invoice Processing | 2 days → 3 hours |
-| [Operations](./role/operations) | Meeting Notes, Inventory Forecasting, Vendor Evaluation | 30min → instant |
+| [Product / Dev](./role/product-dev) | Code Review, Test Gen, Deploy Monitor, API Docs, Debug, Code Migrator, Security Scanner, DB Optimizer, Bug Prioritizer | 4h → 15min per PR |
+| [Content / Marketing](./role/content-marketing) | SEO Writing, Social Media, Ad Copy, Newsletter, Brand Monitor, Influencer Finder, Campaign Analyzer, Content Calendar, Persona Builder | 3h/day → 15min |
+| [Sales](./role/sales) | Lead Research, CRM Updates, Proposals, Follow-ups, Sales Forecaster, Demo Personalizer, Pricing Optimizer, Contract Analyzer, Churn Predictor | 20 → 200 leads/day |
+| [Customer Support](./role/customer-support) | Ticket Classification, Knowledge Base, Multi-language, VIP Escalation, Chatbot Trainer, FAQ Generator | 5min/ticket → instant |
+| [HR / Recruiting](./role/hr-recruiting) | Resume Screening, JD Writing, Interview Scheduling, Onboarding, Employee Pulse, Training Recommender, Comp Benchmarker, Review Writer | 3 days → 2 hours |
+| [Finance](./role/finance) | Expense Auditing, Financial Reports, Invoice Processing, Cash Flow Forecaster, Compliance Checker | 2 days → 3 hours |
+| [Operations](./role/operations) | Meeting Notes, Inventory Forecasting, Vendor Evaluation, SLA Tracker, Policy Updater, Process Miner, Document Classifier, Risk Scorer | 30min → instant |
 
 ## Browse by Task
 
@@ -71,3 +71,33 @@ Find use cases by what you need to get done:
 | 28 | AI Meeting Notes | Operations | 30min → instant |
 | 29 | AI Inventory Forecaster | Operations | Weekly → real-time |
 | 30 | AI Vendor Evaluator | Operations | 1 week → 2 hours |
+| 31 | AI Code Migrator | Dev | 2 weeks → 4 hours |
+| 32 | AI Performance Profiler | Dev | 3 days → 30min |
+| 33 | AI Security Scanner | DevOps | Weekly → continuous |
+| 34 | AI Database Optimizer | Dev | 8h → 20min |
+| 35 | AI Dependency Manager | Dev | 4h/week → 10min |
+| 36 | AI Brand Monitor | Marketing | 3h/day → real-time |
+| 37 | AI Influencer Finder | Marketing | 2 weeks → 2 hours |
+| 38 | AI Campaign Analyzer | Marketing | 1 day → 15min |
+| 39 | AI Content Calendar | Marketing | 4h/week → 20min |
+| 40 | AI Persona Builder | Marketing | 1 week → 1 hour |
+| 41 | AI Sales Forecaster | Sales | 2 days → 30min |
+| 42 | AI Demo Personalizer | Sales | 3h → 15min |
+| 43 | AI Pricing Optimizer | Operations | 1 week → 2 hours |
+| 44 | AI Contract Analyzer | Operations | 4h/contract → 10min |
+| 45 | AI Churn Predictor | Support | Monthly → real-time |
+| 46 | AI Chatbot Trainer | Support | 2 weeks → 3 hours |
+| 47 | AI Bug Prioritizer | Dev | 2h/day → instant |
+| 48 | AI SLA Tracker | Operations | Manual → automated |
+| 49 | AI Sentiment Analyzer | PM | 1 day → 10min |
+| 50 | AI FAQ Generator | Support | 3 days → 2 hours |
+| 51 | AI Employee Pulse | HR | Monthly → weekly |
+| 52 | AI Training Recommender | HR | 1 week → 1 hour |
+| 53 | AI Comp Benchmarker | HR | 2 weeks → 3 hours |
+| 54 | AI Review Writer | HR | 2h/review → 15min |
+| 55 | AI Policy Updater | Operations | 2 days → 3 hours |
+| 56 | AI Cash Flow Forecaster | Finance | 1 day → 30min |
+| 57 | AI Compliance Checker | Operations | 1 week → 4 hours |
+| 58 | AI Process Miner | Operations | 3 weeks → 2 days |
+| 59 | AI Document Classifier | Operations | 5min/doc → instant |
+| 60 | AI Risk Scorer | Operations | 2 days → 2 hours |
