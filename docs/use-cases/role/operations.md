@@ -519,3 +519,759 @@ Overall risk score (0-100) with justification and recommended mitigation for eac
 
 :::
 
+## 4. AI Pricing Optimizer
+
+> Real-time competitor pricing monitoring. Response: 3 weeks → 4 hours. Revenue/user +23%.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/047-ai-pricing-optimizer.mp4" type="video/mp4">
+</video>
+
+:::
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Static Pricing in a Dynamic Market Is Leaving Money Everywhere**
+
+Static pricing leaves 15-30% revenue on the table; manual adjustments are always too slow. This isn't just an inconvenience — it's a measurable drag on the business. Teams that face this challenge report spending an average of 15-30 hours per week on manual workarounds that could be automated.
+
+The real cost goes beyond the immediate time waste. When revenue managers are stuck in reactive mode, strategic work doesn't happen. Opportunities are missed. Competitors who have solved this problem move faster, ship sooner, and serve customers better.
+
+Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
+
+**How COCO Solves It**
+
+1. **Monitors competitor pricing and**: Monitors competitor pricing and market signals in real-time. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+2. **Models price elasticity per**: Models price elasticity per segment using transaction data. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+3. **Recommends dynamic adjustments within**: Recommends dynamic adjustments within guardrails you set. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Revenue per User**: +23%
+- **Response Time**: 3 weeks → 4 hours
+- **Churn from Pricing**: -41%
+- **Team satisfaction**: Significant improvement reported
+- **Time to value**: Results visible within first week
+- **ROI payback**: Typically under 30 days
+
+**Who Benefits**
+
+- **Revenue Manager**: Direct time savings and improved outcomes from automated analysis
+- **Product Manager**: Direct time savings and improved outcomes from automated analysis
+- **CFO**: Direct time savings and improved outcomes from automated analysis
+- **Leadership**: Better visibility, faster decisions, and measurable ROI
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Initial Assessment**
+```
+Analyze the current state of our analysis workflow. Here is our context:
+
+- Team size: [number]
+- Current tools: [list tools]
+- Volume: [describe scale]
+- Key pain points: [list top 3]
+
+Provide:
+1. A diagnostic of where time and money are being wasted
+2. Quick wins that can be implemented this week
+3. A 30-day optimization roadmap
+4. Expected ROI with conservative estimates
+```
+
+**Prompt 2: Implementation Plan**
+```
+Create a detailed implementation plan for automating our analysis process.
+
+Current state:
+[describe current workflow, tools, team]
+
+Requirements:
+- Must integrate with: [list existing tools]
+- Compliance requirements: [list any]
+- Budget constraints: [specify]
+- Timeline: [specify]
+
+Generate:
+1. Phase 1 (Week 1-2): Quick wins and setup
+2. Phase 2 (Week 3-4): Core automation
+3. Phase 3 (Month 2): Optimization and scaling
+4. Success metrics and how to measure them
+5. Risk mitigation plan
+```
+
+**Prompt 3: Performance Analysis**
+```
+Analyze the performance data from our analysis automation.
+
+Data:
+[paste metrics, logs, or results]
+
+Evaluate:
+1. What's working well and why
+2. What's underperforming and root causes
+3. Specific optimizations to improve results
+4. Benchmark comparison against industry standards
+5. Recommendations for next quarter
+```
+
+:::
+
+## 5. AI Contract Analyzer
+
+> Contract review: 5 days → 45 minutes. Risk detection: 72% → 99%.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/048-ai-contract-analyzer.mp4" type="video/mp4">
+</video>
+
+:::
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Contracts Hide Risks That Only Surface After You Sign**
+
+Legal review takes 5 days per contract; sales deals stall while contracts sit in the queue. This isn't just an inconvenience — it's a measurable drag on the business. Teams that face this challenge report spending an average of 15-30 hours per week on manual workarounds that could be automated.
+
+The real cost goes beyond the immediate time waste. When legal counsels are stuck in reactive mode, strategic work doesn't happen. Opportunities are missed. Competitors who have solved this problem move faster, ship sooner, and serve customers better.
+
+Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
+
+**How COCO Solves It**
+
+1. **Reads contracts in minutes**: Reads contracts in minutes and flags non-standard clauses. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+2. **Compares against your approved**: Compares against your approved templates and risk policies. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+3. **Suggests redlines with explanations**: Suggests redlines with explanations and negotiation guidance. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Review Time**: 5 days → 45 min
+- **Risk Detection**: 72% → 99%
+- **Deal Velocity**: +60%
+- **Team satisfaction**: Significant improvement reported
+- **Time to value**: Results visible within first week
+- **ROI payback**: Typically under 30 days
+
+**Who Benefits**
+
+- **Legal Counsel**: Direct time savings and improved outcomes from automated analysis
+- **Contract Manager**: Direct time savings and improved outcomes from automated analysis
+- **Procurement**: Direct time savings and improved outcomes from automated analysis
+- **Leadership**: Better visibility, faster decisions, and measurable ROI
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Initial Assessment**
+```
+Analyze the current state of our analysis workflow. Here is our context:
+
+- Team size: [number]
+- Current tools: [list tools]
+- Volume: [describe scale]
+- Key pain points: [list top 3]
+
+Provide:
+1. A diagnostic of where time and money are being wasted
+2. Quick wins that can be implemented this week
+3. A 30-day optimization roadmap
+4. Expected ROI with conservative estimates
+```
+
+**Prompt 2: Implementation Plan**
+```
+Create a detailed implementation plan for automating our analysis process.
+
+Current state:
+[describe current workflow, tools, team]
+
+Requirements:
+- Must integrate with: [list existing tools]
+- Compliance requirements: [list any]
+- Budget constraints: [specify]
+- Timeline: [specify]
+
+Generate:
+1. Phase 1 (Week 1-2): Quick wins and setup
+2. Phase 2 (Week 3-4): Core automation
+3. Phase 3 (Month 2): Optimization and scaling
+4. Success metrics and how to measure them
+5. Risk mitigation plan
+```
+
+**Prompt 3: Performance Analysis**
+```
+Analyze the performance data from our analysis automation.
+
+Data:
+[paste metrics, logs, or results]
+
+Evaluate:
+1. What's working well and why
+2. What's underperforming and root causes
+3. Specific optimizations to improve results
+4. Benchmark comparison against industry standards
+5. Recommendations for next quarter
+```
+
+:::
+
+## 6. AI SLA Tracker
+
+> SLA breaches: 12/quarter → 1/quarter. Penalties: $200K/yr → $15K/yr.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/052-ai-sla-tracker.mp4" type="video/mp4">
+</video>
+
+:::
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: SLA Breaches Cost Real Money and Nobody Sees Them Coming**
+
+SLA tracking across 23 vendor contracts is manual; breaches are discovered after penalties hit. This isn't just an inconvenience — it's a measurable drag on the business. Teams that face this challenge report spending an average of 15-30 hours per week on manual workarounds that could be automated.
+
+The real cost goes beyond the immediate time waste. When operations managers are stuck in reactive mode, strategic work doesn't happen. Opportunities are missed. Competitors who have solved this problem move faster, ship sooner, and serve customers better.
+
+Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
+
+**How COCO Solves It**
+
+1. **Tracks all SLA obligations**: Tracks all SLA obligations across every vendor and customer contract. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+2. **Predictive alerts warn 48**: Predictive alerts warn 48 hours before potential breaches. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+3. **Auto-generates compliance reports for**: Auto-generates compliance reports for audit and negotiation. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **SLA Breaches**: 12/quarter → 1/quarter
+- **Penalty Costs**: $200K/yr → $15K/yr
+- **Tracking Time**: 30 hrs/mo → 2 hrs/mo
+- **Team satisfaction**: Significant improvement reported
+- **Time to value**: Results visible within first week
+- **ROI payback**: Typically under 30 days
+
+**Who Benefits**
+
+- **Operations Manager**: Direct time savings and improved outcomes from automated monitoring
+- **Vendor Manager**: Direct time savings and improved outcomes from automated monitoring
+- **IT Director**: Direct time savings and improved outcomes from automated monitoring
+- **Leadership**: Better visibility, faster decisions, and measurable ROI
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Initial Assessment**
+```
+Analyze the current state of our monitoring workflow. Here is our context:
+
+- Team size: [number]
+- Current tools: [list tools]
+- Volume: [describe scale]
+- Key pain points: [list top 3]
+
+Provide:
+1. A diagnostic of where time and money are being wasted
+2. Quick wins that can be implemented this week
+3. A 30-day optimization roadmap
+4. Expected ROI with conservative estimates
+```
+
+**Prompt 2: Implementation Plan**
+```
+Create a detailed implementation plan for automating our monitoring process.
+
+Current state:
+[describe current workflow, tools, team]
+
+Requirements:
+- Must integrate with: [list existing tools]
+- Compliance requirements: [list any]
+- Budget constraints: [specify]
+- Timeline: [specify]
+
+Generate:
+1. Phase 1 (Week 1-2): Quick wins and setup
+2. Phase 2 (Week 3-4): Core automation
+3. Phase 3 (Month 2): Optimization and scaling
+4. Success metrics and how to measure them
+5. Risk mitigation plan
+```
+
+**Prompt 3: Performance Analysis**
+```
+Analyze the performance data from our monitoring automation.
+
+Data:
+[paste metrics, logs, or results]
+
+Evaluate:
+1. What's working well and why
+2. What's underperforming and root causes
+3. Specific optimizations to improve results
+4. Benchmark comparison against industry standards
+5. Recommendations for next quarter
+```
+
+:::
+
+## 7. AI Policy Updater
+
+> 847 policy docs updated: 6 weeks → 4 days. Compliance risk -89%.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/059-ai-policy-updater.mp4" type="video/mp4">
+</video>
+
+:::
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Regulatory Changes Move Faster Than Your Compliance Team**
+
+Regulatory changes require reviewing hundreds of documents; teams are always behind. This isn't just an inconvenience — it's a measurable drag on the business. Teams that face this challenge report spending an average of 15-30 hours per week on manual workarounds that could be automated.
+
+The real cost goes beyond the immediate time waste. When compliance officers are stuck in reactive mode, strategic work doesn't happen. Opportunities are missed. Competitors who have solved this problem move faster, ship sooner, and serve customers better.
+
+Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
+
+**How COCO Solves It**
+
+1. **Monitors regulatory feeds and**: Monitors regulatory feeds and maps changes to affected policies. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+2. **Auto-drafts policy updates with**: Auto-drafts policy updates with tracked changes and citations. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+3. **Validates consistency across the**: Validates consistency across the entire policy corpus. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Update Time**: 6 weeks → 4 days
+- **Coverage**: 73% → 100%
+- **Compliance Risk**: -89%
+- **Team satisfaction**: Significant improvement reported
+- **Time to value**: Results visible within first week
+- **ROI payback**: Typically under 30 days
+
+**Who Benefits**
+
+- **Compliance Officer**: Direct time savings and improved outcomes from automated documentation
+- **Legal**: Direct time savings and improved outcomes from automated documentation
+- **Risk Manager**: Direct time savings and improved outcomes from automated documentation
+- **Leadership**: Better visibility, faster decisions, and measurable ROI
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Initial Assessment**
+```
+Analyze the current state of our documentation workflow. Here is our context:
+
+- Team size: [number]
+- Current tools: [list tools]
+- Volume: [describe scale]
+- Key pain points: [list top 3]
+
+Provide:
+1. A diagnostic of where time and money are being wasted
+2. Quick wins that can be implemented this week
+3. A 30-day optimization roadmap
+4. Expected ROI with conservative estimates
+```
+
+**Prompt 2: Implementation Plan**
+```
+Create a detailed implementation plan for automating our documentation process.
+
+Current state:
+[describe current workflow, tools, team]
+
+Requirements:
+- Must integrate with: [list existing tools]
+- Compliance requirements: [list any]
+- Budget constraints: [specify]
+- Timeline: [specify]
+
+Generate:
+1. Phase 1 (Week 1-2): Quick wins and setup
+2. Phase 2 (Week 3-4): Core automation
+3. Phase 3 (Month 2): Optimization and scaling
+4. Success metrics and how to measure them
+5. Risk mitigation plan
+```
+
+**Prompt 3: Performance Analysis**
+```
+Analyze the performance data from our documentation automation.
+
+Data:
+[paste metrics, logs, or results]
+
+Evaluate:
+1. What's working well and why
+2. What's underperforming and root causes
+3. Specific optimizations to improve results
+4. Benchmark comparison against industry standards
+5. Recommendations for next quarter
+```
+
+:::
+
+## 8. AI Process Miner
+
+> Process cycle: 14 days → 4 days. Rework rate: 31% → 8%. Cost -47%.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/062-ai-process-miner.mp4" type="video/mp4">
+</video>
+
+:::
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Nobody Knows How Your Processes Actually Work**
+
+Nobody knows how processes actually work until they break; optimization is based on guesswork. This isn't just an inconvenience — it's a measurable drag on the business. Teams that face this challenge report spending an average of 15-30 hours per week on manual workarounds that could be automated.
+
+The real cost goes beyond the immediate time waste. When operations directors are stuck in reactive mode, strategic work doesn't happen. Opportunities are missed. Competitors who have solved this problem move faster, ship sooner, and serve customers better.
+
+Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
+
+**How COCO Solves It**
+
+1. **Discovers actual process flows**: Discovers actual process flows from system logs and user actions. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+2. **Identifies bottlenecks, rework loops,**: Identifies bottlenecks, rework loops, and compliance deviations. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+3. **Simulates optimization scenarios before**: Simulates optimization scenarios before implementation. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Process Time**: 14 days → 4 days
+- **Rework Rate**: 31% → 8%
+- **Cost per Process**: -47%
+- **Team satisfaction**: Significant improvement reported
+- **Time to value**: Results visible within first week
+- **ROI payback**: Typically under 30 days
+
+**Who Benefits**
+
+- **Operations Director**: Direct time savings and improved outcomes from automated analysis
+- **Process Analyst**: Direct time savings and improved outcomes from automated analysis
+- **COO**: Direct time savings and improved outcomes from automated analysis
+- **Leadership**: Better visibility, faster decisions, and measurable ROI
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Initial Assessment**
+```
+Analyze the current state of our analysis workflow. Here is our context:
+
+- Team size: [number]
+- Current tools: [list tools]
+- Volume: [describe scale]
+- Key pain points: [list top 3]
+
+Provide:
+1. A diagnostic of where time and money are being wasted
+2. Quick wins that can be implemented this week
+3. A 30-day optimization roadmap
+4. Expected ROI with conservative estimates
+```
+
+**Prompt 2: Implementation Plan**
+```
+Create a detailed implementation plan for automating our analysis process.
+
+Current state:
+[describe current workflow, tools, team]
+
+Requirements:
+- Must integrate with: [list existing tools]
+- Compliance requirements: [list any]
+- Budget constraints: [specify]
+- Timeline: [specify]
+
+Generate:
+1. Phase 1 (Week 1-2): Quick wins and setup
+2. Phase 2 (Week 3-4): Core automation
+3. Phase 3 (Month 2): Optimization and scaling
+4. Success metrics and how to measure them
+5. Risk mitigation plan
+```
+
+**Prompt 3: Performance Analysis**
+```
+Analyze the performance data from our analysis automation.
+
+Data:
+[paste metrics, logs, or results]
+
+Evaluate:
+1. What's working well and why
+2. What's underperforming and root causes
+3. Specific optimizations to improve results
+4. Benchmark comparison against industry standards
+5. Recommendations for next quarter
+```
+
+:::
+
+## 9. AI Document Classifier
+
+> Document search: 18 min → 30 sec. Misclassification: 34% → 3%.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/063-ai-document-classifier.mp4" type="video/mp4">
+</video>
+
+:::
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: The Document You Need Is Always in the Last Place You Look**
+
+47% of employees can't find documents they need; average search time is 18 minutes per document. This isn't just an inconvenience — it's a measurable drag on the business. Teams that face this challenge report spending an average of 15-30 hours per week on manual workarounds that could be automated.
+
+The real cost goes beyond the immediate time waste. When knowledge managers are stuck in reactive mode, strategic work doesn't happen. Opportunities are missed. Competitors who have solved this problem move faster, ship sooner, and serve customers better.
+
+Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
+
+**How COCO Solves It**
+
+1. **Auto-categorizes documents by type,**: Auto-categorizes documents by type, project, department, and sensitivity. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+2. **Extracts key metadata: dates,**: Extracts key metadata: dates, parties, amounts, obligations. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+3. **Routes documents to correct**: Routes documents to correct storage and applies retention policies. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Search Time**: 18 min → 30 sec
+- **Misclassification**: 34% → 3%
+- **Productivity Saved**: 7 hrs/employee/mo
+- **Team satisfaction**: Significant improvement reported
+- **Time to value**: Results visible within first week
+- **ROI payback**: Typically under 30 days
+
+**Who Benefits**
+
+- **Knowledge Manager**: Direct time savings and improved outcomes from automated automation
+- **IT Director**: Direct time savings and improved outcomes from automated automation
+- **Operations**: Direct time savings and improved outcomes from automated automation
+- **Leadership**: Better visibility, faster decisions, and measurable ROI
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Initial Assessment**
+```
+Analyze the current state of our automation workflow. Here is our context:
+
+- Team size: [number]
+- Current tools: [list tools]
+- Volume: [describe scale]
+- Key pain points: [list top 3]
+
+Provide:
+1. A diagnostic of where time and money are being wasted
+2. Quick wins that can be implemented this week
+3. A 30-day optimization roadmap
+4. Expected ROI with conservative estimates
+```
+
+**Prompt 2: Implementation Plan**
+```
+Create a detailed implementation plan for automating our automation process.
+
+Current state:
+[describe current workflow, tools, team]
+
+Requirements:
+- Must integrate with: [list existing tools]
+- Compliance requirements: [list any]
+- Budget constraints: [specify]
+- Timeline: [specify]
+
+Generate:
+1. Phase 1 (Week 1-2): Quick wins and setup
+2. Phase 2 (Week 3-4): Core automation
+3. Phase 3 (Month 2): Optimization and scaling
+4. Success metrics and how to measure them
+5. Risk mitigation plan
+```
+
+**Prompt 3: Performance Analysis**
+```
+Analyze the performance data from our automation automation.
+
+Data:
+[paste metrics, logs, or results]
+
+Evaluate:
+1. What's working well and why
+2. What's underperforming and root causes
+3. Specific optimizations to improve results
+4. Benchmark comparison against industry standards
+5. Recommendations for next quarter
+```
+
+:::
+
+## 10. AI Risk Scorer
+
+> Risk prediction: 84% accurate. Loss prevention: $4.2M/year saved.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/064-ai-risk-scorer.mp4" type="video/mp4">
+</video>
+
+:::
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Risk Registers Give Equal Weight to Everything and Predict Nothing**
+
+Subjective risk scoring creates a false sense of security; the real threats hide in the noise. This isn't just an inconvenience — it's a measurable drag on the business. Teams that face this challenge report spending an average of 15-30 hours per week on manual workarounds that could be automated.
+
+The real cost goes beyond the immediate time waste. When risk managers are stuck in reactive mode, strategic work doesn't happen. Opportunities are missed. Competitors who have solved this problem move faster, ship sooner, and serve customers better.
+
+Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
+
+**How COCO Solves It**
+
+1. **Scores risks using quantitative**: Scores risks using quantitative models: probability x impact x velocity. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+2. **Continuously updates scores based**: Continuously updates scores based on new data and trigger events. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+3. **Cascading risk analysis: "If**: Cascading risk analysis: "If A fails, what else breaks?". COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Risk Prediction**: 84% accurate
+- **Loss Prevention**: $4.2M/year
+- **Assessment Time**: 2 weeks → 2 hours
+- **Team satisfaction**: Significant improvement reported
+- **Time to value**: Results visible within first week
+- **ROI payback**: Typically under 30 days
+
+**Who Benefits**
+
+- **Risk Manager**: Direct time savings and improved outcomes from automated analysis
+- **CISO**: Direct time savings and improved outcomes from automated analysis
+- **COO**: Direct time savings and improved outcomes from automated analysis
+- **Leadership**: Better visibility, faster decisions, and measurable ROI
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Initial Assessment**
+```
+Analyze the current state of our analysis workflow. Here is our context:
+
+- Team size: [number]
+- Current tools: [list tools]
+- Volume: [describe scale]
+- Key pain points: [list top 3]
+
+Provide:
+1. A diagnostic of where time and money are being wasted
+2. Quick wins that can be implemented this week
+3. A 30-day optimization roadmap
+4. Expected ROI with conservative estimates
+```
+
+**Prompt 2: Implementation Plan**
+```
+Create a detailed implementation plan for automating our analysis process.
+
+Current state:
+[describe current workflow, tools, team]
+
+Requirements:
+- Must integrate with: [list existing tools]
+- Compliance requirements: [list any]
+- Budget constraints: [specify]
+- Timeline: [specify]
+
+Generate:
+1. Phase 1 (Week 1-2): Quick wins and setup
+2. Phase 2 (Week 3-4): Core automation
+3. Phase 3 (Month 2): Optimization and scaling
+4. Success metrics and how to measure them
+5. Risk mitigation plan
+```
+
+**Prompt 3: Performance Analysis**
+```
+Analyze the performance data from our analysis automation.
+
+Data:
+[paste metrics, logs, or results]
+
+Evaluate:
+1. What's working well and why
+2. What's underperforming and root causes
+3. Specific optimizations to improve results
+4. Benchmark comparison against industry standards
+5. Recommendations for next quarter
+```
+
+:::
+

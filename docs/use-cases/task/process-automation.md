@@ -1846,3 +1846,651 @@ Provide a specific "meeting diet" recommendation: what to keep, cut, shorten, me
 
 :::
 
+## 12. AI Code Migrator
+
+> 2.3M lines legacy code migration: 8 years → 14 months. Defect rate: 23% → 3.1%.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/035-ai-code-migrator.mp4" type="video/mp4">
+</video>
+
+:::
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Legacy Code Is a Ticking Time Bomb With a Retirement Clock**
+
+Manual migration averages 1,200 lines per developer per week with a 23% defect rate. This isn't just an inconvenience — it's a measurable drag on the business. Teams that face this challenge report spending an average of 15-30 hours per week on manual workarounds that could be automated.
+
+The real cost goes beyond the immediate time waste. When software engineers are stuck in reactive mode, strategic work doesn't happen. Opportunities are missed. Competitors who have solved this problem move faster, ship sooner, and serve customers better.
+
+Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
+
+**How COCO Solves It**
+
+1. **Analyzes legacy code patterns**: Analyzes legacy code patterns and generates equivalent modern code. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+2. **Preserves business logic while**: Preserves business logic while modernizing architecture. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+3. **Auto-generates test suites to**: Auto-generates test suites to validate migration accuracy. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Migration Speed**: 1.2K lines/wk → 18K lines/wk
+- **Defect Rate**: 23% → 3.1%
+- **Timeline**: 8 years → 14 months
+- **Team satisfaction**: Significant improvement reported
+- **Time to value**: Results visible within first week
+- **ROI payback**: Typically under 30 days
+
+**Who Benefits**
+
+- **Software Engineer**: Direct time savings and improved outcomes from automated automation
+- **Tech Lead**: Direct time savings and improved outcomes from automated automation
+- **CTO**: Direct time savings and improved outcomes from automated automation
+- **Leadership**: Better visibility, faster decisions, and measurable ROI
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Initial Assessment**
+```
+Analyze the current state of our automation workflow. Here is our context:
+
+- Team size: [number]
+- Current tools: [list tools]
+- Volume: [describe scale]
+- Key pain points: [list top 3]
+
+Provide:
+1. A diagnostic of where time and money are being wasted
+2. Quick wins that can be implemented this week
+3. A 30-day optimization roadmap
+4. Expected ROI with conservative estimates
+```
+
+**Prompt 2: Implementation Plan**
+```
+Create a detailed implementation plan for automating our automation process.
+
+Current state:
+[describe current workflow, tools, team]
+
+Requirements:
+- Must integrate with: [list existing tools]
+- Compliance requirements: [list any]
+- Budget constraints: [specify]
+- Timeline: [specify]
+
+Generate:
+1. Phase 1 (Week 1-2): Quick wins and setup
+2. Phase 2 (Week 3-4): Core automation
+3. Phase 3 (Month 2): Optimization and scaling
+4. Success metrics and how to measure them
+5. Risk mitigation plan
+```
+
+**Prompt 3: Performance Analysis**
+```
+Analyze the performance data from our automation automation.
+
+Data:
+[paste metrics, logs, or results]
+
+Evaluate:
+1. What's working well and why
+2. What's underperforming and root causes
+3. Specific optimizations to improve results
+4. Benchmark comparison against industry standards
+5. Recommendations for next quarter
+```
+
+:::
+
+## 13. AI Dependency Manager
+
+> Manages 1,847 dependencies. 23 CVEs → 0. Update success rate: 94%.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/039-ai-dependency-manager.mp4" type="video/mp4">
+</video>
+
+:::
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Outdated Dependencies Are Technical Debt With Compounding Interest**
+
+Updating one package breaks 14 others; teams delay updates until a breach forces their hand. This isn't just an inconvenience — it's a measurable drag on the business. Teams that face this challenge report spending an average of 15-30 hours per week on manual workarounds that could be automated.
+
+The real cost goes beyond the immediate time waste. When software engineers are stuck in reactive mode, strategic work doesn't happen. Opportunities are missed. Competitors who have solved this problem move faster, ship sooner, and serve customers better.
+
+Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
+
+**How COCO Solves It**
+
+1. **Maps the full dependency**: Maps the full dependency graph and identifies safe update paths. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+2. **Auto-tests each update in**: Auto-tests each update in isolation before merging. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+3. **Prioritizes updates by security**: Prioritizes updates by security severity and breaking risk. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **CVE Exposure**: 23 → 0
+- **Update Success**: 94%
+- **Engineering Time**: 20 hrs/mo → 2 hrs/mo
+- **Team satisfaction**: Significant improvement reported
+- **Time to value**: Results visible within first week
+- **ROI payback**: Typically under 30 days
+
+**Who Benefits**
+
+- **Software Engineer**: Direct time savings and improved outcomes from automated automation
+- **DevOps**: Direct time savings and improved outcomes from automated automation
+- **Security**: Direct time savings and improved outcomes from automated automation
+- **Leadership**: Better visibility, faster decisions, and measurable ROI
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Initial Assessment**
+```
+Analyze the current state of our automation workflow. Here is our context:
+
+- Team size: [number]
+- Current tools: [list tools]
+- Volume: [describe scale]
+- Key pain points: [list top 3]
+
+Provide:
+1. A diagnostic of where time and money are being wasted
+2. Quick wins that can be implemented this week
+3. A 30-day optimization roadmap
+4. Expected ROI with conservative estimates
+```
+
+**Prompt 2: Implementation Plan**
+```
+Create a detailed implementation plan for automating our automation process.
+
+Current state:
+[describe current workflow, tools, team]
+
+Requirements:
+- Must integrate with: [list existing tools]
+- Compliance requirements: [list any]
+- Budget constraints: [specify]
+- Timeline: [specify]
+
+Generate:
+1. Phase 1 (Week 1-2): Quick wins and setup
+2. Phase 2 (Week 3-4): Core automation
+3. Phase 3 (Month 2): Optimization and scaling
+4. Success metrics and how to measure them
+5. Risk mitigation plan
+```
+
+**Prompt 3: Performance Analysis**
+```
+Analyze the performance data from our automation automation.
+
+Data:
+[paste metrics, logs, or results]
+
+Evaluate:
+1. What's working well and why
+2. What's underperforming and root causes
+3. Specific optimizations to improve results
+4. Benchmark comparison against industry standards
+5. Recommendations for next quarter
+```
+
+:::
+
+## 14. AI Demo Personalizer
+
+> Demo prep: 4 hours → 15 minutes. Demo-to-close rate: 18% → 34%.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/046-ai-demo-personalizer.mp4" type="video/mp4">
+</video>
+
+:::
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Generic Demos Lose Deals Before the Conversation Starts**
+
+Sales engineers spend 4 hours customizing each demo; still miss what the prospect actually cares about. This isn't just an inconvenience — it's a measurable drag on the business. Teams that face this challenge report spending an average of 15-30 hours per week on manual workarounds that could be automated.
+
+The real cost goes beyond the immediate time waste. When sales engineers are stuck in reactive mode, strategic work doesn't happen. Opportunities are missed. Competitors who have solved this problem move faster, ship sooner, and serve customers better.
+
+Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
+
+**How COCO Solves It**
+
+1. **Auto-researches the prospect and**: Auto-researches the prospect and builds industry-specific demo flows. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+2. **Populates demo with relevant**: Populates demo with relevant data, logos, and terminology. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+3. **Suggests talking points based**: Suggests talking points based on the prospect's tech stack and pain points. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Demo Prep**: 4 hrs → 15 min
+- **Demo-to-Close**: 18% → 34%
+- **SE Capacity**: +3x demos/wk
+- **Team satisfaction**: Significant improvement reported
+- **Time to value**: Results visible within first week
+- **ROI payback**: Typically under 30 days
+
+**Who Benefits**
+
+- **Sales Engineer**: Direct time savings and improved outcomes from automated automation
+- **Account Executive**: Direct time savings and improved outcomes from automated automation
+- **Solutions Architect**: Direct time savings and improved outcomes from automated automation
+- **Leadership**: Better visibility, faster decisions, and measurable ROI
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Initial Assessment**
+```
+Analyze the current state of our automation workflow. Here is our context:
+
+- Team size: [number]
+- Current tools: [list tools]
+- Volume: [describe scale]
+- Key pain points: [list top 3]
+
+Provide:
+1. A diagnostic of where time and money are being wasted
+2. Quick wins that can be implemented this week
+3. A 30-day optimization roadmap
+4. Expected ROI with conservative estimates
+```
+
+**Prompt 2: Implementation Plan**
+```
+Create a detailed implementation plan for automating our automation process.
+
+Current state:
+[describe current workflow, tools, team]
+
+Requirements:
+- Must integrate with: [list existing tools]
+- Compliance requirements: [list any]
+- Budget constraints: [specify]
+- Timeline: [specify]
+
+Generate:
+1. Phase 1 (Week 1-2): Quick wins and setup
+2. Phase 2 (Week 3-4): Core automation
+3. Phase 3 (Month 2): Optimization and scaling
+4. Success metrics and how to measure them
+5. Risk mitigation plan
+```
+
+**Prompt 3: Performance Analysis**
+```
+Analyze the performance data from our automation automation.
+
+Data:
+[paste metrics, logs, or results]
+
+Evaluate:
+1. What's working well and why
+2. What's underperforming and root causes
+3. Specific optimizations to improve results
+4. Benchmark comparison against industry standards
+5. Recommendations for next quarter
+```
+
+:::
+
+## 15. AI Chatbot Trainer
+
+> Chatbot resolution: 27% → 78%. Training: 6 months → 2 weeks. CSAT: 3.1 → 4.4.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/050-ai-chatbot-trainer.mp4" type="video/mp4">
+</video>
+
+:::
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Most Chatbots Make Customers Angrier Than No Chatbot At All**
+
+Building a useful chatbot takes 6 months of manual intent mapping and still handles only 27% of queries. This isn't just an inconvenience — it's a measurable drag on the business. Teams that face this challenge report spending an average of 15-30 hours per week on manual workarounds that could be automated.
+
+The real cost goes beyond the immediate time waste. When support directors are stuck in reactive mode, strategic work doesn't happen. Opportunities are missed. Competitors who have solved this problem move faster, ship sooner, and serve customers better.
+
+Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
+
+**How COCO Solves It**
+
+1. **Analyzes historical support tickets**: Analyzes historical support tickets to auto-generate intents and responses. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+2. **Learns from human agent**: Learns from human agent corrections in real-time. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+3. **Handles complex multi-turn conversations**: Handles complex multi-turn conversations with context memory. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Resolution Rate**: 27% → 78%
+- **Training Time**: 6 months → 2 weeks
+- **CSAT**: 3.1 → 4.4
+- **Team satisfaction**: Significant improvement reported
+- **Time to value**: Results visible within first week
+- **ROI payback**: Typically under 30 days
+
+**Who Benefits**
+
+- **Support Director**: Direct time savings and improved outcomes from automated automation
+- **CX Lead**: Direct time savings and improved outcomes from automated automation
+- **IT Manager**: Direct time savings and improved outcomes from automated automation
+- **Leadership**: Better visibility, faster decisions, and measurable ROI
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Initial Assessment**
+```
+Analyze the current state of our automation workflow. Here is our context:
+
+- Team size: [number]
+- Current tools: [list tools]
+- Volume: [describe scale]
+- Key pain points: [list top 3]
+
+Provide:
+1. A diagnostic of where time and money are being wasted
+2. Quick wins that can be implemented this week
+3. A 30-day optimization roadmap
+4. Expected ROI with conservative estimates
+```
+
+**Prompt 2: Implementation Plan**
+```
+Create a detailed implementation plan for automating our automation process.
+
+Current state:
+[describe current workflow, tools, team]
+
+Requirements:
+- Must integrate with: [list existing tools]
+- Compliance requirements: [list any]
+- Budget constraints: [specify]
+- Timeline: [specify]
+
+Generate:
+1. Phase 1 (Week 1-2): Quick wins and setup
+2. Phase 2 (Week 3-4): Core automation
+3. Phase 3 (Month 2): Optimization and scaling
+4. Success metrics and how to measure them
+5. Risk mitigation plan
+```
+
+**Prompt 3: Performance Analysis**
+```
+Analyze the performance data from our automation automation.
+
+Data:
+[paste metrics, logs, or results]
+
+Evaluate:
+1. What's working well and why
+2. What's underperforming and root causes
+3. Specific optimizations to improve results
+4. Benchmark comparison against industry standards
+5. Recommendations for next quarter
+```
+
+:::
+
+## 16. AI Training Recommender
+
+> Training completion: 23% → 71%. Skill gaps closed: 64% in 6 months.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/056-ai-training-recommender.mp4" type="video/mp4">
+</video>
+
+:::
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Training Budgets Burn While Employees Learn Nothing Relevant**
+
+One-size-fits-all training wastes budget and employee time; skills gaps persist where they matter most. This isn't just an inconvenience — it's a measurable drag on the business. Teams that face this challenge report spending an average of 15-30 hours per week on manual workarounds that could be automated.
+
+The real cost goes beyond the immediate time waste. When l&d managers are stuck in reactive mode, strategic work doesn't happen. Opportunities are missed. Competitors who have solved this problem move faster, ship sooner, and serve customers better.
+
+Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
+
+**How COCO Solves It**
+
+1. **Maps individual skill gaps**: Maps individual skill gaps against role requirements and career goals. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+2. **Recommends personalized learning paths**: Recommends personalized learning paths from your existing content library. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+3. **Tracks skill development and**: Tracks skill development and correlates with performance outcomes. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Completion Rate**: 23% → 71%
+- **Skill Gap Closure**: 64% in 6 months
+- **Training ROI**: +180%
+- **Team satisfaction**: Significant improvement reported
+- **Time to value**: Results visible within first week
+- **ROI payback**: Typically under 30 days
+
+**Who Benefits**
+
+- **L&D Manager**: Direct time savings and improved outcomes from automated automation
+- **HR Director**: Direct time savings and improved outcomes from automated automation
+- **People Ops**: Direct time savings and improved outcomes from automated automation
+- **Leadership**: Better visibility, faster decisions, and measurable ROI
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Initial Assessment**
+```
+Analyze the current state of our automation workflow. Here is our context:
+
+- Team size: [number]
+- Current tools: [list tools]
+- Volume: [describe scale]
+- Key pain points: [list top 3]
+
+Provide:
+1. A diagnostic of where time and money are being wasted
+2. Quick wins that can be implemented this week
+3. A 30-day optimization roadmap
+4. Expected ROI with conservative estimates
+```
+
+**Prompt 2: Implementation Plan**
+```
+Create a detailed implementation plan for automating our automation process.
+
+Current state:
+[describe current workflow, tools, team]
+
+Requirements:
+- Must integrate with: [list existing tools]
+- Compliance requirements: [list any]
+- Budget constraints: [specify]
+- Timeline: [specify]
+
+Generate:
+1. Phase 1 (Week 1-2): Quick wins and setup
+2. Phase 2 (Week 3-4): Core automation
+3. Phase 3 (Month 2): Optimization and scaling
+4. Success metrics and how to measure them
+5. Risk mitigation plan
+```
+
+**Prompt 3: Performance Analysis**
+```
+Analyze the performance data from our automation automation.
+
+Data:
+[paste metrics, logs, or results]
+
+Evaluate:
+1. What's working well and why
+2. What's underperforming and root causes
+3. Specific optimizations to improve results
+4. Benchmark comparison against industry standards
+5. Recommendations for next quarter
+```
+
+:::
+
+## 17. AI Document Classifier
+
+> Document search: 18 min → 30 sec. Misclassification: 34% → 3%.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/063-ai-document-classifier.mp4" type="video/mp4">
+</video>
+
+:::
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: The Document You Need Is Always in the Last Place You Look**
+
+47% of employees can't find documents they need; average search time is 18 minutes per document. This isn't just an inconvenience — it's a measurable drag on the business. Teams that face this challenge report spending an average of 15-30 hours per week on manual workarounds that could be automated.
+
+The real cost goes beyond the immediate time waste. When knowledge managers are stuck in reactive mode, strategic work doesn't happen. Opportunities are missed. Competitors who have solved this problem move faster, ship sooner, and serve customers better.
+
+Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
+
+**How COCO Solves It**
+
+1. **Auto-categorizes documents by type,**: Auto-categorizes documents by type, project, department, and sensitivity. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+2. **Extracts key metadata: dates,**: Extracts key metadata: dates, parties, amounts, obligations. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+3. **Routes documents to correct**: Routes documents to correct storage and applies retention policies. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Search Time**: 18 min → 30 sec
+- **Misclassification**: 34% → 3%
+- **Productivity Saved**: 7 hrs/employee/mo
+- **Team satisfaction**: Significant improvement reported
+- **Time to value**: Results visible within first week
+- **ROI payback**: Typically under 30 days
+
+**Who Benefits**
+
+- **Knowledge Manager**: Direct time savings and improved outcomes from automated automation
+- **IT Director**: Direct time savings and improved outcomes from automated automation
+- **Operations**: Direct time savings and improved outcomes from automated automation
+- **Leadership**: Better visibility, faster decisions, and measurable ROI
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Initial Assessment**
+```
+Analyze the current state of our automation workflow. Here is our context:
+
+- Team size: [number]
+- Current tools: [list tools]
+- Volume: [describe scale]
+- Key pain points: [list top 3]
+
+Provide:
+1. A diagnostic of where time and money are being wasted
+2. Quick wins that can be implemented this week
+3. A 30-day optimization roadmap
+4. Expected ROI with conservative estimates
+```
+
+**Prompt 2: Implementation Plan**
+```
+Create a detailed implementation plan for automating our automation process.
+
+Current state:
+[describe current workflow, tools, team]
+
+Requirements:
+- Must integrate with: [list existing tools]
+- Compliance requirements: [list any]
+- Budget constraints: [specify]
+- Timeline: [specify]
+
+Generate:
+1. Phase 1 (Week 1-2): Quick wins and setup
+2. Phase 2 (Week 3-4): Core automation
+3. Phase 3 (Month 2): Optimization and scaling
+4. Success metrics and how to measure them
+5. Risk mitigation plan
+```
+
+**Prompt 3: Performance Analysis**
+```
+Analyze the performance data from our automation automation.
+
+Data:
+[paste metrics, logs, or results]
+
+Evaluate:
+1. What's working well and why
+2. What's underperforming and root causes
+3. Specific optimizations to improve results
+4. Benchmark comparison against industry standards
+5. Recommendations for next quarter
+```
+
+:::
+
