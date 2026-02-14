@@ -1,6 +1,6 @@
 # Use Cases
 
-Discover 60+ real-world scenarios where COCO AI employees save time and money. Browse by **Role**, **Task**, or **Industry**.
+Discover 100+ real-world scenarios where COCO AI employees save time and money. Browse by **Role**, **Task**, or **Industry**.
 
 ## Browse by Role
 

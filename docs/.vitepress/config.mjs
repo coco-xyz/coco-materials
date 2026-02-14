@@ -205,12 +205,12 @@ export default defineConfig({
     siteTitle: false,
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/coco-xyz/coco-materials' },
+      { icon: 'github', link: 'https://github.com/coco-xyz' },
       { icon: 'x', link: 'https://x.com/CocoAIxyz' },
     ],
 
     footer: {
-      message: 'AI Digital Employee Platform',
+      message: '<a href="https://github.com/coco-xyz" target="_blank">COCO GitHub</a> · <a href="https://github.com/zylos-ai" target="_blank">Zylos GitHub</a> · AI Digital Employee Platform',
       copyright: '© 2026 COCO. All rights reserved.',
     },
 
