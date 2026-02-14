@@ -14,7 +14,7 @@
 | [客服](./role/customer-support) | 工单分类、知识库、多语言、VIP升级、Chatbot训练、FAQ生成 | 5分钟/工单→即时 |
 | [HR/招聘](./role/hr-recruiting) | 简历筛选、JD撰写、面试排期、入职助手、员工脉搏、培训推荐、薪酬对标、绩效撰写 | 3天→2小时 |
 | [财务](./role/finance) | 费用审核、财务报告、发票处理、现金流预测、合规检查 | 2天→3小时 |
-| [运营](./role/operations) | 会议纪要、库存预测、供应商评估、SLA跟踪、政策更新、流程挖掘、文档分类、风险评分 | 30分钟→即时 |
+| [运营](./role/operations) | 会议纪要、库存预测、供应商评估、SLA跟踪、政策更新、流程挖掘、文档分类、风险评分、数据录入自动化 | 30分钟→即时 |
 
 ## 按任务浏览
 
@@ -101,3 +101,4 @@
 | 58 | [AI流程挖掘](/zh/use-cases/role/operations#_8-ai流程挖掘) | 运营 | 3周→2天 |
 | 59 | [AI文档分类](/zh/use-cases/role/operations#_9-ai文档分类) | 运营 | 5分钟/份→即时 |
 | 60 | [AI风险评分](/zh/use-cases/role/operations#_10-ai风险评分) | 运营 | 2天→2小时 |
+| 61 | [AI数据录入自动化](/zh/use-cases/role/operations#_11-ai数据录入自动化) | 运营 | 手动录入减少94% |

@@ -14,7 +14,7 @@ Find use cases for your specific job function:
 | [Customer Support](./role/customer-support) | Ticket Classification, Knowledge Base, Multi-language, VIP Escalation, Chatbot Trainer, FAQ Generator | 5min/ticket → instant |
 | [HR / Recruiting](./role/hr-recruiting) | Resume Screening, JD Writing, Interview Scheduling, Onboarding, Employee Pulse, Training Recommender, Comp Benchmarker, Review Writer | 3 days → 2 hours |
 | [Finance](./role/finance) | Expense Auditing, Financial Reports, Invoice Processing, Cash Flow Forecaster, Compliance Checker | 2 days → 3 hours |
-| [Operations](./role/operations) | Meeting Notes, Inventory Forecasting, Vendor Evaluation, SLA Tracker, Policy Updater, Process Miner, Document Classifier, Risk Scorer | 30min → instant |
+| [Operations](./role/operations) | Meeting Notes, Inventory Forecasting, Vendor Evaluation, SLA Tracker, Policy Updater, Process Miner, Document Classifier, Risk Scorer, Data Entry Automator | 30min → instant |
 
 ## Browse by Task
 
@@ -101,3 +101,4 @@ Find use cases by what you need to get done:
 | 58 | [AI Process Miner](/use-cases/role/operations#_8-ai-process-miner) | Operations | 3 weeks → 2 days |
 | 59 | [AI Document Classifier](/use-cases/role/operations#_9-ai-document-classifier) | Operations | 5min/doc → instant |
 | 60 | [AI Risk Scorer](/use-cases/role/operations#_10-ai-risk-scorer) | Operations | 2 days → 2 hours |
+| 61 | [AI Data Entry Automator](/use-cases/role/operations#_11-ai-data-entry-automator) | Operations | 94% less manual entry |
