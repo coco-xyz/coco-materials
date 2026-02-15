@@ -13,6 +13,9 @@ Connect your AI employee to Telegram or Lark (Feishu) in minutes. Detailed deplo
 ### [First-Time Tutorial](./first-time-tutorial)
 New to COCO? Start here. Learn how to choose your AI employee's role, give it tasks, and get results. No technical skills needed.
 
+### [Important Notes](./tips)
+Group/private chat settings, long-term memory & SOP storage, message limits, file handling, and other usage notes.
+
 ---
 
 > **Total setup time: 10-20 minutes.** No technical background required.
