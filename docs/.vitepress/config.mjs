@@ -3,7 +3,6 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: process.env.VITEPRESS_BASE || '/',
   cleanUrls: true,
-  outline: [2, 3],
 
   vite: {
     server: {
@@ -25,6 +24,7 @@ export default defineConfig({
       title: 'COCO Docs',
       description: 'AI Digital Employee — Use Cases, Resources & Documentation',
       themeConfig: {
+        outline: { level: [2, 3] },
         nav: [
           { text: 'Home', link: '/' },
           { text: 'Getting Started', link: '/getting-started/' },
@@ -189,7 +189,7 @@ export default defineConfig({
             },
           ],
         },
-        outlineTitle: '本页目录',
+        outline: { level: [2, 3], label: '本页目录' },
         lastUpdatedText: '最后更新',
         docFooter: {
           prev: '上一页',
