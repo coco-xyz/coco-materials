@@ -41,6 +41,7 @@ export default defineConfig({
                 { text: 'Registration & Payment', link: '/getting-started/registration-payment' },
                 { text: 'Channel Deployment', link: '/getting-started/channel-deployment' },
                 { text: 'First-Time Tutorial', link: '/getting-started/first-time-tutorial' },
+                { text: 'Important Notes', link: '/getting-started/tips' },
               ]
             },
           ],
@@ -126,6 +127,7 @@ export default defineConfig({
                 { text: '注册与支付', link: '/zh/getting-started/registration-payment' },
                 { text: '渠道部署指南', link: '/zh/getting-started/channel-deployment' },
                 { text: '首次使用教程', link: '/zh/getting-started/first-time-tutorial' },
+                { text: '注意事项', link: '/zh/getting-started/tips' },
               ]
             },
           ],
