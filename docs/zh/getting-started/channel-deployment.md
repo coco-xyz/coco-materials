@@ -53,12 +53,17 @@
    - 建议使用COCO logo或你公司logo
 
 ### 第3步：在COCO Dashboard绑定
+
+> **免费试用期提示：** 在免费试用期间，支付和自动化配置步骤将被跳过。完成 Bot 创建后，请将你的 **Bot Token** 提供给 COCO 技术团队，我们将人工协助完成配置。配置过程可能需要一定时间，我们会在 **24小时内** 为你完成部署。
+
+<!--
 1. 登录 [COCO Dashboard](https://coco.xyz/dashboard)
 2. 进入 **Connect** 或 **Channels** 页面
 3. 选择 **Telegram**
 4. 粘贴上一步获取的 Bot Token
 5. 点击 **验证并连接**
 6. 系统会自动验证Token有效性并完成连接
+-->
 
 ### 第4步：开始使用
 1. 在Telegram中搜索你创建的Bot用户名（如 `@my_coco_ai_bot`）
@@ -163,9 +168,11 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 
 #### 第5步：配置事件订阅
 
+> **前置步骤：** 在配置事件订阅之前，你需要先在 [COCO Dashboard](https://coco.xyz/dashboard) 中选择一个 **用户名（username）**。这个用户名将作为你的专属域名的一部分，用于生成 Webhook 地址，格式为：`https://<username>.coco.xyz/webhook/lark/`。由于用户名需要全局唯一，系统可能会在你选择的名称中添加额外字符（如 `-`）以确保唯一性。
+
 1. 在应用管理页面，进入左侧 **事件与回调**
 2. 在「事件配置」标签下，选择订阅方式为 **将事件发送至开发者服务器**
-3. 在 **请求地址** 中填入COCO平台提供的Webhook URL，格式如：`https://api.coco.xyz/webhook/lark/{your-instance-id}`
+3. 在 **请求地址** 中填入你的专属 Webhook URL：`https://<username>.coco.xyz/webhook/lark/`（将 `<username>` 替换为你在 COCO 平台注册的用户名）
 
 ![事件与回调 — 选择「将事件发送至开发者服务器」，填入COCO提供的Webhook地址](/feishu-events.png)
 
@@ -176,6 +183,9 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 
 #### 第6步：在COCO平台绑定
 
+> **免费试用期提示：** 在免费试用期间，支付和自动化配置步骤将被跳过。完成上述飞书端配置后，请将你的 **App ID**、**App Secret**、**Verification Token** 和 **Encrypt Key**（如有）提供给 COCO 技术团队，我们将人工协助完成配置。配置过程可能需要一定时间，我们会在 **24小时内** 为你完成部署。
+
+<!--
 1. 登录 [COCO Dashboard](https://coco.xyz/dashboard)
 2. 进入 **Connect** 或 **Channels** 页面
 3. 选择 **飞书**
@@ -190,6 +200,7 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 
 5. 点击 **验证并连接**
 6. 系统会自动完成Webhook配置并验证连通性
+-->
 
 #### 第7步：启用机器人并添加到群组
 
@@ -250,7 +261,7 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 #### 第4步：配置事件订阅
 
 1. 在应用管理页面，进入 **Events & Callbacks**
-2. 配置 **Request URL**：由COCO平台提供，格式如：`https://api.coco.xyz/webhook/lark/{your-instance-id}`
+2. 配置 **Request URL**：填入你的专属 Webhook URL：`https://<username>.coco.xyz/webhook/lark/`（将 `<username>` 替换为你在 COCO 平台注册的用户名）
 3. 订阅以下事件：
    - `im.message.receive_v1` — Receive messages
    - `im.chat.member.bot.added_v1` — Bot added to group（可选）
@@ -258,6 +269,9 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 
 #### 第5步：在COCO平台绑定
 
+> **免费试用期提示：** 在免费试用期间，支付和自动化配置步骤将被跳过。完成上述 Lark 端配置后，请将你的 **App ID**、**App Secret**、**Verification Token** 和 **Encrypt Key**（如有）提供给 COCO 技术团队，我们将人工协助完成配置。配置过程可能需要一定时间，我们会在 **24小时内** 为你完成部署。
+
+<!--
 1. 登录 [COCO Dashboard](https://coco.xyz/dashboard)
 2. 进入 **Connect** 或 **Channels** 页面
 3. 选择 **Lark**
@@ -272,6 +286,7 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 
 5. 点击 **验证并连接**
 6. 系统会自动完成Webhook配置并验证连通性
+-->
 
 #### 第6步：启用机器人并添加到群组
 

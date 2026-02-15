@@ -53,12 +53,17 @@ In @BotFather:
    - Recommended: Use COCO logo or your company logo
 
 ### Step 3: Connect in COCO Dashboard
+
+> **Free Trial Note:** During the free trial period, payment and automated setup steps are skipped. After creating your Bot, please provide your **Bot Token** to the COCO technical team. Our team will manually assist with the configuration. This may take some time — we will complete your deployment within **24 hours**.
+
+<!--
 1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
 2. Go to **Connect** or **Channels** page
 3. Select **Telegram**
 4. Paste the Bot Token from Step 1
 5. Click **Verify and Connect**
 6. System automatically validates the Token and completes connection
+-->
 
 ### Step 4: Start Using
 1. In Telegram, search for your Bot username (e.g., `@my_coco_ai_bot`)
@@ -130,15 +135,21 @@ After enabling, click **Create Version** and wait for admin approval.
 
 #### Step 4: Configure Event Subscription
 
+> **Prerequisite:** Before configuring event subscriptions, you need to first select a **username** in the [COCO Dashboard](https://coco.xyz/dashboard). This username becomes part of your dedicated domain, used to generate the Webhook URL in the format: `https://<username>.coco.xyz/webhook/lark/`. Since usernames must be globally unique, the system may append additional characters (such as `-`) to your chosen name to ensure uniqueness.
+
 1. In app management, go to **Events & Callbacks**
-2. Set **Request URL**: Provided by COCO, format: `https://api.coco.xyz/webhook/lark/{your-instance-id}`
-3. Subscribe to events:
+2. Under "Event Configuration", select **Send events to developer server**
+3. Set **Request URL**: `https://<username>.coco.xyz/webhook/lark/` (replace `<username>` with the username you registered on the COCO platform)
+4. Subscribe to events:
    - `im.message.receive_v1` — Receive messages (required)
    - `im.chat.member.bot.added_v1` — Bot added to group (optional)
-4. Note the **Verification Token** and **Encrypt Key** (if set)
+5. Click **Save**
 
 #### Step 5: Connect in COCO Dashboard
 
+> **Free Trial Note:** During the free trial period, payment and automated setup steps are skipped. After completing the Lark configuration above, please provide your **App ID**, **App Secret**, **Verification Token**, and **Encrypt Key** (if set) to the COCO technical team. Our team will manually assist with the configuration. This may take some time — we will complete your deployment within **24 hours**.
+
+<!--
 1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
 2. Go to **Connect** or **Channels** page
 3. Select **Lark**
@@ -153,6 +164,7 @@ After enabling, click **Create Version** and wait for admin approval.
 
 5. Click **Verify and Connect**
 6. System auto-configures Webhook and verifies connectivity
+-->
 
 #### Step 6: Enable Bot and Add to Groups
 
@@ -231,15 +243,21 @@ After enabling, click **发布版本** (Publish Version) and wait for admin appr
 
 #### Step 4: Configure Event Subscription
 
+> **Prerequisite:** Before configuring event subscriptions, you need to first select a **username** in the [COCO Dashboard](https://coco.xyz/dashboard). This username becomes part of your dedicated domain, used to generate the Webhook URL in the format: `https://<username>.coco.xyz/webhook/lark/`. Since usernames must be globally unique, the system may append additional characters (such as `-`) to your chosen name to ensure uniqueness.
+
 1. In app management, go to **事件与回调** (Events & Callbacks)
-2. Set **请求地址 (Request URL)**: Provided by COCO, format: `https://api.coco.xyz/webhook/lark/{your-instance-id}`
-3. Subscribe to events:
+2. Under "事件配置", select **将事件发送至开发者服务器** (Send events to developer server)
+3. Set **请求地址 (Request URL)**: `https://<username>.coco.xyz/webhook/lark/` (replace `<username>` with the username you registered on the COCO platform)
+4. Subscribe to events:
    - `im.message.receive_v1` — Receive messages
    - `im.chat.member.bot.added_v1` — Bot added to group (optional)
-4. Note the **Verification Token** and **Encrypt Key** (if set)
+5. Click **保存** (Save)
 
 #### Step 5: Connect in COCO Dashboard
 
+> **Free Trial Note:** During the free trial period, payment and automated setup steps are skipped. After completing the Feishu configuration above, please provide your **App ID**, **App Secret**, **Verification Token**, and **Encrypt Key** (if set) to the COCO technical team. Our team will manually assist with the configuration. This may take some time — we will complete your deployment within **24 hours**.
+
+<!--
 1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
 2. Go to **Connect** or **Channels** page
 3. Select **飞书 (Feishu)**
@@ -254,6 +272,7 @@ After enabling, click **发布版本** (Publish Version) and wait for admin appr
 
 5. Click **Verify and Connect**
 6. System auto-configures Webhook and verifies connectivity
+-->
 
 #### Step 6: Enable Bot and Add to Groups
 
