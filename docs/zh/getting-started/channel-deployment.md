@@ -127,7 +127,9 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 
 ![应用管理页面 — 先添加机器人能力](/feishu-app-capabilities.png)
 
-> **重要：** 必须先添加机器人能力，然后才能配置消息相关的权限（如 `im:message.group_at_msg:readonly`）。否则权限页面会提示「请在开启 bot 能力后，再申请开通此权限」。
+> **重要：** 必须先添加机器人能力，然后才能配置消息相关的权限（如 `im:message.group_at_msg:readonly`）。否则权限页面会提示「请在开启 bot 能力后，再申请开通此权限」，该权限的勾选框将无法选中：
+
+![未添加机器人能力时，im:message.group_at_msg:readonly 权限无法勾选](/feishu-permission-bot-required.png)
 
 #### 第4步：配置应用权限
 
