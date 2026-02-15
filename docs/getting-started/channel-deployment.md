@@ -188,9 +188,11 @@ After enabling, click **Create Version** and wait for admin approval.
 ![Fill in app name and description](/feishu-create-app-form.png)
 
 3. Click **创建** (Create) to finish
-4. After creation, go to the app management page and note down:
-   - **App ID** (under 「凭证与基础信息」)
-   - **App Secret** (under 「凭证与基础信息」)
+4. After creation, go to **凭证与基础信息** (Credentials & Basic Info) in the left sidebar and note down:
+   - **App ID**
+   - **App Secret**
+
+![Credentials page — Copy App ID and App Secret](/feishu-credentials.png)
 
 > **Tip:** Enterprise admin permissions are required. If you're not an admin, contact your IT department or use a Feishu personal account first.
 
