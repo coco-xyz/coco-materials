@@ -116,23 +116,23 @@ In the app management page, go to **Permissions & Scopes** and enable:
 | Send & receive messages | `im:message` | AI sends and receives messages |
 | Get group info | `im:chat:readonly` | Identify chat groups |
 | Get user info | `contact:user.base:readonly` | Identify users |
-| Receive message events | `im:message.receive_v1` | Real-time message reception |
 
 **Recommended Permissions (enhanced experience):**
 
 | Permission | Permission ID | Purpose |
 |-----------|---------------|---------|
 | Upload/download files | `im:resource` | AI handles files and images |
-| Send rich text | `im:message.rich_text` | Send formatted messages |
 
 After enabling, click **Create Version** and wait for admin approval.
+
+> **Note:** The message receiving capability (`im.message.receive_v1`) is configured as an Event Subscription in the next step, not as a permission. The `im:message` permission already includes the ability to send rich text messages.
 
 #### Step 4: Configure Event Subscription
 
 1. In app management, go to **Events & Callbacks**
 2. Set **Request URL**: Provided by COCO, format: `https://api.coco.xyz/webhook/lark/{your-instance-id}`
 3. Subscribe to events:
-   - `im.message.receive_v1` — Receive messages
+   - `im.message.receive_v1` — Receive messages (required)
    - `im.chat.member.bot.added_v1` — Bot added to group (optional)
 4. Note the **Verification Token** and **Encrypt Key** (if set)
 
@@ -217,16 +217,16 @@ In the permission search dialog, type the Permission ID (e.g., `im:message`), ch
 | 获取与发送消息 | `im:message` | AI sends and receives messages |
 | 获取群信息 | `im:chat:readonly` | Identify chat groups |
 | 获取用户信息 | `contact:user.base:readonly` | Identify users |
-| 接收消息事件 | `im:message.receive_v1` | Real-time message reception |
 
 **Recommended Permissions:**
 
 | Permission | Permission ID | Purpose |
 |-----------|---------------|---------|
 | 上传下载文件 | `im:resource` | AI handles files and images |
-| 发送富文本 | `im:message.rich_text` | Send formatted messages |
 
 After enabling, click **发布版本** (Publish Version) and wait for admin approval.
+
+> **Note:** Message receiving (`im.message.receive_v1`) is configured as an Event Subscription in the next step, not here. `im:message` already includes rich text sending.
 
 #### Step 4: Configure Event Subscription
 

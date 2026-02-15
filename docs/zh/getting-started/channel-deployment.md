@@ -137,23 +137,23 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 | 获取与发送消息 | `im:message` | AI收发消息 |
 | 获取群信息 | `im:chat:readonly` | 识别对话群组 |
 | 获取用户信息 | `contact:user.base:readonly` | 识别对话用户 |
-| 接收消息事件 | `im:message.receive_v1` | 实时接收用户消息 |
 
 **推荐权限（增强体验）：**
 
 | 权限 | 权限ID | 用途 |
 |------|--------|------|
 | 上传下载文件 | `im:resource` | AI处理文件和图片 |
-| 发送富文本 | `im:message.rich_text` | 发送格式化消息 |
 
 开启权限后，点击 **发布版本** 并等待管理员审批。
 
+> **注意：** 接收消息的能力（`im.message.receive_v1`）不在权限管理中配置，而是在下一步「事件与回调」中订阅。`im:message` 权限已包含发送富文本消息的能力。
+
 #### 第4步：配置事件订阅
 
-1. 在应用管理页面，进入 **事件与回调**
+1. 在应用管理页面，进入左侧 **事件与回调**
 2. 配置 **请求地址（Request URL）**：由COCO平台提供，格式如：`https://api.coco.xyz/webhook/lark/{your-instance-id}`
 3. 订阅以下事件：
-   - `im.message.receive_v1` — 接收消息
+   - `im.message.receive_v1` — 接收消息（必需）
    - `im.chat.member.bot.added_v1` — Bot被加入群组（可选）
 4. 记录页面上的 **Verification Token** 和 **Encrypt Key**（如有）
 
@@ -166,10 +166,10 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 
 | 字段 | 来源 |
 |------|------|
-| App ID | 飞书开放平台 → 应用凭证 |
-| App Secret | 飞书开放平台 → 应用凭证 |
-| Verification Token | 飞书开放平台 → 事件订阅 |
-| Encrypt Key（可选） | 飞书开放平台 → 事件订阅 |
+| App ID | 飞书开放平台 → 凭证与基础信息 |
+| App Secret | 飞书开放平台 → 凭证与基础信息 |
+| Verification Token | 飞书开放平台 → 事件与回调 |
+| Encrypt Key（可选） | 飞书开放平台 → 事件与回调 |
 
 5. 点击 **验证并连接**
 6. 系统会自动完成Webhook配置并验证连通性
@@ -219,16 +219,16 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 | Send & receive messages | `im:message` | AI收发消息 |
 | Get group info | `im:chat:readonly` | 识别对话群组 |
 | Get user info | `contact:user.base:readonly` | 识别对话用户 |
-| Receive message events | `im:message.receive_v1` | 实时接收用户消息 |
 
 **推荐权限（Recommended Permissions）：**
 
 | 权限 | Permission ID | 用途 |
 |------|---------------|------|
 | Upload/download files | `im:resource` | AI处理文件和图片 |
-| Send rich text | `im:message.rich_text` | 发送格式化消息 |
 
 开启权限后，点击 **Create Version** 并等待管理员审批。
+
+> **注意：** 接收消息的能力（`im.message.receive_v1`）在下一步「Events & Callbacks」中配置，不在权限管理中。
 
 #### 第4步：配置事件订阅
 
