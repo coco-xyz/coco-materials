@@ -210,6 +210,7 @@ In the Permission Management page, click **Enable Permissions** to search and ad
 | Permission | Permission ID | Purpose |
 |-----------|---------------|---------|
 | Send & receive messages | `im:message` | AI sends and receives messages |
+| Read group @bot messages | `im:message.group_at_msg:readonly` | Receive @mentions in groups (required, otherwise bot won't respond in group chats) |
 | Get group info | `im:chat:readonly` | Identify chat groups |
 | Get user info | `contact:user.base:readonly` | Identify users |
 
