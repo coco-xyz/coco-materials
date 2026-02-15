@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: process.env.VITEPRESS_BASE || '/',
   cleanUrls: true,
+  outline: [2, 3],
 
   vite: {
     server: {
