@@ -135,7 +135,7 @@ After enabling, click **Create Version** and wait for admin approval.
 
 #### Step 4: Configure Event Subscription
 
-> **Prerequisite:** Before configuring event subscriptions, you need to first select a **username** in the [COCO Dashboard](https://coco.xyz/dashboard). This username becomes part of your dedicated domain, used to generate the Webhook URL in the format: `https://<username>.coco.xyz/webhook/lark/`. Since usernames must be globally unique, the system may append additional characters (such as `-`) to your chosen name to ensure uniqueness.
+> **Prerequisite:** Before configuring event subscriptions, you need to choose a custom **username** — just pick any name you like. This username becomes part of your dedicated domain, used to generate the Webhook URL in the format: `https://<username>.coco.xyz/webhook/lark/`. Since usernames must be globally unique, the system may append additional characters (such as `-`) to your chosen name to ensure uniqueness.
 
 1. In app management, go to **Events & Callbacks**
 2. Under "Event Configuration", select **Send events to developer server**
@@ -226,7 +226,7 @@ After enabling, click **Publish Version** and wait for admin approval.
 
 #### Step 4: Configure Event Subscription
 
-> **Prerequisite:** Before configuring event subscriptions, you need to first select a **username** in the [COCO Dashboard](https://coco.xyz/dashboard). This username becomes part of your dedicated domain, used to generate the Webhook URL in the format: `https://<username>.coco.xyz/webhook/lark/`. Since usernames must be globally unique, the system may append additional characters (such as `-`) to your chosen name to ensure uniqueness.
+> **Prerequisite:** Before configuring event subscriptions, you need to choose a custom **username** — just pick any name you like. This username becomes part of your dedicated domain, used to generate the Webhook URL in the format: `https://<username>.coco.xyz/webhook/lark/`. Since usernames must be globally unique, the system may append additional characters (such as `-`) to your chosen name to ensure uniqueness.
 
 1. In app management, go to **Events & Callbacks**
 2. Under "Event Configuration", select **Send events to developer server**
