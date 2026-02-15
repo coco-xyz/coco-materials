@@ -8,13 +8,13 @@ Find use cases for your specific job function:
 
 | Role | Use Cases | Key Metric |
 |------|-----------|------------|
-| [Product / Dev](./role/product-dev) | Code Review, Test Gen, Deploy Monitor, API Docs, Debug, Code Migrator, Security Scanner, DB Optimizer, Bug Prioritizer, Incident Response, Sprint Planner, Release Notes, QA Auditor | 4h → 15min per PR |
-| [Content / Marketing](./role/content-marketing) | SEO Writing, Social Media, Ad Copy, Newsletter, Brand Monitor, Influencer Finder, Campaign Analyzer, Content Calendar, Persona Builder, Localization, ROI Dashboard, Social Listening | 3h/day → 15min |
-| [Sales](./role/sales) | Lead Research, CRM Updates, Proposals, Follow-ups, Sales Forecaster, Demo Personalizer, Territory Mapper, Win-Back Campaigner, Objection Handler, RFP Writer | 20 → 200 leads/day |
-| [Customer Support](./role/customer-support) | Ticket Classification, Knowledge Base, Multi-language, VIP Escalation, Chatbot Trainer, FAQ Generator, Customer Success Monitor, Onboarding Guide | 5min/ticket → instant |
-| [HR / Recruiting](./role/hr-recruiting) | Resume Screening, JD Writing, Interview Scheduling, Onboarding, Employee Pulse, Training Recommender, Comp Benchmarker, Review Writer, Offboarding Manager, Compliance Trainer | 3 days → 2 hours |
-| [Finance](./role/finance) | Expense Auditing, Financial Reports, Invoice Processing, Cash Flow Forecaster, Compliance Checker, Legal Drafter, Tax Assistant, Lease Reviewer, Board Report Compiler | 2 days → 3 hours |
-| [Operations](./role/operations) | Meeting Notes, Inventory Forecasting, Vendor Evaluation, SLA Tracker, Policy Updater, Process Miner, Document Classifier, Risk Scorer, Email Triage, Supply Chain Tracker, Workflow Automator | 30min → instant |
+| [Product / Dev](/use-cases/role/product-dev) | Code Review, Test Gen, Deploy Monitor, API Docs, Debug, Code Migrator, Security Scanner, DB Optimizer, Bug Prioritizer, Incident Response, Sprint Planner, Release Notes, QA Auditor | 4h → 15min per PR |
+| [Content / Marketing](/use-cases/role/content-marketing) | SEO Writing, Social Media, Ad Copy, Newsletter, Brand Monitor, Influencer Finder, Campaign Analyzer, Content Calendar, Persona Builder, Localization, ROI Dashboard, Social Listening | 3h/day → 15min |
+| [Sales](/use-cases/role/sales) | Lead Research, CRM Updates, Proposals, Follow-ups, Sales Forecaster, Demo Personalizer, Territory Mapper, Win-Back Campaigner, Objection Handler, RFP Writer | 20 → 200 leads/day |
+| [Customer Support](/use-cases/role/customer-support) | Ticket Classification, Knowledge Base, Multi-language, VIP Escalation, Chatbot Trainer, FAQ Generator, Customer Success Monitor, Onboarding Guide | 5min/ticket → instant |
+| [HR / Recruiting](/use-cases/role/hr-recruiting) | Resume Screening, JD Writing, Interview Scheduling, Onboarding, Employee Pulse, Training Recommender, Comp Benchmarker, Review Writer, Offboarding Manager, Compliance Trainer | 3 days → 2 hours |
+| [Finance](/use-cases/role/finance) | Expense Auditing, Financial Reports, Invoice Processing, Cash Flow Forecaster, Compliance Checker, Legal Drafter, Tax Assistant, Lease Reviewer, Board Report Compiler | 2 days → 3 hours |
+| [Operations](/use-cases/role/operations) | Meeting Notes, Inventory Forecasting, Vendor Evaluation, SLA Tracker, Policy Updater, Process Miner, Document Classifier, Risk Scorer, Email Triage, Supply Chain Tracker, Workflow Automator | 30min → instant |
 
 ## Browse by Task
 
@@ -22,18 +22,18 @@ Find use cases by what you need to get done:
 
 | Task Type | Examples | Use Cases |
 |-----------|----------|-----------|
-| [Writing & Content](./task/writing-content) | Documents, copy, reports, emails | SEO Writer, API Docs, Proposals, JDs, Newsletter, Technical Writer, Release Notes, RFP Writer |
-| [Data Analysis](./task/data-analysis) | Reports, metrics, insights | Financial Reports, Competitive Analysis, User Analytics, ROI Dashboard, Board Report, Demand Forecaster |
-| [Process Automation](./task/process-automation) | Workflows, approvals, routing | Ticket Classification, Expense Auditing, CRM Updates, Invoice Processing, Email Triage, Workflow Automator |
-| [Research & Monitoring](./task/research-monitoring) | Competitive intel, lead research, monitoring | Competitive Copywriter, Lead Researcher, Deploy Monitor, Social Listening, Patent Research |
+| [Writing & Content](/use-cases/task/writing-content) | Documents, copy, reports, emails | SEO Writer, API Docs, Proposals, JDs, Newsletter, Technical Writer, Release Notes, RFP Writer |
+| [Data Analysis](/use-cases/task/data-analysis) | Reports, metrics, insights | Financial Reports, Competitive Analysis, User Analytics, ROI Dashboard, Board Report, Demand Forecaster |
+| [Process Automation](/use-cases/task/process-automation) | Workflows, approvals, routing | Ticket Classification, Expense Auditing, CRM Updates, Invoice Processing, Email Triage, Workflow Automator |
+| [Research & Monitoring](/use-cases/task/research-monitoring) | Competitive intel, lead research, monitoring | Competitive Copywriter, Lead Researcher, Deploy Monitor, Social Listening, Patent Research |
 
 ## Browse by Industry
 
 | Industry | Key Scenarios |
 |----------|--------------|
-| [Technology / SaaS](./industry/technology) | Code Review, Deploy Monitor, API Docs, Debug Assistant, Incident Response, Data Pipeline Monitor |
-| [E-commerce / Retail](./industry/ecommerce) | Inventory Forecasting, Social Media, Customer Support, Demand Forecaster, Localization |
-| [Financial Services](./industry/financial-services) | Expense Auditing, Financial Reports, Compliance, Tax Preparation, Lease Review |
+| [Technology / SaaS](/use-cases/industry/technology) | Code Review, Deploy Monitor, API Docs, Debug Assistant, Incident Response, Data Pipeline Monitor |
+| [E-commerce / Retail](/use-cases/industry/ecommerce) | Inventory Forecasting, Social Media, Customer Support, Demand Forecaster, Localization |
+| [Financial Services](/use-cases/industry/financial-services) | Expense Auditing, Financial Reports, Compliance, Tax Preparation, Lease Review |
 
 ---
 

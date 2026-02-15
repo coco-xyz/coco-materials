@@ -8,13 +8,13 @@
 
 | 角色 | 用例 | 核心指标 |
 |------|------|---------|
-| [产品/研发](./role/product-dev) | 代码审查、测试生成、部署监控、API文档、Debug助手、代码迁移、安全扫描、数据库优化、Bug优先级、事件响应、冲刺规划、发版说明、QA审计 | 4小时→15分钟/PR |
-| [内容/营销](./role/content-marketing) | SEO写作、社媒管理、广告文案、Newsletter、品牌监控、KOL发现、活动分析、内容日历、用户画像、本地化管理、ROI仪表盘、社媒监听 | 3小时/天→15分钟 |
-| [销售](./role/sales) | 线索挖掘、CRM更新、方案生成、跟进邮件、销售预测、Demo个性化、区域规划、客户挽回、异议处理、RFP响应 | 20→200线索/天 |
-| [客服](./role/customer-support) | 工单分类、知识库、多语言、VIP升级、Chatbot训练、FAQ生成、客户成功监控、入驻引导 | 5分钟/工单→即时 |
-| [HR/招聘](./role/hr-recruiting) | 简历筛选、JD撰写、面试排期、入职助手、员工脉搏、培训推荐、薪酬对标、绩效撰写、离职管理、合规培训 | 3天→2小时 |
-| [财务](./role/finance) | 费用审核、财务报告、发票处理、现金流预测、合规检查、法律文档、税务准备、租赁审查、董事会报告 | 2天→3小时 |
-| [运营](./role/operations) | 会议纪要、库存预测、供应商评估、SLA跟踪、政策更新、流程挖掘、文档分类、风险评分、邮件分诊、供应链追踪、工作流自动化 | 30分钟→即时 |
+| [产品/研发](/zh/use-cases/role/product-dev) | 代码审查、测试生成、部署监控、API文档、Debug助手、代码迁移、安全扫描、数据库优化、Bug优先级、事件响应、冲刺规划、发版说明、QA审计 | 4小时→15分钟/PR |
+| [内容/营销](/zh/use-cases/role/content-marketing) | SEO写作、社媒管理、广告文案、Newsletter、品牌监控、KOL发现、活动分析、内容日历、用户画像、本地化管理、ROI仪表盘、社媒监听 | 3小时/天→15分钟 |
+| [销售](/zh/use-cases/role/sales) | 线索挖掘、CRM更新、方案生成、跟进邮件、销售预测、Demo个性化、区域规划、客户挽回、异议处理、RFP响应 | 20→200线索/天 |
+| [客服](/zh/use-cases/role/customer-support) | 工单分类、知识库、多语言、VIP升级、Chatbot训练、FAQ生成、客户成功监控、入驻引导 | 5分钟/工单→即时 |
+| [HR/招聘](/zh/use-cases/role/hr-recruiting) | 简历筛选、JD撰写、面试排期、入职助手、员工脉搏、培训推荐、薪酬对标、绩效撰写、离职管理、合规培训 | 3天→2小时 |
+| [财务](/zh/use-cases/role/finance) | 费用审核、财务报告、发票处理、现金流预测、合规检查、法律文档、税务准备、租赁审查、董事会报告 | 2天→3小时 |
+| [运营](/zh/use-cases/role/operations) | 会议纪要、库存预测、供应商评估、SLA跟踪、政策更新、流程挖掘、文档分类、风险评分、邮件分诊、供应链追踪、工作流自动化 | 30分钟→即时 |
 
 ## 按任务浏览
 
@@ -22,18 +22,18 @@
 
 | 任务类型 | 示例 | 用例 |
 |---------|------|------|
-| [写作与内容](./task/writing-content) | 文档、文案、报告、邮件 | SEO写作、API文档、方案生成、JD撰写、Newsletter、技术文档、发版说明、RFP响应 |
-| [数据分析](./task/data-analysis) | 报表、指标、洞察 | 财务报告、竞品分析、用户分析、ROI仪表盘、董事会报告、需求预测 |
-| [流程自动化](./task/process-automation) | 审批、分类、路由 | 工单分类、费用审核、CRM更新、发票处理、邮件分诊、工作流自动化 |
-| [调研与监控](./task/research-monitoring) | 竞品情报、线索调研、监控 | 竞品文案、线索挖掘、部署监控、社媒监听、专利研究 |
+| [写作与内容](/zh/use-cases/task/writing-content) | 文档、文案、报告、邮件 | SEO写作、API文档、方案生成、JD撰写、Newsletter、技术文档、发版说明、RFP响应 |
+| [数据分析](/zh/use-cases/task/data-analysis) | 报表、指标、洞察 | 财务报告、竞品分析、用户分析、ROI仪表盘、董事会报告、需求预测 |
+| [流程自动化](/zh/use-cases/task/process-automation) | 审批、分类、路由 | 工单分类、费用审核、CRM更新、发票处理、邮件分诊、工作流自动化 |
+| [调研与监控](/zh/use-cases/task/research-monitoring) | 竞品情报、线索调研、监控 | 竞品文案、线索挖掘、部署监控、社媒监听、专利研究 |
 
 ## 按行业浏览
 
 | 行业 | 核心场景 |
 |------|---------|
-| [科技/SaaS](./industry/technology) | 代码审查、部署监控、API文档、Debug助手、事件响应、数据管道监控 |
-| [电商/零售](./industry/ecommerce) | 库存预测、社媒管理、多语言客服、需求预测、本地化管理 |
-| [金融服务](./industry/financial-services) | 费用审核、财务报告、合规检查、税务准备、租赁审查 |
+| [科技/SaaS](/zh/use-cases/industry/technology) | 代码审查、部署监控、API文档、Debug助手、事件响应、数据管道监控 |
+| [电商/零售](/zh/use-cases/industry/ecommerce) | 库存预测、社媒管理、多语言客服、需求预测、本地化管理 |
+| [金融服务](/zh/use-cases/industry/financial-services) | 费用审核、财务报告、合规检查、税务准备、租赁审查 |
 
 ---
 
