@@ -233,7 +233,7 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 3. 创建或进入一个群组
 4. 点击右上角 **...** 菜单 → **Settings**（设置）
 
-![进入群组后，点击右上角「...」→「Settings」](/feishu-group-settings.png)
+<img src="/feishu-group-settings.png" alt="进入群组后，点击右上角「...」→「Settings」" style="max-width: 480px;">
 
 5. 在设置中找到 **Bots**（机器人）选项，点击进入（也可以直接点击群组顶部的小机器人图标快速打开）
 
