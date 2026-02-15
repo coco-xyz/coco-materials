@@ -202,6 +202,10 @@ In the app management page, first add the **机器人** (Bot) capability by clic
 
 ![App management — Add Bot capability, then go to "权限管理" for permissions](/feishu-app-capabilities.png)
 
+In the Permission Management page, click **开通权限** (Enable Permissions) to search and add required permissions:
+
+![Permission Management — Click "开通权限" to add API permissions](/feishu-permissions.png)
+
 **Required Permissions:**
 
 | Permission | Permission ID | Purpose |
