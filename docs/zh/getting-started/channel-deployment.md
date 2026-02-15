@@ -164,11 +164,15 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 #### 第5步：配置事件订阅
 
 1. 在应用管理页面，进入左侧 **事件与回调**
-2. 配置 **请求地址（Request URL）**：由COCO平台提供，格式如：`https://api.coco.xyz/webhook/lark/{your-instance-id}`
-3. 订阅以下事件：
+2. 在「事件配置」标签下，选择订阅方式为 **将事件发送至开发者服务器**
+3. 在 **请求地址** 中填入COCO平台提供的Webhook URL，格式如：`https://api.coco.xyz/webhook/lark/{your-instance-id}`
+
+![事件与回调 — 选择「将事件发送至开发者服务器」，填入COCO提供的Webhook地址](/feishu-events.png)
+
+4. 点击下方 **添加事件**，订阅以下事件：
    - `im.message.receive_v1` — 接收消息（必需）
    - `im.chat.member.bot.added_v1` — Bot被加入群组（可选）
-4. 记录页面上的 **Verification Token** 和 **Encrypt Key**（如有）
+5. 点击 **保存**
 
 #### 第6步：在COCO平台绑定
 
