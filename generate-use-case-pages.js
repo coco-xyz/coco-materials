@@ -30,6 +30,16 @@ const cnTitles = {
   50: 'AI客服机器人训练', 51: 'AI缺陷排序', 52: 'AI SLA跟踪', 53: 'AI情感分析', 54: 'AI FAQ生成',
   55: 'AI员工脉搏', 56: 'AI培训推荐', 57: 'AI薪酬对标', 58: 'AI绩效评审', 59: 'AI政策更新',
   60: 'AI现金流预测', 61: 'AI合规检查', 62: 'AI流程挖掘', 63: 'AI文档分类', 64: 'AI风险评分',
+  65: 'AI数据录入自动化', 66: 'AI邮件分诊管理器', 67: 'AI会议调度助手', 68: 'AI法律文档起草助手',
+  69: 'AI客户成功监控器', 70: 'AI产品反馈分析器', 71: 'AI合规申报助手', 72: 'AI项目状态报告生成器',
+  73: 'AI销售区域规划器', 74: 'AI工单升级路由器', 75: 'AI数据管道监控器', 76: 'AI本地化管理器',
+  77: 'AI供应链追踪器', 78: 'AI客户入驻引导助手', 79: 'AI营销ROI仪表盘', 80: 'AI事件响应协调器',
+  81: 'AI专利研究助手', 82: 'AI员工离职管理器', 83: 'AI质量保证审计器', 84: 'AI竞争情报追踪器',
+  85: 'AI税务准备助手', 86: 'AI客户挽回营销器', 87: 'AI技术文档写作助手', 88: 'AI供应商发票核对器',
+  89: 'AI社交媒体监听助手', 90: 'AI冲刺规划助手', 91: 'AI租赁合同审查助手', 92: 'AI差旅费用优化器',
+  93: 'AI招聘营销文案助手', 94: 'AI客户调研设计器', 95: 'AI发版说明生成器', 96: 'AI董事会报告编制器',
+  97: 'AI合规培训追踪器', 98: 'AI销售异议处理助手', 99: 'AI IT资产管理器', 100: 'AI需求预测器',
+  101: 'AI演示文稿构建器', 102: 'AI客户健康度评分器', 103: 'AI工作流自动化器', 104: 'AI RFP响应撰写助手',
 };
 
 // EN short titles (cleaner than source)
@@ -50,6 +60,16 @@ const enTitles = {
   50: 'AI Chatbot Trainer', 51: 'AI Bug Prioritizer', 52: 'AI SLA Tracker', 53: 'AI Sentiment Analyzer', 54: 'AI FAQ Generator',
   55: 'AI Employee Pulse', 56: 'AI Training Recommender', 57: 'AI Comp Benchmarker', 58: 'AI Review Writer', 59: 'AI Policy Updater',
   60: 'AI Cash Flow Forecaster', 61: 'AI Compliance Checker', 62: 'AI Process Miner', 63: 'AI Document Classifier', 64: 'AI Risk Scorer',
+  65: 'AI Data Entry Automator', 66: 'AI Email Triage Manager', 67: 'AI Meeting Scheduler', 68: 'AI Legal Document Drafter',
+  69: 'AI Customer Success Monitor', 70: 'AI Product Feedback Analyzer', 71: 'AI Regulatory Filing Assistant', 72: 'AI Project Status Reporter',
+  73: 'AI Sales Territory Mapper', 74: 'AI Helpdesk Escalation Router', 75: 'AI Data Pipeline Monitor', 76: 'AI Localization Manager',
+  77: 'AI Supply Chain Tracker', 78: 'AI Customer Onboarding Guide', 79: 'AI Marketing ROI Dashboard', 80: 'AI Incident Response Coordinator',
+  81: 'AI Patent Research Assistant', 82: 'AI Employee Offboarding Manager', 83: 'AI Quality Assurance Auditor', 84: 'AI Competitive Intelligence Tracker',
+  85: 'AI Tax Preparation Assistant', 86: 'AI Customer Win-Back Campaigner', 87: 'AI Technical Writer', 88: 'AI Vendor Invoice Reconciler',
+  89: 'AI Social Listening Agent', 90: 'AI Sprint Planning Assistant', 91: 'AI Lease Agreement Reviewer', 92: 'AI Travel Expense Optimizer',
+  93: 'AI Recruitment Marketing Writer', 94: 'AI Customer Survey Designer', 95: 'AI Release Notes Generator', 96: 'AI Board Report Compiler',
+  97: 'AI Compliance Training Tracker', 98: 'AI Sales Objection Handler', 99: 'AI IT Asset Manager', 100: 'AI Demand Forecaster',
+  101: 'AI Pitch Deck Builder', 102: 'AI Customer Health Scorer', 103: 'AI Workflow Automator', 104: 'AI RFP Response Writer',
 };
 
 // CN one-line summaries for each case
@@ -114,6 +134,46 @@ const cnSummaries = {
   62: '流程时间从14天降至4天，返工率从31%降至8%。',
   63: '文档搜索从18分钟降至30秒，错误分类从34%降至3%。',
   64: '风险预测84%准确，每年预防$420万损失。',
+  65: '数据录入自动化，准确率从96%提升至99.7%，处理时间减少94%。',
+  66: '邮件处理时间减少73%，优先邮件响应从4.2小时降至23分钟。',
+  67: '会议安排后勤时间减少87%，跨时区会议安排速度提升3倍。',
+  68: '法律文档起草从5天缩短到2小时，合规风险降低85%。',
+  69: '客户流失预警提前30天发现，挽回率从15%提升到42%。',
+  70: '产品反馈分析从2周缩短到2小时，覆盖100%的用户反馈。',
+  71: '监管申报准备时间减少78%，合规错误降至接近0%。',
+  72: '项目状态报告编写从4小时降至15分钟，实时数据自动聚合。',
+  73: '销售区域平衡度提升45%，区域间业绩差距缩小60%。',
+  74: '工单误路由减少89%，升级解决时间从24小时降至2小时。',
+  75: '数据管道故障检测从小时级降至秒级，数据质量问题减少91%。',
+  76: '本地化周期从6周缩短到3天，翻译一致性提升到98%。',
+  77: '供应链可视性从30%提升到95%，中断响应时间减少76%。',
+  78: '客户入驻时间从3周缩短到3天，首月激活率提升55%。',
+  79: '营销ROI报告生成从3天降至实时，跨渠道归因准确率92%。',
+  80: '事件响应时间从45分钟降至8分钟，MTTR减少73%。',
+  81: '专利检索从3周缩短到4小时，现有技术覆盖率从60%提升到97%。',
+  82: '员工离职流程从2周缩短到1天，权限撤销遗漏降至0%。',
+  83: 'QA覆盖率从40%提升到92%，回归缺陷减少67%。',
+  84: '竞品动态检测从每月一次变为实时，战略响应速度提升5倍。',
+  85: '税务准备时间减少70%，申报错误降低92%，罚款归零。',
+  86: '流失客户挽回率从8%提升到35%，获客成本降低60%。',
+  87: '技术文档编写从3天降至2小时，文档与代码同步率99%。',
+  88: '发票核对时间减少85%，差异检出率从72%提升到99.5%。',
+  89: '品牌提及监测覆盖率从15%提升到96%，危机响应时间降至15分钟。',
+  90: '冲刺规划会议从3小时缩短到45分钟，交付准确率提升38%。',
+  91: '租赁合同审查从5天降至1小时，隐藏条款识别率提升到98%。',
+  92: '差旅费用合规率从68%提升到97%，差旅开支节省23%。',
+  93: '职位广告点击率提升65%，优质候选人申请量增加40%。',
+  94: '调研回复率从3%提升到28%，可操作洞察产出量增加5倍。',
+  95: '发版说明编写从3-4小时降至5分钟，功能采用率提升35%。',
+  96: '董事会报告编制从40小时降至4小时，数据准确率达99.8%。',
+  97: '合规培训完成率从52%提升到96%，逾期培训降至接近0%。',
+  98: '销售异议处理成功率从35%提升到72%，成交周期缩短25%。',
+  99: 'IT资产可见性从45%提升到99%，影子IT发现率提升10倍。',
+  100: '需求预测误差从35%降至8%，库存成本降低28%。',
+  101: '演示文稿制作从15小时降至1小时，客户定制度提升300%。',
+  102: '客户健康度评估覆盖率从20%提升到100%，流失预警准确率87%。',
+  103: '跨部门工作流自动化率从15%提升到78%，处理时间减少65%。',
+  104: 'RFP响应时间从40小时降至8小时，中标率从5%提升到18%。',
 };
 
 const enSummaries = {
@@ -177,6 +237,46 @@ const enSummaries = {
   62: 'Process cycle: 14 days → 4 days. Rework rate: 31% → 8%. Cost -47%.',
   63: 'Document search: 18 min → 30 sec. Misclassification: 34% → 3%.',
   64: 'Risk prediction: 84% accurate. Loss prevention: $4.2M/year saved.',
+  65: 'Data entry automation. Accuracy: 96% → 99.7%. Processing time reduced 94%.',
+  66: 'Email processing time reduced 73%. Priority response: 4.2 hours → 23 minutes.',
+  67: 'Meeting scheduling logistics reduced 87%. Cross-timezone scheduling 3x faster.',
+  68: 'Legal document drafting: 5 days → 2 hours. Compliance risk reduced 85%.',
+  69: 'Churn early warning 30 days ahead. Save rate: 15% → 42%.',
+  70: 'Product feedback analysis: 2 weeks → 2 hours. 100% feedback coverage.',
+  71: 'Regulatory filing prep time reduced 78%. Compliance errors near zero.',
+  72: 'Project status reports: 4 hours → 15 minutes. Real-time data aggregation.',
+  73: 'Territory balance improved 45%. Inter-territory performance gap reduced 60%.',
+  74: 'Ticket misrouting reduced 89%. Escalation resolution: 24 hours → 2 hours.',
+  75: 'Pipeline failure detection: hours → seconds. Data quality issues reduced 91%.',
+  76: 'Localization cycle: 6 weeks → 3 days. Translation consistency: 98%.',
+  77: 'Supply chain visibility: 30% → 95%. Disruption response time reduced 76%.',
+  78: 'Customer onboarding: 3 weeks → 3 days. First-month activation rate +55%.',
+  79: 'Marketing ROI reports: 3 days → real-time. Cross-channel attribution: 92% accurate.',
+  80: 'Incident response: 45 min → 8 min. MTTR reduced 73%.',
+  81: 'Patent search: 3 weeks → 4 hours. Prior art coverage: 60% → 97%.',
+  82: 'Employee offboarding: 2 weeks → 1 day. Access revocation gaps: zero.',
+  83: 'QA coverage: 40% → 92%. Regression defects reduced 67%.',
+  84: 'Competitive intel: monthly → real-time. Strategic response speed 5x faster.',
+  85: 'Tax prep time reduced 70%. Filing errors down 92%. Penalties: zero.',
+  86: 'Churned customer win-back: 8% → 35%. Acquisition cost reduced 60%.',
+  87: 'Technical docs: 3 days → 2 hours. Code-doc sync rate: 99%.',
+  88: 'Invoice reconciliation time reduced 85%. Discrepancy detection: 72% → 99.5%.',
+  89: 'Brand mention coverage: 15% → 96%. Crisis response: 15 minutes.',
+  90: 'Sprint planning: 3 hours → 45 minutes. Delivery accuracy +38%.',
+  91: 'Lease review: 5 days → 1 hour. Hidden clause detection: 98%.',
+  92: 'Travel expense compliance: 68% → 97%. Travel spend reduced 23%.',
+  93: 'Job ad click-through +65%. Quality candidate applications +40%.',
+  94: 'Survey response rate: 3% → 28%. Actionable insights output 5x.',
+  95: 'Release notes: 3-4 hours → 5 minutes. Feature adoption +35%.',
+  96: 'Board report prep: 40 hours → 4 hours. Data accuracy: 99.8%.',
+  97: 'Compliance training completion: 52% → 96%. Overdue training: near zero.',
+  98: 'Objection handling success: 35% → 72%. Deal cycle shortened 25%.',
+  99: 'IT asset visibility: 45% → 99%. Shadow IT discovery 10x.',
+  100: 'Demand forecast error: 35% → 8%. Inventory costs reduced 28%.',
+  101: 'Pitch deck creation: 15 hours → 1 hour. Client customization 300% more.',
+  102: 'Customer health coverage: 20% → 100%. Churn prediction: 87% accurate.',
+  103: 'Cross-department workflow automation: 15% → 78%. Processing time reduced 65%.',
+  104: 'RFP response: 40 hours → 8 hours. Win rate: 5% → 18%.',
 };
 
 // Find source file for a given case number and language
@@ -222,8 +322,8 @@ function parseSections(src, lang) {
   // Find section boundaries
   const painMarkerEN = /^\*\*The Pain:|^\*\*痛点/;
   const solveMarkerEN = /^\*\*How COCO Solves|^\*\*COCO如何解决/;
-  const resultsMarkerEN = /^\*\*Measurable Results|^\*\*可量化的结果/;
-  const benefitsMarkerEN = /^\*\*Who Benefits|^\*\*受益角色/;
+  const resultsMarkerEN = /^\*\*Measurable Results|^\*\*可量化的结果|^\*\*可衡量的成果/;
+  const benefitsMarkerEN = /^\*\*Who Benefits|^\*\*受益角色|^\*\*谁能受益/;
   const promptsMarkerEN = /^## Practical Prompts|^## 实用提示词/;
 
   let painStart = -1, solveStart = -1, resultsStart = -1, benefitsStart = -1, promptsStart = -1;
@@ -335,6 +435,26 @@ const videosEN = {
   '059': '/videos/en/059-ai-policy-updater.mp4', '060': '/videos/en/060-ai-cash-flow-forecaster.mp4',
   '061': '/videos/en/061-ai-compliance-checker.mp4', '062': '/videos/en/062-ai-process-miner.mp4',
   '063': '/videos/en/063-ai-document-classifier.mp4', '064': '/videos/en/064-ai-risk-scorer.mp4',
+  '065': '/videos/en/065-ai-data-entry-automator.mp4', '066': '/videos/en/066-ai-email-triage-manager.mp4',
+  '067': '/videos/en/067-ai-meeting-scheduler.mp4', '068': '/videos/en/068-ai-legal-document-drafter.mp4',
+  '069': '/videos/en/069-ai-customer-success-monitor.mp4', '070': '/videos/en/070-ai-product-feedback-analyzer.mp4',
+  '071': '/videos/en/071-ai-regulatory-filing-assistant.mp4', '072': '/videos/en/072-ai-project-status-reporter.mp4',
+  '073': '/videos/en/073-ai-sales-territory-mapper.mp4', '074': '/videos/en/074-ai-helpdesk-escalation-router.mp4',
+  '075': '/videos/en/075-ai-data-pipeline-monitor.mp4', '076': '/videos/en/076-ai-localization-manager.mp4',
+  '077': '/videos/en/077-ai-supply-chain-tracker.mp4', '078': '/videos/en/078-ai-customer-onboarding-guide.mp4',
+  '079': '/videos/en/079-ai-marketing-roi-dashboard.mp4', '080': '/videos/en/080-ai-incident-response-coordinator.mp4',
+  '081': '/videos/en/081-ai-patent-research-assistant.mp4', '082': '/videos/en/082-ai-employee-offboarding-manager.mp4',
+  '083': '/videos/en/083-ai-quality-assurance-auditor.mp4', '084': '/videos/en/084-ai-competitive-intelligence-tracker.mp4',
+  '085': '/videos/en/085-ai-tax-preparation-assistant.mp4', '086': '/videos/en/086-ai-customer-win-back-campaigner.mp4',
+  '087': '/videos/en/087-ai-technical-writer.mp4', '088': '/videos/en/088-ai-vendor-invoice-reconciler.mp4',
+  '089': '/videos/en/089-ai-social-listening-agent.mp4', '090': '/videos/en/090-ai-sprint-planning-assistant.mp4',
+  '091': '/videos/en/091-ai-lease-agreement-reviewer.mp4', '092': '/videos/en/092-ai-travel-expense-optimizer.mp4',
+  '093': '/videos/en/093-ai-recruitment-marketing-writer.mp4', '094': '/videos/en/094-ai-customer-survey-designer.mp4',
+  '095': '/videos/en/095-ai-release-notes-generator.mp4', '096': '/videos/en/096-ai-board-report-compiler.mp4',
+  '097': '/videos/en/097-ai-compliance-training-tracker.mp4', '098': '/videos/en/098-ai-sales-objection-handler.mp4',
+  '099': '/videos/en/099-ai-it-asset-manager.mp4', '100': '/videos/en/100-ai-demand-forecaster.mp4',
+  '101': '/videos/en/101-ai-pitch-deck-builder.mp4', '102': '/videos/en/102-ai-customer-health-scorer.mp4',
+  '103': '/videos/en/103-ai-workflow-automator.mp4', '104': '/videos/en/104-ai-rfp-response-writer.mp4',
 };
 // CN videos: all CN versions available
 const videosCN = {
@@ -383,6 +503,26 @@ const videosCN = {
   '059': '/videos/cn/059-ai-policy-updater.mp4', '060': '/videos/cn/060-ai-cash-flow-forecaster.mp4',
   '061': '/videos/cn/061-ai-compliance-checker.mp4', '062': '/videos/cn/062-ai-process-miner.mp4',
   '063': '/videos/cn/063-ai-document-classifier.mp4', '064': '/videos/cn/064-ai-risk-scorer.mp4',
+  '065': '/videos/cn/065-ai-data-entry-automator.mp4', '066': '/videos/cn/066-ai-email-triage-manager.mp4',
+  '067': '/videos/cn/067-ai-meeting-scheduler.mp4', '068': '/videos/cn/068-ai-legal-document-drafter.mp4',
+  '069': '/videos/cn/069-ai-customer-success-monitor.mp4', '070': '/videos/cn/070-ai-product-feedback-analyzer.mp4',
+  '071': '/videos/cn/071-ai-regulatory-filing-assistant.mp4', '072': '/videos/cn/072-ai-project-status-reporter.mp4',
+  '073': '/videos/cn/073-ai-sales-territory-mapper.mp4', '074': '/videos/cn/074-ai-helpdesk-escalation-router.mp4',
+  '075': '/videos/cn/075-ai-data-pipeline-monitor.mp4', '076': '/videos/cn/076-ai-localization-manager.mp4',
+  '077': '/videos/cn/077-ai-supply-chain-tracker.mp4', '078': '/videos/cn/078-ai-customer-onboarding-guide.mp4',
+  '079': '/videos/cn/079-ai-marketing-roi-dashboard.mp4', '080': '/videos/cn/080-ai-incident-response-coordinator.mp4',
+  '081': '/videos/cn/081-ai-patent-research-assistant.mp4', '082': '/videos/cn/082-ai-employee-offboarding-manager.mp4',
+  '083': '/videos/cn/083-ai-quality-assurance-auditor.mp4', '084': '/videos/cn/084-ai-competitive-intelligence-tracker.mp4',
+  '085': '/videos/cn/085-ai-tax-preparation-assistant.mp4', '086': '/videos/cn/086-ai-customer-win-back-campaigner.mp4',
+  '087': '/videos/cn/087-ai-technical-writer.mp4', '088': '/videos/cn/088-ai-vendor-invoice-reconciler.mp4',
+  '089': '/videos/cn/089-ai-social-listening-agent.mp4', '090': '/videos/cn/090-ai-sprint-planning-assistant.mp4',
+  '091': '/videos/cn/091-ai-lease-agreement-reviewer.mp4', '092': '/videos/cn/092-ai-travel-expense-optimizer.mp4',
+  '093': '/videos/cn/093-ai-recruitment-marketing-writer.mp4', '094': '/videos/cn/094-ai-customer-survey-designer.mp4',
+  '095': '/videos/cn/095-ai-release-notes-generator.mp4', '096': '/videos/cn/096-ai-board-report-compiler.mp4',
+  '097': '/videos/cn/097-ai-compliance-training-tracker.mp4', '098': '/videos/cn/098-ai-sales-objection-handler.mp4',
+  '099': '/videos/cn/099-ai-it-asset-manager.mp4', '100': '/videos/cn/100-ai-demand-forecaster.mp4',
+  '101': '/videos/cn/101-ai-pitch-deck-builder.mp4', '102': '/videos/cn/102-ai-customer-health-scorer.mp4',
+  '103': '/videos/cn/103-ai-workflow-automator.mp4', '104': '/videos/cn/104-ai-rfp-response-writer.mp4',
 };
 
 // Role pages
@@ -390,37 +530,37 @@ const rolePages = {
   'role/product-dev': {
     title_en: 'Product & Dev', desc_en: 'AI-powered use cases for developers, DevOps, tech leads, and PMs.',
     title_cn: '产品与研发', desc_cn: 'AI驱动的开发者、DevOps工程师、技术负责人和产品经理用例。',
-    cases: [5, 6, 7, 8, 9, 35, 36, 37, 38, 39, 51, 53],
+    cases: [5, 6, 7, 8, 9, 35, 36, 37, 38, 39, 51, 53, 72, 74, 75, 80, 81, 83, 87, 90, 95, 99, 103],
   },
   'role/content-marketing': {
     title_en: 'Content & Marketing', desc_en: 'AI-powered use cases for content creators, marketing teams, and brand managers.',
     title_cn: '内容与营销', desc_cn: 'AI驱动的内容创作者、营销团队和品牌经理用例。',
-    cases: [10, 11, 12, 13, 14, 40, 41, 42, 43, 44],
+    cases: [10, 11, 12, 13, 14, 40, 41, 42, 43, 44, 70, 76, 79, 84, 89, 93, 94, 100, 101],
   },
   'role/sales': {
     title_en: 'Sales', desc_en: 'AI-powered use cases for SDRs, account executives, and sales leaders.',
     title_cn: '销售', desc_cn: 'AI驱动的SDR、客户经理和销售负责人用例。',
-    cases: [15, 16, 17, 18, 19, 20, 45, 46, 47, 48, 49],
+    cases: [15, 16, 17, 18, 19, 20, 45, 46, 47, 48, 49, 73, 86, 98, 101, 102, 104],
   },
   'role/customer-support': {
     title_en: 'Customer Support', desc_en: 'AI-powered use cases for support teams, help desk, and customer success.',
     title_cn: '客服', desc_cn: 'AI驱动的客服团队、帮助台和客户成功用例。',
-    cases: [21, 22, 23, 24, 49, 50, 54],
+    cases: [21, 22, 23, 24, 49, 50, 54, 69, 74, 78, 86, 98, 102],
   },
   'role/hr-recruiting': {
     title_en: 'HR & Recruiting', desc_en: 'AI-powered use cases for HR, recruiters, and people operations.',
     title_cn: 'HR与招聘', desc_cn: 'AI驱动的HR团队、招聘人员和人力运营用例。',
-    cases: [25, 26, 27, 28, 55, 56, 57, 58],
+    cases: [25, 26, 27, 28, 55, 56, 57, 58, 82, 93, 97],
   },
   'role/finance': {
     title_en: 'Finance', desc_en: 'AI-powered use cases for finance teams, accountants, and analysts.',
     title_cn: '财务', desc_cn: 'AI驱动的财务团队、会计师和财务分析师用例。',
-    cases: [29, 30, 31, 60, 61],
+    cases: [29, 30, 31, 60, 61, 68, 71, 85, 88, 91, 92, 96],
   },
   'role/operations': {
     title_en: 'Operations', desc_en: 'AI-powered use cases for operations, procurement, and business management.',
     title_cn: '运营', desc_cn: 'AI驱动的运营经理、采购和通用业务运营用例。',
-    cases: [32, 33, 34, 47, 48, 52, 59, 62, 63, 64],
+    cases: [32, 33, 34, 47, 48, 52, 59, 62, 63, 64, 65, 66, 67, 69, 77, 78, 82, 92, 97, 99, 103, 104],
   },
 };
 
@@ -428,22 +568,22 @@ const taskPages = {
   'task/writing-content': {
     title_en: 'Writing & Content', desc_en: 'AI use cases for content creation, copywriting, and documentation.',
     title_cn: '写作与内容', desc_cn: 'AI驱动的内容创作、文案写作和文档编写用例。',
-    cases: [8, 10, 11, 12, 13, 14, 17, 18, 22, 23, 26, 43, 54, 58, 59],
+    cases: [8, 10, 11, 12, 13, 14, 17, 18, 22, 23, 26, 43, 54, 58, 59, 68, 72, 76, 86, 87, 93, 94, 95, 96, 98, 101, 104],
   },
   'task/data-analysis': {
     title_en: 'Data Analysis', desc_en: 'AI use cases for data analysis, reporting, auditing, and intelligence.',
     title_cn: '数据分析', desc_cn: 'AI驱动的数据分析、报告、审计和财务智能用例。',
-    cases: [19, 20, 25, 29, 30, 33, 34, 36, 38, 42, 44, 45, 47, 48, 53, 57, 60, 62, 64],
+    cases: [19, 20, 25, 29, 30, 33, 34, 36, 38, 42, 44, 45, 47, 48, 53, 57, 60, 62, 64, 70, 73, 79, 81, 83, 85, 86, 88, 90, 91, 92, 96, 98, 100, 102],
   },
   'task/process-automation': {
     title_en: 'Process Automation', desc_en: 'AI use cases for workflow automation and operational efficiency.',
     title_cn: '流程自动化', desc_cn: 'AI驱动的工作流自动化、系统集成和运营效率用例。',
-    cases: [5, 6, 7, 9, 16, 21, 24, 27, 28, 31, 32, 35, 39, 46, 50, 56, 63],
+    cases: [5, 6, 7, 9, 16, 21, 24, 27, 28, 31, 32, 35, 39, 46, 50, 56, 63, 65, 66, 67, 71, 74, 75, 76, 77, 78, 80, 82, 85, 88, 90, 92, 97, 99, 103],
   },
   'task/research-monitoring': {
     title_en: 'Research & Monitoring', desc_en: 'AI use cases for market research, competitive intelligence, and monitoring.',
     title_cn: '调研与监控', desc_cn: 'AI驱动的市场调研、竞品分析、监控和趋势追踪用例。',
-    cases: [13, 14, 15, 19, 24, 29, 33, 34, 37, 40, 41, 49, 51, 52, 55, 61],
+    cases: [13, 14, 15, 19, 24, 29, 33, 34, 37, 40, 41, 49, 51, 52, 55, 61, 69, 75, 77, 79, 80, 84, 89, 94, 97, 99, 100, 102],
   },
 };
 
@@ -451,17 +591,20 @@ const industryPages = {
   'industry/technology': {
     title_en: 'Technology / SaaS', desc_en: 'AI use cases for tech companies, SaaS platforms, and dev teams.',
     title_cn: '科技/SaaS', desc_cn: 'AI驱动的科技公司、SaaS平台和软件开发团队用例。',
-    cases: [5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 21, 22, 23, 25, 26, 28, 32, 35, 36, 37, 38, 39, 49, 50, 51, 53, 55, 57],
+    cases: [5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 21, 22, 23, 25, 26, 28, 32, 35, 36, 37, 38, 39, 49, 50, 51, 53, 55, 57,
+            66, 67, 69, 70, 72, 74, 75, 76, 78, 80, 81, 82, 83, 84, 86, 87, 89, 90, 93, 94, 95, 97, 98, 99, 101, 102, 103, 104],
   },
   'industry/ecommerce': {
     title_en: 'E-commerce / Retail', desc_en: 'AI use cases for e-commerce, retail, and online marketplaces.',
     title_cn: '电商/零售', desc_cn: 'AI驱动的电商平台、零售运营和在线市场用例。',
-    cases: [10, 11, 12, 14, 20, 21, 23, 24, 31, 33, 40, 41, 42, 43, 44, 47, 50, 54],
+    cases: [10, 11, 12, 14, 20, 21, 23, 24, 31, 33, 40, 41, 42, 43, 44, 47, 50, 54,
+            65, 70, 73, 76, 77, 79, 86, 88, 89, 94, 100],
   },
   'industry/financial-services': {
     title_en: 'Financial Services', desc_en: 'AI use cases for banking, insurance, and financial institutions.',
     title_cn: '金融服务', desc_cn: 'AI驱动的银行、保险、投资和金融机构用例。',
-    cases: [15, 19, 24, 29, 30, 31, 35, 45, 48, 59, 60, 61, 62, 64],
+    cases: [15, 19, 24, 29, 30, 31, 35, 45, 48, 59, 60, 61, 62, 64,
+            68, 71, 75, 80, 85, 88, 91, 96, 97],
   },
 };
 
