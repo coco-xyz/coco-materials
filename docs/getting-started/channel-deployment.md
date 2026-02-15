@@ -57,7 +57,7 @@ In @BotFather:
 > **Free Trial Note:** During the free trial period, payment and automated setup steps are skipped. After creating your Bot, please provide your **Bot Token** to the COCO technical team. Our team will manually assist with the configuration. This may take some time — we will complete your deployment within **24 hours**.
 
 <!--
-1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
+1. Log into [COCO Dashboard](https://coco.site/dashboard)
 2. Go to **Connect** or **Channels** page
 3. Select **Telegram**
 4. Paste the Bot Token from Step 1
@@ -129,28 +129,40 @@ In the app management page, go to **Permissions & Scopes** and enable:
 |-----------|---------------|---------|
 | Upload/download files | `im:resource` | AI handles files and images |
 
-After enabling, click **Create Version** and wait for admin approval.
+After enabling, click **Create Version** to submit for admin approval.
+
+> **Admin Approval:** After publishing a Lark custom app, the enterprise admin must approve it in the **Lark Admin Console** before the app becomes active. If you're using a personal Lark account, this step is not needed. Approval typically takes 1-2 business days. You can check the approval status on the app management page.
 
 > **Note:** The message receiving capability (`im.message.receive_v1`) is configured as an Event Subscription in the next step, not as a permission. The `im:message` permission already includes the ability to send rich text messages.
 
 #### Step 4: Configure Event Subscription
 
-> **Prerequisite:** Before configuring event subscriptions, you need to choose a custom **username** — just pick any name you like. This username becomes part of your dedicated domain, used to generate the Webhook URL in the format: `https://<username>.coco.xyz/webhook/lark/`. Since usernames must be globally unique, the system may append additional characters (such as `-`) to your chosen name to ensure uniqueness.
+> **Prerequisite:** Before configuring event subscriptions, you need to choose a custom **username** — just pick any name you like. This username becomes part of your dedicated domain, used to generate the Webhook URL in the format: `https://<username>.coco.site/webhook/lark/`. Since usernames must be globally unique, the system may append additional characters (such as `-`) to your chosen name to ensure uniqueness.
 
 1. In app management, go to **Events & Callbacks**
 2. Under "Event Configuration", select **Send events to developer server**
-3. Set **Request URL**: `https://<username>.coco.xyz/webhook/lark/` (replace `<username>` with the username you registered on the COCO platform)
+3. Set **Request URL**: `https://<username>.coco.site/webhook/lark/` (replace `<username>` with the username you registered on the COCO platform)
 4. Subscribe to events:
    - `im.message.receive_v1` — Receive messages (required)
    - `im.chat.member.bot.added_v1` — Bot added to group (optional)
 5. Click **Save**
 
-#### Step 5: Connect in COCO Dashboard
+#### Step 5: Get Verification Token
+
+After configuring event subscriptions, you need to get the **Verification Token** (required) for the COCO platform binding:
+
+1. In app management, go to **Events & Callbacks**
+2. Click the **Encryption Strategy** tab
+3. Find the **Verification Token** at the bottom of the page, click the eye icon to view and copy it
+
+> **Tip:** On the same page you'll also find the **Encrypt Key** (optional). If you need encrypted communication, record this as well.
+
+#### Step 6: Connect in COCO Dashboard
 
 > **Free Trial Note:** During the free trial period, payment and automated setup steps are skipped. After completing the Lark configuration above, please provide your **App ID**, **App Secret**, **Verification Token**, and **Encrypt Key** (if set) to the COCO technical team. Our team will manually assist with the configuration. This may take some time — we will complete your deployment within **24 hours**.
 
 <!--
-1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
+1. Log into [COCO Dashboard](https://coco.site/dashboard)
 2. Go to **Connect** or **Channels** page
 3. Select **Lark**
 4. Enter:
@@ -159,14 +171,14 @@ After enabling, click **Create Version** and wait for admin approval.
 |-------|--------|
 | App ID | Lark Open Platform → Credentials |
 | App Secret | Lark Open Platform → Credentials |
-| Verification Token | Lark Open Platform → Events & Callbacks |
-| Encrypt Key (optional) | Lark Open Platform → Events & Callbacks |
+| Verification Token | Lark Open Platform → Events & Callbacks → Encryption Strategy |
+| Encrypt Key (optional) | Lark Open Platform → Events & Callbacks → Encryption Strategy |
 
 5. Click **Verify and Connect**
 6. System auto-configures Webhook and verifies connectivity
 -->
 
-#### Step 6: Enable Bot and Add to Groups
+#### Step 7: Enable Bot and Add to Groups
 
 1. In Lark Open Platform, go to **Bot** menu, confirm bot functionality is enabled
 2. Open Lark client
@@ -220,28 +232,40 @@ In the Permission Management page, click **Enable Permissions** to search and ad
 |-----------|---------------|---------|
 | Upload/download files | `im:resource` | AI handles files and images |
 
-After enabling, click **Publish Version** and wait for admin approval.
+After enabling, click **Publish Version** to submit for admin approval.
+
+> **Admin Approval:** After publishing a Feishu custom app, the enterprise admin must approve it in the **Feishu Admin Console** before the app becomes active. If you're using a personal Feishu account, this step is not needed. Approval typically takes 1-2 business days. You can check the approval status on the app management page.
 
 > **Note:** Message receiving (`im.message.receive_v1`) is configured as an Event Subscription in the next step, not here. `im:message` already includes rich text sending.
 
 #### Step 4: Configure Event Subscription
 
-> **Prerequisite:** Before configuring event subscriptions, you need to choose a custom **username** — just pick any name you like. This username becomes part of your dedicated domain, used to generate the Webhook URL in the format: `https://<username>.coco.xyz/webhook/lark/`. Since usernames must be globally unique, the system may append additional characters (such as `-`) to your chosen name to ensure uniqueness.
+> **Prerequisite:** Before configuring event subscriptions, you need to choose a custom **username** — just pick any name you like. This username becomes part of your dedicated domain, used to generate the Webhook URL in the format: `https://<username>.coco.site/webhook/lark/`. Since usernames must be globally unique, the system may append additional characters (such as `-`) to your chosen name to ensure uniqueness.
 
 1. In app management, go to **Events & Callbacks**
 2. Under "Event Configuration", select **Send events to developer server**
-3. Set **Request URL**: `https://<username>.coco.xyz/webhook/lark/` (replace `<username>` with the username you registered on the COCO platform)
+3. Set **Request URL**: `https://<username>.coco.site/webhook/lark/` (replace `<username>` with the username you registered on the COCO platform)
 4. Subscribe to events:
    - `im.message.receive_v1` — Receive messages
    - `im.chat.member.bot.added_v1` — Bot added to group (optional)
 5. Click **Save**
 
-#### Step 5: Connect in COCO Dashboard
+#### Step 5: Get Verification Token
+
+After configuring event subscriptions, you need to get the **Verification Token** (required) for the COCO platform binding:
+
+1. In app management, go to **Events & Callbacks**
+2. Click the **Encryption Strategy** (加密策略) tab
+3. Find the **Verification Token** at the bottom of the page, click the eye icon to view and copy it
+
+> **Tip:** On the same page you'll also find the **Encrypt Key** (optional). If you need encrypted communication, record this as well.
+
+#### Step 6: Connect in COCO Dashboard
 
 > **Free Trial Note:** During the free trial period, payment and automated setup steps are skipped. After completing the Feishu configuration above, please provide your **App ID**, **App Secret**, **Verification Token**, and **Encrypt Key** (if set) to the COCO technical team. Our team will manually assist with the configuration. This may take some time — we will complete your deployment within **24 hours**.
 
 <!--
-1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
+1. Log into [COCO Dashboard](https://coco.site/dashboard)
 2. Go to **Connect** or **Channels** page
 3. Select **Feishu**
 4. Enter:
@@ -250,14 +274,14 @@ After enabling, click **Publish Version** and wait for admin approval.
 |-------|--------|
 | App ID | Feishu Open Platform → Credentials |
 | App Secret | Feishu Open Platform → Credentials |
-| Verification Token | Feishu Open Platform → Events & Callbacks |
-| Encrypt Key (optional) | Feishu Open Platform → Events & Callbacks |
+| Verification Token | Feishu Open Platform → Events & Callbacks → Encryption Strategy |
+| Encrypt Key (optional) | Feishu Open Platform → Events & Callbacks → Encryption Strategy |
 
 5. Click **Verify and Connect**
 6. System auto-configures Webhook and verifies connectivity
 -->
 
-#### Step 6: Enable Bot and Add to Groups
+#### Step 7: Enable Bot and Add to Groups
 
 1. In Feishu Open Platform, go to **Bot** menu, confirm bot functionality is enabled
 2. Open Feishu client

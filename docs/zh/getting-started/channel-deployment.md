@@ -171,7 +171,9 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 
 ![权限配置完成 — 所有必需权限显示「已开通」状态](/feishu-permissions-done.png)
 
-开启权限后，点击顶部的 **创建版本** → **发布版本** 并等待管理员审批。
+开启权限后，点击顶部的 **创建版本** → **发布版本**，提交管理员审批。
+
+> **管理员审批：** 飞书自建应用发布后，需要企业管理员在 **飞书管理后台** 中审批通过后，应用才能正式使用。如果你是个人版账号，则无需此步骤。审批通常在 1-2 个工作日内完成，你可以在应用管理页面查看审批状态。
 
 > **注意：** 接收消息的能力（`im.message.receive_v1`）不在权限管理中配置，而是在下一步「事件与回调」中订阅。`im:message` 权限已包含发送富文本消息的能力。
 
@@ -179,11 +181,11 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 
 #### 第5步：配置事件订阅
 
-> **前置步骤：** 在配置事件订阅之前，你需要先自定义一个 **用户名（username）**，提供你喜欢的名称即可。这个用户名将作为你的专属域名的一部分，用于生成 Webhook 地址，格式为：`https://<username>.coco.xyz/webhook/lark/`。由于用户名需要全局唯一，系统可能会在你选择的名称中添加额外字符（如 `-`）以确保唯一性。
+> **前置步骤：** 在配置事件订阅之前，你需要先自定义一个 **用户名（username）**，提供你喜欢的名称即可。这个用户名将作为你的专属域名的一部分，用于生成 Webhook 地址，格式为：`https://<username>.coco.site/webhook/lark/`。由于用户名需要全局唯一，系统可能会在你选择的名称中添加额外字符（如 `-`）以确保唯一性。
 
 1. 在应用管理页面，进入左侧 **事件与回调**
 2. 在「事件配置」标签下，选择订阅方式为 **将事件发送至开发者服务器**
-3. 在 **请求地址** 中填入你的专属 Webhook URL：`https://<username>.coco.xyz/webhook/lark/`（将 `<username>` 替换为你在 COCO 平台注册的用户名）
+3. 在 **请求地址** 中填入你的专属 Webhook URL：`https://<username>.coco.site/webhook/lark/`（将 `<username>` 替换为你在 COCO 平台注册的用户名）
 
 ![事件与回调 — 选择「将事件发送至开发者服务器」，填入COCO提供的Webhook地址](/feishu-events.png)
 
@@ -198,7 +200,21 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 
 <br>
 
-#### 第6步：在COCO平台绑定
+#### 第6步：获取 Verification Token
+
+在完成事件订阅后，你需要获取 **Verification Token**（必填）用于后续绑定：
+
+1. 在应用管理页面，进入左侧 **事件与回调**
+2. 点击 **加密策略** 标签
+3. 在页面底部找到 **Verification Token**，点击眼睛图标查看并复制
+
+![事件与回调 → 加密策略 — 在页面底部找到 Verification Token](/feishu-verification-token.png)
+
+> **提示：** 同一页面还有 **Encrypt Key**（可选），如果你需要加密通信，也请一并记录。
+
+<br>
+
+#### 第7步：在COCO平台绑定
 
 > **免费试用期提示：** 在免费试用期间，支付和自动化配置步骤将被跳过。完成上述飞书端配置后，请将你的 **App ID**、**App Secret**、**Verification Token** 和 **Encrypt Key**（如有）提供给 COCO 技术团队，我们将人工协助完成配置。配置过程可能需要一定时间，我们会在 **24小时内** 为你完成部署。
 
@@ -212,8 +228,8 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 |------|------|
 | App ID | 飞书开放平台 → 凭证与基础信息 |
 | App Secret | 飞书开放平台 → 凭证与基础信息 |
-| Verification Token | 飞书开放平台 → 事件与回调 |
-| Encrypt Key（可选） | 飞书开放平台 → 事件与回调 |
+| Verification Token | 飞书开放平台 → 事件与回调 → 加密策略 |
+| Encrypt Key（可选） | 飞书开放平台 → 事件与回调 → 加密策略 |
 
 5. 点击 **验证并连接**
 6. 系统会自动完成Webhook配置并验证连通性
@@ -221,7 +237,7 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 
 <br>
 
-#### 第7步：启用机器人并添加到群组
+#### 第8步：启用机器人并添加到群组
 
 首先，在飞书开放平台确认应用状态已从「待上线」变为「已开启」：
 
@@ -291,18 +307,20 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 |------|---------------|------|
 | Upload/download files | `im:resource` | AI处理文件和图片 |
 
-开启权限后，点击 **Create Version** 并等待管理员审批。
+开启权限后，点击 **Create Version** 提交管理员审批。
+
+> **管理员审批：** Lark 自建应用发布后，需要企业管理员在 Lark Admin Console 中审批通过后，应用才能正式使用。如果你是个人版账号，则无需此步骤。
 
 > **注意：** 接收消息的能力（`im.message.receive_v1`）在下一步「Events & Callbacks」中配置，不在权限管理中。
 
 #### 第4步：配置事件订阅
 
 1. 在应用管理页面，进入 **Events & Callbacks**
-2. 配置 **Request URL**：填入你的专属 Webhook URL：`https://<username>.coco.xyz/webhook/lark/`（将 `<username>` 替换为你在 COCO 平台注册的用户名）
+2. 配置 **Request URL**：填入你的专属 Webhook URL：`https://<username>.coco.site/webhook/lark/`（将 `<username>` 替换为你在 COCO 平台注册的用户名）
 3. 订阅以下事件：
    - `im.message.receive_v1` — Receive messages
    - `im.chat.member.bot.added_v1` — Bot added to group（可选）
-4. 记录页面上的 **Verification Token** 和 **Encrypt Key**（如有）
+4. 点击 **Encryption Strategy** 标签，找到并记录 **Verification Token**（必填）和 **Encrypt Key**（如有）
 
 #### 第5步：在COCO平台绑定
 
@@ -318,8 +336,8 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 |------|------|
 | App ID | Lark Open Platform → Credentials |
 | App Secret | Lark Open Platform → Credentials |
-| Verification Token | Lark Open Platform → Events & Callbacks |
-| Encrypt Key（可选） | Lark Open Platform → Events & Callbacks |
+| Verification Token | Lark Open Platform → Events & Callbacks → Encryption Strategy |
+| Encrypt Key（可选） | Lark Open Platform → Events & Callbacks → Encryption Strategy |
 
 5. 点击 **验证并连接**
 6. 系统会自动完成Webhook配置并验证连通性
