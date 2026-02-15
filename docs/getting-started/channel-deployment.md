@@ -79,25 +79,35 @@ In @BotFather:
 
 ---
 
-## Option B: Lark (Feishu) Deployment (Recommended for domestic teams)
+## Option B: Lark / Feishu Deployment
 
 **Estimated time: 8-15 minutes**
 
-> **Note:** Adding a self-built app (Bot) in Lark/Feishu requires **enterprise admin approval**. If you don't want to go through the enterprise approval process right away, you can first create a [Lark personal account](https://www.larksuite.com) (international) or [Feishu personal account](https://www.feishu.cn) (domestic). You can create and use Bots in your personal workspace without admin approval.
+> **Note:** Adding a self-built app (Bot) in Lark/Feishu requires **enterprise admin approval**. If you don't want to set up an enterprise Bot right away, you can first create a [Lark personal account](https://www.larksuite.com) (international) or [Feishu personal account](https://www.feishu.cn) (domestic). You can create and use Bots in your personal workspace without admin approval.
 
-### Step 1: Create a Lark App
-1. Visit [Lark Open Platform](https://open.larksuite.com) (international) or [Feishu Open Platform](https://open.feishu.cn) (domestic)
-2. Log in with your Lark/Feishu admin account
-3. Click **Create App** → Select **Enterprise Self-Built App**
-4. Enter app name (e.g., `COCO AI Employee`) and description
-5. After creation, note down:
+Lark (international) and Feishu (domestic China) have slightly different interfaces. Choose the guide that matches your platform:
+
+### Lark Deployment (Recommended for international teams) {#lark}
+
+#### Step 1: Access Lark Open Platform
+
+1. Visit [Lark Open Platform](https://open.larksuite.com)
+2. Log in with your Lark account
+3. Click **Developer Backend** in the top-right corner
+
+#### Step 2: Create a Custom App
+
+1. In the Developer Backend, click **Create Custom App**
+2. Enter app name (e.g., `COCO AI Employee`) and description
+3. After creation, note down:
    - **App ID**
    - **App Secret**
 
-> **Tip:** Enterprise admin permissions are required to create apps. If you're not an admin, contact your IT department.
+> **Tip:** Enterprise admin permissions are required. If you're not an admin, contact your IT department or use a Lark personal account first.
 
-### Step 2: Configure Permissions
-In the app management page, go to **Permission Management** and enable:
+#### Step 3: Configure Permissions
+
+In the app management page, go to **Permissions & Scopes** and enable:
 
 **Required Permissions (minimum set):**
 
@@ -115,9 +125,10 @@ In the app management page, go to **Permission Management** and enable:
 | Upload/download files | `im:resource` | AI handles files and images |
 | Send rich text | `im:message.rich_text` | Send formatted messages |
 
-After enabling, click **Publish Version** and wait for admin approval.
+After enabling, click **Create Version** and wait for admin approval.
 
-### Step 3: Configure Event Subscription
+#### Step 4: Configure Event Subscription
+
 1. In app management, go to **Events & Callbacks**
 2. Set **Request URL**: Provided by COCO, format: `https://api.coco.xyz/webhook/lark/{your-instance-id}`
 3. Subscribe to events:
@@ -125,29 +136,122 @@ After enabling, click **Publish Version** and wait for admin approval.
    - `im.chat.member.bot.added_v1` — Bot added to group (optional)
 4. Note the **Verification Token** and **Encrypt Key** (if set)
 
-### Step 4: Connect in COCO Dashboard
+#### Step 5: Connect in COCO Dashboard
+
 1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
 2. Go to **Connect** or **Channels** page
-3. Select **Lark/Feishu**
+3. Select **Lark**
 4. Enter:
 
 | Field | Source |
 |-------|--------|
-| App ID | Lark Open Platform → App Credentials |
-| App Secret | Lark Open Platform → App Credentials |
-| Verification Token | Lark Open Platform → Event Subscription |
-| Encrypt Key (optional) | Lark Open Platform → Event Subscription |
+| App ID | Lark Open Platform → Credentials |
+| App Secret | Lark Open Platform → Credentials |
+| Verification Token | Lark Open Platform → Events & Callbacks |
+| Encrypt Key (optional) | Lark Open Platform → Events & Callbacks |
 
 5. Click **Verify and Connect**
 6. System auto-configures Webhook and verifies connectivity
 
-### Step 5: Enable Bot and Add to Groups
+#### Step 6: Enable Bot and Add to Groups
+
 1. In Lark Open Platform, go to **Bot** menu, confirm bot functionality is enabled
-2. Open Lark/Feishu client
+2. Open Lark client
 3. Create or enter a group
-4. Group Settings → **Bot** → **Add Bot** → Search for your app name
+4. Group Settings → **Bots** → **Add Bot** → Search for your app name
 5. Confirm addition
 6. @mention your bot in the group and send a message
 7. AI employee responds → Deployment complete!
 
-> **Also works in private chat:** Search for your app name in Lark/Feishu and start a direct conversation.
+> **Also works in private chat:** Search for your app name in Lark and start a direct conversation.
+
+---
+
+### Feishu Deployment (Recommended for domestic China teams) {#feishu}
+
+#### Step 1: Access Feishu Open Platform
+
+1. Visit [飞书开放平台](https://open.feishu.cn)
+2. Log in with your Feishu account
+3. Click **开发者后台** (Developer Backend) in the top-right corner
+
+![Feishu Open Platform — Click "开发者后台" in the top-right corner](/feishu-open-platform.png)
+
+#### Step 2: Create an Enterprise App
+
+1. In the Developer Backend, click **创建企业自建应用** (Create Custom App)
+
+![Feishu Developer Backend — Click "创建企业自建应用"](/feishu-create-app.png)
+
+2. Enter app name (e.g., `COCO AI员工`) and description, select an app icon
+
+![Fill in app name and description](/feishu-create-app-form.png)
+
+3. Click **创建** (Create) to finish
+4. After creation, go to the app management page and note down:
+   - **App ID** (under 「凭证与基础信息」)
+   - **App Secret** (under 「凭证与基础信息」)
+
+> **Tip:** Enterprise admin permissions are required. If you're not an admin, contact your IT department or use a Feishu personal account first.
+
+#### Step 3: Add Bot Capability and Configure Permissions
+
+In the app management page, first add the **机器人** (Bot) capability by clicking 「+ 添加」, then go to **权限管理** (Permission Management) in the left sidebar:
+
+![App management — Add Bot capability, then go to "权限管理" for permissions](/feishu-app-capabilities.png)
+
+**Required Permissions:**
+
+| Permission | Permission ID | Purpose |
+|-----------|---------------|---------|
+| 获取与发送消息 | `im:message` | AI sends and receives messages |
+| 获取群信息 | `im:chat:readonly` | Identify chat groups |
+| 获取用户信息 | `contact:user.base:readonly` | Identify users |
+| 接收消息事件 | `im:message.receive_v1` | Real-time message reception |
+
+**Recommended Permissions:**
+
+| Permission | Permission ID | Purpose |
+|-----------|---------------|---------|
+| 上传下载文件 | `im:resource` | AI handles files and images |
+| 发送富文本 | `im:message.rich_text` | Send formatted messages |
+
+After enabling, click **发布版本** (Publish Version) and wait for admin approval.
+
+#### Step 4: Configure Event Subscription
+
+1. In app management, go to **事件与回调** (Events & Callbacks)
+2. Set **请求地址 (Request URL)**: Provided by COCO, format: `https://api.coco.xyz/webhook/lark/{your-instance-id}`
+3. Subscribe to events:
+   - `im.message.receive_v1` — Receive messages
+   - `im.chat.member.bot.added_v1` — Bot added to group (optional)
+4. Note the **Verification Token** and **Encrypt Key** (if set)
+
+#### Step 5: Connect in COCO Dashboard
+
+1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
+2. Go to **Connect** or **Channels** page
+3. Select **飞书 (Feishu)**
+4. Enter:
+
+| Field | Source |
+|-------|--------|
+| App ID | 飞书开放平台 → 应用凭证 |
+| App Secret | 飞书开放平台 → 应用凭证 |
+| Verification Token | 飞书开放平台 → 事件订阅 |
+| Encrypt Key (optional) | 飞书开放平台 → 事件订阅 |
+
+5. Click **Verify and Connect**
+6. System auto-configures Webhook and verifies connectivity
+
+#### Step 6: Enable Bot and Add to Groups
+
+1. In 飞书开放平台, go to **机器人** (Bot) menu, confirm bot functionality is enabled
+2. Open Feishu client
+3. Create or enter a group
+4. Group Settings → **机器人** → **添加机器人** → Search for your app name
+5. Confirm addition
+6. @mention your bot in the group and send a message
+7. AI employee responds → Deployment complete!
+
+> **Also works in private chat:** Search for your app name in Feishu and start a direct conversation.

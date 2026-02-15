@@ -79,25 +79,46 @@
 
 ---
 
-## 选项B：Lark（飞书）部署（推荐国内团队）
+## 选项B：Lark / 飞书部署
 
 **预计耗时：8-15分钟**
 
-> **注意：** 在 Lark/飞书中添加自建应用（Bot）需要**企业管理员审批**。如果你暂时不方便申请企业管理员权限，可以先注册一个 [Lark 个人版](https://www.larksuite.com)（海外）或[飞书个人版](https://www.feishu.cn)（国内）账号，在个人工作区中创建和使用 Bot，无需管理员审批。
+> **注意：** 在 Lark/飞书中添加自建应用（Bot）需要**企业管理员审批**。如果你暂时不想接入企业的 Bot，可以先开通一个 [飞书个人版](https://www.feishu.cn)（国内）或 [Lark 个人版](https://www.larksuite.com)（海外）账号，在个人工作区中创建和使用 Bot，无需管理员审批。
 
-### 第1步：创建Lark应用
-1. 访问 [Lark开放平台](https://open.larksuite.com)（海外）或 [飞书开放平台](https://open.feishu.cn)（国内）
-2. 登录你的Lark/飞书管理员账号
-3. 点击 **创建应用** → 选择 **企业自建应用**
-4. 填写应用名称（如 `COCO AI员工`）和描述
-5. 创建成功后，记录以下信息：
-   - **App ID**
-   - **App Secret**
+Lark（海外版）和飞书（国内版）的操作流程略有不同，请根据你的使用场景选择对应的指南：
 
-> **提示：** 需要企业管理员权限创建应用。如果你不是管理员，请联系你的IT部门协助。
+### 飞书部署（推荐国内团队） {#feishu}
 
-### 第2步：配置应用权限
-在应用管理页面，进入 **权限管理**，开启以下权限：
+#### 第1步：进入飞书开放平台
+
+1. 访问 [飞书开放平台](https://open.feishu.cn)
+2. 使用你的飞书账号登录
+3. 点击右上角 **开发者后台** 进入管理页面
+
+![飞书开放平台首页 — 点击右上角「开发者后台」](/feishu-open-platform.png)
+
+#### 第2步：创建企业自建应用
+
+1. 在开发者后台，点击 **创建企业自建应用**
+
+![飞书开发者后台 — 点击「创建企业自建应用」](/feishu-create-app.png)
+
+2. 填写应用名称（如 `COCO AI员工`）和描述，选择应用图标
+
+![填写应用名称和描述](/feishu-create-app-form.png)
+
+3. 点击 **创建** 完成
+4. 创建成功后，进入应用管理页面，记录以下信息：
+   - **App ID**（在「凭证与基础信息」中）
+   - **App Secret**（在「凭证与基础信息」中）
+
+> **提示：** 需要企业管理员权限创建应用。如果你不是管理员，请联系你的IT部门协助。或者先使用飞书个人版账号体验。
+
+#### 第3步：添加机器人能力并配置权限
+
+在应用管理页面，首先添加 **机器人** 能力（点击「+ 添加」），然后进入左侧 **权限管理** 开启以下权限：
+
+![应用管理页面 — 添加机器人能力，然后进入「权限管理」配置权限](/feishu-app-capabilities.png)
 
 **必需权限（最小权限集）：**
 
@@ -117,7 +138,8 @@
 
 开启权限后，点击 **发布版本** 并等待管理员审批。
 
-### 第3步：配置事件订阅
+#### 第4步：配置事件订阅
+
 1. 在应用管理页面，进入 **事件与回调**
 2. 配置 **请求地址（Request URL）**：由COCO平台提供，格式如：`https://api.coco.xyz/webhook/lark/{your-instance-id}`
 3. 订阅以下事件：
@@ -125,29 +147,113 @@
    - `im.chat.member.bot.added_v1` — Bot被加入群组（可选）
 4. 记录页面上的 **Verification Token** 和 **Encrypt Key**（如有）
 
-### 第4步：在COCO平台绑定
+#### 第5步：在COCO平台绑定
+
 1. 登录 [COCO Dashboard](https://coco.xyz/dashboard)
 2. 进入 **Connect** 或 **Channels** 页面
-3. 选择 **Lark/飞书**
+3. 选择 **飞书**
 4. 填入以下信息：
 
 | 字段 | 来源 |
 |------|------|
-| App ID | Lark开放平台 → 应用凭证 |
-| App Secret | Lark开放平台 → 应用凭证 |
-| Verification Token | Lark开放平台 → 事件订阅 |
-| Encrypt Key（可选） | Lark开放平台 → 事件订阅 |
+| App ID | 飞书开放平台 → 应用凭证 |
+| App Secret | 飞书开放平台 → 应用凭证 |
+| Verification Token | 飞书开放平台 → 事件订阅 |
+| Encrypt Key（可选） | 飞书开放平台 → 事件订阅 |
 
 5. 点击 **验证并连接**
 6. 系统会自动完成Webhook配置并验证连通性
 
-### 第5步：启用机器人并添加到群组
-1. 在Lark开放平台，进入 **机器人** 菜单，确认机器人功能已开启
-2. 打开Lark/飞书客户端
+#### 第6步：启用机器人并添加到群组
+
+1. 在飞书开放平台，进入 **机器人** 菜单，确认机器人功能已开启
+2. 打开飞书客户端
 3. 创建或进入一个群组
 4. 群设置 → **机器人** → **添加机器人** → 搜索你的应用名称
 5. 确认添加
 6. 在群中 @你的机器人 发送消息
 7. AI员工响应 → 部署完成！
 
-> **也可以私聊使用：** 在Lark/飞书中搜索你的应用名，直接发起私聊对话。
+> **也可以私聊使用：** 在飞书中搜索你的应用名，直接发起私聊对话。
+
+---
+
+### Lark 部署（推荐海外团队） {#lark}
+
+#### 第1步：进入 Lark 开放平台
+
+1. 访问 [Lark Open Platform](https://open.larksuite.com)
+2. 使用你的 Lark 账号登录
+3. 点击右上角 **Developer Backend** 进入管理页面
+
+> **提示：** Lark 是飞书的海外版本，界面为英文。功能与飞书基本一致，但平台地址和部分操作名称不同。
+
+#### 第2步：创建应用
+
+1. 在 Developer Backend，点击 **Create Custom App**
+2. 填写应用名称（如 `COCO AI Employee`）和描述
+3. 创建成功后，记录以下信息：
+   - **App ID**
+   - **App Secret**
+
+> **提示：** 需要 Lark 企业管理员权限。如果你不是管理员，请联系你的 IT 部门协助。或者先使用 Lark 个人版账号体验。
+
+#### 第3步：配置应用权限
+
+在应用管理页面，进入 **Permissions & Scopes**，开启以下权限：
+
+**必需权限（Required Permissions）：**
+
+| 权限 | Permission ID | 用途 |
+|------|---------------|------|
+| Send & receive messages | `im:message` | AI收发消息 |
+| Get group info | `im:chat:readonly` | 识别对话群组 |
+| Get user info | `contact:user.base:readonly` | 识别对话用户 |
+| Receive message events | `im:message.receive_v1` | 实时接收用户消息 |
+
+**推荐权限（Recommended Permissions）：**
+
+| 权限 | Permission ID | 用途 |
+|------|---------------|------|
+| Upload/download files | `im:resource` | AI处理文件和图片 |
+| Send rich text | `im:message.rich_text` | 发送格式化消息 |
+
+开启权限后，点击 **Create Version** 并等待管理员审批。
+
+#### 第4步：配置事件订阅
+
+1. 在应用管理页面，进入 **Events & Callbacks**
+2. 配置 **Request URL**：由COCO平台提供，格式如：`https://api.coco.xyz/webhook/lark/{your-instance-id}`
+3. 订阅以下事件：
+   - `im.message.receive_v1` — Receive messages
+   - `im.chat.member.bot.added_v1` — Bot added to group（可选）
+4. 记录页面上的 **Verification Token** 和 **Encrypt Key**（如有）
+
+#### 第5步：在COCO平台绑定
+
+1. 登录 [COCO Dashboard](https://coco.xyz/dashboard)
+2. 进入 **Connect** 或 **Channels** 页面
+3. 选择 **Lark**
+4. 填入以下信息：
+
+| 字段 | 来源 |
+|------|------|
+| App ID | Lark Open Platform → Credentials |
+| App Secret | Lark Open Platform → Credentials |
+| Verification Token | Lark Open Platform → Events & Callbacks |
+| Encrypt Key（可选） | Lark Open Platform → Events & Callbacks |
+
+5. 点击 **验证并连接**
+6. 系统会自动完成Webhook配置并验证连通性
+
+#### 第6步：启用机器人并添加到群组
+
+1. 在 Lark Open Platform，进入 **Bot** 菜单，确认 Bot 功能已开启
+2. 打开 Lark 客户端
+3. 创建或进入一个群组
+4. Group Settings → **Bots** → **Add Bot** → 搜索你的应用名称
+5. 确认添加
+6. 在群中 @你的 Bot 发送消息
+7. AI员工响应 → 部署完成！
+
+> **也可以私聊使用：** 在 Lark 中搜索你的应用名，直接发起私聊对话。
