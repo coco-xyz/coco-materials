@@ -83,6 +83,8 @@ In @BotFather:
 
 **Estimated time: 8-15 minutes**
 
+> **Note:** Adding a self-built app (Bot) in Lark/Feishu requires **enterprise admin approval**. If you don't want to go through the enterprise approval process right away, you can first create a [Lark personal account](https://www.larksuite.com) (international) or [Feishu personal account](https://www.feishu.cn) (domestic). You can create and use Bots in your personal workspace without admin approval.
+
 ### Step 1: Create a Lark App
 1. Visit [Lark Open Platform](https://open.larksuite.com) (international) or [Feishu Open Platform](https://open.feishu.cn) (domestic)
 2. Log in with your Lark/Feishu admin account

@@ -83,6 +83,8 @@
 
 **预计耗时：8-15分钟**
 
+> **注意：** 在 Lark/飞书中添加自建应用（Bot）需要**企业管理员审批**。如果你暂时不方便申请企业管理员权限，可以先注册一个 [Lark 个人版](https://www.larksuite.com)（海外）或[飞书个人版](https://www.feishu.cn)（国内）账号，在个人工作区中创建和使用 Bot，无需管理员审批。
+
 ### 第1步：创建Lark应用
 1. 访问 [Lark开放平台](https://open.larksuite.com)（海外）或 [飞书开放平台](https://open.feishu.cn)（国内）
 2. 登录你的Lark/飞书管理员账号
