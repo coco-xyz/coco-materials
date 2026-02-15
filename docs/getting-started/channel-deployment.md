@@ -206,6 +206,10 @@ In the Permission Management page, click **开通权限** (Enable Permissions) t
 
 ![Permission Management — Click "开通权限" to add API permissions](/feishu-permissions.png)
 
+In the permission search dialog, type the Permission ID (e.g., `im:message`), check the needed permissions, then click **确认开通权限** (Confirm):
+
+![Search permissions — Type permission ID, check and confirm](/feishu-enable-permissions.png)
+
 **Required Permissions:**
 
 | Permission | Permission ID | Purpose |
