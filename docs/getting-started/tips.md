@@ -2,31 +2,78 @@
 
 Key tips and common mechanisms when using your COCO AI employee.
 
-## Group Chat & Private Chat
+## Initial Setup (Required for First Use)
 
-### Private Chat (1-on-1)
+After adding your AI employee to a group chat, **don't start asking questions right away — complete these setup steps first:**
 
-AI employees support private chat by default. Simply search for your Bot name in Telegram or Lark/Feishu and start a direct conversation — no additional configuration needed.
+### Step 1: Enable Group Chat Whitelist
 
-### Group Chat
+Send the following message in the group by @mentioning your AI employee:
 
-When using AI employees in group chats, keep the following in mind:
+```
+@AI-Employee Enable this group's whitelist
+```
 
-| Item | Details |
-|------|---------|
-| Trigger method | Must **@mention your Bot** to trigger a response. Regular messages won't activate it |
-| Group permissions | Bot must be added to the group first (see [Channel Deployment Guide](./channel-deployment) Step 7) |
-| Feishu/Lark permission | Must enable `im:message.group_at_msg:readonly` permission, otherwise Bot cannot receive @mentions in groups |
-| Member access | Once Bot is added to a group, all group members can @mention and chat with it |
+The AI employee will confirm that the group is activated. After that, all group members can interact normally.
 
-> **Tip:** If your Bot doesn't respond in a group, check:
-> 1. Is the Bot added to this group?
-> 2. Did you use @mention (not a regular message)?
-> 3. Is the `im:message.group_at_msg:readonly` permission enabled in the Feishu/Lark app?
+<br>
 
-### Multi-Group Usage
+### Step 2: Grant Private Chat Access for Members (Optional)
 
-A single AI employee can be added to multiple groups simultaneously. Each group's conversation context is independent and won't interfere with others.
+If you want a specific member to be able to chat 1-on-1 with the AI employee, send in the group:
+
+```
+@AI-Employee Grant @member private chat access
+```
+
+> **Note:** @mentioning the AI employee in group chats is not restricted by the whitelist — all group members can use it. The whitelist only controls private chat permissions.
+
+<br>
+
+### Step 3: Choose Group Chat Mode (Optional)
+
+| Mode | Trigger | Best For | How to Enable |
+|------|---------|----------|---------------|
+| **Standard Mode** (Default) | Must @mention AI employee to get a reply | Large groups, daily discussions | Enabled by default, no action needed |
+| **Smart Group Chat Mode** | AI automatically decides whether to respond | Small project groups (<10 people) | @AI-Employee and say "Enable smart group chat mode" |
+
+To enable smart group chat mode:
+
+```
+@AI-Employee Enable smart group chat mode
+```
+
+To disable:
+
+```
+@AI-Employee Disable smart group chat mode
+```
+
+> **Note:** In smart group chat mode, the AI reads all messages in the group to determine whether a response is needed. This increases token consumption. We recommend enabling it only in core working groups.
+
+---
+
+## Send Your First Task
+
+After completing the initial setup, @mention your AI employee in a group chat or send a direct message in private chat:
+
+```
+@AI-Employee Hello! Please introduce yourself and tell me what you can help me with.
+```
+
+The AI employee will respond based on your plan's capabilities. Once you confirm everything works, you're ready for daily use.
+
+---
+
+## Interaction Quick Reference
+
+| Scenario | How to Interact | Notes |
+|----------|----------------|-------|
+| **Group chat** | @AI-Employee name + message content | In default mode, must @mention to trigger a reply |
+| **Private chat** | Send messages directly | Requires private chat whitelist access first |
+| **Multi-person group** | @AI-Employee, reply visible to all members | AI's reply is visible to everyone in the group |
+
+> **Tip:** Messages in group chats that don't @mention the AI employee will not be processed or replied to — it won't interfere with normal team communication.
 
 ---
 
