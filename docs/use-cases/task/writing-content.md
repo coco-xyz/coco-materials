@@ -5055,3 +5055,130 @@ Analyze and provide:
 
 :::
 
+
+## 28. AI Strategy Brief Writer
+
+> Synthesizes market data, financials, and competitor intel into a 10-page strategy brief in 15 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/112-ai-strategy-brief-writer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Consultant · **Industry**: Consulting
+
+## 29. AI Grant Proposal Writer
+
+> Drafts grant proposals tailored to funder requirements — generates budgets, timelines, and impact metrics in 20 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/113-ai-grant-proposal-writer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Operations · **Industry**: Nonprofit
+
+## 30. AI Script Coverage Reader
+
+> Reads a 120-page screenplay and generates professional coverage — synopsis, character analysis, and market fit in 8 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/118-ai-script-coverage-reader.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Data Analyst · **Industry**: Media & Entertainment
+
+## 31. AI Podcast Show Notes Writer
+
+> Transcribes a 60-minute episode, extracts key quotes, and generates SEO-optimized show notes with timestamps in 4 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/133-ai-podcast-show-notes-writer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Content / Marketing · **Industry**: Media & Entertainment
+
+## 32. AI Impact Measurement Reporter
+
+> Aggregates program data from 8 sources — produces funder-ready impact reports with visualizations and outcome metrics in 20 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/158-ai-impact-measurement-reporter.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Data Analyst · **Industry**: Nonprofit
+
+## 33. AI Clinical Notes Summarizer
+
+> Distills 20-page patient charts into structured 1-page summaries — highlights active problems, medications, and pending orders.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/162-ai-clinical-notes-summarizer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Operations · **Industry**: Healthcare
+
+## 34. AI Executive Briefing Generator
+
+> Synthesizes data from 6 departments into a 2-page Monday morning brief — KPIs, risks, decisions needed, all in 5 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/167-ai-executive-briefing-generator.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Executive · **Industry**: Enterprise
+
+## 35. AI ESG Disclosure Writer
+
+> Collects ESG metrics from 10 departments — drafts TCFD and GRI-aligned disclosures with data validation in 2 hours.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/185-ai-esg-disclosure-writer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Compliance Officer · **Industry**: Enterprise
+
+## 36. AI Annual Report Assembler
+
+> Pulls financials, program outcomes, and donor data — assembles a print-ready annual report with charts and narratives in 3 hours.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/190-ai-annual-report-assembler.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Executive · **Industry**: Nonprofit
+

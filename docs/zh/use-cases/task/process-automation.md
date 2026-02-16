@@ -5903,3 +5903,676 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 :::
 
+
+## 36. AI合同分析师
+
+> 3分钟扫描50页合同——签字前标记风险条款、缺失条款和异常条件。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/105-ai-contract-analyzer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 法律 · **行业**: 企业通用
+
+## 37. AI患者入院处理器
+
+> 90秒数字化患者入院表——将人口统计、保险信息和病史自动录入电子病历系统。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/106-ai-patient-intake-processor.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 运营 · **行业**: 医疗健康
+
+## 38. AI许可证申请追踪器
+
+> 跨部门追踪200+许可证申请——提前7天标记缺失文件和临近截止日期。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/114-ai-permit-application-tracker.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 合规官 · **行业**: 政府
+
+## 39. AI理赔评估师
+
+> 对照保单条款审核理赔申请——自动通过简单案件，处理时间从5天缩短到4小时。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/117-ai-claims-adjuster.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 运营 · **行业**: 保险
+
+## 40. AI仓库布局优化器
+
+> 分析拣货频率和订单模式——重新设计仓库分区，平均拣货时间缩短35%。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/124-ai-warehouse-layout-optimizer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 物流经理 · **行业**: 物流
+
+## 41. AI预测性维护调度器
+
+> 分析100+设备的振动、温度和运行数据——在故障前安排维护，停机时间减少40%。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/126-ai-predictive-maintenance-scheduler.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 运营 · **行业**: 制造业
+
+## 42. AI捐赠者互动追踪器
+
+> 对5000+捐赠者进行参与度、捐赠历史和能力评分——优先联络以提升续捐率25%。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/128-ai-donor-engagement-tracker.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 销售 · **行业**: 非营利
+
+## 43. AI灌溉调度器
+
+> 结合土壤湿度传感器、天气预报和作物需求——优化灌溉计划，减少30%用水量。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/130-ai-irrigation-scheduler.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 运营 · **行业**: 农业
+
+## 44. AI保单续保优化器
+
+> 分析理赔历史、风险画像和市场费率——到期前30天推荐最优续保方案。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/132-ai-policy-renewal-optimizer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 销售 · **行业**: 保险
+
+## 45. AI路线优化器
+
+> 规划每日80个站点的最优配送路线——综合交通、时间窗和车辆容量，燃油成本降低20%。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/139-ai-route-optimizer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 物流经理 · **行业**: 物流
+
+## 46. AI物料清单检查器
+
+> 将BOM与5000+供应商目录交叉验证——3分钟发现停产零件并建议替代方案以降低成本。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/141-ai-bill-of-materials-checker.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 采购 · **行业**: 制造业
+
+## 47. AI志愿者协调器
+
+> 根据技能、空闲时间和历史表现将500名志愿者匹配到30个活动岗位——自动发送确认。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/143-ai-volunteer-coordinator.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 运营 · **行业**: 非营利
+
+## 48. AI零件目录更新器
+
+> 跨3个系统同步OEM零件编号、定价和适配数据——每晚核对保持8万SKU准确。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/150-ai-parts-catalog-updater.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 运营 · **行业**: 汽车
+
+## 49. AI医疗编码助手
+
+> 阅读临床记录分配ICD-10和CPT编码——首次准确率96%，拒付率降低40%。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/151-ai-medical-coding-assistant.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 财务 · **行业**: 医疗健康
+
+## 50. AI安全事故报告器
+
+> 从自然语言中提取事故细节——生成符合OSHA标准的报告，包含根因分析和纠正措施。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/156-ai-safety-incident-reporter.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 合规官 · **行业**: 制造业
+
+## 51. AI信息公开请求处理器
+
+> 对照豁免标准审查信息公开请求——编辑敏感内容并起草回复，处理周期从30天缩短到5天。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/159-ai-foia-request-processor.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 法律 · **行业**: 政府
+
+## 52. AI电子病历数据迁移器
+
+> 映射新旧电子病历系统间的字段——转换50万条患者记录，带验证检查和错误日志。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/168-ai-ehr-data-migrator.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 产品/研发 · **行业**: 医疗健康
+
+## 53. AI诉讼保全管理器
+
+> 识别保管人、发送保全通知、追踪确认并监控合规——管理50+活跃保全，零遗漏截止日期。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/170-ai-litigation-hold-manager.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 法律 · **行业**: 企业通用
+
+## 54. AI越库调度器
+
+> 在20个月台协调进出车辆——通过实时时段优化将停留时间缩短45%。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/171-ai-cross-dock-scheduler.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 物流经理 · **行业**: 物流
+
+## 55. AI客房清洁调度器
+
+> 根据退房时间、特殊需求和距离将80间房分配给15名清洁员——周转时间缩短25%。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/172-ai-housekeeping-scheduler.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 运营 · **行业**: 酒店餐饮
+
+## 56. AI生产批次优化器
+
+> 排序200个生产订单以最小化换线时间——在满足所有交期的同时提升15%产量。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/173-ai-production-batch-optimizer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 运营 · **行业**: 制造业
+
+## 57. AI内容版权追踪器
+
+> 跨30个地区追踪1万+作品的授权窗口——权利到期前60天提醒续约决策。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/180-ai-content-rights-tracker.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 法律 · **行业**: 媒体娱乐
+
+## 58. AI订户生命周期管理器
+
+> 按生命周期阶段细分50万订户——在入网、升级和留存节点触发个性化营销。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/181-ai-subscriber-lifecycle-manager.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 内容/营销 · **行业**: 电信
+
+## 59. AI药品福利优化器
+
+> 对比5家PBM的药品目录方案——找到节省22%药品支出的等效替代品，不影响疗效。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/183-ai-pharmacy-benefit-optimizer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 采购 · **行业**: 医疗健康
+
+## 60. AI招生预测器
+
+> 建模人口趋势、申请漏斗和竞争动态——以3%以内误差预测下一年招生人数。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/184-ai-enrollment-forecaster.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 数据分析师 · **行业**: 教育
+
+## 61. AI报关申报器
+
+> 将货物归入HS编码、计算关税并预填报关单——清关时间从48小时缩短到6小时。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/186-ai-customs-declaration-filer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 物流经理 · **行业**: 物流
+
+## 62. AI收益管理优化器
+
+> 基于需求、活动和竞争定价动态调整房价——比静态定价提升12% RevPAR。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/187-ai-revenue-management-optimizer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 财务 · **行业**: 酒店餐饮
+
+## 63. AI统计过程控制监控器
+
+> 实时监控50张控制图——在产生废品前3个班次检测到超差趋势，自动触发警报。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/188-ai-spc-chart-monitor.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: QA工程师 · **行业**: 制造业
+
+## 64. AI采购竞标评估器
+
+> 按25项加权标准评分30份供应商投标——45分钟生成比较矩阵并筛选前3名。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/191-ai-procurement-bid-evaluator.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 采购 · **行业**: 政府
+
+## 65. AI试驾调度器
+
+> 筛选在线潜客、匹配车型偏好并预约试驾——以确认预约填满90%可用时段。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/197-ai-test-drive-scheduler.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 销售 · **行业**: 汽车
+
+## 66. AI租户筛查处理器
+
+> 提取信用、就业和租赁历史——3分钟生成符合公平住房法的带风险评分筛查报告。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/199-ai-tenant-screening-processor.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 运营 · **行业**: 房地产
+
+## 67. AI OKR进度追踪器
+
+> 从Jira、Salesforce等6个工具同步关键结果——生成周度OKR评分卡显示红黄绿状态。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/200-ai-okr-progress-tracker.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 高管 · **行业**: 企业通用
+
+## 68. AI课程设计师
+
+> 10分钟内生成12周课程大纲——包含学习目标、作业设计和评分标准。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/107-ai-curriculum-designer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 培训师 · **行业**: 教育
+
+## 69. AI酒店评论回复器
+
+> 在6个平台上为客人评论撰写个性化回复——每条30秒，完美匹配品牌语调。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/110-ai-hotel-review-responder.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 内容/营销 · **行业**: 酒店餐饮
+
+## 70. AI生产缺陷检测器
+
+> 分析产线照片和传感器数据——产品出厂前以98.5%准确率捕捉缺陷。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/111-ai-production-defect-detector.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: QA工程师 · **行业**: 制造业
+
+## 71. AI保密协议生成器
+
+> 60秒生成符合管辖区要求的保密协议——根据交易背景定制范围、期限和例外条款。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/123-ai-nda-generator.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 法律 · **行业**: 科技/SaaS
+
+## 72. AI尽职调查编撰器
+
+> 提取公开文件、新闻、诉讼记录和财务数据——2小时完成尽职调查报告，替代原来的2周。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/127-ai-due-diligence-compiler.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 咨询顾问 · **行业**: 金融服务
+
+## 73. AI碳足迹报告生成器
+
+> 从12个数据源汇总范围1-3排放数据——生成符合GHG协议的审计就绪碳排放报告。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/131-ai-carbon-footprint-reporter.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 合规官 · **行业**: 能源
+
+## 74. AI经销商库存匹配器
+
+> 将客户偏好与15家经销商库存匹配——推荐最佳车型并估算置换价格。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/135-ai-dealership-inventory-matcher.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 销售 · **行业**: 汽车
+
+## 75. AI客人升级推荐器
+
+> 分析预订历史和客人画像——推荐个性化房间升级和套餐，RevPAR提升18%。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/140-ai-guest-upsell-recommender.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 销售 · **行业**: 酒店餐饮
+
+## 76. AI咨询方案构建器
+
+> 将原始分析转化为麦肯锡风格幻灯片——25分钟构建30张包含图表、关键发现和建议的PPT。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/142-ai-management-consulting-deck-builder.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 咨询顾问 · **行业**: 咨询
+
+## 77. AI运费谈判助手
+
+> 将运费与200+航线的市场数据对标——发现平均每批货物可节省12%的机会。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/154-ai-freight-rate-negotiator.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 采购 · **行业**: 物流
+
+## 78. AI活动后勤规划器
+
+> 协调300人活动的场地、餐饮、音视频和人员——15分钟生成时间线、检查单和供应商订单。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/155-ai-event-logistics-planner.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 项目经理 · **行业**: 酒店餐饮
+
+## 79. AI论文评分助手
+
+> 按评分标准批改研究论文——2分钟提供论证、证据和写作质量的段落级反馈。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/163-ai-research-paper-grader.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 培训师 · **行业**: 教育
+
+## 80. AI学习路径构建器
+
+> 通过诊断测验评估学生技能——生成个性化8周学习路径，含资源、里程碑和检查点。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/169-ai-learning-path-builder.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 培训师 · **行业**: 教育
+
+## 81. AI筹款活动策划器
+
+> 策划500人晚宴——在一个面板管理RSVP、座位安排、拍卖目录和赞助方案。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/175-ai-fundraising-event-planner.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 项目经理 · **行业**: 非营利
+
+## 82. AI能源交易助手
+
+> 监控现货价格、天气预报和需求曲线——建议次日能源市场的最优买卖时间窗口。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/178-ai-energy-trading-assistant.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 财务 · **行业**: 能源
+
+## 83. AI受众分群引擎
+
+> 按观看历史、人口统计和互动数据聚类200万观众——构建12个可操作画像用于定向内容策略。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/195-ai-audience-segmentation-engine.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 内容/营销 · **行业**: 媒体娱乐
+

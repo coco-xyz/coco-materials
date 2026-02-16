@@ -4850,3 +4850,368 @@ For each scenario, provide:
 
 :::
 
+
+## 29. AI Shipment Tracker
+
+> Monitors 500+ active shipments across carriers — alerts you to delays 4 hours before they impact delivery.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/109-ai-shipment-tracker.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Logistics Manager · **Industry**: Logistics
+
+## 30. AI Network Capacity Planner
+
+> Analyzes traffic patterns across 50+ cell towers — recommends capacity upgrades 3 months before congestion hits.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/119-ai-network-capacity-planner.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: DevOps · **Industry**: Telecom
+
+## 31. AI Vehicle Recall Monitor
+
+> Scans NHTSA databases and service bulletins daily — maps recalls to your fleet inventory and generates action plans.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/120-ai-vehicle-recall-monitor.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Compliance Officer · **Industry**: Automotive
+
+## 32. AI Clinical Trial Screener
+
+> Matches patient records against 40+ trial criteria — identifies eligible candidates 10x faster than manual review.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/121-ai-clinical-trial-screener.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Data Analyst · **Industry**: Healthcare
+
+## 33. AI Student Progress Tracker
+
+> Aggregates grades, attendance, and engagement data for 200 students — flags at-risk learners weekly with intervention suggestions.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/122-ai-student-progress-tracker.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Trainer · **Industry**: Education
+
+## 34. AI Public Records Researcher
+
+> Searches across 15 government databases simultaneously — compiles property, court, and business records in 5 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/129-ai-public-records-researcher.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Data Analyst · **Industry**: Government
+
+## 35. AI HIPAA Compliance Auditor
+
+> Scans access logs, encryption configs, and data flows — identifies HIPAA violations and generates remediation tasks in 15 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/136-ai-hipaa-compliance-auditor.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Compliance Officer · **Industry**: Healthcare
+
+## 36. AI Plagiarism Checker
+
+> Compares student submissions against 10M+ sources and AI-generated patterns — flags suspicious passages with confidence scores.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/137-ai-plagiarism-checker.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Trainer · **Industry**: Education
+
+## 37. AI Pest Detection Advisor
+
+> Analyzes crop photos and local pest databases — identifies infestations with 95% accuracy and recommends treatment protocols.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/145-ai-pest-detection-advisor.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Consultant · **Industry**: Agriculture
+
+## 38. AI Solar Panel Performance Monitor
+
+> Tracks output from 2,000+ panels in real-time — detects degradation, shading issues, and inverter faults within 10 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/146-ai-solar-panel-performance-monitor.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: DevOps · **Industry**: Energy
+
+## 39. AI Underwriting Assistant
+
+> Evaluates applicant data against 50 risk factors — generates underwriting recommendations with confidence scores in 8 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/147-ai-underwriting-assistant.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Data Analyst · **Industry**: Insurance
+
+## 40. AI Churn Predictor
+
+> Scores 100,000 subscribers on 30+ behavioral signals — identifies likely churners 45 days out with 87% accuracy.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/149-ai-churn-predictor.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Data Analyst · **Industry**: Telecom
+
+## 41. AI Accreditation Compliance Checker
+
+> Maps your programs against 150+ accreditation standards — highlights gaps and auto-generates evidence documentation.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/152-ai-accreditation-compliance-checker.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Compliance Officer · **Industry**: Education
+
+## 42. AI Trademark Conflict Searcher
+
+> Searches USPTO, EUIPO, and 20+ trademark databases — delivers a comprehensive conflict report with risk scores in 10 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/153-ai-trademark-conflict-searcher.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Legal · **Industry**: Enterprise
+
+## 43. AI Supply Chain Risk Scorer
+
+> Monitors 300 suppliers across geopolitical, financial, and weather risk factors — generates daily risk scorecards with mitigation steps.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/160-ai-supply-chain-risk-scorer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Procurement · **Industry**: Manufacturing
+
+## 44. AI API Migration Planner
+
+> Maps 200+ API endpoints between old and new versions — generates migration guides with breaking-change alerts and code samples.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/161-ai-api-migration-planner.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Product / Dev · **Industry**: Technology / SaaS
+
+## 45. AI Regulatory Change Tracker
+
+> Monitors SEC, FINRA, and 12 global regulators daily — maps new rules to your compliance obligations with 48-hour advance alerts.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/164-ai-regulatory-change-tracker.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Legal · **Industry**: Financial Services
+
+## 46. AI Last-Mile Delivery Tracker
+
+> Tracks 2,000 daily deliveries across 5 carriers — auto-contacts customers about delays and suggests redelivery windows.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/165-ai-last-mile-delivery-tracker.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Logistics Manager · **Industry**: E-commerce / Retail
+
+## 47. AI Fraud Pattern Detector
+
+> Analyzes claim patterns across 100,000 records — identifies suspicious clusters and staged accident indicators with 92% precision.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/179-ai-fraud-pattern-detector.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Data Analyst · **Industry**: Insurance
+
+## 48. AI Livestock Health Monitor
+
+> Tracks feed intake, movement, and temperature for 1,000 head — detects illness indicators 48 hours before visible symptoms.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/192-ai-livestock-health-monitor.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Operations · **Industry**: Agriculture
+
+## 49. AI PPA Reviewer
+
+> Reviews 80-page power purchase agreements — flags escalation clauses, curtailment risks, and unfavorable terms in 10 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/193-ai-power-purchase-agreement-reviewer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Legal · **Industry**: Energy
+
+## 50. AI Service Ticket Predictor
+
+> Analyzes network alerts and customer complaint patterns — predicts ticket surges 6 hours early so support can staff up.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/196-ai-service-ticket-predictor.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Customer Support · **Industry**: Telecom
+
+## 51. AI Dependency Vulnerability Scanner
+
+> Scans 2,000 dependencies across 15 repos nightly — prioritizes CVEs by exploitability and auto-generates upgrade PRs.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/198-ai-dependency-vulnerability-scanner.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Product / Dev · **Industry**: Technology / SaaS
+
+## 52. AI Referral Network Mapper
+
+> Maps physician referral patterns across 200 providers — identifies high-value relationship gaps and outreach priorities.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/201-ai-referral-network-mapper.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Sales · **Industry**: Healthcare
+
+## 53. AI Board Meeting Prep Assistant
+
+> Compiles board packet from 8 department updates — formats financials, strategic updates, and vote items into a branded 40-page deck.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/203-ai-board-meeting-prep-assistant.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Executive · **Industry**: Enterprise
+
+## 54. AI Accessibility Compliance Checker
+
+> Scans your web app against WCAG 2.2 AA standards — flags 200+ checkpoints with fix suggestions and priority rankings.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/204-ai-accessibility-compliance-checker.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: QA Engineer · **Industry**: Technology / SaaS
+

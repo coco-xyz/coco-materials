@@ -5523,3 +5523,242 @@ For each scenario, provide:
 
 :::
 
+
+## 35. AI Property Valuation Assistant
+
+> Pulls 20+ comps, adjusts for location and condition, and delivers a market valuation report in 5 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/108-ai-property-valuation-assistant.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Data Analyst · **Industry**: Real Estate
+
+## 36. AI Crop Yield Predictor
+
+> Combines weather data, soil reports, and historical yields to predict harvest volumes within 8% accuracy.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/115-ai-crop-yield-predictor.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Data Analyst · **Industry**: Agriculture
+
+## 37. AI Grid Outage Analyzer
+
+> Correlates sensor data from 1,000+ grid nodes — pinpoints outage root cause in 2 minutes instead of 2 hours.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/116-ai-grid-outage-analyzer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Operations · **Industry**: Energy
+
+## 38. AI Menu Cost Analyzer
+
+> Calculates food cost percentage for every menu item — suggests price adjustments and substitutions to hit 30% margin targets.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/125-ai-menu-cost-analyzer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Finance · **Industry**: Hospitality
+
+## 39. AI 5G Site Survey Analyzer
+
+> Processes RF propagation data, terrain maps, and zoning rules — ranks 50 candidate sites by coverage potential in 20 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/134-ai-5g-site-survey-analyzer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Data Analyst · **Industry**: Telecom
+
+## 40. AI IP Portfolio Analyzer
+
+> Maps your patent portfolio against competitor filings — identifies white spaces and potential infringement risks across 300+ patents.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/138-ai-ip-portfolio-analyzer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Legal · **Industry**: Technology / SaaS
+
+## 41. AI Constituent Feedback Analyzer
+
+> Processes 10,000+ citizen comments from town halls and surveys — clusters themes, sentiment, and urgency into actionable briefs.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/144-ai-constituent-feedback-analyzer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Data Analyst · **Industry**: Government
+
+## 42. AI Royalty Calculator
+
+> Processes streaming data from 8 platforms — calculates artist royalties across 50,000 tracks with split-sheet accuracy in 30 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/148-ai-royalty-calculator.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Finance · **Industry**: Media & Entertainment
+
+## 43. AI Benchmarking Analyst
+
+> Collects operational KPIs from 50+ industry peers — ranks your client's performance and identifies top-quartile improvement targets.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/157-ai-benchmarking-analyst.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Consultant · **Industry**: Consulting
+
+## 44. AI Floor Plan Analyzer
+
+> Extracts room dimensions, calculates usable square footage, and flags code violations from uploaded floor plans in 2 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/166-ai-floor-plan-analyzer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Data Analyst · **Industry**: Real Estate
+
+## 45. AI Market Sizing Modeler
+
+> Builds TAM/SAM/SOM models from public data — generates bottom-up and top-down estimates with source citations in 20 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/174-ai-market-sizing-modeler.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Consultant · **Industry**: Consulting
+
+## 46. AI Budget Variance Analyst
+
+> Compares actual spend against 200 budget line items monthly — highlights variances over 5% with drill-down explanations.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/176-ai-budget-variance-analyst.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Finance · **Industry**: Government
+
+## 47. AI Soil Health Reporter
+
+> Interprets lab results for pH, nutrients, and organic matter across 50 field zones — recommends fertilizer plans with cost estimates.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/177-ai-soil-health-reporter.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Data Analyst · **Industry**: Agriculture
+
+## 48. AI Fleet Telematics Analyzer
+
+> Processes GPS, fuel, and driver behavior data from 500 vehicles — generates weekly scorecards and identifies $80K annual fuel savings.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/182-ai-fleet-telematics-analyzer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Operations · **Industry**: Automotive
+
+## 49. AI Pricing Strategy Modeler
+
+> Runs 100 pricing scenarios with elasticity curves and competitor data — recommends tier structures that maximize LTV by 20%.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/189-ai-pricing-strategy-modeler.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Consultant · **Industry**: Technology / SaaS
+
+## 50. AI Actuarial Scenario Runner
+
+> Runs 500 mortality and morbidity scenarios against your book — stress-tests reserves and highlights underfunded segments in 30 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/194-ai-actuarial-scenario-runner.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Finance · **Industry**: Insurance
+
+## 51. AI Comparative Market Analysis Builder
+
+> Pulls 30 recent sales, adjusts for features and timing — generates client-ready CMA presentations with photos and price justifications.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/202-ai-comparative-market-analysis.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Sales · **Industry**: Real Estate
+

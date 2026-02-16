@@ -4908,3 +4908,130 @@ RFP表现数据（过去12个月）：
 
 :::
 
+
+## 28. AI战略简报撰写器
+
+> 15分钟将市场数据、财务信息和竞争情报综合成10页战略简报。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/112-ai-strategy-brief-writer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 咨询顾问 · **行业**: 咨询
+
+## 29. AI拨款申请撰写器
+
+> 根据资助方要求撰写拨款申请——20分钟生成预算、时间表和影响力指标。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/113-ai-grant-proposal-writer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 运营 · **行业**: 非营利
+
+## 30. AI剧本评审阅读器
+
+> 阅读120页剧本生成专业评审——8分钟完成剧情概要、角色分析和市场适配度评估。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/118-ai-script-coverage-reader.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 数据分析师 · **行业**: 媒体娱乐
+
+## 31. AI播客节目笔记撰写器
+
+> 转录60分钟节目，提取关键引用，4分钟生成带时间戳的SEO优化节目笔记。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/133-ai-podcast-show-notes-writer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 内容/营销 · **行业**: 媒体娱乐
+
+## 32. AI影响力评估报告器
+
+> 从8个数据源汇总项目数据——20分钟生成包含可视化和成果指标的资助方报告。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/158-ai-impact-measurement-reporter.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 数据分析师 · **行业**: 非营利
+
+## 33. AI临床笔记摘要器
+
+> 将20页患者病历浓缩为结构化1页摘要——突出活跃问题、用药和待处理医嘱。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/162-ai-clinical-notes-summarizer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 运营 · **行业**: 医疗健康
+
+## 34. AI高管简报生成器
+
+> 将6个部门数据综合为2页周一晨报——KPI、风险、待决事项，仅需5分钟。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/167-ai-executive-briefing-generator.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 高管 · **行业**: 企业通用
+
+## 35. AI ESG披露撰写器
+
+> 从10个部门收集ESG指标——2小时内起草符合TCFD和GRI标准的披露文件并验证数据。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/185-ai-esg-disclosure-writer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 合规官 · **行业**: 企业通用
+
+## 36. AI年度报告汇编器
+
+> 提取财务、项目成果和捐赠数据——3小时汇编包含图表和叙述的印刷就绪年度报告。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/190-ai-annual-report-assembler.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 高管 · **行业**: 非营利
+
