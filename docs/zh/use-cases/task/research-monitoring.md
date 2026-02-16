@@ -4569,3 +4569,368 @@ COCO的AI客户健康评分器用全面的预测系统替代简单的手动健�
 
 :::
 
+
+## 29. AI货运追踪器
+
+> 跨承运商监控500+在途货物——在延误影响交付前4小时发出预警。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/109-ai-shipment-tracker.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 物流经理 · **行业**: 物流
+
+## 30. AI网络容量规划师
+
+> 分析50+基站流量模式——在拥堵发生前3个月推荐扩容方案。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/119-ai-network-capacity-planner.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: DevOps运维 · **行业**: 电信
+
+## 31. AI车辆召回监控器
+
+> 每日扫描NHTSA数据库和服务公告——将召回信息匹配车队库存并生成行动方案。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/120-ai-vehicle-recall-monitor.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 合规官 · **行业**: 汽车
+
+## 32. AI临床试验筛查器
+
+> 将患者记录与40+试验标准匹配——筛选合格候选人速度比人工快10倍。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/121-ai-clinical-trial-screener.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 数据分析师 · **行业**: 医疗健康
+
+## 33. AI学生进度追踪器
+
+> 汇总200名学生的成绩、出勤和参与数据——每周标记高风险学生并建议干预措施。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/122-ai-student-progress-tracker.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 培训师 · **行业**: 教育
+
+## 34. AI公共记录研究员
+
+> 同时搜索15个政府数据库——5分钟编撰房产、法院和商业记录。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/129-ai-public-records-researcher.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 数据分析师 · **行业**: 政府
+
+## 35. AI HIPAA合规审计师
+
+> 扫描访问日志、加密配置和数据流——15分钟识别HIPAA违规并生成整改任务。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/136-ai-hipaa-compliance-auditor.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 合规官 · **行业**: 医疗健康
+
+## 36. AI抄袭检测器
+
+> 将学生提交内容与1000万+来源和AI生成模式对比——标记可疑段落并给出置信度评分。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/137-ai-plagiarism-checker.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 培训师 · **行业**: 教育
+
+## 37. AI病虫害检测顾问
+
+> 分析作物照片和本地病虫害数据库——以95%准确率识别虫害并推荐治疗方案。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/145-ai-pest-detection-advisor.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 咨询顾问 · **行业**: 农业
+
+## 38. AI太阳能板性能监控器
+
+> 实时追踪2000+太阳能板产出——10分钟内检测衰减、遮挡问题和逆变器故障。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/146-ai-solar-panel-performance-monitor.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: DevOps运维 · **行业**: 能源
+
+## 39. AI核保助手
+
+> 对照50项风险因素评估申请人数据——8分钟生成带置信度评分的核保建议。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/147-ai-underwriting-assistant.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 数据分析师 · **行业**: 保险
+
+## 40. AI客户流失预测器
+
+> 基于30+行为信号对10万订户评分——提前45天以87%准确率识别可能流失客户。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/149-ai-churn-predictor.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 数据分析师 · **行业**: 电信
+
+## 41. AI认证合规检查器
+
+> 将课程项目与150+认证标准对照——突出差距并自动生成证据文档。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/152-ai-accreditation-compliance-checker.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 合规官 · **行业**: 教育
+
+## 42. AI商标冲突检索器
+
+> 搜索USPTO、EUIPO等20+商标数据库——10分钟交付带风险评分的全面冲突报告。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/153-ai-trademark-conflict-searcher.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 法律 · **行业**: 企业通用
+
+## 43. AI供应链风险评分器
+
+> 跨地缘政治、财务和天气风险因素监控300家供应商——每日生成带缓解措施的风险评分卡。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/160-ai-supply-chain-risk-scorer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 采购 · **行业**: 制造业
+
+## 44. AI API迁移规划器
+
+> 映射新旧版本间200+ API端点——生成包含破坏性变更警告和代码示例的迁移指南。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/161-ai-api-migration-planner.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 产品/研发 · **行业**: 科技/SaaS
+
+## 45. AI法规变更追踪器
+
+> 每日监控SEC、FINRA和12个全球监管机构——将新规映射到合规义务，提前48小时预警。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/164-ai-regulatory-change-tracker.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 法律 · **行业**: 金融服务
+
+## 46. AI最后一公里配送追踪器
+
+> 跨5家承运商追踪每日2000次配送——自动就延误联系客户并建议重新配送时间。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/165-ai-last-mile-delivery-tracker.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 物流经理 · **行业**: 电商/零售
+
+## 47. AI欺诈模式检测器
+
+> 分析10万条理赔记录——以92%精度识别可疑聚类和伪造事故指标。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/179-ai-fraud-pattern-detector.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 数据分析师 · **行业**: 保险
+
+## 48. AI牲畜健康监控器
+
+> 追踪1000头牲畜的采食量、运动和体温——在可见症状出现前48小时检测疾病指标。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/192-ai-livestock-health-monitor.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 运营 · **行业**: 农业
+
+## 49. AI购电协议审查器
+
+> 审查80页购电协议——10分钟标记价格升级条款、限电风险和不利条款。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/193-ai-power-purchase-agreement-reviewer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 法律 · **行业**: 能源
+
+## 50. AI工单预测器
+
+> 分析网络告警和客户投诉模式——提前6小时预测工单高峰以便客服增加人手。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/196-ai-service-ticket-predictor.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 客服 · **行业**: 电信
+
+## 51. AI依赖漏洞扫描器
+
+> 每晚扫描15个仓库的2000个依赖——按可利用性优先排序CVE并自动生成升级PR。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/198-ai-dependency-vulnerability-scanner.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 产品/研发 · **行业**: 科技/SaaS
+
+## 52. AI转诊网络绘制器
+
+> 绘制200名医师的转诊模式——识别高价值关系缺口和拓展优先级。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/201-ai-referral-network-mapper.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 销售 · **行业**: 医疗健康
+
+## 53. AI董事会会议准备助手
+
+> 从8个部门更新汇编董事会资料包——将财务、战略和表决事项格式化为品牌化40页PPT。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/203-ai-board-meeting-prep-assistant.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: 高管 · **行业**: 企业通用
+
+## 54. AI无障碍合规检查器
+
+> 按WCAG 2.2 AA标准扫描Web应用——标记200+检查点并提供修复建议和优先级排名。
+
+::: details 🎬 观看演示视频
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/204-ai-accessibility-compliance-checker.mp4" type="video/mp4">
+</video>
+
+:::
+
+**角色**: QA工程师 · **行业**: 科技/SaaS
+

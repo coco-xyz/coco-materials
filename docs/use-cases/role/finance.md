@@ -2019,3 +2019,885 @@ Each section should be self-contained (readable independently) but tell a consis
 
 :::
 
+
+## 13. AI Menu Cost Analyzer
+
+> Calculates food cost percentage for every menu item — suggests price adjustments and substitutions to hit 30% margin targets.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/125-ai-menu-cost-analyzer.mp4" type="video/mp4">
+</video>
+
+:::
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Cloud Costs Are Spiraling and Nobody Knows Why**
+
+In today's fast-paced Hospitality landscape, Finance professionals face mounting pressure to deliver results faster with fewer resources. The traditional approach to cost analysis is manual, error-prone, and unsustainably slow.
+
+Industry data shows that teams spend an average of 15-25 hours per week on tasks that could be automated or significantly accelerated. For Finance teams specifically, this translates to delayed deliverables, missed opportunities, and rising operational costs.
+
+The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
+
+**How COCO Solves It**
+
+COCO's AI Menu Cost Analyzer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+
+1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+
+2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Hospitality.
+
+3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+
+4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+Teams using COCO's AI Menu Cost Analyzer report:
+- **80% reduction** in task completion time
+- **38% decrease** in operational costs for this workflow
+- **85% accuracy** rate, exceeding manual benchmarks
+- **17+ hours/week** freed up for strategic work
+- **Faster turnaround**: What took days now takes minutes
+
+**Who Benefits**
+
+- **Finance Teams**: Direct productivity boost — handle 3x the volume with the same headcount
+- **Team Leads & Managers**: Better visibility into work quality and consistent output standards
+- **Executive Leadership**: Reduced operational costs and faster time-to-insight for decision making
+- **Cross-Functional Partners**: Faster handoffs and fewer bottlenecks in collaborative workflows
+
+:::
+
+::: details 💡 Practical Prompts
+
+**Prompt 1: Quick Cost Analysis Analysis**
+```
+Analyze the following cost analysis materials and provide a structured summary. Focus on:
+1. Key findings and critical items
+2. Risk areas or issues requiring attention
+3. Recommended actions with priority levels
+4. Timeline estimates for each action item
+
+Industry context: Hospitality
+Role perspective: Finance
+
+Materials:
+[paste your content here]
+```
+
+**Prompt 2: Cost Analysis Report Generation**
+```
+Generate a comprehensive cost analysis report based on the following data. The report should include:
+1. Executive summary (2-3 paragraphs)
+2. Detailed findings organized by category
+3. Data visualizations recommendations
+4. Actionable recommendations with expected impact
+5. Risk assessment and mitigation strategies
+
+Audience: Finance team and management
+Format: Professional report suitable for stakeholder presentation
+
+Data:
+[paste your data here]
+```
+
+**Prompt 3: Cost Analysis Process Optimization**
+```
+Review our current cost analysis process and suggest improvements:
+
+Current process:
+[describe your current workflow]
+
+Pain points:
+[list specific issues]
+
+Please provide:
+1. Process bottleneck analysis
+2. Automation opportunities
+3. Best practices from hospitality industry
+4. Step-by-step implementation plan
+5. Expected time and cost savings
+```
+
+**Prompt 4: Weekly Cost Analysis Summary**
+```
+Create a weekly cost analysis summary from the following updates. Format as:
+
+1. **Status Overview**: High-level progress (green/yellow/red)
+2. **Key Metrics**: Top 5 KPIs with week-over-week trends
+3. **Completed Items**: What was finished this week
+4. **In Progress**: Active items with expected completion
+5. **Blockers & Risks**: Issues needing attention
+6. **Next Week Priorities**: Top 3 focus areas
+
+This week's data:
+[paste updates here]
+```
+
+:::
+
+## 14. AI Royalty Calculator
+
+> Processes streaming data from 8 platforms — calculates artist royalties across 50,000 tracks with split-sheet accuracy in 30 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/148-ai-royalty-calculator.mp4" type="video/mp4">
+</video>
+
+:::
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Royalty Calculation Is Draining Your Team's Productivity**
+
+In today's fast-paced Media & Entertainment landscape, Finance professionals face mounting pressure to deliver results faster with fewer resources. The traditional approach to royalty calculation is manual, error-prone, and unsustainably slow.
+
+Industry data shows that teams spend an average of 15-25 hours per week on tasks that could be automated or significantly accelerated. For Finance teams specifically, this translates to delayed deliverables, missed opportunities, and rising operational costs.
+
+The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
+
+**How COCO Solves It**
+
+COCO's AI Royalty Calculator integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+
+1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+
+2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Media & Entertainment.
+
+3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+
+4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+Teams using COCO's AI Royalty Calculator report:
+- **72% reduction** in task completion time
+- **52% decrease** in operational costs for this workflow
+- **95% accuracy** rate, exceeding manual benchmarks
+- **10+ hours/week** freed up for strategic work
+- **Faster turnaround**: What took days now takes minutes
+
+**Who Benefits**
+
+- **Finance Teams**: Direct productivity boost — handle 3x the volume with the same headcount
+- **Team Leads & Managers**: Better visibility into work quality and consistent output standards
+- **Executive Leadership**: Reduced operational costs and faster time-to-insight for decision making
+- **Cross-Functional Partners**: Faster handoffs and fewer bottlenecks in collaborative workflows
+
+:::
+
+::: details 💡 Practical Prompts
+
+**Prompt 1: Quick Royalty Calculation Analysis**
+```
+Analyze the following royalty calculation materials and provide a structured summary. Focus on:
+1. Key findings and critical items
+2. Risk areas or issues requiring attention
+3. Recommended actions with priority levels
+4. Timeline estimates for each action item
+
+Industry context: Media & Entertainment
+Role perspective: Finance
+
+Materials:
+[paste your content here]
+```
+
+**Prompt 2: Royalty Calculation Report Generation**
+```
+Generate a comprehensive royalty calculation report based on the following data. The report should include:
+1. Executive summary (2-3 paragraphs)
+2. Detailed findings organized by category
+3. Data visualizations recommendations
+4. Actionable recommendations with expected impact
+5. Risk assessment and mitigation strategies
+
+Audience: Finance team and management
+Format: Professional report suitable for stakeholder presentation
+
+Data:
+[paste your data here]
+```
+
+**Prompt 3: Royalty Calculation Process Optimization**
+```
+Review our current royalty calculation process and suggest improvements:
+
+Current process:
+[describe your current workflow]
+
+Pain points:
+[list specific issues]
+
+Please provide:
+1. Process bottleneck analysis
+2. Automation opportunities
+3. Best practices from media & entertainment industry
+4. Step-by-step implementation plan
+5. Expected time and cost savings
+```
+
+**Prompt 4: Weekly Royalty Calculation Summary**
+```
+Create a weekly royalty calculation summary from the following updates. Format as:
+
+1. **Status Overview**: High-level progress (green/yellow/red)
+2. **Key Metrics**: Top 5 KPIs with week-over-week trends
+3. **Completed Items**: What was finished this week
+4. **In Progress**: Active items with expected completion
+5. **Blockers & Risks**: Issues needing attention
+6. **Next Week Priorities**: Top 3 focus areas
+
+This week's data:
+[paste updates here]
+```
+
+:::
+
+## 15. AI Medical Coding Assistant
+
+> Reads clinical notes and assigns ICD-10 and CPT codes — achieves 96% first-pass accuracy, reducing claim denials by 40%.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/151-ai-medical-coding-assistant.mp4" type="video/mp4">
+</video>
+
+:::
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Medical Coding Is Draining Your Team's Productivity**
+
+In today's fast-paced Healthcare landscape, Finance professionals face mounting pressure to deliver results faster with fewer resources. The traditional approach to medical coding is manual, error-prone, and unsustainably slow.
+
+Industry data shows that teams spend an average of 15-25 hours per week on tasks that could be automated or significantly accelerated. For Finance teams specifically, this translates to delayed deliverables, missed opportunities, and rising operational costs.
+
+The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
+
+**How COCO Solves It**
+
+COCO's AI Medical Coding Assistant integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+
+1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+
+2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Healthcare.
+
+3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+
+4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+Teams using COCO's AI Medical Coding Assistant report:
+- **83% reduction** in task completion time
+- **43% decrease** in operational costs for this workflow
+- **96% accuracy** rate, exceeding manual benchmarks
+- **15+ hours/week** freed up for strategic work
+- **Faster turnaround**: What took days now takes minutes
+
+**Who Benefits**
+
+- **Finance Teams**: Direct productivity boost — handle 3x the volume with the same headcount
+- **Team Leads & Managers**: Better visibility into work quality and consistent output standards
+- **Executive Leadership**: Reduced operational costs and faster time-to-insight for decision making
+- **Cross-Functional Partners**: Faster handoffs and fewer bottlenecks in collaborative workflows
+
+:::
+
+::: details 💡 Practical Prompts
+
+**Prompt 1: Quick Medical Coding Analysis**
+```
+Analyze the following medical coding materials and provide a structured summary. Focus on:
+1. Key findings and critical items
+2. Risk areas or issues requiring attention
+3. Recommended actions with priority levels
+4. Timeline estimates for each action item
+
+Industry context: Healthcare
+Role perspective: Finance
+
+Materials:
+[paste your content here]
+```
+
+**Prompt 2: Medical Coding Report Generation**
+```
+Generate a comprehensive medical coding report based on the following data. The report should include:
+1. Executive summary (2-3 paragraphs)
+2. Detailed findings organized by category
+3. Data visualizations recommendations
+4. Actionable recommendations with expected impact
+5. Risk assessment and mitigation strategies
+
+Audience: Finance team and management
+Format: Professional report suitable for stakeholder presentation
+
+Data:
+[paste your data here]
+```
+
+**Prompt 3: Medical Coding Process Optimization**
+```
+Review our current medical coding process and suggest improvements:
+
+Current process:
+[describe your current workflow]
+
+Pain points:
+[list specific issues]
+
+Please provide:
+1. Process bottleneck analysis
+2. Automation opportunities
+3. Best practices from healthcare industry
+4. Step-by-step implementation plan
+5. Expected time and cost savings
+```
+
+**Prompt 4: Weekly Medical Coding Summary**
+```
+Create a weekly medical coding summary from the following updates. Format as:
+
+1. **Status Overview**: High-level progress (green/yellow/red)
+2. **Key Metrics**: Top 5 KPIs with week-over-week trends
+3. **Completed Items**: What was finished this week
+4. **In Progress**: Active items with expected completion
+5. **Blockers & Risks**: Issues needing attention
+6. **Next Week Priorities**: Top 3 focus areas
+
+This week's data:
+[paste updates here]
+```
+
+:::
+
+## 16. AI Budget Variance Analyst
+
+> Compares actual spend against 200 budget line items monthly — highlights variances over 5% with drill-down explanations.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/176-ai-budget-variance-analyst.mp4" type="video/mp4">
+</video>
+
+:::
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Budget Analysis Is Draining Your Team's Productivity**
+
+In today's fast-paced Government landscape, Finance professionals face mounting pressure to deliver results faster with fewer resources. The traditional approach to budget analysis is manual, error-prone, and unsustainably slow.
+
+Industry data shows that teams spend an average of 15-25 hours per week on tasks that could be automated or significantly accelerated. For Finance teams specifically, this translates to delayed deliverables, missed opportunities, and rising operational costs.
+
+The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
+
+**How COCO Solves It**
+
+COCO's AI Budget Variance Analyst integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+
+1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+
+2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Government.
+
+3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+
+4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+Teams using COCO's AI Budget Variance Analyst report:
+- **75% reduction** in task completion time
+- **53% decrease** in operational costs for this workflow
+- **86% accuracy** rate, exceeding manual benchmarks
+- **8+ hours/week** freed up for strategic work
+- **Faster turnaround**: What took days now takes minutes
+
+**Who Benefits**
+
+- **Finance Teams**: Direct productivity boost — handle 3x the volume with the same headcount
+- **Team Leads & Managers**: Better visibility into work quality and consistent output standards
+- **Executive Leadership**: Reduced operational costs and faster time-to-insight for decision making
+- **Cross-Functional Partners**: Faster handoffs and fewer bottlenecks in collaborative workflows
+
+:::
+
+::: details 💡 Practical Prompts
+
+**Prompt 1: Quick Budget Analysis Analysis**
+```
+Analyze the following budget analysis materials and provide a structured summary. Focus on:
+1. Key findings and critical items
+2. Risk areas or issues requiring attention
+3. Recommended actions with priority levels
+4. Timeline estimates for each action item
+
+Industry context: Government
+Role perspective: Finance
+
+Materials:
+[paste your content here]
+```
+
+**Prompt 2: Budget Analysis Report Generation**
+```
+Generate a comprehensive budget analysis report based on the following data. The report should include:
+1. Executive summary (2-3 paragraphs)
+2. Detailed findings organized by category
+3. Data visualizations recommendations
+4. Actionable recommendations with expected impact
+5. Risk assessment and mitigation strategies
+
+Audience: Finance team and management
+Format: Professional report suitable for stakeholder presentation
+
+Data:
+[paste your data here]
+```
+
+**Prompt 3: Budget Analysis Process Optimization**
+```
+Review our current budget analysis process and suggest improvements:
+
+Current process:
+[describe your current workflow]
+
+Pain points:
+[list specific issues]
+
+Please provide:
+1. Process bottleneck analysis
+2. Automation opportunities
+3. Best practices from government industry
+4. Step-by-step implementation plan
+5. Expected time and cost savings
+```
+
+**Prompt 4: Weekly Budget Analysis Summary**
+```
+Create a weekly budget analysis summary from the following updates. Format as:
+
+1. **Status Overview**: High-level progress (green/yellow/red)
+2. **Key Metrics**: Top 5 KPIs with week-over-week trends
+3. **Completed Items**: What was finished this week
+4. **In Progress**: Active items with expected completion
+5. **Blockers & Risks**: Issues needing attention
+6. **Next Week Priorities**: Top 3 focus areas
+
+This week's data:
+[paste updates here]
+```
+
+:::
+
+## 17. AI Energy Trading Assistant
+
+> Monitors spot prices, weather forecasts, and demand curves — suggests optimal buy/sell windows for next-day energy markets.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/178-ai-energy-trading-assistant.mp4" type="video/mp4">
+</video>
+
+:::
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Trading Support Is Draining Your Team's Productivity**
+
+In today's fast-paced Energy landscape, Finance professionals face mounting pressure to deliver results faster with fewer resources. The traditional approach to trading support is manual, error-prone, and unsustainably slow.
+
+Industry data shows that teams spend an average of 15-25 hours per week on tasks that could be automated or significantly accelerated. For Finance teams specifically, this translates to delayed deliverables, missed opportunities, and rising operational costs.
+
+The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
+
+**How COCO Solves It**
+
+COCO's AI Energy Trading Assistant integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+
+1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+
+2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Energy.
+
+3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+
+4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+Teams using COCO's AI Energy Trading Assistant report:
+- **62% reduction** in task completion time
+- **36% decrease** in operational costs for this workflow
+- **87% accuracy** rate, exceeding manual benchmarks
+- **16+ hours/week** freed up for strategic work
+- **Faster turnaround**: What took days now takes minutes
+
+**Who Benefits**
+
+- **Finance Teams**: Direct productivity boost — handle 3x the volume with the same headcount
+- **Team Leads & Managers**: Better visibility into work quality and consistent output standards
+- **Executive Leadership**: Reduced operational costs and faster time-to-insight for decision making
+- **Cross-Functional Partners**: Faster handoffs and fewer bottlenecks in collaborative workflows
+
+:::
+
+::: details 💡 Practical Prompts
+
+**Prompt 1: Quick Trading Support Analysis**
+```
+Analyze the following trading support materials and provide a structured summary. Focus on:
+1. Key findings and critical items
+2. Risk areas or issues requiring attention
+3. Recommended actions with priority levels
+4. Timeline estimates for each action item
+
+Industry context: Energy
+Role perspective: Finance
+
+Materials:
+[paste your content here]
+```
+
+**Prompt 2: Trading Support Report Generation**
+```
+Generate a comprehensive trading support report based on the following data. The report should include:
+1. Executive summary (2-3 paragraphs)
+2. Detailed findings organized by category
+3. Data visualizations recommendations
+4. Actionable recommendations with expected impact
+5. Risk assessment and mitigation strategies
+
+Audience: Finance team and management
+Format: Professional report suitable for stakeholder presentation
+
+Data:
+[paste your data here]
+```
+
+**Prompt 3: Trading Support Process Optimization**
+```
+Review our current trading support process and suggest improvements:
+
+Current process:
+[describe your current workflow]
+
+Pain points:
+[list specific issues]
+
+Please provide:
+1. Process bottleneck analysis
+2. Automation opportunities
+3. Best practices from energy industry
+4. Step-by-step implementation plan
+5. Expected time and cost savings
+```
+
+**Prompt 4: Weekly Trading Support Summary**
+```
+Create a weekly trading support summary from the following updates. Format as:
+
+1. **Status Overview**: High-level progress (green/yellow/red)
+2. **Key Metrics**: Top 5 KPIs with week-over-week trends
+3. **Completed Items**: What was finished this week
+4. **In Progress**: Active items with expected completion
+5. **Blockers & Risks**: Issues needing attention
+6. **Next Week Priorities**: Top 3 focus areas
+
+This week's data:
+[paste updates here]
+```
+
+:::
+
+## 18. AI Revenue Management Optimizer
+
+> Adjusts room rates dynamically based on demand, events, and competitor pricing — increases RevPAR by 12% over static pricing.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/187-ai-revenue-management-optimizer.mp4" type="video/mp4">
+</video>
+
+:::
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Revenue Management Is Draining Your Team's Productivity**
+
+In today's fast-paced Hospitality landscape, Finance professionals face mounting pressure to deliver results faster with fewer resources. The traditional approach to revenue management is manual, error-prone, and unsustainably slow.
+
+Industry data shows that teams spend an average of 15-25 hours per week on tasks that could be automated or significantly accelerated. For Finance teams specifically, this translates to delayed deliverables, missed opportunities, and rising operational costs.
+
+The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
+
+**How COCO Solves It**
+
+COCO's AI Revenue Management Optimizer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+
+1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+
+2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Hospitality.
+
+3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+
+4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+Teams using COCO's AI Revenue Management Optimizer report:
+- **67% reduction** in task completion time
+- **46% decrease** in operational costs for this workflow
+- **95% accuracy** rate, exceeding manual benchmarks
+- **11+ hours/week** freed up for strategic work
+- **Faster turnaround**: What took days now takes minutes
+
+**Who Benefits**
+
+- **Finance Teams**: Direct productivity boost — handle 3x the volume with the same headcount
+- **Team Leads & Managers**: Better visibility into work quality and consistent output standards
+- **Executive Leadership**: Reduced operational costs and faster time-to-insight for decision making
+- **Cross-Functional Partners**: Faster handoffs and fewer bottlenecks in collaborative workflows
+
+:::
+
+::: details 💡 Practical Prompts
+
+**Prompt 1: Quick Revenue Management Analysis**
+```
+Analyze the following revenue management materials and provide a structured summary. Focus on:
+1. Key findings and critical items
+2. Risk areas or issues requiring attention
+3. Recommended actions with priority levels
+4. Timeline estimates for each action item
+
+Industry context: Hospitality
+Role perspective: Finance
+
+Materials:
+[paste your content here]
+```
+
+**Prompt 2: Revenue Management Report Generation**
+```
+Generate a comprehensive revenue management report based on the following data. The report should include:
+1. Executive summary (2-3 paragraphs)
+2. Detailed findings organized by category
+3. Data visualizations recommendations
+4. Actionable recommendations with expected impact
+5. Risk assessment and mitigation strategies
+
+Audience: Finance team and management
+Format: Professional report suitable for stakeholder presentation
+
+Data:
+[paste your data here]
+```
+
+**Prompt 3: Revenue Management Process Optimization**
+```
+Review our current revenue management process and suggest improvements:
+
+Current process:
+[describe your current workflow]
+
+Pain points:
+[list specific issues]
+
+Please provide:
+1. Process bottleneck analysis
+2. Automation opportunities
+3. Best practices from hospitality industry
+4. Step-by-step implementation plan
+5. Expected time and cost savings
+```
+
+**Prompt 4: Weekly Revenue Management Summary**
+```
+Create a weekly revenue management summary from the following updates. Format as:
+
+1. **Status Overview**: High-level progress (green/yellow/red)
+2. **Key Metrics**: Top 5 KPIs with week-over-week trends
+3. **Completed Items**: What was finished this week
+4. **In Progress**: Active items with expected completion
+5. **Blockers & Risks**: Issues needing attention
+6. **Next Week Priorities**: Top 3 focus areas
+
+This week's data:
+[paste updates here]
+```
+
+:::
+
+## 19. AI Actuarial Scenario Runner
+
+> Runs 500 mortality and morbidity scenarios against your book — stress-tests reserves and highlights underfunded segments in 30 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/194-ai-actuarial-scenario-runner.mp4" type="video/mp4">
+</video>
+
+:::
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Actuarial Modeling Is Draining Your Team's Productivity**
+
+In today's fast-paced Insurance landscape, Finance professionals face mounting pressure to deliver results faster with fewer resources. The traditional approach to actuarial modeling is manual, error-prone, and unsustainably slow.
+
+Industry data shows that teams spend an average of 15-25 hours per week on tasks that could be automated or significantly accelerated. For Finance teams specifically, this translates to delayed deliverables, missed opportunities, and rising operational costs.
+
+The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
+
+**How COCO Solves It**
+
+COCO's AI Actuarial Scenario Runner integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+
+1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+
+2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Insurance.
+
+3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+
+4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+Teams using COCO's AI Actuarial Scenario Runner report:
+- **69% reduction** in task completion time
+- **30% decrease** in operational costs for this workflow
+- **92% accuracy** rate, exceeding manual benchmarks
+- **10+ hours/week** freed up for strategic work
+- **Faster turnaround**: What took days now takes minutes
+
+**Who Benefits**
+
+- **Finance Teams**: Direct productivity boost — handle 3x the volume with the same headcount
+- **Team Leads & Managers**: Better visibility into work quality and consistent output standards
+- **Executive Leadership**: Reduced operational costs and faster time-to-insight for decision making
+- **Cross-Functional Partners**: Faster handoffs and fewer bottlenecks in collaborative workflows
+
+:::
+
+::: details 💡 Practical Prompts
+
+**Prompt 1: Quick Actuarial Modeling Analysis**
+```
+Analyze the following actuarial modeling materials and provide a structured summary. Focus on:
+1. Key findings and critical items
+2. Risk areas or issues requiring attention
+3. Recommended actions with priority levels
+4. Timeline estimates for each action item
+
+Industry context: Insurance
+Role perspective: Finance
+
+Materials:
+[paste your content here]
+```
+
+**Prompt 2: Actuarial Modeling Report Generation**
+```
+Generate a comprehensive actuarial modeling report based on the following data. The report should include:
+1. Executive summary (2-3 paragraphs)
+2. Detailed findings organized by category
+3. Data visualizations recommendations
+4. Actionable recommendations with expected impact
+5. Risk assessment and mitigation strategies
+
+Audience: Finance team and management
+Format: Professional report suitable for stakeholder presentation
+
+Data:
+[paste your data here]
+```
+
+**Prompt 3: Actuarial Modeling Process Optimization**
+```
+Review our current actuarial modeling process and suggest improvements:
+
+Current process:
+[describe your current workflow]
+
+Pain points:
+[list specific issues]
+
+Please provide:
+1. Process bottleneck analysis
+2. Automation opportunities
+3. Best practices from insurance industry
+4. Step-by-step implementation plan
+5. Expected time and cost savings
+```
+
+**Prompt 4: Weekly Actuarial Modeling Summary**
+```
+Create a weekly actuarial modeling summary from the following updates. Format as:
+
+1. **Status Overview**: High-level progress (green/yellow/red)
+2. **Key Metrics**: Top 5 KPIs with week-over-week trends
+3. **Completed Items**: What was finished this week
+4. **In Progress**: Active items with expected completion
+5. **Blockers & Risks**: Issues needing attention
+6. **Next Week Priorities**: Top 3 focus areas
+
+This week's data:
+[paste updates here]
+```
+
+:::

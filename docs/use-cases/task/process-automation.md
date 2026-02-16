@@ -6084,3 +6084,676 @@ Analyze and provide:
 
 :::
 
+
+## 36. AI Contract Analyzer
+
+> Scans 50-page contracts in 3 minutes — flags risks, missing clauses, and unusual terms before you sign.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/105-ai-contract-analyzer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Legal · **Industry**: Enterprise
+
+## 37. AI Patient Intake Processor
+
+> Digitizes patient intake forms in 90 seconds — extracts demographics, insurance info, and medical history into your EHR.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/106-ai-patient-intake-processor.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Operations · **Industry**: Healthcare
+
+## 38. AI Permit Application Tracker
+
+> Tracks 200+ permit applications across agencies — flags missing documents and approaching deadlines 7 days early.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/114-ai-permit-application-tracker.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Compliance Officer · **Industry**: Government
+
+## 39. AI Claims Adjuster
+
+> Reviews insurance claims against policy terms — auto-approves straightforward cases, cutting processing from 5 days to 4 hours.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/117-ai-claims-adjuster.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Operations · **Industry**: Insurance
+
+## 40. AI Warehouse Layout Optimizer
+
+> Analyzes pick frequency and order patterns — redesigns warehouse zones to cut average pick time by 35%.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/124-ai-warehouse-layout-optimizer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Logistics Manager · **Industry**: Logistics
+
+## 41. AI Predictive Maintenance Scheduler
+
+> Analyzes vibration, temperature, and runtime data from 100+ machines — schedules maintenance before breakdowns, reducing downtime 40%.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/126-ai-predictive-maintenance-scheduler.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Operations · **Industry**: Manufacturing
+
+## 42. AI Donor Engagement Tracker
+
+> Scores 5,000+ donors on engagement, giving history, and capacity — prioritizes outreach to boost renewal rates by 25%.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/128-ai-donor-engagement-tracker.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Sales · **Industry**: Nonprofit
+
+## 43. AI Irrigation Scheduler
+
+> Combines soil moisture sensors, weather forecasts, and crop needs — optimizes irrigation schedules to reduce water usage 30%.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/130-ai-irrigation-scheduler.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Operations · **Industry**: Agriculture
+
+## 44. AI Policy Renewal Optimizer
+
+> Analyzes claim history, risk profile, and market rates — recommends optimal renewal terms 30 days before expiry.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/132-ai-policy-renewal-optimizer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Sales · **Industry**: Insurance
+
+## 45. AI Route Optimizer
+
+> Plans optimal delivery routes for 80 stops daily — factors in traffic, time windows, and vehicle capacity to cut fuel costs 20%.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/139-ai-route-optimizer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Logistics Manager · **Industry**: Logistics
+
+## 46. AI Bill of Materials Checker
+
+> Cross-references BOMs against 5,000+ supplier catalogs — catches obsolete parts and suggests cost-saving alternatives in 3 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/141-ai-bill-of-materials-checker.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Procurement · **Industry**: Manufacturing
+
+## 47. AI Volunteer Coordinator
+
+> Matches 500 volunteers to 30 event roles based on skills, availability, and past performance — sends confirmations automatically.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/143-ai-volunteer-coordinator.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Operations · **Industry**: Nonprofit
+
+## 48. AI Parts Catalog Updater
+
+> Syncs OEM part numbers, pricing, and fitment data across 3 systems — keeps 80,000 SKUs accurate with nightly reconciliation.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/150-ai-parts-catalog-updater.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Operations · **Industry**: Automotive
+
+## 49. AI Medical Coding Assistant
+
+> Reads clinical notes and assigns ICD-10 and CPT codes — achieves 96% first-pass accuracy, reducing claim denials by 40%.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/151-ai-medical-coding-assistant.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Finance · **Industry**: Healthcare
+
+## 50. AI Safety Incident Reporter
+
+> Captures incident details from natural language — generates OSHA-compliant reports with root-cause analysis and corrective actions.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/156-ai-safety-incident-reporter.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Compliance Officer · **Industry**: Manufacturing
+
+## 51. AI FOIA Request Processor
+
+> Reviews FOIA requests against exemption criteria — redacts sensitive content and drafts responses, cutting turnaround from 30 to 5 days.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/159-ai-foia-request-processor.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Legal · **Industry**: Government
+
+## 52. AI EHR Data Migrator
+
+> Maps fields between legacy and new EHR systems — transforms 500,000 patient records with validation checks and error logging.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/168-ai-ehr-data-migrator.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Product / Dev · **Industry**: Healthcare
+
+## 53. AI Litigation Hold Manager
+
+> Identifies custodians, sends hold notices, tracks acknowledgments, and monitors compliance — manages 50+ active holds with zero missed deadlines.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/170-ai-litigation-hold-manager.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Legal · **Industry**: Enterprise
+
+## 54. AI Cross-Dock Scheduler
+
+> Coordinates inbound and outbound trucks at 20 dock doors — minimizes dwell time by 45% with real-time slot optimization.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/171-ai-cross-dock-scheduler.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Logistics Manager · **Industry**: Logistics
+
+## 55. AI Housekeeping Scheduler
+
+> Assigns 80 rooms to 15 housekeepers based on checkout times, special requests, and proximity — cuts turnover time by 25%.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/172-ai-housekeeping-scheduler.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Operations · **Industry**: Hospitality
+
+## 56. AI Production Batch Optimizer
+
+> Sequences 200 production orders to minimize changeover time — increases throughput 15% while meeting all delivery deadlines.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/173-ai-production-batch-optimizer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Operations · **Industry**: Manufacturing
+
+## 57. AI Content Rights Tracker
+
+> Tracks licensing windows for 10,000+ titles across 30 territories — alerts you 60 days before rights expire for renewal decisions.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/180-ai-content-rights-tracker.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Legal · **Industry**: Media & Entertainment
+
+## 58. AI Subscriber Lifecycle Manager
+
+> Segments 500K subscribers by lifecycle stage — triggers personalized campaigns for onboarding, upgrade, and retention moments.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/181-ai-subscriber-lifecycle-manager.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Content / Marketing · **Industry**: Telecom
+
+## 59. AI Pharmacy Benefit Optimizer
+
+> Compares formulary options across 5 PBMs — identifies therapeutic equivalents that save 22% on pharmacy spend without outcome loss.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/183-ai-pharmacy-benefit-optimizer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Procurement · **Industry**: Healthcare
+
+## 60. AI Enrollment Forecaster
+
+> Models demographic trends, application funnel data, and competitor moves — forecasts next-year enrollment within 3% accuracy.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/184-ai-enrollment-forecaster.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Data Analyst · **Industry**: Education
+
+## 61. AI Customs Declaration Filer
+
+> Classifies goods into HS codes, calculates duties, and pre-fills customs forms — reduces clearance time from 48 to 6 hours.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/186-ai-customs-declaration-filer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Logistics Manager · **Industry**: Logistics
+
+## 62. AI Revenue Management Optimizer
+
+> Adjusts room rates dynamically based on demand, events, and competitor pricing — increases RevPAR by 12% over static pricing.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/187-ai-revenue-management-optimizer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Finance · **Industry**: Hospitality
+
+## 63. AI SPC Chart Monitor
+
+> Monitors 50 control charts in real-time — detects out-of-spec trends 3 shifts before they cause scrap, triggering automatic alerts.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/188-ai-spc-chart-monitor.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: QA Engineer · **Industry**: Manufacturing
+
+## 64. AI Procurement Bid Evaluator
+
+> Scores 30 vendor bids against 25 weighted criteria — generates comparison matrices and shortlists top 3 candidates in 45 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/191-ai-procurement-bid-evaluator.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Procurement · **Industry**: Government
+
+## 65. AI Test Drive Scheduler
+
+> Qualifies online leads, matches vehicle preferences, and books test drives — fills 90% of available slots with confirmed appointments.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/197-ai-test-drive-scheduler.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Sales · **Industry**: Automotive
+
+## 66. AI Tenant Screening Processor
+
+> Pulls credit, employment, and rental history — generates Fair Housing-compliant screening reports with risk scores in 3 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/199-ai-tenant-screening-processor.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Operations · **Industry**: Real Estate
+
+## 67. AI OKR Progress Tracker
+
+> Syncs key results from Jira, Salesforce, and 4 other tools — generates weekly OKR scorecards showing red/yellow/green status.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/200-ai-okr-progress-tracker.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Executive · **Industry**: Enterprise
+
+## 68. AI Curriculum Designer
+
+> Generates a 12-week course syllabus with learning objectives, assignments, and rubrics in under 10 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/107-ai-curriculum-designer.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Trainer · **Industry**: Education
+
+## 69. AI Hotel Review Responder
+
+> Drafts personalized responses to guest reviews across 6 platforms — matching your brand voice in 30 seconds each.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/110-ai-hotel-review-responder.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Content / Marketing · **Industry**: Hospitality
+
+## 70. AI Production Defect Detector
+
+> Analyzes production line photos and sensor data — catches defects with 98.5% accuracy before products ship.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/111-ai-production-defect-detector.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: QA Engineer · **Industry**: Manufacturing
+
+## 71. AI NDA Generator
+
+> Generates jurisdiction-specific NDAs in 60 seconds — customizes scope, duration, and carve-outs based on deal context.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/123-ai-nda-generator.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Legal · **Industry**: Technology / SaaS
+
+## 72. AI Due Diligence Compiler
+
+> Pulls public filings, news, litigation records, and financial data — assembles a due diligence package in 2 hours instead of 2 weeks.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/127-ai-due-diligence-compiler.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Consultant · **Industry**: Financial Services
+
+## 73. AI Carbon Footprint Reporter
+
+> Aggregates Scope 1-3 emissions data from 12 sources — generates audit-ready carbon reports aligned to GHG Protocol.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/131-ai-carbon-footprint-reporter.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Compliance Officer · **Industry**: Energy
+
+## 74. AI Dealership Inventory Matcher
+
+> Matches customer preferences to available inventory across 15 dealerships — suggests best-fit vehicles with trade-in estimates.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/135-ai-dealership-inventory-matcher.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Sales · **Industry**: Automotive
+
+## 75. AI Guest Upsell Recommender
+
+> Analyzes booking history and guest profiles — suggests personalized room upgrades and packages that increase RevPAR by 18%.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/140-ai-guest-upsell-recommender.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Sales · **Industry**: Hospitality
+
+## 76. AI Consulting Deck Builder
+
+> Transforms raw analysis into McKinsey-style slide decks — structures 30 slides with charts, key findings, and recommendations in 25 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/142-ai-management-consulting-deck-builder.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Consultant · **Industry**: Consulting
+
+## 77. AI Freight Rate Negotiator
+
+> Benchmarks your freight rates against market data from 200+ lanes — identifies savings opportunities averaging 12% per shipment.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/154-ai-freight-rate-negotiator.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Procurement · **Industry**: Logistics
+
+## 78. AI Event Logistics Planner
+
+> Coordinates venue, catering, AV, and staffing for 300-person events — generates timelines, checklists, and vendor POs in 15 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/155-ai-event-logistics-planner.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Project Manager · **Industry**: Hospitality
+
+## 79. AI Research Paper Grader
+
+> Grades research papers against your rubric — provides paragraph-level feedback on argument, evidence, and writing quality in 2 minutes.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/163-ai-research-paper-grader.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Trainer · **Industry**: Education
+
+## 80. AI Learning Path Builder
+
+> Assesses student skills via diagnostic quiz — generates personalized 8-week learning paths with resources, milestones, and check-ins.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/169-ai-learning-path-builder.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Trainer · **Industry**: Education
+
+## 81. AI Fundraising Event Planner
+
+> Plans gala events for 500 guests — manages RSVPs, seating charts, auction catalogs, and sponsorship packages in one dashboard.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/175-ai-fundraising-event-planner.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Project Manager · **Industry**: Nonprofit
+
+## 82. AI Energy Trading Assistant
+
+> Monitors spot prices, weather forecasts, and demand curves — suggests optimal buy/sell windows for next-day energy markets.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/178-ai-energy-trading-assistant.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Finance · **Industry**: Energy
+
+## 83. AI Audience Segmentation Engine
+
+> Clusters 2M viewers by watch history, demographics, and engagement — builds 12 actionable personas for targeted content strategy.
+
+::: details 🎬 Watch Demo Video
+
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/en/195-ai-audience-segmentation-engine.mp4" type="video/mp4">
+</video>
+
+:::
+
+**Role**: Content / Marketing · **Industry**: Media & Entertainment
+
