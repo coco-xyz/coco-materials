@@ -9,12 +9,12 @@ Find use cases for your specific job function:
 | Role | Cases | Key Scenarios |
 |------|-------|--------------|
 | [Product / Dev](/use-cases/role/product-dev) | 26 | Code Review, Test Gen, API Docs, Security Scanner, ... |
+| [Operations](/use-cases/role/operations) | 36 | Meeting Notes, Inventory Forecasting, Vendor Evaluation, ... |
+| [Finance](/use-cases/role/finance) | 19 | Expense Auditing, Financial Reports, Invoice Processing, ... |
 | [Content / Marketing](/use-cases/role/content-marketing) | 23 | SEO Writing, Social Media, Ad Copy, Brand Monitor, ... |
-| [Sales](/use-cases/role/sales) | 24 | Lead Research, CRM Updates, Proposals, Sales Forecaster, ... |
 | [Customer Support](/use-cases/role/customer-support) | 14 | Ticket Classification, Knowledge Base, Multi-language, ... |
 | [HR / Recruiting](/use-cases/role/hr-recruiting) | 11 | Resume Screening, JD Writing, Interview Scheduling, ... |
-| [Finance](/use-cases/role/finance) | 19 | Expense Auditing, Financial Reports, Invoice Processing, ... |
-| [Operations](/use-cases/role/operations) | 36 | Meeting Notes, Inventory Forecasting, Vendor Evaluation, ... |
+| [Sales](/use-cases/role/sales) | 24 | Lead Research, CRM Updates, Proposals, Sales Forecaster, ... |
 | [Legal](/use-cases/role/legal) | 9 | Contract Analyzer, NDA Generator, IP Portfolio Analyzer, ... |
 | [Executive](/use-cases/role/executive) | 4 | Executive Briefing Generator, Annual Report Assembler, OKR Progress Tracker, ... |
 | [Data Analyst](/use-cases/role/data-analyst) | 14 | Property Valuation Assistant, Crop Yield Predictor, Script Coverage Reader, ... |

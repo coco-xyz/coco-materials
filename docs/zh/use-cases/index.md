@@ -9,12 +9,12 @@
 | 角色 | 数量 | 核心场景 |
 |------|------|---------|
 | [产品/研发](/zh/use-cases/role/product-dev) | 26 | 代码审查、测试生成、API文档、安全扫描... |
+| [运营](/zh/use-cases/role/operations) | 36 | 会议纪要、库存预测、供应商评估... |
+| [财务](/zh/use-cases/role/finance) | 19 | 费用审核、财务报告、发票处理... |
 | [内容/营销](/zh/use-cases/role/content-marketing) | 23 | SEO写作、社媒管理、广告文案、品牌监控... |
-| [销售](/zh/use-cases/role/sales) | 24 | 线索挖掘、CRM更新、方案生成、销售预测... |
 | [客服](/zh/use-cases/role/customer-support) | 14 | 工单分类、知识库、多语言客服... |
 | [HR/招聘](/zh/use-cases/role/hr-recruiting) | 11 | 简历筛选、JD撰写、面试排期、入职助手... |
-| [财务](/zh/use-cases/role/finance) | 19 | 费用审核、财务报告、发票处理... |
-| [运营](/zh/use-cases/role/operations) | 36 | 会议纪要、库存预测、供应商评估... |
+| [销售](/zh/use-cases/role/sales) | 24 | 线索挖掘、CRM更新、方案生成、销售预测... |
 | [法律](/zh/use-cases/role/legal) | 9 | AI合同分析师、AI保密协议生成器、AI知识产权组合分析器... |
 | [高管](/zh/use-cases/role/executive) | 4 | AI高管简报生成器、AI年度报告汇编器、AI OKR进度追踪器... |
 | [数据分析师](/zh/use-cases/role/data-analyst) | 14 | AI房产估值助手、AI作物产量预测器、AI剧本评审阅读器... |
