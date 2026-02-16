@@ -8,13 +8,13 @@ Find use cases for your specific job function:
 
 | Role | Cases | Key Scenarios |
 |------|-------|--------------|
-| [Product / Dev](/use-cases/role/product-dev) | 26 | API Migration Planner, EHR Data Migrator, Dependency Vulnerability Scanner, ... |
-| [Content / Marketing](/use-cases/role/content-marketing) | 23 | Hotel Review Responder, Podcast Show Notes Writer, Subscriber Lifecycle Manager, ... |
-| [Sales](/use-cases/role/sales) | 24 | Donor Engagement Tracker, Policy Renewal Optimizer, Dealership Inventory Matcher, ... |
-| [Customer Support](/use-cases/role/customer-support) | 14 | Service Ticket Predictor, ... |
-| [HR / Recruiting](/use-cases/role/hr-recruiting) | 11 | — |
-| [Finance](/use-cases/role/finance) | 19 | Menu Cost Analyzer, Royalty Calculator, Medical Coding Assistant, ... |
-| [Operations](/use-cases/role/operations) | 36 | Patient Intake Processor, Grant Proposal Writer, Grid Outage Analyzer, ... |
+| [Product / Dev](/use-cases/role/product-dev) | 26 | Code Review, Test Gen, API Docs, Security Scanner, ... |
+| [Content / Marketing](/use-cases/role/content-marketing) | 23 | SEO Writing, Social Media, Ad Copy, Brand Monitor, ... |
+| [Sales](/use-cases/role/sales) | 24 | Lead Research, CRM Updates, Proposals, Sales Forecaster, ... |
+| [Customer Support](/use-cases/role/customer-support) | 14 | Ticket Classification, Knowledge Base, Multi-language, ... |
+| [HR / Recruiting](/use-cases/role/hr-recruiting) | 11 | Resume Screening, JD Writing, Interview Scheduling, ... |
+| [Finance](/use-cases/role/finance) | 19 | Expense Auditing, Financial Reports, Invoice Processing, ... |
+| [Operations](/use-cases/role/operations) | 36 | Meeting Notes, Inventory Forecasting, Vendor Evaluation, ... |
 | [Legal](/use-cases/role/legal) | 9 | Contract Analyzer, NDA Generator, IP Portfolio Analyzer, ... |
 | [Executive](/use-cases/role/executive) | 4 | Executive Briefing Generator, Annual Report Assembler, OKR Progress Tracker, ... |
 | [Data Analyst](/use-cases/role/data-analyst) | 14 | Property Valuation Assistant, Crop Yield Predictor, Script Coverage Reader, ... |
@@ -31,20 +31,20 @@ Find use cases for your specific job function:
 
 Find use cases by what you need to get done:
 
-| Task Type | Examples | Cases |
-|-----------|----------|-------|
-| [Writing & Content](/use-cases/task/writing-content) | Documents, reports, briefs, proposals | Grant Writing, Strategy Briefs, ESG Disclosure, ... |
-| [Data Analysis](/use-cases/task/data-analysis) | Valuations, forecasting, benchmarking | Property Valuation, Budget Analysis, Market Sizing, ... |
-| [Process Automation](/use-cases/task/process-automation) | Claims, scheduling, routing, compliance | Claims Processing, Route Optimization, Medical Coding, ... |
-| [Research & Monitoring](/use-cases/task/research-monitoring) | Compliance, tracking, risk detection | Regulatory Tracking, Fraud Detection, Recall Monitoring, ... |
+| Task Type | Cases | Key Scenarios |
+|-----------|-------|--------------|
+| [Writing & Content](/use-cases/task/writing-content) | 36 | SEO Writing, API Docs, Proposals, Grant Writing, Strategy Briefs, ESG Disclosure, ... |
+| [Data Analysis](/use-cases/task/data-analysis) | 51 | Financial Reports, Competitive Analysis, Property Valuation, Budget Analysis, Market Sizing, ... |
+| [Process Automation](/use-cases/task/process-automation) | 83 | Ticket Classification, CRM Updates, Invoice Processing, Claims Processing, Route Optimization, ... |
+| [Research & Monitoring](/use-cases/task/research-monitoring) | 54 | Lead Research, Deploy Monitor, Social Listening, Regulatory Tracking, Fraud Detection, ... |
 
 ## Browse by Industry
 
 | Industry | Cases | Key Scenarios |
 |----------|-------|--------------|
-| [Technology / SaaS](/use-cases/industry/technology) | 63 | NDA Generator, IP Portfolio Analyzer, API Migration Planner, ... |
-| [E-commerce / Retail](/use-cases/industry/ecommerce) | 30 | Last-Mile Delivery Tracker, ... |
-| [Financial Services](/use-cases/industry/financial-services) | 25 | Due Diligence Compiler, Regulatory Change Tracker, ... |
+| [Technology / SaaS](/use-cases/industry/technology) | 63 | Code Review, Deploy Monitor, API Docs, Incident Response, ... |
+| [E-commerce / Retail](/use-cases/industry/ecommerce) | 30 | Inventory Forecasting, Social Media, Customer Support, ... |
+| [Financial Services](/use-cases/industry/financial-services) | 25 | Expense Auditing, Financial Reports, Compliance, ... |
 | [Healthcare](/use-cases/industry/healthcare) | 8 | Patient Intake Processor, Clinical Trial Screener, HIPAA Compliance Auditor, ... |
 | [Education](/use-cases/industry/education) | 7 | Curriculum Designer, Student Progress Tracker, Plagiarism Checker, ... |
 | [Enterprise](/use-cases/industry/enterprise) | 7 | Contract Analyzer, Trademark Conflict Searcher, Executive Briefing Generator, ... |
@@ -66,8 +66,8 @@ Find use cases by what you need to get done:
 
 ## All Use Cases at a Glance
 
-| # | Use Case | Role | Industry | Key Metric |
-|---|----------|------|----------|------------|
+| # | Use Case | Role | Industry | Task | Key Metric |
+|---|----------|------|----------|------|------------|
 | 1 | [AI Code Reviewer](/use-cases/role/product-dev#_1-ai-code-reviewer) | Dev | Tech/SaaS | Automation | 4h → 15min per PR |
 | 2 | [AI Test Generator](/use-cases/role/product-dev#_2-ai-test-generator) | Dev | Tech/SaaS | Automation | 2 days → 30min |
 | 3 | [AI Deploy Monitor](/use-cases/role/product-dev#_3-ai-deploy-monitor) | Dev | Tech/SaaS | Automation | Manual → Auto (2min MTTR) |
@@ -168,104 +168,104 @@ Find use cases by what you need to get done:
 | 98 | [AI Customer Health Scorer](/use-cases/role/sales#_16-ai-customer-health-scorer) | Sales | Tech/SaaS | Analysis | Coverage: 20% → 100% |
 | 99 | [AI Workflow Automator](/use-cases/role/product-dev#_23-ai-workflow-automator) | Dev | Tech/SaaS | Automation | Automation: 15% → 78% |
 | 100 | [AI RFP Response Writer](/use-cases/role/sales#_17-ai-rfp-response-writer) | Sales | Tech/SaaS | Writing | 40 hours → 8 hours |
-| 105 | [AI Contract Analyzer](/use-cases/role/legal#_1-ai-contract-analyzer) | Legal | Enterprise | — |
-| 106 | [AI Patient Intake Processor](/use-cases/role/operations#_23-ai-patient-intake-processor) | Operations | Healthcare | — |
-| 107 | [AI Curriculum Designer](/use-cases/role/trainer#_1-ai-curriculum-designer) | Trainer | Education | — |
-| 108 | [AI Property Valuation Assistant](/use-cases/role/data-analyst#_1-ai-property-valuation-assistant) | Data Analyst | Real Estate | — |
-| 109 | [AI Shipment Tracker](/use-cases/role/logistics-manager#_1-ai-shipment-tracker) | Logistics Manager | Logistics | — |
-| 110 | [AI Hotel Review Responder](/use-cases/role/content-marketing#_20-ai-hotel-review-responder) | Content / Marketing | Hospitality | — |
-| 111 | [AI Production Defect Detector](/use-cases/role/qa-engineer#_1-ai-production-defect-detector) | QA Engineer | Manufacturing | — |
-| 112 | [AI Strategy Brief Writer](/use-cases/role/consultant#_1-ai-strategy-brief-writer) | Consultant | Consulting | — |
-| 113 | [AI Grant Proposal Writer](/use-cases/role/operations#_24-ai-grant-proposal-writer) | Operations | Nonprofit | — |
-| 114 | [AI Permit Application Tracker](/use-cases/role/compliance-officer#_1-ai-permit-application-tracker) | Compliance Officer | Government | — |
-| 115 | [AI Crop Yield Predictor](/use-cases/role/data-analyst#_2-ai-crop-yield-predictor) | Data Analyst | Agriculture | — |
-| 116 | [AI Grid Outage Analyzer](/use-cases/role/operations#_25-ai-grid-outage-analyzer) | Operations | Energy | — |
-| 117 | [AI Claims Adjuster](/use-cases/role/operations#_26-ai-claims-adjuster) | Operations | Insurance | — |
-| 118 | [AI Script Coverage Reader](/use-cases/role/data-analyst#_3-ai-script-coverage-reader) | Data Analyst | Media & Entertainment | — |
-| 119 | [AI Network Capacity Planner](/use-cases/role/devops#_1-ai-network-capacity-planner) | DevOps | Telecom | — |
-| 120 | [AI Vehicle Recall Monitor](/use-cases/role/compliance-officer#_2-ai-vehicle-recall-monitor) | Compliance Officer | Automotive | — |
-| 121 | [AI Clinical Trial Screener](/use-cases/role/data-analyst#_4-ai-clinical-trial-screener) | Data Analyst | Healthcare | — |
-| 122 | [AI Student Progress Tracker](/use-cases/role/trainer#_2-ai-student-progress-tracker) | Trainer | Education | — |
-| 123 | [AI NDA Generator](/use-cases/role/legal#_2-ai-nda-generator) | Legal | Technology / SaaS | — |
-| 124 | [AI Warehouse Layout Optimizer](/use-cases/role/logistics-manager#_2-ai-warehouse-layout-optimizer) | Logistics Manager | Logistics | — |
-| 125 | [AI Menu Cost Analyzer](/use-cases/role/finance#_13-ai-menu-cost-analyzer) | Finance | Hospitality | — |
-| 126 | [AI Predictive Maintenance Scheduler](/use-cases/role/operations#_27-ai-predictive-maintenance-scheduler) | Operations | Manufacturing | — |
-| 127 | [AI Due Diligence Compiler](/use-cases/role/consultant#_2-ai-due-diligence-compiler) | Consultant | Financial Services | — |
-| 128 | [AI Donor Engagement Tracker](/use-cases/role/sales#_18-ai-donor-engagement-tracker) | Sales | Nonprofit | — |
-| 129 | [AI Public Records Researcher](/use-cases/role/data-analyst#_5-ai-public-records-researcher) | Data Analyst | Government | — |
-| 130 | [AI Irrigation Scheduler](/use-cases/role/operations#_28-ai-irrigation-scheduler) | Operations | Agriculture | — |
-| 131 | [AI Carbon Footprint Reporter](/use-cases/role/compliance-officer#_3-ai-carbon-footprint-reporter) | Compliance Officer | Energy | — |
-| 132 | [AI Policy Renewal Optimizer](/use-cases/role/sales#_19-ai-policy-renewal-optimizer) | Sales | Insurance | — |
-| 133 | [AI Podcast Show Notes Writer](/use-cases/role/content-marketing#_21-ai-podcast-show-notes-writer) | Content / Marketing | Media & Entertainment | — |
-| 134 | [AI 5G Site Survey Analyzer](/use-cases/role/data-analyst#_6-ai-5g-site-survey-analyzer) | Data Analyst | Telecom | — |
-| 135 | [AI Dealership Inventory Matcher](/use-cases/role/sales#_20-ai-dealership-inventory-matcher) | Sales | Automotive | — |
-| 136 | [AI HIPAA Compliance Auditor](/use-cases/role/compliance-officer#_4-ai-hipaa-compliance-auditor) | Compliance Officer | Healthcare | — |
-| 137 | [AI Plagiarism Checker](/use-cases/role/trainer#_3-ai-plagiarism-checker) | Trainer | Education | — |
-| 138 | [AI IP Portfolio Analyzer](/use-cases/role/legal#_3-ai-ip-portfolio-analyzer) | Legal | Technology / SaaS | — |
-| 139 | [AI Route Optimizer](/use-cases/role/logistics-manager#_3-ai-route-optimizer) | Logistics Manager | Logistics | — |
-| 140 | [AI Guest Upsell Recommender](/use-cases/role/sales#_21-ai-guest-upsell-recommender) | Sales | Hospitality | — |
-| 141 | [AI Bill of Materials Checker](/use-cases/role/procurement#_1-ai-bill-of-materials-checker) | Procurement | Manufacturing | — |
-| 142 | [AI Consulting Deck Builder](/use-cases/role/consultant#_3-ai-management-consulting-deck-builder) | Consultant | Consulting | — |
-| 143 | [AI Volunteer Coordinator](/use-cases/role/operations#_29-ai-volunteer-coordinator) | Operations | Nonprofit | — |
-| 144 | [AI Constituent Feedback Analyzer](/use-cases/role/data-analyst#_7-ai-constituent-feedback-analyzer) | Data Analyst | Government | — |
-| 145 | [AI Pest Detection Advisor](/use-cases/role/consultant#_4-ai-pest-detection-advisor) | Consultant | Agriculture | — |
-| 146 | [AI Solar Panel Performance Monitor](/use-cases/role/devops#_2-ai-solar-panel-performance-monitor) | DevOps | Energy | — |
-| 147 | [AI Underwriting Assistant](/use-cases/role/data-analyst#_8-ai-underwriting-assistant) | Data Analyst | Insurance | — |
-| 148 | [AI Royalty Calculator](/use-cases/role/finance#_14-ai-royalty-calculator) | Finance | Media & Entertainment | — |
-| 149 | [AI Churn Predictor](/use-cases/role/data-analyst#_9-ai-churn-predictor) | Data Analyst | Telecom | — |
-| 150 | [AI Parts Catalog Updater](/use-cases/role/operations#_30-ai-parts-catalog-updater) | Operations | Automotive | — |
-| 151 | [AI Medical Coding Assistant](/use-cases/role/finance#_15-ai-medical-coding-assistant) | Finance | Healthcare | — |
-| 152 | [AI Accreditation Compliance Checker](/use-cases/role/compliance-officer#_5-ai-accreditation-compliance-checker) | Compliance Officer | Education | — |
-| 153 | [AI Trademark Conflict Searcher](/use-cases/role/legal#_4-ai-trademark-conflict-searcher) | Legal | Enterprise | — |
-| 154 | [AI Freight Rate Negotiator](/use-cases/role/procurement#_2-ai-freight-rate-negotiator) | Procurement | Logistics | — |
-| 155 | [AI Event Logistics Planner](/use-cases/role/pm#_1-ai-event-logistics-planner) | Project Manager | Hospitality | — |
-| 156 | [AI Safety Incident Reporter](/use-cases/role/compliance-officer#_6-ai-safety-incident-reporter) | Compliance Officer | Manufacturing | — |
-| 157 | [AI Benchmarking Analyst](/use-cases/role/consultant#_5-ai-benchmarking-analyst) | Consultant | Consulting | — |
-| 158 | [AI Impact Measurement Reporter](/use-cases/role/data-analyst#_10-ai-impact-measurement-reporter) | Data Analyst | Nonprofit | — |
-| 159 | [AI FOIA Request Processor](/use-cases/role/legal#_5-ai-foia-request-processor) | Legal | Government | — |
-| 160 | [AI Supply Chain Risk Scorer](/use-cases/role/procurement#_3-ai-supply-chain-risk-scorer) | Procurement | Manufacturing | — |
-| 161 | [AI API Migration Planner](/use-cases/role/product-dev#_24-ai-api-migration-planner) | Product / Dev | Technology / SaaS | — |
-| 162 | [AI Clinical Notes Summarizer](/use-cases/role/operations#_31-ai-clinical-notes-summarizer) | Operations | Healthcare | — |
-| 163 | [AI Research Paper Grader](/use-cases/role/trainer#_4-ai-research-paper-grader) | Trainer | Education | — |
-| 164 | [AI Regulatory Change Tracker](/use-cases/role/legal#_6-ai-regulatory-change-tracker) | Legal | Financial Services | — |
-| 165 | [AI Last-Mile Delivery Tracker](/use-cases/role/logistics-manager#_4-ai-last-mile-delivery-tracker) | Logistics Manager | E-commerce / Retail | — |
-| 166 | [AI Floor Plan Analyzer](/use-cases/role/data-analyst#_11-ai-floor-plan-analyzer) | Data Analyst | Real Estate | — |
-| 167 | [AI Executive Briefing Generator](/use-cases/role/executive#_1-ai-executive-briefing-generator) | Executive | Enterprise | — |
-| 168 | [AI EHR Data Migrator](/use-cases/role/product-dev#_25-ai-ehr-data-migrator) | Product / Dev | Healthcare | — |
-| 169 | [AI Learning Path Builder](/use-cases/role/trainer#_5-ai-learning-path-builder) | Trainer | Education | — |
-| 170 | [AI Litigation Hold Manager](/use-cases/role/legal#_7-ai-litigation-hold-manager) | Legal | Enterprise | — |
-| 171 | [AI Cross-Dock Scheduler](/use-cases/role/logistics-manager#_5-ai-cross-dock-scheduler) | Logistics Manager | Logistics | — |
-| 172 | [AI Housekeeping Scheduler](/use-cases/role/operations#_32-ai-housekeeping-scheduler) | Operations | Hospitality | — |
-| 173 | [AI Production Batch Optimizer](/use-cases/role/operations#_33-ai-production-batch-optimizer) | Operations | Manufacturing | — |
-| 174 | [AI Market Sizing Modeler](/use-cases/role/consultant#_6-ai-market-sizing-modeler) | Consultant | Consulting | — |
-| 175 | [AI Fundraising Event Planner](/use-cases/role/pm#_2-ai-fundraising-event-planner) | Project Manager | Nonprofit | — |
-| 176 | [AI Budget Variance Analyst](/use-cases/role/finance#_16-ai-budget-variance-analyst) | Finance | Government | — |
-| 177 | [AI Soil Health Reporter](/use-cases/role/data-analyst#_12-ai-soil-health-reporter) | Data Analyst | Agriculture | — |
-| 178 | [AI Energy Trading Assistant](/use-cases/role/finance#_17-ai-energy-trading-assistant) | Finance | Energy | — |
-| 179 | [AI Fraud Pattern Detector](/use-cases/role/data-analyst#_13-ai-fraud-pattern-detector) | Data Analyst | Insurance | — |
-| 180 | [AI Content Rights Tracker](/use-cases/role/legal#_8-ai-content-rights-tracker) | Legal | Media & Entertainment | — |
-| 181 | [AI Subscriber Lifecycle Manager](/use-cases/role/content-marketing#_22-ai-subscriber-lifecycle-manager) | Content / Marketing | Telecom | — |
-| 182 | [AI Fleet Telematics Analyzer](/use-cases/role/operations#_34-ai-fleet-telematics-analyzer) | Operations | Automotive | — |
-| 183 | [AI Pharmacy Benefit Optimizer](/use-cases/role/procurement#_4-ai-pharmacy-benefit-optimizer) | Procurement | Healthcare | — |
-| 184 | [AI Enrollment Forecaster](/use-cases/role/data-analyst#_14-ai-enrollment-forecaster) | Data Analyst | Education | — |
-| 185 | [AI ESG Disclosure Writer](/use-cases/role/compliance-officer#_7-ai-esg-disclosure-writer) | Compliance Officer | Enterprise | — |
-| 186 | [AI Customs Declaration Filer](/use-cases/role/logistics-manager#_6-ai-customs-declaration-filer) | Logistics Manager | Logistics | — |
-| 187 | [AI Revenue Management Optimizer](/use-cases/role/finance#_18-ai-revenue-management-optimizer) | Finance | Hospitality | — |
-| 188 | [AI SPC Chart Monitor](/use-cases/role/qa-engineer#_2-ai-spc-chart-monitor) | QA Engineer | Manufacturing | — |
-| 189 | [AI Pricing Strategy Modeler](/use-cases/role/consultant#_7-ai-pricing-strategy-modeler) | Consultant | Technology / SaaS | — |
-| 190 | [AI Annual Report Assembler](/use-cases/role/executive#_2-ai-annual-report-assembler) | Executive | Nonprofit | — |
-| 191 | [AI Procurement Bid Evaluator](/use-cases/role/procurement#_5-ai-procurement-bid-evaluator) | Procurement | Government | — |
-| 192 | [AI Livestock Health Monitor](/use-cases/role/operations#_35-ai-livestock-health-monitor) | Operations | Agriculture | — |
-| 193 | [AI PPA Reviewer](/use-cases/role/legal#_9-ai-power-purchase-agreement-reviewer) | Legal | Energy | — |
-| 194 | [AI Actuarial Scenario Runner](/use-cases/role/finance#_19-ai-actuarial-scenario-runner) | Finance | Insurance | — |
-| 195 | [AI Audience Segmentation Engine](/use-cases/role/content-marketing#_23-ai-audience-segmentation-engine) | Content / Marketing | Media & Entertainment | — |
-| 196 | [AI Service Ticket Predictor](/use-cases/role/customer-support#_14-ai-service-ticket-predictor) | Customer Support | Telecom | — |
-| 197 | [AI Test Drive Scheduler](/use-cases/role/sales#_22-ai-test-drive-scheduler) | Sales | Automotive | — |
-| 198 | [AI Dependency Vulnerability Scanner](/use-cases/role/product-dev#_26-ai-dependency-vulnerability-scanner) | Product / Dev | Technology / SaaS | — |
-| 199 | [AI Tenant Screening Processor](/use-cases/role/operations#_36-ai-tenant-screening-processor) | Operations | Real Estate | — |
-| 200 | [AI OKR Progress Tracker](/use-cases/role/executive#_3-ai-okr-progress-tracker) | Executive | Enterprise | — |
-| 201 | [AI Referral Network Mapper](/use-cases/role/sales#_23-ai-referral-network-mapper) | Sales | Healthcare | — |
-| 202 | [AI Comparative Market Analysis Builder](/use-cases/role/sales#_24-ai-comparative-market-analysis) | Sales | Real Estate | — |
-| 203 | [AI Board Meeting Prep Assistant](/use-cases/role/executive#_4-ai-board-meeting-prep-assistant) | Executive | Enterprise | — |
-| 204 | [AI Accessibility Compliance Checker](/use-cases/role/qa-engineer#_3-ai-accessibility-compliance-checker) | QA Engineer | Technology / SaaS | — |
+| 105 | [AI Contract Analyzer](/use-cases/role/legal#_1-ai-contract-analyzer) | Legal | Enterprise | Automation | — |
+| 106 | [AI Patient Intake Processor](/use-cases/role/operations#_23-ai-patient-intake-processor) | Operations | Healthcare | Automation | — |
+| 107 | [AI Curriculum Designer](/use-cases/role/trainer#_1-ai-curriculum-designer) | Trainer | Education | Automation | — |
+| 108 | [AI Property Valuation Assistant](/use-cases/role/data-analyst#_1-ai-property-valuation-assistant) | Data Analyst | Real Estate | Analysis | — |
+| 109 | [AI Shipment Tracker](/use-cases/role/logistics-manager#_1-ai-shipment-tracker) | Logistics Manager | Logistics | Research | — |
+| 110 | [AI Hotel Review Responder](/use-cases/role/content-marketing#_20-ai-hotel-review-responder) | Content / Marketing | Hospitality | Automation | — |
+| 111 | [AI Production Defect Detector](/use-cases/role/qa-engineer#_1-ai-production-defect-detector) | QA Engineer | Manufacturing | Automation | — |
+| 112 | [AI Strategy Brief Writer](/use-cases/role/consultant#_1-ai-strategy-brief-writer) | Consultant | Consulting | Writing | — |
+| 113 | [AI Grant Proposal Writer](/use-cases/role/operations#_24-ai-grant-proposal-writer) | Operations | Nonprofit | Writing | — |
+| 114 | [AI Permit Application Tracker](/use-cases/role/compliance-officer#_1-ai-permit-application-tracker) | Compliance Officer | Government | Automation | — |
+| 115 | [AI Crop Yield Predictor](/use-cases/role/data-analyst#_2-ai-crop-yield-predictor) | Data Analyst | Agriculture | Analysis | — |
+| 116 | [AI Grid Outage Analyzer](/use-cases/role/operations#_25-ai-grid-outage-analyzer) | Operations | Energy | Analysis | — |
+| 117 | [AI Claims Adjuster](/use-cases/role/operations#_26-ai-claims-adjuster) | Operations | Insurance | Automation | — |
+| 118 | [AI Script Coverage Reader](/use-cases/role/data-analyst#_3-ai-script-coverage-reader) | Data Analyst | Media & Entertainment | Writing | — |
+| 119 | [AI Network Capacity Planner](/use-cases/role/devops#_1-ai-network-capacity-planner) | DevOps | Telecom | Research | — |
+| 120 | [AI Vehicle Recall Monitor](/use-cases/role/compliance-officer#_2-ai-vehicle-recall-monitor) | Compliance Officer | Automotive | Research | — |
+| 121 | [AI Clinical Trial Screener](/use-cases/role/data-analyst#_4-ai-clinical-trial-screener) | Data Analyst | Healthcare | Research | — |
+| 122 | [AI Student Progress Tracker](/use-cases/role/trainer#_2-ai-student-progress-tracker) | Trainer | Education | Research | — |
+| 123 | [AI NDA Generator](/use-cases/role/legal#_2-ai-nda-generator) | Legal | Technology / SaaS | Automation | — |
+| 124 | [AI Warehouse Layout Optimizer](/use-cases/role/logistics-manager#_2-ai-warehouse-layout-optimizer) | Logistics Manager | Logistics | Automation | — |
+| 125 | [AI Menu Cost Analyzer](/use-cases/role/finance#_13-ai-menu-cost-analyzer) | Finance | Hospitality | Analysis | — |
+| 126 | [AI Predictive Maintenance Scheduler](/use-cases/role/operations#_27-ai-predictive-maintenance-scheduler) | Operations | Manufacturing | Automation | — |
+| 127 | [AI Due Diligence Compiler](/use-cases/role/consultant#_2-ai-due-diligence-compiler) | Consultant | Financial Services | Automation | — |
+| 128 | [AI Donor Engagement Tracker](/use-cases/role/sales#_18-ai-donor-engagement-tracker) | Sales | Nonprofit | Automation | — |
+| 129 | [AI Public Records Researcher](/use-cases/role/data-analyst#_5-ai-public-records-researcher) | Data Analyst | Government | Research | — |
+| 130 | [AI Irrigation Scheduler](/use-cases/role/operations#_28-ai-irrigation-scheduler) | Operations | Agriculture | Automation | — |
+| 131 | [AI Carbon Footprint Reporter](/use-cases/role/compliance-officer#_3-ai-carbon-footprint-reporter) | Compliance Officer | Energy | Automation | — |
+| 132 | [AI Policy Renewal Optimizer](/use-cases/role/sales#_19-ai-policy-renewal-optimizer) | Sales | Insurance | Automation | — |
+| 133 | [AI Podcast Show Notes Writer](/use-cases/role/content-marketing#_21-ai-podcast-show-notes-writer) | Content / Marketing | Media & Entertainment | Writing | — |
+| 134 | [AI 5G Site Survey Analyzer](/use-cases/role/data-analyst#_6-ai-5g-site-survey-analyzer) | Data Analyst | Telecom | Analysis | — |
+| 135 | [AI Dealership Inventory Matcher](/use-cases/role/sales#_20-ai-dealership-inventory-matcher) | Sales | Automotive | Automation | — |
+| 136 | [AI HIPAA Compliance Auditor](/use-cases/role/compliance-officer#_4-ai-hipaa-compliance-auditor) | Compliance Officer | Healthcare | Research | — |
+| 137 | [AI Plagiarism Checker](/use-cases/role/trainer#_3-ai-plagiarism-checker) | Trainer | Education | Research | — |
+| 138 | [AI IP Portfolio Analyzer](/use-cases/role/legal#_3-ai-ip-portfolio-analyzer) | Legal | Technology / SaaS | Analysis | — |
+| 139 | [AI Route Optimizer](/use-cases/role/logistics-manager#_3-ai-route-optimizer) | Logistics Manager | Logistics | Automation | — |
+| 140 | [AI Guest Upsell Recommender](/use-cases/role/sales#_21-ai-guest-upsell-recommender) | Sales | Hospitality | Automation | — |
+| 141 | [AI Bill of Materials Checker](/use-cases/role/procurement#_1-ai-bill-of-materials-checker) | Procurement | Manufacturing | Automation | — |
+| 142 | [AI Consulting Deck Builder](/use-cases/role/consultant#_3-ai-management-consulting-deck-builder) | Consultant | Consulting | Automation | — |
+| 143 | [AI Volunteer Coordinator](/use-cases/role/operations#_29-ai-volunteer-coordinator) | Operations | Nonprofit | Automation | — |
+| 144 | [AI Constituent Feedback Analyzer](/use-cases/role/data-analyst#_7-ai-constituent-feedback-analyzer) | Data Analyst | Government | Analysis | — |
+| 145 | [AI Pest Detection Advisor](/use-cases/role/consultant#_4-ai-pest-detection-advisor) | Consultant | Agriculture | Research | — |
+| 146 | [AI Solar Panel Performance Monitor](/use-cases/role/devops#_2-ai-solar-panel-performance-monitor) | DevOps | Energy | Research | — |
+| 147 | [AI Underwriting Assistant](/use-cases/role/data-analyst#_8-ai-underwriting-assistant) | Data Analyst | Insurance | Research | — |
+| 148 | [AI Royalty Calculator](/use-cases/role/finance#_14-ai-royalty-calculator) | Finance | Media & Entertainment | Analysis | — |
+| 149 | [AI Churn Predictor](/use-cases/role/data-analyst#_9-ai-churn-predictor) | Data Analyst | Telecom | Research | — |
+| 150 | [AI Parts Catalog Updater](/use-cases/role/operations#_30-ai-parts-catalog-updater) | Operations | Automotive | Automation | — |
+| 151 | [AI Medical Coding Assistant](/use-cases/role/finance#_15-ai-medical-coding-assistant) | Finance | Healthcare | Automation | — |
+| 152 | [AI Accreditation Compliance Checker](/use-cases/role/compliance-officer#_5-ai-accreditation-compliance-checker) | Compliance Officer | Education | Research | — |
+| 153 | [AI Trademark Conflict Searcher](/use-cases/role/legal#_4-ai-trademark-conflict-searcher) | Legal | Enterprise | Research | — |
+| 154 | [AI Freight Rate Negotiator](/use-cases/role/procurement#_2-ai-freight-rate-negotiator) | Procurement | Logistics | Automation | — |
+| 155 | [AI Event Logistics Planner](/use-cases/role/pm#_1-ai-event-logistics-planner) | Project Manager | Hospitality | Automation | — |
+| 156 | [AI Safety Incident Reporter](/use-cases/role/compliance-officer#_6-ai-safety-incident-reporter) | Compliance Officer | Manufacturing | Automation | — |
+| 157 | [AI Benchmarking Analyst](/use-cases/role/consultant#_5-ai-benchmarking-analyst) | Consultant | Consulting | Analysis | — |
+| 158 | [AI Impact Measurement Reporter](/use-cases/role/data-analyst#_10-ai-impact-measurement-reporter) | Data Analyst | Nonprofit | Writing | — |
+| 159 | [AI FOIA Request Processor](/use-cases/role/legal#_5-ai-foia-request-processor) | Legal | Government | Automation | — |
+| 160 | [AI Supply Chain Risk Scorer](/use-cases/role/procurement#_3-ai-supply-chain-risk-scorer) | Procurement | Manufacturing | Research | — |
+| 161 | [AI API Migration Planner](/use-cases/role/product-dev#_24-ai-api-migration-planner) | Product / Dev | Technology / SaaS | Research | — |
+| 162 | [AI Clinical Notes Summarizer](/use-cases/role/operations#_31-ai-clinical-notes-summarizer) | Operations | Healthcare | Writing | — |
+| 163 | [AI Research Paper Grader](/use-cases/role/trainer#_4-ai-research-paper-grader) | Trainer | Education | Automation | — |
+| 164 | [AI Regulatory Change Tracker](/use-cases/role/legal#_6-ai-regulatory-change-tracker) | Legal | Financial Services | Research | — |
+| 165 | [AI Last-Mile Delivery Tracker](/use-cases/role/logistics-manager#_4-ai-last-mile-delivery-tracker) | Logistics Manager | E-commerce / Retail | Research | — |
+| 166 | [AI Floor Plan Analyzer](/use-cases/role/data-analyst#_11-ai-floor-plan-analyzer) | Data Analyst | Real Estate | Analysis | — |
+| 167 | [AI Executive Briefing Generator](/use-cases/role/executive#_1-ai-executive-briefing-generator) | Executive | Enterprise | Writing | — |
+| 168 | [AI EHR Data Migrator](/use-cases/role/product-dev#_25-ai-ehr-data-migrator) | Product / Dev | Healthcare | Automation | — |
+| 169 | [AI Learning Path Builder](/use-cases/role/trainer#_5-ai-learning-path-builder) | Trainer | Education | Automation | — |
+| 170 | [AI Litigation Hold Manager](/use-cases/role/legal#_7-ai-litigation-hold-manager) | Legal | Enterprise | Automation | — |
+| 171 | [AI Cross-Dock Scheduler](/use-cases/role/logistics-manager#_5-ai-cross-dock-scheduler) | Logistics Manager | Logistics | Automation | — |
+| 172 | [AI Housekeeping Scheduler](/use-cases/role/operations#_32-ai-housekeeping-scheduler) | Operations | Hospitality | Automation | — |
+| 173 | [AI Production Batch Optimizer](/use-cases/role/operations#_33-ai-production-batch-optimizer) | Operations | Manufacturing | Automation | — |
+| 174 | [AI Market Sizing Modeler](/use-cases/role/consultant#_6-ai-market-sizing-modeler) | Consultant | Consulting | Analysis | — |
+| 175 | [AI Fundraising Event Planner](/use-cases/role/pm#_2-ai-fundraising-event-planner) | Project Manager | Nonprofit | Automation | — |
+| 176 | [AI Budget Variance Analyst](/use-cases/role/finance#_16-ai-budget-variance-analyst) | Finance | Government | Analysis | — |
+| 177 | [AI Soil Health Reporter](/use-cases/role/data-analyst#_12-ai-soil-health-reporter) | Data Analyst | Agriculture | Analysis | — |
+| 178 | [AI Energy Trading Assistant](/use-cases/role/finance#_17-ai-energy-trading-assistant) | Finance | Energy | Analysis | — |
+| 179 | [AI Fraud Pattern Detector](/use-cases/role/data-analyst#_13-ai-fraud-pattern-detector) | Data Analyst | Insurance | Research | — |
+| 180 | [AI Content Rights Tracker](/use-cases/role/legal#_8-ai-content-rights-tracker) | Legal | Media & Entertainment | Automation | — |
+| 181 | [AI Subscriber Lifecycle Manager](/use-cases/role/content-marketing#_22-ai-subscriber-lifecycle-manager) | Content / Marketing | Telecom | Automation | — |
+| 182 | [AI Fleet Telematics Analyzer](/use-cases/role/operations#_34-ai-fleet-telematics-analyzer) | Operations | Automotive | Analysis | — |
+| 183 | [AI Pharmacy Benefit Optimizer](/use-cases/role/procurement#_4-ai-pharmacy-benefit-optimizer) | Procurement | Healthcare | Automation | — |
+| 184 | [AI Enrollment Forecaster](/use-cases/role/data-analyst#_14-ai-enrollment-forecaster) | Data Analyst | Education | Automation | — |
+| 185 | [AI ESG Disclosure Writer](/use-cases/role/compliance-officer#_7-ai-esg-disclosure-writer) | Compliance Officer | Enterprise | Writing | — |
+| 186 | [AI Customs Declaration Filer](/use-cases/role/logistics-manager#_6-ai-customs-declaration-filer) | Logistics Manager | Logistics | Automation | — |
+| 187 | [AI Revenue Management Optimizer](/use-cases/role/finance#_18-ai-revenue-management-optimizer) | Finance | Hospitality | Automation | — |
+| 188 | [AI SPC Chart Monitor](/use-cases/role/qa-engineer#_2-ai-spc-chart-monitor) | QA Engineer | Manufacturing | Automation | — |
+| 189 | [AI Pricing Strategy Modeler](/use-cases/role/consultant#_7-ai-pricing-strategy-modeler) | Consultant | Technology / SaaS | Analysis | — |
+| 190 | [AI Annual Report Assembler](/use-cases/role/executive#_2-ai-annual-report-assembler) | Executive | Nonprofit | Writing | — |
+| 191 | [AI Procurement Bid Evaluator](/use-cases/role/procurement#_5-ai-procurement-bid-evaluator) | Procurement | Government | Automation | — |
+| 192 | [AI Livestock Health Monitor](/use-cases/role/operations#_35-ai-livestock-health-monitor) | Operations | Agriculture | Research | — |
+| 193 | [AI PPA Reviewer](/use-cases/role/legal#_9-ai-power-purchase-agreement-reviewer) | Legal | Energy | Research | — |
+| 194 | [AI Actuarial Scenario Runner](/use-cases/role/finance#_19-ai-actuarial-scenario-runner) | Finance | Insurance | Analysis | — |
+| 195 | [AI Audience Segmentation Engine](/use-cases/role/content-marketing#_23-ai-audience-segmentation-engine) | Content / Marketing | Media & Entertainment | Automation | — |
+| 196 | [AI Service Ticket Predictor](/use-cases/role/customer-support#_14-ai-service-ticket-predictor) | Customer Support | Telecom | Research | — |
+| 197 | [AI Test Drive Scheduler](/use-cases/role/sales#_22-ai-test-drive-scheduler) | Sales | Automotive | Automation | — |
+| 198 | [AI Dependency Vulnerability Scanner](/use-cases/role/product-dev#_26-ai-dependency-vulnerability-scanner) | Product / Dev | Technology / SaaS | Research | — |
+| 199 | [AI Tenant Screening Processor](/use-cases/role/operations#_36-ai-tenant-screening-processor) | Operations | Real Estate | Automation | — |
+| 200 | [AI OKR Progress Tracker](/use-cases/role/executive#_3-ai-okr-progress-tracker) | Executive | Enterprise | Automation | — |
+| 201 | [AI Referral Network Mapper](/use-cases/role/sales#_23-ai-referral-network-mapper) | Sales | Healthcare | Research | — |
+| 202 | [AI Comparative Market Analysis Builder](/use-cases/role/sales#_24-ai-comparative-market-analysis) | Sales | Real Estate | Analysis | — |
+| 203 | [AI Board Meeting Prep Assistant](/use-cases/role/executive#_4-ai-board-meeting-prep-assistant) | Executive | Enterprise | Research | — |
+| 204 | [AI Accessibility Compliance Checker](/use-cases/role/qa-engineer#_3-ai-accessibility-compliance-checker) | QA Engineer | Technology / SaaS | Research | — |
 

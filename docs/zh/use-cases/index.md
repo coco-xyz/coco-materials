@@ -8,13 +8,13 @@
 
 | 角色 | 数量 | 核心场景 |
 |------|------|---------|
-| [产品/研发](/zh/use-cases/role/product-dev) | 26 | AI API迁移规划器、AI电子病历数据迁移器、AI依赖漏洞扫描器... |
-| [内容/营销](/zh/use-cases/role/content-marketing) | 23 | AI酒店评论回复器、AI播客节目笔记撰写器、AI订户生命周期管理器... |
-| [销售](/zh/use-cases/role/sales) | 24 | AI捐赠者互动追踪器、AI保单续保优化器、AI经销商库存匹配器... |
-| [客服](/zh/use-cases/role/customer-support) | 14 | AI工单预测器... |
-| [HR/招聘](/zh/use-cases/role/hr-recruiting) | 11 | — |
-| [财务](/zh/use-cases/role/finance) | 19 | AI菜单成本分析器、AI版税计算器、AI医疗编码助手... |
-| [运营](/zh/use-cases/role/operations) | 36 | AI患者入院处理器、AI拨款申请撰写器、AI电网故障分析器... |
+| [产品/研发](/zh/use-cases/role/product-dev) | 26 | 代码审查、测试生成、API文档、安全扫描... |
+| [内容/营销](/zh/use-cases/role/content-marketing) | 23 | SEO写作、社媒管理、广告文案、品牌监控... |
+| [销售](/zh/use-cases/role/sales) | 24 | 线索挖掘、CRM更新、方案生成、销售预测... |
+| [客服](/zh/use-cases/role/customer-support) | 14 | 工单分类、知识库、多语言客服... |
+| [HR/招聘](/zh/use-cases/role/hr-recruiting) | 11 | 简历筛选、JD撰写、面试排期、入职助手... |
+| [财务](/zh/use-cases/role/finance) | 19 | 费用审核、财务报告、发票处理... |
+| [运营](/zh/use-cases/role/operations) | 36 | 会议纪要、库存预测、供应商评估... |
 | [法律](/zh/use-cases/role/legal) | 9 | AI合同分析师、AI保密协议生成器、AI知识产权组合分析器... |
 | [高管](/zh/use-cases/role/executive) | 4 | AI高管简报生成器、AI年度报告汇编器、AI OKR进度追踪器... |
 | [数据分析师](/zh/use-cases/role/data-analyst) | 14 | AI房产估值助手、AI作物产量预测器、AI剧本评审阅读器... |
@@ -31,20 +31,20 @@
 
 按你需要完成的工作类型查找：
 
-| 任务类型 | 示例 | 用例 |
-|---------|------|------|
-| [写作与内容](/zh/use-cases/task/writing-content) | 文档、报告、简报、方案 | 拨款申请、策略简报、ESG披露... |
-| [数据分析](/zh/use-cases/task/data-analysis) | 估值、预测、对标 | 资产估值、预算分析、市场规模... |
-| [流程自动化](/zh/use-cases/task/process-automation) | 理赔、排程、路由、合规 | 理赔处理、路线优化、医疗编码... |
-| [调研与监控](/zh/use-cases/task/research-monitoring) | 合规、追踪、风险检测 | 法规追踪、欺诈检测、召回监控... |
+| 任务类型 | 数量 | 核心场景 |
+|---------|------|---------|
+| [写作与内容](/zh/use-cases/task/writing-content) | 36 | SEO写作、API文档、方案生成、拨款申请、策略简报、ESG披露... |
+| [数据分析](/zh/use-cases/task/data-analysis) | 51 | 财务报告、竞品分析、资产估值、预算分析、市场规模... |
+| [流程自动化](/zh/use-cases/task/process-automation) | 83 | 工单分类、CRM更新、发票处理、理赔处理、路线优化... |
+| [调研与监控](/zh/use-cases/task/research-monitoring) | 54 | 线索调研、部署监控、社媒监听、法规追踪、欺诈检测... |
 
 ## 按行业浏览
 
 | 行业 | 数量 | 核心场景 |
 |------|------|---------|
-| [科技/SaaS](/zh/use-cases/industry/technology) | 63 | AI保密协议生成器、AI知识产权组合分析器、AI API迁移规划器... |
-| [电商/零售](/zh/use-cases/industry/ecommerce) | 30 | AI最后一公里配送追踪器... |
-| [金融服务](/zh/use-cases/industry/financial-services) | 25 | AI尽职调查编撰器、AI法规变更追踪器... |
+| [科技/SaaS](/zh/use-cases/industry/technology) | 63 | 代码审查、部署监控、API文档、事件响应... |
+| [电商/零售](/zh/use-cases/industry/ecommerce) | 30 | 库存预测、社媒管理、多语言客服... |
+| [金融服务](/zh/use-cases/industry/financial-services) | 25 | 费用审核、财务报告、合规检查... |
 | [医疗健康](/zh/use-cases/industry/healthcare) | 8 | AI患者入院处理器、AI临床试验筛查器、AI HIPAA合规审计师... |
 | [教育](/zh/use-cases/industry/education) | 7 | AI课程设计师、AI学生进度追踪器、AI抄袭检测器... |
 | [企业通用](/zh/use-cases/industry/enterprise) | 7 | AI合同分析师、AI商标冲突检索器、AI高管简报生成器... |
@@ -66,8 +66,8 @@
 
 ## 全部用例一览
 
-| # | 用例 | 角色 | 行业 | 核心指标 |
-|---|------|------|------|---------|
+| # | 用例 | 角色 | 行业 | 任务 | 核心指标 |
+|---|------|------|------|------|---------|
 | 1 | [AI代码审查](/zh/use-cases/role/product-dev#_1-ai代码审查) | 研发 | 科技/SaaS | 流程自动化 | 4小时→15分钟/PR |
 | 2 | [AI测试生成](/zh/use-cases/role/product-dev#_2-ai测试生成) | 研发 | 科技/SaaS | 流程自动化 | 2天→30分钟 |
 | 3 | [AI部署监控](/zh/use-cases/role/product-dev#_3-ai部署监控) | 研发 | 科技/SaaS | 流程自动化 | 手动→自动(2分钟MTTR) |
@@ -168,104 +168,104 @@
 | 98 | [AI客户健康度评分器](/zh/use-cases/role/sales#_16-ai客户健康度评分器) | 销售 | 科技/SaaS | 数据分析 | 覆盖率：20%→100% |
 | 99 | [AI工作流自动化器](/zh/use-cases/role/product-dev#_23-ai工作流自动化器) | 研发 | 科技/SaaS | 流程自动化 | 自动化：15%→78% |
 | 100 | [AI RFP响应撰写助手](/zh/use-cases/role/sales#_17-ai-rfp响应撰写助手) | 销售 | 科技/SaaS | 写作与内容 | 40小时→8小时 |
-| 105 | AI合同分析师 | 法律 | 企业通用 | — |
-| 106 | AI患者入院处理器 | 运营 | 医疗健康 | — |
-| 107 | AI课程设计师 | 培训师 | 教育 | — |
-| 108 | AI房产估值助手 | 数据分析师 | 房地产 | — |
-| 109 | AI货运追踪器 | 物流经理 | 物流 | — |
-| 110 | AI酒店评论回复器 | 内容/营销 | 酒店餐饮 | — |
-| 111 | AI生产缺陷检测器 | QA工程师 | 制造业 | — |
-| 112 | AI战略简报撰写器 | 咨询顾问 | 咨询 | — |
-| 113 | AI拨款申请撰写器 | 运营 | 非营利 | — |
-| 114 | AI许可证申请追踪器 | 合规官 | 政府 | — |
-| 115 | AI作物产量预测器 | 数据分析师 | 农业 | — |
-| 116 | AI电网故障分析器 | 运营 | 能源 | — |
-| 117 | AI理赔评估师 | 运营 | 保险 | — |
-| 118 | AI剧本评审阅读器 | 数据分析师 | 媒体娱乐 | — |
-| 119 | AI网络容量规划师 | DevOps运维 | 电信 | — |
-| 120 | AI车辆召回监控器 | 合规官 | 汽车 | — |
-| 121 | AI临床试验筛查器 | 数据分析师 | 医疗健康 | — |
-| 122 | AI学生进度追踪器 | 培训师 | 教育 | — |
-| 123 | AI保密协议生成器 | 法律 | 科技/SaaS | — |
-| 124 | AI仓库布局优化器 | 物流经理 | 物流 | — |
-| 125 | AI菜单成本分析器 | 财务 | 酒店餐饮 | — |
-| 126 | AI预测性维护调度器 | 运营 | 制造业 | — |
-| 127 | AI尽职调查编撰器 | 咨询顾问 | 金融服务 | — |
-| 128 | AI捐赠者互动追踪器 | 销售 | 非营利 | — |
-| 129 | AI公共记录研究员 | 数据分析师 | 政府 | — |
-| 130 | AI灌溉调度器 | 运营 | 农业 | — |
-| 131 | AI碳足迹报告生成器 | 合规官 | 能源 | — |
-| 132 | AI保单续保优化器 | 销售 | 保险 | — |
-| 133 | AI播客节目笔记撰写器 | 内容/营销 | 媒体娱乐 | — |
-| 134 | AI 5G站点勘测分析器 | 数据分析师 | 电信 | — |
-| 135 | AI经销商库存匹配器 | 销售 | 汽车 | — |
-| 136 | AI HIPAA合规审计师 | 合规官 | 医疗健康 | — |
-| 137 | AI抄袭检测器 | 培训师 | 教育 | — |
-| 138 | AI知识产权组合分析器 | 法律 | 科技/SaaS | — |
-| 139 | AI路线优化器 | 物流经理 | 物流 | — |
-| 140 | AI客人升级推荐器 | 销售 | 酒店餐饮 | — |
-| 141 | AI物料清单检查器 | 采购 | 制造业 | — |
-| 142 | AI咨询方案构建器 | 咨询顾问 | 咨询 | — |
-| 143 | AI志愿者协调器 | 运营 | 非营利 | — |
-| 144 | AI选民反馈分析器 | 数据分析师 | 政府 | — |
-| 145 | AI病虫害检测顾问 | 咨询顾问 | 农业 | — |
-| 146 | AI太阳能板性能监控器 | DevOps运维 | 能源 | — |
-| 147 | AI核保助手 | 数据分析师 | 保险 | — |
-| 148 | AI版税计算器 | 财务 | 媒体娱乐 | — |
-| 149 | AI客户流失预测器 | 数据分析师 | 电信 | — |
-| 150 | AI零件目录更新器 | 运营 | 汽车 | — |
-| 151 | AI医疗编码助手 | 财务 | 医疗健康 | — |
-| 152 | AI认证合规检查器 | 合规官 | 教育 | — |
-| 153 | AI商标冲突检索器 | 法律 | 企业通用 | — |
-| 154 | AI运费谈判助手 | 采购 | 物流 | — |
-| 155 | AI活动后勤规划器 | 项目经理 | 酒店餐饮 | — |
-| 156 | AI安全事故报告器 | 合规官 | 制造业 | — |
-| 157 | AI对标分析师 | 咨询顾问 | 咨询 | — |
-| 158 | AI影响力评估报告器 | 数据分析师 | 非营利 | — |
-| 159 | AI信息公开请求处理器 | 法律 | 政府 | — |
-| 160 | AI供应链风险评分器 | 采购 | 制造业 | — |
-| 161 | AI API迁移规划器 | 产品/研发 | 科技/SaaS | — |
-| 162 | AI临床笔记摘要器 | 运营 | 医疗健康 | — |
-| 163 | AI论文评分助手 | 培训师 | 教育 | — |
-| 164 | AI法规变更追踪器 | 法律 | 金融服务 | — |
-| 165 | AI最后一公里配送追踪器 | 物流经理 | 电商/零售 | — |
-| 166 | AI平面图分析器 | 数据分析师 | 房地产 | — |
-| 167 | AI高管简报生成器 | 高管 | 企业通用 | — |
-| 168 | AI电子病历数据迁移器 | 产品/研发 | 医疗健康 | — |
-| 169 | AI学习路径构建器 | 培训师 | 教育 | — |
-| 170 | AI诉讼保全管理器 | 法律 | 企业通用 | — |
-| 171 | AI越库调度器 | 物流经理 | 物流 | — |
-| 172 | AI客房清洁调度器 | 运营 | 酒店餐饮 | — |
-| 173 | AI生产批次优化器 | 运营 | 制造业 | — |
-| 174 | AI市场规模建模器 | 咨询顾问 | 咨询 | — |
-| 175 | AI筹款活动策划器 | 项目经理 | 非营利 | — |
-| 176 | AI预算差异分析师 | 财务 | 政府 | — |
-| 177 | AI土壤健康报告器 | 数据分析师 | 农业 | — |
-| 178 | AI能源交易助手 | 财务 | 能源 | — |
-| 179 | AI欺诈模式检测器 | 数据分析师 | 保险 | — |
-| 180 | AI内容版权追踪器 | 法律 | 媒体娱乐 | — |
-| 181 | AI订户生命周期管理器 | 内容/营销 | 电信 | — |
-| 182 | AI车队远程信息分析器 | 运营 | 汽车 | — |
-| 183 | AI药品福利优化器 | 采购 | 医疗健康 | — |
-| 184 | AI招生预测器 | 数据分析师 | 教育 | — |
-| 185 | AI ESG披露撰写器 | 合规官 | 企业通用 | — |
-| 186 | AI报关申报器 | 物流经理 | 物流 | — |
-| 187 | AI收益管理优化器 | 财务 | 酒店餐饮 | — |
-| 188 | AI统计过程控制监控器 | QA工程师 | 制造业 | — |
-| 189 | AI定价策略建模器 | 咨询顾问 | 科技/SaaS | — |
-| 190 | AI年度报告汇编器 | 高管 | 非营利 | — |
-| 191 | AI采购竞标评估器 | 采购 | 政府 | — |
-| 192 | AI牲畜健康监控器 | 运营 | 农业 | — |
-| 193 | AI购电协议审查器 | 法律 | 能源 | — |
-| 194 | AI精算情景模拟器 | 财务 | 保险 | — |
-| 195 | AI受众分群引擎 | 内容/营销 | 媒体娱乐 | — |
-| 196 | AI工单预测器 | 客服 | 电信 | — |
-| 197 | AI试驾调度器 | 销售 | 汽车 | — |
-| 198 | AI依赖漏洞扫描器 | 产品/研发 | 科技/SaaS | — |
-| 199 | AI租户筛查处理器 | 运营 | 房地产 | — |
-| 200 | AI OKR进度追踪器 | 高管 | 企业通用 | — |
-| 201 | AI转诊网络绘制器 | 销售 | 医疗健康 | — |
-| 202 | AI市场比较分析构建器 | 销售 | 房地产 | — |
-| 203 | AI董事会会议准备助手 | 高管 | 企业通用 | — |
-| 204 | AI无障碍合规检查器 | QA工程师 | 科技/SaaS | — |
+| 105 | [AI合同分析师](/zh/use-cases/role/legal#_1-ai合同分析师) | 法律 | 企业通用 | 流程自动化 | — |
+| 106 | [AI患者入院处理器](/zh/use-cases/role/operations#_23-ai患者入院处理器) | 运营 | 医疗健康 | 流程自动化 | — |
+| 107 | [AI课程设计师](/zh/use-cases/role/trainer#_1-ai课程设计师) | 培训师 | 教育 | 流程自动化 | — |
+| 108 | [AI房产估值助手](/zh/use-cases/role/data-analyst#_1-ai房产估值助手) | 数据分析师 | 房地产 | 数据分析 | — |
+| 109 | [AI货运追踪器](/zh/use-cases/role/logistics-manager#_1-ai货运追踪器) | 物流经理 | 物流 | 调研与监控 | — |
+| 110 | [AI酒店评论回复器](/zh/use-cases/role/content-marketing#_20-ai酒店评论回复器) | 内容/营销 | 酒店餐饮 | 流程自动化 | — |
+| 111 | [AI生产缺陷检测器](/zh/use-cases/role/qa-engineer#_1-ai生产缺陷检测器) | QA工程师 | 制造业 | 流程自动化 | — |
+| 112 | [AI战略简报撰写器](/zh/use-cases/role/consultant#_1-ai战略简报撰写器) | 咨询顾问 | 咨询 | 写作与内容 | — |
+| 113 | [AI拨款申请撰写器](/zh/use-cases/role/operations#_24-ai拨款申请撰写器) | 运营 | 非营利 | 写作与内容 | — |
+| 114 | [AI许可证申请追踪器](/zh/use-cases/role/compliance-officer#_1-ai许可证申请追踪器) | 合规官 | 政府 | 流程自动化 | — |
+| 115 | [AI作物产量预测器](/zh/use-cases/role/data-analyst#_2-ai作物产量预测器) | 数据分析师 | 农业 | 数据分析 | — |
+| 116 | [AI电网故障分析器](/zh/use-cases/role/operations#_25-ai电网故障分析器) | 运营 | 能源 | 数据分析 | — |
+| 117 | [AI理赔评估师](/zh/use-cases/role/operations#_26-ai理赔评估师) | 运营 | 保险 | 流程自动化 | — |
+| 118 | [AI剧本评审阅读器](/zh/use-cases/role/data-analyst#_3-ai剧本评审阅读器) | 数据分析师 | 媒体娱乐 | 写作与内容 | — |
+| 119 | [AI网络容量规划师](/zh/use-cases/role/devops#_1-ai网络容量规划师) | DevOps运维 | 电信 | 调研与监控 | — |
+| 120 | [AI车辆召回监控器](/zh/use-cases/role/compliance-officer#_2-ai车辆召回监控器) | 合规官 | 汽车 | 调研与监控 | — |
+| 121 | [AI临床试验筛查器](/zh/use-cases/role/data-analyst#_4-ai临床试验筛查器) | 数据分析师 | 医疗健康 | 调研与监控 | — |
+| 122 | [AI学生进度追踪器](/zh/use-cases/role/trainer#_2-ai学生进度追踪器) | 培训师 | 教育 | 调研与监控 | — |
+| 123 | [AI保密协议生成器](/zh/use-cases/role/legal#_2-ai保密协议生成器) | 法律 | 科技/SaaS | 流程自动化 | — |
+| 124 | [AI仓库布局优化器](/zh/use-cases/role/logistics-manager#_2-ai仓库布局优化器) | 物流经理 | 物流 | 流程自动化 | — |
+| 125 | [AI菜单成本分析器](/zh/use-cases/role/finance#_13-ai菜单成本分析器) | 财务 | 酒店餐饮 | 数据分析 | — |
+| 126 | [AI预测性维护调度器](/zh/use-cases/role/operations#_27-ai预测性维护调度器) | 运营 | 制造业 | 流程自动化 | — |
+| 127 | [AI尽职调查编撰器](/zh/use-cases/role/consultant#_2-ai尽职调查编撰器) | 咨询顾问 | 金融服务 | 流程自动化 | — |
+| 128 | [AI捐赠者互动追踪器](/zh/use-cases/role/sales#_18-ai捐赠者互动追踪器) | 销售 | 非营利 | 流程自动化 | — |
+| 129 | [AI公共记录研究员](/zh/use-cases/role/data-analyst#_5-ai公共记录研究员) | 数据分析师 | 政府 | 调研与监控 | — |
+| 130 | [AI灌溉调度器](/zh/use-cases/role/operations#_28-ai灌溉调度器) | 运营 | 农业 | 流程自动化 | — |
+| 131 | [AI碳足迹报告生成器](/zh/use-cases/role/compliance-officer#_3-ai碳足迹报告生成器) | 合规官 | 能源 | 流程自动化 | — |
+| 132 | [AI保单续保优化器](/zh/use-cases/role/sales#_19-ai保单续保优化器) | 销售 | 保险 | 流程自动化 | — |
+| 133 | [AI播客节目笔记撰写器](/zh/use-cases/role/content-marketing#_21-ai播客节目笔记撰写器) | 内容/营销 | 媒体娱乐 | 写作与内容 | — |
+| 134 | [AI 5G站点勘测分析器](/zh/use-cases/role/data-analyst#_6-ai-5g站点勘测分析器) | 数据分析师 | 电信 | 数据分析 | — |
+| 135 | [AI经销商库存匹配器](/zh/use-cases/role/sales#_20-ai经销商库存匹配器) | 销售 | 汽车 | 流程自动化 | — |
+| 136 | [AI HIPAA合规审计师](/zh/use-cases/role/compliance-officer#_4-ai-hipaa合规审计师) | 合规官 | 医疗健康 | 调研与监控 | — |
+| 137 | [AI抄袭检测器](/zh/use-cases/role/trainer#_3-ai抄袭检测器) | 培训师 | 教育 | 调研与监控 | — |
+| 138 | [AI知识产权组合分析器](/zh/use-cases/role/legal#_3-ai知识产权组合分析器) | 法律 | 科技/SaaS | 数据分析 | — |
+| 139 | [AI路线优化器](/zh/use-cases/role/logistics-manager#_3-ai路线优化器) | 物流经理 | 物流 | 流程自动化 | — |
+| 140 | [AI客人升级推荐器](/zh/use-cases/role/sales#_21-ai客人升级推荐器) | 销售 | 酒店餐饮 | 流程自动化 | — |
+| 141 | [AI物料清单检查器](/zh/use-cases/role/procurement#_1-ai物料清单检查器) | 采购 | 制造业 | 流程自动化 | — |
+| 142 | [AI咨询方案构建器](/zh/use-cases/role/consultant#_3-ai咨询方案构建器) | 咨询顾问 | 咨询 | 流程自动化 | — |
+| 143 | [AI志愿者协调器](/zh/use-cases/role/operations#_29-ai志愿者协调器) | 运营 | 非营利 | 流程自动化 | — |
+| 144 | [AI选民反馈分析器](/zh/use-cases/role/data-analyst#_7-ai选民反馈分析器) | 数据分析师 | 政府 | 数据分析 | — |
+| 145 | [AI病虫害检测顾问](/zh/use-cases/role/consultant#_4-ai病虫害检测顾问) | 咨询顾问 | 农业 | 调研与监控 | — |
+| 146 | [AI太阳能板性能监控器](/zh/use-cases/role/devops#_2-ai太阳能板性能监控器) | DevOps运维 | 能源 | 调研与监控 | — |
+| 147 | [AI核保助手](/zh/use-cases/role/data-analyst#_8-ai核保助手) | 数据分析师 | 保险 | 调研与监控 | — |
+| 148 | [AI版税计算器](/zh/use-cases/role/finance#_14-ai版税计算器) | 财务 | 媒体娱乐 | 数据分析 | — |
+| 149 | [AI客户流失预测器](/zh/use-cases/role/data-analyst#_9-ai客户流失预测器) | 数据分析师 | 电信 | 调研与监控 | — |
+| 150 | [AI零件目录更新器](/zh/use-cases/role/operations#_30-ai零件目录更新器) | 运营 | 汽车 | 流程自动化 | — |
+| 151 | [AI医疗编码助手](/zh/use-cases/role/finance#_15-ai医疗编码助手) | 财务 | 医疗健康 | 流程自动化 | — |
+| 152 | [AI认证合规检查器](/zh/use-cases/role/compliance-officer#_5-ai认证合规检查器) | 合规官 | 教育 | 调研与监控 | — |
+| 153 | [AI商标冲突检索器](/zh/use-cases/role/legal#_4-ai商标冲突检索器) | 法律 | 企业通用 | 调研与监控 | — |
+| 154 | [AI运费谈判助手](/zh/use-cases/role/procurement#_2-ai运费谈判助手) | 采购 | 物流 | 流程自动化 | — |
+| 155 | [AI活动后勤规划器](/zh/use-cases/role/pm#_1-ai活动后勤规划器) | 项目经理 | 酒店餐饮 | 流程自动化 | — |
+| 156 | [AI安全事故报告器](/zh/use-cases/role/compliance-officer#_6-ai安全事故报告器) | 合规官 | 制造业 | 流程自动化 | — |
+| 157 | [AI对标分析师](/zh/use-cases/role/consultant#_5-ai对标分析师) | 咨询顾问 | 咨询 | 数据分析 | — |
+| 158 | [AI影响力评估报告器](/zh/use-cases/role/data-analyst#_10-ai影响力评估报告器) | 数据分析师 | 非营利 | 写作与内容 | — |
+| 159 | [AI信息公开请求处理器](/zh/use-cases/role/legal#_5-ai信息公开请求处理器) | 法律 | 政府 | 流程自动化 | — |
+| 160 | [AI供应链风险评分器](/zh/use-cases/role/procurement#_3-ai供应链风险评分器) | 采购 | 制造业 | 调研与监控 | — |
+| 161 | [AI API迁移规划器](/zh/use-cases/role/product-dev#_24-ai-api迁移规划器) | 产品/研发 | 科技/SaaS | 调研与监控 | — |
+| 162 | [AI临床笔记摘要器](/zh/use-cases/role/operations#_31-ai临床笔记摘要器) | 运营 | 医疗健康 | 写作与内容 | — |
+| 163 | [AI论文评分助手](/zh/use-cases/role/trainer#_4-ai论文评分助手) | 培训师 | 教育 | 流程自动化 | — |
+| 164 | [AI法规变更追踪器](/zh/use-cases/role/legal#_6-ai法规变更追踪器) | 法律 | 金融服务 | 调研与监控 | — |
+| 165 | [AI最后一公里配送追踪器](/zh/use-cases/role/logistics-manager#_4-ai最后一公里配送追踪器) | 物流经理 | 电商/零售 | 调研与监控 | — |
+| 166 | [AI平面图分析器](/zh/use-cases/role/data-analyst#_11-ai平面图分析器) | 数据分析师 | 房地产 | 数据分析 | — |
+| 167 | [AI高管简报生成器](/zh/use-cases/role/executive#_1-ai高管简报生成器) | 高管 | 企业通用 | 写作与内容 | — |
+| 168 | [AI电子病历数据迁移器](/zh/use-cases/role/product-dev#_25-ai电子病历数据迁移器) | 产品/研发 | 医疗健康 | 流程自动化 | — |
+| 169 | [AI学习路径构建器](/zh/use-cases/role/trainer#_5-ai学习路径构建器) | 培训师 | 教育 | 流程自动化 | — |
+| 170 | [AI诉讼保全管理器](/zh/use-cases/role/legal#_7-ai诉讼保全管理器) | 法律 | 企业通用 | 流程自动化 | — |
+| 171 | [AI越库调度器](/zh/use-cases/role/logistics-manager#_5-ai越库调度器) | 物流经理 | 物流 | 流程自动化 | — |
+| 172 | [AI客房清洁调度器](/zh/use-cases/role/operations#_32-ai客房清洁调度器) | 运营 | 酒店餐饮 | 流程自动化 | — |
+| 173 | [AI生产批次优化器](/zh/use-cases/role/operations#_33-ai生产批次优化器) | 运营 | 制造业 | 流程自动化 | — |
+| 174 | [AI市场规模建模器](/zh/use-cases/role/consultant#_6-ai市场规模建模器) | 咨询顾问 | 咨询 | 数据分析 | — |
+| 175 | [AI筹款活动策划器](/zh/use-cases/role/pm#_2-ai筹款活动策划器) | 项目经理 | 非营利 | 流程自动化 | — |
+| 176 | [AI预算差异分析师](/zh/use-cases/role/finance#_16-ai预算差异分析师) | 财务 | 政府 | 数据分析 | — |
+| 177 | [AI土壤健康报告器](/zh/use-cases/role/data-analyst#_12-ai土壤健康报告器) | 数据分析师 | 农业 | 数据分析 | — |
+| 178 | [AI能源交易助手](/zh/use-cases/role/finance#_17-ai能源交易助手) | 财务 | 能源 | 数据分析 | — |
+| 179 | [AI欺诈模式检测器](/zh/use-cases/role/data-analyst#_13-ai欺诈模式检测器) | 数据分析师 | 保险 | 调研与监控 | — |
+| 180 | [AI内容版权追踪器](/zh/use-cases/role/legal#_8-ai内容版权追踪器) | 法律 | 媒体娱乐 | 流程自动化 | — |
+| 181 | [AI订户生命周期管理器](/zh/use-cases/role/content-marketing#_22-ai订户生命周期管理器) | 内容/营销 | 电信 | 流程自动化 | — |
+| 182 | [AI车队远程信息分析器](/zh/use-cases/role/operations#_34-ai车队远程信息分析器) | 运营 | 汽车 | 数据分析 | — |
+| 183 | [AI药品福利优化器](/zh/use-cases/role/procurement#_4-ai药品福利优化器) | 采购 | 医疗健康 | 流程自动化 | — |
+| 184 | [AI招生预测器](/zh/use-cases/role/data-analyst#_14-ai招生预测器) | 数据分析师 | 教育 | 流程自动化 | — |
+| 185 | [AI ESG披露撰写器](/zh/use-cases/role/compliance-officer#_7-ai-esg披露撰写器) | 合规官 | 企业通用 | 写作与内容 | — |
+| 186 | [AI报关申报器](/zh/use-cases/role/logistics-manager#_6-ai报关申报器) | 物流经理 | 物流 | 流程自动化 | — |
+| 187 | [AI收益管理优化器](/zh/use-cases/role/finance#_18-ai收益管理优化器) | 财务 | 酒店餐饮 | 流程自动化 | — |
+| 188 | [AI统计过程控制监控器](/zh/use-cases/role/qa-engineer#_2-ai统计过程控制监控器) | QA工程师 | 制造业 | 流程自动化 | — |
+| 189 | [AI定价策略建模器](/zh/use-cases/role/consultant#_7-ai定价策略建模器) | 咨询顾问 | 科技/SaaS | 数据分析 | — |
+| 190 | [AI年度报告汇编器](/zh/use-cases/role/executive#_2-ai年度报告汇编器) | 高管 | 非营利 | 写作与内容 | — |
+| 191 | [AI采购竞标评估器](/zh/use-cases/role/procurement#_5-ai采购竞标评估器) | 采购 | 政府 | 流程自动化 | — |
+| 192 | [AI牲畜健康监控器](/zh/use-cases/role/operations#_35-ai牲畜健康监控器) | 运营 | 农业 | 调研与监控 | — |
+| 193 | [AI购电协议审查器](/zh/use-cases/role/legal#_9-ai购电协议审查器) | 法律 | 能源 | 调研与监控 | — |
+| 194 | [AI精算情景模拟器](/zh/use-cases/role/finance#_19-ai精算情景模拟器) | 财务 | 保险 | 数据分析 | — |
+| 195 | [AI受众分群引擎](/zh/use-cases/role/content-marketing#_23-ai受众分群引擎) | 内容/营销 | 媒体娱乐 | 流程自动化 | — |
+| 196 | [AI工单预测器](/zh/use-cases/role/customer-support#_14-ai工单预测器) | 客服 | 电信 | 调研与监控 | — |
+| 197 | [AI试驾调度器](/zh/use-cases/role/sales#_22-ai试驾调度器) | 销售 | 汽车 | 流程自动化 | — |
+| 198 | [AI依赖漏洞扫描器](/zh/use-cases/role/product-dev#_26-ai依赖漏洞扫描器) | 产品/研发 | 科技/SaaS | 调研与监控 | — |
+| 199 | [AI租户筛查处理器](/zh/use-cases/role/operations#_36-ai租户筛查处理器) | 运营 | 房地产 | 流程自动化 | — |
+| 200 | [AI OKR进度追踪器](/zh/use-cases/role/executive#_3-ai-okr进度追踪器) | 高管 | 企业通用 | 流程自动化 | — |
+| 201 | [AI转诊网络绘制器](/zh/use-cases/role/sales#_23-ai转诊网络绘制器) | 销售 | 医疗健康 | 调研与监控 | — |
+| 202 | [AI市场比较分析构建器](/zh/use-cases/role/sales#_24-ai市场比较分析构建器) | 销售 | 房地产 | 数据分析 | — |
+| 203 | [AI董事会会议准备助手](/zh/use-cases/role/executive#_4-ai董事会会议准备助手) | 高管 | 企业通用 | 调研与监控 | — |
+| 204 | [AI无障碍合规检查器](/zh/use-cases/role/qa-engineer#_3-ai无障碍合规检查器) | QA工程师 | 科技/SaaS | 调研与监控 | — |
 
