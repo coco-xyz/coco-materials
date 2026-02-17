@@ -24686,3 +24686,172 @@ Please help with:
 
 :::
 
+## 1001. AI Meeting Action Item Tracker
+
+> Extracts action items from meeting transcripts with 95% accuracy, auto-assigns owners, tracks deadlines, and sends follow-up reminders — turning 2 hours of post-meeting admin into 30 seconds.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Action Items from Meetings Are the #1 Source of Organizational Dropped Balls**
+
+Meetings are the backbone of business communication, yet the follow-through is consistently broken. Harvard Business Review reports that executives spend an average of 23 hours per week in meetings, yet 73% of professionals admit to doing other work during meetings. The result? Action items get lost, accountability is unclear, and the same decisions get revisited meeting after meeting.
+
+The problem is structural. Someone is supposed to take notes, but notes are often incomplete, biased toward what the note-taker found important, or simply never distributed. Even when notes are shared, action items are buried in paragraphs of text without clear owners or deadlines. A study by Atlassian found that the average employee attends 62 meetings per month and considers half of them a waste of time — largely because nothing changes between meetings.
+
+For managers overseeing multiple teams, the problem compounds exponentially. They may attend 8-12 meetings per day across different projects, each generating 3-5 action items. Tracking 30-60 action items across scattered notes, emails, and memory is humanly impossible. The consequences are real: missed deadlines, duplicated work, frustrated teams, and projects that drift off track.
+
+**How COCO Solves It**
+
+COCO's AI Meeting Action Item Tracker automatically captures, organizes, and follows through on every commitment made in meetings.
+
+1. **Real-Time Transcript Analysis**: COCO processes meeting transcripts (from Zoom, Teams, Google Meet, or uploaded recordings) and:
+   - Identifies action items using natural language understanding (not just keyword matching)
+   - Distinguishes between actual commitments ("I'll send the report by Friday") and hypotheticals ("We could potentially look into...")
+   - Captures context around each action item (what was discussed, why it matters)
+   - Handles multiple speakers and attributes action items to the correct person
+
+2. **Smart Owner Assignment**: COCO automatically determines who is responsible:
+   - Maps speaker names to team directory for accurate assignment
+   - Detects implicit ownership ("Can someone from engineering look at this?" → assigns to engineering lead)
+   - Identifies when action items are delegated vs. self-assigned
+   - Flags items with no clear owner for manager review
+
+3. **Deadline Extraction & Priority Scoring**: For each action item, COCO:
+   - Extracts explicit deadlines ("by end of week", "before the next sprint")
+   - Suggests deadlines for items without them, based on urgency signals and project timeline
+   - Assigns priority scores based on business impact and dependency chains
+   - Identifies blocking items that should be prioritized
+
+4. **Integration & Distribution**: Action items are automatically:
+   - Created as tasks in your project management tool (Jira, Asana, Notion, Linear)
+   - Sent as a formatted summary to all meeting attendees via email or Slack
+   - Added to each owner's personal task list with context links
+   - Cross-referenced with existing tasks to prevent duplicates
+
+5. **Automated Follow-Up**: COCO ensures nothing falls through the cracks:
+   - Sends reminder notifications at configurable intervals before deadlines
+   - Escalates overdue items to the meeting organizer
+   - Generates status summaries before recurring meetings ("Here's what was committed last time and current status")
+   - Tracks completion rates by team and individual over time
+
+6. **Meeting Intelligence Dashboard**: Provides organizational insights:
+   - Average action items per meeting (is this meeting productive or just talk?)
+   - Completion rates by team, project, and individual
+   - Time from commitment to completion trends
+   - Identifies meetings that consistently generate unfinished action items (candidates for restructuring)
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Post-meeting admin time**: From 30 minutes to 30 seconds per meeting (98% reduction)
+- **Action item capture rate**: From ~40% (manual notes) to 95%+ (AI-extracted)
+- **On-time completion rate**: +47% improvement with automated reminders and tracking
+- **Meeting follow-through**: 89% of action items completed vs. 52% industry average
+- **Duplicate work reduction**: -34% by catching overlapping commitments across meetings
+- **Meeting satisfaction scores**: +28% improvement as teams see follow-through improve
+
+**Who Benefits**
+
+- **Executives & Managers**: Full visibility into commitments across all meetings without manual tracking
+- **Project Managers**: Automated task creation eliminates the gap between meeting decisions and project boards
+- **Individual Contributors**: Clear, specific action items with context — no more ambiguous post-meeting emails
+- **Administrative Staff**: Eliminates hours of note-taking, formatting, and distribution work
+- **Organization Leaders**: Data-driven insights into meeting effectiveness and organizational follow-through
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Extract Action Items from Meeting Transcript**
+```
+Analyze this meeting transcript and extract all action items.
+
+Meeting: [Meeting name/topic]
+Date: [Date]
+Attendees: [List of participants]
+
+Transcript:
+[Paste meeting transcript]
+
+For each action item, provide:
+1. **Action**: Clear, specific description of what needs to be done
+2. **Owner**: Who committed to doing it (exact name from attendees)
+3. **Deadline**: Explicit deadline if mentioned, or suggested deadline based on urgency
+4. **Priority**: High / Medium / Low based on discussion context
+5. **Context**: 1-2 sentences on why this matters (from the discussion)
+6. **Dependencies**: Any other action items this depends on or blocks
+
+Also flag:
+- Items with unclear ownership that need manager assignment
+- Decisions made (not action items, but important conclusions to record)
+- Topics that were raised but deferred to a future meeting
+```
+
+**Prompt 2: Generate Pre-Meeting Status Summary**
+```
+Generate a status summary for our upcoming recurring meeting.
+
+Meeting: [Meeting name]
+Previous meeting date: [Date]
+Action items from last meeting:
+[List the action items with owners]
+
+Current status updates (from project management tool):
+[Paste status updates or "check automatically"]
+
+Generate:
+1. **Completed items**: What was done, by whom, with any notable outcomes
+2. **In-progress items**: Current status, % complete, any blockers
+3. **Overdue items**: What's late, by how much, and recommended next steps
+4. **New context**: Any relevant updates since last meeting that attendees should know
+5. **Suggested agenda items**: Based on open items and new developments
+
+Format as a brief email/Slack message that attendees can scan in 2 minutes.
+```
+
+**Prompt 3: Analyze Meeting Effectiveness**
+```
+Analyze our team's meeting patterns and provide recommendations for improvement.
+
+Data:
+- Team size: [N people]
+- Meetings per week: [N meetings, total hours]
+- Average action items per meeting: [N]
+- Action item completion rate: [X%]
+- Recurring meetings: [List with frequency]
+
+Meeting data from past month:
+[List meetings with: name, duration, # attendees, # action items generated, # completed]
+
+Analyze and provide:
+1. **Meeting ROI ranking**: Which meetings generate the most completed action items per hour?
+2. **Candidate meetings for elimination**: Low-output meetings that could be emails
+3. **Candidate meetings for restructuring**: High-potential meetings with low completion rates
+4. **Attendance optimization**: Who attends meetings where they rarely get action items?
+5. **Time optimization**: Are meetings the right length? Could any be shortened?
+6. **Action item patterns**: Who consistently over-commits? Which topics generate action items that don't get completed?
+```
+
+**Prompt 4: Create Meeting Notes Template**
+```
+Create a structured meeting notes template for our team that maximizes action item clarity.
+
+Team context:
+- Team type: [Engineering / Sales / Marketing / Cross-functional / Executive]
+- Typical meeting types: [Standup, Sprint planning, 1:1, All-hands, etc.]
+- Project management tool: [Jira / Asana / Notion / Linear / Other]
+- Communication tool: [Slack / Teams / Email]
+
+Generate:
+1. **Pre-meeting section**: Agenda, pre-reads, status of previous action items
+2. **During-meeting section**: Discussion notes format with clear action item callout boxes
+3. **Action item format**: Standardized format with Owner, Deadline, Priority, Context fields
+4. **Post-meeting section**: Summary, action items table, next meeting date
+5. **Distribution template**: Email/Slack message format for sharing notes
+6. **Integration instructions**: How to auto-create tasks from the action items section
+```
+
+:::
