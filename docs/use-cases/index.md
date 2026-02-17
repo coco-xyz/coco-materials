@@ -1068,4 +1068,5 @@ Find use cases by what you need to get done:
 | 998 | [AI Dashboard Intelligence Engine](/use-cases/role/content-marketing#_998-ai-dashboard-intelligence-engine-internet) | Marketing | Internet | Automation | 15+ |
 | 999 | [AI Dashboard Intelligence Engine](/use-cases/role/product-dev#_999-ai-dashboard-intelligence-engine-ai-ml) | Dev | AI/ML | Automation | 15+ |
 | 1000 | [AI Dashboard Intelligence Engine](/use-cases/role/operations#_1000-ai-dashboard-intelligence-engine-gaming) | Operations | Gaming | Automation | 15+ |
+| 1001 | [AI Meeting Action Item Tracker](/use-cases/role/operations#_159-ai-meeting-action-item-tracker) | Operations | Tech/SaaS | Automation | 98% |
 
