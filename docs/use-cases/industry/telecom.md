@@ -631,3 +631,628 @@ This week's data:
 ```
 
 :::
+
+## 652. AI Network Capacity Planner
+
+> Forecasts network traffic growth by cell site and time period, recommending capacity upgrades 6 months before congestion impacts user experience.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Network Capacity Planner Demands Intelligence at Scale**
+
+Organizations today face unprecedented operational complexity. According to McKinsey's Global Survey on AI, 72% of companies have adopted AI in at least one business function, yet most still manage network capacity through manual, fragmented processes that can't keep pace with modern demands.
+
+The cost of inefficiency is staggering. Businesses lose an average of 20-30% of their operational budget to process inefficiencies (IDC). For network capacity management specifically, manual approaches lead to delayed responses, inconsistent quality, and missed optimization opportunities that compound over time.
+
+As organizations scale, the gap between manual capabilities and operational needs grows exponentially. Teams struggle to maintain quality, consistency, and speed — and the most talented employees spend their time on repetitive tasks rather than strategic work. The organizations that automate network capacity management effectively gain a decisive competitive advantage.
+
+**How COCO Solves It**
+
+1. **Data Ingestion & Normalization**: AI Network Capacity Planner starts by:
+   - Connects to existing data sources via API, webhook, or direct database integration
+   - Normalizes data formats across different systems and vendors
+   - Handles real-time streaming and batch data processing
+   - Maintains data lineage and audit trails for compliance
+
+2. **Intelligent Analysis & Pattern Recognition**: AI Network Capacity Planner then:
+   - Applies ML models trained on industry-specific datasets
+   - Identifies patterns, anomalies, and trends that human analysts miss
+   - Processes millions of data points in seconds rather than hours
+   - Continuously learns and adapts to new patterns over time
+
+3. **Automated Decision & Action**: AI Network Capacity Planner then:
+   - Executes predefined actions based on analysis results
+   - Applies configurable business rules and thresholds
+   - Handles routine decisions autonomously while escalating complex cases
+   - Maintains full audit trail of all decisions and actions
+
+4. **Real-Time Monitoring & Alerting**: AI Network Capacity Planner then:
+   - Provides continuous monitoring with customizable dashboards
+   - Sends intelligent alerts based on severity and context
+   - Reduces alert fatigue through smart deduplication and correlation
+   - Enables drill-down from high-level metrics to root cause
+
+5. **Reporting & Insights**: AI Network Capacity Planner then:
+   - Generates automated reports on configurable schedules
+   - Provides trend analysis and predictive insights
+   - Exports data in multiple formats for stakeholder communication
+   - Tracks KPIs against targets with variance analysis
+
+6. **Continuous Optimization**: AI Network Capacity Planner ensures:
+   - Identifies optimization opportunities through ongoing analysis
+   - A/B tests different approaches and recommends winners
+   - Adapts to changing conditions and requirements automatically
+   - Provides ROI tracking for implemented recommendations
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Processing time**: From 4-6 hours to 15 minutes (95% reduction)
+- **Manual effort**: From 25 hours/week to 3 hours/week (88% reduction)
+- **Accuracy rate**: 96.2% undefined
+- **Cost reduction**: 42% lower operational costs within 6 months
+- **Issue detection**: 73% faster time-to-detection for critical issues
+- **Team productivity**: 3.2x more output per team member
+
+**Who Benefits**
+
+- **Operations Teams**: Automated processes reduce manual work and human error
+- **Process Owners**: Clear metrics and continuous improvement capabilities
+- **Management**: Real-time visibility into operational performance
+- **Frontline Staff**: Reduced mundane tasks, focus on high-value work
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Set Up Network Capacity Planner**
+```
+Help me set up a network capacity planner for our organization.
+
+Context:
+- Industry: telecom
+- Current process: [Describe your current manual process]
+- Data sources: [List your data sources and systems]
+- Key stakeholders: [Who needs access to results]
+- Primary goals: [What outcomes are most important]
+
+Please provide:
+1. **Configuration plan**: What data connections and integrations are needed
+2. **Priority metrics**: Which KPIs should we track first
+3. **Baseline assessment**: How to measure current performance for comparison
+4. **Rollout strategy**: Phased approach for team adoption
+5. **Success criteria**: How we'll know the system is working effectively
+```
+
+**Prompt 2: Analyze Current Performance**
+```
+Analyze our current network capacity planner performance and identify improvement opportunities.
+
+Current data:
+- Volume: [Number of items/transactions/events per day/week]
+- Current metrics: [List current performance metrics]
+- Known pain points: [Describe current challenges]
+- Team size: [Number of people involved]
+- Tools currently used: [List current tools]
+
+Analyze and provide:
+1. **Performance baseline**: Current state assessment with benchmarks
+2. **Bottleneck identification**: Where are the biggest inefficiencies?
+3. **Quick wins**: Improvements achievable within 2 weeks
+4. **Medium-term optimizations**: Improvements achievable within 1-3 months
+5. **ROI projection**: Expected returns from implementing recommendations
+6. **Risk assessment**: Potential challenges and mitigation strategies
+```
+
+**Prompt 3: Generate Network Capacity Planner Report**
+```
+Generate a comprehensive network capacity planner report for [weekly/monthly/quarterly] stakeholder review.
+
+Parameters:
+- Reporting period: [Start date] to [End date]
+- Audience: [Technical team / Management / Executive / External]
+- Focus areas: [List priority areas to cover]
+- Previous period comparison: [Yes/No]
+
+Report should include:
+1. **Executive summary**: Key findings in 3-5 bullet points
+2. **Performance metrics**: Tracked KPIs with trend analysis
+3. **Issue summary**: Problems identified, their impact, and resolution status
+4. **Optimization results**: What improvements were made and their measured impact
+5. **Recommendations**: Top 5 actions for the next period
+6. **Appendix**: Detailed data tables for reference
+```
+
+**Prompt 4: Troubleshoot Network Capacity Planner Issues**
+```
+Help troubleshoot issues with our network capacity planner system.
+
+Issue description:
+- Symptom: [What's going wrong]
+- When it started: [Date/time or trigger event]
+- Frequency: [Constant / Intermittent / Under specific conditions]
+- Impact: [Who/what is affected and how severely]
+- Recent changes: [Any system changes before the issue appeared]
+
+Please help with:
+1. **Root cause analysis**: Most likely causes ranked by probability
+2. **Diagnostic steps**: Specific checks to confirm the root cause
+3. **Immediate mitigation**: Steps to reduce impact while investigating
+4. **Fix plan**: Step-by-step resolution approach
+5. **Prevention**: How to prevent recurrence
+6. **Monitoring**: What to watch to confirm the fix is working
+```
+
+:::
+
+## 653. AI Customer Churn Predictor (Telecom)
+
+> Identifies subscribers likely to churn within 30 days using network quality, billing, and usage patterns — enabling targeted retention offers that save $4.2M annually.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Customer Churn Predictor (Telecom) Demands Intelligence at Scale**
+
+Organizations today face unprecedented operational complexity. According to McKinsey's Global Survey on AI, 72% of companies have adopted AI in at least one business function, yet most still manage customer churn through manual, fragmented processes that can't keep pace with modern demands.
+
+The cost of inefficiency is staggering. Businesses lose an average of 20-30% of their operational budget to process inefficiencies (IDC). For customer churn management specifically, manual approaches lead to delayed responses, inconsistent quality, and missed optimization opportunities that compound over time.
+
+As organizations scale, the gap between manual capabilities and operational needs grows exponentially. Teams struggle to maintain quality, consistency, and speed — and the most talented employees spend their time on repetitive tasks rather than strategic work. The organizations that automate customer churn management effectively gain a decisive competitive advantage.
+
+**How COCO Solves It**
+
+1. **Data Ingestion & Normalization**: AI Customer Churn Predictor (Telecom) starts by:
+   - Connects to existing data sources via API, webhook, or direct database integration
+   - Normalizes data formats across different systems and vendors
+   - Handles real-time streaming and batch data processing
+   - Maintains data lineage and audit trails for compliance
+
+2. **Predictive Model Training & Validation**: AI Customer Churn Predictor (Telecom) then:
+   - Trains ensemble models on historical data with cross-validation
+   - Validates predictions against holdout datasets for accuracy assessment
+   - Processes millions of data points in seconds rather than hours
+   - Continuously learns and adapts to new patterns over time
+
+3. **Forecast Generation & Scenario Analysis**: AI Customer Churn Predictor (Telecom) then:
+   - Generates probabilistic forecasts with confidence intervals
+   - Applies configurable business rules and thresholds
+   - Runs scenario analysis for best-case, baseline, and worst-case outcomes
+   - Maintains full audit trail of all decisions and actions
+
+4. **Real-Time Monitoring & Alerting**: AI Customer Churn Predictor (Telecom) then:
+   - Provides continuous monitoring with customizable dashboards
+   - Sends intelligent alerts based on severity and context
+   - Reduces alert fatigue through smart deduplication and correlation
+   - Enables drill-down from high-level metrics to root cause
+
+5. **Reporting & Insights**: AI Customer Churn Predictor (Telecom) then:
+   - Generates automated reports on configurable schedules
+   - Provides trend analysis and predictive insights
+   - Exports data in multiple formats for stakeholder communication
+   - Tracks KPIs against targets with variance analysis
+
+6. **Continuous Optimization**: AI Customer Churn Predictor (Telecom) ensures:
+   - Identifies optimization opportunities through ongoing analysis
+   - A/B tests different approaches and recommends winners
+   - Adapts to changing conditions and requirements automatically
+   - Provides ROI tracking for implemented recommendations
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Processing time**: From 4-6 hours to 15 minutes (95% reduction)
+- **Manual effort**: From 25 hours/week to 3 hours/week (88% reduction)
+- **Accuracy rate**: 96.2% undefined
+- **Cost reduction**: 42% lower operational costs within 6 months
+- **Issue detection**: 73% faster time-to-detection for critical issues
+- **Team productivity**: 3.2x more output per team member
+
+**Who Benefits**
+
+- **Data Analysts**: Automated data processing frees time for strategic analysis
+- **Data Scientists**: Better data quality and faster experiment iteration
+- **Business Stakeholders**: Faster access to insights for better decision-making
+- **Leadership Team**: Data-driven visibility into operations and performance
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Set Up Customer Churn Predictor (Telecom)**
+```
+Help me set up a customer churn predictor (telecom) for our organization.
+
+Context:
+- Industry: telecom
+- Current process: [Describe your current manual process]
+- Data sources: [List your data sources and systems]
+- Key stakeholders: [Who needs access to results]
+- Primary goals: [What outcomes are most important]
+
+Please provide:
+1. **Configuration plan**: What data connections and integrations are needed
+2. **Priority metrics**: Which KPIs should we track first
+3. **Baseline assessment**: How to measure current performance for comparison
+4. **Rollout strategy**: Phased approach for team adoption
+5. **Success criteria**: How we'll know the system is working effectively
+```
+
+**Prompt 2: Analyze Current Performance**
+```
+Analyze our current customer churn predictor (telecom) performance and identify improvement opportunities.
+
+Current data:
+- Volume: [Number of items/transactions/events per day/week]
+- Current metrics: [List current performance metrics]
+- Known pain points: [Describe current challenges]
+- Team size: [Number of people involved]
+- Tools currently used: [List current tools]
+
+Analyze and provide:
+1. **Performance baseline**: Current state assessment with benchmarks
+2. **Bottleneck identification**: Where are the biggest inefficiencies?
+3. **Quick wins**: Improvements achievable within 2 weeks
+4. **Medium-term optimizations**: Improvements achievable within 1-3 months
+5. **ROI projection**: Expected returns from implementing recommendations
+6. **Risk assessment**: Potential challenges and mitigation strategies
+```
+
+**Prompt 3: Generate Customer Churn Predictor (Telecom) Report**
+```
+Generate a comprehensive customer churn predictor (telecom) report for [weekly/monthly/quarterly] stakeholder review.
+
+Parameters:
+- Reporting period: [Start date] to [End date]
+- Audience: [Technical team / Management / Executive / External]
+- Focus areas: [List priority areas to cover]
+- Previous period comparison: [Yes/No]
+
+Report should include:
+1. **Executive summary**: Key findings in 3-5 bullet points
+2. **Performance metrics**: Tracked KPIs with trend analysis
+3. **Issue summary**: Problems identified, their impact, and resolution status
+4. **Optimization results**: What improvements were made and their measured impact
+5. **Recommendations**: Top 5 actions for the next period
+6. **Appendix**: Detailed data tables for reference
+```
+
+**Prompt 4: Troubleshoot Customer Churn Predictor (Telecom) Issues**
+```
+Help troubleshoot issues with our customer churn predictor (telecom) system.
+
+Issue description:
+- Symptom: [What's going wrong]
+- When it started: [Date/time or trigger event]
+- Frequency: [Constant / Intermittent / Under specific conditions]
+- Impact: [Who/what is affected and how severely]
+- Recent changes: [Any system changes before the issue appeared]
+
+Please help with:
+1. **Root cause analysis**: Most likely causes ranked by probability
+2. **Diagnostic steps**: Specific checks to confirm the root cause
+3. **Immediate mitigation**: Steps to reduce impact while investigating
+4. **Fix plan**: Step-by-step resolution approach
+5. **Prevention**: How to prevent recurrence
+6. **Monitoring**: What to watch to confirm the fix is working
+```
+
+:::
+
+## 654. AI Network Outage Predictor
+
+> Predicts network equipment failures 48 hours in advance using performance telemetry trends, reducing service outages by 55% through proactive maintenance.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Network Outage Predictor Demands Intelligence at Scale**
+
+Organizations today face unprecedented operational complexity. According to McKinsey's Global Survey on AI, 72% of companies have adopted AI in at least one business function, yet most still manage network outage through manual, fragmented processes that can't keep pace with modern demands.
+
+The cost of inefficiency is staggering. Businesses lose an average of 20-30% of their operational budget to process inefficiencies (IDC). For network outage management specifically, manual approaches lead to delayed responses, inconsistent quality, and missed optimization opportunities that compound over time.
+
+As organizations scale, the gap between manual capabilities and operational needs grows exponentially. Teams struggle to maintain quality, consistency, and speed — and the most talented employees spend their time on repetitive tasks rather than strategic work. The organizations that automate network outage management effectively gain a decisive competitive advantage.
+
+**How COCO Solves It**
+
+1. **Data Ingestion & Normalization**: AI Network Outage Predictor starts by:
+   - Connects to existing data sources via API, webhook, or direct database integration
+   - Normalizes data formats across different systems and vendors
+   - Handles real-time streaming and batch data processing
+   - Maintains data lineage and audit trails for compliance
+
+2. **Intelligent Analysis & Pattern Recognition**: AI Network Outage Predictor then:
+   - Applies ML models trained on industry-specific datasets
+   - Identifies patterns, anomalies, and trends that human analysts miss
+   - Processes millions of data points in seconds rather than hours
+   - Continuously learns and adapts to new patterns over time
+
+3. **Automated Decision & Action**: AI Network Outage Predictor then:
+   - Executes predefined actions based on analysis results
+   - Applies configurable business rules and thresholds
+   - Handles routine decisions autonomously while escalating complex cases
+   - Maintains full audit trail of all decisions and actions
+
+4. **Real-Time Monitoring & Alerting**: AI Network Outage Predictor then:
+   - Provides continuous monitoring with customizable dashboards
+   - Sends intelligent alerts based on severity and context
+   - Reduces alert fatigue through smart deduplication and correlation
+   - Enables drill-down from high-level metrics to root cause
+
+5. **Reporting & Insights**: AI Network Outage Predictor then:
+   - Generates automated reports on configurable schedules
+   - Provides trend analysis and predictive insights
+   - Exports data in multiple formats for stakeholder communication
+   - Tracks KPIs against targets with variance analysis
+
+6. **Continuous Optimization**: AI Network Outage Predictor ensures:
+   - Identifies optimization opportunities through ongoing analysis
+   - A/B tests different approaches and recommends winners
+   - Adapts to changing conditions and requirements automatically
+   - Provides ROI tracking for implemented recommendations
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Processing time**: From 4-6 hours to 15 minutes (95% reduction)
+- **Manual effort**: From 25 hours/week to 3 hours/week (88% reduction)
+- **Accuracy rate**: 96.2% undefined
+- **Cost reduction**: 42% lower operational costs within 6 months
+- **Issue detection**: 73% faster time-to-detection for critical issues
+- **Team productivity**: 3.2x more output per team member
+
+**Who Benefits**
+
+- **DevOps Engineers**: Automated monitoring and response reduces on-call burden
+- **SREs**: Proactive issue detection improves SLOs and reduces incidents
+- **Platform Teams**: Automated operations reduce toil and improve reliability
+- **Engineering Leadership**: Improved efficiency and output quality
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Set Up Network Outage Predictor**
+```
+Help me set up a network outage predictor for our organization.
+
+Context:
+- Industry: telecom
+- Current process: [Describe your current manual process]
+- Data sources: [List your data sources and systems]
+- Key stakeholders: [Who needs access to results]
+- Primary goals: [What outcomes are most important]
+
+Please provide:
+1. **Configuration plan**: What data connections and integrations are needed
+2. **Priority metrics**: Which KPIs should we track first
+3. **Baseline assessment**: How to measure current performance for comparison
+4. **Rollout strategy**: Phased approach for team adoption
+5. **Success criteria**: How we'll know the system is working effectively
+```
+
+**Prompt 2: Analyze Current Performance**
+```
+Analyze our current network outage predictor performance and identify improvement opportunities.
+
+Current data:
+- Volume: [Number of items/transactions/events per day/week]
+- Current metrics: [List current performance metrics]
+- Known pain points: [Describe current challenges]
+- Team size: [Number of people involved]
+- Tools currently used: [List current tools]
+
+Analyze and provide:
+1. **Performance baseline**: Current state assessment with benchmarks
+2. **Bottleneck identification**: Where are the biggest inefficiencies?
+3. **Quick wins**: Improvements achievable within 2 weeks
+4. **Medium-term optimizations**: Improvements achievable within 1-3 months
+5. **ROI projection**: Expected returns from implementing recommendations
+6. **Risk assessment**: Potential challenges and mitigation strategies
+```
+
+**Prompt 3: Generate Network Outage Predictor Report**
+```
+Generate a comprehensive network outage predictor report for [weekly/monthly/quarterly] stakeholder review.
+
+Parameters:
+- Reporting period: [Start date] to [End date]
+- Audience: [Technical team / Management / Executive / External]
+- Focus areas: [List priority areas to cover]
+- Previous period comparison: [Yes/No]
+
+Report should include:
+1. **Executive summary**: Key findings in 3-5 bullet points
+2. **Performance metrics**: Tracked KPIs with trend analysis
+3. **Issue summary**: Problems identified, their impact, and resolution status
+4. **Optimization results**: What improvements were made and their measured impact
+5. **Recommendations**: Top 5 actions for the next period
+6. **Appendix**: Detailed data tables for reference
+```
+
+**Prompt 4: Troubleshoot Network Outage Predictor Issues**
+```
+Help troubleshoot issues with our network outage predictor system.
+
+Issue description:
+- Symptom: [What's going wrong]
+- When it started: [Date/time or trigger event]
+- Frequency: [Constant / Intermittent / Under specific conditions]
+- Impact: [Who/what is affected and how severely]
+- Recent changes: [Any system changes before the issue appeared]
+
+Please help with:
+1. **Root cause analysis**: Most likely causes ranked by probability
+2. **Diagnostic steps**: Specific checks to confirm the root cause
+3. **Immediate mitigation**: Steps to reduce impact while investigating
+4. **Fix plan**: Step-by-step resolution approach
+5. **Prevention**: How to prevent recurrence
+6. **Monitoring**: What to watch to confirm the fix is working
+```
+
+:::
+
+## 655. AI Spectrum Optimization Engine
+
+> Dynamically allocates spectrum resources across cells based on real-time demand patterns, improving average throughput by 30% without additional hardware.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Spectrum Optimization Engine Demands Intelligence at Scale**
+
+Organizations today face unprecedented operational complexity. According to McKinsey's Global Survey on AI, 72% of companies have adopted AI in at least one business function, yet most still manage spectrum optimization through manual, fragmented processes that can't keep pace with modern demands.
+
+The cost of inefficiency is staggering. Businesses lose an average of 20-30% of their operational budget to process inefficiencies (IDC). For spectrum optimization management specifically, manual approaches lead to delayed responses, inconsistent quality, and missed optimization opportunities that compound over time.
+
+As organizations scale, the gap between manual capabilities and operational needs grows exponentially. Teams struggle to maintain quality, consistency, and speed — and the most talented employees spend their time on repetitive tasks rather than strategic work. The organizations that automate spectrum optimization management effectively gain a decisive competitive advantage.
+
+**How COCO Solves It**
+
+1. **Data Ingestion & Normalization**: AI Spectrum Optimization Engine starts by:
+   - Connects to existing data sources via API, webhook, or direct database integration
+   - Normalizes data formats across different systems and vendors
+   - Handles real-time streaming and batch data processing
+   - Maintains data lineage and audit trails for compliance
+
+2. **Intelligent Analysis & Pattern Recognition**: AI Spectrum Optimization Engine then:
+   - Applies ML models trained on industry-specific datasets
+   - Identifies patterns, anomalies, and trends that human analysts miss
+   - Processes millions of data points in seconds rather than hours
+   - Continuously learns and adapts to new patterns over time
+
+3. **Automated Decision & Action**: AI Spectrum Optimization Engine then:
+   - Executes predefined actions based on analysis results
+   - Applies configurable business rules and thresholds
+   - Handles routine decisions autonomously while escalating complex cases
+   - Maintains full audit trail of all decisions and actions
+
+4. **Real-Time Monitoring & Alerting**: AI Spectrum Optimization Engine then:
+   - Provides continuous monitoring with customizable dashboards
+   - Sends intelligent alerts based on severity and context
+   - Reduces alert fatigue through smart deduplication and correlation
+   - Enables drill-down from high-level metrics to root cause
+
+5. **Reporting & Insights**: AI Spectrum Optimization Engine then:
+   - Generates automated reports on configurable schedules
+   - Provides trend analysis and predictive insights
+   - Exports data in multiple formats for stakeholder communication
+   - Tracks KPIs against targets with variance analysis
+
+6. **Continuous Optimization**: AI Spectrum Optimization Engine ensures:
+   - Identifies optimization opportunities through ongoing analysis
+   - A/B tests different approaches and recommends winners
+   - Adapts to changing conditions and requirements automatically
+   - Provides ROI tracking for implemented recommendations
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Processing time**: From 4-6 hours to 15 minutes (95% reduction)
+- **Manual effort**: From 25 hours/week to 3 hours/week (88% reduction)
+- **Accuracy rate**: 96.2% undefined
+- **Cost reduction**: 42% lower operational costs within 6 months
+- **Issue detection**: 73% faster time-to-detection for critical issues
+- **Team productivity**: 3.2x more output per team member
+
+**Who Benefits**
+
+- **Operations Teams**: Automated processes reduce manual work and human error
+- **Process Owners**: Clear metrics and continuous improvement capabilities
+- **Management**: Real-time visibility into operational performance
+- **Frontline Staff**: Reduced mundane tasks, focus on high-value work
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Set Up Spectrum Optimization Engine**
+```
+Help me set up a spectrum optimization engine for our organization.
+
+Context:
+- Industry: telecom
+- Current process: [Describe your current manual process]
+- Data sources: [List your data sources and systems]
+- Key stakeholders: [Who needs access to results]
+- Primary goals: [What outcomes are most important]
+
+Please provide:
+1. **Configuration plan**: What data connections and integrations are needed
+2. **Priority metrics**: Which KPIs should we track first
+3. **Baseline assessment**: How to measure current performance for comparison
+4. **Rollout strategy**: Phased approach for team adoption
+5. **Success criteria**: How we'll know the system is working effectively
+```
+
+**Prompt 2: Analyze Current Performance**
+```
+Analyze our current spectrum optimization engine performance and identify improvement opportunities.
+
+Current data:
+- Volume: [Number of items/transactions/events per day/week]
+- Current metrics: [List current performance metrics]
+- Known pain points: [Describe current challenges]
+- Team size: [Number of people involved]
+- Tools currently used: [List current tools]
+
+Analyze and provide:
+1. **Performance baseline**: Current state assessment with benchmarks
+2. **Bottleneck identification**: Where are the biggest inefficiencies?
+3. **Quick wins**: Improvements achievable within 2 weeks
+4. **Medium-term optimizations**: Improvements achievable within 1-3 months
+5. **ROI projection**: Expected returns from implementing recommendations
+6. **Risk assessment**: Potential challenges and mitigation strategies
+```
+
+**Prompt 3: Generate Spectrum Optimization Engine Report**
+```
+Generate a comprehensive spectrum optimization engine report for [weekly/monthly/quarterly] stakeholder review.
+
+Parameters:
+- Reporting period: [Start date] to [End date]
+- Audience: [Technical team / Management / Executive / External]
+- Focus areas: [List priority areas to cover]
+- Previous period comparison: [Yes/No]
+
+Report should include:
+1. **Executive summary**: Key findings in 3-5 bullet points
+2. **Performance metrics**: Tracked KPIs with trend analysis
+3. **Issue summary**: Problems identified, their impact, and resolution status
+4. **Optimization results**: What improvements were made and their measured impact
+5. **Recommendations**: Top 5 actions for the next period
+6. **Appendix**: Detailed data tables for reference
+```
+
+**Prompt 4: Troubleshoot Spectrum Optimization Engine Issues**
+```
+Help troubleshoot issues with our spectrum optimization engine system.
+
+Issue description:
+- Symptom: [What's going wrong]
+- When it started: [Date/time or trigger event]
+- Frequency: [Constant / Intermittent / Under specific conditions]
+- Impact: [Who/what is affected and how severely]
+- Recent changes: [Any system changes before the issue appeared]
+
+Please help with:
+1. **Root cause analysis**: Most likely causes ranked by probability
+2. **Diagnostic steps**: Specific checks to confirm the root cause
+3. **Immediate mitigation**: Steps to reduce impact while investigating
+4. **Fix plan**: Step-by-step resolution approach
+5. **Prevention**: How to prevent recurrence
+6. **Monitoring**: What to watch to confirm the fix is working
+```
+
+:::
+
