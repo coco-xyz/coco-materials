@@ -758,7 +758,7 @@ This week's data:
 
 :::
 
-## 287. AI Shipment Exception Handler
+## 7. AI Shipment Exception Handler
 
 > Detects delays, reroutes shipments, and auto-notifies customers within 15 minutes of an exception — reduces customer complaints by 55%.
 
@@ -914,7 +914,7 @@ Please help with:
 
 :::
 
-## 464. AI Customs Document Preparer
+## 8. AI Customs Document Preparer
 
 > Auto-generates customs declarations, commercial invoices, and certificates of origin from shipment data — reduces customs clearance delays by 50%.
 
@@ -1070,7 +1070,7 @@ Please help with:
 
 :::
 
-## 465. AI Fleet Maintenance Scheduler
+## 9. AI Fleet Maintenance Scheduler
 
 > Schedules vehicle maintenance based on usage, mileage, and predictive failure analysis — reduces vehicle downtime by 30% and maintenance costs by 20%.
 
@@ -1226,7 +1226,7 @@ Please help with:
 
 :::
 
-## 466. AI Demand-Supply Balancer
+## 10. AI Demand-Supply Balancer
 
 > Matches inbound freight capacity with outbound demand across your logistics network — reduces empty miles by 25% and improves asset utilization.
 
@@ -1382,7 +1382,7 @@ Please help with:
 
 :::
 
-## 605. AI Fleet Management Optimizer
+## 11. AI Fleet Management Optimizer
 
 > Optimizes fleet utilization across 500+ vehicles considering maintenance schedules, driver hours, and demand forecasts — reducing fleet costs by 15%.
 
@@ -1538,7 +1538,7 @@ Please help with:
 
 :::
 
-## 606. AI Customs Document Processor
+## 12. AI Customs Document Processor
 
 > Auto-classifies goods, generates customs declarations, and validates compliance documentation — reducing clearance time by 60% and penalty risk by 85%.
 
@@ -1694,7 +1694,7 @@ Please help with:
 
 :::
 
-## 607. AI Warehouse Layout Optimizer
+## 13. AI Warehouse Layout Optimizer
 
 > Optimizes product placement based on pick frequency, weight, and co-order patterns — reducing average pick path distance by 40%.
 
@@ -1850,7 +1850,7 @@ Please help with:
 
 :::
 
-## 608. AI Shipment ETA Predictor
+## 14. AI Shipment ETA Predictor
 
 > Predicts shipment arrival times with 92% accuracy by incorporating weather, traffic, port congestion, and historical carrier performance.
 
@@ -2006,7 +2006,7 @@ Please help with:
 
 :::
 
-## 609. AI Last-Mile Delivery Optimizer
+## 15. AI Last-Mile Delivery Optimizer
 
 > Optimizes last-mile delivery routes for 1000+ daily packages considering time windows, apartment access, and driver familiarity — improving deliveries per hour by 28%.
 
@@ -2162,7 +2162,7 @@ Please help with:
 
 :::
 
-## 610. AI Freight Rate Negotiator
+## 16. AI Freight Rate Negotiator
 
 > Analyzes market rates across lanes and carriers, providing data-driven negotiation recommendations that reduce freight spend by 12%.
 

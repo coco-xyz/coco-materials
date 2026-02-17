@@ -1010,7 +1010,7 @@ This week's data:
 
 :::
 
-## 281. AI Patient Intake Automator
+## 9. AI Patient Intake Automator
 
 > Digitizes intake forms, verifies insurance eligibility, and pre-populates EHR records — reduces check-in time from 25 minutes to 5 minutes per patient.
 
@@ -1166,7 +1166,7 @@ Please help with:
 
 :::
 
-## 282. AI Medical Literature Reviewer
+## 10. AI Medical Literature Reviewer
 
 > Screens 5,000 PubMed abstracts against your research criteria, extracts key findings, and generates structured literature reviews — 2-week task done in 1 day.
 
@@ -1322,7 +1322,7 @@ Please help with:
 
 :::
 
-## 371. AI Medical Billing Coder
+## 11. AI Medical Billing Coder
 
 > Suggests ICD-10, CPT, and HCPCS codes from clinical notes with 96% accuracy — reduces coding errors by 55% and claim denials by 30%.
 
@@ -1478,7 +1478,7 @@ Please help with:
 
 :::
 
-## 372. AI Clinical Decision Support
+## 12. AI Clinical Decision Support
 
 > Cross-references patient symptoms, history, and lab results against clinical guidelines — flags potential drug interactions and suggests differential diagnoses.
 
@@ -1634,7 +1634,7 @@ Please help with:
 
 :::
 
-## 373. AI Appointment No-Show Predictor
+## 13. AI Appointment No-Show Predictor
 
 > Predicts which patients are likely to miss appointments based on history, weather, and demographics — enables targeted reminders that reduce no-shows by 28%.
 
@@ -1790,7 +1790,7 @@ Please help with:
 
 :::
 
-## 374. AI Prior Authorization Automator
+## 14. AI Prior Authorization Automator
 
 > Compiles clinical documentation, fills authorization forms, and submits to payers — reduces prior auth processing from 3 days to 3 hours.
 
@@ -1946,7 +1946,7 @@ Please help with:
 
 :::
 
-## 451. AI Insurance Claim Denial Appealer
+## 15. AI Insurance Claim Denial Appealer
 
 > Analyzes denial reasons, pulls supporting clinical evidence, and drafts appeal letters — overturns 45% of initially denied claims.
 
@@ -2102,7 +2102,7 @@ Please help with:
 
 :::
 
-## 452. AI Drug Interaction Checker
+## 16. AI Drug Interaction Checker
 
 > Screens patient medication lists for dangerous interactions, contraindications, and dosing errors — catches 12% more interactions than standard pharmacy systems.
 
@@ -2258,7 +2258,7 @@ Please help with:
 
 :::
 
-## 453. AI Telemedicine Note Generator
+## 17. AI Telemedicine Note Generator
 
 > Listens to telemedicine consultations and generates structured SOAP notes in real-time — physicians save 15 minutes per visit on documentation.
 
@@ -2414,7 +2414,7 @@ Please help with:
 
 :::
 
-## 454. AI Hospital Bed Utilization Optimizer
+## 18. AI Hospital Bed Utilization Optimizer
 
 > Predicts patient discharge timing, optimizes bed assignments, and reduces transfer delays — increases bed utilization by 15% without adding capacity.
 
@@ -2570,7 +2570,7 @@ Please help with:
 
 :::
 
-## 582. AI Medical Coding Assistant
+## 19. AI Medical Coding Assistant
 
 > Auto-assigns ICD-10 and CPT codes from clinical documentation with 96% accuracy, reducing coding backlog by 70% and denial rates by 23%.
 
@@ -2726,7 +2726,7 @@ Please help with:
 
 :::
 
-## 583. AI Radiology Report Generator
+## 20. AI Radiology Report Generator
 
 > Generates structured radiology reports from imaging studies, pre-populating findings and measurements — reducing radiologist reporting time by 45%.
 
@@ -2882,7 +2882,7 @@ Please help with:
 
 :::
 
-## 584. AI Patient Flow Optimizer
+## 21. AI Patient Flow Optimizer
 
 > Predicts ED wait times and bed availability across hospital units, enabling proactive patient routing that reduces average length of stay by 0.8 days.
 
@@ -3038,7 +3038,7 @@ Please help with:
 
 :::
 
-## 585. AI Clinical Note Summarizer
+## 22. AI Clinical Note Summarizer
 
 > Summarizes lengthy patient charts into concise clinical summaries for handoffs, reducing time spent on chart review by 60% per transition.
 
@@ -3194,7 +3194,7 @@ Please help with:
 
 :::
 
-## 586. AI Lab Result Interpreter
+## 23. AI Lab Result Interpreter
 
 > Contextualizes lab results against patient history, medications, and trending values — flagging clinically significant changes that might be missed in isolation.
 
@@ -3350,7 +3350,7 @@ Please help with:
 
 :::
 
-## 587. AI Surgical Schedule Optimizer
+## 24. AI Surgical Schedule Optimizer
 
 > Optimizes OR scheduling considering procedure duration variability, equipment needs, and surgeon preferences — improving OR utilization from 62% to 81%.
 
@@ -3506,7 +3506,7 @@ Please help with:
 
 :::
 
-## 981. AI Triage Decision Support
+## 25. AI Triage Decision Support
 
 > Provides evidence-based triage decision support at the point of care, improving clinical outcomes by 18% and reducing diagnostic errors.
 
@@ -3662,7 +3662,7 @@ Please help with:
 
 :::
 
-## 982. AI Discharge Decision Support
+## 26. AI Discharge Decision Support
 
 > Provides evidence-based discharge decision support at the point of care, improving clinical outcomes by 18% and reducing diagnostic errors.
 
@@ -3818,7 +3818,7 @@ Please help with:
 
 :::
 
-## 983. AI Referral Decision Support
+## 27. AI Referral Decision Support
 
 > Provides evidence-based referral decision support at the point of care, improving clinical outcomes by 18% and reducing diagnostic errors.
 
@@ -3974,7 +3974,7 @@ Please help with:
 
 :::
 
-## 984. AI Medication Decision Support
+## 28. AI Medication Decision Support
 
 > Provides evidence-based medication decision support at the point of care, improving clinical outcomes by 18% and reducing diagnostic errors.
 
@@ -4130,7 +4130,7 @@ Please help with:
 
 :::
 
-## 985. AI Imaging Decision Support
+## 29. AI Imaging Decision Support
 
 > Provides evidence-based imaging decision support at the point of care, improving clinical outcomes by 18% and reducing diagnostic errors.
 
@@ -4286,7 +4286,7 @@ Please help with:
 
 :::
 
-## 986. AI Pathology Decision Support
+## 30. AI Pathology Decision Support
 
 > Provides evidence-based pathology decision support at the point of care, improving clinical outcomes by 18% and reducing diagnostic errors.
 
@@ -4442,7 +4442,7 @@ Please help with:
 
 :::
 
-## 987. AI Triage Workflow Optimizer
+## 31. AI Triage Workflow Optimizer
 
 > Optimizes triage workflows by analyzing bottlenecks, automating handoffs, and predicting resource needs — improving throughput by 30%.
 
@@ -4598,7 +4598,7 @@ Please help with:
 
 :::
 
-## 988. AI Discharge Workflow Optimizer
+## 32. AI Discharge Workflow Optimizer
 
 > Optimizes discharge workflows by analyzing bottlenecks, automating handoffs, and predicting resource needs — improving throughput by 30%.
 

@@ -758,7 +758,7 @@ This week's data:
 
 :::
 
-## 659. AI Revenue Management System
+## 7. AI Revenue Management System
 
 > Dynamically prices hotel rooms and airline seats based on demand forecasting, competitor rates, and booking pace — increasing RevPAR by 8-12%.
 
@@ -914,7 +914,7 @@ Please help with:
 
 :::
 
-## 660. AI Guest Experience Personalizer
+## 8. AI Guest Experience Personalizer
 
 > Personalizes guest experiences using preference history, occasion detection, and loyalty status — from room temperature pre-set to restaurant recommendations.
 
@@ -1070,7 +1070,7 @@ Please help with:
 
 :::
 
-## 661. AI Travel Itinerary Optimizer
+## 9. AI Travel Itinerary Optimizer
 
 > Generates optimized multi-city travel itineraries considering flight connections, hotel availability, activity schedules, and budget constraints.
 

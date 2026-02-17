@@ -884,7 +884,7 @@ This week's data:
 
 :::
 
-## 244. AI Portfolio Rebalancer
+## 8. AI Portfolio Rebalancer
 
 > Monitors drift from target allocation, calculates tax-optimal trades, and generates rebalancing proposals — manages 500 accounts with one advisor.
 
@@ -1040,7 +1040,7 @@ Please help with:
 
 :::
 
-## 286. AI Client Proposal Generator
+## 9. AI Client Proposal Generator
 
 > Generates tailored consulting proposals from client intake notes, past similar engagements, and industry benchmarks — 3-day proposal process done in 4 hours.
 
@@ -1196,7 +1196,7 @@ Please help with:
 
 :::
 
-## 332. AI Tax Optimization Advisor
+## 10. AI Tax Optimization Advisor
 
 > Analyzes entity structure, transactions, and jurisdictions to identify tax savings opportunities — finds average $340K in savings for mid-market companies.
 
@@ -1352,7 +1352,7 @@ Please help with:
 
 :::
 
-## 424. AI Client Portfolio Review Generator
+## 11. AI Client Portfolio Review Generator
 
 > Generates personalized quarterly portfolio review presentations per client — covers performance, allocation, rebalancing recommendations, and market outlook.
 
@@ -1508,7 +1508,7 @@ Please help with:
 
 :::
 
-## 446. AI Governance Voting Advisor
+## 12. AI Governance Voting Advisor
 
 > Analyzes DAO proposals for financial impact, precedent conflicts, and alignment with your investment thesis — recommends voting positions with rationale.
 
@@ -1664,7 +1664,7 @@ Please help with:
 
 :::
 
-## 461. AI Industry Research Compiler
+## 13. AI Industry Research Compiler
 
 > Compiles comprehensive industry reports from 50+ sources (analyst reports, earnings calls, news, regulatory filings) — 40-page market overview in 4 hours.
 
@@ -1820,7 +1820,7 @@ Please help with:
 
 :::
 
-## 462. AI Workshop Facilitator Prep
+## 14. AI Workshop Facilitator Prep
 
 > Generates facilitation guides, discussion prompts, and exercise materials tailored to client context — 2 days of workshop prep done in 3 hours.
 
@@ -1976,7 +1976,7 @@ Please help with:
 
 :::
 
-## 463. AI Change Management Tracker
+## 15. AI Change Management Tracker
 
 > Monitors adoption metrics, stakeholder sentiment, and training completion across organizational change initiatives — identifies resistance early.
 
@@ -2132,7 +2132,7 @@ Please help with:
 
 :::
 
-## 527. AI Wealth Management Advisor
+## 16. AI Wealth Management Advisor
 
 > Generates personalized financial plans based on client goals, risk tolerance, and tax situation — enabling advisors to serve 3x more clients.
 
@@ -2288,7 +2288,7 @@ Please help with:
 
 :::
 
-## 599. AI Proposal Generator
+## 17. AI Proposal Generator
 
 > Generates customized consulting proposals from engagement parameters, past similar projects, and methodology templates — reducing proposal creation from 2 days to 2 hours.
 
@@ -2444,7 +2444,7 @@ Please help with:
 
 :::
 
-## 600. AI Market Sizing Calculator
+## 18. AI Market Sizing Calculator
 
 > Performs bottom-up and top-down market sizing using 50+ data sources, generating defensible TAM/SAM/SOM estimates with methodology documentation.
 
@@ -2600,7 +2600,7 @@ Please help with:
 
 :::
 
-## 601. AI Due Diligence Accelerator
+## 19. AI Due Diligence Accelerator
 
 > Automates commercial due diligence by analyzing target company financials, market position, competitive landscape, and risk factors across 200+ data points.
 
@@ -2756,7 +2756,7 @@ Please help with:
 
 :::
 
-## 603. AI Client Relationship Intelligence
+## 20. AI Client Relationship Intelligence
 
 > Tracks client interactions, project outcomes, and relationship health scores across the firm, identifying cross-sell opportunities and at-risk accounts.
 
@@ -2912,7 +2912,7 @@ Please help with:
 
 :::
 
-## 604. AI Workshop Facilitator Assistant
+## 21. AI Workshop Facilitator Assistant
 
 > Captures, categorizes, and synthesizes workshop outputs in real-time, generating structured action items and strategic recommendations from brainstorming sessions.
 
@@ -3068,7 +3068,7 @@ Please help with:
 
 :::
 
-## 637. AI Legal Research Assistant
+## 22. AI Legal Research Assistant
 
 > Searches case law databases, statutes, and regulatory guidance to find relevant precedents and synthesize legal arguments — saving 6 hours per research memo.
 
@@ -3224,7 +3224,7 @@ Please help with:
 
 :::
 
-## 638. AI Patent Analysis Engine
+## 23. AI Patent Analysis Engine
 
 > Analyzes patent landscapes across technology domains, identifying freedom-to-operate risks, prior art, and potential licensing opportunities.
 

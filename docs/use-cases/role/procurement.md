@@ -632,7 +632,7 @@ This week's data:
 
 :::
 
-## 335. AI Vendor Risk Assessor
+## 6. AI Vendor Risk Assessor
 
 > Evaluates vendor financial health, compliance status, and operational risks from public data — replaces 40-page manual vendor assessments.
 
@@ -788,7 +788,7 @@ Please help with:
 
 :::
 
-## 357. AI Supplier Lead Time Predictor
+## 7. AI Supplier Lead Time Predictor
 
 > Predicts actual delivery dates from suppliers based on historical performance, port congestion, and weather — improves inventory planning accuracy by 30%.
 
@@ -944,7 +944,7 @@ Please help with:
 
 :::
 
-## 436. AI Seasonal Trend Forecaster
+## 8. AI Seasonal Trend Forecaster
 
 > Predicts trending products 6-8 weeks ahead using social signals, search trends, and fashion cycle analysis — gives buyers a first-mover advantage on hot categories.
 
@@ -1100,7 +1100,7 @@ Please help with:
 
 :::
 
-## 458. AI Supply Chain Disruption Predictor
+## 9. AI Supply Chain Disruption Predictor
 
 > Monitors geopolitical events, weather patterns, and supplier financial health to predict disruptions 30 days out — enables proactive inventory buffers.
 

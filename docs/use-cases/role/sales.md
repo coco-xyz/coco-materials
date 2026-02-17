@@ -3946,7 +3946,7 @@ This week's data:
 
 :::
 
-## 307. AI Trial Conversion Optimizer
+## 25. AI Trial Conversion Optimizer
 
 > Identifies trial users most likely to convert based on activation milestones and engagement signals — focuses sales outreach on the top 20% with 4x conversion rate.
 
@@ -4102,7 +4102,7 @@ Please help with:
 
 :::
 
-## 370. AI Sponsorship Rate Calculator
+## 26. AI Sponsorship Rate Calculator
 
 > Calculates fair sponsorship rates based on audience demographics, engagement quality, and market comparables — creators negotiate with data, not guesswork.
 
@@ -4258,7 +4258,7 @@ Please help with:
 
 :::
 
-## 379. AI Demo Environment Generator
+## 27. AI Demo Environment Generator
 
 > Spins up personalized demo environments with industry-specific sample data for each prospect — increases demo-to-close conversion by 34%.
 
@@ -4414,7 +4414,7 @@ Please help with:
 
 :::
 
-## 380. AI Customer Expansion Signal Detector
+## 28. AI Customer Expansion Signal Detector
 
 > Identifies upsell and expansion opportunities from product usage spikes, new user additions, and feature requests — increases NRR by 12 points.
 
@@ -4570,7 +4570,7 @@ Please help with:
 
 :::
 
-## 390. AI Contract Renewal Forecaster
+## 29. AI Contract Renewal Forecaster
 
 > Predicts renewal likelihood per account using engagement, support, and usage signals — identifies at-risk accounts 120 days before renewal date.
 
@@ -4726,7 +4726,7 @@ Please help with:
 
 :::
 
-## 392. AI Competitive Win/Loss Analyzer
+## 30. AI Competitive Win/Loss Analyzer
 
 > Analyzes CRM data, sales call transcripts, and survey responses to identify why you win or lose against each competitor — turns anecdotes into actionable intelligence.
 
@@ -4882,7 +4882,7 @@ Please help with:
 
 :::
 
-## 475. AI Donor Prospect Researcher
+## 31. AI Donor Prospect Researcher
 
 > Researches potential major donors from public records, giving history, and wealth indicators — identifies the top 100 prospects with personalized approach strategies.
 

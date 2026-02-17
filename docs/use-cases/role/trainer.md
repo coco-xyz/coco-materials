@@ -632,7 +632,7 @@ This week's data:
 
 :::
 
-## 283. AI Assignment Feedback Generator
+## 6. AI Assignment Feedback Generator
 
 > Provides detailed, rubric-aligned feedback on student essays and assignments — 200 papers graded with personalized comments in 3 hours instead of 30 hours.
 
@@ -788,7 +788,7 @@ Please help with:
 
 :::
 
-## 284. AI Course Content Updater
+## 7. AI Course Content Updater
 
 > Monitors industry developments and suggests course material updates — keeps 50 courses current with zero manual scanning of industry trends.
 
@@ -944,7 +944,7 @@ Please help with:
 
 :::
 
-## 375. AI Student Engagement Detector
+## 8. AI Student Engagement Detector
 
 > Analyzes LMS activity, assignment submission patterns, and discussion participation to identify disengaged students — enables intervention 3 weeks before failure.
 
@@ -1100,7 +1100,7 @@ Please help with:
 
 :::
 
-## 376. AI Question Bank Generator
+## 9. AI Question Bank Generator
 
 > Creates varied assessment questions from course material at multiple difficulty levels — generates 500 questions from one textbook chapter in 30 minutes.
 
@@ -1256,7 +1256,7 @@ Please help with:
 
 :::
 
-## 455. AI Plagiarism Report Generator
+## 10. AI Plagiarism Report Generator
 
 > Checks student submissions against academic databases, web sources, and AI-generated content detectors — generates detailed originality reports in 2 minutes.
 

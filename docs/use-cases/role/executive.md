@@ -506,7 +506,7 @@ This week's data:
 
 :::
 
-## 303. AI SaaS Metric Benchmarker
+## 5. AI SaaS Metric Benchmarker
 
 > Compares your ARR growth, NDR, CAC payback, and magic number against stage-matched SaaS benchmarks — generates board-ready performance reports.
 
@@ -662,7 +662,7 @@ Please help with:
 
 :::
 
-## 333. AI Board Deck Financial Builder
+## 6. AI Board Deck Financial Builder
 
 > Pulls latest financials from your ERP, generates charts, variance commentary, and forward guidance slides — board deck prep from 2 days to 2 hours.
 

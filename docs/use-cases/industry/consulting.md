@@ -506,7 +506,7 @@ This week's data:
 
 :::
 
-## 286. AI Client Proposal Generator
+## 5. AI Client Proposal Generator
 
 > Generates tailored consulting proposals from client intake notes, past similar engagements, and industry benchmarks — 3-day proposal process done in 4 hours.
 
@@ -662,7 +662,7 @@ Please help with:
 
 :::
 
-## 461. AI Industry Research Compiler
+## 6. AI Industry Research Compiler
 
 > Compiles comprehensive industry reports from 50+ sources (analyst reports, earnings calls, news, regulatory filings) — 40-page market overview in 4 hours.
 
@@ -818,7 +818,7 @@ Please help with:
 
 :::
 
-## 462. AI Workshop Facilitator Prep
+## 7. AI Workshop Facilitator Prep
 
 > Generates facilitation guides, discussion prompts, and exercise materials tailored to client context — 2 days of workshop prep done in 3 hours.
 
@@ -974,7 +974,7 @@ Please help with:
 
 :::
 
-## 463. AI Change Management Tracker
+## 8. AI Change Management Tracker
 
 > Monitors adoption metrics, stakeholder sentiment, and training completion across organizational change initiatives — identifies resistance early.
 
@@ -1130,7 +1130,7 @@ Please help with:
 
 :::
 
-## 599. AI Proposal Generator
+## 9. AI Proposal Generator
 
 > Generates customized consulting proposals from engagement parameters, past similar projects, and methodology templates — reducing proposal creation from 2 days to 2 hours.
 
@@ -1286,7 +1286,7 @@ Please help with:
 
 :::
 
-## 600. AI Market Sizing Calculator
+## 10. AI Market Sizing Calculator
 
 > Performs bottom-up and top-down market sizing using 50+ data sources, generating defensible TAM/SAM/SOM estimates with methodology documentation.
 
@@ -1442,7 +1442,7 @@ Please help with:
 
 :::
 
-## 601. AI Due Diligence Accelerator
+## 11. AI Due Diligence Accelerator
 
 > Automates commercial due diligence by analyzing target company financials, market position, competitive landscape, and risk factors across 200+ data points.
 
@@ -1598,7 +1598,7 @@ Please help with:
 
 :::
 
-## 602. AI Benchmark Database Builder
+## 12. AI Benchmark Database Builder
 
 > Maintains industry benchmark databases from public filings, surveys, and research reports — enabling instant peer comparisons across 100+ metrics.
 
@@ -1754,7 +1754,7 @@ Please help with:
 
 :::
 
-## 603. AI Client Relationship Intelligence
+## 13. AI Client Relationship Intelligence
 
 > Tracks client interactions, project outcomes, and relationship health scores across the firm, identifying cross-sell opportunities and at-risk accounts.
 
@@ -1910,7 +1910,7 @@ Please help with:
 
 :::
 
-## 604. AI Workshop Facilitator Assistant
+## 14. AI Workshop Facilitator Assistant
 
 > Captures, categorizes, and synthesizes workshop outputs in real-time, generating structured action items and strategic recommendations from brainstorming sessions.
 

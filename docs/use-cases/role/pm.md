@@ -254,7 +254,7 @@ This week's data:
 
 :::
 
-## 207. AI Onboarding Flow Personalizer
+## 3. AI Onboarding Flow Personalizer
 
 > Adapts onboarding steps based on user role, company size, and use case — reduces time-to-value by 45% and increases activation by 38%.
 
@@ -410,7 +410,7 @@ Please help with:
 
 :::
 
-## 209. AI Release Notes Generator
+## 4. AI Release Notes Generator
 
 > Reads git commits, PRs, and Jira tickets to generate user-facing release notes and internal changelogs — turns 2 hours of writing into 3 minutes.
 
@@ -566,7 +566,7 @@ Please help with:
 
 :::
 
-## 213. AI Competitive Feature Tracker
+## 5. AI Competitive Feature Tracker
 
 > Monitors competitor changelogs, pricing pages, and job postings daily — alerts you within 24 hours when a rival ships a feature in your roadmap.
 
@@ -722,7 +722,7 @@ Please help with:
 
 :::
 
-## 258. AI LiveOps Event Planner
+## 6. AI LiveOps Event Planner
 
 > Analyzes historical event performance, player segment preferences, and calendar conflicts to design optimal LiveOps schedules — increases event revenue by 31%.
 
@@ -878,7 +878,7 @@ Please help with:
 
 :::
 
-## 279. AI Script Breakdown Assistant
+## 7. AI Script Breakdown Assistant
 
 > Reads screenplays and auto-generates shooting schedules, prop lists, location requirements, and cast breakdowns — 2-day production task done in 2 hours.
 
@@ -1034,7 +1034,7 @@ Please help with:
 
 :::
 
-## 296. AI Sprint Velocity Forecaster
+## 8. AI Sprint Velocity Forecaster
 
 > Analyzes historical sprint data, team capacity, and ticket complexity to forecast delivery dates with 85% accuracy — PMs stop overpromising.
 
@@ -1190,7 +1190,7 @@ Please help with:
 
 :::
 
-## 306. AI Feature Request Deduplicator
+## 9. AI Feature Request Deduplicator
 
 > Clusters 2,000+ feature requests from Intercom, Zendesk, and Slack into 50 canonical themes with revenue-weighted priority scores.
 
@@ -1346,7 +1346,7 @@ Please help with:
 
 :::
 
-## 367. AI Podcast Guest Matcher
+## 10. AI Podcast Guest Matcher
 
 > Finds ideal podcast guests from a database of 50,000 experts based on topic relevance, audience overlap, and availability — 5 qualified matches in 10 minutes.
 
@@ -1502,7 +1502,7 @@ Please help with:
 
 :::
 
-## 383. AI Product Tour Builder
+## 11. AI Product Tour Builder
 
 > Creates interactive product tours from feature specs, adapts to user personas, and tracks completion rates — increases feature adoption by 45%.
 
@@ -1658,7 +1658,7 @@ Please help with:
 
 :::
 
-## 385. AI Integration Marketplace Ranker
+## 12. AI Integration Marketplace Ranker
 
 > Analyzes which integrations drive the most activation, retention, and expansion — prioritizes integration development by revenue impact.
 
@@ -1814,7 +1814,7 @@ Please help with:
 
 :::
 
-## 477. AI Feature Flag Analyzer
+## 13. AI Feature Flag Analyzer
 
 > Analyzes feature flag impact across user segments in real-time, identifying which flags drive 23% higher retention vs. which create technical debt.
 
@@ -1970,7 +1970,7 @@ Please help with:
 
 :::
 
-## 478. AI Sprint Velocity Optimizer
+## 14. AI Sprint Velocity Optimizer
 
 > Predicts sprint completion probability with 91% accuracy by analyzing historical velocity, team capacity, and dependency chains.
 
@@ -2126,7 +2126,7 @@ Please help with:
 
 :::
 
-## 482. AI Pricing Tier Optimizer
+## 15. AI Pricing Tier Optimizer
 
 > Simulates pricing changes across customer segments using historical conversion and churn data, identifying the optimal tier structure that maximizes LTV by 18%.
 
@@ -2282,7 +2282,7 @@ Please help with:
 
 :::
 
-## 486. AI Customer Feedback Classifier
+## 16. AI Customer Feedback Classifier
 
 > Processes 10K+ feedback items monthly from multiple channels, auto-categorizing by theme, sentiment, and urgency with 96% accuracy.
 
@@ -2438,7 +2438,7 @@ Please help with:
 
 :::
 
-## 504. AI Paywall Conversion Optimizer
+## 17. AI Paywall Conversion Optimizer
 
 > Tests dynamic paywall triggers based on user engagement depth, content type, and visit frequency — increasing subscription conversions by 38%.
 
@@ -2594,7 +2594,7 @@ Please help with:
 
 :::
 
-## 664. AI Tenant Health Monitor
+## 18. AI Tenant Health Monitor
 
 > Monitors tenant health metrics across the platform, detecting degradation 4 hours before it impacts users — reducing incidents by 65%.
 
@@ -2750,7 +2750,7 @@ Please help with:
 
 :::
 
-## 671. AI Cluster Health Monitor
+## 19. AI Cluster Health Monitor
 
 > Monitors cluster health metrics across the platform, detecting degradation 4 hours before it impacts users — reducing incidents by 65%.
 
@@ -2906,7 +2906,7 @@ Please help with:
 
 :::
 
-## 678. AI Queue Workflow Automator
+## 20. AI Queue Workflow Automator
 
 > Automates queue management workflows end-to-end, reducing manual effort by 85% and error rates by 92%.
 
@@ -3062,7 +3062,7 @@ Please help with:
 
 :::
 
-## 685. AI Deployment Performance Analyzer
+## 21. AI Deployment Performance Analyzer
 
 > Analyzes deployment performance patterns across 1M+ data points to identify optimization opportunities worth 25% efficiency gains.
 
@@ -3218,7 +3218,7 @@ Please help with:
 
 :::
 
-## 692. AI Service Configuration Validator
+## 22. AI Service Configuration Validator
 
 > Validates service configurations against best practices and security baselines, catching misconfigurations before deployment.
 
@@ -3374,7 +3374,7 @@ Please help with:
 
 :::
 
-## 699. AI Schema Configuration Validator
+## 23. AI Schema Configuration Validator
 
 > Validates schema configurations against best practices and security baselines, catching misconfigurations before deployment.
 
@@ -3530,7 +3530,7 @@ Please help with:
 
 :::
 
-## 706. AI Integration Capacity Planner
+## 24. AI Integration Capacity Planner
 
 > Forecasts integration capacity needs 90 days out based on growth trends and seasonal patterns, preventing over-provisioning waste.
 
@@ -3686,7 +3686,7 @@ Please help with:
 
 :::
 
-## 713. AI Pipeline Migration Assistant
+## 25. AI Pipeline Migration Assistant
 
 > Automates pipeline migration between environments with full validation and rollback capabilities, reducing migration risk by 90%.
 

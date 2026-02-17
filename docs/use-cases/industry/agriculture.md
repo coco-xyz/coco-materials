@@ -632,7 +632,7 @@ This week's data:
 
 :::
 
-## 656. AI Crop Disease Detector
+## 6. AI Crop Disease Detector
 
 > Identifies crop diseases from smartphone photos with 96% accuracy, recommending treatment within seconds — saving an estimated $2.4B annually in crop losses.
 
@@ -788,7 +788,7 @@ Please help with:
 
 :::
 
-## 657. AI Precision Irrigation Controller
+## 7. AI Precision Irrigation Controller
 
 > Optimizes irrigation schedules using soil moisture sensors, weather forecasts, and crop growth models — reducing water usage by 35% while improving yield by 12%.
 
@@ -944,7 +944,7 @@ Please help with:
 
 :::
 
-## 658. AI Yield Prediction Model
+## 8. AI Yield Prediction Model
 
 > Predicts crop yields at field level using satellite imagery, weather data, and soil analysis — enabling better commodity hedging and supply chain planning.
 

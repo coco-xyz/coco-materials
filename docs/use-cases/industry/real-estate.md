@@ -506,7 +506,7 @@ This week's data:
 
 :::
 
-## 288. AI Property Listing Writer
+## 5. AI Property Listing Writer
 
 > Generates compelling property descriptions from photos, floor plans, and neighborhood data — 50 listings written per hour with 92% agent approval rate.
 
@@ -662,7 +662,7 @@ Please help with:
 
 :::
 
-## 467. AI Property Market Report Generator
+## 6. AI Property Market Report Generator
 
 > Compiles comparable sales, market trends, and neighborhood analytics into branded market reports — 50 reports generated per day vs. 3 manually.
 
@@ -818,7 +818,7 @@ Please help with:
 
 :::
 
-## 468. AI Lease Abstraction Engine
+## 7. AI Lease Abstraction Engine
 
 > Extracts key terms (rent, escalations, options, obligations) from 100-page commercial leases in minutes — replaces weeks of paralegal review.
 
@@ -974,7 +974,7 @@ Please help with:
 
 :::
 
-## 611. AI Property Valuation Model
+## 8. AI Property Valuation Model
 
 > Estimates property values using 200+ features including comparable sales, neighborhood trends, school ratings, and development pipeline — within 3% of appraised value.
 
@@ -1130,7 +1130,7 @@ Please help with:
 
 :::
 
-## 612. AI Property Management Optimizer
+## 9. AI Property Management Optimizer
 
 > Schedules maintenance, manages tenant communications, and optimizes energy usage across 500+ units — reducing operating costs by 18% and improving tenant satisfaction.
 
@@ -1286,7 +1286,7 @@ Please help with:
 
 :::
 
-## 613. AI Real Estate Market Analyzer
+## 10. AI Real Estate Market Analyzer
 
 > Analyzes market trends, absorption rates, and demographic shifts across submarkets to identify investment opportunities before they become obvious.
 

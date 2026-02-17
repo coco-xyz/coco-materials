@@ -632,7 +632,7 @@ This week's data:
 
 :::
 
-## 290. AI Claims Triage Assistant
+## 6. AI Claims Triage Assistant
 
 > Classifies claims by complexity, routes to appropriate adjusters, and auto-processes simple claims — reduces average processing time by 60%.
 
@@ -788,7 +788,7 @@ Please help with:
 
 :::
 
-## 471. AI Claims Fraud Predictor
+## 7. AI Claims Fraud Predictor
 
 > Scores incoming claims for fraud probability using behavioral analytics, network analysis, and historical patterns — identifies $5M+ in annual fraud savings.
 
@@ -944,7 +944,7 @@ Please help with:
 
 :::
 
-## 472. AI Policy Document Simplifier
+## 8. AI Policy Document Simplifier
 
 > Rewrites complex insurance policy language into plain English summaries — increases customer understanding by 60% and reduces policy-related support calls.
 
@@ -1100,7 +1100,7 @@ Please help with:
 
 :::
 
-## 618. AI Underwriting Risk Assessor
+## 9. AI Underwriting Risk Assessor
 
 > Evaluates insurance applications using 300+ risk factors from traditional and alternative data, reducing loss ratios by 8 points while maintaining premium volume.
 
@@ -1256,7 +1256,7 @@ Please help with:
 
 :::
 
-## 619. AI Claims Triage System
+## 10. AI Claims Triage System
 
 > Triages incoming claims by complexity, fraud probability, and required expertise — routing simple claims for auto-processing and flagging complex ones for specialist review.
 
@@ -1412,7 +1412,7 @@ Please help with:
 
 :::
 
-## 620. AI Policy Document Analyzer
+## 11. AI Policy Document Analyzer
 
 > Extracts coverage details, exclusions, and conditions from insurance policies across carriers, enabling instant policy comparison and gap analysis.
 
@@ -1568,7 +1568,7 @@ Please help with:
 
 :::
 
-## 621. AI Catastrophe Loss Modeler
+## 12. AI Catastrophe Loss Modeler
 
 > Models potential losses from natural catastrophes using climate data, property exposure databases, and vulnerability functions — supporting reinsurance treaty negotiations.
 

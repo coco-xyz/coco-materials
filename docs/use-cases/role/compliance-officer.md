@@ -884,7 +884,7 @@ This week's data:
 
 :::
 
-## 233. AI Model Card Generator
+## 8. AI Model Card Generator
 
 > Auto-generates comprehensive model documentation including performance benchmarks, bias analysis, limitations, and intended use — compliant with EU AI Act requirements.
 
@@ -1040,7 +1040,7 @@ Please help with:
 
 :::
 
-## 238. AI KYC Document Verifier
+## 9. AI KYC Document Verifier
 
 > Verifies identity documents, cross-references sanctions lists, and flags discrepancies — processes 500 KYC applications/day with 99.2% accuracy.
 
@@ -1196,7 +1196,7 @@ Please help with:
 
 :::
 
-## 241. AI Regulatory Filing Preparer
+## 10. AI Regulatory Filing Preparer
 
 > Auto-populates regulatory forms (SEC, FINRA, OCC) from your systems data, validates completeness, and flags discrepancies — 85% reduction in filing prep time.
 
@@ -1352,7 +1352,7 @@ Please help with:
 
 :::
 
-## 245. AI Wire Transfer Screener
+## 11. AI Wire Transfer Screener
 
 > Screens wire transfers against AML rules, sanctions lists, and behavioral patterns — reduces false positives by 60% while catching 99.7% of suspicious activity.
 
@@ -1508,7 +1508,7 @@ Please help with:
 
 :::
 
-## 275. AI Wallet Activity Profiler
+## 12. AI Wallet Activity Profiler
 
 > Clusters wallet addresses by behavior (trader, holder, farmer, bot), scores risk levels, and maps entity relationships — essential for compliance and market intelligence.
 
@@ -1664,7 +1664,7 @@ Please help with:
 
 :::
 
-## 320. AI Bias Detection Scanner
+## 13. AI Bias Detection Scanner
 
 > Tests models across demographic groups, identifies fairness violations, and suggests mitigation strategies — ensures compliance with AI fairness regulations.
 
@@ -1820,7 +1820,7 @@ Please help with:
 
 :::
 
-## 328. AI Responsible AI Report Generator
+## 14. AI Responsible AI Report Generator
 
 > Compiles bias metrics, transparency documentation, and risk assessments into regulatory-ready responsible AI reports — EU AI Act and NIST AI RMF compliant.
 
@@ -1976,7 +1976,7 @@ Please help with:
 
 :::
 
-## 382. AI Data Export Compliance Checker
+## 15. AI Data Export Compliance Checker
 
 > Validates data exports for PII, ensures GDPR/CCPA compliance, and masks sensitive fields automatically — prevents accidental data exposure.
 
@@ -2132,7 +2132,7 @@ Please help with:
 
 :::
 
-## 417. AI Fraud Transaction Investigator
+## 16. AI Fraud Transaction Investigator
 
 > Analyzes flagged transactions, pulls related accounts and patterns, and generates investigation reports — reduces investigation time from 4 hours to 30 minutes.
 
@@ -2288,7 +2288,7 @@ Please help with:
 
 :::
 
-## 419. AI Trade Surveillance Monitor
+## 17. AI Trade Surveillance Monitor
 
 > Monitors trading activity for market manipulation patterns (spoofing, layering, wash trading) in real-time — reduces false alerts by 70% vs. rule-based systems.
 
@@ -2444,7 +2444,7 @@ Please help with:
 
 :::
 
-## 470. AI Carbon Credit Verifier
+## 18. AI Carbon Credit Verifier
 
 > Validates carbon offset claims using satellite imagery, sensor data, and blockchain records — ensures 98% accuracy in credit verification.
 
@@ -2600,7 +2600,7 @@ Please help with:
 
 :::
 
-## 485. AI SaaS Compliance Checker
+## 19. AI SaaS Compliance Checker
 
 > Continuously scans SaaS platform against SOC 2, GDPR, and HIPAA requirements, flagging compliance gaps before they become audit findings.
 
@@ -2756,7 +2756,7 @@ Please help with:
 
 :::
 
-## 515. AI Bias Audit Toolkit
+## 20. AI Bias Audit Toolkit
 
 > Scans ML models for demographic bias across protected categories, generating audit reports with remediation recommendations for regulatory compliance.
 
@@ -2912,7 +2912,7 @@ Please help with:
 
 :::
 
-## 520. AI Regulatory Filing Analyzer
+## 21. AI Regulatory Filing Analyzer
 
 > Parses SEC filings, earnings transcripts, and regulatory updates to extract material changes, reducing compliance review time by 75%.
 
@@ -3068,7 +3068,7 @@ Please help with:
 
 :::
 
-## 524. AI AML Transaction Monitor
+## 22. AI AML Transaction Monitor
 
 > Monitors millions of daily transactions for suspicious patterns using graph analysis, reducing false positives by 70% while catching 15% more true positives.
 
@@ -3224,7 +3224,7 @@ Please help with:
 
 :::
 
-## 541. AI Trade Surveillance System
+## 23. AI Trade Surveillance System
 
 > Monitors trading activity for market manipulation, insider trading, and wash trading patterns across multiple venues and asset classes.
 
@@ -3380,7 +3380,7 @@ Please help with:
 
 :::
 
-## 640. AI Regulatory Change Tracker
+## 24. AI Regulatory Change Tracker
 
 > Monitors regulatory changes across 50+ jurisdictions, mapping new requirements to current compliance programs and generating gap analyses automatically.
 
@@ -3536,7 +3536,7 @@ Please help with:
 
 :::
 
-## 824. AI Settlement Risk Analyzer
+## 25. AI Settlement Risk Analyzer
 
 > Analyzes settlement risk exposure across the portfolio in real-time, enabling proactive risk mitigation before losses materialize.
 
@@ -3692,7 +3692,7 @@ Please help with:
 
 :::
 
-## 828. AI Interest Rate Risk Analyzer
+## 26. AI Interest Rate Risk Analyzer
 
 > Analyzes interest rate risk exposure across the portfolio in real-time, enabling proactive risk mitigation before losses materialize.
 
@@ -3848,7 +3848,7 @@ Please help with:
 
 :::
 
-## 832. AI Position Compliance Tracker
+## 27. AI Position Compliance Tracker
 
 > Tracks position compliance status against regulatory requirements, generating audit-ready reports and flagging violations automatically.
 
@@ -4004,7 +4004,7 @@ Please help with:
 
 :::
 
-## 836. AI Credit Reconciliation Engine
+## 28. AI Credit Reconciliation Engine
 
 > Reconciles credit across multiple systems and counterparties with 99.8% accuracy, reducing month-end close time by 50%.
 
@@ -4160,7 +4160,7 @@ Please help with:
 
 :::
 
-## 840. AI Margin Reconciliation Engine
+## 29. AI Margin Reconciliation Engine
 
 > Reconciles margin across multiple systems and counterparties with 99.8% accuracy, reducing month-end close time by 50%.
 
@@ -4316,7 +4316,7 @@ Please help with:
 
 :::
 
-## 844. AI Liquidity Forecasting Model
+## 30. AI Liquidity Forecasting Model
 
 > Forecasts liquidity trends using time-series analysis and external signals, achieving 94% directional accuracy on 30-day horizons.
 
@@ -4472,7 +4472,7 @@ Please help with:
 
 :::
 
-## 848. AI Collateral Forecasting Model
+## 31. AI Collateral Forecasting Model
 
 > Forecasts collateral trends using time-series analysis and external signals, achieving 94% directional accuracy on 30-day horizons.
 
@@ -4628,7 +4628,7 @@ Please help with:
 
 :::
 
-## 969. AI Cloud IAM Threat Detector
+## 32. AI Cloud IAM Threat Detector
 
 > Detects cloud IAM-related threats using behavioral analysis and threat intelligence, reducing false positives by 75% while improving detection rates.
 
@@ -4784,7 +4784,7 @@ Please help with:
 
 :::
 
-## 972. AI DNS Threat Detector
+## 33. AI DNS Threat Detector
 
 > Detects DNS-related threats using behavioral analysis and threat intelligence, reducing false positives by 75% while improving detection rates.
 
@@ -4940,7 +4940,7 @@ Please help with:
 
 :::
 
-## 975. AI API Compliance Auditor
+## 34. AI API Compliance Auditor
 
 > Audits API configurations against security frameworks (NIST, CIS, ISO 27001) continuously, generating remediation playbooks for findings.
 
@@ -5096,7 +5096,7 @@ Please help with:
 
 :::
 
-## 978. AI Endpoint Compliance Auditor
+## 35. AI Endpoint Compliance Auditor
 
 > Audits endpoint configurations against security frameworks (NIST, CIS, ISO 27001) continuously, generating remediation playbooks for findings.
 

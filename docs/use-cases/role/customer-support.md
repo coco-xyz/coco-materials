@@ -2375,7 +2375,7 @@ This week's data:
 
 :::
 
-## 267. AI Customer Review Responder
+## 15. AI Customer Review Responder
 
 > Drafts personalized responses to negative reviews within 2 hours, addressing specific concerns and offering resolutions — improves review sentiment recovery by 40%.
 
@@ -2531,7 +2531,7 @@ Please help with:
 
 :::
 
-## 295. AI Customer Health Scorer
+## 16. AI Customer Health Scorer
 
 > Combines product usage, support interactions, NPS scores, and billing signals into a real-time health score per account — predicts renewal risk 90 days out.
 
@@ -2687,7 +2687,7 @@ Please help with:
 
 :::
 
-## 316. AI Support Ticket Deflector
+## 17. AI Support Ticket Deflector
 
 > Intercepts common support queries with contextual help articles and guided troubleshooting before a ticket is created — deflects 45% of incoming tickets.
 
@@ -2843,7 +2843,7 @@ Please help with:
 
 :::
 
-## 384. AI Support Knowledge Base Updater
+## 18. AI Support Knowledge Base Updater
 
 > Identifies outdated help articles from support ticket patterns, drafts updates, and flags missing topics — keeps 500 articles current with zero manual auditing.
 
@@ -2999,7 +2999,7 @@ Please help with:
 
 :::
 
-## 388. AI Customer Success Playbook Generator
+## 19. AI Customer Success Playbook Generator
 
 > Creates tailored success playbooks per customer segment with milestones, risk triggers, and engagement templates — standardizes CS across 50 accounts per CSM.
 
@@ -3155,7 +3155,7 @@ Please help with:
 
 :::
 
-## 398. AI Chatbot Conversation Designer
+## 20. AI Chatbot Conversation Designer
 
 > Designs chatbot conversation flows from FAQ data and support ticket patterns — reduces live chat volume by 40% while maintaining 88% resolution rate.
 
@@ -3311,7 +3311,7 @@ Please help with:
 
 :::
 
-## 426. AI Player Support Bot
+## 21. AI Player Support Bot
 
 > Handles 80% of player support tickets (account issues, billing, gameplay questions) with context-aware responses — reduces average response time from 12 hours to 30 seconds.
 
@@ -3467,7 +3467,7 @@ Please help with:
 
 :::
 
-## 480. AI Customer Health Score Engine
+## 22. AI Customer Health Score Engine
 
 > Computes real-time health scores for enterprise accounts using product usage, NPS, support interactions, and billing patterns — flagging accounts needing intervention 30 days earlier.
 
@@ -3623,7 +3623,7 @@ Please help with:
 
 :::
 
-## 625. AI Citizen Service Chatbot
+## 23. AI Citizen Service Chatbot
 
 > Handles 80% of routine citizen inquiries (tax questions, service requests, benefit eligibility) through conversational AI, freeing staff for complex cases.
 
@@ -3779,7 +3779,7 @@ Please help with:
 
 :::
 
-## 667. AI Cache Health Monitor
+## 24. AI Cache Health Monitor
 
 > Monitors cache health metrics across the platform, detecting degradation 4 hours before it impacts users — reducing incidents by 65%.
 
@@ -3935,7 +3935,7 @@ Please help with:
 
 :::
 
-## 674. AI Tenant Workflow Automator
+## 25. AI Tenant Workflow Automator
 
 > Automates tenant management workflows end-to-end, reducing manual effort by 85% and error rates by 92%.
 
@@ -4091,7 +4091,7 @@ Please help with:
 
 :::
 
-## 681. AI Cluster Workflow Automator
+## 26. AI Cluster Workflow Automator
 
 > Automates cluster management workflows end-to-end, reducing manual effort by 85% and error rates by 92%.
 
@@ -4247,7 +4247,7 @@ Please help with:
 
 :::
 
-## 688. AI Queue Performance Analyzer
+## 27. AI Queue Performance Analyzer
 
 > Analyzes queue performance patterns across 1M+ data points to identify optimization opportunities worth 25% efficiency gains.
 
@@ -4403,7 +4403,7 @@ Please help with:
 
 :::
 
-## 695. AI Deployment Configuration Validator
+## 28. AI Deployment Configuration Validator
 
 > Validates deployment configurations against best practices and security baselines, catching misconfigurations before deployment.
 
@@ -4559,7 +4559,7 @@ Please help with:
 
 :::
 
-## 702. AI Service Capacity Planner
+## 29. AI Service Capacity Planner
 
 > Forecasts service capacity needs 90 days out based on growth trends and seasonal patterns, preventing over-provisioning waste.
 
@@ -4715,7 +4715,7 @@ Please help with:
 
 :::
 
-## 709. AI Schema Capacity Planner
+## 30. AI Schema Capacity Planner
 
 > Forecasts schema capacity needs 90 days out based on growth trends and seasonal patterns, preventing over-provisioning waste.
 
@@ -4871,7 +4871,7 @@ Please help with:
 
 :::
 
-## 716. AI Integration Migration Assistant
+## 31. AI Integration Migration Assistant
 
 > Automates integration migration between environments with full validation and rollback capabilities, reducing migration risk by 90%.
 

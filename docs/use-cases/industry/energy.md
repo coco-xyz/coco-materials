@@ -632,7 +632,7 @@ This week's data:
 
 :::
 
-## 289. AI Energy Consumption Optimizer
+## 6. AI Energy Consumption Optimizer
 
 > Analyzes building energy usage patterns, weather forecasts, and occupancy data to optimize HVAC scheduling — reduces energy costs by 22%.
 
@@ -788,7 +788,7 @@ Please help with:
 
 :::
 
-## 469. AI Renewable Energy Forecaster
+## 7. AI Renewable Energy Forecaster
 
 > Predicts solar and wind generation output 72 hours ahead using weather models and historical data — enables optimal grid scheduling and energy trading.
 
@@ -944,7 +944,7 @@ Please help with:
 
 :::
 
-## 470. AI Carbon Credit Verifier
+## 8. AI Carbon Credit Verifier
 
 > Validates carbon offset claims using satellite imagery, sensor data, and blockchain records — ensures 98% accuracy in credit verification.
 
@@ -1100,7 +1100,7 @@ Please help with:
 
 :::
 
-## 614. AI Grid Load Forecaster
+## 9. AI Grid Load Forecaster
 
 > Predicts electricity demand at 15-minute intervals with 97% accuracy using weather, calendar, and economic indicators — optimizing generation dispatch and reducing curtailment.
 
@@ -1256,7 +1256,7 @@ Please help with:
 
 :::
 
-## 615. AI Solar Panel Defect Detector
+## 10. AI Solar Panel Defect Detector
 
 > Analyzes drone thermal imagery of solar farms to detect hotspots, micro-cracks, and degradation patterns — identifying maintenance needs across 100MW+ installations.
 
@@ -1412,7 +1412,7 @@ Please help with:
 
 :::
 
-## 616. AI Carbon Footprint Calculator
+## 11. AI Carbon Footprint Calculator
 
 > Calculates Scope 1/2/3 carbon emissions from operational data, supplier information, and travel records — generating ESG-compliant reports automatically.
 
@@ -1568,7 +1568,7 @@ Please help with:
 
 :::
 
-## 617. AI Energy Trading Optimizer
+## 12. AI Energy Trading Optimizer
 
 > Optimizes energy trading positions across spot, forward, and ancillary service markets based on generation forecasts and price predictions.
 

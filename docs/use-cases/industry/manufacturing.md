@@ -884,7 +884,7 @@ This week's data:
 
 :::
 
-## 285. AI Quality Inspection Reporter
+## 8. AI Quality Inspection Reporter
 
 > Compiles inspection data from IoT sensors, photos, and manual checks into standardized quality reports — 4 hours of report writing reduced to 15 minutes.
 
@@ -1040,7 +1040,7 @@ Please help with:
 
 :::
 
-## 458. AI Supply Chain Disruption Predictor
+## 9. AI Supply Chain Disruption Predictor
 
 > Monitors geopolitical events, weather patterns, and supplier financial health to predict disruptions 30 days out — enables proactive inventory buffers.
 
@@ -1196,7 +1196,7 @@ Please help with:
 
 :::
 
-## 459. AI Production Schedule Optimizer
+## 10. AI Production Schedule Optimizer
 
 > Optimizes production sequences across machines considering changeover times, material availability, and rush orders — increases throughput by 18%.
 
@@ -1352,7 +1352,7 @@ Please help with:
 
 :::
 
-## 460. AI Equipment Failure Predictor
+## 11. AI Equipment Failure Predictor
 
 > Analyzes sensor data, vibration patterns, and maintenance history to predict equipment failures 2 weeks before occurrence — reduces unplanned downtime by 45%.
 
@@ -1508,7 +1508,7 @@ Please help with:
 
 :::
 
-## 594. AI Predictive Maintenance Scheduler
+## 12. AI Predictive Maintenance Scheduler
 
 > Predicts equipment failures 2-4 weeks in advance using vibration, temperature, and current sensors — reducing unplanned downtime by 73%.
 
@@ -1664,7 +1664,7 @@ Please help with:
 
 :::
 
-## 595. AI Quality Inspection Vision System
+## 13. AI Quality Inspection Vision System
 
 > Inspects manufactured parts at 200 units/minute using computer vision, detecting defects as small as 0.1mm with 99.4% accuracy.
 
@@ -1820,7 +1820,7 @@ Please help with:
 
 :::
 
-## 596. AI Production Line Optimizer
+## 14. AI Production Line Optimizer
 
 > Balances production line throughput across stations, reducing bottlenecks and improving overall equipment effectiveness (OEE) from 65% to 84%.
 
@@ -1976,7 +1976,7 @@ Please help with:
 
 :::
 
-## 597. AI Supply Chain Risk Monitor
+## 15. AI Supply Chain Risk Monitor
 
 > Monitors 500+ suppliers for financial health, geopolitical risks, and delivery performance — providing early warning of disruptions 30 days in advance.
 
@@ -2132,7 +2132,7 @@ Please help with:
 
 :::
 
-## 598. AI Bill of Materials Analyzer
+## 16. AI Bill of Materials Analyzer
 
 > Analyzes BOMs across product variants to identify common components, volume consolidation opportunities, and alternative sourcing options — reducing material costs by 8%.
 

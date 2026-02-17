@@ -1136,7 +1136,7 @@ This week's data:
 
 :::
 
-## 280. AI Music Rights Clearance Checker
+## 10. AI Music Rights Clearance Checker
 
 > Identifies all copyrighted music in video content, checks licensing status, and finds royalty-free alternatives — prevents $50K+ copyright claims per year.
 
@@ -1292,7 +1292,7 @@ Please help with:
 
 :::
 
-## 337. AI M&A Due Diligence Assistant
+## 11. AI M&A Due Diligence Assistant
 
 > Reviews data room documents, extracts key risk factors, and generates due diligence summaries — processes 5,000 documents in 3 days instead of 3 weeks.
 
@@ -1448,7 +1448,7 @@ Please help with:
 
 :::
 
-## 386. AI GDPR Data Request Processor
+## 12. AI GDPR Data Request Processor
 
 > Auto-processes data subject access requests, compiles all user data across systems, and generates compliant response packages in 2 hours instead of 2 weeks.
 
@@ -1604,7 +1604,7 @@ Please help with:
 
 :::
 
-## 402. AI Cookie Consent Compliance Manager
+## 13. AI Cookie Consent Compliance Manager
 
 > Scans your site for tracking scripts, validates consent banner implementation, and ensures GDPR/ePrivacy compliance — prevents €20M+ GDPR fines.
 
@@ -1760,7 +1760,7 @@ Please help with:
 
 :::
 
-## 422. AI Insurance Policy Comparator
+## 14. AI Insurance Policy Comparator
 
 > Reads and compares insurance policies clause-by-clause, highlights coverage gaps, and identifies cost savings opportunities — 30 policies compared in 1 hour.
 
@@ -1916,7 +1916,7 @@ Please help with:
 
 :::
 
-## 468. AI Lease Abstraction Engine
+## 15. AI Lease Abstraction Engine
 
 > Extracts key terms (rent, escalations, options, obligations) from 100-page commercial leases in minutes — replaces weeks of paralegal review.
 

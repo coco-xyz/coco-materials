@@ -758,7 +758,7 @@ This week's data:
 
 :::
 
-## 292. AI Grant Matching Engine
+## 7. AI Grant Matching Engine
 
 > Scans 10,000 grant opportunities against your mission, programs, and eligibility — surfaces the top 50 matches with deadline alerts and application tips.
 
@@ -914,7 +914,7 @@ Please help with:
 
 :::
 
-## 475. AI Donor Prospect Researcher
+## 8. AI Donor Prospect Researcher
 
 > Researches potential major donors from public records, giving history, and wealth indicators — identifies the top 100 prospects with personalized approach strategies.
 
@@ -1070,7 +1070,7 @@ Please help with:
 
 :::
 
-## 476. AI Impact Story Writer
+## 9. AI Impact Story Writer
 
 > Transforms program data and beneficiary interviews into compelling impact narratives for annual reports and fundraising — 20 stories written per week.
 
@@ -1226,7 +1226,7 @@ Please help with:
 
 :::
 
-## 626. AI Donor Propensity Model
+## 10. AI Donor Propensity Model
 
 > Predicts donor likelihood and optimal ask amount using giving history, wealth indicators, and engagement patterns — increasing fundraising efficiency by 35%.
 
@@ -1382,7 +1382,7 @@ Please help with:
 
 :::
 
-## 627. AI Grant Writing Assistant
+## 11. AI Grant Writing Assistant
 
 > Matches organizations with eligible grants and generates tailored proposals incorporating program data, outcomes metrics, and funder priorities.
 
@@ -1538,7 +1538,7 @@ Please help with:
 
 :::
 
-## 628. AI Impact Measurement Dashboard
+## 12. AI Impact Measurement Dashboard
 
 > Tracks program outcomes against theory of change, generating impact reports with visualizations for board members, funders, and regulators.
 
@@ -1694,7 +1694,7 @@ Please help with:
 
 :::
 
-## 629. AI Volunteer Management System
+## 13. AI Volunteer Management System
 
 > Matches volunteers to opportunities based on skills, availability, and location — improving volunteer retention by 40% through better-fit assignments.
 

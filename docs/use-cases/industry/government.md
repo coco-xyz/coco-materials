@@ -758,7 +758,7 @@ This week's data:
 
 :::
 
-## 291. AI Public Comment Analyzer
+## 7. AI Public Comment Analyzer
 
 > Categorizes thousands of public comments on proposed regulations by theme, sentiment, and stakeholder group — 3-month manual analysis done in 2 days.
 
@@ -914,7 +914,7 @@ Please help with:
 
 :::
 
-## 473. AI Citizen Service Request Router
+## 8. AI Citizen Service Request Router
 
 > Classifies and routes citizen service requests to the correct department — reduces misrouted requests by 70% and average resolution time by 40%.
 
@@ -1070,7 +1070,7 @@ Please help with:
 
 :::
 
-## 474. AI Policy Impact Simulator
+## 9. AI Policy Impact Simulator
 
 > Simulates the economic, social, and environmental impact of proposed policies using historical data and demographic models — data-driven policy making.
 
@@ -1226,7 +1226,7 @@ Please help with:
 
 :::
 
-## 622. AI Public Records Request Processor
+## 10. AI Public Records Request Processor
 
 > Processes FOIA requests by auto-identifying relevant documents, applying redaction rules for PII and classified information — reducing response time from 30 to 5 days.
 
@@ -1382,7 +1382,7 @@ Please help with:
 
 :::
 
-## 623. AI Budget Allocation Optimizer
+## 11. AI Budget Allocation Optimizer
 
 > Optimizes public fund allocation across departments and programs using outcome data, equity metrics, and constituent needs — improving program effectiveness by 20%.
 
@@ -1538,7 +1538,7 @@ Please help with:
 
 :::
 
-## 624. AI Permit Application Reviewer
+## 12. AI Permit Application Reviewer
 
 > Auto-reviews building permit applications against zoning codes and building standards, flagging issues and pre-approving compliant applications — reducing processing time by 65%.
 
@@ -1694,7 +1694,7 @@ Please help with:
 
 :::
 
-## 625. AI Citizen Service Chatbot
+## 13. AI Citizen Service Chatbot
 
 > Handles 80% of routine citizen inquiries (tax questions, service requests, benefit eligibility) through conversational AI, freeing staff for complex cases.
 

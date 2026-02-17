@@ -884,7 +884,7 @@ This week's data:
 
 :::
 
-## 630. AI Resume Screening Engine
+## 8. AI Resume Screening Engine
 
 > Screens 10K+ resumes against job requirements with bias-audited criteria, identifying top 5% candidates in minutes while maintaining EEOC compliance.
 
@@ -1040,7 +1040,7 @@ Please help with:
 
 :::
 
-## 631. AI Employee Engagement Analyzer
+## 9. AI Employee Engagement Analyzer
 
 > Analyzes pulse survey responses, communication patterns, and tenure data to predict team engagement levels and identify flight-risk employees 60 days out.
 
@@ -1196,7 +1196,7 @@ Please help with:
 
 :::
 
-## 632. AI Compensation Benchmarking Tool
+## 10. AI Compensation Benchmarking Tool
 
 > Aggregates compensation data across industry, role, location, and experience level, providing market-rate recommendations that reduce offer rejection rates by 28%.
 
@@ -1352,7 +1352,7 @@ Please help with:
 
 :::
 
-## 633. AI Skills Gap Analyzer
+## 11. AI Skills Gap Analyzer
 
 > Maps current workforce skills against future business needs, identifying critical skill gaps and recommending training programs or hiring priorities.
 
@@ -1508,7 +1508,7 @@ Please help with:
 
 :::
 
-## 634. AI Interview Intelligence Platform
+## 12. AI Interview Intelligence Platform
 
 > Generates structured interview questions from job requirements, scores candidate responses against rubrics, and flags potential bias in interviewer feedback.
 
@@ -1664,7 +1664,7 @@ Please help with:
 
 :::
 
-## 635. AI Onboarding Workflow Generator
+## 13. AI Onboarding Workflow Generator
 
 > Creates personalized onboarding plans based on role, department, and seniority, automating task assignments and tracking completion across the first 90 days.
 
@@ -1820,7 +1820,7 @@ Please help with:
 
 :::
 
-## 636. AI Contract Review Assistant
+## 14. AI Contract Review Assistant
 
 > Reviews contracts for risky clauses, missing terms, and deviations from templates — processing 50-page agreements in 3 minutes vs. 2 hours of attorney time.
 
@@ -1976,7 +1976,7 @@ Please help with:
 
 :::
 
-## 637. AI Legal Research Assistant
+## 15. AI Legal Research Assistant
 
 > Searches case law databases, statutes, and regulatory guidance to find relevant precedents and synthesize legal arguments — saving 6 hours per research memo.
 
@@ -2132,7 +2132,7 @@ Please help with:
 
 :::
 
-## 638. AI Patent Analysis Engine
+## 16. AI Patent Analysis Engine
 
 > Analyzes patent landscapes across technology domains, identifying freedom-to-operate risks, prior art, and potential licensing opportunities.
 
@@ -2288,7 +2288,7 @@ Please help with:
 
 :::
 
-## 639. AI E-Discovery Document Reviewer
+## 17. AI E-Discovery Document Reviewer
 
 > Uses predictive coding to prioritize document review in litigation, achieving 95% recall while reviewing only 10% of the document population.
 
@@ -2444,7 +2444,7 @@ Please help with:
 
 :::
 
-## 640. AI Regulatory Change Tracker
+## 18. AI Regulatory Change Tracker
 
 > Monitors regulatory changes across 50+ jurisdictions, mapping new requirements to current compliance programs and generating gap analyses automatically.
 
@@ -2600,7 +2600,7 @@ Please help with:
 
 :::
 
-## 647. AI Campaign Performance Optimizer
+## 19. AI Campaign Performance Optimizer
 
 > Optimizes ad spend across channels, creatives, and audiences in real-time — reallocating budget every 4 hours to maximize ROAS, achieving 45% improvement over manual management.
 
@@ -2756,7 +2756,7 @@ Please help with:
 
 :::
 
-## 648. AI Competitive Ad Intelligence
+## 20. AI Competitive Ad Intelligence
 
 > Tracks competitor ad campaigns across platforms, analyzing spend patterns, creative strategies, and audience targeting — updated daily for strategic planning.
 
@@ -2912,7 +2912,7 @@ Please help with:
 
 :::
 
-## 649. AI Content Calendar Generator
+## 21. AI Content Calendar Generator
 
 > Generates monthly content calendars aligned with business goals, seasonal events, and audience interests — maintaining consistent publishing cadence across 8+ channels.
 
@@ -3068,7 +3068,7 @@ Please help with:
 
 :::
 
-## 650. AI Landing Page A/B Test Generator
+## 22. AI Landing Page A/B Test Generator
 
 > Generates landing page variants by modifying headlines, CTAs, layouts, and social proof elements — testing 10x more variations than manual A/B testing.
 
@@ -3224,7 +3224,7 @@ Please help with:
 
 :::
 
-## 651. AI Attribution Model Builder
+## 23. AI Attribution Model Builder
 
 > Builds custom multi-touch attribution models using Markov chains and Shapley values, providing accurate channel contribution analysis beyond last-click.
 

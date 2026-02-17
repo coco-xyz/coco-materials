@@ -632,7 +632,7 @@ This week's data:
 
 :::
 
-## 652. AI Network Capacity Planner
+## 6. AI Network Capacity Planner
 
 > Forecasts network traffic growth by cell site and time period, recommending capacity upgrades 6 months before congestion impacts user experience.
 
@@ -788,7 +788,7 @@ Please help with:
 
 :::
 
-## 653. AI Customer Churn Predictor (Telecom)
+## 7. AI Customer Churn Predictor (Telecom)
 
 > Identifies subscribers likely to churn within 30 days using network quality, billing, and usage patterns — enabling targeted retention offers that save $4.2M annually.
 
@@ -944,7 +944,7 @@ Please help with:
 
 :::
 
-## 654. AI Network Outage Predictor
+## 8. AI Network Outage Predictor
 
 > Predicts network equipment failures 48 hours in advance using performance telemetry trends, reducing service outages by 55% through proactive maintenance.
 
@@ -1100,7 +1100,7 @@ Please help with:
 
 :::
 
-## 655. AI Spectrum Optimization Engine
+## 9. AI Spectrum Optimization Engine
 
 > Dynamically allocates spectrum resources across cells based on real-time demand patterns, improving average throughput by 30% without additional hardware.
 
