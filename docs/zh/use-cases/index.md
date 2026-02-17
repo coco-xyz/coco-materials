@@ -1,6 +1,6 @@
 # 用例库
 
-发现 **1,000个真实应用场景**，COCO AI员工如何为各部门节省时间和成本。按**角色**、**任务**或**行业**浏览。
+发现 **1,001个真实应用场景**，COCO AI员工如何为各部门节省时间和成本。按**角色**、**任务**或**行业**浏览。
 
 ## 按角色浏览
 
@@ -8,8 +8,9 @@
 
 | 角色 | 数量 | 核心场景 |
 |------|------|---------|
-| [产品/研发](/zh/use-cases/role/product-dev) | 26 | 代码审查、测试生成、API文档、安全扫描... |
-| [运营](/zh/use-cases/role/operations) | 36 | 会议纪要、库存预测、供应商评估... |
+| [产品](/zh/use-cases/role/product) | 33 | PRD写作、竞品分析、用户调研、路线图规划、功能规格... |
+| [研发](/zh/use-cases/role/dev) | 186 | 代码审查、测试生成、API文档、安全扫描、调试助手... |
+| [运营](/zh/use-cases/role/operations) | 159 | 会议纪要、库存预测、供应商评估... |
 | [财务](/zh/use-cases/role/finance) | 19 | 费用审核、财务报告、发票处理... |
 | [内容/营销](/zh/use-cases/role/content-marketing) | 23 | SEO写作、社媒管理、广告文案、品牌监控... |
 | [客服](/zh/use-cases/role/customer-support) | 14 | 工单分类、知识库、多语言客服... |
@@ -19,7 +20,6 @@
 | [高管](/zh/use-cases/role/executive) | 4 | AI高管简报生成器、AI年度报告汇编器、AI OKR进度追踪器... |
 | [数据分析师](/zh/use-cases/role/data-analyst) | 14 | AI房产估值助手、AI作物产量预测器、AI剧本评审阅读器... |
 | [DevOps运维](/zh/use-cases/role/devops) | 2 | AI网络容量规划师、AI太阳能板性能监控器... |
-| [项目经理](/zh/use-cases/role/pm) | 2 | AI活动后勤规划器、AI筹款活动策划器... |
 | [QA工程师](/zh/use-cases/role/qa-engineer) | 3 | AI生产缺陷检测器、AI统计过程控制监控器、AI无障碍合规检查器... |
 | [合规官](/zh/use-cases/role/compliance-officer) | 7 | AI许可证申请追踪器、AI车辆召回监控器、AI碳足迹报告生成器... |
 | [咨询顾问](/zh/use-cases/role/consultant) | 7 | AI战略简报撰写器、AI尽职调查编撰器、AI咨询方案构建器... |
@@ -68,11 +68,11 @@
 
 | # | 用例 | 角色 | 行业 | 任务 | 核心指标 |
 |---|------|------|------|------|---------|
-| 1 | [AI代码审查](/zh/use-cases/role/product-dev#_1-ai代码审查) | 研发 | 科技/SaaS | 流程自动化 | 4小时→15分钟/PR |
-| 2 | [AI测试生成](/zh/use-cases/role/product-dev#_2-ai测试生成) | 研发 | 科技/SaaS | 流程自动化 | 2天→30分钟 |
-| 3 | [AI部署监控](/zh/use-cases/role/product-dev#_3-ai部署监控) | 研发 | 科技/SaaS | 流程自动化 | 手动→自动(2分钟MTTR) |
-| 4 | [AI API文档编写](/zh/use-cases/role/product-dev#_4-ai-api文档编写) | 研发 | 科技/SaaS | 写作与内容 | 1周→2小时 |
-| 5 | [AI调试助手](/zh/use-cases/role/product-dev#_5-ai调试助手) | 研发 | 科技/SaaS | 流程自动化 | 2小时→10分钟 |
+| 1 | [AI代码审查](/zh/use-cases/role/dev#_1-ai代码审查) | 研发 | 科技/SaaS | 流程自动化 | 4小时→15分钟/PR |
+| 2 | [AI测试生成](/zh/use-cases/role/dev#_2-ai测试生成) | 研发 | 科技/SaaS | 流程自动化 | 2天→30分钟 |
+| 3 | [AI部署监控](/zh/use-cases/role/dev#_3-ai部署监控) | 研发 | 科技/SaaS | 流程自动化 | 手动→自动(2分钟MTTR) |
+| 4 | [AI API文档编写](/zh/use-cases/role/dev#_4-ai-api文档编写) | 研发 | 科技/SaaS | 写作与内容 | 1周→2小时 |
+| 5 | [AI调试助手](/zh/use-cases/role/dev#_5-ai调试助手) | 研发 | 科技/SaaS | 流程自动化 | 2小时→10分钟 |
 | 6 | [AI SEO内容写作](/zh/use-cases/role/content-marketing#_1-ai-seo内容写作) | 营销 | 科技/SaaS, 电商/零售 | 写作与内容 | 4小时→20分钟/篇 |
 | 7 | [AI社媒管理](/zh/use-cases/role/content-marketing#_2-ai社媒管理) | 营销 | 科技/SaaS, 电商/零售 | 写作与内容 | 3小时/天→15分钟 |
 | 8 | [AI广告文案生成](/zh/use-cases/role/content-marketing#_3-ai广告文案生成) | 营销 | 科技/SaaS, 电商/零售 | 写作与内容 | 50→200变体/10分钟 |
@@ -98,11 +98,11 @@
 | 28 | [AI会议纪要](/zh/use-cases/role/operations#_1-ai会议纪要) | 运营 | 科技/SaaS | 流程自动化 | 30分钟→即时 |
 | 29 | [AI库存预测](/zh/use-cases/role/operations#_2-ai库存预测) | 运营 | 电商/零售 | 数据分析 | 每周→实时 |
 | 30 | [AI供应商评估](/zh/use-cases/role/operations#_3-ai供应商评估) | 运营 | - | 数据分析 | 1周→2小时 |
-| 31 | [AI代码迁移](/zh/use-cases/role/product-dev#_6-ai代码迁移) | 研发 | 科技/SaaS, 金融服务 | 流程自动化 | 2周→4小时 |
-| 32 | [AI性能分析](/zh/use-cases/role/product-dev#_7-ai性能分析) | 研发 | 科技/SaaS | 数据分析 | 3天→30分钟 |
-| 33 | [AI安全扫描](/zh/use-cases/role/product-dev#_8-ai安全扫描) | 研发 | 科技/SaaS | 调研与监控 | 每周→持续 |
-| 34 | [AI数据库优化](/zh/use-cases/role/product-dev#_9-ai数据库优化) | 研发 | 科技/SaaS | 数据分析 | 8小时→20分钟 |
-| 35 | [AI依赖管理](/zh/use-cases/role/product-dev#_10-ai依赖管理) | 研发 | 科技/SaaS | 流程自动化 | 4小时/周→10分钟 |
+| 31 | [AI代码迁移](/zh/use-cases/role/dev#_6-ai代码迁移) | 研发 | 科技/SaaS, 金融服务 | 流程自动化 | 2周→4小时 |
+| 32 | [AI性能分析](/zh/use-cases/role/dev#_7-ai性能分析) | 研发 | 科技/SaaS | 数据分析 | 3天→30分钟 |
+| 33 | [AI安全扫描](/zh/use-cases/role/dev#_8-ai安全扫描) | 研发 | 科技/SaaS | 调研与监控 | 每周→持续 |
+| 34 | [AI数据库优化](/zh/use-cases/role/dev#_9-ai数据库优化) | 研发 | 科技/SaaS | 数据分析 | 8小时→20分钟 |
+| 35 | [AI依赖管理](/zh/use-cases/role/dev#_10-ai依赖管理) | 研发 | 科技/SaaS | 流程自动化 | 4小时/周→10分钟 |
 | 36 | [AI品牌监测](/zh/use-cases/role/content-marketing#_6-ai品牌监测) | 营销 | 电商/零售 | 调研与监控 | 3小时/天→实时 |
 | 37 | [AI达人发现](/zh/use-cases/role/content-marketing#_7-ai达人发现) | 营销 | 电商/零售 | 调研与监控 | 2周→2小时 |
 | 38 | [AI营销分析](/zh/use-cases/role/content-marketing#_8-ai营销分析) | 营销 | 电商/零售 | 数据分析 | 1天→15分钟 |
@@ -114,9 +114,9 @@
 | 44 | [AI合同分析](/zh/use-cases/role/sales#_10-ai合同分析) | 销售 | 金融服务 | 数据分析 | 4小时/份→10分钟 |
 | 45 | [AI流失预测](/zh/use-cases/role/sales#_11-ai流失预测) | 销售 | 科技/SaaS | 调研与监控 | 每月→实时 |
 | 46 | [AI客服机器人训练](/zh/use-cases/role/customer-support#_6-ai客服机器人训练) | 客服 | 科技/SaaS, 电商/零售 | 流程自动化 | 2周→3小时 |
-| 47 | [AI缺陷排序](/zh/use-cases/role/product-dev#_11-ai缺陷排序) | 研发 | 科技/SaaS | 调研与监控 | 2小时/天→即时 |
+| 47 | [AI缺陷排序](/zh/use-cases/role/dev#_11-ai缺陷排序) | 研发 | 科技/SaaS | 调研与监控 | 2小时/天→即时 |
 | 48 | [AI SLA跟踪](/zh/use-cases/role/operations#_6-ai-sla跟踪) | 运营 | - | 调研与监控 | 手动→自动 |
-| 49 | [AI情感分析](/zh/use-cases/role/product-dev#_12-ai情感分析) | 研发 | 科技/SaaS | 数据分析 | 1天→10分钟 |
+| 49 | [AI情感分析](/zh/use-cases/role/dev#_12-ai情感分析) | 研发 | 科技/SaaS | 数据分析 | 1天→10分钟 |
 | 50 | [AI FAQ生成](/zh/use-cases/role/customer-support#_7-ai-faq生成) | 客服 | 电商/零售 | 写作与内容 | 3天→2小时 |
 | 51 | [AI员工脉搏](/zh/use-cases/role/hr-recruiting#_5-ai员工脉搏) | HR | 科技/SaaS | 调研与监控 | 每月→每周 |
 | 52 | [AI培训推荐](/zh/use-cases/role/hr-recruiting#_6-ai培训推荐) | HR | - | 流程自动化 | 1周→1小时 |
@@ -135,38 +135,38 @@
 | 65 | [AI客户成功监控器](/zh/use-cases/role/customer-support#_8-ai客户成功监控器) | 客服 | 科技/SaaS | 调研与监控 | 流失预警提前30天 |
 | 66 | [AI产品反馈分析器](/zh/use-cases/role/content-marketing#_11-ai产品反馈分析器) | 营销 | 科技/SaaS, 电商/零售 | 数据分析 | 2周→2小时 |
 | 67 | [AI合规申报助手](/zh/use-cases/role/finance#_7-ai合规申报助手) | 财务 | 金融服务 | 流程自动化 | 申报准备-78% |
-| 68 | [AI项目状态报告生成器](/zh/use-cases/role/product-dev#_13-ai项目状态报告生成器) | 研发 | 科技/SaaS | 写作与内容 | 4小时→15分钟 |
+| 68 | [AI项目状态报告生成器](/zh/use-cases/role/dev#_13-ai项目状态报告生成器) | 研发 | 科技/SaaS | 写作与内容 | 4小时→15分钟 |
 | 69 | [AI销售区域规划器](/zh/use-cases/role/sales#_12-ai销售区域规划器) | 销售 | 电商/零售 | 数据分析 | 区域平衡+45% |
-| 70 | [AI工单升级路由器](/zh/use-cases/role/product-dev#_14-ai工单升级路由器) | 研发 | 科技/SaaS | 流程自动化 | 误路由-89% |
-| 71 | [AI数据管道监控器](/zh/use-cases/role/product-dev#_15-ai数据管道监控器) | 研发 | 科技/SaaS, 金融服务 | 流程自动化 | 检测：小时级→秒级 |
+| 70 | [AI工单升级路由器](/zh/use-cases/role/dev#_14-ai工单升级路由器) | 研发 | 科技/SaaS | 流程自动化 | 误路由-89% |
+| 71 | [AI数据管道监控器](/zh/use-cases/role/dev#_15-ai数据管道监控器) | 研发 | 科技/SaaS, 金融服务 | 流程自动化 | 检测：小时级→秒级 |
 | 72 | [AI本地化管理器](/zh/use-cases/role/content-marketing#_12-ai本地化管理器) | 营销 | 科技/SaaS, 电商/零售 | 写作与内容 | 6周→3天 |
 | 73 | [AI供应链追踪器](/zh/use-cases/role/operations#_15-ai供应链追踪器) | 运营 | 电商/零售 | 流程自动化 | 可视性：30%→95% |
 | 74 | [AI客户入驻引导助手](/zh/use-cases/role/customer-support#_10-ai客户入驻引导助手) | 客服 | 科技/SaaS | 流程自动化 | 3周→3天 |
 | 75 | [AI营销ROI仪表盘](/zh/use-cases/role/content-marketing#_13-ai营销roi仪表盘) | 营销 | 电商/零售 | 数据分析 | 3天→实时 |
-| 76 | [AI事件响应协调器](/zh/use-cases/role/product-dev#_16-ai事件响应协调器) | 研发 | 科技/SaaS, 金融服务 | 流程自动化 | MTTR-73% |
-| 77 | [AI专利研究助手](/zh/use-cases/role/product-dev#_17-ai专利研究助手) | 研发 | 科技/SaaS | 数据分析 | 3周→4小时 |
+| 76 | [AI事件响应协调器](/zh/use-cases/role/dev#_16-ai事件响应协调器) | 研发 | 科技/SaaS, 金融服务 | 流程自动化 | MTTR-73% |
+| 77 | [AI专利研究助手](/zh/use-cases/role/dev#_17-ai专利研究助手) | 研发 | 科技/SaaS | 数据分析 | 3周→4小时 |
 | 78 | [AI员工离职管理器](/zh/use-cases/role/hr-recruiting#_9-ai员工离职管理器) | HR | 科技/SaaS | 流程自动化 | 2周→1天 |
-| 79 | [AI质量保证审计器](/zh/use-cases/role/product-dev#_18-ai质量保证审计器) | 研发 | 科技/SaaS | 数据分析 | QA覆盖：40%→92% |
+| 79 | [AI质量保证审计器](/zh/use-cases/role/dev#_18-ai质量保证审计器) | 研发 | 科技/SaaS | 数据分析 | QA覆盖：40%→92% |
 | 80 | [AI竞争情报追踪器](/zh/use-cases/role/content-marketing#_14-ai竞争情报追踪器) | 营销 | 科技/SaaS | 调研与监控 | 每月→实时 |
 | 81 | [AI税务准备助手](/zh/use-cases/role/finance#_8-ai税务准备助手) | 财务 | 金融服务 | 数据分析 | 税务准备-70% |
 | 82 | [AI客户挽回营销器](/zh/use-cases/role/sales#_13-ai客户挽回营销器) | 销售 | 科技/SaaS, 电商/零售 | 写作与内容 | 挽回率：8%→35% |
-| 83 | [AI技术文档写作助手](/zh/use-cases/role/product-dev#_19-ai技术文档写作助手) | 研发 | 科技/SaaS | 写作与内容 | 3天→2小时 |
+| 83 | [AI技术文档写作助手](/zh/use-cases/role/dev#_19-ai技术文档写作助手) | 研发 | 科技/SaaS | 写作与内容 | 3天→2小时 |
 | 84 | [AI供应商发票核对器](/zh/use-cases/role/finance#_9-ai供应商发票核对器) | 财务 | 电商/零售, 金融服务 | 数据分析 | 核对时间-85% |
 | 85 | [AI社交媒体监听助手](/zh/use-cases/role/content-marketing#_15-ai社交媒体监听助手) | 营销 | 科技/SaaS, 电商/零售 | 调研与监控 | 覆盖率：15%→96% |
-| 86 | [AI冲刺规划助手](/zh/use-cases/role/product-dev#_20-ai冲刺规划助手) | 研发 | 科技/SaaS | 数据分析 | 3小时→45分钟 |
+| 86 | [AI冲刺规划助手](/zh/use-cases/role/dev#_20-ai冲刺规划助手) | 研发 | 科技/SaaS | 数据分析 | 3小时→45分钟 |
 | 87 | [AI租赁合同审查助手](/zh/use-cases/role/finance#_10-ai租赁合同审查助手) | 财务 | 金融服务 | 数据分析 | 5天→1小时 |
 | 88 | [AI差旅费用优化器](/zh/use-cases/role/finance#_11-ai差旅费用优化器) | 财务 | - | 数据分析 | 差旅开支-23% |
 | 89 | [AI招聘营销文案助手](/zh/use-cases/role/content-marketing#_16-ai招聘营销文案助手) | 营销 | 科技/SaaS | 写作与内容 | 点击率+65% |
 | 90 | [AI客户调研设计器](/zh/use-cases/role/content-marketing#_17-ai客户调研设计器) | 营销 | 科技/SaaS, 电商/零售 | 写作与内容 | 回复率：3%→28% |
-| 91 | [AI发版说明生成器](/zh/use-cases/role/product-dev#_21-ai发版说明生成器) | 研发 | 科技/SaaS | 写作与内容 | 3-4小时→5分钟 |
+| 91 | [AI发版说明生成器](/zh/use-cases/role/dev#_21-ai发版说明生成器) | 研发 | 科技/SaaS | 写作与内容 | 3-4小时→5分钟 |
 | 92 | [AI董事会报告编制器](/zh/use-cases/role/finance#_12-ai董事会报告编制器) | 财务 | 金融服务 | 写作与内容 | 40小时→4小时 |
 | 93 | [AI合规培训追踪器](/zh/use-cases/role/hr-recruiting#_11-ai合规培训追踪器) | HR | 科技/SaaS, 金融服务 | 流程自动化 | 完成率：52%→96% |
 | 94 | [AI销售异议处理助手](/zh/use-cases/role/sales#_14-ai销售异议处理助手) | 销售 | 科技/SaaS | 写作与内容 | 成功率：35%→72% |
-| 95 | [AI IT资产管理器](/zh/use-cases/role/product-dev#_22-ai-it资产管理器) | 研发 | 科技/SaaS | 流程自动化 | 可见性：45%→99% |
+| 95 | [AI IT资产管理器](/zh/use-cases/role/dev#_22-ai-it资产管理器) | 研发 | 科技/SaaS | 流程自动化 | 可见性：45%→99% |
 | 96 | [AI需求预测器](/zh/use-cases/role/content-marketing#_18-ai需求预测器) | 营销 | 电商/零售 | 数据分析 | 预测误差：35%→8% |
 | 97 | [AI演示文稿构建器](/zh/use-cases/role/content-marketing#_19-ai演示文稿构建器) | 营销 | 科技/SaaS | 写作与内容 | 15小时→1小时 |
 | 98 | [AI客户健康度评分器](/zh/use-cases/role/sales#_16-ai客户健康度评分器) | 销售 | 科技/SaaS | 数据分析 | 覆盖率：20%→100% |
-| 99 | [AI工作流自动化器](/zh/use-cases/role/product-dev#_23-ai工作流自动化器) | 研发 | 科技/SaaS | 流程自动化 | 自动化：15%→78% |
+| 99 | [AI工作流自动化器](/zh/use-cases/role/dev#_23-ai工作流自动化器) | 研发 | 科技/SaaS | 流程自动化 | 自动化：15%→78% |
 | 100 | [AI RFP响应撰写助手](/zh/use-cases/role/sales#_17-ai-rfp响应撰写助手) | 销售 | 科技/SaaS | 写作与内容 | 40小时→8小时 |
 | 101 | [AI合同分析师](/zh/use-cases/role/legal#_1-ai合同分析师) | 法律 | 企业通用 | 流程自动化 | 50页文档 → 3 分钟 |
 | 102 | [AI患者入院处理器](/zh/use-cases/role/operations#_23-ai患者入院处理器) | 运营 | 医疗健康 | 流程自动化 | 人工录入 → 90 秒 |
@@ -218,27 +218,27 @@
 | 148 | [AI认证合规检查器](/zh/use-cases/role/compliance-officer#_5-ai认证合规检查器) | 合规官 | 教育 | 调研与监控 | 手动 → 自动化 |
 | 149 | [AI商标冲突检索器](/zh/use-cases/role/legal#_4-ai商标冲突检索器) | 法律 | 企业通用 | 调研与监控 | 手动 → 10 分钟 |
 | 150 | [AI运费谈判助手](/zh/use-cases/role/procurement#_2-ai运费谈判助手) | 采购 | 物流 | 流程自动化 | 12% 提升 |
-| 151 | [AI活动后勤规划器](/zh/use-cases/role/pm#_1-ai活动后勤规划器) | 项目经理 | 酒店餐饮 | 流程自动化 | 人工数天 → 15 分钟 |
+| 151 | [AI活动后勤规划器](/zh/use-cases/role/product#_1-ai活动后勤规划器) | 项目经理 | 酒店餐饮 | 流程自动化 | 人工数天 → 15 分钟 |
 | 152 | [AI安全事故报告器](/zh/use-cases/role/compliance-officer#_6-ai安全事故报告器) | 合规官 | 制造业 | 流程自动化 | 数小时 → 分钟 |
 | 153 | [AI对标分析师](/zh/use-cases/role/consultant#_5-ai对标分析师) | 咨询顾问 | 咨询 | 数据分析 | 数小时 → 分钟 |
 | 154 | [AI影响力评估报告器](/zh/use-cases/role/data-analyst#_10-ai影响力评估报告器) | 数据分析师 | 非营利 | 写作与内容 | 手动 → 20 分钟 |
 | 155 | [AI信息公开请求处理器](/zh/use-cases/role/legal#_5-ai信息公开请求处理器) | 法律 | 政府 | 流程自动化 | 手动 → 自动化 |
 | 156 | [AI供应链风险评分器](/zh/use-cases/role/procurement#_3-ai供应链风险评分器) | 采购 | 制造业 | 调研与监控 | 数小时 → 分钟 |
-| 157 | [AI API迁移规划器](/zh/use-cases/role/product-dev#_24-ai-api迁移规划器) | 产品/研发 | 科技/SaaS | 调研与监控 | 数小时 → 分钟 |
+| 157 | [AI API迁移规划器](/zh/use-cases/role/dev#_24-ai-api迁移规划器) | 产品/研发 | 科技/SaaS | 调研与监控 | 数小时 → 分钟 |
 | 158 | [AI临床笔记摘要器](/zh/use-cases/role/operations#_31-ai临床笔记摘要器) | 运营 | 医疗健康 | 写作与内容 | 数小时 → 分钟 |
 | 159 | [AI论文评分助手](/zh/use-cases/role/trainer#_4-ai论文评分助手) | 培训师 | 教育 | 流程自动化 | 手动 → 2 分钟 |
 | 160 | [AI法规变更追踪器](/zh/use-cases/role/legal#_6-ai法规变更追踪器) | 法律 | 金融服务 | 调研与监控 | 手动 → 实时 |
 | 161 | [AI最后一公里配送追踪器](/zh/use-cases/role/logistics-manager#_4-ai最后一公里配送追踪器) | 物流经理 | 电商/零售 | 调研与监控 | 手动 → 实时 |
 | 162 | [AI平面图分析器](/zh/use-cases/role/data-analyst#_11-ai平面图分析器) | 数据分析师 | 房地产 | 数据分析 | 人工检查 → 2 分钟 |
 | 163 | [AI高管简报生成器](/zh/use-cases/role/executive#_1-ai高管简报生成器) | 高管 | 企业通用 | 写作与内容 | 手动 → 5 分钟 |
-| 164 | [AI电子病历数据迁移器](/zh/use-cases/role/product-dev#_25-ai电子病历数据迁移器) | 产品/研发 | 医疗健康 | 流程自动化 | 数小时 → 分钟 |
+| 164 | [AI电子病历数据迁移器](/zh/use-cases/role/dev#_25-ai电子病历数据迁移器) | 产品/研发 | 医疗健康 | 流程自动化 | 数小时 → 分钟 |
 | 165 | [AI学习路径构建器](/zh/use-cases/role/trainer#_5-ai学习路径构建器) | 培训师 | 教育 | 流程自动化 | 数天 → 分钟 |
 | 166 | [AI诉讼保全管理器](/zh/use-cases/role/legal#_7-ai诉讼保全管理器) | 法律 | 企业通用 | 流程自动化 | 数小时 → 分钟 |
 | 167 | [AI越库调度器](/zh/use-cases/role/logistics-manager#_5-ai越库调度器) | 物流经理 | 物流 | 流程自动化 | 45% 提升 |
 | 168 | [AI客房清洁调度器](/zh/use-cases/role/operations#_32-ai客房清洁调度器) | 运营 | 酒店餐饮 | 流程自动化 | 成本 -25% |
 | 169 | [AI生产批次优化器](/zh/use-cases/role/operations#_33-ai生产批次优化器) | 运营 | 制造业 | 流程自动化 | 效率 +15% |
 | 170 | [AI市场规模建模器](/zh/use-cases/role/consultant#_6-ai市场规模建模器) | 咨询顾问 | 咨询 | 数据分析 | 人工数天 → 20 分钟 |
-| 171 | [AI筹款活动策划器](/zh/use-cases/role/pm#_2-ai筹款活动策划器) | 项目经理 | 非营利 | 流程自动化 | 数小时 → 分钟 |
+| 171 | [AI筹款活动策划器](/zh/use-cases/role/product#_2-ai筹款活动策划器) | 项目经理 | 非营利 | 流程自动化 | 数小时 → 分钟 |
 | 172 | [AI预算差异分析师](/zh/use-cases/role/finance#_16-ai预算差异分析师) | 财务 | 政府 | 数据分析 | 5% 提升 |
 | 173 | [AI土壤健康报告器](/zh/use-cases/role/data-analyst#_12-ai土壤健康报告器) | 数据分析师 | 农业 | 数据分析 | 数小时 → 分钟 |
 | 174 | [AI能源交易助手](/zh/use-cases/role/finance#_17-ai能源交易助手) | 财务 | 能源 | 数据分析 | 数小时 → 分钟 |
@@ -261,26 +261,26 @@
 | 191 | [AI受众分群引擎](/zh/use-cases/role/content-marketing#_23-ai受众分群引擎) | 内容/营销 | 媒体娱乐 | 流程自动化 | 数小时 → 分钟 |
 | 192 | [AI工单预测器](/zh/use-cases/role/customer-support#_14-ai工单预测器) | 客服 | 电信 | 调研与监控 | 数天 → 6 小时 |
 | 193 | [AI试驾调度器](/zh/use-cases/role/sales#_22-ai试驾调度器) | 销售 | 汽车 | 流程自动化 | 90% 提升 |
-| 194 | [AI依赖漏洞扫描器](/zh/use-cases/role/product-dev#_26-ai依赖漏洞扫描器) | 产品/研发 | 科技/SaaS | 调研与监控 | 手动 → 实时 |
+| 194 | [AI依赖漏洞扫描器](/zh/use-cases/role/dev#_26-ai依赖漏洞扫描器) | 产品/研发 | 科技/SaaS | 调研与监控 | 手动 → 实时 |
 | 195 | [AI租户筛查处理器](/zh/use-cases/role/operations#_36-ai租户筛查处理器) | 运营 | 房地产 | 流程自动化 | 人工数天 → 3 分钟 |
 | 196 | [AI OKR进度追踪器](/zh/use-cases/role/executive#_3-ai-okr进度追踪器) | 高管 | 企业通用 | 流程自动化 | 手动 → 实时 |
 | 197 | [AI转诊网络绘制器](/zh/use-cases/role/sales#_23-ai转诊网络绘制器) | 销售 | 医疗健康 | 调研与监控 | 数小时 → 分钟 |
 | 198 | [AI市场比较分析构建器](/zh/use-cases/role/sales#_24-ai市场比较分析构建器) | 销售 | 房地产 | 数据分析 | 数小时 → 分钟 |
 | 199 | [AI董事会会议准备助手](/zh/use-cases/role/executive#_4-ai董事会会议准备助手) | 高管 | 企业通用 | 调研与监控 | 数小时 → 分钟 |
 | 200 | [AI无障碍合规检查器](/zh/use-cases/role/qa-engineer#_3-ai无障碍合规检查器) | QA工程师 | 科技/SaaS | 调研与监控 | 手动 → 自动化 |
-| 201 | [AI API文档生成器](/zh/use-cases/role/product-dev#_201-ai-api-documentation-generator) | 产品/研发 | 科技/SaaS | writing-content | 20分钟 |
+| 201 | [AI API文档生成器](/zh/use-cases/role/dev#_201-ai-api-documentation-generator) | 产品/研发 | 科技/SaaS | writing-content | 20分钟 |
 | 202 | [AI功能开关影响分析器](/zh/use-cases/role/operations#_202-ai-feature-flag-impact-analyzer) | product-dev | 科技/SaaS | data-analysis | 5分钟 |
-| 203 | [AI技术债务优先级排序器](/zh/use-cases/role/product-dev#_203-ai-technical-debt-prioritizer) | 产品/研发 | 科技/SaaS | planning-strategy | 30% |
+| 203 | [AI技术债务优先级排序器](/zh/use-cases/role/dev#_203-ai-technical-debt-prioritizer) | 产品/研发 | 科技/SaaS | planning-strategy | 30% |
 | 204 | [AI SaaS流失预测器](/zh/use-cases/role/data-analyst#_204-ai-saas-churn-predictor) | 数据分析师 | 科技/SaaS | data-analysis | 60天 |
 | 205 | [AI事故复盘报告生成器](/zh/use-cases/role/devops#_205-ai-incident-postmortem-writer) | DevOps | 科技/SaaS | writing-content | 15分钟 |
 | 206 | [AI定价页面优化器](/zh/use-cases/role/operations#_206-ai-pricing-page-optimizer) | growth-hacker | 科技/SaaS | data-analysis | 23% |
-| 207 | [AI个性化引导流程](/zh/use-cases/role/pm#_207-ai-onboarding-flow-personalizer) | 产品经理 | 科技/SaaS | process-automation | 45% |
-| 208 | [AI代码审查助手](/zh/use-cases/role/product-dev#_208-ai-code-review-assistant) | 产品/研发 | 科技/SaaS | code-development | 73% |
-| 209 | [AI发版说明生成器](/zh/use-cases/role/pm#_209-ai-release-notes-generator) | 产品经理 | 科技/SaaS | writing-content | 2小时 |
+| 207 | [AI个性化引导流程](/zh/use-cases/role/product#_207-ai-onboarding-flow-personalizer) | 产品经理 | 科技/SaaS | process-automation | 45% |
+| 208 | [AI代码审查助手](/zh/use-cases/role/dev#_208-ai-code-review-assistant) | 产品/研发 | 科技/SaaS | code-development | 73% |
+| 209 | [AI发版说明生成器](/zh/use-cases/role/product#_209-ai-release-notes-generator) | 产品经理 | 科技/SaaS | writing-content | 2小时 |
 | 210 | [AI依赖更新规划器](/zh/use-cases/role/devops#_210-ai-dependency-update-planner) | DevOps | 科技/SaaS | testing-qa | 10分钟 |
 | 211 | [AI用户反馈分类器](/zh/use-cases/role/operations#_211-ai-user-feedback-classifier) | product-dev | 科技/SaaS | data-analysis | 显著提升 |
 | 212 | [AI本地化质量检查器](/zh/use-cases/role/qa-engineer#_212-ai-localization-qa-checker) | QA工程师 | 科技/SaaS | testing-qa | 3天 |
-| 213 | [AI竞品功能追踪器](/zh/use-cases/role/pm#_213-ai-competitive-feature-tracker) | 产品经理 | 科技/SaaS | research-monitoring | 24小时 |
+| 213 | [AI竞品功能追踪器](/zh/use-cases/role/product#_213-ai-competitive-feature-tracker) | 产品经理 | 科技/SaaS | research-monitoring | 24小时 |
 | 214 | [AI内容审核引擎](/zh/use-cases/role/operations#_214-ai-content-moderation-engine) | 运营 | 互联网 | process-automation | 85% |
 | 215 | [AI SEO内容优化器](/zh/use-cases/role/operations#_215-ai-seo-content-optimizer) | content-marketing | 互联网 | writing-content | 显著提升 |
 | 216 | [AI广告创意生成器](/zh/use-cases/role/operations#_216-ai-ad-creative-generator) | marketing | 互联网 | writing-content | 80% |
@@ -297,7 +297,7 @@
 | 227 | [AI提示词工程优化器](/zh/use-cases/role/operations#_227-ai-prompt-engineering-optimizer) | ai-engineer | AI/ML | testing-qa | 显著提升 |
 | 228 | [AI大模型成本优化器](/zh/use-cases/role/operations#_228-ai-llm-cost-optimizer) | ai-engineer | AI/ML | process-automation | 55% |
 | 229 | [AI标注质量检查器](/zh/use-cases/role/qa-engineer#_229-ai-annotation-quality-checker) | QA工程师 | AI/ML | testing-qa | 91% |
-| 230 | [AI RAG流水线调试器](/zh/use-cases/role/product-dev#_230-ai-rag-pipeline-debugger) | 产品/研发 | AI/ML | testing-qa | 12% |
+| 230 | [AI RAG流水线调试器](/zh/use-cases/role/dev#_230-ai-rag-pipeline-debugger) | 产品/研发 | AI/ML | testing-qa | 12% |
 | 231 | [AI机器学习实验追踪器](/zh/use-cases/role/operations#_231-ai-ml-experiment-tracker) | ai-engineer | AI/ML | data-analysis | 10小时 |
 | 232 | [AI合成数据生成器](/zh/use-cases/role/operations#_232-ai-synthetic-data-generator) | ai-engineer | AI/ML | data-analysis | 10倍 |
 | 233 | [AI模型卡片生成器](/zh/use-cases/role/compliance-officer#_233-ai-model-card-generator) | 合规官 | AI/ML | writing-content | 显著提升 |
@@ -323,9 +323,9 @@
 | 253 | [AI游戏经济平衡器](/zh/use-cases/role/data-analyst#_253-ai-game-economy-balancer) | 数据分析师 | 游戏 | data-analysis | 显著提升 |
 | 254 | [AI玩家流失预测器](/zh/use-cases/role/data-analyst#_254-ai-player-churn-predictor) | 数据分析师 | 游戏 | data-analysis | 7天 |
 | 255 | [AI NPC对话编写器](/zh/use-cases/role/operations#_255-ai-npc-dialogue-writer) | content-marketing | 游戏 | writing-content | 显著提升 |
-| 256 | [AI匹配系统优化器](/zh/use-cases/role/product-dev#_256-ai-matchmaking-optimizer) | 产品/研发 | 游戏 | process-automation | 35% |
+| 256 | [AI匹配系统优化器](/zh/use-cases/role/dev#_256-ai-matchmaking-optimizer) | 产品/研发 | 游戏 | process-automation | 35% |
 | 257 | [AI游戏QA猎虫器](/zh/use-cases/role/qa-engineer#_257-ai-game-qa-bug-hunter) | QA工程师 | 游戏 | testing-qa | 10时 |
-| 258 | [AI LiveOps活动策划器](/zh/use-cases/role/pm#_258-ai-liveops-event-planner) | 产品经理 | 游戏 | planning-strategy | 31% |
+| 258 | [AI LiveOps活动策划器](/zh/use-cases/role/product#_258-ai-liveops-event-planner) | 产品经理 | 游戏 | planning-strategy | 31% |
 | 259 | [AI游戏本地化适配器](/zh/use-cases/role/operations#_259-ai-game-localization-adapter) | 运营 | 游戏 | writing-content | 60% |
 | 260 | [AI变现A/B测试器](/zh/use-cases/role/data-analyst#_260-ai-monetization-ab-tester) | 数据分析师 | 游戏 | data-analysis | 25% |
 | 261 | [AI反作弊模式检测器](/zh/use-cases/role/devops#_261-ai-anti-cheat-pattern-detector) | DevOps | 游戏 | data-analysis | 1% |
@@ -346,7 +346,7 @@
 | 276 | [AI内容日历规划器](/zh/use-cases/role/operations#_276-ai-content-calendar-planner) | content-marketing | 媒体娱乐 | planning-strategy | 90天 |
 | 277 | [AI视频片段提取器](/zh/use-cases/role/operations#_277-ai-video-clip-extractor) | content-marketing | 媒体娱乐 | process-automation | 20分钟 |
 | 278 | [AI受众重叠分析器](/zh/use-cases/role/operations#_278-ai-audience-overlap-analyzer) | marketing | 媒体娱乐 | data-analysis | 85% |
-| 279 | [AI剧本拆解助手](/zh/use-cases/role/pm#_279-ai-script-breakdown-assistant) | 产品经理 | 媒体娱乐 | process-automation | 2天 |
+| 279 | [AI剧本拆解助手](/zh/use-cases/role/product#_279-ai-script-breakdown-assistant) | 产品经理 | 媒体娱乐 | process-automation | 2天 |
 | 280 | [AI音乐版权清查器](/zh/use-cases/role/legal#_280-ai-music-rights-clearance-checker) | 法务 | 媒体娱乐 | compliance-audit | 显著提升 |
 | 281 | [AI患者入院自动化器](/zh/use-cases/role/operations#_281-ai-patient-intake-automator) | 运营 | 医疗健康 | process-automation | 25分钟 |
 | 282 | [AI医学文献综述器](/zh/use-cases/role/data-analyst#_282-ai-medical-literature-reviewer) | 数据分析师 | 医疗健康 | research-monitoring | 1天 |
@@ -361,30 +361,30 @@
 | 291 | [AI公众评论分析器](/zh/use-cases/role/data-analyst#_291-ai-public-comment-analyzer) | 数据分析师 | 政府 | data-analysis | 2天 |
 | 292 | [AI拨款匹配引擎](/zh/use-cases/role/operations#_292-ai-grant-matching-engine) | 运营 | 非营利 | research-monitoring | 显著提升 |
 | 293 | [AI使用分析报告器](/zh/use-cases/role/data-analyst#_293-ai-usage-analytics-reporter) | 数据分析师 | 科技/SaaS | reporting-analytics | 6小时 |
-| 294 | [AI SDK集成指南编写器](/zh/use-cases/role/product-dev#_294-ai-sdk-integration-guide-writer) | 产品/研发 | 科技/SaaS | writing-content | 3倍 |
+| 294 | [AI SDK集成指南编写器](/zh/use-cases/role/dev#_294-ai-sdk-integration-guide-writer) | 产品/研发 | 科技/SaaS | writing-content | 3倍 |
 | 295 | [AI客户健康评分器](/zh/use-cases/role/customer-support#_295-ai-customer-health-scorer) | 客服 | 科技/SaaS | data-analysis | 90天 |
-| 296 | [AI迭代速率预测器](/zh/use-cases/role/pm#_296-ai-sprint-velocity-forecaster) | 产品经理 | 科技/SaaS | data-analysis | 85% |
-| 297 | [AI数据库查询优化器](/zh/use-cases/role/product-dev#_297-ai-database-query-optimizer) | 产品/研发 | 科技/SaaS | code-development | 45% |
+| 296 | [AI迭代速率预测器](/zh/use-cases/role/product#_296-ai-sprint-velocity-forecaster) | 产品经理 | 科技/SaaS | data-analysis | 85% |
+| 297 | [AI数据库查询优化器](/zh/use-cases/role/dev#_297-ai-database-query-optimizer) | 产品/研发 | 科技/SaaS | code-development | 45% |
 | 298 | [AI变更日志聚合器](/zh/use-cases/role/devops#_298-ai-changelog-aggregator) | DevOps | 科技/SaaS | research-monitoring | 6小时 |
 | 299 | [AI错误信息优化器](/zh/use-cases/role/operations#_299-ai-error-message-improver) | ux-researcher | 科技/SaaS | writing-content | 32% |
 | 300 | [AI权限模型审计器](/zh/use-cases/role/devops#_300-ai-permission-model-auditor) | DevOps | 科技/SaaS | compliance-audit | 显著提升 |
-| 301 | [AI API限流策略设计器](/zh/use-cases/role/product-dev#_301-ai-api-rate-limit-designer) | 产品/研发 | 科技/SaaS | planning-strategy | 显著提升 |
+| 301 | [AI API限流策略设计器](/zh/use-cases/role/dev#_301-ai-api-rate-limit-designer) | 产品/研发 | 科技/SaaS | planning-strategy | 显著提升 |
 | 302 | [AI客户迁移规划器](/zh/use-cases/role/operations#_302-ai-customer-migration-planner) | 运营 | 科技/SaaS | process-automation | 2天 |
 | 303 | [AI SaaS指标基准对比器](/zh/use-cases/role/executive#_303-ai-saas-metric-benchmarker) | 高管 | 科技/SaaS | reporting-analytics | 显著提升 |
 | 304 | [AI Webhook可靠性监控器](/zh/use-cases/role/devops#_304-ai-webhook-reliability-monitor) | DevOps | 科技/SaaS | research-monitoring | 显著提升 |
 | 305 | [AI多租户成本分配器](/zh/use-cases/role/finance#_305-ai-multi-tenant-cost-allocator) | 财务 | 科技/SaaS | data-analysis | 显著提升 |
-| 306 | [AI功能需求去重器](/zh/use-cases/role/pm#_306-ai-feature-request-deduplicator) | 产品经理 | 科技/SaaS | data-analysis | 显著提升 |
+| 306 | [AI功能需求去重器](/zh/use-cases/role/product#_306-ai-feature-request-deduplicator) | 产品经理 | 科技/SaaS | data-analysis | 显著提升 |
 | 307 | [AI试用转化优化器](/zh/use-cases/role/sales#_307-ai-trial-conversion-optimizer) | 销售 | 科技/SaaS | data-analysis | 4倍 |
 | 308 | [AI落地页文案生成器](/zh/use-cases/role/operations#_308-ai-landing-page-copy-generator) | content-marketing | 互联网 | writing-content | 27% |
 | 309 | [AI邮件个性化引擎](/zh/use-cases/role/operations#_309-ai-newsletter-personalization-engine) | marketing | 互联网 | customer-engagement | 38% |
-| 310 | [AI站点地图健康检查器](/zh/use-cases/role/product-dev#_310-ai-sitemap-health-checker) | 产品/研发 | 互联网 | testing-qa | 显著提升 |
+| 310 | [AI站点地图健康检查器](/zh/use-cases/role/dev#_310-ai-sitemap-health-checker) | 产品/研发 | 互联网 | testing-qa | 显著提升 |
 | 311 | [AI用户会话回放摘要器](/zh/use-cases/role/operations#_311-ai-user-session-replay-summarizer) | ux-researcher | 互联网 | data-analysis | 40小时 |
 | 312 | [AI社会证明收集器](/zh/use-cases/role/operations#_312-ai-social-proof-collector) | marketing | 互联网 | research-monitoring | 显著提升 |
 | 313 | [AI联盟欺诈检测器](/zh/use-cases/role/operations#_313-ai-affiliate-fraud-detector) | 运营 | 互联网 | data-analysis | 显著提升 |
 | 314 | [AI内容再利用器](/zh/use-cases/role/operations#_314-ai-content-repurposer) | content-marketing | 互联网 | writing-content | 10倍 |
 | 315 | [AI竞品定价追踪器](/zh/use-cases/role/operations#_315-ai-pricing-competitor-tracker) | marketing | 互联网 | research-monitoring | 24小时 |
 | 316 | [AI工单预防器](/zh/use-cases/role/customer-support#_316-ai-support-ticket-deflector) | 客服 | 互联网 | customer-engagement | 45% |
-| 317 | [AI页面速度优化器](/zh/use-cases/role/product-dev#_317-ai-page-speed-optimizer) | 产品/研发 | 互联网 | code-development | 40% |
+| 317 | [AI页面速度优化器](/zh/use-cases/role/dev#_317-ai-page-speed-optimizer) | 产品/研发 | 互联网 | code-development | 40% |
 | 318 | [AI多平台发布器](/zh/use-cases/role/operations#_318-ai-multi-platform-publisher) | content-marketing | 互联网 | process-automation | 显著提升 |
 | 319 | [AI数据管道监控器](/zh/use-cases/role/devops#_319-ai-data-pipeline-monitor) | DevOps | AI/ML | research-monitoring | 78% |
 | 320 | [AI偏差检测扫描器](/zh/use-cases/role/compliance-officer#_320-ai-bias-detection-scanner) | 合规官 | AI/ML | testing-qa | 显著提升 |
@@ -427,14 +427,14 @@
 | 357 | [AI供应商交期预测器](/zh/use-cases/role/procurement#_357-ai-supplier-lead-time-predictor) | 采购 | 电商 | data-analysis | 30% |
 | 358 | [AI客户生命周期价值建模器](/zh/use-cases/role/data-analyst#_358-ai-customer-lifetime-value-modeler) | 数据分析师 | 电商 | data-analysis | 显著提升 |
 | 359 | [AI仓库拣货路径优化器](/zh/use-cases/role/operations#_359-ai-warehouse-pick-path-optimizer) | 运营 | 电商 | process-automation | 28% |
-| 360 | [AI Gas费优化器](/zh/use-cases/role/product-dev#_360-ai-gas-fee-optimizer) | 产品/研发 | Crypto/Web3 | process-automation | 60% |
+| 360 | [AI Gas费优化器](/zh/use-cases/role/dev#_360-ai-gas-fee-optimizer) | 产品/研发 | Crypto/Web3 | process-automation | 60% |
 | 361 | [AI NFT估值引擎](/zh/use-cases/role/data-analyst#_361-ai-nft-valuation-engine) | 数据分析师 | Crypto/Web3 | data-analysis | 15% |
 | 362 | [AI DeFi协议风险评分器](/zh/use-cases/role/data-analyst#_362-ai-protocol-risk-scorer) | 数据分析师 | Crypto/Web3 | data-analysis | 显著提升 |
 | 363 | [AI空投资格检查器](/zh/use-cases/role/data-analyst#_363-ai-airdrop-eligibility-checker) | 数据分析师 | Crypto/Web3 | research-monitoring | 显著提升 |
 | 364 | [AI MEV防护顾问](/zh/use-cases/role/devops#_364-ai-mev-protection-advisor) | DevOps | Crypto/Web3 | data-analysis | 显著提升 |
 | 365 | [AI跨链桥监控器](/zh/use-cases/role/devops#_365-ai-cross-chain-bridge-monitor) | DevOps | Crypto/Web3 | research-monitoring | 显著提升 |
 | 366 | [AI缩略图A/B测试器](/zh/use-cases/role/operations#_366-ai-thumbnail-ab-tester) | content-marketing | 媒体娱乐 | data-analysis | 35% |
-| 367 | [AI播客嘉宾匹配器](/zh/use-cases/role/pm#_367-ai-podcast-guest-matcher) | 产品经理 | 媒体娱乐 | research-monitoring | 10分钟 |
+| 367 | [AI播客嘉宾匹配器](/zh/use-cases/role/product#_367-ai-podcast-guest-matcher) | 产品经理 | 媒体娱乐 | research-monitoring | 10分钟 |
 | 368 | [AI字幕质量检查器](/zh/use-cases/role/qa-engineer#_368-ai-subtitle-quality-checker) | QA工程师 | 媒体娱乐 | testing-qa | 94% |
 | 369 | [AI热门话题预测器](/zh/use-cases/role/operations#_369-ai-trending-topic-predictor) | content-marketing | 媒体娱乐 | research-monitoring | 72小时 |
 | 370 | [AI赞助费率计算器](/zh/use-cases/role/sales#_370-ai-sponsorship-rate-calculator) | 销售 | 媒体娱乐 | data-analysis | 显著提升 |
@@ -450,9 +450,9 @@
 | 380 | [AI客户扩展信号检测器](/zh/use-cases/role/sales#_380-ai-customer-expansion-signal-detector) | 销售 | 科技/SaaS | data-analysis | 显著提升 |
 | 381 | [AI SLA合规监控器](/zh/use-cases/role/devops#_381-ai-sla-compliance-monitor) | DevOps | 科技/SaaS | compliance-audit | 显著提升 |
 | 382 | [AI数据导出合规检查器](/zh/use-cases/role/compliance-officer#_382-ai-data-export-compliance-checker) | 合规官 | 科技/SaaS | compliance-audit | 显著提升 |
-| 383 | [AI产品导览构建器](/zh/use-cases/role/pm#_383-ai-product-tour-builder) | 产品经理 | 科技/SaaS | customer-engagement | 45% |
+| 383 | [AI产品导览构建器](/zh/use-cases/role/product#_383-ai-product-tour-builder) | 产品经理 | 科技/SaaS | customer-engagement | 45% |
 | 384 | [AI支持知识库更新器](/zh/use-cases/role/customer-support#_384-ai-support-knowledge-base-updater) | 客服 | 科技/SaaS | writing-content | 显著提升 |
-| 385 | [AI集成市场排名器](/zh/use-cases/role/pm#_385-ai-integration-marketplace-ranker) | 产品经理 | 科技/SaaS | data-analysis | 显著提升 |
+| 385 | [AI集成市场排名器](/zh/use-cases/role/product#_385-ai-integration-marketplace-ranker) | 产品经理 | 科技/SaaS | data-analysis | 显著提升 |
 | 386 | [AI GDPR数据请求处理器](/zh/use-cases/role/legal#_386-ai-gdpr-data-request-processor) | 法务 | 科技/SaaS | compliance-audit | 2小时 |
 | 387 | [AI微服务依赖映射器](/zh/use-cases/role/devops#_387-ai-microservice-dependency-mapper) | DevOps | 科技/SaaS | code-development | 显著提升 |
 | 388 | [AI客户成功策略手册生成器](/zh/use-cases/role/customer-support#_388-ai-customer-success-playbook-generator) | 客服 | 科技/SaaS | planning-strategy | 显著提升 |
@@ -464,10 +464,10 @@
 | 394 | [AI结账摩擦分析器](/zh/use-cases/role/operations#_394-ai-checkout-friction-analyzer) | ux-researcher | 互联网 | data-analysis | 19% |
 | 395 | [AI邮件送达率优化器](/zh/use-cases/role/operations#_395-ai-email-deliverability-optimizer) | marketing | 互联网 | process-automation | 78% |
 | 396 | [AI用户画像生成器](/zh/use-cases/role/operations#_396-ai-user-persona-generator) | ux-researcher | 互联网 | data-analysis | 显著提升 |
-| 397 | [AI网站无障碍审计器](/zh/use-cases/role/product-dev#_397-ai-website-accessibility-auditor) | 产品/研发 | 互联网 | compliance-audit | 显著提升 |
+| 397 | [AI网站无障碍审计器](/zh/use-cases/role/dev#_397-ai-website-accessibility-auditor) | 产品/研发 | 互联网 | compliance-audit | 显著提升 |
 | 398 | [AI聊天机器人对话设计器](/zh/use-cases/role/customer-support#_398-ai-chatbot-conversation-designer) | 客服 | 互联网 | customer-engagement | 40% |
 | 399 | [AI推荐计划优化器](/zh/use-cases/role/operations#_399-ai-referral-program-optimizer) | growth-hacker | 互联网 | data-analysis | 显著提升 |
-| 400 | [AI网页性能预算执行器](/zh/use-cases/role/product-dev#_400-ai-web-performance-budget-enforcer) | 产品/研发 | 互联网 | testing-qa | 显著提升 |
+| 400 | [AI网页性能预算执行器](/zh/use-cases/role/dev#_400-ai-web-performance-budget-enforcer) | 产品/研发 | 互联网 | testing-qa | 显著提升 |
 | 401 | [AI转化率优化假设生成器](/zh/use-cases/role/operations#_401-ai-cro-hypothesis-generator) | growth-hacker | 互联网 | planning-strategy | 20% |
 | 402 | [AI Cookie同意合规管理器](/zh/use-cases/role/legal#_402-ai-cookie-consent-compliance-manager) | 法务 | 互联网 | compliance-audit | 显著提升 |
 | 403 | [AI用户引导邮件编写器](/zh/use-cases/role/operations#_403-ai-user-onboarding-email-writer) | marketing | 互联网 | customer-engagement | 28% |
@@ -479,7 +479,7 @@
 | 409 | [AI模型蒸馏助手](/zh/use-cases/role/operations#_409-ai-model-distillation-assistant) | ai-engineer | AI/ML | code-development | 10倍小 |
 | 410 | [AI提示注入防御器](/zh/use-cases/role/devops#_410-ai-prompt-injection-defender) | DevOps | AI/ML | testing-qa | 99% |
 | 411 | [AI上下文窗口优化器](/zh/use-cases/role/operations#_411-ai-context-window-optimizer) | ai-engineer | AI/ML | code-development | 显著提升 |
-| 412 | [AI Agent工作流调试器](/zh/use-cases/role/product-dev#_412-ai-agentic-workflow-debugger) | 产品/研发 | AI/ML | testing-qa | 显著提升 |
+| 412 | [AI Agent工作流调试器](/zh/use-cases/role/dev#_412-ai-agentic-workflow-debugger) | 产品/研发 | AI/ML | testing-qa | 显著提升 |
 | 413 | [AI函数调用验证器](/zh/use-cases/role/qa-engineer#_413-ai-function-calling-validator) | QA工程师 | AI/ML | testing-qa | 25% |
 | 414 | [AI训练数据投毒检测器](/zh/use-cases/role/devops#_414-ai-training-data-poisoning-detector) | DevOps | AI/ML | testing-qa | 显著提升 |
 | 415 | [AI模型A/B测试管理器](/zh/use-cases/role/devops#_415-ai-model-a-b-test-manager) | DevOps | AI/ML | process-automation | 显著提升 |
@@ -514,7 +514,7 @@
 | 444 | [AI代币发行分析器](/zh/use-cases/role/data-analyst#_444-ai-token-launch-analyzer) | 数据分析师 | Crypto/Web3 | data-analysis | 95% |
 | 445 | [AI DeFi头寸监控器](/zh/use-cases/role/data-analyst#_445-ai-defi-position-monitor) | 数据分析师 | Crypto/Web3 | reporting-analytics | 显著提升 |
 | 446 | [AI治理投票顾问](/zh/use-cases/role/consultant#_446-ai-governance-voting-advisor) | 咨询顾问 | Crypto/Web3 | research-monitoring | 显著提升 |
-| 447 | [AI Web3开发者文档生成器](/zh/use-cases/role/product-dev#_447-ai-web3-developer-docs-generator) | 产品/研发 | Crypto/Web3 | writing-content | 5倍 |
+| 447 | [AI Web3开发者文档生成器](/zh/use-cases/role/dev#_447-ai-web3-developer-docs-generator) | 产品/研发 | Crypto/Web3 | writing-content | 5倍 |
 | 448 | [AI邮件主题行测试器](/zh/use-cases/role/operations#_448-ai-newsletter-subject-line-tester) | content-marketing | 媒体娱乐 | writing-content | 28% |
 | 449 | [AI内容表现预测器](/zh/use-cases/role/operations#_449-ai-content-performance-predictor) | content-marketing | 媒体娱乐 | data-analysis | 显著提升 |
 | 450 | [AI品牌语调一致性检查器](/zh/use-cases/role/operations#_450-ai-brand-voice-consistency-checker) | content-marketing | 媒体娱乐 | testing-qa | 显著提升 |
@@ -544,19 +544,19 @@
 | 474 | [AI政策影响模拟器](/zh/use-cases/role/data-analyst#_474-ai-policy-impact-simulator) | 数据分析师 | 政府 | data-analysis | 显著提升 |
 | 475 | [AI捐赠者前景研究器](/zh/use-cases/role/sales#_475-ai-donor-prospect-researcher) | 销售 | 非营利 | research-monitoring | 显著提升 |
 | 476 | [AI影响力故事编写器](/zh/use-cases/role/operations#_476-ai-impact-story-writer) | content-marketing | 非营利 | writing-content | 显著提升 |
-| 477 | [AI功能开关分析器](/zh/use-cases/role/pm#_477-ai-feature-flag-analyzer) | 产品经理 | 科技/SaaS | data-analysis | 23% |
-| 478 | [AI冲刺速度优化器](/zh/use-cases/role/pm#_478-ai-sprint-velocity-optimizer) | 产品经理 | 科技/SaaS | project-management | 91% |
+| 477 | [AI功能开关分析器](/zh/use-cases/role/product#_477-ai-feature-flag-analyzer) | 产品经理 | 科技/SaaS | data-analysis | 23% |
+| 478 | [AI冲刺速度优化器](/zh/use-cases/role/product#_478-ai-sprint-velocity-optimizer) | 产品经理 | 科技/SaaS | project-management | 91% |
 | 479 | [AI API速率限制优化器](/zh/use-cases/role/devops#_479-ai-api-rate-limit-optimizer) | DevOps | 科技/SaaS | system-optimization | 67% |
 | 480 | [AI客户健康评分引擎](/zh/use-cases/role/customer-support#_480-ai-customer-health-score-engine) | 客服 | 科技/SaaS | customer-management | 30天 |
 | 481 | [AI发布影响预测器](/zh/use-cases/role/qa-engineer#_481-ai-release-impact-predictor) | QA工程师 | 科技/SaaS | testing | 3天 |
-| 482 | [AI定价层级优化器](/zh/use-cases/role/pm#_482-ai-pricing-tier-optimizer) | 产品经理 | 科技/SaaS | strategy | 18% |
+| 482 | [AI定价层级优化器](/zh/use-cases/role/product#_482-ai-pricing-tier-optimizer) | 产品经理 | 科技/SaaS | strategy | 18% |
 | 483 | [AI SaaS用户引导流程优化器](/zh/use-cases/role/operations#_483-ai-saas-onboarding-flow-optimizer) | ux-researcher | 科技/SaaS | user-research | 34% |
 | 484 | [AI多租户资源分配器](/zh/use-cases/role/devops#_484-ai-multi-tenant-resource-allocator) | DevOps | 科技/SaaS | system-optimization | 28% |
 | 485 | [AI SaaS合规检查器](/zh/use-cases/role/compliance-officer#_485-ai-saas-compliance-checker) | 合规官 | 科技/SaaS | compliance | 显著提升 |
-| 486 | [AI客户反馈分类器](/zh/use-cases/role/pm#_486-ai-customer-feedback-classifier) | 产品经理 | 科技/SaaS | data-analysis | 96% |
+| 486 | [AI客户反馈分类器](/zh/use-cases/role/product#_486-ai-customer-feedback-classifier) | 产品经理 | 科技/SaaS | data-analysis | 96% |
 | 487 | [AI SaaS使用分析仪表板](/zh/use-cases/role/data-analyst#_487-ai-saas-usage-analytics-dashboard) | 数据分析师 | 科技/SaaS | 数据分析 | 8小时 |
 | 488 | [AI事故响应编排器](/zh/use-cases/role/devops#_488-ai-incident-response-orchestrator) | DevOps | 科技/SaaS | incident-management | 显著提升 |
-| 489 | [AI SaaS数据迁移规划器](/zh/use-cases/role/product-dev#_489-ai-saas-data-migration-planner) | 产品/研发 | 科技/SaaS | data-management | 显著提升 |
+| 489 | [AI SaaS数据迁移规划器](/zh/use-cases/role/dev#_489-ai-saas-data-migration-planner) | 产品/研发 | 科技/SaaS | data-management | 显著提升 |
 | 490 | [AI订阅收入预测器](/zh/use-cases/role/finance#_490-ai-subscription-revenue-forecaster) | 财务 | 科技/SaaS | forecasting | 95% |
 | 491 | [AI内容推荐引擎](/zh/use-cases/role/data-analyst#_491-ai-content-recommendation-engine) | 数据分析师 | 互联网 | recommendation | 41% |
 | 492 | [AI广告欺诈检测系统](/zh/use-cases/role/data-analyst#_492-ai-ad-fraud-detection-system) | 数据分析师 | 互联网 | fraud-detection | 显著提升 |
@@ -566,14 +566,14 @@
 | 496 | [AI CDN性能优化器](/zh/use-cases/role/devops#_496-ai-cdn-performance-optimizer) | DevOps | 互联网 | performance | 显著提升 |
 | 497 | [AI A/B测试统计分析器](/zh/use-cases/role/data-analyst#_497-ai-ab-test-statistical-analyzer) | 数据分析师 | 互联网 | experimentation | 显著提升 |
 | 498 | [AI用户获取渠道优化器](/zh/use-cases/role/operations#_498-ai-user-acquisition-channel-optimizer) | marketing | 互联网 | acquisition | 52% |
-| 499 | [AI无限滚动内容排序器](/zh/use-cases/role/product-dev#_499-ai-infinite-scroll-content-ranker) | 产品/研发 | 互联网 | algorithm | 29% |
-| 500 | [AI网页无障碍审核器](/zh/use-cases/role/product-dev#_500-ai-web-accessibility-auditor) | 产品/研发 | 互联网 | accessibility | 87% |
+| 499 | [AI无限滚动内容排序器](/zh/use-cases/role/dev#_499-ai-infinite-scroll-content-ranker) | 产品/研发 | 互联网 | algorithm | 29% |
+| 500 | [AI网页无障碍审核器](/zh/use-cases/role/dev#_500-ai-web-accessibility-auditor) | 产品/研发 | 互联网 | accessibility | 87% |
 | 501 | [AI推送通知优化器](/zh/use-cases/role/operations#_501-ai-push-notification-optimizer) | marketing | 互联网 | engagement | 67% |
 | 502 | [AI网站迁移验证器](/zh/use-cases/role/devops#_502-ai-website-migration-validator) | DevOps | 互联网 | migration | 98% |
 | 503 | [AI评论审核系统](/zh/use-cases/role/operations#_503-ai-comment-moderation-system) | 运营 | 互联网 | content-moderation | 97% |
-| 504 | [AI付费墙转化优化器](/zh/use-cases/role/pm#_504-ai-paywall-conversion-optimizer) | 产品经理 | 互联网 | monetization | 38% |
-| 505 | [AI图片压缩智能系统](/zh/use-cases/role/product-dev#_505-ai-image-compression-intelligence) | 产品/研发 | 互联网 | performance | 54% |
-| 506 | [AI搜索自动补全调优器](/zh/use-cases/role/product-dev#_506-ai-search-autocomplete-tuner) | 产品/研发 | 互联网 | search | 显著提升 |
+| 504 | [AI付费墙转化优化器](/zh/use-cases/role/product#_504-ai-paywall-conversion-optimizer) | 产品经理 | 互联网 | monetization | 38% |
+| 505 | [AI图片压缩智能系统](/zh/use-cases/role/dev#_505-ai-image-compression-intelligence) | 产品/研发 | 互联网 | performance | 54% |
+| 506 | [AI搜索自动补全调优器](/zh/use-cases/role/dev#_506-ai-search-autocomplete-tuner) | 产品/研发 | 互联网 | search | 显著提升 |
 | 507 | [AI暗黑模式检测器](/zh/use-cases/role/operations#_507-ai-dark-pattern-detector) | ux-researcher | 互联网 | compliance | 显著提升 |
 | 508 | [AI模型漂移检测器](/zh/use-cases/role/operations#_508-ai-model-drift-detector) | ai-engineer | AI/ML | model-monitoring | 显著提升 |
 | 509 | [AI GPU集群调度器](/zh/use-cases/role/devops#_509-ai-gpu-cluster-scheduler) | DevOps | AI/ML | infrastructure | 60% |
@@ -606,27 +606,27 @@
 | 536 | [AI市场状态检测器](/zh/use-cases/role/data-analyst#_536-ai-market-regime-detector) | 数据分析师 | 量化 | market-analysis | 显著提升 |
 | 537 | [AI回测基础设施管理器](/zh/use-cases/role/devops#_537-ai-backtesting-infrastructure-manager) | DevOps | 量化 | infrastructure | 显著提升 |
 | 538 | [AI跨资产相关性追踪器](/zh/use-cases/role/data-analyst#_538-ai-cross-asset-correlation-tracker) | 数据分析师 | 量化 | risk-analysis | 显著提升 |
-| 539 | [AI高频交易延迟分析器](/zh/use-cases/role/product-dev#_539-ai-hft-latency-profiler) | 产品/研发 | 量化 | performance | 显著提升 |
+| 539 | [AI高频交易延迟分析器](/zh/use-cases/role/dev#_539-ai-hft-latency-profiler) | 产品/研发 | 量化 | performance | 显著提升 |
 | 540 | [AI因子模型构建器](/zh/use-cases/role/data-analyst#_540-ai-factor-model-constructor) | 数据分析师 | 量化 | factor-analysis | 显著提升 |
 | 541 | [AI交易监控系统](/zh/use-cases/role/compliance-officer#_541-ai-trade-surveillance-system) | 合规官 | 量化 | surveillance | 显著提升 |
 | 542 | [AI衍生品估值引擎](/zh/use-cases/role/data-analyst#_542-ai-derivative-valuation-engine) | 数据分析师 | 量化 | valuation | 10倍 |
 | 543 | [AI做市策略优化器](/zh/use-cases/role/data-analyst#_543-ai-market-making-strategy-optimizer) | 数据分析师 | 量化 | market-making | 23% |
 | 544 | [AI玩家毒性审核器](/zh/use-cases/role/operations#_544-ai-player-toxicity-moderator) | 运营 | 游戏 | content-moderation | 显著提升 |
-| 545 | [AI动态难度调节器](/zh/use-cases/role/product-dev#_545-ai-dynamic-difficulty-adjuster) | 产品/研发 | 游戏 | game-design | 31% |
+| 545 | [AI动态难度调节器](/zh/use-cases/role/dev#_545-ai-dynamic-difficulty-adjuster) | 产品/研发 | 游戏 | game-design | 31% |
 | 546 | [AI抽卡概率优化器](/zh/use-cases/role/data-analyst#_546-ai-loot-box-probability-optimizer) | 数据分析师 | 游戏 | monetization | 显著提升 |
 | 547 | [AI游戏QA机器人军团](/zh/use-cases/role/qa-engineer#_547-ai-game-qa-bot-army) | QA工程师 | 游戏 | testing | 10倍 |
-| 548 | [AI匹配公平引擎](/zh/use-cases/role/product-dev#_548-ai-matchmaking-fairness-engine) | 产品/研发 | 游戏 | matchmaking | 44% |
+| 548 | [AI匹配公平引擎](/zh/use-cases/role/dev#_548-ai-matchmaking-fairness-engine) | 产品/研发 | 游戏 | matchmaking | 44% |
 | 549 | [AI游戏本地化质量检查器](/zh/use-cases/role/qa-engineer#_549-ai-game-localization-quality-checker) | QA工程师 | 游戏 | localization | 显著提升 |
 | 550 | [AI运营活动调度器](/zh/use-cases/role/operations#_550-ai-live-ops-event-scheduler) | 运营 | 游戏 | live-ops | 显著提升 |
 | 551 | [AI反作弊行为分析器](/zh/use-cases/role/devops#_551-ai-anti-cheat-behavioral-analyzer) | DevOps | 游戏 | anti-cheat | 显著提升 |
-| 552 | [AI NPC对话生成器](/zh/use-cases/role/product-dev#_552-ai-npc-dialogue-generator) | 产品/研发 | 游戏 | game-design | 50倍 |
-| 553 | [AI游戏性能分析器](/zh/use-cases/role/product-dev#_553-ai-game-performance-profiler) | 产品/研发 | 游戏 | performance | 显著提升 |
+| 552 | [AI NPC对话生成器](/zh/use-cases/role/dev#_552-ai-npc-dialogue-generator) | 产品/研发 | 游戏 | game-design | 50倍 |
+| 553 | [AI游戏性能分析器](/zh/use-cases/role/dev#_553-ai-game-performance-profiler) | 产品/研发 | 游戏 | performance | 显著提升 |
 | 554 | [AI玩家分群引擎](/zh/use-cases/role/data-analyst#_554-ai-player-segmentation-engine) | 数据分析师 | 游戏 | segmentation | 显著提升 |
-| 555 | [AI游戏资产生成器](/zh/use-cases/role/product-dev#_555-ai-game-asset-generator) | 产品/研发 | 游戏 | content-creation | 70% |
+| 555 | [AI游戏资产生成器](/zh/use-cases/role/dev#_555-ai-game-asset-generator) | 产品/研发 | 游戏 | content-creation | 70% |
 | 556 | [AI电竞数据分析平台](/zh/use-cases/role/data-analyst#_556-ai-esports-analytics-platform) | 数据分析师 | 游戏 | analytics | 60% |
 | 557 | [AI产品评论分析器](/zh/use-cases/role/data-analyst#_557-ai-product-review-analyzer) | 数据分析师 | 电商 | sentiment-analysis | 显著提升 |
 | 558 | [AI退货预测模型](/zh/use-cases/role/data-analyst#_558-ai-return-prediction-model) | 数据分析师 | 电商 | prediction | 82% |
-| 559 | [AI视觉搜索引擎](/zh/use-cases/role/product-dev#_559-ai-visual-search-engine) | 产品/研发 | 电商 | search | 94% |
+| 559 | [AI视觉搜索引擎](/zh/use-cases/role/dev#_559-ai-visual-search-engine) | 产品/研发 | 电商 | search | 94% |
 | 560 | [AI产品描述生成器](/zh/use-cases/role/operations#_560-ai-product-description-generator) | content-marketing | 电商 | content-creation | 显著提升 |
 | 561 | [AI购物车弃单恢复器](/zh/use-cases/role/operations#_561-ai-shopping-cart-abandonment-recoverer) | marketing | 电商 | conversion | 30分钟 |
 | 562 | [AI仓库拣货优化器](/zh/use-cases/role/operations#_562-ai-warehouse-picking-optimizer) | 运营 | 电商 | logistics | 34% |
@@ -637,9 +637,9 @@
 | 567 | [AI DeFi收益策略优化器](/zh/use-cases/role/data-analyst#_567-ai-defi-yield-strategy-optimizer) | 数据分析师 | Crypto/Web3 | yield-optimization | 显著提升 |
 | 568 | [AI NFT稀有度与定价引擎](/zh/use-cases/role/data-analyst#_568-ai-nft-rarity-and-pricing-engine) | 数据分析师 | Crypto/Web3 | valuation | 显著提升 |
 | 569 | [AI治理提案分析器](/zh/use-cases/role/data-analyst#_569-ai-governance-proposal-analyzer) | 数据分析师 | Crypto/Web3 | governance | 显著提升 |
-| 570 | [AI区块链Gas费预测器](/zh/use-cases/role/product-dev#_570-ai-blockchain-gas-fee-predictor) | 产品/研发 | Crypto/Web3 | cost-optimization | 30分钟 |
+| 570 | [AI区块链Gas费预测器](/zh/use-cases/role/dev#_570-ai-blockchain-gas-fee-predictor) | 产品/研发 | Crypto/Web3 | cost-optimization | 30分钟 |
 | 571 | [AI代币发行风险评估器](/zh/use-cases/role/data-analyst#_571-ai-token-launch-risk-assessor) | 数据分析师 | Crypto/Web3 | risk-assessment | 显著提升 |
-| 572 | [AI MEV防护盾](/zh/use-cases/role/product-dev#_572-ai-mev-protection-shield) | 产品/研发 | Crypto/Web3 | security | 显著提升 |
+| 572 | [AI MEV防护盾](/zh/use-cases/role/dev#_572-ai-mev-protection-shield) | 产品/研发 | Crypto/Web3 | security | 显著提升 |
 | 573 | [AI加密税计算器](/zh/use-cases/role/finance#_573-ai-crypto-tax-calculator) | 财务 | Crypto/Web3 | tax-compliance | 显著提升 |
 | 574 | [AI视频内容标签器](/zh/use-cases/role/operations#_574-ai-video-content-tagger) | 运营 | 媒体娱乐 | content-management | 显著提升 |
 | 575 | [AI音乐版税计算器](/zh/use-cases/role/finance#_575-ai-music-royalty-calculator) | 财务 | 媒体娱乐 | royalty-management | 7% |
@@ -729,165 +729,165 @@
 | 659 | [AI收益管理系统](/zh/use-cases/role/data-analyst#_659-ai-revenue-management-system) | 数据分析师 | travel-hospitality | pricing | 12% |
 | 660 | [AI宾客体验个性化器](/zh/use-cases/role/operations#_660-ai-guest-experience-personalizer) | 运营 | travel-hospitality | personalization | 显著提升 |
 | 661 | [AI旅行行程优化器](/zh/use-cases/role/operations#_661-ai-travel-itinerary-optimizer) | 运营 | travel-hospitality | travel-planning | 显著提升 |
-| 662 | [AI 服务健康监控器](/zh/use-cases/role/product-dev#_662-ai-service-health-monitor) | 产品/研发 | 科技/SaaS | 流程自动化 | 4小时 |
+| 662 | [AI 服务健康监控器](/zh/use-cases/role/dev#_662-ai-service-health-monitor) | 产品/研发 | 科技/SaaS | 流程自动化 | 4小时 |
 | 663 | [AI 管道健康监控器](/zh/use-cases/role/devops#_663-ai-pipeline-health-monitor) | DevOps | 科技/SaaS | 调研与监控 | 4小时 |
-| 664 | [AI 租户健康监控器](/zh/use-cases/role/pm#_664-ai-tenant-health-monitor) | 产品经理 | 科技/SaaS | 流程自动化 | 4小时 |
+| 664 | [AI 租户健康监控器](/zh/use-cases/role/product#_664-ai-tenant-health-monitor) | 产品经理 | 科技/SaaS | 流程自动化 | 4小时 |
 | 665 | [AI 部署健康监控器](/zh/use-cases/role/qa-engineer#_665-ai-deployment-health-monitor) | QA工程师 | 科技/SaaS | testing | 4小时 |
 | 666 | [AI 集成健康监控器](/zh/use-cases/role/data-analyst#_666-ai-integration-health-monitor) | 数据分析师 | 科技/SaaS | data-analysis | 4小时 |
 | 667 | [AI 缓存健康监控器](/zh/use-cases/role/customer-support#_667-ai-cache-health-monitor) | 客服 | 科技/SaaS | integration | 4小时 |
 | 668 | [AI 队列健康监控器](/zh/use-cases/role/operations#_668-ai-queue-health-monitor) | 运营 | 科技/SaaS | deployment | 4小时 |
-| 669 | [AI 模式健康监控器](/zh/use-cases/role/product-dev#_669-ai-schema-health-monitor) | 产品/研发 | 科技/SaaS | 流程自动化 | 4小时 |
+| 669 | [AI 模式健康监控器](/zh/use-cases/role/dev#_669-ai-schema-health-monitor) | 产品/研发 | 科技/SaaS | 流程自动化 | 4小时 |
 | 670 | [AI 端点健康监控器](/zh/use-cases/role/devops#_670-ai-endpoint-health-monitor) | DevOps | 科技/SaaS | 调研与监控 | 4小时 |
-| 671 | [AI 集群健康监控器](/zh/use-cases/role/pm#_671-ai-cluster-health-monitor) | 产品经理 | 科技/SaaS | 流程自动化 | 4小时 |
+| 671 | [AI 集群健康监控器](/zh/use-cases/role/product#_671-ai-cluster-health-monitor) | 产品经理 | 科技/SaaS | 流程自动化 | 4小时 |
 | 672 | [AI 服务工作流自动化器](/zh/use-cases/role/qa-engineer#_672-ai-service-workflow-automator) | QA工程师 | 科技/SaaS | testing | 85% |
 | 673 | [AI 管道工作流自动化器](/zh/use-cases/role/data-analyst#_673-ai-pipeline-workflow-automator) | 数据分析师 | 科技/SaaS | data-analysis | 85% |
 | 674 | [AI 租户工作流自动化器](/zh/use-cases/role/customer-support#_674-ai-tenant-workflow-automator) | 客服 | 科技/SaaS | integration | 85% |
 | 675 | [AI 部署工作流自动化器](/zh/use-cases/role/operations#_675-ai-deployment-workflow-automator) | 运营 | 科技/SaaS | deployment | 85% |
-| 676 | [AI 集成工作流自动化器](/zh/use-cases/role/product-dev#_676-ai-integration-workflow-automator) | 产品/研发 | 科技/SaaS | 流程自动化 | 85% |
+| 676 | [AI 集成工作流自动化器](/zh/use-cases/role/dev#_676-ai-integration-workflow-automator) | 产品/研发 | 科技/SaaS | 流程自动化 | 85% |
 | 677 | [AI 缓存工作流自动化器](/zh/use-cases/role/devops#_677-ai-cache-workflow-automator) | DevOps | 科技/SaaS | 调研与监控 | 85% |
-| 678 | [AI 队列工作流自动化器](/zh/use-cases/role/pm#_678-ai-queue-workflow-automator) | 产品经理 | 科技/SaaS | 流程自动化 | 85% |
+| 678 | [AI 队列工作流自动化器](/zh/use-cases/role/product#_678-ai-queue-workflow-automator) | 产品经理 | 科技/SaaS | 流程自动化 | 85% |
 | 679 | [AI 模式工作流自动化器](/zh/use-cases/role/qa-engineer#_679-ai-schema-workflow-automator) | QA工程师 | 科技/SaaS | testing | 85% |
 | 680 | [AI 端点工作流自动化器](/zh/use-cases/role/data-analyst#_680-ai-endpoint-workflow-automator) | 数据分析师 | 科技/SaaS | data-analysis | 85% |
 | 681 | [AI 集群工作流自动化器](/zh/use-cases/role/customer-support#_681-ai-cluster-workflow-automator) | 客服 | 科技/SaaS | integration | 85% |
 | 682 | [AI 服务性能分析器](/zh/use-cases/role/operations#_682-ai-service-performance-analyzer) | 运营 | 科技/SaaS | deployment | 25% |
-| 683 | [AI 管道性能分析器](/zh/use-cases/role/product-dev#_683-ai-pipeline-performance-analyzer) | 产品/研发 | 科技/SaaS | 流程自动化 | 25% |
+| 683 | [AI 管道性能分析器](/zh/use-cases/role/dev#_683-ai-pipeline-performance-analyzer) | 产品/研发 | 科技/SaaS | 流程自动化 | 25% |
 | 684 | [AI 租户性能分析器](/zh/use-cases/role/devops#_684-ai-tenant-performance-analyzer) | DevOps | 科技/SaaS | 调研与监控 | 25% |
-| 685 | [AI 部署性能分析器](/zh/use-cases/role/pm#_685-ai-deployment-performance-analyzer) | 产品经理 | 科技/SaaS | 流程自动化 | 25% |
+| 685 | [AI 部署性能分析器](/zh/use-cases/role/product#_685-ai-deployment-performance-analyzer) | 产品经理 | 科技/SaaS | 流程自动化 | 25% |
 | 686 | [AI 集成性能分析器](/zh/use-cases/role/qa-engineer#_686-ai-integration-performance-analyzer) | QA工程师 | 科技/SaaS | testing | 25% |
 | 687 | [AI 缓存性能分析器](/zh/use-cases/role/data-analyst#_687-ai-cache-performance-analyzer) | 数据分析师 | 科技/SaaS | data-analysis | 25% |
 | 688 | [AI 队列性能分析器](/zh/use-cases/role/customer-support#_688-ai-queue-performance-analyzer) | 客服 | 科技/SaaS | integration | 25% |
 | 689 | [AI 模式性能分析器](/zh/use-cases/role/operations#_689-ai-schema-performance-analyzer) | 运营 | 科技/SaaS | deployment | 25% |
-| 690 | [AI 端点性能分析器](/zh/use-cases/role/product-dev#_690-ai-endpoint-performance-analyzer) | 产品/研发 | 科技/SaaS | 流程自动化 | 25% |
+| 690 | [AI 端点性能分析器](/zh/use-cases/role/dev#_690-ai-endpoint-performance-analyzer) | 产品/研发 | 科技/SaaS | 流程自动化 | 25% |
 | 691 | [AI 集群性能分析器](/zh/use-cases/role/devops#_691-ai-cluster-performance-analyzer) | DevOps | 科技/SaaS | 调研与监控 | 25% |
-| 692 | [AI 服务配置验证器](/zh/use-cases/role/pm#_692-ai-service-configuration-validator) | 产品经理 | 科技/SaaS | 流程自动化 | 显著提升 |
+| 692 | [AI 服务配置验证器](/zh/use-cases/role/product#_692-ai-service-configuration-validator) | 产品经理 | 科技/SaaS | 流程自动化 | 显著提升 |
 | 693 | [AI 管道配置验证器](/zh/use-cases/role/qa-engineer#_693-ai-pipeline-configuration-validator) | QA工程师 | 科技/SaaS | testing | 显著提升 |
 | 694 | [AI 租户配置验证器](/zh/use-cases/role/data-analyst#_694-ai-tenant-configuration-validator) | 数据分析师 | 科技/SaaS | data-analysis | 显著提升 |
 | 695 | [AI 部署配置验证器](/zh/use-cases/role/customer-support#_695-ai-deployment-configuration-validator) | 客服 | 科技/SaaS | integration | 显著提升 |
 | 696 | [AI 集成配置验证器](/zh/use-cases/role/operations#_696-ai-integration-configuration-validator) | 运营 | 科技/SaaS | deployment | 显著提升 |
-| 697 | [AI 缓存配置验证器](/zh/use-cases/role/product-dev#_697-ai-cache-configuration-validator) | 产品/研发 | 科技/SaaS | 流程自动化 | 显著提升 |
+| 697 | [AI 缓存配置验证器](/zh/use-cases/role/dev#_697-ai-cache-configuration-validator) | 产品/研发 | 科技/SaaS | 流程自动化 | 显著提升 |
 | 698 | [AI 队列配置验证器](/zh/use-cases/role/devops#_698-ai-queue-configuration-validator) | DevOps | 科技/SaaS | 调研与监控 | 显著提升 |
-| 699 | [AI 模式配置验证器](/zh/use-cases/role/pm#_699-ai-schema-configuration-validator) | 产品经理 | 科技/SaaS | 流程自动化 | 显著提升 |
+| 699 | [AI 模式配置验证器](/zh/use-cases/role/product#_699-ai-schema-configuration-validator) | 产品经理 | 科技/SaaS | 流程自动化 | 显著提升 |
 | 700 | [AI 端点配置验证器](/zh/use-cases/role/qa-engineer#_700-ai-endpoint-configuration-validator) | QA工程师 | 科技/SaaS | testing | 显著提升 |
 | 701 | [AI 集群配置验证器](/zh/use-cases/role/data-analyst#_701-ai-cluster-configuration-validator) | 数据分析师 | 科技/SaaS | data-analysis | 显著提升 |
 | 702 | [AI 服务容量规划器](/zh/use-cases/role/customer-support#_702-ai-service-capacity-planner) | 客服 | 科技/SaaS | integration | 90天 |
 | 703 | [AI 管道容量规划器](/zh/use-cases/role/operations#_703-ai-pipeline-capacity-planner) | 运营 | 科技/SaaS | deployment | 90天 |
-| 704 | [AI 租户容量规划器](/zh/use-cases/role/product-dev#_704-ai-tenant-capacity-planner) | 产品/研发 | 科技/SaaS | 流程自动化 | 90天 |
+| 704 | [AI 租户容量规划器](/zh/use-cases/role/dev#_704-ai-tenant-capacity-planner) | 产品/研发 | 科技/SaaS | 流程自动化 | 90天 |
 | 705 | [AI 部署容量规划器](/zh/use-cases/role/devops#_705-ai-deployment-capacity-planner) | DevOps | 科技/SaaS | 调研与监控 | 90天 |
-| 706 | [AI 集成容量规划器](/zh/use-cases/role/pm#_706-ai-integration-capacity-planner) | 产品经理 | 科技/SaaS | 流程自动化 | 90天 |
+| 706 | [AI 集成容量规划器](/zh/use-cases/role/product#_706-ai-integration-capacity-planner) | 产品经理 | 科技/SaaS | 流程自动化 | 90天 |
 | 707 | [AI 缓存容量规划器](/zh/use-cases/role/qa-engineer#_707-ai-cache-capacity-planner) | QA工程师 | 科技/SaaS | testing | 90天 |
 | 708 | [AI 队列容量规划器](/zh/use-cases/role/data-analyst#_708-ai-queue-capacity-planner) | 数据分析师 | 科技/SaaS | data-analysis | 90天 |
 | 709 | [AI 模式容量规划器](/zh/use-cases/role/customer-support#_709-ai-schema-capacity-planner) | 客服 | 科技/SaaS | integration | 90天 |
 | 710 | [AI 端点容量规划器](/zh/use-cases/role/operations#_710-ai-endpoint-capacity-planner) | 运营 | 科技/SaaS | deployment | 90天 |
-| 711 | [AI 集群容量规划器](/zh/use-cases/role/product-dev#_711-ai-cluster-capacity-planner) | 产品/研发 | 科技/SaaS | 流程自动化 | 90天 |
+| 711 | [AI 集群容量规划器](/zh/use-cases/role/dev#_711-ai-cluster-capacity-planner) | 产品/研发 | 科技/SaaS | 流程自动化 | 90天 |
 | 712 | [AI 服务迁移助手](/zh/use-cases/role/devops#_712-ai-service-migration-assistant) | DevOps | 科技/SaaS | 调研与监控 | 90% |
-| 713 | [AI 管道迁移助手](/zh/use-cases/role/pm#_713-ai-pipeline-migration-assistant) | 产品经理 | 科技/SaaS | 流程自动化 | 90% |
+| 713 | [AI 管道迁移助手](/zh/use-cases/role/product#_713-ai-pipeline-migration-assistant) | 产品经理 | 科技/SaaS | 流程自动化 | 90% |
 | 714 | [AI 租户迁移助手](/zh/use-cases/role/qa-engineer#_714-ai-tenant-migration-assistant) | QA工程师 | 科技/SaaS | testing | 90% |
 | 715 | [AI 部署迁移助手](/zh/use-cases/role/data-analyst#_715-ai-deployment-migration-assistant) | 数据分析师 | 科技/SaaS | data-analysis | 90% |
 | 716 | [AI 集成迁移助手](/zh/use-cases/role/customer-support#_716-ai-integration-migration-assistant) | 客服 | 科技/SaaS | integration | 90% |
-| 717 | [AI 视频参与追踪器](/zh/use-cases/role/product-dev#_717-ai-video-engagement-tracker) | 产品/研发 | 互联网 | 流程自动化 | 30% |
+| 717 | [AI 视频参与追踪器](/zh/use-cases/role/dev#_717-ai-video-engagement-tracker) | 产品/研发 | 互联网 | 流程自动化 | 30% |
 | 718 | [AI 首页参与追踪器](/zh/use-cases/role/data-analyst#_718-ai-homepage-engagement-tracker) | 数据分析师 | 互联网 | analytics | 30% |
 | 719 | [AI 落地页参与追踪器](/zh/use-cases/role/operations#_719-ai-landing-page-engagement-tracker) | content-marketing | 互联网 | personalization | 30% |
 | 720 | [AI 搜索结果参与追踪器](/zh/use-cases/role/operations#_720-ai-search-result-engagement-tracker) | ux-researcher | 互联网 | seo | 30% |
 | 721 | [AI 产品页参与追踪器](/zh/use-cases/role/operations#_721-ai-product-page-engagement-tracker) | marketing | 互联网 | performance | 30% |
 | 722 | [AI 移动应用参与追踪器](/zh/use-cases/role/devops#_722-ai-mobile-app-engagement-tracker) | DevOps | 互联网 | content-management | 30% |
 | 723 | [AI 信息流参与追踪器](/zh/use-cases/role/operations#_723-ai-feed-engagement-tracker) | 运营 | 互联网 | user-research | 30% |
-| 724 | [AI 通知参与追踪器](/zh/use-cases/role/product-dev#_724-ai-notification-engagement-tracker) | 产品/研发 | 互联网 | 流程自动化 | 30% |
+| 724 | [AI 通知参与追踪器](/zh/use-cases/role/dev#_724-ai-notification-engagement-tracker) | 产品/研发 | 互联网 | 流程自动化 | 30% |
 | 725 | [AI 结账参与追踪器](/zh/use-cases/role/data-analyst#_725-ai-checkout-engagement-tracker) | 数据分析师 | 互联网 | analytics | 30% |
 | 726 | [AI 视频转化优化器](/zh/use-cases/role/operations#_726-ai-video-conversion-optimizer) | content-marketing | 互联网 | personalization | 28% |
 | 727 | [AI 首页转化优化器](/zh/use-cases/role/operations#_727-ai-homepage-conversion-optimizer) | ux-researcher | 互联网 | seo | 28% |
 | 728 | [AI 落地页转化优化器](/zh/use-cases/role/operations#_728-ai-landing-page-conversion-optimizer) | marketing | 互联网 | performance | 28% |
 | 729 | [AI 搜索结果转化优化器](/zh/use-cases/role/devops#_729-ai-search-result-conversion-optimizer) | DevOps | 互联网 | content-management | 28% |
 | 730 | [AI 产品页转化优化器](/zh/use-cases/role/operations#_730-ai-product-page-conversion-optimizer) | 运营 | 互联网 | user-research | 28% |
-| 731 | [AI 移动应用转化优化器](/zh/use-cases/role/product-dev#_731-ai-mobile-app-conversion-optimizer) | 产品/研发 | 互联网 | 流程自动化 | 28% |
+| 731 | [AI 移动应用转化优化器](/zh/use-cases/role/dev#_731-ai-mobile-app-conversion-optimizer) | 产品/研发 | 互联网 | 流程自动化 | 28% |
 | 732 | [AI 信息流转化优化器](/zh/use-cases/role/data-analyst#_732-ai-feed-conversion-optimizer) | 数据分析师 | 互联网 | analytics | 28% |
 | 733 | [AI 通知转化优化器](/zh/use-cases/role/operations#_733-ai-notification-conversion-optimizer) | content-marketing | 互联网 | personalization | 28% |
 | 734 | [AI 结账转化优化器](/zh/use-cases/role/operations#_734-ai-checkout-conversion-optimizer) | ux-researcher | 互联网 | seo | 28% |
 | 735 | [AI 视频内容推荐器](/zh/use-cases/role/operations#_735-ai-video-content-recommender) | marketing | 互联网 | performance | 45% |
 | 736 | [AI 首页内容推荐器](/zh/use-cases/role/devops#_736-ai-homepage-content-recommender) | DevOps | 互联网 | content-management | 45% |
 | 737 | [AI 落地页内容推荐器](/zh/use-cases/role/operations#_737-ai-landing-page-content-recommender) | 运营 | 互联网 | user-research | 45% |
-| 738 | [AI 搜索结果内容推荐器](/zh/use-cases/role/product-dev#_738-ai-search-result-content-recommender) | 产品/研发 | 互联网 | 流程自动化 | 45% |
+| 738 | [AI 搜索结果内容推荐器](/zh/use-cases/role/dev#_738-ai-search-result-content-recommender) | 产品/研发 | 互联网 | 流程自动化 | 45% |
 | 739 | [AI 产品页内容推荐器](/zh/use-cases/role/data-analyst#_739-ai-product-page-content-recommender) | 数据分析师 | 互联网 | analytics | 45% |
 | 740 | [AI 移动应用内容推荐器](/zh/use-cases/role/operations#_740-ai-mobile-app-content-recommender) | content-marketing | 互联网 | personalization | 45% |
 | 741 | [AI 信息流内容推荐器](/zh/use-cases/role/operations#_741-ai-feed-content-recommender) | ux-researcher | 互联网 | seo | 45% |
 | 742 | [AI 通知内容推荐器](/zh/use-cases/role/operations#_742-ai-notification-content-recommender) | marketing | 互联网 | performance | 45% |
 | 743 | [AI 结账内容推荐器](/zh/use-cases/role/devops#_743-ai-checkout-content-recommender) | DevOps | 互联网 | content-management | 45% |
 | 744 | [AI 视频流量分析器](/zh/use-cases/role/operations#_744-ai-video-traffic-analyzer) | 运营 | 互联网 | user-research | 显著提升 |
-| 745 | [AI 首页流量分析器](/zh/use-cases/role/product-dev#_745-ai-homepage-traffic-analyzer) | 产品/研发 | 互联网 | 流程自动化 | 显著提升 |
+| 745 | [AI 首页流量分析器](/zh/use-cases/role/dev#_745-ai-homepage-traffic-analyzer) | 产品/研发 | 互联网 | 流程自动化 | 显著提升 |
 | 746 | [AI 落地页流量分析器](/zh/use-cases/role/data-analyst#_746-ai-landing-page-traffic-analyzer) | 数据分析师 | 互联网 | analytics | 显著提升 |
 | 747 | [AI 搜索结果流量分析器](/zh/use-cases/role/operations#_747-ai-search-result-traffic-analyzer) | content-marketing | 互联网 | personalization | 显著提升 |
 | 748 | [AI 产品页流量分析器](/zh/use-cases/role/operations#_748-ai-product-page-traffic-analyzer) | ux-researcher | 互联网 | seo | 显著提升 |
 | 749 | [AI 移动应用流量分析器](/zh/use-cases/role/operations#_749-ai-mobile-app-traffic-analyzer) | marketing | 互联网 | performance | 显著提升 |
 | 750 | [AI 信息流流量分析器](/zh/use-cases/role/devops#_750-ai-feed-traffic-analyzer) | DevOps | 互联网 | content-management | 显著提升 |
 | 751 | [AI 通知流量分析器](/zh/use-cases/role/operations#_751-ai-notification-traffic-analyzer) | 运营 | 互联网 | user-research | 显著提升 |
-| 752 | [AI 结账流量分析器](/zh/use-cases/role/product-dev#_752-ai-checkout-traffic-analyzer) | 产品/研发 | 互联网 | 流程自动化 | 显著提升 |
+| 752 | [AI 结账流量分析器](/zh/use-cases/role/dev#_752-ai-checkout-traffic-analyzer) | 产品/研发 | 互联网 | 流程自动化 | 显著提升 |
 | 753 | [AI 视频个性化引擎](/zh/use-cases/role/data-analyst#_753-ai-video-personalization-engine) | 数据分析师 | 互联网 | analytics | 35% |
 | 754 | [AI 首页个性化引擎](/zh/use-cases/role/operations#_754-ai-homepage-personalization-engine) | content-marketing | 互联网 | personalization | 35% |
 | 755 | [AI 落地页个性化引擎](/zh/use-cases/role/operations#_755-ai-landing-page-personalization-engine) | ux-researcher | 互联网 | seo | 35% |
 | 756 | [AI 搜索结果个性化引擎](/zh/use-cases/role/operations#_756-ai-search-result-personalization-engine) | marketing | 互联网 | performance | 35% |
 | 757 | [AI 产品页个性化引擎](/zh/use-cases/role/devops#_757-ai-product-page-personalization-engine) | DevOps | 互联网 | content-management | 35% |
 | 758 | [AI 移动应用个性化引擎](/zh/use-cases/role/operations#_758-ai-mobile-app-personalization-engine) | 运营 | 互联网 | user-research | 35% |
-| 759 | [AI 信息流个性化引擎](/zh/use-cases/role/product-dev#_759-ai-feed-personalization-engine) | 产品/研发 | 互联网 | 流程自动化 | 35% |
+| 759 | [AI 信息流个性化引擎](/zh/use-cases/role/dev#_759-ai-feed-personalization-engine) | 产品/研发 | 互联网 | 流程自动化 | 35% |
 | 760 | [AI 通知个性化引擎](/zh/use-cases/role/data-analyst#_760-ai-notification-personalization-engine) | 数据分析师 | 互联网 | analytics | 35% |
 | 761 | [AI 结账个性化引擎](/zh/use-cases/role/operations#_761-ai-checkout-personalization-engine) | content-marketing | 互联网 | personalization | 35% |
 | 762 | [AI 嵌入管道编排器](/zh/use-cases/role/operations#_762-ai-embedding-pipeline-orchestrator) | ai-engineer | AI/ML | model-development | 显著提升 |
 | 763 | [AI 微调管道编排器](/zh/use-cases/role/data-analyst#_763-ai-fine-tuning-pipeline-orchestrator) | 数据分析师 | AI/ML | mlops | 显著提升 |
-| 764 | [AI 分词器管道编排器](/zh/use-cases/role/product-dev#_764-ai-tokenizer-pipeline-orchestrator) | 产品/研发 | AI/ML | evaluation | 显著提升 |
+| 764 | [AI 分词器管道编排器](/zh/use-cases/role/dev#_764-ai-tokenizer-pipeline-orchestrator) | 产品/研发 | AI/ML | evaluation | 显著提升 |
 | 765 | [AI 推理管道编排器](/zh/use-cases/role/devops#_765-ai-inference-pipeline-orchestrator) | DevOps | AI/ML | deployment | 显著提升 |
 | 766 | [AI 训练数据管道编排器](/zh/use-cases/role/operations#_766-ai-training-data-pipeline-orchestrator) | ai-engineer | AI/ML | data-management | 显著提升 |
 | 767 | [AI 模型注册中心管道编排器](/zh/use-cases/role/data-analyst#_767-ai-model-registry-pipeline-orchestrator) | 数据分析师 | AI/ML | training | 显著提升 |
-| 768 | [AI 特征管道管道编排器](/zh/use-cases/role/product-dev#_768-ai-feature-pipeline-pipeline-orchestrator) | 产品/研发 | AI/ML | model-development | 显著提升 |
+| 768 | [AI 特征管道管道编排器](/zh/use-cases/role/dev#_768-ai-feature-pipeline-pipeline-orchestrator) | 产品/研发 | AI/ML | model-development | 显著提升 |
 | 769 | [AI 评估集管道编排器](/zh/use-cases/role/devops#_769-ai-evaluation-set-pipeline-orchestrator) | DevOps | AI/ML | mlops | 显著提升 |
 | 770 | [AI 提示模板管道编排器](/zh/use-cases/role/operations#_770-ai-prompt-template-pipeline-orchestrator) | ai-engineer | AI/ML | evaluation | 显著提升 |
 | 771 | [AI Agent工作流管道编排器](/zh/use-cases/role/data-analyst#_771-ai-agent-workflow-pipeline-orchestrator) | 数据分析师 | AI/ML | deployment | 显著提升 |
-| 772 | [AI 嵌入质量评估器](/zh/use-cases/role/product-dev#_772-ai-embedding-quality-assessor) | 产品/研发 | AI/ML | data-management | 显著提升 |
+| 772 | [AI 嵌入质量评估器](/zh/use-cases/role/dev#_772-ai-embedding-quality-assessor) | 产品/研发 | AI/ML | data-management | 显著提升 |
 | 773 | [AI 微调质量评估器](/zh/use-cases/role/devops#_773-ai-fine-tuning-quality-assessor) | DevOps | AI/ML | training | 显著提升 |
 | 774 | [AI 分词器质量评估器](/zh/use-cases/role/operations#_774-ai-tokenizer-quality-assessor) | ai-engineer | AI/ML | model-development | 显著提升 |
 | 775 | [AI 推理质量评估器](/zh/use-cases/role/data-analyst#_775-ai-inference-quality-assessor) | 数据分析师 | AI/ML | mlops | 显著提升 |
-| 776 | [AI 训练数据质量评估器](/zh/use-cases/role/product-dev#_776-ai-training-data-quality-assessor) | 产品/研发 | AI/ML | evaluation | 显著提升 |
+| 776 | [AI 训练数据质量评估器](/zh/use-cases/role/dev#_776-ai-training-data-quality-assessor) | 产品/研发 | AI/ML | evaluation | 显著提升 |
 | 777 | [AI 模型注册中心质量评估器](/zh/use-cases/role/devops#_777-ai-model-registry-quality-assessor) | DevOps | AI/ML | deployment | 显著提升 |
 | 778 | [AI 特征管道质量评估器](/zh/use-cases/role/operations#_778-ai-feature-pipeline-quality-assessor) | ai-engineer | AI/ML | data-management | 显著提升 |
 | 779 | [AI 评估集质量评估器](/zh/use-cases/role/data-analyst#_779-ai-evaluation-set-quality-assessor) | 数据分析师 | AI/ML | training | 显著提升 |
-| 780 | [AI 提示模板质量评估器](/zh/use-cases/role/product-dev#_780-ai-prompt-template-quality-assessor) | 产品/研发 | AI/ML | model-development | 显著提升 |
+| 780 | [AI 提示模板质量评估器](/zh/use-cases/role/dev#_780-ai-prompt-template-quality-assessor) | 产品/研发 | AI/ML | model-development | 显著提升 |
 | 781 | [AI Agent工作流质量评估器](/zh/use-cases/role/devops#_781-ai-agent-workflow-quality-assessor) | DevOps | AI/ML | mlops | 显著提升 |
 | 782 | [AI 嵌入版本管理器](/zh/use-cases/role/operations#_782-ai-embedding-version-manager) | ai-engineer | AI/ML | evaluation | 显著提升 |
 | 783 | [AI 微调版本管理器](/zh/use-cases/role/data-analyst#_783-ai-fine-tuning-version-manager) | 数据分析师 | AI/ML | deployment | 显著提升 |
-| 784 | [AI 分词器版本管理器](/zh/use-cases/role/product-dev#_784-ai-tokenizer-version-manager) | 产品/研发 | AI/ML | data-management | 显著提升 |
+| 784 | [AI 分词器版本管理器](/zh/use-cases/role/dev#_784-ai-tokenizer-version-manager) | 产品/研发 | AI/ML | data-management | 显著提升 |
 | 785 | [AI 推理版本管理器](/zh/use-cases/role/devops#_785-ai-inference-version-manager) | DevOps | AI/ML | training | 显著提升 |
 | 786 | [AI 训练数据版本管理器](/zh/use-cases/role/operations#_786-ai-training-data-version-manager) | ai-engineer | AI/ML | model-development | 显著提升 |
 | 787 | [AI 模型注册中心版本管理器](/zh/use-cases/role/data-analyst#_787-ai-model-registry-version-manager) | 数据分析师 | AI/ML | mlops | 显著提升 |
-| 788 | [AI 特征管道版本管理器](/zh/use-cases/role/product-dev#_788-ai-feature-pipeline-version-manager) | 产品/研发 | AI/ML | evaluation | 显著提升 |
+| 788 | [AI 特征管道版本管理器](/zh/use-cases/role/dev#_788-ai-feature-pipeline-version-manager) | 产品/研发 | AI/ML | evaluation | 显著提升 |
 | 789 | [AI 评估集版本管理器](/zh/use-cases/role/devops#_789-ai-evaluation-set-version-manager) | DevOps | AI/ML | deployment | 显著提升 |
 | 790 | [AI 提示模板版本管理器](/zh/use-cases/role/operations#_790-ai-prompt-template-version-manager) | ai-engineer | AI/ML | data-management | 显著提升 |
 | 791 | [AI Agent工作流版本管理器](/zh/use-cases/role/data-analyst#_791-ai-agent-workflow-version-manager) | 数据分析师 | AI/ML | training | 显著提升 |
-| 792 | [AI 嵌入基准测试套件](/zh/use-cases/role/product-dev#_792-ai-embedding-benchmark-suite) | 产品/研发 | AI/ML | model-development | 显著提升 |
+| 792 | [AI 嵌入基准测试套件](/zh/use-cases/role/dev#_792-ai-embedding-benchmark-suite) | 产品/研发 | AI/ML | model-development | 显著提升 |
 | 793 | [AI 微调基准测试套件](/zh/use-cases/role/devops#_793-ai-fine-tuning-benchmark-suite) | DevOps | AI/ML | mlops | 显著提升 |
 | 794 | [AI 分词器基准测试套件](/zh/use-cases/role/operations#_794-ai-tokenizer-benchmark-suite) | ai-engineer | AI/ML | evaluation | 显著提升 |
 | 795 | [AI 推理基准测试套件](/zh/use-cases/role/data-analyst#_795-ai-inference-benchmark-suite) | 数据分析师 | AI/ML | deployment | 显著提升 |
-| 796 | [AI 训练数据基准测试套件](/zh/use-cases/role/product-dev#_796-ai-training-data-benchmark-suite) | 产品/研发 | AI/ML | data-management | 显著提升 |
+| 796 | [AI 训练数据基准测试套件](/zh/use-cases/role/dev#_796-ai-training-data-benchmark-suite) | 产品/研发 | AI/ML | data-management | 显著提升 |
 | 797 | [AI 模型注册中心基准测试套件](/zh/use-cases/role/devops#_797-ai-model-registry-benchmark-suite) | DevOps | AI/ML | training | 显著提升 |
 | 798 | [AI 特征管道基准测试套件](/zh/use-cases/role/operations#_798-ai-feature-pipeline-benchmark-suite) | ai-engineer | AI/ML | model-development | 显著提升 |
 | 799 | [AI 评估集基准测试套件](/zh/use-cases/role/data-analyst#_799-ai-evaluation-set-benchmark-suite) | 数据分析师 | AI/ML | mlops | 显著提升 |
-| 800 | [AI 提示模板基准测试套件](/zh/use-cases/role/product-dev#_800-ai-prompt-template-benchmark-suite) | 产品/研发 | AI/ML | evaluation | 显著提升 |
+| 800 | [AI 提示模板基准测试套件](/zh/use-cases/role/dev#_800-ai-prompt-template-benchmark-suite) | 产品/研发 | AI/ML | evaluation | 显著提升 |
 | 801 | [AI Agent工作流基准测试套件](/zh/use-cases/role/devops#_801-ai-agent-workflow-benchmark-suite) | DevOps | AI/ML | deployment | 显著提升 |
 | 802 | [AI 嵌入调试工具](/zh/use-cases/role/operations#_802-ai-embedding-debugging-tool) | ai-engineer | AI/ML | data-management | 显著提升 |
 | 803 | [AI 微调调试工具](/zh/use-cases/role/data-analyst#_803-ai-fine-tuning-debugging-tool) | 数据分析师 | AI/ML | training | 显著提升 |
-| 804 | [AI 分词器调试工具](/zh/use-cases/role/product-dev#_804-ai-tokenizer-debugging-tool) | 产品/研发 | AI/ML | model-development | 显著提升 |
+| 804 | [AI 分词器调试工具](/zh/use-cases/role/dev#_804-ai-tokenizer-debugging-tool) | 产品/研发 | AI/ML | model-development | 显著提升 |
 | 805 | [AI 推理调试工具](/zh/use-cases/role/devops#_805-ai-inference-debugging-tool) | DevOps | AI/ML | mlops | 显著提升 |
 | 806 | [AI 训练数据调试工具](/zh/use-cases/role/operations#_806-ai-training-data-debugging-tool) | ai-engineer | AI/ML | evaluation | 显著提升 |
 | 807 | [AI 模型注册中心调试工具](/zh/use-cases/role/data-analyst#_807-ai-model-registry-debugging-tool) | 数据分析师 | AI/ML | deployment | 显著提升 |
-| 808 | [AI 特征管道调试工具](/zh/use-cases/role/product-dev#_808-ai-feature-pipeline-debugging-tool) | 产品/研发 | AI/ML | data-management | 显著提升 |
+| 808 | [AI 特征管道调试工具](/zh/use-cases/role/dev#_808-ai-feature-pipeline-debugging-tool) | 产品/研发 | AI/ML | data-management | 显著提升 |
 | 809 | [AI 评估集调试工具](/zh/use-cases/role/devops#_809-ai-evaluation-set-debugging-tool) | DevOps | AI/ML | training | 显著提升 |
 | 810 | [AI 提示模板调试工具](/zh/use-cases/role/operations#_810-ai-prompt-template-debugging-tool) | ai-engineer | AI/ML | model-development | 显著提升 |
 | 811 | [AI Agent工作流调试工具](/zh/use-cases/role/data-analyst#_811-ai-agent-workflow-debugging-tool) | 数据分析师 | AI/ML | mlops | 显著提升 |
-| 812 | [AI 嵌入优化工具包](/zh/use-cases/role/product-dev#_812-ai-embedding-optimization-toolkit) | 产品/研发 | AI/ML | evaluation | 5倍 |
+| 812 | [AI 嵌入优化工具包](/zh/use-cases/role/dev#_812-ai-embedding-optimization-toolkit) | 产品/研发 | AI/ML | evaluation | 5倍 |
 | 813 | [AI 微调优化工具包](/zh/use-cases/role/devops#_813-ai-fine-tuning-optimization-toolkit) | DevOps | AI/ML | deployment | 5倍 |
 | 814 | [AI 分词器优化工具包](/zh/use-cases/role/operations#_814-ai-tokenizer-optimization-toolkit) | ai-engineer | AI/ML | data-management | 5倍 |
 | 815 | [AI 推理优化工具包](/zh/use-cases/role/data-analyst#_815-ai-inference-optimization-toolkit) | 数据分析师 | AI/ML | training | 5倍 |
-| 816 | [AI 训练数据优化工具包](/zh/use-cases/role/product-dev#_816-ai-training-data-optimization-toolkit) | 产品/研发 | AI/ML | model-development | 5倍 |
+| 816 | [AI 训练数据优化工具包](/zh/use-cases/role/dev#_816-ai-training-data-optimization-toolkit) | 产品/研发 | AI/ML | model-development | 5倍 |
 | 817 | [AI 模型注册中心优化工具包](/zh/use-cases/role/devops#_817-ai-model-registry-optimization-toolkit) | DevOps | AI/ML | mlops | 5倍 |
 | 818 | [AI 特征管道优化工具包](/zh/use-cases/role/operations#_818-ai-feature-pipeline-optimization-toolkit) | ai-engineer | AI/ML | evaluation | 5倍 |
 | 819 | [AI 评估集优化工具包](/zh/use-cases/role/data-analyst#_819-ai-evaluation-set-optimization-toolkit) | 数据分析师 | AI/ML | deployment | 5倍 |
-| 820 | [AI 提示模板优化工具包](/zh/use-cases/role/product-dev#_820-ai-prompt-template-optimization-toolkit) | 产品/研发 | AI/ML | data-management | 5倍 |
+| 820 | [AI 提示模板优化工具包](/zh/use-cases/role/dev#_820-ai-prompt-template-optimization-toolkit) | 产品/研发 | AI/ML | data-management | 5倍 |
 | 821 | [AI Agent工作流优化工具包](/zh/use-cases/role/devops#_821-ai-agent-workflow-optimization-toolkit) | DevOps | AI/ML | training | 5倍 |
 | 822 | [AI 信用风险分析器](/zh/use-cases/role/finance#_822-ai-credit-risk-analyzer) | 财务 | 金融 | risk-management | 显著提升 |
 | 823 | [AI 流动性风险分析器](/zh/use-cases/role/data-analyst#_823-ai-liquidity-risk-analyzer) | 数据分析师 | 金融 | 数据分析 | 显著提升 |
@@ -918,110 +918,110 @@
 | 848 | [AI 抵押品预测模型](/zh/use-cases/role/compliance-officer#_848-ai-collateral-forecasting-model) | 合规官 | 金融 | 数据分析 | 30天 |
 | 849 | [AI 利率预测模型](/zh/use-cases/role/operations#_849-ai-interest-rate-forecasting-model) | 运营 | 金融 | compliance | 30天 |
 | 850 | [AI 动量信号处理器](/zh/use-cases/role/data-analyst#_850-ai-momentum-signal-processor) | 数据分析师 | 量化 | quantitative-analysis | 显著提升 |
-| 851 | [AI 波动率信号处理器](/zh/use-cases/role/product-dev#_851-ai-volatility-signal-processor) | 产品/研发 | 量化 | signal-discovery | 显著提升 |
+| 851 | [AI 波动率信号处理器](/zh/use-cases/role/dev#_851-ai-volatility-signal-processor) | 产品/研发 | 量化 | signal-discovery | 显著提升 |
 | 852 | [AI 情绪信号处理器](/zh/use-cases/role/devops#_852-ai-sentiment-signal-processor) | DevOps | 量化 | risk-analysis | 显著提升 |
 | 853 | [AI 订单流信号处理器](/zh/use-cases/role/data-analyst#_853-ai-order-flow-signal-processor) | 数据分析师 | 量化 | execution | 显著提升 |
-| 854 | [AI 相关性信号处理器](/zh/use-cases/role/product-dev#_854-ai-correlation-signal-processor) | 产品/研发 | 量化 | quantitative-analysis | 显著提升 |
+| 854 | [AI 相关性信号处理器](/zh/use-cases/role/dev#_854-ai-correlation-signal-processor) | 产品/研发 | 量化 | quantitative-analysis | 显著提升 |
 | 855 | [AI 偏度信号处理器](/zh/use-cases/role/devops#_855-ai-skew-signal-processor) | DevOps | 量化 | signal-discovery | 显著提升 |
 | 856 | [AI 流动性信号处理器](/zh/use-cases/role/data-analyst#_856-ai-liquidity-signal-processor) | 数据分析师 | 量化 | risk-analysis | 显著提升 |
-| 857 | [AI 均值回归信号处理器](/zh/use-cases/role/product-dev#_857-ai-mean-reversion-signal-processor) | 产品/研发 | 量化 | execution | 显著提升 |
+| 857 | [AI 均值回归信号处理器](/zh/use-cases/role/dev#_857-ai-mean-reversion-signal-processor) | 产品/研发 | 量化 | execution | 显著提升 |
 | 858 | [AI 尾部风险信号处理器](/zh/use-cases/role/devops#_858-ai-tail-risk-signal-processor) | DevOps | 量化 | quantitative-analysis | 显著提升 |
 | 859 | [AI 因子暴露信号处理器](/zh/use-cases/role/data-analyst#_859-ai-factor-exposure-signal-processor) | 数据分析师 | 量化 | signal-discovery | 显著提升 |
-| 860 | [AI 动量策略回测器](/zh/use-cases/role/product-dev#_860-ai-momentum-strategy-backtester) | 产品/研发 | 量化 | risk-analysis | 显著提升 |
+| 860 | [AI 动量策略回测器](/zh/use-cases/role/dev#_860-ai-momentum-strategy-backtester) | 产品/研发 | 量化 | risk-analysis | 显著提升 |
 | 861 | [AI 波动率策略回测器](/zh/use-cases/role/devops#_861-ai-volatility-strategy-backtester) | DevOps | 量化 | execution | 显著提升 |
 | 862 | [AI 情绪策略回测器](/zh/use-cases/role/data-analyst#_862-ai-sentiment-strategy-backtester) | 数据分析师 | 量化 | quantitative-analysis | 显著提升 |
-| 863 | [AI 订单流策略回测器](/zh/use-cases/role/product-dev#_863-ai-order-flow-strategy-backtester) | 产品/研发 | 量化 | signal-discovery | 显著提升 |
+| 863 | [AI 订单流策略回测器](/zh/use-cases/role/dev#_863-ai-order-flow-strategy-backtester) | 产品/研发 | 量化 | signal-discovery | 显著提升 |
 | 864 | [AI 相关性策略回测器](/zh/use-cases/role/devops#_864-ai-correlation-strategy-backtester) | DevOps | 量化 | risk-analysis | 显著提升 |
 | 865 | [AI 偏度策略回测器](/zh/use-cases/role/data-analyst#_865-ai-skew-strategy-backtester) | 数据分析师 | 量化 | execution | 显著提升 |
-| 866 | [AI 流动性策略回测器](/zh/use-cases/role/product-dev#_866-ai-liquidity-strategy-backtester) | 产品/研发 | 量化 | quantitative-analysis | 显著提升 |
+| 866 | [AI 流动性策略回测器](/zh/use-cases/role/dev#_866-ai-liquidity-strategy-backtester) | 产品/研发 | 量化 | quantitative-analysis | 显著提升 |
 | 867 | [AI 均值回归策略回测器](/zh/use-cases/role/devops#_867-ai-mean-reversion-strategy-backtester) | DevOps | 量化 | signal-discovery | 显著提升 |
 | 868 | [AI 尾部风险策略回测器](/zh/use-cases/role/data-analyst#_868-ai-tail-risk-strategy-backtester) | 数据分析师 | 量化 | risk-analysis | 显著提升 |
-| 869 | [AI 因子暴露策略回测器](/zh/use-cases/role/product-dev#_869-ai-factor-exposure-strategy-backtester) | 产品/研发 | 量化 | execution | 显著提升 |
+| 869 | [AI 因子暴露策略回测器](/zh/use-cases/role/dev#_869-ai-factor-exposure-strategy-backtester) | 产品/研发 | 量化 | execution | 显著提升 |
 | 870 | [AI 动量风险模型](/zh/use-cases/role/devops#_870-ai-momentum-risk-model) | DevOps | 量化 | quantitative-analysis | 显著提升 |
 | 871 | [AI 波动率风险模型](/zh/use-cases/role/data-analyst#_871-ai-volatility-risk-model) | 数据分析师 | 量化 | signal-discovery | 显著提升 |
-| 872 | [AI 情绪风险模型](/zh/use-cases/role/product-dev#_872-ai-sentiment-risk-model) | 产品/研发 | 量化 | risk-analysis | 显著提升 |
+| 872 | [AI 情绪风险模型](/zh/use-cases/role/dev#_872-ai-sentiment-risk-model) | 产品/研发 | 量化 | risk-analysis | 显著提升 |
 | 873 | [AI 订单流风险模型](/zh/use-cases/role/devops#_873-ai-order-flow-risk-model) | DevOps | 量化 | execution | 显著提升 |
 | 874 | [AI 相关性风险模型](/zh/use-cases/role/data-analyst#_874-ai-correlation-risk-model) | 数据分析师 | 量化 | quantitative-analysis | 显著提升 |
-| 875 | [AI 偏度风险模型](/zh/use-cases/role/product-dev#_875-ai-skew-risk-model) | 产品/研发 | 量化 | signal-discovery | 显著提升 |
+| 875 | [AI 偏度风险模型](/zh/use-cases/role/dev#_875-ai-skew-risk-model) | 产品/研发 | 量化 | signal-discovery | 显著提升 |
 | 876 | [AI 流动性风险模型](/zh/use-cases/role/devops#_876-ai-liquidity-risk-model) | DevOps | 量化 | risk-analysis | 显著提升 |
 | 877 | [AI 均值回归风险模型](/zh/use-cases/role/data-analyst#_877-ai-mean-reversion-risk-model) | 数据分析师 | 量化 | execution | 显著提升 |
-| 878 | [AI 尾部风险风险模型](/zh/use-cases/role/product-dev#_878-ai-tail-risk-risk-model) | 产品/研发 | 量化 | quantitative-analysis | 显著提升 |
+| 878 | [AI 尾部风险风险模型](/zh/use-cases/role/dev#_878-ai-tail-risk-risk-model) | 产品/研发 | 量化 | quantitative-analysis | 显著提升 |
 | 879 | [AI 因子暴露风险模型](/zh/use-cases/role/devops#_879-ai-factor-exposure-risk-model) | DevOps | 量化 | signal-discovery | 显著提升 |
-| 880 | [AI 角色平衡调节器](/zh/use-cases/role/product-dev#_880-ai-character-balance-tuner) | 产品/研发 | 游戏 | game-design | 显著提升 |
+| 880 | [AI 角色平衡调节器](/zh/use-cases/role/dev#_880-ai-character-balance-tuner) | 产品/研发 | 游戏 | game-design | 显著提升 |
 | 881 | [AI 武器平衡调节器](/zh/use-cases/role/data-analyst#_881-ai-weapon-balance-tuner) | 数据分析师 | 游戏 | analytics | 显著提升 |
 | 882 | [AI 地图平衡调节器](/zh/use-cases/role/qa-engineer#_882-ai-map-balance-tuner) | QA工程师 | 游戏 | testing | 显著提升 |
 | 883 | [AI 任务平衡调节器](/zh/use-cases/role/operations#_883-ai-quest-balance-tuner) | 运营 | 游戏 | live-ops | 显著提升 |
-| 884 | [AI 技能树平衡调节器](/zh/use-cases/role/product-dev#_884-ai-skill-tree-balance-tuner) | 产品/研发 | 游戏 | monetization | 显著提升 |
+| 884 | [AI 技能树平衡调节器](/zh/use-cases/role/dev#_884-ai-skill-tree-balance-tuner) | 产品/研发 | 游戏 | monetization | 显著提升 |
 | 885 | [AI 背包平衡调节器](/zh/use-cases/role/data-analyst#_885-ai-inventory-balance-tuner) | 数据分析师 | 游戏 | game-design | 显著提升 |
 | 886 | [AI 战令平衡调节器](/zh/use-cases/role/qa-engineer#_886-ai-battle-pass-balance-tuner) | QA工程师 | 游戏 | analytics | 显著提升 |
 | 887 | [AI 公会平衡调节器](/zh/use-cases/role/operations#_887-ai-guild-balance-tuner) | 运营 | 游戏 | testing | 显著提升 |
-| 888 | [AI 排行榜平衡调节器](/zh/use-cases/role/product-dev#_888-ai-leaderboard-balance-tuner) | 产品/研发 | 游戏 | live-ops | 显著提升 |
+| 888 | [AI 排行榜平衡调节器](/zh/use-cases/role/dev#_888-ai-leaderboard-balance-tuner) | 产品/研发 | 游戏 | live-ops | 显著提升 |
 | 889 | [AI 活动平衡调节器](/zh/use-cases/role/data-analyst#_889-ai-event-balance-tuner) | 数据分析师 | 游戏 | monetization | 显著提升 |
 | 890 | [AI 角色分析引擎](/zh/use-cases/role/qa-engineer#_890-ai-character-analytics-engine) | QA工程师 | 游戏 | game-design | 显著提升 |
 | 891 | [AI 武器分析引擎](/zh/use-cases/role/operations#_891-ai-weapon-analytics-engine) | 运营 | 游戏 | analytics | 显著提升 |
-| 892 | [AI 地图分析引擎](/zh/use-cases/role/product-dev#_892-ai-map-analytics-engine) | 产品/研发 | 游戏 | testing | 显著提升 |
+| 892 | [AI 地图分析引擎](/zh/use-cases/role/dev#_892-ai-map-analytics-engine) | 产品/研发 | 游戏 | testing | 显著提升 |
 | 893 | [AI 任务分析引擎](/zh/use-cases/role/data-analyst#_893-ai-quest-analytics-engine) | 数据分析师 | 游戏 | live-ops | 显著提升 |
 | 894 | [AI 技能树分析引擎](/zh/use-cases/role/qa-engineer#_894-ai-skill-tree-analytics-engine) | QA工程师 | 游戏 | monetization | 显著提升 |
 | 895 | [AI 背包分析引擎](/zh/use-cases/role/operations#_895-ai-inventory-analytics-engine) | 运营 | 游戏 | game-design | 显著提升 |
-| 896 | [AI 战令分析引擎](/zh/use-cases/role/product-dev#_896-ai-battle-pass-analytics-engine) | 产品/研发 | 游戏 | analytics | 显著提升 |
+| 896 | [AI 战令分析引擎](/zh/use-cases/role/dev#_896-ai-battle-pass-analytics-engine) | 产品/研发 | 游戏 | analytics | 显著提升 |
 | 897 | [AI 公会分析引擎](/zh/use-cases/role/data-analyst#_897-ai-guild-analytics-engine) | 数据分析师 | 游戏 | testing | 显著提升 |
 | 898 | [AI 排行榜分析引擎](/zh/use-cases/role/qa-engineer#_898-ai-leaderboard-analytics-engine) | QA工程师 | 游戏 | live-ops | 显著提升 |
 | 899 | [AI 活动分析引擎](/zh/use-cases/role/operations#_899-ai-event-analytics-engine) | 运营 | 游戏 | monetization | 显著提升 |
-| 900 | [AI 角色测试自动化器](/zh/use-cases/role/product-dev#_900-ai-character-testing-automator) | 产品/研发 | 游戏 | game-design | 显著提升 |
+| 900 | [AI 角色测试自动化器](/zh/use-cases/role/dev#_900-ai-character-testing-automator) | 产品/研发 | 游戏 | game-design | 显著提升 |
 | 901 | [AI 武器测试自动化器](/zh/use-cases/role/data-analyst#_901-ai-weapon-testing-automator) | 数据分析师 | 游戏 | analytics | 显著提升 |
 | 902 | [AI 地图测试自动化器](/zh/use-cases/role/qa-engineer#_902-ai-map-testing-automator) | QA工程师 | 游戏 | testing | 显著提升 |
 | 903 | [AI 任务测试自动化器](/zh/use-cases/role/operations#_903-ai-quest-testing-automator) | 运营 | 游戏 | live-ops | 显著提升 |
-| 904 | [AI 技能树测试自动化器](/zh/use-cases/role/product-dev#_904-ai-skill-tree-testing-automator) | 产品/研发 | 游戏 | monetization | 显著提升 |
+| 904 | [AI 技能树测试自动化器](/zh/use-cases/role/dev#_904-ai-skill-tree-testing-automator) | 产品/研发 | 游戏 | monetization | 显著提升 |
 | 905 | [AI 背包测试自动化器](/zh/use-cases/role/data-analyst#_905-ai-inventory-testing-automator) | 数据分析师 | 游戏 | game-design | 显著提升 |
 | 906 | [AI 战令测试自动化器](/zh/use-cases/role/qa-engineer#_906-ai-battle-pass-testing-automator) | QA工程师 | 游戏 | analytics | 显著提升 |
 | 907 | [AI 公会测试自动化器](/zh/use-cases/role/operations#_907-ai-guild-testing-automator) | 运营 | 游戏 | testing | 显著提升 |
-| 908 | [AI 排行榜测试自动化器](/zh/use-cases/role/product-dev#_908-ai-leaderboard-testing-automator) | 产品/研发 | 游戏 | live-ops | 显著提升 |
+| 908 | [AI 排行榜测试自动化器](/zh/use-cases/role/dev#_908-ai-leaderboard-testing-automator) | 产品/研发 | 游戏 | live-ops | 显著提升 |
 | 909 | [AI 活动测试自动化器](/zh/use-cases/role/data-analyst#_909-ai-event-testing-automator) | 数据分析师 | 游戏 | monetization | 显著提升 |
 | 910 | [AI 角色推荐系统](/zh/use-cases/role/qa-engineer#_910-ai-character-recommendation-system) | QA工程师 | 游戏 | game-design | 显著提升 |
 | 911 | [AI 武器推荐系统](/zh/use-cases/role/operations#_911-ai-weapon-recommendation-system) | 运营 | 游戏 | analytics | 显著提升 |
-| 912 | [AI 地图推荐系统](/zh/use-cases/role/product-dev#_912-ai-map-recommendation-system) | 产品/研发 | 游戏 | testing | 显著提升 |
+| 912 | [AI 地图推荐系统](/zh/use-cases/role/dev#_912-ai-map-recommendation-system) | 产品/研发 | 游戏 | testing | 显著提升 |
 | 913 | [AI 任务推荐系统](/zh/use-cases/role/data-analyst#_913-ai-quest-recommendation-system) | 数据分析师 | 游戏 | live-ops | 显著提升 |
 | 914 | [AI 技能树推荐系统](/zh/use-cases/role/qa-engineer#_914-ai-skill-tree-recommendation-system) | QA工程师 | 游戏 | monetization | 显著提升 |
 | 915 | [AI 背包推荐系统](/zh/use-cases/role/operations#_915-ai-inventory-recommendation-system) | 运营 | 游戏 | game-design | 显著提升 |
-| 916 | [AI 战令推荐系统](/zh/use-cases/role/product-dev#_916-ai-battle-pass-recommendation-system) | 产品/研发 | 游戏 | analytics | 显著提升 |
+| 916 | [AI 战令推荐系统](/zh/use-cases/role/dev#_916-ai-battle-pass-recommendation-system) | 产品/研发 | 游戏 | analytics | 显著提升 |
 | 917 | [AI 公会推荐系统](/zh/use-cases/role/data-analyst#_917-ai-guild-recommendation-system) | 数据分析师 | 游戏 | testing | 显著提升 |
 | 918 | [AI 排行榜推荐系统](/zh/use-cases/role/qa-engineer#_918-ai-leaderboard-recommendation-system) | QA工程师 | 游戏 | live-ops | 显著提升 |
 | 919 | [AI 活动推荐系统](/zh/use-cases/role/operations#_919-ai-event-recommendation-system) | 运营 | 游戏 | monetization | 显著提升 |
 | 920 | [AI 结账流程优化引擎](/zh/use-cases/role/operations#_920-ai-checkout-flow-optimization-engine) | 运营 | 电商 | 流程自动化 | 22% |
 | 921 | [AI 产品列表优化引擎](/zh/use-cases/role/data-analyst#_921-ai-product-listing-optimization-engine) | 数据分析师 | 电商 | analytics | 22% |
 | 922 | [AI 支付优化引擎](/zh/use-cases/role/operations#_922-ai-payment-optimization-engine) | marketing | 电商 | logistics | 22% |
-| 923 | [AI 退货优化引擎](/zh/use-cases/role/product-dev#_923-ai-returns-optimization-engine) | 产品/研发 | 电商 | recommendation | 22% |
+| 923 | [AI 退货优化引擎](/zh/use-cases/role/dev#_923-ai-returns-optimization-engine) | 产品/研发 | 电商 | recommendation | 22% |
 | 924 | [AI 订阅优化引擎](/zh/use-cases/role/operations#_924-ai-subscription-optimization-engine) | 运营 | 电商 | 流程自动化 | 22% |
 | 925 | [AI 促销优化引擎](/zh/use-cases/role/data-analyst#_925-ai-promotion-optimization-engine) | 数据分析师 | 电商 | analytics | 22% |
 | 926 | [AI 搜索查询优化引擎](/zh/use-cases/role/operations#_926-ai-search-query-optimization-engine) | marketing | 电商 | logistics | 22% |
-| 927 | [AI 结账流程欺诈检测器](/zh/use-cases/role/product-dev#_927-ai-checkout-flow-fraud-detector) | 产品/研发 | 电商 | recommendation | 67% |
+| 927 | [AI 结账流程欺诈检测器](/zh/use-cases/role/dev#_927-ai-checkout-flow-fraud-detector) | 产品/研发 | 电商 | recommendation | 67% |
 | 928 | [AI 产品列表欺诈检测器](/zh/use-cases/role/operations#_928-ai-product-listing-fraud-detector) | 运营 | 电商 | 流程自动化 | 67% |
 | 929 | [AI 支付欺诈检测器](/zh/use-cases/role/data-analyst#_929-ai-payment-fraud-detector) | 数据分析师 | 电商 | analytics | 67% |
 | 930 | [AI 退货欺诈检测器](/zh/use-cases/role/operations#_930-ai-returns-fraud-detector) | marketing | 电商 | logistics | 67% |
-| 931 | [AI 订阅欺诈检测器](/zh/use-cases/role/product-dev#_931-ai-subscription-fraud-detector) | 产品/研发 | 电商 | recommendation | 67% |
+| 931 | [AI 订阅欺诈检测器](/zh/use-cases/role/dev#_931-ai-subscription-fraud-detector) | 产品/研发 | 电商 | recommendation | 67% |
 | 932 | [AI 促销欺诈检测器](/zh/use-cases/role/operations#_932-ai-promotion-fraud-detector) | 运营 | 电商 | 流程自动化 | 67% |
 | 933 | [AI 搜索查询欺诈检测器](/zh/use-cases/role/data-analyst#_933-ai-search-query-fraud-detector) | 数据分析师 | 电商 | analytics | 67% |
 | 934 | [AI 结账流程需求预测器](/zh/use-cases/role/operations#_934-ai-checkout-flow-demand-predictor) | marketing | 电商 | logistics | 40% |
-| 935 | [AI 产品列表需求预测器](/zh/use-cases/role/product-dev#_935-ai-product-listing-demand-predictor) | 产品/研发 | 电商 | recommendation | 40% |
+| 935 | [AI 产品列表需求预测器](/zh/use-cases/role/dev#_935-ai-product-listing-demand-predictor) | 产品/研发 | 电商 | recommendation | 40% |
 | 936 | [AI 支付需求预测器](/zh/use-cases/role/operations#_936-ai-payment-demand-predictor) | 运营 | 电商 | 流程自动化 | 40% |
 | 937 | [AI 退货需求预测器](/zh/use-cases/role/data-analyst#_937-ai-returns-demand-predictor) | 数据分析师 | 电商 | analytics | 40% |
 | 938 | [AI 订阅需求预测器](/zh/use-cases/role/operations#_938-ai-subscription-demand-predictor) | marketing | 电商 | logistics | 40% |
-| 939 | [AI Web3 流动性池监控器](/zh/use-cases/role/product-dev#_939-ai-liquidity-pool-monitor-for-web3) | 产品/研发 | Crypto/Web3 | blockchain | 显著提升 |
+| 939 | [AI Web3 流动性池监控器](/zh/use-cases/role/dev#_939-ai-liquidity-pool-monitor-for-web3) | 产品/研发 | Crypto/Web3 | blockchain | 显著提升 |
 | 940 | [AI Web3 质押监控器](/zh/use-cases/role/data-analyst#_940-ai-staking-monitor-for-web3) | 数据分析师 | Crypto/Web3 | security | 显著提升 |
 | 941 | [AI Web3 钱包监控器](/zh/use-cases/role/devops#_941-ai-wallet-monitor-for-web3) | DevOps | Crypto/Web3 | analytics | 显著提升 |
-| 942 | [AI Web3 DAO国库监控器](/zh/use-cases/role/product-dev#_942-ai-dao-treasury-monitor-for-web3) | 产品/研发 | Crypto/Web3 | defi | 显著提升 |
+| 942 | [AI Web3 DAO国库监控器](/zh/use-cases/role/dev#_942-ai-dao-treasury-monitor-for-web3) | 产品/研发 | Crypto/Web3 | defi | 显著提升 |
 | 943 | [AI Web3 代币监控器](/zh/use-cases/role/data-analyst#_943-ai-token-monitor-for-web3) | 数据分析师 | Crypto/Web3 | blockchain | 显著提升 |
 | 944 | [AI Web3 验证者监控器](/zh/use-cases/role/devops#_944-ai-validator-monitor-for-web3) | DevOps | Crypto/Web3 | security | 显著提升 |
-| 945 | [AI Web3 预言机监控器](/zh/use-cases/role/product-dev#_945-ai-oracle-monitor-for-web3) | 产品/研发 | Crypto/Web3 | analytics | 显著提升 |
+| 945 | [AI Web3 预言机监控器](/zh/use-cases/role/dev#_945-ai-oracle-monitor-for-web3) | 产品/研发 | Crypto/Web3 | analytics | 显著提升 |
 | 946 | [AI 流动性池分析平台](/zh/use-cases/role/data-analyst#_946-ai-liquidity-pool-analytics-platform) | 数据分析师 | Crypto/Web3 | defi | 显著提升 |
 | 947 | [AI 质押分析平台](/zh/use-cases/role/devops#_947-ai-staking-analytics-platform) | DevOps | Crypto/Web3 | blockchain | 显著提升 |
-| 948 | [AI 钱包分析平台](/zh/use-cases/role/product-dev#_948-ai-wallet-analytics-platform) | 产品/研发 | Crypto/Web3 | security | 显著提升 |
+| 948 | [AI 钱包分析平台](/zh/use-cases/role/dev#_948-ai-wallet-analytics-platform) | 产品/研发 | Crypto/Web3 | security | 显著提升 |
 | 949 | [AI DAO国库分析平台](/zh/use-cases/role/data-analyst#_949-ai-dao-treasury-analytics-platform) | 数据分析师 | Crypto/Web3 | analytics | 显著提升 |
 | 950 | [AI 代币分析平台](/zh/use-cases/role/devops#_950-ai-token-analytics-platform) | DevOps | Crypto/Web3 | defi | 显著提升 |
-| 951 | [AI 验证者分析平台](/zh/use-cases/role/product-dev#_951-ai-validator-analytics-platform) | 产品/研发 | Crypto/Web3 | blockchain | 显著提升 |
+| 951 | [AI 验证者分析平台](/zh/use-cases/role/dev#_951-ai-validator-analytics-platform) | 产品/研发 | Crypto/Web3 | blockchain | 显著提升 |
 | 952 | [AI 预言机分析平台](/zh/use-cases/role/data-analyst#_952-ai-oracle-analytics-platform) | 数据分析师 | Crypto/Web3 | security | 显著提升 |
 | 953 | [AI 流动性池安全扫描器](/zh/use-cases/role/devops#_953-ai-liquidity-pool-security-scanner) | DevOps | Crypto/Web3 | analytics | 显著提升 |
-| 954 | [AI 质押安全扫描器](/zh/use-cases/role/product-dev#_954-ai-staking-security-scanner) | 产品/研发 | Crypto/Web3 | defi | 显著提升 |
+| 954 | [AI 质押安全扫描器](/zh/use-cases/role/dev#_954-ai-staking-security-scanner) | 产品/研发 | Crypto/Web3 | defi | 显著提升 |
 | 955 | [AI 钱包安全扫描器](/zh/use-cases/role/data-analyst#_955-ai-wallet-security-scanner) | 数据分析师 | Crypto/Web3 | blockchain | 显著提升 |
 | 956 | [AI 剧集绩效分析器](/zh/use-cases/role/operations#_956-ai-episode-performance-analyzer) | content-marketing | 媒体娱乐 | content-management | 显著提升 |
 | 957 | [AI 预告片绩效分析器](/zh/use-cases/role/data-analyst#_957-ai-trailer-performance-analyzer) | 数据分析师 | 媒体娱乐 | analytics | 显著提升 |
@@ -1056,9 +1056,9 @@
 | 986 | [AI 病理决策支持](/zh/use-cases/role/data-analyst#_986-ai-pathology-decision-support) | 数据分析师 | 医疗健康 | diagnostics | 18% |
 | 987 | [AI 分诊工作流优化器](/zh/use-cases/role/operations#_987-ai-triage-workflow-optimizer) | ai-engineer | 医疗健康 | clinical | 30% |
 | 988 | [AI 出院工作流优化器](/zh/use-cases/role/operations#_988-ai-discharge-workflow-optimizer) | 运营 | 医疗健康 | operations | 30% |
-| 989 | [AI 模块智能引擎](/zh/use-cases/role/product-dev#_989-ai-module-intelligence-engine-saas-tech) | 产品/研发 | 科技/SaaS | 流程自动化 | 显著提升 |
+| 989 | [AI 模块智能引擎](/zh/use-cases/role/dev#_989-ai-module-intelligence-engine-saas-tech) | 产品/研发 | 科技/SaaS | 流程自动化 | 显著提升 |
 | 990 | [AI 模块智能引擎](/zh/use-cases/role/data-analyst#_990-ai-module-intelligence-engine-internet) | 数据分析师 | 互联网 | analytics | 显著提升 |
-| 991 | [AI 模块智能引擎](/zh/use-cases/role/product-dev#_991-ai-module-intelligence-engine-ai-ml) | 产品/研发 | AI/ML | evaluation | 显著提升 |
+| 991 | [AI 模块智能引擎](/zh/use-cases/role/dev#_991-ai-module-intelligence-engine-ai-ml) | 产品/研发 | AI/ML | evaluation | 显著提升 |
 | 992 | [AI 模块智能引擎](/zh/use-cases/role/operations#_992-ai-module-intelligence-engine-gaming) | 运营 | 游戏 | live-ops | 显著提升 |
 | 993 | [AI 模块智能引擎](/zh/use-cases/role/finance#_993-ai-module-intelligence-engine-finance) | 财务 | 金融 | trading | 显著提升 |
 | 994 | [AI 模块智能引擎](/zh/use-cases/role/devops#_994-ai-module-intelligence-engine-quantitative) | DevOps | 量化 | signal-discovery | 显著提升 |
@@ -1066,6 +1066,6 @@
 | 996 | [AI 模块智能引擎](/zh/use-cases/role/data-analyst#_996-ai-module-intelligence-engine-crypto-web3) | 数据分析师 | Crypto/Web3 | defi | 显著提升 |
 | 997 | [AI 仪表板智能引擎](/zh/use-cases/role/devops#_997-ai-dashboard-intelligence-engine-saas-tech) | DevOps | 科技/SaaS | 调研与监控 | 显著提升 |
 | 998 | [AI 仪表板智能引擎](/zh/use-cases/role/operations#_998-ai-dashboard-intelligence-engine-internet) | content-marketing | 互联网 | personalization | 显著提升 |
-| 999 | [AI 仪表板智能引擎](/zh/use-cases/role/product-dev#_999-ai-dashboard-intelligence-engine-ai-ml) | 产品/研发 | AI/ML | data-management | 显著提升 |
+| 999 | [AI 仪表板智能引擎](/zh/use-cases/role/dev#_999-ai-dashboard-intelligence-engine-ai-ml) | 产品/研发 | AI/ML | data-management | 显著提升 |
 | 1000 | [AI 仪表板智能引擎](/zh/use-cases/role/operations#_1000-ai-dashboard-intelligence-engine-gaming) | 运营 | 游戏 | analytics | 显著提升 |
 | 1001 | [AI会议行动项追踪器](/zh/use-cases/role/operations#_159-ai会议行动项追踪器) | 运营 | 科技/SaaS | 流程自动化 | 98%缩减 |
