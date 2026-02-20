@@ -8,7 +8,8 @@
 
 | 角色 | 数量 | 核心场景 |
 |------|------|---------|
-| [产品/研发](/zh/use-cases/role/product-dev) | 26 | 代码审查、测试生成、API文档、安全扫描... |
+| [产品经理](/zh/use-cases/role/product) | 5 | 情感分析、项目状态报告、冲刺规划、发版说明、工作流自动化 |
+| [研发工程](/zh/use-cases/role/dev) | 21 | 代码审查、测试生成、部署监控、API文档、安全扫描、缺陷排序... |
 | [运营](/zh/use-cases/role/operations) | 36 | 会议纪要、库存预测、供应商评估... |
 | [财务](/zh/use-cases/role/finance) | 19 | 费用审核、财务报告、发票处理... |
 | [内容/营销](/zh/use-cases/role/content-marketing) | 23 | SEO写作、社媒管理、广告文案、品牌监控... |
@@ -68,11 +69,11 @@
 
 | # | 用例 | 角色 | 行业 | 任务 | 核心指标 |
 |---|------|------|------|------|---------|
-| 1 | [AI代码审查](/zh/use-cases/role/product-dev#_1-ai代码审查) | 研发 | 科技/SaaS | 流程自动化 | 4小时→15分钟/PR |
-| 2 | [AI测试生成](/zh/use-cases/role/product-dev#_2-ai测试生成) | 研发 | 科技/SaaS | 流程自动化 | 2天→30分钟 |
-| 3 | [AI部署监控](/zh/use-cases/role/product-dev#_3-ai部署监控) | 研发 | 科技/SaaS | 流程自动化 | 手动→自动(2分钟MTTR) |
-| 4 | [AI API文档编写](/zh/use-cases/role/product-dev#_4-ai-api文档编写) | 研发 | 科技/SaaS | 写作与内容 | 1周→2小时 |
-| 5 | [AI调试助手](/zh/use-cases/role/product-dev#_5-ai调试助手) | 研发 | 科技/SaaS | 流程自动化 | 2小时→10分钟 |
+| 1 | [AI代码审查](/zh/use-cases/role/dev#_1-ai代码审查) | 研发 | 科技/SaaS | 流程自动化 | 4小时→15分钟/PR |
+| 2 | [AI测试生成](/zh/use-cases/role/dev#_2-ai测试生成) | 研发 | 科技/SaaS | 流程自动化 | 2天→30分钟 |
+| 3 | [AI部署监控](/zh/use-cases/role/dev#_3-ai部署监控) | 研发 | 科技/SaaS | 流程自动化 | 手动→自动(2分钟MTTR) |
+| 4 | [AI API文档编写](/zh/use-cases/role/dev#_4-ai-api文档编写) | 研发 | 科技/SaaS | 写作与内容 | 1周→2小时 |
+| 5 | [AI调试助手](/zh/use-cases/role/dev#_5-ai调试助手) | 研发 | 科技/SaaS | 流程自动化 | 2小时→10分钟 |
 | 6 | [AI SEO内容写作](/zh/use-cases/role/content-marketing#_1-ai-seo内容写作) | 营销 | 科技/SaaS, 电商/零售 | 写作与内容 | 4小时→20分钟/篇 |
 | 7 | [AI社媒管理](/zh/use-cases/role/content-marketing#_2-ai社媒管理) | 营销 | 科技/SaaS, 电商/零售 | 写作与内容 | 3小时/天→15分钟 |
 | 8 | [AI广告文案生成](/zh/use-cases/role/content-marketing#_3-ai广告文案生成) | 营销 | 科技/SaaS, 电商/零售 | 写作与内容 | 50→200变体/10分钟 |
@@ -98,11 +99,11 @@
 | 28 | [AI会议纪要](/zh/use-cases/role/operations#_1-ai会议纪要) | 运营 | 科技/SaaS | 流程自动化 | 30分钟→即时 |
 | 29 | [AI库存预测](/zh/use-cases/role/operations#_2-ai库存预测) | 运营 | 电商/零售 | 数据分析 | 每周→实时 |
 | 30 | [AI供应商评估](/zh/use-cases/role/operations#_3-ai供应商评估) | 运营 | - | 数据分析 | 1周→2小时 |
-| 31 | [AI代码迁移](/zh/use-cases/role/product-dev#_6-ai代码迁移) | 研发 | 科技/SaaS, 金融服务 | 流程自动化 | 2周→4小时 |
-| 32 | [AI性能分析](/zh/use-cases/role/product-dev#_7-ai性能分析) | 研发 | 科技/SaaS | 数据分析 | 3天→30分钟 |
-| 33 | [AI安全扫描](/zh/use-cases/role/product-dev#_8-ai安全扫描) | 研发 | 科技/SaaS | 调研与监控 | 每周→持续 |
-| 34 | [AI数据库优化](/zh/use-cases/role/product-dev#_9-ai数据库优化) | 研发 | 科技/SaaS | 数据分析 | 8小时→20分钟 |
-| 35 | [AI依赖管理](/zh/use-cases/role/product-dev#_10-ai依赖管理) | 研发 | 科技/SaaS | 流程自动化 | 4小时/周→10分钟 |
+| 31 | [AI代码迁移](/zh/use-cases/role/dev#_6-ai代码迁移) | 研发 | 科技/SaaS, 金融服务 | 流程自动化 | 2周→4小时 |
+| 32 | [AI性能分析](/zh/use-cases/role/dev#_7-ai性能分析) | 研发 | 科技/SaaS | 数据分析 | 3天→30分钟 |
+| 33 | [AI安全扫描](/zh/use-cases/role/dev#_8-ai安全扫描) | 研发 | 科技/SaaS | 调研与监控 | 每周→持续 |
+| 34 | [AI数据库优化](/zh/use-cases/role/dev#_9-ai数据库优化) | 研发 | 科技/SaaS | 数据分析 | 8小时→20分钟 |
+| 35 | [AI依赖管理](/zh/use-cases/role/dev#_10-ai依赖管理) | 研发 | 科技/SaaS | 流程自动化 | 4小时/周→10分钟 |
 | 36 | [AI品牌监测](/zh/use-cases/role/content-marketing#_6-ai品牌监测) | 营销 | 电商/零售 | 调研与监控 | 3小时/天→实时 |
 | 37 | [AI达人发现](/zh/use-cases/role/content-marketing#_7-ai达人发现) | 营销 | 电商/零售 | 调研与监控 | 2周→2小时 |
 | 38 | [AI营销分析](/zh/use-cases/role/content-marketing#_8-ai营销分析) | 营销 | 电商/零售 | 数据分析 | 1天→15分钟 |
@@ -114,9 +115,9 @@
 | 44 | [AI合同分析](/zh/use-cases/role/sales#_10-ai合同分析) | 销售 | 金融服务 | 数据分析 | 4小时/份→10分钟 |
 | 45 | [AI流失预测](/zh/use-cases/role/sales#_11-ai流失预测) | 销售 | 科技/SaaS | 调研与监控 | 每月→实时 |
 | 46 | [AI客服机器人训练](/zh/use-cases/role/customer-support#_6-ai客服机器人训练) | 客服 | 科技/SaaS, 电商/零售 | 流程自动化 | 2周→3小时 |
-| 47 | [AI缺陷排序](/zh/use-cases/role/product-dev#_11-ai缺陷排序) | 研发 | 科技/SaaS | 调研与监控 | 2小时/天→即时 |
+| 47 | [AI缺陷排序](/zh/use-cases/role/dev#_11-ai缺陷排序) | 研发 | 科技/SaaS | 调研与监控 | 2小时/天→即时 |
 | 48 | [AI SLA跟踪](/zh/use-cases/role/operations#_6-ai-sla跟踪) | 运营 | - | 调研与监控 | 手动→自动 |
-| 49 | [AI情感分析](/zh/use-cases/role/product-dev#_12-ai情感分析) | 研发 | 科技/SaaS | 数据分析 | 1天→10分钟 |
+| 49 | [AI情感分析](/zh/use-cases/role/product#_1-ai情感分析) | 产品 | 科技/SaaS | 数据分析 | 1天→10分钟 |
 | 50 | [AI FAQ生成](/zh/use-cases/role/customer-support#_7-ai-faq生成) | 客服 | 电商/零售 | 写作与内容 | 3天→2小时 |
 | 51 | [AI员工脉搏](/zh/use-cases/role/hr-recruiting#_5-ai员工脉搏) | HR | 科技/SaaS | 调研与监控 | 每月→每周 |
 | 52 | [AI培训推荐](/zh/use-cases/role/hr-recruiting#_6-ai培训推荐) | HR | - | 流程自动化 | 1周→1小时 |
@@ -135,38 +136,38 @@
 | 65 | [AI客户成功监控器](/zh/use-cases/role/customer-support#_8-ai客户成功监控器) | 客服 | 科技/SaaS | 调研与监控 | 流失预警提前30天 |
 | 66 | [AI产品反馈分析器](/zh/use-cases/role/content-marketing#_11-ai产品反馈分析器) | 营销 | 科技/SaaS, 电商/零售 | 数据分析 | 2周→2小时 |
 | 67 | [AI合规申报助手](/zh/use-cases/role/finance#_7-ai合规申报助手) | 财务 | 金融服务 | 流程自动化 | 申报准备-78% |
-| 68 | [AI项目状态报告生成器](/zh/use-cases/role/product-dev#_13-ai项目状态报告生成器) | 研发 | 科技/SaaS | 写作与内容 | 4小时→15分钟 |
+| 68 | [AI项目状态报告生成器](/zh/use-cases/role/product#_2-ai项目状态报告生成器) | 产品 | 科技/SaaS | 写作与内容 | 4小时→15分钟 |
 | 69 | [AI销售区域规划器](/zh/use-cases/role/sales#_12-ai销售区域规划器) | 销售 | 电商/零售 | 数据分析 | 区域平衡+45% |
-| 70 | [AI工单升级路由器](/zh/use-cases/role/product-dev#_14-ai工单升级路由器) | 研发 | 科技/SaaS | 流程自动化 | 误路由-89% |
-| 71 | [AI数据管道监控器](/zh/use-cases/role/product-dev#_15-ai数据管道监控器) | 研发 | 科技/SaaS, 金融服务 | 流程自动化 | 检测：小时级→秒级 |
+| 70 | [AI工单升级路由器](/zh/use-cases/role/dev#_12-ai工单升级路由器) | 研发 | 科技/SaaS | 流程自动化 | 误路由-89% |
+| 71 | [AI数据管道监控器](/zh/use-cases/role/dev#_13-ai数据管道监控器) | 研发 | 科技/SaaS, 金融服务 | 流程自动化 | 检测：小时级→秒级 |
 | 72 | [AI本地化管理器](/zh/use-cases/role/content-marketing#_12-ai本地化管理器) | 营销 | 科技/SaaS, 电商/零售 | 写作与内容 | 6周→3天 |
 | 73 | [AI供应链追踪器](/zh/use-cases/role/operations#_15-ai供应链追踪器) | 运营 | 电商/零售 | 流程自动化 | 可视性：30%→95% |
 | 74 | [AI客户入驻引导助手](/zh/use-cases/role/customer-support#_10-ai客户入驻引导助手) | 客服 | 科技/SaaS | 流程自动化 | 3周→3天 |
 | 75 | [AI营销ROI仪表盘](/zh/use-cases/role/content-marketing#_13-ai营销roi仪表盘) | 营销 | 电商/零售 | 数据分析 | 3天→实时 |
-| 76 | [AI事件响应协调器](/zh/use-cases/role/product-dev#_16-ai事件响应协调器) | 研发 | 科技/SaaS, 金融服务 | 流程自动化 | MTTR-73% |
-| 77 | [AI专利研究助手](/zh/use-cases/role/product-dev#_17-ai专利研究助手) | 研发 | 科技/SaaS | 数据分析 | 3周→4小时 |
+| 76 | [AI事件响应协调器](/zh/use-cases/role/dev#_14-ai事件响应协调器) | 研发 | 科技/SaaS, 金融服务 | 流程自动化 | MTTR-73% |
+| 77 | [AI专利研究助手](/zh/use-cases/role/dev#_15-ai专利研究助手) | 研发 | 科技/SaaS | 数据分析 | 3周→4小时 |
 | 78 | [AI员工离职管理器](/zh/use-cases/role/hr-recruiting#_9-ai员工离职管理器) | HR | 科技/SaaS | 流程自动化 | 2周→1天 |
-| 79 | [AI质量保证审计器](/zh/use-cases/role/product-dev#_18-ai质量保证审计器) | 研发 | 科技/SaaS | 数据分析 | QA覆盖：40%→92% |
+| 79 | [AI质量保证审计器](/zh/use-cases/role/dev#_16-ai质量保证审计器) | 研发 | 科技/SaaS | 数据分析 | QA覆盖：40%→92% |
 | 80 | [AI竞争情报追踪器](/zh/use-cases/role/content-marketing#_14-ai竞争情报追踪器) | 营销 | 科技/SaaS | 调研与监控 | 每月→实时 |
 | 81 | [AI税务准备助手](/zh/use-cases/role/finance#_8-ai税务准备助手) | 财务 | 金融服务 | 数据分析 | 税务准备-70% |
 | 82 | [AI客户挽回营销器](/zh/use-cases/role/sales#_13-ai客户挽回营销器) | 销售 | 科技/SaaS, 电商/零售 | 写作与内容 | 挽回率：8%→35% |
-| 83 | [AI技术文档写作助手](/zh/use-cases/role/product-dev#_19-ai技术文档写作助手) | 研发 | 科技/SaaS | 写作与内容 | 3天→2小时 |
+| 83 | [AI技术文档写作助手](/zh/use-cases/role/dev#_17-ai技术文档写作助手) | 研发 | 科技/SaaS | 写作与内容 | 3天→2小时 |
 | 84 | [AI供应商发票核对器](/zh/use-cases/role/finance#_9-ai供应商发票核对器) | 财务 | 电商/零售, 金融服务 | 数据分析 | 核对时间-85% |
 | 85 | [AI社交媒体监听助手](/zh/use-cases/role/content-marketing#_15-ai社交媒体监听助手) | 营销 | 科技/SaaS, 电商/零售 | 调研与监控 | 覆盖率：15%→96% |
-| 86 | [AI冲刺规划助手](/zh/use-cases/role/product-dev#_20-ai冲刺规划助手) | 研发 | 科技/SaaS | 数据分析 | 3小时→45分钟 |
+| 86 | [AI冲刺规划助手](/zh/use-cases/role/product#_3-ai冲刺规划助手) | 产品 | 科技/SaaS | 数据分析 | 3小时→45分钟 |
 | 87 | [AI租赁合同审查助手](/zh/use-cases/role/finance#_10-ai租赁合同审查助手) | 财务 | 金融服务 | 数据分析 | 5天→1小时 |
 | 88 | [AI差旅费用优化器](/zh/use-cases/role/finance#_11-ai差旅费用优化器) | 财务 | - | 数据分析 | 差旅开支-23% |
 | 89 | [AI招聘营销文案助手](/zh/use-cases/role/content-marketing#_16-ai招聘营销文案助手) | 营销 | 科技/SaaS | 写作与内容 | 点击率+65% |
 | 90 | [AI客户调研设计器](/zh/use-cases/role/content-marketing#_17-ai客户调研设计器) | 营销 | 科技/SaaS, 电商/零售 | 写作与内容 | 回复率：3%→28% |
-| 91 | [AI发版说明生成器](/zh/use-cases/role/product-dev#_21-ai发版说明生成器) | 研发 | 科技/SaaS | 写作与内容 | 3-4小时→5分钟 |
+| 91 | [AI发版说明生成器](/zh/use-cases/role/product#_4-ai发版说明生成器) | 产品 | 科技/SaaS | 写作与内容 | 3-4小时→5分钟 |
 | 92 | [AI董事会报告编制器](/zh/use-cases/role/finance#_12-ai董事会报告编制器) | 财务 | 金融服务 | 写作与内容 | 40小时→4小时 |
 | 93 | [AI合规培训追踪器](/zh/use-cases/role/hr-recruiting#_11-ai合规培训追踪器) | HR | 科技/SaaS, 金融服务 | 流程自动化 | 完成率：52%→96% |
 | 94 | [AI销售异议处理助手](/zh/use-cases/role/sales#_14-ai销售异议处理助手) | 销售 | 科技/SaaS | 写作与内容 | 成功率：35%→72% |
-| 95 | [AI IT资产管理器](/zh/use-cases/role/product-dev#_22-ai-it资产管理器) | 研发 | 科技/SaaS | 流程自动化 | 可见性：45%→99% |
+| 95 | [AI IT资产管理器](/zh/use-cases/role/dev#_18-ai-it资产管理器) | 研发 | 科技/SaaS | 流程自动化 | 可见性：45%→99% |
 | 96 | [AI需求预测器](/zh/use-cases/role/content-marketing#_18-ai需求预测器) | 营销 | 电商/零售 | 数据分析 | 预测误差：35%→8% |
 | 97 | [AI演示文稿构建器](/zh/use-cases/role/content-marketing#_19-ai演示文稿构建器) | 营销 | 科技/SaaS | 写作与内容 | 15小时→1小时 |
 | 98 | [AI客户健康度评分器](/zh/use-cases/role/sales#_16-ai客户健康度评分器) | 销售 | 科技/SaaS | 数据分析 | 覆盖率：20%→100% |
-| 99 | [AI工作流自动化器](/zh/use-cases/role/product-dev#_23-ai工作流自动化器) | 研发 | 科技/SaaS | 流程自动化 | 自动化：15%→78% |
+| 99 | [AI工作流自动化器](/zh/use-cases/role/product#_5-ai工作流自动化器) | 产品 | 科技/SaaS | 流程自动化 | 自动化：15%→78% |
 | 100 | [AI RFP响应撰写助手](/zh/use-cases/role/sales#_17-ai-rfp响应撰写助手) | 销售 | 科技/SaaS | 写作与内容 | 40小时→8小时 |
 | 101 | [AI合同分析师](/zh/use-cases/role/legal#_1-ai合同分析师) | 法律 | 企业通用 | 流程自动化 | 50页文档 → 3 分钟 |
 | 102 | [AI患者入院处理器](/zh/use-cases/role/operations#_23-ai患者入院处理器) | 运营 | 医疗健康 | 流程自动化 | 人工录入 → 90 秒 |
@@ -224,14 +225,14 @@
 | 154 | [AI影响力评估报告器](/zh/use-cases/role/data-analyst#_10-ai影响力评估报告器) | 数据分析师 | 非营利 | 写作与内容 | 手动 → 20 分钟 |
 | 155 | [AI信息公开请求处理器](/zh/use-cases/role/legal#_5-ai信息公开请求处理器) | 法律 | 政府 | 流程自动化 | 手动 → 自动化 |
 | 156 | [AI供应链风险评分器](/zh/use-cases/role/procurement#_3-ai供应链风险评分器) | 采购 | 制造业 | 调研与监控 | 数小时 → 分钟 |
-| 157 | [AI API迁移规划器](/zh/use-cases/role/product-dev#_24-ai-api迁移规划器) | 产品/研发 | 科技/SaaS | 调研与监控 | 数小时 → 分钟 |
+| 157 | [AI API迁移规划器](/zh/use-cases/role/dev#_19-ai-api迁移规划器) | 研发 | 科技/SaaS | 调研与监控 | 数小时 → 分钟 |
 | 158 | [AI临床笔记摘要器](/zh/use-cases/role/operations#_31-ai临床笔记摘要器) | 运营 | 医疗健康 | 写作与内容 | 数小时 → 分钟 |
 | 159 | [AI论文评分助手](/zh/use-cases/role/trainer#_4-ai论文评分助手) | 培训师 | 教育 | 流程自动化 | 手动 → 2 分钟 |
 | 160 | [AI法规变更追踪器](/zh/use-cases/role/legal#_6-ai法规变更追踪器) | 法律 | 金融服务 | 调研与监控 | 手动 → 实时 |
 | 161 | [AI最后一公里配送追踪器](/zh/use-cases/role/logistics-manager#_4-ai最后一公里配送追踪器) | 物流经理 | 电商/零售 | 调研与监控 | 手动 → 实时 |
 | 162 | [AI平面图分析器](/zh/use-cases/role/data-analyst#_11-ai平面图分析器) | 数据分析师 | 房地产 | 数据分析 | 人工检查 → 2 分钟 |
 | 163 | [AI高管简报生成器](/zh/use-cases/role/executive#_1-ai高管简报生成器) | 高管 | 企业通用 | 写作与内容 | 手动 → 5 分钟 |
-| 164 | [AI电子病历数据迁移器](/zh/use-cases/role/product-dev#_25-ai电子病历数据迁移器) | 产品/研发 | 医疗健康 | 流程自动化 | 数小时 → 分钟 |
+| 164 | [AI电子病历数据迁移器](/zh/use-cases/role/dev#_20-ai电子病历数据迁移器) | 研发 | 医疗健康 | 流程自动化 | 数小时 → 分钟 |
 | 165 | [AI学习路径构建器](/zh/use-cases/role/trainer#_5-ai学习路径构建器) | 培训师 | 教育 | 流程自动化 | 数天 → 分钟 |
 | 166 | [AI诉讼保全管理器](/zh/use-cases/role/legal#_7-ai诉讼保全管理器) | 法律 | 企业通用 | 流程自动化 | 数小时 → 分钟 |
 | 167 | [AI越库调度器](/zh/use-cases/role/logistics-manager#_5-ai越库调度器) | 物流经理 | 物流 | 流程自动化 | 45% 提升 |
@@ -261,7 +262,7 @@
 | 191 | [AI受众分群引擎](/zh/use-cases/role/content-marketing#_23-ai受众分群引擎) | 内容/营销 | 媒体娱乐 | 流程自动化 | 数小时 → 分钟 |
 | 192 | [AI工单预测器](/zh/use-cases/role/customer-support#_14-ai工单预测器) | 客服 | 电信 | 调研与监控 | 数天 → 6 小时 |
 | 193 | [AI试驾调度器](/zh/use-cases/role/sales#_22-ai试驾调度器) | 销售 | 汽车 | 流程自动化 | 90% 提升 |
-| 194 | [AI依赖漏洞扫描器](/zh/use-cases/role/product-dev#_26-ai依赖漏洞扫描器) | 产品/研发 | 科技/SaaS | 调研与监控 | 手动 → 实时 |
+| 194 | [AI依赖漏洞扫描器](/zh/use-cases/role/dev#_21-ai依赖漏洞扫描器) | 研发 | 科技/SaaS | 调研与监控 | 手动 → 实时 |
 | 195 | [AI租户筛查处理器](/zh/use-cases/role/operations#_36-ai租户筛查处理器) | 运营 | 房地产 | 流程自动化 | 人工数天 → 3 分钟 |
 | 196 | [AI OKR进度追踪器](/zh/use-cases/role/executive#_3-ai-okr进度追踪器) | 高管 | 企业通用 | 流程自动化 | 手动 → 实时 |
 | 197 | [AI转诊网络绘制器](/zh/use-cases/role/sales#_23-ai转诊网络绘制器) | 销售 | 医疗健康 | 调研与监控 | 数小时 → 分钟 |
