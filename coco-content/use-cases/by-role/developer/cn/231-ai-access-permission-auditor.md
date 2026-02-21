@@ -1,6 +1,6 @@
-# 用例 #231：AI访问权限审计器
+# Use Case #231: AI Access Permission Auditor
 
-**角色**：开发工程师 / DevOps工程师 / 安全工程师 / 平台工程师 | **行业**：科技、SaaS、金融科技、医疗、企业 | **任务**：IAM审计、最小权限实施、合规审查
+**Role**: Developer / DevOps Engineer / Security Engineer / Platform Engineer | **Industry**: Technology, SaaS, Fintech, Healthcare, Enterprise | **Task**: IAM Audit, Least Privilege Enforcement, Compliance Review
 
 ---
 ## 详细介绍
@@ -56,7 +56,7 @@ COCO的AI访问权限审计器审查云提供商和Kubernetes集群中的IAM策�
    - 产出带有工作量估算和排序建议的访问清理计划
    - 使用观察到的访问模式为新服务账号生成权限范围建议
 
-**量化成果**
+**可量化的结果**
 
 - **权限减少**：典型首次审计发现35-50%的已授予权限未被使用，是整改候选项
 - **特权提升路径消除**：COCO在成熟AWS环境中平均发现12-25条特权提升路径——大多数此前未知
@@ -65,7 +65,7 @@ COCO的AI访问权限审计器审查云提供商和Kubernetes集群中的IAM策�
 - **审计发现项减少**：在外部审计前完成COCO审计的组织，访问相关审计发现项减少60-70%
 - **事件风险**：实施最小权限控制的组织，凭证被盗攻击的影响降低45%（凭证泄露时爆炸半径更小）
 
-**受益人群**
+**受益角色**
 
 - **DevOps / 平台工程师**：理解所管理基础设施的完整权限图景，系统性地解决差距
 - **安全工程师**：无需逐策略手动审查，即可扩大跨云账号和Kubernetes集群的访问审查覆盖范围

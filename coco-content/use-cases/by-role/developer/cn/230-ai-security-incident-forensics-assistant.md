@@ -1,6 +1,6 @@
-# 用例 #230：AI 安全事故取证助手
+# Use Case #230: AI Security Incident Forensics Assistant
 
-**角色**：开发工程师 / 安全工程师 / DevOps 工程师 / 事故响应人员 | **行业**：科技、SaaS、金融科技、医疗、企业软件 | **任务**：安全事故调查、数字取证、事故时间线分析
+**Role**: Developer / Security Engineer / DevOps Engineer / Incident Responder | **Industry**: Technology, SaaS, Fintech, Healthcare, Enterprise Software | **Task**: Security Incident Investigation, Digital Forensics, Incident Timeline Analysis
 
 ---
 ## 详细介绍
@@ -57,7 +57,7 @@ COCO 的 AI 安全事故取证助手分析安全事故产物——日志、网�
    - 起草含 GDPR、HIPAA 或其他适用框架所需要素的监管通知
    - 生成证据保全检查清单，确保整个过程中维持取证完整性
 
-**量化结果**
+**可量化的结果**
 
 - **分析速度**：取证时间线重建从 2–4 周的手动工作压缩至 COCO 辅助下的 12–24 小时
 - **攻击者驻留时间发现**：COCO 识别事故实际开始时间平均比手动分析早 72 小时，揭示完整范围
@@ -66,7 +66,7 @@ COCO 的 AI 安全事故取证助手分析安全事故产物——日志、网�
 - **覆盖完整性**：COCO 辅助的调查检查的日志量是人类分析师能手动审查的 10–50 倍
 - **事故复发率**：有完整取证报告的组织，事故复发率降低 60%（根本原因被充分理解和修复）
 
-**谁会受益**
+**受益角色**
 
 - **安全工程师 / 事故响应人员**：在系统性分析支持下处理更大、更复杂的事故——无需完整的取证团队
 - **DevOps 工程师 / SRE**：在结构化取证指导下调查其运营系统中的安全异常

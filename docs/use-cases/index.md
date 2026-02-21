@@ -1,6 +1,6 @@
 # Use Cases
 
-Discover **200 real-world scenarios** where COCO AI employees save time and money. Browse by **Role**, **Task**, or **Industry**.
+Discover **226 real-world scenarios** where COCO AI employees save time and money. Browse by **Role**, **Task**, or **Industry**.
 
 ## Browse by Role
 
@@ -8,8 +8,8 @@ Find use cases for your specific job function:
 
 | Role | Cases | Key Scenarios |
 |------|-------|--------------|
-| [Product Manager](/use-cases/role/product) | 5 | Sentiment Analyzer, Project Status Reporter, Sprint Planning, Release Notes, Workflow Automator |
-| [Developer / Engineering](/use-cases/role/dev) | 21 | Code Review, Test Gen, Deploy Monitor, API Docs, Security Scanner, Bug Prioritizer, ... |
+| [Product Manager](/use-cases/role/product) | 19 | Sentiment Analyzer, Project Status Reporter, Sprint Planning, Release Notes, Workflow Automator |
+| [Developer / Engineering](/use-cases/role/dev) | 33 | Code Review, Test Gen, Deploy Monitor, API Docs, Security Scanner, Bug Prioritizer, ... |
 | [Operations](/use-cases/role/operations) | 36 | Meeting Notes, Inventory Forecasting, Vendor Evaluation, ... |
 | [Finance](/use-cases/role/finance) | 19 | Expense Auditing, Financial Reports, Invoice Processing, ... |
 | [Content / Marketing](/use-cases/role/content-marketing) | 23 | SEO Writing, Social Media, Ad Copy, Brand Monitor, ... |
@@ -269,4 +269,30 @@ Find use cases by what you need to get done:
 | 198 | [AI Comparative Market Analysis Builder](/use-cases/role/sales#_24-ai-comparative-market-analysis) | Sales | Real Estate | Analysis | Hours → minutes |
 | 199 | [AI Board Meeting Prep Assistant](/use-cases/role/executive#_4-ai-board-meeting-prep-assistant) | Executive | Enterprise | Research | Hours → minutes |
 | 200 | [AI Accessibility Compliance Checker](/use-cases/role/qa-engineer#_3-ai-accessibility-compliance-checker) | QA Engineer | Technology / SaaS | Research | Manual → automated |
+| 201 | [AI User Interview Synthesizer](/use-cases/role/product#_6-ai-user-interview-synthesizer) | Product | Tech/SaaS | Analysis | Synthesis: 3 weeks → 4 hours |
+| 202 | [AI Usability Test Analyzer](/use-cases/role/product#_7-ai-usability-test-analyzer) | Product | Tech/SaaS | Analysis | Analysis: 5–7 days → 6–8 hours |
+| 203 | [AI Customer Journey Mapper](/use-cases/role/product#_8-ai-customer-journey-mapper) | Product | Tech/SaaS | Analysis | Mapping: 3–4 weeks → 2–3 days |
+| 204 | [AI PRD Generator](/use-cases/role/product#_9-ai-prd-generator) | Product | Tech/SaaS | Writing | PRD drafting: 6–10h → 60–90min |
+| 205 | [AI Feature Impact Estimator](/use-cases/role/product#_10-ai-feature-impact-estimator) | Product | Tech/SaaS | Analysis | 35% fewer regret features |
+| 206 | [AI Requirements Conflict Detector](/use-cases/role/product#_11-ai-requirements-conflict-detector) | Product | Tech/SaaS | Analysis | Conflicts detected pre-sprint: 20% → 70–80% |
+| 207 | [AI Multi-Tenant Feature Rollout Manager](/use-cases/role/product#_12-ai-multi-tenant-feature-rollout-manager) | Product | B2B SaaS | Automation | Escalations -60%, comms: 45 min → 5 min |
+| 208 | [AI Enterprise Onboarding Playbook Builder](/use-cases/role/product#_13-ai-enterprise-onboarding-playbook-builder) | Product | Tech/SaaS | Automation | Onboarding -30–40%, time-to-value < 30 days |
+| 209 | [AI Customer Expansion Opportunity Finder](/use-cases/role/product#_14-ai-customer-expansion-opportunity-finder) | Product | Tech/SaaS | Research | 35–45% more expansion revenue identified |
+| 210 | [AI Product Metrics Anomaly Detector](/use-cases/role/product#_15-ai-product-metrics-anomaly-detector) | Product | Tech/SaaS | Analysis | Detection: 2–3 days → < 4 hours |
+| 211 | [AI Cohort Retention Analyzer](/use-cases/role/product#_16-ai-cohort-retention-analyzer) | Product | Tech/SaaS | Analysis | Day-30 retention +4–8% in one quarter |
+| 212 | [AI Feature Adoption Tracker](/use-cases/role/product#_17-ai-feature-adoption-tracker) | Product | Tech/SaaS | Analysis | 90-day adoption rates +25–40% |
+| 213 | [AI Product Launch Planner](/use-cases/role/product#_18-ai-product-launch-planner) | Product | Tech/SaaS | Automation | Launch task completion: 70% → 92%+ |
+| 214 | [AI Competitive Battlecard Builder](/use-cases/role/product#_19-ai-competitive-battlecard-builder) | Product | Tech/SaaS | Analysis | Battlecard creation: 8–12h → 2–3h |
+| 215 | [AI Technical Debt Prioritizer](/use-cases/role/dev#_22-ai-technical-debt-prioritizer) | Dev | Tech/SaaS | Analysis | Remediation ROI 3× vs. ad-hoc fixes |
+| 216 | [AI Code Refactoring Advisor](/use-cases/role/dev#_23-ai-code-refactoring-advisor) | Dev | Tech/SaaS | Automation | Post-refactoring incidents -70% |
+| 217 | [AI Code Coverage Gap Finder](/use-cases/role/dev#_24-ai-code-coverage-gap-finder) | Dev | Tech/SaaS | Analysis | Bug escape rate -45–65% |
+| 218 | [AI Incident Root Cause Analyzer](/use-cases/role/dev#_25-ai-incident-root-cause-analyzer) | Dev | Tech/SaaS | Analysis | MTTR: 4–8h → 45–90min |
+| 219 | [AI Infrastructure Cost Optimizer](/use-cases/role/dev#_26-ai-infrastructure-cost-optimizer) | Dev | Tech/SaaS | Analysis | 25–40% of cloud spend optimizable |
+| 220 | [AI CI/CD Pipeline Optimizer](/use-cases/role/dev#_27-ai-ci-cd-pipeline-optimizer) | Dev | Tech/SaaS | Automation | Pipeline runtime -40–60% |
+| 221 | [AI System Design Reviewer](/use-cases/role/dev#_28-ai-system-design-reviewer) | Dev | Tech/SaaS | Analysis | 60–70% issues caught pre-implementation |
+| 222 | [AI Microservices Dependency Analyzer](/use-cases/role/dev#_29-ai-microservices-dependency-analyzer) | Dev | Tech/SaaS | Analysis | MTTR -60–70% via blast radius visibility |
+| 223 | [AI API Design Validator](/use-cases/role/dev#_30-ai-api-design-validator) | Dev | Tech/SaaS | Analysis | 75% issues caught before consumers |
+| 224 | [AI Threat Model Generator](/use-cases/role/dev#_31-ai-threat-model-generator) | Dev | Tech/SaaS | Research | 3–4× more threats vs. ad-hoc review |
+| 225 | [AI Security Incident Forensics Assistant](/use-cases/role/dev#_32-ai-security-incident-forensics-assistant) | Dev | Tech/SaaS | Analysis | Timeline: 2–4 weeks → 12–24 hours |
+| 226 | [AI Access Permission Auditor](/use-cases/role/dev#_33-ai-access-permission-auditor) | Dev | Tech/SaaS | Research | 35–50% unused permissions found |
 

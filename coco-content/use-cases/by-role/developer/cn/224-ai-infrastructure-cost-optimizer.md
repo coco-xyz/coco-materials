@@ -1,6 +1,6 @@
-# 用例 #224：AI 基础设施成本优化器
+# Use Case #224: AI Infrastructure Cost Optimizer
 
-**角色**：开发工程师 / DevOps 工程师 / SRE / 工程经理 | **行业**：科技、SaaS、金融科技、电商 | **任务**：云成本优化、FinOps、基础设施规模校准
+**Role**: Developer / DevOps Engineer / SRE / Engineering Manager | **Industry**: Technology, SaaS, Fintech, E-commerce | **Task**: Cloud Cost Optimization, FinOps, Infrastructure Right-Sizing
 
 ---
 ## 详细介绍
@@ -58,7 +58,7 @@ COCO 的 AI 基础设施成本优化器分析 AWS、GCP 和 Azure 的云支出�
    - 在建议实施后追踪已实现的节约
    - 生成适合工程和财务管理层的 FinOps 报告
 
-**量化结果**
+**可量化的结果**
 
 - **识别节约额**：首次分析通常识别 25–40% 的云支出可优化
 - **快速见效节约**：闲置资源清理和规模校准在 2–4 周内产生 10–20% 的即时成本降低
@@ -67,7 +67,7 @@ COCO 的 AI 基础设施成本优化器分析 AWS、GCP 和 Azure 的云支出�
 - **洞察效率**：云成本分析时间从 2 周的财务审计缩短至 2 小时的 COCO 会话
 - **工程师意识**：有 COCO 成本归因的团队，新部署中不必要资源配置减少 40%
 
-**谁会受益**
+**受益角色**
 
 - **DevOps / 平台工程师**：获得具体、安全的规模校准建议，而非泛泛的"优化云成本"建议
 - **工程经理**：能够用有数据支撑的理由为团队分配成本削减目标，并追踪进展

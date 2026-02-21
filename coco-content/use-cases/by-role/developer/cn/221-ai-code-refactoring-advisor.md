@@ -1,6 +1,6 @@
-# 用例 #221：AI 代码重构顾问
+# Use Case #221: AI Code Refactoring Advisor
 
-**角色**：开发工程师 / 高级工程师 / 技术负责人 | **行业**：科技、SaaS、金融科技、企业软件 | **任务**：遗留代码现代化、重构策略、代码质量提升
+**Role**: Developer / Senior Engineer / Tech Lead | **Industry**: Technology, SaaS, Fintech, Enterprise Software | **Task**: Legacy Code Modernization, Refactoring Strategy, Code Quality Improvement
 
 ---
 ## 详细介绍
@@ -53,7 +53,7 @@ COCO 的 AI 代码重构顾问分析遗留代码模式，生成具体、可执�
    - TypeScript：strict 模式采用路径、接口隔离、Utility Type 重构
    - Node.js：callback → Promise → async/await 迁移、ESM 迁移、Express → 框架化模式
 
-**量化结果**
+**可量化的结果**
 
 - **重构成功率**：使用 COCO 策略建议的团队，"重构后反而变得更糟"的事故比无指导方法减少 70%
 - **工时估算准确性**：80% 的案例中，重构工时估算误差在 ±25% 以内，而非正式估算的误差可达 ±200%
@@ -62,7 +62,7 @@ COCO 的 AI 代码重构顾问分析遗留代码模式，生成具体、可执�
 - **测试覆盖改善**：重构前生成特征化测试，使重构引发的生产事故减少 65%
 - **规划时间**：重构迭代规划从 2 天的设计会议缩短至 4 小时的范围界定会议
 
-**谁会受益**
+**受益角色**
 
 - **高级 / 首席工程师**：获得结构化框架，将模式识别转化为有可辩护理由的可执行计划
 - **技术负责人**：可将大型重构史诗拆解为安全排序的、迭代粒度的工作项分配给团队

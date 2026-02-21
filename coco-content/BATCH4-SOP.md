@@ -1,10 +1,13 @@
-# Batch 4 Use Case Generation SOP
+# Use Case Generation SOP (持续更新)
 
 ## Overview
 
+- **Batch 1**: Cases #005-034 (30 cases)
+- **Batch 2**: Cases #035-064 (30 cases)
+- **Batch 3**: Cases #065-104 (40 cases)
 - **Batch 4**: Cases #105-204 (100 cases)
-- **Previous batches**: Batch 1 (#005-034, 30 cases), Batch 2 (#035-064, 30 cases), Batch 3 (#065-104, 40 cases)
-- **Total after batch 4**: 200 cases
+- **Batch 5+**: Cases #205+ (ongoing, 26 added 2026-02-21)
+- **Total**: 226+ cases and growing
 
 ## 1. Use Case Content Format (3-Part Structure)
 
@@ -117,6 +120,33 @@ Each case on docs pages uses VitePress `:::details` blocks:
 3. **Generate videos** → social-media/videos/ (after content approved)
 4. **Update docs pages** → docs/use-cases/ (after content + videos ready)
 5. **Branch → PR → Stephanie confirm → Merge** (never push directly to main)
+
+## 5b. Docs Pages Update Checklist (新 Use Case 上线必更新)
+
+每次新增 use case 并 merge 到 main 后，必须更新以下两处：
+
+### A. 主页卡片 (Homepage Cards)
+- 文件：`docs/index.md`（EN）和 `docs/zh/index.md`（CN）
+- 更新内容：新角色/分类的 use case 数量统计，以及对应卡片描述
+
+### B. 用例库-全部用例一览 (All Use Cases Overview)
+- 文件：`docs/use-cases/index.md`（EN）和 `docs/zh/use-cases/index.md`（CN）
+- 更新内容：在对应角色/分类的表格或列表中添加新 use case 的条目
+
+### C. 角色/分类详情页 (Role/Category Detail Pages)
+- 文件：`docs/use-cases/role/{role}.md` 和 `docs/zh/use-cases/role/{role}.md`
+- 更新内容：在对应角色页末尾添加新 use case（collapsible :::details 格式）
+
+**顺序**: A + B + C 更新完毕 → 重新 build VitePress → 部署 preview → Stephanie 确认 → 创建 PR
+
+## 5c. VitePress Preview 已知问题
+
+### 右侧 Outline 侧边栏为空（反复出现）
+- **现象**: 页面右侧 "On this page" 目录栏为空白
+- **原因**: VitePress 对超长页面（20+ 个 h2 heading）的 outline 渲染存在问题，SSR 输出中 `VPDocOutlineItem` 为空
+- **影响**: 不影响内容浏览，但用户体验不佳
+- **解决方案**: 对特别长的 role 页面，考虑加 frontmatter `outline: false` 隐藏空的 outline 栏；或拆分页面
+- **注意**: 每次 build 后检查 outline 是否正常渲染
 
 ## 6. New Industries & Roles for Batch 4
 
