@@ -8,7 +8,8 @@ Find use cases for your specific job function:
 
 | Role | Cases | Key Scenarios |
 |------|-------|--------------|
-| [Product / Dev](/use-cases/role/product-dev) | 26 | Code Review, Test Gen, API Docs, Security Scanner, ... |
+| [Product Manager](/use-cases/role/product) | 5 | Sentiment Analyzer, Project Status Reporter, Sprint Planning, Release Notes, Workflow Automator |
+| [Developer / Engineering](/use-cases/role/dev) | 21 | Code Review, Test Gen, Deploy Monitor, API Docs, Security Scanner, Bug Prioritizer, ... |
 | [Operations](/use-cases/role/operations) | 36 | Meeting Notes, Inventory Forecasting, Vendor Evaluation, ... |
 | [Finance](/use-cases/role/finance) | 19 | Expense Auditing, Financial Reports, Invoice Processing, ... |
 | [Content / Marketing](/use-cases/role/content-marketing) | 23 | SEO Writing, Social Media, Ad Copy, Brand Monitor, ... |
@@ -68,11 +69,11 @@ Find use cases by what you need to get done:
 
 | # | Use Case | Role | Industry | Task | Key Metric |
 |---|----------|------|----------|------|------------|
-| 1 | [AI Code Reviewer](/use-cases/role/product-dev#_1-ai-code-reviewer) | Dev | Tech/SaaS | Automation | 4h → 15min per PR |
-| 2 | [AI Test Generator](/use-cases/role/product-dev#_2-ai-test-generator) | Dev | Tech/SaaS | Automation | 2 days → 30min |
-| 3 | [AI Deploy Monitor](/use-cases/role/product-dev#_3-ai-deploy-monitor) | Dev | Tech/SaaS | Automation | Manual → Auto (2min MTTR) |
-| 4 | [AI API Doc Writer](/use-cases/role/product-dev#_4-ai-api-doc-writer) | Dev | Tech/SaaS | Writing | 1 week → 2 hours |
-| 5 | [AI Debug Assistant](/use-cases/role/product-dev#_5-ai-debug-assistant) | Dev | Tech/SaaS | Automation | 2h → 10min |
+| 1 | [AI Code Reviewer](/use-cases/role/dev#_1-ai-code-reviewer) | Dev | Tech/SaaS | Automation | 4h → 15min per PR |
+| 2 | [AI Test Generator](/use-cases/role/dev#_2-ai-test-generator) | Dev | Tech/SaaS | Automation | 2 days → 30min |
+| 3 | [AI Deploy Monitor](/use-cases/role/dev#_3-ai-deploy-monitor) | Dev | Tech/SaaS | Automation | Manual → Auto (2min MTTR) |
+| 4 | [AI API Doc Writer](/use-cases/role/dev#_4-ai-api-doc-writer) | Dev | Tech/SaaS | Writing | 1 week → 2 hours |
+| 5 | [AI Debug Assistant](/use-cases/role/dev#_5-ai-debug-assistant) | Dev | Tech/SaaS | Automation | 2h → 10min |
 | 6 | [AI SEO Content Writer](/use-cases/role/content-marketing#_1-ai-seo-content-writer) | Marketing | Tech/SaaS, E-commerce | Writing | 4h → 20min per article |
 | 7 | [AI Social Media Manager](/use-cases/role/content-marketing#_2-ai-social-media-manager) | Marketing | Tech/SaaS, E-commerce | Writing | 3h/day → 15min |
 | 8 | [AI Ad Copy Generator](/use-cases/role/content-marketing#_3-ai-ad-copy-generator) | Marketing | Tech/SaaS, E-commerce | Writing | 50 → 200 variants in 10min |
@@ -98,11 +99,11 @@ Find use cases by what you need to get done:
 | 28 | [AI Meeting Notes](/use-cases/role/operations#_1-ai-meeting-notes) | Operations | Tech/SaaS | Automation | 30min → instant |
 | 29 | [AI Inventory Forecaster](/use-cases/role/operations#_2-ai-inventory-forecaster) | Operations | E-commerce | Analysis | Weekly → real-time |
 | 30 | [AI Vendor Evaluator](/use-cases/role/operations#_3-ai-vendor-evaluator) | Operations | - | Analysis | 1 week → 2 hours |
-| 31 | [AI Code Migrator](/use-cases/role/product-dev#_6-ai-code-migrator) | Dev | Tech/SaaS, Finance | Automation | 2 weeks → 4 hours |
-| 32 | [AI Performance Profiler](/use-cases/role/product-dev#_7-ai-performance-profiler) | Dev | Tech/SaaS | Analysis | 3 days → 30min |
-| 33 | [AI Security Scanner](/use-cases/role/product-dev#_8-ai-security-scanner) | Dev | Tech/SaaS | Research | Weekly → continuous |
-| 34 | [AI Database Optimizer](/use-cases/role/product-dev#_9-ai-database-optimizer) | Dev | Tech/SaaS | Analysis | 8h → 20min |
-| 35 | [AI Dependency Manager](/use-cases/role/product-dev#_10-ai-dependency-manager) | Dev | Tech/SaaS | Automation | 4h/week → 10min |
+| 31 | [AI Code Migrator](/use-cases/role/dev#_6-ai-code-migrator) | Dev | Tech/SaaS, Finance | Automation | 2 weeks → 4 hours |
+| 32 | [AI Performance Profiler](/use-cases/role/dev#_7-ai-performance-profiler) | Dev | Tech/SaaS | Analysis | 3 days → 30min |
+| 33 | [AI Security Scanner](/use-cases/role/dev#_8-ai-security-scanner) | Dev | Tech/SaaS | Research | Weekly → continuous |
+| 34 | [AI Database Optimizer](/use-cases/role/dev#_9-ai-database-optimizer) | Dev | Tech/SaaS | Analysis | 8h → 20min |
+| 35 | [AI Dependency Manager](/use-cases/role/dev#_10-ai-dependency-manager) | Dev | Tech/SaaS | Automation | 4h/week → 10min |
 | 36 | [AI Brand Monitor](/use-cases/role/content-marketing#_6-ai-brand-monitor) | Marketing | E-commerce | Research | 3h/day → real-time |
 | 37 | [AI Influencer Finder](/use-cases/role/content-marketing#_7-ai-influencer-finder) | Marketing | E-commerce | Research | 2 weeks → 2 hours |
 | 38 | [AI Campaign Analyzer](/use-cases/role/content-marketing#_8-ai-campaign-analyzer) | Marketing | E-commerce | Analysis | 1 day → 15min |
@@ -114,9 +115,9 @@ Find use cases by what you need to get done:
 | 44 | [AI Contract Analyzer](/use-cases/role/sales#_10-ai-contract-analyzer) | Sales | Finance | Analysis | 4h/contract → 10min |
 | 45 | [AI Churn Predictor](/use-cases/role/sales#_11-ai-churn-predictor) | Sales | Tech/SaaS | Research | Monthly → real-time |
 | 46 | [AI Chatbot Trainer](/use-cases/role/customer-support#_6-ai-chatbot-trainer) | Support | Tech/SaaS, E-commerce | Automation | 2 weeks → 3 hours |
-| 47 | [AI Bug Prioritizer](/use-cases/role/product-dev#_11-ai-bug-prioritizer) | Dev | Tech/SaaS | Research | 2h/day → instant |
+| 47 | [AI Bug Prioritizer](/use-cases/role/dev#_11-ai-bug-prioritizer) | Dev | Tech/SaaS | Research | 2h/day → instant |
 | 48 | [AI SLA Tracker](/use-cases/role/operations#_6-ai-sla-tracker) | Operations | - | Research | Manual → automated |
-| 49 | [AI Sentiment Analyzer](/use-cases/role/product-dev#_12-ai-sentiment-analyzer) | Dev | Tech/SaaS | Analysis | 1 day → 10min |
+| 49 | [AI Sentiment Analyzer](/use-cases/role/product#_1-ai-sentiment-analyzer) | Product | Tech/SaaS | Analysis | 1 day → 10min |
 | 50 | [AI FAQ Generator](/use-cases/role/customer-support#_7-ai-faq-generator) | Support | E-commerce | Writing | 3 days → 2 hours |
 | 51 | [AI Employee Pulse](/use-cases/role/hr-recruiting#_5-ai-employee-pulse) | HR | Tech/SaaS | Research | Monthly → weekly |
 | 52 | [AI Training Recommender](/use-cases/role/hr-recruiting#_6-ai-training-recommender) | HR | - | Automation | 1 week → 1 hour |
@@ -135,38 +136,38 @@ Find use cases by what you need to get done:
 | 65 | [AI Customer Success Monitor](/use-cases/role/customer-support#_8-ai-customer-success-monitor) | Support | Tech/SaaS | Research | Churn warning 30 days ahead |
 | 66 | [AI Product Feedback Analyzer](/use-cases/role/content-marketing#_11-ai-product-feedback-analyzer) | Marketing | Tech/SaaS, E-commerce | Analysis | 2 weeks → 2 hours |
 | 67 | [AI Regulatory Filing Assistant](/use-cases/role/finance#_7-ai-regulatory-filing-assistant) | Finance | Finance | Automation | Filing prep -78% |
-| 68 | [AI Project Status Reporter](/use-cases/role/product-dev#_13-ai-project-status-reporter) | Dev | Tech/SaaS | Writing | 4 hours → 15 minutes |
+| 68 | [AI Project Status Reporter](/use-cases/role/product#_2-ai-project-status-reporter) | Product | Tech/SaaS | Writing | 4 hours → 15 minutes |
 | 69 | [AI Sales Territory Mapper](/use-cases/role/sales#_12-ai-sales-territory-mapper) | Sales | E-commerce | Analysis | Territory balance +45% |
-| 70 | [AI Helpdesk Escalation Router](/use-cases/role/product-dev#_14-ai-helpdesk-escalation-router) | Dev | Tech/SaaS | Automation | Misrouting -89% |
-| 71 | [AI Data Pipeline Monitor](/use-cases/role/product-dev#_15-ai-data-pipeline-monitor) | Dev | Tech/SaaS, Finance | Automation | Detection: hours → seconds |
+| 70 | [AI Helpdesk Escalation Router](/use-cases/role/dev#_12-ai-helpdesk-escalation-router) | Dev | Tech/SaaS | Automation | Misrouting -89% |
+| 71 | [AI Data Pipeline Monitor](/use-cases/role/dev#_13-ai-data-pipeline-monitor) | Dev | Tech/SaaS, Finance | Automation | Detection: hours → seconds |
 | 72 | [AI Localization Manager](/use-cases/role/content-marketing#_12-ai-localization-manager) | Marketing | Tech/SaaS, E-commerce | Writing | 6 weeks → 3 days |
 | 73 | [AI Supply Chain Tracker](/use-cases/role/operations#_15-ai-supply-chain-tracker) | Operations | E-commerce | Automation | Visibility: 30% → 95% |
 | 74 | [AI Customer Onboarding Guide](/use-cases/role/customer-support#_10-ai-customer-onboarding-guide) | Support | Tech/SaaS | Automation | 3 weeks → 3 days |
 | 75 | [AI Marketing ROI Dashboard](/use-cases/role/content-marketing#_13-ai-marketing-roi-dashboard) | Marketing | E-commerce | Analysis | 3 days → real-time |
-| 76 | [AI Incident Response Coordinator](/use-cases/role/product-dev#_16-ai-incident-response-coordinator) | Dev | Tech/SaaS, Finance | Automation | MTTR -73% |
-| 77 | [AI Patent Research Assistant](/use-cases/role/product-dev#_17-ai-patent-research-assistant) | Dev | Tech/SaaS | Analysis | 3 weeks → 4 hours |
+| 76 | [AI Incident Response Coordinator](/use-cases/role/dev#_14-ai-incident-response-coordinator) | Dev | Tech/SaaS, Finance | Automation | MTTR -73% |
+| 77 | [AI Patent Research Assistant](/use-cases/role/dev#_15-ai-patent-research-assistant) | Dev | Tech/SaaS | Analysis | 3 weeks → 4 hours |
 | 78 | [AI Employee Offboarding Manager](/use-cases/role/hr-recruiting#_9-ai-employee-offboarding-manager) | HR | Tech/SaaS | Automation | 2 weeks → 1 day |
-| 79 | [AI Quality Assurance Auditor](/use-cases/role/product-dev#_18-ai-quality-assurance-auditor) | Dev | Tech/SaaS | Analysis | QA coverage: 40% → 92% |
+| 79 | [AI Quality Assurance Auditor](/use-cases/role/dev#_16-ai-quality-assurance-auditor) | Dev | Tech/SaaS | Analysis | QA coverage: 40% → 92% |
 | 80 | [AI Competitive Intelligence Tracker](/use-cases/role/content-marketing#_14-ai-competitive-intelligence-tracker) | Marketing | Tech/SaaS | Research | Monthly → real-time |
 | 81 | [AI Tax Preparation Assistant](/use-cases/role/finance#_8-ai-tax-preparation-assistant) | Finance | Finance | Analysis | Tax prep -70% |
 | 82 | [AI Customer Win-Back Campaigner](/use-cases/role/sales#_13-ai-customer-win-back-campaigner) | Sales | Tech/SaaS, E-commerce | Writing | Win-back: 8% → 35% |
-| 83 | [AI Technical Writer](/use-cases/role/product-dev#_19-ai-technical-writer) | Dev | Tech/SaaS | Writing | 3 days → 2 hours |
+| 83 | [AI Technical Writer](/use-cases/role/dev#_17-ai-technical-writer) | Dev | Tech/SaaS | Writing | 3 days → 2 hours |
 | 84 | [AI Vendor Invoice Reconciler](/use-cases/role/finance#_9-ai-vendor-invoice-reconciler) | Finance | E-commerce, Finance | Analysis | Reconciliation -85% |
 | 85 | [AI Social Listening Agent](/use-cases/role/content-marketing#_15-ai-social-listening-agent) | Marketing | Tech/SaaS, E-commerce | Research | Coverage: 15% → 96% |
-| 86 | [AI Sprint Planning Assistant](/use-cases/role/product-dev#_20-ai-sprint-planning-assistant) | Dev | Tech/SaaS | Analysis | 3 hours → 45 minutes |
+| 86 | [AI Sprint Planning Assistant](/use-cases/role/product#_3-ai-sprint-planning-assistant) | Product | Tech/SaaS | Analysis | 3 hours → 45 minutes |
 | 87 | [AI Lease Agreement Reviewer](/use-cases/role/finance#_10-ai-lease-agreement-reviewer) | Finance | Finance | Analysis | 5 days → 1 hour |
 | 88 | [AI Travel Expense Optimizer](/use-cases/role/finance#_11-ai-travel-expense-optimizer) | Finance | - | Analysis | Travel spend -23% |
 | 89 | [AI Recruitment Marketing Writer](/use-cases/role/content-marketing#_16-ai-recruitment-marketing-writer) | Marketing | Tech/SaaS | Writing | Click-through +65% |
 | 90 | [AI Customer Survey Designer](/use-cases/role/content-marketing#_17-ai-customer-survey-designer) | Marketing | Tech/SaaS, E-commerce | Writing | Response rate: 3% → 28% |
-| 91 | [AI Release Notes Generator](/use-cases/role/product-dev#_21-ai-release-notes-generator) | Dev | Tech/SaaS | Writing | 3-4 hours → 5 minutes |
+| 91 | [AI Release Notes Generator](/use-cases/role/product#_4-ai-release-notes-generator) | Product | Tech/SaaS | Writing | 3-4 hours → 5 minutes |
 | 92 | [AI Board Report Compiler](/use-cases/role/finance#_12-ai-board-report-compiler) | Finance | Finance | Writing | 40 hours → 4 hours |
 | 93 | [AI Compliance Training Tracker](/use-cases/role/hr-recruiting#_11-ai-compliance-training-tracker) | HR | Tech/SaaS, Finance | Automation | Completion: 52% → 96% |
 | 94 | [AI Sales Objection Handler](/use-cases/role/sales#_14-ai-sales-objection-handler) | Sales | Tech/SaaS | Writing | Success: 35% → 72% |
-| 95 | [AI IT Asset Manager](/use-cases/role/product-dev#_22-ai-it-asset-manager) | Dev | Tech/SaaS | Automation | Visibility: 45% → 99% |
+| 95 | [AI IT Asset Manager](/use-cases/role/dev#_18-ai-it-asset-manager) | Dev | Tech/SaaS | Automation | Visibility: 45% → 99% |
 | 96 | [AI Demand Forecaster](/use-cases/role/content-marketing#_18-ai-demand-forecaster) | Marketing | E-commerce | Analysis | Forecast error: 35% → 8% |
 | 97 | [AI Pitch Deck Builder](/use-cases/role/content-marketing#_19-ai-pitch-deck-builder) | Marketing | Tech/SaaS | Writing | 15 hours → 1 hour |
 | 98 | [AI Customer Health Scorer](/use-cases/role/sales#_16-ai-customer-health-scorer) | Sales | Tech/SaaS | Analysis | Coverage: 20% → 100% |
-| 99 | [AI Workflow Automator](/use-cases/role/product-dev#_23-ai-workflow-automator) | Dev | Tech/SaaS | Automation | Automation: 15% → 78% |
+| 99 | [AI Workflow Automator](/use-cases/role/product#_5-ai-workflow-automator) | Product | Tech/SaaS | Automation | Automation: 15% → 78% |
 | 100 | [AI RFP Response Writer](/use-cases/role/sales#_17-ai-rfp-response-writer) | Sales | Tech/SaaS | Writing | 40 hours → 8 hours |
 | 101 | [AI Contract Analyzer](/use-cases/role/legal#_1-ai-contract-analyzer) | Legal | Enterprise | Automation | 50-page doc → 3 minutes |
 | 102 | [AI Patient Intake Processor](/use-cases/role/operations#_23-ai-patient-intake-processor) | Operations | Healthcare | Automation | Manual entry → 90 seconds |
@@ -224,14 +225,14 @@ Find use cases by what you need to get done:
 | 154 | [AI Impact Measurement Reporter](/use-cases/role/data-analyst#_10-ai-impact-measurement-reporter) | Data Analyst | Nonprofit | Writing | Manual → 20 minutes |
 | 155 | [AI FOIA Request Processor](/use-cases/role/legal#_5-ai-foia-request-processor) | Legal | Government | Automation | Manual → automated |
 | 156 | [AI Supply Chain Risk Scorer](/use-cases/role/procurement#_3-ai-supply-chain-risk-scorer) | Procurement | Manufacturing | Research | Hours → minutes |
-| 157 | [AI API Migration Planner](/use-cases/role/product-dev#_24-ai-api-migration-planner) | Product / Dev | Technology / SaaS | Research | Hours → minutes |
+| 157 | [AI API Migration Planner](/use-cases/role/dev#_19-ai-api-migration-planner) | Dev | Technology / SaaS | Research | Hours → minutes |
 | 158 | [AI Clinical Notes Summarizer](/use-cases/role/operations#_31-ai-clinical-notes-summarizer) | Operations | Healthcare | Writing | Hours → minutes |
 | 159 | [AI Research Paper Grader](/use-cases/role/trainer#_4-ai-research-paper-grader) | Trainer | Education | Automation | Manual → 2 minutes |
 | 160 | [AI Regulatory Change Tracker](/use-cases/role/legal#_6-ai-regulatory-change-tracker) | Legal | Financial Services | Research | Manual → real-time |
 | 161 | [AI Last-Mile Delivery Tracker](/use-cases/role/logistics-manager#_4-ai-last-mile-delivery-tracker) | Logistics Manager | E-commerce / Retail | Research | Manual → real-time |
 | 162 | [AI Floor Plan Analyzer](/use-cases/role/data-analyst#_11-ai-floor-plan-analyzer) | Data Analyst | Real Estate | Analysis | Manual checks → 2 minutes |
 | 163 | [AI Executive Briefing Generator](/use-cases/role/executive#_1-ai-executive-briefing-generator) | Executive | Enterprise | Writing | Manual → 5 minutes |
-| 164 | [AI EHR Data Migrator](/use-cases/role/product-dev#_25-ai-ehr-data-migrator) | Product / Dev | Healthcare | Automation | Hours → minutes |
+| 164 | [AI EHR Data Migrator](/use-cases/role/dev#_20-ai-ehr-data-migrator) | Dev | Healthcare | Automation | Hours → minutes |
 | 165 | [AI Learning Path Builder](/use-cases/role/trainer#_5-ai-learning-path-builder) | Trainer | Education | Automation | Days → minutes |
 | 166 | [AI Litigation Hold Manager](/use-cases/role/legal#_7-ai-litigation-hold-manager) | Legal | Enterprise | Automation | Hours → minutes |
 | 167 | [AI Cross-Dock Scheduler](/use-cases/role/logistics-manager#_5-ai-cross-dock-scheduler) | Logistics Manager | Logistics | Automation | 45% improvement |
@@ -261,7 +262,7 @@ Find use cases by what you need to get done:
 | 191 | [AI Audience Segmentation Engine](/use-cases/role/content-marketing#_23-ai-audience-segmentation-engine) | Content / Marketing | Media & Entertainment | Automation | Hours → minutes |
 | 192 | [AI Service Ticket Predictor](/use-cases/role/customer-support#_14-ai-service-ticket-predictor) | Customer Support | Telecom | Research | Days → 6 hours |
 | 193 | [AI Test Drive Scheduler](/use-cases/role/sales#_22-ai-test-drive-scheduler) | Sales | Automotive | Automation | 90% improvement |
-| 194 | [AI Dependency Vulnerability Scanner](/use-cases/role/product-dev#_26-ai-dependency-vulnerability-scanner) | Product / Dev | Technology / SaaS | Research | Manual → real-time |
+| 194 | [AI Dependency Vulnerability Scanner](/use-cases/role/dev#_21-ai-dependency-vulnerability-scanner) | Dev | Technology / SaaS | Research | Manual → real-time |
 | 195 | [AI Tenant Screening Processor](/use-cases/role/operations#_36-ai-tenant-screening-processor) | Operations | Real Estate | Automation | Manual days → 3 minutes |
 | 196 | [AI OKR Progress Tracker](/use-cases/role/executive#_3-ai-okr-progress-tracker) | Executive | Enterprise | Automation | Manual → real-time |
 | 197 | [AI Referral Network Mapper](/use-cases/role/sales#_23-ai-referral-network-mapper) | Sales | Healthcare | Research | Hours → minutes |

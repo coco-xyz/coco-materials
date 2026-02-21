@@ -57,7 +57,8 @@ export default defineConfig({
               text: 'By Role',
               collapsed: false,
               items: [
-                { text: 'Product / Dev', link: '/use-cases/role/product-dev' },
+                { text: 'Product Manager', link: '/use-cases/role/product' },
+                { text: 'Developer / Engineering', link: '/use-cases/role/dev' },
                 { text: 'Operations', link: '/use-cases/role/operations' },
                 { text: 'Finance', link: '/use-cases/role/finance' },
                 { text: 'Content / Marketing', link: '/use-cases/role/content-marketing' },
@@ -170,7 +171,8 @@ export default defineConfig({
               text: '按角色',
               collapsed: false,
               items: [
-                { text: '产品/研发', link: '/zh/use-cases/role/product-dev' },
+                { text: '产品经理', link: '/zh/use-cases/role/product' },
+                { text: '研发工程', link: '/zh/use-cases/role/dev' },
                 { text: '运营', link: '/zh/use-cases/role/operations' },
                 { text: '财务', link: '/zh/use-cases/role/finance' },
                 { text: '内容/营销', link: '/zh/use-cases/role/content-marketing' },
