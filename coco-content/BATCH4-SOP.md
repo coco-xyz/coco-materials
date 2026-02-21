@@ -139,6 +139,15 @@ Each case on docs pages uses VitePress `:::details` blocks:
 
 **顺序**: A + B + C 更新完毕 → 重新 build VitePress → 部署 preview → Stephanie 确认 → 创建 PR
 
+## 5c. VitePress Preview 已知问题
+
+### 右侧 Outline 侧边栏为空（反复出现）
+- **现象**: 页面右侧 "On this page" 目录栏为空白
+- **原因**: VitePress 对超长页面（20+ 个 h2 heading）的 outline 渲染存在问题，SSR 输出中 `VPDocOutlineItem` 为空
+- **影响**: 不影响内容浏览，但用户体验不佳
+- **解决方案**: 对特别长的 role 页面，考虑加 frontmatter `outline: false` 隐藏空的 outline 栏；或拆分页面
+- **注意**: 每次 build 后检查 outline 是否正常渲染
+
 ## 6. New Industries & Roles for Batch 4
 
 To expand coverage, batch 4 adds cases in:
