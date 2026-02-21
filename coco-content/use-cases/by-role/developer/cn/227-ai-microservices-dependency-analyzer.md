@@ -1,6 +1,6 @@
-# 用例 #227：AI 微服务依赖关系分析器
+# Use Case #227: AI Microservices Dependency Analyzer
 
-**角色**：开发工程师 / 高级工程师 / 平台工程师 / 解决方案架构师 | **行业**：科技、SaaS、金融科技、企业软件 | **任务**：服务依赖关系绘制、微服务架构、系统可靠性
+**Role**: Developer / Senior Engineer / Platform Engineer / Solution Architect | **Industry**: Technology, SaaS, Fintech, Enterprise Software | **Task**: Service Dependency Mapping, Microservices Architecture, System Reliability
 
 ---
 ## 详细介绍
@@ -55,7 +55,7 @@ COCO 的 AI 微服务依赖关系分析器从多个数据源自动绘制服务�
    - 随时间追踪依赖图健康指标（耦合趋势、SPOF 数量、环数量）
    - 启用依赖治理策略："服务 X 不能直接依赖服务 Y——必须通过服务 Z"
 
-**量化结果**
+**可量化的结果**
 
 - **依赖关系图准确性**：组织通常比手工维护的图表多发现 40–60% 的服务依赖关系
 - **SPOF 识别**：每个系统平均发现 3–5 个之前未被识别的单点故障
@@ -64,7 +64,7 @@ COCO 的 AI 微服务依赖关系分析器从多个数据源自动绘制服务�
 - **服务解耦工作量**：准确的依赖关系绘制使服务解耦项目的工作量估算减少 50%（没有隐藏依赖的意外）
 - **跨团队协调**：自动化影响范围报告使服务变更带来的计划外跨团队事故减少 40%
 
-**谁会受益**
+**受益角色**
 
 - **平台工程师**：拥有对其负责运营系统的实时、准确地图
 - **技术负责人 / 架构师**：及早发现架构退化，基于数据决策服务重构
