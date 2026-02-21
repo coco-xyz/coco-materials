@@ -1606,7 +1606,152 @@ Please deliver:
 
 :::
 
-## 12. AI Enterprise Onboarding Playbook Builder
+## 12. AI Multi-Tenant Feature Rollout Manager
+
+> Rollout-related support escalations reduced 60%. Per-tenant communication prep time: 45 min → 5 min.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Rolling Out to Enterprise Tenants Is a Risk Management Problem in Disguise**
+
+In a single-tenant consumer app, a bad feature rollout is recoverable. A multi-tenant enterprise platform is different. One configuration error that affects your top 20 enterprise customers — each running different integrations, custom configurations, and compliance requirements — can generate 20 simultaneous support escalations, violate SLA commitments across multiple contracts, and trigger a board-level conversation about platform reliability. The stakes are asymmetric: a successful rollout is invisible; a failed one is existential.
+
+The problem is that most rollout processes are not designed for this asymmetry. Teams use the same feature flag framework they use for consumer products — turn on for 10%, then 50%, then 100% — and call it a "phased rollout." But "10% of tenants" is not a risk-calibrated number in an enterprise context. That 10% might include the tenant with the most complex custom integration. Or the one in your most regulated industry. Or the anchor customer whose CTO just called your VP of Sales about the upcoming renewal. Enterprise tenants are not interchangeable — their risk profiles are wildly different, and a rollout strategy that ignores this distinction is not a risk management approach; it is a lottery.
+
+The documentation burden compounds the problem. Enterprise customers expect rollout communications with specifics: what is changing, when exactly, how to prepare, what to do if something breaks, and who to call. Generating per-tenant rollout communications manually for 50+ tenants at different rollout stages is a project unto itself that teams simply skip — and then field the confusion calls.
+
+**How COCO Solves It**
+
+COCO's AI Multi-Tenant Feature Rollout Manager plans, sequences, and monitors feature rollouts across enterprise tenants with risk-calibrated staging, automated communication generation, and proactive rollback triggers.
+
+1. **Tenant Risk Profile Scoring**: Classifies each tenant by rollout risk before a single line of deployment happens.
+   - Risk factors: integration complexity, custom configuration depth, contractual SLA sensitivity, tenant health score, support ticket volume, strategic account status
+   - Produces a rollout risk tier for each tenant: Low / Medium / High / Hold
+   - Identifies tenants that should never be in the same rollout wave
+
+2. **Wave Sequencing Engine**: Builds a staged rollout plan optimizing for risk distribution and learning velocity.
+   - Wave 1: Internal tenants and volunteer beta tenants only
+   - Wave 2: Low-risk tenants with similar profiles — contains impact if issues emerge
+   - Wave 3: Medium-risk tenants with manual monitoring checkpoints
+   - Wave 4: High-risk and strategic tenants, with individual pre-rollout reviews
+
+3. **Tenant-Specific Rollout Communication Generator**: Produces per-tenant rollout notifications customized to their configuration.
+   - Identifies which specific features or settings are changing for that tenant based on their actual configuration
+   - Generates communication templates accurate for that tenant — not a generic "something is changing" blast
+   - Includes tenant-specific preparation steps and a contact path
+
+4. **Pre-Rollout Readiness Checklist**: Generates a go/no-go checklist tailored to each tenant before their wave deploys.
+   - Validates tenant-specific integrations are compatible with the new feature version
+   - Checks for open support tickets indicating instability
+   - Confirms the rollout window avoids the tenant's blackout periods
+
+5. **Real-Time Anomaly Monitoring Plan**: Defines the monitoring protocol for each wave — what to watch, for how long, and rollback triggers.
+   - Sets tenant-specific error rate thresholds
+   - Defines monitoring window duration per wave based on feature complexity
+   - Produces a rollback decision tree: automatic, advisory, or manual
+
+6. **Post-Rollout Tenant Health Report**: Summarizes rollout outcomes by tenant after each wave.
+   - Tracks feature activation rate by tenant in first 48 hours
+   - Flags tenants showing anomalous behavior post-rollout for proactive outreach
+   - Generates a rollout retrospective that feeds into the next release's planning
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Rollout-related support escalations**: Reduced by 60% through risk-tiered wave sequencing
+- **Mean time to rollout completion**: Reduced by 25% through parallel wave optimization
+- **Rollback events**: Decreased by 40% due to pre-rollout readiness checks
+- **Per-tenant communication prep time**: From 45 minutes per tenant to 5 minutes with COCO
+- **SLA violation incidents during rollout**: Reduced from ~15% to under 4% of major releases
+- **Tenant health scores** (90 days post-rollout): 18% improvement vs. unstructured rollout
+
+**Who Benefits**
+
+- **Platform Product Managers**: Have a defensible, risk-calibrated rollout plan — not "we'll roll out to 10% first"
+- **Customer Success Teams**: Receive per-tenant rollout schedules and communication drafts — no more 50 manual emails per release
+- **Engineering / SRE Teams**: Clear monitoring parameters and rollback triggers — no more judgment calls during incidents
+- **Enterprise Customers**: Specific, accurate advance notice of changes — improving trust and reducing confusion
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Full Rollout Plan for a New Feature**
+```
+I'm planning the rollout of [feature name] across our [X] enterprise tenants.
+Please build a risk-calibrated rollout plan.
+
+Feature context:
+- What it changes: [describe the change — UI, data model, integration behavior, permissions, etc.]
+- Risk level estimate: [Low / Medium / High — and why]
+- Rollout timeline constraint: [when we need full rollout complete]
+- Rollback complexity: [easy / moderate / complex — and how it works]
+
+Tenant data:
+[Format: Tenant name | Size | Integration complexity | SLA tier | Strategic status | Recent health]
+
+Please generate:
+1. Risk tier classification for each tenant (Low/Medium/High/Hold)
+2. Recommended wave structure with tenant assignments per wave
+3. Soak period and go/no-go criteria before each wave
+4. Monitoring parameters per wave (what to watch, rollback triggers)
+5. Timeline from wave 1 start to full rollout completion
+```
+
+**Prompt 2: Per-Tenant Rollout Communication Generation**
+```
+Generate customized rollout notifications for [feature name] release.
+
+Feature being released: [describe what's changing]
+Rollout date for this tenant group: [date / time window]
+Preparation steps required: [what tenants may need to do]
+Support contact: [who they should call or email]
+
+Please generate customized rollout notices for each tenant:
+
+Tenant 1: [Company name]
+Configuration: [specific integrations, settings, or usage patterns affected]
+
+Tenant 2: [Company name]
+Configuration: [same fields]
+
+For each notice:
+- Specify exactly what is changing in their environment
+- List preparation steps relevant to their setup
+- State the rollout window for their specific tenant
+- Include a clear contact path for questions
+```
+
+**Prompt 3: Rollout Retrospective and Next-Release Improvement**
+```
+Run a rollout retrospective for [feature name].
+
+Rollout summary:
+- Total tenants rolled out: [X]
+- Waves: [how many, sequence]
+- Timeline: planned [X days] vs. actual [Y days]
+- Rollback events: [how many, which tenants, why]
+- Support escalations: [number and nature]
+
+Post-rollout health data:
+- Feature adoption rate by tenant group: [data or estimates]
+- Support ticket volume change: [before vs. after]
+
+Please analyze and provide:
+1. What went well — standardize for future rollouts
+2. Root cause of delays or rollback events
+3. Which risk tiers performed as predicted vs. surprised us
+4. 3-5 process improvements for the next release
+5. Updated tenant risk profile recommendations
+```
+
+:::
+
+
+## 13. AI Enterprise Onboarding Playbook Builder
 
 > Average onboarding duration reduced 30–40% — time-to-first-value milestone accelerated to under 30 days.
 
@@ -1675,7 +1820,7 @@ Please build a phased playbook with:
 
 :::
 
-## 13. AI Customer Expansion Opportunity Finder
+## 14. AI Customer Expansion Opportunity Finder
 
 > 35–45% more expansion revenue identified proactively — before the renewal window opens.
 
@@ -1743,7 +1888,7 @@ Please produce:
 
 :::
 
-## 14. AI Product Metrics Anomaly Detector
+## 15. AI Product Metrics Anomaly Detector
 
 > Mean time to anomaly detection reduced from 2–3 days to under 4 hours — with an 8% false positive rate.
 
@@ -1815,7 +1960,7 @@ Please:
 
 :::
 
-## 15. AI Cohort Retention Analyzer
+## 16. AI Cohort Retention Analyzer
 
 > Day-30 retention improvements of 4–8% within one quarter — from identifying the specific behaviors that predict churn.
 
@@ -1885,7 +2030,7 @@ Please analyze and output:
 
 :::
 
-## 16. AI Feature Adoption Tracker
+## 17. AI Feature Adoption Tracker
 
 > 90-day adoption rates improve 25–40% after implementing COCO-identified barrier fixes.
 
@@ -1957,7 +2102,7 @@ Please:
 
 :::
 
-## 17. AI Product Launch Planner
+## 18. AI Product Launch Planner
 
 > Launch task completion rate rises from ~70% to 92%+ — with 45% fewer timeline delays.
 
@@ -2035,7 +2180,7 @@ Please generate:
 
 :::
 
-## 18. AI Competitive Battlecard Builder
+## 19. AI Competitive Battlecard Builder
 
 > Battlecard creation time cut from 8–12 hours to 2–3 hours per competitor — with win rates improving 10–18%.
 
