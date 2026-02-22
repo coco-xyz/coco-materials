@@ -506,7 +506,54 @@ This week's data:
 
 :::
 
-## 5. AI Travel Itinerary Optimizer
+## 5. AI Executive Meeting Prep Assistant
+
+> Automatically prepares briefing packages for every scheduled meeting — meeting prep: 45–90 min → 8–12 min review, EA briefing coverage: 20–30% → 85–95% of meetings.
+
+::: details Pain Point & How COCO Solves It
+
+Thorough prep for a single high-stakes meeting takes 3–4 hours — executives can only cover their most important meetings, while dozens of medium-importance meetings happen without adequate context. EAs can brief only 20–30% of the schedule. COCO automatically synthesizes LinkedIn, company news, CRM history, and prior meeting notes into a structured brief in minutes — covering every meeting, not just the top tier.
+
+:::
+
+::: details Results & Who Benefits
+
+- Meeting prep time: 45–90 min → 8–12 min review (6–7× faster)
+- EA briefing coverage: 20–30% → 85–95% of meetings
+- Post-meeting follow-through rate: +67%
+- Meeting objective achievement: 54% → 71%
+
+**Who Benefits**: C-Suite Executives, Executive Assistants, Chiefs of Staff, Business Development Teams
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Pre-Meeting Intelligence Brief**
+```
+I have an important meeting in [X hours/days] and need a comprehensive briefing package.
+
+Meeting details:
+- Meeting type: [client QBR / new business development / board member check-in / partnership discussion / key hire interview]
+- Date and duration: [date, start time, duration]
+- My role in this meeting: [who I am, what I'm trying to achieve]
+
+Attendees:
+1. [Name, Title, Company] — [any notes you have about them]
+
+Context I can provide:
+- How we know these people: [relationship history]
+- What I know about their company/situation: [context]
+- Prior meeting notes: [paste or summarize]
+- What I want to achieve: [primary objective, secondary objectives]
+- Any sensitive topics: [anything I'm worried about]
+
+Please produce: (1) Attendee profiles, (2) Relationship summary, (3) Meeting intelligence / likely hidden agenda, (4) Recommended meeting frame, (5) 5 talking points ranked by importance, (6) 4 strategic questions to ask, (7) Any pre-meeting actions.
+```
+
+:::
+
+## 6. AI Travel Itinerary Optimizer
 
 > Optimizes meeting sequencing, hotel proximity, and buffer time — trip planning: 4–6h → 45–75min, transit time saved avg 90–120 min per multi-city trip.
 
@@ -554,7 +601,7 @@ Produce: Day-by-day itinerary with meeting sequence, transit time between each, 
 
 :::
 
-## 6. AI Email Triage and Drafting Assistant
+## 7. AI Email Triage and Drafting Assistant
 
 > Categorizes, prioritizes, and drafts replies for executive inboxes — daily email time: 2.5–3h → 45–75min, delegation drop rate: 23% → under 7%.
 
@@ -599,7 +646,7 @@ Also produce: Summary of delegated items with tracking reminders, any patterns I
 
 :::
 
-## 7. AI Weekly Review Summarizer
+## 8. AI Weekly Review Summarizer
 
 > Structures weekly executive review — completion rate: 22% → 87%, quarterly priority achievement +28–35%, strategic drift -45%.
 
@@ -648,7 +695,7 @@ Produce: Priority alignment assessment (am I spending time on the right things?)
 
 :::
 
-## 8. AI Decision Framework Builder
+## 9. AI Decision Framework Builder
 
 > Structures complex decisions with explicit criteria, pre-mortem, and bias audit — decision regrets -41%, decision documentation rate: 15% → 80%+.
 
@@ -701,7 +748,7 @@ Produce:
 
 :::
 
-## 9. AI Knowledge Base Curator
+## 10. AI Knowledge Base Curator
 
 > Organizes institutional knowledge into structured, searchable repositories — information search time -60%, knowledge reuse rate 3–4×, onboarding acceleration +40%.
 
@@ -745,7 +792,7 @@ Produce: Knowledge taxonomy (categories and subcategories), template for each kn
 
 :::
 
-## 10. AI Personal Goal Tracker
+## 11. AI Personal Goal Tracker
 
 > Structures personal and professional goal tracking with weekly accountability — goal progress 3.2× over 12 months, behavioral goal achievement: 23% → 61%.
 
@@ -789,7 +836,7 @@ Produce: Goal progress assessment (on track / at risk / off track for each), roo
 
 :::
 
-## 11. AI Research Briefing Generator
+## 12. AI Research Briefing Generator
 
 > Generates comprehensive research briefings on any strategic topic — briefing time: 3–5h → 30–45min, decision confidence +38%.
 
@@ -834,7 +881,7 @@ Format: Executive briefing — 2-page maximum, decision-structure format (situat
 
 :::
 
-## 12. AI Delegation Workflow Designer
+## 13. AI Delegation Workflow Designer
 
 > Structures delegation briefs with authority scope, success criteria, and escalation triggers — delegation completion: +52%, executive time recovered 6–8h/week.
 
@@ -883,7 +930,7 @@ Produce: Complete delegation brief document I can share with the delegate, check
 
 :::
 
-## 13. AI Meeting Preparation Briefer
+## 14. AI Meeting Preparation Briefer
 
 > Generates pre-meeting intelligence packages — prep time: 35–45min → under 5min, meeting objective achievement: 54% → 71%.
 
@@ -930,7 +977,7 @@ Produce: 1-page brief with attendee context, relationship history summary, my ob
 
 :::
 
-## 14. AI Task Priority Balancer
+## 15. AI Task Priority Balancer
 
 > Applies Eisenhower Matrix and priority frameworks to daily work — priority completion: 41% → 78%, strategic work time +35%, delegation rate 2.3×.
 
@@ -983,7 +1030,7 @@ Produce:
 
 :::
 
-## 15. AI Executive Communication Drafter
+## 16. AI Executive Communication Drafter
 
 > Drafts board communications, all-hands messages, and stakeholder letters in the executive's voice — draft-to-send cycle: 3–5h → 45–90min, revision rounds -60%.
 
