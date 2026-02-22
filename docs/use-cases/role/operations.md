@@ -5653,3 +5653,815 @@ This week's data:
 ```
 
 :::
+
+## 37. AI Meeting Agenda Optimizer
+
+> Structures meeting agendas with objectives, decision framing, and time allocation — meeting duration -30–40%, decision cycle time -50%.
+
+::: details Pain Point & How COCO Solves It
+
+Unstructured meetings waste 30–40% of time on discussion without decision. Recurring meetings accumulate unresolved items that carry forward indefinitely. Operations managers spend 3–5 hours per week on meeting logistics and follow-up drafting. COCO generates structured agendas that are self-improving when given prior meeting summaries.
+
+:::
+
+::: details Results & Who Benefits
+
+- Meeting duration: -30–40%
+- Decision-to-action cycle time: -50%
+- Recurring item carry-forward: automated tracking
+- Operations manager meeting admin time: -3–5h/week
+
+**Who Benefits**: Operations Managers, Team Leads, Executive Assistants
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Meeting Agenda Design**
+```
+Build an optimized agenda for [meeting name].
+
+Meeting context:
+- Meeting type: [weekly ops review / project kickoff / vendor review / steering committee]
+- Duration: [X minutes]
+- Attendees: [list roles]
+- Meeting objective: [what must be decided or completed by end of meeting]
+
+Items to cover:
+1. [Item] — [context: update needed / decision required / discussion]
+2. [...]
+
+Prior meeting summary (if recurring):
+[paste last meeting's action items and status]
+
+Produce: Structured agenda with: time allocation per item, framing of each item as question to answer (not topic to discuss), pre-read materials needed, decision owner for each decision item, and a parking lot section for items to defer.
+```
+
+:::
+
+## 38. AI Process Documentation Writer
+
+> Documents processes in audit-ready format — onboarding time -35–50%, process errors -40–60%, documentation production 3–5×.
+
+::: details Pain Point & How COCO Solves It
+
+Process documentation requires 4–6 weeks to write comprehensively and is immediately outdated. Most organizations have critical processes in tribal knowledge only, creating fragility with every departure. COCO produces comprehensive process documentation in audit-ready format, covering SOPs, decision trees, and exception handling in a fraction of manual time.
+
+:::
+
+::: details Results & Who Benefits
+
+- Employee onboarding time: -35–50%
+- Process-related errors: -40–60%
+- Documentation production: 3–5× faster
+- Compliance audit preparation: -25–30% time
+
+**Who Benefits**: Operations Managers, HR, Compliance teams
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: SOP Generation**
+```
+Generate a Standard Operating Procedure (SOP) for [process name].
+
+Process context:
+- Department/team: [who owns this process]
+- Frequency: [how often this runs — daily / weekly / per event]
+- Regulatory context: [any compliance requirements this must satisfy]
+- Risk level: [low / medium / high — consequences of error]
+
+Process description (describe the current process):
+[walk through each step as you currently do it]
+
+Known exceptions and edge cases:
+[list situations where the standard process doesn't apply]
+
+Produce: SOP in standard format with: purpose and scope, roles and responsibilities (RACI), step-by-step procedure with decision points, exception handling instructions, quality checkpoints, and change history section.
+```
+
+:::
+
+## 39. AI Vendor Contract Analyzer
+
+> Reviews vendor contracts for risk clauses and renewal opportunities — risk issues caught: 3–5 per contract, review time: 4–8h → 45–90min.
+
+::: details Pain Point & How COCO Solves It
+
+Vendor contracts auto-renew because no one reviews them. Software licenses accumulate unused seats. Risk clauses go unnoticed until disputes arise. COCO systematically extracts: all auto-renewal dates, termination notice requirements, price escalation clauses, liability caps, SLA provisions, and negotiation leverage points.
+
+:::
+
+::: details Results & Who Benefits
+
+- Material risk issues caught per contract: 3–5 on average
+- Auto-renewal spend recovered: 5–15% of annual software spend
+- Review time: 4–8h → 45–90min per document
+- Negotiation outcomes: +20–30% improvement with data-backed talking points
+
+**Who Benefits**: Operations Managers, Procurement, Legal, Finance
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Contract Risk Review**
+```
+Review this vendor contract for risks and negotiation opportunities.
+
+Contract type: [SaaS subscription / professional services / hardware maintenance / other]
+Our company's role: [customer / vendor]
+Contract value: [$X/year]
+Current term: [when it expires]
+
+Company playbook preferences:
+- Liability cap we prefer: [e.g., 12 months of fees]
+- Governing law preference: [our state/country]
+- Data processing terms required: [GDPR compliant / HIPAA BAA / other]
+- SLA minimums: [uptime %, response times]
+
+Contract (paste or describe key sections):
+[paste relevant sections or full contract if available]
+
+Review for:
+1. Auto-renewal provisions and notice deadline
+2. Price escalation clauses
+3. Liability and indemnification exposure
+4. Exit rights and termination for convenience
+5. Data ownership and portability
+6. SLA penalties vs actual remedies
+7. Negotiation talking points with suggested alternative language
+```
+
+:::
+
+## 40. AI Operational KPI Dashboard Narrator
+
+> Generates narrative explanations for KPI dashboards — report writing time -60–75%, leadership action items from reviews +40%.
+
+::: details Pain Point & How COCO Solves It
+
+Dashboards without narrative context require executives to interpret numbers without context — leading to 20–30% of meeting time spent on clarifying questions rather than decisions. COCO generates narrative sections that explain what the numbers mean, why they moved, and what to do — reducing meeting time and increasing action item generation 40%.
+
+:::
+
+::: details Results & Who Benefits
+
+- Report writing time: -60–75% per reporting cycle
+- Leadership meeting time on data clarification: -20–30%
+- Action items generated from data review: +40%
+- Metric literacy across organization: improved with consistent narrative framing
+
+**Who Benefits**: Operations Managers, Finance teams, Business Analysts
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: KPI Narrative**
+```
+Generate a narrative explanation for these operational KPIs.
+
+Reporting period: [Month/Quarter Year]
+Audience: [leadership team / board / operations team — specify level]
+Decision context: [what decisions does this report inform?]
+
+KPI data:
+[paste: metric name, current value, target, prior period, YoY — for each KPI]
+
+Context I can provide:
+- Major operational events this period: [describe]
+- External factors: [market conditions, supply chain, seasonality]
+- Changes in measurement or reporting: [any methodology changes]
+
+Produce: Dashboard narrative with: executive summary (3 sentences — what happened and what it means), metric-by-metric narrative (what moved and why — not just restating numbers), risk flags (anything trending wrong that needs attention), and recommended actions for leadership.
+```
+
+:::
+
+## 41. AI Supply Chain Risk Monitor
+
+> Monitors supplier health signals — disruption detected 14 days earlier, single-source failure cost avoidance $500K–$2M per incident.
+
+::: details Pain Point & How COCO Solves It
+
+Supply chain disruptions are discovered reactively — when the shortage hits the floor, not 2 weeks earlier when early warning signals existed. Supplier financial stress indicators, geopolitical signals, and logistics data are available but not systematically monitored. COCO structures a proactive risk monitoring framework that surfaces signals with 14 days of additional lead time on average.
+
+:::
+
+::: details Results & Who Benefits
+
+- Disruption signal detection: 14 days earlier than reactive organizations
+- Single-source failure cost avoidance: $500K–$2M per incident avoided
+- Crisis response time: -40% (mitigation plans exist for identified scenarios)
+- Risk register maintenance: automated vs manual quarterly reviews
+
+**Who Benefits**: Operations Managers, Supply Chain teams, Procurement
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Supplier Risk Assessment**
+```
+Assess supply chain risk for the following supplier portfolio.
+
+Our supply chain context:
+- Industry: [describe]
+- Single-source suppliers (highest risk): [list critical items with no backup]
+- Geographic concentration: [major sourcing regions]
+- Inventory buffer policy: [weeks of safety stock]
+
+Suppliers to assess (provide for each):
+1. [Supplier name] — [product/service] — [% of our spend] — [known risks if any]
+2. [...]
+
+Risk signals to assess (provide any available):
+- Financial health: [credit ratings, news of financial stress, payment behavior]
+- Geopolitical: [country risk, trade policy changes]
+- Logistics: [port congestion, carrier capacity, transit time changes]
+- Capacity: [news of production issues, labor disputes, natural disasters]
+
+Produce: Risk-ranked supplier list, specific early warning signals to monitor for each, mitigation recommendations for high-risk suppliers, and a risk register template for ongoing tracking.
+```
+
+:::
+
+## 42. AI Business Continuity Plan Writer
+
+> Develops BCPs in weeks not months — plan development: 6–12 months → 6–8 weeks, disruption recovery time -30–50%.
+
+::: details Pain Point & How COCO Solves It
+
+Most organizations have inadequate BCPs or none at all. Writing a comprehensive BCP requires identifying critical processes, mapping dependencies, defining recovery objectives, and designing response procedures — a 6–12 month project when done manually. COCO compresses this to 6–8 weeks while producing more methodologically complete output.
+
+:::
+
+::: details Results & Who Benefits
+
+- BCP development: 6–12 months → 6–8 weeks
+- Recovery time from disruptions: -30–50% vs organizations without BCPs
+- BCP testing frequency: increases when exercise design is simplified
+- Audit preparation time: -50% with audit-ready documentation format
+
+**Who Benefits**: Operations Managers, Risk teams, Business Leaders
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: BCP Development**
+```
+Help me develop a Business Continuity Plan for [department/function].
+
+Organization context:
+- Industry and regulatory requirements: [describe]
+- Critical business functions: [list the processes that cannot be interrupted]
+- Recovery time objective (RTO) for each: [how quickly must they resume]
+- Recovery point objective (RPO): [how much data loss is acceptable]
+
+Current state:
+- Backup systems: [describe what redundancy exists]
+- Remote work capability: [% of staff can work remotely]
+- Key single points of failure: [list known vulnerabilities]
+
+Scenarios to plan for:
+1. [Scenario: IT outage / natural disaster / key person departure / supply chain disruption]
+2. [...]
+
+Produce: BCP framework with: threat assessment, critical process dependency map, response procedures for each scenario, communication templates, recovery checklists, testing exercise design, and maintenance calendar.
+```
+
+:::
+
+## 43. AI Change Management Communications Writer
+
+> Produces structured change communication packages — adoption rate 3×, resistance -40–60%, communication package production: 2–3 weeks → 1–2 days.
+
+::: details Pain Point & How COCO Solves It
+
+Change initiatives fail 70% of the time, most often due to communication failures. Generic all-hands announcements fail because they don't address role-specific impacts. COCO produces complete communication packages that are multi-channel, audience-specific, and manager-enabled — tailored to each stakeholder group's specific concerns.
+
+:::
+
+::: details Results & Who Benefits
+
+- Change adoption rate: 3× higher with structured communication
+- Employee resistance: -40–60% with role-specific, proactive messaging
+- Communication package production: 2–3 weeks → 1–2 days
+- Employee satisfaction with change process: significantly higher
+
+**Who Benefits**: Operations Managers, HR, Change Management teams
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Change Communication Package**
+```
+Build a change communication package for [change initiative name].
+
+Change context:
+- What is changing: [describe the change]
+- Why: [business rationale]
+- Timeline: [key dates — announcement, implementation, full adoption]
+- Mandatory vs optional: [is this required or voluntary?]
+
+Impact by group:
+1. [Group 1 — e.g., frontline staff]: [how they're affected]
+2. [Group 2 — e.g., managers]: [how they're affected]
+3. [Group 3 — e.g., executives]: [how they're affected]
+
+Known concerns:
+[list anticipated objections or fears]
+
+Channels available:
+[all-hands email / team meetings / manager briefings / intranet / Slack]
+
+Produce: Communication cascade plan (who hears what, in what order, on what date), tailored messages for each audience, manager FAQ and talking points, 30/60/90 day reinforcement communications, and a feedback loop mechanism for questions.
+```
+
+:::
+
+## 44. AI Internal Policy Compliance Checker
+
+> Reviews operations for internal policy adherence — violations detected 70% earlier, compliance errors -45–55%, audit preparation -35–40%.
+
+::: details Pain Point & How COCO Solves It
+
+Internal policy compliance is reactive — violations surface in audits rather than being caught proactively. The same policy gaps repeat because there's no systematic review. COCO applies policy rules to operational data continuously, detecting violations 70% earlier and reducing audit preparation time through continuous evidence documentation.
+
+:::
+
+::: details Results & Who Benefits
+
+- Violation detection: 70% earlier than reactive audit-based detection
+- Compliance errors in high-risk areas: -45–55%
+- Audit preparation time: -35–40%
+- Internal fraud losses: -30–50% with robust monitoring
+
+**Who Benefits**: Operations Managers, Compliance teams, Internal Audit
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Compliance Review**
+```
+Check the following operational data for internal policy compliance.
+
+Policy areas to check:
+1. [Policy area] — key rules: [describe key requirements]
+2. [e.g., Procurement] — rules: [approval thresholds, preferred vendors, competitive bid requirements]
+3. [e.g., Expense management] — rules: [limits, pre-approval requirements, prohibited categories]
+
+Operational data to review:
+[paste: transactions, requests, approvals, or process data]
+
+Flag:
+1. Clear policy violations with reference to specific policy rule
+2. Potential violations requiring judgment (describe what makes them suspect)
+3. Pattern anomalies (e.g., multiple transactions just below approval threshold — possible splitting)
+4. Missing documentation required by policy
+
+Produce: Compliance report by category, severity-ranked issue list, remediation actions for each violation, and control gaps that allow violations to occur.
+```
+
+:::
+
+## 45. AI Project Status Report Generator
+
+> Generates decision-oriented project status reports — reporting time -60–70%, risk detection 2–3 weeks earlier.
+
+::: details Pain Point & How COCO Solves It
+
+Project status reports are descriptive ("Task X is complete") rather than analytical ("Task X is complete but creates a risk to Milestone 3 because of dependency Y"). Leadership teams receive narrative reports that describe activity without enabling decisions. COCO generates reports that identify risks proactively and surface decisions needed.
+
+:::
+
+::: details Results & Who Benefits
+
+- Status report generation time: -60–70% per project per cycle
+- Report quality scores from leadership: +35–50% with analytical framing
+- Risk detection lead time: 2–3 weeks earlier with structured reporting
+- Steering committee meeting effectiveness: improved decision clarity
+
+**Who Benefits**: Operations Managers, Project Managers, Program Management Offices
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Project Status Report**
+```
+Generate a project status report for [project name].
+
+Reporting period: [date range]
+Audience: [steering committee / sponsor / executive team]
+
+Project context:
+- Objective: [what this project achieves]
+- Overall status: [Green / Yellow / Red]
+- Budget: [$X approved] — spent to date: [$Y]
+- Timeline: [planned end date] — current forecast: [revised date if any]
+
+Workstream updates:
+1. [Workstream 1] — status: [G/Y/R] — update: [what happened]
+2. [...]
+
+Risks and issues:
+[list active risks and issues with owner and mitigation plan]
+
+Upcoming decisions needed:
+[list decisions that require stakeholder input]
+
+Produce: Executive status report with: RAG summary, key accomplishments, risks requiring attention (analytical framing — not just listing), decisions needed with recommendation, and next period priorities. Maximum 1 page.
+```
+
+:::
+
+## 46. AI Resource Allocation Optimizer
+
+> Analyzes resource availability vs project demand — on-time delivery +20–35%, skill gap discovery: 15–25% of project delays prevented.
+
+::: details Pain Point & How COCO Solves It
+
+Resource allocation is done intuitively by managers who lack visibility into team utilization across all projects simultaneously. Skill gaps are discovered late when projects are already delayed. Capacity is over-concentrated on visible projects while 10–20% of capacity is chronically underutilized. COCO provides structured analysis of demand vs capacity with skill-matching.
+
+:::
+
+::: details Results & Who Benefits
+
+- On-time delivery rate: +20–35%
+- Skill gap discovery: 15–25% of project delays prevented
+- Resource planning time: -50–60% per planning cycle
+- Underutilized capacity identified and deployed: 10–20%
+
+**Who Benefits**: Operations Managers, Project Managers, Resource Planning teams
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Resource Allocation Analysis**
+```
+Analyze resource allocation for the next [time period].
+
+Current project portfolio:
+[For each project: name, required roles, hours needed, timeline, priority]
+
+Team inventory:
+[For each team member: name, role, current projects and % allocation, skills, time available]
+
+Constraints:
+- Upcoming leave/vacations: [list]
+- External dependencies: [contractor availability, vendor constraints]
+- Priority conflicts: [if two projects need the same person at the same time]
+
+Analyze:
+1. Capacity vs demand gap by role
+2. Over-allocated individuals (>100% capacity) and recommended rebalancing
+3. Skill mismatches (right headcount, wrong skills for project requirements)
+4. Underutilized capacity and recommended deployment
+5. Risk to each project's timeline based on current allocation
+
+Produce: Resource allocation matrix, recommended rebalancing actions, capacity shortfalls requiring hiring/contracting, and timeline risk assessment by project.
+```
+
+:::
+
+## 47. AI SLA Breach Predictor
+
+> Predicts SLA breaches before they occur — breach rate -40–60%, customer escalations -30–45%, intervention lead time 5–7× faster.
+
+::: details Pain Point & How COCO Solves It
+
+SLA monitoring is reactive — breaches are discovered when they occur, not when they're becoming likely. By the time a breach alert fires, the breach has already happened. COCO analyzes leading indicators (age, complexity, assignment changes, similar historical cases) to predict breach risk 5–7× earlier than current alert systems.
+
+:::
+
+::: details Results & Who Benefits
+
+- SLA breach rate: -40–60%
+- Customer escalations: -30–45%
+- Time from risk identification to intervention: 5–7× faster
+- Penalty exposure: reduced proportionally to breach rate
+
+**Who Benefits**: Operations Managers, Service Delivery Managers, Customer Success
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: SLA Risk Analysis**
+```
+Analyze this ticket/case portfolio for SLA breach risk.
+
+SLA definitions:
+[paste: ticket type, response SLA, resolution SLA]
+
+Current ticket portfolio:
+[paste: ticket ID, type, created date, assigned to, status, last update, customer tier]
+
+Historical context:
+- Average resolution time by ticket type: [if available]
+- Common causes of past breaches: [describe]
+- Seasonal patterns: [are certain periods higher volume?]
+
+Identify:
+1. Tickets at high risk of SLA breach in the next [X hours/days] — with specific risk factors
+2. Tickets that will breach without immediate intervention
+3. Assignment imbalances (overloaded team members)
+4. Process patterns causing breach concentrations
+5. Monitoring improvements to add
+
+Produce: Risk-ranked ticket list with intervention recommendations, workload rebalancing suggestions, and a predictive alert template for the 5 most common pre-breach patterns.
+```
+
+:::
+
+## 48. AI Procurement Request Processor
+
+> Processes and routes procurement requests — processing: 3.2 days → 8 hours, maverick spend -40–55%.
+
+::: details Pain Point & How COCO Solves It
+
+Procurement requests arrive incomplete 60–70% of the time, requiring back-and-forth that delays processing. Policy validation is inconsistent. Requesters bypass the system for small purchases, creating maverick spend. COCO validates request completeness at intake, applies policy rules, and routes to the correct approver automatically.
+
+:::
+
+::: details Results & Who Benefits
+
+- Request processing: 3.2 days → under 8 hours for standard requests
+- Incomplete requests at intake: 60–70% → under 15%
+- Maverick spend incidents: -40–55%
+- Buyer productive time recovered: 6–10h/week per buyer
+
+**Who Benefits**: Operations Managers, Procurement teams, Finance
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Request Review and Routing**
+```
+Review and route these procurement requests.
+
+Procurement policy:
+- Approval thresholds: [under $X: manager approval / $X–Y: director / above $Y: executive]
+- Preferred vendor list: [list or note "not available"]
+- Competitive bid required above: [$X]
+- Prohibited categories: [list]
+
+Requests to process:
+[paste: requester, department, item description, estimated cost, vendor, justification]
+
+For each request:
+1. Completeness check (missing required fields?)
+2. Policy compliance (any violations? approvals required?)
+3. Preferred vendor check (is this on our approved list?)
+4. Competitive bid required? (over threshold?)
+5. Recommended routing (who should approve this?)
+6. Any questions to ask the requester before routing
+
+Produce: Processed request queue with routing recommendations and any policy flags.
+```
+
+:::
+
+## 49. AI Facility Utilization Optimizer
+
+> Analyzes space utilization patterns — real estate cost reduction potential: 15–25%, overcrowding incidents -30–45%.
+
+::: details Pain Point & How COCO Solves It
+
+Facility decisions are made on intuition and anecdote rather than utilization data. Space is over-provisioned in some areas and under-provisioned in others. Analysis cycles that take 6–8 weeks manually compress to 1–2 weeks with COCO support, enabling faster decisions with better evidence.
+
+:::
+
+::: details Results & Who Benefits
+
+- Real estate cost reduction opportunity: 15–25% identified
+- Space planning cycle: 6–8 weeks → 1–2 weeks
+- Peak overcrowding incidents: -30–45%
+- Facility decision confidence: significantly higher with utilization data
+
+**Who Benefits**: Operations Managers, Facilities teams, Real Estate
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Space Utilization Analysis**
+```
+Analyze our facility utilization and identify optimization opportunities.
+
+Facility details:
+- Total space: [sq ft / sq meters]
+- Space breakdown: [offices, open desks, meeting rooms, storage, other — with sizes]
+- Current capacity: [total headcount the space is designed for]
+- Current daily occupancy: [average and peak headcount]
+
+Utilization data (paste what's available):
+- Badge access data: [average daily entries by floor/zone if available]
+- Meeting room bookings: [utilization % by room if available]
+- Desk booking data: [if hot-desking, utilization %]
+- Observations: [describe any obvious overcrowding or empty areas]
+
+Business context:
+- Hybrid work policy: [how many days/week are people expected in office]
+- Headcount plan: [growth or reduction in next 12 months]
+- Lease situation: [when leases expire, any flexibility]
+
+Produce: Utilization analysis by zone, underutilized space identification with repurposing options, overcrowding mitigation recommendations, and a cost savings estimate for any consolidation opportunities.
+```
+
+:::
+
+## 50. AI Inventory Reorder Advisor
+
+> Optimizes reorder points with demand variability — stockouts -30–50%, excess inventory costs -15–25%, analysis time: 3–5h → 30–45min.
+
+::: details Pain Point & How COCO Solves It
+
+Manual reorder calculations use static reorder points that don't account for demand variability or supplier lead time variance. The result is chronic stockouts on fast movers and excess inventory on slow movers. COCO incorporates demand variability and supplier reliability to dynamically optimize safety stock and reorder points.
+
+:::
+
+::: details Results & Who Benefits
+
+- Stockout incidents: -30–50%
+- Excess inventory carrying costs: -15–25%
+- Reorder analysis time: 3–5h → 30–45min per planning cycle
+- Safety stock over-provisioning: -20–35% for reliable suppliers
+
+**Who Benefits**: Operations Managers, Inventory Planners, Supply Chain teams
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Reorder Point Optimization**
+```
+Optimize reorder points for our inventory.
+
+Business context:
+- Industry: [retail / manufacturing / healthcare supplies — describe]
+- Lead time from order to receipt: [by supplier — average and range]
+- Service level target: [95% / 98% / 99% — how often should we have stock when needed?]
+- Carrying cost rate: [% of inventory value per year]
+- Stockout cost: [describe — lost sale / production stoppage / penalty]
+
+Item data (paste for each SKU):
+[SKU ID, description, average weekly demand, demand standard deviation, current reorder point, current safety stock, supplier lead time (average), supplier lead time (std dev)]
+
+Supplier reliability data (if available):
+[supplier name, % of orders on time, average delay when late]
+
+Calculate and produce: Optimized reorder point for each SKU, recommended safety stock change (increase/decrease and by how much), SKUs most at risk of stockout in next 30 days, and estimated inventory investment change from reorder point adjustments.
+```
+
+:::
+
+## 51. AI Workforce Schedule Builder
+
+> Builds optimized staff schedules — schedule build time: 6–12h → 1–2h, coverage gaps -35–50%, overtime costs -15–25%.
+
+::: details Pain Point & How COCO Solves It
+
+Manual schedule building requires 6–12 hours per scheduling cycle, produces coverage gaps 35–50% more often than optimized schedules, and generates unplanned overtime by failing to distribute coverage requirements evenly. COCO applies constraints (availability, certifications, labor law rules) systematically to generate near-optimal schedules.
+
+:::
+
+::: details Results & Who Benefits
+
+- Schedule build time: 6–12h → 1–2h review cycle
+- Coverage gap incidents: -35–50%
+- Unplanned overtime cost: -15–25%
+- Labor law compliance risk: eliminated via automated rule checking
+
+**Who Benefits**: Operations Managers, Workforce Managers, HR teams
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Schedule Generation**
+```
+Build an optimized schedule for [team name] for [time period].
+
+Team profile:
+[For each employee: name, availability (days/hours), role/certifications, preferred hours, max hours per week, any constraints (can't work with X, prefers mornings)]
+
+Coverage requirements:
+[By shift: date, start time, end time, required headcount, required certifications/roles]
+
+Constraints:
+- Labor law rules: [minimum rest between shifts / max consecutive days / overtime threshold]
+- Union rules (if applicable): [describe]
+- Scheduling preferences: [seniority rules, rotation fairness]
+
+Priority order for conflicts: [coverage first / labor law first / preference first]
+
+Produce: Schedule matrix for the period, coverage verification (every shift filled?), overtime flagging, fairness analysis (hours distribution across team), and any constraints that couldn't be satisfied with explanation.
+```
+
+:::
+
+## 52. AI Budget Request Evaluator
+
+> Evaluates budget requests with structured scoring — evaluation consistency +60–70%, missing information rate -40–55%, evaluation time: 45–90min → 15–25min.
+
+::: details Pain Point & How COCO Solves It
+
+Budget request evaluation varies dramatically by evaluator — some are rigorous, others approve anything from preferred departments. COCO applies a standardized evaluation framework to every request, catching 40–55% more incomplete requests before committee review and improving decision fairness across departments.
+
+:::
+
+::: details Results & Who Benefits
+
+- Evaluation consistency: +60–70% reduction in cross-evaluator variance
+- Incomplete requests caught before committee: +40–55%
+- Evaluation time per request: 45–90min → 15–25min
+- Committee preparation time: -50–60%
+
+**Who Benefits**: Operations Managers, Finance teams, Budget Committees
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Budget Request Review**
+```
+Evaluate this budget request using our standard framework.
+
+Evaluation criteria:
+1. Strategic alignment (0–25 points): does this connect to our stated priorities?
+2. ROI evidence (0–25 points): is there a credible business case with assumptions?
+3. Completeness (0–25 points): are all required fields filled with sufficient detail?
+4. Alternatives considered (0–25 points): did the requester evaluate alternatives?
+
+Budget request:
+- Department: [name]
+- Request description: [what they want to buy/invest in]
+- Amount: [$]
+- Timeline: [when they need it by]
+- Business justification: [paste requester's rationale]
+- ROI/metrics: [paste their metrics if provided]
+- Alternatives considered: [paste or note if absent]
+
+Evaluate:
+1. Score each criterion with rationale
+2. Total score and recommendation (Approve / Revise and Resubmit / Decline)
+3. Missing information that must be provided if resubmitting
+4. Risk flags
+5. Suggested conditions if approving with modifications
+```
+
+:::
+
+## 53. AI Cross-Department Coordination Hub
+
+> Tracks cross-functional dependencies and handoffs — handoff failures -40–55%, escalation lead time: 5–8 days earlier, status collection time -3–5h/week.
+
+::: details Pain Point & How COCO Solves It
+
+Cross-department project coordination breaks down when ownership is ambiguous and handoffs are informal. The same status question is answered 5 different times to 5 different people. When things go wrong, the blame flows but the fix is slow. COCO maintains a living RACI, tracks dependencies, and generates structured status communications across all stakeholder groups simultaneously.
+
+:::
+
+::: details Results & Who Benefits
+
+- Cross-department handoff failures: -40–55%
+- Escalation lead time: issues surface 5–8 days earlier
+- Manual status collection time: -3–5h/week
+- Ownership disputes over project lifecycle: -50–60%
+
+**Who Benefits**: Operations Managers, Program Managers, Chiefs of Staff
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Cross-Department Coordination Plan**
+```
+Set up a cross-department coordination structure for [initiative name].
+
+Initiative context:
+- What we're doing: [description]
+- Timeline: [key milestones and dates]
+- Departments involved: [list]
+- Dependencies between departments: [list known handoffs and dependencies]
+
+For each department, provide:
+- Lead contact: [name/role]
+- Their deliverable: [what they produce]
+- Input they need from other departments: [what dependencies they have]
+- Risk factors: [any known bottlenecks]
+
+Produce: RACI matrix for key decisions and deliverables, dependency tracking table, weekly status update template, escalation path definition, stakeholder communication plan (who gets what update, how often), and a risk register for cross-department handoff failures.
+```
+
+:::
+

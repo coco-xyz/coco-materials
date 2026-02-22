@@ -2901,3 +2901,571 @@ This week's data:
 ```
 
 :::
+
+## 20. AI Working Capital Optimizer
+
+> Analyzes AR aging, AP timing, and inventory carrying costs — DSO reduction 8–12 days, early payment discount capture: 34% → 71%.
+
+::: details Pain Point & How COCO Solves It
+
+Working capital is managed reactively. DSO improvement requires coordinated AR prioritization that most teams don't have time to execute systematically. Early payment discounts are missed 66% of the time. Inventory carrying costs compound silently. COCO synthesizes AR, AP, and inventory data to surface the highest-impact working capital actions.
+
+:::
+
+::: details Results & Who Benefits
+
+- DSO reduction: 8–12 days → $650K–$1.1M cash release for $50M revenue company
+- Early payment discount capture: 34% → 71%
+- Revolving credit interest savings: $45K–$120K annually
+- Finance team time on working capital analysis: 8–12h → 2–3h/month
+
+**Who Benefits**: CFOs, Treasury Analysts, Finance Managers, Controllers
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Working Capital Assessment**
+```
+Analyze our working capital position and identify top improvement opportunities.
+
+Current metrics:
+- DSO: [days]
+- DPO: [days]
+- DIO: [days]
+- Available early payment discounts (2/10 net 30 or similar): [% of AP volume]
+- Current revolving credit balance: [$]
+- Interest rate on revolving credit: [%]
+
+AR aging snapshot:
+[paste aging buckets: 0–30, 31–60, 61–90, 90+ days with amounts]
+
+Top 10 overdue accounts:
+[customer name, amount, days overdue, notes on why overdue]
+
+Produce: Top 5 working capital improvement actions ranked by cash impact, AR collection priority queue with specific recommended actions per account, AP optimization opportunities, and estimated annual cash flow improvement.
+```
+
+:::
+
+## 21. AI Budget Variance Explainer
+
+> Generates root cause analysis for budget variances — variance narrative prep: 15–30h → 4–6h, first-pass explanation acceptance: 35% → 78%.
+
+::: details Pain Point & How COCO Solves It
+
+Monthly variance narratives are the most time-consuming finance deliverable, consuming 15–30 hours of FP&A time per cycle. The standard approach is to ask department heads, whose explanations often miss the true root cause. COCO identifies root causes correctly in 83% of cases and generates narratives that department heads accept without revision 78% of the time.
+
+:::
+
+::: details Results & Who Benefits
+
+- Variance narrative prep: 15–30h → 4–6h (-70–80%)
+- First-pass explanation acceptance: 35–40% → 78%
+- Root cause identification accuracy: 83% (vs 51% ask-the-department approach)
+- Management meeting variance discussion time: -22 min per session
+
+**Who Benefits**: FP&A Analysts, Finance Managers, CFOs
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Variance Root Cause Analysis**
+```
+Analyze the following budget variances and generate a management-ready narrative.
+
+Period: [Month/Quarter Year]
+Budget vs Actual summary:
+[paste variance table: category, budget, actual, variance $, variance %]
+
+Context:
+- Business events this period: [significant events — new contract, headcount change, system outage, etc.]
+- Seasonal patterns: [is this period typically different?]
+- Prior period variance: [was there a variance last period in the same categories?]
+
+Department context (from department heads):
+[paste any explanations received]
+
+Produce: Root cause analysis for each significant variance (>X% or >$Y threshold), narrative suitable for management review meeting, variance categories (timing / structural / operational / one-time), and outlook for next period based on these variances.
+```
+
+:::
+
+## 22. AI Investor Relations Prep Assistant
+
+> Prepares Q&A packages for earnings calls — Q&A coverage: 55–65% → 87–92% of actual analyst questions, earnings prep time -50–55%.
+
+::: details Pain Point & How COCO Solves It
+
+Earnings prep typically takes 40–60 hours per quarter and covers only 55–65% of analyst questions. Guidance inconsistencies between prepared remarks and Q&A create credibility problems. COCO generates anticipatory Q&A covering 87–92% of actual analyst questions and runs consistency checks across all prepared materials.
+
+:::
+
+::: details Results & Who Benefits
+
+- Q&A coverage: 55–65% → 87–92% of actual analyst questions
+- Earnings prep time: 40–60h → 18–25h (-50–55%)
+- Guidance inconsistency elimination: avg 3–5 per quarter caught
+- "Unexpected question" moments: -40%
+
+**Who Benefits**: IR Professionals, CFOs, Finance Teams
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Earnings Q&A Preparation**
+```
+Generate an analyst Q&A preparation package for our Q[X] earnings.
+
+Financial summary:
+- Revenue: [actual] vs guidance [range] — beat/miss by [%]
+- EBITDA/Operating income: [actual] vs [guidance]
+- Key metric 1 (ARR/GMV/etc.): [actual vs expectation]
+- Guidance for next quarter: [ranges]
+
+Business context:
+- Most significant business development this quarter: [describe]
+- Any guidance revision from prior quarter: [changes and rationale]
+- Industry headwinds/tailwinds: [relevant macro context]
+
+Analyst coverage and known concerns:
+[list key analyst names and their known thesis/concerns if available]
+
+Produce: 25-question Q&A with draft answers, flagged potential guidance consistency issues, topics to avoid elaborating on (forward-looking risk), and a 5-minute prepared remarks outline.
+```
+
+:::
+
+## 23. AI Tax Planning Advisor
+
+> Identifies tax planning opportunities before fiscal year-end — effective tax rate reduction 3–6 points, R&D credit capture avg $185K first year.
+
+::: details Pain Point & How COCO Solves It
+
+Most companies initiate tax planning in Q4 reactively, missing the full-year window for strategy. Finance teams complete only 2.1 tax planning actions before year-end on average vs 7.2 with structured COCO support. R&D credits, cost segregation, and entity optimization opportunities go uncaptured for years.
+
+:::
+
+::: details Results & Who Benefits
+
+- Effective tax rate reduction: 3–6 percentage points
+- R&D credit first-year capture: avg $185K for mid-market companies
+- Year-end planning actions: 2.1 → 7.2 completed
+- CPA meeting productivity: +40% with COCO-prepared analysis
+
+**Who Benefits**: CFOs, Finance Managers, Controllers, Tax Teams
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Year-End Tax Planning Review**
+```
+Help me prepare a tax planning analysis for [fiscal year].
+
+Company profile:
+- Entity type: [C-Corp / S-Corp / LLC / Partnership]
+- Jurisdiction: [state/country of primary operations]
+- Revenue range: [$X–Y]
+- Industry: [industry]
+- Multi-state/international operations: [yes/no — describe]
+
+Current year financials (estimate):
+- Pre-tax income: [$]
+- Effective tax rate last year: [%]
+- Capital expenditures this year: [$]
+- R&D activities: [describe — types of qualifying activities]
+- Recent acquisitions or disposals: [describe]
+
+Identify: Top 5 tax planning opportunities with estimated value, R&D credit qualification analysis, items requiring attention before fiscal year-end, and questions to bring to our CPA.
+```
+
+:::
+
+## 24. AI Financial Model Stress Tester
+
+> Identifies hidden assumption sensitivities in financial models — stress tests: 15–25h → 4–6h, board question coverage: 52% → 84%.
+
+::: details Pain Point & How COCO Solves It
+
+Standard scenario analysis (base/upside/downside) fails to surface the 4.3 high-impact assumption sensitivities that COCO identifies on average. In portfolio company tracking, COCO stress tests predicted covenant breach events 6–9 months in advance in 79% of cases. Board meetings are better prepared when 84% of risk questions are pre-addressed.
+
+:::
+
+::: details Results & Who Benefits
+
+- Hidden assumption sensitivities discovered: avg 4.3 per model
+- Covenant breach prediction: 79% accuracy 6–9 months in advance
+- Stress testing time: 15–25h → 4–6h
+- Board question coverage: 52% → 84%
+
+**Who Benefits**: FP&A teams, CFOs, PE Portfolio Managers, Lenders
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Model Stress Test**
+```
+Perform a comprehensive stress test of this financial model.
+
+Model context:
+- Purpose: [LBO model / annual budget / M&A valuation / business plan]
+- Time horizon: [years]
+- Key metrics being modeled: [revenue, EBITDA, FCF, etc.]
+
+Key assumptions (paste from model):
+[Revenue growth rate: X%]
+[Gross margin: X%]
+[OpEx growth: X%]
+[CapEx: $X]
+[Working capital: X days]
+
+Debt structure (if applicable):
+[total debt, covenants, interest rate]
+
+Stress test:
+1. Identify the 6–8 assumptions this model is most sensitive to
+2. For each: what happens if it's 20% worse? 40% worse?
+3. Which single assumption failure causes the worst outcome?
+4. What's the probability-weighted downside case?
+5. Are there any covenant breach scenarios in the next 24 months?
+6. What board questions will this model face that it doesn't currently address?
+```
+
+:::
+
+## 25. AI Accounts Receivable Aging Analyst
+
+> Prioritizes collections by recovery probability — DSO reduction 7–11 days, bad debt write-offs -28–35%, collection productivity +40–55%.
+
+::: details Pain Point & How COCO Solves It
+
+AR teams work flat aging reports without behavioral segmentation. High-balance chronic late payers get the same attention as newly-overdue good customers. COCO segments by payment behavior, identifies early warning signs, and generates a priority collection queue that improves collector productivity 40–55% vs flat aging reports.
+
+:::
+
+::: details Results & Who Benefits
+
+- DSO reduction: 7–11 days → $520K–$820K cash release for $40M revenue company
+- Bad debt write-offs: -28–35% in first year
+- Collector productivity: +40–55%
+- Dispute resolution time: 34 → 18 days
+
+**Who Benefits**: AR Managers, Controllers, Finance Teams
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: AR Collection Prioritization**
+```
+Analyze our AR aging and generate a prioritized collection strategy.
+
+AR aging snapshot:
+[paste: customer, balance, days overdue, last payment date, prior dispute history if known]
+
+Business context:
+- Total AR: [$]
+- Average DSO target: [days]
+- Bad debt reserve: [$]
+- Top 10 customers by balance: [list]
+
+For each overdue account, assess:
+1. Collection priority (High/Medium/Low) based on balance size, days overdue, and payment history
+2. Recommended collection action (call, email, escalate, legal referral)
+3. Risk of write-off (Low/Medium/High)
+4. Any patterns suggesting systemic disputes vs. cash flow issues
+
+Produce: Priority queue (top 20 accounts to contact this week), dispute pattern analysis, and forecast of AR recovery in 30/60/90 days.
+```
+
+:::
+
+## 26. AI Cost Center Benchmark Analyst
+
+> Benchmarks departmental spending against industry peers — avg $1.4–2.8M in over-benchmark spend identified, recommendation acceptance rate +58%.
+
+::: details Pain Point & How COCO Solves It
+
+Internal budget reviews lack external reference points. Departments defend spending without accountability to market rates. COCO applies industry benchmark data to identify where specific functions exceed peer ratios and provides the external context that depersonalizes cost reduction conversations, improving acceptance rate 58%.
+
+:::
+
+::: details Results & Who Benefits
+
+- Over-benchmark spend identified: avg $1.4–2.8M per analysis
+- Budget challenges raised in reviews: +31% more
+- Headcount ratios above median: found in 73% of companies analyzed
+- Recommendation acceptance: +58% with external benchmark backing
+
+**Who Benefits**: CFOs, Finance Managers, FP&A teams, Business Unit Leaders
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Cost Center Benchmarking**
+```
+Benchmark our departmental costs against industry peers.
+
+Company profile:
+- Revenue: [$]
+- Industry: [SaaS / Manufacturing / Services — specify]
+- Company stage: [growth / mature / turnaround]
+- Headcount: [total, by department]
+
+Cost data by function (provide as % of revenue or $ amount):
+- Sales & Marketing: [$X or X% of revenue]
+- R&D / Engineering: [$X or X%]
+- G&A: [$X or X%]
+- Customer Success: [$X or X%]
+- Operations: [$X or X%]
+
+Benchmark against: [public SaaS companies our size / private equity portfolio benchmarks / industry peers — specify preferred comparison]
+
+Produce: Function-by-function benchmark comparison, functions exceeding peer median by >20%, headcount ratio analysis (revenue per employee, functional ratios), and top 3 cost optimization opportunities with estimated annual savings.
+```
+
+:::
+
+## 27. AI Treasury Cash Flow Forecaster
+
+> Builds 13-week rolling cash forecasts — 4-week accuracy: 75–82% → 89–94%, revolving credit interest savings $45K–$95K annually.
+
+::: details Pain Point & How COCO Solves It
+
+Weekly cash forecast assembly takes 6–10 hours and achieves only 75–82% accuracy — insufficient for liquidity decisions. Idle cash investment opportunities are systematically missed. COCO's structured forecast template and data collection protocols reduce assembly to 2–3 hours and improve accuracy to 89–94%.
+
+:::
+
+::: details Results & Who Benefits
+
+- 4-week cash forecast accuracy: 75–82% → 89–94%
+- Revolving credit interest savings: $45K–$95K annually
+- Treasury team time: 6–10h → 2–3h per week
+- Forecast update frequency: monthly → weekly once below 3h threshold
+
+**Who Benefits**: Treasury Managers, CFOs, Controllers
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: 13-Week Cash Flow Forecast**
+```
+Build a 13-week cash flow forecast.
+
+Historical data (last 12 weeks):
+[paste: week, cash receipts, disbursements, ending balance]
+
+Known future cash flows:
+- Receivables expected to collect: [by week if known, or aging schedule]
+- Scheduled payables: [major vendor payments, payroll dates, debt service]
+- Tax payments due: [dates and amounts]
+- Capital expenditures planned: [timing and amounts]
+- Any unusual items: [bonuses, insurance renewals, facility costs]
+
+Current cash position:
+- Cash on hand: [$]
+- Revolving credit availability: [$]
+- Minimum cash balance policy: [$]
+
+Produce: 13-week forecast table (collections, disbursements, net, ending balance, available credit), weeks with minimum balance risk highlighted, surplus cash investment opportunities (weeks with excess), and variance analysis vs prior forecast if applicable.
+```
+
+:::
+
+## 28. AI Financial Narrative Report Generator
+
+> Converts financial data into board-ready narrative reports — report production: 2–3 weeks → 3–5 days, board follow-up questions -40–50%.
+
+::: details Pain Point & How COCO Solves It
+
+Finance teams spend 2–3 weeks assembling board package narratives after analysis is complete. The narrative quality varies by author. Board members ask 40–50% more follow-up questions when variance causality isn't explained proactively. COCO generates first drafts of all narrative sections simultaneously with analysis completion, achieving 71% improvement in narrative consistency ratings.
+
+:::
+
+::: details Results & Who Benefits
+
+- Board package narrative: 2–3 weeks → 3–5 days
+- Narrative consistency improvement: 71%
+- Revision cycles: 3.4 → 1.8 average
+- Board follow-up questions: -40–50%
+
+**Who Benefits**: Finance Teams, CFOs, Board Liaison roles
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Board Narrative Generation**
+```
+Generate the financial narrative sections for our Q[X] board package.
+
+Financial summary:
+[paste P&L, balance sheet key metrics, cash flow summary]
+
+Variance vs budget:
+[paste variance table]
+
+Key operational metrics:
+[ARR, churn, NRR, headcount, or relevant KPIs]
+
+Strategic context:
+- What were the biggest business developments this quarter?
+- What decisions does the board need to make?
+- What are we most concerned about for next quarter?
+
+Produce: CEO/CFO letter opening (1 page), P&L narrative with variance explanation (2 pages), operational highlights and KPI narrative (1 page), balance sheet and cash flow narrative, forward outlook section, and executive summary for non-finance board members.
+```
+
+:::
+
+## 29. AI M&A Target Screening Advisor
+
+> Screens M&A candidates against strategic criteria systematically — screening throughput 4–6× more candidates per quarter, early red flag capture +60–70%.
+
+::: details Pain Point & How COCO Solves It
+
+M&A screening is inconsistent across analysts and misses systematic red flags. Preliminary assessments that take 8–12 analyst days are produced in 1–2 days with COCO support. Early due diligence preparation time reduced 40% with pre-built DD question sets from screening.
+
+:::
+
+::: details Results & Who Benefits
+
+- Screening throughput: 4–6× more candidates per quarter
+- Time-to-first-meeting: 8–12 days → 1–2 days
+- Early red flag detection: +60–70% of common red flags caught
+- DD preparation time: -40%
+
+**Who Benefits**: M&A teams, Corporate Development, PE Analysts
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Target Screening**
+```
+Screen the following M&A target against our acquisition criteria.
+
+Our strategic rationale for acquisitions:
+- Strategic fit criteria: [technology, geography, customer base, capability]
+- Financial criteria: [revenue range, growth rate, profitability expectations]
+- Cultural fit indicators: [management tenure, values, employee satisfaction]
+- Red flags that would immediately disqualify: [list]
+
+Target profile:
+- Company name: [name]
+- What they do: [product/service description]
+- Revenue (estimate or public): [$]
+- Growth rate: [%]
+- Ownership: [VC-backed / PE / family-owned / public]
+- Why they might sell: [if known]
+
+Available information:
+[paste any CIM excerpts, website info, LinkedIn data, Pitchbook/Crunchbase data]
+
+Produce: Strategic fit score (1–10) with rationale, financial fit assessment, preliminary red flag checklist, key unknowns to investigate, recommended first-meeting agenda, and go/no-go recommendation for initial outreach.
+```
+
+:::
+
+## 30. AI Expense Policy Compliance Auditor
+
+> Reviews expense reports against policy systematically — violations detected 3.2×, pre-payment intervention: 65–80% of violations caught before disbursement.
+
+::: details Pain Point & How COCO Solves It
+
+Manual expense review catches only 31% of violations after disbursement. Policy exceptions accumulate without tracking. COCO's systematic pre-screening reduces manual review time per report from 8–12 minutes to 2–3 minutes for clean reports, while detecting 3.2× more violations.
+
+:::
+
+::: details Results & Who Benefits
+
+- Violation detection: 3.2× more than manual review
+- Pre-payment intervention: 65–80% of violations caught before disbursement
+- Review time for clean reports: 8–12 min → 2–3 min
+- Employee compliance improvement: +28–35% within 6 months
+
+**Who Benefits**: Finance Teams, Controllers, Internal Audit, HR
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Expense Report Audit**
+```
+Audit these expense reports for policy compliance.
+
+Company expense policy highlights:
+- Meal limits: [$X per person for lunch, $Y for dinner, $Z for client entertainment]
+- Receipt requirement threshold: [$X]
+- Pre-approval required for: [travel over $X, client entertainment over $Y]
+- Prohibited categories: [list]
+- Mileage rate: [$X/mile]
+
+Expense reports to review:
+[paste: employee name, date, category, amount, description, receipt attached Y/N]
+
+Flag:
+1. Policy violations (specify the policy rule violated)
+2. Missing documentation
+3. Items requiring manager approval that weren't pre-approved
+4. Unusual patterns (duplicate submissions, split transactions to avoid approval thresholds)
+5. High-risk items needing manual review
+
+Produce: Flagged items by severity (immediate action required / needs review / informational), summary statistics for management reporting, and employee-specific feedback to accompany any rejections.
+```
+
+:::
+
+## 31. AI Accounts Payable Workflow Optimizer
+
+> Designs AP automation workflows and approval routing — AP processing cost: $10–15 → $3–5/invoice, early payment discount capture: under 30% → 60–75%.
+
+::: details Pain Point & How COCO Solves It
+
+Manual AP processes average $10–15 per invoice and fail to capture 70% of available early payment discounts. Exception handling consumes 25–35% of invoices. COCO designs automated matching workflows, exception routing rules, and approval escalation logic that reduces exceptions to 8–12%.
+
+:::
+
+::: details Results & Who Benefits
+
+- AP processing cost: $10–15 → $3–5 per invoice
+- Early payment discount capture: under 30% → 60–75%
+- Exception rate: 25–35% → 8–12% of invoices
+- Approval cycle time: 8–12 days → 2–3 days
+
+**Who Benefits**: AP Managers, Controllers, Finance Operations teams
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: AP Process Design**
+```
+Design an optimized AP workflow for our organization.
+
+Current AP volume:
+- Monthly invoices: [count]
+- Invoice types: [PO-backed / non-PO / recurring subscriptions — % breakdown]
+- Average invoice value: [$]
+- Current exception rate: [%]
+- Current approval cycle time: [days]
+
+Current process:
+[describe current steps from invoice receipt to payment]
+
+Constraints:
+- ERP system: [SAP / Oracle / NetSuite / QuickBooks — specify]
+- AP team size: [headcount]
+- Payment terms commonly offered: [net 30 / 2/10 net 30 / etc.]
+
+Design: Three-way matching logic with tolerance rules, exception routing decision tree, approval authority matrix by invoice type/amount, early payment discount capture workflow, and month-end accrual process.
+```
+
+:::
+

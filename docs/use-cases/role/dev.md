@@ -4179,3 +4179,616 @@ Please:
 ```
 
 :::
+
+## 34. AI Legacy Code Archaeologist
+
+> Maps undocumented business logic, traces dependency graphs, and generates onboarding documentation for legacy codebases — onboarding time -35%, incident diagnosis -55%.
+
+::: details Pain Point & How COCO Solves It
+
+Legacy systems are black boxes. New developers spend 10–14 weeks reaching full productivity. Incident diagnosis in unfamiliar legacy code averages 3.2 hours. Pre-modification impact analysis takes 4–6 hours by manual grep and trace. COCO maps the codebase automatically, identifies 23 undocumented business rules per 50K lines of code on average, and generates navigable documentation.
+
+:::
+
+::: details Results & Who Benefits
+
+- New developer onboarding: 10–14 weeks → 5–7 weeks to full productivity
+- Incident diagnosis: 3.2h → 1.4h (-55%)
+- Pre-modification impact analysis: 4–6h → 25–40min
+- Hidden business logic discovered: avg 23 rules per 50K LOC
+
+**Who Benefits**: Engineering Managers, Senior Developers, DevOps, New Hires
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Legacy Code Archaeology**
+```
+Help me map and document this legacy codebase section.
+
+Code context:
+- Language/framework: [e.g., Java Spring, Ruby on Rails, PHP Laravel]
+- Approximate age: [years]
+- Known purpose: [what this module is supposed to do]
+- Last modified: [when]
+- Available documentation: [none / partial — describe what exists]
+
+I'm pasting the following code:
+[paste code section]
+
+Analyze and produce:
+1. What this code actually does (not what it's supposed to do)
+2. Implicit business rules embedded in the logic
+3. External dependencies and integration points
+4. Risk areas (what would break if this were changed)
+5. Onboarding summary for a new developer picking up this module
+6. Recommended documentation to create before any modification
+```
+
+:::
+
+## 35. AI Code Documentation Generator
+
+> Generates inline documentation, API references, and integration guides — documentation coverage: 20–35% → 80–90% in 2 sprint cycles, onboarding -3–4 weeks.
+
+::: details Pain Point & How COCO Solves It
+
+Documentation coverage in most codebases is 20–35% of public APIs. A developer documents a 500-line module in 2–3 hours manually vs 15–20 minutes with COCO. Integration bugs from misunderstood API contracts drop 61% after COCO-generated integration documentation is in place.
+
+:::
+
+::: details Results & Who Benefits
+
+- Documentation coverage: 20–35% → 80–90% in 2 sprint cycles
+- Module documentation: 2–3h → 15–20min (8–10× throughput)
+- Integration bugs: -61%
+- New developer onboarding: -3–4 weeks
+
+**Who Benefits**: Developers, Engineering Managers, DevOps, API consumers
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Module Documentation**
+```
+Generate comprehensive documentation for this code module.
+
+Module purpose: [describe what it does]
+Target audience for docs: [internal devs / external API consumers / both]
+Documentation standard: [JSDoc / Javadoc / Google style / OpenAPI — or describe preferred format]
+
+Code:
+[paste the module/class/functions]
+
+Produce:
+1. Module overview (purpose, when to use, key concepts)
+2. Inline documentation for each function/method (params, return values, throws, examples)
+3. Integration guide showing how to use this module from another service
+4. Common pitfalls and error handling guide
+5. Any edge cases or limitations that consumers need to know
+```
+
+:::
+
+## 36. AI Performance Bottleneck Detective
+
+> Diagnoses N+1 queries, memory leaks, and algorithmic complexity issues — root cause identification time -65%, performance incidents resolved 2.3× faster.
+
+::: details Pain Point & How COCO Solves It
+
+Performance investigations average 6 hours from "we have a problem" to root cause. Engineers spend 40% of investigation time on wrong hypotheses. COCO applies structured performance diagnosis: identifies the highest-probability root cause hypothesis first, provides targeted query patterns to confirm, and generates fix recommendations.
+
+:::
+
+::: details Results & Who Benefits
+
+- Investigation time: 6h → 2h (-65%)
+- MTTR for performance incidents: 2.3× faster
+- Regression detection at PR time: 71% vs 23% without COCO
+- False positive investigation time: -40%
+
+**Who Benefits**: Backend Developers, SREs, Performance Engineers
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Performance Investigation**
+```
+Help me diagnose a performance problem in production.
+
+Symptoms:
+- What users experience: [slow page load / timeout / high CPU — describe]
+- When it started: [date/time or after which deployment]
+- Affected endpoints/functions: [list if known]
+- Load conditions: [does it happen under all load or only at peak?]
+
+Available data:
+- APM traces: [paste key trace data or describe patterns]
+- Slow query log: [paste top slow queries if applicable]
+- CPU/memory profile: [paste profile data or describe]
+- Error rates: [any correlated errors?]
+
+Produce: Ranked hypotheses (most likely to least likely) with supporting evidence, targeted investigation queries/commands to confirm the top hypothesis, and if you can determine the root cause — a recommended fix with estimated impact.
+```
+
+:::
+
+## 37. AI API Design Reviewer
+
+> Reviews API designs for consistency, security, and RESTful best practices — integration support tickets -44%, breaking version changes -38%.
+
+::: details Pain Point & How COCO Solves It
+
+API design issues caught post-launch require versioning, breaking changes, and integration rework that costs 44% more in support volume. Security vulnerabilities in API design average 0.6 per endpoint on first review. COCO reviews designs in 45–90 minutes vs 3–4 hours for manual review.
+
+:::
+
+::: details Results & Who Benefits
+
+- Integration support tickets: -44% in 90 days post-launch
+- Breaking API version changes: -38% per year
+- Security issues per endpoint: 0.6 → 0.1 after COCO-guided redesign
+- API consistency score: 5.1/10 → 8.2/10
+
+**Who Benefits**: Backend Developers, Platform Engineers, API consumers
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: API Design Review**
+```
+Review the following API design for quality issues before we ship to consumers.
+
+API context:
+- Type: [REST / GraphQL / gRPC]
+- Consumer type: [internal services / external developers / mobile apps]
+- Authentication method: [OAuth2 / API key / JWT — describe]
+
+API specification (paste OpenAPI, proto, or endpoint list):
+[paste spec]
+
+Review for:
+1. RESTful conventions and HTTP method/status code correctness
+2. Naming consistency (casing, plurality, resource naming)
+3. Security issues (over-exposure, missing auth, injection risks)
+4. Breaking change risks and versioning approach
+5. Pagination and error response standardization
+6. Any consumer experience issues (verbosity, missing fields, confusing structure)
+
+Produce: Issue list ranked by severity, specific recommendations for each, and a revised endpoint spec for any critical issues.
+```
+
+:::
+
+## 38. AI Database Schema Optimizer
+
+> Analyzes schema for indexing gaps, N+1 patterns, and data type inefficiencies — query performance +60–85%, schema migration incidents -52%.
+
+::: details Pain Point & How COCO Solves It
+
+Database performance issues cost an average of 8 hours to diagnose when the schema is analyzed without context. Redundant indexes increase write overhead 18% on high-write tables. Over-specified data types inflate storage by 15–30% on large tables. COCO analyzes schema and query patterns together to identify root causes.
+
+:::
+
+::: details Results & Who Benefits
+
+- Query performance: +60–85% for targeted slow queries
+- Schema migration incidents: -52% in first year
+- Index redundancy write overhead: -18%
+- Storage footprint: -15–30% via data type optimization
+
+**Who Benefits**: Developers, DBAs, Platform Engineers
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Schema Performance Analysis**
+```
+Analyze this database schema for performance optimization opportunities.
+
+Database type: [PostgreSQL / MySQL / MongoDB — version]
+Approximate table sizes: [rows/GB for main tables]
+Current pain points: [which queries are slow / which operations are expensive]
+
+Schema (paste CREATE TABLE statements or schema dump):
+[paste schema]
+
+Top 5 slow queries:
+[paste EXPLAIN output or query text with execution time]
+
+Analyze for:
+1. Missing or redundant indexes
+2. Data type appropriateness (over/under-specified)
+3. Schema patterns causing N+1 queries
+4. Partition or sharding opportunities for large tables
+5. Query rewrite opportunities
+
+Produce: Prioritized recommendations with estimated impact and migration risk for each.
+```
+
+:::
+
+## 39. AI Incident Post-Mortem Writer
+
+> Generates structured post-mortems from incident timelines — completion rate: 31% → 84% within 48 hours, repeat incident rate -41%.
+
+::: details Pain Point & How COCO Solves It
+
+Post-mortems are written under time pressure, often incomplete (31% completion rate within 48 hours without COCO), and generate vague action items that are closed at only 29% rate. COCO generates complete, blame-free post-mortems with specific action items that achieve 67% closure rate.
+
+:::
+
+::: details Results & Who Benefits
+
+- Post-mortem completion within 48h: 31% → 84%
+- Quality score: 4.2/10 → 7.8/10
+- Action item closure rate: 29% → 67%
+- Repeat incident rate: -41%
+
+**Who Benefits**: Engineers, SREs, Engineering Managers
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Post-Mortem Generation**
+```
+Generate a structured post-mortem for the following incident.
+
+Incident overview:
+- Date/time of incident: [start and end]
+- Affected systems/services: [list]
+- User impact: [what users experienced, approximate count affected]
+- Severity level: [P0/P1/P2]
+
+Timeline (paste chronologically):
+[Time: Event/observation]
+[Time: Action taken]
+[...]
+
+Root cause (your current understanding):
+[describe]
+
+Contributing factors:
+[list what made this worse or harder to detect]
+
+Produce: Blame-free post-mortem in standard format (Summary, Impact, Timeline, Root Cause, Contributing Factors, Action Items with owner/deadline). Ensure action items are specific and SMART — not "improve monitoring" but "add alert when DB connection pool > 80% for 5 min, owner: @person, due: [date]".
+```
+
+:::
+
+## 40. AI Dependency Vulnerability Scanner
+
+> Prioritizes CVE remediation by exploitability and business risk — actionable vulnerability queue -73%, mean time to patch critical CVEs: 47 → 12 days.
+
+::: details Pain Point & How COCO Solves It
+
+Raw scanner output generates hundreds of CVEs with no business risk context. Alert fatigue causes critical vulnerabilities to be buried in noise. COCO re-ranks by exploitability, business context, and transitive risk — reducing the actionable queue by 73% and surfacing what actually needs immediate attention.
+
+:::
+
+::: details Results & Who Benefits
+
+- Actionable vulnerability queue: -73% vs raw scanner
+- Mean time to patch critical CVEs: 47 → 12 days
+- License violation discovery: avg 4.2 issues per app on first scan
+- Failed dependency upgrades: -58%
+
+**Who Benefits**: Developers, Security Engineers, DevOps, Compliance teams
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Vulnerability Prioritization**
+```
+Help me prioritize this vulnerability report for remediation.
+
+Application context:
+- App type: [public-facing API / internal tool / mobile backend]
+- Data sensitivity: [PII / financial data / public data only]
+- Deployment environment: [cloud/on-prem, internet-exposed?]
+- Current WAF/security controls: [describe]
+
+Scanner output (paste SBOM or vulnerability list):
+[paste CVE list with CVSS scores]
+
+For each vulnerability, assess:
+1. Is it exploitable in our specific deployment context?
+2. What is the business risk if exploited?
+3. Is there a known exploit in the wild?
+4. Priority: Immediate / This Sprint / Backlog
+
+Produce: Prioritized remediation queue (top 10), upgrade path for each, any breaking change risks, and a compliance audit summary.
+```
+
+:::
+
+## 41. AI Test Case Generator
+
+> Generates comprehensive test suites covering edge cases and error paths — bug escape rate -49%, test suite coverage 3.4× more behavioral cases.
+
+::: details Pain Point & How COCO Solves It
+
+Manually written test suites cover happy paths but miss edge cases and error paths. COCO generates test cases that cover 3.4× more distinct behavioral cases for the same code, reducing bug escape rate 49% and improving mutation scores from 61% to 84%.
+
+:::
+
+::: details Results & Who Benefits
+
+- Bug escape rate: -49%
+- Test cases per function: 3.4× more than manual
+- Test writing speed: 45–90min → 8–12min per 100-line function
+- Mutation score: 61% → 84%
+
+**Who Benefits**: Developers, QA Engineers, Engineering Managers
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Test Suite Generation**
+```
+Generate a comprehensive test suite for the following function/module.
+
+Testing framework: [Jest / pytest / JUnit / RSpec — version]
+Code to test:
+[paste function or class]
+
+Context:
+- What invariants must always hold? [list any business rules]
+- What are known edge cases in this domain? [describe]
+- Integration points that may fail: [external services, DB, etc.]
+
+Generate tests covering:
+1. Happy path with typical inputs
+2. Boundary conditions (empty, null, min/max values)
+3. Error paths and exception handling
+4. Edge cases for each business rule
+5. Integration failure scenarios (mocked)
+
+Format as runnable test code in [framework] with descriptive test names.
+```
+
+:::
+
+## 42. AI Code Refactoring Strategist
+
+> Creates phased refactoring plans with characterization tests and scope controls — bug density -44% post-refactor, feature velocity +28% in refactored areas.
+
+::: details Pain Point & How COCO Solves It
+
+Unplanned refactors expand in scope 69% of the time and often reduce test coverage rather than increase it. COCO creates phased refactoring strategies with characterization test approaches, explicit scope boundaries, and progress checkpoints — reducing scope creep and improving test coverage in targeted modules from 42% to 76%.
+
+:::
+
+::: details Results & Who Benefits
+
+- Feature development velocity: +28% in refactored areas within 3 months
+- Bug density: -44% post-refactoring
+- Refactoring scope control: 78% of COCO-planned refactors stay within scope (vs 31%)
+- Test coverage in targeted modules: 42% → 76%
+
+**Who Benefits**: Senior Developers, Engineering Managers, Tech Leads
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Refactoring Strategy**
+```
+Design a refactoring strategy for the following code.
+
+Code context:
+- Language/framework: [...]
+- Age of this module: [years]
+- Current state: [describe the problems — God class, spaghetti logic, etc.]
+- Test coverage today: [%]
+- Team capacity: [can we do this in one sprint / needs to be phased over N sprints]
+
+Code (paste or describe structure):
+[paste problematic code or describe architecture]
+
+Business constraints:
+- Can we take downtime? [yes/no]
+- Are there upcoming feature dependencies on this code? [describe]
+- Risk tolerance: [conservative / moderate / aggressive]
+
+Produce: Phased refactoring plan with explicit scope for each phase, characterization tests to write before starting, go/no-go criteria between phases, and risk mitigation for each phase.
+```
+
+:::
+
+## 43. AI System Architecture Advisor
+
+> Reviews system designs for scalability, resilience, and security — major architectural pivots -63% within 18 months, scalability incidents -51%.
+
+::: details Pain Point & How COCO Solves It
+
+Architecture decisions made without structured review result in 63% more major pivots within 18 months. Teams wait 2–3 weeks for the right people to be available for architecture review. COCO provides structured analysis in 2–3 hours and creates Architecture Decision Records (ADRs) with 4.2× more decision rationale than manually written ADRs.
+
+:::
+
+::: details Results & Who Benefits
+
+- Major architecture pivots within 18 months: -63%
+- Scalability incidents in first year: -51%
+- Time to architecture decision: 2–3 weeks → 2–3 hours
+- New engineer architecture understanding: 3 weeks faster
+
+**Who Benefits**: Senior Engineers, Tech Leads, Engineering Managers, CTOs
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Architecture Review**
+```
+Review this system architecture design and identify risks and improvements.
+
+System context:
+- Purpose: [what this system does]
+- Scale requirements: [current and projected load — requests/sec, data volume, users]
+- Uptime requirement: [99.9% / 99.99% — describe criticality]
+- Team size that will maintain it: [number of engineers]
+- Budget constraints: [describe any infrastructure cost constraints]
+
+Architecture (describe or paste diagram description):
+[describe services, data flow, storage, external integrations]
+
+Specific concerns:
+[list any risks you're already aware of]
+
+Review for: single points of failure, scalability bottlenecks, security boundaries, data consistency risks, operational complexity, cost efficiency. Produce: ADR-format decision record for the top 3 trade-offs, risk matrix, and specific recommendations.
+```
+
+:::
+
+## 44. AI CI/CD Pipeline Optimizer
+
+> Identifies pipeline bottlenecks, flaky tests, and security gaps — pipeline runtime -52%, flaky test rate: 12–18% → under 3%, deployment frequency 3.2×.
+
+::: details Pain Point & How COCO Solves It
+
+CI/CD pipelines averaging 38 minutes cost 1,600 engineer-hours/month at 20 engineers. Flaky test rates of 12–18% erode trust in the pipeline. COCO audits pipelines for timing bottlenecks, security issues (avg 6.8 security issues per pipeline on first review), and flaky test root causes.
+
+:::
+
+::: details Results & Who Benefits
+
+- Pipeline execution time: median 38min → 18min (-52%)
+- Flaky test rate: 12–18% → under 3%
+- Deployment frequency: 3.2× increase in 90 days
+- Security issues found per pipeline: avg 6.8 on first review
+
+**Who Benefits**: DevOps, Engineers, Platform teams, SREs
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Pipeline Audit**
+```
+Audit our CI/CD pipeline for optimization opportunities.
+
+Pipeline details:
+- CI/CD platform: [GitHub Actions / Jenkins / GitLab CI / CircleCI]
+- Current average pipeline time: [minutes]
+- Current flaky test rate: [%]
+- Deployment frequency: [per day/week]
+- Number of services: [microservices count]
+
+Pipeline configuration (paste YAML or describe stages):
+[paste pipeline config]
+
+Top slow stages (if known):
+[list stages with timing]
+
+Known problems:
+[list pain points]
+
+Audit for: parallelization opportunities, caching improvements, flaky test root causes, security scan gaps, artifact management issues, and secrets handling. Produce: Prioritized optimization list with estimated time savings, flaky test remediation plan, and security findings.
+```
+
+:::
+
+## 45. AI Error Log Analyzer
+
+> Identifies root cause patterns in distributed system logs — diagnosis time -58%, cross-service trace reconstruction: 2–3h → 20–35min.
+
+::: details Pain Point & How COCO Solves It
+
+Manual log analysis involves constructing queries from scratch, reviewing raw output, and building the failure timeline manually. COCO identifies the correct root cause hypothesis in the top 3 ranked hypotheses in 81% of cases (vs 34% for first engineer hypothesis), and surfaces the specific 23-minute gap between log patterns and first alert.
+
+:::
+
+::: details Results & Who Benefits
+
+- Time from incident to root cause: -58%
+- Correct root cause in top 3 hypotheses: 81% vs 34% manual
+- Cross-service failure chain reconstruction: 2–3h → 20–35min
+- Log query efficiency: -40% fewer queries to resolve
+
+**Who Benefits**: SREs, Backend Developers, On-call Engineers
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Log Investigation**
+```
+Help me diagnose an incident from these logs.
+
+Incident context:
+- Reported symptom: [what users or monitoring reported]
+- Start time: [timestamp]
+- Services involved: [list]
+- Recent deployments: [any deploys in the past 24h?]
+
+Log data (paste relevant log excerpts in chronological order):
+[paste logs — include timestamps, service names, error messages, stack traces]
+
+Produce:
+1. Timeline reconstruction of what happened
+2. Ranked hypotheses for root cause (most likely first) with supporting evidence
+3. Specific log queries to run to confirm the top hypothesis
+4. Gap analysis: when did the problem start vs when was the first alert? What monitoring should be added?
+5. Immediate mitigation recommendation
+```
+
+:::
+
+## 46. AI Open Source Contribution Reviewer
+
+> Pre-reviews incoming contributions before maintainer review — review cycles -54%, maintainer review time: 75min → 28min, time to merge: 18 → 7 days.
+
+::: details Pain Point & How COCO Solves It
+
+Open source maintainers spend 75 minutes per PR on average, often asking for the same types of changes repeatedly. Pre-review with COCO reduces review cycles from 2.8 to 1.3 per contribution and surfaces security vulnerabilities in 7.3% of reviewed PRs before they reach production.
+
+:::
+
+::: details Results & Who Benefits
+
+- Review cycles per contribution: 2.8 → 1.3 (-54%)
+- Maintainer review time: 75min → 28min
+- Time from PR submission to merge: 18 → 7 days
+- Security vulnerabilities caught pre-review: 7.3% of PRs
+
+**Who Benefits**: Open Source Maintainers, Senior Developers, Developer Relations
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Contribution Pre-Review**
+```
+Review this pull request before I submit it to the open source project.
+
+Project: [name and GitHub URL]
+PR description: [what this PR does]
+Issue it addresses: [link or description]
+
+Contribution guidelines I'm aware of: [paste relevant guidelines or note if unknown]
+
+Changes (paste diff or describe):
+[paste git diff or file changes]
+
+Review for:
+1. Adherence to project style and conventions
+2. Test coverage for new code
+3. Breaking change risks
+4. Security considerations
+5. Documentation requirements
+6. Likely maintainer objections based on project history
+
+Produce: Pre-submission checklist, specific changes to make before submitting, and a PR description draft that will resonate with maintainers.
+```
+
+:::
+

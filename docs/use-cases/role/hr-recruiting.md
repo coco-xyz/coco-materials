@@ -1696,3 +1696,836 @@ Present with executive-ready visualizations described in markdown (tables, compa
 
 :::
 
+
+## 12. AI Job Description Writer
+
+> Generates legally vetted, brand-aligned job descriptions — drafting time: 3–5h → 30 min, consistency scores +60%.
+
+::: details Pain Point & How COCO Solves It
+
+Job descriptions are drafted inconsistently, often copied from outdated postings, and rarely reviewed for bias before publishing. 72% of hiring managers report JD quality directly affects candidate pipeline quality. COCO generates complete, brand-aligned JDs in 30 minutes that incorporate best practices for inclusive language and legal compliance.
+
+:::
+
+::: details Results & Who Benefits
+
+- JD drafting: 3–5h → under 30 min per role (-85%)
+- Brand consistency across postings: +60%
+- Bias language review: systematic (vs occasional with manual process)
+- Hiring manager satisfaction with JD quality: significantly improved
+
+**Who Benefits**: HR Professionals, Recruiters, Hiring Managers
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Job Description Generation**
+```
+Generate a job description for [role title].
+
+Role context:
+- Department: [name]
+- Team: [who they'll work with]
+- Reports to: [title]
+- Location/remote policy: [on-site / hybrid / remote — details]
+- Employment type: [full-time / contract / part-time]
+
+Role details:
+- Primary responsibilities (top 5–7): [list]
+- Must-have qualifications: [non-negotiable requirements]
+- Nice-to-have qualifications: [preferred but not required]
+- Success metrics in first 90 days: [what does success look like?]
+
+Company context:
+- Company mission: [brief]
+- Culture and values: [describe]
+- Benefits highlights: [key differentiators]
+- Compensation range (if shareable): [$X–Y]
+
+Generate: Job description with role summary, responsibilities, qualifications (must-have and preferred separately), what we offer, and a closing statement. Review for: gendered language, unnecessarily exclusive requirements, and legal compliance.
+```
+
+:::
+
+## 13. AI Resume Screener and Shortlister
+
+> Screens resumes against defined criteria — screening time: 23h → 6h per role (-75%), shortlist-to-hire conversion +42%.
+
+::: details Pain Point & How COCO Solves It
+
+Manual resume screening takes 23 hours per high-volume role and applies criteria inconsistently based on reviewer fatigue and bias. COCO reads holistically — understanding context, inferring transferable skills, and applying screening criteria defined in plain language rather than requiring Boolean string matching.
+
+:::
+
+::: details Results & Who Benefits
+
+- Resume screening time: 23h → under 6h per high-volume role (-75%)
+- Shortlist-to-hire conversion: +42% (better initial filtering)
+- Consistency across applications: 100% (same criteria applied to all)
+- Bias documentation: full audit trail of screening decisions
+
+**Who Benefits**: Recruiters, HR teams, Hiring Managers
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Resume Screening**
+```
+Screen these resumes against our hiring criteria.
+
+Role: [job title]
+Screening criteria:
+- Must-have (any candidate without these is automatically excluded):
+  1. [requirement 1]
+  2. [requirement 2]
+- Strong preference (important but not automatic exclusion):
+  1. [preference 1]
+  2. [preference 2]
+- Red flags (automatic exclusion if present):
+  1. [red flag 1]
+
+Resumes to screen (paste one at a time or all together):
+[paste resume content]
+
+For each resume, provide:
+1. Shortlist recommendation: Yes / Maybe / No
+2. Evidence for each must-have criterion (met / not met / unclear)
+3. Evidence for each preference (met / not met)
+4. Any red flags present
+5. One-paragraph summary of this candidate's fit
+6. Key questions to ask in screening interview if advancing
+
+Output as a ranked shortlist table followed by individual assessments.
+```
+
+:::
+
+## 14. AI Interview Question Generator
+
+> Generates competency-mapped interview questions — prep time: 4h → 45min, inter-rater reliability +55%.
+
+::: details Pain Point & How COCO Solves It
+
+Unstructured interviews are inconsistent, legally risky, and poor predictors of performance. Structured interviews improve predictive validity significantly, but most managers don't have the time or expertise to design proper behavioral questions for each role. COCO generates legally vetted, competency-mapped question sets with scoring rubrics.
+
+:::
+
+::: details Results & Who Benefits
+
+- Interview prep time: 4+ hours → under 45 minutes per role
+- Inter-rater reliability among interview panels: +55% with COCO rubrics
+- Legally problematic questions: eliminated through systematic review
+- Structured interview adoption: enabled without specialized expertise
+
+**Who Benefits**: HR teams, Recruiters, Hiring Managers
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Interview Question Set**
+```
+Generate a structured interview question set for [role title].
+
+Role competencies to assess:
+1. [Competency 1 — e.g., strategic thinking]: [why it matters for this role]
+2. [Competency 2 — e.g., cross-functional collaboration]: [why it matters]
+3. [Competency 3 — e.g., data-driven decision making]: [why it matters]
+4. [Competency 4 — technical competency]: [specific skills to assess]
+
+Interview format:
+- Total duration: [X minutes]
+- Number of interviewers: [count]
+- Interview stage: [phone screen / final round / technical]
+
+Produce for each competency:
+1. Main behavioral question (STAR format — past behavior predicts future behavior)
+2. 2–3 follow-up probes to go deeper
+3. What a strong answer looks like (rubric)
+4. What a weak answer looks like
+5. One situational question (hypothetical scenario)
+
+Also include: 3 role-specific technical questions, legally reviewed question set confirmation, and a scoring sheet template.
+```
+
+:::
+
+## 15. AI Offer Letter Composer
+
+> Generates personalized, legally compliant offer letters — drafting: 60–90min → 15min, acceptance rate +18%.
+
+::: details Pain Point & How COCO Solves It
+
+Offer letters are generated under time pressure from outdated templates, creating compliance risks, inconsistent compensation formatting, and a poor candidate experience. COCO generates complete, jurisdiction-appropriate offer letters that are both legally compliant and compelling — improving acceptance rates 18%.
+
+:::
+
+::: details Results & Who Benefits
+
+- Offer letter drafting: 60–90min → under 15min
+- Acceptance rate improvement: +18% with personalized, brand-aligned letters
+- At-will/notice period compliance: jurisdiction-appropriate by default
+- Competitive counter-offer risk: reduced with compelling framing
+
+**Who Benefits**: HR teams, Recruiters, Hiring Managers
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Offer Letter Generation**
+```
+Generate an offer letter for [candidate name].
+
+Offer details:
+- Role: [title]
+- Start date: [date]
+- Location: [office / remote]
+- Employment type: [full-time / part-time / contract]
+- Base salary: [$X/year or $X/hour]
+- Bonus structure: [describe if applicable]
+- Equity: [shares/options, vesting schedule if applicable]
+- Benefits: [health, dental, vision, 401k — brief summary]
+- Other compensation: [signing bonus, relocation — details]
+
+Contingencies:
+- Background check required: [yes/no]
+- Right-to-work verification: [yes/no]
+- IP/NDA agreement required: [yes/no]
+
+Jurisdiction: [state/country — this affects at-will language and required disclosures]
+
+Tone: [warm and enthusiastic / professional and formal — match company culture]
+
+Produce: Complete offer letter with a personalized opening, full compensation summary, contingency clauses, benefits overview pointer, employment classification language, and a closing that reinforces their decision to join.
+```
+
+:::
+
+## 16. AI Employee Performance Review Writer
+
+> Generates balanced, behavior-specific performance reviews — manager writing time -65%, review quality scores +48%.
+
+::: details Pain Point & How COCO Solves It
+
+Performance reviews are the highest-stakes HR document and the most inconsistently executed. Vague reviews fail to substantiate compensation decisions, fail to motivate high performers, and fail to communicate concerns to underperformers. COCO helps managers produce specific, behavior-grounded reviews aligned to company frameworks.
+
+:::
+
+::: details Results & Who Benefits
+
+- Manager writing time: -65% average
+- Review quality scores (HR calibration): +48%
+- Review consistency across managers: significantly improved
+- Bias reduction: systematic behavior-focused framing
+
+**Who Benefits**: HR teams, People Managers
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Performance Review Draft**
+```
+Help me draft a performance review for [employee name].
+
+Review period: [dates]
+Company review framework: [describe rating scale, any competency model, required sections]
+Employee role: [title and key responsibilities]
+
+Performance evidence:
+- Goals set at start of period: [list goals and whether achieved]
+- Key accomplishments: [specific examples with outcomes]
+- Development areas: [specific examples of where they struggled or need growth]
+- Feedback from peers/stakeholders: [any 360 themes]
+- My overall rating: [1–5 scale or describe]
+
+Produce: Complete performance review with:
+1. Summary paragraph (overall performance assessment)
+2. Accomplishments section (specific, behavior-focused, results-quantified where possible)
+3. Development areas (specific and constructive — not vague)
+4. Goals for next period (3–5 SMART goals)
+5. Rating justification aligned to company criteria
+
+Write at the appropriate directness level for the rating — high performers should feel seen, underperformers should understand concerns clearly.
+```
+
+:::
+
+## 17. AI Onboarding Plan Builder
+
+> Generates role-specific onboarding plans — time-to-productivity +34%, 90-day attrition risk reduced.
+
+::: details Pain Point & How COCO Solves It
+
+Generic onboarding fails because it doesn't connect new hires to the specific role, team, and context they need. Each new hire requires a personalized plan with the right stakeholders, the right information, and the right milestones — but building this takes 6+ hours per hire. COCO generates role-specific, milestone-gated onboarding plans in a single prompt.
+
+:::
+
+::: details Results & Who Benefits
+
+- Time-to-productivity: +34% improvement with structured plans
+- 90-day retention: improved with structured experience
+- Onboarding experience rating: significantly higher with personalized plans
+- HR time per new hire: reduced
+
+**Who Benefits**: HR teams, Hiring Managers, People Operations
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Onboarding Plan**
+```
+Build an onboarding plan for [employee name] starting as [role] on [date].
+
+Employee context:
+- Background: [prior experience relevant to this role]
+- Key strengths they bring: [what they're good at]
+- Areas to develop: [what they'll need to learn]
+- Work style: [remote / hybrid / on-site]
+
+Role context:
+- Department: [name]
+- Team: [size and function]
+- First project or priority: [what they'll work on first]
+- Key stakeholders to meet: [list by week]
+
+Company materials available:
+- [handbook / product overview / strategy deck / other — list]
+
+Build: 90-day onboarding plan with:
+- Week 1: orientation and relationship-building milestones
+- Weeks 2–4: role-specific learning and first contributions
+- Days 30/60/90: check-in agenda and success metrics for each milestone
+- Stakeholder meeting schedule with purpose for each meeting
+- Resources to review in sequence
+- Manager check-in template for weekly 1:1s during onboarding
+```
+
+:::
+
+## 18. AI Employee Survey Analyzer
+
+> Analyzes engagement survey results — analysis cycle: 4–6 weeks → 3–5 days, open-text coverage: 10–20% → 100%.
+
+::: details Pain Point & How COCO Solves It
+
+Employee survey analysis bottlenecks on the open-text responses, which contain the richest insights but require 4–6 weeks to manually code. Only 10–20% of open-text responses get reviewed in practice. COCO analyzes 100% of responses, identifies themes, tracks changes from prior surveys, and generates action-oriented summary reports that enable leadership to act faster.
+
+:::
+
+::: details Results & Who Benefits
+
+- Analysis cycle: 4–6 weeks → 3–5 days
+- Open-text coverage: 10–20% → 100%
+- Employee trust from faster action: +35% improvement
+- Action plan quality: significantly better when insights are complete
+
+**Who Benefits**: HR teams, HRBPs, People Analytics teams
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Survey Analysis**
+```
+Analyze our employee engagement survey results.
+
+Survey context:
+- Survey dates: [field dates]
+- Response rate: [%]
+- Prior survey for comparison: [date if applicable]
+- Key segments: [department / tenure / level / location — whatever's available]
+
+Quantitative data (paste scores):
+[paste: question or theme, score, comparison to prior period if available]
+
+Open-text responses (paste all or sample):
+[paste responses — maintain confidentiality by removing identifiers]
+
+Produce:
+1. Overall engagement summary and trend vs prior period
+2. Theme analysis from open-text (top positive themes, top concern themes)
+3. Segment breakdown (which groups differ significantly from average?)
+4. High-priority action areas (strongest statistical and qualitative signal)
+5. Suggested action plans for top 3 issues with owner recommendations
+6. Communication plan for sharing results with employees
+```
+
+:::
+
+## 19. AI Compensation Benchmarker
+
+> Benchmarks compensation against market data — benchmarking cycle: 2–4 weeks → 3–5 days, offer rejection due to compensation -31%.
+
+::: details Pain Point & How COCO Solves It
+
+Compensation decisions are made with outdated data or inconsistent sources. Market data exists but isn't systematically applied to every role. Offer rejections for compensation reasons signal misalignment between internal ranges and market. COCO structures comprehensive benchmarking that covers 100% of the workforce, not just samples.
+
+:::
+
+::: details Results & Who Benefits
+
+- Benchmarking cycle: 2–4 weeks → 3–5 days
+- Offer rejection for compensation: -31%
+- Internal equity gap coverage: 100% of workforce vs sample-based
+- Budget for compensation adjustments: better justified with benchmark data
+
+**Who Benefits**: HR teams, Compensation specialists, Finance
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Compensation Benchmarking Analysis**
+```
+Benchmark our compensation for [role or role family].
+
+Benchmark data sources available:
+[Radford / Mercer / Levels.fyi / Glassdoor / LinkedIn / other — specify]
+
+Our roles to benchmark:
+[For each role: title, level, location, current base range, total comp components]
+
+Company context:
+- Compensation philosophy: [lead / match / lag market]
+- Target percentile: [50th / 75th / 90th — specify]
+- Industry: [for market comparison relevance]
+- Company stage: [startup / growth / mature]
+- Geographic markets: [cities/regions where roles are located]
+
+Produce: Market comparison for each role (our current range vs P25, P50, P75 market), roles where we're below target percentile, equity risk assessment (who is underpaid relative to market and likely to leave), recommended range adjustments, and cost estimate for bringing below-market roles to target.
+```
+
+:::
+
+## 20. AI L&D Curriculum Designer
+
+> Designs learning curricula and programs — curriculum design: 6–12 months → 4–8 weeks, capability building accelerated.
+
+::: details Pain Point & How COCO Solves It
+
+L&D teams lack instructional design capacity to build role-specific, competency-mapped curricula. Off-the-shelf content lacks organizational context. Building a leadership development program or technical upskilling curriculum from scratch requires months of design work. COCO compresses the design phase dramatically.
+
+:::
+
+::: details Results & Who Benefits
+
+- Curriculum design: 6–12 months → 4–8 weeks for full learning journey
+- Instructional design expertise requirement: democratized
+- Content relevance: role-specific vs generic off-the-shelf
+- Learning program completion rates: higher with well-designed curricula
+
+**Who Benefits**: L&D teams, HR Leaders, People Operations
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Curriculum Design**
+```
+Design a learning curriculum for [audience] on [topic/capability].
+
+Audience profile:
+- Role: [title]
+- Current capability level: [beginner / intermediate / advanced]
+- Learning objective: [what they should be able to do after this program]
+- Learning time available: [hours per week, total duration]
+- Format preferences: [self-paced / cohort / blended / workshops]
+
+Organizational context:
+- Why this capability matters now: [business driver]
+- Performance gap to close: [what's the difference between current and target state?]
+- Resources available: [internal SMEs / external partners / budget]
+
+Design: Full curriculum with: learning objectives by module, content outline for each module, modality recommendation (video / workshop / case study / practice exercises), assessment approach, and a completion milestone definition. Also suggest: 2–3 external resources or vendors who could provide content for each major topic area.
+```
+
+:::
+
+## 21. AI Employee Handbook Updater
+
+> Updates employee handbooks — update cycle: 4–6 months → 4–6 weeks, legal review costs -55%.
+
+::: details Pain Point & How COCO Solves It
+
+Employee handbooks become outdated within months as laws change, policies evolve, and new topics emerge (AI use, remote work, mental health benefits). The update process is tedious: identify gaps, rewrite outdated sections, ensure consistency, and route for legal review. COCO compresses this workflow — producing cleaner first drafts that require less attorney time.
+
+:::
+
+::: details Results & Who Benefits
+
+- Handbook update cycle: 4–6 months → 4–6 weeks
+- Legal review costs: -55% (cleaner first drafts)
+- Policy gap identification: systematic vs ad-hoc
+- Compliance currency: maintained continuously
+
+**Who Benefits**: HR teams, Legal, Operations
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Handbook Section Update**
+```
+Update these handbook sections for [jurisdiction] in [year].
+
+Current handbook sections (paste):
+[paste current policy text for each section to review]
+
+Known updates needed:
+1. [Policy area]: [describe the change — new law, new company policy, outdated content]
+2. [...]
+
+New sections to add:
+1. [AI use policy]
+2. [Hybrid/remote work policy]
+3. [Mental health benefits]
+[list any new sections needed]
+
+Company context:
+- Company size: [employee count]
+- Industry: [affects specific regulatory requirements]
+- Primary state/jurisdiction: [for labor law compliance]
+- Recent policy changes: [describe any internal policy decisions made recently]
+
+Produce: Updated versions of existing sections (with changes tracked), new section drafts, gap analysis for sections we haven't reviewed, and a list of items requiring legal review before finalizing.
+```
+
+:::
+
+## 22. AI Workforce Planning Advisor
+
+> Supports strategic workforce planning — planning cycle: 6–8 weeks → 2–3 weeks, vacancy event prediction improved.
+
+::: details Pain Point & How COCO Solves It
+
+Workforce planning is typically reactive — headcount decisions come from budget cycles rather than capability demand analysis. Strategic hiring that should start 60+ days before a need often starts when the need is immediate. COCO structures analytical frameworks for demand modeling, attrition risk, and build/buy/borrow decisions.
+
+:::
+
+::: details Results & Who Benefits
+
+- Planning cycle: 6–8 weeks → 2–3 weeks with COCO support
+- Headcount evaluation consistency: +70% (structured rubrics applied)
+- Attrition surprise events: -40% with proactive modeling
+- Time-to-fill improvement: -28 days when hiring starts earlier
+
+**Who Benefits**: HR Leaders, HRBPs, Finance, Operations
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Workforce Plan Development**
+```
+Develop a workforce plan for [department] for [planning period].
+
+Current state:
+- Headcount: [number by role]
+- Attrition rate last 12 months: [% and key roles affected]
+- Open requisitions: [list]
+- Critical capability gaps: [describe]
+
+Business demand:
+- Revenue/growth targets: [describe]
+- New initiatives requiring headcount: [describe each and estimated roles needed]
+- Projects being wound down: [headcount that will free up]
+
+External context:
+- Talent market conditions: [tight / loose for key roles]
+- Compensation budget: [% increase available]
+- Hiring timeline: [any hiring freezes, headcount constraints]
+
+Produce: 12-month workforce plan with: projected headcount by role (start / new hires / attrition / end), critical hires to prioritize (with timeline), build vs buy vs borrow analysis for key capabilities, talent risk assessment (who is at risk of leaving), and a quarterly hiring plan.
+```
+
+:::
+
+## 23. AI Talent Pipeline Builder
+
+> Develops proactive talent pipelines — time-to-fill: -35–50 days, quality-of-hire +23%.
+
+::: details Pain Point & How COCO Solves It
+
+Most recruiting is reactive: a vacancy opens, a job posts, a search begins. The best candidates are already employed and may take 3–6 months to convert. COCO helps recruiting teams build and nurture proactive pipelines for critical roles before vacancies occur — reducing time-to-fill and improving hire quality.
+
+:::
+
+::: details Results & Who Benefits
+
+- Time-to-fill: -35–50 days vs reactive recruiting
+- Quality-of-hire: +23% (12-month performance ratings for pipeline hires)
+- Sourcing channel identification: 2–3 high-yield communities found per role
+- Outreach response rate: 2–3× higher with AI-personalized messages
+
+**Who Benefits**: Recruiters, Talent Acquisition teams, HR Leaders
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Pipeline Strategy**
+```
+Build a talent pipeline strategy for [role/role family].
+
+Role context:
+- Title and seniority: [describe]
+- Key qualifications: [must-haves]
+- Competition for this talent: [who else is hiring these people?]
+- Historical time-to-fill: [X weeks/months]
+- Current pipeline health: [thin / moderate / strong]
+
+Sourcing context:
+- Channels currently used: [LinkedIn / referrals / job boards — describe]
+- Budget for sourcing: [$X/month]
+- Team capacity for relationship building: [hours/week]
+
+Produce: Pipeline strategy with: target candidate profile (where they work now, what their career path looks like), sourcing channels ranked by expected yield (with specific communities, schools, events, LinkedIn searches), outreach messaging that achieves 2–3× response rates, nurture cadence for warm candidates not ready to move yet, and a pipeline health dashboard template to track.
+```
+
+:::
+
+## 24. AI DEI Reporting Analyzer
+
+> Analyzes DEI metrics for funnel gaps — analysis depth: 3–4 weeks → 2–3 days, targeted interventions 2–3× more effective.
+
+::: details Pain Point & How COCO Solves It
+
+DEI summary reporting shows representation numbers without identifying the specific hiring funnel stages where gaps are created. Without this analysis, interventions are generic and ineffective. COCO identifies the 4–6 specific funnel-stage gaps invisible in summary reporting, enabling targeted interventions that outperform generic DEI programs 2–3× on representation improvement.
+
+:::
+
+::: details Results & Who Benefits
+
+- Funnel-stage gaps identified: 4–6 per analysis (invisible in summary reporting)
+- Analysis time: 3–4 weeks → 2–3 days
+- Targeted intervention effectiveness: 2–3× vs generic programs
+- Reporting quality (board satisfaction): +40%
+
+**Who Benefits**: HR Leaders, DEI teams, HRBPs
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: DEI Funnel Analysis**
+```
+Analyze our hiring and promotion data for DEI patterns.
+
+Reporting period: [time range]
+Groups to analyze: [gender / race/ethnicity / other protected characteristics — specify]
+
+Hiring funnel data (provide by group for each stage):
+- Applied: [count by group]
+- Phone screen: [count by group]
+- Onsite/final round: [count by group]
+- Offer extended: [count by group]
+- Offer accepted: [count by group]
+
+Current employee data:
+- Total headcount by group: [count]
+- By level/band: [count by group and level]
+- Promotions last 12 months: [count by group]
+- Attrition last 12 months: [count by group]
+- Attrition reason by group: [voluntary / involuntary breakdown if available]
+
+Produce: Stage-by-stage conversion rate analysis by group, specific funnel stages where disparities are largest, hypothesis for root causes at each gap stage, intervention recommendations (targeted, not generic), and a board-ready DEI dashboard narrative.
+```
+
+:::
+
+## 25. AI Employee Retention Risk Predictor
+
+> Identifies at-risk employees early — detection lead time: 0 months → 6–9 months, preventable attrition -25–35%.
+
+::: details Pain Point & How COCO Solves It
+
+Most organizations discover employee flight risk at the exit interview — too late. Engagement surveys, performance data, and tenure patterns contain leading indicators 6–9 months before departure. COCO structures the analytical framework to identify at-risk employees while there's still time for meaningful intervention.
+
+:::
+
+::: details Results & Who Benefits
+
+- At-risk employee identification: 6–9 months before departure vs 0 months
+- Preventable voluntary attrition: -25–35% in high-risk segments
+- Replacement cost avoidance: $1.5–3M annually for 500-person org (30% fewer departures)
+- Manager intervention effectiveness: +28% reduction in team attrition within 6 months
+
+**Who Benefits**: HR Leaders, HRBPs, People Analytics teams
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Retention Risk Analysis**
+```
+Analyze our employee data to identify retention risk.
+
+Data available (paste what you have):
+- Engagement scores by employee (or team if individual data unavailable): [scores by quarter]
+- Tenure distribution: [years at company by group]
+- Performance ratings: [recent ratings by employee or distribution]
+- Internal mobility: [promotions, lateral moves in last 24 months]
+- Manager change events: [employees who had manager changes — these correlate with attrition]
+- Compensation adjustments: [employees who haven't received increases in X months]
+- Absenteeism: [sick day usage trends if available]
+
+Identify:
+1. Employees or cohorts showing 3+ leading indicators simultaneously
+2. High-risk manager relationships (managers with high team attrition history)
+3. At-risk population by tenure band (first-year and 3–5 year are typically highest risk)
+4. Compensation risk (employees likely at or below market)
+
+Produce: Risk-segmented employee population, intervention priority list for HRBPs, manager coaching recommendations, and a 90-day retention action plan for the highest-risk group.
+```
+
+:::
+
+## 26. AI Benefits Administration Advisor
+
+> Structures benefits communications and administration workflows — enrollment errors -45%, HR call volume during enrollment -35–40%.
+
+::: details Pain Point & How COCO Solves It
+
+Open enrollment creates a flood of employee questions because benefits communications are confusing. COBRA administration produces compliance failures because tracking is manual. Life event processing takes 5–7 days because checklists don't exist. COCO produces plain-language benefits guides, structured administration checklists, and compliance tracking frameworks.
+
+:::
+
+::: details Results & Who Benefits
+
+- Open enrollment errors: -45%
+- HR help desk call volume during enrollment: -35–40%
+- COBRA compliance failures: -60%
+- Life event processing: 5–7 days → 2–3 days
+
+**Who Benefits**: HR teams, Benefits Administrators, Employees
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Open Enrollment Communication**
+```
+Generate open enrollment communications for [benefit year].
+
+Benefits offered:
+[For each benefit: name, key features, employee cost, employer contribution, key dates, changes from prior year]
+
+Key changes from last year:
+[list any plan changes, cost changes, new or discontinued benefits]
+
+Employee demographics:
+- Common questions in prior years: [list]
+- Segments with special considerations: [e.g., employees in different states, different family situations]
+
+Produce:
+1. Open enrollment announcement email (engaging, not bureaucratic)
+2. Benefits comparison guide (current vs prior year, plan A vs plan B format)
+3. Decision guide for employees choosing between plan options (flowchart logic in text)
+4. FAQ document (25 most common questions with plain-language answers)
+5. Deadline reminder sequence (T-14 days, T-7 days, T-2 days)
+6. Manager talking points for team conversations
+```
+
+:::
+
+## 27. AI Succession Planning Assistant
+
+> Builds succession plans for critical roles — succession coverage: 28% → 78% of critical roles within 12 months, leadership transition cost -40%.
+
+::: details Pain Point & How COCO Solves It
+
+Most organizations have named successors for fewer than 30% of critical roles. Without a systematic process, succession planning is deferred until a crisis. COCO structures the process: identifying critical roles, assessing successor readiness, designing development plans, and maintaining living succession maps.
+
+:::
+
+::: details Results & Who Benefits
+
+- Critical roles with named successors: 28% → 78% within 12 months
+- Time to "ready-now" for internal candidates: -14 months with structured development
+- Internal promotion rate for senior openings: 65% vs 35% (with vs without succession planning)
+- Leadership transition cost: -40% vs external search
+
+**Who Benefits**: HR Leaders, Executive teams, Board of Directors
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Succession Plan Development**
+```
+Build a succession plan for [role/role family].
+
+Critical role context:
+- Role: [title]
+- Why critical: [describe impact if vacant for 60+ days]
+- Key competencies required: [list 5–7]
+- Estimated risk of vacancy in next 2 years: [high / medium / low]
+
+Internal candidates to assess (provide for each):
+- Name/role: [title]
+- Readiness assessment: [ready now / ready in 1 year / ready in 2–3 years]
+- Strengths vs role requirements: [describe fit]
+- Development gaps: [what they'd need to develop]
+
+Current development activities:
+[describe any development plans already in place]
+
+Produce: Succession plan document with: role criticality assessment, candidate readiness matrix, development plans for each candidate (specific actions, timeline, success measures), talent risk score (probability of vacancy × preparedness), and a board-ready summary (1 page).
+```
+
+:::
+
+## 28. AI HR Metrics Dashboard Narrator
+
+> Generates narrative context for HR metrics — executive meeting HR explanation time -35%, decision-to-data lag -50%.
+
+::: details Pain Point & How COCO Solves It
+
+HR dashboards contain important signals that leaders can't act on without context. HRBPs spend 35% of executive meeting time explaining what metrics mean rather than discussing strategy. COCO generates narrative summaries that explain what the numbers mean, why they moved, and what to do — enabling strategic conversation instead of data literacy sessions.
+
+:::
+
+::: details Results & Who Benefits
+
+- Executive meeting time on HR data explanation: -35%
+- Decision-to-data lag: -50% when narrative context accompanies metrics
+- HRBP presentation confidence: +65%
+- Board HR engagement (questions and discussion): +40%
+
+**Who Benefits**: HR Leaders, HRBPs, People Analytics teams
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: HR Metrics Narrative**
+```
+Generate a narrative summary of our HR metrics for [reporting period].
+
+Audience: [CHRO / executive team / board — specify]
+Decision context: [what HR decisions is leadership considering?]
+
+HR metrics (paste current and prior period):
+- Headcount: [current, vs prior, vs plan]
+- Attrition rate: [total, voluntary, involuntary]
+- Time-to-fill: [average days, by role family]
+- Offer acceptance rate: [%]
+- Engagement score: [vs prior period, vs benchmark]
+- Internal mobility rate: [promotions + lateral moves %]
+- Training completion: [%]
+- Absence rate: [%]
+
+Business context:
+- Major people events this period: [RIFs, new location openings, leadership changes]
+- External context: [labor market conditions, industry attrition benchmarks]
+
+Produce: Executive HR summary with: 3-sentence business-impact overview, metric-by-metric narrative (not restating numbers — explaining what they mean and why they moved), 2–3 strategic recommendations based on the data, and a forward-looking risk summary.
+```
+
+:::
+

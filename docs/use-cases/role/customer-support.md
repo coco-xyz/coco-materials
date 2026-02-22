@@ -2374,3 +2374,658 @@ This week's data:
 ```
 
 :::
+
+## 15. AI Customer Onboarding Playbook Builder {#use-case-340}
+
+> Generates a fully personalized 30/60/90-day onboarding playbook from intake form data, contract scope, and CRM records — in 12 minutes instead of 6+ hours.
+
+::: details Pain Point & How COCO Solves It
+**The Pain**: CSMs spend 6.4 hours per new account manually assembling generic onboarding plans that don't account for the customer's specific tech stack, team size, or goals. At scale, this is impossible — and customers who don't hit value milestones in 30 days churn at 3× the rate of those who do.
+
+**How COCO Solves It**: Feed COCO the intake form responses, signed contract scope, stated success criteria, and CRM data — and COCO generates a phase-by-phase milestone plan with role-specific task assignments, integration checklists, and early-warning signals, all calibrated to the customer's technical readiness and goals.
+:::
+
+::: details Results & Who Benefits
+- Onboarding plan creation: 6.4 hours → 15 minutes
+- Time-to-first-value: from 47 days average, improved 3× for customers hitting 30-day milestones
+- 90-day churn: drops from 18–22% with generic plans to single digits with personalized plans
+
+**Who benefits**: Customer Success Managers, Onboarding Specialists
+:::
+
+::: details Practical Prompts
+**Prompt: Full Playbook Generation**
+```
+You are a senior Customer Success strategist. Using the customer data below, generate a complete 30/60/90-day onboarding playbook.
+
+Customer: [COMPANY_NAME]
+Industry: [INDUSTRY]
+Contract scope: [PRODUCT_MODULES_AND_SEATS]
+Primary use case: [USE_CASE]
+Team size using product: [TEAM_SIZE]
+Existing tech stack (integrations needed): [TECH_STACK]
+Stated success goal (from intake form): [SUCCESS_GOAL]
+Executive sponsor: [SPONSOR_NAME_AND_TITLE or "not yet identified"]
+Go-live deadline: [DATE]
+
+Playbook must include:
+- Phase-by-phase milestones with specific KPIs
+- Task owners (Customer Champion, IT, CS team)
+- Integration checklist tailored to their stack
+- Early-warning signals the CSM should watch at each gate
+- Escalation trigger conditions
+```
+:::
+
+## 16. AI Churn Risk Early Warning System {#use-case-341}
+
+> Synthesizes login frequency, support ticket volume, stakeholder engagement, and usage trends into a risk-ranked portfolio alert with specific intervention plans — before customers signal they're leaving.
+
+::: details Pain Point & How COCO Solves It
+**The Pain**: Churn warning signs appear weeks before cancellation — but a CSM carrying 40–60 accounts cannot manually monitor 15 behavioral signals per account per week. Most teams rely on lagging health scores or gut instinct, detecting churn risk too late to save the account. Customers reached within 14 days of entering risk state are saved at 42%; after 30 days, that falls to 18%.
+
+**How COCO Solves It**: Paste a weekly account data snapshot and COCO synthesizes the full picture into a risk-ranked alert with specific intervention recommendations. Critically, it explains its reasoning — not just "at risk" but the specific pattern of signals matching prior churned accounts.
+:::
+
+::: details Results & Who Benefits
+- Churn detection: 12 days ahead → 52 days ahead of cancellation
+- Intervention success rate: 42% when reached within 14 days of risk state entry
+- CSM capacity: covers 40–60 accounts with systematic weekly monitoring vs. reactive firefighting
+
+**Who benefits**: CSMs, CS Operations, VP of Customer Success
+:::
+
+::: details Practical Prompts
+**Prompt: Weekly Portfolio Risk Analysis**
+```
+You are an expert Customer Success analyst. Analyze the following account data for my portfolio of [N] accounts and produce a risk-ranked health report.
+
+For each account, categorize as: Critical (intervention needed within 48 hours) / Elevated (intervention needed this week) / Watch (monitor closely) / Healthy.
+
+For Critical and Elevated accounts, provide:
+1. Primary risk drivers with specific evidence
+2. Recommended intervention actions (numbered, specific)
+3. Draft subject line and opening paragraph for an outreach email
+
+Account data:
+[PASTE_ACCOUNT_DATA — include: company name, login frequency trend, support tickets (open/resolved), stakeholder engagement, feature adoption %, contract value, renewal date]
+```
+:::
+
+## 17. AI QBR Presentation Builder {#use-case-342}
+
+> Transforms raw usage metrics and account notes into executive-ready QBR narratives that tell a value story — not just a data dump — in 45 minutes instead of 4–8 hours.
+
+::: details Pain Point & How COCO Solves It
+**The Pain**: Each proper QBR deck requires 4–8 hours to build. A CSM managing 20 accounts owes 4 QBRs per account per quarter — that's up to 160 hours of prep, before a single call is made. In practice, QBRs get pulled together an hour before the meeting. Executives who sit through data-heavy, insight-light QBRs stop attending — and when executives disengage, renewals become price-contested.
+
+**How COCO Solves It**: Provide raw usage data, original success goals, support summary, and account notes. COCO generates a complete executive-ready narrative with a value story structure: what was achieved, what it enabled, and what comes next — not a bullet list of features used.
+:::
+
+::: details Results & Who Benefits
+- QBR prep time: 4–8 hours → 45 minutes
+- Executive attendance rates improve when meetings deliver insight rather than data
+- CSMs report higher renewal rates when QBRs demonstrate quantified business value
+
+**Who benefits**: Customer Success Managers, CSM Leaders
+:::
+
+::: details Practical Prompts
+**Prompt: Full QBR Slide Content Generation**
+```
+You are a senior Customer Success strategist. Generate complete QBR presentation content for [COMPANY_NAME], a [INDUSTRY] company using [PRODUCT_NAME].
+
+Customer context:
+- Original success goals (from onboarding): [GOALS]
+- Q[N] usage highlights: [KEY_METRICS — e.g., "processed 3,400 records, 87% automation rate, 12 active users out of 15 licensed"]
+- Support summary: [tickets opened, resolved, open issues]
+- Notable wins or milestones: [WINS]
+- Challenges or unresolved issues: [CHALLENGES]
+- Upcoming renewal date: [DATE]
+- Executive sponsor: [NAME, TITLE]
+
+Generate content for 5 slides: (1) Executive Summary, (2) Value Delivered This Quarter, (3) Product Usage Highlights, (4) Challenges & Resolution Plan, (5) Next Quarter Roadmap + Renewal Framing
+```
+:::
+
+## 18. AI Support Ticket Deflection Trainer {#use-case-343}
+
+> Converts recurring support ticket patterns into publication-ready knowledge base articles, reducing repeat tickets and enabling customer self-service at scale.
+
+::: details Pain Point & How COCO Solves It
+**The Pain**: 68% of support tickets are repeat questions the same ten issues surfacing over and over. At $22 per ticket fully loaded, 500 monthly tickets costs $132,000/year. CSMs have the institutional knowledge to fix this but lack the writing bandwidth to produce quality KB articles from scratch.
+
+**How COCO Solves It**: A CSM describes the issue or pastes the ticket thread, and COCO generates a structured, searchable KB article with proper headings, step-by-step instructions, screenshot placeholders, troubleshooting sections, and related article suggestions — ready to publish.
+:::
+
+::: details Results & Who Benefits
+- Ticket deflection: 30% reduction in repeat tickets when documentation is current
+- KB article creation: 3–5 hours → 25 minutes per article
+- Self-serve resolution at 2 AM without business-hours wait = higher CSAT
+
+**Who benefits**: CS Teams, Support Agents, Knowledge Base Managers
+:::
+
+::: details Practical Prompts
+**Prompt: Ticket Pattern Analysis and Documentation Backlog**
+```
+Analyze the following support ticket data and produce a prioritized documentation backlog. Identify the top 10 recurring issues by ticket volume, cluster similar questions under a single root issue, and rank by: ticket frequency × customer impact × current documentation gap.
+
+For each issue, provide:
+- Issue title (as a customer would search for it)
+- Estimated monthly ticket volume
+- Documentation status (no article / incomplete / exists but not found)
+- Recommended KB article type (how-to, troubleshooting, FAQ, concept)
+
+Ticket data:
+[PASTE_TICKET_TITLES_OR_SUMMARIES — 50-200 tickets recommended for meaningful pattern analysis]
+```
+:::
+
+## 19. AI NPS Response Handler {#use-case-344}
+
+> Generates personalized, score-appropriate follow-up emails for every NPS respondent — Detractor, Passive, and Promoter — at scale, closing the loop that most teams leave open.
+
+::: details Pain Point & How COCO Solves It
+**The Pain**: Companies respond to fewer than 15% of NPS comments. At 12 minutes per response, 300 verbatim comments = 60 hours of CSM writing time per NPS cycle. Detractors who get a thoughtful response within 48 hours are 35% less likely to churn; Promoters followed up with convert to case study participants at 4× the rate. The economics are clear — execution is the barrier.
+
+**How COCO Solves It**: Provide the NPS response data and COCO generates a personalized, score-specific email for every respondent — each calibrated to what the customer actually wrote. A Detractor who cited slow support gets a response naming the specific issue. A Promoter who praised automation gets a CAB invitation.
+:::
+
+::: details Results & Who Benefits
+- NPS follow-up coverage: 14% → 94% of respondents receive a response
+- Detractor recovery: 22% of Detractors convert to Passives/Promoters with structured follow-up
+- Promoter activation: 4× higher case study conversion when followed up promptly
+
+**Who benefits**: CS Teams, Marketing (for Promoter activation), CS Leadership
+:::
+
+::: details Practical Prompts
+**Prompt: Detractor Response Email**
+```
+Write a personalized follow-up email to an NPS Detractor. Their score and comment are below. The email must feel human and specific — NOT like a templated "sorry to hear this" response. Acknowledge the exact issue they raised, explain what we're doing about it, and offer a concrete next step.
+
+Customer: [NAME] at [COMPANY]
+NPS score: [0–6]
+Their verbatim comment: [COMMENT]
+Account tier: [TIER / ARR]
+Renewal date: [DATE]
+CSM name: [NAME]
+Known context (from CRM): [ANY_RELEVANT_HISTORY]
+
+The email should be under 150 words, empathetic, and end with a specific call-to-action.
+```
+:::
+
+## 20. AI Customer Health Score Explainer {#use-case-345}
+
+> Translates health score data into plain-English narrative explanations with pattern identification, customer situation assessment, and a prioritized action plan — enabling junior CSMs to act like senior ones.
+
+::: details Pain Point & How COCO Solves It
+**The Pain**: Health score utilization — accounts where the score actually influences action — averages only 34% on most CS teams. Junior CSMs see the same data as senior CSMs but don't know how to interpret it into a coherent narrative. The interpretation gap, not the data gap, drives inconsistent outcomes.
+
+**How COCO Solves It**: Paste the account's health score components and COCO generates a plain-English explanation of what the data means, what pattern it represents, what the customer is likely experiencing, and what the CSM's next three actions should be — in priority order.
+:::
+
+::: details Results & Who Benefits
+- Health score utilization: 34% → 81% of accounts where score drives action
+- Junior/senior CSM performance gap: narrows significantly with AI-guided interpretation
+- At-risk detection: earlier by weeks when scores are actively interpreted vs. passively reviewed
+
+**Who benefits**: CSMs (especially new ones), CS Leadership, CS Operations
+:::
+
+::: details Practical Prompts
+**Prompt: Full Health Score Interpretation**
+```
+Interpret the following customer health score data for [COMPANY_NAME] and tell me:
+1. What does this health profile mean in plain English?
+2. What behavioral pattern does this most closely match (name the pattern)?
+3. What is the account most likely experiencing right now — from the customer's perspective?
+4. What are the top 3 actions I should take, in order of urgency?
+
+Health score data:
+- Overall score: [N/100 or RED/YELLOW/GREEN]
+- Product usage score: [N] (trend: UP/DOWN/FLAT over [PERIOD])
+- Support health: [N] (open tickets: [N], escalations: [N], CSAT: [N])
+- Stakeholder engagement: [last exec touchpoint: DATE, champion status: stable/at-risk]
+- Renewal timeline: [days to renewal]
+- Contract value: [$X ARR]
+```
+:::
+
+## 21. AI Upsell Opportunity Identifier {#use-case-346}
+
+> Scans the existing account portfolio for expansion signals — feature requests, usage workarounds, seat limits, job postings — and produces a ranked list of opportunities with conversation framing for each.
+
+::: details Pain Point & How COCO Solves It
+**The Pain**: CS teams leave 40–60% of expansion revenue on the table because identifying opportunities is "important but not urgent" and gets displaced by firefighting. When upsell signals surface, they're usually spotted accidentally — a customer mentions something on a call, and the CSM realizes three weeks later it was a buying signal.
+
+**How COCO Solves It**: Feed COCO portfolio usage data, feature adoption rates, support ticket themes, and account notes. COCO identifies the top expansion opportunities ranked by revenue potential, product fit signal, and relationship readiness — with a natural conversation opener for each.
+:::
+
+::: details Results & Who Benefits
+- Expansion opportunities identified: 3.2× more than with reactive/intuition-based approaches
+- Expansion revenue conversion: identified opportunities closed at 41% vs. 18% baseline
+- NRR improvement: systematic expansion coverage drives NRR from 105% toward 120%+
+
+**Who benefits**: CSMs, Account Managers, CS Leadership, Revenue Operations
+:::
+
+::: details Practical Prompts
+**Prompt: Portfolio Expansion Opportunity Scan**
+```
+Analyze the following account portfolio data and identify the top 10 expansion opportunities for this quarter. Rank by: revenue potential × product fit signal × relationship readiness.
+
+For each opportunity, provide:
+- Account name and current ARR
+- Expansion type (seat expansion / tier upgrade / add-on / cross-sell)
+- Key signals that indicate readiness (specific evidence)
+- Recommended product/feature to pitch
+- Suggested timing (this month / next month / Q+1)
+- Opening conversation framing (how to bring it up naturally)
+
+Portfolio data:
+[PASTE_ACCOUNT_USAGE_DATA — include: feature adoption %, seat utilization, recent feature requests, support ticket themes, contract value, renewal date, stakeholder engagement]
+```
+:::
+
+## 22. AI Customer Success Playbook Writer {#use-case-347}
+
+> Creates comprehensive, situation-specific CS playbooks that codify senior CSM expertise into repeatable processes — covering everything from sponsor changes to product outages to competitive threats.
+
+::: details Pain Point & How COCO Solves It
+**The Pain**: Playbook coverage — the percentage of known CS situations with documented responses — averages only 28% on most teams. Critical institutional knowledge lives in the heads of senior CSMs. When they leave or get stretched across too many accounts, outcomes become inconsistent. New CSMs ramp slowly because they're learning by shadowing, not from structured documentation.
+
+**How COCO Solves It**: Describe the situation, segment, timeline, risks, and available resources. COCO generates a comprehensive playbook with trigger definition, immediate actions, week-by-week timeline, escalation conditions, communication templates, and success metrics.
+:::
+
+::: details Results & Who Benefits
+- Playbook coverage: 28% → 91% of known situations documented
+- Junior/senior CSM performance gap: reduced by 54%
+- Playbook creation time: 12+ hours → 90 minutes
+- Churn in segments with documented playbooks: 9.1% vs. 18.3% undocumented
+
+**Who benefits**: CS Leadership, CS Operations, New CSMs, Onboarding Teams
+:::
+
+::: details Practical Prompts
+**Prompt: Full Playbook Generation**
+```
+Write a comprehensive Customer Success playbook for the following situation:
+
+Situation: [e.g., "Executive sponsor leaves or is replaced at a Tier 1 enterprise account"]
+Customer segment: [e.g., Enterprise, $50K+ ARR]
+Typical timeline: [how much time the CSM has to act]
+Key risks if handled poorly: [RISKS]
+Resources available to CSM: [e.g., executive escalation access, gift budget, legal contact]
+
+Playbook must include:
+1. Trigger definition (exactly when this playbook activates)
+2. Immediate actions (first 48 hours)
+3. Week 1 actions
+4. Week 2–4 actions
+5. Communication templates (email drafts for each stage)
+6. Escalation conditions and who to loop in
+7. Success metrics: how do we know this situation is resolved?
+```
+:::
+
+## 23. AI Escalation Resolution Advisor {#use-case-348}
+
+> Provides a real-time, structured escalation response plan — covering customer-facing communication, internal activation, timeline and cadence, and resolution pathway — within minutes of an escalation landing.
+
+::: details Pain Point & How COCO Solves It
+**The Pain**: Enterprise customers who escalate and feel unheard churn at 74%. Those who receive a structured, timely, empathetic response stay at 63%. The difference is not whether the problem gets solved — it's how the process is managed. Yet escalations are multi-party, time-compressed, and emotionally charged, degrading decision quality exactly when it matters most.
+
+**How COCO Solves It**: Describe the situation and COCO generates an immediate response plan: severity classification, customer-facing email, internal briefing, 14-day communication cadence, resolution commitment language, and post-resolution follow-up steps.
+:::
+
+::: details Results & Who Benefits
+- Customer retention after escalation: 63% with structured response vs. 26% unstructured
+- Time to first customer communication: hours → minutes with structured response plan
+- Post-escalation satisfaction: significantly higher when process quality is demonstrably good
+
+**Who benefits**: CSMs, CS Leadership, Account Executives, Support Managers
+:::
+
+::: details Practical Prompts
+**Prompt: Escalation Response Plan**
+```
+A customer has just escalated. Help me build a complete response plan.
+
+Escalation summary: [DESCRIBE_WHAT_HAPPENED — customer's complaint, what they said/sent, their emotional state]
+Customer: [COMPANY_NAME, TIER, ARR, RENEWAL_DATE]
+Primary contact: [NAME, TITLE]
+The underlying issue: [WHAT_IS_ACTUALLY_BROKEN_OR_WRONG]
+What we can realistically fix and when: [HONEST_ASSESSMENT]
+Internal stakeholders involved: [LIST]
+
+Give me:
+1. Escalation severity classification (P1/P2/P3) and rationale
+2. First customer response email (send within 2 hours)
+3. Internal stakeholder briefing message
+4. 14-day communication cadence with specific check-in points
+5. Resolution commitment language I can use safely
+6. Post-resolution follow-up plan
+```
+:::
+
+## 24. AI Knowledge Base Article Generator {#use-case-349}
+
+> Turns support ticket threads, rough CSM notes, or verbal descriptions of common issues into publication-ready KB articles in minutes — enabling teams to build comprehensive self-service documentation at scale.
+
+::: details Pain Point & How COCO Solves It
+**The Pain**: Every support ticket that reaches a human agent is a self-service failure. KB article creation takes 3–5 hours per article, which means most teams' KB coverage is perpetually incomplete. CSMs know what to write — they just don't have the writing bandwidth to produce structured, searchable documentation consistently.
+
+**How COCO Solves It**: Paste the ticket thread or describe the issue, specify the audience and format (Zendesk/Confluence/Notion), and COCO generates a complete, structured KB article with optimized title, step-by-step instructions, screenshot placeholders, troubleshooting section, and related articles suggestions.
+:::
+
+::: details Results & Who Benefits
+- KB article creation: 3–5 hours → 20 minutes per article
+- Ticket deflection: well-documented KB deflects 30% of repeat tickets
+- Customer satisfaction: self-service resolution 24/7 without waiting for business hours
+
+**Who benefits**: Support Teams, CSMs, Knowledge Management Teams
+:::
+
+::: details Practical Prompts
+**Prompt: Article from Ticket Thread**
+```
+Generate a knowledge base article from the following support ticket thread. Format for [ZENDESK / CONFLUENCE / NOTION].
+
+Ticket: [PASTE_FULL_TICKET_THREAD including customer question and agent resolution]
+
+Requirements:
+- Title: use the language the customer used, optimized for search
+- Audience: [TECHNICAL_ADMIN / BUSINESS_USER / END_USER]
+- Format: intro (what this covers), prerequisites, numbered steps, troubleshooting (top 3 failure points), related articles (suggest 3 titles)
+- Tone: direct, friendly, jargon-free
+- Include: screenshot placeholder with caption suggestion for each key step
+```
+:::
+
+## 25. AI Customer Journey Mapper {#use-case-350}
+
+> Builds formal customer journey maps with stage-specific health indicators, common drop-off points, and intervention triggers — giving CS teams the structural framework to drive proactive account management.
+
+::: details Pain Point & How COCO Solves It
+**The Pain**: Most CS teams lack a formal, documented customer journey map that the whole team follows consistently. Without it, intervention timing is based on intuition, milestone tracking is informal, and at-risk accounts are identified reactively. The result: at-risk detection 60–90 days too late.
+
+**How COCO Solves It**: Describe the product, customer size, use case, and failure modes the team observes, and COCO generates a formal journey map with stage definitions, entry/exit criteria, health indicators per stage, common drop-off points, and recommended intervention triggers — ready to operationalize.
+:::
+
+::: details Results & Who Benefits
+- At-risk detection: 60–90 days earlier than reactive approaches
+- Onboarding completion: 30–40% improvement when drop-off stages get targeted interventions
+- Time-to-first-value: reduced by 25–35 days with structural bottleneck identification
+
+**Who benefits**: CS Leadership, CS Operations, CSMs, Product Teams
+:::
+
+::: details Practical Prompts
+**Prompt: Customer Journey Stage Definition**
+```
+I need to build a formal customer journey map for our [B2B SaaS product] that our CS team will use to track account health and guide intervention timing.
+
+Product context:
+- Product category: [DESCRIBE]
+- Typical customer: [size, industry, use case]
+- Average contract value: [$X]
+- Contract length: [12/24/36 months]
+- Time from contract to live: [X weeks]
+- Biggest failure modes we observe: [describe the situations where customers fail]
+
+Please define:
+1. All journey stages from contract-signed to renewal/expansion
+2. Entry and exit criteria for each stage
+3. Health indicators to monitor per stage (leading, not lagging)
+4. Common drop-off points and early warning signals
+5. Recommended intervention triggers and playbook references
+```
+:::
+
+## 26. AI Success Story Case Study Writer {#use-case-351}
+
+> Transforms customer interview notes into a polished, approval-ready case study draft — with narrative structure, quantified results framing, and direct customer quote integration — in hours instead of weeks.
+
+::: details Pain Point & How COCO Solves It
+**The Pain**: Case study production takes 3–6 weeks from interview to publication through traditional routes. Most CS teams publish 3–5 case studies per year when they should be publishing 15–20. First-draft approval rates are 40–50% — requiring multiple revision cycles. The content team bottleneck means powerful customer stories go untold, losing their impact on late-stage deals.
+
+**How COCO Solves It**: Paste raw interview notes, specify the audience and format, and COCO generates a structured case study draft with the challenge/solution/results narrative, quantified outcome framing, quote integration, and key takeaways — ready for customer review.
+:::
+
+::: details Results & Who Benefits
+- Case study production: 3–6 weeks → 3–5 days
+- Annual case study output: 3–5× increase without additional headcount
+- First-draft approval rate: 85% with COCO vs. 40–50% through traditional routes
+- Late-stage close rate: 18–22% higher when relevant case studies are shared
+
+**Who benefits**: CS Teams, Content Marketing, Sales (late-stage deal support)
+:::
+
+::: details Practical Prompts
+**Prompt: Full Case Study Draft from Interview Notes**
+```
+I just completed a customer interview and need to turn my notes into a case study draft.
+
+Company: [Name, industry, size]
+Interviewee: [Title]
+Product/use case: [What they use our product for]
+Contract start: [Date]
+
+Key points from the interview:
+- Problem before our product: [notes]
+- Why they chose us: [notes]
+- Implementation experience: [notes]
+- Results achieved: [specific metrics if shared]
+- Favorite quote from the interview: [verbatim if available]
+
+Please produce: (1) A 600-word case study with Challenge / Solution / Results structure, (2) A 150-word short version for website use, (3) 3 pull quotes formatted for design, (4) 5 bullet-point results for sales one-pagers
+```
+:::
+
+## 27. AI Product Adoption Accelerator {#use-case-352}
+
+> Identifies adoption gaps by customer segment, generates personalized enablement plans for low-adoption accounts, and creates targeted outreach that achieves 35–45% response rates versus 8–12% for generic campaigns.
+
+::: details Pain Point & How COCO Solves It
+**The Pain**: Low feature adoption is discovered at renewal — 14 months into the customer relationship — when it's too late to change the trajectory. CS teams with 40+ account portfolios can't manually analyze feature usage per account and craft personalized enablement for each one. Generic product newsletters achieve 8–12% response rates because they don't address the customer's actual use case.
+
+**How COCO Solves It**: Provide segment usage data and COCO identifies the adoption gaps by risk tier, generates personalized enablement plans for each, and drafts use-case-specific outreach that addresses what each customer is actually trying to accomplish — not what features the product has.
+:::
+
+::: details Results & Who Benefits
+- Low adoption identified: 70 days earlier than renewal-cycle discovery
+- Feature activation with personalized plans: 2.3× vs. generic outreach
+- Response rate: 35–45% for targeted outreach vs. 8–12% for generic
+- Renewal lift: 28% higher for accounts that expand feature adoption before renewal
+
+**Who benefits**: CSMs, CS Ops, Product Teams (adoption feedback loop)
+:::
+
+::: details Practical Prompts
+**Prompt: Adoption Gap Analysis for a Customer Segment**
+```
+I have product usage data for my [Enterprise] customer segment and want to identify the adoption gaps that represent the highest churn risk.
+
+Feature usage data (% of accounts with each feature activated):
+[Paste usage data: e.g., "Feature A: 85%, Feature B: 62%, Feature C: 23%, Feature D: 31%"]
+
+Product context: [describe key features and what they enable customers to do]
+
+Please:
+1. Identify features with lowest adoption and explain why low adoption signals churn risk
+2. For each low-adoption feature, diagnose likely root causes (awareness, complexity, use-case fit)
+3. Prioritize the top 3 adoption gaps to address first (by churn risk impact)
+4. For each gap, draft a personalized outreach message for accounts in that category
+5. Recommend an enablement campaign structure (content, cadence, success metrics)
+```
+:::
+
+## 28. AI Customer Feedback Loop Manager {#use-case-353}
+
+> Synthesizes NPS verbatims, support themes, and customer feedback into structured reports routed to the right teams — and generates the closed-loop communications that increase survey response rates and retention.
+
+::: details Pain Point & How COCO Solves It
+**The Pain**: The volume of customer feedback that reaches product teams through informal CSM-to-PM communication is a fraction of what's collected. NPS verbatims sit in survey tools, support themes in Zendesk, customer quotes in Notion — none of it synthesized. Accounts that see their feedback produce product action and get told about it show 35% higher renewal rates.
+
+**How COCO Solves It**: Feed COCO the NPS verbatims, support ticket themes, and any feedback data, and it categorizes by theme, routes to the appropriate team, generates volume-weighted summaries for product, and drafts the closed-loop customer communications that close the feedback cycle.
+:::
+
+::: details Results & Who Benefits
+- NPS survey response rate: +20–30% over 12 months when loops are consistently closed
+- Feedback reaching product teams: 3–4× more than informal CSM-to-PM communication
+- Renewal rate for accounts with closed-loop communication: 35% higher
+- Product roadmap input quality: 67% higher rated by PMs receiving structured summaries
+
+**Who benefits**: CS Teams, Product Managers, CS Leadership
+:::
+
+::: details Practical Prompts
+**Prompt: NPS Verbatim Theme Analysis**
+```
+I have [X] NPS survey responses from our most recent survey (overall NPS: [score], [X%] response rate). Analyze the verbatim feedback and produce:
+
+NPS data by segment:
+- Promoters ([score range]): [X responses]
+- Passives ([score range]): [X responses]  
+- Detractors ([score range]): [X responses]
+
+[PASTE VERBATIM RESPONSES]
+
+Please produce:
+1. Theme identification: 5–8 recurring themes across all segments, with volume count
+2. For each theme: revenue impact estimate, which team should act on it (Product/CS/Support/Engineering)
+3. Priority ranking: top 3 themes to address for maximum retention impact
+4. Routing summary: structured brief for each team with their relevant themes
+5. Closed-loop communication templates for the top 3 themes (what to tell customers when their feedback produces action)
+```
+:::
+
+## 29. AI SLA Compliance Tracker {#use-case-354}
+
+> Builds centralized SLA commitment tracking, monitors approaching breaches 14 days in advance, and generates proactive customer communications and post-incident reports — before customers have to ask.
+
+::: details Pain Point & How COCO Solves It
+**The Pain**: SLA commitments are scattered across contract documents with no centralized tracking. CS teams discover breaches after customers escalate, not before — missing the window for proactive outreach. Post-incident reports are completed for only 35% of qualifying incidents. Customers who have to ask for their SLA credits are already dissatisfied.
+
+**How COCO Solves It**: Describe the SLA tiers and commitments and COCO helps design the tracking system, generates approaching-breach alerts, drafts proactive customer communications, and produces post-incident reports — enabling the CS team to act before customers notice a problem.
+:::
+
+::: details Results & Who Benefits
+- Breach discovery: 14 days ahead of incident reports with systematic monitoring
+- Time to first customer notification: 8–12 minutes vs. 45–90 minutes without structured process
+- Post-incident report completion: 94% with structured process vs. 35% without
+- Credit dispute incidents: 78% reduction when credits are offered proactively
+
+**Who benefits**: CSMs, CS Operations, Legal, Customer-Facing Support Teams
+:::
+
+::: details Practical Prompts
+**Prompt: SLA Commitment Registry and Tracking Framework**
+```
+I need to build a structured SLA commitment tracking system for my [X] enterprise accounts. SLA commitments are currently scattered across contracts with no centralized view.
+
+Our SLA tiers:
+- Enterprise ($100K+ ACV): [describe SLAs — e.g., 99.9% monthly uptime, P1 response <4 hours, root cause report within 5 business days]
+- Mid-market ($30–100K ACV): [describe SLAs]
+- Standard (<$30K ACV): [describe SLAs]
+
+Please help me design:
+1. A structured SLA registry format (what fields to track per account)
+2. A weekly monitoring checklist for CSMs
+3. An approaching-breach alert template (what to send to the customer 72 hours before a potential breach)
+4. A post-incident report template (what to document after any SLA breach)
+5. A proactive credit offer email template (to send before the customer requests it)
+```
+:::
+
+## 30. AI Customer Segmentation Advisor {#use-case-355}
+
+> Redesigns ARR-only segmentation models into multi-dimensional frameworks based on complexity, strategic value, and growth potential — correcting resource misallocation and improving both CSM satisfaction and expansion revenue.
+
+::: details Pain Point & How COCO Solves It
+**The Pain**: Purely ARR-based segmentation misaligns CS coverage. A $30K account in a strategic vertical that's expanding fast gets the same coverage as a $30K mature account at end of life. Result: 20–25% of accounts are in the wrong tier, CSMs are burned out managing portfolios that aren't complexity-balanced, and expansion revenue is left uncaptured in under-covered high-potential accounts.
+
+**How COCO Solves It**: Describe the current model, business objectives, and team structure. COCO designs a multi-dimensional segmentation framework with tier criteria, coverage model implications, migration plan, and account-by-account classification guidance.
+:::
+
+::: details Results & Who Benefits
+- Coverage misalignment identified: 20–25% of accounts in wrong tier on average
+- Expansion revenue per CSM: 35–45% higher with segmentation-guided proactive coverage
+- Churn rate: 12–18% lower in portfolios with differentiated vs. uniform coverage
+- CSM job satisfaction: 28% higher with complexity-balanced portfolios
+
+**Who benefits**: CS Leadership, CS Operations, Revenue Operations, VP of CS
+:::
+
+::: details Practical Prompts
+**Prompt: Customer Segmentation Model Design**
+```
+I need to redesign our customer segmentation model. Our current model is purely ARR-based and causing resource misallocation.
+
+Business context:
+- Total accounts: [X], Total ARR: [$X]
+- Product: [describe — what it does, who uses it]
+- CS team: [X CSMs, X accounts managed by tech-touch]
+- Key business objective: [maximize NRR / reduce churn / increase expansion]
+- Current tier definitions: [Enterprise >$X, Mid-Market $X–$Y, SMB <$X]
+- Problems with current model: [describe misalignment examples]
+
+Please design:
+1. A multi-dimensional segmentation framework with 3–4 tiers and scoring criteria
+2. The factors to weight beyond ARR (strategic value, complexity, expansion potential, risk)
+3. Coverage model implications per tier (CSM ratio, cadence, QBR frequency)
+4. Migration plan: how to reclassify existing accounts without disrupting relationships
+5. The top 5 accounts I should reclassify immediately based on the new model
+```
+:::
+
+## 31. AI Renewal Negotiation Prep Assistant {#use-case-356}
+
+> Prepares a comprehensive renewal dossier — health summary, value story, expansion analysis, risk factors, negotiation strategy — that shifts renewal conversations from price to value and reduces concessions by 22%.
+
+::: details Pain Point & How COCO Solves It
+**The Pain**: 83% of contract renewals are processed with the same terms as the original contract, unreviewed. CSMs preparing for renewals manually spend 3–4 hours assembling data that should be at their fingertips. Without a structured value narrative, renewals become price negotiations where the customer has no reason to pay more — or even the same.
+
+**How COCO Solves It**: Provide account health data, usage metrics, relationship context, and contract details. COCO generates a complete renewal dossier: executive summary, value story with quantified ROI, expansion analysis, risk factors and mitigation strategies, negotiation positioning, and walk-away analysis.
+:::
+
+::: details Results & Who Benefits
+- Renewal rate: 8–12 percentage point improvement with structured preparation
+- Price concessions: reduced by 22% with evidence-based value narratives
+- Expansion attach rate at renewal: 2.4× higher with structured expansion analysis
+- Renewal prep time: 3–4 hours → 45–60 minutes
+
+**Who benefits**: CSMs, Account Executives (co-owning renewal), CS Leadership, Revenue Operations
+:::
+
+::: details Practical Prompts
+**Prompt: Full Renewal Prep Dossier**
+```
+I have a strategic renewal coming up in [30 days] and need to prepare a comprehensive renewal dossier.
+
+Account overview:
+- Company: [name, industry, size]
+- Contract: [$X ARR, [X]-year contract, renewal date: [date]]
+- Current contact: [name, title, relationship quality: strong/OK/fragile]
+- Executive sponsor: [name, title, engagement: active/passive/absent]
+- Champion stability: [stable/at-risk]
+
+Health and usage (renewal period):
+- Health score trend: [from X to X over the period]
+- Feature adoption: [% of features actively used]
+- Business outcomes achieved: [list with metrics if available]
+- Open issues or unresolved friction: [list]
+- Competitive threats: [is a competitor in discussion?]
+
+Please produce:
+1. Renewal executive summary (3–5 bullets for internal review)
+2. Value story for the customer conversation (quantified ROI framing)
+3. Expansion opportunity analysis (what else could they buy and why)
+4. Risk factors and mitigation strategies
+5. Negotiation positioning: what to lead with, what to concede, what to protect
+6. Walk-away analysis: cost/risk of renew-as-is vs. improve terms vs. churn
+```
+:::

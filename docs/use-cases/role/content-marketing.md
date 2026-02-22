@@ -3897,3 +3897,579 @@ This week's data:
 ```
 
 :::
+
+## 24. AI Viral Content Hook Generator
+
+> Tests hook structures across platforms — engagement rate 2.3–4.1× improvement, reach expansion 3–5× vs baseline posts.
+
+::: details Pain Point & How COCO Solves It
+
+The first 1–3 lines of any post determine whether the algorithm distributes it. Most content teams spend 20–40 minutes brainstorming hooks with no systematic framework. COCO generates multiple hook structures per piece of content, tests them against platform-specific patterns, and helps teams build a library of high-performing hook formulas.
+
+:::
+
+::: details Results & Who Benefits
+
+- Engagement rate: 2.3–4.1× improvement within 60 days
+- Reach: 3–5× more accounts vs team's prior baseline
+- Hook generation time: 20–40min → 5–8min of review
+- Organic follower growth: +28–45% acceleration
+
+**Who Benefits**: Social Media Managers, Content Marketers, Growth teams
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Hook Generation**
+```
+Generate 10 hook variations for this content piece.
+
+Content summary: [describe what the content is about in 2–3 sentences]
+Platform: [LinkedIn / Twitter/X / Instagram / TikTok]
+Target audience: [who this is for — title, industry, pain point]
+Content format: [written post / video / thread / carousel]
+Core insight or data point: [the most compelling thing in this content]
+
+Generate hooks using these structures:
+1. Bold contrarian claim
+2. Surprising statistic
+3. "I used to think X, then Y happened"
+4. Specific number promise ("5 things...")
+5. Direct question
+6. "Most [audience] don't know..."
+7. Story opener
+8. Failure/mistake reveal
+9. Hot take
+10. How-to promise
+
+For each hook: write the first 2 lines, predict engagement potential (High/Medium/Low), and note which audience type it will resonate with most.
+```
+
+:::
+
+## 25. AI LinkedIn Thought Leadership Writer
+
+> Drafts authentic executive LinkedIn posts — publishing frequency: 1–2/month → 3–5/week, engagement 2.8–4.5× vs company-drafted posts.
+
+::: details Pain Point & How COCO Solves It
+
+Executives have ideas and experience but lack time and confidence to publish consistently. Content teams draft posts that sound like press releases, not the executive — resulting in low engagement. COCO captures the executive's authentic voice and transforms ideas into polished posts in 25–40 minutes vs 3–5 business days.
+
+:::
+
+::: details Results & Who Benefits
+
+- Publishing frequency: 1–2/month → 3–5/week
+- Content production time: 3–5 days → 25–40 minutes
+- Engagement: 2.8–4.5× vs company-drafted posts
+- Inbound demo attribution to executive posts: 15–25% within 90 days
+
+**Who Benefits**: Marketing Managers, Content Creators, Executive teams
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: LinkedIn Post from Idea**
+```
+Write a LinkedIn post from the following idea.
+
+Executive voice profile:
+- Communication style: [direct / storytelling / data-driven / conversational]
+- Topics they're known for: [list 3–5 expertise areas]
+- Tone: [serious / witty / inspiring — describe]
+
+Voice samples (paste 2–3 past posts they've written):
+[paste]
+
+Post idea:
+- The insight or story: [describe what they want to share]
+- Why their audience should care: [what problem or opportunity this connects to]
+- The take or point of view: [what's their unique angle on this]
+
+Produce: 3 post variations (one story-led, one insight-led, one contrarian take), each with 3 hook options and a CTA. Target length: 150–300 words. No buzzwords, no generic advice.
+```
+
+:::
+
+## 26. AI Community Engagement Strategist
+
+> Plans community programming, discussion prompts, and member spotlights — daily active member rate +35–55%, 90-day retention: 45% → 68–75%.
+
+::: details Pain Point & How COCO Solves It
+
+Community managers spend 4–5 hours per day creating content to fill the engagement gap. Without structured programming, communities go quiet — members join but don't participate, and 30-day retention averages only 45% in unstructured communities. COCO generates weekly programming calendars, member spotlight templates, and discussion prompt frameworks.
+
+:::
+
+::: details Results & Who Benefits
+
+- Daily active member rate: +35–55% within 90 days
+- Content production time: 4–5h/day → 45–90min
+- 90-day member retention: 45% → 68–75%
+- User-generated posts per week: 3–5× more
+
+**Who Benefits**: Community Managers, Marketing Managers, Growth teams
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Community Programming Calendar**
+```
+Build a 4-week community engagement programming calendar.
+
+Community profile:
+- Platform: [Slack / Discord / Circle / Facebook Groups]
+- Member count: [number]
+- Primary value proposition: [why members joined]
+- Typical member profile: [title, industry, goals]
+- Current engagement problem: [describe — ghost members, one-way content, no discussions]
+
+Content types available:
+- Can create: [written posts / short videos / polls / AMAs / events]
+- Team capacity: [hours per week available for community management]
+- Subject matter experts who could contribute: [list]
+
+Produce: 4-week editorial calendar with: daily engagement prompts, weekly discussion themes, 2 member spotlight templates, 1 monthly event concept, and a new member welcome sequence (days 1, 3, 7, 14 touchpoints).
+```
+
+:::
+
+## 27. AI Influencer Outreach Composer
+
+> Crafts personalized influencer partnership pitches — outreach response rate: 6–8% → 18–27%, creator repeat collaboration rate +40%.
+
+::: details Pain Point & How COCO Solves It
+
+Generic influencer pitches fail 92–94% of the time. A 50-creator campaign requires 25+ hours of research and outreach at current manual rates. COCO personalizes each pitch to the creator's content style, audience, and recent themes — achieving 3–4× higher response rates in 6–8 hours instead of 25+.
+
+:::
+
+::: details Results & Who Benefits
+
+- Outreach response rate: 6–8% → 18–27%
+- Campaign preparation: 25+ hours → 6–8 hours for 50 creators
+- Creator repeat collaboration: +40%
+- Content quality scores with personalized briefs: +35%
+
+**Who Benefits**: Marketing Managers, Influencer Marketing teams, Brand Partnerships
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Influencer Outreach Personalization**
+```
+Write personalized outreach for the following influencer/creator.
+
+Our brand:
+- Product/service: [description]
+- Campaign goal: [brand awareness / product launch / content creation]
+- Budget range: [$X–Y per post or campaign]
+- Campaign timeline: [start and end dates]
+
+Creator profile:
+- Name: [name]
+- Platform: [Instagram / YouTube / TikTok / LinkedIn]
+- Follower count: [number]
+- Content style: [describe their niche and tone]
+- Recent content (describe 2–3 recent posts): [...]
+- Why they're a fit: [specific reason this creator matches our brand]
+
+Outreach parameters:
+- Length: [short DM / longer email]
+- Tone: [casual / professional]
+- First contact or follow-up: [...]
+
+Produce: Personalized outreach message that references their specific content and explains genuine fit, a brief campaign concept tailored to their style, and a clear ask with next step.
+```
+
+:::
+
+## 28. AI Campaign Performance Analyzer
+
+> Analyzes cross-channel campaign data and generates optimization recommendations — ad waste: -18–28%, optimization cycle: 5–7 days → 24–48 hours.
+
+::: details Pain Point & How COCO Solves It
+
+Campaign analysis takes 8–12 hours per week for marketing managers juggling multiple channels. Anomaly detection is manual — problems compound for 5–7 days before being caught. COCO analyzes cross-channel data, identifies underperforming segments within 24–48 hours, and generates specific optimization recommendations rather than raw data dumps.
+
+:::
+
+::: details Results & Who Benefits
+
+- Weekly analysis time: 8–12h → 1.5–2.5h
+- Wasted ad spend: -18–28% within 60 days
+- Optimization response time: 5–7 days → 24–48 hours
+- Attribution confidence: +45%
+
+**Who Benefits**: Marketing Managers, Performance Marketing, Growth teams
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Campaign Performance Analysis**
+```
+Analyze our [time period] campaign performance and provide optimization recommendations.
+
+Campaign overview:
+- Campaign name and goal: [describe]
+- Total budget: [$] — spent: [$]
+- Channels: [Google Ads / Meta / LinkedIn / Email / etc.]
+- Target audience: [describe]
+
+Performance data by channel:
+[paste: channel, spend, impressions, clicks, CTR, conversions, CPA, ROAS]
+
+Audience/segment breakdown:
+[paste segment performance if available]
+
+vs. prior period:
+[paste comparison or note if unavailable]
+
+Analyze:
+1. Which channels/segments are over/under performing vs. target CPA?
+2. Where is budget being wasted (high spend, low conversion)?
+3. What's driving the best performance?
+4. Specific reallocation recommendations with projected impact
+5. What to test next to improve performance
+```
+
+:::
+
+## 29. AI Brand Voice Consistency Checker
+
+> Reviews content against brand voice guidelines — voice alignment: 58% → 84% on first drafts, review time per piece: 45–60min → 8–12min.
+
+::: details Pain Point & How COCO Solves It
+
+Content produced by multiple writers drifts from brand voice. Manual voice review by senior brand managers takes 45–60 minutes per piece and creates a bottleneck. Common errors repeat because feedback isn't systematized. COCO applies voice guidelines consistently across all content, providing specific line-by-line feedback that builds team voice literacy.
+
+:::
+
+::: details Results & Who Benefits
+
+- Voice alignment on first drafts: 58% → 84% within 90 days
+- Review time per piece: 45–60min → 8–12min
+- Common voice errors: -40% within 60 days
+- Brand recall improvement: +22–31% in audience surveys within 12 months
+
+**Who Benefits**: Brand Managers, Content Strategists, Marketing teams
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Voice Review**
+```
+Review this content piece for brand voice consistency.
+
+Brand voice guidelines:
+- Our brand personality: [e.g., confident, direct, human, expert-but-not-stuffy]
+- Words/phrases we always use: [list]
+- Words/phrases we never use: [list]
+- Tone by context: [e.g., playful in social, authoritative in whitepapers]
+- Our competitors' voice (what we're NOT): [describe]
+
+Content to review:
+[paste the content piece]
+
+Review for:
+1. Overall voice alignment (score 1–10 with explanation)
+2. Specific lines that are off-brand (highlight with explanation)
+3. Lines that are strongly on-brand (highlight as models)
+4. Suggested rewrites for off-brand sections
+5. Top 3 voice patterns this writer needs to work on
+
+Format feedback as: [Original line] → [Issue] → [Suggested revision]
+```
+
+:::
+
+## 30. AI Content Calendar Planner
+
+> Builds strategic content calendars aligned to funnel stages — publishing adherence: 45–60% → 85–92%, content gaps reduced from avg 2.3/mo to 0.4/mo.
+
+::: details Pain Point & How COCO Solves It
+
+Content calendars built manually break down within weeks. Capacity isn't accounted for, creating last-minute gaps. Content coverage is reactive rather than strategically mapped to the buyer journey. COCO builds capacity-aware calendars that map 72% of content to defined funnel stages vs 38% without structured planning.
+
+:::
+
+::: details Results & Who Benefits
+
+- Publishing schedule adherence: 45–60% → 85–92%
+- Last-minute content gaps: 2.3/month → 0.4/month
+- Strategic funnel coverage: 38% → 72% of content mapped to funnel stage
+- Calendar planning time: 4–6h → 45–90min per month
+
+**Who Benefits**: Content Strategists, Marketing Managers, Social Media Managers
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Monthly Content Calendar**
+```
+Build our content calendar for [month].
+
+Content strategy context:
+- Primary audience: [describe ICP]
+- Content goals: [awareness / leads / retention — prioritize]
+- Funnel stages to cover: [top/middle/bottom — in what ratio]
+- Key themes for this month: [product launch, seasonal, campaign — describe]
+
+Publishing channels and frequency targets:
+- LinkedIn: [X posts/week]
+- Blog: [X articles/month]
+- Email newsletter: [X sends/month]
+- Twitter/X: [X posts/day]
+- [Other channels]
+
+Team capacity:
+- Writers available: [count and hours/week]
+- Content production lead time: [days from brief to publish]
+- Design support: [available / limited — turnaround]
+
+Produce: Day-by-day calendar for [month] with: content topic, format, channel, funnel stage, estimated production time, and assigned owner. Include 3 evergreen backup pieces in case production falls behind.
+```
+
+:::
+
+## 31. AI GTM Launch Playbook Builder
+
+> Builds end-to-end go-to-market launch playbooks — cross-functional launch readiness +40%, 90-day adoption targets at 2.1× rate, sales ramp: 8–12 weeks → 4–6 weeks.
+
+::: details Pain Point & How COCO Solves It
+
+Product launches fail because cross-functional coordination breaks down. Sales doesn't have enablement materials. Marketing launches too early or too late relative to product readiness. Customer Success isn't briefed on new use cases. A 25-page GTM playbook takes 3–5 weeks to build manually and is often incomplete. COCO builds it in 3–5 days.
+
+:::
+
+::: details Results & Who Benefits
+
+- Launch readiness: +40% improvement in cross-functional scores
+- 90-day adoption targets: achieved at 2.1× rate vs ad-hoc launches
+- Sales ramp time on new product: 8–12 weeks → 4–6 weeks
+- Playbook creation: 3–5 weeks → 3–5 days
+
+**Who Benefits**: Product Marketing Managers, GTM Strategists, Marketing Managers
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: GTM Playbook**
+```
+Build a go-to-market launch playbook for [product/feature name].
+
+Product context:
+- What it does: [description]
+- Target customer: [ICP — company size, industry, role]
+- Primary problem it solves: [pain point]
+- Key differentiator vs alternatives: [why us vs competitors or doing nothing]
+- Pricing: [describe pricing and packaging]
+- Launch date: [hard deadline or target]
+
+Available resources:
+- Marketing budget: [$]
+- Sales team size: [number of reps]
+- Customer Success team: [size and capacity]
+- Launch team leads: [name/role for each function]
+
+Produce: Launch playbook including: launch goals and success metrics, timeline and milestone chart, messaging framework (positioning, key messages, proof points), sales enablement package (battlecard, pitch deck outline, objection handling), marketing campaign plan, CS onboarding preparation, launch week execution checklist, and 30/60/90 day post-launch review agenda.
+```
+
+:::
+
+## 32. AI Social Media Analytics Interpreter
+
+> Translates social analytics into actionable strategy — analytics interpretation time: 4–6h → under 60min, data-driven content changes per quarter 3×.
+
+::: details Pain Point & How COCO Solves It
+
+Raw social analytics dashboards require expertise to interpret meaningfully. Marketing managers spend 4–6 hours monthly just assembling and interpreting performance data. COCO translates platform analytics into strategic narrative with specific content recommendations rather than reporting on numbers alone.
+
+:::
+
+::: details Results & Who Benefits
+
+- Analytics interpretation time: 4–6h → under 60min
+- Data-driven content strategy changes: 3× per quarter
+- Monthly performance reporting: 6+ hours → under 2 hours
+- Engagement metric improvement: +28% avg within 3 months
+
+**Who Benefits**: Social Media Managers, Marketing Managers, Growth teams
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Monthly Social Analytics Review**
+```
+Analyze our social media performance for [month] and generate strategy recommendations.
+
+Platform performance data:
+[paste for each platform — follower count, reach, impressions, engagement rate, top posts, post types breakdown, audience demographics if available]
+
+Top 5 posts this month (by engagement):
+[paste: post text/description, format, engagement stats]
+
+Bottom 5 posts:
+[paste same]
+
+Goals:
+- Primary objective: [brand awareness / lead gen / community / employee advocacy]
+- KPIs we track: [list]
+
+Produce: Performance summary narrative (what happened and why), content patterns in top vs bottom performers, 5 specific strategy recommendations for next month, content types to increase/decrease, and an experiment to run next month to improve the weakest metric.
+```
+
+:::
+
+## 33. AI Competitor Social Listening Analyst
+
+> Monitors competitor social activity and surfaces strategic intelligence — competitor campaign detection: 3–6 weeks → days, content positioning gaps identified 3–5 per quarter.
+
+::: details Pain Point & How COCO Solves It
+
+Most marketing teams discover competitor campaigns weeks after launch, missing response windows. Positioning opportunities go unidentified because monitoring is ad-hoc. COCO structures systematic competitor social analysis that surfaces campaign patterns, messaging shifts, and exploitable positioning gaps on a weekly cadence.
+
+:::
+
+::: details Results & Who Benefits
+
+- Competitor campaign detection: 3–6 weeks → within days
+- Positioning gaps identified: 3–5 per quarter (vs near zero ad-hoc)
+- Content strategy improvement from competitor intelligence: +25% engagement
+- Campaign response time: 4–6 weeks → 1–2 weeks
+
+**Who Benefits**: Marketing Managers, Content Strategists, Product Marketing
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Competitor Social Audit**
+```
+Analyze our competitors' social media strategy for the past [time period].
+
+Our company: [name and positioning]
+Competitors to monitor: [list 2–4 competitors]
+
+For each competitor, I have collected:
+[paste or describe their recent posts, campaign themes, messaging, engagement data — whatever is available from manual review or social monitoring tools]
+
+Analyze:
+1. What are each competitor's primary content themes and messaging priorities?
+2. What campaigns have they run? What appears to be working?
+3. How does their messaging compare to ours? Where are they attacking our position?
+4. What positioning gaps exist that we could exploit?
+5. What should we do differently in the next 30 days based on this?
+
+Produce: Competitor content strategy summary for each, positioning gap analysis, and 3 specific content opportunities we should pursue.
+```
+
+:::
+
+## 34. AI Hashtag and SEO Strategy Optimizer
+
+> Optimizes hashtag selection and content SEO — organic reach per post +40–80%, YouTube CTR from search +55%.
+
+::: details Pain Point & How COCO Solves It
+
+Hashtag and keyword selection is based on intuition rather than audience research. Most teams use the same hashtags repeatedly without testing. Content SEO is treated as an afterthought. COCO analyzes platform-specific reach patterns, recommends hashtag mixes by reach tier, and optimizes titles/descriptions for platform search algorithms.
+
+:::
+
+::: details Results & Who Benefits
+
+- Organic reach per post: +40–80% within 30 days
+- Non-follower impressions: 3× more
+- YouTube CTR from search: +55% with optimized titles and descriptions
+- LinkedIn article organic views: 4–6× more
+
+**Who Benefits**: Social Media Managers, Content Marketers, SEO teams
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Hashtag and SEO Strategy**
+```
+Optimize the hashtag and SEO strategy for this content.
+
+Platform: [LinkedIn / Instagram / TikTok / YouTube]
+Content piece: [paste title, description, or script summary]
+Target audience: [describe ICP — role, industry, challenge]
+Content goal: [reach new audiences / rank in search / build authority]
+
+Current hashtag usage: [list hashtags we typically use]
+
+For LinkedIn/Instagram — produce:
+1. Recommended hashtag mix: 3–5 niche hashtags (10K–50K posts), 3–5 mid-tier (50K–500K), 2 broad (500K+)
+2. Hashtags to avoid (oversaturated or irrelevant)
+3. Optimal hashtag count for this post format
+4. First comment vs caption strategy
+
+For YouTube — produce:
+1. Optimized title (include primary keyword, keep under 60 characters)
+2. Description with natural keyword inclusion (first 2 lines are critical)
+3. Tags list (primary + secondary keywords)
+4. Thumbnail concept recommendation based on high-CTR patterns
+```
+
+:::
+
+## 35. AI Brand Crisis Communication Handler
+
+> Drafts crisis response communications — first response time: 6–12h → under 2h, revision rounds -50%, tone accuracy errors -65%.
+
+::: details Pain Point & How COCO Solves It
+
+Brand crises require rapid, carefully calibrated responses. Without a framework, teams produce tone-deaf or legally dangerous responses under pressure. The industry average for first public response is 6–12 hours. COCO provides a crisis response framework, message scaffolding, and stakeholder-specific communications that can be reviewed and published in under 2 hours.
+
+:::
+
+::: details Results & Who Benefits
+
+- First public response time: 6–12h → under 2h
+- Revision rounds: -50% (better first drafts reduce review cycles)
+- Wrong-tone incidents: -65%
+- Full stakeholder communications cascade: 24 hours vs 72+ hours ad-hoc
+
+**Who Benefits**: Marketing Managers, PR teams, Executive Communications, Legal
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Crisis Response Framework**
+```
+Help me draft a crisis response communication.
+
+Crisis situation:
+- What happened: [describe the issue factually]
+- How we found out: [customer complaint / media / internal]
+- Current public awareness: [trending on social / isolated complaints / media coverage]
+- Our actual responsibility: [fully responsible / partially responsible / not responsible but affected]
+- What we've done to address it: [any actions taken so far]
+
+Affected stakeholders:
+1. Customers: [how they're affected]
+2. Employees: [what they need to know]
+3. Media/public: [scope of public concern]
+4. Partners/investors: [if applicable]
+
+Legal constraints:
+- What we cannot admit or say: [consult legal before filling this in]
+- What we have confirmed is factually true: [list only confirmed facts]
+
+Produce: Initial public statement (social/press), customer-specific email, internal employee message, media Q&A talking points, and a 24-hour monitoring and response plan. Flag any statements that require legal review before publication.
+```
+
+:::
+
