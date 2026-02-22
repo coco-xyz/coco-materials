@@ -295,7 +295,6 @@ Find use cases by what you need to get done:
 | 224 | [AI Threat Model Generator](/use-cases/role/dev#_31-ai-threat-model-generator) | Dev | Tech/SaaS | Research | 3–4× more threats vs. ad-hoc review |
 | 225 | [AI Security Incident Forensics Assistant](/use-cases/role/dev#_32-ai-security-incident-forensics-assistant) | Dev | Tech/SaaS | Analysis | Timeline: 2–4 weeks → 12–24 hours |
 | 226 | [AI Access Permission Auditor](/use-cases/role/dev#_33-ai-access-permission-auditor) | Dev | Tech/SaaS | Research | 35–50% unused permissions found |
-
 | 227 | [AI Product-Market Fit Validator](/use-cases/role/pm#use-case-232) | PM | SaaS/B2B | Analysis | PMF research: 4 weeks → 1 week |
 | 228 | [AI Legacy Code Archaeologist](/use-cases/role/dev#use-case-233) | Dev | Enterprise/SaaS | Analysis | Incident diagnosis -55% |
 | 229 | [AI Working Capital Optimizer](/use-cases/role/finance#use-case-234) | Finance | Manufacturing/Retail | Analysis | DSO reduced 8–12 days |
