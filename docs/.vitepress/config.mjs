@@ -7,6 +7,15 @@ export default defineConfig({
   vite: {
     server: {
       allowedHosts: ['zylos100.jinglever.com']
+    },
+  },
+
+  vue: {
+    template: {
+      transformAssetUrls: {
+        video: ['src'],
+        source: [],
+      }
     }
   },
 
@@ -76,6 +85,11 @@ export default defineConfig({
                 { text: 'Logistics Manager', link: '/use-cases/role/logistics-manager' },
                 { text: 'Procurement', link: '/use-cases/role/procurement' },
                 { text: 'Trainer', link: '/use-cases/role/trainer' },
+                { text: 'Customer Success', link: '/use-cases/role/customer-success' },
+                { text: 'Data Scientist', link: '/use-cases/role/data-scientist' },
+                { text: 'Researcher', link: '/use-cases/role/researcher' },
+                { text: 'Tech Lead', link: '/use-cases/role/tech-lead' },
+                { text: 'Writer', link: '/use-cases/role/writer' },
               ]
             },
             {
@@ -190,6 +204,11 @@ export default defineConfig({
                 { text: '物流经理', link: '/zh/use-cases/role/logistics-manager' },
                 { text: '采购', link: '/zh/use-cases/role/procurement' },
                 { text: '培训师', link: '/zh/use-cases/role/trainer' },
+                { text: '客户成功经理', link: '/zh/use-cases/role/customer-success' },
+                { text: '数据科学家', link: '/zh/use-cases/role/data-scientist' },
+                { text: '研究员', link: '/zh/use-cases/role/researcher' },
+                { text: '技术负责人', link: '/zh/use-cases/role/tech-lead' },
+                { text: '内容创作者', link: '/zh/use-cases/role/writer' },
               ]
             },
             {

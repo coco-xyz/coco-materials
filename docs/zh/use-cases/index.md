@@ -1,6 +1,6 @@
 # 用例库
 
-发现 **381个真实场景**，COCO AI员工如何为各部门节省时间和成本。按**角色**、**任务**或**行业**浏览。
+发现 **600+个真实场景**，COCO AI员工如何为各部门节省时间和成本。按**角色**、**任务**或**行业**浏览。
 
 ## 按角色浏览
 
@@ -9,24 +9,29 @@
 | 角色 | 数量 | 核心场景 |
 |------|------|---------|
 | [产品经理](/zh/use-cases/role/product) | 19 | 情感分析、项目状态报告、冲刺规划、发版说明、工作流自动化 |
-| [研发工程](/zh/use-cases/role/dev) | 40 | 代码审查、测试生成、部署监控、API文档、安全扫描、缺陷排序... |
-| [运营](/zh/use-cases/role/operations) | 53 | 会议纪要、库存预测、供应商评估... |
-| [财务](/zh/use-cases/role/finance) | 31 | 费用审核、财务报告、发票处理... |
-| [内容/营销](/zh/use-cases/role/content-marketing) | 35 | SEO写作、社媒管理、广告文案、品牌监控... |
-| [客服](/zh/use-cases/role/customer-support) | 31 | 工单分类、知识库、多语言客服... |
-| [HR/招聘](/zh/use-cases/role/hr-recruiting) | 28 | 简历筛选、JD撰写、面试排期、入职助手... |
-| [销售](/zh/use-cases/role/sales) | 41 | 线索挖掘、CRM更新、方案生成、销售预测... |
-| [法律](/zh/use-cases/role/legal) | 17 | AI合同分析师、AI保密协议生成器、AI知识产权组合分析器... |
-| [高管](/zh/use-cases/role/executive) | 14 | AI高管简报生成器、AI年度报告汇编器、AI OKR进度追踪器... |
-| [数据分析师](/zh/use-cases/role/data-analyst) | 40 | AI房产估值助手、AI作物产量预测器、AI剧本评审阅读器... |
-| [DevOps运维](/zh/use-cases/role/devops) | 2 | AI网络容量规划师、AI太阳能板性能监控器... |
-| [项目经理](/zh/use-cases/role/pm) | 14 | AI活动后勤规划器、AI筹款活动策划器... |
-| [QA工程师](/zh/use-cases/role/qa-engineer) | 3 | AI生产缺陷检测器、AI统计过程控制监控器、AI无障碍合规检查器... |
-| [合规官](/zh/use-cases/role/compliance-officer) | 7 | AI许可证申请追踪器、AI车辆召回监控器、AI碳足迹报告生成器... |
-| [咨询顾问](/zh/use-cases/role/consultant) | 7 | AI战略简报撰写器、AI尽职调查编撰器、AI咨询方案构建器... |
-| [物流经理](/zh/use-cases/role/logistics-manager) | 6 | AI货运追踪器、AI仓库布局优化器、AI路线优化器... |
-| [采购](/zh/use-cases/role/procurement) | 5 | AI物料清单检查器、AI运费谈判助手、AI供应链风险评分器... |
-| [培训师](/zh/use-cases/role/trainer) | 5 | AI课程设计师、AI学生进度追踪器、AI抄袭检测器... |
+| [研发工程](/zh/use-cases/role/dev) | 48 | 代码审查、测试生成、部署监控、API文档、安全扫描、缺陷排序... |
+| [运营](/zh/use-cases/role/operations) | 69 | 会议纪要、库存预测、供应商评估... |
+| [财务](/zh/use-cases/role/finance) | 41 | 费用审核、财务报告、发票处理... |
+| [内容/营销](/zh/use-cases/role/content-marketing) | 48 | SEO写作、社媒管理、广告文案、品牌监控... |
+| [客服](/zh/use-cases/role/customer-support) | 40 | 工单分类、知识库、多语言客服... |
+| [HR/招聘](/zh/use-cases/role/hr-recruiting) | 39 | 简历筛选、JD撰写、面试排期、入职助手... |
+| [销售](/zh/use-cases/role/sales) | 50 | 线索挖掘、CRM更新、方案生成、销售预测... |
+| [法律](/zh/use-cases/role/legal) | 28 | AI合同分析师、AI保密协议生成器、AI知识产权组合分析器... |
+| [高管](/zh/use-cases/role/executive) | 21 | AI高管简报生成器、AI年度报告汇编器、AI OKR进度追踪器... |
+| [数据分析师](/zh/use-cases/role/data-analyst) | 48 | AI房产估值助手、AI作物产量预测器、AI剧本评审阅读器... |
+| [DevOps运维](/zh/use-cases/role/devops) | 11 | AI网络容量规划师、AI太阳能板性能监控器... |
+| [项目经理](/zh/use-cases/role/pm) | 20 | AI活动后勤规划器、AI筹款活动策划器... |
+| [QA工程师](/zh/use-cases/role/qa-engineer) | 8 | AI生产缺陷检测器、AI统计过程控制监控器、AI无障碍合规检查器... |
+| [合规官](/zh/use-cases/role/compliance-officer) | 15 | AI许可证申请追踪器、AI车辆召回监控器、AI碳足迹报告生成器... |
+| [咨询顾问](/zh/use-cases/role/consultant) | 13 | AI战略简报撰写器、AI尽职调查编撰器、AI咨询方案构建器... |
+| [物流经理](/zh/use-cases/role/logistics-manager) | 16 | AI货运追踪器、AI仓库布局优化器、AI路线优化器... |
+| [采购](/zh/use-cases/role/procurement) | 11 | AI物料清单检查器、AI运费谈判助手、AI供应链风险评分器... |
+| [培训师](/zh/use-cases/role/trainer) | 13 | AI课程设计师、AI学生进度追踪器、AI抄袭检测器... |
+| [客户成功经理](/zh/use-cases/role/customer-success) | 7 | AI客户入职手册构建器、AI客户流失风险预警、AI季度业务回顾准备引擎... |
+| [数据科学家](/zh/use-cases/role/data-scientist) | 8 | AI流失预测模型构建器、AI特征工程顾问、AI模型可解释性报告器... |
+| [研究员](/zh/use-cases/role/researcher) | 9 | AI文献综述综合器、AI调研设计顾问、AI市场研究报告生成器... |
+| [技术负责人](/zh/use-cases/role/tech-lead) | 7 | AI架构决策顾问、AI团队速度优化器、AI技术债务优先级排序器... |
+| [内容创作者](/zh/use-cases/role/writer) | 8 | AI技术文档规划器、AI白皮书研究编译器、AI新闻稿生成器... |
 
 ## 按任务浏览
 

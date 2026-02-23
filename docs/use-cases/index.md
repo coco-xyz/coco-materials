@@ -1,6 +1,6 @@
 # Use Cases
 
-Discover **400 real-world scenarios** where COCO AI employees save time and money. Browse by **Role**, **Task**, or **Industry**.
+Discover **600+ real-world scenarios** where COCO AI employees save time and money. Browse by **Role**, **Task**, or **Industry**.
 
 ## Browse by Role
 
@@ -9,24 +9,29 @@ Find use cases for your specific job function:
 | Role | Cases | Key Scenarios |
 |------|-------|--------------|
 | [Product Manager](/use-cases/role/product) | 19 | Sentiment Analyzer, Project Status Reporter, Sprint Planning, Release Notes, Workflow Automator |
-| [Developer / Engineering](/use-cases/role/dev) | 33 | Code Review, Test Gen, Deploy Monitor, API Docs, Security Scanner, Bug Prioritizer, ... |
-| [Operations](/use-cases/role/operations) | 36 | Meeting Notes, Inventory Forecasting, Vendor Evaluation, ... |
-| [Finance](/use-cases/role/finance) | 19 | Expense Auditing, Financial Reports, Invoice Processing, ... |
-| [Content / Marketing](/use-cases/role/content-marketing) | 23 | SEO Writing, Social Media, Ad Copy, Brand Monitor, ... |
-| [Customer Support](/use-cases/role/customer-support) | 14 | Ticket Classification, Knowledge Base, Multi-language, ... |
-| [HR / Recruiting](/use-cases/role/hr-recruiting) | 11 | Resume Screening, JD Writing, Interview Scheduling, ... |
-| [Sales](/use-cases/role/sales) | 24 | Lead Research, CRM Updates, Proposals, Sales Forecaster, ... |
-| [Legal](/use-cases/role/legal) | 9 | Contract Analyzer, NDA Generator, IP Portfolio Analyzer, ... |
-| [Executive](/use-cases/role/executive) | 4 | Executive Briefing Generator, Annual Report Assembler, OKR Progress Tracker, ... |
-| [Data Analyst](/use-cases/role/data-analyst) | 14 | Property Valuation Assistant, Crop Yield Predictor, Script Coverage Reader, ... |
-| [DevOps](/use-cases/role/devops) | 2 | Network Capacity Planner, Solar Panel Performance Monitor, ... |
-| [Project Manager](/use-cases/role/pm) | 2 | Event Logistics Planner, Fundraising Event Planner, ... |
-| [QA Engineer](/use-cases/role/qa-engineer) | 3 | Production Defect Detector, SPC Chart Monitor, Accessibility Compliance Checker, ... |
-| [Compliance Officer](/use-cases/role/compliance-officer) | 7 | Permit Application Tracker, Vehicle Recall Monitor, Carbon Footprint Reporter, ... |
-| [Consultant](/use-cases/role/consultant) | 7 | Strategy Brief Writer, Due Diligence Compiler, Consulting Deck Builder, ... |
-| [Logistics Manager](/use-cases/role/logistics-manager) | 6 | Shipment Tracker, Warehouse Layout Optimizer, Route Optimizer, ... |
-| [Procurement](/use-cases/role/procurement) | 5 | Bill of Materials Checker, Freight Rate Negotiator, Supply Chain Risk Scorer, ... |
-| [Trainer](/use-cases/role/trainer) | 5 | Curriculum Designer, Student Progress Tracker, Plagiarism Checker, ... |
+| [Developer / Engineering](/use-cases/role/dev) | 54 | Code Review, Test Gen, Deploy Monitor, API Docs, Security Scanner, Bug Prioritizer, ... |
+| [Operations](/use-cases/role/operations) | 69 | Meeting Notes, Inventory Forecasting, Vendor Evaluation, ... |
+| [Finance](/use-cases/role/finance) | 41 | Expense Auditing, Financial Reports, Invoice Processing, ... |
+| [Content / Marketing](/use-cases/role/content-marketing) | 48 | SEO Writing, Social Media, Ad Copy, Brand Monitor, ... |
+| [Customer Support](/use-cases/role/customer-support) | 40 | Ticket Classification, Knowledge Base, Multi-language, ... |
+| [HR / Recruiting](/use-cases/role/hr-recruiting) | 39 | Resume Screening, JD Writing, Interview Scheduling, ... |
+| [Sales](/use-cases/role/sales) | 50 | Lead Research, CRM Updates, Proposals, Sales Forecaster, ... |
+| [Legal](/use-cases/role/legal) | 36 | Contract Analyzer, NDA Generator, IP Portfolio Analyzer, ... |
+| [Executive](/use-cases/role/executive) | 23 | Executive Briefing Generator, Annual Report Assembler, OKR Progress Tracker, ... |
+| [Data Analyst](/use-cases/role/data-analyst) | 50 | Property Valuation Assistant, Crop Yield Predictor, Script Coverage Reader, ... |
+| [DevOps](/use-cases/role/devops) | 11 | Network Capacity Planner, Solar Panel Performance Monitor, ... |
+| [Project Manager](/use-cases/role/pm) | 21 | Event Logistics Planner, Fundraising Event Planner, ... |
+| [QA Engineer](/use-cases/role/qa-engineer) | 8 | Production Defect Detector, SPC Chart Monitor, Accessibility Compliance Checker, ... |
+| [Compliance Officer](/use-cases/role/compliance-officer) | 15 | Permit Application Tracker, Vehicle Recall Monitor, Carbon Footprint Reporter, ... |
+| [Consultant](/use-cases/role/consultant) | 13 | Strategy Brief Writer, Due Diligence Compiler, Consulting Deck Builder, ... |
+| [Logistics Manager](/use-cases/role/logistics-manager) | 16 | Shipment Tracker, Warehouse Layout Optimizer, Route Optimizer, ... |
+| [Procurement](/use-cases/role/procurement) | 11 | Bill of Materials Checker, Freight Rate Negotiator, Supply Chain Risk Scorer, ... |
+| [Trainer](/use-cases/role/trainer) | 13 | Curriculum Designer, Student Progress Tracker, Plagiarism Checker, ... |
+| [Customer Success](/use-cases/role/customer-success) | 7 | Onboarding Playbook Builder, Churn Risk Early Warning, QBR Prep Engine, ... |
+| [Data Scientist](/use-cases/role/data-scientist) | 8 | Churn Prediction Modeler, Feature Engineering Advisor, Model Explainability Reporter, ... |
+| [Researcher](/use-cases/role/researcher) | 9 | Literature Review Synthesizer, Survey Design Advisor, Market Research Report Generator, ... |
+| [Tech Lead](/use-cases/role/tech-lead) | 7 | Architecture Decision Advisor, Team Velocity Optimizer, Technical Debt Prioritizer, ... |
+| [Writer](/use-cases/role/writer) | 8 | Technical Documentation Planner, White Paper Research Compiler, Press Release Generator, ... |
 
 ## Browse by Task
 
