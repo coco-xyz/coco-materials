@@ -762,14 +762,6 @@ COCO的AI报关申报器直接集成到你现有的工作流程中，充当一�
 
 > 在物流领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/420-ai-logistics-route-optimization-planner.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：物流路线优化规划器面临的挑战**
@@ -940,14 +932,6 @@ COCO的AI报关申报器直接集成到你现有的工作流程中，充当一�
 ## 8. AI供应链中断风险监控器
 
 > 在物流领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/441-ai-supply-chain-disruption-risk-monitor.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1120,14 +1104,6 @@ COCO的AI报关申报器直接集成到你现有的工作流程中，充当一�
 
 > 在物流领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/449-ai-warehouse-space-utilization-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：仓库空间利用率优化器面临的挑战**
@@ -1298,14 +1274,6 @@ COCO的AI报关申报器直接集成到你现有的工作流程中，充当一�
 ## 10. AI物流海关文件准备助手
 
 > 在物流领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/468-ai-logistics-customs-documentation-preparer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1478,14 +1446,6 @@ COCO的AI报关申报器直接集成到你现有的工作流程中，充当一�
 
 > 在物流领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/487-ai-logistics-fleet-maintenance-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：物流车队维护优化器面临的挑战**
@@ -1656,14 +1616,6 @@ COCO的AI报关申报器直接集成到你现有的工作流程中，充当一�
 ## 12. AI物流需求规划助手
 
 > 在物流领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/513-ai-logistics-demand-planning-assistant.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1836,14 +1788,6 @@ COCO的AI报关申报器直接集成到你现有的工作流程中，充当一�
 
 > 在物流领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/529-ai-logistics-carrier-performance-scorecard.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：物流承运商绩效评分卡面临的挑战**
@@ -2014,14 +1958,6 @@ COCO的AI报关申报器直接集成到你现有的工作流程中，充当一�
 ## 14. AI冷链完整性监控系统
 
 > 在物流领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/547-ai-logistics-cold-chain-monitoring-system.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2194,14 +2130,6 @@ COCO的AI报关申报器直接集成到你现有的工作流程中，充当一�
 
 > 在物流领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/568-ai-logistics-international-shipping-cost-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：国际运输成本优化器面临的挑战**
@@ -2372,14 +2300,6 @@ COCO的AI报关申报器直接集成到你现有的工作流程中，充当一�
 ## 16. AI仓库装卸区调度优化器
 
 > 在物流领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/589-ai-logistics-dock-scheduling-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 

@@ -888,14 +888,6 @@ This week's data:
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/448-ai-consultant-client-proposal-generator.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Consultant Client Proposal Gaps**
@@ -1091,14 +1083,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 9. AI Market Entry Strategy Builder
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/467-ai-consultant-market-entry-strategy-builder.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1296,14 +1280,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/507-ai-consultant-competitive-landscape-mapper.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Consultant Competitive Landscape Mapper**
@@ -1499,14 +1475,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 11. AI Post-Merger Integration Planner
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/546-ai-consultant-post-merger-integration-planner.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1704,14 +1672,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/579-ai-consultant-digital-transformation-roadmap.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Digital Transformation Roadmap Manual Effort**
@@ -1907,14 +1867,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 13. AI Organizational Change Management Advisor
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/596-ai-consultant-organizational-change-manager.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

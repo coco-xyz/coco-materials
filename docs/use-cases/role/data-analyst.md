@@ -6631,18 +6631,9 @@ Help me draft communication that:
 
 :::
 
-
 ## 43. AI Real Estate Property Valuation Analyst
 
 > Organizations operating in Real Estate face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/418-ai-real-estate-property-valuation-analyst.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -6840,14 +6831,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Insurance face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/447-ai-insurance-underwriting-risk-profiler.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Insurance Underwriting Risk Profiler**
@@ -7043,14 +7026,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 45. AI Retail Customer Sentiment Analyzer
 
 > Organizations operating in Retail face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/461-ai-retail-customer-sentiment-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -7248,14 +7223,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/477-ai-data-analyst-kpi-dashboard-builder.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Data Analyst KPI Dashboard Manual Effort**
@@ -7451,14 +7418,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 47. AI Sales Attribution Modeling Assistant
 
 > Organizations operating in E-Commerce face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/511-ai-data-analyst-sales-attribution-modeler.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -7656,14 +7615,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/549-ai-data-analyst-cohort-retention-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Cohort Retention Analysis Failures**
@@ -7860,14 +7811,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Retail face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/578-ai-data-analyst-pricing-elasticity-modeler.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Pricing Elasticity Analysis Failures**
@@ -8063,14 +8006,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 50. AI Financial Fraud Pattern Detection Engine
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/597-ai-data-analyst-fraud-pattern-detector.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

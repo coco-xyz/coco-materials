@@ -6,14 +6,6 @@ AI-powered use cases for customer success manager professionals.
 
 > Organizations operating in Hospitality face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/429-ai-hospitality-guest-experience-personalizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Hospitality Guest Experience Personalizer**
@@ -209,14 +201,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 2. AI SaaS Contract Renewal Risk Scorer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/435-ai-saas-renewal-risk-scorer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -414,14 +398,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/485-ai-customer-success-health-score-engine.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Customer Success Health Score Failures**
@@ -617,14 +593,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 4. AI Insurance Policy Renewal Optimizer
 
 > Organizations operating in Insurance face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/515-ai-insurance-policy-renewal-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -822,14 +790,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Insurance face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/543-ai-insurance-policy-comparison-assistant.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Insurance Policy Comparison Overhead**
@@ -1026,14 +986,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/566-ai-customer-success-qbr-prep-engine.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Customer Success QBR Preparation Failures**
@@ -1229,14 +1181,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 7. AI Customer Escalation Handling Guide
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/587-ai-customer-success-escalation-handler.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

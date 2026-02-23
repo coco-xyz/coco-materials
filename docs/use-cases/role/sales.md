@@ -3063,7 +3063,6 @@ Analyze and provide:
 
 :::
 
-
 ## 18. AI Donor Engagement Tracker
 
 > Scores 5,000+ donors on engagement, giving history, and capacity — prioritizes outreach to boost renewal rates by 25%.
@@ -7629,14 +7628,6 @@ Format as a quick-reference card reps can use during live calls.
 
 > Sales teams lose deals not because their product is inferior, but because reps make predictable, coachable mistakes on calls — speaking too much, failing to ask discovery questions, mishandling objections, skipping urgency creation, or losing control of the buying conversation
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/408-ai-sales-call-coaching-engine.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Sales Managers Can't Coach at Scale**
@@ -7809,14 +7800,6 @@ Assess:
 ## 43. AI Sales Territory Plan Optimizer
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/438-ai-sales-territory-plan-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -8014,14 +7997,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/459-ai-sales-competitive-battlecard-generator.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Sales Competitive Battlecard Gaps**
@@ -8217,14 +8192,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 45. AI Sales Pipeline Forecast Optimizer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/492-ai-sales-pipeline-forecast-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -8422,14 +8389,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/518-ai-sales-account-expansion-opportunity-finder.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Sales Account Expansion Opportunity Finder**
@@ -8625,14 +8584,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 47. AI Deal Desk Pricing Advisor
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/538-ai-sales-deal-desk-pricing-advisor.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -8830,14 +8781,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/556-ai-sales-proposal-win-rate-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Sales Proposal Win Rate Inefficiency**
@@ -9034,14 +8977,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in E-Commerce face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/576-ai-sales-inbound-lead-scoring-engine.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Inbound Lead Scoring Failures**
@@ -9237,14 +9172,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 50. AI Customer Reference Story Builder
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/603-ai-sales-customer-reference-story-builder.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

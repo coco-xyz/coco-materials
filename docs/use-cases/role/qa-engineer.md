@@ -384,14 +384,6 @@ This week's data:
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/417-ai-manufacturing-quality-defect-classifier.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Manufacturing Quality Defect Classifier**
@@ -587,14 +579,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 5. AI Automotive Warranty Claims Analyzer
 
 > Organizations operating in Automotive face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/433-ai-automotive-warranty-claims-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -792,14 +776,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Automotive face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/463-ai-automotive-supply-chain-bom-validator.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Automotive Supply Chain BOM Validator**
@@ -996,14 +972,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/491-ai-qa-engineer-test-coverage-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: QA Failureser Test Coverage Blind Spots**
@@ -1199,14 +1167,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 8. AI Manufacturing Scrap Rate Reduction Advisor
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/552-ai-manufacturing-scrap-rate-reducer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

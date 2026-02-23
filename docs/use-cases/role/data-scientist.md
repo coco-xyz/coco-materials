@@ -6,14 +6,6 @@ AI-powered use cases for data scientist professionals.
 
 > Organizations operating in Telecommunications face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/428-ai-telecom-churn-prediction-modeler.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Telecom Customer Churn Prediction Modeler**
@@ -209,14 +201,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 2. AI Agriculture Crop Yield Forecaster
 
 > Organizations operating in Agriculture face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/431-ai-agriculture-crop-yield-forecaster.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -414,14 +398,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/469-ai-data-scientist-feature-engineering-advisor.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Data Scientist Feature Failuresering Guesswork**
@@ -617,14 +593,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 4. AI Data Scientist Model Explainability Reporter
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/494-ai-data-scientist-model-explainability-reporter.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -822,14 +790,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/519-ai-healthcare-patient-discharge-risk-scorer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Healthcare Patient Readmission Risk Scorer**
@@ -1025,14 +985,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 6. AI A/B Test Design and Analysis Advisor
 
 > Organizations operating in E-Commerce face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/531-ai-data-scientist-ab-test-design-advisor.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1230,14 +1182,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/565-ai-data-scientist-time-series-forecast-advisor.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Time Series Forecasting Guesswork**
@@ -1433,14 +1377,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 8. AI Actuarial Data Summary and Analysis Engine
 
 > Organizations operating in Insurance face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/583-ai-insurance-actuarial-data-summarizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

@@ -3238,7 +3238,6 @@ COCO的AI依赖漏洞扫描器直接集成到你现有的工作流程中，充�
 
 :::
 
-
 ## 22. AI技术债务优先级排序器
 
 > 识别真正对团队造成成本的技术债务——比临时修复的投资回报率高3倍。
@@ -5516,18 +5515,9 @@ COCO 的 AI 依赖漏洞扫描器超越简单的 CVE 列举，提供上下文感
 
 :::
 
-
 ## 41. AI开发者代码审查质量审计器
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/425-ai-developer-code-review-quality-auditor.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -5700,14 +5690,6 @@ COCO 的 AI 依赖漏洞扫描器超越简单的 CVE 列举，提供上下文感
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/439-ai-developer-api-documentation-generator.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：开发者API文档生成器面临的挑战**
@@ -5878,14 +5860,6 @@ COCO 的 AI 依赖漏洞扫描器超越简单的 CVE 列举，提供上下文感
 ## 43. AI开发者安全漏洞扫描器
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/454-ai-developer-security-vulnerability-scanner.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -6058,14 +6032,6 @@ COCO 的 AI 依赖漏洞扫描器超越简单的 CVE 列举，提供上下文感
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/484-ai-developer-test-case-generator.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：开发者自动化测试用例生成器面临的挑战**
@@ -6236,14 +6202,6 @@ COCO 的 AI 依赖漏洞扫描器超越简单的 CVE 列举，提供上下文感
 ## 45. AI遗留代码现代化改造指南
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/524-ai-developer-legacy-code-modernization-guide.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -6416,14 +6374,6 @@ COCO 的 AI 依赖漏洞扫描器超越简单的 CVE 列举，提供上下文感
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/554-ai-developer-database-query-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：数据库查询性能优化器面临的挑战**
@@ -6595,14 +6545,6 @@ COCO 的 AI 依赖漏洞扫描器超越简单的 CVE 列举，提供上下文感
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/574-ai-developer-microservices-migration-planner.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：微服务迁移规划器面临的挑战**
@@ -6773,14 +6715,6 @@ COCO 的 AI 依赖漏洞扫描器超越简单的 CVE 列举，提供上下文感
 ## 48. AI开源依赖安全审计器
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/593-ai-developer-open-source-dependency-auditor.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 

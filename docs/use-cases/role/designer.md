@@ -6,12 +6,6 @@ AI-powered use cases for designers and creative professionals.
 
 > Reduces brand compliance audit cycle from 3 weeks to 4 hours — catching 97%+ of violations automatically.
 
-::: details 🎬 Watch Demo Video
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/406-ai-brand-asset-consistency-auditor.mp4" type="video/mp4">
-</video>
-:::
-
 ::: details Pain Point & How COCO Solves It
 ## Detailed Introduction
 

@@ -2019,7 +2019,6 @@ KPI数据（本季度 vs 上季度 vs 计划）：
 
 :::
 
-
 ## 13. AI菜单成本分析器
 
 > 计算每道菜品的食材成本占比——建议价格调整和替代方案以达到30%毛利目标。
@@ -4472,7 +4471,6 @@ COCO 的 AI 财务叙事报告生成器将定量财务分析转化为适合董�
 - **董事会提问量**：主动解释差异因果关系的构建良好叙事，将后续董事会提问估计减少 40-50%
 - **分析师时间重新分配**：使用叙事生成工具的财务团队报告将节省时间的 60-70% 重新导向更高价值的预测和情景分析工作
 
-
 **受益角色**
 
 - **FP&A 团队**：在数小时而非数天内产出完整的叙事草稿，在截止日期前实现更多修订轮次，而非仓促完成最终草稿
@@ -4719,7 +4717,6 @@ COCO 的 AI 并购目标筛选顾问为初步目标分析、战略契合度评�
 - **早期预警捕获率**：系统性清单应用在筛选阶段捕获的高频预警信号估计比临时分析多 60-70%
 - **尽职调查效率**：来自筛选分析的预构建尽职调查问题集将早期尽职调查准备时间减少约 40%
 
-
 **受益角色**
 
 - **企业发展团队**：以更高严谨性筛选更大的目标宇宙，更快识别战略价值最高的候选人，并向领导层提交准备更充分的交易简报
@@ -4954,7 +4951,6 @@ COCO 的 AI 费用政策合规审计员对所有费用提交应用系统性的�
 - **合规改善率**：实施系统性费用审计和行为反馈循环的组织报告，在 6 个月内员工合规率提高 28-35%
 - **审计准备时间**：具有完整审计追踪的结构化合规报告将外部审计费用测试准备时间估计减少 60%
 
-
 **受益角色**
 
 - **财务和应付账款团队**：以 AI 预筛选取代令人精疲力竭的手动审查，将人工审查时间集中在真正模糊的案例上，而非干净的报告
@@ -5183,7 +5179,6 @@ COCO 的 AI 应付账款工作流优化器将应付账款运营从顺序的、�
 - **审批周期时间**：具有自动升级的结构化审批工作流将平均审批周期时间从 8-12 天缩短至 2-3 天
 - **重复付款预防**：系统性供应商对账单调和防止估计 0.1-0.3% 的发票量被重复支付——在高发票量下金额重大
 
-
 **受益角色**
 
 - **应付账款团队**：以异常为中心的工作流取代手动追逐和匹配，使同等团队能够处理显著更高的发票量而不需要成比例的人员增长
@@ -5371,18 +5366,9 @@ COCO 的 AI 应付账款工作流优化器将应付账款运营从顺序的、�
 
 :::
 
-
 ## 32. AI财务报告叙述生成器
 
 > 在金融服务领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/411-ai-financial-report-narrative-generator.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -5555,14 +5541,6 @@ COCO 的 AI 应付账款工作流优化器将应付账款运营从顺序的、�
 
 > 在金融服务领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/440-ai-finance-budget-variance-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：财务预算差异分析器面临的挑战**
@@ -5733,14 +5711,6 @@ COCO 的 AI 应付账款工作流优化器将应付账款运营从顺序的、�
 ## 34. AI财务ESG信息披露报告撰写器
 
 > 在金融服务领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/453-ai-finance-esg-disclosure-report-writer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -5913,14 +5883,6 @@ COCO 的 AI 应付账款工作流优化器将应付账款运营从顺序的、�
 
 > 在金融服务领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/483-ai-finance-cash-flow-scenario-modeler.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：财务现金流情景建模器面临的挑战**
@@ -6091,14 +6053,6 @@ COCO 的 AI 应付账款工作流优化器将应付账款运营从顺序的、�
 ## 36. AI财务应付账款对账引擎
 
 > 在金融服务领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/500-ai-finance-accounts-payable-reconciliation.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -6271,14 +6225,6 @@ COCO 的 AI 应付账款工作流优化器将应付账款运营从顺序的、�
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/534-ai-finance-merger-acquisition-due-diligence.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：并购财务尽职调查助手面临的挑战**
@@ -6449,14 +6395,6 @@ COCO 的 AI 应付账款工作流优化器将应付账款运营从顺序的、�
 ## 38. AI财务税项拨备分析器
 
 > 在金融服务领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/553-ai-finance-tax-provision-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -6629,14 +6567,6 @@ COCO 的 AI 应付账款工作流优化器将应付账款运营从顺序的、�
 
 > 在政府领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/561-ai-government-budget-justification-writer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：政府预算说明撰写器面临的挑战**
@@ -6808,14 +6738,6 @@ COCO 的 AI 应付账款工作流优化器将应付账款运营从顺序的、�
 
 > 在制造业领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/573-ai-finance-working-capital-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：营运资本优化顾问面临的挑战**
@@ -6986,14 +6908,6 @@ COCO 的 AI 应付账款工作流优化器将应付账款运营从顺序的、�
 ## 41. AI投资者关系报告撰写器
 
 > 在金融服务领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/592-ai-finance-investor-relations-report-writer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 

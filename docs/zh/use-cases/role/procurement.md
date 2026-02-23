@@ -636,14 +636,6 @@ COCO的AI采购竞标评估器直接集成到你现有的工作流程中，充�
 
 > 在制造业领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/414-ai-procurement-vendor-scorecard-builder.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：采购供应商评分卡构建器面临的挑战**
@@ -814,14 +806,6 @@ COCO的AI采购竞标评估器直接集成到你现有的工作流程中，充�
 ## 7. AI运营供应商合同谈判准备工具
 
 > 在制造业领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/457-ai-operations-vendor-contract-negotiation-prep.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -994,14 +978,6 @@ COCO的AI采购竞标评估器直接集成到你现有的工作流程中，充�
 
 > 在制造业领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/476-ai-procurement-rfp-response-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：采购招标响应优化器面临的挑战**
@@ -1172,14 +1148,6 @@ COCO的AI采购竞标评估器直接集成到你现有的工作流程中，充�
 ## 9. AI采购支出分析引擎
 
 > 在制造业领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/527-ai-procurement-spend-analysis-engine.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1352,14 +1320,6 @@ COCO的AI采购竞标评估器直接集成到你现有的工作流程中，充�
 
 > 在政府领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/563-ai-procurement-supplier-diversity-tracker.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：供应商多元化项目追踪器面临的挑战**
@@ -1530,14 +1490,6 @@ COCO的AI采购竞标评估器直接集成到你现有的工作流程中，充�
 ## 11. AI电信合同谈判优化器
 
 > 在电信领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/600-ai-telecom-contract-negotiation-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 

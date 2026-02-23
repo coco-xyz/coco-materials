@@ -2279,7 +2279,6 @@ COCO 将劳动力规划从被动的预算练习转变为结构化的分析能力
 - **招聘周期改善**：由于更好的需求可见性使招聘计划提前 60 天以上启动，平均招聘周期缩短 28 天
 - **承包商成本降低**：主动劳动力规划将紧急承包商支出估计减少 35%，因为技能缺口在项目开始前已被识别并填补
 
-
 **受益角色**
 
 - **HR 业务伙伴和 HR 总监**：负责将业务战略转化为劳动力计划，需要在没有专职劳动力分析人员的情况下严谨地完成工作
@@ -2433,7 +2432,6 @@ COCO 帮助人才招募团队建设真正的主动管道——承担管道建设
 - **外联响应率**：个性化 AI 起草的外联信息比标准招聘模板获得高 2-3 倍的响应率（行业平均 15-25% vs. 标准 5-10%）
 - **招聘人员带宽**：使用 COCO 进行管道研究和起草的招聘团队报告每周节省 6-8 小时此前用于手动招聘工作的时间
 
-
 **受益角色**
 
 - **人才招募领导者和招聘经理**：对招聘周期指标负责，需要系统化方法超前于需求，而非永远追赶
@@ -2576,7 +2574,6 @@ COCO 将 DEI 数据转化为可操作的洞察——提供将 DEI 报告从合�
 - **干预针对性**：精准针对的干预在 2 年测量期内的代表性改善率比通用 DEI 计划高 2-3 倍
 - **报告质量**：COCO 辅助生成的 DEI 报告从高管和董事会审阅者处获得 40% 更高的利益相关者满意度评分
 - **统计信心**：统计检验消除了估计 30-40% 本应由噪音而非真实信号触发的拟议 DEI 干预措施
-
 
 **受益角色**
 
@@ -2739,7 +2736,6 @@ COCO 帮助 HR 团队分析其数据中已经存在的留存信号——建立�
 - **经理干预回报率**：HR 业务伙伴对被标记的高风险经理进行干预，在 6 个月内平均将团队流失率降低 28%
 - **薪酬留存提升**：主动解决被留存标记员工的低于市场薪酬问题，在调整后 12 个月内将离职概率降低 40%
 
-
 **受益角色**
 
 - **HR 业务伙伴**：负责业务单元留存健康，需要结构化风险评估来指导与经理和领导层的对话
@@ -2892,7 +2888,6 @@ COCO 帮助 HR 团队管理福利管理的沟通、文档和分析复杂性—�
 - **COBRA 合规率**：结构化的 COBRA 管理跟踪在实施第一年内将延迟或不完整通知事件减少 60%
 - **生活事件处理时间**：文档化、检查清单化的生活事件工作流将平均处理时间从 5-7 个工作日减少至 2-3 个工作日
 - **福利满意度评分**：改善福利沟通清晰度的组织在标准脉冲调查中看到员工福利满意度评分提升 18-25 分
-
 
 **受益角色**
 
@@ -3048,7 +3043,6 @@ COCO 帮助 HR 和领导团队建立超越名字列表的继任计划——提�
 - **内部晋升率**：拥有有效继任计划的组织从内部填补 65% 的高级领导职位空缺，而没有主动继任规划的组织这一比例仅为 35%
 - **领导层交接成本**：当包含所有搜寻、入职和生产力提升成本时，内部继任交接的成本平均比同等外部搜寻低 40%
 - **董事会信心**：向董事会呈报结构化继任计划的组织报告，董事对领导力梯队深度评估的满意度评分明显更高
-
 
 **受益角色**
 
@@ -3207,7 +3201,6 @@ COCO 弥合 HR 数据与业务洞察之间的差距——接受来自 HR 仪表�
 - **董事会参与度**：带有叙事 HR 部分的董事会材料产生 40% 更多的董事会成员问题和讨论，表明与仅数据表格格式相比参与度更高
 - **HR 感知战略价值**：转向叙事 HR 报告的组织，在 12 个月内看到来自业务领导者的 HR 职能满意度评分平均提升 22 分
 
-
 **受益角色**
 
 - **HR 业务伙伴**：在季度业务审查、领导团队会议和临时分析中向业务领导者呈报劳动力数据——需要将 HR 数字转化为业务伙伴认为可信且可操作的业务语言
@@ -3330,18 +3323,9 @@ COCO 弥合 HR 数据与业务洞察之间的差距——接受来自 HR 仪表�
 
 :::
 
-
 ## 29. AI员工入职体验设计师
 
 > 企业花费4000-7000美元招募并录用一名员工，却提供了一个不断让他们失败的入职体验
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/409-ai-employee-onboarding-experience-designer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3508,14 +3492,6 @@ COCO 弥合 HR 数据与业务洞察之间的差距——接受来自 HR 仪表�
 ## 30. AI人力资源薪酬基准测算引擎
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/424-ai-hr-compensation-benchmarking-engine.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3688,14 +3664,6 @@ COCO 弥合 HR 数据与业务洞察之间的差距——接受来自 HR 仪表�
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/437-ai-hr-performance-review-writer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：人力资源绩效评估撰写器面临的挑战**
@@ -3866,14 +3834,6 @@ COCO 弥合 HR 数据与业务洞察之间的差距——接受来自 HR 仪表�
 ## 32. AI人力资源员工敬业度脉搏分析器
 
 > 在医疗健康领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/456-ai-hr-employee-engagement-pulse-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -4046,14 +4006,6 @@ COCO 弥合 HR 数据与业务洞察之间的差距——接受来自 HR 仪表�
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/486-ai-hr-job-description-writer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：人力资源职位描述优化撰写器面临的挑战**
@@ -4224,14 +4176,6 @@ COCO 弥合 HR 数据与业务洞察之间的差距——接受来自 HR 仪表�
 ## 34. AI人力资源培训需求评估引擎
 
 > 在教育领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/506-ai-hr-training-needs-assessment-engine.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -4404,14 +4348,6 @@ COCO 弥合 HR 数据与业务洞察之间的差距——接受来自 HR 仪表�
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/525-ai-hr-recruitment-pipeline-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：人力资源招聘管道优化器面临的挑战**
@@ -4582,14 +4518,6 @@ COCO 弥合 HR 数据与业务洞察之间的差距——接受来自 HR 仪表�
 ## 36. AI人力资源继任计划顾问
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/541-ai-hr-succession-planning-advisor.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -4762,14 +4690,6 @@ COCO 弥合 HR 数据与业务洞察之间的差距——接受来自 HR 仪表�
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/558-ai-hr-organizational-design-advisor.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：人力资源组织设计顾问面临的挑战**
@@ -4941,14 +4861,6 @@ COCO 弥合 HR 数据与业务洞察之间的差距——接受来自 HR 仪表�
 
 > 在制造业领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/586-ai-hr-workforce-planning-scenario-modeler.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：劳动力规划情景建模器面临的挑战**
@@ -5119,14 +5031,6 @@ COCO 弥合 HR 数据与业务洞察之间的差距——接受来自 HR 仪表�
 ## 39. AI离职面谈洞察分析器
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/601-ai-hr-exit-interview-insights-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 

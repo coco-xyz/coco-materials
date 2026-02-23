@@ -6,14 +6,6 @@ AI-powered use cases for writer professionals.
 
 > Organizations operating in E-Commerce face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/415-ai-ecommerce-product-description-scaler.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: E-Commerce Product Description Scaler**
@@ -209,14 +201,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 2. AI Nonprofit Grant Writing Accelerator
 
 > Organizations operating in Nonprofit face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/427-ai-nonprofit-grant-writing-accelerator.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -414,14 +398,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/474-ai-writer-technical-documentation-planner.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Technical Documentation Disorganization**
@@ -617,14 +593,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 4. AI White Paper Research Compiler
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/497-ai-writer-white-paper-research-compiler.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -822,14 +790,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Media face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/526-ai-writer-press-release-generator.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Press Release Gaps**
@@ -1025,14 +985,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 6. AI Nonprofit Impact Report Writer
 
 > Organizations operating in Nonprofit face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/545-ai-nonprofit-impact-report-writer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1230,14 +1182,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Media face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/564-ai-writer-social-media-content-calendar.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Social Media Content Calendar Disorganization**
@@ -1433,14 +1377,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 8. AI Thought Leadership Article Builder
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/584-ai-writer-thought-leadership-article-builder.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

@@ -3281,7 +3281,6 @@ This week's data:
 
 :::
 
-
 ## 22. AI Technical Debt Prioritizer
 
 > Identify which technical debt actually costs your team — teams targeting COCO's top-priority debt items achieve 3× more velocity improvement per engineering-hour than random refactoring.
@@ -8009,14 +8008,6 @@ Please create:
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/425-ai-developer-code-review-quality-auditor.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Developer Code Review Quality Auditor**
@@ -8212,14 +8203,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 48. AI Developer API Documentation Generator
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/439-ai-developer-api-documentation-generator.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -8417,14 +8400,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/454-ai-developer-security-vulnerability-scanner.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Developer Security Vulnerability Scanner**
@@ -8620,14 +8595,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 50. AI Developer Automated Test Case Generator
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/484-ai-developer-test-case-generator.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -8825,14 +8792,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/524-ai-developer-legacy-code-modernization-guide.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Legacy Code Modernization Guide**
@@ -9028,14 +8987,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 52. AI Database Query Performance Optimizer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/554-ai-developer-database-query-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -9233,14 +9184,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/574-ai-developer-microservices-migration-planner.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Microservices Migration Disorganization**
@@ -9436,14 +9379,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 54. AI Open Source Dependency Security Auditor
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/593-ai-developer-open-source-dependency-auditor.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

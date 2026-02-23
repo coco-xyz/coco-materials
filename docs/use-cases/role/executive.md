@@ -3024,18 +3024,9 @@ Please draft:
 
 :::
 
-
 ## 17. AI Startup Investor Pitch Deck Advisor
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/416-ai-startup-investor-pitch-deck-advisor.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3233,14 +3224,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/445-ai-executive-board-meeting-prep-assistant.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Executive Board Meeting Prep Overhead**
@@ -3436,14 +3419,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 19. AI Hospitality Revenue Management Optimizer
 
 > Organizations operating in Hospitality face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/472-ai-hospitality-revenue-management-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3641,14 +3616,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/490-ai-executive-strategic-memo-writer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Executive Strategic Memo Writer**
@@ -3844,14 +3811,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 21. AI Executive Quarterly Business Review Prep
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/517-ai-executive-quarterly-business-review-prep.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4049,14 +4008,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/562-ai-executive-competitive-strategy-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Competitive Strategy Blind Spots**
@@ -4252,14 +4203,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 23. AI Annual Strategy Narrative Builder
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/604-ai-executive-annual-strategy-narrative-builder.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

@@ -6,14 +6,6 @@ AI-powered use cases for researcher professionals.
 
 > Organizations operating in Education face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/422-ai-academic-research-literature-synthesizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Academic Research Literature Synthesizer**
@@ -209,14 +201,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 2. AI Clinical Trial Protocol Reviewer
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/458-ai-researcher-clinical-trial-protocol-reviewer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -414,14 +398,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/489-ai-researcher-patent-landscape-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Research Patent Landscape Blind Spots**
@@ -617,14 +593,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 4. AI Agriculture Soil Health Analyzer
 
 > Organizations operating in Agriculture face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/501-ai-agriculture-soil-health-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -822,14 +790,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Government face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/521-ai-government-policy-impact-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Government Policy Impact Blind Spots**
@@ -1025,14 +985,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 6. AI Survey Design and Analysis Optimizer
 
 > Organizations operating in Education face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/540-ai-researcher-survey-design-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1230,14 +1182,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Agriculture face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/560-ai-agriculture-pest-disease-detector.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Agriculture Pest and Disease Detection Guesswork**
@@ -1434,14 +1378,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Nonprofit face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/581-ai-nonprofit-program-evaluation-report.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Nonprofit Program Evaluation Report Gaps**
@@ -1637,14 +1573,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 9. AI Systematic Literature Review Assistant
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/605-ai-researcher-systematic-review-assistant.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

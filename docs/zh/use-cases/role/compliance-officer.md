@@ -888,14 +888,6 @@ COCO的AI ESG披露撰写器直接集成到你现有的工作流程中，充当�
 
 > 在保险领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/421-ai-insurance-claims-adjudication-assistant.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：保险理赔裁定助手面临的挑战**
@@ -1066,14 +1058,6 @@ COCO的AI ESG披露撰写器直接集成到你现有的工作流程中，充当�
 ## 9. AI建筑许可合规追踪器
 
 > 在房地产领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/436-ai-construction-permit-compliance-tracker.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1246,14 +1230,6 @@ COCO的AI ESG披露撰写器直接集成到你现有的工作流程中，充当�
 
 > 在保险领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/475-ai-insurance-fraud-detection-alert-system.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：保险欺诈检测预警系统面临的挑战**
@@ -1424,14 +1400,6 @@ COCO的AI ESG披露撰写器直接集成到你现有的工作流程中，充当�
 ## 11. AI合规官审计跟踪构建器
 
 > 在金融服务领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/493-ai-compliance-officer-audit-trail-builder.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1604,14 +1572,6 @@ COCO的AI ESG披露撰写器直接集成到你现有的工作流程中，充当�
 
 > 在医疗健康领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/499-ai-healthcare-coding-accuracy-auditor.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：医疗编码准确性审计器面临的挑战**
@@ -1782,14 +1742,6 @@ COCO的AI ESG披露撰写器直接集成到你现有的工作流程中，充当�
 ## 13. AI财务监管申报助手
 
 > 在金融服务领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/520-ai-finance-regulatory-filing-assistant.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1962,14 +1914,6 @@ COCO的AI ESG披露撰写器直接集成到你现有的工作流程中，充当�
 
 > 在法律服务领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/572-ai-legal-regulatory-change-impact-tracker.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：监管变化影响追踪器面临的挑战**
@@ -2140,14 +2084,6 @@ COCO的AI ESG披露撰写器直接集成到你现有的工作流程中，充当�
 ## 15. AI ISO审核准备助手
 
 > 在制造业领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/599-ai-manufacturing-iso-audit-preparation-assistant.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 

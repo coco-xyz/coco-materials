@@ -2248,7 +2248,6 @@ For each scenario, provide:
 
 :::
 
-
 ## 14. AI Service Ticket Predictor
 
 > Analyzes network alerts and customer complaint patterns — predicts ticket surges 6 hours early so support can staff up.
@@ -4945,14 +4944,6 @@ Please produce a negotiation strategy brief:
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/410-ai-healthcare-patient-intake-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Healthcare Patient Intake Inefficiency**
@@ -5148,14 +5139,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 33. AI Customer Support Ticket Triage System
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/419-ai-customer-support-ticket-triage-system.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -5353,14 +5336,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/450-ai-healthcare-medication-adherence-coach.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Healthcare Medication Adherence Coach**
@@ -5556,14 +5531,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 35. AI Healthcare Discharge Summary Generator
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/478-ai-healthcare-discharge-summary-generator.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -5761,14 +5728,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Telecommunications face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/502-ai-telecom-customer-complaint-classifier.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Telecom Customer Complaint Classifier**
@@ -5964,14 +5923,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 37. AI Healthcare Claims Denial Appeal Writer
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/530-ai-healthcare-claims-denial-appeal-writer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -6169,14 +6120,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/550-ai-healthcare-nurse-handoff-report-generator.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Nurse Handoff Report Gaps**
@@ -6373,14 +6316,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/571-ai-healthcare-telemedicine-intake-screener.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Telemedicine Patient Intake Screener**
@@ -6576,14 +6511,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 40. AI Healthcare Insurance Prior Authorization Assistant
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/590-ai-healthcare-insurance-prior-auth-assistant.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

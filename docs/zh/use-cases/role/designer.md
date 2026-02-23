@@ -6,12 +6,6 @@ AI 赋能设计师与创意从业者的使用案例。
 
 > 将品牌合规审计周期从 3 周压缩至 4 小时，自动捕获 97% 以上的违规问题。
 
-::: details 🎬 观看演示视频
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/406-ai-brand-asset-consistency-auditor.mp4" type="video/mp4">
-</video>
-:::
-
 ::: details 痛点与解决方案
 ## 详细介绍
 

@@ -258,14 +258,6 @@ COCO的AI太阳能板性能监控器直接集成到你现有的工作流程中�
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/412-ai-software-incident-postmortem-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：软件事故复盘分析器面临的挑战**
@@ -436,14 +428,6 @@ COCO的AI太阳能板性能监控器直接集成到你现有的工作流程中�
 ## 4. AI能源消耗异常检测器
 
 > 在能源领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/432-ai-energy-consumption-anomaly-detector.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -616,14 +600,6 @@ COCO的AI太阳能板性能监控器直接集成到你现有的工作流程中�
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/462-ai-devops-release-notes-auto-generator.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：DevOps版本发布说明自动生成器面临的挑战**
@@ -794,14 +770,6 @@ COCO的AI太阳能板性能监控器直接集成到你现有的工作流程中�
 ## 6. AI电信网络故障根因分析器
 
 > 在电信领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/473-ai-telecom-network-outage-root-cause-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -974,14 +942,6 @@ COCO的AI太阳能板性能监控器直接集成到你现有的工作流程中�
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/496-ai-devops-infrastructure-cost-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：DevOps基础设施成本优化器面临的挑战**
@@ -1152,14 +1112,6 @@ COCO的AI太阳能板性能监控器直接集成到你现有的工作流程中�
 ## 8. AI DevOps部署管道优化器
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/508-ai-devops-deployment-pipeline-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1332,14 +1284,6 @@ COCO的AI太阳能板性能监控器直接集成到你现有的工作流程中�
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/535-ai-devops-kubernetes-cost-rightsizing-advisor.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：Kubernetes集群成本调优顾问面临的挑战**
@@ -1511,14 +1455,6 @@ COCO的AI太阳能板性能监控器直接集成到你现有的工作流程中�
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/559-ai-devops-on-call-runbook-generator.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：值班操作手册生成器面临的挑战**
@@ -1689,14 +1625,6 @@ COCO的AI太阳能板性能监控器直接集成到你现有的工作流程中�
 ## 11. AI安全补丁管理顾问
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/580-ai-devops-security-patch-management-advisor.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 

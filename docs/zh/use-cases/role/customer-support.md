@@ -2136,7 +2136,6 @@ COCO的AI客户健康评分器用全面的预测系统替代简单的手动健�
 
 :::
 
-
 ## 14. AI工单预测器
 
 > 分析网络告警和客户投诉模式——提前6小时预测工单高峰以便客服增加人手。
@@ -2526,7 +2525,6 @@ COCO 帮助 CS 团队系统性地分析客户旅程数据——综合不同数�
 - **干预针对性效率**：使用旅程模式数据优先主动外联的 CS 团队，与基于直觉的优先排序相比，报告干预成功率提高 2 倍
 - **毛收入留存率**：实施系统性旅程监控的组织在 12-18 个月内毛收入留存率平均提升 6-8 个百分点
 
-
 **受益角色**
 
 - **客户成功经理**：管理 20-50 个客户，需要一种系统化方法来了解每个客户的旅程健康状况，而无需在多个系统中手动编制全貌
@@ -2699,7 +2697,6 @@ COCO 压缩案例研究生产周期——使 CS 团队能够将客户成功数�
 - **客户批准率**：使用 COCO 生成的审批就绪草稿达到 85% 的首稿批准率，vs. 传统方式产生的草稿的 40-50%
 - **库覆盖率**：通过 CS 团队系统化案例研究生产的组织每年平均填补 4-6 个关键垂直行业或用例库缺口
 
-
 **受益角色**
 
 - **客户成功经理**：拥有产生案例研究所需的客户关系和成果数据访问权，但缺乏将这些输入转化为可发布资产的内容制作技能和时间
@@ -2869,7 +2866,6 @@ COCO 使 CS 团队能够大规模监控采用情况、识别每个账户中的�
 - **采用改善带来的续约提升**：在续约前 6 个月功能采用广度增加 2 个以上功能的账户，与对照账户相比续约率高 28%
 - **CSM 时间效率**：COCO 辅助的采用活动设计和外联起草将每账户赋能工作量减少 60%，使 CSM 能够同时在 3 倍以上的账户上运行采用干预
 
-
 **受益角色**
 
 - **拥有中到大型账户组合的客户成功经理**：需要大规模进行主动采用干预，同时不牺牲使这些干预有效的个性化
@@ -3035,7 +3031,6 @@ COCO 创建一个有效运作的反馈循环——帮助 CS 团队系统性地�
 - **客户留存影响**：当反馈产生产品行动时收到特定"闭环"沟通的账户，与具有相同反馈历史但没有闭环沟通的账户相比续约率高 35%
 - **产品路线图质量**：收到结构化、按量加权反馈摘要的 PM 团队，将其客户输入信息质量评级比收到非结构化 CSM 到 PM 沟通的团队高 67%
 - **确认速度**：COCO 起草的确认邮件将从反馈接收到客户确认的平均时间从 5-7 天减少到当天或次日
-
 
 **受益角色**
 
@@ -3215,7 +3210,6 @@ COCO 帮助 CS 团队主动管理 SLA 合规——监控承诺、在违约变成
 - **事后报告完成率**：拥有结构化事后报告流程的组织为 94% 的符合条件事故完成报告，vs. 没有结构化流程的团队的 35% 完成率
 - **信用索赔纠纷**：在客户索赔之前主动提供信用，与等待客户发起信用请求的组织相比，将信用纠纷事件减少 78%
 - **SLA 驱动的流失减少**：在事故期间收到主动 SLA 管理沟通的账户，续约时的流失率比事故期间没有收到主动沟通的账户低 22%
-
 
 **受益角色**
 
@@ -3402,7 +3396,6 @@ COCO 帮助 CS 领导者建立多维度细分模型，准确反映每个账户�
 - **CSM 满意度**：管理按复杂性加权细分平衡的客户组合的 CSM，与管理不平衡客户组合（复杂账户过多或低参与度账户过多）的 CSM 相比，工作满意度高 28%
 - **净收入留存改善**：实施结构化细分和覆盖模型对齐的组织在 18 个月内净收入留存平均提升 8-12 个百分点
 
-
 **受益角色**
 
 - **客户成功副总裁和总监**：正在设计或重新设计 CS 覆盖模型，需要数据驱动的框架来做出可以向领导层辩护且将资源与成果对齐的细分决策
@@ -3588,7 +3581,6 @@ COCO 帮助 CS 经理建立全面的续约准备材料，将谈判对话从防�
 - **续约准备时间**：COCO 辅助的续约材料准备将单次续约准备所需时间从 3-4 小时减少到 45-60 分钟
 - **客户对续约流程的满意度**：续约由拥有全面账户健康文档的 CSM 主导的客户，对续约体验的评价比 CSM 以最少准备进入对话的客户高 31%
 
-
 **受益角色**
 
 - **拥有续约关系的客户成功经理**：需要带着全面的、基于证据的准备进入续约对话，使他们能够从展示价值而非防御性不确定性的立场进行谈判
@@ -3734,18 +3726,9 @@ COCO 帮助 CS 经理建立全面的续约准备材料，将谈判对话从防�
 
 :::
 
-
 ## 32. AI医疗患者接诊流程优化器
 
 > 在医疗健康领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/410-ai-healthcare-patient-intake-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3918,14 +3901,6 @@ COCO 帮助 CS 经理建立全面的续约准备材料，将谈判对话从防�
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/419-ai-customer-support-ticket-triage-system.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：客服工单智能分流系统面临的挑战**
@@ -4096,14 +4071,6 @@ COCO 帮助 CS 经理建立全面的续约准备材料，将谈判对话从防�
 ## 34. AI医疗用药依从性辅导系统
 
 > 在医疗健康领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/450-ai-healthcare-medication-adherence-coach.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -4276,14 +4243,6 @@ COCO 帮助 CS 经理建立全面的续约准备材料，将谈判对话从防�
 
 > 在医疗健康领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/478-ai-healthcare-discharge-summary-generator.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：医疗出院摘要生成器面临的挑战**
@@ -4454,14 +4413,6 @@ COCO 帮助 CS 经理建立全面的续约准备材料，将谈判对话从防�
 ## 36. AI电信客户投诉分类器
 
 > 在电信领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/502-ai-telecom-customer-complaint-classifier.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -4634,14 +4585,6 @@ COCO 帮助 CS 经理建立全面的续约准备材料，将谈判对话从防�
 
 > 在医疗健康领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/530-ai-healthcare-claims-denial-appeal-writer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：医疗拒赔申诉撰写器面临的挑战**
@@ -4812,14 +4755,6 @@ COCO 帮助 CS 经理建立全面的续约准备材料，将谈判对话从防�
 ## 38. AI护士交接班报告生成器
 
 > 在医疗健康领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/550-ai-healthcare-nurse-handoff-report-generator.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -4992,14 +4927,6 @@ COCO 帮助 CS 经理建立全面的续约准备材料，将谈判对话从防�
 
 > 在医疗健康领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/571-ai-healthcare-telemedicine-intake-screener.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：远程医疗患者接诊筛查器面临的挑战**
@@ -5170,14 +5097,6 @@ COCO 帮助 CS 经理建立全面的续约准备材料，将谈判对话从防�
 ## 40. AI医疗保险预授权助手
 
 > 在医疗健康领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/590-ai-healthcare-insurance-prior-auth-assistant.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 

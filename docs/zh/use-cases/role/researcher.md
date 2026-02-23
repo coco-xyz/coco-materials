@@ -6,14 +6,6 @@ AI驱动的研究员专业人员用例。
 
 > 在教育领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/422-ai-academic-research-literature-synthesizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：学术研究文献综合器面临的挑战**
@@ -184,14 +176,6 @@ AI驱动的研究员专业人员用例。
 ## 2. AI临床试验方案审查器
 
 > 在医疗健康领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/458-ai-researcher-clinical-trial-protocol-reviewer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -364,14 +348,6 @@ AI驱动的研究员专业人员用例。
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/489-ai-researcher-patent-landscape-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：专利格局分析器面临的挑战**
@@ -542,14 +518,6 @@ AI驱动的研究员专业人员用例。
 ## 4. AI农业土壤健康分析器
 
 > 在农业领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/501-ai-agriculture-soil-health-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -722,14 +690,6 @@ AI驱动的研究员专业人员用例。
 
 > 在政府领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/521-ai-government-policy-impact-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：政府政策影响分析器面临的挑战**
@@ -900,14 +860,6 @@ AI驱动的研究员专业人员用例。
 ## 6. AI调研设计与分析优化器
 
 > 在教育领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/540-ai-researcher-survey-design-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1080,14 +1032,6 @@ AI驱动的研究员专业人员用例。
 
 > 在农业领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/560-ai-agriculture-pest-disease-detector.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：农业病虫害检测顾问面临的挑战**
@@ -1259,14 +1203,6 @@ AI驱动的研究员专业人员用例。
 
 > 在非营利组织领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/581-ai-nonprofit-program-evaluation-report.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：非营利项目评估报告生成器面临的挑战**
@@ -1437,14 +1373,6 @@ AI驱动的研究员专业人员用例。
 ## 9. AI系统性文献综述助手
 
 > 在医疗健康领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/605-ai-researcher-systematic-review-assistant.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 

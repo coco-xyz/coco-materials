@@ -6,14 +6,6 @@ AI驱动的技术负责人专业人员用例。
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/446-ai-tech-lead-architecture-decision-advisor.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：技术负责人架构决策顾问面临的挑战**
@@ -184,14 +176,6 @@ AI驱动的技术负责人专业人员用例。
 ## 2. AI技术负责人团队效率优化器
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/466-ai-tech-lead-team-velocity-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -364,14 +348,6 @@ AI驱动的技术负责人专业人员用例。
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/516-ai-tech-lead-technical-debt-prioritizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：技术负责人技术债务优先级排序器面临的挑战**
@@ -542,14 +518,6 @@ AI驱动的技术负责人专业人员用例。
 ## 4. AI系统设计评审助手
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/542-ai-tech-lead-system-design-review-assistant.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -722,14 +690,6 @@ AI驱动的技术负责人专业人员用例。
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/569-ai-tech-lead-code-refactoring-advisor.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：代码重构策略顾问面临的挑战**
@@ -901,14 +861,6 @@ AI驱动的技术负责人专业人员用例。
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/585-ai-tech-lead-sprint-retrospective-facilitator.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：冲刺回顾会议促进器面临的挑战**
@@ -1079,14 +1031,6 @@ AI驱动的技术负责人专业人员用例。
 ## 7. AI工程师招聘评分标准构建器
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/602-ai-tech-lead-engineering-hiring-rubric-builder.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 

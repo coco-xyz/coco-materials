@@ -3318,14 +3318,6 @@ Estimated value impact of proposed changes vs. current terms: [CALCULATE]
 
 > Organizations operating in Legal Services face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/413-ai-legal-contract-risk-extractor.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Legal Contract Risk Extractor**
@@ -3521,14 +3513,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 27. AI Government FOIA Response Assistant
 
 > Organizations operating in Government face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/430-ai-government-foia-response-assistant.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3726,14 +3710,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Media face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/434-ai-media-content-rights-clearance-assistant.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Media Content Rights Clearance Overhead**
@@ -3929,14 +3905,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 29. AI Legal Due Diligence Document Scanner
 
 > Organizations operating in Legal Services face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/451-ai-legal-due-diligence-document-scanner.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4134,14 +4102,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Real Estate face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/465-ai-real-estate-lease-abstraction-engine.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Real Estate Lease Abstraction Failures**
@@ -4337,14 +4297,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 31. AI Legal IP Trademark Search Assistant
 
 > Organizations operating in Legal Services face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/481-ai-legal-ip-trademark-search-assistant.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4542,14 +4494,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Legal Services face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/504-ai-legal-litigation-timeline-builder.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Legal Litigation Timeline Manual Effort**
@@ -4745,14 +4689,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 33. AI Real Estate Tenant Screening Assistant
 
 > Organizations operating in Real Estate face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/510-ai-real-estate-tenant-screening-assistant.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4950,14 +4886,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/532-ai-legal-employment-contract-drafter.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Employment Contract Drafting Overhead**
@@ -5154,14 +5082,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/551-ai-legal-nda-review-assistant.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: NDA Review and Redlining Overhead**
@@ -5357,14 +5277,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 36. AI Corporate Governance Compliance Advisor
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/591-ai-legal-corporate-governance-advisor.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

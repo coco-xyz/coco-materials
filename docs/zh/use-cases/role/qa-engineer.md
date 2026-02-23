@@ -384,14 +384,6 @@ COCO的AI无障碍合规检查器直接集成到你现有的工作流程中，�
 
 > 在制造业领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/417-ai-manufacturing-quality-defect-classifier.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：制造质量缺陷分类器面临的挑战**
@@ -562,14 +554,6 @@ COCO的AI无障碍合规检查器直接集成到你现有的工作流程中，�
 ## 5. AI汽车保修索赔分析器
 
 > 在汽车领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/433-ai-automotive-warranty-claims-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -742,14 +726,6 @@ COCO的AI无障碍合规检查器直接集成到你现有的工作流程中，�
 
 > 在汽车领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/463-ai-automotive-supply-chain-bom-validator.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：汽车供应链物料清单验证器面临的挑战**
@@ -921,14 +897,6 @@ COCO的AI无障碍合规检查器直接集成到你现有的工作流程中，�
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/491-ai-qa-engineer-test-coverage-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：质量工程师测试覆盖率分析器面临的挑战**
@@ -1099,14 +1067,6 @@ COCO的AI无障碍合规检查器直接集成到你现有的工作流程中，�
 ## 8. AI制造废料率降低顾问
 
 > 在制造业领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/552-ai-manufacturing-scrap-rate-reducer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 

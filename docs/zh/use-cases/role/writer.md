@@ -6,14 +6,6 @@ AI驱动的内容创作者专业人员用例。
 
 > 在电商领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/415-ai-ecommerce-product-description-scaler.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：电商产品描述规模化生成器面临的挑战**
@@ -184,14 +176,6 @@ AI驱动的内容创作者专业人员用例。
 ## 2. AI非营利组织基金申请加速器
 
 > 在非营利组织领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/427-ai-nonprofit-grant-writing-accelerator.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -364,14 +348,6 @@ AI驱动的内容创作者专业人员用例。
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/474-ai-writer-technical-documentation-planner.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：技术文档规划器面临的挑战**
@@ -542,14 +518,6 @@ AI驱动的内容创作者专业人员用例。
 ## 4. AI白皮书研究资料整合器
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/497-ai-writer-white-paper-research-compiler.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -722,14 +690,6 @@ AI驱动的内容创作者专业人员用例。
 
 > 在媒体领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/526-ai-writer-press-release-generator.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：新闻稿生成器面临的挑战**
@@ -900,14 +860,6 @@ AI驱动的内容创作者专业人员用例。
 ## 6. AI非营利组织影响力报告撰写器
 
 > 在非营利组织领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/545-ai-nonprofit-impact-report-writer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1080,14 +1032,6 @@ AI驱动的内容创作者专业人员用例。
 
 > 在媒体领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/564-ai-writer-social-media-content-calendar.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：社交媒体内容日历规划器面临的挑战**
@@ -1258,14 +1202,6 @@ AI驱动的内容创作者专业人员用例。
 ## 8. AI思想领导力文章构建器
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/584-ai-writer-thought-leadership-article-builder.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 

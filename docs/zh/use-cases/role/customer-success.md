@@ -6,14 +6,6 @@ AI驱动的客户成功经理专业人员用例。
 
 > 在酒店业领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/429-ai-hospitality-guest-experience-personalizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：酒店宾客体验个性化系统面临的挑战**
@@ -184,14 +176,6 @@ AI驱动的客户成功经理专业人员用例。
 ## 2. AI SaaS合同续签风险评分器
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/435-ai-saas-renewal-risk-scorer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -364,14 +348,6 @@ AI驱动的客户成功经理专业人员用例。
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/485-ai-customer-success-health-score-engine.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：客户成功健康评分引擎面临的挑战**
@@ -542,14 +518,6 @@ AI驱动的客户成功经理专业人员用例。
 ## 4. AI保险保单续期优化器
 
 > 在保险领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/515-ai-insurance-policy-renewal-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -722,14 +690,6 @@ AI驱动的客户成功经理专业人员用例。
 
 > 在保险领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/543-ai-insurance-policy-comparison-assistant.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：保险产品对比助手面临的挑战**
@@ -901,14 +861,6 @@ AI驱动的客户成功经理专业人员用例。
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/566-ai-customer-success-qbr-prep-engine.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：客户成功季度业务复盘准备引擎面临的挑战**
@@ -1079,14 +1031,6 @@ AI驱动的客户成功经理专业人员用例。
 ## 7. AI客户升级问题处理指南
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/587-ai-customer-success-escalation-handler.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 

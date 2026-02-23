@@ -1814,7 +1814,6 @@ COCO 的 AI 产品路线图优先级排序顾问提供系统性框架，将多�
 - **优先级排序一致性**：使用结构化框架时，跨周期路线图相关性提高 44%，减少每季度路线图完全重组的混乱
 - **工程产能浪费**：拥有系统性优先级排序流程的组织报告，发布后 12 个月内很少使用的功能比率降低 29%
 
-
 **受益角色**
 
 - **产品经理**：以结构化、可辩护的框架取代政治消耗，产生更好的决策并减少利益相关者管理开销
@@ -2034,7 +2033,6 @@ COCO 的 AI 客户反馈聚合器将碎片化的多渠道反馈转化为结构�
 - **优先级排序信号质量**：使用量化反馈信号的团队在 90 天功能采用率上比基于最响亮声音反馈排序的团队高 41%
 - **利益相关者对齐速度**：具有细分分析的预综合反馈数据将反馈到优先级讨论的时间缩短 65%
 - **收入相关性**：将反馈主题与客户细分留存数据相连接，能够识别出导致 80% 流失风险的 20% 痛点
-
 
 **受益角色**
 
@@ -2257,7 +2255,6 @@ COCO 的 AI PRD 撰写助手将从粗略想法到完整规格说明的 PRD 创�
 - **返工率**：指定了完整边缘案例和错误状态的功能显示实施后返工周期频率降低 38%
 - **规格完整性**：COCO 辅助的 PRD 一贯包含比无辅助产品经理撰写的规格说明多 6.2 倍的边缘案例场景
 - **团队一致性**：跨产品经理的 PRD 格式标准化使新工程团队成员的入职时间缩短 3-4 周
-
 
 **受益角色**
 
@@ -2500,7 +2497,6 @@ COCO 的 AI 定价策略顾问提供大多数 SaaS 产品经理所缺乏的系�
 - **收入捕获效率**：价值指标对齐的定价在相同客户满意度评分下，从现有客户捕获的收入估计多 40-80%
 - **定价决策速度**：结构化分析框架将大多数变更的定价决策周期从 3-4 个月缩短至 3-4 周
 
-
 **受益角色**
 
 - **产品经理**：以系统性框架而非仅凭竞争对手基准主导定价决策，产出可向销售和财务辩护的结果
@@ -2662,18 +2658,9 @@ COCO 的 AI 定价策略顾问提供大多数 SaaS 产品经理所缺乏的系�
 
 :::
 
-
 ## 15. AI产品经理迭代规划优化器
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/423-ai-pm-sprint-planning-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2846,14 +2833,6 @@ COCO 的 AI 定价策略顾问提供大多数 SaaS 产品经理所缺乏的系�
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/455-ai-pm-product-roadmap-prioritization-engine.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：产品路线图优先级排序引擎面临的挑战**
@@ -3024,14 +3003,6 @@ COCO 的 AI 定价策略顾问提供大多数 SaaS 产品经理所缺乏的系�
 ## 17. AI产品经理用户故事精化引擎
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/503-ai-pm-user-story-refinement-engine.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3204,14 +3175,6 @@ COCO 的 AI 定价策略顾问提供大多数 SaaS 产品经理所缺乏的系�
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/539-ai-pm-customer-feedback-synthesizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：产品经理客户反馈综合器面临的挑战**
@@ -3383,14 +3346,6 @@ COCO 的 AI 定价策略顾问提供大多数 SaaS 产品经理所缺乏的系�
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/557-ai-pm-feature-adoption-tracking-advisor.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：功能采用率追踪顾问面临的挑战**
@@ -3561,14 +3516,6 @@ COCO 的 AI 定价策略顾问提供大多数 SaaS 产品经理所缺乏的系�
 ## 20. AI发布准备清单构建器
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/577-ai-pm-release-readiness-checklist-builder.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 

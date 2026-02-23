@@ -6,14 +6,6 @@ AI驱动的数据科学家专业人员用例。
 
 > 在电信领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/428-ai-telecom-churn-prediction-modeler.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：电信客户流失预测建模器面临的挑战**
@@ -184,14 +176,6 @@ AI驱动的数据科学家专业人员用例。
 ## 2. AI农业作物产量预测器
 
 > 在农业领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/431-ai-agriculture-crop-yield-forecaster.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -364,14 +348,6 @@ AI驱动的数据科学家专业人员用例。
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/469-ai-data-scientist-feature-engineering-advisor.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：数据科学家特征工程顾问面临的挑战**
@@ -542,14 +518,6 @@ AI驱动的数据科学家专业人员用例。
 ## 4. AI数据科学家模型可解释性报告器
 
 > 在金融服务领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/494-ai-data-scientist-model-explainability-reporter.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -722,14 +690,6 @@ AI驱动的数据科学家专业人员用例。
 
 > 在医疗健康领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/519-ai-healthcare-patient-discharge-risk-scorer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：医疗患者再入院风险评分器面临的挑战**
@@ -900,14 +860,6 @@ AI驱动的数据科学家专业人员用例。
 ## 6. AI A/B测试设计与分析顾问
 
 > 在电商领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/531-ai-data-scientist-ab-test-design-advisor.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1080,14 +1032,6 @@ AI驱动的数据科学家专业人员用例。
 
 > 在金融服务领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/565-ai-data-scientist-time-series-forecast-advisor.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：时间序列预测顾问面临的挑战**
@@ -1258,14 +1202,6 @@ AI驱动的数据科学家专业人员用例。
 ## 8. AI精算数据摘要与分析引擎
 
 > 在保险领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/583-ai-insurance-actuarial-data-summarizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 

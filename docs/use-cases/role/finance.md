@@ -2019,7 +2019,6 @@ Each section should be self-contained (readable independently) but tell a consis
 
 :::
 
-
 ## 13. AI Menu Cost Analyzer
 
 > Calculates food cost percentage for every menu item — suggests price adjustments and substitutions to hit 30% margin targets.
@@ -5390,18 +5389,9 @@ Please design:
 
 :::
 
-
 ## 32. AI Financial Report Narrative Generator
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/411-ai-financial-report-narrative-generator.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -5599,14 +5589,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/440-ai-finance-budget-variance-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Finance Budget Variance Blind Spots**
@@ -5802,14 +5784,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 34. AI Finance ESG Disclosure Report Writer
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/453-ai-finance-esg-disclosure-report-writer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -6007,14 +5981,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/483-ai-finance-cash-flow-scenario-modeler.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Finance Cash Flow Scenario Modeler**
@@ -6210,14 +6176,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 36. AI Finance Accounts Payable Reconciliation Engine
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/500-ai-finance-accounts-payable-reconciliation.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -6415,14 +6373,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/534-ai-finance-merger-acquisition-due-diligence.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: M&A Financial Due Diligence Overhead**
@@ -6618,14 +6568,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 38. AI Finance Tax Provision Analyzer
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/553-ai-finance-tax-provision-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -6823,14 +6765,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Government face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/561-ai-government-budget-justification-writer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Government Budget Justification Writer**
@@ -7027,14 +6961,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/573-ai-finance-working-capital-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Working Capital Optimization Guesswork**
@@ -7230,14 +7156,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 41. AI Investor Relations Report Writer
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/592-ai-finance-investor-relations-report-writer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

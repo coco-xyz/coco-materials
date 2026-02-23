@@ -3588,7 +3588,6 @@ RFP表现数据（过去12个月）：
 
 :::
 
-
 ## 23. AI患者入院处理器
 
 > 90秒数字化患者入院表——将人口统计、保险信息和病史自动录入电子病历系统。
@@ -6096,7 +6095,6 @@ COCO 为采购申请处理带来结构性、一致性和智能化——将混乱
 - **采购员有效工作时间**：每位采购员每周节省6-10小时原本用于信息收集和状态查询的时间
 - **审计就绪度**：100%处理过的申请附带结构化文档，而非零散的邮件往来
 
-
 **受益角色**
 
 - **运营经理**：无需人工汇报即可获得采购队列健康状况、积压趋势及合规例外的可见性
@@ -6279,7 +6277,6 @@ COCO 通过帮助运营和设施团队处理分散的入住率数据、识别规
 - **高峰拥挤事件**：通过基于规律分析的更优分配和预订管理减少30-45%
 - **决策信心**：基于实际利用率数据而非直觉估计的设施决策，显著减少18个月内的重新配置翻转
 - **分析人员时间节省**：每个规划周期从跨不同系统的手动数据整合中节省8-15小时
-
 
 **受益角色**
 
@@ -6473,7 +6470,6 @@ COCO 通过帮助运营团队分析消耗模式、模拟需求场景、评估供
 - **供应商交货期风险**：按供应商了解交货期变化有助于对可靠供应商减少安全库存过度配置20-35%
 - **库存周转率**：改善的补货时机和数量纪律通常推动库存周转率提升10-20%
 
-
 **受益角色**
 
 - **运营经理**：无需手动审查每个SKU即可获得组合层面的库存风险和行动优先级可见性，从而专注于例外情况管理
@@ -6660,7 +6656,6 @@ COCO 通过处理覆盖要求、员工约束、技能矩阵和合规规则来支
 - **加班成本**：通过在现有人员编制中更优地分配覆盖要求，优化的排班构建减少15-25%的计划外加班
 - **合规风险**：自动化合规标记在排班发布前发现规则违反，从而减少劳动法违规事件
 - **员工满意度**：更公平、更一致、有据可查的约束尊重排班减少排班相关申诉和离职率
-
 
 **受益角色**
 
@@ -6870,7 +6865,6 @@ COCO 通过帮助运营经理应用标准化框架、识别缺失的理由要素
 - **委员会准备时间**：使用结构化评估文档的运营经理报告准备预算委员会提交材料的时间减少50-60%
 - **项目超支率**：经完整成本和风险分析评估的预算申请比在提交不完整情况下批准的申请超支率低20-30%
 
-
 **受益角色**
 
 - **运营经理**：对每份申请应用一致、可辩护的评估标准，无需每次从头构建框架所带来的认知负担
@@ -7073,7 +7067,6 @@ COCO 通过帮助运营经理创建和维护共享项目文档、识别依赖关
 - **所有权争议频率**：实时RACI文档将项目生命周期内与所有权相关的冲突事件减少50-60%
 - **准时交付率**：有结构化协调文档的跨职能项目与临时协调相比，准时完成率提升20-30%
 
-
 **受益角色**
 
 - **运营经理**：从交接失败时的被动救火，转变为基于依赖关系可见性的主动风险管理
@@ -7218,18 +7211,9 @@ COCO 通过帮助运营经理创建和维护共享项目文档、识别依赖关
 
 :::
 
-
 ## 54. AI零售库存补货预测器
 
 > 在零售领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/426-ai-retail-inventory-reorder-forecaster.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -7402,14 +7386,6 @@ COCO 通过帮助运营经理创建和维护共享项目文档、识别依赖关
 
 > 在制造业领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/444-ai-operations-process-bottleneck-identifier.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：运营流程瓶颈识别器面临的挑战**
@@ -7580,14 +7556,6 @@ COCO 通过帮助运营经理创建和维护共享项目文档、识别依赖关
 ## 56. AI政府公众意见分析器
 
 > 在政府领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/470-ai-government-public-comment-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -7760,14 +7728,6 @@ COCO 通过帮助运营经理创建和维护共享项目文档、识别依赖关
 
 > 在能源领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/471-ai-energy-grid-maintenance-scheduler.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：能源电网维护调度器面临的挑战**
@@ -7938,14 +7898,6 @@ COCO 通过帮助运营经理创建和维护共享项目文档、识别依赖关
 ## 58. AI制造业预测性维护规划器
 
 > 在制造业领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/480-ai-manufacturing-predictive-maintenance-planner.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -8118,14 +8070,6 @@ COCO 通过帮助运营经理创建和维护共享项目文档、识别依赖关
 
 > 在零售领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/488-ai-retail-pricing-strategy-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：零售动态定价策略优化器面临的挑战**
@@ -8296,14 +8240,6 @@ COCO 通过帮助运营经理创建和维护共享项目文档、识别依赖关
 ## 60. AI酒店员工排班优化器
 
 > 在酒店业领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/498-ai-hospitality-staff-scheduling-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -8476,14 +8412,6 @@ COCO 通过帮助运营经理创建和维护共享项目文档、识别依赖关
 
 > 在制造业领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/505-ai-manufacturing-production-schedule-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：制造生产计划优化器面临的挑战**
@@ -8654,14 +8582,6 @@ COCO 通过帮助运营经理创建和维护共享项目文档、识别依赖关
 ## 62. AI非营利组织志愿者管理系统
 
 > 在非营利组织领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/509-ai-nonprofit-volunteer-management-system.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -8834,14 +8754,6 @@ COCO 通过帮助运营经理创建和维护共享项目文档、识别依赖关
 
 > 在能源领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/522-ai-energy-solar-site-feasibility-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：能源太阳能选址可行性分析器面临的挑战**
@@ -9012,14 +8924,6 @@ COCO 通过帮助运营经理创建和维护共享项目文档、识别依赖关
 ## 64. AI汽车经销商库存优化器
 
 > 在汽车领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/523-ai-automotive-dealer-inventory-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -9192,14 +9096,6 @@ COCO 通过帮助运营经理创建和维护共享项目文档、识别依赖关
 
 > 在保险领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/537-ai-operations-business-continuity-planner.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：业务连续性规划助手面临的挑战**
@@ -9370,14 +9266,6 @@ COCO 通过帮助运营经理创建和维护共享项目文档、识别依赖关
 ## 66. AI零售门店布局优化器
 
 > 在零售领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/544-ai-retail-store-layout-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -9550,14 +9438,6 @@ COCO 通过帮助运营经理创建和维护共享项目文档、识别依赖关
 
 > 在酒店业领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/570-ai-hospitality-food-menu-engineering-advisor.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：餐厅菜单工程顾问面临的挑战**
@@ -9729,14 +9609,6 @@ COCO 通过帮助运营经理创建和维护共享项目文档、识别依赖关
 
 > 在制造业领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/582-ai-manufacturing-energy-efficiency-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：制造业能源效率优化器面临的挑战**
@@ -9907,14 +9779,6 @@ COCO 通过帮助运营经理创建和维护共享项目文档、识别依赖关
 ## 69. AI OKR进度追踪与报告引擎
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/595-ai-operations-okr-progress-tracker.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 

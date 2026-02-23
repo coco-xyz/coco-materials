@@ -888,14 +888,6 @@ COCO的AI定价策略建模器直接集成到你现有的工作流程中，充�
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/448-ai-consultant-client-proposal-generator.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：顾问客户提案生成器面临的挑战**
@@ -1066,14 +1058,6 @@ COCO的AI定价策略建模器直接集成到你现有的工作流程中，充�
 ## 9. AI市场进入战略构建器
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/467-ai-consultant-market-entry-strategy-builder.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1246,14 +1230,6 @@ COCO的AI定价策略建模器直接集成到你现有的工作流程中，充�
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/507-ai-consultant-competitive-landscape-mapper.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：顾问竞争格局绘制器面临的挑战**
@@ -1424,14 +1400,6 @@ COCO的AI定价策略建模器直接集成到你现有的工作流程中，充�
 ## 11. AI并购后整合规划器
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/546-ai-consultant-post-merger-integration-planner.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1604,14 +1572,6 @@ COCO的AI定价策略建模器直接集成到你现有的工作流程中，充�
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/579-ai-consultant-digital-transformation-roadmap.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：数字化转型路线图构建器面临的挑战**
@@ -1782,14 +1742,6 @@ COCO的AI定价策略建模器直接集成到你现有的工作流程中，充�
 ## 13. AI组织变革管理顾问
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/596-ai-consultant-organizational-change-manager.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 

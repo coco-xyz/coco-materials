@@ -3393,7 +3393,6 @@ Analyze and recommend:
 
 :::
 
-
 ## 20. AI Hotel Review Responder
 
 > Drafts personalized responses to guest reviews across 6 platforms — matching your brand voice in 30 seconds each.
@@ -6366,20 +6365,9 @@ Please:
 
 :::
 
-
-
-
 ## 36. AI Customer Lifecycle Email Optimizer
 
 > E-commerce and SaaS companies invest heavily in email marketing infrastructure — ESP platforms, automation tools, customer data pipelines — yet most lifecycle email programs deliver mediocre results because the sequences are built once and rarely updated
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/407-ai-customer-lifecycle-email-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -6575,14 +6563,6 @@ Write a 1-page summary covering:
 ## 37. AI Marketing Competitor Ad Intelligence System
 
 > Organizations operating in E-Commerce face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/443-ai-marketing-competitor-ad-intelligence.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -6780,14 +6760,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Media face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/452-ai-marketing-influencer-roi-tracker.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Marketing Influencer ROI Tracker**
@@ -6983,14 +6955,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 39. AI Nonprofit Donor Retention Strategist
 
 > Organizations operating in Nonprofit face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/464-ai-nonprofit-donor-retention-strategist.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -7188,14 +7152,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in E-Commerce face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/482-ai-marketing-seo-content-brief-generator.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Marketing SEO Content Brief Gaps**
@@ -7391,14 +7347,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 41. AI Marketing Demand Generation Campaign Planner
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/495-ai-marketing-demand-generation-campaign-planner.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -7596,14 +7544,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Media face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/514-ai-marketing-brand-voice-consistency-checker.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Marketing Brand Voice Consistency Checker**
@@ -7799,14 +7739,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 43. AI Retail Customer Win-Back Planner
 
 > Organizations operating in Retail face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/528-ai-retail-customer-win-back-planner.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -8004,14 +7936,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Media face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/533-ai-marketing-event-promotion-content-planner.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Event Promotion Content Disorganization**
@@ -8207,14 +8131,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 45. AI Loyalty Program Designer
 
 > Organizations operating in Retail face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/548-ai-marketing-loyalty-program-designer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -8412,14 +8328,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Retail face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/567-ai-retail-promotion-effectiveness-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Retail Promotion Effectiveness Blind Spots**
@@ -8616,14 +8524,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/588-ai-marketing-product-launch-go-to-market-planner.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Product Launch Go-to-Market Disorganization**
@@ -8819,14 +8719,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 48. AI Account-Based Marketing Campaign Planner
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/598-ai-marketing-account-based-marketing-planner.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

@@ -3889,7 +3889,6 @@ Analyze and provide:
 
 :::
 
-
 ## 23. AI Patient Intake Processor
 
 > Digitizes patient intake forms in 90 seconds — extracts demographics, insurance info, and medical history into your EHR.
@@ -7645,18 +7644,9 @@ Generate:
 
 :::
 
-
 ## 54. AI Retail Inventory Reorder Forecaster
 
 > Organizations operating in Retail face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/426-ai-retail-inventory-reorder-forecaster.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -7854,14 +7844,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/444-ai-operations-process-bottleneck-identifier.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Operations Process Bottleneck Identifier**
@@ -8057,14 +8039,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 56. AI Government Public Comment Analyzer
 
 > Organizations operating in Government face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/470-ai-government-public-comment-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -8262,14 +8236,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Energy face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/471-ai-energy-grid-maintenance-scheduler.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Energy Grid Maintenance Scheduler**
@@ -8465,14 +8431,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 58. AI Manufacturing Predictive Maintenance Planner
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/480-ai-manufacturing-predictive-maintenance-planner.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -8670,14 +8628,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Retail face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/488-ai-retail-pricing-strategy-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Retail Dynamic Pricing Strategy Inefficiency**
@@ -8873,14 +8823,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 60. AI Hospitality Staff Scheduling Optimizer
 
 > Organizations operating in Hospitality face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/498-ai-hospitality-staff-scheduling-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -9078,14 +9020,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/505-ai-manufacturing-production-schedule-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Manufacturing Production Schedule Inefficiency**
@@ -9281,14 +9215,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 62. AI Nonprofit Volunteer Management System
 
 > Organizations operating in Nonprofit face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/509-ai-nonprofit-volunteer-management-system.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -9486,14 +9412,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Energy face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/522-ai-energy-solar-site-feasibility-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Energy Solar Site Feasibility Blind Spots**
@@ -9689,14 +9607,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 64. AI Automotive Dealer Inventory Optimizer
 
 > Organizations operating in Automotive face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/523-ai-automotive-dealer-inventory-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -9894,14 +9804,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Insurance face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/537-ai-operations-business-continuity-planner.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Business Continuity Planning Overhead**
@@ -10097,14 +9999,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 66. AI Retail Store Layout Optimizer
 
 > Organizations operating in Retail face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/544-ai-retail-store-layout-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -10302,14 +10196,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Hospitality face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/570-ai-hospitality-food-menu-engineering-advisor.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Restaurant Menu Failuresering Guesswork**
@@ -10506,14 +10392,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/582-ai-manufacturing-energy-efficiency-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Manufacturing Energy Efficiency Inefficiency**
@@ -10709,14 +10587,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 69. AI OKR Progress Tracking and Reporting Engine
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/595-ai-operations-okr-progress-tracker.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

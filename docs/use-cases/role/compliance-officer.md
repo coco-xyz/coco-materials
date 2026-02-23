@@ -888,14 +888,6 @@ This week's data:
 
 > Organizations operating in Insurance face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/421-ai-insurance-claims-adjudication-assistant.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Insurance Claims Adjudication Overhead**
@@ -1091,14 +1083,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 9. AI Construction Permit Compliance Tracker
 
 > Organizations operating in Real Estate face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/436-ai-construction-permit-compliance-tracker.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1296,14 +1280,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Insurance face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/475-ai-insurance-fraud-detection-alert-system.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Insurance Fraud Detection Alert Breakdowns**
@@ -1499,14 +1475,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 11. AI Compliance Officer Audit Trail Builder
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/493-ai-compliance-officer-audit-trail-builder.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1704,14 +1672,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/499-ai-healthcare-coding-accuracy-auditor.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Healthcare Medical Coding Accuracy Auditor**
@@ -1907,14 +1867,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 13. AI Finance Regulatory Filing Assistant
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/520-ai-finance-regulatory-filing-assistant.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2112,14 +2064,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Legal Services face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/572-ai-legal-regulatory-change-impact-tracker.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Regulatory Change Impact Tracker**
@@ -2315,14 +2259,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 15. AI ISO Audit Preparation Assistant
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/599-ai-manufacturing-iso-audit-preparation-assistant.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

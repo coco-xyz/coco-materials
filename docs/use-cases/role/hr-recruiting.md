@@ -1696,7 +1696,6 @@ Present with executive-ready visualizations described in markdown (tables, compa
 
 :::
 
-
 ## 12. AI Job Description Writer
 
 > Generates bias-free, brand-aligned job descriptions in 30 minutes — drafting time reduced 85%, application quality scores up 34%.
@@ -3614,18 +3613,9 @@ Please draft a 500-600 word all-hands narrative that:
 
 :::
 
-
 ## 29. AI Employee Onboarding Experience Designer
 
 > Companies spend $4,000–$7,000 recruiting and hiring a single employee, then deliver an onboarding experience that consistently fails to set them up for success
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/409-ai-employee-onboarding-experience-designer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3798,14 +3788,6 @@ Identify:
 ## 30. AI HR Compensation Benchmarking Engine
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/424-ai-hr-compensation-benchmarking-engine.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4003,14 +3985,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/437-ai-hr-performance-review-writer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: HR Performance Review Writer**
@@ -4206,14 +4180,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 32. AI HR Employee Engagement Pulse Analyzer
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/456-ai-hr-employee-engagement-pulse-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4411,14 +4377,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/486-ai-hr-job-description-writer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: HR Job Description Optimization Writer**
@@ -4614,14 +4572,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 34. AI HR Training Needs Assessment Engine
 
 > Organizations operating in Education face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/506-ai-hr-training-needs-assessment-engine.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4819,14 +4769,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/525-ai-hr-recruitment-pipeline-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: HR Recruitment Pipeline Inefficiency**
@@ -5022,14 +4964,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 36. AI HR Succession Planning Advisor
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/541-ai-hr-succession-planning-advisor.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -5227,14 +5161,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/558-ai-hr-organizational-design-advisor.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: HR Organizational Design Guesswork**
@@ -5431,14 +5357,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/586-ai-hr-workforce-planning-scenario-modeler.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Workforce Planning Scenario Modeler**
@@ -5634,14 +5552,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 39. AI Exit Interview Insights Analyzer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/601-ai-hr-exit-interview-insights-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

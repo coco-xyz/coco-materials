@@ -636,14 +636,6 @@ COCO的AI学习路径构建器直接集成到你现有的工作流程中，充�
 
 > 在教育领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/442-ai-education-curriculum-gap-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：教育课程缺口分析器面临的挑战**
@@ -814,14 +806,6 @@ COCO的AI学习路径构建器直接集成到你现有的工作流程中，充�
 ## 7. AI教育学生评估反馈引擎
 
 > 在教育领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/460-ai-education-student-assessment-feedback.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -994,14 +978,6 @@ COCO的AI学习路径构建器直接集成到你现有的工作流程中，充�
 
 > 在教育领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/479-ai-education-adaptive-quiz-generator.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：教育自适应测验生成器面临的挑战**
@@ -1172,14 +1148,6 @@ COCO的AI学习路径构建器直接集成到你现有的工作流程中，充�
 ## 9. AI在线课程内容构建器
 
 > 在教育领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/512-ai-education-online-course-builder.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1352,14 +1320,6 @@ COCO的AI学习路径构建器直接集成到你现有的工作流程中，充�
 
 > 在教育领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/536-ai-education-parent-communication-generator.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：教育家长沟通内容生成器面临的挑战**
@@ -1530,14 +1490,6 @@ COCO的AI学习路径构建器直接集成到你现有的工作流程中，充�
 ## 11. AI学习目标与成果设计器
 
 > 在教育领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/555-ai-education-learning-objective-designer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1710,14 +1662,6 @@ COCO的AI学习路径构建器直接集成到你现有的工作流程中，充�
 
 > 在教育领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/575-ai-education-accreditation-evidence-compiler.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：认证证据整合器面临的挑战**
@@ -1888,14 +1832,6 @@ COCO的AI学习路径构建器直接集成到你现有的工作流程中，充�
 ## 13. AI个性化学习路径构建器
 
 > 在教育领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/594-ai-education-personalized-learning-path-builder.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 

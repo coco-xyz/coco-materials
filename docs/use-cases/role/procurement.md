@@ -636,14 +636,6 @@ This week's data:
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/414-ai-procurement-vendor-scorecard-builder.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Procurement Vendor Scorecard Manual Effort**
@@ -839,14 +831,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 7. AI Operations Vendor Contract Negotiation Prep
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/457-ai-operations-vendor-contract-negotiation-prep.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1044,14 +1028,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/476-ai-procurement-rfp-response-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Procurement RFP Response Inefficiency**
@@ -1247,14 +1223,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 9. AI Procurement Spend Analysis Engine
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/527-ai-procurement-spend-analysis-engine.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1452,14 +1420,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Government face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/563-ai-procurement-supplier-diversity-tracker.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Supplier Diversity Program Tracker**
@@ -1655,14 +1615,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 11. AI Telecom Contract Negotiation Optimizer
 
 > Organizations operating in Telecommunications face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/600-ai-telecom-contract-negotiation-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

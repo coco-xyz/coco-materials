@@ -2047,7 +2047,6 @@ COCO 充当一个始终在线的会议智能层，将原始背景——参会者
 - **跟进行动质量**：结构化准备将承诺遗漏减少60%，因为会后行动事项在会议前已被预判并主动记录
 - **高管自信心评分**：自我报告的准备信心从临时应对的3.1/5提升至结构化简报的4.6/5（企业高管调查数据）
 
-
 **受益角色**
 
 - **C级高管**：带着完整的情境感知和清晰的行动策略进入每场董事会、投资者和合作伙伴会议——无需花费数小时准备
@@ -2237,7 +2236,6 @@ COCO 充当 AI 优先级协作伙伴——通过将结构化框架应用于原�
 - **授权频率**：结构化授权提示使授权率提高2.3倍，预计每周为高管释放4至6小时的时间
 - **认知负荷降低**：当专业人员拥有结构化、经过审查的优先清单而非无序任务堆时，任务积压焦虑带来的自我报告心理负担下降47%
 - **会议投资回报率提升**：日历审计组件平均每周识别出3至5小时可减少、取消或重构的周期性会议
-
 
 **受益角色**
 
@@ -2433,7 +2431,6 @@ COCO 通过生成符合高管声音、受众需求和沟通目标的精磨初稿
 - **危机沟通速度**：高管危机响应沟通在20分钟内起草完毕并准备好供审查，而行业平均水平为4小时以上
 - **沟通信心**：高管报告对AI辅助起草并经修改完善的沟通内容发出的信心，比完全在压力下独立起草的内容高出40%
 
-
 **受益角色**
 
 - **CEO及C级高管**：在不牺牲这些关键时刻所需质量与真实性的前提下，降低高风险沟通的认知和时间负担
@@ -2574,18 +2571,9 @@ COCO 通过生成符合高管声音、受众需求和沟通目标的精磨初稿
 
 :::
 
-
 ## 15. AI创业投资路演PPT顾问
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/416-ai-startup-investor-pitch-deck-advisor.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2758,14 +2746,6 @@ COCO 通过生成符合高管声音、受众需求和沟通目标的精磨初稿
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/445-ai-executive-board-meeting-prep-assistant.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：高管董事会会议准备助手面临的挑战**
@@ -2936,14 +2916,6 @@ COCO 通过生成符合高管声音、受众需求和沟通目标的精磨初稿
 ## 17. AI酒店收益管理优化器
 
 > 在酒店业领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/472-ai-hospitality-revenue-management-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3116,14 +3088,6 @@ COCO 通过生成符合高管声音、受众需求和沟通目标的精磨初稿
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/490-ai-executive-strategic-memo-writer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：高管战略备忘录撰写器面临的挑战**
@@ -3294,14 +3258,6 @@ COCO 通过生成符合高管声音、受众需求和沟通目标的精磨初稿
 ## 19. AI高管季度业务复盘准备工具
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/517-ai-executive-quarterly-business-review-prep.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3474,14 +3430,6 @@ COCO 通过生成符合高管声音、受众需求和沟通目标的精磨初稿
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
 
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/562-ai-executive-competitive-strategy-analyzer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details 痛点与解决方案
 
 **痛点：竞争战略分析器面临的挑战**
@@ -3652,14 +3600,6 @@ COCO 通过生成符合高管声音、受众需求和沟通目标的精磨初稿
 ## 21. AI年度战略叙述构建器
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
-
-::: details 🎬 观看演示视频
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/604-ai-executive-annual-strategy-narrative-builder.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details 痛点与解决方案
 

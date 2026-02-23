@@ -762,14 +762,6 @@ This week's data:
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/420-ai-logistics-route-optimization-planner.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Logistics Route Optimization Disorganization**
@@ -965,14 +957,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 8. AI Supply Chain Disruption Risk Monitor
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/441-ai-supply-chain-disruption-risk-monitor.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1170,14 +1154,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/449-ai-warehouse-space-utilization-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Warehouse Space Utilization Inefficiency**
@@ -1373,14 +1349,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 10. AI Logistics Customs Documentation Preparer
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/468-ai-logistics-customs-documentation-preparer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1578,14 +1546,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/487-ai-logistics-fleet-maintenance-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Logistics Fleet Maintenance Inefficiency**
@@ -1781,14 +1741,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 12. AI Logistics Demand Planning Assistant
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/513-ai-logistics-demand-planning-assistant.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1986,14 +1938,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/529-ai-logistics-carrier-performance-scorecard.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: Logistics Carrier Performance Scorecard**
@@ -2189,14 +2133,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 14. AI Cold Chain Integrity Monitoring System
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/547-ai-logistics-cold-chain-monitoring-system.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2394,14 +2330,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
 
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/568-ai-logistics-international-shipping-cost-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
-
 ::: details Pain Point & How COCO Solves It
 
 **The Pain: International Shipping Cost Inefficiency**
@@ -2597,14 +2525,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ## 16. AI Warehouse Dock Scheduling Optimizer
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
-
-::: details 🎬 Watch Demo Video
-
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/589-ai-logistics-dock-scheduling-optimizer.mp4" type="video/mp4">
-</video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
