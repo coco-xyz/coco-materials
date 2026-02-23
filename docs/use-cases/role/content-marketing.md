@@ -6423,6 +6423,10 @@ Optimization cycles suffer from the same bottleneck. Running an A/B test, analyz
    - Prioritizes optimization opportunities by projected revenue impact
    - Creates quarterly lifecycle email strategy review with recommended roadmap for next 90 days
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Email open rate**: From 19% average to **31% with COCO-optimized subject lines** (63% improvement)
@@ -6617,6 +6621,10 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Recommends process improvements based on analysis of workflow bottlenecks
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
+
+:::
+
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6814,6 +6822,10 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
@@ -7009,6 +7021,10 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Recommends process improvements based on analysis of workflow bottlenecks
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
+
+:::
+
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -7206,6 +7222,10 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
@@ -7401,6 +7421,10 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Recommends process improvements based on analysis of workflow bottlenecks
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
+
+:::
+
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -7598,6 +7622,10 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
@@ -7793,6 +7821,10 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Recommends process improvements based on analysis of workflow bottlenecks
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
+
+:::
+
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -7990,6 +8022,10 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
@@ -8185,6 +8221,10 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Recommends process improvements based on analysis of workflow bottlenecks
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
+
+:::
+
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -8382,6 +8422,10 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
@@ -8578,6 +8622,10 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
+
+::: details Results & Who Benefits
+
 **Measurable Results**
 
 - **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
@@ -8773,6 +8821,10 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Recommends process improvements based on analysis of workflow bottlenecks
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
+
+:::
+
+::: details Results & Who Benefits
 
 **Measurable Results**
 
