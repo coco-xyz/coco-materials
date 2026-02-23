@@ -1,6 +1,6 @@
 # Use Cases
 
-Discover **226 real-world scenarios** where COCO AI employees save time and money. Browse by **Role**, **Task**, or **Industry**.
+Discover **400 real-world scenarios** where COCO AI employees save time and money. Browse by **Role**, **Task**, or **Industry**.
 
 ## Browse by Role
 
@@ -295,4 +295,177 @@ Find use cases by what you need to get done:
 | 224 | [AI Threat Model Generator](/use-cases/role/dev#_31-ai-threat-model-generator) | Dev | Tech/SaaS | Research | 3–4× more threats vs. ad-hoc review |
 | 225 | [AI Security Incident Forensics Assistant](/use-cases/role/dev#_32-ai-security-incident-forensics-assistant) | Dev | Tech/SaaS | Analysis | Timeline: 2–4 weeks → 12–24 hours |
 | 226 | [AI Access Permission Auditor](/use-cases/role/dev#_33-ai-access-permission-auditor) | Dev | Tech/SaaS | Research | 35–50% unused permissions found |
-
+| 227 | [AI Product-Market Fit Validator](/use-cases/role/pm#_3-ai-product-market-fit-validator) | PM | SaaS/B2B | Analysis | PMF research: 4 weeks → 1 week |
+| 228 | [AI Legacy Code Archaeologist](/use-cases/role/dev#_34-ai-legacy-code-archaeologist) | Dev | Enterprise/SaaS | Analysis | Incident diagnosis -55% |
+| 229 | [AI Working Capital Optimizer](/use-cases/role/finance#_20-ai-working-capital-optimizer) | Finance | Manufacturing/Retail | Analysis | DSO reduced 8–12 days |
+| 230 | [AI Executive Meeting Prep Assistant](/use-cases/role/executive#_5-ai-executive-meeting-prep-assistant) | Executive | Enterprise | Automation | Prep: 45–90 min → 8–12 min |
+| 231 | [AI Viral Content Hook Generator](/use-cases/role/content-marketing#_24-ai-viral-content-hook-generator) | Marketing | SaaS/Media | Writing | Engagement 2.3–4.1× uplift |
+| 232 | [AI Competitive Intelligence Synthesizer](/use-cases/role/pm#_4-ai-competitive-intelligence-synthesizer) | PM | SaaS/B2B | Research | Win rate +18–24% in 2 qtrs |
+| 233 | [AI Feature Flag Strategy Advisor](/use-cases/role/pm#_5-ai-feature-flag-strategy-advisor) | PM | SaaS/B2B | Analysis | Stale flags -45% in 1 qtr |
+| 234 | [AI Stakeholder Alignment Engine](/use-cases/role/pm#_6-ai-stakeholder-alignment-engine) | PM | Enterprise | Automation | PM alignment time: 47% → 28% |
+| 235 | [AI OKR Cascade Manager](/use-cases/role/pm#_7-ai-okr-cascade-manager) | PM | Enterprise | Analysis | OKR drafting: 3 weeks → 8 days |
+| 236 | [AI User Persona Deep Builder](/use-cases/role/pm#_8-ai-user-persona-deep-builder) | PM | SaaS/B2B | Research | 3.2× more citations in decisions |
+| 237 | [AI Sprint Retrospective Facilitator](/use-cases/role/pm#_9-ai-sprint-retrospective-facilitator) | PM | SaaS/B2B | Automation | Action completion: 67% vs 39% avg |
+| 238 | [AI Product Analytics Storyteller](/use-cases/role/pm#_10-ai-product-analytics-storyteller) | PM | SaaS/B2B | Analysis | Decision action rate +47% |
+| 239 | [AI Beta Test Coordinator](/use-cases/role/pm#_11-ai-beta-test-coordinator) | PM | SaaS/B2B | Research | GA issues -54% post beta |
+| 240 | [AI Product Roadmap Prioritization Advisor](/use-cases/role/pm#_12-ai-product-roadmap-prioritization-advisor) | PM | SaaS/B2B | Analysis | Feature adoption +38% |
+| 241 | [AI Customer Feedback Aggregator](/use-cases/role/pm#_13-ai-customer-feedback-aggregator) | PM | SaaS/B2B | Research | Synthesis time: 7.4h → 90min |
+| 242 | [AI PRD Writing Assistant](/use-cases/role/pm#_14-ai-prd-writing-assistant) | PM | SaaS/B2B | Writing | PRD: 4–6h → 60–90min |
+| 243 | [AI Pricing Strategy Advisor](/use-cases/role/pm#_15-ai-pricing-strategy-advisor) | PM | SaaS/B2B | Analysis | NDR improvement +22 pts |
+| 244 | [AI Code Documentation Generator](/use-cases/role/dev#_35-ai-code-documentation-generator) | Dev | SaaS/Fintech | Writing | Doc coverage: 20% → 80–90% |
+| 245 | [AI Performance Bottleneck Detective](/use-cases/role/dev#_36-ai-performance-bottleneck-detective) | Dev | SaaS/E-commerce | Analysis | Root cause time -65% |
+| 246 | [AI API Design Reviewer](/use-cases/role/dev#_37-ai-api-design-reviewer) | Dev | SaaS/Platform | Analysis | Integration tickets -44% |
+| 247 | [AI Database Schema Optimizer](/use-cases/role/dev#_38-ai-database-schema-optimizer) | Dev | SaaS/E-commerce | Analysis | Query perf: 60–85% improvement |
+| 248 | [AI Incident Post-Mortem Writer](/use-cases/role/dev#_39-ai-incident-post-mortem-writer) | Dev | SaaS/Fintech | Writing | Completion rate: 31% → 84% |
+| 249 | [AI Dependency Vulnerability Scanner](/use-cases/role/dev#_40-ai-dependency-vulnerability-scanner) | Dev | SaaS/Fintech | Research | Patch time: 47 → 12 days |
+| 250 | [AI Test Case Generator](/use-cases/role/dev#_41-ai-test-case-generator) | Dev | SaaS/Fintech | Automation | Bug escape rate -49% |
+| 251 | [AI Code Refactoring Strategist](/use-cases/role/dev#_42-ai-code-refactoring-strategist) | Dev | SaaS/Fintech | Analysis | Bug density -44% after refactor |
+| 252 | [AI System Architecture Advisor](/use-cases/role/dev#_43-ai-system-architecture-advisor) | Dev | SaaS/Platform | Analysis | Architecture pivots -63% |
+| 253 | [AI CI/CD Pipeline Optimizer](/use-cases/role/dev#_44-ai-cicd-pipeline-optimizer) | Dev | SaaS/Platform | Automation | Pipeline time -52% |
+| 254 | [AI Error Log Analyzer](/use-cases/role/dev#_45-ai-error-log-analyzer) | Dev | SaaS/E-commerce | Analysis | Diagnosis time -58% |
+| 255 | [AI Open Source Contribution Reviewer](/use-cases/role/dev#_46-ai-open-source-contribution-reviewer) | Dev | SaaS/Platform | Research | Review cycles -54% |
+| 256 | [AI Budget Variance Explainer](/use-cases/role/finance#_21-ai-budget-variance-explainer) | Finance | Finance/SaaS | Analysis | Variance prep: 15–30h → 4–6h |
+| 257 | [AI Investor Relations Prep Assistant](/use-cases/role/finance#_22-ai-investor-relations-prep-assistant) | Finance | Finance/SaaS | Writing | Earnings prep -50–55% time |
+| 258 | [AI Tax Planning Advisor](/use-cases/role/finance#_23-ai-tax-planning-advisor) | Finance | Finance/SaaS | Analysis | Effective tax rate -3–6 pts |
+| 259 | [AI Financial Model Stress Tester](/use-cases/role/finance#_24-ai-financial-model-stress-tester) | Finance | Finance/SaaS | Analysis | Stress testing: 15–25h → 4–6h |
+| 260 | [AI Accounts Receivable Aging Analyst](/use-cases/role/finance#_25-ai-accounts-receivable-aging-analyst) | Finance | Finance/Mfg | Analysis | DSO reduced 7–11 days |
+| 261 | [AI Cost Center Benchmark Analyst](/use-cases/role/finance#_26-ai-cost-center-benchmark-analyst) | Finance | Finance/SaaS | Analysis | $1.4–2.8M spend gaps identified |
+| 262 | [AI Treasury Cash Flow Forecaster](/use-cases/role/finance#_27-ai-treasury-cash-flow-forecaster) | Finance | Finance/Mfg | Analysis | Forecast accuracy: 75% → 89–94% |
+| 263 | [AI Financial Narrative Report Generator](/use-cases/role/finance#_28-ai-financial-narrative-report-generator) | Finance | Finance/Enterprise | Writing | Report production: 2–3 wks → 3–5 days |
+| 264 | [AI M&A Target Screening Advisor](/use-cases/role/finance#_29-ai-ma-target-screening-advisor) | Finance | Finance/PE | Analysis | Screening: 4–6× more targets/qtr |
+| 265 | [AI Expense Policy Compliance Auditor](/use-cases/role/finance#_30-ai-expense-policy-compliance-auditor) | Finance | Finance/Enterprise | Research | Violations detected 3.2× more |
+| 266 | [AI Accounts Payable Workflow Optimizer](/use-cases/role/finance#_31-ai-accounts-payable-workflow-optimizer) | Finance | Finance/Enterprise | Automation | AP cost: $10–15 → $3–5/invoice |
+| 267 | [AI Travel Itinerary Optimizer](/use-cases/role/executive#_6-ai-travel-itinerary-optimizer) | Executive | Enterprise | Automation | Trip planning: 4–6h → 45–75min |
+| 268 | [AI Email Triage and Drafting Assistant](/use-cases/role/executive#_7-ai-email-triage-and-drafting-assistant) | Executive | Enterprise | Automation | Email time -60% |
+| 269 | [AI Weekly Review Summarizer](/use-cases/role/executive#_8-ai-weekly-review-summarizer) | Executive | Enterprise | Automation | Review completion: 22% → 87% |
+| 270 | [AI Decision Framework Builder](/use-cases/role/executive#_9-ai-decision-framework-builder) | Executive | Enterprise | Analysis | Decision regrets -41% |
+| 271 | [AI Knowledge Base Curator](/use-cases/role/executive#_10-ai-knowledge-base-curator) | Executive | Enterprise | Automation | Search time -60% |
+| 272 | [AI Personal Goal Tracker](/use-cases/role/executive#_11-ai-personal-goal-tracker) | Executive | Enterprise | Automation | Goal progress 3.2× improvement |
+| 273 | [AI Research Briefing Generator](/use-cases/role/executive#_12-ai-research-briefing-generator) | Executive | Enterprise | Research | Briefings: 3–5h → 30–45min |
+| 274 | [AI Delegation Workflow Designer](/use-cases/role/executive#_13-ai-delegation-workflow-designer) | Executive | Enterprise | Automation | Delegation completion +52% |
+| 275 | [AI Meeting Preparation Briefer](/use-cases/role/executive#_14-ai-meeting-preparation-briefer) | Executive | Enterprise | Automation | Prep: 35–45min → under 5min |
+| 276 | [AI Task Priority Balancer](/use-cases/role/executive#_15-ai-task-priority-balancer) | Executive | Enterprise | Automation | Priority completion: 41% → 78% |
+| 277 | [AI Executive Communication Drafter](/use-cases/role/executive#_16-ai-executive-communication-drafter) | Executive | Enterprise | Writing | Draft cycle -60% |
+| 278 | [AI LinkedIn Thought Leadership Writer](/use-cases/role/content-marketing#_25-ai-linkedin-thought-leadership-writer) | Marketing | SaaS/B2B | Writing | Publishing: 1–2/mo → 3–5/wk |
+| 279 | [AI Community Engagement Strategist](/use-cases/role/content-marketing#_26-ai-community-engagement-strategist) | Marketing | SaaS/Tech | Writing | Daily member rate +35–55% |
+| 280 | [AI Influencer Outreach Composer](/use-cases/role/content-marketing#_27-ai-influencer-outreach-composer) | Marketing | Media/DTC | Writing | Outreach response rate 3–4× |
+| 281 | [AI Campaign Performance Analyzer](/use-cases/role/content-marketing#_28-ai-campaign-performance-analyzer) | Marketing | SaaS/Tech | Analysis | Ad waste -18–28% in 60 days |
+| 282 | [AI Brand Voice Consistency Checker](/use-cases/role/content-marketing#_29-ai-brand-voice-consistency-checker) | Marketing | SaaS/Tech | Research | Voice alignment: 58% → 84% |
+| 283 | [AI Content Calendar Planner](/use-cases/role/content-marketing#_30-ai-content-calendar-planner) | Marketing | SaaS/Tech | Automation | Publishing adherence: 45% → 85–92% |
+| 284 | [AI GTM Launch Playbook Builder](/use-cases/role/content-marketing#_31-ai-gtm-launch-playbook-builder) | Marketing | SaaS/Tech | Writing | 90-day adoption targets 2.1× rate |
+| 285 | [AI Social Media Analytics Interpreter](/use-cases/role/content-marketing#_32-ai-social-media-analytics-interpreter) | Marketing | SaaS/Tech | Analysis | Analytics time: 4–6h → under 60min |
+| 286 | [AI Competitor Social Listening Analyst](/use-cases/role/content-marketing#_33-ai-competitor-social-listening-analyst) | Marketing | SaaS/Tech | Research | Competitor lag: 3–6 wks → days |
+| 287 | [AI Hashtag and SEO Strategy Optimizer](/use-cases/role/content-marketing#_34-ai-hashtag-and-seo-strategy-optimizer) | Marketing | SaaS/Tech | Writing | Organic reach +40–80% |
+| 288 | [AI Brand Crisis Communication Handler](/use-cases/role/content-marketing#_35-ai-brand-crisis-communication-handler) | Marketing | SaaS/Tech | Writing | First response: 6–12h → under 2h |
+| 289 | [AI Literature Review Synthesizer](/use-cases/role/data-analyst#_15-ai-literature-review-synthesizer) | Research | Academia | Research | Synthesis: 6–12 wks → 1–2 wks |
+| 290 | [AI Survey Design and Analysis Advisor](/use-cases/role/data-analyst#_16-ai-survey-design-and-analysis-advisor) | Research | Education | Research | Data quality: 31% lower non-response |
+| 291 | [AI Data Visualization Storyteller](/use-cases/role/data-analyst#_17-ai-data-visualization-storyteller) | Data Science | SaaS/Enterprise | Analysis | Decision rate +34% from analytics |
+| 292 | [AI Academic Paper Summarizer](/use-cases/role/data-analyst#_18-ai-academic-paper-summarizer) | Research | Academia | Research | Papers processed 5–8× faster |
+| 293 | [AI Market Research Report Generator](/use-cases/role/data-analyst#_19-ai-market-research-report-generator) | Research | SaaS/Consulting | Research | Report time -65–80% vs agency |
+| 294 | [AI Statistical Analysis Explainer](/use-cases/role/data-analyst#_20-ai-statistical-analysis-explainer) | Data Science | SaaS/Tech | Analysis | Stakeholder comprehension +48% |
+| 295 | [AI Ethnographic Research Coder](/use-cases/role/data-analyst#_21-ai-ethnographic-research-coder) | Research | Academia/UX | Research | Open coding time -50–65% |
+| 296 | [AI Grant Proposal Writer](/use-cases/role/data-analyst#_22-ai-grant-proposal-writer) | Research | Academia | Writing | Funding rate +18% for new applicants |
+| 297 | [AI Patent Landscape Analyzer](/use-cases/role/data-analyst#_23-ai-patent-landscape-analyzer) | Research | SaaS/Biotech | Research | Coverage +40% vs keyword search |
+| 298 | [AI Interview Transcript Analyzer](/use-cases/role/data-analyst#_24-ai-interview-transcript-analyzer) | Research | Education | Research | Analysis: 80–120h → 15–25h |
+| 299 | [AI Research Proposal Writer](/use-cases/role/data-analyst#_25-ai-research-proposal-writer) | Research | Education | Writing | Proposal drafting: 80–120h → 25–40h |
+| 300 | [AI Data Collection Protocol Designer](/use-cases/role/data-analyst#_26-ai-data-collection-protocol-designer) | Research | Education | Research | Protocol design: 3–4 wks → 5–7 days |
+| 301 | [AI Meeting Agenda Optimizer](/use-cases/role/operations#_37-ai-meeting-agenda-optimizer) | Operations | Enterprise | Automation | Meeting time -30–40% |
+| 302 | [AI Process Documentation Writer](/use-cases/role/operations#_38-ai-process-documentation-writer) | Operations | Enterprise | Writing | Documentation 3–5× faster |
+| 303 | [AI Vendor Contract Analyzer](/use-cases/role/operations#_39-ai-vendor-contract-analyzer) | Operations | Enterprise | Analysis | Review: 4–8h → 45–90min |
+| 304 | [AI Operational KPI Dashboard Narrator](/use-cases/role/operations#_40-ai-operational-kpi-dashboard-narrator) | Operations | Enterprise | Writing | Report writing -60–75% |
+| 305 | [AI Supply Chain Risk Monitor](/use-cases/role/operations#_41-ai-supply-chain-risk-monitor) | Operations | Enterprise | Research | Disruption signal 14 days earlier |
+| 306 | [AI Business Continuity Plan Writer](/use-cases/role/operations#_42-ai-business-continuity-plan-writer) | Operations | Enterprise | Writing | BCP plan: 6–12 mo → 6–8 wks |
+| 307 | [AI Change Management Communications Writer](/use-cases/role/operations#_43-ai-change-management-communications-writer) | Operations | Enterprise | Writing | Adoption rate 3× with structured comms |
+| 308 | [AI Internal Policy Compliance Checker](/use-cases/role/operations#_44-ai-internal-policy-compliance-checker) | Operations | Enterprise | Research | Violations detected 70% earlier |
+| 309 | [AI Project Status Report Generator](/use-cases/role/operations#_45-ai-project-status-report-generator) | Operations | Enterprise | Writing | Reporting time -60–70% |
+| 310 | [AI Resource Allocation Optimizer](/use-cases/role/operations#_46-ai-resource-allocation-optimizer) | Operations | Enterprise | Analysis | On-time delivery +20–35% |
+| 311 | [AI SLA Breach Predictor](/use-cases/role/operations#_47-ai-sla-breach-predictor) | Operations | Enterprise | Research | SLA breach rate -40–60% |
+| 312 | [AI Procurement Request Processor](/use-cases/role/operations#_48-ai-procurement-request-processor) | Operations | Enterprise/Mfg | Automation | Processing: 3.2 days → 8 hours |
+| 313 | [AI Facility Utilization Optimizer](/use-cases/role/operations#_49-ai-facility-utilization-optimizer) | Operations | Enterprise/Mfg | Analysis | Real estate cost -15–25% |
+| 314 | [AI Inventory Reorder Advisor](/use-cases/role/operations#_50-ai-inventory-reorder-advisor) | Operations | Enterprise/Retail | Analysis | Stockout incidents -30–50% |
+| 315 | [AI Workforce Schedule Builder](/use-cases/role/operations#_51-ai-workforce-schedule-builder) | Operations | Enterprise/Mfg | Automation | Schedule build: 6–12h → 1–2h |
+| 316 | [AI Budget Request Evaluator](/use-cases/role/operations#_52-ai-budget-request-evaluator) | Operations | Enterprise/Mfg | Analysis | Evaluation time -60–70% |
+| 317 | [AI Cross-Department Coordination Hub](/use-cases/role/operations#_53-ai-cross-department-coordination-hub) | Operations | Enterprise/Mfg | Automation | Handoff failures -40–55% |
+| 318 | [AI Job Description Writer](/use-cases/role/hr-recruiting#_12-ai-job-description-writer) | HR | Enterprise | Writing | JD drafting: 3–5h → 30 min |
+| 319 | [AI Resume Screener and Shortlister](/use-cases/role/hr-recruiting#_13-ai-resume-screener-and-shortlister) | HR | Enterprise | Analysis | Screening time -75% |
+| 320 | [AI Interview Question Generator](/use-cases/role/hr-recruiting#_14-ai-interview-question-generator) | HR | Enterprise | Research | Inter-rater reliability +55% |
+| 321 | [AI Offer Letter Composer](/use-cases/role/hr-recruiting#_15-ai-offer-letter-composer) | HR | Enterprise | Writing | Drafting: 60–90min → 15min |
+| 322 | [AI Employee Performance Review Writer](/use-cases/role/hr-recruiting#_16-ai-employee-performance-review-writer) | HR | Enterprise | Writing | Manager writing time -65% |
+| 323 | [AI Onboarding Plan Builder](/use-cases/role/hr-recruiting#_17-ai-onboarding-plan-builder) | HR | Enterprise | Automation | Time-to-productivity +34% |
+| 324 | [AI Employee Survey Analyzer](/use-cases/role/hr-recruiting#_18-ai-employee-survey-analyzer) | HR | Enterprise | Analysis | Analysis: 4–6 wks → 3–5 days |
+| 325 | [AI Compensation Benchmarker](/use-cases/role/hr-recruiting#_19-ai-compensation-benchmarker) | HR | Enterprise | Analysis | Benchmark cycle: 2–4 wks → 3–5 days |
+| 326 | [AI L&D Curriculum Designer](/use-cases/role/hr-recruiting#_20-ai-ld-curriculum-designer) | HR | Enterprise | Writing | Curriculum: 6–12 mo → 4–8 wks |
+| 327 | [AI Employee Handbook Updater](/use-cases/role/hr-recruiting#_21-ai-employee-handbook-updater) | HR | Enterprise | Writing | Update cycle: 4–6 mo → 4–6 wks |
+| 328 | [AI Workforce Planning Advisor](/use-cases/role/hr-recruiting#_22-ai-workforce-planning-advisor) | HR | Enterprise | Analysis | Planning: 6–8 wks → 2–3 wks |
+| 329 | [AI Talent Pipeline Builder](/use-cases/role/hr-recruiting#_23-ai-talent-pipeline-builder) | HR | Enterprise | Research | Time-to-fill -35–50 days |
+| 330 | [AI DEI Reporting Analyzer](/use-cases/role/hr-recruiting#_24-ai-dei-reporting-analyzer) | HR | Enterprise | Analysis | Funnel gaps: 4–6 found per analysis |
+| 331 | [AI Employee Retention Risk Predictor](/use-cases/role/hr-recruiting#_25-ai-employee-retention-risk-predictor) | HR | Enterprise | Research | Attrition risk flagged 6–9 mo earlier |
+| 332 | [AI Benefits Administration Advisor](/use-cases/role/hr-recruiting#_26-ai-benefits-administration-advisor) | HR | Enterprise | Automation | Enrollment errors -45% |
+| 333 | [AI Succession Planning Assistant](/use-cases/role/hr-recruiting#_27-ai-succession-planning-assistant) | HR | Enterprise | Analysis | Critical role coverage: 28% → 78% |
+| 334 | [AI HR Metrics Dashboard Narrator](/use-cases/role/hr-recruiting#_28-ai-hr-metrics-dashboard-narrator) | HR | Enterprise | Writing | Exec meeting HR time -35% |
+| 335 | [AI Customer Onboarding Playbook Builder](/use-cases/role/customer-support#use-case-340) | CS | SaaS/Tech | Automation | Playbook: 6.4h → 15 min |
+| 336 | [AI Churn Risk Early Warning System](/use-cases/role/customer-support#use-case-341) | CS | SaaS/Tech | Research | Churn detection: 12 → 52 days ahead |
+| 337 | [AI QBR Presentation Builder](/use-cases/role/customer-support#use-case-342) | CS | SaaS/Tech | Writing | QBR prep: 4–8h → 45 min |
+| 338 | [AI Support Ticket Deflection Trainer](/use-cases/role/customer-support#use-case-343) | CS | SaaS/Tech | Writing | KB article: 3–5h → 25 min |
+| 339 | [AI NPS Response Handler](/use-cases/role/customer-support#use-case-344) | CS | SaaS/Tech | Automation | NPS follow-up: 14% → 94% |
+| 340 | [AI Customer Health Score Explainer](/use-cases/role/customer-support#use-case-345) | CS | SaaS/Tech | Analysis | Score utilization: 34% → 81% |
+| 341 | [AI Upsell Opportunity Identifier](/use-cases/role/customer-support#use-case-346) | CS | SaaS/Tech | Analysis | Expansion opportunities 3.2× |
+| 342 | [AI Customer Success Playbook Writer](/use-cases/role/customer-support#use-case-347) | CS | SaaS/Tech | Writing | CSM ramp: 11 → 6 weeks |
+| 343 | [AI Escalation Resolution Advisor](/use-cases/role/customer-support#use-case-348) | CS | SaaS/Tech | Automation | Retention after escalation: 63% vs 26% |
+| 344 | [AI Knowledge Base Article Generator](/use-cases/role/customer-support#use-case-349) | CS | SaaS/Tech | Writing | Article: 3–5h → 20 min |
+| 345 | [AI Customer Journey Mapper](/use-cases/role/customer-support#use-case-350) | CS | SaaS/Tech | Analysis | At-risk detection 60–90 days earlier |
+| 346 | [AI Success Story Case Study Writer](/use-cases/role/customer-support#use-case-351) | CS | SaaS/Tech | Writing | Case study: 4–8h → structured workflow |
+| 347 | [AI Product Adoption Accelerator](/use-cases/role/customer-support#use-case-352) | CS | SaaS/Tech | Automation | Low adoption found 70 days earlier |
+| 348 | [AI Customer Feedback Loop Manager](/use-cases/role/customer-support#use-case-353) | CS | SaaS/Tech | Analysis | NPS survey response +20–30% |
+| 349 | [AI SLA Compliance Tracker](/use-cases/role/customer-support#use-case-354) | CS | SaaS/Tech | Research | Breach found 14 days earlier |
+| 350 | [AI Customer Segmentation Advisor](/use-cases/role/customer-support#use-case-355) | CS | SaaS/Tech | Analysis | Coverage misalignment: 20–25% found |
+| 351 | [AI Renewal Negotiation Prep Assistant](/use-cases/role/customer-support#use-case-356) | CS | SaaS/Tech | Analysis | Renewal rate +8–12 pts |
+| 352 | [AI Contract Clause Risk Analyzer](/use-cases/role/legal#use-case-357) | Legal | Enterprise | Analysis | Risk issues: 3–5 caught per contract |
+| 353 | [AI Privacy Policy Generator](/use-cases/role/legal#use-case-358) | Legal | SaaS/Tech | Writing | Policy drafting: 12–20h → structured |
+| 354 | [AI GDPR Compliance Checklist Builder](/use-cases/role/legal#use-case-359) | Legal | Enterprise | Research | Compliance coverage automated |
+| 355 | [AI Terms of Service Reviewer](/use-cases/role/legal#use-case-360) | Legal | SaaS/Tech | Analysis | Review time -40% |
+| 356 | [AI NDA Redline Suggester](/use-cases/role/legal#use-case-361) | Legal | Enterprise | Analysis | NDA review time reduced |
+| 357 | [AI Regulatory Filing Summarizer](/use-cases/role/legal#use-case-362) | Legal | Enterprise | Research | 500–800 page docs → structured brief |
+| 358 | [AI IP Portfolio Analyzer](/use-cases/role/legal#_3-ai-ip-portfolio-analyzer) | Legal | SaaS/Biotech | Analysis | IP cost -85–90% vs law firm |
+| 359 | [AI Legal Research Synthesizer](/use-cases/role/legal#use-case-364) | Legal | Enterprise | Research | Research quality + knowledge reuse |
+| 360 | [AI Corporate Policy Drafter](/use-cases/role/legal#use-case-365) | Legal | Enterprise | Writing | Policy drafting streamlined |
+| 361 | [AI Compliance Training Content Creator](/use-cases/role/legal#use-case-366) | Legal | Enterprise | Writing | Training creation: 100+h → 12–18h |
+| 362 | [AI Due Diligence Checklist Generator](/use-cases/role/legal#use-case-367) | Legal | Enterprise | Analysis | DD prep time reduced |
+| 363 | [AI Litigation Risk Assessor](/use-cases/role/legal#use-case-368) | Legal | Enterprise | Analysis | Risk analysis -40% time |
+| 364 | [AI Employment Law Compliance Advisor](/use-cases/role/legal#use-case-369) | Legal | Enterprise | Research | Compliance errors -55% |
+| 365 | [AI Data Processing Agreement Generator](/use-cases/role/legal#use-case-370) | Legal | SaaS/Tech | Writing | DPA production automated |
+| 366 | [AI Board Meeting Minutes Summarizer](/use-cases/role/legal#use-case-371) | Legal | Enterprise | Writing | Minutes: hours → structured output |
+| 367 | [AI Contract Renewal Terms Optimizer](/use-cases/role/legal#use-case-372) | Legal | Enterprise | Analysis | Auto-renewals flagged: 83% miss rate |
+| 368 | [AI Sales Pipeline Health Analyzer](/use-cases/role/sales#use-case-373) | Sales | SaaS/B2B | Analysis | Forecast accuracy: ±30% → ±12% |
+| 369 | [AI Prospect Research Synthesizer](/use-cases/role/sales#use-case-374) | Sales | SaaS/B2B | Research | Prep: 45–60 min → 10–15 min |
+| 370 | [AI Sales Email Personalization Engine](/use-cases/role/sales#use-case-375) | Sales | SaaS/B2B | Writing | Response rate: 2–3% → 8–12% |
+| 371 | [AI Deal Risk Assessor](/use-cases/role/sales#use-case-376) | Sales | SaaS/B2B | Analysis | Late-stage loss rate -30–35% |
+| 372 | [AI Win-Loss Debrief Analyzer](/use-cases/role/sales#use-case-377) | Sales | SaaS/B2B | Analysis | Win rate +15–20% over 4 qtrs |
+| 373 | [AI Sales Call Summary Generator](/use-cases/role/sales#use-case-378) | Sales | SaaS/B2B | Writing | Post-call: 20–30 min → 3–5 min |
+| 374 | [AI CRM Data Quality Auditor](/use-cases/role/sales#use-case-379) | Sales | SaaS/B2B | Automation | Forecast accuracy +20–25% |
+| 375 | [AI Sales Proposal Generator](/use-cases/role/sales#use-case-380) | Sales | SaaS/B2B | Writing | Proposal: 3–6h → 45–60 min |
+| 376 | [AI Territory Planning Advisor](/use-cases/role/sales#use-case-381) | Sales | SaaS/B2B | Analysis | Planning: 4–6 wks → 2 wks |
+| 377 | [AI Sales Forecast Builder](/use-cases/role/sales#use-case-382) | Sales | SaaS/B2B | Analysis | Variance: ±25% → ±12% |
+| 378 | [AI Customer Objection Handler](/use-cases/role/sales#use-case-383) | Sales | SaaS/B2B | Writing | Objection conversion +28% |
+| 379 | [AI RFP Response Assistant](/use-cases/role/sales#use-case-384) | Sales | SaaS/B2B | Writing | RFP time: 40–80h → 20–35h |
+| 380 | [AI Account Expansion Opportunity Identifier](/use-cases/role/sales#use-case-385) | Sales | SaaS/B2B | Analysis | NRR: 105–110% → 115–125% |
+| 381 | [AI Sales Enablement Content Creator](/use-cases/role/sales#use-case-386) | Sales | SaaS/B2B | Writing | Competitive win rate +25% |
+| 382 | [AI Buyer Persona Builder](/use-cases/role/sales#use-case-387) | Sales | SaaS/B2B | Research | Meeting acceptance +28% |
+| 383 | [AI Partnership Proposal Writer](/use-cases/role/sales#use-case-388) | Sales | SaaS/B2B | Writing | Partner response rate: 5–10% → 25–30% |
+| 384 | [AI Sales Playbook Updater](/use-cases/role/sales#use-case-389) | Sales | SaaS/B2B | Writing | Playbook accuracy: 60–70% → 90%+ |
+| 385 | [AI Model Evaluation Report Generator](/use-cases/role/data-analyst#_27-ai-model-evaluation-report-generator) | Data Science | SaaS/Tech | Writing | Evaluation: 3–5h → structured report |
+| 386 | [AI Feature Engineering Advisor](/use-cases/role/data-analyst#_28-ai-feature-engineering-advisor) | Data Science | SaaS/Tech | Analysis | Feature selection time reduced |
+| 387 | [AI ML Pipeline Debugging Assistant](/use-cases/role/data-analyst#_29-ai-ml-pipeline-debugging-assistant) | Data Science | SaaS/Tech | Automation | Reproducibility +78% |
+| 388 | [AI A/B Test Results Analyzer](/use-cases/role/data-analyst#_30-ai-ab-test-results-analyzer) | Data Science | SaaS/Tech | Analysis | False positive rate: 40% → controlled |
+| 389 | [AI Data Quality Audit Advisor](/use-cases/role/data-analyst#_31-ai-data-quality-audit-advisor) | Data Science | SaaS/Tech | Analysis | Audit: 2–3 wks → 2–3 days |
+| 390 | [AI ML Experiment Tracker](/use-cases/role/data-analyst#_32-ai-ml-experiment-tracker) | Data Science | SaaS/Tech | Automation | Reproducibility scores +78% |
+| 391 | [AI Data Pipeline Documentation Writer](/use-cases/role/data-analyst#_33-ai-data-pipeline-documentation-writer) | Data Science | SaaS/Tech | Writing | Pipeline docs automated |
+| 392 | [AI Model Bias and Fairness Auditor](/use-cases/role/data-analyst#_34-ai-model-bias-and-fairness-auditor) | Data Science | SaaS/Tech | Research | Fairness audit with compliance docs |
+| 393 | [AI SQL Query Optimizer](/use-cases/role/data-analyst#_35-ai-sql-query-optimizer) | Data Science | SaaS/Tech | Analysis | Query time -67% avg |
+| 394 | [AI Business Dashboard Design Advisor](/use-cases/role/data-analyst#_36-ai-business-dashboard-design-advisor) | Data Science | SaaS/Enterprise | Analysis | Dashboard users: 8 → 34/wk |
+| 395 | [AI Stakeholder Data Report Generator](/use-cases/role/data-analyst#_37-ai-stakeholder-data-report-generator) | Data Science | SaaS/Enterprise | Writing | Decision action rate: 23% → 61% |
+| 396 | [AI Time Series Forecasting Assistant](/use-cases/role/data-analyst#_38-ai-time-series-forecasting-assistant) | Data Science | SaaS/Enterprise | Analysis | MAPE: 28% → 14% |
+| 397 | [AI Data Governance Policy Writer](/use-cases/role/data-analyst#_39-ai-data-governance-policy-writer) | Data Science | SaaS/Enterprise | Writing | Policy compliance: 34% → 71% |
+| 398 | [AI ML Model Documentation Generator](/use-cases/role/data-analyst#_40-ai-ml-model-documentation-generator) | Data Science | SaaS/Enterprise | Writing | Deployment docs: 8% → 64% complete |
+| 399 | [AI Data Strategy Roadmap Builder](/use-cases/role/data-analyst#_41-ai-data-strategy-roadmap-builder) | Data Science | SaaS/Enterprise | Analysis | Budget approval: 52% → 79% |
+| 400 | [AI Causal Inference Advisor](/use-cases/role/data-analyst#_42-ai-causal-inference-advisor) | Data Science | SaaS/Enterprise | Analysis | Causal errors: 71% → 28% |

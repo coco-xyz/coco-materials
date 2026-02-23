@@ -148,6 +148,7 @@ Each case on docs pages uses VitePress `:::details` blocks:
 - **解决方案**: 对特别长的 role 页面，考虑加 frontmatter `outline: false` 隐藏空的 outline 栏；或拆分页面
 - **注意**: 每次 build 后检查 outline 是否正常渲染
 
+
 ## 6. New Industries & Roles for Batch 4
 
 To expand coverage, batch 4 adds cases in:

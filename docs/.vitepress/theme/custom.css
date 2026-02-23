@@ -94,3 +94,18 @@
   height: 28px;
   width: auto;
 }
+
+/* ===== Mobile-responsive tables ===== */
+.vp-doc table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+  width: 100%;
+  max-width: 100%;
+}
+.vp-doc table td,
+.vp-doc table th {
+  white-space: normal;
+  min-width: 80px;
+}
