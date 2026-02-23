@@ -6,8 +6,9 @@
 - **Batch 2**: Cases #035-064 (30 cases)
 - **Batch 3**: Cases #065-104 (40 cases)
 - **Batch 4**: Cases #105-204 (100 cases)
-- **Batch 5+**: Cases #205+ (ongoing, 26 added 2026-02-21)
-- **Total**: 226+ cases and growing
+- **Batch 5**: Cases #232-#405 (174 cases, merged 2026-02-23)
+- **Batch 6+**: Cases #406+ (ongoing)
+- **Total**: 400+ cases and growing
 
 ## 1. Use Case Content Format (3-Part Structure)
 
@@ -23,15 +24,48 @@ Each case file contains:
 ```
 
 ### Part 2: Detailed Introduction
-- **Pain point description**: Real industry context, specific metrics
-- **How COCO solves it**: Step-by-step workflow (4-6 steps)
-- **Measurable results**: Quantified improvements (time, cost, quality)
-- **Who benefits**: 3-4 beneficiary roles with specific value
+
+#### EN file structure (`## Detailed Introduction`)
+
+**Pain section** (`**The Pain: [Case Title]**`)
+- 2-3 paragraphs of detailed industry context
+- Include case title as bold sub-heading
+- Specific metrics and dollar amounts (e.g. "$400 per article", "6-10 hours each")
+- Describe the structural/systemic problem, not just the symptom
+
+**How COCO Solves It** (`**How COCO Solves It**`)
+- Exactly **6 numbered mechanisms**, each with a bold label and 4-6 indented sub-points
+- Format: `1. **[Mechanism Name]**: [brief description]\n   - sub-point\n   - sub-point`
+- Steps must be COCO-specific (not generic AI), showing concrete workflow
+
+**Measurable Results** (`**Measurable Results**`)
+- Exactly **5 data points**, each on its own line, **all bolded**
+- Format: `- **[Metric label]**: [Before] → [After] or [X% improvement]`
+- Mix time savings, cost reduction, quality improvements, volume increases
+
+**Who Benefits** (`**Who Benefits**`)
+- Exactly **4 beneficiary roles**, each with a 1-sentence specific value statement
+- Format: `- **[Role Title]**: [specific value they get]`
+
+#### CN file structure (`## 详细介绍`)
+Mirror of EN but fully in Chinese:
+- `**痛点：[案例标题]**` — 2-3 paragraphs in Chinese
+- `**COCO如何解决**` — 6 numbered steps with sub-points in Chinese
+- `**可量化的成果**` — 5 bolded data points in Chinese
+- `**受益人群**` — 4 roles with descriptions in Chinese
 
 ### Part 3: Practical Prompts
-- 3-5 ready-to-use prompts
-- Copy-paste ready with `[placeholders]`
-- Covers different aspects of the use case
+
+#### EN: `## Practical Prompts`
+- **3-5 prompts** (aim for 4-5)
+- Each prompt has a bold label: `**Prompt N: [Descriptive Title]**`
+- Content in fenced code block (triple backtick)
+- Copy-paste ready with `[placeholder]` for user-specific values
+- Cover different aspects: core task, edge case, scale/batch, analysis, reporting
+
+#### CN: `## 实用提示词`
+- Same structure but fully in Chinese
+- Prompts translated to Chinese with `[占位符]` instead of `[placeholder]`
 
 ## 2. File Storage (三维分类)
 
@@ -48,6 +82,7 @@ coco-content/use-cases/
 ```
 
 **Rules:**
+- **MANDATORY: Every case MUST have BOTH EN and CN versions — all 6 files required, no exceptions**
 - CN files contain ONLY Chinese content (中对中)
 - EN files contain ONLY English content (英对英)
 - Same case number, same slug across all 3 dimensions
@@ -65,29 +100,38 @@ analysis, automation, bug-fix, code-review, compliance, content, deployment, doc
 ## 3. Docs Page Sync Strategy
 
 ### Collapsible Format on Docs Pages
-Each case on docs pages uses VitePress `:::details` blocks:
+
+**Standard format — 3 collapsibles (videos ONLY added when the .mp4 file actually exists):**
 
 ```markdown
 ## N. [Case Title]
 
 > [One-line summary hook]
 
-::: details 🎬 Watch Demo Video / 观看演示视频
-<video controls style="...">
-  <source src="/videos/en|cn/NNN-slug.mp4" type="video/mp4">
-</video>
-:::
-
-::: details Pain Point & How COCO Solves It / 痛点与解决方案
+::: details 痛点与解决方案
 [Detailed introduction content]
 :::
 
-::: details Results & Who Benefits / 量化结果与受益角色
+::: details 量化结果与受益角色
 [Results + beneficiaries]
 :::
 
-::: details Practical Prompts / 实用提示词
+::: details 💡 实用提示词
 [3-5 prompts]
+:::
+```
+
+EN version uses: `Pain Point & How COCO Solves It`, `Results & Who Benefits`, `💡 Practical Prompts`
+
+**Video section rule:**
+- **DO NOT add the video block** if the .mp4 file hasn't been generated yet.
+- Only add the video `::: details 🎬` block AFTER the video file is confirmed ready.
+- Video block format (add as the FIRST details block, before 痛点):
+```markdown
+::: details 🎬 观看演示视频
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/NNN-slug.mp4" type="video/mp4">
+</video>
 :::
 ```
 
@@ -97,11 +141,52 @@ Each case on docs pages uses VitePress `:::details` blocks:
 - Same for `/task/` and `/industry/`
 - Sidebar config in `docs/.vitepress/config.mjs`
 
+### VitePress Preview Build (CRITICAL — Read Before Building)
+
+**1. Build + Deploy — always use this exact sequence (NO shortcuts):**
+```bash
+# Step 1: Build with base path — VITEPRESS_BASE=/preview/ is MANDATORY
+cd /home/op/zylos/workspace/coco-materials
+VITEPRESS_BASE=/preview/ npx vitepress build docs
+
+# Step 2: Deploy — rm + cp, not just cp
+rm -rf /home/op/zylos/http/public/preview/
+cp -r docs/.vitepress/dist/ /home/op/zylos/http/public/preview/
+```
+⚠️ **WITHOUT `VITEPRESS_BASE=/preview/`**: all CSS/JS assets 404 → page renders blank / broken.
+⚠️ **Without `rm -rf` first**: stale files from previous builds may persist.
+
+**2. Index table entries — full row format, no blank lines, with anchor links:**
+The all-cases index tables (`docs/use-cases/index.md` and `docs/zh/use-cases/index.md`) must follow this exact format:
+
+```
+| ROW_NUM | [Case Title](/zh/use-cases/role/PAGE#ANCHOR) | 角色 | 行业 | 任务类型 | 指标 |
+```
+
+Rules:
+- **All 6 columns required** — Row#, linked title, 角色, 行业, 任务类型, 指标. Never omit columns.
+- **Anchor links are mandatory** — Link must include `#ANCHOR` to jump to the specific heading on the role page. Anchor format: `#_N-heading-text` (lowercase, spaces→`-`, leading digit prefixed with `_`). E.g. `#_1-ai-品牌资产一致性审计员`.
+- **No blank lines between rows** — append new rows directly after the last existing table row. A blank line breaks the markdown table.
+- Strip all `**bold**` / `*italic*` markers from metric text
+- Replace any `|` pipe characters with `/`
+- Remove any `[link](url)` markdown in cell values
+- Keep metric text ≤55 characters
+- Row numbers must be sequential (no gaps, no restarts). Find the last row number and continue from N+1.
+Failure to follow these rules causes: broken table rendering, missing columns, or non-functional links.
+
+**3. Deploy after build:**
+```bash
+rm -rf /home/op/zylos/http/public/preview/
+cp -r docs/.vitepress/dist/ /home/op/zylos/http/public/preview/
+```
+
+**4. Dead links cause build failure:**
+Every role/industry/task page linked from the index must have a corresponding `.md` file in `docs/use-cases/role/`. Create missing pages before building.
+
 ### Sync Timing (CRITICAL)
 - Content markdown + video mp4 MUST both be ready before updating docs pages
-- Batch 4 content files: generate now
-- Batch 4 videos: generate after content reviewed
-- Batch 4 docs pages: update ONLY after content + videos both ready
+- Content docs pages: can preview without videos (video tags stay as placeholders)
+- Docs pages: update ONLY after Stephanie review of content
 - Stephanie审核 required before any docs update
 
 ## 4. Quality Standards
@@ -125,9 +210,12 @@ Each case on docs pages uses VitePress `:::details` blocks:
 
 每次新增 use case 并 merge 到 main 后，必须更新以下两处：
 
-### A. 主页卡片 (Homepage Cards)
+### A. 主页卡片 (Homepage Cards) — 每批次必更新
 - 文件：`docs/index.md`（EN）和 `docs/zh/index.md`（CN）
-- 更新内容：新角色/分类的 use case 数量统计，以及对应卡片描述
+- 更新内容：用例总数（`XXX Use Cases` / `XXX 用例库`）、角色数、场景数
+- **必须与实际 batch 总数一致**。每次 batch 合并后立即更新，不要等到下一批次。
+- EN 示例：`title: 600 Use Cases` + `details: 600 real-world scenarios across 25 roles...`
+- CN 示例：`title: 600 用例库` + `details: 覆盖25个角色、19个行业的600个真实场景...`
 
 ### B. 用例库-全部用例一览 (All Use Cases Overview)
 - 文件：`docs/use-cases/index.md`（EN）和 `docs/zh/use-cases/index.md`（CN）
@@ -138,6 +226,40 @@ Each case on docs pages uses VitePress `:::details` blocks:
 - 更新内容：在对应角色页末尾添加新 use case（collapsible :::details 格式）
 
 **顺序**: A + B + C 更新完毕 → 重新 build VitePress → 部署 preview → Stephanie 确认 → 创建 PR
+
+### D. EN/zh 同步强制规则 (MANDATORY: EN and zh must always be in sync)
+
+**每次新增 use case，EN 和 zh 必须同步完成，不得只更新一边。**
+
+具体要求：
+1. **内容文件**（coco-content/）：每个 case 必须同时生成 EN + zh 共 6 个文件，缺一不可（见 Section 2）
+2. **角色页面**（docs/use-cases/role/ 和 docs/zh/use-cases/role/）：每次向 EN 角色页添加 case 段落，必须同步向对应 zh 角色页添加中文翻译段落
+3. **index 文件**（docs/use-cases/index.md 和 docs/zh/use-cases/index.md）：两个 index 的行数必须相等（当前目标：均为 600 行）
+
+**验证方法**（每次 batch 完成后必须执行）：
+```bash
+python3 -c "
+import re
+for path, label in [('docs/use-cases/index.md','EN'), ('docs/zh/use-cases/index.md','zh')]:
+    with open(path) as f: content = f.read()
+    rows = re.findall(r'^\| \d+ \|', content, re.MULTILINE)
+    print(f'{label} index rows: {len(rows)}')
+
+pages = ['pm','dev','executive','data-analyst','legal','operations','finance','hr-recruiting','customer-support','sales','content-marketing','devops','qa-engineer']
+for page in pages:
+    counts = []
+    for prefix, label in [('docs/use-cases/role','EN'), ('docs/zh/use-cases/role','zh')]:
+        import os
+        path = f'{prefix}/{page}.md'
+        if not os.path.exists(path): counts.append(f'{label}:MISSING'); continue
+        with open(path) as f: c = f.read()
+        n = len(re.findall(r'^## \d+\.', c, re.MULTILINE))
+        counts.append(f'{label}:{n}')
+    if counts[0] != counts[1]: print(f'MISMATCH {page}: {\" vs \".join(counts)}')
+"
+```
+
+如果 EN 和 zh 行数不一致，必须找出缺失的 case 并补翻，**不得以 EN 多于 zh 为由直接发 PR**。
 
 ## 5c. VitePress Preview 已知问题
 
