@@ -82,6 +82,7 @@ coco-content/use-cases/
 ```
 
 **Rules:**
+- **MANDATORY: Every case MUST have BOTH EN and CN versions — all 6 files required, no exceptions**
 - CN files contain ONLY Chinese content (中对中)
 - EN files contain ONLY English content (英对英)
 - Same case number, same slug across all 3 dimensions
