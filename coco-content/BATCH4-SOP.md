@@ -141,14 +141,23 @@ VITEPRESS_BASE=/preview/ NODE_OPTIONS="--max-old-space-size=8192" \
 ```
 Without `VITEPRESS_BASE=/preview/`, all CSS/JS assets will 404 and the page will be blank.
 
-**2. Index table entries — strip all markdown before inserting, no blank lines:**
-The all-cases index tables (`docs/use-cases/index.md` and `docs/zh/use-cases/index.md`) must contain PLAIN TEXT only in each cell.
+**2. Index table entries — full row format, no blank lines, with anchor links:**
+The all-cases index tables (`docs/use-cases/index.md` and `docs/zh/use-cases/index.md`) must follow this exact format:
+
+```
+| ROW_NUM | [Case Title](/zh/use-cases/role/PAGE#ANCHOR) | 角色 | 行业 | 任务类型 | 指标 |
+```
+
+Rules:
+- **All 6 columns required** — Row#, linked title, 角色, 行业, 任务类型, 指标. Never omit columns.
+- **Anchor links are mandatory** — Link must include `#ANCHOR` to jump to the specific heading on the role page. Anchor format: `#_N-heading-text` (lowercase, spaces→`-`, leading digit prefixed with `_`). E.g. `#_1-ai-品牌资产一致性审计员`.
 - **No blank lines between rows** — append new rows directly after the last existing table row. A blank line breaks the markdown table.
 - Strip all `**bold**` / `*italic*` markers from metric text
 - Replace any `|` pipe characters with `/`
 - Remove any `[link](url)` markdown in cell values
 - Keep metric text ≤55 characters
-Failure to do this will cause the table to render as broken inline text.
+- Row numbers must be sequential (no gaps, no restarts). Find the last row number and continue from N+1.
+Failure to follow these rules causes: broken table rendering, missing columns, or non-functional links.
 
 **3. Deploy after build:**
 ```bash
@@ -186,9 +195,12 @@ Every role/industry/task page linked from the index must have a corresponding `.
 
 每次新增 use case 并 merge 到 main 后，必须更新以下两处：
 
-### A. 主页卡片 (Homepage Cards)
+### A. 主页卡片 (Homepage Cards) — 每批次必更新
 - 文件：`docs/index.md`（EN）和 `docs/zh/index.md`（CN）
-- 更新内容：新角色/分类的 use case 数量统计，以及对应卡片描述
+- 更新内容：用例总数（`XXX Use Cases` / `XXX 用例库`）、角色数、场景数
+- **必须与实际 batch 总数一致**。每次 batch 合并后立即更新，不要等到下一批次。
+- EN 示例：`title: 600 Use Cases` + `details: 600 real-world scenarios across 25 roles...`
+- CN 示例：`title: 600 用例库` + `details: 覆盖25个角色、19个行业的600个真实场景...`
 
 ### B. 用例库-全部用例一览 (All Use Cases Overview)
 - 文件：`docs/use-cases/index.md`（EN）和 `docs/zh/use-cases/index.md`（CN）
