@@ -436,7 +436,6 @@
 | 379 | [AI RFP 响应助手](/zh/use-cases/role/sales#_36-ai-rfp-响应助手) | 销售 | SaaS/B2B | 文案写作 | RFP时间：40–80小时 → 20–35小时 |
 | 380 | [AI 账户扩展机会识别器](/zh/use-cases/role/sales#_37-ai-账户扩展机会识别器) | 销售 | SaaS/B2B | 数据分析 | NRR：105–110% → 115–125% |
 | 381 | [AI 销售赋能内容创建器](/zh/use-cases/role/sales#_38-ai-销售赋能内容创建器) | 销售 | SaaS/B2B | 文案写作 | 竞争赢单率+25% |
-
 | 363 | [Use Case #406: AI Brand Asset Consistency Auditor](/zh/use-cases/role/designer) |
 | 364 | [Use Case #407: AI客户生命周期邮件优化器](/zh/use-cases/role/content-marketing) |
 | 365 | [Use Case #408: AI销售通话辅导引擎](/zh/use-cases/role/sales) |

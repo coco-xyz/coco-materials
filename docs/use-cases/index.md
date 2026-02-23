@@ -474,7 +474,6 @@ Find use cases by what you need to get done:
 | 398 | [AI ML Model Documentation Generator](/use-cases/role/data-analyst#_40-ai-ml-model-documentation-generator) | Data Science | SaaS/Enterprise | Writing | Deployment docs: 8% → 64% complete |
 | 399 | [AI Data Strategy Roadmap Builder](/use-cases/role/data-analyst#_41-ai-data-strategy-roadmap-builder) | Data Science | SaaS/Enterprise | Analysis | Budget approval: 52% → 79% |
 | 400 | [AI Causal Inference Advisor](/use-cases/role/data-analyst#_42-ai-causal-inference-advisor) | Data Science | SaaS/Enterprise | Analysis | Causal errors: 71% → 28% |
-
 | 401 | [AI Brand Asset Consistency Auditor](/use-cases/role/designer) | Brand Designer | SaaS | Brand Compliance | Audit cycle time: From 3 weeks manual review to 4 hours |
 | 402 | [AI Customer Lifecycle Email Optimizer](/use-cases/role/content-marketing) | Marketing Manager | E-Commerce | Lifecycle Marketing | Email open rate: From 19% average to 31% with COCO-opti |
 | 403 | [AI Sales Call Coaching Engine](/use-cases/role/sales) | Sales Manager | SaaS | Sales Enablement | Win rate improvement: Teams using COCO call coaching se |

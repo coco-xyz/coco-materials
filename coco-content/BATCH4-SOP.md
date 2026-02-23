@@ -141,8 +141,9 @@ VITEPRESS_BASE=/preview/ NODE_OPTIONS="--max-old-space-size=8192" \
 ```
 Without `VITEPRESS_BASE=/preview/`, all CSS/JS assets will 404 and the page will be blank.
 
-**2. Index table entries — strip all markdown before inserting:**
+**2. Index table entries — strip all markdown before inserting, no blank lines:**
 The all-cases index tables (`docs/use-cases/index.md` and `docs/zh/use-cases/index.md`) must contain PLAIN TEXT only in each cell.
+- **No blank lines between rows** — append new rows directly after the last existing table row. A blank line breaks the markdown table.
 - Strip all `**bold**` / `*italic*` markers from metric text
 - Replace any `|` pipe characters with `/`
 - Remove any `[link](url)` markdown in cell values
