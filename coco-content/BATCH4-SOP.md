@@ -134,12 +134,18 @@ Each case on docs pages uses VitePress `:::details` blocks:
 
 ### VitePress Preview Build (CRITICAL — Read Before Building)
 
-**1. Build command — always set the base path:**
+**1. Build + Deploy — always use this exact sequence (NO shortcuts):**
 ```bash
-VITEPRESS_BASE=/preview/ NODE_OPTIONS="--max-old-space-size=8192" \
-  node_modules/.bin/vitepress build docs
+# Step 1: Build with base path — VITEPRESS_BASE=/preview/ is MANDATORY
+cd /home/op/zylos/workspace/coco-materials
+VITEPRESS_BASE=/preview/ npx vitepress build docs
+
+# Step 2: Deploy — rm + cp, not just cp
+rm -rf /home/op/zylos/http/public/preview/
+cp -r docs/.vitepress/dist/ /home/op/zylos/http/public/preview/
 ```
-Without `VITEPRESS_BASE=/preview/`, all CSS/JS assets will 404 and the page will be blank.
+⚠️ **WITHOUT `VITEPRESS_BASE=/preview/`**: all CSS/JS assets 404 → page renders blank / broken.
+⚠️ **Without `rm -rf` first**: stale files from previous builds may persist.
 
 **2. Index table entries — full row format, no blank lines, with anchor links:**
 The all-cases index tables (`docs/use-cases/index.md` and `docs/zh/use-cases/index.md`) must follow this exact format:
