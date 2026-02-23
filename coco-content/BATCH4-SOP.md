@@ -227,6 +227,40 @@ Every role/industry/task page linked from the index must have a corresponding `.
 
 **顺序**: A + B + C 更新完毕 → 重新 build VitePress → 部署 preview → Stephanie 确认 → 创建 PR
 
+### D. EN/zh 同步强制规则 (MANDATORY: EN and zh must always be in sync)
+
+**每次新增 use case，EN 和 zh 必须同步完成，不得只更新一边。**
+
+具体要求：
+1. **内容文件**（coco-content/）：每个 case 必须同时生成 EN + zh 共 6 个文件，缺一不可（见 Section 2）
+2. **角色页面**（docs/use-cases/role/ 和 docs/zh/use-cases/role/）：每次向 EN 角色页添加 case 段落，必须同步向对应 zh 角色页添加中文翻译段落
+3. **index 文件**（docs/use-cases/index.md 和 docs/zh/use-cases/index.md）：两个 index 的行数必须相等（当前目标：均为 600 行）
+
+**验证方法**（每次 batch 完成后必须执行）：
+```bash
+python3 -c "
+import re
+for path, label in [('docs/use-cases/index.md','EN'), ('docs/zh/use-cases/index.md','zh')]:
+    with open(path) as f: content = f.read()
+    rows = re.findall(r'^\| \d+ \|', content, re.MULTILINE)
+    print(f'{label} index rows: {len(rows)}')
+
+pages = ['pm','dev','executive','data-analyst','legal','operations','finance','hr-recruiting','customer-support','sales','content-marketing','devops','qa-engineer']
+for page in pages:
+    counts = []
+    for prefix, label in [('docs/use-cases/role','EN'), ('docs/zh/use-cases/role','zh')]:
+        import os
+        path = f'{prefix}/{page}.md'
+        if not os.path.exists(path): counts.append(f'{label}:MISSING'); continue
+        with open(path) as f: c = f.read()
+        n = len(re.findall(r'^## \d+\.', c, re.MULTILINE))
+        counts.append(f'{label}:{n}')
+    if counts[0] != counts[1]: print(f'MISMATCH {page}: {\" vs \".join(counts)}')
+"
+```
+
+如果 EN 和 zh 行数不一致，必须找出缺失的 case 并补翻，**不得以 EN 多于 zh 为由直接发 PR**。
+
 ## 5c. VitePress Preview 已知问题
 
 ### 右侧 Outline 侧边栏为空（反复出现）

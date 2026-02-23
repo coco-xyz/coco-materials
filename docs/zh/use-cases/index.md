@@ -9,18 +9,18 @@
 | 角色 | 数量 | 核心场景 |
 |------|------|---------|
 | [产品经理](/zh/use-cases/role/product) | 19 | 情感分析、项目状态报告、冲刺规划、发版说明、工作流自动化 |
-| [研发工程](/zh/use-cases/role/dev) | 48 | 代码审查、测试生成、部署监控、API文档、安全扫描、缺陷排序... |
+| [研发工程](/zh/use-cases/role/dev) | 54 | 代码审查、测试生成、部署监控、API文档、安全扫描、缺陷排序... |
 | [运营](/zh/use-cases/role/operations) | 69 | 会议纪要、库存预测、供应商评估... |
 | [财务](/zh/use-cases/role/finance) | 41 | 费用审核、财务报告、发票处理... |
 | [内容/营销](/zh/use-cases/role/content-marketing) | 48 | SEO写作、社媒管理、广告文案、品牌监控... |
 | [客服](/zh/use-cases/role/customer-support) | 40 | 工单分类、知识库、多语言客服... |
 | [HR/招聘](/zh/use-cases/role/hr-recruiting) | 39 | 简历筛选、JD撰写、面试排期、入职助手... |
 | [销售](/zh/use-cases/role/sales) | 50 | 线索挖掘、CRM更新、方案生成、销售预测... |
-| [法律](/zh/use-cases/role/legal) | 28 | AI合同分析师、AI保密协议生成器、AI知识产权组合分析器... |
-| [高管](/zh/use-cases/role/executive) | 21 | AI高管简报生成器、AI年度报告汇编器、AI OKR进度追踪器... |
-| [数据分析师](/zh/use-cases/role/data-analyst) | 48 | AI房产估值助手、AI作物产量预测器、AI剧本评审阅读器... |
+| [法律](/zh/use-cases/role/legal) | 36 | AI合同分析师、AI保密协议生成器、AI知识产权组合分析器... |
+| [高管](/zh/use-cases/role/executive) | 23 | AI高管简报生成器、AI年度报告汇编器、AI OKR进度追踪器... |
+| [数据分析师](/zh/use-cases/role/data-analyst) | 50 | AI房产估值助手、AI作物产量预测器、AI剧本评审阅读器... |
 | [DevOps运维](/zh/use-cases/role/devops) | 11 | AI网络容量规划师、AI太阳能板性能监控器... |
-| [项目经理](/zh/use-cases/role/pm) | 20 | AI活动后勤规划器、AI筹款活动策划器... |
+| [项目经理](/zh/use-cases/role/pm) | 21 | AI活动后勤规划器、AI筹款活动策划器... |
 | [QA工程师](/zh/use-cases/role/qa-engineer) | 8 | AI生产缺陷检测器、AI统计过程控制监控器、AI无障碍合规检查器... |
 | [合规官](/zh/use-cases/role/compliance-officer) | 15 | AI许可证申请追踪器、AI车辆召回监控器、AI碳足迹报告生成器... |
 | [咨询顾问](/zh/use-cases/role/consultant) | 13 | AI战略简报撰写器、AI尽职调查编撰器、AI咨询方案构建器... |
@@ -312,6 +312,7 @@
 | 236 | [AI 用户画像深度构建器](/zh/use-cases/role/pm#_8-ai-用户画像深度构建器) | 产品经理 | SaaS/B2B | 调研与监控 | 决策引用数提升3.2倍 |
 | 237 | [AI 冲刺回顾会议促进器](/zh/use-cases/role/pm#_9-ai-冲刺回顾会议促进器) | 产品经理 | SaaS/B2B | 流程自动化 | 执行完成率：67% 对比均值39% |
 | 238 | [AI 产品分析叙事师](/zh/use-cases/role/pm#_10-ai-产品分析叙事师) | 产品经理 | SaaS/B2B | 数据分析 | 决策执行率+47% |
+| 239 | [AI Beta测试协调员](/zh/use-cases/role/pm#_21-ai-beta测试协调员) | 产品经理 | SaaS/B2B | 调研与监控 | 正式发布后问题-54% |
 | 240 | [AI 产品路线图优先级排序顾问](/zh/use-cases/role/pm#_11-ai-产品路线图优先级排序顾问) | 产品经理 | SaaS/B2B | 数据分析 | 功能采纳率+38% |
 | 241 | [AI 客户反馈聚合器](/zh/use-cases/role/pm#_12-ai-客户反馈聚合器) | 产品经理 | SaaS/B2B | 调研与监控 | 综合分析时间：7.4h → 90min |
 | 242 | [AI PRD 撰写助手](/zh/use-cases/role/pm#_13-ai-prd-撰写助手) | 产品经理 | SaaS/B2B | 文案写作 | PRD：4–6小时 → 60–90分钟 |
@@ -322,6 +323,12 @@
 | 247 | [AI 数据库模式优化器](/zh/use-cases/role/dev#_38-ai-数据库模式优化器) | 研发工程 | 科技/SaaS | 数据分析 | 查询性能提升60–85% |
 | 248 | [AI 事故复盘报告撰写器](/zh/use-cases/role/dev#_39-ai-事故复盘报告撰写器) | 研发工程 | 科技/SaaS | 文案写作 | 完成率：31% → 84% |
 | 249 | [AI 依赖漏洞扫描器](/zh/use-cases/role/dev#_40-ai-依赖漏洞扫描器) | 研发工程 | 科技/SaaS | 调研与监控 | 补丁时间：47 → 12天 |
+| 250 | [AI测试用例生成器](/zh/use-cases/role/dev#_49-ai测试用例生成器) | 研发工程 | 科技/金融 | 流程自动化 | 缺陷逃逸率-49% |
+| 251 | [AI代码重构策略师](/zh/use-cases/role/dev#_50-ai代码重构策略师) | 研发工程 | 科技/金融 | 数据分析 | 重构后缺陷密度-44% |
+| 252 | [AI系统架构顾问](/zh/use-cases/role/dev#_51-ai系统架构顾问) | 研发工程 | 科技/平台 | 数据分析 | 架构重大调整-63% |
+| 253 | [AI CI/CD流水线优化器](/zh/use-cases/role/dev#_52-ai-ci-cd流水线优化器) | 研发工程 | 科技/平台 | 流程自动化 | 流水线时间-52% |
+| 254 | [AI错误日志分析器](/zh/use-cases/role/dev#_53-ai错误日志分析器) | 研发工程 | 科技/电商 | 数据分析 | 诊断时间-58% |
+| 255 | [AI开源贡献审查员](/zh/use-cases/role/dev#_54-ai开源贡献审查员) | 研发工程 | 科技/平台 | 调研与监控 | 审查周期-54% |
 | 256 | [AI 预算差异解析助手](/zh/use-cases/role/finance#_21-ai-预算差异解析助手) | 财务 | 金融/SaaS | 数据分析 | 差异准备时间：15–30小时 → 4–6小时 |
 | 257 | [AI 投资者关系准备助手](/zh/use-cases/role/finance#_22-ai-投资者关系准备助手) | 财务 | 金融/SaaS | 文案写作 | 财报准备时间减少50–55% |
 | 258 | [AI 税务规划顾问](/zh/use-cases/role/finance#_23-ai-税务规划顾问) | 财务 | 金融/SaaS | 数据分析 | 实际税率降低3–6个百分点 |
@@ -339,6 +346,8 @@
 | 270 | [AI 决策框架构建助手](/zh/use-cases/role/executive#_9-ai-决策框架构建助手) | 高管 | 企业级 | 数据分析 | 决策失误减少41% |
 | 271 | [AI 知识库策展助手](/zh/use-cases/role/executive#_10-ai-知识库策展助手) | 高管 | 企业级 | 流程自动化 | 搜索时间减少60% |
 | 272 | [AI 个人目标追踪助手](/zh/use-cases/role/executive#_11-ai-个人目标追踪助手) | 高管 | 企业级 | 流程自动化 | 目标进展提升3.2倍 |
+| 273 | [AI研究简报生成器](/zh/use-cases/role/executive#_22-ai研究简报生成器) | 高管 | 企业级 | 调研与监控 | 简报：3–5小时 → 30–45分钟 |
+| 274 | [AI授权工作流设计师](/zh/use-cases/role/executive#_23-ai授权工作流设计师) | 高管 | 企业级 | 流程自动化 | 授权完成率+52% |
 | 275 | [AI 会议准备简报助手](/zh/use-cases/role/executive#_12-ai-会议准备简报助手) | 高管 | 企业级 | 流程自动化 | 准备时间：35–45分钟 → 5分钟以内 |
 | 276 | [AI 任务优先级平衡助手](/zh/use-cases/role/executive#_13-ai-任务优先级平衡助手) | 高管 | 企业级 | 流程自动化 | 优先任务完成率：41% → 78% |
 | 277 | [AI 高管沟通起草助手](/zh/use-cases/role/executive#_14-ai-高管沟通起草助手) | 高管 | 企业级 | 文案写作 | 起草周期减少60% |
@@ -360,6 +369,8 @@
 | 293 | [AI 市场研究报告生成器](/zh/use-cases/role/data-analyst#_19-ai-市场研究报告生成器) | 数据分析师 | 科技/咨询 | 调研与监控 | 报告时间对比机构减少65–80% |
 | 294 | [AI 统计分析解读器](/zh/use-cases/role/data-analyst#_20-ai-统计分析解读器) | 数据分析师 | 科技/SaaS | 数据分析 | 干系人理解度+48% |
 | 295 | [AI 民族志研究编码器](/zh/use-cases/role/data-analyst#_21-ai-民族志研究编码器) | 数据分析师 | 学术/UX | 调研与监控 | 开放编码时间减少50–65% |
+| 296 | [AI资助提案撰写师](/zh/use-cases/role/data-analyst#_49-ai资助提案撰写师) | 数据分析师 | 学术 | 写作与内容 | 新申请者获资助率+18% |
+| 297 | [AI专利格局分析师](/zh/use-cases/role/data-analyst#_50-ai专利格局分析师) | 数据分析师 | 科技/生物 | 调研与监控 | 覆盖率vs关键词搜索+40% |
 | 298 | [AI 访谈记录分析助手](/zh/use-cases/role/data-analyst#_22-ai-访谈记录分析助手) | 数据分析师 | 教育 | 调研与监控 | 分析时间：80–120小时 → 15–25小时 |
 | 299 | [AI 研究提案写作助手](/zh/use-cases/role/data-analyst#_23-ai-研究提案写作助手) | 数据分析师 | 教育 | 文案写作 | 提案起草：80–120小时 → 25–40小时 |
 | 300 | [AI 数据收集协议设计助手](/zh/use-cases/role/data-analyst#_24-ai-数据收集协议设计助手) | 数据分析师 | 教育 | 调研与监控 | 协议设计：3–4周 → 5–7天 |
@@ -422,6 +433,14 @@
 | 357 | [AI监管文件摘要器](/zh/use-cases/role/legal#_15-ai监管文件摘要器) | 法律 | 企业级 | 调研与监控 | 500–800页文档 → 结构化摘要 |
 | 358 | [AI知识产权组合分析器](/zh/use-cases/role/legal#_3-ai知识产权组合分析器) | 法律 | 科技/生物 | 数据分析 | 知识产权成本对比律所减少85–90% |
 | 359 | [AI法律研究综合器](/zh/use-cases/role/legal#_17-ai法律研究综合器) | 法律 | 企业级 | 调研与监控 | 研究质量提升+知识复用 |
+| 360 | [AI企业政策起草师](/zh/use-cases/role/legal#use-case-365) | 法律 | 企业级 | 写作与内容 | 政策起草时间减少65-80% |
+| 361 | [AI合规培训内容创作者](/zh/use-cases/role/legal#use-case-366) | 法律 | 企业级 | 写作与内容 | 培训内容创作：100+小时 → 12–18小时 |
+| 362 | [AI尽职调查清单生成器](/zh/use-cases/role/legal#use-case-367) | 法律 | 企业级 | 数据分析 | 清单准备：3-5天 → 4-6小时 |
+| 363 | [AI诉讼风险评估师](/zh/use-cases/role/legal#use-case-368) | 法律 | 企业级 | 数据分析 | 准备金准确性+35–45% |
+| 364 | [AI劳动法合规顾问](/zh/use-cases/role/legal#use-case-369) | 法律 | 企业级 | 调研与监控 | 管理者合规错误-45–55% |
+| 365 | [AI数据处理协议生成器](/zh/use-cases/role/legal#use-case-370) | 法律 | 科技/SaaS | 写作与内容 | DPA起草：3小时 → 30–45分钟 |
+| 366 | [AI董事会会议纪要摘要师](/zh/use-cases/role/legal#use-case-371) | 法律 | 企业级 | 写作与内容 | 会议纪要起草：6–10小时 → 2–3小时 |
+| 367 | [AI合同续期条款优化师](/zh/use-cases/role/legal#use-case-372) | 法律 | 企业级 | 数据分析 | 续期合同价值节省12–18% |
 | 368 | [AI 销售管道健康分析器](/zh/use-cases/role/sales#_25-ai-销售管道健康分析器) | 销售 | SaaS/B2B | 数据分析 | 预测准确率：±30% → ±12% |
 | 369 | [AI 潜在客户研究合成器](/zh/use-cases/role/sales#_26-ai-潜在客户研究合成器) | 销售 | SaaS/B2B | 调研与监控 | 准备时间：45–60分钟 → 10–15分钟 |
 | 370 | [AI 销售邮件个性化引擎](/zh/use-cases/role/sales#_27-ai-销售邮件个性化引擎) | 销售 | SaaS/B2B | 文案写作 | 响应率：2–3% → 8–12% |
