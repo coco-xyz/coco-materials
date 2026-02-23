@@ -6,8 +6,9 @@
 - **Batch 2**: Cases #035-064 (30 cases)
 - **Batch 3**: Cases #065-104 (40 cases)
 - **Batch 4**: Cases #105-204 (100 cases)
-- **Batch 5+**: Cases #205+ (ongoing, 26 added 2026-02-21)
-- **Total**: 226+ cases and growing
+- **Batch 5**: Cases #232-#405 (174 cases, merged 2026-02-23)
+- **Batch 6+**: Cases #406+ (ongoing)
+- **Total**: 400+ cases and growing
 
 ## 1. Use Case Content Format (3-Part Structure)
 
@@ -23,15 +24,48 @@ Each case file contains:
 ```
 
 ### Part 2: Detailed Introduction
-- **Pain point description**: Real industry context, specific metrics
-- **How COCO solves it**: Step-by-step workflow (4-6 steps)
-- **Measurable results**: Quantified improvements (time, cost, quality)
-- **Who benefits**: 3-4 beneficiary roles with specific value
+
+#### EN file structure (`## Detailed Introduction`)
+
+**Pain section** (`**The Pain: [Case Title]**`)
+- 2-3 paragraphs of detailed industry context
+- Include case title as bold sub-heading
+- Specific metrics and dollar amounts (e.g. "$400 per article", "6-10 hours each")
+- Describe the structural/systemic problem, not just the symptom
+
+**How COCO Solves It** (`**How COCO Solves It**`)
+- Exactly **6 numbered mechanisms**, each with a bold label and 4-6 indented sub-points
+- Format: `1. **[Mechanism Name]**: [brief description]\n   - sub-point\n   - sub-point`
+- Steps must be COCO-specific (not generic AI), showing concrete workflow
+
+**Measurable Results** (`**Measurable Results**`)
+- Exactly **5 data points**, each on its own line, **all bolded**
+- Format: `- **[Metric label]**: [Before] → [After] or [X% improvement]`
+- Mix time savings, cost reduction, quality improvements, volume increases
+
+**Who Benefits** (`**Who Benefits**`)
+- Exactly **4 beneficiary roles**, each with a 1-sentence specific value statement
+- Format: `- **[Role Title]**: [specific value they get]`
+
+#### CN file structure (`## 详细介绍`)
+Mirror of EN but fully in Chinese:
+- `**痛点：[案例标题]**` — 2-3 paragraphs in Chinese
+- `**COCO如何解决**` — 6 numbered steps with sub-points in Chinese
+- `**可量化的成果**` — 5 bolded data points in Chinese
+- `**受益人群**` — 4 roles with descriptions in Chinese
 
 ### Part 3: Practical Prompts
-- 3-5 ready-to-use prompts
-- Copy-paste ready with `[placeholders]`
-- Covers different aspects of the use case
+
+#### EN: `## Practical Prompts`
+- **3-5 prompts** (aim for 4-5)
+- Each prompt has a bold label: `**Prompt N: [Descriptive Title]**`
+- Content in fenced code block (triple backtick)
+- Copy-paste ready with `[placeholder]` for user-specific values
+- Cover different aspects: core task, edge case, scale/batch, analysis, reporting
+
+#### CN: `## 实用提示词`
+- Same structure but fully in Chinese
+- Prompts translated to Chinese with `[占位符]` instead of `[placeholder]`
 
 ## 2. File Storage (三维分类)
 
