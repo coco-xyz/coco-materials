@@ -100,29 +100,38 @@ analysis, automation, bug-fix, code-review, compliance, content, deployment, doc
 ## 3. Docs Page Sync Strategy
 
 ### Collapsible Format on Docs Pages
-Each case on docs pages uses VitePress `:::details` blocks:
+
+**Standard format — 3 collapsibles (videos ONLY added when the .mp4 file actually exists):**
 
 ```markdown
 ## N. [Case Title]
 
 > [One-line summary hook]
 
-::: details 🎬 Watch Demo Video / 观看演示视频
-<video controls style="...">
-  <source src="/videos/en|cn/NNN-slug.mp4" type="video/mp4">
-</video>
-:::
-
-::: details Pain Point & How COCO Solves It / 痛点与解决方案
+::: details 痛点与解决方案
 [Detailed introduction content]
 :::
 
-::: details Results & Who Benefits / 量化结果与受益角色
+::: details 量化结果与受益角色
 [Results + beneficiaries]
 :::
 
-::: details Practical Prompts / 实用提示词
+::: details 💡 实用提示词
 [3-5 prompts]
+:::
+```
+
+EN version uses: `Pain Point & How COCO Solves It`, `Results & Who Benefits`, `💡 Practical Prompts`
+
+**Video section rule:**
+- **DO NOT add the video block** if the .mp4 file hasn't been generated yet.
+- Only add the video `::: details 🎬` block AFTER the video file is confirmed ready.
+- Video block format (add as the FIRST details block, before 痛点):
+```markdown
+::: details 🎬 观看演示视频
+<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
+  <source src="/videos/cn/NNN-slug.mp4" type="video/mp4">
+</video>
 :::
 ```
 
