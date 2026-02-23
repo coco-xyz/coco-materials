@@ -132,11 +132,36 @@ Each case on docs pages uses VitePress `:::details` blocks:
 - Same for `/task/` and `/industry/`
 - Sidebar config in `docs/.vitepress/config.mjs`
 
+### VitePress Preview Build (CRITICAL — Read Before Building)
+
+**1. Build command — always set the base path:**
+```bash
+VITEPRESS_BASE=/preview/ NODE_OPTIONS="--max-old-space-size=8192" \
+  node_modules/.bin/vitepress build docs
+```
+Without `VITEPRESS_BASE=/preview/`, all CSS/JS assets will 404 and the page will be blank.
+
+**2. Index table entries — strip all markdown before inserting:**
+The all-cases index tables (`docs/use-cases/index.md` and `docs/zh/use-cases/index.md`) must contain PLAIN TEXT only in each cell.
+- Strip all `**bold**` / `*italic*` markers from metric text
+- Replace any `|` pipe characters with `/`
+- Remove any `[link](url)` markdown in cell values
+- Keep metric text ≤55 characters
+Failure to do this will cause the table to render as broken inline text.
+
+**3. Deploy after build:**
+```bash
+rm -rf /home/op/zylos/http/public/preview/
+cp -r docs/.vitepress/dist/ /home/op/zylos/http/public/preview/
+```
+
+**4. Dead links cause build failure:**
+Every role/industry/task page linked from the index must have a corresponding `.md` file in `docs/use-cases/role/`. Create missing pages before building.
+
 ### Sync Timing (CRITICAL)
 - Content markdown + video mp4 MUST both be ready before updating docs pages
-- Batch 4 content files: generate now
-- Batch 4 videos: generate after content reviewed
-- Batch 4 docs pages: update ONLY after content + videos both ready
+- Content docs pages: can preview without videos (video tags stay as placeholders)
+- Docs pages: update ONLY after Stephanie review of content
 - Stephanie审核 required before any docs update
 
 ## 4. Quality Standards
