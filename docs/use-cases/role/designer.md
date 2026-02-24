@@ -8,8 +8,6 @@ AI-powered use cases for designers and creative professionals.
 
 ::: details Pain Point & How COCO Solves It
 
-## Detailed Introduction
-
 **The Pain: Brand Inconsistency Is Silent Revenue Leakage**
 
 Large organizations with distributed teams, multiple product lines, and agency partnerships face a chronic brand consistency problem. Logos appear in wrong colors. Typography drifts across regions. Button styles diverge between product and marketing. Each deviation seems minor in isolation — but compound inconsistency erodes brand trust at scale. Studies show consumers need 5-7 brand impressions to build recognition; inconsistent assets reset that counter every time.
