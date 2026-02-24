@@ -1,6 +1,6 @@
 # 用例库
 
-发现 **748个真实场景**，COCO AI员工如何为各部门节省时间和成本。按**角色**、**任务**或**行业**浏览。
+发现 **800+个真实场景**，COCO AI员工如何为各部门节省时间和成本。按**角色**、**任务**或**行业**浏览。
 
 ## 按角色浏览
 
@@ -33,10 +33,10 @@
 | [技术负责人](/zh/use-cases/role/tech-lead) | 7 | AI架构决策顾问、AI团队速度优化器、AI技术债务优先级排序器... |
 | [内容创作者](/zh/use-cases/role/writer) | 8 | AI技术文档规划器、AI白皮书研究编译器、AI新闻稿生成器... |
 | [尽职调查分析师](/zh/use-cases/role/due-diligence-analyst) | 35 | AI子公司与关联实体图谱构建器、AI受益所有人识别引擎、AI制裁名单与PEP筛查编排器... |
-| [加密货币与Web3分析师](/zh/use-cases/role/crypto-analyst) | 22 | AI链上交易模式分析器、AI DeFi协议风险与漏洞暴露评估器、AI代币经济学模型构建器... |
-| [基金经理](/zh/use-cases/role/fund-manager) | 20 | AI LP季度报告生成器、AI交易流量管线评分与优先级排序引擎、AI条款清单条款对比与红旗提示工具... |
+| [加密货币与Web3分析师](/zh/use-cases/role/crypto-analyst) | 40 | AI链上交易模式分析器、AI DeFi协议风险与漏洞暴露评估器、AI代币经济学模型构建器... |
+| [基金经理](/zh/use-cases/role/fund-manager) | 40 | AI LP季度报告生成器、AI交易流量管线评分与优先级排序引擎、AI条款清单条款对比与红旗提示工具... |
 | [AI产品经理](/zh/use-cases/role/ai-product-manager) | 40 | AI模型评估框架构建器、AI提示词工程工作流优化器、AI偏见检测与公平性审计引擎... |
-| [研究分析师](/zh/use-cases/role/research-analyst) | 30 | AI市场规模与TAM/SAM/SOM计算器、AI竞争情报深度报告构建器、AI行业趋势信号聚合与综合器... |
+| [研究分析师](/zh/use-cases/role/research-analyst) | 40 | AI市场规模与TAM/SAM/SOM计算器、AI竞争情报深度报告构建器、AI行业趋势信号聚合与综合器... |
 | [设计师](/zh/use-cases/role/designer) | 1 | AI品牌资产一致性审计员 |
 
 ## 按任务浏览
@@ -827,4 +827,52 @@
 | 745 | [AI行业协会报告综合器](/zh/use-cases/role/research-analyst#_28-ai行业协会报告综合器) | 研究分析师 | 咨询 | 调研与监控 | - |
 | 746 | [AI国家市场准入可行性分析器](/zh/use-cases/role/research-analyst#_29-ai国家市场准入可行性分析器) | 研究分析师 | 咨询 | 调研与监控 | - |
 | 747 | [AI焦点小组讨论指南构建器](/zh/use-cases/role/research-analyst#_30-ai焦点小组讨论指南构建器) | 研究分析师 | 咨询 | 调研与监控 | - |
-| 748 | [AI 品牌资产一致性审计员](/zh/use-cases/role/designer#_1-ai-品牌资产一致性审计员) | 设计师 | 企业通用 | 流程自动化 | 3周人工审核 → 4小时自动扫描 |
+| 748 | [AI DeFi协议治理代币投票分析器](/zh/use-cases/role/crypto-analyst#_663-ai-defi协议治理代币投票分析器) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | - |
+| 749 | [AI加密交易所偿付风险监控工具](/zh/use-cases/role/crypto-analyst#_664-ai加密交易所偿付风险监控工具) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | - |
+| 750 | [AI Web3 空投资格与税务影响规划器](/zh/use-cases/role/crypto-analyst#_665-ai-web3-空投资格与税务影响规划器) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | - |
+| 751 | [AI区块链节点基础设施成本优化器](/zh/use-cases/role/crypto-analyst#_666-ai区块链节点基础设施成本优化器) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | - |
+| 752 | [AI加密风险投资交易流筛选器](/zh/use-cases/role/crypto-analyst#_667-ai加密风险投资交易流筛选器) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | - |
+| 753 | [AI代币发行监管申报合规检查器](/zh/use-cases/role/crypto-analyst#_668-ai代币发行监管申报合规检查器) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | - |
+| 754 | [AI MEV（最大可提取价值）机会分析器](/zh/use-cases/role/crypto-analyst#_669-ai-mev-最大可提取价值-机会分析器) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | - |
+| 755 | [AI加密协议财库管理顾问](/zh/use-cases/role/crypto-analyst#_670-ai加密协议财库管理顾问) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | - |
+| 756 | [AI跨境加密汇款合规审查器](/zh/use-cases/role/crypto-analyst#_671-ai跨境加密汇款合规审查器) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | - |
+| 757 | [AI智能合约Gas优化顾问](/zh/use-cases/role/crypto-analyst#_672-ai智能合约gas优化顾问) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | - |
+| 758 | [AI DeFi抵押品清算风险计算器](/zh/use-cases/role/crypto-analyst#_673-ai-defi抵押品清算风险计算器) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | - |
+| 759 | [AI加密基金业绩归因分析器](/zh/use-cases/role/crypto-analyst#_674-ai加密基金业绩归因分析器) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | - |
+| 760 | [AI NFT溯源与真实性验证引擎](/zh/use-cases/role/crypto-analyst#_675-ai-nft溯源与真实性验证引擎) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | - |
+| 761 | [AI Web3协议安全事件响应规划器](/zh/use-cases/role/crypto-analyst#_676-ai-web3协议安全事件响应规划器) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | - |
+| 762 | [AI加密稳定币脱锚风险早期预警系统](/zh/use-cases/role/crypto-analyst#_677-ai加密稳定币脱锚风险早期预警系统) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | - |
+| 763 | [AI区块链验证者Slashing风险监控器](/zh/use-cases/role/crypto-analyst#_678-ai区块链验证者slashing风险监控器) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | - |
+| 764 | [AI加密货币OTC交易合规与报告引擎](/zh/use-cases/role/crypto-analyst#_679-ai加密货币otc交易合规与报告引擎) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | - |
+| 765 | [AI Web3协议收入与费用模型基准分析器](/zh/use-cases/role/crypto-analyst#_680-ai-web3协议收入与费用模型基准分析器) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | - |
+| 766 | [AI风险投资组合集中度风险分析器](/zh/use-cases/role/fund-manager#_701-ai风险投资组合集中度风险分析器) | 基金经理 | 金融服务 | 分析 | - |
+| 767 | [AI二级市场LP权益估值工具](/zh/use-cases/role/fund-manager#_702-ai二级市场lp权益估值工具) | 基金经理 | 金融服务 | 分析 | - |
+| 768 | [AI管理费与附带权益瀑布计算器](/zh/use-cases/role/fund-manager#_703-ai管理费与附带权益瀑布计算器) | 基金经理 | 金融服务 | 分析 | - |
+| 769 | [AI创业创始人背景调查综合分析器](/zh/use-cases/role/fund-manager#_704-ai创业创始人背景调查综合分析器) | 基金经理 | 金融服务 | 分析 | - |
+| 770 | [AI投资组合公司竞争格局绘制工具](/zh/use-cases/role/fund-manager#_705-ai投资组合公司竞争格局绘制工具) | 基金经理 | 金融服务 | 分析 | - |
+| 771 | [AI董事会会议准备材料包生成器](/zh/use-cases/role/fund-manager#_706-ai董事会会议准备材料包生成器) | 基金经理 | 金融服务 | 分析 | - |
+| 772 | [AI基金年份业绩基准比较器](/zh/use-cases/role/fund-manager#_707-ai基金年份业绩基准比较器) | 基金经理 | 金融服务 | 分析 | - |
+| 773 | [AI交易管线转化率分析引擎](/zh/use-cases/role/fund-manager#_708-ai交易管线转化率分析引擎) | 基金经理 | 金融服务 | 分析 | - |
+| 774 | [AI LP共同投资权益与按比例权利追踪器](/zh/use-cases/role/fund-manager#_709-ai-lp共同投资权益与按比例权利追踪器) | 基金经理 | 金融服务 | 分析 | - |
+| 775 | [AI私有公司估值方法论选择器](/zh/use-cases/role/fund-manager#_710-ai私有公司估值方法论选择器) | 基金经理 | 金融服务 | 分析 | - |
+| 776 | [AI跨基金投资利益冲突检测器](/zh/use-cases/role/fund-manager#_711-ai跨基金投资利益冲突检测器) | 基金经理 | 金融服务 | 分析 | - |
+| 777 | [AI新兴市场基金风险调整计算器](/zh/use-cases/role/fund-manager#_712-ai新兴市场基金风险调整计算器) | 基金经理 | 金融服务 | 分析 | - |
+| 778 | [AI VC投资组合行业轮动信号监测器](/zh/use-cases/role/fund-manager#_713-ai-vc投资组合行业轮动信号监测器) | 基金经理 | 金融服务 | 分析 | - |
+| 779 | [AI基金清算与退出规划顾问](/zh/use-cases/role/fund-manager#_714-ai基金清算与退出规划顾问) | 基金经理 | 金融服务 | 分析 | - |
+| 780 | [AI基金经理遴选尽调评分卡构建器](/zh/use-cases/role/fund-manager#_715-ai基金经理遴选尽调评分卡构建器) | 基金经理 | 金融服务 | 分析 | - |
+| 781 | [AI GP股权二级交易分析器](/zh/use-cases/role/fund-manager#_716-ai-gp股权二级交易分析器) | 基金经理 | 金融服务 | 分析 | - |
+| 782 | [AI收入分成融资条款优化器](/zh/use-cases/role/fund-manager#_717-ai收入分成融资条款优化器) | 基金经理 | 金融服务 | 分析 | - |
+| 783 | [AI微型VC基金经济性与附带权益情景建模器](/zh/use-cases/role/fund-manager#_718-ai微型vc基金经济性与附带权益情景建模器) | 基金经理 | 金融服务 | 分析 | - |
+| 784 | [AI QSBS税收优惠资格追踪器](/zh/use-cases/role/fund-manager#_719-ai-qsbs税收优惠资格追踪器) | 基金经理 | 金融服务 | 分析 | - |
+| 785 | [AI美元计价基金架构顾问](/zh/use-cases/role/fund-manager#_720-ai美元计价基金架构顾问) | 基金经理 | 金融服务 | 分析 | - |
+| 786 | [AI系统性文献综述自动化引擎](/zh/use-cases/role/research-analyst#_31-ai系统性文献综述自动化引擎) | 研究分析师 | 咨询 | 调研与监控 | - |
+| 787 | [AI专利图谱分析引擎](/zh/use-cases/role/research-analyst#_32-ai专利图谱分析引擎) | 研究分析师 | 咨询 | 调研与监控 | - |
+| 788 | [AI竞争情报综合引擎](/zh/use-cases/role/research-analyst#_33-ai竞争情报综合引擎) | 研究分析师 | 咨询 | 调研与监控 | - |
+| 789 | [AI监管影响评估工具](/zh/use-cases/role/research-analyst#_34-ai监管影响评估工具) | 研究分析师 | 咨询 | 调研与监控 | - |
+| 790 | [AI研究数据集质量审计引擎](/zh/use-cases/role/research-analyst#_35-ai研究数据集质量审计引擎) | 研究分析师 | 咨询 | 调研与监控 | - |
+| 791 | [AI引文网络映射引擎](/zh/use-cases/role/research-analyst#_36-ai引文网络映射引擎) | 研究分析师 | 咨询 | 调研与监控 | - |
+| 792 | [AI基金申请优化引擎](/zh/use-cases/role/research-analyst#_37-ai基金申请优化引擎) | 研究分析师 | 咨询 | 调研与监控 | - |
+| 793 | [AI荟萃分析工作流引擎](/zh/use-cases/role/research-analyst#_38-ai荟萃分析工作流引擎) | 研究分析师 | 咨询 | 调研与监控 | - |
+| 794 | [AI研究合作匹配引擎](/zh/use-cases/role/research-analyst#_39-ai研究合作匹配引擎) | 研究分析师 | 咨询 | 调研与监控 | - |
+| 795 | [AI技术成熟度评估引擎](/zh/use-cases/role/research-analyst#_40-ai技术成熟度评估引擎) | 研究分析师 | 咨询 | 调研与监控 | - |
+| 796 | [AI 品牌资产一致性审计员](/zh/use-cases/role/designer#_1-ai-品牌资产一致性审计员) | 设计师 | 企业通用 | 流程自动化 | 3周人工审核 → 4小时自动扫描 |

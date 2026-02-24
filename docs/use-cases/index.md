@@ -1,6 +1,6 @@
 # Use Cases
 
-Discover **748 real-world scenarios** where COCO AI employees save time and money. Browse by **Role**, **Task**, or **Industry**.
+Discover **800+ real-world scenarios** where COCO AI employees save time and money. Browse by **Role**, **Task**, or **Industry**.
 
 ## Browse by Role
 
@@ -33,10 +33,10 @@ Find use cases for your specific job function:
 | [Tech Lead](/use-cases/role/tech-lead) | 7 | Architecture Decision Advisor, Team Velocity Optimizer, Technical Debt Prioritizer, ... |
 | [Writer](/use-cases/role/writer) | 8 | Technical Documentation Planner, White Paper Research Compiler, Press Release Generator, ... |
 | [Due Diligence Analyst](/use-cases/role/due-diligence-analyst) | 35 | Subsidiary & Affiliated Entity Mapper, Beneficial Owner Identification Engine, Sanctions & PEP Screening, ... |
-| [Crypto & Web3 Analyst](/use-cases/role/crypto-analyst) | 22 | On-Chain Transaction Pattern Analyzer, DeFi Protocol Risk Assessor, Token Economics Model Builder, ... |
-| [Fund Manager / VC Analyst](/use-cases/role/fund-manager) | 20 | LP Quarterly Report Generator, Deal Flow Pipeline Scoring, Term Sheet Clause Comparator, ... |
+| [Crypto & Web3 Analyst](/use-cases/role/crypto-analyst) | 40 | On-Chain Transaction Pattern Analyzer, DeFi Protocol Risk Assessor, Token Economics Model Builder, ... |
+| [Fund Manager / VC Analyst](/use-cases/role/fund-manager) | 40 | LP Quarterly Report Generator, Deal Flow Pipeline Scoring, Term Sheet Clause Comparator, ... |
 | [AI Product Manager](/use-cases/role/ai-product-manager) | 40 | Model Evaluation Framework Builder, Prompt Engineering Optimizer, Bias Detection & Fairness Audit, ... |
-| [Research Analyst](/use-cases/role/research-analyst) | 30 | Market Sizing & TAM/SAM/SOM Calculator, Competitive Intelligence Report Builder, Industry Trend Aggregator, ... |
+| [Research Analyst](/use-cases/role/research-analyst) | 40 | Market Sizing & TAM/SAM/SOM Calculator, Competitive Intelligence Report Builder, Industry Trend Aggregator, ... |
 | [Designer](/use-cases/role/designer) | 1 | Brand Asset Consistency Auditor |
 
 ## Browse by Task
@@ -827,4 +827,52 @@ Find use cases by what you need to get done:
 | 745 | [AI Industry Association Report Synthesizer](/use-cases/role/research-analyst#_28-ai-industry-association-report-synthesizer) | Research Analyst | Consulting | Research | 70–80% savings |
 | 746 | [AI Country Market Entry Feasibility Analyzer](/use-cases/role/research-analyst#_29-ai-country-market-entry-feasibility-analyzer) | Research Analyst | Consulting | Research | 4–8 analyst weeks → 1–2 weeks |
 | 747 | [AI Focus Group Discussion Guide Builder](/use-cases/role/research-analyst#_30-ai-focus-group-discussion-guide-builder) | Research Analyst | Consulting | Research | 2–4 days → 4–8 hours |
-| 748 | [AI Brand Asset Consistency Auditor](/use-cases/role/designer#_1-ai-brand-asset-consistency-auditor) | Designer | Enterprise | Automation | 95% savings |
+| 748 | [AI DeFi Protocol Governance Token Voting Analyzer](/use-cases/role/crypto-analyst#_663-ai-defi-protocol-governance-token-voting-analyzer) | Crypto Analyst | Crypto/Web3 | Analysis | - |
+| 749 | [AI Crypto Exchange Insolvency Risk Monitoring Tool](/use-cases/role/crypto-analyst#_664-ai-crypto-exchange-insolvency-risk-monitoring-tool) | Crypto Analyst | Crypto/Web3 | Analysis | - |
+| 750 | [AI Web3 Airdrop Eligibility & Tax Implication Planner](/use-cases/role/crypto-analyst#_665-ai-web3-airdrop-eligibility-tax-implication-planner) | Crypto Analyst | Crypto/Web3 | Analysis | - |
+| 751 | [AI Blockchain Node Infrastructure Cost Optimizer](/use-cases/role/crypto-analyst#_666-ai-blockchain-node-infrastructure-cost-optimizer) | Crypto Analyst | Crypto/Web3 | Analysis | - |
+| 752 | [AI Crypto Venture Deal Flow Screener](/use-cases/role/crypto-analyst#_667-ai-crypto-venture-deal-flow-screener) | Crypto Analyst | Crypto/Web3 | Analysis | - |
+| 753 | [AI Token Launch Regulatory Filing Compliance Checker](/use-cases/role/crypto-analyst#_668-ai-token-launch-regulatory-filing-compliance-checker) | Crypto Analyst | Crypto/Web3 | Analysis | - |
+| 754 | [AI MEV (Maximal Extractable Value) Opportunity Analyzer](/use-cases/role/crypto-analyst#_669-ai-mev-maximal-extractable-value-opportunity-analyzer) | Crypto Analyst | Crypto/Web3 | Analysis | - |
+| 755 | [AI Crypto Protocol Treasury Management Advisor](/use-cases/role/crypto-analyst#_670-ai-crypto-protocol-treasury-management-advisor) | Crypto Analyst | Crypto/Web3 | Analysis | - |
+| 756 | [AI Cross-Border Crypto Remittance Compliance Reviewer](/use-cases/role/crypto-analyst#_671-ai-cross-border-crypto-remittance-compliance-reviewer) | Crypto Analyst | Crypto/Web3 | Analysis | - |
+| 757 | [AI Smart Contract Gas Optimization Advisor](/use-cases/role/crypto-analyst#_672-ai-smart-contract-gas-optimization-advisor) | Crypto Analyst | Crypto/Web3 | Analysis | - |
+| 758 | [AI DeFi Collateral Liquidation Risk Calculator](/use-cases/role/crypto-analyst#_673-ai-defi-collateral-liquidation-risk-calculator) | Crypto Analyst | Crypto/Web3 | Analysis | - |
+| 759 | [AI Crypto Fund Performance Attribution Analyzer](/use-cases/role/crypto-analyst#_674-ai-crypto-fund-performance-attribution-analyzer) | Crypto Analyst | Crypto/Web3 | Analysis | - |
+| 760 | [AI NFT Provenance & Authenticity Verification Engine](/use-cases/role/crypto-analyst#_675-ai-nft-provenance-authenticity-verification-engine) | Crypto Analyst | Crypto/Web3 | Analysis | - |
+| 761 | [AI Web3 Protocol Security Incident Response Planner](/use-cases/role/crypto-analyst#_676-ai-web3-protocol-security-incident-response-planner) | Crypto Analyst | Crypto/Web3 | Analysis | - |
+| 762 | [AI Crypto Stablecoin Depeg Risk Early Warning System](/use-cases/role/crypto-analyst#_677-ai-crypto-stablecoin-depeg-risk-early-warning-system) | Crypto Analyst | Crypto/Web3 | Analysis | - |
+| 763 | [AI Blockchain Validator Slashing Risk Monitor](/use-cases/role/crypto-analyst#_678-ai-blockchain-validator-slashing-risk-monitor) | Crypto Analyst | Crypto/Web3 | Analysis | - |
+| 764 | [AI Crypto OTC Trade Compliance & Reporting Engine](/use-cases/role/crypto-analyst#_679-ai-crypto-otc-trade-compliance-reporting-engine) | Crypto Analyst | Crypto/Web3 | Analysis | - |
+| 765 | [AI Web3 Protocol Revenue & Fee Model Benchmarker](/use-cases/role/crypto-analyst#_680-ai-web3-protocol-revenue-fee-model-benchmarker) | Crypto Analyst | Crypto/Web3 | Analysis | - |
+| 766 | [AI Venture Portfolio Concentration Risk Analyzer](/use-cases/role/fund-manager#_701-ai-venture-portfolio-concentration-risk-analyzer) | Fund Manager | Financial Services | Analysis | - |
+| 767 | [AI Secondary Market LP Interest Valuation Tool](/use-cases/role/fund-manager#_702-ai-secondary-market-lp-interest-valuation-tool) | Fund Manager | Financial Services | Analysis | - |
+| 768 | [AI Management Fee & Carry Waterfall Calculator](/use-cases/role/fund-manager#_703-ai-management-fee-carry-waterfall-calculator) | Fund Manager | Financial Services | Analysis | - |
+| 769 | [AI Startup Founder Reference Check Synthesizer](/use-cases/role/fund-manager#_704-ai-startup-founder-reference-check-synthesizer) | Fund Manager | Financial Services | Analysis | - |
+| 770 | [AI Competitive Landscape Mapping for Portfolio Companies](/use-cases/role/fund-manager#_705-ai-competitive-landscape-mapping-for-portfolio-companies) | Fund Manager | Financial Services | Analysis | - |
+| 771 | [AI Board Meeting Preparation Pack Generator](/use-cases/role/fund-manager#_706-ai-board-meeting-preparation-pack-generator) | Fund Manager | Financial Services | Analysis | - |
+| 772 | [AI Fund Vintage Year Performance Benchmarker](/use-cases/role/fund-manager#_707-ai-fund-vintage-year-performance-benchmarker) | Fund Manager | Financial Services | Analysis | - |
+| 773 | [AI Deal Pipeline Conversion Rate Analytics Engine](/use-cases/role/fund-manager#_708-ai-deal-pipeline-conversion-rate-analytics-engine) | Fund Manager | Financial Services | Analysis | - |
+| 774 | [AI LP Co-Investment Rights & Pro-Rata Tracker](/use-cases/role/fund-manager#_709-ai-lp-co-investment-rights-pro-rata-tracker) | Fund Manager | Financial Services | Analysis | - |
+| 775 | [AI Private Company Valuation Methodology Selector](/use-cases/role/fund-manager#_710-ai-private-company-valuation-methodology-selector) | Fund Manager | Financial Services | Analysis | - |
+| 776 | [AI Cross-Fund Investment Conflict of Interest Detector](/use-cases/role/fund-manager#_711-ai-cross-fund-investment-conflict-of-interest-detector) | Fund Manager | Financial Services | Analysis | - |
+| 777 | [AI Emerging Market Fund Risk Adjustment Calculator](/use-cases/role/fund-manager#_712-ai-emerging-market-fund-risk-adjustment-calculator) | Fund Manager | Financial Services | Analysis | - |
+| 778 | [AI Sector Rotation Signal Monitor for VC Portfolios](/use-cases/role/fund-manager#_713-ai-sector-rotation-signal-monitor-for-vc-portfolios) | Fund Manager | Financial Services | Analysis | - |
+| 779 | [AI Fund Wind-Down & Liquidation Planning Advisor](/use-cases/role/fund-manager#_714-ai-fund-wind-down-liquidation-planning-advisor) | Fund Manager | Financial Services | Analysis | - |
+| 780 | [AI Manager Selection Due Diligence Scorecard Builder](/use-cases/role/fund-manager#_715-ai-manager-selection-due-diligence-scorecard-builder) | Fund Manager | Financial Services | Analysis | - |
+| 781 | [AI GP Stakes Secondary Transaction Analyzer](/use-cases/role/fund-manager#_716-ai-gp-stakes-secondary-transaction-analyzer) | Fund Manager | Financial Services | Analysis | - |
+| 782 | [AI Revenue-Based Financing Term Optimizer](/use-cases/role/fund-manager#_717-ai-revenue-based-financing-term-optimizer) | Fund Manager | Financial Services | Analysis | - |
+| 783 | [AI Micro-VC Fund Economics & Carry Scenario Modeler](/use-cases/role/fund-manager#_718-ai-micro-vc-fund-economics-carry-scenario-modeler) | Fund Manager | Financial Services | Analysis | - |
+| 784 | [AI QSBS Tax Benefit Eligibility Tracker](/use-cases/role/fund-manager#_719-ai-qsbs-tax-benefit-eligibility-tracker) | Fund Manager | Financial Services | Analysis | - |
+| 785 | [AI Dollar-Denominated Fund (USD Fund) Structuring Advisor](/use-cases/role/fund-manager#_720-ai-dollar-denominated-fund-usd-fund-structuring-advisor) | Fund Manager | Financial Services | Analysis | - |
+| 786 | [AI Systematic Literature Review Automation Engine](/use-cases/role/research-analyst#_31-ai-systematic-literature-review-automation-engine) | Research Analyst | Consulting | Research | - |
+| 787 | [AI Patent Landscape Analysis Engine](/use-cases/role/research-analyst#_32-ai-patent-landscape-analysis-engine) | Research Analyst | Consulting | Research | - |
+| 788 | [AI Competitive Intelligence Synthesis Engine](/use-cases/role/research-analyst#_33-ai-competitive-intelligence-synthesis-engine) | Research Analyst | Consulting | Research | - |
+| 789 | [AI Regulatory Impact Assessment Tool](/use-cases/role/research-analyst#_34-ai-regulatory-impact-assessment-tool) | Research Analyst | Consulting | Research | - |
+| 790 | [AI Research Dataset Quality Auditing Engine](/use-cases/role/research-analyst#_35-ai-research-dataset-quality-auditing-engine) | Research Analyst | Consulting | Research | - |
+| 791 | [AI Citation Network Mapping Engine](/use-cases/role/research-analyst#_36-ai-citation-network-mapping-engine) | Research Analyst | Consulting | Research | - |
+| 792 | [AI Grant Proposal Optimization Engine](/use-cases/role/research-analyst#_37-ai-grant-proposal-optimization-engine) | Research Analyst | Consulting | Research | - |
+| 793 | [AI Meta-Analysis Workflow Engine](/use-cases/role/research-analyst#_38-ai-meta-analysis-workflow-engine) | Research Analyst | Consulting | Research | - |
+| 794 | [AI Research Collaboration Matching Engine](/use-cases/role/research-analyst#_39-ai-research-collaboration-matching-engine) | Research Analyst | Consulting | Research | - |
+| 795 | [AI Technology Readiness Level Assessment Engine](/use-cases/role/research-analyst#_40-ai-technology-readiness-level-assessment-engine) | Research Analyst | Consulting | Research | - |
+| 796 | [AI Brand Asset Consistency Auditor](/use-cases/role/designer#_1-ai-brand-asset-consistency-auditor) | Designer | Enterprise | Automation | 95% savings |
