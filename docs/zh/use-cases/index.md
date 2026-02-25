@@ -876,3 +876,7 @@
 | 794 | [AI研究合作匹配引擎](/zh/use-cases/role/research-analyst#_39-ai研究合作匹配引擎) | 研究分析师 | 咨询 | 调研与监控 | - |
 | 795 | [AI技术成熟度评估引擎](/zh/use-cases/role/research-analyst#_40-ai技术成熟度评估引擎) | 研究分析师 | 咨询 | 调研与监控 | - |
 | 796 | [AI 品牌资产一致性审计员](/zh/use-cases/role/designer#_1-ai-品牌资产一致性审计员) | 设计师 | 企业通用 | 流程自动化 | 3周人工审核 → 4小时自动扫描 |
+| 797 | [AI 设计系统组件审计员](/zh/use-cases/role/designer#_2-ai-设计系统组件审计员) | 设计师 | 企业通用 | 流程自动化 | - |
+| 798 | [AI 响应式设计QA引擎](/zh/use-cases/role/designer#_3-ai-响应式设计qa引擎) | 设计师 | 企业通用 | 流程自动化 | - |
+| 799 | [AI 无障碍合规检查器](/zh/use-cases/role/designer#_4-ai-无障碍合规检查器) | 设计师 | 企业通用 | 流程自动化 | - |
+| 800 | [AI 设计稿-代码还原度验证器](/zh/use-cases/role/designer#_5-ai-设计稿-代码还原度验证器) | 设计师 | 企业通用 | 流程自动化 | - |

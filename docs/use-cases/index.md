@@ -1,6 +1,6 @@
 # Use Cases
 
-Discover **800+ real-world scenarios** where COCO AI employees save time and money. Browse by **Role**, **Task**, or **Industry**.
+Discover **800 real-world scenarios** where COCO AI employees save time and money. Browse by **Role**, **Task**, or **Industry**.
 
 ## Browse by Role
 
@@ -876,3 +876,7 @@ Find use cases by what you need to get done:
 | 794 | [AI Research Collaboration Matching Engine](/use-cases/role/research-analyst#_39-ai-research-collaboration-matching-engine) | Research Analyst | Consulting | Research | - |
 | 795 | [AI Technology Readiness Level Assessment Engine](/use-cases/role/research-analyst#_40-ai-technology-readiness-level-assessment-engine) | Research Analyst | Consulting | Research | - |
 | 796 | [AI Brand Asset Consistency Auditor](/use-cases/role/designer#_1-ai-brand-asset-consistency-auditor) | Designer | Enterprise | Automation | 95% savings |
+| 797 | [AI Design System Component Auditor](/use-cases/role/designer#_2-ai-design-system-component-auditor) | Designer | Enterprise | Automation | - |
+| 798 | [AI Responsive Design QA Engine](/use-cases/role/designer#_3-ai-responsive-design-qa-engine) | Designer | Enterprise | Automation | - |
+| 799 | [AI Accessibility Compliance Checker](/use-cases/role/designer#_4-ai-accessibility-compliance-checker) | Designer | Enterprise | Automation | - |
+| 800 | [AI Design-to-Code Fidelity Validator](/use-cases/role/designer#_5-ai-design-to-code-fidelity-validator) | Designer | Enterprise | Automation | - |
