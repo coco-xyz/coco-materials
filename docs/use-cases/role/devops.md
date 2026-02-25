@@ -2194,49 +2194,6 @@ Please:
 5. Suggest a patch timeline that balances speed with change-risk
 ```
 
-**Prompt 4: Compliance Audit Evidence Package**
-```
-We need to prepare container security evidence for an upcoming [PCI-DSS/SOC 2 Type II/FedRAMP] audit.
-Audit period: [start date] to [end date]
-Auditor firm: [firm name]
-Specific control areas: [e.g., CC7.1, CC7.2 for SOC 2 / Req 6.3 for PCI-DSS]
-
-Available scan data:
-[paste summary of scan results or describe what logs/reports you have]
-
-Images in scope:
-[list production image names]
-
-Please generate:
-1. An executive summary of our container security posture
-2. A control-by-control evidence mapping table
-3. A list of accepted risks with documented justifications
-4. Remediation timelines for any open findings
-5. Recommendations to strengthen our scanning program before the audit
-```
-
-**Prompt 5: Shift-Left CI/CD Pipeline Gate Design**
-```
-We want to add vulnerability scanning gates to our CI/CD pipeline to block vulnerable images before they reach production.
-
-Current pipeline: [GitHub Actions / GitLab CI / Jenkins / CircleCI / ArgoCD]
-Scanner tool: [Trivy / Grype / Snyk / Clair]
-Image build frequency: approximately [N] builds per day
-Current failure tolerance: [we never block / we block on Critical only / other]
-
-Our risk thresholds:
-- Block on CRITICAL CVEs with EPSS > [X]%
-- Warn on HIGH CVEs older than [N] days unpatched
-- Exceptions process: [describe current waiver process or "none"]
-
-Please design:
-1. A pipeline gate policy configuration for our chosen scanner
-2. An exception/waiver workflow that satisfies audit requirements
-3. Notification routing (who gets alerted on a block vs. a warning)
-4. A suppression strategy for unavoidable false positives
-5. A 30-day rollout plan to avoid disrupting active development teams
-```
-
 :::
 
 ## 13. AI CI/CD Pipeline Failure Predictor
@@ -2382,56 +2339,6 @@ Please:
 3. Recommend pre-merge actions to reduce failure probability
 4. Suggest specific tests to run or checks to add
 5. Flag any dependency changes with known historical failure patterns
-```
-
-**Prompt 4: Pipeline Architecture Optimization Review**
-```
-Please review our current CI/CD pipeline structure and recommend improvements.
-
-Current pipeline configuration:
-[paste your .github/workflows/*.yml, .gitlab-ci.yml, or Jenkinsfile here]
-
-Current metrics:
-- Average pipeline duration: [X minutes]
-- Failure rate: [X%]
-- Cost per pipeline run: approximately $[X] (if known)
-- Team deployment frequency target: [N times per day/week]
-
-Pain points:
-1. [describe specific problem]
-2. [describe specific problem]
-3. [describe specific problem]
-
-Please recommend:
-1. Parallelization opportunities with estimated time savings
-2. Caching strategies for slow dependency installation steps
-3. Stage reordering to fail fast on high-signal checks
-4. Redundant steps that can be eliminated safely
-5. Estimated improvement in duration and failure rate after changes
-```
-
-**Prompt 5: On-Call Runbook Generation from Failure History**
-```
-Generate on-call runbooks for our most common CI/CD pipeline failures.
-
-Pipeline system: [system name]
-Team: [team name]
-On-call rotation size: [N engineers]
-Escalation path: [describe your escalation chain]
-
-Top failure modes we experience:
-1. [failure type and error message]
-2. [failure type and error message]
-3. [failure type and error message]
-4. [failure type and error message]
-5. [failure type and error message]
-
-For each failure mode, please create a runbook including:
-1. Symptoms and how to confirm the root cause
-2. Immediate mitigation steps to restore the pipeline
-3. Permanent fix steps and which team owns them
-4. How to verify the fix worked
-5. Escalation criteria if the standard fix doesn't resolve it
 ```
 
 :::
@@ -2591,56 +2498,6 @@ Please:
 5. Define rollback triggers — at what metrics should we activate our contingency plan
 ```
 
-**Prompt 4: Service Mesh Optimization for Cost Reduction**
-```
-We want to optimize our service mesh configuration to reduce infrastructure cost without degrading reliability.
-
-Current infrastructure:
-- Number of services in mesh: [N]
-- Monthly mesh infrastructure cost: approximately $[X]
-- Current mTLS overhead: [enabled everywhere / partially / disabled]
-- Sidecar proxy resource allocation per pod: [CPU: X, Memory: Y]
-- Total pods in mesh: [N]
-
-Performance baselines:
-- Average request latency: [X ms]
-- P99 latency: [X ms]
-- Current error rate: [X%]
-- SLO targets: [describe your error budget]
-
-Please recommend:
-1. Sidecar proxy resource right-sizing opportunities with estimated savings
-2. Services where mTLS overhead can be safely reduced
-3. Traffic policy simplifications that reduce proxy processing overhead
-4. Observability sampling rate adjustments that preserve insight while reducing storage costs
-5. Estimated total monthly savings from implementing all recommendations
-```
-
-**Prompt 5: Service Mesh Migration Planning**
-```
-We are planning to migrate from [current mesh / no mesh] to [target mesh].
-
-Current state:
-- Current service mesh (if any): [Istio version / Linkerd version / none]
-- Number of services: [N]
-- Number of Kubernetes clusters: [N]
-- Traffic volume: [N requests/day]
-- Current pain points: [describe what's driving the migration]
-
-Target state:
-- Target service mesh: [Istio / Linkerd / Consul Connect / AWS App Mesh]
-- Target version: [X.X]
-- Migration timeline: [X weeks/months]
-- Team mesh expertise level: [beginner / intermediate / advanced]
-
-Please provide:
-1. A phased migration plan with milestones and risk checkpoints
-2. The 5 highest-risk migration steps and how to mitigate each
-3. Traffic cutover strategy (how to shift traffic gradually with rollback capability)
-4. Testing approach to validate mesh behavior before full cutover
-5. Estimated engineering effort in person-weeks for each migration phase
-```
-
 :::
 
 ## 15. AI Log Aggregation and Anomaly Classifier
@@ -2798,60 +2655,6 @@ Please identify:
 3. Bulk export or query patterns that may indicate data exfiltration
 4. A risk severity rating for each flagged event
 5. Recommended investigation steps and documentation for potential breach assessment
-```
-
-**Prompt 4: Log Infrastructure Cost Optimization**
-```
-Our log storage and processing costs have grown significantly. Please help us optimize.
-
-Current log infrastructure:
-- Log aggregation platform: [Splunk / Elasticsearch/OpenSearch / Datadog / Loki]
-- Monthly log volume: [X GB/TB]
-- Monthly cost: approximately $[X]
-- Log retention period: [X days/months/years] (per data type)
-- Compliance retention requirements: [describe HIPAA, SOC 2, or other mandates]
-
-Current log sources and approximate volumes:
-1. [source name]: [X GB/day] — [criticality: high/medium/low]
-2. [source name]: [X GB/day] — [criticality: high/medium/low]
-(continue for major sources)
-
-Pain points:
-[describe cost or operational issues]
-
-Please recommend:
-1. Log sources where sampling or filtering can reduce volume without losing compliance coverage
-2. Tiered storage strategies (hot/warm/cold) with retention periods per log type
-3. Log parsing optimizations that reduce index size without losing searchability
-4. Alternative tooling if current platform cost is structurally too high
-5. Estimated monthly savings from implementing each recommendation
-```
-
-**Prompt 5: Post-Incident Log Review and Root Cause Report**
-```
-We experienced an incident and need to analyze logs to produce a root cause report.
-
-Incident summary:
-- Start time: [datetime UTC]
-- End time / resolution time: [datetime UTC]
-- Systems affected: [list services and components]
-- Patient or clinical impact: [describe if applicable]
-- Initial symptom: [what first indicated a problem]
-
-Log data from the incident window:
-[paste relevant log excerpts, or describe the log sources and what was observed]
-
-Timeline of known events:
-- [time]: [event]
-- [time]: [event]
-- [time]: [event]
-
-Please produce:
-1. A technical root cause analysis with supporting log evidence
-2. A causal chain showing the sequence of failures from initial trigger to full impact
-3. A 5-whys analysis identifying systemic contributing factors
-4. Corrective actions with owners and target completion dates
-5. A non-technical incident summary suitable for clinical leadership communication
 ```
 
 :::
@@ -3014,56 +2817,6 @@ Please:
 5. Draft a post-mortem root cause section attributing infrastructure drift as a contributing factor
 ```
 
-**Prompt 4: Pre-Event Infrastructure Readiness Certification**
-```
-We have a major commercial event approaching and need to certify infrastructure readiness.
-
-Event type: [Black Friday / Cyber Monday / product launch / flash sale / live event]
-Event start time: [datetime UTC]
-Expected traffic multiplier vs. baseline: [Nx]
-Time until event: [X hours/days]
-
-Services on the critical path:
-1. [service name] — infrastructure stack: [Terraform workspace / CloudFormation stack]
-2. [service name] — infrastructure stack: [Terraform workspace / CloudFormation stack]
-3. [service name] — infrastructure stack: [Terraform workspace / CloudFormation stack]
-
-Current open drift items (if known):
-[describe or paste current drift findings]
-
-Please:
-1. Prioritize drift items by their potential impact on event reliability
-2. Identify which drift items must be resolved before the event (blocking) vs. acceptable risk
-3. Estimate remediation effort for each blocking item
-4. Define the infrastructure go/no-go criteria for the event
-5. Produce a 48-hour remediation checklist with owner assignments and verification steps
-```
-
-**Prompt 5: IaC Coverage Gap Analysis**
-```
-We want to understand what percentage of our cloud infrastructure is managed by Infrastructure-as-Code and where the gaps are.
-
-Cloud provider(s): [AWS / GCP / Azure / multi-cloud]
-IaC tool(s): [Terraform / Pulumi / CloudFormation / CDK]
-Known IaC workspaces/stacks: [list names]
-
-Available inventory data:
-[paste AWS Config inventory, cloud asset inventory export, or describe what resource types you have]
-
-IaC-managed resources (approximate):
-[describe what you know is managed by IaC]
-
-Suspected unmanaged resources:
-[describe areas you think may be outside IaC — legacy systems, manually created resources, vendor-managed resources]
-
-Please:
-1. Estimate current IaC coverage percentage by resource type
-2. Identify resource categories with the highest business risk if left unmanaged
-3. Recommend a prioritized import plan to bring resources under IaC management
-4. Suggest drift detection tooling configuration for unmanaged resources in the interim
-5. Produce a 90-day roadmap to reach 95%+ IaC coverage
-```
-
 :::
 
 ## 17. AI Disaster Recovery Plan Validator
@@ -3216,54 +2969,6 @@ Please design:
 3. A facilitator guide with expected responses and decision points for each inject
 4. Evaluation criteria for assessing participant decisions and communications
 5. A post-exercise report template documenting findings for regulatory evidence
-```
-
-**Prompt 4: RTO/RPO Feasibility Validation**
-```
-We need to validate whether our declared RTO and RPO targets are achievable given our current DR procedures.
-
-Declared RTO: [X hours] for [system name]
-Declared RPO: [X hours] for [system name]
-System criticality: [tier 1 / tier 2 / tier 3]
-
-Current recovery procedure steps:
-[paste or describe your recovery runbook steps with any available time estimates]
-
-Infrastructure details:
-- Backup type and frequency: [describe]
-- Replication mechanism and lag: [describe]
-- Failover mechanism: [manual / automated / semi-automated]
-- Dependencies on external vendors: [list with their RTO commitments if known]
-
-Please:
-1. Sum the estimated time for each recovery step to compute realistic RTO
-2. Identify steps with no time estimate and flag them as planning gaps
-3. Assess whether backup/replication configuration supports the declared RPO
-4. Identify sequential procedure dependencies that cannot be parallelized
-5. Recommend specific optimizations to close the gap between declared and achievable RTO/RPO
-```
-
-**Prompt 5: DR Regulatory Evidence Package Assembly**
-```
-We have an upcoming regulatory examination and need to prepare DR evidence.
-
-Regulatory body: [OCC / FDIC / Federal Reserve / SEC / state regulator]
-Examination type: [safety and soundness / IT examination / model risk / BCBS 239]
-Examination date: [date]
-Evidence request received: [describe what the examiner asked for]
-
-Available DR artifacts:
-- Last tabletop exercise: [date], [scope], [findings summary]
-- Last failover test: [date], [systems tested], [actual RTO achieved]
-- Current DR plan version: [version/date]
-- Open remediation items: [describe any known gaps being addressed]
-
-Please help me:
-1. Map each examiner evidence request to the artifacts we have available
-2. Identify evidence gaps that need to be created before the examination
-3. Draft a DR program narrative describing our approach, governance, and improvement trajectory
-4. Produce a board-level DR attestation statement our CRO can review and sign
-5. Prepare responses to the 5 most likely follow-up questions examiners ask about DR programs
 ```
 
 :::
@@ -3430,59 +3135,6 @@ Please design:
 5. An adoption rollout plan that achieves 90%+ compliance within 90 days
 ```
 
-**Prompt 4: Cost Allocation Recovery from Tagging Gaps**
-```
-We need to allocate untagged cloud costs to business units for our quarterly financial close.
-
-Cloud provider: [AWS / GCP / Azure]
-Total monthly cloud spend: $[X]
-Estimated unallocated spend (missing cost allocation tags): $[X] ([X]%)
-Fiscal quarter end date: [date]
-
-Business units requiring cost allocation:
-1. [BU name]: responsible for [describe their systems and workloads]
-2. [BU name]: responsible for [describe their systems and workloads]
-3. [BU name]: responsible for [describe their systems and workloads]
-
-Untagged resource inventory:
-[paste or describe the untagged resources — types, sizes, regions, creation dates, any naming patterns]
-
-Relationships and context:
-[describe any known associations — e.g., "resources in the payments VPC belong to the Payments BU"]
-
-Please:
-1. Allocate untagged costs to business units using available contextual signals
-2. Show your allocation methodology and confidence level for each BU
-3. Identify costs that genuinely cannot be attributed and recommend how to handle them (proportional split, shared services pool, etc.)
-4. Produce a cost allocation table suitable for financial reporting
-5. Recommend tagging improvements to eliminate this manual recovery effort next quarter
-```
-
-**Prompt 5: Tagging Compliance Shift-Left Implementation**
-```
-We want to embed tagging compliance checks into our development workflow to prevent non-compliant resources from reaching production.
-
-IaC tool: [Terraform / Pulumi / CloudFormation / CDK]
-CI/CD platform: [GitHub Actions / GitLab CI / Jenkins / CircleCI]
-Cloud provider: [AWS / GCP / Azure]
-Required tags: [list your required tag keys]
-
-Current state:
-- Tagging compliance rate: [X%]
-- Primary cause of non-compliance: [engineers forget / no enforcement / requirements unclear / inherited resources]
-- Current enforcement mechanism: [describe what you have today, if anything]
-
-Development workflow:
-[describe how engineers create infrastructure — IaC PRs, console access, automated provisioning, etc.]
-
-Please design:
-1. Pre-commit hooks for our IaC tool that validate required tags before plan execution
-2. CI/CD pipeline gate configuration that fails PRs with missing required tags
-3. Cloud-native policy enforcement (AWS Config / GCP Org Policy / Azure Policy) as a backstop
-4. An IaC module or template that makes tagging the default behavior, not an afterthought
-5. A communication plan to roll out the new requirements to engineering teams without creating friction
-```
-
 :::
 
 ## 19. AI SLA Monitoring and Alert Tuning Advisor
@@ -3645,65 +3297,6 @@ Please produce:
 3. The SLA credit calculation with supporting data
 4. A remediation plan with specific actions to prevent recurrence
 5. Talking points for the account manager's call with the customer
-```
-
-**Prompt 4: Composite SLA Monitoring Design**
-```
-We need to design composite SLA monitoring for a complex multi-component service.
-
-Service name: [service name]
-Customer SLA commitment: [X]% availability, [X ms] max latency, [X]% max packet loss
-Measurement period: [monthly]
-Customer segment: [enterprise / wholesale / regulatory]
-
-Service components that must all be healthy for SLA compliance:
-1. [component name]: monitored via [tool/metric], current alert threshold: [X]
-2. [component name]: monitored via [tool/metric], current alert threshold: [X]
-3. [component name]: monitored via [tool/metric], current alert threshold: [X]
-4. [component name]: monitored via [tool/metric], current alert threshold: [X]
-
-Monitoring infrastructure available: [list your monitoring tools]
-Alerting platform: [PagerDuty / OpsGenie / Moogsoft / etc.]
-
-Please design:
-1. A composite health score formula combining all component metrics into a single SLA risk indicator
-2. Alert rules that trigger pre-breach warnings at 80%, 90%, and 95% of SLA threshold consumption
-3. Correlation rules linking component failures to SLA impact predictions
-4. Dashboard layout showing per-customer composite SLA health at a glance
-5. Escalation routing — which teams are alerted at each pre-breach threshold level
-```
-
-**Prompt 5: Quarterly SLA Business Review Report Generation**
-```
-Please generate a quarterly SLA performance report for a customer business review (QBR).
-
-Customer: [customer name]
-Account manager: [name]
-QBR date: [date]
-Review period: [Q1/Q2/Q3/Q4 YYYY]
-Customer industry: [describe their business]
-Services contracted: [list services]
-
-SLA performance data for the period:
-- Availability: [X]% achieved vs. [X]% committed
-- Latency P95: [X ms] achieved vs. [X ms] committed
-- Packet loss: [X]% achieved vs. [X]% committed
-- Number of incidents affecting this customer: [N]
-- Total incident duration: [X hours]
-- SLA credits issued (if any): $[X]
-
-Notable events this quarter:
-1. [event description and date]
-2. [event description and date]
-
-Upcoming changes or improvements: [describe planned work relevant to this customer]
-
-Please generate:
-1. An executive summary of SLA performance for non-technical customer leadership
-2. A metric-by-metric performance analysis with trend charts (described as tables since this is text)
-3. Root cause summaries for any incidents that impacted SLA
-4. A forward-looking improvement plan with committed actions and dates
-5. A positive framing narrative that maintains customer confidence while being fully transparent about issues
 ```
 
 :::
@@ -3869,57 +3462,6 @@ Please:
 3. Detect unused policy bindings that should be removed
 4. Recommend specific policy rewrites with minimum required permissions
 5. Prioritize findings by blast radius if the over-permissioned identity were compromised
-```
-
-**Prompt 4: Accidental Secret Exposure Incident Response**
-```
-We have discovered that a secret was accidentally exposed. Please help us respond.
-
-Secret type: [API key / database credential / OAuth token / SSH private key / TLS private key]
-Exposure vector: [committed to git / logged in application logs / included in error response / found in S3 bucket / other]
-Discovery method: [automated scan / developer noticed / customer reported / security vendor alert]
-Discovery time: [datetime UTC]
-Estimated exposure start time: [datetime UTC or "unknown"]
-Secret privilege level: [describe what access this secret grants]
-Consuming services: [list services using this secret]
-
-Available audit data:
-[describe any access logs or audit trails showing whether the secret was used by unauthorized parties]
-
-Please provide:
-1. An immediate triage assessment — is there evidence of unauthorized use?
-2. Step-by-step containment actions in priority order
-3. A rotation procedure for this specific secret type
-4. A forensic evidence preservation checklist before making changes
-5. A breach notification assessment — does this meet the threshold for customer or regulatory notification?
-```
-
-**Prompt 5: Secrets Management Program Maturity Assessment**
-```
-Please assess the maturity of our secrets management program and produce a roadmap to improve it.
-
-Current state:
-- Secrets stored in approved vault: [X]% of known secrets
-- Secrets with documented rotation policy: [X]%
-- Secrets rotated within policy in the last 90 days: [X]%
-- Automated rotation implemented: [yes/no — describe scope]
-- Vault audit logging enabled: [yes/no]
-- Secrets scanning in CI/CD: [yes/no — describe tool]
-- Developer secrets management training: [yes/no]
-
-Compliance target frameworks: [SOC 2 / PCI-DSS Req 8 / ISO 27001 A.9.4 / NIST 800-53]
-Target completion date for compliance: [date]
-Available engineering capacity for this program: [N engineer-weeks]
-
-Known gaps we're aware of:
-[describe specific issues you know exist]
-
-Please produce:
-1. A maturity level assessment (1-5 scale) for each dimension of the secrets management program
-2. Gap analysis against target compliance frameworks
-3. A prioritized improvement roadmap with milestones and effort estimates
-4. Quick wins achievable in the first 30 days with minimal engineering investment
-5. A target-state architecture description for a mature secrets management program
 ```
 
 :::
@@ -4088,66 +3630,6 @@ Please recommend:
 3. Payment type recommendation (all-upfront vs. partial vs. no-upfront) with ROI calculation
 4. How to handle seasonal traffic spikes that exceed commitment capacity cost-effectively
 5. Expected 12-month savings from implementing your recommendations vs. current portfolio
-```
-
-**Prompt 4: Game Launch Cloud Cost Forecast**
-```
-We have a major game launch approaching and need to forecast cloud infrastructure costs.
-
-Game title: [name]
-Launch date: [date]
-Launch regions: [list geographic regions]
-
-Player projection:
-- Day 1 concurrent players (P50 estimate): [N]
-- Day 1 concurrent players (P90 estimate): [N]
-- Day 1 concurrent players (P99 estimate): [N]
-- Week 1 DAU estimate: [N]
-- 30-day DAU estimate: [N]
-
-Infrastructure profile (per 1,000 concurrent players):
-- Game server compute: [N vCPUs, N GB RAM per 1K CCU]
-- Database read/write load: [describe]
-- CDN data transfer per session: [N GB/hour]
-- Analytics pipeline volume: [N events/second]
-
-Current committed capacity (reserved instances/savings plans):
-[describe what you already have committed]
-
-Please:
-1. Calculate cloud cost scenarios for P50, P90, and P99 player count projections
-2. Identify which services will exceed committed capacity at each scenario
-3. Recommend pre-purchasing spot capacity pools before launch to reduce on-demand overage
-4. Produce a day-by-day cost curve for the first 30 days post-launch
-5. Recommend cost optimization actions to take in the first week if player counts come in below P50
-```
-
-**Prompt 5: Cloud Cost Anomaly Investigation**
-```
-We have detected an unexpected spike in cloud costs and need to investigate.
-
-Cloud provider(s): [AWS / GCP / Azure]
-Anomaly period: [date range]
-Unexpected spend amount: $[X] above expected baseline
-Expected daily cost baseline: $[X]
-Actual daily cost during anomaly: $[X]
-
-Available billing data:
-[paste cost breakdown by service, region, or resource type — or describe the top cost drivers]
-
-Recent infrastructure changes during or before the anomaly:
-1. [change description and date]
-2. [change description and date]
-
-Recent game/business events during or before the anomaly:
-[describe player count changes, marketing campaigns, live events, etc.]
-
-Please:
-1. Identify the most likely causes of the cost spike based on available data
-2. Distinguish intentional cost increases (caused by real traffic growth) from unintentional waste
-3. Quantify the annualized cost impact if the anomaly-causing configuration is not fixed
-4. Recommend immediate remediation steps for unintentional cost increases
-5. Suggest monitoring and alert rules to detect this pattern earlier in the future
 ```
 
 :::
@@ -4340,64 +3822,6 @@ Please provide:
 5. A 3-sentence rollout status communication for customer-facing teams while the decision is made
 ```
 
-**Prompt 4: Pre-Deployment Canary Risk Assessment**
-```
-Before starting a canary deployment, I want to assess the regression risk of this release.
-
-Service: [service name]
-Release version: [version]
-Changes included in this release:
-[describe or paste a summary of the changes — e.g., from git log or release notes]
-
-Files changed (high-level):
-[list major files or components changed — e.g., "payment processing module", "database query optimization", "third-party API client update"]
-
-Historical regression context:
-- Similar changes that caused regressions previously: [describe if known]
-- Current production error rate baseline: [X]%
-- Current P99 latency baseline: [X ms]
-
-Upcoming traffic conditions:
-- Expected traffic level during rollout: [normal / elevated — describe any events or peaks]
-- Any recently changed dependencies: [describe]
-
-Please:
-1. Score this release's regression risk (low / medium / high) with justification
-2. Identify the 3 highest-risk changes in this release based on historical patterns
-3. Recommend the minimum canary traffic percentage and observation window for this risk level
-4. Specify which metrics to monitor most closely during the canary given these specific changes
-5. Define rollback trigger criteria — at what metric values should we immediately halt and roll back
-```
-
-**Prompt 5: Deployment Reliability Review and Improvement Plan**
-```
-Please analyze our deployment history and recommend improvements to our canary analysis process.
-
-Service or platform: [name]
-Review period: [last 6 / 12 months]
-Total deployments in period: [N]
-Deployments that caused production incidents: [N] ([X]%)
-Incidents caught by canary before full rollout: [N]
-Incidents discovered only after full rollout: [N]
-Average rollout duration (canary to 100%): [X minutes]
-
-Current canary process:
-- Canary traffic percentage: [X]%
-- Observation window duration: [X minutes]
-- Metrics monitored: [list metrics currently watched]
-- Rollback decision process: [describe — manual judgment / automated alerts / other]
-
-Biggest gaps we've observed:
-[describe issues with the current process — e.g., "we miss regressions that only show up after 30+ minutes under load"]
-
-Please:
-1. Identify which types of regressions our current process consistently misses
-2. Recommend metrics we should add to our canary monitoring that would have caught missed incidents
-3. Suggest improvements to observation window duration and traffic percentage based on our incident history
-4. Design automated rollback trigger criteria for this service based on historical baseline data
-5. Produce a 6-month improvement roadmap with expected impact on deployment incident rate
-```
-
 :::
 
 ## 23. AI Capacity Forecasting and Auto-Scaling Advisor
@@ -4572,68 +3996,6 @@ Please:
 3. Generate a pre-event infrastructure checklist with specific actions, owners, and completion times
 4. Design a warm-up procedure for the 30 minutes before the event begins
 5. Define monitoring thresholds and escalation criteria for the event operations team to watch during the live event
-```
-
-**Prompt 4: Off-Peak Cost Optimization Plan**
-```
-We want to reduce infrastructure costs during low-demand periods without impacting availability.
-
-Platform: [EdTech platform description]
-Cloud provider: [AWS / GCP / Azure]
-Current monthly infrastructure cost: $[X]
-Estimated cost during off-peak vs. peak split: [X]% of the month is off-peak
-
-Academic calendar low-demand windows:
-- Summer break: [date range] — expected load: [X]% of term peak
-- Winter break: [date range] — expected load: [X]% of term peak
-- Weekends during term: typically [X]% of weekday peak
-- Overnight (11pm-6am local): typically [X]% of daytime peak
-
-Services with fixed (non-auto-scaling) capacity:
-1. [Service name]: [current spec] — utilization during off-peak: [X]%
-2. [Service name]: [current spec] — utilization during off-peak: [X]%
-3. [Service name]: [current spec] — utilization during off-peak: [X]%
-
-Risk tolerance for off-peak cost optimization:
-[describe acceptable trade-offs — e.g., "we can tolerate slightly slower response times overnight but must maintain full availability for international students"]
-
-Please:
-1. Identify the services with the largest gap between off-peak utilization and current provisioned capacity
-2. Recommend a dynamic minimum instance count schedule for each auto-scaling service
-3. Suggest right-sizing actions for fixed-capacity services during extended break periods
-4. Estimate monthly savings from implementing each recommendation with risk assessment
-5. Design a scheduling system (cron-based or calendar-driven) to implement changes automatically
-```
-
-**Prompt 5: Post-Event Capacity Review and Forecast Model Improvement**
-```
-We just completed a major traffic event and want to use the data to improve our future capacity planning.
-
-Event type: [exam period / semester start / live event / other]
-Event date(s): [date range]
-Pre-event forecast: [N] concurrent users at peak
-Actual measured peak: [N] concurrent users at peak
-Forecast error: [X]% [over/under estimate]
-
-Infrastructure performance during the event:
-- Services that reached capacity limits: [list]
-- Services that were significantly over-provisioned: [list]
-- Scaling events: [N scale-out events, [N scale-in events]
-- Auto-scaling response times: [X minutes from trigger to available capacity]
-- Incidents during event: [describe any performance issues or outages]
-
-Pre-scaling actions we took vs. what was actually needed:
-[describe what you pre-scaled and whether it was the right amount]
-
-Cost of infrastructure during event: $[X]
-Estimated cost of over-provisioning (wasted capacity): $[X]
-
-Please:
-1. Identify why the forecast was [over/under] by [X]% and what data would improve accuracy
-2. Assess whether auto-scaling behavior was appropriate — did it scale at the right time and speed?
-3. Identify the 3 most impactful changes to our capacity planning process for the next similar event
-4. Recommend specific model adjustments to improve forecast accuracy by at least 30%
-5. Produce a lessons-learned report suitable for sharing with engineering and academic operations teams
 ```
 
 :::
