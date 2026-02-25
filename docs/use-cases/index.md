@@ -37,7 +37,7 @@ Find use cases for your specific job function:
 | [Fund Manager / VC Analyst](/use-cases/role/fund-manager) | 40 | LP Quarterly Report Generator, Deal Flow Pipeline Scoring, Term Sheet Clause Comparator, ... |
 | [AI Product Manager](/use-cases/role/ai-product-manager) | 40 | Model Evaluation Framework Builder, Prompt Engineering Optimizer, Bias Detection & Fairness Audit, ... |
 | [Research Analyst](/use-cases/role/research-analyst) | 40 | Market Sizing & TAM/SAM/SOM Calculator, Competitive Intelligence Report Builder, Industry Trend Aggregator, ... |
-| [Designer](/use-cases/role/designer) | 1 | Brand Asset Consistency Auditor |
+| [Designer](/use-cases/role/designer) | 5 | Brand Asset Consistency Auditor, Design System Component Auditor, Responsive Design QA, ... |
 
 ## Browse by Task
 

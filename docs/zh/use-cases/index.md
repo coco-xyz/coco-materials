@@ -37,7 +37,7 @@
 | [基金经理](/zh/use-cases/role/fund-manager) | 40 | AI LP季度报告生成器、AI交易流量管线评分与优先级排序引擎、AI条款清单条款对比与红旗提示工具... |
 | [AI产品经理](/zh/use-cases/role/ai-product-manager) | 40 | AI模型评估框架构建器、AI提示词工程工作流优化器、AI偏见检测与公平性审计引擎... |
 | [研究分析师](/zh/use-cases/role/research-analyst) | 40 | AI市场规模与TAM/SAM/SOM计算器、AI竞争情报深度报告构建器、AI行业趋势信号聚合与综合器... |
-| [设计师](/zh/use-cases/role/designer) | 1 | AI品牌资产一致性审计员 |
+| [设计师](/zh/use-cases/role/designer) | 5 | AI品牌资产一致性审计员、AI设计系统组件审计员、AI响应式设计QA引擎... |
 
 ## 按任务浏览
 
