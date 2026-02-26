@@ -98,7 +98,6 @@
 /* ===== Mobile-responsive tables ===== */
 .vp-doc table {
   display: table;
-  table-layout: fixed;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   width: 100%;
@@ -107,29 +106,6 @@
 .vp-doc table td,
 .vp-doc table th {
   white-space: normal;
-  overflow: hidden;
-  text-overflow: ellipsis;
   vertical-align: top;
   word-break: break-word;
-}
-/* Use-case index: 6-column layout (No / Title / Role / Industry / Type / Result) */
-.vp-doc table th:nth-child(1),
-.vp-doc table td:nth-child(1) { width: 5%; text-align: center; }
-.vp-doc table th:nth-child(2),
-.vp-doc table td:nth-child(2) { width: 28%; }
-.vp-doc table th:nth-child(3),
-.vp-doc table td:nth-child(3) { width: 10%; }
-.vp-doc table th:nth-child(4),
-.vp-doc table td:nth-child(4) { width: 12%; }
-.vp-doc table th:nth-child(5),
-.vp-doc table td:nth-child(5) { width: 10%; }
-.vp-doc table th:nth-child(6),
-.vp-doc table td:nth-child(6) { width: 35%; }
-/* Limit cell content height for uniform rows */
-.vp-doc table td {
-  max-height: 4.5em;
-  line-height: 1.5;
-  display: table-cell;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
 }
