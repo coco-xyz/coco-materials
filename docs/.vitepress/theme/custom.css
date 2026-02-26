@@ -96,21 +96,9 @@
 }
 
 /* ===== Tables ===== */
-.vp-doc table {
-  display: table;
-  width: auto;
-  min-width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
+/* Override VitePress default word-break: break-all to prevent
+   character-by-character wrapping in short-content columns */
 .vp-doc table td,
 .vp-doc table th {
-  vertical-align: top;
-  white-space: nowrap;
-}
-/* Allow last column to wrap (typically longest content: Key Metrics / 核心指标) */
-.vp-doc table td:last-child,
-.vp-doc table th:last-child {
-  white-space: normal;
-  min-width: 10em;
+  word-break: normal;
 }
