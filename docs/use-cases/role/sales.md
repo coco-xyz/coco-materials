@@ -8,9 +8,7 @@ AI-powered use cases for SDRs, account executives, and sales leaders.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/015-ai-lead-researcher.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/015-ai-lead-researcher.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -194,9 +192,7 @@ For each lead, provide:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/016-ai-crm-updater.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/016-ai-crm-updater.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -354,9 +350,7 @@ Also generate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/017-ai-proposal-generator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/017-ai-proposal-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -529,9 +523,7 @@ Max length: [X words or X pages]
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/018-ai-follow-up-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/018-ai-follow-up-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -704,9 +696,7 @@ Each email should feel like it was written individually, not like 3 versions of 
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/019-ai-client-research-brief.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/019-ai-client-research-brief.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -856,9 +846,7 @@ Make this conversational -- I want to sound informed, not like I'm reading a rep
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/020-ai-quote-calculator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/020-ai-quote-calculator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1021,9 +1009,7 @@ Format as a clean, customer-facing document.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/045-ai-sales-forecaster.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/045-ai-sales-forecaster.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1129,9 +1115,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/046-ai-demo-personalizer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/046-ai-demo-personalizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1237,9 +1221,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/047-ai-pricing-optimizer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/047-ai-pricing-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1345,9 +1327,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/048-ai-contract-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/048-ai-contract-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1453,9 +1433,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/049-ai-churn-predictor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/049-ai-churn-predictor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1561,9 +1539,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/073-ai-sales-territory-mapper.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/073-ai-sales-territory-mapper.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1742,9 +1718,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/086-ai-customer-win-back-campaigner.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/086-ai-customer-win-back-campaigner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1923,9 +1897,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/098-ai-sales-objection-handler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/098-ai-sales-objection-handler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2157,9 +2129,7 @@ Present findings in a format suitable for a sales team meeting, with specific ex
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/101-ai-pitch-deck-builder.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/101-ai-pitch-deck-builder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2434,9 +2404,7 @@ Analyze and recommend:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/102-ai-customer-health-scorer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/102-ai-customer-health-scorer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2760,9 +2728,7 @@ For each scenario, provide:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/104-ai-rfp-response-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/104-ai-rfp-response-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3069,9 +3035,7 @@ Analyze and provide:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/128-ai-donor-engagement-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/128-ai-donor-engagement-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3195,9 +3159,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/132-ai-policy-renewal-optimizer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/132-ai-policy-renewal-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3321,9 +3283,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/135-ai-dealership-inventory-matcher.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/135-ai-dealership-inventory-matcher.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3447,9 +3407,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/140-ai-guest-upsell-recommender.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/140-ai-guest-upsell-recommender.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3573,9 +3531,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/197-ai-test-drive-scheduler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/197-ai-test-drive-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3699,9 +3655,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/201-ai-referral-network-mapper.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/201-ai-referral-network-mapper.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3825,9 +3779,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/202-ai-comparative-market-analysis.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/202-ai-comparative-market-analysis.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -4143,7 +4095,6 @@ Analyze:
 ```
 
 :::
-
 ## 26. AI Prospect Research Synthesizer {#use-case-374}
 
 > Compresses 45–60 minutes of pre-call research into 10–15 minutes while producing a more comprehensive brief — improving discovery-to-opportunity conversion by 34%.
@@ -4342,7 +4293,6 @@ Based on what's publicly available about this company's tech stack, hiring patte
 ```
 
 :::
-
 ## 27. AI Sales Email Personalization Engine {#use-case-375}
 
 > Produces research-backed, trigger-event-driven outreach emails in 3–5 minutes per email — achieving 8–12% response rates versus 2–3% for templated sequences on the same prospect universe.
@@ -4559,7 +4509,6 @@ Email requirements:
 ```
 
 :::
-
 ## 28. AI Deal Risk Assessor {#use-case-376}
 
 > Produces a structured deal risk assessment that reduces late-stage loss rates by 30–35% and deal slippage by 40% by identifying the specific risks — stakeholder gaps, competitive threats, process failures — 30+ days before close.
@@ -4795,7 +4744,6 @@ Please provide:
 ```
 
 :::
-
 ## 29. AI Win-Loss Debrief Analyzer {#use-case-377}
 
 > Transforms individual deal debrief notes into pattern-level intelligence — identifying competitive win/loss drivers, sales process failures, and persona-level insights that improve win rates 15–20% over four quarters.
@@ -5014,7 +4962,6 @@ Prioritize updates by expected win rate impact: High / Medium / Low
 ```
 
 :::
-
 ## 30. AI Sales Call Summary Generator {#use-case-378}
 
 > Transforms raw call notes into structured, CRM-ready summaries in 3–5 minutes instead of 20–30 minutes — recovering 2–4 hours per week per rep for selling activities while improving CRM data completeness by 65%.
@@ -5226,7 +5173,6 @@ Overall objection analysis:
 ```
 
 :::
-
 ## 31. AI CRM Data Quality Auditor {#use-case-379}
 
 > Systematically identifies data quality issues across the pipeline — missing fields, stage misclassification, stale records — and generates a targeted remediation plan that improves forecast accuracy 20–25% within two quarters.
@@ -5419,7 +5365,6 @@ Generate:
 ```
 
 :::
-
 ## 32. AI Sales Proposal Generator {#use-case-380}
 
 > Produces personalized, prospect-specific proposals in 45–60 minutes instead of 3–6 hours — using discovery findings to frame value in the prospect's language, improving proposal win rates by 25–30%.
@@ -5644,7 +5589,6 @@ Length: 300-500 words for narrative, plus a clean pricing table
 ```
 
 :::
-
 ## 33. AI Territory Planning Advisor {#use-case-381}
 
 > Reduces territory planning cycles from 4–6 weeks to 2 weeks and narrows the spread between highest and lowest potential territories by 30–40% — enabling earlier rep communication and reducing attrition from perceived unfairness.
@@ -5846,7 +5790,6 @@ Produce a prioritized top 15 whitespace accounts I should approach this quarter,
 ```
 
 :::
-
 ## 34. AI Sales Forecast Builder {#use-case-382}
 
 > Produces three-scenario (conservative/base/upside) quarterly forecasts with explicit deal-level assumptions — improving quarter-over-quarter accuracy from ±25% to ±12% variance within two cycles.
@@ -6072,7 +6015,6 @@ Calculate:
 ```
 
 :::
-
 ## 35. AI Customer Objection Handler {#use-case-383}
 
 > Develops evidence-backed, contextually calibrated objection responses that convert persistent objections into deal advancement 28% more often and reduce unplanned discounting by 35%.
@@ -6282,7 +6224,6 @@ Format the champion kit as content they can actually use — concise, plain lang
 ```
 
 :::
-
 ## 36. AI RFP Response Assistant {#use-case-384}
 
 > Reduces RFP response time from 40–80 hours to 20–35 hours with AI-assisted answer drafting, routing, and completeness review — enabling response to RFPs that were previously declined due to bandwidth.
@@ -6508,7 +6449,6 @@ Format for storage in a shared knowledge base that team members can search and r
 ```
 
 :::
-
 ## 37. AI Account Expansion Opportunity Identifier {#use-case-385}
 
 > Identifies expansion signals across the existing customer base — feature usage, org growth, new use cases — and produces a ranked expansion pipeline that drives NRR from 105% toward 115–125%.
@@ -6730,7 +6670,6 @@ Generate:
 ```
 
 :::
-
 ## 38. AI Sales Enablement Content Creator {#use-case-386}
 
 > Produces competitive battlecards, objection handling guides, and conversation frameworks from field intel and product updates — maintaining 90%+ content accuracy versus the typical 60–70% at quarterly review.
@@ -6779,6 +6718,7 @@ COCO helps create, update, and organize sales enablement content — battlecards
    - Audits existing content library against the sales stages and deal scenarios most commonly encountered
    - Identifies content gaps (stages or scenarios without supporting materials)
    - Recommends a content creation priority order based on content gap impact on revenue
+
 :::
 
 ::: details Results & Who Benefits
@@ -6796,6 +6736,7 @@ COCO helps create, update, and organize sales enablement content — battlecards
 - **Sales Managers**: Provide team-wide enablement coverage without having a dedicated enablement manager — maintaining quality standards across content types that directly support deal execution
 - **Sales Enablement Teams (where they exist)**: Multiply content creation and refresh capacity significantly, enabling coverage of more competitive scenarios, more segments, and more deal stages than is possible with manual production
 - **Marketing / Product Marketing**: Ensure field-facing content reflects current positioning, current competitive landscape, and current product capability — without the quarterly content audit that always gets deprioritized
+
 :::
 
 ::: details 💡 Practical Prompts
@@ -6951,8 +6892,8 @@ For each template:
 
 Keep each template to a realistic length — these should feel like genuine emails, not marketing copy.
 ```
-:::
 
+:::
 ## 39. AI Buyer Persona Builder {#use-case-387}
 
 > Builds evidence-based buyer personas from deal data and win/loss patterns — improving outbound meeting acceptance rates 28% and discovery-to-opportunity conversion 22% by calibrating messaging to current buyer reality.
@@ -7001,6 +6942,7 @@ COCO synthesizes win/loss data, customer interview themes, and market signals to
    - Compares current deal characteristics against existing persona profiles
    - Identifies where actual buyer behavior deviates from documented persona assumptions
    - Recommends specific persona updates prioritized by their impact on sales effectiveness
+
 :::
 
 ::: details Results & Who Benefits
@@ -7018,6 +6960,7 @@ COCO synthesizes win/loss data, customer interview themes, and market signals to
 - **Sales Development Representatives**: Build outreach sequences that reflect current buyer language and current pain priorities, improving response rates by reaching prospects with genuinely relevant messages
 - **Product Marketing**: Build messaging and positioning on a foundation of current buyer reality rather than launch-time assumptions — with specific evidence from recent deals
 - **Revenue Leadership / GTM Strategy**: Make ICP refinement and market expansion decisions based on data about actual buying patterns rather than theoretical market analysis
+
 :::
 
 ::: details 💡 Practical Prompts
@@ -7169,8 +7112,8 @@ For each section, include:
 - Probing follow-ups if they give surface-level answers
 - Note-taking guidance (what to capture verbatim)
 ```
-:::
 
+:::
 ## 40. AI Partnership Proposal Writer {#use-case-388}
 
 > Produces mutual-value-framed partnership proposals that advance to a second conversation 40% more often and achieve 25–30% response rates on cold outreach — versus 5–10% for generic "let's explore" approaches.
@@ -7219,6 +7162,7 @@ COCO helps craft partnership proposals that articulate joint value creation, cus
    - Addresses partner capacity concerns (how much effort is required from their team)
    - Responds to exclusivity and competitive conflict questions
    - Frames the risk profile of the proposed arrangement for each party
+
 :::
 
 ::: details Results & Who Benefits
@@ -7236,6 +7180,7 @@ COCO helps craft partnership proposals that articulate joint value creation, cus
 - **Account Executives (expanding into partnerships)**: Translate customer relationships into partnership opportunities with proposals that are credible to both business development and product teams at the partner organization
 - **Revenue Leadership**: Develop a partnership motion that is grounded in analytical rigor rather than personal relationships — enabling partnerships that can scale beyond any individual relationship
 - **Product / Integration Teams**: Receive partnership proposals with clear technical and operational requirements, enabling faster feasibility assessment and integration planning
+
 :::
 
 ::: details 💡 Practical Prompts
@@ -7394,8 +7339,8 @@ For each objection:
 
 Also provide: the one objection from this list that is most likely to be a real dealbreaker vs. the ones that are negotiating positions, and how to tell the difference.
 ```
-:::
 
+:::
 ## 41. AI Sales Playbook Updater {#use-case-389}
 
 > Audits playbook sections for staleness against recent product changes, competitive shifts, and win/loss insights — maintaining 90%+ accuracy versus the typical 60–70% at quarterly review without AI assistance.
@@ -7445,6 +7390,7 @@ COCO helps identify which playbook sections are outdated based on product change
    - Identifies sections that are too dense for quick reference and reformats them as scannable guides
    - Suggests the creation of quick-reference cards, checklists, or one-pagers for high-frequency content
    - Recommends a section organization that matches the rep's workflow rather than the author's logic
+
 :::
 
 ::: details Results & Who Benefits
@@ -7462,6 +7408,7 @@ COCO helps identify which playbook sections are outdated based on product change
 - **Account Executives**: Consult a playbook they trust to reflect current reality — because it does — rather than developing informal workarounds for sections they've learned not to rely on
 - **Sales Enablement (where they exist)**: Multiply content maintenance capacity significantly, enabling proactive playbook currency management rather than reactive rewrite projects driven by rep complaints about outdated content
 - **Revenue Operations**: Maintain the institutional knowledge infrastructure that onboards new reps, enables consistent performance, and supports forecast reliability — without the quarterly crisis of discovering the playbook is six months behind reality
+
 :::
 
 ::: details 💡 Practical Prompts
@@ -7622,8 +7569,8 @@ For the new objection:
 
 Format as a quick-reference card reps can use during live calls.
 ```
-:::
 
+:::
 ## 42. AI Sales Call Coaching Engine
 
 > Sales teams lose deals not because their product is inferior, but because reps make predictable, coachable mistakes on calls — speaking too much, failing to ask discovery questions, mishandling objections, skipping urgency creation, or losing control of the buying conversation
@@ -7800,7 +7747,6 @@ Assess:
 ```
 
 :::
-
 ## 43. AI Sales Territory Plan Optimizer
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
@@ -8000,7 +7946,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 44. AI Sales Competitive Battlecard Generator
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
@@ -8200,7 +8145,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 45. AI Sales Pipeline Forecast Optimizer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
@@ -8400,7 +8344,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 46. AI Sales Account Expansion Opportunity Finder
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
@@ -8600,7 +8543,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 47. AI Deal Desk Pricing Advisor
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
@@ -8800,7 +8742,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 48. AI Sales Proposal Win Rate Optimizer
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
@@ -9000,7 +8941,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 49. AI Inbound Lead Scoring Engine
 
 > Organizations operating in E-Commerce face mounting pressure to deliver results with constrained resources
@@ -9200,7 +9140,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 50. AI Customer Reference Story Builder
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources

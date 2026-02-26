@@ -8,9 +8,7 @@ AI-powered use cases for consultant professionals.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/112-ai-strategy-brief-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/112-ai-strategy-brief-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -134,9 +132,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/127-ai-due-diligence-compiler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/127-ai-due-diligence-compiler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -260,9 +256,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/142-ai-management-consulting-deck-builder.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/142-ai-management-consulting-deck-builder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -386,9 +380,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/145-ai-pest-detection-advisor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/145-ai-pest-detection-advisor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -512,9 +504,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/157-ai-benchmarking-analyst.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/157-ai-benchmarking-analyst.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -638,9 +628,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/174-ai-market-sizing-modeler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/174-ai-market-sizing-modeler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -764,9 +752,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/189-ai-pricing-strategy-modeler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/189-ai-pricing-strategy-modeler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1083,7 +1069,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 9. AI Market Entry Strategy Builder
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
@@ -1283,7 +1268,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 10. AI Consultant Competitive Landscape Mapper
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
@@ -1483,7 +1467,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 11. AI Post-Merger Integration Planner
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
@@ -1683,7 +1666,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 12. AI Digital Transformation Roadmap Builder
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
@@ -1883,7 +1865,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 13. AI Organizational Change Management Advisor
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources

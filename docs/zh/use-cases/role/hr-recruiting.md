@@ -6,11 +6,9 @@ AI驱动的HR团队、招聘人员和人力运营用例。
 
 > 2小时筛选500份简历，替代3天人工筛选。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/025-ai-resume-screener.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/025-ai-resume-screener.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -161,11 +159,9 @@ COCO的AI Resume Screener对每份申请进行深度、一致的分析，对照�
 
 > 10分钟生成无偏见、SEO优化的职位描述。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/026-ai-job-description-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/026-ai-job-description-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -338,11 +334,9 @@ COCO的AI Job Description Writer创建引人注目的、包容的、高效的职
 
 > 3分钟完成面试排期，自动协调多方日历。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/027-ai-interview-scheduler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/027-ai-interview-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -498,11 +492,9 @@ COCO的AI Interview Scheduler自动化从初始可用性到确认的整个排期
 
 > 新员工3天完成入职，替代传统2周流程。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/028-ai-onboarding-assistant.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/028-ai-onboarding-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -678,11 +670,9 @@ COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入�
 
 > 员工调查响应率从31%提至82%，离职预测89%准确。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/055-ai-employee-pulse.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/055-ai-employee-pulse.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -786,11 +776,9 @@ COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入�
 
 > 培训完成率从23%提至71%，6个月技能差距关闭64%。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/056-ai-training-recommender.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/056-ai-training-recommender.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -894,11 +882,9 @@ COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入�
 
 > 实时薪酬对标，Offer竞争力从52%提至89%，遗憾离职降35%。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/057-ai-comp-benchmarker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/057-ai-comp-benchmarker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1002,11 +988,9 @@ COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入�
 
 > 绩效评审撰写从40小时降至6小时，可操作反馈从24%提至87%。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/058-ai-review-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/058-ai-review-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1110,11 +1094,9 @@ COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入�
 
 > 员工离职流程从2周缩短到1天，权限撤销遗漏降至0%。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/082-ai-employee-offboarding-manager.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/082-ai-employee-offboarding-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1291,11 +1273,9 @@ COCO的AI员工离职管理器将这种混乱转变为流畅的智能工作流�
 
 > 职位广告点击率提升65%，优质候选人申请量增加40%。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/093-ai-recruitment-marketing-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/093-ai-recruitment-marketing-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1472,11 +1452,9 @@ COCO的AI招聘营销文案助手将这种混乱转变为流畅的智能工作�
 
 > 合规培训完成率从52%提升到96%，逾期培训降至接近0%。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/097-ai-compliance-training-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/097-ai-compliance-training-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1741,7 +1719,6 @@ COCO的AI合规培训追踪器将合规培训从被动、人力密集的流程�
 ```
 
 :::
-
 ## 13. AI 简历筛选与候选人短名单生成助手
 
 ::: details 量化结果与受益角色
@@ -1795,7 +1772,6 @@ COCO的AI合规培训追踪器将合规培训从被动、人力密集的流程�
 ```
 
 :::
-
 ## 14. AI 面试题目生成助手
 
 ::: details 量化结果与受益角色
@@ -1845,7 +1821,6 @@ COCO的AI合规培训追踪器将合规培训从被动、人力密集的流程�
 ```
 
 :::
-
 ## 15. AI Offer Letter 撰写助手
 
 ::: details 量化结果与受益角色
@@ -1910,7 +1885,6 @@ COCO的AI合规培训追踪器将合规培训从被动、人力密集的流程�
 ```
 
 :::
-
 ## 16. AI 员工绩效评估撰写助手
 
 ::: details 量化结果与受益角色
@@ -1974,7 +1948,6 @@ COCO的AI合规培训追踪器将合规培训从被动、人力密集的流程�
 ```
 
 :::
-
 ## 17. AI 员工入职计划构建助手
 
 ::: details 量化结果与受益角色
@@ -2024,7 +1997,6 @@ COCO的AI合规培训追踪器将合规培训从被动、人力密集的流程�
 ```
 
 :::
-
 ## 18. AI 员工调研分析助手
 
 ::: details 量化结果与受益角色
@@ -2074,7 +2046,6 @@ COCO的AI合规培训追踪器将合规培训从被动、人力密集的流程�
 ```
 
 :::
-
 ## 19. AI 薪酬基准分析助手
 
 ::: details 量化结果与受益角色
@@ -2124,7 +2095,6 @@ COCO的AI合规培训追踪器将合规培训从被动、人力密集的流程�
 ```
 
 :::
-
 ## 20. AI 学习与发展课程设计助手
 
 ::: details 量化结果与受益角色
@@ -2174,7 +2144,6 @@ COCO的AI合规培训追踪器将合规培训从被动、人力密集的流程�
 ```
 
 :::
-
 ## 21. AI 员工手册更新助手
 
 ::: details 量化结果与受益角色
@@ -2224,7 +2193,6 @@ COCO的AI合规培训追踪器将合规培训从被动、人力密集的流程�
 ```
 
 :::
-
 ## 22. AI 劳动力规划顾问
 
 ::: details 痛点与解决方案
@@ -2377,7 +2345,6 @@ COCO 将劳动力规划从被动的预算练习转变为结构化的分析能力
 ```
 
 :::
-
 ## 23. AI 人才梯队建设助手
 
 ::: details 痛点与解决方案
@@ -2520,7 +2487,6 @@ COCO 帮助人才招募团队建设真正的主动管道——承担管道建设
 ```
 
 :::
-
 ## 24. AI DEI 报告分析助手
 
 ::: details 痛点与解决方案
@@ -2681,7 +2647,6 @@ COCO 将 DEI 数据转化为可操作的洞察——提供将 DEI 报告从合�
 ```
 
 :::
-
 ## 25. AI 员工留存风险预测助手
 
 ::: details 痛点与解决方案
@@ -2834,7 +2799,6 @@ COCO 帮助 HR 团队分析其数据中已经存在的留存信号——建立�
 ```
 
 :::
-
 ## 26. AI 福利管理顾问
 
 ::: details 痛点与解决方案
@@ -2991,7 +2955,6 @@ COCO 帮助 HR 团队管理福利管理的沟通、文档和分析复杂性—�
 ```
 
 :::
-
 ## 27. AI 继任规划助手
 
 ::: details 痛点与解决方案
@@ -3148,7 +3111,6 @@ CMO 继任者的岗位要求：[描述角色的关键能力、经验和领导期
 ```
 
 :::
-
 ## 28. AI HR 指标仪表板叙述助手
 
 ::: details 痛点与解决方案
@@ -3322,7 +3284,6 @@ COCO 弥合 HR 数据与业务洞察之间的差距——接受来自 HR 仪表�
 ```
 
 :::
-
 ## 29. AI员工入职体验设计师
 
 > 企业花费4000-7000美元招募并录用一名员工，却提供了一个不断让他们失败的入职体验
@@ -3492,7 +3453,6 @@ COCO 弥合 HR 数据与业务洞察之间的差距——接受来自 HR 仪表�
 ```
 
 :::
-
 ## 30. AI人力资源薪酬基准测算引擎
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -3667,7 +3627,6 @@ COCO 弥合 HR 数据与业务洞察之间的差距——接受来自 HR 仪表�
 ```
 
 :::
-
 ## 31. AI人力资源绩效评估撰写器
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -3842,7 +3801,6 @@ COCO 弥合 HR 数据与业务洞察之间的差距——接受来自 HR 仪表�
 ```
 
 :::
-
 ## 32. AI人力资源员工敬业度脉搏分析器
 
 > 在医疗健康领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -4017,7 +3975,6 @@ COCO 弥合 HR 数据与业务洞察之间的差距——接受来自 HR 仪表�
 ```
 
 :::
-
 ## 33. AI人力资源职位描述优化撰写器
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -4192,7 +4149,6 @@ COCO 弥合 HR 数据与业务洞察之间的差距——接受来自 HR 仪表�
 ```
 
 :::
-
 ## 34. AI人力资源培训需求评估引擎
 
 > 在教育领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -4367,7 +4323,6 @@ COCO 弥合 HR 数据与业务洞察之间的差距——接受来自 HR 仪表�
 ```
 
 :::
-
 ## 35. AI人力资源招聘管道优化器
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -4542,7 +4497,6 @@ COCO 弥合 HR 数据与业务洞察之间的差距——接受来自 HR 仪表�
 ```
 
 :::
-
 ## 36. AI人力资源继任计划顾问
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -4717,7 +4671,6 @@ COCO 弥合 HR 数据与业务洞察之间的差距——接受来自 HR 仪表�
 ```
 
 :::
-
 ## 37. AI人力资源组织设计顾问
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -4892,7 +4845,6 @@ COCO 弥合 HR 数据与业务洞察之间的差距——接受来自 HR 仪表�
 ```
 
 :::
-
 ## 38. AI劳动力规划情景建模器
 
 > 在制造业领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -5067,7 +5019,6 @@ COCO 弥合 HR 数据与业务洞察之间的差距——接受来自 HR 仪表�
 ```
 
 :::
-
 ## 39. AI离职面谈洞察分析器
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力

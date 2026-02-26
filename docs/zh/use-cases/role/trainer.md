@@ -6,11 +6,9 @@ AI驱动的培训师专业人员用例。
 
 > 10分钟内生成12周课程大纲——包含学习目标、作业设计和评分标准。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/107-ai-curriculum-designer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/107-ai-curriculum-designer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -132,11 +130,9 @@ COCO的AI课程设计师直接集成到你现有的工作流程中，充当一�
 
 > 汇总200名学生的成绩、出勤和参与数据——每周标记高风险学生并建议干预措施。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/122-ai-student-progress-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/122-ai-student-progress-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -258,11 +254,9 @@ COCO的AI学生进度追踪器直接集成到你现有的工作流程中，充�
 
 > 将学生提交内容与1000万+来源和AI生成模式对比——标记可疑段落并给出置信度评分。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/137-ai-plagiarism-checker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/137-ai-plagiarism-checker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -384,11 +378,9 @@ COCO的AI抄袭检测器直接集成到你现有的工作流程中，充当一�
 
 > 按评分标准批改研究论文——2分钟提供论证、证据和写作质量的段落级反馈。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/163-ai-research-paper-grader.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/163-ai-research-paper-grader.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -510,11 +502,9 @@ COCO的AI论文评分助手直接集成到你现有的工作流程中，充当�
 
 > 通过诊断测验评估学生技能——生成个性化8周学习路径，含资源、里程碑和检查点。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/169-ai-learning-path-builder.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/169-ai-learning-path-builder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -806,7 +796,6 @@ COCO的AI学习路径构建器直接集成到你现有的工作流程中，充�
 ```
 
 :::
-
 ## 7. AI教育学生评估反馈引擎
 
 > 在教育领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -981,7 +970,6 @@ COCO的AI学习路径构建器直接集成到你现有的工作流程中，充�
 ```
 
 :::
-
 ## 8. AI教育自适应测验生成器
 
 > 在教育领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -1156,7 +1144,6 @@ COCO的AI学习路径构建器直接集成到你现有的工作流程中，充�
 ```
 
 :::
-
 ## 9. AI在线课程内容构建器
 
 > 在教育领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -1331,7 +1318,6 @@ COCO的AI学习路径构建器直接集成到你现有的工作流程中，充�
 ```
 
 :::
-
 ## 10. AI教育家长沟通内容生成器
 
 > 在教育领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -1506,7 +1492,6 @@ COCO的AI学习路径构建器直接集成到你现有的工作流程中，充�
 ```
 
 :::
-
 ## 11. AI学习目标与成果设计器
 
 > 在教育领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -1681,7 +1666,6 @@ COCO的AI学习路径构建器直接集成到你现有的工作流程中，充�
 ```
 
 :::
-
 ## 12. AI认证证据整合器
 
 > 在教育领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -1856,7 +1840,6 @@ COCO的AI学习路径构建器直接集成到你现有的工作流程中，充�
 ```
 
 :::
-
 ## 13. AI个性化学习路径构建器
 
 > 在教育领域运营的企业面临着在资源有限的情况下交付成果的巨大压力

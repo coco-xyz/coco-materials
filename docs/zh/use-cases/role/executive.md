@@ -6,11 +6,9 @@ AI驱动的高管专业人员用例。
 
 > 将6个部门数据综合为2页周一晨报——KPI、风险、待决事项，仅需5分钟。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/167-ai-executive-briefing-generator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/167-ai-executive-briefing-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -132,11 +130,9 @@ COCO的AI高管简报生成器直接集成到你现有的工作流程中，充�
 
 > 提取财务、项目成果和捐赠数据——3小时汇编包含图表和叙述的印刷就绪年度报告。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/190-ai-annual-report-assembler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/190-ai-annual-report-assembler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -258,11 +254,9 @@ COCO的AI年度报告汇编器直接集成到你现有的工作流程中，充�
 
 > 从Jira、Salesforce等6个工具同步关键结果——生成周度OKR评分卡显示红黄绿状态。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/200-ai-okr-progress-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/200-ai-okr-progress-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -384,11 +378,9 @@ COCO的AI OKR进度追踪器直接集成到你现有的工作流程中，充当�
 
 > 从8个部门更新汇编董事会资料包——将财务、战略和表决事项格式化为品牌化40页PPT。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/203-ai-board-meeting-prep-assistant.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/203-ai-board-meeting-prep-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -711,7 +703,6 @@ COCO的AI高管会议准备助理自动为每场预定会议准备全面的简�
 ```
 
 :::
-
 ## 6. AI 差旅行程优化助手
 
 ::: details 痛点与解决方案
@@ -928,7 +919,6 @@ COCO 的 AI 差旅行程优化助手将差旅规划从数小时的人工调研�
 ```
 
 :::
-
 ## 7. AI 邮件分类与起草助手
 
 ::: details 痛点与解决方案
@@ -1117,7 +1107,6 @@ COCO 的 AI 邮件分类与起草助手将邮件从被动时间黑洞转变为�
 ```
 
 :::
-
 ## 8. AI 每周回顾总结助手
 
 ::: details 痛点与解决方案
@@ -1329,7 +1318,6 @@ COCO 的 AI 每周回顾总结助手将每周回顾从 90 分钟的手动综合�
 ```
 
 :::
-
 ## 9. AI 决策框架构建助手
 
 ::: details 痛点与解决方案
@@ -1549,7 +1537,6 @@ COCO 的 AI 决策框架构建助手为高管面临的任何重大决策提供�
 ```
 
 :::
-
 ## 10. AI 知识库策展助手
 
 ::: details 痛点与解决方案
@@ -1757,7 +1744,6 @@ COCO 的 AI 知识库策展助手将原始信息——会议记录、文章、�
 ```
 
 :::
-
 ## 11. AI 个人目标追踪助手
 
 ::: details 痛点与解决方案
@@ -1986,7 +1972,6 @@ COCO 的 AI 个人目标追踪助手在高管的既定目标和每周现实之�
 ```
 
 :::
-
 ## 12. AI 会议准备简报助手
 
 ::: details 痛点与解决方案
@@ -2176,7 +2161,6 @@ COCO 充当一个始终在线的会议智能层，将原始背景——参会者
 ```
 
 :::
-
 ## 13. AI 任务优先级平衡助手
 
 ::: details 痛点与解决方案
@@ -2367,7 +2351,6 @@ COCO 充当 AI 优先级协作伙伴——通过将结构化框架应用于原�
 ```
 
 :::
-
 ## 14. AI 高管沟通起草助手
 
 ::: details 痛点与解决方案
@@ -2570,7 +2553,6 @@ COCO 通过生成符合高管声音、受众需求和沟通目标的精磨初稿
 ```
 
 :::
-
 ## 15. AI创业投资路演PPT顾问
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -2745,7 +2727,6 @@ COCO 通过生成符合高管声音、受众需求和沟通目标的精磨初稿
 ```
 
 :::
-
 ## 16. AI高管董事会会议准备助手
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -2920,7 +2901,6 @@ COCO 通过生成符合高管声音、受众需求和沟通目标的精磨初稿
 ```
 
 :::
-
 ## 17. AI酒店收益管理优化器
 
 > 在酒店业领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -3095,7 +3075,6 @@ COCO 通过生成符合高管声音、受众需求和沟通目标的精磨初稿
 ```
 
 :::
-
 ## 18. AI高管战略备忘录撰写器
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -3270,7 +3249,6 @@ COCO 通过生成符合高管声音、受众需求和沟通目标的精磨初稿
 ```
 
 :::
-
 ## 19. AI高管季度业务复盘准备工具
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -3445,7 +3423,6 @@ COCO 通过生成符合高管声音、受众需求和沟通目标的精磨初稿
 ```
 
 :::
-
 ## 20. AI竞争战略分析器
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -3620,7 +3597,6 @@ COCO 通过生成符合高管声音、受众需求和沟通目标的精磨初稿
 ```
 
 :::
-
 ## 21. AI年度战略叙述构建器
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -3795,7 +3771,6 @@ COCO 通过生成符合高管声音、受众需求和沟通目标的精磨初稿
 ```
 
 :::
-
 ## 22. AI研究简报生成器
 
 > 对任何战略主题生成全面的研究简报——简报时间：3-5小时→30-45分钟，决策信心提升38%。
@@ -4000,7 +3975,6 @@ COCO的AI研究简报生成器将研究流程从一个多小时的分析师任�
 ```
 
 :::
-
 ## 23. AI授权工作流设计师
 
 > 用授权范围、成功标准和升级触发器构建授权简报——授权完成率提升52%，高管每周节省6-8小时。

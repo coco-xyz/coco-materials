@@ -6,11 +6,9 @@ AI驱动的合规官专业人员用例。
 
 > 跨部门追踪200+许可证申请——提前7天标记缺失文件和临近截止日期。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/114-ai-permit-application-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/114-ai-permit-application-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -132,11 +130,9 @@ COCO的AI许可证申请追踪器直接集成到你现有的工作流程中，�
 
 > 每日扫描NHTSA数据库和服务公告——将召回信息匹配车队库存并生成行动方案。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/120-ai-vehicle-recall-monitor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/120-ai-vehicle-recall-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -258,11 +254,9 @@ COCO的AI车辆召回监控器直接集成到你现有的工作流程中，充�
 
 > 从12个数据源汇总范围1-3排放数据——生成符合GHG协议的审计就绪碳排放报告。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/131-ai-carbon-footprint-reporter.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/131-ai-carbon-footprint-reporter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -384,11 +378,9 @@ COCO的AI碳足迹报告生成器直接集成到你现有的工作流程中，�
 
 > 扫描访问日志、加密配置和数据流——15分钟识别HIPAA违规并生成整改任务。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/136-ai-hipaa-compliance-auditor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/136-ai-hipaa-compliance-auditor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -510,11 +502,9 @@ COCO的AI HIPAA合规审计师直接集成到你现有的工作流程中，充�
 
 > 将课程项目与150+认证标准对照——突出差距并自动生成证据文档。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/152-ai-accreditation-compliance-checker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/152-ai-accreditation-compliance-checker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -636,11 +626,9 @@ COCO的AI认证合规检查器直接集成到你现有的工作流程中，充�
 
 > 从自然语言中提取事故细节——生成符合OSHA标准的报告，包含根因分析和纠正措施。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/156-ai-safety-incident-reporter.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/156-ai-safety-incident-reporter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -762,11 +750,9 @@ COCO的AI安全事故报告器直接集成到你现有的工作流程中，充�
 
 > 从10个部门收集ESG指标——2小时内起草符合TCFD和GRI标准的披露文件并验证数据。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/185-ai-esg-disclosure-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/185-ai-esg-disclosure-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1058,7 +1044,6 @@ COCO的AI ESG披露撰写器直接集成到你现有的工作流程中，充当�
 ```
 
 :::
-
 ## 9. AI建筑许可合规追踪器
 
 > 在房地产领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -1233,7 +1218,6 @@ COCO的AI ESG披露撰写器直接集成到你现有的工作流程中，充当�
 ```
 
 :::
-
 ## 10. AI保险欺诈检测预警系统
 
 > 在保险领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -1408,7 +1392,6 @@ COCO的AI ESG披露撰写器直接集成到你现有的工作流程中，充当�
 ```
 
 :::
-
 ## 11. AI合规官审计跟踪构建器
 
 > 在金融服务领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -1583,7 +1566,6 @@ COCO的AI ESG披露撰写器直接集成到你现有的工作流程中，充当�
 ```
 
 :::
-
 ## 12. AI医疗编码准确性审计器
 
 > 在医疗健康领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -1758,7 +1740,6 @@ COCO的AI ESG披露撰写器直接集成到你现有的工作流程中，充当�
 ```
 
 :::
-
 ## 13. AI财务监管申报助手
 
 > 在金融服务领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -1933,7 +1914,6 @@ COCO的AI ESG披露撰写器直接集成到你现有的工作流程中，充当�
 ```
 
 :::
-
 ## 14. AI监管变化影响追踪器
 
 > 在法律服务领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -2108,7 +2088,6 @@ COCO的AI ESG披露撰写器直接集成到你现有的工作流程中，充当�
 ```
 
 :::
-
 ## 15. AI ISO审核准备助手
 
 > 在制造业领域运营的企业面临着在资源有限的情况下交付成果的巨大压力

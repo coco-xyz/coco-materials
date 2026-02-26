@@ -8,9 +8,7 @@ AI-powered use cases for legal professionals.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/105-ai-contract-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/105-ai-contract-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -134,9 +132,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/123-ai-nda-generator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/123-ai-nda-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -260,9 +256,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/138-ai-ip-portfolio-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/138-ai-ip-portfolio-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -386,9 +380,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/153-ai-trademark-conflict-searcher.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/153-ai-trademark-conflict-searcher.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -512,9 +504,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/159-ai-foia-request-processor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/159-ai-foia-request-processor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -638,9 +628,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/164-ai-regulatory-change-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/164-ai-regulatory-change-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -764,9 +752,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/170-ai-litigation-hold-manager.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/170-ai-litigation-hold-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -890,9 +876,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/180-ai-content-rights-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/180-ai-content-rights-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1016,9 +1000,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/193-ai-power-purchase-agreement-reviewer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/193-ai-power-purchase-agreement-reviewer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1259,7 +1241,6 @@ CONTRACT:
 ```
 
 :::
-
 ## 11. AI Privacy Policy Generator {#use-case-358}
 
 > Produces a complete, jurisdiction-appropriate privacy policy for SaaS applications — covering cloud storage, analytics, AI training data use, and third-party integrations — in 2–3 hours instead of 12–20 hours.
@@ -1390,7 +1371,6 @@ PRIVACY POLICY:
 ```
 
 :::
-
 ## 12. AI GDPR Compliance Checklist Builder {#use-case-359}
 
 > Generates a dynamic, organization-specific GDPR compliance checklist — covering data inventory, consent mechanisms, processor agreements, and breach response — and tracks remediation progress against regulatory requirements.
@@ -1511,7 +1491,6 @@ Our company context: [DESCRIBE COMPANY TYPE, SYSTEMS USED, TEAM RESPONSIBLE]
 ```
 
 :::
-
 ## 13. AI Terms of Service Reviewer {#use-case-360}
 
 > Reviews vendor Terms of Service documents in 35 minutes instead of 3 hours, flagging provisions that expose the company to liability, data rights issues, unilateral change clauses, and unfavorable dispute resolution terms.
@@ -1645,7 +1624,6 @@ NEW FEATURE DESCRIPTION:
 ```
 
 :::
-
 ## 14. AI NDA Redline Suggester {#use-case-361}
 
 > Reduces NDA turnaround from 2–3 business days to 4–6 hours by automatically identifying the 15–20 standard negotiating points in any NDA and generating policy-consistent redlines for each.
@@ -1777,7 +1755,6 @@ NDA:
 ```
 
 :::
-
 ## 15. AI Regulatory Filing Summarizer {#use-case-362}
 
 > Compresses 8–12 hours of regulatory filing review into 90 minutes by extracting all compliance obligations, deadlines, and action items from agency rulemakings, guidance documents, and enforcement actions.
@@ -1910,7 +1887,6 @@ OUR COMPANY CONTEXT:
 ```
 
 :::
-
 ## 16. AI IP Portfolio Analyzer {#use-case-363}
 
 > Provides systematic IP portfolio analysis — patent maintenance prioritization, trademark monitoring, open source license compliance, and M&A due diligence preparation — reducing IP maintenance costs by 15–25% and M&A due diligence time from 6–8 weeks to 2–3 weeks.
@@ -2040,7 +2016,6 @@ OUR BUSINESS: [DESCRIBE PRODUCTS, MARKETS, KEY IP ASSETS]
 ```
 
 :::
-
 ## 17. AI Legal Research Synthesizer {#use-case-364}
 
 > Reduces legal research time by 60–75% per question — systematically covering all relevant legal issues, preserving findings in searchable memos, and enabling in-house teams to handle 3–4× more advisory requests without adding headcount.
@@ -2186,7 +2161,6 @@ BUSINESS CONTEXT: [DESCRIBE]
 ```
 
 :::
-
 ## 18. AI Corporate Policy Drafter {#use-case-365}
 
 > Produces tailored corporate policies — anti-bribery, code of conduct, data retention, acceptable use — in 3–5 days instead of 15–25+ attorney hours, with appropriate jurisdictional adjustments and plain-language employee communications.
@@ -2328,7 +2302,6 @@ POLICY:
 ```
 
 :::
-
 ## 19. AI Compliance Training Content Creator {#use-case-366}
 
 > Produces scenario-based, role-specific compliance training modules — in 12–18 hours instead of 100+ hours — with post-training assessments, reducing training-related audit findings by 60% in the first audit cycle.
@@ -2463,7 +2436,6 @@ COMPANY CONTEXT: [INDUSTRY, GEOGRAPHY, RELEVANT REGULATORY FRAMEWORK]
 ```
 
 :::
-
 ## 20. AI Due Diligence Checklist Generator {#use-case-367}
 
 > Generates deal-specific, industry-customized due diligence checklists in 4–6 hours instead of 3–5 days, reducing post-closing dispute rates by 20–30% by systematically surfacing risks that generic templates miss.
@@ -2595,7 +2567,6 @@ REGULATORY ENVIRONMENT: [LIST APPLICABLE REGULATIONS]
 ```
 
 :::
-
 ## 21. AI Litigation Risk Assessor {#use-case-368}
 
 > Produces structured early case assessments in 2 weeks instead of 6–8 weeks, improving reserve accuracy by 35–45% and enabling confident settlement recommendations that reduce outside counsel fees by 40%.
@@ -2743,7 +2714,6 @@ JURISDICTIONS INVOLVED: [LIST]
 ```
 
 :::
-
 ## 22. AI Employment Law Compliance Advisor {#use-case-369}
 
 > Provides same-day employment law compliance guidance across jurisdictions — reducing manager compliance errors by 45–55% and employment litigation exposure by 30–40% in the first year.
@@ -2882,7 +2852,6 @@ Identify:
 ```
 
 :::
-
 ## 23. AI Data Processing Agreement Generator {#use-case-370}
 
 > Drafts or reviews GDPR-compliant Data Processing Agreements in 30–45 minutes instead of 2–4 hours — enabling SaaS vendors to close enterprise deals 20–35% faster by eliminating the DPA bottleneck.
@@ -3022,7 +2991,6 @@ VENDOR RELATIONSHIP:
 ```
 
 :::
-
 ## 24. AI Board Meeting Minutes Summarizer {#use-case-371}
 
 > Transforms meeting notes and recordings into complete, legally defensible board minutes — with precise resolution language, quorum confirmation, voting record, and privileged deliberation protection — in days instead of weeks.
@@ -3166,7 +3134,6 @@ CORPORATE HISTORY:
 ```
 
 :::
-
 ## 25. AI Contract Renewal Terms Optimizer {#use-case-372}
 
 > Transforms passive contract auto-renewals into active value-creation opportunities — identifying 90-day renewal windows, benchmarking current terms against market, and generating negotiation strategies that capture savings before contracts auto-renew.
@@ -3313,7 +3280,6 @@ Estimated value impact of proposed changes vs. current terms: [CALCULATE]
 ```
 
 :::
-
 ## 26. AI Legal Contract Risk Extractor
 
 > Organizations operating in Legal Services face mounting pressure to deliver results with constrained resources
@@ -3513,7 +3479,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 27. AI Government FOIA Response Assistant
 
 > Organizations operating in Government face mounting pressure to deliver results with constrained resources
@@ -3713,7 +3678,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 28. AI Media Content Rights Clearance Assistant
 
 > Organizations operating in Media face mounting pressure to deliver results with constrained resources
@@ -3913,7 +3877,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 29. AI Legal Due Diligence Document Scanner
 
 > Organizations operating in Legal Services face mounting pressure to deliver results with constrained resources
@@ -4113,7 +4076,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 30. AI Real Estate Lease Abstraction Engine
 
 > Organizations operating in Real Estate face mounting pressure to deliver results with constrained resources
@@ -4313,7 +4275,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 31. AI Legal IP Trademark Search Assistant
 
 > Organizations operating in Legal Services face mounting pressure to deliver results with constrained resources
@@ -4513,7 +4474,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 32. AI Legal Litigation Timeline Builder
 
 > Organizations operating in Legal Services face mounting pressure to deliver results with constrained resources
@@ -4713,7 +4673,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 33. AI Real Estate Tenant Screening Assistant
 
 > Organizations operating in Real Estate face mounting pressure to deliver results with constrained resources
@@ -4913,7 +4872,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 34. AI Employment Contract Drafting Assistant
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
@@ -5113,7 +5071,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 35. AI NDA Review and Redlining Assistant
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
@@ -5313,7 +5270,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 36. AI Corporate Governance Compliance Advisor
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources

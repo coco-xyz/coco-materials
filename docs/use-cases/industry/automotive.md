@@ -6,13 +6,9 @@ AI use cases for the automotive industry.
 
 > Scans NHTSA databases and service bulletins daily — maps recalls to your fleet inventory and generates action plans.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/120-ai-vehicle-recall-monitor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -132,13 +128,9 @@ This week's data:
 
 > Matches customer preferences to available inventory across 15 dealerships — suggests best-fit vehicles with trade-in estimates.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/135-ai-dealership-inventory-matcher.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -258,13 +250,9 @@ This week's data:
 
 > Syncs OEM part numbers, pricing, and fitment data across 3 systems — keeps 80,000 SKUs accurate with nightly reconciliation.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/150-ai-parts-catalog-updater.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -384,13 +372,9 @@ This week's data:
 
 > Processes GPS, fuel, and driver behavior data from 500 vehicles — generates weekly scorecards and identifies $80K annual fuel savings.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/182-ai-fleet-telematics-analyzer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -510,13 +494,9 @@ This week's data:
 
 > Qualifies online leads, matches vehicle preferences, and books test drives — fills 90% of available slots with confirmed appointments.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/197-ai-test-drive-scheduler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

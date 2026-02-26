@@ -6,11 +6,9 @@ AI驱动的产品经理、项目管理和产品运营用例。
 
 > 100%处理14000条月度反馈，问题发现从3周到24小时。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/053-ai-sentiment-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/053-ai-sentiment-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -114,11 +112,9 @@ AI驱动的产品经理、项目管理和产品运营用例。
 
 > 项目状态报告编写从4小时降至15分钟，实时数据自动聚合。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/072-ai-project-status-reporter.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/072-ai-project-status-reporter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -295,11 +291,9 @@ COCO的AI项目状态报告生成器将这种混乱转变为流畅的智能工�
 
 > 冲刺规划会议从3小时缩短到45分钟，交付准确率提升38%。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/090-ai-sprint-planning-assistant.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/090-ai-sprint-planning-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -494,11 +488,9 @@ COCO的AI冲刺规划助手将冲刺规划从主观辩论转变为数据驱动�
 
 > 发版说明编写从3-4小时降至5分钟，功能采用率提升35%。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/095-ai-release-notes-generator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/095-ai-release-notes-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -760,11 +752,9 @@ Git日志：
 
 > 跨部门工作流自动化率从15%提升到78%，处理时间减少65%。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/103-ai-workflow-automator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/103-ai-workflow-automator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -964,7 +954,6 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 :::
 
 
-
 ## 6. AI用户访谈综合分析器
 
 > 分析综合时间从3周缩短至4小时——同时实现对100%访谈记录的全量覆盖。
@@ -1041,7 +1030,6 @@ COCO的AI用户访谈综合分析器能够接收原始录音、文字记录或�
 ```
 
 :::
-
 ## 7. AI可用性测试分析器
 
 > 分析时间从5到7天缩短至6到8小时——发现的UX摩擦点数量增加2.5倍。
@@ -1105,7 +1093,6 @@ COCO的AI可用性测试分析器能够处理多模态会话数据——点击�
 ```
 
 :::
-
 ## 8. AI客户旅程地图构建器
 
 > 旅程地图绘制周期从3到4周缩短至2到3天——额外发现40%此前不可见的流失节点。
@@ -1175,7 +1162,6 @@ COCO的AI客户旅程地图构建器能够综合多个行为数据和定性来�
 ```
 
 :::
-
 ## 9. AI PRD生成器
 
 > PRD起草时间从6到10小时缩短至60到90分钟——工程师提出的澄清问题减少约50%。
@@ -1243,7 +1229,6 @@ COCO的AI PRD生成器能够将原始输入——会议记录、研究发现、�
 ```
 
 :::
-
 ## 10. AI功能影响力预估器
 
 > 减少35%的"后悔功能"——用有校准的预估值替代直觉优先级排序。
@@ -1317,7 +1302,6 @@ COCO的AI功能影响力预估器将历史产品数据、用户细分分析、�
 ```
 
 :::
-
 ## 11. AI需求冲突检测器
 
 > 开发前需求冲突检测率达70%到80%，而手动审查仅约20%。
@@ -1394,7 +1378,6 @@ COCO的AI需求冲突检测器同时分析来自多个来源的需求，在开�
 ```
 
 :::
-
 ## 12. AI多租户功能灰度发布管理器
 
 > 发布相关客服升级事件减少60%。每租户通知准备时间：45分钟 → 5分钟。
@@ -1536,8 +1519,6 @@ COCO的AI多租户功能灰度发布管理器通过风险校准的分批次策�
 ```
 
 :::
-
-
 ## 13. AI企业客户引导手册构建器
 
 > 平均引导持续时间缩短30%到40%——首次价值里程碑加速至30天以内。
@@ -1606,7 +1587,6 @@ COCO的AI企业客户引导手册构建器创建量身定制的、逐步引导�
 ```
 
 :::
-
 ## 14. AI客户扩展机会发现器
 
 > 主动识别的扩展收入增加35%到45%——在续约窗口开启之前。
@@ -1674,7 +1654,6 @@ COCO的AI客户扩展机会发现器持续分析产品使用数据、客户健�
 ```
 
 :::
-
 ## 15. AI产品指标异常检测器
 
 > 异常检测平均时间从2到3天缩短至4小时以内——误报率低于8%。
@@ -1746,7 +1725,6 @@ COCO的AI产品指标异常检测器应用统计分析识别有意义的指标�
 ```
 
 :::
-
 ## 16. AI用户群体留存分析器
 
 > 一个季度内实现第30天留存率提升4%到8%——通过识别预测流失的具体行为。
@@ -1815,7 +1793,6 @@ COCO的AI用户群体留存分析器按行为维度对用户进行群体细分�
 ```
 
 :::
-
 ## 17. AI功能采纳追踪器
 
 > 实施COCO识别的障碍修复后，90天采纳率平均提升25%到40%。
@@ -1887,7 +1864,6 @@ COCO的AI功能采纳追踪器跨用户细分监控采纳率，绘制采纳漏�
 ```
 
 :::
-
 ## 18. AI产品发布规划器
 
 > 发布任务完成率从约70%提升至92%以上——发布时间线滑坡减少45%。
@@ -1965,7 +1941,6 @@ COCO的AI产品发布规划器生成全面的、附依赖关系映射的发布�
 ```
 
 :::
-
 ## 19. AI竞品对战卡构建器
 
 > 对战卡创建时间从8到12小时缩短至2到3小时——面对面竞争情形的赢率提升10%到18%。

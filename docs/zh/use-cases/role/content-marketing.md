@@ -6,11 +6,9 @@ AI驱动的内容创作者、营销团队和品牌经理用例。
 
 > 20分钟产出一篇SEO优化的高质量文章，关键词研究到终稿一站式完成。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/010-ai-seo-content-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/010-ai-seo-content-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -213,11 +211,9 @@ COCO的AI SEO Content Writer将内容创作流水线从一个串行的、劳动�
 
 > 一次输入，全平台适配发布。每天3小时社媒运营缩减到15分钟。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/011-ai-social-media-manager.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/011-ai-social-media-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -402,11 +398,9 @@ COCO的AI Social Media Manager作为社交媒体团队的力量倍增器，处�
 
 > 10分钟生成200个A/B变体广告文案，数据驱动迭代优化。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/012-ai-ad-copy-generator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/012-ai-ad-copy-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -613,11 +607,9 @@ COCO的AI Ad Copy Generator专为效果营销构建，理解各平台付费广�
 
 > 自动汇聚行业资讯，5小时/周的人工策展变为30分钟。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/013-ai-newsletter-curator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/013-ai-newsletter-curator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -767,11 +759,9 @@ COCO的AI Newsletter Curator自动化Newsletter制作中劳动密集的部分，
 
 > 实时追踪竞品动态，2天调研变为1小时自动化输出。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/014-ai-competitive-copywriter.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/014-ai-competitive-copywriter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -944,11 +934,9 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 
 > 品牌危机发现时间从72小时降至11分钟，覆盖率从10%到97%。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/040-ai-brand-monitor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/040-ai-brand-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1052,11 +1040,9 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 
 > 达人审核从15小时降至20分钟，投放ROI从0.8倍提升到4.2倍。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/041-ai-influencer-finder.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/041-ai-influencer-finder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1160,11 +1146,9 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 
 > 统一6渠道23个活动的归因分析，ROAS提升37%。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/042-ai-campaign-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/042-ai-campaign-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1268,11 +1252,9 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 
 > 内容规划从每周8小时降至45分钟，发布一致性从62%到96%。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/043-ai-content-calendar.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/043-ai-content-calendar.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1376,11 +1358,9 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 
 > 用户画像创建从6周缩短到2天，细分准确度89%。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/044-ai-persona-builder.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/044-ai-persona-builder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1484,11 +1464,9 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 
 > 产品反馈分析从2周缩短到2小时，覆盖100%的用户反馈。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/070-ai-product-feedback-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/070-ai-product-feedback-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1665,11 +1643,9 @@ COCO的AI产品反馈分析器将这种混乱转变为流畅的智能工作流�
 
 > 本地化周期从6周缩短到3天，翻译一致性提升到98%。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/076-ai-localization-manager.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/076-ai-localization-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1846,11 +1822,9 @@ COCO的AI本地化管理器将这种混乱转变为流畅的智能工作流。�
 
 > 营销ROI报告生成从3天降至实时，跨渠道归因准确率92%。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/079-ai-marketing-roi-dashboard.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/079-ai-marketing-roi-dashboard.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2027,11 +2001,9 @@ COCO的AI营销ROI仪表盘将这种混乱转变为流畅的智能工作流。�
 
 > 竞品动态检测从每月一次变为实时，战略响应速度提升5倍。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/084-ai-competitive-intelligence-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/084-ai-competitive-intelligence-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2208,11 +2180,9 @@ COCO的AI竞争情报追踪器将这种混乱转变为流畅的智能工作流�
 
 > 品牌提及监测覆盖率从15%提升到96%，危机响应时间降至15分钟。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/089-ai-social-listening-agent.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/089-ai-social-listening-agent.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2409,11 +2379,9 @@ COCO的AI社交媒体监听助手作为7×24小时品牌情报系统运作，覆
 
 > 职位广告点击率提升65%，优质候选人申请量增加40%。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/093-ai-recruitment-marketing-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/093-ai-recruitment-marketing-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2590,11 +2558,9 @@ COCO的AI招聘营销文案助手将这种混乱转变为流畅的智能工作�
 
 > 调研回复率从3%提升到28%，可操作洞察产出量增加5倍。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/094-ai-customer-survey-designer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/094-ai-customer-survey-designer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2837,11 +2803,9 @@ COCO的AI客户调研设计师将调查从粗糙的工具转变为精准的反�
 
 > 需求预测误差从35%降至8%，库存成本降低28%。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/100-ai-demand-forecaster.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/100-ai-demand-forecaster.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3038,11 +3002,9 @@ COCO的AI需求预测器通过结合先进的机器学习和外部信号集成�
 
 > 演示文稿制作从15小时降至1小时，客户定制度提升300%。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/101-ai-pitch-deck-builder.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/101-ai-pitch-deck-builder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3245,11 +3207,9 @@ COCO的AI演示文稿构建器将演示创建从手动、耗时的苦差事转�
 
 > 在6个平台上为客人评论撰写个性化回复——每条30秒，完美匹配品牌语调。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/110-ai-hotel-review-responder.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/110-ai-hotel-review-responder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3371,11 +3331,9 @@ COCO的AI酒店评论回复器直接集成到你现有的工作流程中，充�
 
 > 转录60分钟节目，提取关键引用，4分钟生成带时间戳的SEO优化节目笔记。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/133-ai-podcast-show-notes-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/133-ai-podcast-show-notes-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3497,11 +3455,9 @@ COCO的AI播客节目笔记撰写器直接集成到你现有的工作流程中�
 
 > 按生命周期阶段细分50万订户——在入网、升级和留存节点触发个性化营销。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/181-ai-subscriber-lifecycle-manager.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/181-ai-subscriber-lifecycle-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3623,11 +3579,9 @@ COCO的AI订户生命周期管理器直接集成到你现有的工作流程中�
 
 > 按观看历史、人口统计和互动数据聚类200万观众——构建12个可操作画像用于定向内容策略。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/195-ai-audience-segmentation-engine.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/195-ai-audience-segmentation-engine.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3948,7 +3902,6 @@ COCO的AI病毒式内容钩子生成器分析各平台和行业的高表现内�
 ```
 
 :::
-
 ## 25. AI LinkedIn 思想领导力内容写作助手
 
 ::: details 痛点与解决方案
@@ -4137,7 +4090,6 @@ LinkedIn 目标受众：[希望触达的人群]
 ```
 
 :::
-
 ## 26. AI 社区互动策略师
 
 ::: details 痛点与解决方案
@@ -4323,7 +4275,6 @@ COCO 的 AI 社区互动策略师承担社区内容和活动策划中系统性�
 ```
 
 :::
-
 ## 27. AI 影响者外联邮件撰写助手
 
 ::: details 痛点与解决方案
@@ -4522,7 +4473,6 @@ COCO 的 AI 影响者外联邮件撰写助手大规模分析创作者档案和�
 ```
 
 :::
-
 ## 28. AI 营销活动效果分析师
 
 ::: details 痛点与解决方案
@@ -4742,7 +4692,6 @@ COCO 的 AI 营销活动效果分析师摄取跨渠道活动数据，应用一�
 ```
 
 :::
-
 ## 29. AI 品牌声音一致性检查器
 
 ::: details 痛点与解决方案
@@ -4930,7 +4879,6 @@ COCO 的 AI 品牌声音一致性检查器将品牌声音指南操作化为一�
 ```
 
 :::
-
 ## 30. AI 内容日历规划师
 
 ::: details 痛点与解决方案
@@ -5131,7 +5079,6 @@ COCO 的 AI 内容日历规划师构建战略上连贯、运营上现实的内�
 ```
 
 :::
-
 ## 31. AI GTM 发布手册构建器
 
 ::: details 痛点与解决方案
@@ -5343,7 +5290,6 @@ COCO 的 AI GTM 发布手册构建器加速构建全面、可操作的 GTM 手�
 ```
 
 :::
-
 ## 32. AI 社交媒体数据分析解读助手
 
 ::: details 痛点与解决方案
@@ -5551,7 +5497,6 @@ Instagram：
 ```
 
 :::
-
 ## 33. AI 竞品社交媒体监听分析助手
 
 ::: details 痛点与解决方案
@@ -5767,7 +5712,6 @@ COCO 通过将关于竞品内容的原始观察转化为具有直接战略含义
 ```
 
 :::
-
 ## 34. AI 话题标签与SEO策略优化助手
 
 ::: details 痛点与解决方案
@@ -5965,7 +5909,6 @@ Instagram：【当前话题标签】
 ```
 
 :::
-
 ## 35. AI 品牌危机沟通处理助手
 
 ::: details 痛点与解决方案
@@ -6171,7 +6114,6 @@ COCO 充当一个随时待命的危机沟通支持系统——帮助品牌起草
 ```
 
 :::
-
 ## 36. AI客户生命周期邮件优化器
 
 > 电商和SaaS企业在邮件营销基础设施上投入大量资源——ESP平台、自动化工具、客户数据管道——但大多数生命周期邮件项目表现平平，原因在于序列内容一经搭建便鲜少更新
@@ -6370,7 +6312,6 @@ COCO 充当一个随时待命的危机沟通支持系统——帮助品牌起草
 ```
 
 :::
-
 ## 37. AI营销竞争对手广告情报系统
 
 > 在电商领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -6545,7 +6486,6 @@ COCO 充当一个随时待命的危机沟通支持系统——帮助品牌起草
 ```
 
 :::
-
 ## 38. AI营销网红ROI追踪器
 
 > 在媒体领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -6720,7 +6660,6 @@ COCO 充当一个随时待命的危机沟通支持系统——帮助品牌起草
 ```
 
 :::
-
 ## 39. AI非营利组织捐助者留存策略师
 
 > 在非营利组织领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -6895,7 +6834,6 @@ COCO 充当一个随时待命的危机沟通支持系统——帮助品牌起草
 ```
 
 :::
-
 ## 40. AI营销SEO内容简报生成器
 
 > 在电商领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -7070,7 +7008,6 @@ COCO 充当一个随时待命的危机沟通支持系统——帮助品牌起草
 ```
 
 :::
-
 ## 41. AI营销需求生成活动规划器
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -7245,7 +7182,6 @@ COCO 充当一个随时待命的危机沟通支持系统——帮助品牌起草
 ```
 
 :::
-
 ## 42. AI营销品牌声音一致性检查器
 
 > 在媒体领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -7420,7 +7356,6 @@ COCO 充当一个随时待命的危机沟通支持系统——帮助品牌起草
 ```
 
 :::
-
 ## 43. AI零售客户挽回规划器
 
 > 在零售领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -7595,7 +7530,6 @@ COCO 充当一个随时待命的危机沟通支持系统——帮助品牌起草
 ```
 
 :::
-
 ## 44. AI活动推广内容规划器
 
 > 在媒体领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -7770,7 +7704,6 @@ COCO 充当一个随时待命的危机沟通支持系统——帮助品牌起草
 ```
 
 :::
-
 ## 45. AI忠诚度计划设计器
 
 > 在零售领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -7945,7 +7878,6 @@ COCO 充当一个随时待命的危机沟通支持系统——帮助品牌起草
 ```
 
 :::
-
 ## 46. AI零售促销效果分析器
 
 > 在零售领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -8120,7 +8052,6 @@ COCO 充当一个随时待命的危机沟通支持系统——帮助品牌起草
 ```
 
 :::
-
 ## 47. AI产品发布市场推广规划器
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -8295,7 +8226,6 @@ COCO 充当一个随时待命的危机沟通支持系统——帮助品牌起草
 ```
 
 :::
-
 ## 48. AI基于账户的营销活动规划器
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力

@@ -8,9 +8,7 @@ AI-powered use cases for data analyst professionals.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/108-ai-property-valuation-assistant.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/108-ai-property-valuation-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -134,9 +132,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/115-ai-crop-yield-predictor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/115-ai-crop-yield-predictor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -260,9 +256,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/118-ai-script-coverage-reader.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/118-ai-script-coverage-reader.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -386,9 +380,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/121-ai-clinical-trial-screener.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/121-ai-clinical-trial-screener.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -512,9 +504,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/129-ai-public-records-researcher.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/129-ai-public-records-researcher.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -638,9 +628,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/134-ai-5g-site-survey-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/134-ai-5g-site-survey-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -764,9 +752,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/144-ai-constituent-feedback-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/144-ai-constituent-feedback-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -890,9 +876,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/147-ai-underwriting-assistant.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/147-ai-underwriting-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1016,9 +1000,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/149-ai-churn-predictor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/149-ai-churn-predictor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1142,9 +1124,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/158-ai-impact-measurement-reporter.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/158-ai-impact-measurement-reporter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1268,9 +1248,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/166-ai-floor-plan-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/166-ai-floor-plan-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1394,9 +1372,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/177-ai-soil-health-reporter.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/177-ai-soil-health-reporter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1520,9 +1496,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/179-ai-fraud-pattern-detector.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/179-ai-fraud-pattern-detector.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1646,9 +1620,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/184-ai-enrollment-forecaster.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/184-ai-enrollment-forecaster.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1934,7 +1906,6 @@ Please:
 ```
 
 :::
-
 ## 16. AI Survey Design and Analysis Advisor
 
 > Designs methodologically sound survey instruments — data quality: 31% lower non-response, internal consistency +18%, analysis errors -45%.
@@ -2130,7 +2101,6 @@ Please:
 ```
 
 :::
-
 ## 17. AI Data Visualization Storyteller
 
 > Structures data into decision-focused narratives — decision rate from analytics presentations +34%, follow-up analysis requests -41%.
@@ -2315,7 +2285,6 @@ Please:
 ```
 
 :::
-
 ## 18. AI Academic Paper Summarizer
 
 > Generates structured research summaries — papers processed: 5–8× faster at research-synthesis quality, methodological detail retention 3×.
@@ -2472,7 +2441,6 @@ Please:
 ```
 
 :::
-
 ## 19. AI Market Research Report Generator
 
 > Generates market research reports from synthesized sources — report time: 3–10 weeks → 1–2 weeks, cost vs agency: -65–80%.
@@ -2661,7 +2629,6 @@ Please:
 ```
 
 :::
-
 ## 20. AI Statistical Analysis Explainer
 
 > Translates statistical findings for non-technical stakeholders — comprehension rate: +48%, decision time: 3× faster with plain-language explanations.
@@ -2843,7 +2810,6 @@ Please:
 ```
 
 :::
-
 ## 21. AI Ethnographic Research Coder
 
 > Applies systematic coding to qualitative data — open coding time: -50–65%, codebook comprehensiveness: +35% unique codes identified.
@@ -3024,7 +2990,6 @@ Please:
 ```
 
 :::
-
 ## 22. AI Grant Proposal Writer
 
 > Supports grant proposal drafting — NIH priority score improvement avg +1.5 points, revision cycles: 3.8 → 2.1, funding rates +18% for new applicants.
@@ -3214,7 +3179,6 @@ Please:
 ```
 
 :::
-
 ## 23. AI Patent Landscape Analyzer
 
 > Analyzes patent landscapes for white spaces and freedom-to-operate — landscape cost: -85–90% vs law firm, coverage +40% vs keyword search.
@@ -3391,7 +3355,6 @@ Important: I understand this is educational interpretation, not legal advice.
 ```
 
 :::
-
 ## 24. AI Interview Transcript Analyzer
 
 > Analyzes interview transcripts systematically — analysis time: 80–120h → 15–25h, theme coverage +25–35% more subthemes discovered.
@@ -3585,7 +3548,6 @@ Please draft:
 ```
 
 :::
-
 ## 25. AI Research Proposal Writer
 
 > Supports research proposal drafting — proposal writing: 80–120h → 25–40h, submission volume +50–70% without increasing writing time.
@@ -3806,7 +3768,6 @@ Please draft:
 ```
 
 :::
-
 ## 26. AI Data Collection Protocol Designer
 
 > Designs methodologically rigorous data collection protocols — bias risks identified: 6–10 per instrument, pilot testing revisions -40%.
@@ -4032,7 +3993,6 @@ Please design:
 ```
 
 :::
-
 ## 27. AI Model Evaluation Report Generator
 
 > Generates comprehensive ML model evaluation reports — evaluation documentation: 3–5h → structured report, deployment without documentation: 92% → 36%.
@@ -4165,7 +4125,6 @@ Generate a compliance-ready model evaluation section that documents: model purpo
 ```
 
 :::
-
 ## 28. AI Feature Engineering Advisor
 
 > Guides feature creation and selection — experiment iterations to reach target performance: -40%, leakage audit prevents production incidents.
@@ -4303,7 +4262,6 @@ Recommend a feature selection strategy: (1) which features to drop based on impo
 ```
 
 :::
-
 ## 29. AI ML Pipeline Debugging Assistant
 
 > Helps debug ML pipeline failures — time-to-resolution: -65%, complex multi-system bugs previously requiring senior escalation now resolved faster.
@@ -4458,7 +4416,6 @@ Identify all potential sources of non-determinism in my setup (framework ops, Da
 ```
 
 :::
-
 ## 30. AI A/B Test Results Analyzer
 
 > Interprets A/B test results correctly — incorrect early-termination decisions: -55%, stakeholder readout preparation time: -70%.
@@ -4607,7 +4564,6 @@ Provide: (1) posterior probability that treatment beats control, (2) expected lo
 ```
 
 :::
-
 ## 31. AI Data Quality Audit Advisor
 
 > Guides systematic data quality audits — critical issues caught per dataset: 3.7 average, audit time: 2–3 weeks → 2–3 days.
@@ -4762,7 +4718,6 @@ Generate a formal data quality report suitable for: (1) the data engineering tea
 ```
 
 :::
-
 ## 32. AI ML Experiment Tracker
 
 > Structures ML experiment documentation and cross-session synthesis — reproducibility +78%, repeated experiments -45%.
@@ -4907,7 +4862,6 @@ Help me: (1) reconstruct the most likely experimental setup from the available e
 ```
 
 :::
-
 ## 33. AI Data Pipeline Documentation Writer
 
 > Documents data pipelines comprehensively — onboarding time to pipeline understanding: 4.2 days → 1.5 days, incident response time: -40%.
@@ -5057,7 +5011,6 @@ Update the documentation to reflect the changes: (1) identify which sections are
 ```
 
 :::
-
 ## 34. AI Model Bias and Fairness Auditor
 
 > Guides fairness audits with compliance-ready documentation — audit documentation time: -60%, regulatory compliance clarity for ML teams without formal fairness training.
@@ -5197,7 +5150,6 @@ Generate a formal fairness audit report suitable for [REGULATORY_PURPOSE] that i
 ```
 
 :::
-
 ## 35. AI SQL Query Optimizer
 
 > Optimizes SQL for performance — execution time -67% avg, compute cost savings avg $1,200/month per critical query.
@@ -5336,7 +5288,6 @@ Review for: (1) performance anti-patterns (SELECT *, unnecessary DISTINCT, corre
 ```
 
 :::
-
 ## 36. AI Business Dashboard Design Advisor
 
 > Designs decision-aligned dashboards — weekly users: avg 8 → 34 (+325%), time to insight: 4.2 min → under 60 seconds.
@@ -5513,7 +5464,6 @@ Generate a Dashboard Design Rationale Document covering:
 ```
 
 :::
-
 ## 37. AI Stakeholder Data Report Generator
 
 > Converts analytical findings into executive reports — decision action rate: 23% → 61% (+165%), report revision cycles: 2.8 → 0.9.
@@ -5699,7 +5649,6 @@ Help me:
 ```
 
 :::
-
 ## 38. AI Time Series Forecasting Assistant
 
 > Guides time series modeling from diagnostic to deployment — MAPE: 28% → 14%, residual autocorrelation in shipped models: 61% → 18%.
@@ -5878,7 +5827,6 @@ Produce a diagnostic checklist I can work through systematically to identify the
 ```
 
 :::
-
 ## 39. AI Data Governance Policy Writer
 
 > Writes implementable data governance policies — policy compliance: 34% → 71%, PII incidents per quarter: 2.4 → 0.4.
@@ -6052,7 +6000,6 @@ Draft a retention and deletion policy covering:
 ```
 
 :::
-
 ## 40. AI ML Model Documentation Generator
 
 > Generates model cards and data documentation — deployment documentation completeness: 8% → 64%, feature reuse rate: 11% → 34%.
@@ -6259,7 +6206,6 @@ Generate a subgroup performance documentation package covering:
 ```
 
 :::
-
 ## 41. AI Data Strategy Roadmap Builder
 
 > Builds data strategy investment cases — budget approval: 52% → 79%, roadmap coherence: 28% → 84% of projects tied to strategic objectives.
@@ -6441,7 +6387,6 @@ Design a set of OKRs with:
 ```
 
 :::
-
 ## 42. AI Causal Inference Advisor
 
 > Guides causal analysis methodology — causal errors: 71% → 28%, A/B test design quality significantly improved.
@@ -6630,7 +6575,6 @@ Help me draft communication that:
 ```
 
 :::
-
 ## 43. AI Real Estate Property Valuation Analyst
 
 > Organizations operating in Real Estate face mounting pressure to deliver results with constrained resources
@@ -6830,7 +6774,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 44. AI Insurance Underwriting Risk Profiler
 
 > Organizations operating in Insurance face mounting pressure to deliver results with constrained resources
@@ -7030,7 +6973,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 45. AI Retail Customer Sentiment Analyzer
 
 > Organizations operating in Retail face mounting pressure to deliver results with constrained resources
@@ -7230,7 +7172,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 46. AI Data Analyst KPI Dashboard Builder
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
@@ -7430,7 +7371,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 47. AI Sales Attribution Modeling Assistant
 
 > Organizations operating in E-Commerce face mounting pressure to deliver results with constrained resources
@@ -7630,7 +7570,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 48. AI Cohort Retention Analysis Engine
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
@@ -7830,7 +7769,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 49. AI Pricing Elasticity Analysis Engine
 
 > Organizations operating in Retail face mounting pressure to deliver results with constrained resources
@@ -8030,7 +7968,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 50. AI Financial Fraud Pattern Detection Engine
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources

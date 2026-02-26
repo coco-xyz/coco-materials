@@ -8,9 +8,7 @@ AI-powered use cases for procurement professionals.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/141-ai-bill-of-materials-checker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/141-ai-bill-of-materials-checker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -134,9 +132,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/154-ai-freight-rate-negotiator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/154-ai-freight-rate-negotiator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -260,9 +256,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/160-ai-supply-chain-risk-scorer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/160-ai-supply-chain-risk-scorer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -386,9 +380,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/183-ai-pharmacy-benefit-optimizer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/183-ai-pharmacy-benefit-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -512,9 +504,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/191-ai-procurement-bid-evaluator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/191-ai-procurement-bid-evaluator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -831,7 +821,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 7. AI Operations Vendor Contract Negotiation Prep
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
@@ -1031,7 +1020,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 8. AI Procurement RFP Response Optimizer
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
@@ -1231,7 +1219,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 9. AI Procurement Spend Analysis Engine
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
@@ -1431,7 +1418,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 10. AI Supplier Diversity Program Tracker
 
 > Organizations operating in Government face mounting pressure to deliver results with constrained resources
@@ -1631,7 +1617,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 11. AI Telecom Contract Negotiation Optimizer
 
 > Organizations operating in Telecommunications face mounting pressure to deliver results with constrained resources

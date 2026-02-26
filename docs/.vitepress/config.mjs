@@ -1,7 +1,9 @@
 import { defineConfig } from 'vitepress'
 
+const base = process.env.VITEPRESS_BASE || '/'
+
 export default defineConfig({
-  base: process.env.VITEPRESS_BASE || '/',
+  base,
   cleanUrls: true,
 
   vite: {
@@ -17,6 +19,17 @@ export default defineConfig({
         source: [],
       }
     }
+  },
+
+  transformHtml(code) {
+    if (base !== '/') {
+      const prefix = base.replace(/\/$/, '')
+      // Fix src/href attributes for public assets that lack the base prefix
+      return code
+        .replace(/src="\/(?!docs\/|assets\/|http)/g, `src="${prefix}/`)
+        .replace(/href="\/coco-icon\.png"/g, `href="${prefix}/coco-icon.png"`)
+    }
+    return code
   },
 
   head: [

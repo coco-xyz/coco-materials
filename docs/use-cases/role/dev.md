@@ -8,9 +8,7 @@ AI-powered use cases for developers, DevOps engineers, and tech leads.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/005-ai-code-reviewer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/005-ai-code-reviewer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -150,9 +148,7 @@ PR:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/006-ai-test-generator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/006-ai-test-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -328,9 +324,7 @@ Generate ONLY the missing tests, not duplicates of existing coverage.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/007-ai-deploy-monitor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/007-ai-deploy-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -501,9 +495,7 @@ Recommend new thresholds that reduce false positives by at least 50% while maint
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/008-ai-api-doc-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/008-ai-api-doc-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -688,9 +680,7 @@ Write in a friendly, clear tone. Assume the reader is a developer but has never 
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/009-ai-debug-assistant.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/009-ai-debug-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -889,9 +879,7 @@ Correlate the logs across services to reconstruct:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/035-ai-code-migrator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/035-ai-code-migrator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -997,9 +985,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/036-ai-performance-profiler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/036-ai-performance-profiler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1105,9 +1091,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/037-ai-security-scanner.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/037-ai-security-scanner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1213,9 +1197,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/038-ai-database-optimizer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/038-ai-database-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1320,9 +1302,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/039-ai-dependency-manager.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/039-ai-dependency-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1428,9 +1408,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/051-ai-bug-prioritizer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/051-ai-bug-prioritizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1536,9 +1514,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/074-ai-helpdesk-escalation-router.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/074-ai-helpdesk-escalation-router.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1717,9 +1693,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/075-ai-data-pipeline-monitor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/075-ai-data-pipeline-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1898,9 +1872,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/080-ai-incident-response-coordinator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/080-ai-incident-response-coordinator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2079,9 +2051,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/081-ai-patent-research-assistant.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/081-ai-patent-research-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2260,9 +2230,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/083-ai-quality-assurance-auditor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/083-ai-quality-assurance-auditor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2441,9 +2409,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/087-ai-technical-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/087-ai-technical-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2631,9 +2597,7 @@ Produce a prioritized action plan: Critical (blocks new developer onboarding), I
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/099-ai-it-asset-manager.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/099-ai-it-asset-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2909,9 +2873,7 @@ For each metric, specify:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/161-ai-api-migration-planner.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/161-ai-api-migration-planner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3035,9 +2997,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/168-ai-ehr-data-migrator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/168-ai-ehr-data-migrator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3161,9 +3121,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/198-ai-dependency-vulnerability-scanner.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/198-ai-dependency-vulnerability-scanner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3448,7 +3406,6 @@ Produce a dependency debt roadmap with effort estimates and risk ratings for eac
 ```
 
 :::
-
 ## 23. AI Code Refactoring Advisor {#case-23}
 
 **Role**: Developer / Senior Engineer / Tech Lead | **Industry**: Technology, SaaS, Fintech, Enterprise Software | **Task**: Legacy Code Modernization, Refactoring Strategy, Code Quality Improvement
@@ -3624,7 +3581,6 @@ Please recommend:
 ```
 
 :::
-
 ## 24. AI Code Coverage Gap Finder {#case-24}
 
 **Role**: Developer / QA Engineer / Tech Lead | **Industry**: Technology, SaaS, Fintech, Healthcare Software | **Task**: Test Coverage Analysis, Quality Risk Assessment, Test Strategy
@@ -3812,7 +3768,6 @@ Please design:
 ```
 
 :::
-
 ## 25. AI Incident Root Cause Analyzer {#case-25}
 
 **Role**: Developer / SRE / DevOps Engineer | **Industry**: Technology, SaaS, Fintech, E-commerce | **Task**: Production Incident Response, Root Cause Analysis, Post-Mortem Generation
@@ -3969,7 +3924,6 @@ Questions to answer:
 ```
 
 :::
-
 ## 26. AI Infrastructure Cost Optimizer {#case-26}
 
 **Role**: Developer / DevOps Engineer / SRE / Engineering Manager | **Industry**: Technology, SaaS, Fintech, E-commerce | **Task**: Cloud Cost Optimization, FinOps, Infrastructure Right-Sizing
@@ -4137,7 +4091,6 @@ Please:
 ```
 
 :::
-
 ## 27. AI CI/CD Pipeline Optimizer {#case-27}
 
 **Role**: Developer / DevOps Engineer / Platform Engineer | **Industry**: Technology, SaaS, Fintech, Enterprise Software | **Task**: CI/CD Optimization, Build Performance, Developer Productivity
@@ -4308,7 +4261,6 @@ Please:
 ```
 
 :::
-
 ## 28. AI System Design Reviewer {#case-28}
 
 **Role**: Developer / Senior Engineer / Tech Lead / Solution Architect | **Industry**: Technology, SaaS, Fintech, Enterprise Software | **Task**: Architecture Review, Design Validation, Scalability Assessment
@@ -4466,7 +4418,6 @@ Please:
 ```
 
 :::
-
 ## 29. AI Microservices Dependency Analyzer {#case-29}
 
 **Role**: Developer / Senior Engineer / Platform Engineer / Solution Architect | **Industry**: Technology, SaaS, Fintech, Enterprise Software | **Task**: Service Dependency Mapping, Microservices Architecture, System Reliability
@@ -4638,7 +4589,6 @@ Please:
 ```
 
 :::
-
 ## 30. AI API Design Validator {#case-30}
 
 **Role**: Developer / API Engineer / Tech Lead / Platform Engineer | **Industry**: Technology, SaaS, Fintech, Developer Platforms | **Task**: API Design Review, Contract Validation, API Governance
@@ -4807,7 +4757,6 @@ Please review:
 ```
 
 :::
-
 ## 31. AI Threat Model Generator {#case-31}
 
 **Role**: Developer / Security Engineer / Tech Lead / Application Architect | **Industry**: Technology, SaaS, Fintech, Healthcare, Enterprise Software | **Task**: Threat Modeling, Security Architecture, Risk Assessment
@@ -4972,7 +4921,6 @@ Please generate:
 ```
 
 :::
-
 ## 32. AI Security Incident Forensics Assistant {#case-32}
 
 **Role**: Developer / Security Engineer / DevOps Engineer / Incident Responder | **Industry**: Technology, SaaS, Fintech, Healthcare, Enterprise Software | **Task**: Security Incident Investigation, Digital Forensics, Incident Timeline Analysis
@@ -5144,7 +5092,6 @@ Questions to answer:
 ```
 
 :::
-
 ## 33. AI Access Permission Auditor {#case-33}
 
 **Role**: Developer / DevOps Engineer / Security Engineer / Platform Engineer | **Industry**: Technology, SaaS, Fintech, Healthcare, Enterprise | **Task**: IAM Audit, Least Privilege Enforcement, Compliance Review
@@ -5319,7 +5266,6 @@ Please:
 ```
 
 :::
-
 ## 34. AI Legacy Code Archaeologist {#case-34}
 
 **Role**: Software Developer / Senior Engineer / Tech Lead | **Industry**: SaaS, Enterprise Software, Financial Services, Healthcare IT | **Task**: Code Review, Legacy System Modernization, Technical Debt Analysis, Documentation
@@ -5515,7 +5461,6 @@ Please produce a modernization assessment:
 ```
 
 :::
-
 ## 35. AI Code Documentation Generator {#case-35}
 
 **Role**: Developer | **Industry**: SaaS, Enterprise Software, Developer Tools, Platform Engineering | **Task**: Documentation, Code Review, Knowledge Management
@@ -5710,7 +5655,6 @@ Please:
 ```
 
 :::
-
 ## 36. AI Performance Bottleneck Detective {#case-36}
 
 **Role**: Developer | **Industry**: SaaS, E-commerce, Fintech, Enterprise Software | **Task**: Performance Optimization, Profiling, System Tuning
@@ -5930,7 +5874,6 @@ Please:
 ```
 
 :::
-
 ## 37. AI API Design Reviewer {#case-37}
 
 **Role**: Developer | **Industry**: SaaS, Platform Engineering, Fintech, Enterprise Software | **Task**: Code Review, API Design, Developer Experience
@@ -6123,7 +6066,6 @@ Please evaluate:
 ```
 
 :::
-
 ## 38. AI Database Schema Optimizer {#case-38}
 
 **Role**: Developer | **Industry**: SaaS, Fintech, E-commerce, Enterprise Software | **Task**: Database Design, Performance Optimization, Schema Review
@@ -6334,7 +6276,6 @@ Please design:
 ```
 
 :::
-
 ## 39. AI Incident Post-Mortem Writer {#case-39}
 
 **Role**: Developer | **Industry**: SaaS, E-commerce, Fintech, Enterprise Software | **Task**: Incident Response, Post-Mortem Documentation, Reliability
@@ -6556,7 +6497,6 @@ Please evaluate:
 ```
 
 :::
-
 ## 40. AI Dependency Vulnerability Scanner {#case-40}
 
 **Role**: Developer | **Industry**: SaaS, Enterprise Software, Fintech, Healthcare Software | **Task**: Security, Dependency Management, Supply Chain Security
@@ -6757,7 +6697,6 @@ Please assess each dependency for:
 ```
 
 :::
-
 ## 41. AI Test Case Generator {#case-41}
 
 **Role**: Developer | **Industry**: SaaS, Enterprise Software, Fintech, Healthcare Software | **Task**: Testing, Quality Assurance, Test-Driven Development
@@ -6966,7 +6905,6 @@ Please design:
 ```
 
 :::
-
 ## 42. AI Code Refactoring Strategist {#case-42}
 
 **Role**: Developer | **Industry**: SaaS, Enterprise Software, Fintech, Developer Tools | **Task**: Code Review, Refactoring, Technical Debt
@@ -7167,7 +7105,6 @@ Please evaluate:
 ```
 
 :::
-
 ## 43. AI System Architecture Advisor {#case-43}
 
 **Role**: Developer | **Industry**: SaaS, Enterprise Software, Platform Engineering, Fintech | **Task**: Analysis, Architecture, System Design
@@ -7379,7 +7316,6 @@ Please:
 ```
 
 :::
-
 ## 44. AI CI/CD Pipeline Optimizer {#case-44}
 
 **Role**: Developer | **Industry**: SaaS, Enterprise Software, Developer Tools, Platform Engineering | **Task**: Automation, DevOps, Performance Optimization
@@ -7595,7 +7531,6 @@ Please:
 ```
 
 :::
-
 ## 45. AI Error Log Analyzer {#case-45}
 
 **Role**: Developer | **Industry**: SaaS, Enterprise Software, E-commerce, Fintech | **Task**: Monitoring, Debugging, Incident Response
@@ -7793,7 +7728,6 @@ Please design:
 ```
 
 :::
-
 ## 46. AI Open Source Contribution Reviewer {#case-46}
 
 **Role**: Developer | **Industry**: SaaS, Enterprise Software, Developer Tools, Platform Engineering | **Task**: Code Review, Open Source, Community
@@ -8003,7 +7937,6 @@ Please create:
 ```
 
 :::
-
 ## 47. AI Developer Code Review Quality Auditor
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
@@ -8203,7 +8136,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 48. AI Developer API Documentation Generator
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
@@ -8403,7 +8335,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 49. AI Developer Security Vulnerability Scanner
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
@@ -8603,7 +8534,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 50. AI Developer Automated Test Case Generator
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
@@ -8803,7 +8733,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 51. AI Legacy Code Modernization Guide
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
@@ -9003,7 +8932,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 52. AI Database Query Performance Optimizer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
@@ -9203,7 +9131,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 53. AI Microservices Migration Planner
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
@@ -9403,7 +9330,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 54. AI Open Source Dependency Security Auditor
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources

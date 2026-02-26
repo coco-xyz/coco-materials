@@ -8,9 +8,7 @@ AI-powered use cases for executive professionals.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/167-ai-executive-briefing-generator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/167-ai-executive-briefing-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -134,9 +132,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/190-ai-annual-report-assembler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/190-ai-annual-report-assembler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -260,9 +256,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/200-ai-okr-progress-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/200-ai-okr-progress-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -386,9 +380,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/203-ai-board-meeting-prep-assistant.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/203-ai-board-meeting-prep-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -712,7 +704,6 @@ Please:
 ```
 
 :::
-
 ## 6. AI Travel Itinerary Optimizer
 
 > Optimizes meeting sequencing, hotel proximity, and buffer time — trip planning: 4–6h → 45–75min, transit time saved avg 90–120 min per multi-city trip.
@@ -931,7 +922,6 @@ Please:
 ```
 
 :::
-
 ## 7. AI Email Triage and Drafting Assistant
 
 > Categorizes, prioritizes, and drafts replies for executive inboxes — daily email time: 2.5–3h → 45–75min, delegation drop rate: 23% → under 7%.
@@ -1122,7 +1112,6 @@ For each type I've listed, please create:
 ```
 
 :::
-
 ## 8. AI Weekly Review Summarizer
 
 > Structures weekly executive review — completion rate: 22% → 87%, quarterly priority achievement +28–35%, strategic drift -45%.
@@ -1337,7 +1326,6 @@ Please produce:
 ```
 
 :::
-
 ## 9. AI Decision Framework Builder
 
 > Structures complex decisions with explicit criteria, pre-mortem, and bias audit — decision regrets -41%, decision documentation rate: 15% → 80%+.
@@ -1559,7 +1547,6 @@ Please build:
 ```
 
 :::
-
 ## 10. AI Knowledge Base Curator
 
 > Organizes institutional knowledge into structured, searchable repositories — information search time -60%, knowledge reuse rate 3–4×, onboarding acceleration +40%.
@@ -1769,7 +1756,6 @@ Please produce:
 ```
 
 :::
-
 ## 11. AI Personal Goal Tracker
 
 > Structures personal and professional goal tracking with weekly accountability — goal progress 3.2× over 12 months, behavioral goal achievement: 23% → 61%.
@@ -2000,7 +1986,6 @@ Please:
 ```
 
 :::
-
 ## 12. AI Research Briefing Generator
 
 > Generates comprehensive research briefings on any strategic topic — briefing time: 3–5h → 30–45min, decision confidence +38%.
@@ -2209,7 +2194,6 @@ Please produce:
 ```
 
 :::
-
 ## 13. AI Delegation Workflow Designer
 
 > Structures delegation briefs with authority scope, success criteria, and escalation triggers — delegation completion: +52%, executive time recovered 6–8h/week.
@@ -2433,7 +2417,6 @@ For each target area, please help me:
 ```
 
 :::
-
 ## 14. AI Meeting Preparation Briefer
 
 > Generates pre-meeting intelligence packages — prep time: 35–45min → under 5min, meeting objective achievement: 54% → 71%.
@@ -2625,7 +2608,6 @@ Please:
 ```
 
 :::
-
 ## 15. AI Task Priority Balancer
 
 > Applies Eisenhower Matrix and priority frameworks to daily work — priority completion: 41% → 78%, strategic work time +35%, delegation rate 2.3×.
@@ -2818,7 +2800,6 @@ Please:
 ```
 
 :::
-
 ## 16. AI Executive Communication Drafter
 
 > Drafts board communications, all-hands messages, and stakeholder letters in the executive's voice — draft-to-send cycle: 3–5h → 45–90min, revision rounds -60%.
@@ -3023,7 +3004,6 @@ Please draft:
 ```
 
 :::
-
 ## 17. AI Startup Investor Pitch Deck Advisor
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
@@ -3223,7 +3203,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 18. AI Executive Board Meeting Prep Assistant
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
@@ -3423,7 +3402,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 19. AI Hospitality Revenue Management Optimizer
 
 > Organizations operating in Hospitality face mounting pressure to deliver results with constrained resources
@@ -3623,7 +3601,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 20. AI Executive Strategic Memo Writer
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
@@ -3823,7 +3800,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 21. AI Executive Quarterly Business Review Prep
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
@@ -4023,7 +3999,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 22. AI Competitive Strategy Analyzer
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
@@ -4223,7 +4198,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 23. AI Annual Strategy Narrative Builder
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources

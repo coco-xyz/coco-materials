@@ -202,7 +202,6 @@ Format for inclusion in a formal consulting or investment research report.
 ```
 
 :::
-
 ## 2. AI Competitive Intelligence Deep-Dive Report Builder
 
 > Builds comprehensive competitive profiles — products, pricing, positioning, leadership, and signals — synthesized from 50+ public sources into a single structured report.
@@ -389,7 +388,6 @@ Write at the level of a senior strategy consultant briefing an executive team.
 ```
 
 :::
-
 ## 3. AI Industry Trend Signal Aggregator & Synthesizer
 
 > Cuts through information overload to surface the 10 signals that actually matter this week — synthesized from 100+ industry sources into a structured trend briefing.
@@ -583,7 +581,6 @@ Synthesize across all trends:
 ```
 
 :::
-
 ## 4. AI Expert Interview Guide & Question Bank Generator
 
 > Generates structured, hypothesis-driven interview guides tailored to the specific expert profile and research objective — ready to use in 15 minutes.
@@ -776,7 +773,6 @@ Flag any statements that require verification from other sources before being in
 ```
 
 :::
-
 ## 5. AI Primary Research Survey Design Engine
 
 > Designs statistically sound, bias-minimized survey instruments from research objectives to final questionnaire — in a fraction of the time of manual design.
@@ -971,7 +967,6 @@ Deliverables:
 ```
 
 :::
-
 ## 6. AI Secondary Research Source Discovery & Ranking Tool
 
 > Surfaces the 20 most relevant, credible, and current sources for any research question — ranked by quality, not just recency or keyword match.
@@ -1169,7 +1164,6 @@ Synthesize:
 ```
 
 :::
-
 ## 7. AI Survey Response Statistical Analysis Engine
 
 > Transforms raw survey data into publication-quality statistical findings — cross-tabs, significance tests, regression, and visualization — without requiring a statistician.
@@ -1369,7 +1363,6 @@ Output:
 ```
 
 :::
-
 ## 8. AI Citation Builder & Bibliography Formatter
 
 > Generates perfectly formatted citations in any style and builds complete bibliographies from raw source information — eliminating manual formatting errors.
@@ -1560,7 +1553,6 @@ For each source type, generate:
 ```
 
 :::
-
 ## 9. AI Research Hypothesis Validation Framework
 
 > Structures research hypotheses, maps evidence requirements, and guides the analyst through a systematic validation process — reducing confirmation bias and strengthening research integrity.
@@ -1758,7 +1750,6 @@ Present reasoning in plain language alongside the probability estimates.
 ```
 
 :::
-
 ## 10. AI Longitudinal Study Data Tracker & Change Analyzer
 
 > Manages multi-wave research data, detects statistically significant changes over time, and generates trend narratives — turning time-series survey data into strategic insight.
@@ -1956,7 +1947,6 @@ Recommended disclosures: what should be noted in the methodology section of this
 ```
 
 :::
-
 ## 11. AI Regulatory & Policy Landscape Tracker
 
 > Maps the full regulatory environment for any industry across all active jurisdictions — updated continuously so analysts never miss a compliance or market-shaping development.
@@ -2161,7 +2151,6 @@ Produce: Enforcement intelligence brief with compliance implication summary
 ```
 
 :::
-
 ## 12. AI Consumer Behavior Segmentation Analyzer
 
 > Transforms survey, behavioral, and demographic data into actionable consumer segments — with profiles, sizing, and strategic implications built in.
@@ -2353,7 +2342,6 @@ Prioritize segments by competitive vulnerability and recommend defensive and off
 ```
 
 :::
-
 ## 13. AI Earnings Call Transcript Insight Extractor
 
 > Extracts strategic signals, management sentiment shifts, and forward guidance changes from earnings transcripts — across 50+ companies in the time it takes to read one.
@@ -2545,7 +2533,6 @@ Synthesize: a competitive intelligence summary on the target built entirely from
 ```
 
 :::
-
 ## 14. AI Patent Application Landscape Mapping Engine
 
 > Maps the full patent landscape for any technology domain — identifying key players, white spaces, and innovation trajectories — in a fraction of the time of manual patent research.
@@ -2734,7 +2721,6 @@ Strategic recommendation: top 3 expiration events to monitor and prepare for, wi
 ```
 
 :::
-
 ## 15. AI Geopolitical Risk Impact Assessment Tool
 
 > Translates complex geopolitical developments into structured, quantified risk assessments with direct business implications — built for research analysts who are not geopolitical specialists.
@@ -2936,7 +2922,6 @@ Format: Specification document for dashboard implementation + manual monitoring 
 ```
 
 :::
-
 ## 16. AI Supply Chain Vulnerability Research Synthesizer
 
 > Synthesizes public data on supplier dependencies, chokepoints, and disruption risks into a structured supply chain intelligence report — without requiring proprietary supplier data.
@@ -3127,7 +3112,6 @@ Output:
 ```
 
 :::
-
 ## 17. AI Academic White Paper Outline & Argument Builder
 
 > Transforms a research question and evidence base into a fully structured white paper outline with argument architecture, evidence mapping, and section-by-section writing guidance.
@@ -3321,7 +3305,6 @@ Format as a one-page brief per section that the analyst can reference while writ
 ```
 
 :::
-
 ## 18. AI Investment Thesis Research Package Compiler
 
 > Compiles a complete investment thesis research package — market, competitive, financial, and risk analysis — structured for investment committee review.
@@ -3533,7 +3516,6 @@ Format: Q&A preparation brief organized by topic with confidence ratings for eac
 ```
 
 :::
-
 ## 19. AI Qualitative Interview Transcript Coder
 
 > Applies systematic qualitative coding to interview transcripts — identifying themes, patterns, and analytical categories — at a fraction of the time of manual coding.
@@ -3739,7 +3721,6 @@ Tone: Professionally rigorous, grounded in evidence, appropriately qualified whe
 ```
 
 :::
-
 ## 20. AI Macro-Economic Indicator Dashboard Builder
 
 > Builds a customized macro-economic monitoring dashboard with the specific indicators, data sources, and analytical commentary most relevant to the research coverage universe.
@@ -3929,7 +3910,6 @@ Output: Scenario risk table + monitoring dashboard specification for the identif
 ```
 
 :::
-
 ## 21. AI Media Coverage & Press Monitoring Digest
 
 > Aggregates, filters, and synthesizes media coverage across hundreds of sources into a structured daily or weekly intelligence digest — eliminating noise and surfacing only the signals that matter.
@@ -4115,7 +4095,6 @@ Output: Pre-publication signal brief with prioritized action recommendations
 ```
 
 :::
-
 ## 22. AI Analyst Report Comparison & Consensus Synthesizer
 
 > Synthesizes sell-side analyst reports, rating changes, and estimate revisions into a structured consensus view — identifying where the consensus is right, where it is wrong, and where the disagreement is most significant.
@@ -4310,7 +4289,6 @@ Output: Differentiated view assessment with explicit identification of where I a
 ```
 
 :::
-
 ## 23. AI Technology Readiness Level Assessment Engine
 
 > Applies structured TRL assessment to evaluate the maturity, commercialization pathway, and investment readiness of any technology — with documented evidence and transition gap analysis.
@@ -4507,7 +4485,6 @@ Output: Investment readiness brief with go/no-go recommendation framework based 
 ```
 
 :::
-
 ## 24. AI Customer Pain Point Cluster Analysis Tool
 
 > Synthesizes customer feedback, support tickets, review data, and interview insights into a structured pain point map — prioritized by frequency, severity, and strategic importance.
@@ -4711,7 +4688,6 @@ Output: Segment pain profile cards + cross-segment priority matrix
 ```
 
 :::
-
 ## 25. AI Grant & Funding Opportunity Research Assistant
 
 > Identifies, evaluates, and matches research grants, government funding, and private foundation opportunities to specific research programs — building the evidence base for competitive applications.
@@ -4915,7 +4891,6 @@ Priority ranking: which changes will have the greatest impact on the resubmissio
 ```
 
 :::
-
 ## 26. AI M&A Comparable Transaction Database Builder
 
 > Builds a customized comparable transaction database for any deal type, industry, and geography — with deal multiples, deal terms, and strategic rationale synthesized from public sources.
@@ -5108,7 +5083,6 @@ Synthesize:
 ```
 
 :::
-
 ## 27. AI Social Listening & Online Sentiment Trend Tracker
 
 > Tracks brand, competitor, and topic sentiment across social platforms, forums, and review sites — delivering structured trend intelligence rather than raw mention counts.
@@ -5304,7 +5278,6 @@ Format insights as direct language that can be incorporated into a research deli
 ```
 
 :::
-
 ## 28. AI Industry Association Report Synthesizer
 
 > Extracts the strategic intelligence buried in industry association reports, trade publications, and conference proceedings — synthesized across dozens of documents into a single coherent industry briefing.
@@ -5498,7 +5471,6 @@ Output: Association landscape map organized by type, with access notes and publi
 ```
 
 :::
-
 ## 29. AI Country Market Entry Feasibility Analyzer
 
 > Evaluates the feasibility, attractiveness, and entry strategy for market entry into any country — synthesizing regulatory, competitive, economic, and cultural dimensions into a structured assessment.
@@ -5703,7 +5675,6 @@ Overall competitive environment assessment:
 ```
 
 :::
-
 ## 30. AI Focus Group Discussion Guide Builder
 
 > Designs professional focus group discussion guides with hypothesis-driven questioning, probe strategies, and projective techniques — tailored to the research objective and group profile.
@@ -5894,7 +5865,6 @@ Format as ready-to-use analysis documents for the research team
 ```
 
 :::
-
 ## 31. AI Systematic Literature Review Automation Engine
 
 > Searches, screens, extracts, and synthesizes evidence across thousands of academic papers — producing a PRISMA-compliant literature review in days rather than months.
@@ -6085,7 +6055,6 @@ Write in formal academic register suitable for journal submission. Flag any inte
 ```
 
 :::
-
 ## 32. AI Patent Landscape Analysis Engine
 
 > Maps the complete patent ecosystem for any technology domain — identifying filing trends, key assignees, whitespace opportunities, and freedom-to-operate risks — in a fraction of the time of manual patent searches.
@@ -6266,7 +6235,6 @@ Output: Portfolio heatmap scoring each family on the above dimensions + top 10 h
 ```
 
 :::
-
 ## 33. AI Competitive Intelligence Synthesis Engine
 
 > Aggregates signals from earnings calls, product releases, job postings, patent filings, pricing changes, and regulatory submissions to produce a unified competitor intelligence picture — updated continuously, not quarterly.
@@ -6443,7 +6411,6 @@ Format as a one-page sales enablement card suitable for AE use in active deals.
 ```
 
 :::
-
 ## 34. AI Regulatory Impact Assessment Tool
 
 > Analyzes proposed or enacted regulatory changes and quantifies their operational, financial, and strategic implications for a business or investment portfolio — producing a structured impact assessment in hours, not weeks.
@@ -6640,7 +6607,6 @@ Output: Scenario comparison table + recommended preparation strategy that builds
 ```
 
 :::
-
 ## 35. AI Research Dataset Quality Auditing Engine
 
 > Audits research datasets for completeness, consistency, validity, and bias — producing a structured data quality report with remediation recommendations before analysis begins.
@@ -6824,7 +6790,6 @@ Output: Attrition analysis report + recommended weighting or imputation approach
 ```
 
 :::
-
 ## 36. AI Citation Network Mapping Engine
 
 > Maps the citation relationships among academic papers, patents, and reports in any research domain — identifying foundational works, emerging clusters, and knowledge flow pathways to guide literature strategy and research positioning.
@@ -6997,7 +6962,6 @@ Output: Positioning analysis report with network visualization showing researche
 ```
 
 :::
-
 ## 37. AI Grant Proposal Optimization Engine
 
 > Analyzes funder priorities, reviewer expectations, and successful proposal patterns to strengthen grant narratives, align evaluation criteria, and improve competitive positioning before submission.
@@ -7179,7 +7143,6 @@ Output: Resubmission strategy memo + draft Introduction page + prioritized revis
 ```
 
 :::
-
 ## 38. AI Meta-Analysis Workflow Engine
 
 > Automates the statistical and methodological workflow of quantitative meta-analysis — from data extraction standardization through heterogeneity testing, publication bias assessment, and Forest plot generation.
@@ -7364,7 +7327,6 @@ Output: GRADE evidence profile table in standard format + written rationale for 
 ```
 
 :::
-
 ## 39. AI Research Collaboration Matching Engine
 
 > Identifies the most productive potential research collaborators based on complementary expertise, methodological fit, publication network overlap, and funding compatibility — accelerating team formation for grant applications and large-scale projects.
@@ -7551,7 +7513,6 @@ Output: Collaboration portfolio report + network visualization data + strategic 
 ```
 
 :::
-
 ## 40. AI Technology Readiness Level Assessment Engine
 
 > Evaluates the maturity and commercialization readiness of emerging technologies against standardized TRL frameworks — producing a structured assessment that guides R&D investment, partnership decisions, and market entry timing.

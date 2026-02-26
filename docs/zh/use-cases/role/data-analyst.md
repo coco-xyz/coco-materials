@@ -6,11 +6,9 @@ AI驱动的数据分析师专业人员用例。
 
 > 提取20+可比房产数据，调整位置和条件因素，5分钟生成市场估值报告。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/108-ai-property-valuation-assistant.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/108-ai-property-valuation-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -132,11 +130,9 @@ COCO的AI房产估值助手直接集成到你现有的工作流程中，充当�
 
 > 结合气象数据、土壤报告和历史产量，以8%以内的误差预测收获量。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/115-ai-crop-yield-predictor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/115-ai-crop-yield-predictor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -258,11 +254,9 @@ COCO的AI作物产量预测器直接集成到你现有的工作流程中，充�
 
 > 阅读120页剧本生成专业评审——8分钟完成剧情概要、角色分析和市场适配度评估。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/118-ai-script-coverage-reader.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/118-ai-script-coverage-reader.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -384,11 +378,9 @@ COCO的AI剧本评审阅读器直接集成到你现有的工作流程中，充�
 
 > 将患者记录与40+试验标准匹配——筛选合格候选人速度比人工快10倍。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/121-ai-clinical-trial-screener.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/121-ai-clinical-trial-screener.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -510,11 +502,9 @@ COCO的AI临床试验筛查器直接集成到你现有的工作流程中，充�
 
 > 同时搜索15个政府数据库——5分钟编撰房产、法院和商业记录。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/129-ai-public-records-researcher.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/129-ai-public-records-researcher.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -636,11 +626,9 @@ COCO的AI公共记录研究员直接集成到你现有的工作流程中，充�
 
 > 处理射频传播数据、地形图和分区规则——20分钟按覆盖潜力对50个候选站点排名。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/134-ai-5g-site-survey-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/134-ai-5g-site-survey-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -762,11 +750,9 @@ COCO的AI 5G站点勘测分析器直接集成到你现有的工作流程中，�
 
 > 处理市政厅和调查中的1万+市民评论——将主题、情绪和紧急程度聚类为可操作简报。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/144-ai-constituent-feedback-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/144-ai-constituent-feedback-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -888,11 +874,9 @@ COCO的AI选民反馈分析器直接集成到你现有的工作流程中，充�
 
 > 对照50项风险因素评估申请人数据——8分钟生成带置信度评分的核保建议。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/147-ai-underwriting-assistant.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/147-ai-underwriting-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1014,11 +998,9 @@ COCO的AI核保助手直接集成到你现有的工作流程中，充当一个�
 
 > 基于30+行为信号对10万订户评分——提前45天以87%准确率识别可能流失客户。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/149-ai-churn-predictor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/149-ai-churn-predictor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1140,11 +1122,9 @@ COCO的AI客户流失预测器直接集成到你现有的工作流程中，充�
 
 > 从8个数据源汇总项目数据——20分钟生成包含可视化和成果指标的资助方报告。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/158-ai-impact-measurement-reporter.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/158-ai-impact-measurement-reporter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1266,11 +1246,9 @@ COCO的AI影响力评估报告器直接集成到你现有的工作流程中，�
 
 > 从上传的平面图提取房间尺寸、计算可用面积并标记违规——仅需2分钟。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/166-ai-floor-plan-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/166-ai-floor-plan-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1392,11 +1370,9 @@ COCO的AI平面图分析器直接集成到你现有的工作流程中，充当�
 
 > 解读50个田区的pH值、营养和有机质化验结果——推荐施肥方案及成本估算。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/177-ai-soil-health-reporter.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/177-ai-soil-health-reporter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1518,11 +1494,9 @@ COCO的AI土壤健康报告器直接集成到你现有的工作流程中，充�
 
 > 分析10万条理赔记录——以92%精度识别可疑聚类和伪造事故指标。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/179-ai-fraud-pattern-detector.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/179-ai-fraud-pattern-detector.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1644,11 +1618,9 @@ COCO的AI欺诈模式检测器直接集成到你现有的工作流程中，充�
 
 > 建模人口趋势、申请漏斗和竞争动态——以3%以内误差预测下一年招生人数。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/184-ai-enrollment-forecaster.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/184-ai-enrollment-forecaster.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1931,7 +1903,6 @@ COCO的AI文献综述合成器充当不知疲倦的综合伙伴：与研究人�
 ```
 
 :::
-
 ## 16. AI 问卷设计与分析顾问
 
 ::: details 痛点与解决方案
@@ -2125,7 +2096,6 @@ COCO在每个阶段充当专业的问卷方法论专家和分析师：设计审�
 ```
 
 :::
-
 ## 17. AI 数据可视化叙事师
 
 ::: details 痛点与解决方案
@@ -2308,7 +2278,6 @@ COCO充当数据叙事伙伴，将分析师的发现转化为结构化叙述、�
 ```
 
 :::
-
 ## 18. AI 学术论文摘要器
 
 ::: details 痛点与解决方案
@@ -2463,7 +2432,6 @@ COCO的AI学术论文摘要器从全文或摘要中提取结构化的、可供�
 ```
 
 :::
-
 ## 19. AI 市场研究报告生成器
 
 ::: details 痛点与解决方案
@@ -2650,7 +2618,6 @@ COCO充当市场研究综合和报告生成引擎——从多个来源获取输�
 ```
 
 :::
-
 ## 20. AI 统计分析解读器
 
 ::: details 痛点与解决方案
@@ -2830,7 +2797,6 @@ COCO在统计输出和可操作理解之间架起桥梁——双向运作：向�
 ```
 
 :::
-
 ## 21. AI 民族志研究编码器
 
 ::: details 痛点与解决方案
@@ -3009,7 +2975,6 @@ COCO充当质性分析伙伴——不是替代研究人员的解释性判断，�
 ```
 
 :::
-
 ## 22. AI 访谈记录分析助手
 
 ::: details 痛点与解决方案
@@ -3201,7 +3166,6 @@ COCO 通过对访谈数据应用系统性编码逻辑、模式识别和叙事综
 ```
 
 :::
-
 ## 23. AI 研究提案写作助手
 
 ::: details 痛点与解决方案
@@ -3420,7 +3384,6 @@ COCO 通过生成结构化提案内容、文献空白框架和论证脚手架，
 ```
 
 :::
-
 ## 24. AI 数据收集协议设计助手
 
 ::: details 痛点与解决方案
@@ -3644,7 +3607,6 @@ COCO 充当系统性协议设计合作伙伴——帮助研究员在实地调研
 ```
 
 :::
-
 ## 25. AI 模型评估报告生成器
 
 ::: details 量化结果与受益角色
@@ -3750,7 +3712,6 @@ R²：[数值]
 ```
 
 :::
-
 ## 26. AI 特征工程顾问
 
 ::: details 量化结果与受益角色
@@ -3861,7 +3822,6 @@ R²：[数值]
 ```
 
 :::
-
 ## 27. AI ML 流水线调试助手
 
 ::: details 量化结果与受益角色
@@ -3995,7 +3955,6 @@ DAG 结构：[描述任务序列——数据提取 → 预处理 → 训练 → 
 ```
 
 :::
-
 ## 28. AI A/B 测试结果分析器
 
 ::: details 量化结果与受益角色
@@ -4117,7 +4076,6 @@ DAG 结构：[描述任务序列——数据提取 → 预处理 → 训练 → 
 ```
 
 :::
-
 ## 29. AI 数据质量审计顾问
 
 ::: details 量化结果与受益角色
@@ -4245,7 +4203,6 @@ ML 任务：[任务]
 ```
 
 :::
-
 ## 30. AI ML 实验追踪器
 
 ::: details 量化结果与受益角色
@@ -4363,7 +4320,6 @@ MLflow 实验 ID / W&B 项目：[ID 或名称]
 ```
 
 :::
-
 ## 31. AI 数据流水线文档撰写器
 
 ::: details 量化结果与受益角色
@@ -4490,7 +4446,6 @@ SLA：[预期完成时间]
 ```
 
 :::
-
 ## 32. AI 模型偏差与公平性审计师
 
 ::: details 量化结果与受益角色
@@ -4603,7 +4558,6 @@ SLA：[预期完成时间]
 ```
 
 :::
-
 ## 33. AI SQL 查询优化器
 
 ::: details 量化结果与受益角色
@@ -4725,7 +4679,6 @@ SQL：
 ```
 
 :::
-
 ## 34. AI 业务仪表盘设计顾问
 
 ::: details 痛点与解决方案
@@ -4900,7 +4853,6 @@ COCO 作为仪表盘设计顾问和共同架构师——在构建任何可视化
 ```
 
 :::
-
 ## 35. AI 利益相关方数据报告生成器
 
 ::: details 痛点与解决方案
@@ -5084,7 +5036,6 @@ COCO 作为数据叙事伙伴——帮助数据科学家将技术发现转化为
 ```
 
 :::
-
 ## 36. AI 时间序列预测助手
 
 ::: details 痛点与解决方案
@@ -5261,7 +5212,6 @@ COCO 作为时间序列预测顾问——引导数据科学家完成从探索性
 ```
 
 :::
-
 ## 37. AI 数据治理政策撰写器
 
 ::: details 痛点与解决方案
@@ -5433,7 +5383,6 @@ COCO 弥合法律要求和技术实施之间的差距——以精确、可操作
 ```
 
 :::
-
 ## 38. AI 机器学习模型文档生成器
 
 ::: details 痛点与解决方案
@@ -5638,7 +5587,6 @@ COCO 作为专业文档伙伴加速模型文档化——用正确的问题提示
 ```
 
 :::
-
 ## 39. AI 数据战略路线图构建器
 
 ::: details 痛点与解决方案
@@ -5818,7 +5766,6 @@ COCO 帮助数据领导者构建将能力投资与业务成果连接的数据战
 ```
 
 :::
-
 ## 40. AI 因果推断顾问
 
 ::: details 痛点与解决方案
@@ -6005,7 +5952,6 @@ COCO 作为因果推断顾问——帮助数据科学家和分析师导航完整
 ```
 
 :::
-
 ## 41. AI房地产物业估值分析师
 
 > 在房地产领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -6180,7 +6126,6 @@ COCO 作为因果推断顾问——帮助数据科学家和分析师导航完整
 ```
 
 :::
-
 ## 42. AI保险承保风险画像构建器
 
 > 在保险领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -6355,7 +6300,6 @@ COCO 作为因果推断顾问——帮助数据科学家和分析师导航完整
 ```
 
 :::
-
 ## 43. AI零售客户情感分析器
 
 > 在零售领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -6530,7 +6474,6 @@ COCO 作为因果推断顾问——帮助数据科学家和分析师导航完整
 ```
 
 :::
-
 ## 44. AI数据分析师KPI仪表盘构建器
 
 > 在金融服务领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -6705,7 +6648,6 @@ COCO 作为因果推断顾问——帮助数据科学家和分析师导航完整
 ```
 
 :::
-
 ## 45. AI销售归因建模助手
 
 > 在电商领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -6880,7 +6822,6 @@ COCO 作为因果推断顾问——帮助数据科学家和分析师导航完整
 ```
 
 :::
-
 ## 46. AI队列留存分析引擎
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -7055,7 +6996,6 @@ COCO 作为因果推断顾问——帮助数据科学家和分析师导航完整
 ```
 
 :::
-
 ## 47. AI价格弹性分析引擎
 
 > 在零售领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -7230,7 +7170,6 @@ COCO 作为因果推断顾问——帮助数据科学家和分析师导航完整
 ```
 
 :::
-
 ## 48. AI金融欺诈模式检测引擎
 
 > 在金融服务领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -7405,7 +7344,6 @@ COCO 作为因果推断顾问——帮助数据科学家和分析师导航完整
 ```
 
 :::
-
 ## 49. AI资助提案撰写师
 
 > 支持资助提案起草——NIH优先级评分平均提升1.5分，修改轮次：3.8→2.1，新申请者资助率提升18%。
@@ -7591,7 +7529,6 @@ COCO作为专家资助写作合作者——结合对资助方审查标准的深�
 ```
 
 :::
-
 ## 50. AI专利格局分析师
 
 > 分析专利格局以寻找空白空间和操作自由——格局成本：相比律师事务所降低85-90%，相比关键词搜索覆盖范围提升40%。

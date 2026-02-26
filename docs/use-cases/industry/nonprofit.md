@@ -6,13 +6,9 @@ AI use cases for the nonprofit industry.
 
 > Drafts grant proposals tailored to funder requirements — generates budgets, timelines, and impact metrics in 20 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/113-ai-grant-proposal-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -132,13 +128,9 @@ This week's data:
 
 > Scores 5,000+ donors on engagement, giving history, and capacity — prioritizes outreach to boost renewal rates by 25%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/128-ai-donor-engagement-tracker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -258,13 +250,9 @@ This week's data:
 
 > Matches 500 volunteers to 30 event roles based on skills, availability, and past performance — sends confirmations automatically.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/143-ai-volunteer-coordinator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -384,13 +372,9 @@ This week's data:
 
 > Aggregates program data from 8 sources — produces funder-ready impact reports with visualizations and outcome metrics in 20 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/158-ai-impact-measurement-reporter.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -510,13 +494,9 @@ This week's data:
 
 > Plans gala events for 500 guests — manages RSVPs, seating charts, auction catalogs, and sponsorship packages in one dashboard.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/175-ai-fundraising-event-planner.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -636,13 +616,9 @@ This week's data:
 
 > Pulls financials, program outcomes, and donor data — assembles a print-ready annual report with charts and narratives in 3 hours.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/190-ai-annual-report-assembler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

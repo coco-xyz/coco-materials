@@ -8,9 +8,7 @@ AI-powered use cases for content creators, marketing teams, and brand managers.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/010-ai-seo-content-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/010-ai-seo-content-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -215,9 +213,7 @@ For each page provide:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/011-ai-social-media-manager.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/011-ai-social-media-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -404,9 +400,7 @@ Only suggest participation if relevance is 6+ and risk is low-medium.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/012-ai-ad-copy-generator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/012-ai-ad-copy-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -615,9 +609,7 @@ For each localized version:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/013-ai-newsletter-curator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/013-ai-newsletter-curator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -769,9 +761,7 @@ For each segment, generate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/014-ai-competitive-copywriter.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/014-ai-competitive-copywriter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -946,9 +936,7 @@ Analyze:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/040-ai-brand-monitor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/040-ai-brand-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1054,9 +1042,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/041-ai-influencer-finder.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/041-ai-influencer-finder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1162,9 +1148,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/042-ai-campaign-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/042-ai-campaign-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1270,9 +1254,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/043-ai-content-calendar.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/043-ai-content-calendar.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1378,9 +1360,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/044-ai-persona-builder.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/044-ai-persona-builder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1486,9 +1466,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/070-ai-product-feedback-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/070-ai-product-feedback-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1667,9 +1645,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/076-ai-localization-manager.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/076-ai-localization-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1848,9 +1824,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/079-ai-marketing-roi-dashboard.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/079-ai-marketing-roi-dashboard.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2029,9 +2003,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/084-ai-competitive-intelligence-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/084-ai-competitive-intelligence-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2210,9 +2182,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/089-ai-social-listening-agent.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/089-ai-social-listening-agent.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2411,9 +2381,7 @@ Provide the full query syntax, alert configurations, and workflow automation rul
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/093-ai-recruitment-marketing-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/093-ai-recruitment-marketing-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2592,9 +2560,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/094-ai-customer-survey-designer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/094-ai-customer-survey-designer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2839,9 +2805,7 @@ Prioritize recommendations by: impact on strategic questions, cost, time to firs
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/100-ai-demand-forecaster.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/100-ai-demand-forecaster.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3122,9 +3086,7 @@ Optimize and provide:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/101-ai-pitch-deck-builder.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/101-ai-pitch-deck-builder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3399,9 +3361,7 @@ Analyze and recommend:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/110-ai-hotel-review-responder.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/110-ai-hotel-review-responder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3525,9 +3485,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/133-ai-podcast-show-notes-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/133-ai-podcast-show-notes-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3651,9 +3609,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/181-ai-subscriber-lifecycle-manager.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/181-ai-subscriber-lifecycle-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3777,9 +3733,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/195-ai-audience-segmentation-engine.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/195-ai-audience-segmentation-engine.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -4101,7 +4055,6 @@ Please:
 ```
 
 :::
-
 ## 25. AI LinkedIn Thought Leadership Writer
 
 > Drafts authentic executive LinkedIn posts in their voice — publishing frequency: 1–2/month → 3–5/week, engagement 2.8–4.5× vs company-drafted posts.
@@ -4294,7 +4247,6 @@ Please:
 ```
 
 :::
-
 ## 26. AI Community Engagement Strategist
 
 > Plans community programming and member nurturing — daily active member rate +35–55%, 90-day retention: 45% → 68–75% within 90 days.
@@ -4484,7 +4436,6 @@ Please:
 ```
 
 :::
-
 ## 27. AI Influencer Outreach Composer
 
 > Crafts personalized influencer partnership pitches — outreach response rate: 6–8% → 18–27%, creator repeat collaboration rate +40%.
@@ -4685,7 +4636,6 @@ Please:
 ```
 
 :::
-
 ## 28. AI Campaign Performance Analyzer
 
 > Analyzes cross-channel campaign data and generates optimization recommendations — ad waste: -18–28%, optimization cycle: 5–7 days → 24–48 hours.
@@ -4911,7 +4861,6 @@ Please:
 ```
 
 :::
-
 ## 29. AI Brand Voice Consistency Checker
 
 > Reviews content against brand voice guidelines — voice alignment: 58% → 84% on first drafts, review time per piece: 45–60min → 8–12min.
@@ -5105,7 +5054,6 @@ Please:
 ```
 
 :::
-
 ## 30. AI Content Calendar Planner
 
 > Builds strategic content calendars aligned to funnel stages — publishing adherence: 45–60% → 85–92%, content gaps reduced from avg 2.3/mo to 0.4/mo.
@@ -5310,7 +5258,6 @@ Please:
 ```
 
 :::
-
 ## 31. AI GTM Launch Playbook Builder
 
 > Builds end-to-end go-to-market launch playbooks — cross-functional launch readiness +40%, 90-day adoption targets at 2.1× rate, sales ramp: 8–12 weeks → 4–6 weeks.
@@ -5528,7 +5475,6 @@ Please:
 ```
 
 :::
-
 ## 32. AI Social Media Analytics Interpreter
 
 > Translates social analytics into actionable strategy — analytics interpretation time: 4–6h → under 60min, data-driven content changes per quarter 3×.
@@ -5738,7 +5684,6 @@ Report requirements:
 ```
 
 :::
-
 ## 33. AI Competitor Social Listening Analyst
 
 > Monitors competitor social activity and surfaces strategic intelligence — competitor campaign detection: 3–6 weeks → days, content positioning gaps identified 3–5 per quarter.
@@ -5956,7 +5901,6 @@ Please:
 ```
 
 :::
-
 ## 34. AI Hashtag and SEO Strategy Optimizer
 
 > Optimizes hashtag selection and content SEO across platforms — organic reach per post +40–80%, YouTube CTR from search +55%.
@@ -6156,7 +6100,6 @@ Please:
 ```
 
 :::
-
 ## 35. AI Brand Crisis Communication Handler
 
 > Drafts crisis response communications — first response time: 6–12h → under 2h, revision rounds -50%, tone accuracy errors -65%.
@@ -6364,7 +6307,6 @@ Please:
 ```
 
 :::
-
 ## 36. AI Customer Lifecycle Email Optimizer
 
 > E-commerce and SaaS companies invest heavily in email marketing infrastructure — ESP platforms, automation tools, customer data pipelines — yet most lifecycle email programs deliver mediocre results because the sequences are built once and rarely updated
@@ -6563,7 +6505,6 @@ Write a 1-page summary covering:
 ```
 
 :::
-
 ## 37. AI Marketing Competitor Ad Intelligence System
 
 > Organizations operating in E-Commerce face mounting pressure to deliver results with constrained resources
@@ -6763,7 +6704,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 38. AI Marketing Influencer ROI Tracker
 
 > Organizations operating in Media face mounting pressure to deliver results with constrained resources
@@ -6963,7 +6903,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 39. AI Nonprofit Donor Retention Strategist
 
 > Organizations operating in Nonprofit face mounting pressure to deliver results with constrained resources
@@ -7163,7 +7102,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 40. AI Marketing SEO Content Brief Generator
 
 > Organizations operating in E-Commerce face mounting pressure to deliver results with constrained resources
@@ -7363,7 +7301,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 41. AI Marketing Demand Generation Campaign Planner
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
@@ -7563,7 +7500,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 42. AI Marketing Brand Voice Consistency Checker
 
 > Organizations operating in Media face mounting pressure to deliver results with constrained resources
@@ -7763,7 +7699,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 43. AI Retail Customer Win-Back Planner
 
 > Organizations operating in Retail face mounting pressure to deliver results with constrained resources
@@ -7963,7 +7898,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 44. AI Event Promotion Content Planner
 
 > Organizations operating in Media face mounting pressure to deliver results with constrained resources
@@ -8163,7 +8097,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 45. AI Loyalty Program Designer
 
 > Organizations operating in Retail face mounting pressure to deliver results with constrained resources
@@ -8363,7 +8296,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 46. AI Retail Promotion Effectiveness Analyzer
 
 > Organizations operating in Retail face mounting pressure to deliver results with constrained resources
@@ -8563,7 +8495,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 47. AI Product Launch Go-to-Market Planner
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
@@ -8763,7 +8694,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 48. AI Account-Based Marketing Campaign Planner
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources

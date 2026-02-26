@@ -8,9 +8,7 @@ AI-powered use cases for project manager professionals.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/155-ai-event-logistics-planner.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/155-ai-event-logistics-planner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -134,9 +132,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/175-ai-fundraising-event-planner.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/175-ai-fundraising-event-planner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -447,7 +443,6 @@ Please assess:
 ```
 
 :::
-
 ## 4. AI Competitive Intelligence Synthesizer
 
 > Monitors 300–500 signals per competitor per quarter — delivers living battlecards, feature gap analysis, and win/loss intelligence to PMs in 2 hours instead of 12.
@@ -630,7 +625,6 @@ Please:
 ```
 
 :::
-
 ## 5. AI Feature Flag Strategy Advisor
 
 > Designs flag lifecycle policies, rollout strategies, and graduation criteria — reduces stale flags 45% and rollout incidents 31%.
@@ -838,7 +832,6 @@ Please assess:
 ```
 
 :::
-
 ## 6. AI Stakeholder Alignment Engine
 
 > Structures stakeholder input collection, surfaces conflicts before sprint planning, and documents agreements — reduces PM alignment time from 47% to 28% of working hours.
@@ -1024,7 +1017,6 @@ Please assess:
 ```
 
 :::
-
 ## 7. AI OKR Cascade Manager
 
 > Drafts quarterly OKRs from company objectives, validates outcome orientation, detects cross-team conflicts, and maps roadmap items to key results — reduces OKR drafting from 3 weeks to 8 days.
@@ -1195,7 +1187,6 @@ Please analyze:
 ```
 
 :::
-
 ## 8. AI User Persona Deep Builder
 
 > Synthesizes 40–60 interview transcripts and behavioral datasets into behavior-grounded personas in hours vs 2–3 weeks manual — produces 3.2× more citations in product decision documentation.
@@ -1384,7 +1375,6 @@ Please build:
 ```
 
 :::
-
 ## 9. AI Sprint Retrospective Facilitator
 
 > Structures retrospective data collection, identifies recurring impediment patterns across sprints, generates specific action items — action completion: 67% vs industry average 39%.
@@ -1568,7 +1558,6 @@ Please design:
 ```
 
 :::
-
 ## 10. AI Product Analytics Storyteller
 
 > Converts raw dashboard metrics into narrative analytics presentations — decisions made from analytics presentations increase 47%.
@@ -1761,7 +1750,6 @@ Please produce:
 ```
 
 :::
-
 ## 11. AI Beta Test Coordinator
 
 > Designs hypothesis-driven beta programs, selects participants systematically, and generates structured feedback collection — beta-to-GA issue rate -54%, feature 90-day adoption +31%.
@@ -1961,7 +1949,6 @@ Please create:
 ```
 
 :::
-
 ## 12. AI Product Roadmap Prioritization Advisor
 
 > Applies structured scoring frameworks to roadmap candidates — reduces planning cycles from 6–8 weeks to 2–3 weeks, feature adoption +38%.
@@ -2185,7 +2172,6 @@ Please:
 ```
 
 :::
-
 ## 13. AI Customer Feedback Aggregator
 
 > Synthesizes feedback from NPS, support tickets, sales calls, and review sites — identifies 2.9× more pain point themes from same corpus, reduces synthesis time from 7.4h to 90min/week.
@@ -2408,7 +2394,6 @@ Please generate:
 ```
 
 :::
-
 ## 14. AI PRD Writing Assistant
 
 > Generates complete PRDs with user stories, acceptance criteria, and edge cases — PRD writing: 4–6h → 60–90min, engineering clarifying questions -43%.
@@ -2651,7 +2636,6 @@ Please evaluate this PRD on the following dimensions:
 ```
 
 :::
-
 ## 15. AI Pricing Strategy Advisor
 
 > Models value metric alignment, packaging options, and price sensitivity scenarios — pricing change success rate 3.4×, NDR improvement +22 points for value-metric-aligned models.
@@ -2880,7 +2864,6 @@ Please produce:
 ```
 
 :::
-
 ## 16. AI Product Manager Sprint Planning Optimizer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
@@ -3080,7 +3063,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 17. AI Product Roadmap Prioritization Engine
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
@@ -3280,7 +3262,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 18. AI Product Manager User Story Refinement Engine
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
@@ -3480,7 +3461,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 19. AI Product Manager Customer Feedback Synthesizer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
@@ -3680,7 +3660,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 20. AI Feature Adoption Tracking Advisor
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
@@ -3880,7 +3859,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 21. AI Release Readiness Checklist Builder
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources

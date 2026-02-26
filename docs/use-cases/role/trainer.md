@@ -8,9 +8,7 @@ AI-powered use cases for trainer professionals.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/107-ai-curriculum-designer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/107-ai-curriculum-designer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -134,9 +132,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/122-ai-student-progress-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/122-ai-student-progress-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -260,9 +256,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/137-ai-plagiarism-checker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/137-ai-plagiarism-checker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -386,9 +380,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/163-ai-research-paper-grader.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/163-ai-research-paper-grader.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -512,9 +504,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/169-ai-learning-path-builder.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/169-ai-learning-path-builder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -831,7 +821,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 7. AI Education Student Assessment Feedback Engine
 
 > Organizations operating in Education face mounting pressure to deliver results with constrained resources
@@ -1031,7 +1020,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 8. AI Education Adaptive Quiz Generator
 
 > Organizations operating in Education face mounting pressure to deliver results with constrained resources
@@ -1231,7 +1219,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 9. AI Education Online Course Builder
 
 > Organizations operating in Education face mounting pressure to deliver results with constrained resources
@@ -1431,7 +1418,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 10. AI Education Parent Communication Generator
 
 > Organizations operating in Education face mounting pressure to deliver results with constrained resources
@@ -1631,7 +1617,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 11. AI Learning Objective and Outcome Designer
 
 > Organizations operating in Education face mounting pressure to deliver results with constrained resources
@@ -1831,7 +1816,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 12. AI Accreditation Evidence Compiler
 
 > Organizations operating in Education face mounting pressure to deliver results with constrained resources
@@ -2031,7 +2015,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 13. AI Personalized Learning Path Builder
 
 > Organizations operating in Education face mounting pressure to deliver results with constrained resources

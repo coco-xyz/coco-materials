@@ -6,13 +6,9 @@ AI驱动的电商平台、零售运营和在线市场用例。
 
 > 20分钟产出一篇SEO优化的高质量文章，关键词研究到终稿一站式完成。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/010-ai-seo-content-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -213,13 +209,9 @@ COCO的AI SEO Content Writer将内容创作流水线从一个串行的、劳动�
 
 > 一次输入，全平台适配发布。每天3小时社媒运营缩减到15分钟。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/011-ai-social-media-manager.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -402,13 +394,9 @@ COCO的AI Social Media Manager作为社交媒体团队的力量倍增器，处�
 
 > 10分钟生成200个A/B变体广告文案，数据驱动迭代优化。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/012-ai-ad-copy-generator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -613,13 +601,9 @@ COCO的AI Ad Copy Generator专为效果营销构建，理解各平台付费广�
 
 > 实时追踪竞品动态，2天调研变为1小时自动化输出。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/014-ai-competitive-copywriter.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -790,13 +774,9 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 
 > 10分钟完成复杂报价计算，自动匹配折扣规则和审批流程。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/020-ai-quote-calculator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -955,13 +935,9 @@ COCO的AI Quote Calculator将报价流程从手动、易出错的工作流转变
 
 > 工单自动分类路由，5分钟/单变为即时处理。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/021-ai-ticket-classifier.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1112,13 +1088,9 @@ SLA层级：[按优先级列出你的SLA要求]
 
 > AI一键支持15+语言客服，替代5个翻译人员。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/023-ai-multi-language-support.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1274,13 +1246,9 @@ COCO的AI Multi-Language Support提供母语质量的多语言客户服务，无
 
 > 自动识别VIP客户异常，30%漏检降至0%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/024-ai-vip-escalation.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1433,13 +1401,9 @@ CSM：[姓名]
 
 > 30秒处理一张发票：提取、匹配、路由全自动。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/031-ai-invoice-processor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1602,13 +1566,9 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 
 > 实时库存预测，替代每周手动盘点，减少滞销和缺货。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/033-ai-inventory-forecaster.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1762,13 +1722,9 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
 
 > 品牌危机发现时间从72小时降至11分钟，覆盖率从10%到97%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/040-ai-brand-monitor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1870,13 +1826,9 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
 
 > 达人审核从15小时降至20分钟，投放ROI从0.8倍提升到4.2倍。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/041-ai-influencer-finder.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1978,13 +1930,9 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
 
 > 统一6渠道23个活动的归因分析，ROAS提升37%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/042-ai-campaign-analyzer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2086,13 +2034,9 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
 
 > 内容规划从每周8小时降至45分钟，发布一致性从62%到96%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/043-ai-content-calendar.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2194,13 +2138,9 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
 
 > 用户画像创建从6周缩短到2天，细分准确度89%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/044-ai-persona-builder.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2302,13 +2242,9 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
 
 > 实时竞品定价监控，响应时间从3周到4小时，用户收入+23%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/047-ai-pricing-optimizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2410,13 +2346,9 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
 
 > 客服机器人解决率从27%提至78%，训练时间从6个月到2周。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/050-ai-chatbot-trainer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2518,13 +2450,9 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
 
 > 工单分流+45%，FAQ覆盖从120篇到850+篇，每周节省23小时。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/054-ai-faq-generator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2626,13 +2554,9 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
 
 > 数据录入自动化，准确率从96%提升至99.7%，处理时间减少94%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/065-ai-data-entry-automator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2815,13 +2739,9 @@ COCO的AI数据录入自动化工具连接你现有的文档来源和目标系�
 
 > 产品反馈分析从2周缩短到2小时，覆盖100%的用户反馈。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/070-ai-product-feedback-analyzer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2996,13 +2916,9 @@ COCO的AI产品反馈分析器将这种混乱转变为流畅的智能工作流�
 
 > 销售区域平衡度提升45%，区域间业绩差距缩小60%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/073-ai-sales-territory-mapper.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3177,13 +3093,9 @@ COCO的AI销售区域规划器将这种混乱转变为流畅的智能工作流�
 
 > 本地化周期从6周缩短到3天，翻译一致性提升到98%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/076-ai-localization-manager.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3358,13 +3270,9 @@ COCO的AI本地化管理器将这种混乱转变为流畅的智能工作流。�
 
 > 供应链可视性从30%提升到95%，中断响应时间减少76%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/077-ai-supply-chain-tracker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3539,13 +3447,9 @@ COCO的AI供应链追踪器将这种混乱转变为流畅的智能工作流。�
 
 > 营销ROI报告生成从3天降至实时，跨渠道归因准确率92%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/079-ai-marketing-roi-dashboard.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3720,13 +3624,9 @@ COCO的AI营销ROI仪表盘将这种混乱转变为流畅的智能工作流。�
 
 > 流失客户挽回率从8%提升到35%，获客成本降低60%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/086-ai-customer-win-back-campaigner.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3901,13 +3801,9 @@ COCO的AI客户挽回营销器将这种混乱转变为流畅的智能工作流�
 
 > 发票核对时间减少85%，差异检出率从72%提升到99.5%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/088-ai-vendor-invoice-reconciler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -4082,13 +3978,9 @@ COCO的AI供应商发票核对器将这种混乱转变为流畅的智能工作�
 
 > 品牌提及监测覆盖率从15%提升到96%，危机响应时间降至15分钟。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/089-ai-social-listening-agent.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -4283,13 +4175,9 @@ COCO的AI社交媒体监听助手作为7×24小时品牌情报系统运作，覆
 
 > 调研回复率从3%提升到28%，可操作洞察产出量增加5倍。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/094-ai-customer-survey-designer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -4530,13 +4418,9 @@ COCO的AI客户调研设计师将调查从粗糙的工具转变为精准的反�
 
 > 需求预测误差从35%降至8%，库存成本降低28%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/100-ai-demand-forecaster.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -4732,13 +4616,9 @@ COCO的AI需求预测器通过结合先进的机器学习和外部信号集成�
 
 > 跨5家承运商追踪每日2000次配送——自动就延误联系客户并建议重新配送时间。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/165-ai-last-mile-delivery-tracker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 

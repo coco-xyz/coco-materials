@@ -6,11 +6,9 @@ AI驱动的法律专业人员用例。
 
 > 3分钟扫描50页合同——签字前标记风险条款、缺失条款和异常条件。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/105-ai-contract-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/105-ai-contract-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -132,11 +130,9 @@ COCO的AI合同分析师直接集成到你现有的工作流程中，充当一�
 
 > 60秒生成符合管辖区要求的保密协议——根据交易背景定制范围、期限和例外条款。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/123-ai-nda-generator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/123-ai-nda-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -258,11 +254,9 @@ COCO的AI保密协议生成器直接集成到你现有的工作流程中，充�
 
 > 将专利组合与竞争对手申请对比——跨300+专利识别空白领域和潜在侵权风险。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/138-ai-ip-portfolio-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/138-ai-ip-portfolio-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -384,11 +378,9 @@ COCO的AI知识产权组合分析器直接集成到你现有的工作流程中�
 
 > 搜索USPTO、EUIPO等20+商标数据库——10分钟交付带风险评分的全面冲突报告。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/153-ai-trademark-conflict-searcher.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/153-ai-trademark-conflict-searcher.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -510,11 +502,9 @@ COCO的AI商标冲突检索器直接集成到你现有的工作流程中，充�
 
 > 对照豁免标准审查信息公开请求——编辑敏感内容并起草回复，处理周期从30天缩短到5天。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/159-ai-foia-request-processor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/159-ai-foia-request-processor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -636,11 +626,9 @@ COCO的AI信息公开请求处理器直接集成到你现有的工作流程中�
 
 > 每日监控SEC、FINRA和12个全球监管机构——将新规映射到合规义务，提前48小时预警。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/164-ai-regulatory-change-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/164-ai-regulatory-change-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -762,11 +750,9 @@ COCO的AI法规变更追踪器直接集成到你现有的工作流程中，充�
 
 > 识别保管人、发送保全通知、追踪确认并监控合规——管理50+活跃保全，零遗漏截止日期。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/170-ai-litigation-hold-manager.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/170-ai-litigation-hold-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -888,11 +874,9 @@ COCO的AI诉讼保全管理器直接集成到你现有的工作流程中，充�
 
 > 跨30个地区追踪1万+作品的授权窗口——权利到期前60天提醒续约决策。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/180-ai-content-rights-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/180-ai-content-rights-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1014,11 +998,9 @@ COCO的AI内容版权追踪器直接集成到你现有的工作流程中，充�
 
 > 审查80页购电协议——10分钟标记价格升级条款、限电风险和不利条款。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/193-ai-power-purchase-agreement-reviewer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/193-ai-power-purchase-agreement-reviewer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1252,7 +1234,6 @@ COCO的AI购电协议审查器直接集成到你现有的工作流程中，充�
 ```
 
 :::
-
 ## 11. AI隐私政策生成器
 
 ::: details 痛点与解决方案
@@ -1376,7 +1357,6 @@ COCO的AI购电协议审查器直接集成到你现有的工作流程中，充�
 ```
 
 :::
-
 ## 12. AI GDPR合规检查清单构建器
 
 ::: details 痛点与解决方案
@@ -1491,7 +1471,6 @@ GDPR包含99条正文和173条前言。它在至少12个职能领域产生义务
 ```
 
 :::
-
 ## 13. AI服务条款审查器
 
 ::: details 痛点与解决方案
@@ -1616,7 +1595,6 @@ ToS文本：
 ```
 
 :::
-
 ## 14. AI保密协议修订建议器
 
 ::: details 痛点与解决方案
@@ -1739,7 +1717,6 @@ NDA：
 ```
 
 :::
-
 ## 15. AI监管文件摘要器
 
 ::: details 痛点与解决方案
@@ -1864,7 +1841,6 @@ NDA：
 ```
 
 :::
-
 ## 16. AI知识产权组合分析器
 
 ::: details 痛点与解决方案
@@ -1988,7 +1964,6 @@ NDA：
 ```
 
 :::
-
 ## 17. AI法律研究综合器
 
 ::: details 痛点与解决方案
@@ -2117,7 +2092,6 @@ NDA：
 ```
 
 :::
-
 ## 18. AI法律合同风险提取器
 
 > 在法律服务领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -2292,7 +2266,6 @@ NDA：
 ```
 
 :::
-
 ## 19. AI政府信息公开申请响应助手
 
 > 在政府领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -2467,7 +2440,6 @@ NDA：
 ```
 
 :::
-
 ## 20. AI媒体内容版权清算助手
 
 > 在媒体领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -2642,7 +2614,6 @@ NDA：
 ```
 
 :::
-
 ## 21. AI法律尽职调查文件扫描器
 
 > 在法律服务领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -2817,7 +2788,6 @@ NDA：
 ```
 
 :::
-
 ## 22. AI房地产租约信息提取引擎
 
 > 在房地产领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -2992,7 +2962,6 @@ NDA：
 ```
 
 :::
-
 ## 23. AI法律知识产权商标搜索助手
 
 > 在法律服务领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -3167,7 +3136,6 @@ NDA：
 ```
 
 :::
-
 ## 24. AI法律诉讼时间轴构建器
 
 > 在法律服务领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -3342,7 +3310,6 @@ NDA：
 ```
 
 :::
-
 ## 25. AI房地产租户筛选助手
 
 > 在房地产领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -3517,7 +3484,6 @@ NDA：
 ```
 
 :::
-
 ## 26. AI劳动合同起草助手
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -3692,7 +3658,6 @@ NDA：
 ```
 
 :::
-
 ## 27. AI保密协议审查与标注助手
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -3867,7 +3832,6 @@ NDA：
 ```
 
 :::
-
 ## 28. AI公司治理合规顾问
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -4042,7 +4006,6 @@ NDA：
 ```
 
 :::
-
 ## 29. AI企业政策起草师 {#use-case-365}
 
 > 在3-5天内生成量身定制的企业政策——反贿赂、行为准则、数据保留、可接受使用等——而非15-25+小时的律师工时，并附带适当的司法管辖调整和简明的员工沟通文件。
@@ -4182,7 +4145,6 @@ COCO将企业政策起草从被动、受带宽制约的工作转变为主动、�
 ```
 
 :::
-
 ## 30. AI合规培训内容创作者 {#use-case-366}
 
 > 在12-18小时内生成基于场景、针对特定角色的合规培训模块——而非100+小时——配有培训后评估，在第一个审计周期内将培训相关审计发现减少60%。
@@ -4315,7 +4277,6 @@ COCO弥合了合规专业知识与培训有效性之间的差距：
 ```
 
 :::
-
 ## 31. AI尽职调查清单生成器 {#use-case-367}
 
 > 在4-6小时内生成交易特定、行业定制的尽职调查清单——而非3-5天——通过系统性发现通用模板遗漏的风险，将交割后争议率降低20-30%。
@@ -4447,7 +4408,6 @@ COCO生成定制化、全面、交易特定的尽职调查清单并管理追踪�
 ```
 
 :::
-
 ## 32. AI诉讼风险评估师 {#use-case-368}
 
 > 在2周而非6-8周内生成结构化的早期案件评估，将准备金准确性提高35-45%，并提供有信心的和解建议，将外部顾问费用减少40%。
@@ -4593,7 +4553,6 @@ COCO提供结构化、一致的诉讼风险评估框架，为早期案件评估�
 ```
 
 :::
-
 ## 33. AI劳动法合规顾问 {#use-case-369}
 
 > 跨司法管辖区提供当日就业法合规指导——将管理者合规错误减少45-55%，第一年就业诉讼风险降低30-40%。
@@ -4730,7 +4689,6 @@ COCO提供按需、针对特定司法管辖区的就业法合规指导：
 ```
 
 :::
-
 ## 34. AI数据处理协议生成器 {#use-case-370}
 
 > 在30-45分钟内起草或审查GDPR合规的数据处理协议——而非2-4小时——通过消除DPA瓶颈，使SaaS供应商企业交易关闭速度提高20-35%。
@@ -4866,7 +4824,6 @@ DPA文本：
 ```
 
 :::
-
 ## 35. AI董事会会议纪要摘要师 {#use-case-371}
 
 > 将会议记录和录音转化为完整、具有法律效力的董事会会议纪要——包含精确的决议语言、法定人数确认、投票记录和特权审议保护——几天内完成而非数周。
@@ -5010,7 +4967,6 @@ COCO加速并改善会议纪要制作流程：
 ```
 
 :::
-
 ## 36. AI合同续期条款优化师 {#use-case-372}
 
 > 将被动的合同自动续期转变为主动价值创造机会——识别90天续期窗口，对标当前条款与市场水平，并生成在合同自动续期前获取节省的谈判策略，平均节省续期合同价值的12-18%。

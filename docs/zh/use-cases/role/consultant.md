@@ -6,11 +6,9 @@ AI驱动的咨询顾问专业人员用例。
 
 > 15分钟将市场数据、财务信息和竞争情报综合成10页战略简报。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/112-ai-strategy-brief-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/112-ai-strategy-brief-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -132,11 +130,9 @@ COCO的AI战略简报撰写器直接集成到你现有的工作流程中，充�
 
 > 提取公开文件、新闻、诉讼记录和财务数据——2小时完成尽职调查报告，替代原来的2周。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/127-ai-due-diligence-compiler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/127-ai-due-diligence-compiler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -258,11 +254,9 @@ COCO的AI尽职调查编撰器直接集成到你现有的工作流程中，充�
 
 > 将原始分析转化为麦肯锡风格幻灯片——25分钟构建30张包含图表、关键发现和建议的PPT。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/142-ai-management-consulting-deck-builder.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/142-ai-management-consulting-deck-builder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -384,11 +378,9 @@ COCO的AI咨询方案构建器直接集成到你现有的工作流程中，充�
 
 > 分析作物照片和本地病虫害数据库——以95%准确率识别虫害并推荐治疗方案。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/145-ai-pest-detection-advisor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/145-ai-pest-detection-advisor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -510,11 +502,9 @@ COCO的AI病虫害检测顾问直接集成到你现有的工作流程中，充�
 
 > 收集50+同行运营KPI——排名客户绩效并识别达到上四分位的改进目标。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/157-ai-benchmarking-analyst.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/157-ai-benchmarking-analyst.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -636,11 +626,9 @@ COCO的AI对标分析师直接集成到你现有的工作流程中，充当一�
 
 > 基于公开数据构建TAM/SAM/SOM模型——20分钟生成自下而上和自上而下的估算及数据来源。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/174-ai-market-sizing-modeler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/174-ai-market-sizing-modeler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -762,11 +750,9 @@ COCO的AI市场规模建模器直接集成到你现有的工作流程中，充�
 
 > 运行100个定价场景结合弹性曲线和竞品数据——推荐使LTV最大化20%的层级结构。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/189-ai-pricing-strategy-modeler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/189-ai-pricing-strategy-modeler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1058,7 +1044,6 @@ COCO的AI定价策略建模器直接集成到你现有的工作流程中，充�
 ```
 
 :::
-
 ## 9. AI市场进入战略构建器
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -1233,7 +1218,6 @@ COCO的AI定价策略建模器直接集成到你现有的工作流程中，充�
 ```
 
 :::
-
 ## 10. AI顾问竞争格局绘制器
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -1408,7 +1392,6 @@ COCO的AI定价策略建模器直接集成到你现有的工作流程中，充�
 ```
 
 :::
-
 ## 11. AI并购后整合规划器
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -1583,7 +1566,6 @@ COCO的AI定价策略建模器直接集成到你现有的工作流程中，充�
 ```
 
 :::
-
 ## 12. AI数字化转型路线图构建器
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -1758,7 +1740,6 @@ COCO的AI定价策略建模器直接集成到你现有的工作流程中，充�
 ```
 
 :::
-
 ## 13. AI组织变革管理顾问
 
 > 在管理咨询领域运营的企业面临着在资源有限的情况下交付成果的巨大压力

@@ -8,9 +8,7 @@ AI-powered use cases for logistics manager professionals.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/109-ai-shipment-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/109-ai-shipment-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -134,9 +132,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/124-ai-warehouse-layout-optimizer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/124-ai-warehouse-layout-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -260,9 +256,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/139-ai-route-optimizer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/139-ai-route-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -386,9 +380,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/165-ai-last-mile-delivery-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/165-ai-last-mile-delivery-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -512,9 +504,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/171-ai-cross-dock-scheduler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/171-ai-cross-dock-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -638,9 +628,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/186-ai-customs-declaration-filer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/186-ai-customs-declaration-filer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -957,7 +945,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 8. AI Supply Chain Disruption Risk Monitor
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
@@ -1157,7 +1144,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 9. AI Warehouse Space Utilization Optimizer
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
@@ -1357,7 +1343,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 10. AI Logistics Customs Documentation Preparer
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
@@ -1557,7 +1542,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 11. AI Logistics Fleet Maintenance Optimizer
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
@@ -1757,7 +1741,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 12. AI Logistics Demand Planning Assistant
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
@@ -1957,7 +1940,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 13. AI Logistics Carrier Performance Scorecard
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
@@ -2157,7 +2139,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 14. AI Cold Chain Integrity Monitoring System
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
@@ -2357,7 +2338,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 15. AI International Shipping Cost Optimizer
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
@@ -2557,7 +2537,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 16. AI Warehouse Dock Scheduling Optimizer
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources

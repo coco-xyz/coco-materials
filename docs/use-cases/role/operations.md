@@ -8,9 +8,7 @@ AI-powered use cases for operations, procurement, and business management.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/032-ai-meeting-notes.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/032-ai-meeting-notes.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -172,9 +170,7 @@ Provide a specific "meeting diet" recommendation: what to keep, cut, shorten, me
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/033-ai-inventory-forecaster.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/033-ai-inventory-forecaster.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -332,9 +328,7 @@ For each scenario:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/034-ai-vendor-evaluator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/034-ai-vendor-evaluator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -525,9 +519,7 @@ Overall risk score (0-100) with justification and recommended mitigation for eac
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/047-ai-pricing-optimizer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/047-ai-pricing-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -633,9 +625,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/048-ai-contract-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/048-ai-contract-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -741,9 +731,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/052-ai-sla-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/052-ai-sla-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -849,9 +837,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/059-ai-policy-updater.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/059-ai-policy-updater.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -957,9 +943,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/062-ai-process-miner.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/062-ai-process-miner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1065,9 +1049,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/063-ai-document-classifier.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/063-ai-document-classifier.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1173,9 +1155,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/064-ai-risk-scorer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/064-ai-risk-scorer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1281,9 +1261,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/065-ai-data-entry-automator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/065-ai-data-entry-automator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1470,9 +1448,7 @@ Output: Updated inventory receiving log, exception summary (shortages, damages, 
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/066-ai-email-triage-manager.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/066-ai-email-triage-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1643,9 +1619,7 @@ Keep it concise but data-driven. Highlight wins and flag concerns.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/067-ai-meeting-scheduler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/067-ai-meeting-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1815,9 +1789,7 @@ Include a FAQ section addressing common objections.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/069-ai-customer-success-monitor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/069-ai-customer-success-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1996,9 +1968,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/077-ai-supply-chain-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/077-ai-supply-chain-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2177,9 +2147,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/078-ai-customer-onboarding-guide.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/078-ai-customer-onboarding-guide.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2358,9 +2326,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/082-ai-employee-offboarding-manager.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/082-ai-employee-offboarding-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2539,9 +2505,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/092-ai-travel-expense-optimizer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/092-ai-travel-expense-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2740,9 +2704,7 @@ Implementation roadmap: Phase 1 (quick wins, 0-3 months), Phase 2 (system change
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/097-ai-compliance-training-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/097-ai-compliance-training-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2964,9 +2926,7 @@ Present with executive-ready visualizations described in markdown (tables, compa
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/099-ai-it-asset-manager.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/099-ai-it-asset-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3242,9 +3202,7 @@ For each metric, specify:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/103-ai-workflow-automator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/103-ai-workflow-automator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3586,9 +3544,7 @@ Analyze and provide:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/104-ai-rfp-response-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/104-ai-rfp-response-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3895,9 +3851,7 @@ Analyze and provide:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/106-ai-patient-intake-processor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/106-ai-patient-intake-processor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -4021,9 +3975,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/113-ai-grant-proposal-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/113-ai-grant-proposal-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -4147,9 +4099,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/116-ai-grid-outage-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/116-ai-grid-outage-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -4273,9 +4223,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/117-ai-claims-adjuster.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/117-ai-claims-adjuster.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -4399,9 +4347,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/126-ai-predictive-maintenance-scheduler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/126-ai-predictive-maintenance-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -4525,9 +4471,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/130-ai-irrigation-scheduler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/130-ai-irrigation-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -4651,9 +4595,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/143-ai-volunteer-coordinator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/143-ai-volunteer-coordinator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -4777,9 +4719,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/150-ai-parts-catalog-updater.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/150-ai-parts-catalog-updater.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -4903,9 +4843,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/162-ai-clinical-notes-summarizer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/162-ai-clinical-notes-summarizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -5029,9 +4967,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/172-ai-housekeeping-scheduler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/172-ai-housekeeping-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -5155,9 +5091,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/173-ai-production-batch-optimizer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/173-ai-production-batch-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -5281,9 +5215,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/182-ai-fleet-telematics-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/182-ai-fleet-telematics-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -5407,9 +5339,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/192-ai-livestock-health-monitor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/192-ai-livestock-health-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -5533,9 +5463,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/199-ai-tenant-screening-processor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/199-ai-tenant-screening-processor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -5724,7 +5652,6 @@ Here are my raw notes from today's [MEETING TYPE] meeting: [PASTE NOTES OR TRANS
 ```
 
 :::
-
 ## 38. AI Process Documentation Writer
 
 > Documents processes in audit-ready format — onboarding time -35–50%, process errors -40–60%, documentation production 3–5×.
@@ -5796,7 +5723,6 @@ Here is our current SOP for [PROCESS NAME]: [PASTE EXISTING SOP]. The process ha
 ```
 
 :::
-
 ## 39. AI Vendor Contract Analyzer
 
 > Reviews vendor contracts for risk clauses and renewal opportunities — risk issues caught: 3–5 per contract, review time: 4–8h → 45–90min.
@@ -5868,7 +5794,6 @@ Review the following contract sections for data privacy and security compliance:
 ```
 
 :::
-
 ## 40. AI Operational KPI Dashboard Narrator
 
 > Generates narrative explanations for KPI dashboards — report writing time -60–75%, leadership action items from reviews +40%.
@@ -5945,7 +5870,6 @@ Here is the raw KPI data for [PERIOD]: [PASTE DATA]. Write three versions of the
 ```
 
 :::
-
 ## 41. AI Supply Chain Risk Monitor
 
 > Monitors supplier health signals — disruption detected 14 days earlier, single-source failure cost avoidance $500K–$2M per incident.
@@ -6017,7 +5941,6 @@ I've received the following information suggesting financial stress at one of ou
 ```
 
 :::
-
 ## 42. AI Business Continuity Plan Writer
 
 > Develops BCPs in weeks not months — plan development: 6–12 months → 6–8 weeks, disruption recovery time -30–50%.
@@ -6091,7 +6014,6 @@ Here is our current business continuity plan: [PASTE BCP OR DESCRIBE CURRENT STA
 ```
 
 :::
-
 ## 43. AI Change Management Communications Writer
 
 > Produces structured change communication packages — adoption rate 3×, resistance -40–60%, communication package production: 2–3 weeks → 1–2 days.
@@ -6165,7 +6087,6 @@ I need to script a [15-minute / 30-minute] town hall presentation by [EXECUTIVE 
 ```
 
 :::
-
 ## 44. AI Internal Policy Compliance Checker
 
 > Reviews operations for internal policy adherence — violations detected 70% earlier, compliance errors -45–55%, audit preparation -35–40%.
@@ -6239,7 +6160,6 @@ I need to document our compliance review activities for the [PERIOD] audit. Revi
 ```
 
 :::
-
 ## 45. AI Project Status Report Generator
 
 > Generates decision-oriented project status reports — reporting time -60–70%, risk detection 2–3 weeks earlier.
@@ -6313,7 +6233,6 @@ Our project [PROJECT NAME] is currently [X WEEKS / MONTHS] behind schedule and [
 ```
 
 :::
-
 ## 46. AI Resource Allocation Optimizer
 
 > Analyzes resource availability vs project demand — on-time delivery +20–35%, skill gap discovery: 15–25% of project delays prevented.
@@ -6387,7 +6306,6 @@ We have identified the following skill gaps that cannot be filled from internal 
 ```
 
 :::
-
 ## 47. AI SLA Breach Predictor
 
 > Predicts SLA breaches before they occur — breach rate -40–60%, customer escalations -30–45%, intervention lead time 5–7× faster.
@@ -6461,7 +6379,6 @@ We experienced [NUMBER] SLA breaches this [week/month] in [SERVICE/TICKET TYPE].
 ```
 
 :::
-
 ## 48. AI Procurement Request Processor
 
 > Processes and routes procurement requests — processing: 3.2 days → 8 hours, maverick spend -40–55%.
@@ -6646,7 +6563,6 @@ Generate:
 ```
 
 :::
-
 ## 49. AI Facility Utilization Optimizer
 
 > Analyzes space utilization patterns — real estate cost reduction potential: 15–25%, overcrowding incidents -30–45%.
@@ -6840,7 +6756,6 @@ Draft:
 ```
 
 :::
-
 ## 50. AI Inventory Reorder Advisor
 
 > Optimizes reorder points with demand variability — stockouts -30–50%, excess inventory costs -15–25%, analysis time: 3–5h → 30–45min.
@@ -7029,7 +6944,6 @@ For items identified as excess, provide:
 ```
 
 :::
-
 ## 51. AI Workforce Schedule Builder
 
 > Builds optimized staff schedules — schedule build time: 6–12h → 1–2h, coverage gaps -35–50%, overtime costs -15–25%.
@@ -7239,7 +7153,6 @@ Generate:
 ```
 
 :::
-
 ## 52. AI Budget Request Evaluator
 
 > Evaluates budget requests with structured scoring — evaluation consistency +60–70%, missing information rate -40–55%, evaluation time: 45–90min → 15–25min.
@@ -7443,7 +7356,6 @@ Generate:
 ```
 
 :::
-
 ## 53. AI Cross-Department Coordination Hub
 
 > Tracks cross-functional dependencies and handoffs — handoff failures -40–55%, escalation lead time: 5–8 days earlier, status collection time -3–5h/week.
@@ -7643,7 +7555,6 @@ Generate:
 ```
 
 :::
-
 ## 54. AI Retail Inventory Reorder Forecaster
 
 > Organizations operating in Retail face mounting pressure to deliver results with constrained resources
@@ -7843,7 +7754,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 55. AI Operations Process Bottleneck Identifier
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
@@ -8043,7 +7953,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 56. AI Government Public Comment Analyzer
 
 > Organizations operating in Government face mounting pressure to deliver results with constrained resources
@@ -8243,7 +8152,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 57. AI Energy Grid Maintenance Scheduler
 
 > Organizations operating in Energy face mounting pressure to deliver results with constrained resources
@@ -8443,7 +8351,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 58. AI Manufacturing Predictive Maintenance Planner
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
@@ -8643,7 +8550,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 59. AI Retail Dynamic Pricing Strategy Optimizer
 
 > Organizations operating in Retail face mounting pressure to deliver results with constrained resources
@@ -8843,7 +8749,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 60. AI Hospitality Staff Scheduling Optimizer
 
 > Organizations operating in Hospitality face mounting pressure to deliver results with constrained resources
@@ -9043,7 +8948,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 61. AI Manufacturing Production Schedule Optimizer
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
@@ -9243,7 +9147,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 62. AI Nonprofit Volunteer Management System
 
 > Organizations operating in Nonprofit face mounting pressure to deliver results with constrained resources
@@ -9443,7 +9346,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 63. AI Energy Solar Site Feasibility Analyzer
 
 > Organizations operating in Energy face mounting pressure to deliver results with constrained resources
@@ -9643,7 +9545,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 64. AI Automotive Dealer Inventory Optimizer
 
 > Organizations operating in Automotive face mounting pressure to deliver results with constrained resources
@@ -9843,7 +9744,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 65. AI Business Continuity Planning Assistant
 
 > Organizations operating in Insurance face mounting pressure to deliver results with constrained resources
@@ -10043,7 +9943,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 66. AI Retail Store Layout Optimizer
 
 > Organizations operating in Retail face mounting pressure to deliver results with constrained resources
@@ -10243,7 +10142,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 67. AI Restaurant Menu Engineering Advisor
 
 > Organizations operating in Hospitality face mounting pressure to deliver results with constrained resources
@@ -10443,7 +10341,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 68. AI Manufacturing Energy Efficiency Optimizer
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
@@ -10643,7 +10540,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 69. AI OKR Progress Tracking and Reporting Engine
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources

@@ -6,13 +6,9 @@ AI use cases for the hospitality industry.
 
 > Drafts personalized responses to guest reviews across 6 platforms — matching your brand voice in 30 seconds each.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/110-ai-hotel-review-responder.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -132,13 +128,9 @@ This week's data:
 
 > Calculates food cost percentage for every menu item — suggests price adjustments and substitutions to hit 30% margin targets.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/125-ai-menu-cost-analyzer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -258,13 +250,9 @@ This week's data:
 
 > Analyzes booking history and guest profiles — suggests personalized room upgrades and packages that increase RevPAR by 18%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/140-ai-guest-upsell-recommender.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -384,13 +372,9 @@ This week's data:
 
 > Coordinates venue, catering, AV, and staffing for 300-person events — generates timelines, checklists, and vendor POs in 15 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/155-ai-event-logistics-planner.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -510,13 +494,9 @@ This week's data:
 
 > Assigns 80 rooms to 15 housekeepers based on checkout times, special requests, and proximity — cuts turnover time by 25%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/172-ai-housekeeping-scheduler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -636,13 +616,9 @@ This week's data:
 
 > Adjusts room rates dynamically based on demand, events, and competitor pricing — increases RevPAR by 12% over static pricing.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/187-ai-revenue-management-optimizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

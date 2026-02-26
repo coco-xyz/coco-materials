@@ -6,13 +6,9 @@ AI use cases for content creation, copywriting, and documentation.
 
 > Auto-generates and syncs API docs from codebase, multi-language examples, zero drift.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/008-ai-api-doc-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -193,13 +189,9 @@ Write in a friendly, clear tone. Assume the reader is a developer but has never 
 
 > Produces an SEO-optimized article in 20 minutes, from keyword research to final draft.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/010-ai-seo-content-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -400,13 +392,9 @@ For each page provide:
 
 > One input, all platforms. 3 hours/day social media ops reduced to 15 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/011-ai-social-media-manager.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -589,13 +577,9 @@ Only suggest participation if relevance is 6+ and risk is low-medium.
 
 > Generates 200 A/B ad copy variants in 10 minutes with data-driven optimization.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/012-ai-ad-copy-generator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -800,13 +784,9 @@ For each localized version:
 
 > Auto-curates industry news. 5 hours/week manual curation becomes 30 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/013-ai-newsletter-curator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -954,13 +934,9 @@ For each segment, generate:
 
 > Real-time competitive tracking. 2 days of research becomes 1 hour of automated insights.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/014-ai-competitive-copywriter.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1131,13 +1107,9 @@ Analyze:
 
 > Generates customized proposals in 15 minutes, auto-matched to client needs.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/017-ai-proposal-generator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1306,13 +1278,9 @@ Max length: [X words or X pages]
 
 > Generates personalized follow-up emails in 2 minutes, based on meeting context.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/018-ai-follow-up-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1481,13 +1449,9 @@ Each email should feel like it was written individually, not like 3 versions of 
 
 > Generates 50 knowledge base articles in 1 hour, auto-extracted from tickets and conversations.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/022-ai-knowledge-base-builder.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1641,13 +1605,9 @@ Compare the original and rewrite, noting specific improvements.
 
 > One AI agent supports 15+ languages, replacing 5 translators.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/023-ai-multi-language-support.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1803,13 +1763,9 @@ Important:
 
 > Generates bias-free, SEO-optimized job descriptions in 10 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/026-ai-job-description-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1980,13 +1936,9 @@ Include data sources and note any limitations in the benchmarking.
 
 > Content planning: 8 hrs/week → 45 min/week. Publishing consistency: 62% → 96%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/043-ai-content-calendar.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2088,13 +2040,9 @@ Evaluate:
 
 > Ticket deflection +45%. FAQ coverage: 120 → 850+ articles. 23 hrs/week saved.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/054-ai-faq-generator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2196,13 +2144,9 @@ Evaluate:
 
 > Review writing: 40 hours → 6 hours. Actionable feedback: 24% → 87%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/058-ai-review-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2304,13 +2248,9 @@ Evaluate:
 
 > 847 policy docs updated: 6 weeks → 4 days. Compliance risk -89%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/059-ai-policy-updater.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2412,13 +2352,9 @@ Evaluate:
 
 > Legal document drafting: 5 days → 2 hours. Compliance risk reduced 85%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/068-ai-legal-document-drafter.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2593,13 +2529,9 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Project status reports: 4 hours → 15 minutes. Real-time data aggregation.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/072-ai-project-status-reporter.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2774,13 +2706,9 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Localization cycle: 6 weeks → 3 days. Translation consistency: 98%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/076-ai-localization-manager.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2955,13 +2883,9 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Churned customer win-back: 8% → 35%. Acquisition cost reduced 60%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/086-ai-customer-win-back-campaigner.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3136,13 +3060,9 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Technical docs: 3 days → 2 hours. Code-doc sync rate: 99%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/087-ai-technical-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3326,13 +3246,9 @@ Produce a prioritized action plan: Critical (blocks new developer onboarding), I
 
 > Job ad click-through +65%. Quality candidate applications +40%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/093-ai-recruitment-marketing-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3507,13 +3423,9 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Survey response rate: 3% → 28%. Actionable insights output 5x.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/094-ai-customer-survey-designer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3754,13 +3666,9 @@ Prioritize recommendations by: impact on strategic questions, cost, time to firs
 
 > Release notes: 3-4 hours → 5 minutes. Feature adoption +35%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/095-ai-release-notes-generator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4020,13 +3928,9 @@ Provide: Architecture diagram description, tool recommendations, implementation 
 
 > Board report prep: 40 hours → 4 hours. Data accuracy: 99.8%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/096-ai-board-report-compiler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4239,13 +4143,9 @@ Each section should be self-contained (readable independently) but tell a consis
 
 > Objection handling success: 35% → 72%. Deal cycle shortened 25%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/098-ai-sales-objection-handler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4473,13 +4373,9 @@ Present findings in a format suitable for a sales team meeting, with specific ex
 
 > Pitch deck creation: 15 hours → 1 hour. Client customization 300% more.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/101-ai-pitch-deck-builder.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4750,13 +4646,9 @@ Analyze and recommend:
 
 > RFP response: 40 hours → 8 hours. Win rate: 5% → 18%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/104-ai-rfp-response-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -5060,13 +4952,9 @@ Analyze and provide:
 
 > Synthesizes market data, financials, and competitor intel into a 10-page strategy brief in 15 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/112-ai-strategy-brief-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Consultant · **Industry**: Consulting
 
@@ -5074,13 +4962,9 @@ Analyze and provide:
 
 > Drafts grant proposals tailored to funder requirements — generates budgets, timelines, and impact metrics in 20 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/113-ai-grant-proposal-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Operations · **Industry**: Nonprofit
 
@@ -5088,13 +4972,9 @@ Analyze and provide:
 
 > Reads a 120-page screenplay and generates professional coverage — synopsis, character analysis, and market fit in 8 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/118-ai-script-coverage-reader.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Data Analyst · **Industry**: Media & Entertainment
 
@@ -5102,13 +4982,9 @@ Analyze and provide:
 
 > Transcribes a 60-minute episode, extracts key quotes, and generates SEO-optimized show notes with timestamps in 4 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/133-ai-podcast-show-notes-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Content / Marketing · **Industry**: Media & Entertainment
 
@@ -5116,13 +4992,9 @@ Analyze and provide:
 
 > Aggregates program data from 8 sources — produces funder-ready impact reports with visualizations and outcome metrics in 20 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/158-ai-impact-measurement-reporter.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Data Analyst · **Industry**: Nonprofit
 
@@ -5130,13 +5002,9 @@ Analyze and provide:
 
 > Distills 20-page patient charts into structured 1-page summaries — highlights active problems, medications, and pending orders.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/162-ai-clinical-notes-summarizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Operations · **Industry**: Healthcare
 
@@ -5144,13 +5012,9 @@ Analyze and provide:
 
 > Synthesizes data from 6 departments into a 2-page Monday morning brief — KPIs, risks, decisions needed, all in 5 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/167-ai-executive-briefing-generator.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Executive · **Industry**: Enterprise
 
@@ -5158,13 +5022,9 @@ Analyze and provide:
 
 > Collects ESG metrics from 10 departments — drafts TCFD and GRI-aligned disclosures with data validation in 2 hours.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/185-ai-esg-disclosure-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Compliance Officer · **Industry**: Enterprise
 
@@ -5172,13 +5032,9 @@ Analyze and provide:
 
 > Pulls financials, program outcomes, and donor data — assembles a print-ready annual report with charts and narratives in 3 hours.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/190-ai-annual-report-assembler.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Executive · **Industry**: Nonprofit
 

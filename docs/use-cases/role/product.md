@@ -8,9 +8,7 @@ AI-powered use cases for product managers, project management, and product opera
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/053-ai-sentiment-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/053-ai-sentiment-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -116,9 +114,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/072-ai-project-status-reporter.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/072-ai-project-status-reporter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -297,9 +293,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/090-ai-sprint-planning-assistant.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/090-ai-sprint-planning-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -496,9 +490,7 @@ Generate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/095-ai-release-notes-generator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/095-ai-release-notes-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -762,9 +754,7 @@ Provide: Architecture diagram description, tool recommendations, implementation 
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/103-ai-workflow-automator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/103-ai-workflow-automator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1101,7 +1091,6 @@ Analyze and provide:
 :::
 
 
-
 ## 6. AI User Interview Synthesizer
 
 > Synthesis time cut from 3 weeks to 4 hours — while covering 100% of transcripts instead of 40%.
@@ -1180,7 +1169,6 @@ For each major pain point, generate:
 ```
 
 :::
-
 ## 7. AI Usability Test Analyzer
 
 > Analysis time cut from 5–7 days to 6–8 hours — with 2.5× more UX friction points identified.
@@ -1263,7 +1251,6 @@ I want to understand:
 ```
 
 :::
-
 ## 8. AI Customer Journey Mapper
 
 > Journey mapping time cut from 3–4 weeks to 2–3 days — with 40% more drop-off points identified.
@@ -1351,7 +1338,6 @@ Please provide:
 ```
 
 :::
-
 ## 9. AI PRD Generator
 
 > PRD drafting time cut from 6–10 hours to 60–90 minutes — with 50% fewer clarifying questions from engineering.
@@ -1436,7 +1422,6 @@ For each issue found, suggest a specific fix.
 ```
 
 :::
-
 ## 10. AI Feature Impact Estimator
 
 > 35% fewer "regret features" built — calibrated estimates replace gut-feel prioritization.
@@ -1528,7 +1513,6 @@ Questions I want answered:
 ```
 
 :::
-
 ## 11. AI Requirements Conflict Detector
 
 > 70–80% of requirements conflicts detected before sprint start vs. ~20% with manual review.
@@ -1605,7 +1589,6 @@ Please deliver:
 ```
 
 :::
-
 ## 12. AI Multi-Tenant Feature Rollout Manager
 
 > Rollout-related support escalations reduced 60%. Per-tenant communication prep time: 45 min → 5 min.
@@ -1749,8 +1732,6 @@ Please analyze and provide:
 ```
 
 :::
-
-
 ## 13. AI Enterprise Onboarding Playbook Builder
 
 > Average onboarding duration reduced 30–40% — time-to-first-value milestone accelerated to under 30 days.
@@ -1819,7 +1800,6 @@ Please build a phased playbook with:
 ```
 
 :::
-
 ## 14. AI Customer Expansion Opportunity Finder
 
 > 35–45% more expansion revenue identified proactively — before the renewal window opens.
@@ -1887,7 +1867,6 @@ Please produce:
 ```
 
 :::
-
 ## 15. AI Product Metrics Anomaly Detector
 
 > Mean time to anomaly detection reduced from 2–3 days to under 4 hours — with an 8% false positive rate.
@@ -1959,7 +1938,6 @@ Please:
 ```
 
 :::
-
 ## 16. AI Cohort Retention Analyzer
 
 > Day-30 retention improvements of 4–8% within one quarter — from identifying the specific behaviors that predict churn.
@@ -2029,7 +2007,6 @@ Please analyze and output:
 ```
 
 :::
-
 ## 17. AI Feature Adoption Tracker
 
 > 90-day adoption rates improve 25–40% after implementing COCO-identified barrier fixes.
@@ -2101,7 +2078,6 @@ Please:
 ```
 
 :::
-
 ## 18. AI Product Launch Planner
 
 > Launch task completion rate rises from ~70% to 92%+ — with 45% fewer timeline delays.
@@ -2179,7 +2155,6 @@ Please generate:
 ```
 
 :::
-
 ## 19. AI Competitive Battlecard Builder
 
 > Battlecard creation time cut from 8–12 hours to 2–3 hours per competitor — with win rates improving 10–18%.

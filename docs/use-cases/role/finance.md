@@ -8,9 +8,7 @@ AI-powered use cases for finance teams, accountants, and analysts.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/029-ai-expense-auditor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/029-ai-expense-auditor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -166,9 +164,7 @@ Provide a revised policy draft with tracked changes and rationale for each updat
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/030-ai-financial-report-generator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/030-ai-financial-report-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -306,9 +302,7 @@ Also provide:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/031-ai-invoice-processor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/031-ai-invoice-processor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -475,9 +469,7 @@ Provide a prioritized 90-day improvement roadmap.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/060-ai-cash-flow-forecaster.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/060-ai-cash-flow-forecaster.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -583,9 +575,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/061-ai-compliance-checker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/061-ai-compliance-checker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -691,9 +681,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/068-ai-legal-document-drafter.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/068-ai-legal-document-drafter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -872,9 +860,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/071-ai-regulatory-filing-assistant.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/071-ai-regulatory-filing-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1053,9 +1039,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/085-ai-tax-preparation-assistant.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/085-ai-tax-preparation-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1234,9 +1218,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/088-ai-vendor-invoice-reconciler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/088-ai-vendor-invoice-reconciler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1415,9 +1397,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/091-ai-lease-agreement-reviewer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/091-ai-lease-agreement-reviewer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1605,9 +1585,7 @@ Generate a 12-month forward calendar view and a prioritized action list for the 
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/092-ai-travel-expense-optimizer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/092-ai-travel-expense-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1806,9 +1784,7 @@ Implementation roadmap: Phase 1 (quick wins, 0-3 months), Phase 2 (system change
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/096-ai-board-report-compiler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/096-ai-board-report-compiler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2025,9 +2001,7 @@ Each section should be self-contained (readable independently) but tell a consis
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/125-ai-menu-cost-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/125-ai-menu-cost-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2151,9 +2125,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/148-ai-royalty-calculator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/148-ai-royalty-calculator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2277,9 +2249,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/151-ai-medical-coding-assistant.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/151-ai-medical-coding-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2403,9 +2373,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/176-ai-budget-variance-analyst.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/176-ai-budget-variance-analyst.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2529,9 +2497,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/178-ai-energy-trading-assistant.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/178-ai-energy-trading-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2655,9 +2621,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/187-ai-revenue-management-optimizer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/187-ai-revenue-management-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2781,9 +2745,7 @@ This week's data:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/194-ai-actuarial-scenario-runner.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/194-ai-actuarial-scenario-runner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3094,7 +3056,6 @@ Please:
 ```
 
 :::
-
 ## 21. AI Budget Variance Explainer
 
 > Generates root cause analysis for budget variances — variance narrative prep reduced from 15–30h to 4–6h, first-pass explanation acceptance rising from 35% to 78%.
@@ -3262,7 +3223,6 @@ Please:
 ```
 
 :::
-
 ## 22. AI Investor Relations Prep Assistant
 
 > Prepares Q&A packages for earnings calls — Q&A coverage rising from 55–65% to 87–92% of actual analyst questions, earnings prep time reduced 50–55%.
@@ -3433,7 +3393,6 @@ Please:
 ```
 
 :::
-
 ## 23. AI Tax Planning Advisor
 
 > Identifies tax planning opportunities before fiscal year-end — effective tax rate reduction 3–6 percentage points, R&D credit capture averaging $185K in the first year.
@@ -3640,7 +3599,6 @@ Please:
 ```
 
 :::
-
 ## 24. AI Financial Model Stress Tester
 
 > Identifies hidden assumption sensitivities in financial models — stress testing time reduced from 15–25h to 4–6h, board question coverage rising from 52% to 84%.
@@ -3843,7 +3801,6 @@ Please:
 ```
 
 :::
-
 ## 25. AI Accounts Receivable Aging Analyst
 
 > Prioritizes collections by recovery probability — DSO reduction 7–11 days, bad debt write-offs reduced 28–35%, collection productivity improved 40–55%.
@@ -4028,7 +3985,6 @@ Please:
 ```
 
 :::
-
 ## 26. AI Cost Center Benchmark Analyst
 
 > Benchmarks departmental spending against industry peers — average $1.4–2.8M in over-benchmark spend identified, recommendation acceptance rate improved 58%.
@@ -4229,7 +4185,6 @@ Please:
 ```
 
 :::
-
 ## 27. AI Treasury Cash Flow Forecaster
 
 > Builds 13-week rolling cash forecasts — 4-week accuracy improving from 75–82% to 89–94%, revolving credit interest savings $45K–$95K annually.
@@ -4419,7 +4374,6 @@ Please:
 ```
 
 :::
-
 ## 28. AI Financial Narrative Report Generator
 
 > Converts financial data into board-ready narrative reports — report production reduced from 2–3 weeks to 3–5 days, board follow-up questions reduced 40–50%.
@@ -4662,7 +4616,6 @@ Please write:
 ```
 
 :::
-
 ## 29. AI M&A Target Screening Advisor
 
 > Screens M&A candidates against strategic criteria systematically — screening throughput 4–6x more candidates per quarter, early red flag capture improved 60–70%.
@@ -4903,7 +4856,6 @@ Please produce:
 ```
 
 :::
-
 ## 30. AI Expense Policy Compliance Auditor
 
 > Reviews expense reports against policy systematically — violations detected 3.2x more than manual review, pre-payment intervention catching 65–80% of violations before disbursement.
@@ -5133,7 +5085,6 @@ Please produce:
 ```
 
 :::
-
 ## 31. AI Accounts Payable Workflow Optimizer
 
 > Designs AP automation workflows and approval routing — AP processing cost reduced from $10–15 to $3–5 per invoice, early payment discount capture rising from under 30% to 60–75%.
@@ -5388,7 +5339,6 @@ Please design:
 ```
 
 :::
-
 ## 32. AI Financial Report Narrative Generator
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
@@ -5588,7 +5538,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 33. AI Finance Budget Variance Analyzer
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
@@ -5788,7 +5737,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 34. AI Finance ESG Disclosure Report Writer
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
@@ -5988,7 +5936,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 35. AI Finance Cash Flow Scenario Modeler
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
@@ -6188,7 +6135,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 36. AI Finance Accounts Payable Reconciliation Engine
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
@@ -6388,7 +6334,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 37. AI M&A Financial Due Diligence Assistant
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
@@ -6588,7 +6533,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 38. AI Finance Tax Provision Analyzer
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
@@ -6788,7 +6732,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 39. AI Government Budget Justification Writer
 
 > Organizations operating in Government face mounting pressure to deliver results with constrained resources
@@ -6988,7 +6931,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 40. AI Working Capital Optimization Advisor
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
@@ -7188,7 +7130,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 41. AI Investor Relations Report Writer
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources

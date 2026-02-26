@@ -179,7 +179,6 @@ Output: Change summary table (entity × change type × date × significance rati
 ```
 
 :::
-
 ## 2. AI Beneficial Owner Identification Engine
 
 > Traces ultimate beneficial ownership through multi-layer holding structures, nominee arrangements, and trust intermediaries across 80+ jurisdictions — producing a verified UBO map with compliance risk ratings in hours rather than weeks.
@@ -362,8 +361,6 @@ Output: Formal UBO verification memo in compliance-ready format suitable for reg
 ```
 
 :::
-
-
 ## 3. AI Sanctions & PEP Screening Orchestrator
 
 > Orchestrates multi-list sanctions screening and PEP identification across all entities, directors, shareholders, and counterparties in a transaction — with alias resolution, transliteration matching, and jurisdictional list management built in.
@@ -550,8 +547,6 @@ Output: Formal negative screening certification memo in compliance-ready format 
 ```
 
 :::
-
-
 ## 4. AI Litigation Record Search & Timeline Builder
 
 > Searches court databases, regulatory enforcement portals, and arbitration records across multiple jurisdictions to construct a complete litigation history timeline — identifying material pending claims, prior judgments, and regulatory actions in hours.
@@ -739,8 +734,6 @@ Output: Formatted litigation risk register table + aggregate exposure summary (b
 ```
 
 :::
-
-
 ## 5. AI Business Registration Verification Assistant
 
 > Verifies the active legal existence, registration status, authorized business scope, and filing compliance of corporate entities across 80+ jurisdictions — flagging discrepancies, dormant entities, and scope violations within hours.
@@ -918,8 +911,6 @@ Output: Gap resolution action plan (entity / gap type / resolution method / time
 ```
 
 :::
-
-
 ## 6. AI Corporate History Timeline Reconstructor
 
 > Reconstructs the complete corporate history of a target entity — mergers, acquisitions, divestitures, restructurings, name changes, and control shifts — from public records, registry data, and news archives, producing a verified chronological narrative.
@@ -1111,8 +1102,6 @@ Output: Structured gap investigation memo with recommended questions for managem
 ```
 
 :::
-
-
 ## 7. AI Director & Officer Background Check Engine
 
 > Runs comprehensive background investigations on directors, officers, and key executives — covering professional history verification, regulatory sanctions, criminal records, litigation exposure, adverse media, and PEP status — across 50+ data sources simultaneously.
@@ -1299,8 +1288,6 @@ Output: Per-executive retention risk rating + regulatory fitness confirmation + 
 ```
 
 :::
-
-
 ## 8. AI IP Portfolio Integrity Analyzer
 
 > Analyzes the integrity, ownership chain, and encumbrance status of a target's intellectual property portfolio — patents, trademarks, trade secrets, and software licenses — identifying gaps, disputes, and freedom-to-operate risks before deal close.
@@ -1482,8 +1469,6 @@ Output: Structured remediation roadmap with timeline, owners, and dependencies +
 ```
 
 :::
-
-
 ## 9. AI Tax Compliance Gap Detector
 
 > Analyzes the target entity's tax filing history, transfer pricing documentation, and cross-border tax positions across multiple jurisdictions — identifying filing gaps, undisclosed liabilities, and aggressive tax positions that create post-acquisition exposure.
@@ -1674,8 +1659,6 @@ Output: Tax attribute value comparison table across structures + present value m
 ```
 
 :::
-
-
 ## 10. AI Financial Health & Solvency Assessor
 
 > Analyzes financial statements, cash flow patterns, working capital dynamics, and debt covenant compliance to produce a forward-looking solvency assessment and financial risk rating — identifying distress signals and going-concern risks before they materialize in deal losses.
@@ -1856,8 +1839,6 @@ Output: Financial health scorecard with Z-Score and F-Score + distress signal re
 ```
 
 :::
-
-
 ## 11. AI Related Party Transaction Risk Analyzer
 
 > Maps all related party transactions within the target's corporate group — identifying undisclosed relationships, non-arm's-length pricing, self-dealing arrangements, and conflicts of interest that distort financial performance and create legal liability.
@@ -2034,8 +2015,6 @@ Output: Annotated R&W checklist with recommended language, negotiation posture, 
 ```
 
 :::
-
-
 ## 12. AI Anti-Bribery & FCPA Compliance Checker
 
 > Analyzes the target entity's operations, third-party relationships, geographic footprint, and transaction records against FCPA, UK Bribery Act, and applicable anti-corruption frameworks — producing a risk-tiered compliance assessment with specific remediation recommendations.
@@ -2226,8 +2205,6 @@ Output: Prioritized remediation action plan with timeline, responsible parties, 
 ```
 
 :::
-
-
 ## 13. AI Shell Company Detection & Risk Scorer
 
 > Screens corporate entities for shell company indicators — nominee directors, registered-agent-only addresses, zero employees, round-trip fund flows, and jurisdictional secrecy — generating a composite risk score that prioritizes entities requiring enhanced due diligence.
@@ -2403,8 +2380,6 @@ Output: Formatted EDD request letters for each entity + timeline expectations + 
 ```
 
 :::
-
-
 ## 14. AI Data Room Organization & Gap Identifier
 
 > Analyzes data room contents against deal-specific due diligence checklists — mapping provided documents to request categories, identifying missing materials, flagging contradictions between documents, and generating targeted follow-up requests with precise document specifications.
@@ -2579,8 +2554,6 @@ Output: Formal data room completeness certification memo + final outstanding ite
 ```
 
 :::
-
-
 ## 15. AI Cross-Border M&A Regulatory Risk Mapper
 
 > Maps all merger control, foreign investment screening, sector-specific regulatory approval, and change-of-control consent requirements triggered by a cross-border transaction — generating a jurisdiction-by-jurisdiction approval roadmap with timeline and strategy recommendations.
@@ -2767,8 +2740,6 @@ Output: Deal term recommendations matrix (provision / recommended language / rat
 ```
 
 :::
-
-
 ## 16. AI Supplier Integrity & Third-Party Risk Profiler
 
 > Screens the target entity's supplier and vendor base for financial instability, sanctions exposure, corruption risk, and contract concentration — identifying supply chain vulnerabilities that create operational continuity and compliance risk post-acquisition.
@@ -2940,8 +2911,6 @@ Output: Supplier change-of-control consent matrix (supplier / provision / trigge
 ```
 
 :::
-
-
 ## 17. AI Investment Target Red Flag Screener
 
 > Applies a comprehensive red flag framework to investment targets in the pre-LOI phase — identifying structural, financial, legal, and reputational concerns that should inform go/no-go decisions and negotiating position before significant diligence investment is made.
@@ -3115,8 +3084,6 @@ Output: LOI term sheet addendum with risk-specific provisions + overall deal ris
 ```
 
 :::
-
-
 ## 18. AI VIE Structure Unwinding & Risk Analyzer
 
 > Deconstructs variable interest entity (VIE) structures used by Chinese technology, education, and healthcare companies — mapping contractual control arrangements, identifying regulatory change risk, and modeling the economic and legal consequences of forced unwinding.
@@ -3297,8 +3264,6 @@ Output: VIE-specific R&W checklist with recommended language + survival period a
 ```
 
 :::
-
-
 ## 19. AI Adverse Media & Reputational Risk Monitor
 
 > Continuously monitors global news, social media, court filings, and regulatory announcements across 40+ languages and 10,000+ sources — generating severity-rated adverse media alerts and reputational risk profiles for corporate entities and their principals.
@@ -3475,8 +3440,6 @@ Output: Interview question matrix organized by finding + expected responses vs. 
 ```
 
 :::
-
-
 ## 20. AI Environmental Liability & ESG Risk Scanner
 
 > Analyzes the target entity's environmental liabilities, regulatory compliance history, and ESG risk profile — identifying remediation obligations, permit violations, climate transition risks, and supply chain ESG exposure that affect deal value and post-close liability.
@@ -3657,8 +3620,6 @@ Output: Environmental liability register + quantification summary table + deal s
 ```
 
 :::
-
-
 ## 21. AI Key Person Dependency Risk Assessor
 
 > Identifies and quantifies the business's dependence on specific individuals — founders, technical leads, sales champions, and regulatory relationship holders — modeling the revenue, operational, and valuation impact of key person departure scenarios.
@@ -3838,8 +3799,6 @@ Output: Retention package recommendation per individual + total retention cost e
 ```
 
 :::
-
-
 ## 22. AI Regulatory License & Permit Verification Engine
 
 > Verifies the current status, coverage adequacy, and renewal compliance of all regulatory licenses, operating permits, and professional certifications held by the target entity — across all jurisdictions of operation, ensuring full authorization before deal close.
@@ -4012,8 +3971,6 @@ Output: License action plan (item / action / responsible party / timeline / pre/
 ```
 
 :::
-
-
 ## 23. AI Debt & Lien Encumbrance Search Aggregator
 
 > Searches UCC filings, mortgage records, tax liens, judgment liens, and cross-border security interest registers to build a complete picture of all encumbrances on the target's assets — enabling clean title delivery at closing and identifying unexpected lender consents.
@@ -4195,8 +4152,6 @@ Output: Lien clearance checklist with status tracking + pending items requiring 
 ```
 
 :::
-
-
 ## 24. AI Customer Concentration Risk Analyzer
 
 > Analyzes the target entity's customer revenue distribution, contract terms, renewal rates, and relationship stability — identifying dangerous revenue concentration, churn risk, and counterparty dependency that affect post-acquisition commercial continuity.
@@ -4373,8 +4328,6 @@ Output: Scenario revenue model + probability-weighted expected revenue + deal va
 ```
 
 :::
-
-
 ## 25. AI Cybersecurity Posture Due Diligence Reviewer
 
 > Analyzes the target entity's cybersecurity architecture, breach history, regulatory compliance posture, and third-party vendor security risk — identifying material vulnerabilities, data privacy obligations, and cyber liability exposure before deal close.
@@ -4550,8 +4503,6 @@ Output: Phased cybersecurity remediation roadmap + total estimated cost by phase
 ```
 
 :::
-
-
 ## 26. AI Employment & Labor Law Compliance Auditor
 
 > Audits the target entity's employment practices, workforce classifications, benefits compliance, collective bargaining obligations, and labor law violations across all operating jurisdictions — identifying exposure that affects deal value, post-close operations, and employee transition planning.
@@ -4733,8 +4684,6 @@ Output: Employment cost summary table (cost category / employees affected / aggr
 ```
 
 :::
-
-
 ## 27. AI Real Property & Asset Title Verification Tool
 
 > Verifies legal title, encumbrances, zoning compliance, and lease assignment rights for all real property and material tangible assets held by the target — identifying title defects, restriction violations, and landlord consent requirements before deal close.
@@ -4913,8 +4862,6 @@ Output: Lease portfolio key terms table + portfolio risk summary + renewal prior
 ```
 
 :::
-
-
 ## 28. AI Post-Merger Integration Risk Pre-Assessment
 
 > Evaluates integration risks before deal close — analyzing cultural compatibility, systems architecture complexity, organizational structure conflicts, and regulatory integration timeline — producing a pre-close integration risk register and Day-1 readiness assessment.
@@ -5099,8 +5046,6 @@ Output: 100-day integration plan with milestones, owners, and dependencies + cri
 ```
 
 :::
-
-
 ## 29. AI Insurance Coverage Gap & Claims History Reviewer
 
 > Transform insurance due diligence from a clerical exercise into a strategic risk transfer assessment that surfaces hidden liabilities before they become your problem.
@@ -5303,7 +5248,6 @@ Output: Representation-by-representation assessment table + list of R&W carve-ou
 ```
 
 :::
-
 ## 30. AI Management Team Credibility & Track Record Verifier
 
 > Go beyond LinkedIn profiles and reference calls — systematically verify what management actually delivered versus what they claim to have built.
@@ -5523,7 +5467,6 @@ Output: Culture risk assessment (High/Medium/Low with rationale) + top 5 culture
 ```
 
 :::
-
 ## 31. AI Joint Venture Partner Due Diligence Engine
 
 > Vet your joint venture partner with the rigor of a merger — because a bad JV partner can cost you market access, IP, and reputation without the protections of full ownership.
@@ -5720,7 +5663,6 @@ Output: Scenario-by-scenario risk assessment + contract gap matrix + recommended
 ```
 
 :::
-
 ## 32. AI Government Contract & Debarment History Checker
 
 > Protect your acquisition from inherited federal exclusions — a single debarment finding post-close can disqualify your entire entity from all government contracting.
@@ -5926,7 +5868,6 @@ Output: State-by-state contract assignability assessment + state debarment scree
 ```
 
 :::
-
 ## 33. AI Cross-Jurisdictional Compliance Framework Mapper
 
 > When your acquisition spans three countries and four regulatory regimes, you need a compliance map before you can build a compliance plan.
@@ -6132,7 +6073,6 @@ Output: Environmental compliance gap matrix by site and jurisdiction + product s
 ```
 
 :::
-
 ## 34. AI Distressed Asset & Bankruptcy History Analyzer
 
 > Uncover the full liability footprint of a distressed acquisition before the gavel falls — because in bankruptcy, what you don't know absolutely can hurt you.
@@ -6338,7 +6278,6 @@ Output: Maximum supportable bid recommendation with supporting model + bid struc
 ```
 
 :::
-
 ## 35. AI Due Diligence Final Report Compiler & Summarizer
 
 > Transform thousands of pages of workstream findings into a board-ready investment thesis validation document in hours, not weeks.

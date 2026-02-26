@@ -8,9 +8,7 @@ AI-powered use cases for support teams, help desk, and customer success.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/021-ai-ticket-classifier.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/021-ai-ticket-classifier.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -165,9 +163,7 @@ Keep each response under 150 words. Test readability: would a frustrated custome
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/022-ai-knowledge-base-builder.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/022-ai-knowledge-base-builder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -325,9 +321,7 @@ Compare the original and rewrite, noting specific improvements.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/023-ai-multi-language-support.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/023-ai-multi-language-support.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -487,9 +481,7 @@ Important:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/024-ai-vip-escalation.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/024-ai-vip-escalation.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -646,9 +638,7 @@ Tone: Senior, professional, genuine. This should sound like it comes from someon
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/049-ai-churn-predictor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/049-ai-churn-predictor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -754,9 +744,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/050-ai-chatbot-trainer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/050-ai-chatbot-trainer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -862,9 +850,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/054-ai-faq-generator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/054-ai-faq-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -970,9 +956,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/069-ai-customer-success-monitor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/069-ai-customer-success-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1151,9 +1135,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/074-ai-helpdesk-escalation-router.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/074-ai-helpdesk-escalation-router.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1332,9 +1314,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/078-ai-customer-onboarding-guide.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/078-ai-customer-onboarding-guide.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1513,9 +1493,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/086-ai-customer-win-back-campaigner.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/086-ai-customer-win-back-campaigner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1694,9 +1672,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/098-ai-sales-objection-handler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/098-ai-sales-objection-handler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1928,9 +1904,7 @@ Present findings in a format suitable for a sales team meeting, with specific ex
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/102-ai-customer-health-scorer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/102-ai-customer-health-scorer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2254,9 +2228,7 @@ For each scenario, provide:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/196-ai-service-ticket-predictor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/196-ai-service-ticket-predictor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2501,7 +2473,6 @@ Suggest a revised version with specific improvements. Mark each change with [ADD
 ```
 
 :::
-
 ## 16. AI Churn Risk Early Warning System {#use-case-341}
 
 > Synthesizes login frequency, support ticket volume, stakeholder engagement, and usage trends into a risk-ranked portfolio alert with specific intervention plans — detecting churn 52 days ahead of cancellation instead of 12.
@@ -2624,7 +2595,6 @@ Format as a concise executive summary (half a page), followed by a risk register
 ```
 
 :::
-
 ## 17. AI QBR Presentation Builder {#use-case-342}
 
 > Transforms raw usage metrics and account notes into executive-ready QBR narratives that tell a value story — not just a data dump — in 45 minutes instead of 4–8 hours. Executive sponsor attendance rises from 34% to 71%.
@@ -2759,7 +2729,6 @@ Tone: warm, concise, professional. Under 200 words total.
 ```
 
 :::
-
 ## 18. AI Support Ticket Deflection Trainer {#use-case-343}
 
 > Converts recurring support ticket patterns into publication-ready knowledge base articles — reducing repeat tickets by 28 percentage points and cutting KB article creation from 3–5 hours to 25 minutes.
@@ -2888,7 +2857,6 @@ Current deflection rate: [X]%
 ```
 
 :::
-
 ## 19. AI NPS Response Handler {#use-case-344}
 
 > Generates personalized, score-appropriate follow-up emails for every NPS respondent — Detractor, Passive, and Promoter — raising follow-up coverage from 14% to 94% and cutting response time from 60 hours to 4 hours for 300 comments.
@@ -3018,7 +2986,6 @@ For each segment, define:
 ```
 
 :::
-
 ## 20. AI Customer Health Score Explainer {#use-case-345}
 
 > Translates health score data into plain-English narrative explanations with pattern identification, customer situation assessment, and a prioritized action plan — raising health score utilization from 34% to 81% and enabling junior CSMs to act like senior ones.
@@ -3138,7 +3105,6 @@ Notable changes since last week: [LIST]
 ```
 
 :::
-
 ## 21. AI Upsell Opportunity Identifier {#use-case-346}
 
 > Scans the existing account portfolio for expansion signals — feature requests, usage workarounds, seat limits, job postings — producing 3.2× more identified opportunities and raising conversion rates from 18% to 41%.
@@ -3268,7 +3234,6 @@ For each risk area:
 ```
 
 :::
-
 ## 22. AI Customer Success Playbook Writer {#use-case-347}
 
 > Creates comprehensive, situation-specific CS playbooks that codify senior CSM expertise into repeatable processes — raising playbook coverage from 28% to 91% and cutting creation time from 12+ hours to 90 minutes.
@@ -3402,7 +3367,6 @@ For each recommended playbook:
 ```
 
 :::
-
 ## 23. AI Escalation Resolution Advisor {#use-case-348}
 
 > Provides a real-time, structured escalation response plan — covering customer-facing communication, internal activation, timeline and cadence, and resolution pathway — reducing time to first customer response from 4.2 hours to 47 minutes.
@@ -3541,7 +3505,6 @@ Document must include:
 ```
 
 :::
-
 ## 24. AI Knowledge Base Article Generator {#use-case-349}
 
 > Turns support ticket threads, rough CSM notes, or verbal descriptions of common issues into publication-ready KB articles in 20 minutes instead of 3–5 hours — increasing a 2-person support team's monthly output from 4 to 28 articles.
@@ -3662,7 +3625,6 @@ Output as a prioritized writing plan I can bring to my weekly team meeting.
 ```
 
 :::
-
 ## 25. AI Customer Journey Mapper {#use-case-350}
 
 > Builds formal customer journey maps with stage-specific health indicators, common drop-off points, and intervention triggers — enabling at-risk detection 60–90 days earlier and improving onboarding completion rates by 30–40%.
@@ -3838,7 +3800,6 @@ Please structure a report that includes:
 ```
 
 :::
-
 ## 26. AI Success Story Case Study Writer {#use-case-351}
 
 > Transforms customer interview notes into approval-ready case study drafts — cutting production from 3–6 weeks to 3–5 days, achieving 85% first-draft approval rates, and enabling 3–5× more annual case study output without added headcount.
@@ -4009,7 +3970,6 @@ Please produce:
 ```
 
 :::
-
 ## 27. AI Product Adoption Accelerator {#use-case-352}
 
 > Identifies adoption gaps by customer segment, generates personalized enablement plans, and creates targeted outreach that achieves 35–45% response rates versus 8–12% for generic campaigns — identifying low adoption 70 days earlier than renewal-cycle discovery.
@@ -4179,7 +4139,6 @@ Please produce:
 ```
 
 :::
-
 ## 28. AI Customer Feedback Loop Manager {#use-case-353}
 
 > Synthesizes NPS verbatims, support themes, and customer feedback into structured reports routed to the right teams — increasing feedback reaching product teams by 3–4× and driving 35% higher renewal rates for accounts with closed-loop communications.
@@ -4362,7 +4321,6 @@ Please produce:
 ```
 
 :::
-
 ## 29. AI SLA Compliance Tracker {#use-case-354}
 
 > Builds centralized SLA commitment tracking, identifies approaching breaches 14 days in advance, and generates proactive customer communications — reducing credit dispute incidents by 78% and cutting time-to-first notification from 45–90 minutes to 8–12 minutes.
@@ -4551,7 +4509,6 @@ Keep the tone warm, accountable, and direct. Length: 200-250 words.
 ```
 
 :::
-
 ## 30. AI Customer Segmentation Advisor {#use-case-355}
 
 > Redesigns ARR-only segmentation models into multi-dimensional frameworks — identifying 20–25% of accounts in the wrong tier, capturing 35–45% more expansion revenue per CSM, and improving CSM job satisfaction by 28%.
@@ -4738,7 +4695,6 @@ Please:
 ```
 
 :::
-
 ## 31. AI Renewal Negotiation Prep Assistant {#use-case-356}
 
 > Prepares a comprehensive renewal dossier — health summary, value story, expansion analysis, risk factors, negotiation strategy — reducing price concessions by 22%, increasing expansion attach rates 2.4×, and cutting prep time from 3–4 hours to 45–60 minutes.
@@ -4939,7 +4895,6 @@ Please produce a negotiation strategy brief:
 ```
 
 :::
-
 ## 32. AI Healthcare Patient Intake Optimizer
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
@@ -5139,7 +5094,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 33. AI Customer Support Ticket Triage System
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
@@ -5339,7 +5293,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 34. AI Healthcare Medication Adherence Coach
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
@@ -5539,7 +5492,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 35. AI Healthcare Discharge Summary Generator
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
@@ -5739,7 +5691,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 36. AI Telecom Customer Complaint Classifier
 
 > Organizations operating in Telecommunications face mounting pressure to deliver results with constrained resources
@@ -5939,7 +5890,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 37. AI Healthcare Claims Denial Appeal Writer
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
@@ -6139,7 +6089,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 38. AI Nurse Handoff Report Generator
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
@@ -6339,7 +6288,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 39. AI Telemedicine Patient Intake Screener
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
@@ -6539,7 +6487,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 40. AI Healthcare Insurance Prior Authorization Assistant
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources

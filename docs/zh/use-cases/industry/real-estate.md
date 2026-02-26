@@ -6,13 +6,9 @@ AI驱动的房地产行业用例。
 
 > 提取20+可比房产数据，调整位置和条件因素，5分钟生成市场估值报告。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/108-ai-property-valuation-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -132,13 +128,9 @@ COCO的AI房产估值助手直接集成到你现有的工作流程中，充当�
 
 > 从上传的平面图提取房间尺寸、计算可用面积并标记违规——仅需2分钟。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/166-ai-floor-plan-analyzer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -258,13 +250,9 @@ COCO的AI平面图分析器直接集成到你现有的工作流程中，充当�
 
 > 提取信用、就业和租赁历史——3分钟生成符合公平住房法的带风险评分筛查报告。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/199-ai-tenant-screening-processor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -384,13 +372,9 @@ COCO的AI租户筛查处理器直接集成到你现有的工作流程中，充�
 
 > 提取30笔近期成交，调整特征和时间因素——生成含照片和定价依据的客户报告。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/202-ai-comparative-market-analysis.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 

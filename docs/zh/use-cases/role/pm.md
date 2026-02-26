@@ -6,11 +6,9 @@ AI驱动的项目经理专业人员用例。
 
 > 协调300人活动的场地、餐饮、音视频和人员——15分钟生成时间线、检查单和供应商订单。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/155-ai-event-logistics-planner.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/155-ai-event-logistics-planner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -132,11 +130,9 @@ COCO的AI活动后勤规划器直接集成到你现有的工作流程中，充�
 
 > 策划500人晚宴——在一个面板管理RSVP、座位安排、拍卖目录和赞助方案。
 
-::: details 🎬 观看演示视频
+::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/175-ai-fundraising-event-planner.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/175-ai-fundraising-event-planner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -446,7 +442,6 @@ COCO的AI产品市场匹配度验证器将定量使用数据、定性客户反�
 ```
 
 :::
-
 ## 4. AI 竞争情报综合分析器
 
 ::: details 痛点与解决方案
@@ -627,7 +622,6 @@ COCO 的 AI 竞争情报综合分析器持续摄入、分类和综合所有可�
 ```
 
 :::
-
 ## 5. AI 功能标志策略顾问
 
 ::: details 痛点与解决方案
@@ -833,7 +827,6 @@ COCO 的 AI 功能标志策略顾问帮助产品经理以完整发布计划的�
 ```
 
 :::
-
 ## 6. AI 干系人对齐引擎
 
 ::: details 痛点与解决方案
@@ -1017,7 +1010,6 @@ COCO 的 AI 干系人对齐引擎绘制干系人影响力和信息需求地图�
 ```
 
 :::
-
 ## 7. AI OKR 级联管理器
 
 ::: details 痛点与解决方案
@@ -1186,7 +1178,6 @@ C 团队（[名称和重点]）：[粘贴他们的 OKR]
 ```
 
 :::
-
 ## 8. AI 用户画像深度构建器
 
 ::: details 痛点与解决方案
@@ -1373,7 +1364,6 @@ COCO 的 AI 用户画像深度构建器从多源行为和态度数据中构建�
 ```
 
 :::
-
 ## 9. AI 冲刺回顾会议促进器
 
 ::: details 痛点与解决方案
@@ -1555,7 +1545,6 @@ COCO 的 AI 冲刺回顾会议促进器帮助产品经理设计、准备和综�
 ```
 
 :::
-
 ## 10. AI 产品分析叙事师
 
 ::: details 痛点与解决方案
@@ -1746,7 +1735,6 @@ QBR 背景：
 ```
 
 :::
-
 ## 11. AI 产品路线图优先级排序顾问
 
 ::: details 痛点与解决方案
@@ -1968,7 +1956,6 @@ COCO 的 AI 产品路线图优先级排序顾问提供系统性框架，将多�
 ```
 
 :::
-
 ## 12. AI 客户反馈聚合器
 
 ::: details 痛点与解决方案
@@ -2189,7 +2176,6 @@ COCO 的 AI 客户反馈聚合器将碎片化的多渠道反馈转化为结构�
 ```
 
 :::
-
 ## 13. AI PRD 撰写助手
 
 ::: details 痛点与解决方案
@@ -2430,7 +2416,6 @@ COCO 的 AI PRD 撰写助手将从粗略想法到完整规格说明的 PRD 创�
 ```
 
 :::
-
 ## 14. AI 定价策略顾问
 
 ::: details 痛点与解决方案
@@ -2657,7 +2642,6 @@ COCO 的 AI 定价策略顾问提供大多数 SaaS 产品经理所缺乏的系�
 ```
 
 :::
-
 ## 15. AI产品经理迭代规划优化器
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -2832,7 +2816,6 @@ COCO 的 AI 定价策略顾问提供大多数 SaaS 产品经理所缺乏的系�
 ```
 
 :::
-
 ## 16. AI产品路线图优先级排序引擎
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -3007,7 +2990,6 @@ COCO 的 AI 定价策略顾问提供大多数 SaaS 产品经理所缺乏的系�
 ```
 
 :::
-
 ## 17. AI产品经理用户故事精化引擎
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -3182,7 +3164,6 @@ COCO 的 AI 定价策略顾问提供大多数 SaaS 产品经理所缺乏的系�
 ```
 
 :::
-
 ## 18. AI产品经理客户反馈综合器
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -3357,7 +3338,6 @@ COCO 的 AI 定价策略顾问提供大多数 SaaS 产品经理所缺乏的系�
 ```
 
 :::
-
 ## 19. AI功能采用率追踪顾问
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -3532,7 +3512,6 @@ COCO 的 AI 定价策略顾问提供大多数 SaaS 产品经理所缺乏的系�
 ```
 
 :::
-
 ## 20. AI发布准备清单构建器
 
 > 在SaaS领域运营的企业面临着在资源有限的情况下交付成果的巨大压力
@@ -3707,7 +3686,6 @@ COCO 的 AI 定价策略顾问提供大多数 SaaS 产品经理所缺乏的系�
 ```
 
 :::
-
 ## 21. AI Beta测试协调员
 
 > 设计假设驱动的Beta测试计划，系统性筛选参与者，生成结构化反馈收集框架——正式发布后问题率降低54%，功能90天采纳率提升31%。

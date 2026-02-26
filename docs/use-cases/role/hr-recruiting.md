@@ -8,9 +8,7 @@ AI-powered use cases for HR, recruiters, and people operations.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/025-ai-resume-screener.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/025-ai-resume-screener.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -166,9 +164,7 @@ Create a comparison matrix including:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/026-ai-job-description-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/026-ai-job-description-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -343,9 +339,7 @@ Include data sources and note any limitations in the benchmarking.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/027-ai-interview-scheduler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/027-ai-interview-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -504,9 +498,7 @@ Provide actionable recommendations for the next quarter.
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/028-ai-onboarding-assistant.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/028-ai-onboarding-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -684,9 +676,7 @@ For each task: responsible person, deadline, dependencies, and verification that
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/055-ai-employee-pulse.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/055-ai-employee-pulse.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -792,9 +782,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/056-ai-training-recommender.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/056-ai-training-recommender.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -900,9 +888,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/057-ai-comp-benchmarker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/057-ai-comp-benchmarker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1008,9 +994,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/058-ai-review-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/058-ai-review-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1116,9 +1100,7 @@ Evaluate:
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/082-ai-employee-offboarding-manager.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/082-ai-employee-offboarding-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1297,9 +1279,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/093-ai-recruitment-marketing-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/093-ai-recruitment-marketing-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1478,9 +1458,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/097-ai-compliance-training-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/en/097-ai-compliance-training-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1771,7 +1749,6 @@ Review the following job description for [Operations Manager] and identify: (1) 
 ```
 
 :::
-
 ## 13. AI Resume Screener and Shortlister
 
 > Screens 500 resumes in hours instead of weeks — 75% reduction in screening time, shortlist-to-hire conversion up 42%.
@@ -1851,7 +1828,6 @@ Here are the screening decisions made by two different recruiters for the same [
 ```
 
 :::
-
 ## 14. AI Interview Question Generator
 
 > Structured interview guides in under 45 minutes — inter-rater reliability up 55%, legally problematic questions reduced 80%.
@@ -1929,7 +1905,6 @@ Design [5] situational interview questions for a [VP of Operations] role at a [l
 ```
 
 :::
-
 ## 15. AI Offer Letter Composer
 
 > Personalized, legally compliant offer letters in under 15 minutes — acceptance rate up 18%, legal compliance incidents reduced 85%.
@@ -2022,7 +1997,6 @@ A candidate [Alex Morgan] verbally declined our offer for [Head of UX Design] ci
 ```
 
 :::
-
 ## 16. AI Employee Performance Review Writer
 
 > Specific, behavior-grounded performance reviews at scale — manager writing time down 65%, review quality scores up 48%.
@@ -2114,7 +2088,6 @@ I am preparing for our [Q4 review calibration session]. I have [12] direct manag
 ```
 
 :::
-
 ## 17. AI Onboarding Plan Builder
 
 > Role-specific 90-day onboarding plans that accelerate productivity — time-to-productivity up 34%, 90-day retention up 28%.
@@ -2190,7 +2163,6 @@ Generate a detailed hour-by-hour schedule for [Alex Kim's] first week at [TechSt
 ```
 
 :::
-
 ## 18. AI Employee Survey Analyzer
 
 > 100% open-text coverage in days, not weeks — analysis cycle down from 4-6 weeks to 3-5 days, attrition prediction up 41%.
@@ -2266,7 +2238,6 @@ We ran our annual DEI climate survey. I will share the data split by [gender, et
 ```
 
 :::
-
 ## 19. AI Compensation Benchmarker
 
 > Market-calibrated compensation in days, not weeks — benchmarking cycle down 75%, offer rejections for compensation down 31%.
@@ -2344,7 +2315,6 @@ I need to prepare talking points for [15] managers who will be having annual com
 ```
 
 :::
-
 ## 20. AI L&D Curriculum Designer
 
 > Compress curriculum design from months to weeks — 6-12 month design cycles to 4-8 weeks, L&D capacity increased 4x.
@@ -2420,7 +2390,6 @@ I have designed a [Leadership Development Program] for [senior individual contri
 ```
 
 :::
-
 ## 21. AI Employee Handbook Updater
 
 > Keep handbooks current and compliant — update cycle from 4-6 months to 4-6 weeks, legal review costs down 55%.
@@ -2496,7 +2465,6 @@ We are rolling out an updated employee handbook for [CompanyName] effective [Mar
 ```
 
 :::
-
 ## 22. AI Workforce Planning Advisor
 
 > Transform reactive headcount management into strategic foresight — planning cycle halved, attrition surprises down 40%.
@@ -2651,7 +2619,6 @@ Format for a [C-suite / board] audience.
 ```
 
 :::
-
 ## 23. AI Talent Pipeline Builder
 
 > Build candidate pipelines before roles open — time-to-fill down 35-50 days, quality-of-hire up 23%.
@@ -2796,7 +2763,6 @@ Please produce:
 ```
 
 :::
-
 ## 24. AI DEI Reporting Analyzer
 
 > Turn DEI data into targeted action — identify 4-6 funnel-stage gaps invisible in summary reporting, analysis time down 85%.
@@ -2959,7 +2925,6 @@ Tone: credible, direct, neither overclaiming progress nor catastrophizing challe
 ```
 
 :::
-
 ## 25. AI Employee Retention Risk Predictor
 
 > Identify flight risks 6-9 months before departure — preventable attrition down 25-35%, $1.5-3M in replacement cost avoided.
@@ -3114,7 +3079,6 @@ Please:
 ```
 
 :::
-
 ## 26. AI Benefits Administration Advisor
 
 > Reduce enrollment errors 45% and compliance failures — plain-language communications that employees actually read and act on.
@@ -3273,7 +3237,6 @@ Please draft:
 ```
 
 :::
-
 ## 27. AI Succession Planning Assistant
 
 > Go from 28% to 78% succession coverage in 12 months — leadership transition cost down 40%, internal promotion rate up to 65%.
@@ -3434,7 +3397,6 @@ Please help me design:
 ```
 
 :::
-
 ## 28. AI HR Metrics Dashboard Narrator
 
 > Turn HR numbers into leadership decisions — executive meeting explanation time down 35%, decision-to-data lag down 50%.
@@ -3612,7 +3574,6 @@ Please draft a 500-600 word all-hands narrative that:
 ```
 
 :::
-
 ## 29. AI Employee Onboarding Experience Designer
 
 > Companies spend $4,000–$7,000 recruiting and hiring a single employee, then deliver an onboarding experience that consistently fails to set them up for success
@@ -3788,7 +3749,6 @@ Identify:
 ```
 
 :::
-
 ## 30. AI HR Compensation Benchmarking Engine
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
@@ -3988,7 +3948,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 31. AI HR Performance Review Writer
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
@@ -4188,7 +4147,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 32. AI HR Employee Engagement Pulse Analyzer
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
@@ -4388,7 +4346,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 33. AI HR Job Description Optimization Writer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
@@ -4588,7 +4545,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 34. AI HR Training Needs Assessment Engine
 
 > Organizations operating in Education face mounting pressure to deliver results with constrained resources
@@ -4788,7 +4744,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 35. AI HR Recruitment Pipeline Optimizer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
@@ -4988,7 +4943,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 36. AI HR Succession Planning Advisor
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
@@ -5188,7 +5142,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 37. AI HR Organizational Design Advisor
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
@@ -5388,7 +5341,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 38. AI Workforce Planning Scenario Modeler
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
@@ -5588,7 +5540,6 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-
 ## 39. AI Exit Interview Insights Analyzer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
