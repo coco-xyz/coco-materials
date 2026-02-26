@@ -95,32 +95,22 @@
   width: auto;
 }
 
-/* ===== Mobile-responsive tables ===== */
+/* ===== Tables ===== */
 .vp-doc table {
   display: table;
+  width: auto;
+  min-width: 100%;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  width: 100%;
-  max-width: 100%;
 }
 .vp-doc table td,
 .vp-doc table th {
-  white-space: normal;
   vertical-align: top;
-  word-break: break-word;
-}
-/* Prevent sequence number column from wrapping */
-.vp-doc table td:first-child,
-.vp-doc table th:first-child {
   white-space: nowrap;
-  min-width: 3em;
 }
-/* Prevent short-content columns (角色, 行业, 任务) from wrapping */
-.vp-doc table td:nth-child(3),
-.vp-doc table th:nth-child(3),
-.vp-doc table td:nth-child(4),
-.vp-doc table th:nth-child(4),
-.vp-doc table td:nth-child(5),
-.vp-doc table th:nth-child(5) {
-  white-space: nowrap;
+/* Allow last column to wrap (typically longest content: Key Metrics / 核心指标) */
+.vp-doc table td:last-child,
+.vp-doc table th:last-child {
+  white-space: normal;
+  min-width: 10em;
 }
