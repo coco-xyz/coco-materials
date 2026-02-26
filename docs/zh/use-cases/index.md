@@ -294,17 +294,17 @@
 | 212 | [AI功能采纳追踪器](/zh/use-cases/role/product#_17-ai功能采纳追踪器) | 产品经理 | 科技/SaaS | 数据分析 | 90天采纳率+25–40% |
 | 213 | [AI产品发布规划器](/zh/use-cases/role/product#_18-ai产品发布规划器) | 产品经理 | 科技/SaaS | 流程自动化 | 发布任务完成率：70% → 92%+ |
 | 214 | [AI竞品对战卡构建器](/zh/use-cases/role/product#_19-ai竞品对战卡构建器) | 产品经理 | 科技/SaaS | 数据分析 | 对战卡制作：8–12小时 → 2–3小时 |
-| 215 | [AI技术债务优先级管理器](/zh/use-cases/role/dev#_22-ai技术债务优先级管理器) | 研发工程 | 科技/SaaS | 数据分析 | 修复ROI提升3倍 |
+| 215 | [AI技术债务优先级排序器](/zh/use-cases/role/dev#_22-ai技术债务优先级排序器) | 研发工程 | 科技/SaaS | 数据分析 | 修复ROI提升3倍 |
 | 216 | [AI代码重构顾问](/zh/use-cases/role/dev#_23-ai代码重构顾问) | 研发工程 | 科技/SaaS | 流程自动化 | 重构后问题减少70% |
 | 217 | [AI代码覆盖率缺口发现器](/zh/use-cases/role/dev#_24-ai代码覆盖率缺口发现器) | 研发工程 | 科技/SaaS | 数据分析 | Bug逃逸率降低45–65% |
 | 218 | [AI事故根因分析器](/zh/use-cases/role/dev#_25-ai事故根因分析器) | 研发工程 | 科技/SaaS | 数据分析 | MTTR：4–8小时 → 45–90分钟 |
 | 219 | [AI基础设施成本优化器](/zh/use-cases/role/dev#_26-ai基础设施成本优化器) | 研发工程 | 科技/SaaS | 数据分析 | 25–40%云支出可优化 |
-| 220 | [AI CI/CD流水线优化器](/zh/use-cases/role/dev#_27-ai-ci-cd流水线优化器) | 研发工程 | 科技/SaaS | 流程自动化 | 流水线运行时间缩短40–60% |
+| 220 | [AI CI/CD流水线优化器](/zh/use-cases/role/dev#_27-ai-cicd流水线优化器) | 研发工程 | 科技/SaaS | 流程自动化 | 流水线运行时间缩短40–60% |
 | 221 | [AI系统设计审查器](/zh/use-cases/role/dev#_28-ai系统设计审查器) | 研发工程 | 科技/SaaS | 数据分析 | 60–70%架构问题在实现前发现 |
-| 222 | [AI微服务依赖分析器](/zh/use-cases/role/dev#_29-ai微服务依赖分析器) | 研发工程 | 科技/SaaS | 数据分析 | MTTR降低60–70% |
+| 222 | [AI微服务依赖关系分析器](/zh/use-cases/role/dev#_29-ai微服务依赖关系分析器) | 研发工程 | 科技/SaaS | 数据分析 | MTTR降低60–70% |
 | 223 | [AI API设计验证器](/zh/use-cases/role/dev#_30-ai-api设计验证器) | 研发工程 | 科技/SaaS | 数据分析 | 75%问题在消费者之前发现 |
 | 224 | [AI威胁模型生成器](/zh/use-cases/role/dev#_31-ai威胁模型生成器) | 研发工程 | 科技/SaaS | 调研与监控 | 威胁识别3–4倍于临时审查 |
-| 225 | [AI安全事件溯源助手](/zh/use-cases/role/dev#_32-ai安全事件溯源助手) | 研发工程 | 科技/SaaS | 数据分析 | 溯源时间线：2–4周 → 12–24小时 |
+| 225 | [AI安全事故取证助手](/zh/use-cases/role/dev#_32-ai安全事故取证助手) | 研发工程 | 科技/SaaS | 数据分析 | 溯源时间线：2–4周 → 12–24小时 |
 | 226 | [AI访问权限审计器](/zh/use-cases/role/dev#_33-ai访问权限审计器) | 研发工程 | 科技/SaaS | 调研与监控 | 35–50%权限过度授予被识别 |
 | 227 | [AI产品市场匹配度验证器](/zh/use-cases/role/pm#_3-ai产品市场匹配度验证器) | 产品经理 | SaaS/B2B | 数据分析 | PMF调研：4周 → 1周 |
 | 228 | [AI遗留代码考古学家](/zh/use-cases/role/dev#_34-ai遗留代码考古学家) | 研发工程 | 科技/SaaS | 数据分析 | 事故诊断减少55% |
@@ -332,7 +332,7 @@
 | 250 | [AI测试用例生成器](/zh/use-cases/role/dev#_49-ai测试用例生成器) | 研发工程 | 科技/金融 | 流程自动化 | 缺陷逃逸率-49% |
 | 251 | [AI代码重构策略师](/zh/use-cases/role/dev#_50-ai代码重构策略师) | 研发工程 | 科技/金融 | 数据分析 | 重构后缺陷密度-44% |
 | 252 | [AI系统架构顾问](/zh/use-cases/role/dev#_51-ai系统架构顾问) | 研发工程 | 科技/平台 | 数据分析 | 架构重大调整-63% |
-| 253 | [AI CI/CD流水线优化器](/zh/use-cases/role/dev#_52-ai-ci-cd流水线优化器) | 研发工程 | 科技/平台 | 流程自动化 | 流水线时间-52% |
+| 253 | [AI CI/CD流水线优化器](/zh/use-cases/role/dev#_52-ai-cicd流水线优化器) | 研发工程 | 科技/平台 | 流程自动化 | 流水线时间-52% |
 | 254 | [AI错误日志分析器](/zh/use-cases/role/dev#_53-ai错误日志分析器) | 研发工程 | 科技/电商 | 数据分析 | 诊断时间-58% |
 | 255 | [AI开源贡献审查员](/zh/use-cases/role/dev#_54-ai开源贡献审查员) | 研发工程 | 科技/平台 | 调研与监控 | 审查周期-54% |
 | 256 | [AI 预算差异解析助手](/zh/use-cases/role/finance#_21-ai-预算差异解析助手) | 财务 | 金融/SaaS | 数据分析 | 差异准备时间：15–30小时 → 4–6小时 |
@@ -604,7 +604,7 @@
 | 522 | [AI零售客户挽回规划器](/zh/use-cases/role/content-marketing#_43-ai零售客户挽回规划器) | 营销经理 | 零售 | 客户挽回 | 处理时效: 8-12h → 45min (节省85%) |
 | 523 | [AI物流承运商绩效评分卡](/zh/use-cases/role/logistics-manager#_13-ai物流承运商绩效评分卡) | 物流经理 | 物流 | 性能监控 | 处理时效: 8-12h → 45min (节省85%) |
 | 524 | [AI医疗拒赔申诉撰写器](/zh/use-cases/role/customer-support#_37-ai医疗拒赔申诉撰写器) | 客户支持经理 | 医疗健康 | 理赔处理 | 处理时效: 8-12h → 45min (节省85%) |
-| 525 | [AI A/B测试设计与分析顾问](/zh/use-cases/role/data-scientist#_6-ai-a/b测试设计与分析顾问) | 数据科学家 | 电商 | 数据分析 | 处理时效: 8-12h → 45min (节省85%) |
+| 525 | [AI A/B测试设计与分析顾问](/zh/use-cases/role/data-scientist#_6-ai-ab测试设计与分析顾问) | 数据科学家 | 电商 | 数据分析 | 处理时效: 8-12h → 45min (节省85%) |
 | 526 | [AI劳动合同起草助手](/zh/use-cases/role/legal#_26-ai劳动合同起草助手) | 法律顾问 | 管理咨询 | 法律起草 | 处理时效: 8-12h → 45min (节省85%) |
 | 527 | [AI活动推广内容规划器](/zh/use-cases/role/content-marketing#_44-ai活动推广内容规划器) | 营销经理 | 媒体 | 内容创作 | 处理时效: 8-12h → 45min (节省85%) |
 | 528 | [AI并购财务尽职调查助手](/zh/use-cases/role/finance#_37-ai并购财务尽职调查助手) | 财务经理 | 管理咨询 | 尽职调查 | 处理时效: 8-12h → 45min (节省85%) |
@@ -720,7 +720,7 @@
 | 638 | [AI智能合约漏洞扫描器](/zh/use-cases/role/crypto-analyst#_644-ai智能合约漏洞扫描器) | 加密分析师 | 加密/Web3 | 数据分析 | 完整智能合约安全扫描在2小时内完成（最多10,000行Solidity），而手动审计需要4-8周 |
 | 639 | [AI NFT系列底价与流动性追踪器](/zh/use-cases/role/crypto-analyst#_645-ai-nft系列底价与流动性追踪器) | 加密分析师 | 加密/Web3 | 数据分析 | 在监控的系列中识别已确认洗盘交易量，平均占报告交易量的47%，揭示真实有机需求信号 |
 | 640 | [AI加密税务批次匹配与盈亏计算器](/zh/use-cases/role/crypto-analyst#_646-ai加密税务批次匹配与盈亏计算器) | 加密分析师 | 加密/Web3 | 数据分析 | 跨8条链10,000+笔链上交易的全年对账在4小时内完成，而手动会计师时间需要40-120小时 |
-| 641 | [AI交易所KYC/AML工作流自动化引擎](/zh/use-cases/role/crypto-analyst#_647-ai交易所kyc-aml工作流自动化引擎) | 加密分析师 | 加密/Web3 | 数据分析 | 标准申请的客户身份验证和制裁筛查在3分钟内完成，将入职延迟从48-72小时缩短至同一会话内完成 |
+| 641 | [AI交易所KYC/AML工作流自动化引擎](/zh/use-cases/role/crypto-analyst#_647-ai交易所kycaml工作流自动化引擎) | 加密分析师 | 加密/Web3 | 数据分析 | 标准申请的客户身份验证和制裁筛查在3分钟内完成，将入职延迟从48-72小时缩短至同一会话内完成 |
 | 642 | [AI鲸鱼钱包积累与分发监控器](/zh/use-cases/role/crypto-analyst#_648-ai鲸鱼钱包积累与分发监控器) | 加密分析师 | 加密/Web3 | 数据分析 | 在2021–2024年数据回测中，确认的鲸鱼积累事件（3个以上大钱包同时积累）在67%的历史... |
 | 643 | [AI混币器与混淆器资金流追踪引擎](/zh/use-cases/role/crypto-analyst#_649-ai混币器与混淆器资金流追踪引擎) | 加密分析师 | 加密/Web3 | 数据分析 | 成功追踪经过7个混币混淆环节的资金流，附置信度校准概率分值，而手动分析最多可追踪1–2个环节 |
 | 644 | [AI DAO治理提案影响分析器](/zh/use-cases/role/crypto-analyst#_650-ai-dao治理提案影响分析器) | 加密分析师 | 加密/Web3 | 数据分析 | 从提案发布起2小时内完成全面治理提案分析，支持在投票窗口关闭前及时提供意见 |
@@ -734,7 +734,7 @@
 | 652 | [AI加密衍生品资金费率套利发现器](/zh/use-cases/role/crypto-analyst#_658-ai加密衍生品资金费率套利发现器) | 加密分析师 | 加密/Web3 | 数据分析 | 人工监控3-5个交易所 → 自动监控15+个交易所，平均提前2-4小时发现机会 |
 | 653 | [AI Layer-2网络拥堵与费用优化器](/zh/use-cases/role/crypto-analyst#_659-ai-layer-2网络拥堵与费用优化器) | 加密分析师 | 加密/Web3 | 数据分析 | 系统性L2费用路由将平均交易成本降低40-65%（vs.未优化的单链执行） |
 | 654 | [AI NFT版税收益追踪与分发引擎](/zh/use-cases/role/crypto-analyst#_660-ai-nft版税收益追踪与分发引擎) | 加密分析师 | 加密/Web3 | 数据分析 | 人工监控可覆盖2-3个市场 → COCO同时追踪15+个市场，无需增加任何分析师时间 |
-| 655 | [AI区块链矿工/验证者收益预测器](/zh/use-cases/role/crypto-analyst#_661-ai区块链矿工-验证者收益预测器) | 加密分析师 | 加密/Web3 | 数据分析 | COCO生成的完整验证者收入模型（含MEV）在90天期间内对实际验证者收入的追踪偏差在10-... |
+| 655 | [AI区块链矿工/验证者收益预测器](/zh/use-cases/role/crypto-analyst#_661-ai区块链矿工验证者收益预测器) | 加密分析师 | 加密/Web3 | 数据分析 | COCO生成的完整验证者收入模型（含MEV）在90天期间内对实际验证者收入的追踪偏差在10-... |
 | 656 | [AI加密市场操纵模式检测器](/zh/use-cases/role/crypto-analyst#_662-ai加密市场操纵模式检测器) | 加密分析师 | 加密/Web3 | 数据分析 | COCO在75-85%的后来经监管行动或学术分析确认的案例中识别出洗盘交易（vs.通过人工交... |
 | 657 | [AI LP季度报告生成器](/zh/use-cases/role/fund-manager#_681-ai-lp季度报告生成器) | 基金经理 | 金融服务 | 数据分析 | 3–4周 → 3–4个工作日 |
 | 658 | [AI交易流量管线评分与优先级排序引擎](/zh/use-cases/role/fund-manager#_682-ai交易流量管线评分与优先级排序引擎) | 基金经理 | 金融服务 | 数据分析 | 初始主题契合度评估从每笔45–60分钟缩短至不足8分钟，使团队以相同人员处理6倍入库量 |
@@ -796,7 +796,7 @@
 | 714 | [AI驱动的功能使用分析引擎](/zh/use-cases/role/ai-product-manager#_38-ai驱动的功能使用分析引擎) | AI产品经理 | 科技/SaaS | 流程自动化 | 拥有AI功能价值分析的团队，对哪些功能投资将改善留存的预测准确度高60% |
 | 715 | [AI产品OKR与成功指标框架构建器](/zh/use-cases/role/ai-product-manager#_39-ai产品okr与成功指标框架构建器) | AI产品经理 | 科技/SaaS | 流程自动化 | 精心设计的OKR框架将季度目标的对齐时间从3–4周减少到1–2周 |
 | 716 | [AI企业AI产品上市战略顾问](/zh/use-cases/role/ai-product-manager#_40-ai企业ai产品上市战略顾问) | AI产品经理 | 科技/SaaS | 流程自动化 | 结构化的企业AI上市项目将POC到关闭的转化率提升30–45%，相比临时企业销售方法 |
-| 717 | [AI市场规模与TAM/SAM/SOM计算器](/zh/use-cases/role/research-analyst#_1-ai市场规模与tam-sam-som计算器) | 研究分析师 | 咨询 | 调研与监控 | 5–8个分析师工作日 → 12小时以内 |
+| 717 | [AI市场规模与TAM/SAM/SOM计算器](/zh/use-cases/role/research-analyst#_1-ai市场规模与tamsamsom计算器) | 研究分析师 | 咨询 | 调研与监控 | 5–8个分析师工作日 → 12小时以内 |
 | 718 | [AI竞争情报深度报告构建器](/zh/use-cases/role/research-analyst#_2-ai竞争情报深度报告构建器) | 研究分析师 | 咨询 | 调研与监控 | 40–60个分析师小时 → 6–10小时 |
 | 719 | [AI行业趋势信号聚合与综合器](/zh/use-cases/role/research-analyst#_3-ai行业趋势信号聚合与综合器) | 研究分析师 | 咨询 | 调研与监控 | COCO维护的监控覆盖100+个相关来源，而典型的手动监控只覆盖15–20个，使信号捕获率提... |
 | 720 | [AI专家访谈指南与问题库生成器](/zh/use-cases/role/research-analyst#_4-ai专家访谈指南与问题库生成器) | 研究分析师 | 咨询 | 调研与监控 | 定制化访谈指南生成时间从每位受访者3–4小时减少至30分钟审阅与定制（节省85%以上时间） |
@@ -832,7 +832,7 @@
 | 750 | [AI区块链节点基础设施成本优化器](/zh/use-cases/role/crypto-analyst#_666-ai区块链节点基础设施成本优化器) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | 项目筛选: 30-45min → 8-12min |
 | 751 | [AI加密风险投资交易流筛选器](/zh/use-cases/role/crypto-analyst#_667-ai加密风险投资交易流筛选器) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | 合规缺口: 发现4-7个申报缺口 |
 | 752 | [AI代币发行监管申报合规检查器](/zh/use-cases/role/crypto-analyst#_668-ai代币发行监管申报合规检查器) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | MEV机会: 每日识别5-15个 |
-| 753 | [AI MEV（最大可提取价值）机会分析器](/zh/use-cases/role/crypto-analyst#_669-ai-mev-最大可提取价值-机会分析器) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | 资金库延续: 延长40-80% |
+| 753 | [AI MEV（最大可提取价值）机会分析器](/zh/use-cases/role/crypto-analyst#_669-ai-mev最大可提取价值机会分析器) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | 资金库延续: 延长40-80% |
 | 754 | [AI加密协议财库管理顾问](/zh/use-cases/role/crypto-analyst#_670-ai加密协议财库管理顾问) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | 合规评估: 3-6周 → 1-2周 |
 | 755 | [AI跨境加密汇款合规审查器](/zh/use-cases/role/crypto-analyst#_671-ai跨境加密汇款合规审查器) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | Gas消耗: 每函数降低20-45% |
 | 756 | [AI智能合约Gas优化顾问](/zh/use-cases/role/crypto-analyst#_672-ai智能合约gas优化顾问) | 加密货币与Web3分析师 | 加密/Web3 | 分析 | 清算防护率: 75-85% |
@@ -968,7 +968,7 @@
 | 886 | [AI学位论文结构顾问](/zh/use-cases/role/researcher#_19-ai学位论文结构顾问) | 研究员 | 高等教育 | 写作与内容 | CVE分类: 6h/周 → 45min/周 |
 | 887 | [AI研究合作网络分析器](/zh/use-cases/role/researcher#_20-ai研究合作网络分析器) | 研究员 | 材料科学 | 数据分析 | 流水线失败: 22% → 8% |
 | 888 | [AI容器镜像漏洞扫描器](/zh/use-cases/role/devops#_12-ai容器镜像漏洞扫描器) | DevOps工程师 | 金融科技 | 调研与监控 | 流量异常: 52分钟 → 8分钟 |
-| 889 | [AI CI/CD管道故障预测器](/zh/use-cases/role/devops#_13-ai-ci-cd管道故障预测器) | DevOps工程师 | SaaS | 流程自动化 | 误报率: 68% → 14% |
+| 889 | [AI CI/CD管道故障预测器](/zh/use-cases/role/devops#_13-ai-cicd管道故障预测器) | DevOps工程师 | SaaS | 流程自动化 | 误报率: 68% → 14% |
 | 890 | [AI服务网格流量分析器](/zh/use-cases/role/devops#_14-ai服务网格流量分析器) | DevOps工程师 | 媒体与流媒体 | 数据分析 | 未检测漂移: 23/季 → 2/季 |
 | 891 | [AI日志聚合与异常分类器](/zh/use-cases/role/devops#_15-ai日志聚合与异常分类器) | DevOps工程师 | 医疗IT | 数据分析 | DR陈旧性: 年度 → 持续监控 |
 | 892 | [AI基础设施漂移检测器](/zh/use-cases/role/devops#_16-ai基础设施漂移检测器) | DevOps工程师 | 电商 | 流程自动化 | 标签合规: 47% → 94% |
@@ -996,12 +996,12 @@
 | 914 | [AI客户健康度评分器](/zh/use-cases/role/customer-support#_13-ai客户健康度评分器) | 客服 | 科技/SaaS | 数据分析 | 覆盖率20%→100% |
 | 915 | [AI演示文稿构建器](/zh/use-cases/role/sales#_15-ai演示文稿构建器) | 销售 | 科技/SaaS | 写作与内容 | 15小时→1小时 |
 | 916 | [AI招聘营销文案助手](/zh/use-cases/role/hr-recruiting#_10-ai招聘营销文案助手) | HR | 科技/SaaS | 写作与内容 | 点击率+65%，优质申请+40% |
-| 917 | [AI产品无障碍与包容性设计审计师](/zh/use-cases/role/ai-product-manager#_41-ai-产品无障碍与包容性设计审计师) | AI产品经理 | 科技/SaaS | 数据分析 | 边缘用户留存提升25-40% |
-| 918 | [AI产品技术债务评估与重构规划师](/zh/use-cases/role/ai-product-manager#_42-ai-产品技术债务评估与重构规划师) | AI产品经理 | 科技/SaaS | 数据分析 | 交付周期缩短30-50% |
-| 919 | [AI产品用户分群与个性化引擎](/zh/use-cases/role/ai-product-manager#_43-ai-产品用户分群与个性化引擎) | AI产品经理 | 科技/SaaS | 流程自动化 | 60天留存提升20-35% |
-| 920 | [AI产品竞争情报监测系统](/zh/use-cases/role/ai-product-manager#_44-ai-产品竞争情报监测系统) | AI产品经理 | 科技/SaaS | 调研与监控 | 竞争响应: 2-3周→3-5天 |
-| 921 | [AI产品知识管理与文档体系](/zh/use-cases/role/ai-product-manager#_45-ai-产品知识管理与文档体系) | AI产品经理 | 科技/SaaS | 写作与内容 | 新人上手: 3-4月→6-8周 |
-| 922 | [AI产品危机沟通与利益相关者管理手册](/zh/use-cases/role/ai-product-manager#_46-ai-产品危机沟通与利益相关者管理手册) | AI产品经理 | 科技/SaaS | 写作与内容 | 危机响应: 24-72h→4-8h |
-| 923 | [AI产品收益归因与商业案例构建器](/zh/use-cases/role/ai-product-manager#_47-ai-产品收益归因与商业案例构建器) | AI产品经理 | 科技/SaaS | 数据分析 | 预算审批率提升50-70% |
-| 924 | [AI产品生态系统与合作伙伴策略构建器](/zh/use-cases/role/ai-product-manager#_48-ai-产品生态系统与合作伙伴策略构建器) | AI产品经理 | 科技/SaaS | 数据分析 | 渠道收入贡献20-40% |
-| 925 | [AI产品长期愿景与创新管道构建器](/zh/use-cases/role/ai-product-manager#_49-ai-产品长期愿景与创新管道构建器) | AI产品经理 | 科技/SaaS | 数据分析 | 创新项目成功率: 20-30%→50-60% |
+| 917 | [AI 产品无障碍与包容性设计审计师](/zh/use-cases/role/ai-product-manager#_41-ai-产品无障碍与包容性设计审计师) | AI产品经理 | 科技/SaaS | 数据分析 | 边缘用户留存提升25-40% |
+| 918 | [AI 产品技术债务评估与重构规划师](/zh/use-cases/role/ai-product-manager#_42-ai-产品技术债务评估与重构规划师) | AI产品经理 | 科技/SaaS | 数据分析 | 交付周期缩短30-50% |
+| 919 | [AI 产品用户分群与个性化引擎](/zh/use-cases/role/ai-product-manager#_43-ai-产品用户分群与个性化引擎) | AI产品经理 | 科技/SaaS | 流程自动化 | 60天留存提升20-35% |
+| 920 | [AI 产品竞争情报监测系统](/zh/use-cases/role/ai-product-manager#_44-ai-产品竞争情报监测系统) | AI产品经理 | 科技/SaaS | 调研与监控 | 竞争响应: 2-3周→3-5天 |
+| 921 | [AI 产品知识管理与文档体系](/zh/use-cases/role/ai-product-manager#_45-ai-产品知识管理与文档体系) | AI产品经理 | 科技/SaaS | 写作与内容 | 新人上手: 3-4月→6-8周 |
+| 922 | [AI 产品危机沟通与利益相关者管理手册](/zh/use-cases/role/ai-product-manager#_46-ai-产品危机沟通与利益相关者管理手册) | AI产品经理 | 科技/SaaS | 写作与内容 | 危机响应: 24-72h→4-8h |
+| 923 | [AI 产品收益归因与商业案例构建器](/zh/use-cases/role/ai-product-manager#_47-ai-产品收益归因与商业案例构建器) | AI产品经理 | 科技/SaaS | 数据分析 | 预算审批率提升50-70% |
+| 924 | [AI 产品生态系统与合作伙伴策略构建器](/zh/use-cases/role/ai-product-manager#_48-ai-产品生态系统与合作伙伴策略构建器) | AI产品经理 | 科技/SaaS | 数据分析 | 渠道收入贡献20-40% |
+| 925 | [AI 产品长期愿景与创新管道构建器](/zh/use-cases/role/ai-product-manager#_49-ai-产品长期愿景与创新管道构建器) | AI产品经理 | 科技/SaaS | 数据分析 | 创新项目成功率: 20-30%→50-60% |

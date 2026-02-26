@@ -217,7 +217,7 @@ Find use cases by what you need to get done:
 | 135 | [AI Route Optimizer](/use-cases/role/logistics-manager#_3-ai-route-optimizer) | Logistics Manager | Logistics | Automation | Cost -20% |
 | 136 | [AI Guest Upsell Recommender](/use-cases/role/sales#_21-ai-guest-upsell-recommender) | Sales | Hospitality | Automation | Efficiency +18% |
 | 137 | [AI Bill of Materials Checker](/use-cases/role/procurement#_1-ai-bill-of-materials-checker) | Procurement | Manufacturing | Automation | Manual → 3 minutes |
-| 138 | [AI Consulting Deck Builder](/use-cases/role/consultant#_3-ai-management-consulting-deck-builder) | Consultant | Consulting | Automation | Manual → 25 minutes |
+| 138 | [AI Consulting Deck Builder](/use-cases/role/consultant#_3-ai-consulting-deck-builder) | Consultant | Consulting | Automation | Manual → 25 minutes |
 | 139 | [AI Volunteer Coordinator](/use-cases/role/operations#_29-ai-volunteer-coordinator) | Operations | Nonprofit | Automation | Hours → minutes |
 | 140 | [AI Constituent Feedback Analyzer](/use-cases/role/data-analyst#_7-ai-constituent-feedback-analyzer) | Data Analyst | Government | Analysis | Days → hours |
 | 141 | [AI Pest Detection Advisor](/use-cases/role/consultant#_4-ai-pest-detection-advisor) | Consultant | Agriculture | Research | Accuracy: 95%+ |
@@ -268,7 +268,7 @@ Find use cases by what you need to get done:
 | 186 | [AI Annual Report Assembler](/use-cases/role/executive#_2-ai-annual-report-assembler) | Executive | Nonprofit | Writing | Manual → 3 hours |
 | 187 | [AI Procurement Bid Evaluator](/use-cases/role/procurement#_5-ai-procurement-bid-evaluator) | Procurement | Government | Automation | Manual days → 45 minutes |
 | 188 | [AI Livestock Health Monitor](/use-cases/role/operations#_35-ai-livestock-health-monitor) | Operations | Agriculture | Research | Days → 48 hours |
-| 189 | [AI PPA Reviewer](/use-cases/role/legal#_9-ai-power-purchase-agreement-reviewer) | Legal | Energy | Research | Manual checks → 10 minutes |
+| 189 | [AI PPA Reviewer](/use-cases/role/legal#_9-ai-ppa-reviewer) | Legal | Energy | Research | Manual checks → 10 minutes |
 | 190 | [AI Actuarial Scenario Runner](/use-cases/role/finance#_19-ai-actuarial-scenario-runner) | Finance | Insurance | Analysis | Manual → 30 minutes |
 | 191 | [AI Audience Segmentation Engine](/use-cases/role/content-marketing#_23-ai-audience-segmentation-engine) | Content / Marketing | Media & Entertainment | Automation | Hours → minutes |
 | 192 | [AI Service Ticket Predictor](/use-cases/role/customer-support#_14-ai-service-ticket-predictor) | Customer Support | Telecom | Research | Days → 6 hours |
@@ -277,7 +277,7 @@ Find use cases by what you need to get done:
 | 195 | [AI Tenant Screening Processor](/use-cases/role/operations#_36-ai-tenant-screening-processor) | Operations | Real Estate | Automation | Manual days → 3 minutes |
 | 196 | [AI OKR Progress Tracker](/use-cases/role/executive#_3-ai-okr-progress-tracker) | Executive | Enterprise | Automation | Manual → real-time |
 | 197 | [AI Referral Network Mapper](/use-cases/role/sales#_23-ai-referral-network-mapper) | Sales | Healthcare | Research | Hours → minutes |
-| 198 | [AI Comparative Market Analysis Builder](/use-cases/role/sales#_24-ai-comparative-market-analysis) | Sales | Real Estate | Analysis | Hours → minutes |
+| 198 | [AI Comparative Market Analysis Builder](/use-cases/role/sales#_24-ai-comparative-market-analysis-builder) | Sales | Real Estate | Analysis | Hours → minutes |
 | 199 | [AI Board Meeting Prep Assistant](/use-cases/role/executive#_4-ai-board-meeting-prep-assistant) | Executive | Enterprise | Research | Hours → minutes |
 | 200 | [AI Accessibility Compliance Checker](/use-cases/role/qa-engineer#_3-ai-accessibility-compliance-checker) | QA Engineer | Technology / SaaS | Research | Manual → automated |
 | 201 | [AI User Interview Synthesizer](/use-cases/role/product#_6-ai-user-interview-synthesizer) | Product | Tech/SaaS | Analysis | Synthesis: 3 weeks → 4 hours |
@@ -295,19 +295,19 @@ Find use cases by what you need to get done:
 | 213 | [AI Product Launch Planner](/use-cases/role/product#_18-ai-product-launch-planner) | Product | Tech/SaaS | Automation | Launch task completion: 70% → 92%+ |
 | 214 | [AI Competitive Battlecard Builder](/use-cases/role/product#_19-ai-competitive-battlecard-builder) | Product | Tech/SaaS | Analysis | Battlecard creation: 8–12h → 2–3h |
 | 215 | [AI Technical Debt Prioritizer](/use-cases/role/dev#_22-ai-technical-debt-prioritizer) | Dev | Tech/SaaS | Analysis | Remediation ROI 3× vs. ad-hoc fixes |
-| 216 | [AI Code Refactoring Advisor](/use-cases/role/dev#_23-ai-code-refactoring-advisor) | Dev | Tech/SaaS | Automation | Post-refactoring incidents -70% |
-| 217 | [AI Code Coverage Gap Finder](/use-cases/role/dev#_24-ai-code-coverage-gap-finder) | Dev | Tech/SaaS | Analysis | Bug escape rate -45–65% |
-| 218 | [AI Incident Root Cause Analyzer](/use-cases/role/dev#_25-ai-incident-root-cause-analyzer) | Dev | Tech/SaaS | Analysis | MTTR: 4–8h → 45–90min |
-| 219 | [AI Infrastructure Cost Optimizer](/use-cases/role/dev#_26-ai-infrastructure-cost-optimizer) | Dev | Tech/SaaS | Analysis | 25–40% of cloud spend optimizable |
-| 220 | [AI CI/CD Pipeline Optimizer](/use-cases/role/dev#_27-ai-ci-cd-pipeline-optimizer) | Dev | Tech/SaaS | Automation | Pipeline runtime -40–60% |
-| 221 | [AI System Design Reviewer](/use-cases/role/dev#_28-ai-system-design-reviewer) | Dev | Tech/SaaS | Analysis | 60–70% issues caught pre-implementation |
-| 222 | [AI Microservices Dependency Analyzer](/use-cases/role/dev#_29-ai-microservices-dependency-analyzer) | Dev | Tech/SaaS | Analysis | MTTR -60–70% via blast radius visibility |
-| 223 | [AI API Design Validator](/use-cases/role/dev#_30-ai-api-design-validator) | Dev | Tech/SaaS | Analysis | 75% issues caught before consumers |
-| 224 | [AI Threat Model Generator](/use-cases/role/dev#_31-ai-threat-model-generator) | Dev | Tech/SaaS | Research | 3–4× more threats vs. ad-hoc review |
-| 225 | [AI Security Incident Forensics Assistant](/use-cases/role/dev#_32-ai-security-incident-forensics-assistant) | Dev | Tech/SaaS | Analysis | Timeline: 2–4 weeks → 12–24 hours |
-| 226 | [AI Access Permission Auditor](/use-cases/role/dev#_33-ai-access-permission-auditor) | Dev | Tech/SaaS | Research | 35–50% unused permissions found |
+| 216 | [AI Code Refactoring Advisor](/use-cases/role/dev#case-23) | Dev | Tech/SaaS | Automation | Post-refactoring incidents -70% |
+| 217 | [AI Code Coverage Gap Finder](/use-cases/role/dev#case-24) | Dev | Tech/SaaS | Analysis | Bug escape rate -45–65% |
+| 218 | [AI Incident Root Cause Analyzer](/use-cases/role/dev#case-25) | Dev | Tech/SaaS | Analysis | MTTR: 4–8h → 45–90min |
+| 219 | [AI Infrastructure Cost Optimizer](/use-cases/role/dev#case-26) | Dev | Tech/SaaS | Analysis | 25–40% of cloud spend optimizable |
+| 220 | [AI CI/CD Pipeline Optimizer](/use-cases/role/dev#case-27) | Dev | Tech/SaaS | Automation | Pipeline runtime -40–60% |
+| 221 | [AI System Design Reviewer](/use-cases/role/dev#case-28) | Dev | Tech/SaaS | Analysis | 60–70% issues caught pre-implementation |
+| 222 | [AI Microservices Dependency Analyzer](/use-cases/role/dev#case-29) | Dev | Tech/SaaS | Analysis | MTTR -60–70% via blast radius visibility |
+| 223 | [AI API Design Validator](/use-cases/role/dev#case-30) | Dev | Tech/SaaS | Analysis | 75% issues caught before consumers |
+| 224 | [AI Threat Model Generator](/use-cases/role/dev#case-31) | Dev | Tech/SaaS | Research | 3–4× more threats vs. ad-hoc review |
+| 225 | [AI Security Incident Forensics Assistant](/use-cases/role/dev#case-32) | Dev | Tech/SaaS | Analysis | Timeline: 2–4 weeks → 12–24 hours |
+| 226 | [AI Access Permission Auditor](/use-cases/role/dev#case-33) | Dev | Tech/SaaS | Research | 35–50% unused permissions found |
 | 227 | [AI Product-Market Fit Validator](/use-cases/role/pm#_3-ai-product-market-fit-validator) | PM | SaaS/B2B | Analysis | PMF research: 4 weeks → 1 week |
-| 228 | [AI Legacy Code Archaeologist](/use-cases/role/dev#_34-ai-legacy-code-archaeologist) | Dev | Enterprise/SaaS | Analysis | Incident diagnosis -55% |
+| 228 | [AI Legacy Code Archaeologist](/use-cases/role/dev#case-34) | Dev | Enterprise/SaaS | Analysis | Incident diagnosis -55% |
 | 229 | [AI Working Capital Optimizer](/use-cases/role/finance#_20-ai-working-capital-optimizer) | Finance | Manufacturing/Retail | Analysis | DSO reduced 8–12 days |
 | 230 | [AI Executive Meeting Prep Assistant](/use-cases/role/executive#_5-ai-executive-meeting-prep-assistant) | Executive | Enterprise | Automation | Prep: 45–90 min → 8–12 min |
 | 231 | [AI Viral Content Hook Generator](/use-cases/role/content-marketing#_24-ai-viral-content-hook-generator) | Marketing | SaaS/Media | Writing | Engagement 2.3–4.1× uplift |
@@ -323,18 +323,18 @@ Find use cases by what you need to get done:
 | 241 | [AI Customer Feedback Aggregator](/use-cases/role/pm#_13-ai-customer-feedback-aggregator) | PM | SaaS/B2B | Research | Synthesis time: 7.4h → 90min |
 | 242 | [AI PRD Writing Assistant](/use-cases/role/pm#_14-ai-prd-writing-assistant) | PM | SaaS/B2B | Writing | PRD: 4–6h → 60–90min |
 | 243 | [AI Pricing Strategy Advisor](/use-cases/role/pm#_15-ai-pricing-strategy-advisor) | PM | SaaS/B2B | Analysis | NDR improvement +22 pts |
-| 244 | [AI Code Documentation Generator](/use-cases/role/dev#_35-ai-code-documentation-generator) | Dev | SaaS/Fintech | Writing | Doc coverage: 20% → 80–90% |
-| 245 | [AI Performance Bottleneck Detective](/use-cases/role/dev#_36-ai-performance-bottleneck-detective) | Dev | SaaS/E-commerce | Analysis | Root cause time -65% |
-| 246 | [AI API Design Reviewer](/use-cases/role/dev#_37-ai-api-design-reviewer) | Dev | SaaS/Platform | Analysis | Integration tickets -44% |
-| 247 | [AI Database Schema Optimizer](/use-cases/role/dev#_38-ai-database-schema-optimizer) | Dev | SaaS/E-commerce | Analysis | Query perf: 60–85% improvement |
-| 248 | [AI Incident Post-Mortem Writer](/use-cases/role/dev#_39-ai-incident-post-mortem-writer) | Dev | SaaS/Fintech | Writing | Completion rate: 31% → 84% |
-| 249 | [AI Dependency Vulnerability Scanner](/use-cases/role/dev#_40-ai-dependency-vulnerability-scanner) | Dev | SaaS/Fintech | Research | Patch time: 47 → 12 days |
-| 250 | [AI Test Case Generator](/use-cases/role/dev#_41-ai-test-case-generator) | Dev | SaaS/Fintech | Automation | Bug escape rate -49% |
-| 251 | [AI Code Refactoring Strategist](/use-cases/role/dev#_42-ai-code-refactoring-strategist) | Dev | SaaS/Fintech | Analysis | Bug density -44% after refactor |
-| 252 | [AI System Architecture Advisor](/use-cases/role/dev#_43-ai-system-architecture-advisor) | Dev | SaaS/Platform | Analysis | Architecture pivots -63% |
-| 253 | [AI CI/CD Pipeline Optimizer](/use-cases/role/dev#_44-ai-cicd-pipeline-optimizer) | Dev | SaaS/Platform | Automation | Pipeline time -52% |
-| 254 | [AI Error Log Analyzer](/use-cases/role/dev#_45-ai-error-log-analyzer) | Dev | SaaS/E-commerce | Analysis | Diagnosis time -58% |
-| 255 | [AI Open Source Contribution Reviewer](/use-cases/role/dev#_46-ai-open-source-contribution-reviewer) | Dev | SaaS/Platform | Research | Review cycles -54% |
+| 244 | [AI Code Documentation Generator](/use-cases/role/dev#case-35) | Dev | SaaS/Fintech | Writing | Doc coverage: 20% → 80–90% |
+| 245 | [AI Performance Bottleneck Detective](/use-cases/role/dev#case-36) | Dev | SaaS/E-commerce | Analysis | Root cause time -65% |
+| 246 | [AI API Design Reviewer](/use-cases/role/dev#case-37) | Dev | SaaS/Platform | Analysis | Integration tickets -44% |
+| 247 | [AI Database Schema Optimizer](/use-cases/role/dev#case-38) | Dev | SaaS/E-commerce | Analysis | Query perf: 60–85% improvement |
+| 248 | [AI Incident Post-Mortem Writer](/use-cases/role/dev#case-39) | Dev | SaaS/Fintech | Writing | Completion rate: 31% → 84% |
+| 249 | [AI Dependency Vulnerability Scanner](/use-cases/role/dev#case-40) | Dev | SaaS/Fintech | Research | Patch time: 47 → 12 days |
+| 250 | [AI Test Case Generator](/use-cases/role/dev#case-41) | Dev | SaaS/Fintech | Automation | Bug escape rate -49% |
+| 251 | [AI Code Refactoring Strategist](/use-cases/role/dev#case-42) | Dev | SaaS/Fintech | Analysis | Bug density -44% after refactor |
+| 252 | [AI System Architecture Advisor](/use-cases/role/dev#case-43) | Dev | SaaS/Platform | Analysis | Architecture pivots -63% |
+| 253 | [AI CI/CD Pipeline Optimizer](/use-cases/role/dev#case-44) | Dev | SaaS/Platform | Automation | Pipeline time -52% |
+| 254 | [AI Error Log Analyzer](/use-cases/role/dev#case-45) | Dev | SaaS/E-commerce | Analysis | Diagnosis time -58% |
+| 255 | [AI Open Source Contribution Reviewer](/use-cases/role/dev#case-46) | Dev | SaaS/Platform | Research | Review cycles -54% |
 | 256 | [AI Budget Variance Explainer](/use-cases/role/finance#_21-ai-budget-variance-explainer) | Finance | Finance/SaaS | Analysis | Variance prep: 15–30h → 4–6h |
 | 257 | [AI Investor Relations Prep Assistant](/use-cases/role/finance#_22-ai-investor-relations-prep-assistant) | Finance | Finance/SaaS | Writing | Earnings prep -50–55% time |
 | 258 | [AI Tax Planning Advisor](/use-cases/role/finance#_23-ai-tax-planning-advisor) | Finance | Finance/SaaS | Analysis | Effective tax rate -3–6 pts |
@@ -604,7 +604,7 @@ Find use cases by what you need to get done:
 | 522 | [AI Retail Customer Win-Back Planner](/use-cases/role/content-marketing#_43-ai-retail-customer-win-back-planner) |  Marketing Manager | Retail | Customer Win-Back | Processing: 8-12h → 45min (85% savings) |
 | 523 | [AI Logistics Carrier Performance Scorecard](/use-cases/role/logistics-manager#_13-ai-logistics-carrier-performance-scorecard) |  Logistics Manager | Logistics | Performance Monitoring | Processing: 8-12h → 45min (85% savings) |
 | 524 | [AI Healthcare Claims Denial Appeal Writer](/use-cases/role/customer-support#_37-ai-healthcare-claims-denial-appeal-writer) |  Customer Support Manager | Healthcare | Claims Processing | Processing: 8-12h → 45min (85% savings) |
-| 525 | [AI A/B Test Design and Analysis Advisor](/use-cases/role/data-scientist#_6-ai-a/b-test-design-and-analysis-advisor) |  Data Scientist | E-Commerce | Data Analysis | Processing: 8-12h → 45min (85% savings) |
+| 525 | [AI A/B Test Design and Analysis Advisor](/use-cases/role/data-scientist#_6-ai-ab-test-design-and-analysis-advisor) |  Data Scientist | E-Commerce | Data Analysis | Processing: 8-12h → 45min (85% savings) |
 | 526 | [AI Employment Contract Drafting Assistant](/use-cases/role/legal#_34-ai-employment-contract-drafting-assistant) |  Legal Counsel | Management Consulting | Legal Drafting | Processing: 8-12h → 45min (85% savings) |
 | 527 | [AI Event Promotion Content Planner](/use-cases/role/content-marketing#_44-ai-event-promotion-content-planner) |  Marketing Manager | Media | Content Creation | Processing: 8-12h → 45min (85% savings) |
 | 528 | [AI M&A Financial Due Diligence Assistant](/use-cases/role/finance#_37-ai-ma-financial-due-diligence-assistant) |  Finance Manager | Management Consulting | Due Diligence | Processing: 8-12h → 45min (85% savings) |
@@ -693,7 +693,7 @@ Find use cases by what you need to get done:
 | 611 | [AI Anti-Bribery & FCPA Compliance Checker](/use-cases/role/due-diligence-analyst#_12-ai-anti-bribery-fcpa-compliance-checker) | Due Diligence Analyst | Financial Services | Research | AI transaction analysis identifies corruption r... |
 | 612 | [AI Shell Company Detection & Risk Scorer](/use-cases/role/due-diligence-analyst#_13-ai-shell-company-detection-risk-scorer) | Due Diligence Analyst | Financial Services | Research | AI multi-indicator analysis identifies suspecte... |
 | 613 | [AI Data Room Organization & Gap Identifier](/use-cases/role/due-diligence-analyst#_14-ai-data-room-organization-gap-identifier) | Due Diligence Analyst | Financial Services | Research | AI-powered data room classification and gap ana... |
-| 614 | [AI Cross-Border M&A Regulatory Risk Mapper](/use-cases/role/due-diligence-analyst#_15-ai-cross-border-m-a-regulatory-risk-mapper) | Due Diligence Analyst | Financial Services | Research | AI-assisted mapping identifies 100% of mandator... |
+| 614 | [AI Cross-Border M&A Regulatory Risk Mapper](/use-cases/role/due-diligence-analyst#_15-ai-cross-border-ma-regulatory-risk-mapper) | Due Diligence Analyst | Financial Services | Research | AI-assisted mapping identifies 100% of mandator... |
 | 615 | [AI Supplier Integrity & Third-Party Risk Profiler](/use-cases/role/due-diligence-analyst#_16-ai-supplier-integrity-third-party-risk-profiler) | Due Diligence Analyst | Financial Services | Research | AI spend analysis identifies dangerous single-s... |
 | 616 | [AI Investment Target Red Flag Screener](/use-cases/role/due-diligence-analyst#_17-ai-investment-target-red-flag-screener) | Due Diligence Analyst | Financial Services | Research | AI pre-LOI screening identifies disqualifying r... |
 | 617 | [AI VIE Structure Unwinding & Risk Analyzer](/use-cases/role/due-diligence-analyst#_18-ai-vie-structure-unwinding-risk-analyzer) | Due Diligence Analyst | Financial Services | Research | AI agreement analysis identifies material VIE c... |
@@ -719,8 +719,8 @@ Find use cases by what you need to get done:
 | 637 | [AI Token Economics Model Builder](/use-cases/role/crypto-analyst#_643-ai-token-economics-model-builder) | Crypto Analyst | Crypto/Web3 | Analysis | Full tokenomics model construction reduced from... |
 | 638 | [AI Smart Contract Vulnerability Scanner](/use-cases/role/crypto-analyst#_644-ai-smart-contract-vulnerability-scanner) | Crypto Analyst | Crypto/Web3 | Analysis | Full smart contract security scan completed in ... |
 | 639 | [AI NFT Collection Floor Price & Liquidity Tracker](/use-cases/role/crypto-analyst#_645-ai-nft-collection-floor-price-liquidity-tracker) | Crypto Analyst | Crypto/Web3 | Analysis | Identifies confirmed wash trade volume represen... |
-| 640 | [AI Crypto Tax Lot Matching & P&L Calculator](/use-cases/role/crypto-analyst#_646-ai-crypto-tax-lot-matching-p-l-calculator) | Crypto Analyst | Crypto/Web3 | Analysis | Full-year reconciliation for 10,000+ on-chain t... |
-| 641 | [AI Exchange KYC/AML Workflow Automation Engine](/use-cases/role/crypto-analyst#_647-ai-exchange-kyc-aml-workflow-automation-engine) | Crypto Analyst | Crypto/Web3 | Analysis | Customer identity verification and sanctions sc... |
+| 640 | [AI Crypto Tax Lot Matching & P&L Calculator](/use-cases/role/crypto-analyst#_646-ai-crypto-tax-lot-matching-pl-calculator) | Crypto Analyst | Crypto/Web3 | Analysis | Full-year reconciliation for 10,000+ on-chain t... |
+| 641 | [AI Exchange KYC/AML Workflow Automation Engine](/use-cases/role/crypto-analyst#_647-ai-exchange-kycaml-workflow-automation-engine) | Crypto Analyst | Crypto/Web3 | Analysis | Customer identity verification and sanctions sc... |
 | 642 | [AI Whale Wallet Accumulation & Distribution Monitor](/use-cases/role/crypto-analyst#_648-ai-whale-wallet-accumulation-distribution-monitor) | Crypto Analyst | Crypto/Web3 | Analysis | Confirmed whale accumulation events (3+ large w... |
 | 643 | [AI Mixer & Tumbler Fund Flow Tracing Engine](/use-cases/role/crypto-analyst#_649-ai-mixer-tumbler-fund-flow-tracing-engine) | Crypto Analyst | Crypto/Web3 | Analysis | Successfully traces fund flows through up to 7 ... |
 | 644 | [AI DAO Governance Proposal Impact Analyzer](/use-cases/role/crypto-analyst#_650-ai-dao-governance-proposal-impact-analyzer) | Crypto Analyst | Crypto/Web3 | Analysis | Comprehensive governance proposal analysis comp... |
@@ -744,7 +744,7 @@ Find use cases by what you need to get done:
 | 662 | [AI Portfolio Company KPI Health Monitor](/use-cases/role/fund-manager#_686-ai-portfolio-company-kpi-health-monitor) | Fund Manager | Financial Services | Analysis | Material performance deterioration flagged an a... |
 | 663 | [AI IRR & MOIC Sensitivity Scenario Calculator](/use-cases/role/fund-manager#_687-ai-irr-moic-sensitivity-scenario-calculator) | Fund Manager | Financial Services | Analysis | Investment committee presentations now include ... |
 | 664 | [AI Co-Investment Opportunity Risk-Return Analyzer](/use-cases/role/fund-manager#_688-ai-co-investment-opportunity-risk-return-analyzer) | Fund Manager | Financial Services | Analysis | Comprehensive risk-return assessment completed ... |
-| 665 | [AI M&A Add-On Target Screening Engine](/use-cases/role/fund-manager#_689-ai-m-a-add-on-target-screening-engine) | Fund Manager | Financial Services | Analysis | COCO identifies an average of 4.2x more potenti... |
+| 665 | [AI M&A Add-On Target Screening Engine](/use-cases/role/fund-manager#_689-ai-ma-add-on-target-screening-engine) | Fund Manager | Financial Services | Analysis | COCO identifies an average of 4.2x more potenti... |
 | 666 | [AI Investment Memo Drafting Assistant](/use-cases/role/fund-manager#_690-ai-investment-memo-drafting-assistant) | Fund Manager | Financial Services | Analysis | First complete draft produced in under 6 hours ... |
 | 667 | [AI Fund Marketing Deck & Pitch Book Builder](/use-cases/role/fund-manager#_691-ai-fund-marketing-deck-pitch-book-builder) | Fund Manager | Financial Services | Analysis | 8–12 weeks → 2–3 weeks |
 | 668 | [AI LP Relationship & Commitment Tracker](/use-cases/role/fund-manager#_692-ai-lp-relationship-commitment-tracker) | Fund Manager | Financial Services | Analysis | Average time from LP inquiry or information req... |
@@ -796,7 +796,7 @@ Find use cases by what you need to get done:
 | 714 | [AI AI-Powered Feature Usage Analytics Engine](/use-cases/role/ai-product-manager#_38-ai-ai-powered-feature-usage-analytics-engine) | AI PM | Tech/SaaS | Automation | Teams with AI feature value analytics make 60% ... |
 | 715 | [AI Product OKR & Success Metrics Framework Builder](/use-cases/role/ai-product-manager#_39-ai-product-okr-success-metrics-framework-builder) | AI PM | Tech/SaaS | Automation | 3–4 weeks → 1–2 weeks |
 | 716 | [AI Enterprise AI Product Go-to-Market Strategy Advisor](/use-cases/role/ai-product-manager#_40-ai-enterprise-ai-product-go-to-market-strategy-advisor) | AI PM | Tech/SaaS | Automation | Structured enterprise AI GTM programs improve P... |
-| 717 | [AI Market Sizing & TAM/SAM/SOM Calculator](/use-cases/role/research-analyst#_1-ai-market-sizing-tam-sam-som-calculator) | Research Analyst | Consulting | Research | 75–85% savings |
+| 717 | [AI Market Sizing & TAM/SAM/SOM Calculator](/use-cases/role/research-analyst#_1-ai-market-sizing-tamsamsom-calculator) | Research Analyst | Consulting | Research | 75–85% savings |
 | 718 | [AI Competitive Intelligence Deep-Dive Report Builder](/use-cases/role/research-analyst#_2-ai-competitive-intelligence-deep-dive-report-builder) | Research Analyst | Consulting | Research | 40–60 analyst hours → 6–10 hours per competitor |
 | 719 | [AI Industry Trend Signal Aggregator & Synthesizer](/use-cases/role/research-analyst#_3-ai-industry-trend-signal-aggregator-synthesizer) | Research Analyst | Consulting | Research | 75–80% savings |
 | 720 | [AI Expert Interview Guide & Question Bank Generator](/use-cases/role/research-analyst#_4-ai-expert-interview-guide-question-bank-generator) | Research Analyst | Consulting | Research | 3–5 hours → 20–40 minutes |
@@ -821,7 +821,7 @@ Find use cases by what you need to get done:
 | 739 | [AI Technology Readiness Level Assessment Engine](/use-cases/role/research-analyst#_23-ai-technology-readiness-level-assessment-engine) | Research Analyst | Consulting | Research | 80% savings |
 | 740 | [AI Customer Pain Point Cluster Analysis Tool](/use-cases/role/research-analyst#_24-ai-customer-pain-point-cluster-analysis-tool) | Research Analyst | Consulting | Research | 2–3 analyst weeks → 3–5 days |
 | 741 | [AI Grant & Funding Opportunity Research Assistant](/use-cases/role/research-analyst#_25-ai-grant-funding-opportunity-research-assistant) | Research Analyst | Consulting | Research | 85% savings |
-| 742 | [AI M&A Comparable Transaction Database Builder](/use-cases/role/research-analyst#_26-ai-m-a-comparable-transaction-database-builder) | Research Analyst | Consulting | Research | 2–5 analyst days → 4–8 hours |
+| 742 | [AI M&A Comparable Transaction Database Builder](/use-cases/role/research-analyst#_26-ai-ma-comparable-transaction-database-builder) | Research Analyst | Consulting | Research | 2–5 analyst days → 4–8 hours |
 | 743 | [AI Social Listening & Online Sentiment Trend Tracker](/use-cases/role/research-analyst#_27-ai-social-listening-online-sentiment-trend-tracker) | Research Analyst | Consulting | Research | 85% savings |
 | 744 | [AI Industry Association Report Synthesizer](/use-cases/role/research-analyst#_28-ai-industry-association-report-synthesizer) | Research Analyst | Consulting | Research | 70–80% savings |
 | 745 | [AI Country Market Entry Feasibility Analyzer](/use-cases/role/research-analyst#_29-ai-country-market-entry-feasibility-analyzer) | Research Analyst | Consulting | Research | 4–8 analyst weeks → 1–2 weeks |
