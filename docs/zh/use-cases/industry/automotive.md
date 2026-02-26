@@ -6,9 +6,11 @@ AI驱动的汽车行业用例。
 
 > 每日扫描NHTSA数据库和服务公告——将召回信息匹配车队库存并生成行动方案。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/120-ai-vehicle-recall-monitor.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/120-ai-vehicle-recall-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -128,9 +130,11 @@ COCO的AI车辆召回监控器直接集成到你现有的工作流程中，充�
 
 > 将客户偏好与15家经销商库存匹配——推荐最佳车型并估算置换价格。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/135-ai-dealership-inventory-matcher.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/135-ai-dealership-inventory-matcher.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -250,9 +254,11 @@ COCO的AI经销商库存匹配器直接集成到你现有的工作流程中，�
 
 > 跨3个系统同步OEM零件编号、定价和适配数据——每晚核对保持8万SKU准确。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/150-ai-parts-catalog-updater.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/150-ai-parts-catalog-updater.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -372,9 +378,11 @@ COCO的AI零件目录更新器直接集成到你现有的工作流程中，充�
 
 > 处理500辆车的GPS、油耗和驾驶行为数据——生成周度评分卡，发现每年$8万节油机会。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/182-ai-fleet-telematics-analyzer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/182-ai-fleet-telematics-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -494,9 +502,11 @@ COCO的AI车队远程信息分析器直接集成到你现有的工作流程中�
 
 > 筛选在线潜客、匹配车型偏好并预约试驾——以确认预约填满90%可用时段。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/197-ai-test-drive-scheduler.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/197-ai-test-drive-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 

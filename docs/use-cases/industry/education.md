@@ -6,9 +6,11 @@ AI use cases for the education industry.
 
 > Generates a 12-week course syllabus with learning objectives, assignments, and rubrics in under 10 minutes.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/107-ai-curriculum-designer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/107-ai-curriculum-designer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -128,9 +130,11 @@ This week's data:
 
 > Aggregates grades, attendance, and engagement data for 200 students — flags at-risk learners weekly with intervention suggestions.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/122-ai-student-progress-tracker.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/122-ai-student-progress-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -250,9 +254,11 @@ This week's data:
 
 > Compares student submissions against 10M+ sources and AI-generated patterns — flags suspicious passages with confidence scores.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/137-ai-plagiarism-checker.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/137-ai-plagiarism-checker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -372,9 +378,11 @@ This week's data:
 
 > Maps your programs against 150+ accreditation standards — highlights gaps and auto-generates evidence documentation.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/152-ai-accreditation-compliance-checker.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/152-ai-accreditation-compliance-checker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -494,9 +502,11 @@ This week's data:
 
 > Grades research papers against your rubric — provides paragraph-level feedback on argument, evidence, and writing quality in 2 minutes.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/163-ai-research-paper-grader.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/163-ai-research-paper-grader.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -616,9 +626,11 @@ This week's data:
 
 > Assesses student skills via diagnostic quiz — generates personalized 8-week learning paths with resources, milestones, and check-ins.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/169-ai-learning-path-builder.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/169-ai-learning-path-builder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -738,9 +750,11 @@ This week's data:
 
 > Models demographic trends, application funnel data, and competitor moves — forecasts next-year enrollment within 3% accuracy.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/184-ai-enrollment-forecaster.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/184-ai-enrollment-forecaster.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 

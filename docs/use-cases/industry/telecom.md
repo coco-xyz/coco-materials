@@ -6,9 +6,11 @@ AI use cases for the telecom industry.
 
 > Analyzes traffic patterns across 50+ cell towers — recommends capacity upgrades 3 months before congestion hits.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/119-ai-network-capacity-planner.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/119-ai-network-capacity-planner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -128,9 +130,11 @@ This week's data:
 
 > Processes RF propagation data, terrain maps, and zoning rules — ranks 50 candidate sites by coverage potential in 20 minutes.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/134-ai-5g-site-survey-analyzer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/134-ai-5g-site-survey-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -250,9 +254,11 @@ This week's data:
 
 > Scores 100,000 subscribers on 30+ behavioral signals — identifies likely churners 45 days out with 87% accuracy.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/149-ai-churn-predictor.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/149-ai-churn-predictor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -372,9 +378,11 @@ This week's data:
 
 > Segments 500K subscribers by lifecycle stage — triggers personalized campaigns for onboarding, upgrade, and retention moments.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/181-ai-subscriber-lifecycle-manager.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/181-ai-subscriber-lifecycle-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -494,9 +502,11 @@ This week's data:
 
 > Analyzes network alerts and customer complaint patterns — predicts ticket surges 6 hours early so support can staff up.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/196-ai-service-ticket-predictor.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/196-ai-service-ticket-predictor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 

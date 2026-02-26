@@ -6,9 +6,11 @@ AI use cases for tech companies, SaaS platforms, and dev teams.
 
 > Auto-reviews every PR: bugs, security, performance — full report in 15 minutes.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/005-ai-code-reviewer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/005-ai-code-reviewer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -144,9 +146,11 @@ PR:
 
 > Reads source code and generates comprehensive tests with edge cases. Coverage: 34% → 89%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/006-ai-test-generator.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/006-ai-test-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -318,9 +322,11 @@ Generate ONLY the missing tests, not duplicates of existing coverage.
 
 > Monitors every deploy in real-time, detects anomalies in 90s, auto-rollbacks. MTTR: 47min → 2min.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/007-ai-deploy-monitor.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/007-ai-deploy-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -487,9 +493,11 @@ Recommend new thresholds that reduce false positives by at least 50% while maint
 
 > Auto-generates and syncs API docs from codebase, multi-language examples, zero drift.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/008-ai-api-doc-writer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/008-ai-api-doc-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -670,9 +678,11 @@ Write in a friendly, clear tone. Assume the reader is a developer but has never 
 
 > Paste error logs, AI traces from symptom to root cause, provides ready-to-apply fix diffs.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/009-ai-debug-assistant.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/009-ai-debug-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -867,9 +877,11 @@ Correlate the logs across services to reconstruct:
 
 > Produces an SEO-optimized article in 20 minutes, from keyword research to final draft.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/010-ai-seo-content-writer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/010-ai-seo-content-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1070,9 +1082,11 @@ For each page provide:
 
 > One input, all platforms. 3 hours/day social media ops reduced to 15 minutes.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/011-ai-social-media-manager.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/011-ai-social-media-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1255,9 +1269,11 @@ Only suggest participation if relevance is 6+ and risk is low-medium.
 
 > Generates 200 A/B ad copy variants in 10 minutes with data-driven optimization.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/012-ai-ad-copy-generator.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/012-ai-ad-copy-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1462,9 +1478,11 @@ For each localized version:
 
 > Real-time competitive tracking. 2 days of research becomes 1 hour of automated insights.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/014-ai-competitive-copywriter.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/014-ai-competitive-copywriter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1635,9 +1653,11 @@ Analyze:
 
 > Researches 200 leads/day, auto-enriched from LinkedIn, Crunchbase, scored and ready.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/015-ai-lead-researcher.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/015-ai-lead-researcher.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1817,9 +1837,11 @@ For each lead, provide:
 
 > Calls, emails, meetings auto-synced to CRM. 45 min/day data entry becomes zero.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/016-ai-crm-updater.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/016-ai-crm-updater.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1973,9 +1995,11 @@ Also generate:
 
 > Auto-classifies and routes tickets. 5 min/ticket becomes instant.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/021-ai-ticket-classifier.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/021-ai-ticket-classifier.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2126,9 +2150,11 @@ Keep each response under 150 words. Test readability: would a frustrated custome
 
 > Generates 50 knowledge base articles in 1 hour, auto-extracted from tickets and conversations.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/022-ai-knowledge-base-builder.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/022-ai-knowledge-base-builder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2282,9 +2308,11 @@ Compare the original and rewrite, noting specific improvements.
 
 > One AI agent supports 15+ languages, replacing 5 translators.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/023-ai-multi-language-support.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/023-ai-multi-language-support.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2440,9 +2468,11 @@ Important:
 
 > Screens 500 resumes in 2 hours, replacing 3 days of manual screening.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/025-ai-resume-screener.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/025-ai-resume-screener.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2594,9 +2624,11 @@ Create a comparison matrix including:
 
 > Generates bias-free, SEO-optimized job descriptions in 10 minutes.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/026-ai-job-description-writer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/026-ai-job-description-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2767,9 +2799,11 @@ Include data sources and note any limitations in the benchmarking.
 
 > New hire fully onboarded in 3 days instead of 2 weeks.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/028-ai-onboarding-assistant.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/028-ai-onboarding-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2943,9 +2977,11 @@ For each task: responsible person, deadline, dependencies, and verification that
 
 > Meeting notes ready instantly: transcript, summary, action items assigned.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/032-ai-meeting-notes.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/032-ai-meeting-notes.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3103,9 +3139,11 @@ Provide a specific "meeting diet" recommendation: what to keep, cut, shorten, me
 
 > 2.3M lines legacy code migration: 8 years → 14 months. Defect rate: 23% → 3.1%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/035-ai-code-migrator.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/035-ai-code-migrator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3207,9 +3245,11 @@ Evaluate:
 
 > Page load 4.7s → 0.9s. 3-week diagnosis becomes 4 hours. Revenue recovery: $280K/mo.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/036-ai-performance-profiler.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/036-ai-performance-profiler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3311,9 +3351,11 @@ Evaluate:
 
 > Continuous security scanning. False positives: 91% → 8%. Fix time: 38 days → 4 days.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/037-ai-security-scanner.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/037-ai-security-scanner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3415,9 +3457,11 @@ Evaluate:
 
 > Query time 12s → 0.3s. Cloud costs down 42%. DBA tickets: 47 → 6.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/038-ai-database-optimizer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/038-ai-database-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3518,9 +3562,11 @@ Evaluate:
 
 > Manages 1,847 dependencies. 23 CVEs → 0. Update success rate: 94%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/039-ai-dependency-manager.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/039-ai-dependency-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3622,9 +3668,11 @@ Evaluate:
 
 > Churn prediction: 87% accurate. Save rate: 12% → 41%. NRR +18pts.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/049-ai-churn-predictor.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/049-ai-churn-predictor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3726,9 +3774,11 @@ Evaluate:
 
 > Chatbot resolution: 27% → 78%. Training: 6 months → 2 weeks. CSAT: 3.1 → 4.4.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/050-ai-chatbot-trainer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/050-ai-chatbot-trainer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3830,9 +3880,11 @@ Evaluate:
 
 > Bug triage: 6 hrs/sprint → 30 min. Critical fix: 14 days → 3 days.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/051-ai-bug-prioritizer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/051-ai-bug-prioritizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3934,9 +3986,11 @@ Evaluate:
 
 > Processes 100% of 14K monthly feedback. Issue detection: 3 weeks → 24 hours.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/053-ai-sentiment-analyzer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/053-ai-sentiment-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4038,9 +4092,11 @@ Evaluate:
 
 > Survey response: 31% → 82%. Turnover prediction: 89% accurate.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/055-ai-employee-pulse.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/055-ai-employee-pulse.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4142,9 +4198,11 @@ Evaluate:
 
 > Real-time comp benchmarking. Offer competitiveness: 52% → 89%. Attrition -35%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/057-ai-comp-benchmarker.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/057-ai-comp-benchmarker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4246,9 +4304,11 @@ Evaluate:
 
 > Email processing time reduced 73%. Priority response: 4.2 hours → 23 minutes.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/066-ai-email-triage-manager.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/066-ai-email-triage-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4415,9 +4475,11 @@ Keep it concise but data-driven. Highlight wins and flag concerns.
 
 > Meeting scheduling logistics reduced 87%. Cross-timezone scheduling 3x faster.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/067-ai-meeting-scheduler.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/067-ai-meeting-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4583,9 +4645,11 @@ Include a FAQ section addressing common objections.
 
 > Churn early warning 30 days ahead. Save rate: 15% → 42%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/069-ai-customer-success-monitor.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/069-ai-customer-success-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4760,9 +4824,11 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Product feedback analysis: 2 weeks → 2 hours. 100% feedback coverage.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/070-ai-product-feedback-analyzer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/070-ai-product-feedback-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4937,9 +5003,11 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Project status reports: 4 hours → 15 minutes. Real-time data aggregation.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/072-ai-project-status-reporter.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/072-ai-project-status-reporter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -5114,9 +5182,11 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Ticket misrouting reduced 89%. Escalation resolution: 24 hours → 2 hours.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/074-ai-helpdesk-escalation-router.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/074-ai-helpdesk-escalation-router.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -5291,9 +5361,11 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Pipeline failure detection: hours → seconds. Data quality issues reduced 91%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/075-ai-data-pipeline-monitor.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/075-ai-data-pipeline-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -5468,9 +5540,11 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Localization cycle: 6 weeks → 3 days. Translation consistency: 98%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/076-ai-localization-manager.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/076-ai-localization-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -5645,9 +5719,11 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Customer onboarding: 3 weeks → 3 days. First-month activation rate +55%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/078-ai-customer-onboarding-guide.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/078-ai-customer-onboarding-guide.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -5822,9 +5898,11 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Incident response: 45 min → 8 min. MTTR reduced 73%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/080-ai-incident-response-coordinator.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/080-ai-incident-response-coordinator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -5999,9 +6077,11 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Patent search: 3 weeks → 4 hours. Prior art coverage: 60% → 97%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/081-ai-patent-research-assistant.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/081-ai-patent-research-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -6176,9 +6256,11 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Employee offboarding: 2 weeks → 1 day. Access revocation gaps: zero.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/082-ai-employee-offboarding-manager.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/082-ai-employee-offboarding-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -6353,9 +6435,11 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > QA coverage: 40% → 92%. Regression defects reduced 67%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/083-ai-quality-assurance-auditor.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/083-ai-quality-assurance-auditor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -6530,9 +6614,11 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Competitive intel: monthly → real-time. Strategic response speed 5x faster.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/084-ai-competitive-intelligence-tracker.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/084-ai-competitive-intelligence-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -6707,9 +6793,11 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Churned customer win-back: 8% → 35%. Acquisition cost reduced 60%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/086-ai-customer-win-back-campaigner.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/086-ai-customer-win-back-campaigner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -6884,9 +6972,11 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Technical docs: 3 days → 2 hours. Code-doc sync rate: 99%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/087-ai-technical-writer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/087-ai-technical-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -7070,9 +7160,11 @@ Produce a prioritized action plan: Critical (blocks new developer onboarding), I
 
 > Brand mention coverage: 15% → 96%. Crisis response: 15 minutes.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/089-ai-social-listening-agent.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/089-ai-social-listening-agent.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -7267,9 +7359,11 @@ Provide the full query syntax, alert configurations, and workflow automation rul
 
 > Sprint planning: 3 hours → 45 minutes. Delivery accuracy +38%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/090-ai-sprint-planning-assistant.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/090-ai-sprint-planning-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -7462,9 +7556,11 @@ Generate:
 
 > Job ad click-through +65%. Quality candidate applications +40%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/093-ai-recruitment-marketing-writer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/093-ai-recruitment-marketing-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -7639,9 +7735,11 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Survey response rate: 3% → 28%. Actionable insights output 5x.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/094-ai-customer-survey-designer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/094-ai-customer-survey-designer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -7882,9 +7980,11 @@ Prioritize recommendations by: impact on strategic questions, cost, time to firs
 
 > Release notes: 3-4 hours → 5 minutes. Feature adoption +35%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/095-ai-release-notes-generator.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/095-ai-release-notes-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -8144,9 +8244,11 @@ Provide: Architecture diagram description, tool recommendations, implementation 
 
 > Compliance training completion: 52% → 96%. Overdue training: near zero.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/097-ai-compliance-training-tracker.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/097-ai-compliance-training-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -8364,9 +8466,11 @@ Present with executive-ready visualizations described in markdown (tables, compa
 
 > Objection handling success: 35% → 72%. Deal cycle shortened 25%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/098-ai-sales-objection-handler.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/098-ai-sales-objection-handler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -8594,9 +8698,11 @@ Present findings in a format suitable for a sales team meeting, with specific ex
 
 > IT asset visibility: 45% → 99%. Shadow IT discovery 10x.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/099-ai-it-asset-manager.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/099-ai-it-asset-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -8868,9 +8974,11 @@ For each metric, specify:
 
 > Pitch deck creation: 15 hours → 1 hour. Client customization 300% more.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/101-ai-pitch-deck-builder.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/101-ai-pitch-deck-builder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -9141,9 +9249,11 @@ Analyze and recommend:
 
 > Customer health coverage: 20% → 100%. Churn prediction: 87% accurate.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/102-ai-customer-health-scorer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/102-ai-customer-health-scorer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -9463,9 +9573,11 @@ For each scenario, provide:
 
 > Cross-department workflow automation: 15% → 78%. Processing time reduced 65%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/103-ai-workflow-automator.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/103-ai-workflow-automator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -9803,9 +9915,11 @@ Analyze and provide:
 
 > RFP response: 40 hours → 8 hours. Win rate: 5% → 18%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/104-ai-rfp-response-writer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/104-ai-rfp-response-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -10109,9 +10223,11 @@ Analyze and provide:
 
 > Generates jurisdiction-specific NDAs in 60 seconds — customizes scope, duration, and carve-outs based on deal context.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/123-ai-nda-generator.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/123-ai-nda-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -10231,9 +10347,11 @@ This week's data:
 
 > Maps your patent portfolio against competitor filings — identifies white spaces and potential infringement risks across 300+ patents.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/138-ai-ip-portfolio-analyzer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/138-ai-ip-portfolio-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -10353,9 +10471,11 @@ This week's data:
 
 > Maps 200+ API endpoints between old and new versions — generates migration guides with breaking-change alerts and code samples.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/161-ai-api-migration-planner.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/161-ai-api-migration-planner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -10475,9 +10595,11 @@ This week's data:
 
 > Runs 100 pricing scenarios with elasticity curves and competitor data — recommends tier structures that maximize LTV by 20%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/189-ai-pricing-strategy-modeler.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/189-ai-pricing-strategy-modeler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -10597,9 +10719,11 @@ This week's data:
 
 > Scans 2,000 dependencies across 15 repos nightly — prioritizes CVEs by exploitability and auto-generates upgrade PRs.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/198-ai-dependency-vulnerability-scanner.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/198-ai-dependency-vulnerability-scanner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -10719,9 +10843,11 @@ This week's data:
 
 > Scans your web app against WCAG 2.2 AA standards — flags 200+ checkpoints with fix suggestions and priority rankings.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/204-ai-accessibility-compliance-checker.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/204-ai-accessibility-compliance-checker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 

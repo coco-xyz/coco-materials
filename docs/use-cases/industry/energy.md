@@ -6,9 +6,11 @@ AI use cases for the energy industry.
 
 > Correlates sensor data from 1,000+ grid nodes — pinpoints outage root cause in 2 minutes instead of 2 hours.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/116-ai-grid-outage-analyzer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/116-ai-grid-outage-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -128,9 +130,11 @@ This week's data:
 
 > Aggregates Scope 1-3 emissions data from 12 sources — generates audit-ready carbon reports aligned to GHG Protocol.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/131-ai-carbon-footprint-reporter.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/131-ai-carbon-footprint-reporter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -250,9 +254,11 @@ This week's data:
 
 > Tracks output from 2,000+ panels in real-time — detects degradation, shading issues, and inverter faults within 10 minutes.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/146-ai-solar-panel-performance-monitor.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/146-ai-solar-panel-performance-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -372,9 +378,11 @@ This week's data:
 
 > Monitors spot prices, weather forecasts, and demand curves — suggests optimal buy/sell windows for next-day energy markets.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/178-ai-energy-trading-assistant.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/178-ai-energy-trading-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -494,9 +502,11 @@ This week's data:
 
 > Reviews 80-page power purchase agreements — flags escalation clauses, curtailment risks, and unfavorable terms in 10 minutes.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/193-ai-power-purchase-agreement-reviewer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/193-ai-power-purchase-agreement-reviewer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 

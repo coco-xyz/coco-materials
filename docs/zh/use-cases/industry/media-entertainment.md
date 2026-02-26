@@ -6,9 +6,11 @@ AI驱动的媒体/娱乐行业用例。
 
 > 阅读120页剧本生成专业评审——8分钟完成剧情概要、角色分析和市场适配度评估。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/118-ai-script-coverage-reader.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/118-ai-script-coverage-reader.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -128,9 +130,11 @@ COCO的AI剧本评审阅读器直接集成到你现有的工作流程中，充�
 
 > 转录60分钟节目，提取关键引用，4分钟生成带时间戳的SEO优化节目笔记。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/133-ai-podcast-show-notes-writer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/133-ai-podcast-show-notes-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -250,9 +254,11 @@ COCO的AI播客节目笔记撰写器直接集成到你现有的工作流程中�
 
 > 处理8个平台的流媒体数据——30分钟按分成协议精确计算5万首曲目的艺人版税。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/148-ai-royalty-calculator.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/148-ai-royalty-calculator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -372,9 +378,11 @@ COCO的AI版税计算器直接集成到你现有的工作流程中，充当一�
 
 > 跨30个地区追踪1万+作品的授权窗口——权利到期前60天提醒续约决策。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/180-ai-content-rights-tracker.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/180-ai-content-rights-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -494,9 +502,11 @@ COCO的AI内容版权追踪器直接集成到你现有的工作流程中，充�
 
 > 按观看历史、人口统计和互动数据聚类200万观众——构建12个可操作画像用于定向内容策略。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/195-ai-audience-segmentation-engine.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/195-ai-audience-segmentation-engine.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 

@@ -6,9 +6,11 @@ AI use cases for workflow automation and operational efficiency.
 
 > Auto-reviews every PR: bugs, security, performance — full report in 15 minutes.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/005-ai-code-reviewer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/005-ai-code-reviewer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -144,9 +146,11 @@ PR:
 
 > Reads source code and generates comprehensive tests with edge cases. Coverage: 34% → 89%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/006-ai-test-generator.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/006-ai-test-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -318,9 +322,11 @@ Generate ONLY the missing tests, not duplicates of existing coverage.
 
 > Monitors every deploy in real-time, detects anomalies in 90s, auto-rollbacks. MTTR: 47min → 2min.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/007-ai-deploy-monitor.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/007-ai-deploy-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -487,9 +493,11 @@ Recommend new thresholds that reduce false positives by at least 50% while maint
 
 > Paste error logs, AI traces from symptom to root cause, provides ready-to-apply fix diffs.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/009-ai-debug-assistant.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/009-ai-debug-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -684,9 +692,11 @@ Correlate the logs across services to reconstruct:
 
 > Calls, emails, meetings auto-synced to CRM. 45 min/day data entry becomes zero.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/016-ai-crm-updater.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/016-ai-crm-updater.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -840,9 +850,11 @@ Also generate:
 
 > Auto-classifies and routes tickets. 5 min/ticket becomes instant.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/021-ai-ticket-classifier.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/021-ai-ticket-classifier.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -993,9 +1005,11 @@ Keep each response under 150 words. Test readability: would a frustrated custome
 
 > Auto-detects VIP customer anomalies. 30% missed issues drops to 0%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/024-ai-vip-escalation.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/024-ai-vip-escalation.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1148,9 +1162,11 @@ Tone: Senior, professional, genuine. This should sound like it comes from someon
 
 > Schedules interviews in 3 minutes, auto-coordinating multiple calendars.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/027-ai-interview-scheduler.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/027-ai-interview-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1305,9 +1321,11 @@ Provide actionable recommendations for the next quarter.
 
 > New hire fully onboarded in 3 days instead of 2 weeks.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/028-ai-onboarding-assistant.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/028-ai-onboarding-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1481,9 +1499,11 @@ For each task: responsible person, deadline, dependencies, and verification that
 
 > Processes an invoice in 30 seconds: extract, match, route — fully automated.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/031-ai-invoice-processor.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/031-ai-invoice-processor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1646,9 +1666,11 @@ Provide a prioritized 90-day improvement roadmap.
 
 > Meeting notes ready instantly: transcript, summary, action items assigned.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/032-ai-meeting-notes.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/032-ai-meeting-notes.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1806,9 +1828,11 @@ Provide a specific "meeting diet" recommendation: what to keep, cut, shorten, me
 
 > 2.3M lines legacy code migration: 8 years → 14 months. Defect rate: 23% → 3.1%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/035-ai-code-migrator.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/035-ai-code-migrator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1910,9 +1934,11 @@ Evaluate:
 
 > Manages 1,847 dependencies. 23 CVEs → 0. Update success rate: 94%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/039-ai-dependency-manager.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/039-ai-dependency-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2014,9 +2040,11 @@ Evaluate:
 
 > Demo prep: 4 hours → 15 minutes. Demo-to-close rate: 18% → 34%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/046-ai-demo-personalizer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/046-ai-demo-personalizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2118,9 +2146,11 @@ Evaluate:
 
 > Chatbot resolution: 27% → 78%. Training: 6 months → 2 weeks. CSAT: 3.1 → 4.4.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/050-ai-chatbot-trainer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/050-ai-chatbot-trainer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2222,9 +2252,11 @@ Evaluate:
 
 > Training completion: 23% → 71%. Skill gaps closed: 64% in 6 months.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/056-ai-training-recommender.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/056-ai-training-recommender.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2326,9 +2358,11 @@ Evaluate:
 
 > Document search: 18 min → 30 sec. Misclassification: 34% → 3%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/063-ai-document-classifier.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/063-ai-document-classifier.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2430,9 +2464,11 @@ Evaluate:
 
 > Data entry automation. Accuracy: 96% → 99.7%. Processing time reduced 94%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/065-ai-data-entry-automator.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/065-ai-data-entry-automator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2615,9 +2651,11 @@ Output: Updated inventory receiving log, exception summary (shortages, damages, 
 
 > Email processing time reduced 73%. Priority response: 4.2 hours → 23 minutes.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/066-ai-email-triage-manager.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/066-ai-email-triage-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2784,9 +2822,11 @@ Keep it concise but data-driven. Highlight wins and flag concerns.
 
 > Meeting scheduling logistics reduced 87%. Cross-timezone scheduling 3x faster.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/067-ai-meeting-scheduler.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/067-ai-meeting-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2952,9 +2992,11 @@ Include a FAQ section addressing common objections.
 
 > Regulatory filing prep time reduced 78%. Compliance errors near zero.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/071-ai-regulatory-filing-assistant.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/071-ai-regulatory-filing-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3129,9 +3171,11 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Ticket misrouting reduced 89%. Escalation resolution: 24 hours → 2 hours.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/074-ai-helpdesk-escalation-router.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/074-ai-helpdesk-escalation-router.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3306,9 +3350,11 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Pipeline failure detection: hours → seconds. Data quality issues reduced 91%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/075-ai-data-pipeline-monitor.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/075-ai-data-pipeline-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3483,9 +3529,11 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Localization cycle: 6 weeks → 3 days. Translation consistency: 98%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/076-ai-localization-manager.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/076-ai-localization-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3660,9 +3708,11 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Supply chain visibility: 30% → 95%. Disruption response time reduced 76%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/077-ai-supply-chain-tracker.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/077-ai-supply-chain-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3837,9 +3887,11 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Customer onboarding: 3 weeks → 3 days. First-month activation rate +55%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/078-ai-customer-onboarding-guide.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/078-ai-customer-onboarding-guide.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4014,9 +4066,11 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Incident response: 45 min → 8 min. MTTR reduced 73%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/080-ai-incident-response-coordinator.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/080-ai-incident-response-coordinator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4191,9 +4245,11 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Employee offboarding: 2 weeks → 1 day. Access revocation gaps: zero.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/082-ai-employee-offboarding-manager.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/082-ai-employee-offboarding-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4368,9 +4424,11 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Tax prep time reduced 70%. Filing errors down 92%. Penalties: zero.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/085-ai-tax-preparation-assistant.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/085-ai-tax-preparation-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4545,9 +4603,11 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Invoice reconciliation time reduced 85%. Discrepancy detection: 72% → 99.5%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/088-ai-vendor-invoice-reconciler.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/088-ai-vendor-invoice-reconciler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4722,9 +4782,11 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Sprint planning: 3 hours → 45 minutes. Delivery accuracy +38%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/090-ai-sprint-planning-assistant.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/090-ai-sprint-planning-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4917,9 +4979,11 @@ Generate:
 
 > Travel expense compliance: 68% → 97%. Travel spend reduced 23%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/092-ai-travel-expense-optimizer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/092-ai-travel-expense-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -5114,9 +5178,11 @@ Implementation roadmap: Phase 1 (quick wins, 0-3 months), Phase 2 (system change
 
 > Compliance training completion: 52% → 96%. Overdue training: near zero.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/097-ai-compliance-training-tracker.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/097-ai-compliance-training-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -5334,9 +5400,11 @@ Present with executive-ready visualizations described in markdown (tables, compa
 
 > IT asset visibility: 45% → 99%. Shadow IT discovery 10x.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/099-ai-it-asset-manager.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/099-ai-it-asset-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -5608,9 +5676,11 @@ For each metric, specify:
 
 > Cross-department workflow automation: 15% → 78%. Processing time reduced 65%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/103-ai-workflow-automator.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/103-ai-workflow-automator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -5949,9 +6019,11 @@ Analyze and provide:
 
 > Scans 50-page contracts in 3 minutes — flags risks, missing clauses, and unusual terms before you sign.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/105-ai-contract-analyzer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/105-ai-contract-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Legal · **Industry**: Enterprise
 
@@ -5959,9 +6031,11 @@ Analyze and provide:
 
 > Digitizes patient intake forms in 90 seconds — extracts demographics, insurance info, and medical history into your EHR.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/106-ai-patient-intake-processor.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/106-ai-patient-intake-processor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Operations · **Industry**: Healthcare
 
@@ -5969,9 +6043,11 @@ Analyze and provide:
 
 > Tracks 200+ permit applications across agencies — flags missing documents and approaching deadlines 7 days early.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/114-ai-permit-application-tracker.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/114-ai-permit-application-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Compliance Officer · **Industry**: Government
 
@@ -5979,9 +6055,11 @@ Analyze and provide:
 
 > Reviews insurance claims against policy terms — auto-approves straightforward cases, cutting processing from 5 days to 4 hours.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/117-ai-claims-adjuster.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/117-ai-claims-adjuster.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Operations · **Industry**: Insurance
 
@@ -5989,9 +6067,11 @@ Analyze and provide:
 
 > Analyzes pick frequency and order patterns — redesigns warehouse zones to cut average pick time by 35%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/124-ai-warehouse-layout-optimizer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/124-ai-warehouse-layout-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Logistics Manager · **Industry**: Logistics
 
@@ -5999,9 +6079,11 @@ Analyze and provide:
 
 > Analyzes vibration, temperature, and runtime data from 100+ machines — schedules maintenance before breakdowns, reducing downtime 40%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/126-ai-predictive-maintenance-scheduler.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/126-ai-predictive-maintenance-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Operations · **Industry**: Manufacturing
 
@@ -6009,9 +6091,11 @@ Analyze and provide:
 
 > Scores 5,000+ donors on engagement, giving history, and capacity — prioritizes outreach to boost renewal rates by 25%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/128-ai-donor-engagement-tracker.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/128-ai-donor-engagement-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Sales · **Industry**: Nonprofit
 
@@ -6019,9 +6103,11 @@ Analyze and provide:
 
 > Combines soil moisture sensors, weather forecasts, and crop needs — optimizes irrigation schedules to reduce water usage 30%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/130-ai-irrigation-scheduler.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/130-ai-irrigation-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Operations · **Industry**: Agriculture
 
@@ -6029,9 +6115,11 @@ Analyze and provide:
 
 > Analyzes claim history, risk profile, and market rates — recommends optimal renewal terms 30 days before expiry.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/132-ai-policy-renewal-optimizer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/132-ai-policy-renewal-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Sales · **Industry**: Insurance
 
@@ -6039,9 +6127,11 @@ Analyze and provide:
 
 > Plans optimal delivery routes for 80 stops daily — factors in traffic, time windows, and vehicle capacity to cut fuel costs 20%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/139-ai-route-optimizer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/139-ai-route-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Logistics Manager · **Industry**: Logistics
 
@@ -6049,9 +6139,11 @@ Analyze and provide:
 
 > Cross-references BOMs against 5,000+ supplier catalogs — catches obsolete parts and suggests cost-saving alternatives in 3 minutes.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/141-ai-bill-of-materials-checker.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/141-ai-bill-of-materials-checker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Procurement · **Industry**: Manufacturing
 
@@ -6059,9 +6151,11 @@ Analyze and provide:
 
 > Matches 500 volunteers to 30 event roles based on skills, availability, and past performance — sends confirmations automatically.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/143-ai-volunteer-coordinator.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/143-ai-volunteer-coordinator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Operations · **Industry**: Nonprofit
 
@@ -6069,9 +6163,11 @@ Analyze and provide:
 
 > Syncs OEM part numbers, pricing, and fitment data across 3 systems — keeps 80,000 SKUs accurate with nightly reconciliation.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/150-ai-parts-catalog-updater.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/150-ai-parts-catalog-updater.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Operations · **Industry**: Automotive
 
@@ -6079,9 +6175,11 @@ Analyze and provide:
 
 > Reads clinical notes and assigns ICD-10 and CPT codes — achieves 96% first-pass accuracy, reducing claim denials by 40%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/151-ai-medical-coding-assistant.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/151-ai-medical-coding-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Finance · **Industry**: Healthcare
 
@@ -6089,9 +6187,11 @@ Analyze and provide:
 
 > Captures incident details from natural language — generates OSHA-compliant reports with root-cause analysis and corrective actions.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/156-ai-safety-incident-reporter.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/156-ai-safety-incident-reporter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Compliance Officer · **Industry**: Manufacturing
 
@@ -6099,9 +6199,11 @@ Analyze and provide:
 
 > Reviews FOIA requests against exemption criteria — redacts sensitive content and drafts responses, cutting turnaround from 30 to 5 days.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/159-ai-foia-request-processor.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/159-ai-foia-request-processor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Legal · **Industry**: Government
 
@@ -6109,9 +6211,11 @@ Analyze and provide:
 
 > Maps fields between legacy and new EHR systems — transforms 500,000 patient records with validation checks and error logging.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/168-ai-ehr-data-migrator.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/168-ai-ehr-data-migrator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Product / Dev · **Industry**: Healthcare
 
@@ -6119,9 +6223,11 @@ Analyze and provide:
 
 > Identifies custodians, sends hold notices, tracks acknowledgments, and monitors compliance — manages 50+ active holds with zero missed deadlines.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/170-ai-litigation-hold-manager.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/170-ai-litigation-hold-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Legal · **Industry**: Enterprise
 
@@ -6129,9 +6235,11 @@ Analyze and provide:
 
 > Coordinates inbound and outbound trucks at 20 dock doors — minimizes dwell time by 45% with real-time slot optimization.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/171-ai-cross-dock-scheduler.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/171-ai-cross-dock-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Logistics Manager · **Industry**: Logistics
 
@@ -6139,9 +6247,11 @@ Analyze and provide:
 
 > Assigns 80 rooms to 15 housekeepers based on checkout times, special requests, and proximity — cuts turnover time by 25%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/172-ai-housekeeping-scheduler.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/172-ai-housekeeping-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Operations · **Industry**: Hospitality
 
@@ -6149,9 +6259,11 @@ Analyze and provide:
 
 > Sequences 200 production orders to minimize changeover time — increases throughput 15% while meeting all delivery deadlines.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/173-ai-production-batch-optimizer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/173-ai-production-batch-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Operations · **Industry**: Manufacturing
 
@@ -6159,9 +6271,11 @@ Analyze and provide:
 
 > Tracks licensing windows for 10,000+ titles across 30 territories — alerts you 60 days before rights expire for renewal decisions.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/180-ai-content-rights-tracker.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/180-ai-content-rights-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Legal · **Industry**: Media & Entertainment
 
@@ -6169,9 +6283,11 @@ Analyze and provide:
 
 > Segments 500K subscribers by lifecycle stage — triggers personalized campaigns for onboarding, upgrade, and retention moments.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/181-ai-subscriber-lifecycle-manager.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/181-ai-subscriber-lifecycle-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Content / Marketing · **Industry**: Telecom
 
@@ -6179,9 +6295,11 @@ Analyze and provide:
 
 > Compares formulary options across 5 PBMs — identifies therapeutic equivalents that save 22% on pharmacy spend without outcome loss.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/183-ai-pharmacy-benefit-optimizer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/183-ai-pharmacy-benefit-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Procurement · **Industry**: Healthcare
 
@@ -6189,9 +6307,11 @@ Analyze and provide:
 
 > Models demographic trends, application funnel data, and competitor moves — forecasts next-year enrollment within 3% accuracy.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/184-ai-enrollment-forecaster.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/184-ai-enrollment-forecaster.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Data Analyst · **Industry**: Education
 
@@ -6199,9 +6319,11 @@ Analyze and provide:
 
 > Classifies goods into HS codes, calculates duties, and pre-fills customs forms — reduces clearance time from 48 to 6 hours.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/186-ai-customs-declaration-filer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/186-ai-customs-declaration-filer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Logistics Manager · **Industry**: Logistics
 
@@ -6209,9 +6331,11 @@ Analyze and provide:
 
 > Adjusts room rates dynamically based on demand, events, and competitor pricing — increases RevPAR by 12% over static pricing.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/187-ai-revenue-management-optimizer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/187-ai-revenue-management-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Finance · **Industry**: Hospitality
 
@@ -6219,9 +6343,11 @@ Analyze and provide:
 
 > Monitors 50 control charts in real-time — detects out-of-spec trends 3 shifts before they cause scrap, triggering automatic alerts.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/188-ai-spc-chart-monitor.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/188-ai-spc-chart-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: QA Engineer · **Industry**: Manufacturing
 
@@ -6229,9 +6355,11 @@ Analyze and provide:
 
 > Scores 30 vendor bids against 25 weighted criteria — generates comparison matrices and shortlists top 3 candidates in 45 minutes.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/191-ai-procurement-bid-evaluator.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/191-ai-procurement-bid-evaluator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Procurement · **Industry**: Government
 
@@ -6239,9 +6367,11 @@ Analyze and provide:
 
 > Qualifies online leads, matches vehicle preferences, and books test drives — fills 90% of available slots with confirmed appointments.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/197-ai-test-drive-scheduler.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/197-ai-test-drive-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Sales · **Industry**: Automotive
 
@@ -6249,9 +6379,11 @@ Analyze and provide:
 
 > Pulls credit, employment, and rental history — generates Fair Housing-compliant screening reports with risk scores in 3 minutes.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/199-ai-tenant-screening-processor.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/199-ai-tenant-screening-processor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Operations · **Industry**: Real Estate
 
@@ -6259,9 +6391,11 @@ Analyze and provide:
 
 > Syncs key results from Jira, Salesforce, and 4 other tools — generates weekly OKR scorecards showing red/yellow/green status.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/200-ai-okr-progress-tracker.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/200-ai-okr-progress-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Executive · **Industry**: Enterprise
 
@@ -6269,9 +6403,11 @@ Analyze and provide:
 
 > Generates a 12-week course syllabus with learning objectives, assignments, and rubrics in under 10 minutes.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/107-ai-curriculum-designer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/107-ai-curriculum-designer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Trainer · **Industry**: Education
 
@@ -6279,9 +6415,11 @@ Analyze and provide:
 
 > Drafts personalized responses to guest reviews across 6 platforms — matching your brand voice in 30 seconds each.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/110-ai-hotel-review-responder.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/110-ai-hotel-review-responder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Content / Marketing · **Industry**: Hospitality
 
@@ -6289,9 +6427,11 @@ Analyze and provide:
 
 > Analyzes production line photos and sensor data — catches defects with 98.5% accuracy before products ship.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/111-ai-production-defect-detector.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/111-ai-production-defect-detector.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: QA Engineer · **Industry**: Manufacturing
 
@@ -6299,9 +6439,11 @@ Analyze and provide:
 
 > Generates jurisdiction-specific NDAs in 60 seconds — customizes scope, duration, and carve-outs based on deal context.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/123-ai-nda-generator.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/123-ai-nda-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Legal · **Industry**: Technology / SaaS
 
@@ -6309,9 +6451,11 @@ Analyze and provide:
 
 > Pulls public filings, news, litigation records, and financial data — assembles a due diligence package in 2 hours instead of 2 weeks.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/127-ai-due-diligence-compiler.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/127-ai-due-diligence-compiler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Consultant · **Industry**: Financial Services
 
@@ -6319,9 +6463,11 @@ Analyze and provide:
 
 > Aggregates Scope 1-3 emissions data from 12 sources — generates audit-ready carbon reports aligned to GHG Protocol.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/131-ai-carbon-footprint-reporter.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/131-ai-carbon-footprint-reporter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Compliance Officer · **Industry**: Energy
 
@@ -6329,9 +6475,11 @@ Analyze and provide:
 
 > Matches customer preferences to available inventory across 15 dealerships — suggests best-fit vehicles with trade-in estimates.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/135-ai-dealership-inventory-matcher.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/135-ai-dealership-inventory-matcher.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Sales · **Industry**: Automotive
 
@@ -6339,9 +6487,11 @@ Analyze and provide:
 
 > Analyzes booking history and guest profiles — suggests personalized room upgrades and packages that increase RevPAR by 18%.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/140-ai-guest-upsell-recommender.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/140-ai-guest-upsell-recommender.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Sales · **Industry**: Hospitality
 
@@ -6349,9 +6499,11 @@ Analyze and provide:
 
 > Transforms raw analysis into McKinsey-style slide decks — structures 30 slides with charts, key findings, and recommendations in 25 minutes.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/142-ai-management-consulting-deck-builder.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/142-ai-management-consulting-deck-builder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Consultant · **Industry**: Consulting
 
@@ -6359,9 +6511,11 @@ Analyze and provide:
 
 > Benchmarks your freight rates against market data from 200+ lanes — identifies savings opportunities averaging 12% per shipment.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/154-ai-freight-rate-negotiator.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/154-ai-freight-rate-negotiator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Procurement · **Industry**: Logistics
 
@@ -6369,9 +6523,11 @@ Analyze and provide:
 
 > Coordinates venue, catering, AV, and staffing for 300-person events — generates timelines, checklists, and vendor POs in 15 minutes.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/155-ai-event-logistics-planner.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/155-ai-event-logistics-planner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Project Manager · **Industry**: Hospitality
 
@@ -6379,9 +6535,11 @@ Analyze and provide:
 
 > Grades research papers against your rubric — provides paragraph-level feedback on argument, evidence, and writing quality in 2 minutes.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/163-ai-research-paper-grader.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/163-ai-research-paper-grader.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Trainer · **Industry**: Education
 
@@ -6389,9 +6547,11 @@ Analyze and provide:
 
 > Assesses student skills via diagnostic quiz — generates personalized 8-week learning paths with resources, milestones, and check-ins.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/169-ai-learning-path-builder.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/169-ai-learning-path-builder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Trainer · **Industry**: Education
 
@@ -6399,9 +6559,11 @@ Analyze and provide:
 
 > Plans gala events for 500 guests — manages RSVPs, seating charts, auction catalogs, and sponsorship packages in one dashboard.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/175-ai-fundraising-event-planner.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/175-ai-fundraising-event-planner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Project Manager · **Industry**: Nonprofit
 
@@ -6409,9 +6571,11 @@ Analyze and provide:
 
 > Monitors spot prices, weather forecasts, and demand curves — suggests optimal buy/sell windows for next-day energy markets.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/178-ai-energy-trading-assistant.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/178-ai-energy-trading-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Finance · **Industry**: Energy
 
@@ -6419,9 +6583,11 @@ Analyze and provide:
 
 > Clusters 2M viewers by watch history, demographics, and engagement — builds 12 actionable personas for targeted content strategy.
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/en/195-ai-audience-segmentation-engine.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/en/195-ai-audience-segmentation-engine.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 **Role**: Content / Marketing · **Industry**: Media & Entertainment
 

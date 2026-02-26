@@ -6,9 +6,11 @@ AI驱动的电信行业用例。
 
 > 分析50+基站流量模式——在拥堵发生前3个月推荐扩容方案。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/119-ai-network-capacity-planner.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/119-ai-network-capacity-planner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -128,9 +130,11 @@ COCO的AI网络容量规划师直接集成到你现有的工作流程中，充�
 
 > 处理射频传播数据、地形图和分区规则——20分钟按覆盖潜力对50个候选站点排名。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/134-ai-5g-site-survey-analyzer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/134-ai-5g-site-survey-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -250,9 +254,11 @@ COCO的AI 5G站点勘测分析器直接集成到你现有的工作流程中，�
 
 > 基于30+行为信号对10万订户评分——提前45天以87%准确率识别可能流失客户。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/149-ai-churn-predictor.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/149-ai-churn-predictor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -372,9 +378,11 @@ COCO的AI客户流失预测器直接集成到你现有的工作流程中，充�
 
 > 按生命周期阶段细分50万订户——在入网、升级和留存节点触发个性化营销。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/181-ai-subscriber-lifecycle-manager.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/181-ai-subscriber-lifecycle-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -494,9 +502,11 @@ COCO的AI订户生命周期管理器直接集成到你现有的工作流程中�
 
 > 分析网络告警和客户投诉模式——提前6小时预测工单高峰以便客服增加人手。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/196-ai-service-ticket-predictor.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/196-ai-service-ticket-predictor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 

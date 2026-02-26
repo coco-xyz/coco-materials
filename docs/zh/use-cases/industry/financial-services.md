@@ -6,9 +6,11 @@ AI驱动的银行、保险、投资和金融机构用例。
 
 > 一天调研200个线索，自动从LinkedIn、企查查抓取并打分。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/015-ai-lead-researcher.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/015-ai-lead-researcher.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -188,9 +190,11 @@ LinkedIn URL：[URL]
 
 > 8分钟生成客户会议简报，多源情报汇聚，高管画像深入。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/019-ai-client-research-brief.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/019-ai-client-research-brief.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -336,9 +340,11 @@ COCO的AI Client Research Brief在几分钟内为每次客户会议提供全面�
 
 > 自动识别VIP客户异常，30%漏检降至0%。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/024-ai-vip-escalation.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/024-ai-vip-escalation.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -491,9 +497,11 @@ CSM：[姓名]
 
 > 费用报告即时审核，合规自动通过，异常自动标记。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/029-ai-expense-auditor.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/029-ai-expense-auditor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -645,9 +653,11 @@ COCO的AI Expense Auditor提供100%的审计覆盖和一致的政策执行。
 
 > 3小时生成多源数据对账的财务报告，替代2天人工。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/030-ai-financial-report-generator.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/030-ai-financial-report-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -781,9 +791,11 @@ COCO的AI Financial Report Generator自动化数据组装、计算和叙事生�
 
 > 30秒处理一张发票：提取、匹配、路由全自动。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/031-ai-invoice-processor.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/031-ai-invoice-processor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -946,9 +958,11 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 
 > 230万行遗留代码迁移从8年缩短到14个月，缺陷率从23%降至3%。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/035-ai-code-migrator.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/035-ai-code-migrator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -1050,9 +1064,11 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 
 > 销售预测误差从40%降至8%，成交预测91%准确。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/045-ai-sales-forecaster.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/045-ai-sales-forecaster.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -1154,9 +1170,11 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 
 > 合同审查从5天降至45分钟，风险检出率从72%提至99%。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/048-ai-contract-analyzer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/048-ai-contract-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -1258,9 +1276,11 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 
 > 847份政策文档更新从6周缩短到4天，合规风险降89%。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/059-ai-policy-updater.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/059-ai-policy-updater.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -1362,9 +1382,11 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 
 > 现金流预测准确率从64%提至93%，全年零现金危机。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/060-ai-cash-flow-forecaster.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/060-ai-cash-flow-forecaster.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -1466,9 +1488,11 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 
 > 交易合规检查覆盖率从5%到100%，审计准备从6周到3天。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/061-ai-compliance-checker.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/061-ai-compliance-checker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -1570,9 +1594,11 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 
 > 流程时间从14天降至4天，返工率从31%降至8%。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/062-ai-process-miner.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/062-ai-process-miner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -1674,9 +1700,11 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 
 > 风险预测84%准确，每年预防$420万损失。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/064-ai-risk-scorer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/064-ai-risk-scorer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -1778,9 +1806,11 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 
 > 法律文档起草从5天缩短到2小时，合规风险降低85%。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/068-ai-legal-document-drafter.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/068-ai-legal-document-drafter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -1955,9 +1985,11 @@ COCO的AI法律文档起草助手将这种混乱转变为流畅的智能工作�
 
 > 监管申报准备时间减少78%，合规错误降至接近0%。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/071-ai-regulatory-filing-assistant.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/071-ai-regulatory-filing-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -2132,9 +2164,11 @@ COCO的AI合规申报助手将这种混乱转变为流畅的智能工作流。�
 
 > 数据管道故障检测从小时级降至秒级，数据质量问题减少91%。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/075-ai-data-pipeline-monitor.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/075-ai-data-pipeline-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -2309,9 +2343,11 @@ COCO的AI数据管道监控器将这种混乱转变为流畅的智能工作流�
 
 > 事件响应时间从45分钟降至8分钟，MTTR减少73%。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/080-ai-incident-response-coordinator.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/080-ai-incident-response-coordinator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -2486,9 +2522,11 @@ COCO的AI事件响应协调器将这种混乱转变为流畅的智能工作流�
 
 > 税务准备时间减少70%，申报错误降低92%，罚款归零。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/085-ai-tax-preparation-assistant.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/085-ai-tax-preparation-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -2663,9 +2701,11 @@ COCO的AI税务准备助手将这种混乱转变为流畅的智能工作流。�
 
 > 发票核对时间减少85%，差异检出率从72%提升到99.5%。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/088-ai-vendor-invoice-reconciler.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/088-ai-vendor-invoice-reconciler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -2840,9 +2880,11 @@ COCO的AI供应商发票核对器将这种混乱转变为流畅的智能工作�
 
 > 租赁合同审查从5天降至1小时，隐藏条款识别率提升到98%。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/091-ai-lease-agreement-reviewer.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/091-ai-lease-agreement-reviewer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -3026,9 +3068,11 @@ COCO的AI租赁合同审查师充当你不知疲倦的租赁分析师，结合�
 
 > 董事会报告编制从40小时降至4小时，数据准确率达99.8%。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/096-ai-board-report-compiler.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/096-ai-board-report-compiler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -3241,9 +3285,11 @@ KPI数据（本季度 vs 上季度 vs 计划）：
 
 > 合规培训完成率从52%提升到96%，逾期培训降至接近0%。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/097-ai-compliance-training-tracker.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/097-ai-compliance-training-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -3462,9 +3508,11 @@ COCO的AI合规培训追踪器将合规培训从被动、人力密集的流程�
 
 > 提取公开文件、新闻、诉讼记录和财务数据——2小时完成尽职调查报告，替代原来的2周。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/127-ai-due-diligence-compiler.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/127-ai-due-diligence-compiler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -3584,9 +3632,11 @@ COCO的AI尽职调查编撰器直接集成到你现有的工作流程中，充�
 
 > 每日监控SEC、FINRA和12个全球监管机构——将新规映射到合规义务，提前48小时预警。
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/164-ai-regulatory-change-tracker.mp4" type="video/mp4">
-</video>
+::: details 🎬 Watch Demo Video
+
+<video controls src="/videos/cn/164-ai-regulatory-change-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
+
+:::
 
 ::: details 痛点与解决方案
 
