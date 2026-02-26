@@ -109,3 +109,9 @@
   vertical-align: top;
   word-break: break-word;
 }
+/* Prevent sequence number column from wrapping */
+.vp-doc table td:first-child,
+.vp-doc table th:first-child {
+  white-space: nowrap;
+  min-width: 3em;
+}
