@@ -6,13 +6,9 @@ AI-powered use cases for SDRs, account executives, and sales leaders.
 
 > Researches 200 leads/day, auto-enriched from LinkedIn, Crunchbase, scored and ready.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/015-ai-lead-researcher.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -192,13 +188,9 @@ For each lead, provide:
 
 > Calls, emails, meetings auto-synced to CRM. 45 min/day data entry becomes zero.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/016-ai-crm-updater.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -352,13 +344,9 @@ Also generate:
 
 > Generates customized proposals in 15 minutes, auto-matched to client needs.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/017-ai-proposal-generator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -527,13 +515,9 @@ Max length: [X words or X pages]
 
 > Generates personalized follow-up emails in 2 minutes, based on meeting context.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/018-ai-follow-up-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -702,13 +686,9 @@ Each email should feel like it was written individually, not like 3 versions of 
 
 > Generates client meeting brief in 8 minutes: multi-source intel, executive profile deep-dive.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/019-ai-client-research-brief.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -854,13 +834,9 @@ Make this conversational -- I want to sound informed, not like I'm reading a rep
 
 > Complex quote calculation in 10 minutes, auto-matching discount rules and approval workflows.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/020-ai-quote-calculator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1019,13 +995,9 @@ Format as a clean, customer-facing document.
 
 > Sales forecast error: 40% → 8%. Deal prediction: 91% accurate.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/045-ai-sales-forecaster.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1127,13 +1099,9 @@ Evaluate:
 
 > Demo prep: 4 hours → 15 minutes. Demo-to-close rate: 18% → 34%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/046-ai-demo-personalizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1235,13 +1203,9 @@ Evaluate:
 
 > Real-time competitor pricing monitoring. Response: 3 weeks → 4 hours. Revenue/user +23%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/047-ai-pricing-optimizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1343,13 +1307,9 @@ Evaluate:
 
 > Contract review: 5 days → 45 minutes. Risk detection: 72% → 99%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/048-ai-contract-analyzer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1451,13 +1411,9 @@ Evaluate:
 
 > Churn prediction: 87% accurate. Save rate: 12% → 41%. NRR +18pts.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/049-ai-churn-predictor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1559,13 +1515,9 @@ Evaluate:
 
 > Territory balance improved 45%. Inter-territory performance gap reduced 60%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/073-ai-sales-territory-mapper.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1740,13 +1692,9 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Churned customer win-back: 8% → 35%. Acquisition cost reduced 60%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/086-ai-customer-win-back-campaigner.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1921,13 +1869,9 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Objection handling success: 35% → 72%. Deal cycle shortened 25%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/098-ai-sales-objection-handler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2155,13 +2099,9 @@ Present findings in a format suitable for a sales team meeting, with specific ex
 
 > Pitch deck creation: 15 hours → 1 hour. Client customization 300% more.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/101-ai-pitch-deck-builder.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2432,13 +2372,9 @@ Analyze and recommend:
 
 > Customer health coverage: 20% → 100%. Churn prediction: 87% accurate.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/102-ai-customer-health-scorer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2758,13 +2694,9 @@ For each scenario, provide:
 
 > RFP response: 40 hours → 8 hours. Win rate: 5% → 18%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/104-ai-rfp-response-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3067,13 +2999,9 @@ Analyze and provide:
 
 > Scores 5,000+ donors on engagement, giving history, and capacity — prioritizes outreach to boost renewal rates by 25%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/128-ai-donor-engagement-tracker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3193,13 +3121,9 @@ This week's data:
 
 > Analyzes claim history, risk profile, and market rates — recommends optimal renewal terms 30 days before expiry.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/132-ai-policy-renewal-optimizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3319,13 +3243,9 @@ This week's data:
 
 > Matches customer preferences to available inventory across 15 dealerships — suggests best-fit vehicles with trade-in estimates.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/135-ai-dealership-inventory-matcher.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3445,13 +3365,9 @@ This week's data:
 
 > Analyzes booking history and guest profiles — suggests personalized room upgrades and packages that increase RevPAR by 18%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/140-ai-guest-upsell-recommender.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3571,13 +3487,9 @@ This week's data:
 
 > Qualifies online leads, matches vehicle preferences, and books test drives — fills 90% of available slots with confirmed appointments.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/197-ai-test-drive-scheduler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3697,13 +3609,9 @@ This week's data:
 
 > Maps physician referral patterns across 200 providers — identifies high-value relationship gaps and outreach priorities.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/201-ai-referral-network-mapper.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3823,13 +3731,9 @@ This week's data:
 
 > Pulls 30 recent sales, adjusts for features and timing — generates client-ready CMA presentations with photos and price justifications.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/202-ai-comparative-market-analysis.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

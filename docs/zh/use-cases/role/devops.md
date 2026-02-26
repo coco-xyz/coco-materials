@@ -6,13 +6,9 @@ AI驱动的DevOps运维专业人员用例。
 
 > 分析50+基站流量模式——在拥堵发生前3个月推荐扩容方案。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/119-ai-network-capacity-planner.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -132,13 +128,9 @@ COCO的AI网络容量规划师直接集成到你现有的工作流程中，充�
 
 > 实时追踪2000+太阳能板产出——10分钟内检测衰减、遮挡问题和逆变器故障。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/146-ai-solar-panel-performance-monitor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 

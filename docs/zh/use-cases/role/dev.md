@@ -6,13 +6,9 @@ AI驱动的开发者、DevOps工程师和技术负责人用例。
 
 > 自动审查每个PR：Bug、安全漏洞、性能问题——15分钟出完整报告。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/005-ai-code-reviewer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -148,13 +144,9 @@ PR信息：
 
 > 读取源码，30分钟生成包含边界条件的完整测试。覆盖率从34%提升到89%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/006-ai-test-generator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -326,13 +318,9 @@ Bug描述：[描述bug]
 
 > 实时监控每次部署，90秒检测异常，自动回滚。MTTR从47分钟降至2分钟。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/007-ai-deploy-monitor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -499,13 +487,9 @@ COCO的AI Deploy Monitor作为智能层叠加在你现有的监控基础设施�
 
 > 从代码库自动生成并同步API文档，多语言示例，零偏差。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/008-ai-api-doc-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -686,13 +670,9 @@ API概述：[简要描述API功能]
 
 > 粘贴错误日志，AI从症状追溯到根因，提供可直接应用的修复diff。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/009-ai-debug-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -887,13 +867,9 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 
 > 230万行遗留代码迁移从8年缩短到14个月，缺陷率从23%降至3%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/035-ai-code-migrator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -995,13 +971,9 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 
 > 页面加载从4.7秒优化到0.9秒，3周诊断时间变4小时。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/036-ai-performance-profiler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1103,13 +1075,9 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 
 > 持续安全扫描，误报率从91%降至8%，修复时间从38天到4天。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/037-ai-security-scanner.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1211,13 +1179,9 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 
 > 慢查询从12秒优化到0.3秒，云计算成本降低42%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/038-ai-database-optimizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1318,13 +1282,9 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 
 > 自动管理1847个依赖，23个CVE全部清零，更新成功率94%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/039-ai-dependency-manager.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1426,13 +1386,9 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 
 > Bug分诊从6小时/Sprint降至30分钟，严重Bug修复从14天到3天。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/051-ai-bug-prioritizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1534,13 +1490,9 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 
 > 工单误路由减少89%，升级解决时间从24小时降至2小时。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/074-ai-helpdesk-escalation-router.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1715,13 +1667,9 @@ COCO的AI工单升级路由器将这种混乱转变为流畅的智能工作流�
 
 > 数据管道故障检测从小时级降至秒级，数据质量问题减少91%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/075-ai-data-pipeline-monitor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1896,13 +1844,9 @@ COCO的AI数据管道监控器将这种混乱转变为流畅的智能工作流�
 
 > 事件响应时间从45分钟降至8分钟，MTTR减少73%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/080-ai-incident-response-coordinator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2077,13 +2021,9 @@ COCO的AI事件响应协调器将这种混乱转变为流畅的智能工作流�
 
 > 专利检索从3周缩短到4小时，现有技术覆盖率从60%提升到97%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/081-ai-patent-research-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2258,13 +2198,9 @@ COCO的AI专利研究助手将这种混乱转变为流畅的智能工作流。�
 
 > QA覆盖率从40%提升到92%，回归缺陷减少67%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/083-ai-quality-assurance-auditor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2439,13 +2375,9 @@ COCO的AI质量保证审计器将这种混乱转变为流畅的智能工作流�
 
 > 技术文档编写从3天降至2小时，文档与代码同步率99%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/087-ai-technical-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2629,13 +2561,9 @@ SDK语言：[语言]
 
 > IT资产可见性从45%提升到99%，影子IT发现率提升10倍。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/099-ai-it-asset-manager.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2864,13 +2792,9 @@ COCO的AI IT资产管理器为您组织中的每项技术资产创建全面、�
 
 > 映射新旧版本间200+ API端点——生成包含破坏性变更警告和代码示例的迁移指南。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/161-ai-api-migration-planner.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2990,13 +2914,9 @@ COCO的AI API迁移规划器直接集成到你现有的工作流程中，充当�
 
 > 映射新旧电子病历系统间的字段——转换50万条患者记录，带验证检查和错误日志。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/168-ai-ehr-data-migrator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3116,13 +3036,9 @@ COCO的AI电子病历数据迁移器直接集成到你现有的工作流程中�
 
 > 每晚扫描15个仓库的2000个依赖——按可利用性优先排序CVE并自动生成升级PR。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/198-ai-dependency-vulnerability-scanner.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 

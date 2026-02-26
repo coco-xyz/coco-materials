@@ -6,13 +6,9 @@ AI use cases for market research, competitive intelligence, and monitoring.
 
 > Auto-curates industry news. 5 hours/week manual curation becomes 30 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/013-ai-newsletter-curator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -160,13 +156,9 @@ For each segment, generate:
 
 > Real-time competitive tracking. 2 days of research becomes 1 hour of automated insights.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/014-ai-competitive-copywriter.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -337,13 +329,9 @@ Analyze:
 
 > Researches 200 leads/day, auto-enriched from LinkedIn, Crunchbase, scored and ready.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/015-ai-lead-researcher.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -523,13 +511,9 @@ For each lead, provide:
 
 > Generates client meeting brief in 8 minutes: multi-source intel, executive profile deep-dive.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/019-ai-client-research-brief.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -675,13 +659,9 @@ Make this conversational -- I want to sound informed, not like I'm reading a rep
 
 > Auto-detects VIP customer anomalies. 30% missed issues drops to 0%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/024-ai-vip-escalation.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -834,13 +814,9 @@ Tone: Senior, professional, genuine. This should sound like it comes from someon
 
 > Instant expense report audit. Compliant: auto-approved. Anomalies: auto-flagged.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/029-ai-expense-auditor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -992,13 +968,9 @@ Provide a revised policy draft with tracked changes and rationale for each updat
 
 > Real-time inventory forecasting, replacing weekly manual stocktakes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/033-ai-inventory-forecaster.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1152,13 +1124,9 @@ For each scenario:
 
 > Vendor evaluation and ranking in 2 hours, replacing 1 week of manual research.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/034-ai-vendor-evaluator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1345,13 +1313,9 @@ Overall risk score (0-100) with justification and recommended mitigation for eac
 
 > Continuous security scanning. False positives: 91% → 8%. Fix time: 38 days → 4 days.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/037-ai-security-scanner.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1453,13 +1417,9 @@ Evaluate:
 
 > Brand crisis detection: 72 hours → 11 minutes. Coverage: 10% → 97%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/040-ai-brand-monitor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1561,13 +1521,9 @@ Evaluate:
 
 > Influencer vetting: 15 hours → 20 minutes. Campaign ROI: 0.8x → 4.2x.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/041-ai-influencer-finder.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1669,13 +1625,9 @@ Evaluate:
 
 > Churn prediction: 87% accurate. Save rate: 12% → 41%. NRR +18pts.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/049-ai-churn-predictor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1777,13 +1729,9 @@ Evaluate:
 
 > Bug triage: 6 hrs/sprint → 30 min. Critical fix: 14 days → 3 days.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/051-ai-bug-prioritizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1885,13 +1833,9 @@ Evaluate:
 
 > SLA breaches: 12/quarter → 1/quarter. Penalties: $200K/yr → $15K/yr.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/052-ai-sla-tracker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1993,13 +1937,9 @@ Evaluate:
 
 > Survey response: 31% → 82%. Turnover prediction: 89% accurate.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/055-ai-employee-pulse.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2101,13 +2041,9 @@ Evaluate:
 
 > Transaction compliance: 5% sampled → 100% checked. Audit prep: 6 weeks → 3 days.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/061-ai-compliance-checker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2209,13 +2145,9 @@ Evaluate:
 
 > Churn early warning 30 days ahead. Save rate: 15% → 42%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/069-ai-customer-success-monitor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2390,13 +2322,9 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Pipeline failure detection: hours → seconds. Data quality issues reduced 91%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/075-ai-data-pipeline-monitor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2571,13 +2499,9 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Supply chain visibility: 30% → 95%. Disruption response time reduced 76%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/077-ai-supply-chain-tracker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2752,13 +2676,9 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Marketing ROI reports: 3 days → real-time. Cross-channel attribution: 92% accurate.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/079-ai-marketing-roi-dashboard.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2933,13 +2853,9 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Incident response: 45 min → 8 min. MTTR reduced 73%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/080-ai-incident-response-coordinator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3114,13 +3030,9 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Competitive intel: monthly → real-time. Strategic response speed 5x faster.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/084-ai-competitive-intelligence-tracker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3295,13 +3207,9 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Brand mention coverage: 15% → 96%. Crisis response: 15 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/089-ai-social-listening-agent.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3496,13 +3404,9 @@ Provide the full query syntax, alert configurations, and workflow automation rul
 
 > Survey response rate: 3% → 28%. Actionable insights output 5x.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/094-ai-customer-survey-designer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3743,13 +3647,9 @@ Prioritize recommendations by: impact on strategic questions, cost, time to firs
 
 > Compliance training completion: 52% → 96%. Overdue training: near zero.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/097-ai-compliance-training-tracker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3967,13 +3867,9 @@ Present with executive-ready visualizations described in markdown (tables, compa
 
 > IT asset visibility: 45% → 99%. Shadow IT discovery 10x.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/099-ai-it-asset-manager.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4245,13 +4141,9 @@ For each metric, specify:
 
 > Demand forecast error: 35% → 8%. Inventory costs reduced 28%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/100-ai-demand-forecaster.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4528,13 +4420,9 @@ Optimize and provide:
 
 > Customer health coverage: 20% → 100%. Churn prediction: 87% accurate.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/102-ai-customer-health-scorer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4855,13 +4743,9 @@ For each scenario, provide:
 
 > Monitors 500+ active shipments across carriers — alerts you to delays 4 hours before they impact delivery.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/109-ai-shipment-tracker.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Logistics Manager · **Industry**: Logistics
 
@@ -4869,13 +4753,9 @@ For each scenario, provide:
 
 > Analyzes traffic patterns across 50+ cell towers — recommends capacity upgrades 3 months before congestion hits.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/119-ai-network-capacity-planner.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: DevOps · **Industry**: Telecom
 
@@ -4883,13 +4763,9 @@ For each scenario, provide:
 
 > Scans NHTSA databases and service bulletins daily — maps recalls to your fleet inventory and generates action plans.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/120-ai-vehicle-recall-monitor.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Compliance Officer · **Industry**: Automotive
 
@@ -4897,13 +4773,9 @@ For each scenario, provide:
 
 > Matches patient records against 40+ trial criteria — identifies eligible candidates 10x faster than manual review.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/121-ai-clinical-trial-screener.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Data Analyst · **Industry**: Healthcare
 
@@ -4911,13 +4783,9 @@ For each scenario, provide:
 
 > Aggregates grades, attendance, and engagement data for 200 students — flags at-risk learners weekly with intervention suggestions.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/122-ai-student-progress-tracker.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Trainer · **Industry**: Education
 
@@ -4925,13 +4793,9 @@ For each scenario, provide:
 
 > Searches across 15 government databases simultaneously — compiles property, court, and business records in 5 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/129-ai-public-records-researcher.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Data Analyst · **Industry**: Government
 
@@ -4939,13 +4803,9 @@ For each scenario, provide:
 
 > Scans access logs, encryption configs, and data flows — identifies HIPAA violations and generates remediation tasks in 15 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/136-ai-hipaa-compliance-auditor.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Compliance Officer · **Industry**: Healthcare
 
@@ -4953,13 +4813,9 @@ For each scenario, provide:
 
 > Compares student submissions against 10M+ sources and AI-generated patterns — flags suspicious passages with confidence scores.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/137-ai-plagiarism-checker.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Trainer · **Industry**: Education
 
@@ -4967,13 +4823,9 @@ For each scenario, provide:
 
 > Analyzes crop photos and local pest databases — identifies infestations with 95% accuracy and recommends treatment protocols.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/145-ai-pest-detection-advisor.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Consultant · **Industry**: Agriculture
 
@@ -4981,13 +4833,9 @@ For each scenario, provide:
 
 > Tracks output from 2,000+ panels in real-time — detects degradation, shading issues, and inverter faults within 10 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/146-ai-solar-panel-performance-monitor.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: DevOps · **Industry**: Energy
 
@@ -4995,13 +4843,9 @@ For each scenario, provide:
 
 > Evaluates applicant data against 50 risk factors — generates underwriting recommendations with confidence scores in 8 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/147-ai-underwriting-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Data Analyst · **Industry**: Insurance
 
@@ -5009,13 +4853,9 @@ For each scenario, provide:
 
 > Scores 100,000 subscribers on 30+ behavioral signals — identifies likely churners 45 days out with 87% accuracy.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/149-ai-churn-predictor.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Data Analyst · **Industry**: Telecom
 
@@ -5023,13 +4863,9 @@ For each scenario, provide:
 
 > Maps your programs against 150+ accreditation standards — highlights gaps and auto-generates evidence documentation.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/152-ai-accreditation-compliance-checker.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Compliance Officer · **Industry**: Education
 
@@ -5037,13 +4873,9 @@ For each scenario, provide:
 
 > Searches USPTO, EUIPO, and 20+ trademark databases — delivers a comprehensive conflict report with risk scores in 10 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/153-ai-trademark-conflict-searcher.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Legal · **Industry**: Enterprise
 
@@ -5051,13 +4883,9 @@ For each scenario, provide:
 
 > Monitors 300 suppliers across geopolitical, financial, and weather risk factors — generates daily risk scorecards with mitigation steps.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/160-ai-supply-chain-risk-scorer.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Procurement · **Industry**: Manufacturing
 
@@ -5065,13 +4893,9 @@ For each scenario, provide:
 
 > Maps 200+ API endpoints between old and new versions — generates migration guides with breaking-change alerts and code samples.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/161-ai-api-migration-planner.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Product / Dev · **Industry**: Technology / SaaS
 
@@ -5079,13 +4903,9 @@ For each scenario, provide:
 
 > Monitors SEC, FINRA, and 12 global regulators daily — maps new rules to your compliance obligations with 48-hour advance alerts.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/164-ai-regulatory-change-tracker.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Legal · **Industry**: Financial Services
 
@@ -5093,13 +4913,9 @@ For each scenario, provide:
 
 > Tracks 2,000 daily deliveries across 5 carriers — auto-contacts customers about delays and suggests redelivery windows.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/165-ai-last-mile-delivery-tracker.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Logistics Manager · **Industry**: E-commerce / Retail
 
@@ -5107,13 +4923,9 @@ For each scenario, provide:
 
 > Analyzes claim patterns across 100,000 records — identifies suspicious clusters and staged accident indicators with 92% precision.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/179-ai-fraud-pattern-detector.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Data Analyst · **Industry**: Insurance
 
@@ -5121,13 +4933,9 @@ For each scenario, provide:
 
 > Tracks feed intake, movement, and temperature for 1,000 head — detects illness indicators 48 hours before visible symptoms.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/192-ai-livestock-health-monitor.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Operations · **Industry**: Agriculture
 
@@ -5135,13 +4943,9 @@ For each scenario, provide:
 
 > Reviews 80-page power purchase agreements — flags escalation clauses, curtailment risks, and unfavorable terms in 10 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/193-ai-power-purchase-agreement-reviewer.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Legal · **Industry**: Energy
 
@@ -5149,13 +4953,9 @@ For each scenario, provide:
 
 > Analyzes network alerts and customer complaint patterns — predicts ticket surges 6 hours early so support can staff up.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/196-ai-service-ticket-predictor.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Customer Support · **Industry**: Telecom
 
@@ -5163,13 +4963,9 @@ For each scenario, provide:
 
 > Scans 2,000 dependencies across 15 repos nightly — prioritizes CVEs by exploitability and auto-generates upgrade PRs.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/198-ai-dependency-vulnerability-scanner.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Product / Dev · **Industry**: Technology / SaaS
 
@@ -5177,13 +4973,9 @@ For each scenario, provide:
 
 > Maps physician referral patterns across 200 providers — identifies high-value relationship gaps and outreach priorities.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/201-ai-referral-network-mapper.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Sales · **Industry**: Healthcare
 
@@ -5191,13 +4983,9 @@ For each scenario, provide:
 
 > Compiles board packet from 8 department updates — formats financials, strategic updates, and vote items into a branded 40-page deck.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/203-ai-board-meeting-prep-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: Executive · **Industry**: Enterprise
 
@@ -5205,13 +4993,9 @@ For each scenario, provide:
 
 > Scans your web app against WCAG 2.2 AA standards — flags 200+ checkpoints with fix suggestions and priority rankings.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/204-ai-accessibility-compliance-checker.mp4" type="video/mp4">
 </video>
-
-:::
 
 **Role**: QA Engineer · **Industry**: Technology / SaaS
 

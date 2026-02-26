@@ -6,13 +6,9 @@ AI-powered use cases for procurement professionals.
 
 > Cross-references BOMs against 5,000+ supplier catalogs — catches obsolete parts and suggests cost-saving alternatives in 3 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/141-ai-bill-of-materials-checker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -132,13 +128,9 @@ This week's data:
 
 > Benchmarks your freight rates against market data from 200+ lanes — identifies savings opportunities averaging 12% per shipment.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/154-ai-freight-rate-negotiator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -258,13 +250,9 @@ This week's data:
 
 > Monitors 300 suppliers across geopolitical, financial, and weather risk factors — generates daily risk scorecards with mitigation steps.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/160-ai-supply-chain-risk-scorer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -384,13 +372,9 @@ This week's data:
 
 > Compares formulary options across 5 PBMs — identifies therapeutic equivalents that save 22% on pharmacy spend without outcome loss.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/183-ai-pharmacy-benefit-optimizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -510,13 +494,9 @@ This week's data:
 
 > Scores 30 vendor bids against 25 weighted criteria — generates comparison matrices and shortlists top 3 candidates in 45 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/191-ai-procurement-bid-evaluator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

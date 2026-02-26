@@ -6,13 +6,9 @@ AI驱动的制造业行业用例。
 
 > 分析产线照片和传感器数据——产品出厂前以98.5%准确率捕捉缺陷。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/111-ai-production-defect-detector.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -132,13 +128,9 @@ COCO的AI生产缺陷检测器直接集成到你现有的工作流程中，充�
 
 > 分析100+设备的振动、温度和运行数据——在故障前安排维护，停机时间减少40%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/126-ai-predictive-maintenance-scheduler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -258,13 +250,9 @@ COCO的AI预测性维护调度器直接集成到你现有的工作流程中，�
 
 > 将BOM与5000+供应商目录交叉验证——3分钟发现停产零件并建议替代方案以降低成本。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/141-ai-bill-of-materials-checker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -384,13 +372,9 @@ COCO的AI物料清单检查器直接集成到你现有的工作流程中，充�
 
 > 从自然语言中提取事故细节——生成符合OSHA标准的报告，包含根因分析和纠正措施。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/156-ai-safety-incident-reporter.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -510,13 +494,9 @@ COCO的AI安全事故报告器直接集成到你现有的工作流程中，充�
 
 > 跨地缘政治、财务和天气风险因素监控300家供应商——每日生成带缓解措施的风险评分卡。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/160-ai-supply-chain-risk-scorer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -636,13 +616,9 @@ COCO的AI供应链风险评分器直接集成到你现有的工作流程中，�
 
 > 排序200个生产订单以最小化换线时间——在满足所有交期的同时提升15%产量。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/173-ai-production-batch-optimizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -762,13 +738,9 @@ COCO的AI生产批次优化器直接集成到你现有的工作流程中，充�
 
 > 实时监控50张控制图——在产生废品前3个班次检测到超差趋势，自动触发警报。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/188-ai-spc-chart-monitor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 

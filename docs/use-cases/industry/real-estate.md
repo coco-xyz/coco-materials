@@ -6,13 +6,9 @@ AI use cases for the real estate industry.
 
 > Pulls 20+ comps, adjusts for location and condition, and delivers a market valuation report in 5 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/108-ai-property-valuation-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -132,13 +128,9 @@ This week's data:
 
 > Extracts room dimensions, calculates usable square footage, and flags code violations from uploaded floor plans in 2 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/166-ai-floor-plan-analyzer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -258,13 +250,9 @@ This week's data:
 
 > Pulls credit, employment, and rental history — generates Fair Housing-compliant screening reports with risk scores in 3 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/199-ai-tenant-screening-processor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -384,13 +372,9 @@ This week's data:
 
 > Pulls 30 recent sales, adjusts for features and timing — generates client-ready CMA presentations with photos and price justifications.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/202-ai-comparative-market-analysis.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

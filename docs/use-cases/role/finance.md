@@ -6,13 +6,9 @@ AI-powered use cases for finance teams, accountants, and analysts.
 
 > Instant expense report audit. Compliant: auto-approved. Anomalies: auto-flagged.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/029-ai-expense-auditor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -164,13 +160,9 @@ Provide a revised policy draft with tracked changes and rationale for each updat
 
 > Multi-source financial report in 3 hours, replacing 2 days of manual work.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/030-ai-financial-report-generator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -304,13 +296,9 @@ Also provide:
 
 > Processes an invoice in 30 seconds: extract, match, route — fully automated.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/031-ai-invoice-processor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -473,13 +461,9 @@ Provide a prioritized 90-day improvement roadmap.
 
 > Cash flow forecast accuracy: 64% → 93%. Zero cash crises per year.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/060-ai-cash-flow-forecaster.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -581,13 +565,9 @@ Evaluate:
 
 > Transaction compliance: 5% sampled → 100% checked. Audit prep: 6 weeks → 3 days.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/061-ai-compliance-checker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -689,13 +669,9 @@ Evaluate:
 
 > Legal document drafting: 5 days → 2 hours. Compliance risk reduced 85%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/068-ai-legal-document-drafter.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -870,13 +846,9 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Regulatory filing prep time reduced 78%. Compliance errors near zero.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/071-ai-regulatory-filing-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1051,13 +1023,9 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Tax prep time reduced 70%. Filing errors down 92%. Penalties: zero.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/085-ai-tax-preparation-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1232,13 +1200,9 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Invoice reconciliation time reduced 85%. Discrepancy detection: 72% → 99.5%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/088-ai-vendor-invoice-reconciler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1413,13 +1377,9 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Lease review: 5 days → 1 hour. Hidden clause detection: 98%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/091-ai-lease-agreement-reviewer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1603,13 +1563,9 @@ Generate a 12-month forward calendar view and a prioritized action list for the 
 
 > Travel expense compliance: 68% → 97%. Travel spend reduced 23%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/092-ai-travel-expense-optimizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1804,13 +1760,9 @@ Implementation roadmap: Phase 1 (quick wins, 0-3 months), Phase 2 (system change
 
 > Board report prep: 40 hours → 4 hours. Data accuracy: 99.8%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/096-ai-board-report-compiler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2023,13 +1975,9 @@ Each section should be self-contained (readable independently) but tell a consis
 
 > Calculates food cost percentage for every menu item — suggests price adjustments and substitutions to hit 30% margin targets.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/125-ai-menu-cost-analyzer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2149,13 +2097,9 @@ This week's data:
 
 > Processes streaming data from 8 platforms — calculates artist royalties across 50,000 tracks with split-sheet accuracy in 30 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/148-ai-royalty-calculator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2275,13 +2219,9 @@ This week's data:
 
 > Reads clinical notes and assigns ICD-10 and CPT codes — achieves 96% first-pass accuracy, reducing claim denials by 40%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/151-ai-medical-coding-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2401,13 +2341,9 @@ This week's data:
 
 > Compares actual spend against 200 budget line items monthly — highlights variances over 5% with drill-down explanations.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/176-ai-budget-variance-analyst.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2527,13 +2463,9 @@ This week's data:
 
 > Monitors spot prices, weather forecasts, and demand curves — suggests optimal buy/sell windows for next-day energy markets.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/178-ai-energy-trading-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2653,13 +2585,9 @@ This week's data:
 
 > Adjusts room rates dynamically based on demand, events, and competitor pricing — increases RevPAR by 12% over static pricing.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/187-ai-revenue-management-optimizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2779,13 +2707,9 @@ This week's data:
 
 > Runs 500 mortality and morbidity scenarios against your book — stress-tests reserves and highlights underfunded segments in 30 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/194-ai-actuarial-scenario-runner.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

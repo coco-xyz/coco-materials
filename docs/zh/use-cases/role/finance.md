@@ -6,13 +6,9 @@ AI驱动的财务团队、会计师和财务分析师用例。
 
 > 费用报告即时审核，合规自动通过，异常自动标记。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/029-ai-expense-auditor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -164,13 +160,9 @@ COCO的AI Expense Auditor提供100%的审计覆盖和一致的政策执行。
 
 > 3小时生成多源数据对账的财务报告，替代2天人工。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/030-ai-financial-report-generator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -304,13 +296,9 @@ COCO的AI Financial Report Generator自动化数据组装、计算和叙事生�
 
 > 30秒处理一张发票：提取、匹配、路由全自动。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/031-ai-invoice-processor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -473,13 +461,9 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 
 > 现金流预测准确率从64%提至93%，全年零现金危机。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/060-ai-cash-flow-forecaster.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -581,13 +565,9 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 
 > 交易合规检查覆盖率从5%到100%，审计准备从6周到3天。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/061-ai-compliance-checker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -689,13 +669,9 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 
 > 法律文档起草从5天缩短到2小时，合规风险降低85%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/068-ai-legal-document-drafter.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -870,13 +846,9 @@ COCO的AI法律文档起草助手将这种混乱转变为流畅的智能工作�
 
 > 监管申报准备时间减少78%，合规错误降至接近0%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/071-ai-regulatory-filing-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1051,13 +1023,9 @@ COCO的AI合规申报助手将这种混乱转变为流畅的智能工作流。�
 
 > 税务准备时间减少70%，申报错误降低92%，罚款归零。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/085-ai-tax-preparation-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1232,13 +1200,9 @@ COCO的AI税务准备助手将这种混乱转变为流畅的智能工作流。�
 
 > 发票核对时间减少85%，差异检出率从72%提升到99.5%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/088-ai-vendor-invoice-reconciler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1413,13 +1377,9 @@ COCO的AI供应商发票核对器将这种混乱转变为流畅的智能工作�
 
 > 租赁合同审查从5天降至1小时，隐藏条款识别率提升到98%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/091-ai-lease-agreement-reviewer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1603,13 +1563,9 @@ COCO的AI租赁合同审查师充当你不知疲倦的租赁分析师，结合�
 
 > 差旅费用合规率从68%提升到97%，差旅开支节省23%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/092-ai-travel-expense-optimizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1804,13 +1760,9 @@ COCO的AI差旅费用优化师管理从预订到报销的整个差旅生命周�
 
 > 董事会报告编制从40小时降至4小时，数据准确率达99.8%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/096-ai-board-report-compiler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2023,13 +1975,9 @@ KPI数据（本季度 vs 上季度 vs 计划）：
 
 > 计算每道菜品的食材成本占比——建议价格调整和替代方案以达到30%毛利目标。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/125-ai-menu-cost-analyzer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2149,13 +2097,9 @@ COCO的AI菜单成本分析器直接集成到你现有的工作流程中，充�
 
 > 处理8个平台的流媒体数据——30分钟按分成协议精确计算5万首曲目的艺人版税。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/148-ai-royalty-calculator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2275,13 +2219,9 @@ COCO的AI版税计算器直接集成到你现有的工作流程中，充当一�
 
 > 阅读临床记录分配ICD-10和CPT编码——首次准确率96%，拒付率降低40%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/151-ai-medical-coding-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2401,13 +2341,9 @@ COCO的AI医疗编码助手直接集成到你现有的工作流程中，充当�
 
 > 每月对比200个预算项的实际支出——突出超过5%的差异并提供下钻分析。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/176-ai-budget-variance-analyst.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2527,13 +2463,9 @@ COCO的AI预算差异分析师直接集成到你现有的工作流程中，充�
 
 > 监控现货价格、天气预报和需求曲线——建议次日能源市场的最优买卖时间窗口。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/178-ai-energy-trading-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2653,13 +2585,9 @@ COCO的AI能源交易助手直接集成到你现有的工作流程中，充当�
 
 > 基于需求、活动和竞争定价动态调整房价——比静态定价提升12% RevPAR。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/187-ai-revenue-management-optimizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2779,13 +2707,9 @@ COCO的AI收益管理优化器直接集成到你现有的工作流程中，充�
 
 > 对保险账簿运行500个死亡率和发病率情景——30分钟压力测试准备金并突出资金不足环节。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/194-ai-actuarial-scenario-runner.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 

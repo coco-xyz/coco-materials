@@ -6,13 +6,9 @@ AI-powered use cases for HR, recruiters, and people operations.
 
 > Screens 500 resumes in 2 hours, replacing 3 days of manual screening.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/025-ai-resume-screener.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -164,13 +160,9 @@ Create a comparison matrix including:
 
 > Generates bias-free, SEO-optimized job descriptions in 10 minutes.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/026-ai-job-description-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -341,13 +333,9 @@ Include data sources and note any limitations in the benchmarking.
 
 > Schedules interviews in 3 minutes, auto-coordinating multiple calendars.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/027-ai-interview-scheduler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -502,13 +490,9 @@ Provide actionable recommendations for the next quarter.
 
 > New hire fully onboarded in 3 days instead of 2 weeks.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/028-ai-onboarding-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -682,13 +666,9 @@ For each task: responsible person, deadline, dependencies, and verification that
 
 > Survey response: 31% → 82%. Turnover prediction: 89% accurate.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/055-ai-employee-pulse.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -790,13 +770,9 @@ Evaluate:
 
 > Training completion: 23% → 71%. Skill gaps closed: 64% in 6 months.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/056-ai-training-recommender.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -898,13 +874,9 @@ Evaluate:
 
 > Real-time comp benchmarking. Offer competitiveness: 52% → 89%. Attrition -35%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/057-ai-comp-benchmarker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1006,13 +978,9 @@ Evaluate:
 
 > Review writing: 40 hours → 6 hours. Actionable feedback: 24% → 87%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/058-ai-review-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1114,13 +1082,9 @@ Evaluate:
 
 > Employee offboarding: 2 weeks → 1 day. Access revocation gaps: zero.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/082-ai-employee-offboarding-manager.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1295,13 +1259,9 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Job ad click-through +65%. Quality candidate applications +40%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/093-ai-recruitment-marketing-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1476,13 +1436,9 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Compliance training completion: 52% → 96%. Overdue training: near zero.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/097-ai-compliance-training-tracker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

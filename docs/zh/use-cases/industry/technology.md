@@ -6,13 +6,9 @@ AI驱动的科技公司、SaaS平台和软件开发团队用例。
 
 > 自动审查每个PR：Bug、安全漏洞、性能问题——15分钟出完整报告。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/005-ai-code-reviewer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -148,13 +144,9 @@ PR信息：
 
 > 读取源码，30分钟生成包含边界条件的完整测试。覆盖率从34%提升到89%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/006-ai-test-generator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -326,13 +318,9 @@ Bug描述：[描述bug]
 
 > 实时监控每次部署，90秒检测异常，自动回滚。MTTR从47分钟降至2分钟。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/007-ai-deploy-monitor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -499,13 +487,9 @@ COCO的AI Deploy Monitor作为智能层叠加在你现有的监控基础设施�
 
 > 从代码库自动生成并同步API文档，多语言示例，零偏差。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/008-ai-api-doc-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -686,13 +670,9 @@ API概述：[简要描述API功能]
 
 > 粘贴错误日志，AI从症状追溯到根因，提供可直接应用的修复diff。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/009-ai-debug-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -887,13 +867,9 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 
 > 20分钟产出一篇SEO优化的高质量文章，关键词研究到终稿一站式完成。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/010-ai-seo-content-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1094,13 +1070,9 @@ COCO的AI SEO Content Writer将内容创作流水线从一个串行的、劳动�
 
 > 一次输入，全平台适配发布。每天3小时社媒运营缩减到15分钟。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/011-ai-social-media-manager.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1283,13 +1255,9 @@ COCO的AI Social Media Manager作为社交媒体团队的力量倍增器，处�
 
 > 10分钟生成200个A/B变体广告文案，数据驱动迭代优化。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/012-ai-ad-copy-generator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1494,13 +1462,9 @@ COCO的AI Ad Copy Generator专为效果营销构建，理解各平台付费广�
 
 > 实时追踪竞品动态，2天调研变为1小时自动化输出。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/014-ai-competitive-copywriter.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1671,13 +1635,9 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 
 > 一天调研200个线索，自动从LinkedIn、企查查抓取并打分。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/015-ai-lead-researcher.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1857,13 +1817,9 @@ LinkedIn URL：[URL]
 
 > 通话、邮件、会议自动同步CRM，45分钟/天数据录入变为0。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/016-ai-crm-updater.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2017,13 +1973,9 @@ Pipeline数据：
 
 > 工单自动分类路由，5分钟/单变为即时处理。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/021-ai-ticket-classifier.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2174,13 +2126,9 @@ SLA层级：[按优先级列出你的SLA要求]
 
 > 1小时生成50篇知识库文章，从工单和对话自动提取。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/022-ai-knowledge-base-builder.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2334,13 +2282,9 @@ COCO的AI Knowledge Base Builder将已解决的客服工单转化为已发布的
 
 > AI一键支持15+语言客服，替代5个翻译人员。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/023-ai-multi-language-support.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2496,13 +2440,9 @@ COCO的AI Multi-Language Support提供母语质量的多语言客户服务，无
 
 > 2小时筛选500份简历，替代3天人工筛选。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/025-ai-resume-screener.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2651,13 +2591,9 @@ COCO的AI Resume Screener对每份申请进行深度、一致的分析，对照�
 
 > 10分钟生成无偏见、SEO优化的职位描述。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/026-ai-job-description-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2828,13 +2764,9 @@ COCO的AI Job Description Writer创建引人注目的、包容的、高效的职
 
 > 新员工3天完成入职，替代传统2周流程。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/028-ai-onboarding-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3008,13 +2940,9 @@ COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入�
 
 > 会议结束即出纪要：转录、摘要、待办分配一步到位。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/032-ai-meeting-notes.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3172,13 +3100,9 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 
 > 230万行遗留代码迁移从8年缩短到14个月，缺陷率从23%降至3%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/035-ai-code-migrator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3280,13 +3204,9 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 
 > 页面加载从4.7秒优化到0.9秒，3周诊断时间变4小时。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/036-ai-performance-profiler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3388,13 +3308,9 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 
 > 持续安全扫描，误报率从91%降至8%，修复时间从38天到4天。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/037-ai-security-scanner.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3496,13 +3412,9 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 
 > 慢查询从12秒优化到0.3秒，云计算成本降低42%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/038-ai-database-optimizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3603,13 +3515,9 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 
 > 自动管理1847个依赖，23个CVE全部清零，更新成功率94%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/039-ai-dependency-manager.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3711,13 +3619,9 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 
 > 客户流失预测87%准确，挽回率从12%提至41%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/049-ai-churn-predictor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3819,13 +3723,9 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 
 > 客服机器人解决率从27%提至78%，训练时间从6个月到2周。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/050-ai-chatbot-trainer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3927,13 +3827,9 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 
 > Bug分诊从6小时/Sprint降至30分钟，严重Bug修复从14天到3天。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/051-ai-bug-prioritizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -4035,13 +3931,9 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 
 > 100%处理14000条月度反馈，问题发现从3周到24小时。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/053-ai-sentiment-analyzer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -4143,13 +4035,9 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 
 > 员工调查响应率从31%提至82%，离职预测89%准确。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/055-ai-employee-pulse.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -4251,13 +4139,9 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 
 > 实时薪酬对标，Offer竞争力从52%提至89%，遗憾离职降35%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/057-ai-comp-benchmarker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -4359,13 +4243,9 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 
 > 邮件处理时间减少73%，优先邮件响应从4.2小时降至23分钟。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/066-ai-email-triage-manager.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -4532,13 +4412,9 @@ COCO的AI邮件分诊管理器将这种混乱转变为流畅的智能工作流�
 
 > 会议安排后勤时间减少87%，跨时区会议安排速度提升3倍。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/067-ai-meeting-scheduler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -4704,13 +4580,9 @@ COCO的AI会议调度助手将这种混乱转变为流畅的智能工作流。�
 
 > 客户流失预警提前30天发现，挽回率从15%提升到42%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/069-ai-customer-success-monitor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -4885,13 +4757,9 @@ COCO的AI客户成功监控器将这种混乱转变为流畅的智能工作流�
 
 > 产品反馈分析从2周缩短到2小时，覆盖100%的用户反馈。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/070-ai-product-feedback-analyzer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -5066,13 +4934,9 @@ COCO的AI产品反馈分析器将这种混乱转变为流畅的智能工作流�
 
 > 项目状态报告编写从4小时降至15分钟，实时数据自动聚合。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/072-ai-project-status-reporter.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -5247,13 +5111,9 @@ COCO的AI项目状态报告生成器将这种混乱转变为流畅的智能工�
 
 > 工单误路由减少89%，升级解决时间从24小时降至2小时。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/074-ai-helpdesk-escalation-router.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -5428,13 +5288,9 @@ COCO的AI工单升级路由器将这种混乱转变为流畅的智能工作流�
 
 > 数据管道故障检测从小时级降至秒级，数据质量问题减少91%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/075-ai-data-pipeline-monitor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -5609,13 +5465,9 @@ COCO的AI数据管道监控器将这种混乱转变为流畅的智能工作流�
 
 > 本地化周期从6周缩短到3天，翻译一致性提升到98%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/076-ai-localization-manager.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -5790,13 +5642,9 @@ COCO的AI本地化管理器将这种混乱转变为流畅的智能工作流。�
 
 > 客户入驻时间从3周缩短到3天，首月激活率提升55%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/078-ai-customer-onboarding-guide.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -5971,13 +5819,9 @@ COCO的AI客户入驻引导助手将这种混乱转变为流畅的智能工作�
 
 > 事件响应时间从45分钟降至8分钟，MTTR减少73%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/080-ai-incident-response-coordinator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -6152,13 +5996,9 @@ COCO的AI事件响应协调器将这种混乱转变为流畅的智能工作流�
 
 > 专利检索从3周缩短到4小时，现有技术覆盖率从60%提升到97%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/081-ai-patent-research-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -6333,13 +6173,9 @@ COCO的AI专利研究助手将这种混乱转变为流畅的智能工作流。�
 
 > 员工离职流程从2周缩短到1天，权限撤销遗漏降至0%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/082-ai-employee-offboarding-manager.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -6514,13 +6350,9 @@ COCO的AI员工离职管理器将这种混乱转变为流畅的智能工作流�
 
 > QA覆盖率从40%提升到92%，回归缺陷减少67%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/083-ai-quality-assurance-auditor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -6695,13 +6527,9 @@ COCO的AI质量保证审计器将这种混乱转变为流畅的智能工作流�
 
 > 竞品动态检测从每月一次变为实时，战略响应速度提升5倍。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/084-ai-competitive-intelligence-tracker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -6876,13 +6704,9 @@ COCO的AI竞争情报追踪器将这种混乱转变为流畅的智能工作流�
 
 > 流失客户挽回率从8%提升到35%，获客成本降低60%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/086-ai-customer-win-back-campaigner.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -7057,13 +6881,9 @@ COCO的AI客户挽回营销器将这种混乱转变为流畅的智能工作流�
 
 > 技术文档编写从3天降至2小时，文档与代码同步率99%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/087-ai-technical-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -7247,13 +7067,9 @@ SDK语言：[语言]
 
 > 品牌提及监测覆盖率从15%提升到96%，危机响应时间降至15分钟。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/089-ai-social-listening-agent.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -7448,13 +7264,9 @@ COCO的AI社交媒体监听助手作为7×24小时品牌情报系统运作，覆
 
 > 冲刺规划会议从3小时缩短到45分钟，交付准确率提升38%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/090-ai-sprint-planning-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -7647,13 +7459,9 @@ COCO的AI冲刺规划助手将冲刺规划从主观辩论转变为数据驱动�
 
 > 职位广告点击率提升65%，优质候选人申请量增加40%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/093-ai-recruitment-marketing-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -7828,13 +7636,9 @@ COCO的AI招聘营销文案助手将这种混乱转变为流畅的智能工作�
 
 > 调研回复率从3%提升到28%，可操作洞察产出量增加5倍。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/094-ai-customer-survey-designer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -8075,13 +7879,9 @@ COCO的AI客户调研设计师将调查从粗糙的工具转变为精准的反�
 
 > 发版说明编写从3-4小时降至5分钟，功能采用率提升35%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/095-ai-release-notes-generator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -8341,13 +8141,9 @@ Git日志：
 
 > 合规培训完成率从52%提升到96%，逾期培训降至接近0%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/097-ai-compliance-training-tracker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -8565,13 +8361,9 @@ COCO的AI合规培训追踪器将合规培训从被动、人力密集的流程�
 
 > 销售异议处理成功率从35%提升到72%，成交周期缩短25%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/098-ai-sales-objection-handler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -8799,13 +8591,9 @@ COCO的AI销售异议处理器将经验知识转化为可扩展的、始终最�
 
 > IT资产可见性从45%提升到99%，影子IT发现率提升10倍。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/099-ai-it-asset-manager.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -9034,13 +8822,9 @@ COCO的AI IT资产管理器为您组织中的每项技术资产创建全面、�
 
 > 演示文稿制作从15小时降至1小时，客户定制度提升300%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/101-ai-pitch-deck-builder.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -9241,13 +9025,9 @@ COCO的AI演示文稿构建器将演示创建从手动、耗时的苦差事转�
 
 > 客户健康度评估覆盖率从20%提升到100%，流失预警准确率87%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/102-ai-customer-health-scorer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -9455,13 +9235,9 @@ COCO的AI客户健康评分器用全面的预测系统替代简单的手动健�
 
 > 跨部门工作流自动化率从15%提升到78%，处理时间减少65%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/103-ai-workflow-automator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -9662,13 +9438,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > RFP响应时间从40小时降至8小时，中标率从5%提升到18%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/104-ai-rfp-response-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -9895,13 +9667,9 @@ RFP表现数据（过去12个月）：
 
 > 60秒生成符合管辖区要求的保密协议——根据交易背景定制范围、期限和例外条款。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/123-ai-nda-generator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -10021,13 +9789,9 @@ COCO的AI保密协议生成器直接集成到你现有的工作流程中，充�
 
 > 将专利组合与竞争对手申请对比——跨300+专利识别空白领域和潜在侵权风险。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/138-ai-ip-portfolio-analyzer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -10147,13 +9911,9 @@ COCO的AI知识产权组合分析器直接集成到你现有的工作流程中�
 
 > 映射新旧版本间200+ API端点——生成包含破坏性变更警告和代码示例的迁移指南。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/161-ai-api-migration-planner.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -10273,13 +10033,9 @@ COCO的AI API迁移规划器直接集成到你现有的工作流程中，充当�
 
 > 运行100个定价场景结合弹性曲线和竞品数据——推荐使LTV最大化20%的层级结构。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/189-ai-pricing-strategy-modeler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -10399,13 +10155,9 @@ COCO的AI定价策略建模器直接集成到你现有的工作流程中，充�
 
 > 每晚扫描15个仓库的2000个依赖——按可利用性优先排序CVE并自动生成升级PR。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/198-ai-dependency-vulnerability-scanner.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -10525,13 +10277,9 @@ COCO的AI依赖漏洞扫描器直接集成到你现有的工作流程中，充�
 
 > 按WCAG 2.2 AA标准扫描Web应用——标记200+检查点并提供修复建议和优先级排名。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/204-ai-accessibility-compliance-checker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 

@@ -6,13 +6,9 @@ AI-powered use cases for qa engineer professionals.
 
 > Analyzes production line photos and sensor data — catches defects with 98.5% accuracy before products ship.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/111-ai-production-defect-detector.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -132,13 +128,9 @@ This week's data:
 
 > Monitors 50 control charts in real-time — detects out-of-spec trends 3 shifts before they cause scrap, triggering automatic alerts.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/188-ai-spc-chart-monitor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -258,13 +250,9 @@ This week's data:
 
 > Scans your web app against WCAG 2.2 AA standards — flags 200+ checkpoints with fix suggestions and priority rankings.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/204-ai-accessibility-compliance-checker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

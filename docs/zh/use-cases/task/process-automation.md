@@ -6,13 +6,9 @@ AI驱动的工作流自动化、系统集成和运营效率用例。
 
 > 自动审查每个PR：Bug、安全漏洞、性能问题——15分钟出完整报告。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/005-ai-code-reviewer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -148,13 +144,9 @@ PR信息：
 
 > 读取源码，30分钟生成包含边界条件的完整测试。覆盖率从34%提升到89%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/006-ai-test-generator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -326,13 +318,9 @@ Bug描述：[描述bug]
 
 > 实时监控每次部署，90秒检测异常，自动回滚。MTTR从47分钟降至2分钟。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/007-ai-deploy-monitor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -499,13 +487,9 @@ COCO的AI Deploy Monitor作为智能层叠加在你现有的监控基础设施�
 
 > 粘贴错误日志，AI从症状追溯到根因，提供可直接应用的修复diff。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/009-ai-debug-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -700,13 +684,9 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 
 > 通话、邮件、会议自动同步CRM，45分钟/天数据录入变为0。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/016-ai-crm-updater.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -860,13 +840,9 @@ Pipeline数据：
 
 > 工单自动分类路由，5分钟/单变为即时处理。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/021-ai-ticket-classifier.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1017,13 +993,9 @@ SLA层级：[按优先级列出你的SLA要求]
 
 > 自动识别VIP客户异常，30%漏检降至0%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/024-ai-vip-escalation.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1176,13 +1148,9 @@ CSM：[姓名]
 
 > 3分钟完成面试排期，自动协调多方日历。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/027-ai-interview-scheduler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1336,13 +1304,9 @@ COCO的AI Interview Scheduler自动化从初始可用性到确认的整个排期
 
 > 新员工3天完成入职，替代传统2周流程。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/028-ai-onboarding-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1516,13 +1480,9 @@ COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入�
 
 > 30秒处理一张发票：提取、匹配、路由全自动。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/031-ai-invoice-processor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1685,13 +1645,9 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 
 > 会议结束即出纪要：转录、摘要、待办分配一步到位。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/032-ai-meeting-notes.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1849,13 +1805,9 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 
 > 230万行遗留代码迁移从8年缩短到14个月，缺陷率从23%降至3%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/035-ai-code-migrator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1957,13 +1909,9 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 
 > 自动管理1847个依赖，23个CVE全部清零，更新成功率94%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/039-ai-dependency-manager.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2065,13 +2013,9 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 
 > 演示准备从4小时降至15分钟，演示转化率从18%提至34%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/046-ai-demo-personalizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2173,13 +2117,9 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 
 > 客服机器人解决率从27%提至78%，训练时间从6个月到2周。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/050-ai-chatbot-trainer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2281,13 +2221,9 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 
 > 培训完成率从23%提至71%，6个月技能差距关闭64%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/056-ai-training-recommender.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2389,13 +2325,9 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 
 > 文档搜索从18分钟降至30秒，错误分类从34%降至3%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/063-ai-document-classifier.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2497,13 +2429,9 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 
 > 数据录入自动化，准确率从96%提升至99.7%，处理时间减少94%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/065-ai-data-entry-automator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2686,13 +2614,9 @@ COCO的AI数据录入自动化工具连接你现有的文档来源和目标系�
 
 > 邮件处理时间减少73%，优先邮件响应从4.2小时降至23分钟。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/066-ai-email-triage-manager.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2859,13 +2783,9 @@ COCO的AI邮件分诊管理器将这种混乱转变为流畅的智能工作流�
 
 > 会议安排后勤时间减少87%，跨时区会议安排速度提升3倍。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/067-ai-meeting-scheduler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3031,13 +2951,9 @@ COCO的AI会议调度助手将这种混乱转变为流畅的智能工作流。�
 
 > 监管申报准备时间减少78%，合规错误降至接近0%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/071-ai-regulatory-filing-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3212,13 +3128,9 @@ COCO的AI合规申报助手将这种混乱转变为流畅的智能工作流。�
 
 > 工单误路由减少89%，升级解决时间从24小时降至2小时。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/074-ai-helpdesk-escalation-router.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3393,13 +3305,9 @@ COCO的AI工单升级路由器将这种混乱转变为流畅的智能工作流�
 
 > 数据管道故障检测从小时级降至秒级，数据质量问题减少91%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/075-ai-data-pipeline-monitor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3574,13 +3482,9 @@ COCO的AI数据管道监控器将这种混乱转变为流畅的智能工作流�
 
 > 本地化周期从6周缩短到3天，翻译一致性提升到98%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/076-ai-localization-manager.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3755,13 +3659,9 @@ COCO的AI本地化管理器将这种混乱转变为流畅的智能工作流。�
 
 > 供应链可视性从30%提升到95%，中断响应时间减少76%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/077-ai-supply-chain-tracker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -3936,13 +3836,9 @@ COCO的AI供应链追踪器将这种混乱转变为流畅的智能工作流。�
 
 > 客户入驻时间从3周缩短到3天，首月激活率提升55%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/078-ai-customer-onboarding-guide.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -4117,13 +4013,9 @@ COCO的AI客户入驻引导助手将这种混乱转变为流畅的智能工作�
 
 > 事件响应时间从45分钟降至8分钟，MTTR减少73%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/080-ai-incident-response-coordinator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -4298,13 +4190,9 @@ COCO的AI事件响应协调器将这种混乱转变为流畅的智能工作流�
 
 > 员工离职流程从2周缩短到1天，权限撤销遗漏降至0%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/082-ai-employee-offboarding-manager.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -4479,13 +4367,9 @@ COCO的AI员工离职管理器将这种混乱转变为流畅的智能工作流�
 
 > 税务准备时间减少70%，申报错误降低92%，罚款归零。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/085-ai-tax-preparation-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -4660,13 +4544,9 @@ COCO的AI税务准备助手将这种混乱转变为流畅的智能工作流。�
 
 > 发票核对时间减少85%，差异检出率从72%提升到99.5%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/088-ai-vendor-invoice-reconciler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -4841,13 +4721,9 @@ COCO的AI供应商发票核对器将这种混乱转变为流畅的智能工作�
 
 > 冲刺规划会议从3小时缩短到45分钟，交付准确率提升38%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/090-ai-sprint-planning-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -5040,13 +4916,9 @@ COCO的AI冲刺规划助手将冲刺规划从主观辩论转变为数据驱动�
 
 > 差旅费用合规率从68%提升到97%，差旅开支节省23%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/092-ai-travel-expense-optimizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -5241,13 +5113,9 @@ COCO的AI差旅费用优化师管理从预订到报销的整个差旅生命周�
 
 > 合规培训完成率从52%提升到96%，逾期培训降至接近0%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/097-ai-compliance-training-tracker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -5465,13 +5333,9 @@ COCO的AI合规培训追踪器将合规培训从被动、人力密集的流程�
 
 > IT资产可见性从45%提升到99%，影子IT发现率提升10倍。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/099-ai-it-asset-manager.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -5700,13 +5564,9 @@ COCO的AI IT资产管理器为您组织中的每项技术资产创建全面、�
 
 > 跨部门工作流自动化率从15%提升到78%，处理时间减少65%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/103-ai-workflow-automator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -5908,13 +5768,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 3分钟扫描50页合同——签字前标记风险条款、缺失条款和异常条件。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/105-ai-contract-analyzer.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 法律 · **行业**: 企业通用
 
@@ -5922,13 +5778,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 90秒数字化患者入院表——将人口统计、保险信息和病史自动录入电子病历系统。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/106-ai-patient-intake-processor.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 运营 · **行业**: 医疗健康
 
@@ -5936,13 +5788,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 跨部门追踪200+许可证申请——提前7天标记缺失文件和临近截止日期。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/114-ai-permit-application-tracker.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 合规官 · **行业**: 政府
 
@@ -5950,13 +5798,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 对照保单条款审核理赔申请——自动通过简单案件，处理时间从5天缩短到4小时。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/117-ai-claims-adjuster.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 运营 · **行业**: 保险
 
@@ -5964,13 +5808,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 分析拣货频率和订单模式——重新设计仓库分区，平均拣货时间缩短35%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/124-ai-warehouse-layout-optimizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 物流经理 · **行业**: 物流
 
@@ -5978,13 +5818,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 分析100+设备的振动、温度和运行数据——在故障前安排维护，停机时间减少40%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/126-ai-predictive-maintenance-scheduler.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 运营 · **行业**: 制造业
 
@@ -5992,13 +5828,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 对5000+捐赠者进行参与度、捐赠历史和能力评分——优先联络以提升续捐率25%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/128-ai-donor-engagement-tracker.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 销售 · **行业**: 非营利
 
@@ -6006,13 +5838,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 结合土壤湿度传感器、天气预报和作物需求——优化灌溉计划，减少30%用水量。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/130-ai-irrigation-scheduler.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 运营 · **行业**: 农业
 
@@ -6020,13 +5848,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 分析理赔历史、风险画像和市场费率——到期前30天推荐最优续保方案。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/132-ai-policy-renewal-optimizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 销售 · **行业**: 保险
 
@@ -6034,13 +5858,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 规划每日80个站点的最优配送路线——综合交通、时间窗和车辆容量，燃油成本降低20%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/139-ai-route-optimizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 物流经理 · **行业**: 物流
 
@@ -6048,13 +5868,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 将BOM与5000+供应商目录交叉验证——3分钟发现停产零件并建议替代方案以降低成本。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/141-ai-bill-of-materials-checker.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 采购 · **行业**: 制造业
 
@@ -6062,13 +5878,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 根据技能、空闲时间和历史表现将500名志愿者匹配到30个活动岗位——自动发送确认。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/143-ai-volunteer-coordinator.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 运营 · **行业**: 非营利
 
@@ -6076,13 +5888,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 跨3个系统同步OEM零件编号、定价和适配数据——每晚核对保持8万SKU准确。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/150-ai-parts-catalog-updater.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 运营 · **行业**: 汽车
 
@@ -6090,13 +5898,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 阅读临床记录分配ICD-10和CPT编码——首次准确率96%，拒付率降低40%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/151-ai-medical-coding-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 财务 · **行业**: 医疗健康
 
@@ -6104,13 +5908,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 从自然语言中提取事故细节——生成符合OSHA标准的报告，包含根因分析和纠正措施。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/156-ai-safety-incident-reporter.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 合规官 · **行业**: 制造业
 
@@ -6118,13 +5918,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 对照豁免标准审查信息公开请求——编辑敏感内容并起草回复，处理周期从30天缩短到5天。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/159-ai-foia-request-processor.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 法律 · **行业**: 政府
 
@@ -6132,13 +5928,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 映射新旧电子病历系统间的字段——转换50万条患者记录，带验证检查和错误日志。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/168-ai-ehr-data-migrator.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 产品/研发 · **行业**: 医疗健康
 
@@ -6146,13 +5938,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 识别保管人、发送保全通知、追踪确认并监控合规——管理50+活跃保全，零遗漏截止日期。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/170-ai-litigation-hold-manager.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 法律 · **行业**: 企业通用
 
@@ -6160,13 +5948,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 在20个月台协调进出车辆——通过实时时段优化将停留时间缩短45%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/171-ai-cross-dock-scheduler.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 物流经理 · **行业**: 物流
 
@@ -6174,13 +5958,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 根据退房时间、特殊需求和距离将80间房分配给15名清洁员——周转时间缩短25%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/172-ai-housekeeping-scheduler.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 运营 · **行业**: 酒店餐饮
 
@@ -6188,13 +5968,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 排序200个生产订单以最小化换线时间——在满足所有交期的同时提升15%产量。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/173-ai-production-batch-optimizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 运营 · **行业**: 制造业
 
@@ -6202,13 +5978,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 跨30个地区追踪1万+作品的授权窗口——权利到期前60天提醒续约决策。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/180-ai-content-rights-tracker.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 法律 · **行业**: 媒体娱乐
 
@@ -6216,13 +5988,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 按生命周期阶段细分50万订户——在入网、升级和留存节点触发个性化营销。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/181-ai-subscriber-lifecycle-manager.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 内容/营销 · **行业**: 电信
 
@@ -6230,13 +5998,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 对比5家PBM的药品目录方案——找到节省22%药品支出的等效替代品，不影响疗效。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/183-ai-pharmacy-benefit-optimizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 采购 · **行业**: 医疗健康
 
@@ -6244,13 +6008,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 建模人口趋势、申请漏斗和竞争动态——以3%以内误差预测下一年招生人数。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/184-ai-enrollment-forecaster.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 数据分析师 · **行业**: 教育
 
@@ -6258,13 +6018,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 将货物归入HS编码、计算关税并预填报关单——清关时间从48小时缩短到6小时。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/186-ai-customs-declaration-filer.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 物流经理 · **行业**: 物流
 
@@ -6272,13 +6028,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 基于需求、活动和竞争定价动态调整房价——比静态定价提升12% RevPAR。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/187-ai-revenue-management-optimizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 财务 · **行业**: 酒店餐饮
 
@@ -6286,13 +6038,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 实时监控50张控制图——在产生废品前3个班次检测到超差趋势，自动触发警报。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/188-ai-spc-chart-monitor.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: QA工程师 · **行业**: 制造业
 
@@ -6300,13 +6048,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 按25项加权标准评分30份供应商投标——45分钟生成比较矩阵并筛选前3名。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/191-ai-procurement-bid-evaluator.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 采购 · **行业**: 政府
 
@@ -6314,13 +6058,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 筛选在线潜客、匹配车型偏好并预约试驾——以确认预约填满90%可用时段。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/197-ai-test-drive-scheduler.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 销售 · **行业**: 汽车
 
@@ -6328,13 +6068,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 提取信用、就业和租赁历史——3分钟生成符合公平住房法的带风险评分筛查报告。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/199-ai-tenant-screening-processor.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 运营 · **行业**: 房地产
 
@@ -6342,13 +6078,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 从Jira、Salesforce等6个工具同步关键结果——生成周度OKR评分卡显示红黄绿状态。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/200-ai-okr-progress-tracker.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 高管 · **行业**: 企业通用
 
@@ -6356,13 +6088,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 10分钟内生成12周课程大纲——包含学习目标、作业设计和评分标准。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/107-ai-curriculum-designer.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 培训师 · **行业**: 教育
 
@@ -6370,13 +6098,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 在6个平台上为客人评论撰写个性化回复——每条30秒，完美匹配品牌语调。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/110-ai-hotel-review-responder.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 内容/营销 · **行业**: 酒店餐饮
 
@@ -6384,13 +6108,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 分析产线照片和传感器数据——产品出厂前以98.5%准确率捕捉缺陷。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/111-ai-production-defect-detector.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: QA工程师 · **行业**: 制造业
 
@@ -6398,13 +6118,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 60秒生成符合管辖区要求的保密协议——根据交易背景定制范围、期限和例外条款。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/123-ai-nda-generator.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 法律 · **行业**: 科技/SaaS
 
@@ -6412,13 +6128,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 提取公开文件、新闻、诉讼记录和财务数据——2小时完成尽职调查报告，替代原来的2周。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/127-ai-due-diligence-compiler.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 咨询顾问 · **行业**: 金融服务
 
@@ -6426,13 +6138,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 从12个数据源汇总范围1-3排放数据——生成符合GHG协议的审计就绪碳排放报告。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/131-ai-carbon-footprint-reporter.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 合规官 · **行业**: 能源
 
@@ -6440,13 +6148,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 将客户偏好与15家经销商库存匹配——推荐最佳车型并估算置换价格。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/135-ai-dealership-inventory-matcher.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 销售 · **行业**: 汽车
 
@@ -6454,13 +6158,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 分析预订历史和客人画像——推荐个性化房间升级和套餐，RevPAR提升18%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/140-ai-guest-upsell-recommender.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 销售 · **行业**: 酒店餐饮
 
@@ -6468,13 +6168,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 将原始分析转化为麦肯锡风格幻灯片——25分钟构建30张包含图表、关键发现和建议的PPT。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/142-ai-management-consulting-deck-builder.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 咨询顾问 · **行业**: 咨询
 
@@ -6482,13 +6178,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 将运费与200+航线的市场数据对标——发现平均每批货物可节省12%的机会。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/154-ai-freight-rate-negotiator.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 采购 · **行业**: 物流
 
@@ -6496,13 +6188,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 协调300人活动的场地、餐饮、音视频和人员——15分钟生成时间线、检查单和供应商订单。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/155-ai-event-logistics-planner.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 项目经理 · **行业**: 酒店餐饮
 
@@ -6510,13 +6198,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 按评分标准批改研究论文——2分钟提供论证、证据和写作质量的段落级反馈。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/163-ai-research-paper-grader.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 培训师 · **行业**: 教育
 
@@ -6524,13 +6208,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 通过诊断测验评估学生技能——生成个性化8周学习路径，含资源、里程碑和检查点。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/169-ai-learning-path-builder.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 培训师 · **行业**: 教育
 
@@ -6538,13 +6218,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 策划500人晚宴——在一个面板管理RSVP、座位安排、拍卖目录和赞助方案。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/175-ai-fundraising-event-planner.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 项目经理 · **行业**: 非营利
 
@@ -6552,13 +6228,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 监控现货价格、天气预报和需求曲线——建议次日能源市场的最优买卖时间窗口。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/178-ai-energy-trading-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 财务 · **行业**: 能源
 
@@ -6566,13 +6238,9 @@ COCO的AI工作流自动化器采用根本不同的自动化方法——从智�
 
 > 按观看历史、人口统计和互动数据聚类200万观众——构建12个可操作画像用于定向内容策略。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/195-ai-audience-segmentation-engine.mp4" type="video/mp4">
 </video>
-
-:::
 
 **角色**: 内容/营销 · **行业**: 媒体娱乐
 

@@ -6,13 +6,9 @@ AI-powered use cases for logistics manager professionals.
 
 > Monitors 500+ active shipments across carriers — alerts you to delays 4 hours before they impact delivery.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/109-ai-shipment-tracker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -132,13 +128,9 @@ This week's data:
 
 > Analyzes pick frequency and order patterns — redesigns warehouse zones to cut average pick time by 35%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/124-ai-warehouse-layout-optimizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -258,13 +250,9 @@ This week's data:
 
 > Plans optimal delivery routes for 80 stops daily — factors in traffic, time windows, and vehicle capacity to cut fuel costs 20%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/139-ai-route-optimizer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -384,13 +372,9 @@ This week's data:
 
 > Tracks 2,000 daily deliveries across 5 carriers — auto-contacts customers about delays and suggests redelivery windows.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/165-ai-last-mile-delivery-tracker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -510,13 +494,9 @@ This week's data:
 
 > Coordinates inbound and outbound trucks at 20 dock doors — minimizes dwell time by 45% with real-time slot optimization.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/171-ai-cross-dock-scheduler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -636,13 +616,9 @@ This week's data:
 
 > Classifies goods into HS codes, calculates duties, and pre-fills customs forms — reduces clearance time from 48 to 6 hours.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/186-ai-customs-declaration-filer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

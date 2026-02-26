@@ -6,13 +6,9 @@ AI-powered use cases for support teams, help desk, and customer success.
 
 > Auto-classifies and routes tickets. 5 min/ticket becomes instant.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/021-ai-ticket-classifier.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -163,13 +159,9 @@ Keep each response under 150 words. Test readability: would a frustrated custome
 
 > Generates 50 knowledge base articles in 1 hour, auto-extracted from tickets and conversations.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/022-ai-knowledge-base-builder.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -323,13 +315,9 @@ Compare the original and rewrite, noting specific improvements.
 
 > One AI agent supports 15+ languages, replacing 5 translators.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/023-ai-multi-language-support.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -485,13 +473,9 @@ Important:
 
 > Auto-detects VIP customer anomalies. 30% missed issues drops to 0%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/024-ai-vip-escalation.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -644,13 +628,9 @@ Tone: Senior, professional, genuine. This should sound like it comes from someon
 
 > Churn prediction: 87% accurate. Save rate: 12% → 41%. NRR +18pts.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/049-ai-churn-predictor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -752,13 +732,9 @@ Evaluate:
 
 > Chatbot resolution: 27% → 78%. Training: 6 months → 2 weeks. CSAT: 3.1 → 4.4.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/050-ai-chatbot-trainer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -860,13 +836,9 @@ Evaluate:
 
 > Ticket deflection +45%. FAQ coverage: 120 → 850+ articles. 23 hrs/week saved.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/054-ai-faq-generator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -968,13 +940,9 @@ Evaluate:
 
 > Churn early warning 30 days ahead. Save rate: 15% → 42%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/069-ai-customer-success-monitor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1149,13 +1117,9 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Ticket misrouting reduced 89%. Escalation resolution: 24 hours → 2 hours.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/074-ai-helpdesk-escalation-router.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1330,13 +1294,9 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Customer onboarding: 3 weeks → 3 days. First-month activation rate +55%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/078-ai-customer-onboarding-guide.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1511,13 +1471,9 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Churned customer win-back: 8% → 35%. Acquisition cost reduced 60%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/086-ai-customer-win-back-campaigner.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1692,13 +1648,9 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Objection handling success: 35% → 72%. Deal cycle shortened 25%.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/098-ai-sales-objection-handler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1926,13 +1878,9 @@ Present findings in a format suitable for a sales team meeting, with specific ex
 
 > Customer health coverage: 20% → 100%. Churn prediction: 87% accurate.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/102-ai-customer-health-scorer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2252,13 +2200,9 @@ For each scenario, provide:
 
 > Analyzes network alerts and customer complaint patterns — predicts ticket surges 6 hours early so support can staff up.
 
-::: details 🎬 Watch Demo Video
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/196-ai-service-ticket-predictor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details Pain Point & How COCO Solves It
 

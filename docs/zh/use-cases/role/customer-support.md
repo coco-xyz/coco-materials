@@ -6,13 +6,9 @@ AI驱动的客服团队、帮助台和客户成功用例。
 
 > 工单自动分类路由，5分钟/单变为即时处理。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/021-ai-ticket-classifier.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -163,13 +159,9 @@ SLA层级：[按优先级列出你的SLA要求]
 
 > 1小时生成50篇知识库文章，从工单和对话自动提取。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/022-ai-knowledge-base-builder.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -323,13 +315,9 @@ COCO的AI Knowledge Base Builder将已解决的客服工单转化为已发布的
 
 > AI一键支持15+语言客服，替代5个翻译人员。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/023-ai-multi-language-support.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -485,13 +473,9 @@ COCO的AI Multi-Language Support提供母语质量的多语言客户服务，无
 
 > 自动识别VIP客户异常，30%漏检降至0%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/024-ai-vip-escalation.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -644,13 +628,9 @@ CSM：[姓名]
 
 > 客户流失预测87%准确，挽回率从12%提至41%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/049-ai-churn-predictor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -752,13 +732,9 @@ CSM：[姓名]
 
 > 客服机器人解决率从27%提至78%，训练时间从6个月到2周。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/050-ai-chatbot-trainer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -860,13 +836,9 @@ CSM：[姓名]
 
 > 工单分流+45%，FAQ覆盖从120篇到850+篇，每周节省23小时。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/054-ai-faq-generator.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -968,13 +940,9 @@ CSM：[姓名]
 
 > 客户流失预警提前30天发现，挽回率从15%提升到42%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/069-ai-customer-success-monitor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1149,13 +1117,9 @@ COCO的AI客户成功监控器将这种混乱转变为流畅的智能工作流�
 
 > 工单误路由减少89%，升级解决时间从24小时降至2小时。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/074-ai-helpdesk-escalation-router.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1330,13 +1294,9 @@ COCO的AI工单升级路由器将这种混乱转变为流畅的智能工作流�
 
 > 客户入驻时间从3周缩短到3天，首月激活率提升55%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/078-ai-customer-onboarding-guide.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1511,13 +1471,9 @@ COCO的AI客户入驻引导助手将这种混乱转变为流畅的智能工作�
 
 > 流失客户挽回率从8%提升到35%，获客成本降低60%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/086-ai-customer-win-back-campaigner.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1692,13 +1648,9 @@ COCO的AI客户挽回营销器将这种混乱转变为流畅的智能工作流�
 
 > 销售异议处理成功率从35%提升到72%，成交周期缩短25%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/098-ai-sales-objection-handler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1926,13 +1878,9 @@ COCO的AI销售异议处理器将经验知识转化为可扩展的、始终最�
 
 > 客户健康度评估覆盖率从20%提升到100%，流失预警准确率87%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/102-ai-customer-health-scorer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -2140,13 +2088,9 @@ COCO的AI客户健康评分器用全面的预测系统替代简单的手动健�
 
 > 分析网络告警和客户投诉模式——提前6小时预测工单高峰以便客服增加人手。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/196-ai-service-ticket-predictor.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 

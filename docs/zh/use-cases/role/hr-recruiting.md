@@ -6,13 +6,9 @@ AI驱动的HR团队、招聘人员和人力运营用例。
 
 > 2小时筛选500份简历，替代3天人工筛选。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/025-ai-resume-screener.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -161,13 +157,9 @@ COCO的AI Resume Screener对每份申请进行深度、一致的分析，对照�
 
 > 10分钟生成无偏见、SEO优化的职位描述。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/026-ai-job-description-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -338,13 +330,9 @@ COCO的AI Job Description Writer创建引人注目的、包容的、高效的职
 
 > 3分钟完成面试排期，自动协调多方日历。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/027-ai-interview-scheduler.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -498,13 +486,9 @@ COCO的AI Interview Scheduler自动化从初始可用性到确认的整个排期
 
 > 新员工3天完成入职，替代传统2周流程。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/028-ai-onboarding-assistant.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -678,13 +662,9 @@ COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入�
 
 > 员工调查响应率从31%提至82%，离职预测89%准确。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/055-ai-employee-pulse.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -786,13 +766,9 @@ COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入�
 
 > 培训完成率从23%提至71%，6个月技能差距关闭64%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/056-ai-training-recommender.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -894,13 +870,9 @@ COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入�
 
 > 实时薪酬对标，Offer竞争力从52%提至89%，遗憾离职降35%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/057-ai-comp-benchmarker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1002,13 +974,9 @@ COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入�
 
 > 绩效评审撰写从40小时降至6小时，可操作反馈从24%提至87%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/058-ai-review-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1110,13 +1078,9 @@ COCO的AI Onboarding Assistant协调从offer接受到90天里程碑的整个入�
 
 > 员工离职流程从2周缩短到1天，权限撤销遗漏降至0%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/082-ai-employee-offboarding-manager.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1291,13 +1255,9 @@ COCO的AI员工离职管理器将这种混乱转变为流畅的智能工作流�
 
 > 职位广告点击率提升65%，优质候选人申请量增加40%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/093-ai-recruitment-marketing-writer.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
@@ -1472,13 +1432,9 @@ COCO的AI招聘营销文案助手将这种混乱转变为流畅的智能工作�
 
 > 合规培训完成率从52%提升到96%，逾期培训降至接近0%。
 
-::: details 🎬 观看演示视频
-
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/097-ai-compliance-training-tracker.mp4" type="video/mp4">
 </video>
-
-:::
 
 ::: details 痛点与解决方案
 
