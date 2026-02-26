@@ -6,7 +6,7 @@ AI-powered use cases for crypto and Web3 analyst professionals.
 
 > Decodes complex blockchain transaction graphs — clustering wallet addresses, tracing fund flows across chains, and surfacing behavioral patterns that identify market movers, protocol exploiters, and compliance risks in real time.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: On-Chain Data Is Vast, Unstructured, and Overwhelmingly Noisy**
 
@@ -60,9 +60,8 @@ The temporal dimension adds another layer of complexity. On-chain patterns are o
    - Exports graph data in standard formats (GraphML, JSON-LD, CSV) for integration with Chainalysis, TRM Labs, and Elliptic workflows
    - Creates executive summary memos translating technical on-chain findings into business-relevant risk or investment signals
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -79,9 +78,8 @@ The temporal dimension adds another layer of complexity. On-chain patterns are o
 - **Exchange Compliance and AML Teams**: Accelerate suspicious transaction investigations and generate audit-ready reports that satisfy FinCEN, FATF, and MiCA reporting requirements
 - **Protocol Security Researchers**: Rapidly identify exploit precursor patterns, attacker wallet clusters, and fund routing sequences to support incident response and post-mortem analysis
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Wallet Cluster Investigation**
 ```
@@ -186,13 +184,12 @@ Tracing analysis:
 Output: Exploit flow diagram + attacker wallet cluster map + current fund disposition table + law enforcement referral memo
 ```
 
-:::
 
 ## 642. AI DeFi Protocol Risk & Exploit Exposure Assessor
 
 > Quantifies a DeFi protocol's attack surface across smart contract vulnerabilities, economic exploit vectors, oracle manipulation risks, and governance attack paths — delivering a composite risk score before you commit capital.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: DeFi Capital Allocation Happens Faster Than Risk Assessment Can Keep Up**
 
@@ -246,9 +243,8 @@ Economic exploits represent an underappreciated and growing risk category. Unlik
    - Builds portfolio-level DeFi risk exposure views aggregating individual protocol scores weighted by capital allocation
    - Issues risk escalation alerts when monitored protocols exhibit material risk score deterioration requiring immediate analyst review
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -265,9 +261,8 @@ Economic exploits represent an underappreciated and growing risk category. Unlik
 - **Exchange Listing and Collateral Teams**: Evaluate DeFi tokens and protocol-backed assets for listing eligibility and collateral risk limits using standardized, comparable risk scores
 - **DeFi Protocol Security Teams**: Use economic attack modeling and dependency mapping to identify and remediate risk vectors before external adversaries exploit them in production
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Full Protocol Risk Assessment**
 ```
@@ -394,13 +389,12 @@ Monitoring triggers: [specific events that would prompt immediate withdrawal]
 Output: Pre-deployment checklist report + risk verdict + position sizing recommendation
 ```
 
-:::
 
 ## 643. AI Token Economics Model Builder
 
 > Constructs quantitative tokenomics models covering supply schedules, emission curves, vesting unlocks, staking sink mechanics, and protocol revenue distribution — enabling analysts to stress-test token value accrual under bull, base, and bear scenarios.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Token Valuation Is the Most Contested and Least Rigorous Analysis in Crypto**
 
@@ -454,9 +448,8 @@ The demand-side modeling problem is equally challenging. Protocol revenue flows 
    - Produces a visual tokenomics dashboard with emission curves, unlock calendars, revenue waterfall charts, and scenario return matrices
    - Creates investor-ready one-pagers summarizing tokenomics findings for portfolio company reviews or fund investment committee presentations
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -473,9 +466,8 @@ The demand-side modeling problem is equally challenging. Protocol revenue flows 
 - **Venture Capital Investors in Web3**: Assess token investment opportunities with standardized financial metrics and peer benchmarks, enabling consistent deal evaluation across the portfolio
 - **Exchange Token Listing Analysts**: Evaluate token economics health metrics — circulating supply ratio, unlock calendar risk, value accrual mechanism — as part of standardized listing due diligence
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Full Tokenomics Model Construction**
 ```
@@ -610,13 +602,12 @@ Analysis:
 Output: TGE benchmark table + valuation assessment + suggested participation strategy (launch allocation vs. post-TGE accumulation)
 ```
 
-:::
 
 ## 644. AI Smart Contract Vulnerability Scanner
 
 > Automates security analysis of Solidity and Rust smart contracts — identifying reentrancy, access control failures, oracle manipulation vectors, and economic logic flaws before deployment or before committing capital to a protocol.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Smart Contract Audits Are Too Slow, Too Expensive, and Miss Economic Attack Vectors**
 
@@ -670,9 +661,8 @@ For analysts at funds and protocols who need to evaluate security posture withou
    - Surfaces any public security researcher disclosures (Immunefi reports, security blogs, Twitter disclosures) relevant to the target protocol
    - Generates a security gap assessment: findings in current code with no corresponding audit coverage and their estimated severity
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -689,9 +679,8 @@ For analysts at funds and protocols who need to evaluate security posture withou
 - **Protocol Governance Participants**: Evaluate smart contract upgrade proposals for security implications before casting votes, with automated analysis accessible to any governance token holder
 - **Bug Bounty Hunters and Security Researchers**: Use automated scanning to identify promising manual investigation targets, improving efficiency in finding exploitable vulnerabilities within Immunefi and similar programs
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Full Contract Security Scan**
 ```
@@ -827,13 +816,12 @@ Conditions for approval: [specific requirements before launch clearance]
 Output: Pre-deployment checklist report + launch readiness verdict + required remediation list
 ```
 
-:::
 
 ## 645. AI NFT Collection Floor Price & Liquidity Tracker
 
 > Monitors real-time floor prices, bid depth, wash trade volumes, and royalty flows across 500+ NFT collections — giving analysts a quantified liquidity and valuation picture before entering or exiting NFT positions.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: NFT Market Intelligence Is Fragmented, Manipulated, and Nearly Impossible to Act On**
 
@@ -887,9 +875,8 @@ The multi-marketplace, multi-chain fragmentation of the NFT ecosystem makes comp
    - Generates collection comparison reports for allocation decisions across competing NFT positions
    - Produces monthly NFT portfolio performance reports with wash-adjusted volume context and liquidity risk assessment
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -906,9 +893,8 @@ The multi-marketplace, multi-chain fragmentation of the NFT ecosystem makes comp
 - **Protocol Treasury Teams Holding NFT Assets**: Monitor the liquidation value and liquidity risk of NFT treasury holdings with real-time exit depth modeling and automated decline alerts
 - **GameFi and Metaverse Asset Managers**: Track in-game asset economies across multiple blockchain games simultaneously, monitoring floor trends, item rarity premiums, and liquidity depth for large virtual asset portfolios
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Collection Liquidity Assessment**
 ```
@@ -1039,13 +1025,12 @@ Allocation recommendation:
 Output: Collection comparison scorecard + allocation recommendation + entry strategy
 ```
 
-:::
 
 ## 646. AI Crypto Tax Lot Matching & P&L Calculator
 
 > Automates cost basis tracking, FIFO/HIFO/LIFO lot matching, DeFi income recognition, and cross-chain transaction reconciliation across thousands of trades — generating IRS/HMRC-ready tax reports and minimizing tax liability through optimal lot selection.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Crypto Tax Compliance Is a Year-Long Nightmare That Accountants Can't Solve Alone**
 
@@ -1099,9 +1084,8 @@ The cross-chain reconciliation problem compounds the difficulty. A trader moving
    - Exports professional accountant handoff packages: transaction summary, methodology memo, complex event notes, and outstanding reconciliation items
    - Generates estimated quarterly tax payment calculations to prevent underpayment penalties
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1118,9 +1102,8 @@ The cross-chain reconciliation problem compounds the difficulty. A trader moving
 - **DAOs and Protocol Treasuries**: Track treasury transactions, grant distributions, and contributor compensation for tax and financial reporting purposes across multiple wallets and chains
 - **Web3 Founders and Token Recipients**: Accurately report token compensation, vesting events, and exercise transactions with correct fair market value determination and appropriate income classification
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Full-Year Tax Reconciliation**
 ```
@@ -1259,13 +1242,12 @@ Format as a professional accountant handoff package suitable for a CPA unfamilia
 Output: Complete CPA handoff package in structured document format
 ```
 
-:::
 
 ## 647. AI Exchange KYC/AML Workflow Automation Engine
 
 > Automates customer due diligence, transaction monitoring, suspicious activity detection, and SAR/STR filing workflows for crypto exchanges and VASPs — reducing manual compliance burden while meeting FATF Travel Rule, FinCEN, and MiCA requirements.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Crypto Compliance Teams Are Drowning in Manual Review at Exactly the Wrong Time**
 
@@ -1319,9 +1301,8 @@ Transaction monitoring alert fatigue represents an equally serious problem. Rule
    - Identifies compliance program gaps against current FATF Recommendations, FinCEN guidance, and MiCA requirements with remediation priority recommendations
    - Benchmarks compliance program metrics against industry standards to support examination discussions
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1338,9 +1319,8 @@ Transaction monitoring alert fatigue represents an equally serious problem. Rule
 - **Crypto Compliance Technology Vendors**: Embed COCO's analytical capabilities into compliance platform offerings to enhance alert triage, KYC risk scoring, and SAR narrative features for VASP clients
 - **Regulatory Examination Teams**: Obtain standardized, examiner-ready documentation packages that reduce examination preparation time and demonstrate compliance program rigor with quantified performance metrics
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Customer Risk Assessment and EDD Initiation**
 ```
@@ -1497,13 +1477,12 @@ Report sections:
 Output: Annual AML program performance report in format suitable for Board Compliance Committee presentation
 ```
 
-:::
 
 ## 648. AI Whale Wallet Accumulation & Distribution Monitor
 
 > Tracks large-wallet accumulation and distribution cycles in real time across 200+ tokens — correlating whale behavior with price action to generate predictive positioning signals for professional crypto traders and fund managers.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Whale Activity Is the Most Reliable On-Chain Signal and the Hardest to Track Systematically**
 
@@ -1557,9 +1536,8 @@ The distinction between accumulation and distribution activity is not always str
    - Creates whale watch dashboards with configurable filters by asset, chain, wallet size tier, and activity type
    - Exports whale activity data to trading platforms and portfolio management systems via API for signal integration
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1576,9 +1554,8 @@ The distinction between accumulation and distribution activity is not always str
 - **Token Project Teams**: Track the accumulation and distribution behavior of their own token's largest holders to anticipate volatility events and communicate proactively with potential sellers
 - **Crypto Research Analysts**: Produce differentiated research reports that quantify institutional on-chain positioning alongside fundamental protocol analysis
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Token Whale Accumulation Status Report**
 ```
@@ -1712,13 +1689,12 @@ Setup requirements:
 Output: Whale monitoring framework setup document + priority watch list + alert configuration recommendations
 ```
 
-:::
 
 ## 649. AI Mixer & Tumbler Fund Flow Tracing Engine
 
 > Traces funds through privacy mixers, chain-hopping protocols, and peer-to-peer obfuscation layers using probabilistic graph analysis — producing AML-compliant taint reports that meet FinCEN, OFAC, and FATF evidentiary standards.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Privacy Protocols Create Evidentiary Dead Ends That Defeat Standard Blockchain Tracing**
 
@@ -1772,9 +1748,8 @@ For compliance teams at exchanges and VASPs, the mixer tracing problem has a spe
    - Generates law enforcement referral packages: complete transaction evidence, attribution analysis, and identified on/off-ramp points where legal process could obtain identifying information
    - Produces exchange risk assessment memos for individual customer deposits with mixer linkage: risk rating, recommended action (accept/reject/EDD), and documented rationale
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1791,9 +1766,8 @@ For compliance teams at exchanges and VASPs, the mixer tracing problem has a spe
 - **Law Enforcement Digital Asset Units**: Obtain comprehensive fund tracing reports with identified off-ramp points and exchange linkages that support asset freeze applications, search warrants, and prosecution evidence
 - **VASP Legal and Compliance Counsel**: Receive documented, methodology-backed analysis supporting OFAC sanctions compliance decisions on mixer-linked transactions, creating a defensible compliance record
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Mixer Interaction Taint Analysis**
 ```
@@ -1927,13 +1901,12 @@ Chain-hopping pattern assessment:
 Output: Complete cross-chain route reconstruction + taint calculation chain + obfuscation assessment + evidentiary confidence rating
 ```
 
-:::
 
 ## 650. AI DAO Governance Proposal Impact Analyzer
 
 > Evaluates DAO governance proposals for financial impact, protocol risk, stakeholder incentive alignment, and implementation feasibility — enabling token holders to vote with evidence-backed analysis rather than social influence alone.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: DAO Governance Decisions Move Billions of Dollars With Remarkably Little Rigorous Analysis**
 
@@ -1987,9 +1960,8 @@ The implementation risk dimension of governance proposals is systematically unde
    - Generates amendment suggestions: specific modifications that would address identified risks while preserving proposal intent
    - Posts analysis to governance forums in a standardized format that enables cross-proposal comparison and community discussion
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2006,9 +1978,8 @@ The implementation risk dimension of governance proposals is systematically unde
 - **Protocol Foundation Governance Facilitators**: Improve proposal quality by providing prospective proposers with a standardized impact assessment framework, raising the bar for what the community expects before voting
 - **Governance Researchers and Delegates**: Access comprehensive historical governance databases and proposal analytics to produce research on DAO governance effectiveness, voting patterns, and governance attack resilience
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Governance Proposal Full Analysis**
 ```
@@ -2143,13 +2114,12 @@ Voting calendar output:
 Output: Prioritized governance vote calendar + preliminary recommendations + action items by date
 ```
 
-:::
 
 ## 651. AI Crypto Regulatory Jurisdiction Compliance Mapper
 
 > Map your token's regulatory exposure across 50+ jurisdictions in hours, not months — before regulators find you first.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Regulatory Fragmentation Is Killing Crypto Projects**
 
@@ -2203,9 +2173,8 @@ Human compliance analysts working across this landscape face impossible workload
    - Creates AML/KYC policy documentation calibrated to each jurisdiction's FATF implementation
    - Formats token offering memoranda to meet local prospectus or offering document requirements
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2222,9 +2191,8 @@ Human compliance analysts working across this landscape face impossible workload
 - **Product Managers**: Receives clear compliance requirements before launching features in new markets, preventing costly post-launch redesigns to meet regulatory requirements
 - **CFOs and Finance Teams**: Understands licensing cost requirements and compliance overhead for market entry decisions, enabling accurate budget modeling for geographic expansion
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Initial Jurisdiction Compliance Scan**
 
@@ -2361,13 +2329,12 @@ Analysis required:
 Output: Regulatory impact assessment + action plan with assigned owners and deadlines
 ```
 
-:::
 
 ## 652. AI Cross-Chain Bridge Risk & TVL Exposure Analyzer
 
 > Quantify bridge exploit risk before your treasury becomes the next $600M headline.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Cross-Chain Bridges Are DeFi's Largest Attack Surface**
 
@@ -2421,9 +2388,8 @@ Operational monitoring is equally inadequate. Most protocols lack real-time aler
    - Produces bridge policy documentation for governance proposals and investor disclosures
    - Maintains bridge risk register updated with weekly security intelligence inputs
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2440,9 +2406,8 @@ Operational monitoring is equally inadequate. Most protocols lack real-time aler
 - **Smart Contract Security Teams**: Receives structured exploit signal monitoring that supplements code-level security measures with on-chain behavioral detection
 - **Investors and LPs**: Benefits from transparent, documented bridge risk policies that quantify and cap exposure to the single largest DeFi attack vector
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Bridge Risk Scorecard**
 
@@ -2584,13 +2549,12 @@ Comparative analysis:
 Output: Incident analysis report + framework improvement recommendations + portfolio vulnerability scan
 ```
 
-:::
 
 ## 653. AI Staking & Yield Farming Return Optimizer
 
 > Model real yield across 200+ DeFi protocols after fees, slippage, and tax drag — and find where your capital actually earns more.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Advertised APY Is Almost Always Wrong**
 
@@ -2644,9 +2608,8 @@ Tax treatment of yield income adds a final layer of complexity that most yield o
    - Compares taxable vs. tax-deferred structures for equivalent yield strategies
    - Generates tax documentation: cost basis records, income recognition events, holding period tracking
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2663,9 +2626,8 @@ Tax treatment of yield income adds a final layer of complexity that most yield o
 - **Institutional DeFi Desks**: Models large-position entry/exit impact before capital deployment, preventing costly slippage surprises on $10M+ positions
 - **Individual Yield Farmers**: Accesses institutional-grade yield analysis to optimize compounding timing and protocol selection without manual spreadsheet modeling
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — True Net APY Calculator**
 
@@ -2824,14 +2786,13 @@ Analyze:
 Output: Yield portfolio performance review + attribution analysis + next-period allocation recommendations
 ```
 
-:::
 
 
 ## 654. AI Crypto Portfolio Rebalancing Strategy Engine
 
 > Maintain optimal crypto allocation targets automatically — without triggering unnecessary tax events or paying excess gas.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Manual Crypto Portfolio Rebalancing Is Costly and Reactive**
 
@@ -2885,9 +2846,8 @@ Tax optimization during rebalancing is frequently overlooked despite its materia
    - Creates LP/investor reporting on portfolio allocation and rebalancing activity
    - Maintains audit trail of all rebalancing decisions with supporting data
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2904,9 +2864,8 @@ Tax optimization during rebalancing is frequently overlooked despite its materia
 - **DAO Treasury Committees**: Maintains documented, governance-approved rebalancing policy with automated drift monitoring and transparent execution records
 - **Tax-Sensitive Individual Investors**: Optimizes rebalancing timing and lot selection to minimize capital gains, particularly valuable in jurisdictions with short-term vs. long-term rate differentials
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Portfolio Rebalancing Analysis**
 
@@ -3061,13 +3020,12 @@ Draft policy covering:
 Output: DAO treasury rebalancing policy document suitable for governance proposal submission
 ```
 
-:::
 
 ## 655. AI Web3 Community Sentiment & Engagement Analyzer
 
 > Separate real organic growth from manufactured hype before making investment or partnership decisions.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Web3 Community Metrics Are Systemically Gamed**
 
@@ -3121,9 +3079,8 @@ Timing matters critically for investment and partnership decisions, yet communit
    - Tracks narrative momentum: which projects are gaining share of voice in Web3 discussion?
    - Generates Community Health Index: composite score for investment screening and partnership evaluation
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3140,9 +3097,8 @@ Timing matters critically for investment and partnership decisions, yet communit
 - **Marketing and BD Teams**: Benchmarks own community health against competitors and identifies authentic growth channels vs. vanity metric campaigns
 - **Token Project Founders**: Receives honest community health assessment with actionable recommendations for improving genuine engagement quality
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Community Health Audit**
 
@@ -3314,14 +3270,13 @@ Key uncertainties: [what we couldn't assess with available data]
 Output: Community due diligence report + verdict + key uncertainties + deal-breaker flags
 ```
 
-:::
 
 
 ## 656. AI Token Unlock Schedule & Sell-Pressure Modeler
 
 > Know exactly when locked tokens hit the market — and quantify the sell pressure before it hits your position.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Token Unlocks Are the Most Predictable Risk Nobody Models Properly**
 
@@ -3375,9 +3330,8 @@ On-chain monitoring of locked token smart contracts is technically accessible bu
    - Produces investor-ready unlock risk disclosure documentation
    - Tracks realized vs. predicted sell pressure to improve model accuracy over time
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3394,9 +3348,8 @@ On-chain monitoring of locked token smart contracts is technically accessible bu
 - **DeFi Protocol Governance**: Evaluates tokenomics proposals for unlock schedule design, comparing sell-pressure implications of different vesting structures
 - **Exchange Listing Teams**: Assesses upcoming unlock events for listed tokens to plan market-making capacity and liquidity support programs
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Token Unlock Schedule Analysis**
 
@@ -3550,13 +3503,12 @@ Discrepancy analysis:
 Output: Vesting contract verification report + discrepancy list + risk assessment
 ```
 
-:::
 
 ## 657. AI DeFi Liquidity Pool Impermanent Loss Calculator
 
 > Model IL across every major AMM design before committing capital — not after you've already lost it.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Impermanent Loss Surprises Continue to Destroy LP Returns**
 
@@ -3610,9 +3562,8 @@ Fee income projections are equally poorly modeled. Whether LP fees exceed IL dep
    - Recommends optimal pool and fee tier based on LP's risk tolerance and price range assumption
    - Identifies pools with unusually high fee income relative to IL risk as top opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3629,9 +3580,8 @@ Fee income projections are equally poorly modeled. Whether LP fees exceed IL dep
 - **Quantitative DeFi Researchers**: Accesses historical IL backtesting and multi-scenario simulation to calibrate LP strategy models with empirical validation
 - **Individual DeFi Investors**: Understands true IL risk profile before entering LP positions, preventing the common surprise of negative real returns despite positive advertised APY
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Impermanent Loss Scenario Analysis**
 
@@ -3796,14 +3746,13 @@ Winner recommendation + rationale
 Output: Pool comparison table ranked by risk-adjusted return + top recommendation
 ```
 
-:::
 
 
 ## 658. AI Crypto Derivatives Funding Rate Arbitrage Finder
 
 > Identify persistent funding rate dislocations across 15+ perp exchanges and structure the carry trade before it closes.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Funding Rate Arbitrage Is Profitable but Operationally Intensive**
 
@@ -3857,9 +3806,8 @@ Cross-exchange funding rate arbitrage — taking a long perp on an exchange with
    - Generates daily carry trade performance report with actual vs. expected return comparison
    - Recommends exit timing when rate normalizes or when better opportunity arises
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3876,9 +3824,8 @@ Cross-exchange funding rate arbitrage — taking a long perp on an exchange with
 - **DeFi Protocol Treasuries**: Earns risk-managed yield on stablecoin and ETH reserves through funding rate carry without taking directional market exposure
 - **Prop Trading Desks**: Identifies cross-exchange funding arb opportunities that require simultaneous position management across multiple venues — high return per unit of capital at managed risk
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Funding Rate Opportunity Screen**
 
@@ -4053,13 +4000,12 @@ Recommendations for next period: [strategy adjustments, venue changes, token foc
 Output: Carry portfolio performance review + attribution analysis + next-period strategy recommendations
 ```
 
-:::
 
 ## 659. AI Layer-2 Network Congestion & Fee Optimizer
 
 > Route transactions to the right L2 at the right time — cut gas costs by 60% without sacrificing execution quality.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: L2 Fee Volatility and Fragmentation Is Destroying Transaction Economics**
 
@@ -4113,9 +4059,8 @@ For protocols and power users executing high-volume transactions, fee optimizati
    - Monitors L2 → L1 withdrawal processing times for optimistic rollup networks
    - Tracks network TVL and activity trends as proxy for network reliability and longevity
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4132,9 +4077,8 @@ For protocols and power users executing high-volume transactions, fee optimizati
 - **NFT Marketplaces and Gaming Protocols**: Reduces user-facing gas costs that are a major friction point for onboarding and retention in consumer-facing Web3 applications
 - **Institutional DeFi Desks**: Optimizes gas costs for large-scale portfolio rebalancing, yield compounding, and governance voting operations across multiple protocols and chains
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — L2 Network Fee Comparison**
 
@@ -4291,13 +4235,12 @@ Priority implementation order based on ROI
 Output: Gas cost audit report + opportunity ranking + implementation priority list
 ```
 
-:::
 
 ## 660. AI NFT Royalty Revenue Tracking & Distribution Engine
 
 > Automate royalty collection, dispute resolution, and multi-party distribution across every marketplace where your NFTs trade.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: NFT Royalty Enforcement Has Collapsed and Collections Are Losing Millions**
 
@@ -4351,9 +4294,8 @@ Multi-party royalty splits — common in collaborative collections, where royalt
    - Maintains currency conversion records for royalties received in ETH/SOL converted to USD at receipt date
    - Formats records for export to accounting systems (QuickBooks, Xero, custom formats)
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4370,9 +4312,8 @@ Multi-party royalty splits — common in collaborative collections, where royalt
 - **Web3 Project Treasuries**: Tracks royalty income as a revenue stream for protocol treasury management, enabling accurate financial forecasting and budget planning
 - **NFT Marketplace Teams**: Benchmarks royalty compliance rates to demonstrate creator-friendly positioning compared to competitor venues that bypass royalty payments
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Collection Royalty Revenue Audit**
 
@@ -4533,14 +4474,13 @@ Generate formatted summary table suitable for submission to accountant or tax au
 Output: Annual royalty income summary + transaction log + tax reporting documentation
 ```
 
-:::
 
 
 ## 661. AI Blockchain Miner / Validator Revenue Forecaster
 
 > Model staking and mining economics precisely — from hardware ROI to validator yield — before committing capital.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Validator and Mining Economics Are Deeply Misunderstood Until Capital Is Committed**
 
@@ -4594,9 +4534,8 @@ Both mining and validation have hardware and infrastructure economics that must 
    - Alerts on significant validator/miner exit events that may temporarily improve remaining operator economics
    - Forecasts network participation trends to model medium-term revenue trajectory
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4613,9 +4552,8 @@ Both mining and validation have hardware and infrastructure economics that must 
 - **Institutional Staking Investors**: Evaluates staking yield alternatives (solo, pools, liquid staking, restaking) with accurate fee-adjusted return comparisons
 - **Mining and Staking Fund GPs**: Presents LPs with professional-grade financial models that include all revenue components and operational costs, replacing simplistic yield calculators
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Ethereum Validator Revenue Forecast**
 
@@ -4798,13 +4736,12 @@ Rationale: [2-3 sentences]
 Output: Scale-up ROI analysis + break-even analysis + expansion recommendation
 ```
 
-:::
 
 ## 662. AI Crypto Market Manipulation Pattern Detector
 
 > Identify wash trading, pump-and-dump coordination, and spoofing before they destroy your position or your exchange's reputation.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Crypto Markets Are Routinely Manipulated and Traditional Tools Don't Catch It**
 
@@ -4858,9 +4795,8 @@ Analysts attempting to manually identify manipulation face data volume that make
    - Creates watchlist of high-risk tokens and market participants for ongoing monitoring
    - Formats reports to regulatory evidence standards for potential submission to CFTC, SEC, or exchange regulators
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4877,9 +4813,8 @@ Analysts attempting to manually identify manipulation face data volume that make
 - **Token Projects**: Monitors their own token's trading for manipulation that could attract regulatory scrutiny or damage community trust
 - **Crypto Regulators and Law Enforcement**: Accesses forensic-quality manipulation evidence in structured formats that support investigation and enforcement actions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Token Wash Trade Analysis**
 
@@ -5045,14 +4980,13 @@ Recommendation for listing consideration: [list / do not list / list with volume
 Output: Exchange volume authenticity assessment + genuine volume estimate + listing recommendation
 ```
 
-:::
 
 
 ## 663. AI DeFi Protocol Governance Token Voting Analyzer
 
 > Understand every governance vote's financial consequences before the deadline — and know who's voting against your interests.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Governance Complexity Has Made Informed Voting Nearly Impossible at Scale**
 
@@ -5106,9 +5040,8 @@ The economic consequences of governance votes are frequently underestimated by p
    - Flags proposals with technical complexity that may obscure economic extraction
    - Alerts when proposer's governance token holdings have changed significantly around proposal submission
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5125,9 +5058,8 @@ The economic consequences of governance votes are frequently underestimated by p
 - **Crypto Research Analysts**: Produces governance intelligence reports for clients, translating complex proposals into clear investment implications with quantified economic impact
 - **Governance Delegates**: Manages voting responsibilities across multiple delegated protocols with systematic proposal tracking and impact analysis tools
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Governance Proposal Impact Analysis**
 
@@ -5298,13 +5230,12 @@ Recommendations for next period:
 Output: Governance voting track record report + participation analysis + next-period recommendations
 ```
 
-:::
 
 ## 664. AI Crypto Exchange Insolvency Risk Monitoring Tool
 
 > Never have another FTX moment — monitor exchange health signals continuously and move assets before the withdrawal freeze.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Exchange Counterparty Risk Is the Most Catastrophic and Most Ignored Risk in Crypto**
 
@@ -5358,9 +5289,8 @@ Diversification across multiple exchanges is the standard institutional response
    - Generates exchange exposure report for investor due diligence packages
    - Creates contingency withdrawal plan: sequence and logistics for emergency asset migration
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5377,9 +5307,8 @@ Diversification across multiple exchanges is the standard institutional response
 - **Crypto Hedge Funds**: Ensures exchange exposure limits are maintained and trigger-based asset migration is ready to execute before withdrawal freezes limit options
 - **DeFi Protocols with CEX Holdings**: Monitors CEX exposure for protocol treasury assets, maintaining risk-appropriate limits and contingency migration plans
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Exchange Counterparty Risk Assessment**
 
@@ -5537,14 +5466,13 @@ Portfolio impact assessment:
 Output: Exchange risk score dashboard + tier changes + required actions
 ```
 
-:::
 
 
 ## 665. AI Web3 Airdrop Eligibility & Tax Implication Planner
 
 > Map your airdrop eligibility across 50+ protocols and model the tax consequences before you claim — not after.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Airdrop Tax Surprises Are Destroying Returns for Unprepared Claimers**
 
@@ -5598,9 +5526,8 @@ The claiming strategy for large airdrop positions has significant tax implicatio
    - Identifies token lockup periods (cliff/vesting) that affect claiming and disposal timing
    - Generates cost basis documentation for accounting systems
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5617,9 +5544,8 @@ The claiming strategy for large airdrop positions has significant tax implicatio
 - **Institutional DeFi Funds**: Manages airdrop eligibility and tax planning for large multi-wallet portfolios with consistent methodology and documentation standards
 - **Web3 Protocol Teams**: Evaluates their own farming community's behavior and designs airdrop criteria that reward genuine users while minimizing Sybil gaming
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Airdrop Eligibility Scan**
 
@@ -5801,13 +5727,12 @@ Summary for tax return:
 Output: Airdrop tax documentation + per-token summary + filing-ready summary table
 ```
 
-:::
 
 ## 666. AI Blockchain Node Infrastructure Cost Optimizer
 
 > Cut 30–50% from your node infrastructure spend without sacrificing reliability — and know exactly which nodes you actually need.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Blockchain Node Infrastructure Costs Spiral Without Systematic Management**
 
@@ -5861,9 +5786,8 @@ Provider cost structures in the blockchain node market have become complex, with
    - Calculates cost impact of reliability incidents: downtime cost vs. redundancy cost
    - Generates SLA compliance tracking: is provider meeting uptime commitments?
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5880,9 +5804,8 @@ Provider cost structures in the blockchain node market have become complex, with
 - **Web3 Startup CTOs**: Makes informed build-vs-buy decisions for node infrastructure based on accurate cost modeling rather than provider marketing materials
 - **DAO Treasury Committees**: Approves infrastructure spending with evidence-based cost analysis, ensuring protocol resources are deployed efficiently
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Node Infrastructure Cost Audit**
 
@@ -6082,14 +6005,13 @@ Cost vs. budget: [within / over budget — adjustments if over]
 Output: Multi-chain infrastructure architecture design + provider selection + cost estimate
 ```
 
-:::
 
 
 ## 667. AI Crypto Venture Deal Flow Screener
 
 > Filter 200 crypto deals down to 8 worth diligencing — using objective on-chain data, not just pitch decks.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Crypto Venture Deal Flow Has Overwhelmed Analysts' Capacity to Screen Effectively**
 
@@ -6143,9 +6065,8 @@ Sector and theme tracking — identifying which narratives are currently overfun
    - Produces LP-ready deal flow reporting with anonymized pipeline statistics
    - Identifies deal sources with highest quality conversion rate for relationship prioritization
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6162,9 +6083,8 @@ Sector and theme tracking — identifying which narratives are currently overfun
 - **Crypto Accelerator Program Directors**: Screens large application cohorts (500–2,000 applicants) systematically against program criteria, identifying the top 1–5% for interview efficiently
 - **Corporate Venture Arms**: Maintains professional deal flow management process with consistent scoring methodology, audit trail, and LP-ready reporting for corporate governance requirements
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Deal Initial Screening Assessment**
 
@@ -6355,13 +6275,12 @@ Recommendations for next week: [sourcing actions, follow-ups needed]
 Output: Weekly deal flow report + pipeline status + quality trend analysis
 ```
 
-:::
 
 ## 668. AI Token Launch Regulatory Filing Compliance Checker
 
 > Identify every regulatory filing your token launch requires — before launch day reveals what you missed.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Token Launch Regulatory Compliance Is Fragmented, Evolving, and Unforgiving**
 
@@ -6415,9 +6334,8 @@ The documentation burden for a compliant token launch is substantial and time-co
    - Alerts on jurisdiction-specific regulatory changes affecting post-launch compliance
    - Generates compliance calendar with recurring filing and reporting deadlines
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6434,9 +6352,8 @@ The documentation burden for a compliant token launch is substantial and time-co
 - **Crypto Fund Legal Teams**: Reviews portfolio company token launch compliance systematically, protecting fund from exposure through portfolio company regulatory violations
 - **Exchange Legal & Compliance Teams**: Evaluates listing candidate token launches for regulatory compliance before listing, reducing exchange exposure to listing unregistered securities
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Token Launch Regulatory Compliance Checklist**
 
@@ -6624,13 +6541,12 @@ Generate 12-month compliance calendar with:
 Output: 12-month compliance calendar + filing checklist + responsibility matrix
 ```
 
-:::
 
 ## 669. AI MEV (Maximal Extractable Value) Opportunity Analyzer
 
 > Identify and model MEV opportunities across flashloans, arbitrage, and liquidations — and quantify what you're leaving on the table.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: MEV Is Billions in Annual Value That Most Participants Can't Access or Even Quantify**
 
@@ -6684,9 +6600,8 @@ For DeFi protocols, MEV creates both risks and opportunities that are frequently
    - Models optimal gas bidding strategy at different opportunity profit levels
    - Evaluates flash loan provider options (Aave, dYdX, Uniswap) for liquidation strategies
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6703,9 +6618,8 @@ For DeFi protocols, MEV creates both risks and opportunities that are frequently
 - **Ethereum Validator Operators**: Optimizes MEV-boost relay configuration to maximize block reward income from MEV-boost auction participation
 - **Institutional Crypto Trading Desks**: Models MEV risk for large DeFi transactions and optimizes order routing to minimize adverse MEV exposure on significant position changes
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — DEX Arbitrage Opportunity Analysis**
 
@@ -6887,14 +6801,13 @@ Positive EV? [yes/no] — Recommend executing: [yes / no / needs lower gas cost]
 Output: Flash loan strategy design + cost breakdown + risk analysis + EV calculation
 ```
 
-:::
 
 
 ## 670. AI Crypto Protocol Treasury Management Advisor
 
 > Manage your DAO treasury like an institutional endowment — with systematic allocation policy, yield strategy, and runway modeling.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: DAO Treasuries Are Managing Billions Without Institutional Frameworks**
 
@@ -6948,9 +6861,8 @@ The operational complexity of managing a diversified DAO treasury across DeFi pr
    - Creates scenario analysis documents showing treasury health under different market conditions
    - Formats all treasury proposals to community governance communication standards
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6967,9 +6879,8 @@ The operational complexity of managing a diversified DAO treasury across DeFi pr
 - **Protocol Investors and LPs**: Assesses treasury health as part of investment due diligence, with quantified runway and diversification analysis replacing simple balance sheet snapshots
 - **Crypto Fund Managers with DAO Positions**: Monitors portfolio DAO treasury health systematically, identifying early warning signals of treasury stress before they become governance crises
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Treasury Composition Health Check**
 
@@ -7172,13 +7083,12 @@ Looking ahead (next quarter):
 Output: Quarterly treasury report (formatted for community publication) + key metrics summary
 ```
 
-:::
 
 ## 671. AI Cross-Border Crypto Remittance Compliance Reviewer
 
 > Navigate the compliance requirements for crypto-based remittance corridors before your first transaction — not after your first regulatory inquiry.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Cross-Border Crypto Remittance Is the Most Regulated Activity in Crypto**
 
@@ -7232,9 +7142,8 @@ The receiving-country compliance environment is equally complex and far less doc
    - Identifies Electronic Money Institution (EMI) licensing in EU as alternative framework for European corridors
    - Models total compliance cost comparison: build direct licensing vs. partner-based approach
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -7251,9 +7160,8 @@ The receiving-country compliance environment is equally complex and far less doc
 - **Established Remittance Providers Adding Crypto**: Evaluates crypto product compliance requirements vs. existing MSB license coverage to identify incremental compliance needs
 - **Crypto Protocol Teams Building Payment Features**: Understands compliance requirements for payment functionality before development, preventing expensive post-build redesigns
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Remittance Corridor Compliance Assessment**
 
@@ -7452,14 +7360,13 @@ Recommendation: [Option A / B / C] based on stage, timeline, and budget
 Output: Partnership vs. licensing comparison + break-even analysis + recommendation
 ```
 
-:::
 
 
 ## 672. AI Smart Contract Gas Optimization Advisor
 
 > Find every gas optimization opportunity in your smart contracts — before your users pay for inefficient code at scale.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Gas-Inefficient Smart Contracts Are Silently Destroying User Experience and Protocol Competitiveness**
 
@@ -7513,9 +7420,8 @@ The gas optimization landscape has become more complex with the proliferation of
    - Identifies bitwise operation optimizations that replace expensive arithmetic
    - Generates assembly implementation examples for identified optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -7532,9 +7438,8 @@ The gas optimization landscape has become more complex with the proliferation of
 - **Layer-2 Protocol Engineers**: Gets chain-specific optimization guidance for target networks with different cost structures vs. Ethereum mainnet
 - **Blockchain Security Auditors**: Adds gas efficiency analysis to security audit scope, providing clients with comprehensive code quality assessment beyond security vulnerability identification
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Smart Contract Gas Audit**
 
@@ -7754,13 +7659,12 @@ Recommendation: invest in gas optimization (level: conservative / moderate / agg
 Output: Gas optimization ROI analysis + competitive comparison + investment recommendation
 ```
 
-:::
 
 ## 673. AI DeFi Collateral Liquidation Risk Calculator
 
 > Know exactly how far your DeFi collateral is from liquidation — and model the path that keeps you safe through market volatility.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: DeFi Liquidations Are Destroying More Capital Than Necessary**
 
@@ -7814,9 +7718,8 @@ Cross-protocol and cross-collateral DeFi borrowing has created portfolio-level l
    - Models leverage amplification strategies with liquidation risk incorporated
    - Generates borrowing policy guidelines for institutional DeFi desk risk management
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -7833,9 +7736,8 @@ Cross-protocol and cross-collateral DeFi borrowing has created portfolio-level l
 - **DeFi Protocol Risk Teams**: Models aggregate protocol liquidation risk under stress scenarios to calibrate collateral parameters, liquidation thresholds, and circuit breakers
 - **Crypto Hedge Funds Using DeFi Leverage**: Integrates liquidation risk monitoring into overall portfolio risk framework, treating DeFi borrowing exposure systematically alongside other leverage positions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — DeFi Position Liquidation Risk Assessment**
 
@@ -8041,13 +7943,12 @@ Policy components to define:
 Output: Institutional DeFi risk management policy document + monitoring procedures + reporting templates
 ```
 
-:::
 
 ## 674. AI Crypto Fund Performance Attribution Analyzer
 
 > Understand exactly where your crypto fund's returns came from — and replicate what worked instead of just hoping it repeats.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Crypto Fund Performance Attribution Is Systematically Ignored Despite Being Essential**
 
@@ -8101,9 +8002,8 @@ Risk-adjusted performance measurement is particularly challenging in crypto due 
    - Calculates whether active management has added value vs. passive benchmark exposure (benchmark cost of 0%)
    - Generates strategy improvement recommendations based on historical attribution patterns
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -8120,9 +8020,8 @@ Risk-adjusted performance measurement is particularly challenging in crypto due 
 - **Crypto Fund Risk Officers**: Monitors risk-adjusted performance metrics using crypto-appropriate methodology, maintaining accurate risk picture throughout market cycles
 - **Fund of Funds and Allocators**: Evaluates manager skill vs. market beta exposure to make informed crypto fund allocation decisions, separating genuine alpha generators from beta-leveraged returns
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Quarterly Performance Attribution Report**
 
@@ -8315,14 +8214,13 @@ Recommendation: if alpha is not significant, what strategy changes could improve
 Output: Factor regression analysis + alpha significance test + passive benchmark comparison + honest assessment
 ```
 
-:::
 
 
 ## 675. AI NFT Provenance & Authenticity Verification Engine
 
 > Verify the complete chain of custody for any NFT asset — before the $500K purchase that turns out to be a counterfeit.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: NFT Provenance Fraud Has Cost Collectors Tens of Millions**
 
@@ -8376,9 +8274,8 @@ Chain of custody verification has become increasingly important for high-value N
    - Generates transaction chain visualization showing complete ownership history
    - Produces due diligence package suitable for institutional NFT acquisition review processes
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -8395,9 +8292,8 @@ Chain of custody verification has become increasingly important for high-value N
 - **Institutional NFT Acquirers**: Meets fiduciary due diligence standards for NFT asset acquisition with documented authentication process and provenance certification
 - **Insurance Underwriters**: Assesses NFT provenance risk for digital asset insurance products, with standardized verification reports that support underwriting decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — NFT Pre-Purchase Authentication Check**
 
@@ -8593,13 +8489,12 @@ Due diligence conclusion:
 Output: Institutional NFT due diligence package + recommendation + risk disclosure
 ```
 
-:::
 
 ## 676. AI Web3 Protocol Security Incident Response Planner
 
 > Build your Web3 security incident response plan before an exploit — because the worst time to plan is during an active attack.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Most Web3 Protocols Have No Incident Response Plan Until They Need One**
 
@@ -8653,9 +8548,8 @@ Communication failures during security incidents compound technical losses signi
    - Produces community trust rebuilding communication plan with specific commitments and milestones
    - Generates regulatory notification requirements assessment: when and to whom to report
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -8672,9 +8566,8 @@ Communication failures during security incidents compound technical losses signi
 - **Smart Contract Security Auditors**: Delivers incident response planning as a service alongside code audit, providing clients with comprehensive security program rather than point-in-time code review
 - **Crypto Insurance Underwriters**: Requires documented incident response plans as a condition of coverage, using COCO-generated assessments to evaluate protocol security governance quality
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Incident Response Plan Creation**
 
@@ -8870,13 +8763,12 @@ Community trust rebuilding plan:
 Output: Recovery plan + compensation options comparison + restart timeline + community trust roadmap
 ```
 
-:::
 
 ## 677. AI Crypto Stablecoin Depeg Risk Early Warning System
 
 > Detect stablecoin depeg signals hours before the market does — and protect your DeFi positions before the cascade begins.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Stablecoin Depegs Create Cascading Losses With Almost No Warning**
 
@@ -8930,9 +8822,8 @@ The DeFi exposure to stablecoin risk is often larger than participants realize. 
    - Creates communication templates for protocol or fund teams to notify stakeholders
    - Models post-depeg recovery assessment: when is it safe to re-enter positions in affected stablecoin?
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -8949,9 +8840,8 @@ The DeFi exposure to stablecoin risk is often larger than participants realize. 
 - **Crypto Fund Risk Managers**: Implements institutional-grade stablecoin risk monitoring for portfolio stablecoin holdings and DeFi exposure with systematic response protocols
 - **DAO Treasury Committees**: Monitors stability of stablecoins held in treasury with early warning alerts and pre-approved exit protocols for emergency situations
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Stablecoin Portfolio Risk Assessment**
 
@@ -9151,14 +9041,13 @@ Recommendations: [any stablecoins to reduce exposure to / monitoring priorities]
 Output: Stablecoin reserve health report + risk scores + exposure recommendations
 ```
 
-:::
 
 
 ## 678. AI Blockchain Validator Slashing Risk Monitor
 
 > Protect your staked ETH from slashing events — with real-time monitoring of the behaviors that trigger penalties.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Validator Slashing Is a Permanent, Avoidable Loss That Most Operators Don't Adequately Monitor**
 
@@ -9212,9 +9101,8 @@ Remote monitoring of validator health and behavior requires persistent infrastru
    - Manages protection database migration across client software changes (Prysm to Lighthouse, etc.)
    - Generates protection database audit report showing last attested slot and last proposed block for each validator
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -9231,9 +9119,8 @@ Remote monitoring of validator health and behavior requires persistent infrastru
 - **Liquid Staking Protocols**: Monitors node operator compliance with slashing protection requirements, maintaining protocol's track record for user-facing staking services
 - **Institutional ETH Stakers**: Meets institutional risk management requirements for ETH staking programs with documented monitoring procedures and slashing incident prevention framework
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Validator Slashing Risk Assessment**
 
@@ -9440,13 +9327,12 @@ Period summary:
 Output: Validator health dashboard + performance summary + risk indicators + income report
 ```
 
-:::
 
 ## 679. AI Crypto OTC Trade Compliance & Reporting Engine
 
 > Clear every OTC crypto trade with complete KYC, AML screening, and regulatory reporting before settlement.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Crypto OTC Desks Are the Most Compliance-Intensive and Least-Tooled Trading Venues**
 
@@ -9500,9 +9386,8 @@ Trade-level suspicious activity detection in OTC markets requires pattern analys
    - Creates examination response templates for common regulatory inquiry types
    - Tracks regulatory guidance changes affecting OTC desk compliance requirements
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -9519,9 +9404,8 @@ Trade-level suspicious activity detection in OTC markets requires pattern analys
 - **Crypto Fund Legal and Compliance Teams**: Reviews OTC counterparty compliance program quality during due diligence on trading relationships and service providers
 - **Banking Compliance Teams Supporting Crypto**: Evaluates crypto OTC desk compliance program quality for banking relationship decision-making, using structured COCO-generated assessments
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — OTC Counterparty Onboarding KYC Review**
 
@@ -9728,13 +9612,12 @@ Next period priorities:
 Output: Monthly compliance management report + key metrics + action items
 ```
 
-:::
 
 ## 680. AI Web3 Protocol Revenue & Fee Model Benchmarker
 
 > Know exactly how your protocol's revenue model compares to peers — and what fee design changes would maximize sustainable economics.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Web3 Protocol Revenue Models Are Built on Assumptions Nobody Has Tested Against Peers**
 
@@ -9788,9 +9671,8 @@ Protocol sustainability requires understanding the complete revenue architecture
    - Evaluates new revenue stream opportunities: complementary services that leverage existing TVL
    - Generates governance proposal framework for fee model changes with supporting data
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -9807,9 +9689,8 @@ Protocol sustainability requires understanding the complete revenue architecture
 - **Crypto Research Analysts**: Produces protocol revenue analysis reports with systematic methodology, separating genuine economic performance from incentive-funded metrics
 - **Crypto Fund Portfolio Managers**: Evaluates protocol investments using revenue-based valuation frameworks that distinguish sustainable from subsidized economics, improving investment decision quality
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Protocol Revenue Benchmarking Report**
 
@@ -10000,4 +9881,3 @@ Investment conclusion:
 Output: P/S valuation analysis + peer comparison table + premium/discount assessment + catalysts
 ```
 
-:::

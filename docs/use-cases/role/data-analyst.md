@@ -1770,7 +1770,7 @@ This week's data:
 
 > Synthesizes literature reviews covering 3–4× more papers — synthesis time: 6–12 weeks → 1–2 weeks, desk rejection rate for literature gaps -22%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Literature Reviews Are Eating Researchers Alive — and Still Producing Incomplete Syntheses**
 
@@ -1811,9 +1811,8 @@ COCO's AI Literature Review Synthesizer acts as a tireless synthesis partner: re
    - Includes proper citation placeholders linked to source papers
    - Flags areas where the researcher's own interpretation and judgment are needed
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1830,9 +1829,8 @@ COCO's AI Literature Review Synthesizer acts as a tireless synthesis partner: re
 - **Systematic Review Teams**: Accelerate the screening, extraction, and synthesis phases of formal systematic reviews and meta-analyses
 - **Research Librarians**: Support faculty and student researchers with AI-augmented search strategy design and corpus analysis
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Full Thematic Synthesis from Abstract Corpus**
 ```
@@ -1933,13 +1931,12 @@ Please:
 5. Suggest 3–5 additional landmark papers I should consider citing to strengthen the narrative
 ```
 
-:::
 
 ## 16. AI Survey Design and Analysis Advisor
 
 > Designs methodologically sound survey instruments — data quality: 31% lower non-response, internal consistency +18%, analysis errors -45%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Surveys Are Cheap to Administer and Expensive to Get Wrong**
 
@@ -1985,9 +1982,8 @@ COCO acts as an expert survey methodologist and analyst available at every stage
    - Checks for assumption violations before inferential tests
    - Distinguishes statistical significance from practical significance throughout
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2004,9 +2000,8 @@ COCO acts as an expert survey methodologist and analyst available at every stage
 - **Market Research Analysts**: Reduce the risk of expensive product development or positioning decisions based on flawed survey data
 - **Institutional Research Offices**: Support faculty and student survey research at scale without proportionally scaling methodologist headcount
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Full Survey Instrument Audit**
 ```
@@ -2129,13 +2124,12 @@ Please:
 6. Flag any conclusions I should NOT draw from this analysis based on its limitations
 ```
 
-:::
 
 ## 17. AI Data Visualization Storyteller
 
 > Structures data into decision-focused narratives — decision rate from analytics presentations +34%, follow-up analysis requests -41%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Analysts Produce Data — Executives Need Decisions — and the Gap Between Them Is Killing Analytical Value**
 
@@ -2177,9 +2171,8 @@ COCO acts as a data storytelling partner that takes the analyst's findings and t
    - Designs each slide as a single point with a full-sentence declarative title
    - Ensures the deck can be read cold (without presenter narration) by an executive who missed the meeting
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2196,9 +2189,8 @@ COCO acts as a data storytelling partner that takes the analyst's findings and t
 - **Business Intelligence Developers**: Design Tableau and Power BI dashboards that guide users to insight rather than overwhelming them with unstructured data
 - **Product Managers and Strategy Teams**: Receive analytical findings in formats that support rapid decision-making rather than requiring interpretation sessions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Transform Raw Findings into Executive Narrative**
 ```
@@ -2314,13 +2306,12 @@ Please:
 5. Suggest what follow-up analysis this finding calls for, if any
 ```
 
-:::
 
 ## 18. AI Academic Paper Summarizer
 
 > Generates structured research summaries — papers processed: 5–8× faster at research-synthesis quality, methodological detail retention 3×.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Researchers Are Drowning in Papers They Don't Have Time to Read**
 
@@ -2360,9 +2351,8 @@ COCO's AI Academic Paper Summarizer extracts structured, research-ready summarie
    - Generates "Author (Year) found that..." formatted summaries at varying levels of detail
    - Includes methodology qualifiers that affect how the finding should be cited ("using a cross-sectional survey of US undergraduates, Smith (2021) found...")
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2379,9 +2369,8 @@ COCO's AI Academic Paper Summarizer extracts structured, research-ready summarie
 - **Postdoctoral Fellows**: Rapidly orient to a new lab's research area or a new field during a career transition
 - **Research Assistants**: Support principal investigators with structured literature summaries that enable faster decision-making about what to read and what to cite
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Full Structured Paper Summary**
 ```
@@ -2471,13 +2460,12 @@ Please:
 5. Identify any important counterevidence I should acknowledge in the same paragraph to avoid presenting a one-sided claim
 ```
 
-:::
 
 ## 19. AI Market Research Report Generator
 
 > Generates market research reports from synthesized sources — report time: 3–10 weeks → 1–2 weeks, cost vs agency: -65–80%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Market Research Reports Take Weeks to Produce and Are Outdated Before They're Finished**
 
@@ -2518,9 +2506,8 @@ COCO acts as a market research synthesis and report generation engine — taking
    - Writes section narratives that integrate quantitative and qualitative evidence into coherent arguments
    - Produces an executive summary of 1–2 pages structured as: situation → key findings → implications → recommendations
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2537,9 +2524,8 @@ COCO acts as a market research synthesis and report generation engine — taking
 - **Product Managers**: Generate market context for new product proposals without waiting months for formal research projects
 - **Founders and Early-Stage Companies**: Access research-quality market intelligence without the budget for agency research or premium market data subscriptions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Full Market Research Project Design**
 ```
@@ -2660,13 +2646,12 @@ Please:
 5. Identify any major findings gaps I should flag as limitations before distributing the report
 ```
 
-:::
 
 ## 20. AI Statistical Analysis Explainer
 
 > Translates statistical findings for non-technical stakeholders — comprehension rate: +48%, decision time: 3× faster with plain-language explanations.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Statistical Outputs Are Produced by Analysts and Understood by Almost Nobody Else**
 
@@ -2709,9 +2694,8 @@ COCO bridges the gap between statistical output and actionable understanding —
    - Interprets test results including confidence intervals, not just p-values
    - Advises on multiple comparison corrections when running multiple variants or metrics simultaneously
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2728,9 +2712,8 @@ COCO bridges the gap between statistical output and actionable understanding —
 - **Executives and Senior Leaders**: Receive analytical findings in plain language that preserves the nuance needed for sound decision-making without requiring a statistics degree
 - **Data Science Teams**: Use COCO as a first-pass review layer for statistical analysis plans and output interpretation, catching common errors before they reach stakeholders
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Explain Statistical Output in Plain Language**
 ```
@@ -2842,13 +2825,12 @@ Please:
 5. Flag any concerns about the test design or execution that should inform how we weight this result
 ```
 
-:::
 
 ## 21. AI Ethnographic Research Coder
 
 > Applies systematic coding to qualitative data — open coding time: -50–65%, codebook comprehensiveness: +35% unique codes identified.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Qualitative Data Is Rich, Plentiful, and Takes Forever to Analyze**
 
@@ -2891,9 +2873,8 @@ COCO serves as a qualitative analysis partner — not replacing the researcher's
    - Generates memo starters from coded data — prompts that launch the theoretical thinking rather than a blank page
    - Tracks the evolution of theoretical ideas across the coding process
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2910,9 +2891,8 @@ COCO serves as a qualitative analysis partner — not replacing the researcher's
 - **Education Researchers**: Analyze classroom observation data, teacher interviews, and student focus groups at the scale modern research requires
 - **Organizational Ethnographers**: Process large volumes of field notes and interview data from multi-site studies without the years-long analysis backlog that currently limits what's feasible
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Open Coding of Interview Transcripts**
 ```
@@ -3023,13 +3003,12 @@ Please:
 6. Recommend whether to conduct additional data collection and on what aspect of the phenomenon
 ```
 
-:::
 
 ## 22. AI Grant Proposal Writer
 
 > Supports grant proposal drafting — NIH priority score improvement avg +1.5 points, revision cycles: 3.8 → 2.1, funding rates +18% for new applicants.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Most Researchers Are Extraordinarily Bad at Asking for Money — Even When Their Research Is Excellent**
 
@@ -3071,9 +3050,8 @@ COCO acts as an expert grant writing collaborator — combining deep knowledge o
    - Flags methodological weaknesses that reviewers are likely to note
    - Produces a simulated Summary Statement (the reviewer critique document) to guide revision before actual submission
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3090,9 +3068,8 @@ COCO acts as an expert grant writing collaborator — combining deep knowledge o
 - **Research Development Officers**: Support a higher volume of faculty applicants without proportionally scaling their team, improving institutional grant success rates
 - **Interdisciplinary Teams**: Write collaborative center grants that articulate genuine scientific synergy rather than the sum-of-parts proposals that reviewers easily identify as inauthentic
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Specific Aims Page Draft**
 ```
@@ -3213,13 +3190,12 @@ Please:
 6. Flag any reviewer concerns I haven't adequately addressed that could still depress the score on resubmission
 ```
 
-:::
 
 ## 23. AI Patent Landscape Analyzer
 
 > Analyzes patent landscapes for white spaces and freedom-to-operate — landscape cost: -85–90% vs law firm, coverage +40% vs keyword search.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Patent Landscapes Are Strategically Critical and Professionally Inaccessible to Most Researchers**
 
@@ -3262,9 +3238,8 @@ COCO democratizes patent landscape analysis — making the strategic intelligenc
    - Produces a prioritized risk register: high risk (broad, granted, active claims with strong assignees) → low risk (narrow claims, weak assignees, expiring patents)
    - Note: COCO provides preliminary landscape context, not legal opinion — legal review of high-risk patents is always recommended
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3281,9 +3256,8 @@ COCO democratizes patent landscape analysis — making the strategic intelligenc
 - **Corporate Development and M&A Teams**: Assess the patent portfolio quality of acquisition targets and partnership candidates with greater efficiency and lower cost
 - **Startup Founders**: Build IP strategy and investor pitch defensibility arguments with access to landscape intelligence previously available only to well-resourced incumbents
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Technology Area Patent Landscape Overview**
 ```
@@ -3390,13 +3364,12 @@ Please:
 Important: I understand this is educational interpretation, not legal advice.
 ```
 
-:::
 
 ## 24. AI Interview Transcript Analyzer
 
 > Analyzes interview transcripts systematically — analysis time: 80–120h → 15–25h, theme coverage +25–35% more subthemes discovered.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Qualitative Researchers Spend Weeks on Manual Transcript Coding That Doesn't Scale**
 
@@ -3447,9 +3420,8 @@ COCO accelerates qualitative transcript analysis by applying systematic coding l
    - Drafts the methodological description of the analysis process
    - Generates a findings summary accessible to non-researcher stakeholders
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3466,9 +3438,8 @@ COCO accelerates qualitative transcript analysis by applying systematic coding l
 - **UX and Design Researchers**: Move from user interview sessions to synthesized design insights within days rather than weeks — accelerating the product development feedback loop
 - **Graduate Students and Early-Career Researchers**: Receive structured analytical scaffolding that helps them apply qualitative methods more rigorously while building their own analytical skills and judgment
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Inductive Theme Identification from Transcripts**
 ```
@@ -3584,13 +3555,12 @@ Please draft:
 5. A transition paragraph to the discussion section
 ```
 
-:::
 
 ## 25. AI Research Proposal Writer
 
 > Supports research proposal drafting — proposal writing: 80–120h → 25–40h, submission volume +50–70% without increasing writing time.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Research Proposals Are High-Stakes, High-Effort Documents That Competing Priorities Push to the Bottom of the Queue**
 
@@ -3642,9 +3612,8 @@ COCO accelerates research proposal development by generating structured proposal
    - Adapts the argument register to match the expected reviewer expertise level (specialist vs. generalist panels)
    - Flags common submission mistakes for the specific mechanism based on known reviewer guidance
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3661,9 +3630,8 @@ COCO accelerates research proposal development by generating structured proposal
 - **Research Administrators and Grant Development Officers**: Support multiple PIs simultaneously with structured proposal scaffolding and content generation that reduces the need for individual coaching sessions
 - **Interdisciplinary Research Teams**: Integrate literature from multiple fields and construct the interdisciplinary significance argument that panels evaluating cross-domain proposals expect
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Full Research Proposal Draft**
 ```
@@ -3805,13 +3773,12 @@ Please draft:
 5. A summary paragraph tying the budget to the research plan
 ```
 
-:::
 
 ## 26. AI Data Collection Protocol Designer
 
 > Designs methodologically rigorous data collection protocols — bias risks identified: 6–10 per instrument, pilot testing revisions -40%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Poorly Designed Data Collection Protocols Introduce Irreparable Flaws That Invalidate Research Findings**
 
@@ -3866,9 +3833,8 @@ COCO serves as a systematic protocol design partner — helping researchers buil
    - Creates pilot testing protocols to catch instrument problems before full deployment
    - Builds monitoring dashboards to track data quality indicators throughout the fieldwork period
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3885,9 +3851,8 @@ COCO serves as a systematic protocol design partner — helping researchers buil
 - **Interdisciplinary Research Teams**: Ensure that the data collection design reflects the methodological standards of all contributing disciplines when teams span different methodological traditions
 - **Public Health and Social Program Evaluators**: Build quality data collection infrastructure for program evaluations where data quality directly affects the credibility and policy influence of findings
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Survey Instrument Design**
 ```
@@ -4031,13 +3996,12 @@ Please design:
 7. Decision rules: when should a data point be flagged, quarantined, or excluded from analysis?
 ```
 
-:::
 
 ## 27. AI Model Evaluation Report Generator
 
 > Generates comprehensive ML model evaluation reports — evaluation documentation: 3–5h → structured report, deployment without documentation: 92% → 36%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Model Evaluation Is Consequential and Consistently Under-Documented**
 
@@ -4059,9 +4023,8 @@ COCO acts as a structured evaluation co-author. When you paste your metrics, con
 
 Teams using this workflow report cutting evaluation report writing time from an average of 4.2 hours to 35 minutes — an 86% reduction. More importantly, the reports are more complete: COCO consistently includes calibration analysis and threshold sensitivity sections that engineers routinely skip when writing manually, because they are tedious to explain in prose but critical for production use.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4077,9 +4040,8 @@ Teams using this workflow report cutting evaluation report writing time from an 
 - **Product Managers** who need to understand model performance in business terms before approving deployment
 - **Compliance and Risk Officers** in regulated industries (fintech, healthtech) who need documented evidence that model performance was rigorously evaluated before go-live
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Full Evaluation Report from Classification Metrics**
 ```
@@ -4164,13 +4126,12 @@ Known limitations: [LIST_LIMITATIONS]
 Generate a compliance-ready model evaluation section that documents: model purpose and scope, evaluation methodology and independence of test set, performance metrics with confidence intervals, identified limitations and mitigations, and attestation language suitable for audit review.
 ```
 
-:::
 
 ## 28. AI Feature Engineering Advisor
 
 > Guides feature creation and selection — experiment iterations to reach target performance: -40%, leakage audit prevents production incidents.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Feature Engineering Is the Highest-Leverage and Least-Systematized Part of ML Development**
 
@@ -4192,9 +4153,8 @@ COCO acts as a senior feature engineering advisor, available for every dataset a
 
 Data science teams using COCO for feature engineering advice report a 40% reduction in the number of experiment iterations needed to reach target model performance. The leakage audit alone has prevented production incidents for teams that previously only caught leakage after deployment. Junior data scientists report moving from "I don't know what else to try" to productive experimentation within a single conversation.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4210,9 +4170,8 @@ Data science teams using COCO for feature engineering advice report a 40% reduct
 - **ML Team Leads** who want to standardize feature engineering review before models advance to deployment
 - **Analytics Engineers** building feature stores who need to reason about which features are worth materializing at scale
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Feature Engineering for Classification Task**
 ```
@@ -4302,13 +4261,12 @@ Known collinear feature groups:
 Recommend a feature selection strategy: (1) which features to drop based on importance and redundancy, (2) whether to use SHAP, permutation importance, or mutual information for selection, (3) how to handle correlated feature groups without arbitrarily dropping one, (4) whether PCA or other dimensionality reduction is appropriate here, (5) how to validate that dropping features doesn't hurt out-of-sample performance.
 ```
 
-:::
 
 ## 29. AI ML Pipeline Debugging Assistant
 
 > Helps debug ML pipeline failures — time-to-resolution: -65%, complex multi-system bugs previously requiring senior escalation now resolved faster.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: ML Pipeline Failures Are Uniquely Difficult to Diagnose**
 
@@ -4330,9 +4288,8 @@ COCO serves as a debugging partner that applies systematic diagnostic frameworks
 
 Teams using COCO for ML debugging report an average 65% reduction in time-to-resolution for pipeline issues, with the largest gains on complex, multi-system bugs that previously required escalation to senior engineers.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4348,9 +4305,8 @@ Teams using COCO for ML debugging report an average 65% reduction in time-to-res
 - **Junior ML practitioners** who lack the pattern recognition to identify common ML failure modes like gradient vanishing, data leakage, or preprocessing bugs
 - **Research Engineers** implementing novel architectures who need help debugging training instabilities in new model designs
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Training Loss Anomaly Diagnosis**
 ```
@@ -4457,13 +4413,12 @@ Things I've noticed:
 Identify all potential sources of non-determinism in my setup (framework ops, DataLoader, data augmentation, distributed training, custom CUDA kernels, etc.) and give me a complete reproducibility checklist with the code to fix each source.
 ```
 
-:::
 
 ## 30. AI A/B Test Results Analyzer
 
 > Interprets A/B test results correctly — incorrect early-termination decisions: -55%, stakeholder readout preparation time: -70%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Most Organizations Systematically Misinterpret A/B Test Results**
 
@@ -4485,9 +4440,8 @@ COCO bridges this gap by combining statistical rigor with narrative clarity. The
 
 Product and data science teams using COCO for experiment analysis report a 55% reduction in incorrect early-termination decisions and a 70% reduction in time spent preparing experiment readouts for stakeholder reviews.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4503,9 +4457,8 @@ Product and data science teams using COCO for experiment analysis report a 55% r
 - **Growth Engineers** running high-velocity experimentation programs where speed and accuracy must both be maintained
 - **Analytics Managers** who need to ensure statistical quality across dozens of concurrent experiments
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Full A/B Test Analysis**
 ```
@@ -4606,13 +4559,12 @@ Prior belief: [e.g., "we have no strong prior" / "historical similar tests show 
 Provide: (1) posterior probability that treatment beats control, (2) expected loss if we ship treatment, (3) 95% credible interval for the true lift, (4) recommendation using a decision-theoretic framework, (5) how to explain this to a non-technical stakeholder in 3 sentences.
 ```
 
-:::
 
 ## 31. AI Data Quality Audit Advisor
 
 > Guides systematic data quality audits — critical issues caught per dataset: 3.7 average, audit time: 2–3 weeks → 2–3 days.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Data Quality Issues Are the Leading Cause of Failed ML Deployments — and Most Are Discovered Too Late**
 
@@ -4634,9 +4586,8 @@ COCO acts as a systematic data quality audit guide, helping data scientists cond
 
 Teams using COCO for data quality audits report catching an average of 3.7 critical issues per dataset that would have otherwise made it into model training. In regulated industries, the structured audit documentation produced by COCO has directly satisfied compliance requirements for model governance.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4652,9 +4603,8 @@ Teams using COCO for data quality audits report catching an average of 3.7 criti
 - **Analytics Engineers** responsible for the quality of data flowing through dbt pipelines into ML feature stores
 - **Chief Data Officers** and data governance teams who need systematic quality documentation for compliance and audit purposes
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Comprehensive Data Quality Audit Checklist**
 ```
@@ -4761,13 +4711,12 @@ Fitness-for-use assessment: [YOUR OVERALL ASSESSMENT]
 Generate a formal data quality report suitable for: (1) the data engineering team who needs to fix the source issues, (2) the ML team lead who needs to decide whether to proceed, (3) a compliance or audit record. Include severity ratings, recommended remediation actions, and a go/no-go recommendation for model training.
 ```
 
-:::
 
 ## 32. AI ML Experiment Tracker
 
 > Structures ML experiment documentation and cross-session synthesis — reproducibility +78%, repeated experiments -45%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Experiment Tracking Tools Capture Metrics but Not Reasoning — and That Gap Destroys Institutional Knowledge**
 
@@ -4789,9 +4738,8 @@ COCO acts as the experimental narrative layer on top of your MLflow or W&B infra
 
 Teams using COCO alongside MLflow report a 78% improvement in experiment reproducibility scores (measured by whether team members could reconstruct experimental decisions from documentation alone) and a 45% reduction in repeated experiments.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4807,9 +4755,8 @@ Teams using COCO alongside MLflow report a 78% improvement in experiment reprodu
 - **ML Team Leads** who need to review and understand the experimental process behind a model before approving it for production
 - **New Team Members** who need to quickly understand the experimental history of a model they are inheriting
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — End-of-Day Experiment Log Entry**
 ```
@@ -4906,13 +4853,12 @@ What's missing or unclear:
 Help me: (1) reconstruct the most likely experimental setup from the available evidence, (2) identify what questions I need to answer to fully reproduce this run, (3) list the checks I should run to verify my reproduction matches the original, (4) write documentation for this experiment that prevents this ambiguity in the future.
 ```
 
-:::
 
 ## 33. AI Data Pipeline Documentation Writer
 
 > Documents data pipelines comprehensively — onboarding time to pipeline understanding: 4.2 days → 1.5 days, incident response time: -40%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Data Pipeline Documentation Is Chronically Neglected — Until Something Breaks**
 
@@ -4934,9 +4880,8 @@ COCO acts as a pipeline documentation co-author, generating complete technical d
 
 Teams using COCO for pipeline documentation report that new team member onboarding time to pipeline understanding drops from an average of 4.2 days to 1.5 days. In addition, incident response time for pipeline failures decreases by 40% because runbooks exist that previously didn't.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4952,9 +4897,8 @@ Teams using COCO for pipeline documentation report that new team member onboardi
 - **ML Engineers** maintaining production training pipelines who need documentation that enables other team members to handle incidents
 - **Data Engineering Leads** responsible for maintaining documentation standards across a portfolio of pipelines
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Full Pipeline Documentation from Code**
 ```
@@ -5056,13 +5000,12 @@ Existing documentation:
 Update the documentation to reflect the changes: (1) identify which sections are now inaccurate, (2) rewrite those sections with the new behavior, (3) add a changelog entry explaining what changed and why, (4) flag any downstream consumers or dependent systems that may be affected by this change and need to be notified.
 ```
 
-:::
 
 ## 34. AI Model Bias and Fairness Auditor
 
 > Guides fairness audits with compliance-ready documentation — audit documentation time: -60%, regulatory compliance clarity for ML teams without formal fairness training.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Fairness Has Moved from Academic Concern to Regulatory Requirement — and Most ML Teams Are Not Ready**
 
@@ -5084,9 +5027,8 @@ COCO acts as a fairness audit advisor, combining technical fairness analysis wit
 
 Organizations using COCO for fairness auditing report a 60% reduction in time needed to prepare fairness audit documentation, and significantly higher compliance team confidence in the rigor of the analysis.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5102,9 +5044,8 @@ Organizations using COCO for fairness auditing report a 60% reduction in time ne
 - **Compliance and Legal Teams** who need technical fairness analysis translated into regulatory language they can act on
 - **Chief AI Officers** and AI governance teams building enterprise-wide responsible AI programs
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Comprehensive Fairness Audit**
 ```
@@ -5196,13 +5137,12 @@ Residual disparities after mitigation:
 Generate a formal fairness audit report suitable for [REGULATORY_PURPOSE] that includes: executive summary, model description, audit methodology, findings by protected characteristic, mitigation actions taken, residual risk assessment, and attestation language.
 ```
 
-:::
 
 ## 35. AI SQL Query Optimizer
 
 > Optimizes SQL for performance — execution time -67% avg, compute cost savings avg $1,200/month per critical query.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: SQL Written for Correctness Costs a Fortune at Scale**
 
@@ -5224,9 +5164,8 @@ COCO acts as an expert SQL optimization advisor, analyzing query patterns, ident
 
 Data teams using COCO for SQL optimization report average query execution time reductions of 67% and compute cost savings averaging $1,200/month per optimized critical query.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5242,9 +5181,8 @@ Data teams using COCO for SQL optimization report average query execution time r
 - **ML Engineers** who run training data extraction queries on tight schedules and need to ensure they complete within SLA windows
 - **Data Platform Leads** looking to reduce warehouse compute costs by identifying and fixing expensive query patterns across the team
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Full Query Performance Optimization**
 ```
@@ -5335,13 +5273,12 @@ SQL:
 Review for: (1) performance anti-patterns (SELECT *, unnecessary DISTINCT, correlated subqueries, implicit cross joins), (2) correctness risks (NULL handling, join type correctness, window function edge cases), (3) maintainability issues (magic numbers, unclear aliases, missing comments on complex logic), (4) opportunities to refactor into cleaner CTEs or modular dbt models.
 ```
 
-:::
 
 ## 36. AI Business Dashboard Design Advisor
 
 > Designs decision-aligned dashboards — weekly users: avg 8 → 34 (+325%), time to insight: 4.2 min → under 60 seconds.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Dashboards That Nobody Uses**
 
@@ -5381,9 +5318,8 @@ COCO functions as a dashboard design advisor and co-architect — helping data s
    - Records metric definitions, calculation logic, and refresh cadence in standardized format
    - Documents explicit decisions about what was excluded and why
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5400,9 +5336,8 @@ COCO functions as a dashboard design advisor and co-architect — helping data s
 - **BI Developers**: Leverage the information hierarchy and layout specifications to implement dashboards in Tableau, Power BI, or Looker with clear design intent rather than interpreting ambiguous requirements
 - **Data Team Leads**: Use the dashboard brief and design rationale document to manage stakeholder expectations, scope dashboard projects accurately, and evaluate dashboard quality beyond technical correctness
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Dashboard Decision Brief**
 ```
@@ -5512,13 +5447,12 @@ Generate a Dashboard Design Rationale Document covering:
 8. Iteration history: space to log future changes with date and rationale
 ```
 
-:::
 
 ## 37. AI Stakeholder Data Report Generator
 
 > Converts analytical findings into executive reports — decision action rate: 23% → 61% (+165%), report revision cycles: 2.8 → 0.9.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Analysis That Never Drives Action**
 
@@ -5558,9 +5492,8 @@ COCO acts as a data storytelling partner — helping data scientists translate t
    - Rewrites "statistically significant at p=0.05 with wide confidence intervals" as "we are confident in the direction of this effect; the precise magnitude may vary by 20-30% depending on conditions"
    - Identifies when a finding is strong enough to recommend action versus when to recommend further investigation
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5577,9 +5510,8 @@ COCO acts as a data storytelling partner — helping data scientists translate t
 - **Product Analysts**: Translate product analytics findings into product decision documents that Product Managers and executives can act on without follow-up clarification calls
 - **Business Intelligence Teams**: Produce narrative commentary layers for BI dashboards and automated reports that make regular reporting genuinely actionable rather than a compliance exercise
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Executive Summary Conversion**
 ```
@@ -5698,13 +5630,12 @@ Help me:
 5. Identify the one caveat the audience absolutely must understand before using this finding — stated in their language
 ```
 
-:::
 
 ## 38. AI Time Series Forecasting Assistant
 
 > Guides time series modeling from diagnostic to deployment — MAPE: 28% → 14%, residual autocorrelation in shipped models: 61% → 18%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Naive Forecasts That Miss Critical Patterns**
 
@@ -5744,9 +5675,8 @@ COCO serves as a time series forecasting advisor — guiding data scientists thr
    - Drafts forecast narrative that quantifies uncertainty in business terms (revenue range, unit range) rather than statistical terms
    - Designs forecast update cadence recommendations based on how quickly the series' behavior tends to change
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5763,9 +5693,8 @@ COCO serves as a time series forecasting advisor — guiding data scientists thr
 - **Business Intelligence Analysts**: Leverage COCO's uncertainty communication frameworks to present forecast ranges to business stakeholders in formats that drive better planning decisions
 - **Data Science Managers**: Use the model selection framework as a code review and design review checklist for time series projects submitted by team members
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Time Series Diagnostic Assessment**
 ```
@@ -5877,13 +5806,12 @@ Diagnostic questions to help me:
 Produce a diagnostic checklist I can work through systematically to identify the root cause.
 ```
 
-:::
 
 ## 39. AI Data Governance Policy Writer
 
 > Writes implementable data governance policies — policy compliance: 34% → 71%, PII incidents per quarter: 2.4 → 0.4.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Policies That Practitioners Ignore**
 
@@ -5923,9 +5851,8 @@ COCO bridges the gap between legal requirements and technical implementation —
    - Defines lineage documentation requirements for data pipelines using modern orchestration tools (Airflow, dbt, Prefect)
    - Specifies model documentation artifacts required at each lifecycle stage: model cards, data sheets, performance benchmarks, and bias assessments
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5942,9 +5869,8 @@ COCO bridges the gap between legal requirements and technical implementation —
 - **Chief Data Officers**: Use COCO-drafted policies as the foundation for formal governance frameworks that satisfy board-level risk requirements and pass regulatory reviews
 - **Legal and Compliance Teams**: Gain technically credible policy documents that they can validate for regulatory alignment without writing technical implementation specifications themselves
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Data Classification Framework**
 ```
@@ -6051,13 +5977,12 @@ Draft a retention and deletion policy covering:
 7. Policy review cadence: how often retention schedules are reviewed and updated as regulations change
 ```
 
-:::
 
 ## 40. AI ML Model Documentation Generator
 
 > Generates model cards and data documentation — deployment documentation completeness: 8% → 64%, feature reuse rate: 11% → 34%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Documentation That Never Gets Written**
 
@@ -6097,9 +6022,8 @@ COCO accelerates model documentation by acting as an expert documentation partne
    - Defines data drift detection methodology, model performance monitoring cadence, and the retraining trigger conditions
    - Documents the oncall runbook for model-related production alerts
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6116,9 +6040,8 @@ COCO accelerates model documentation by acting as an expert documentation partne
 - **AI Ethics and Fairness Reviewers**: Access subgroup performance analysis documentation and feature proxy analysis in standardized formats that enable systematic fairness review
 - **Risk and Compliance Teams**: Receive model documentation packages that satisfy SR 11-7 model risk management requirements, EU AI Act documentation obligations, or enterprise AI governance policy requirements without requiring data scientists to understand regulatory terminology
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Complete Model Card Generation**
 ```
@@ -6258,13 +6181,12 @@ Generate a subgroup performance documentation package covering:
 7. Monitoring recommendations: which subgroup metrics should be tracked in production monitoring?
 ```
 
-:::
 
 ## 41. AI Data Strategy Roadmap Builder
 
 > Builds data strategy investment cases — budget approval: 52% → 79%, roadmap coherence: 28% → 84% of projects tied to strategic objectives.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Data Teams That Can't Justify Their Own Investment**
 
@@ -6304,9 +6226,8 @@ COCO helps data leaders build data strategy roadmaps that connect capability inv
    - Distinguishes leading indicators (capability milestones) from lagging indicators (business outcomes) and designs a measurement framework that tracks both
    - Defines the quarterly review cadence and the decision triggers that would cause the strategy to be accelerated, reprioritized, or paused
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6323,9 +6244,8 @@ COCO helps data leaders build data strategy roadmaps that connect capability inv
 - **Senior Data Scientists**: Use the maturity framework and investment prioritization tools to participate meaningfully in strategy discussions and advocate for specific capability investments with structured business rationale
 - **VP Engineering / CTO**: Use the data strategy roadmap as an input to the broader technology strategy, ensuring data investments are sequenced correctly relative to product and platform investments
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Data Capability Maturity Assessment**
 ```
@@ -6440,13 +6360,12 @@ Design a set of OKRs with:
 7. Failure response: if a Key Result is tracking below target at midpoint, what is the escalation and recovery protocol?
 ```
 
-:::
 
 ## 42. AI Causal Inference Advisor
 
 > Guides causal analysis methodology — causal errors: 71% → 28%, A/B test design quality significantly improved.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Correlation Mistaken for Causation Drives Costly Decisions**
 
@@ -6486,9 +6405,8 @@ COCO serves as a causal inference advisor — helping data scientists and analys
    - Provides language for findings along a spectrum: "this is a valid causal estimate under these assumptions" through "this is consistent with but does not prove causation" to "this is purely descriptive and should not be used to predict intervention effects"
    - Designs the decision recommendation that follows from the causal finding, accounting for effect size uncertainty
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6505,9 +6423,8 @@ COCO serves as a causal inference advisor — helping data scientists and analys
 - **Growth Analysts**: Use causal frameworks to evaluate marketing and growth intervention effectiveness with appropriate rigor, distinguishing genuine lift from selection effects in channel attribution and cohort analysis
 - **Business Leaders and Decision Makers**: Receive clearly calibrated causal findings with explicit assumption statements — enabling better decisions while understanding the confidence level of the causal evidence supporting them
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Causal Question Formulation and DAG Construction**
 ```
@@ -6629,13 +6546,12 @@ Help me draft communication that:
 6. Addresses the most likely pushback: what will skeptical stakeholders challenge, and how should I respond?
 ```
 
-:::
 
 ## 43. AI Real Estate Property Valuation Analyst
 
 > Organizations operating in Real Estate face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Real Estate Property Valuation Analyst**
 
@@ -6689,9 +6605,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6708,9 +6623,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Valuation Analysis**
 ```
@@ -6829,13 +6743,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 44. AI Insurance Underwriting Risk Profiler
 
 > Organizations operating in Insurance face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Insurance Underwriting Risk Profiler**
 
@@ -6889,9 +6802,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6908,9 +6820,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Risk Scoring Analysis**
 ```
@@ -7029,13 +6940,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 45. AI Retail Customer Sentiment Analyzer
 
 > Organizations operating in Retail face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Retail Customer Sentiment Blind Spots**
 
@@ -7089,9 +6999,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -7108,9 +7017,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Sentiment Analysis Analysis**
 ```
@@ -7229,13 +7137,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 46. AI Data Analyst KPI Dashboard Builder
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Data Analyst KPI Dashboard Manual Effort**
 
@@ -7289,9 +7196,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -7308,9 +7214,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Reporting Analysis**
 ```
@@ -7429,13 +7334,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 47. AI Sales Attribution Modeling Assistant
 
 > Organizations operating in E-Commerce face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Sales Attribution Modeling Overhead**
 
@@ -7489,9 +7393,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -7508,9 +7411,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Data Analysis Analysis**
 ```
@@ -7629,13 +7531,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 48. AI Cohort Retention Analysis Engine
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Cohort Retention Analysis Failures**
 
@@ -7689,9 +7590,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -7708,9 +7608,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Data Analysis Analysis**
 ```
@@ -7829,13 +7728,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 49. AI Pricing Elasticity Analysis Engine
 
 > Organizations operating in Retail face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Pricing Elasticity Analysis Failures**
 
@@ -7889,9 +7787,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -7908,9 +7805,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Pricing Strategy Analysis**
 ```
@@ -8029,13 +7925,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 50. AI Financial Fraud Pattern Detection Engine
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Financial Fraud Pattern Detection Failures**
 
@@ -8089,9 +7984,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -8108,9 +8002,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Fraud Detection Analysis**
 ```
@@ -8229,4 +8122,3 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::

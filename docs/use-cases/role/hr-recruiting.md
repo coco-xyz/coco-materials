@@ -1700,7 +1700,7 @@ Present with executive-ready visualizations described in markdown (tables, compa
 
 > Generates bias-free, brand-aligned job descriptions in 30 minutes — drafting time reduced 85%, application quality scores up 34%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Writing an effective job description is one of the most deceptively difficult tasks in human resources. On the surface it appears simple — list the responsibilities, requirements, and perks, then post the role. In practice, HR professionals and hiring managers consistently underestimate the time, expertise, and cross-functional coordination required to produce a job description that simultaneously attracts top talent, accurately reflects the role, satisfies legal and compliance requirements, and aligns with a company's employer brand.
 
@@ -1722,9 +1722,8 @@ COCO transforms this workflow by serving as an intelligent writing partner that 
 
 6. **Multi-format export**: COCO can reformat the same description for different posting platforms — a longer LinkedIn version, a shorter Indeed-optimized version, or an internal intranet posting — without requiring the HR team to rewrite from scratch.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1741,9 +1740,8 @@ COCO transforms this workflow by serving as an intelligent writing partner that 
 - **Hiring Managers** who understand the role deeply but lack the writing expertise or time to craft compelling descriptions without HR scaffolding
 - **HR Operations / Compliance Teams** who need to ensure all job descriptions meet regulatory standards before publication
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Full draft from scratch**
 ```
@@ -1770,13 +1768,12 @@ Take this standard job description for [HR Generalist] and rewrite it in the voi
 Review the following job description for [Operations Manager] and identify: (1) any language that may inadvertently screen out protected groups (gender-coded words, age bias, unnecessary physical requirements), (2) vague qualifiers that could be replaced with specific criteria, and (3) any missing legally recommended sections (equal opportunity statement, accommodation notice). Provide a revised version with all issues corrected. Original JD: [paste text].
 ```
 
-:::
 
 ## 13. AI Resume Screener and Shortlister
 
 > Screens 500 resumes in hours instead of weeks — 75% reduction in screening time, shortlist-to-hire conversion up 42%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Resume screening is one of the highest-volume, most time-consuming, and most error-prone activities in the entire talent acquisition workflow. When a single job posting receives 200, 500, or even 1,000 applications — a common occurrence for mid-to-large enterprises — the sheer volume overwhelms even experienced recruiting teams. Industry data from the Society for Human Resource Management (SHRM) shows that recruiters spend an average of 6 to 8 seconds reviewing each resume during initial screening. At that pace, critical details are missed, qualified candidates fall through the cracks, and unconscious bias — favoring familiar school names, company brands, or formatting styles — systematically distorts who advances.
 
@@ -1798,9 +1795,8 @@ COCO offers a fundamentally different approach. Rather than rigid keyword matchi
 
 6. **Candidate communication drafts**: For declined candidates, COCO can draft personalized, respectful rejection emails. For advancing candidates, it can draft outreach messages that reference specific details from their background.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1817,9 +1813,8 @@ COCO offers a fundamentally different approach. Rather than rigid keyword matchi
 - **Diversity, Equity, and Inclusion Leads** who need screening processes that apply criteria consistently and reduce systemic bias
 - **Hiring Managers** who receive a curated shortlist with rationale rather than an unfiltered stack of resumes to read themselves
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Define criteria and screen a batch**
 ```
@@ -1850,13 +1845,12 @@ I need to send rejection emails to [12] candidates who were not advanced after r
 Here are the screening decisions made by two different recruiters for the same [Customer Success Manager] role — [Recruiter A's shortlist] and [Recruiter B's shortlist]. The role criteria are: [paste criteria]. Please analyze whether each recruiter applied the criteria consistently, identify any cases where a candidate was advanced by one recruiter but rejected by another despite similar qualifications, and flag any patterns that suggest inconsistency or potential bias in how criteria were applied.
 ```
 
-:::
 
 ## 14. AI Interview Question Generator
 
 > Structured interview guides in under 45 minutes — inter-rater reliability up 55%, legally problematic questions reduced 80%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 The quality of an interview is only as good as the quality of the questions asked. Yet across most organizations, interview preparation is an afterthought — hiring managers lean on the same generic questions they've used for years ("Tell me about yourself," "Where do you see yourself in five years?"), interviewers across different rounds ask overlapping or redundant questions without coordination, and structured interviewing best practices rarely make it from HR training sessions into actual interview rooms.
 
@@ -1880,9 +1874,8 @@ COCO closes this gap by generating tailored, competency-mapped, legally vetted i
 
 6. **Panel coordination**: For multi-round interview processes, COCO designs question sets for each interviewer or round with minimal overlap — ensuring the candidate is assessed across a broad range of competencies rather than answering the same questions multiple times.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1899,9 +1892,8 @@ COCO closes this gap by generating tailored, competency-mapped, legally vetted i
 - **HR Business Partners** responsible for coaching interviewer teams and ensuring structured, legally compliant interview practices across the organization
 - **Diversity and Inclusion Leads** who need interview processes that evaluate candidates on job-relevant criteria, reducing the role of interviewer intuition and affinity bias
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Full structured interview guide**
 ```
@@ -1928,13 +1920,12 @@ Please review this list of interview questions we currently use for [managerial 
 Design [5] situational interview questions for a [VP of Operations] role at a [logistics company with 1,200 employees]. Each question should present a realistic, role-relevant scenario the candidate would face in the first 90 days — such as [managing a warehouse capacity crisis, resolving a supplier dispute, or restructuring a regional team]. Include the scenario, the core question, and 2 follow-up probes that push the candidate to specify what actions they would take and how they would measure success.
 ```
 
-:::
 
 ## 15. AI Offer Letter Composer
 
 > Personalized, legally compliant offer letters in under 15 minutes — acceptance rate up 18%, legal compliance incidents reduced 85%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 The offer letter is one of the most consequential documents in the employment relationship. It is the first formal record of terms agreed between employer and employee, the document a candidate will read carefully before accepting or declining, and — in many jurisdictions — a legally binding or legally relevant communication that can create obligations far beyond what HR intended. Yet despite its importance, offer letter drafting is often handled hastily, inconsistently, and without adequate legal oversight.
 
@@ -1958,9 +1949,8 @@ COCO transforms offer letter drafting from a high-risk, time-pressured manual ta
 
 6. **Brand and tone customization**: COCO adapts the letter's tone to the company's employer brand — from formal and professional to warm and mission-forward — ensuring the offer letter reflects the culture the candidate experienced during the interview process.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1977,9 +1967,8 @@ COCO transforms offer letter drafting from a high-risk, time-pressured manual ta
 - **HR Operations Teams** maintaining offer letter templates across jurisdictions, needing to ensure currency and consistency
 - **Compensation and Total Rewards Teams** who need complex compensation structures explained clearly and consistently to candidates
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Standard offer letter**
 ```
@@ -2021,13 +2010,12 @@ Draft an offer letter for [Li Wei], a [Senior Data Scientist] joining our [Singa
 A candidate [Alex Morgan] verbally declined our offer for [Head of UX Design] citing compensation concerns. After negotiation, we have improved the package: [increased base by $10,000 to $145,000, added a $5,000 annual professional development stipend, and offered an additional 5 days PTO]. Please redraft the offer letter to incorporate these changes, and open with a brief, warm paragraph acknowledging that we listened to their feedback and are excited to revisit the opportunity — without sounding desperate or transactional.
 ```
 
-:::
 
 ## 16. AI Employee Performance Review Writer
 
 > Specific, behavior-grounded performance reviews at scale — manager writing time down 65%, review quality scores up 48%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Performance reviews are among the most important — and most dreaded — processes in the employee lifecycle. They shape compensation decisions, promotion pathways, development planning, and ultimately retention. When done well, they provide employees with clear, actionable feedback that accelerates growth and reinforces high performance. When done poorly, they erode trust, introduce legal liability, create pay inequity, and fail to differentiate between strong and weak performers in any meaningful way.
 
@@ -2051,9 +2039,8 @@ COCO transforms the review writing process by serving as an intelligent drafting
 
 6. **Review cycle efficiency**: For managers with large teams, COCO dramatically compresses review writing time — enabling them to produce thoughtful, individualized reviews for every team member rather than rushing through the final ones with declining quality.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2070,9 +2057,8 @@ COCO transforms the review writing process by serving as an intelligent drafting
 - **HR Operations Teams** who administer the review cycle and need consistent, structured outputs across the organization
 - **Employees** who receive more specific, actionable, and fair feedback — enabling real development conversations rather than generic annual check-ins
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — High performer review**
 ```
@@ -2113,13 +2099,12 @@ Please review this performance review draft for potential bias and suggest impro
 I am preparing for our [Q4 review calibration session]. I have [12] direct manager reviews to present. Please help me create a calibration summary table that lists each employee, their manager's proposed rating, 2-3 key evidence points supporting that rating, and a flag if the rating appears inconsistent with the evidence provided. Here are the reviews: [paste all 12 review summaries].
 ```
 
-:::
 
 ## 17. AI Onboarding Plan Builder
 
 > Role-specific 90-day onboarding plans that accelerate productivity — time-to-productivity up 34%, 90-day retention up 28%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Effective employee onboarding is one of the highest-ROI investments an organization can make in the talent lifecycle — yet it remains one of the most inconsistently executed. The data is striking: BambooHR research shows that employees who experience poor onboarding are twice as likely to look for new opportunities soon after joining. Gallup finds that only 12% of employees strongly agree that their organization does a great job of onboarding. Meanwhile, the average cost of replacing an employee ranges from 50% to 200% of their annual salary — a figure that makes first-year attrition driven by poor onboarding an extremely expensive organizational failure.
 
@@ -2141,9 +2126,8 @@ Designing a truly effective onboarding plan requires significant thought: mappin
 
 6. **Personalization layer**: COCO adjusts the plan for role type (individual contributor vs. people manager vs. executive), remote vs. in-office vs. hybrid work arrangement, and any personal context shared by the hiring manager (relocation, career transition, international move).
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2160,9 +2144,8 @@ Designing a truly effective onboarding plan requires significant thought: mappin
 - **New Hires** who experience a structured, intentional first 90 days that accelerates their confidence, productivity, and sense of belonging
 - **HR Operations Teams** managing onboarding infrastructure who need to ensure quality and consistency across hiring waves
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Full 30-60-90 day onboarding plan**
 ```
@@ -2189,13 +2172,12 @@ Create an onboarding plan for [Robin Chang], who is joining as [Head of Customer
 Generate a detailed hour-by-hour schedule for [Alex Kim's] first week at [TechStartup], joining as [Product Manager, Mobile]. Start date: [Monday, February 24, 2025]. Must include: IT setup and systems access (Day 1 morning), HR onboarding session (Day 1 afternoon), product team intro meeting, 1:1 with hiring manager daily in Week 1, codebase/product walkthrough with Engineering, meeting with Design lead, and time for self-directed reading of product documentation. The schedule should feel welcoming and human — not back-to-back meetings all day — with buffers for processing and informal connection.
 ```
 
-:::
 
 ## 18. AI Employee Survey Analyzer
 
 > 100% open-text coverage in days, not weeks — analysis cycle down from 4-6 weeks to 3-5 days, attrition prediction up 41%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Employee surveys — engagement surveys, pulse checks, exit interviews, DEI climate assessments, manager effectiveness surveys — represent one of the richest sources of organizational intelligence available to HR and people leaders. When analyzed rigorously, survey data reveals the hidden dynamics that drive attrition, disengagement, and cultural deterioration before they become visible as financial losses or leadership crises. When analyzed poorly — or not at all — they become an expensive exercise in employee goodwill extraction that produces no action and erodes trust with every subsequent survey cycle.
 
@@ -2217,9 +2199,8 @@ COCO transforms the survey analysis workflow by processing large volumes of qual
 
 6. **Action planning support**: COCO helps HR teams translate findings into specific, prioritized action recommendations — distinguishing between issues requiring leadership intervention, manager-level coaching, policy changes, or structural adjustments.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2236,9 +2217,8 @@ COCO transforms the survey analysis workflow by processing large volumes of qual
 - **People and Culture Leaders** who present survey findings to executive leadership and boards, needing compelling narratives that drive investment in people initiatives
 - **DEI Teams** who need to detect and surface systematic differences in survey responses across demographic groups — surfacing equity issues that aggregate scores can mask
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Open-text theme analysis**
 ```
@@ -2265,13 +2245,12 @@ Please transform the following raw survey findings into a [10-slide executive pr
 We ran our annual DEI climate survey. I will share the data split by [gender, ethnicity, and seniority level]. Please analyze whether there are systematic differences in survey experience across groups, specifically: (1) which demographic groups report significantly lower scores on psychological safety, inclusion, and fair treatment dimensions, (2) whether these gaps are consistent across teams or concentrated in specific departments, (3) any open-text themes that appear more frequently among underrepresented groups, and (4) an equity-focused summary I can present to our DEI council. Data: [paste demographic breakdown]
 ```
 
-:::
 
 ## 19. AI Compensation Benchmarker
 
 > Market-calibrated compensation in days, not weeks — benchmarking cycle down 75%, offer rejections for compensation down 31%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Compensation is the single largest operating expense for most knowledge-work organizations — and one of the most complex HR systems to manage effectively. Getting compensation right requires continuously balancing multiple competing pressures: remaining competitive in the external talent market, maintaining internal equity across the organization, containing costs within budget constraints, staying compliant with an evolving landscape of pay transparency laws, and communicating total rewards clearly enough that employees understand and value what they receive.
 
@@ -2295,9 +2274,8 @@ COCO serves as an intelligent compensation analysis partner that helps HR and To
 
 6. **Manager and employee communication**: COCO drafts pay communication materials — range rationale documents, manager talking-point guides for compensation conversations, employee total rewards statements — translating complex analysis into language that builds trust rather than confusion.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2314,9 +2292,8 @@ COCO serves as an intelligent compensation analysis partner that helps HR and To
 - **HR Compliance Teams** navigating the rapidly expanding landscape of pay transparency laws across jurisdictions
 - **Compensation Committees and Finance Partners** who need rigorous, well-documented compensation analysis to support budget decisions and board presentations
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Role benchmarking analysis**
 ```
@@ -2343,13 +2320,12 @@ We are posting the following [12] roles in [California, New York, and Colorado].
 I need to prepare talking points for [15] managers who will be having annual compensation review conversations with their team members next week. Our overall merit budget is [3.5%], with differentiation by performance rating: [Top performers: 5-6%, Solid performers: 3-4%, Developing performers: 0-2%]. Key sensitivities: [some high performers will receive below-market increases due to budget constraints; 3 employees are at or near range maximum]. Please create a manager guide with: (1) how to open the conversation, (2) how to explain the merit framework, (3) how to handle the most common difficult questions (why not more?, am I underpaid?, what can I do to get a bigger increase?), and (4) specific language for the three sensitive scenarios.
 ```
 
-:::
 
 ## 20. AI L&D Curriculum Designer
 
 > Compress curriculum design from months to weeks — 6-12 month design cycles to 4-8 weeks, L&D capacity increased 4x.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Learning and Development has undergone a fundamental shift in expectations over the past decade. What was once a compliance-driven, classroom-based function — delivering mandatory training modules and tracking completion rates — is now expected to be a strategic capability that measurably improves performance, accelerates leadership development, reduces skill gaps that threaten business outcomes, and drives employee retention by signaling investment in people's growth. The gap between these expectations and the actual capability of most L&D functions is significant.
 
@@ -2371,9 +2347,8 @@ The design challenge is particularly acute for organizations undergoing transfor
 
 6. **Content personalization**: COCO adapts curriculum designs to specific learner contexts — distinguishing between new manager training for a tech startup vs. a manufacturing company, or sales training for an inside sales team vs. an enterprise field sales org — ensuring relevance and applicability rather than generic content.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2390,9 +2365,8 @@ The design challenge is particularly acute for organizations undergoing transfor
 - **Subject Matter Experts** who have deep functional knowledge but need help translating it into structured, teachable curriculum
 - **HR Operations Teams** managing learning platforms who need well-designed content to populate learning management systems at scale
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — New manager learning journey**
 ```
@@ -2419,13 +2393,12 @@ Write a complete facilitator guide for a [3-hour workshop] on [Giving and Receiv
 I have designed a [Leadership Development Program] for [senior individual contributors (ICs) being considered for people management roles] at our company. The program runs for [6 months] and includes [4 workshops, a 360 assessment, executive coaching, and a capstone project]. Please design a measurement framework using [Kirkpatrick's 4 levels] that includes: specific metrics and data sources for each level (Reaction, Learning, Behavior, Results), timeline for data collection, suggested survey questions, manager observation criteria, and business outcome KPIs we should track over [12 months post-program completion].
 ```
 
-:::
 
 ## 21. AI Employee Handbook Updater
 
 > Keep handbooks current and compliant — update cycle from 4-6 months to 4-6 weeks, legal review costs down 55%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 The employee handbook occupies a peculiar position in organizational life: it is simultaneously one of the most important legal and cultural documents a company produces, and one of the most chronically neglected. Handbooks define the employment relationship, communicate company values and expectations, establish policies that govern daily work life, and — in many jurisdictions — constitute a quasi-contractual document whose language can be used against the employer in employment disputes. Yet the typical employee handbook at a mid-sized organization is years out of date, references policies that no longer exist, fails to reflect current law, and is so dense and unreadable that employees skip it entirely on their first day.
 
@@ -2447,9 +2420,8 @@ The process of updating a handbook is labor-intensive: review existing policies 
 
 6. **Employee acknowledgment and communication**: COCO drafts the rollout communications — employee notification email, FAQ document for common questions about policy changes, and updated acknowledgment form language.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2466,9 +2438,8 @@ The process of updating a handbook is labor-intensive: review existing policies 
 - **People and Culture Leaders** who want the handbook to reflect the organization's current culture and values, not a historical artifact
 - **HR Operations Teams** managing onboarding, who need the handbook to be a useful, readable document that new hires actually engage with
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Full handbook audit and gap report**
 ```
@@ -2495,13 +2466,12 @@ Our handbook's [Leave of Absence] section needs to be updated for [California 20
 We are rolling out an updated employee handbook for [CompanyName] effective [March 1, 2025]. Key changes include: [new remote work policy, updated PTO policy changing from accrual to unlimited, new AI use policy, and updated anti-harassment policy]. Please create: (1) an all-employee announcement email (warm, clear, not bureaucratic — 300 words max), (2) a FAQ document addressing the 8-10 questions employees are most likely to ask about these changes, (3) updated acknowledgment form language for electronic signature, and (4) a manager briefing summary so they can answer team questions confidently before the all-employee announcement goes out.
 ```
 
-:::
 
 ## 22. AI Workforce Planning Advisor
 
 > Transform reactive headcount management into strategic foresight — planning cycle halved, attrition surprises down 40%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Reactive Headcount Management in a World That Demands Foresight**
 
@@ -2541,9 +2511,8 @@ COCO transforms workforce planning from a reactive budget exercise into a struct
    - Generates executive summary, detailed analysis, and recommendation sections
    - Drafts supporting materials including hiring roadmaps and investment justifications
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2560,9 +2529,8 @@ COCO transforms workforce planning from a reactive budget exercise into a struct
 - **Finance Business Partners** who collaborate with HR on headcount budgeting and need workforce plans that connect to financial models and cost assumptions
 - **Department Heads and Business Leaders** who submit headcount requests and benefit from a structured process that increases the likelihood their business-critical requests are approved based on merit
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Current workforce composition analysis**
 ```
@@ -2650,13 +2618,12 @@ Please produce a workforce plan document with:
 Format for a [C-suite / board] audience.
 ```
 
-:::
 
 ## 23. AI Talent Pipeline Builder
 
 > Build candidate pipelines before roles open — time-to-fill down 35-50 days, quality-of-hire up 23%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Reactive Hiring Cycles That Keep Organizations Perpetually Behind**
 
@@ -2696,9 +2663,8 @@ COCO helps talent acquisition teams build genuine proactive pipelines — doing 
    - Identifies drop-off points with root cause hypothesis for each
    - Recommends A/B testing strategies for outreach message improvement
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2715,9 +2681,8 @@ COCO helps talent acquisition teams build genuine proactive pipelines — doing 
 - **Recruiters and Sourcers** who spend significant time on research and outreach drafting and can redirect that time to high-value candidate relationship work when COCO handles the research load
 - **Hiring Managers** in functions with recurring or predictable hiring needs — engineering, sales, operations — who want candidates already in conversation when requisitions open
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Sourcing strategy for a target role**
 ```
@@ -2795,13 +2760,12 @@ Please produce:
 5. A 2-3 paragraph narrative I can use in the weekly talent team standup
 ```
 
-:::
 
 ## 24. AI DEI Reporting Analyzer
 
 > Turn DEI data into targeted action — identify 4-6 funnel-stage gaps invisible in summary reporting, analysis time down 85%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: DEI Metrics Without Insight Leave Organizations Running Blind**
 
@@ -2841,9 +2805,8 @@ COCO transforms DEI data into actionable insight — providing the analytical de
    - Drafts DEI report sections with appropriate tone for each audience
    - Generates both summary and detailed analytical versions of findings
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2860,9 +2823,8 @@ COCO transforms DEI data into actionable insight — providing the analytical de
 - **DEI Leaders and Program Managers** who design and fund DEI programs and need evidence of which interventions are working and which gaps most urgently need intervention
 - **Talent Acquisition Leaders** who need to understand specifically which stages of the hiring process are generating representation gaps and what changes to process or evaluation criteria would improve outcomes
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Full DEI funnel analysis**
 ```
@@ -2958,13 +2920,12 @@ Please draft:
 Tone: credible, direct, neither overclaiming progress nor catastrophizing challenges. Appropriate for a sophisticated investor and board audience.
 ```
 
-:::
 
 ## 25. AI Employee Retention Risk Predictor
 
 > Identify flight risks 6-9 months before departure — preventable attrition down 25-35%, $1.5-3M in replacement cost avoided.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Learning About Retention Risk Through Exit Interviews Is Learning Too Late**
 
@@ -3004,9 +2965,8 @@ COCO helps HR teams analyze the retention signals already present in their data 
    - Estimates retention probability improvement for different intervention types by employee profile
    - Generates cost-benefit analyses comparing intervention cost to replacement cost
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3023,9 +2983,8 @@ COCO helps HR teams analyze the retention signals already present in their data 
 - **Compensation and Total Rewards Leaders** who need to connect compensation benchmarking to retention outcomes and justify market adjustments based on retention risk rather than purely on market data
 - **Managers and Team Leaders** who want early visibility into team engagement risk and specific guidance on what they can do to improve retention before problems become departures
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Engagement survey retention risk analysis**
 ```
@@ -3113,13 +3072,12 @@ Please:
 5. Draft a leadership briefing that explains the overall retention risk picture for the Engineering function without identifying individual employees by name
 ```
 
-:::
 
 ## 26. AI Benefits Administration Advisor
 
 > Reduce enrollment errors 45% and compliance failures — plain-language communications that employees actually read and act on.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Benefits Administration Is a Compliance Minefield That HR Navigates Without Maps**
 
@@ -3159,9 +3117,8 @@ COCO helps HR teams manage the communication, documentation, and analytical comp
    - Generates structured enrollment reconciliation communication templates
    - Drafts escalation communications for coverage disputes and claim issues
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3178,9 +3135,8 @@ COCO helps HR teams manage the communication, documentation, and analytical comp
 - **Employees and their Families** who navigate benefits enrollment decisions and need clear, accessible information to make choices that optimize their coverage and cost for their specific situations
 - **HR Operations and HRIS Teams** who manage the data reconciliation between HRIS, payroll, and benefits vendor systems and need structured communication and documentation to catch and resolve discrepancies
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Open enrollment communication package**
 ```
@@ -3272,13 +3228,12 @@ Please draft:
 4. A root cause analysis framework: what process failures allowed this discrepancy to occur and what process changes would prevent recurrence?
 ```
 
-:::
 
 ## 27. AI Succession Planning Assistant
 
 > Go from 28% to 78% succession coverage in 12 months — leadership transition cost down 40%, internal promotion rate up to 65%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Leadership Transitions Without Succession Plans Are Organizational Crises**
 
@@ -3318,9 +3273,8 @@ COCO helps HR and leadership teams build succession plans that go beyond lists o
    - Designs structured succession calibration meeting formats
    - Generates year-over-year progress tracking that shows development trajectory for each candidate
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3337,9 +3291,8 @@ COCO helps HR and leadership teams build succession plans that go beyond lists o
 - **Senior Leaders and Executives** who are responsible for developing their own successors and need structured frameworks to identify and invest in the right candidates
 - **Boards and Governance Committees** who require assurance that the organization has meaningful succession depth for key roles and can review plans in a format that enables informed oversight
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Critical role identification and succession risk assessment**
 ```
@@ -3433,13 +3386,12 @@ Please help me design:
 5. Decision framework: How should we structure the "go/no-go" decisions for candidates approaching their planned readiness windows — what criteria trigger confirmation, continued development, or removal from succession tracking?
 ```
 
-:::
 
 ## 28. AI HR Metrics Dashboard Narrator
 
 > Turn HR numbers into leadership decisions — executive meeting explanation time down 35%, decision-to-data lag down 50%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: HR Dashboards Produce Numbers, Not Insights — and Leaders Need Insights**
 
@@ -3479,9 +3431,8 @@ COCO bridges the gap between HR data and business insight — taking metric inpu
    - Generates HRBP presentation narratives tailored to each function's specific context
    - Produces the "so what" analysis that transforms data review into decision facilitation
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3498,9 +3449,8 @@ COCO bridges the gap between HR data and business insight — taking metric inpu
 - **HR Analytics and People Insights Teams** who produce data and dashboards but lack the capacity to generate narrative interpretation at the volume and frequency that business partners need
 - **Business Leaders and Department Heads** who receive HR dashboard access but need guided interpretation of what the metrics mean for their specific function's performance and risks
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Monthly HR metrics narrative summary**
 ```
@@ -3611,13 +3561,12 @@ Please draft a 500-600 word all-hands narrative that:
 5. Closes with 2-3 commitments for the coming year that employees will find meaningful
 ```
 
-:::
 
 ## 29. AI Employee Onboarding Experience Designer
 
 > Companies spend $4,000–$7,000 recruiting and hiring a single employee, then deliver an onboarding experience that consistently fails to set them up for success
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Onboarding Programs That Lose New Hires Before They Produce**
 
@@ -3671,9 +3620,8 @@ Scaling personalized onboarding is impossible without the right tools. HR teams 
    - Produces quarterly onboarding program audit with specific improvement recommendations
    - Benchmarks onboarding completion rates and satisfaction scores against best-in-class standards
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3690,9 +3638,8 @@ Scaling personalized onboarding is impossible without the right tools. HR teams 
 - **New Employees**: Experience a welcoming, organized first 90 days that gives them the knowledge, relationships, and clarity to contribute quickly
 - **Department Heads**: See new hires reach productivity faster, reducing the team's burden of covering workload during the ramp period
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: 90-Day Onboarding Plan Generator**
 ```
@@ -3787,13 +3734,12 @@ Identify:
 5. Priority recommendation: the single highest-impact change to make first
 ```
 
-:::
 
 ## 30. AI HR Compensation Benchmarking Engine
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: HR Compensation Benchmarking Failures**
 
@@ -3847,9 +3793,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3866,9 +3811,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Benchmarking Analysis**
 ```
@@ -3987,13 +3931,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 31. AI HR Performance Review Writer
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: HR Performance Review Writer**
 
@@ -4047,9 +3990,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4066,9 +4008,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Performance Monitoring Analysis**
 ```
@@ -4187,13 +4128,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 32. AI HR Employee Engagement Pulse Analyzer
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: HR Employee Engagement Pulse Blind Spots**
 
@@ -4247,9 +4187,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4266,9 +4205,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Survey Design Analysis**
 ```
@@ -4387,13 +4325,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 33. AI HR Job Description Optimization Writer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: HR Job Description Optimization Writer**
 
@@ -4447,9 +4384,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4466,9 +4402,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Recruitment Analysis**
 ```
@@ -4587,13 +4522,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 34. AI HR Training Needs Assessment Engine
 
 > Organizations operating in Education face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: HR Training Needs Assessment Failures**
 
@@ -4647,9 +4581,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4666,9 +4599,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Training Program Design Analysis**
 ```
@@ -4787,13 +4719,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 35. AI HR Recruitment Pipeline Optimizer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: HR Recruitment Pipeline Inefficiency**
 
@@ -4847,9 +4778,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4866,9 +4796,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Recruitment Analysis**
 ```
@@ -4987,13 +4916,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 36. AI HR Succession Planning Advisor
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: HR Succession Planning Guesswork**
 
@@ -5047,9 +4975,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5066,9 +4993,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Strategic Planning Analysis**
 ```
@@ -5187,13 +5113,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 37. AI HR Organizational Design Advisor
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: HR Organizational Design Guesswork**
 
@@ -5247,9 +5172,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5266,9 +5190,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Workflow Design Analysis**
 ```
@@ -5387,13 +5310,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 38. AI Workforce Planning Scenario Modeler
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Workforce Planning Scenario Modeler**
 
@@ -5447,9 +5369,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5466,9 +5387,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Strategic Planning Analysis**
 ```
@@ -5587,13 +5507,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 39. AI Exit Interview Insights Analyzer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Exit Interview Insights Blind Spots**
 
@@ -5647,9 +5566,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5666,9 +5584,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Data Analysis Analysis**
 ```
@@ -5787,4 +5704,3 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::

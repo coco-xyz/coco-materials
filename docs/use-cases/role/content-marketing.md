@@ -3901,7 +3901,7 @@ This week's data:
 
 > Tests hook structures across platforms to build a systematic competitive advantage — engagement rate 2.3–4.1× improvement, reach expansion 3–5× vs baseline posts within 60 days.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: 90% of Content Gets Ignored in the First 3 Seconds — and the Teams Producing It Have No Systematic Way to Fix That**
 
@@ -3944,9 +3944,8 @@ COCO's AI Viral Content Hook Generator analyzes top-performing content across pl
    - Flags trend relevance windows: topics that have a 24-48 hour window of maximum relevance vs. topics with longer decay curves
    - Warns against trend-jacking that would appear inauthentic or tone-deaf for the brand's voice
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3963,9 +3962,8 @@ COCO's AI Viral Content Hook Generator analyzes top-performing content across pl
 - **Growth Marketers**: Turn organic content into a scalable acquisition channel by maximizing reach per post rather than just publishing volume
 - **Founders and Executives Building Personal Brands**: Produce hooks that match the platform's current engagement patterns rather than writing like a business school professor and wondering why the audience doesn't show up
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Generate Multi-Variant Hooks for a Content Piece**
 ```
@@ -4100,13 +4098,12 @@ Please:
 6. At the end of 30 days, what should I have learned and how do I turn that into a durable hook playbook?
 ```
 
-:::
 
 ## 25. AI LinkedIn Thought Leadership Writer
 
 > Drafts authentic executive LinkedIn posts in their voice — publishing frequency: 1–2/month → 3–5/week, engagement 2.8–4.5× vs company-drafted posts.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Your Best Thinking Never Leaves Your Head — and Your LinkedIn Profile Proves It**
 
@@ -4158,9 +4155,8 @@ COCO's AI LinkedIn Thought Leadership Writer captures raw thinking from executiv
    - Prevents content overlap: flags when two executives are about to post on the same topic in the same week
    - Provides a unified dashboard for the marketing team managing the entire program
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4177,9 +4173,8 @@ COCO's AI LinkedIn Thought Leadership Writer captures raw thinking from executiv
 - **Product and Sales Leaders building category authority**: Publish consistently on the topics where you have the deepest expertise — pricing, PLG, enterprise sales, churn — and become the go-to voice your ideal buyers follow before they ever enter a sales process
 - **Content Strategists and Brand Managers**: Scale thought leadership programs across an entire leadership team without proportionally scaling headcount, and maintain authentic voice differentiation across every executive
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Transform Raw Thinking into a LinkedIn Post**
 ```
@@ -4293,13 +4288,12 @@ Please:
 5. What hashtags (if any) should accompany this post, and why?
 ```
 
-:::
 
 ## 26. AI Community Engagement Strategist
 
 > Plans community programming and member nurturing — daily active member rate +35–55%, 90-day retention: 45% → 68–75% within 90 days.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Community Is the Most Powerful GTM Channel in 2025 — and Most Companies Are Running It Like a Newsletter**
 
@@ -4345,9 +4339,8 @@ COCO's AI Community Engagement Strategist handles the systematic, repeatable wor
    - Drafts product team responses to community feedback that close the loop authentically and build community trust
    - Creates systems for routing time-sensitive community escalations to the right internal team
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4364,9 +4357,8 @@ COCO's AI Community Engagement Strategist handles the systematic, repeatable wor
 - **Growth Marketers**: Turn community into a scalable acquisition channel by systematically activating power members as advocates and referral sources
 - **Product Teams**: Get structured, actionable community feedback that actually influences the roadmap — instead of a firehose of unstructured requests that nobody has time to synthesize
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Build a 30-Day Community Engagement Calendar**
 ```
@@ -4483,13 +4475,12 @@ Please:
 6. How should I repurpose this event content across other channels (LinkedIn, blog, newsletter)?
 ```
 
-:::
 
 ## 27. AI Influencer Outreach Composer
 
 > Crafts personalized influencer partnership pitches — outreach response rate: 6–8% → 18–27%, creator repeat collaboration rate +40%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Influencer Marketing Campaigns Live or Die on Outreach — and Most Outreach Is Immediately Deleted**
 
@@ -4535,9 +4526,8 @@ COCO's AI Influencer Outreach Composer analyzes creator profiles and content at 
    - Writes counter-offer responses that negotiate firmly but preserve the relationship
    - Creates standard contract terms in plain language that creators can understand without an entertainment lawyer
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4554,9 +4544,8 @@ COCO's AI Influencer Outreach Composer analyzes creator profiles and content at 
 - **PR and Partnerships Teams**: Launch influencer campaigns faster, at higher quality, with less manual research work — and finally build a creator network that grows campaign over campaign
 - **DTC and Consumer Brand Founders**: Access professional-quality influencer outreach and brief creation without an in-house influencer team — compete for creator attention with the same quality of outreach that the Fortune 500 uses
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Write a Personalized Creator Outreach Message**
 ```
@@ -4684,13 +4673,12 @@ Please:
 6. How do I track and manage 20-50 nurture relationships simultaneously without a dedicated CRM?
 ```
 
-:::
 
 ## 28. AI Campaign Performance Analyzer
 
 > Analyzes cross-channel campaign data and generates optimization recommendations — ad waste: -18–28%, optimization cycle: 5–7 days → 24–48 hours.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Marketing Teams Are Drowning in Data and Starving for Insight**
 
@@ -4736,9 +4724,8 @@ COCO's AI Campaign Performance Analyzer ingests cross-channel campaign data, app
    - Tracks competitor campaign activity (ad creative, messaging, landing page changes) and assesses impact on own campaign performance
    - Provides "adjusted performance" scores that normalize for market-wide changes — so teams can distinguish their execution from macro trends
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4755,9 +4742,8 @@ COCO's AI Campaign Performance Analyzer ingests cross-channel campaign data, app
 - **Marketing Directors and VPs**: Get executive-ready reports that translate marketing activity into pipeline and revenue outcomes, build credibility in board presentations, and make budget conversations with the CFO evidence-based
 - **Demand Generation Teams**: Understand which campaigns are actually driving qualified pipeline vs. which are generating volume metrics that look good in dashboards but don't convert to revenue
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Analyze Cross-Channel Campaign Performance**
 ```
@@ -4910,13 +4896,12 @@ Please:
 6. Write an executive summary of this post-mortem that communicates results and learnings without blame
 ```
 
-:::
 
 ## 29. AI Brand Voice Consistency Checker
 
 > Reviews content against brand voice guidelines — voice alignment: 58% → 84% on first drafts, review time per piece: 45–60min → 8–12min.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Your Brand Sounds Like 12 Different Companies — and Your Audience Notices**
 
@@ -4962,9 +4947,8 @@ COCO's AI Brand Voice Consistency Checker operationalizes brand voice guidelines
    - Identifies which team members or content sources show the most voice drift — enabling targeted coaching conversations
    - Produces a simplified "voice quick reference card" updated from the most common errors — a practical tool writers actually use
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4981,9 +4965,8 @@ COCO's AI Brand Voice Consistency Checker operationalizes brand voice guidelines
 - **Marketing Managers**: Ensure agency-produced, freelancer-produced, and cross-functional content all aligns with brand standards without creating a bottleneck where every piece has to go through one brand reviewer
 - **CMOs and Brand Directors**: Measure and report on brand consistency as a quantifiable metric — building the business case for brand investment and demonstrating the ROI of maintaining voice discipline across all channels
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Analyze a Piece of Content for Brand Voice Consistency**
 ```
@@ -5104,13 +5087,12 @@ Please:
 6. Estimate revision rounds needed: can this be fixed in one pass, or does it need a fundamental rethink?
 ```
 
-:::
 
 ## 30. AI Content Calendar Planner
 
 > Builds strategic content calendars aligned to funnel stages — publishing adherence: 45–60% → 85–92%, content gaps reduced from avg 2.3/mo to 0.4/mo.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Content Calendars Are Built on Monday and Abandoned by Wednesday**
 
@@ -5156,9 +5138,8 @@ COCO's AI Content Calendar Planner builds strategically coherent, operationally 
    - Produces a weekly priority list: which content needs attention most urgently based on publishing dates and current completion status
    - Generates reminders and status updates for content contributors to reduce the "I forgot this was due" problem
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5175,9 +5156,8 @@ COCO's AI Content Calendar Planner builds strategically coherent, operationally 
 - **Social Media Managers**: Maintain multi-platform publishing schedules that are coordinated rather than siloed — with enough content variety to keep audiences engaged without exhausting the creative team
 - **Marketing Directors**: Ensure the content team's output is strategically connected to company priorities, funnel stages, and campaign timelines — not just a continuous stream of independent pieces
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Build a 90-Day Content Calendar**
 ```
@@ -5309,13 +5289,12 @@ Please:
 5. Which 3 channels are likely to drive the most traffic back to the original piece, and how should we optimize for that?
 ```
 
-:::
 
 ## 31. AI GTM Launch Playbook Builder
 
 > Builds end-to-end go-to-market launch playbooks — cross-functional launch readiness +40%, 90-day adoption targets at 2.1× rate, sales ramp: 8–12 weeks → 4–6 weeks.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Most Product Launches Are Executed Without a Real Playbook — and They Show**
 
@@ -5361,9 +5340,8 @@ COCO's AI GTM Launch Playbook Builder accelerates the construction of comprehens
    - Designs customer feedback collection: what to ask early adopters, how to structure the feedback, and how to route insights back to product
    - Builds the failure escalation protocol: what metrics trigger what escalation actions — when to go to revenue leadership with a concern vs. when to optimize independently
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5380,9 +5358,8 @@ COCO's AI GTM Launch Playbook Builder accelerates the construction of comprehens
 - **Founders and CEOs**: Launch new products with the organizational coordination and market readiness that gives the product its best chance of success, without requiring an enterprise-level PMM team to build the infrastructure
 - **Sales Leadership**: Enter each product launch with a genuine enablement package — not a 3-slide overview from the PMM team — that equips every rep to have effective customer conversations from day one
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Build a Complete GTM Playbook for a Product Launch**
 ```
@@ -5527,13 +5504,12 @@ Please:
 6. How do we track partner contribution to launch success separately from direct sales performance?
 ```
 
-:::
 
 ## 32. AI Social Media Analytics Interpreter
 
 > Translates social analytics into actionable strategy — analytics interpretation time: 4–6h → under 60min, data-driven content changes per quarter 3×.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Marketing Teams Drown in Metrics Dashboards but Can't Convert Data Into Decisions**
 
@@ -5579,9 +5555,8 @@ COCO transforms raw social media analytics data into structured performance narr
    - Detailed team report (full analysis, content breakdowns, recommendation rationale)
    - Channel-specific breakdowns (separate sections for LinkedIn, Instagram, Twitter/X, etc.)
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5598,9 +5573,8 @@ COCO transforms raw social media analytics data into structured performance narr
 - **Marketing Directors and CMOs**: Receive concise, decision-ready performance summaries instead of raw data dumps — with forward-looking recommendations that enable strategic resource allocation
 - **Growth and Product Marketing Teams**: Apply social analytics insights to broader marketing strategy, identifying messaging angles and audience segments that outperform for use in paid and owned channels
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Monthly Social Performance Narrative**
 ```
@@ -5737,13 +5711,12 @@ Report requirements:
 6. 90-day outlook: where we expect to be and what will get us there
 ```
 
-:::
 
 ## 33. AI Competitor Social Listening Analyst
 
 > Monitors competitor social activity and surfaces strategic intelligence — competitor campaign detection: 3–6 weeks → days, content positioning gaps identified 3–5 per quarter.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Competitor Social Monitoring Is Inconsistent, Incomplete, and Rarely Actionable**
 
@@ -5795,9 +5768,8 @@ COCO systematizes competitor social intelligence by transforming raw observation
    - Format investments to make or increase based on competitor performance benchmarks
    - Timing and cadence adjustments based on competitor publishing patterns
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5814,9 +5786,8 @@ COCO systematizes competitor social intelligence by transforming raw observation
 - **Product Marketers**: Identify competitor messaging pivots and audience positioning shifts early enough to prepare counter-positioning and sales enablement responses
 - **CMOs and Marketing Directors**: Receive quarterly competitive positioning reports that inform product marketing, messaging, and content investment decisions at the strategic level
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Competitor Content Audit**
 ```
@@ -5955,13 +5926,12 @@ Please:
 6. Suggest 3 content ideas to begin claiming each recommended whitespace
 ```
 
-:::
 
 ## 34. AI Hashtag and SEO Strategy Optimizer
 
 > Optimizes hashtag selection and content SEO across platforms — organic reach per post +40–80%, YouTube CTR from search +55%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Content Distribution Is Crippled by Intuition-Based Hashtag and Keyword Strategies**
 
@@ -6009,9 +5979,8 @@ COCO generates platform-specific, research-informed hashtag and SEO recommendati
    - Identifies terms to retire based on saturation or performance decline
    - Introduces new terms to test based on emerging trend and search data
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6028,9 +5997,8 @@ COCO generates platform-specific, research-informed hashtag and SEO recommendati
 - **Growth Marketers**: Apply systematic distribution optimization to organic content as part of a broader multi-channel growth strategy, improving top-of-funnel reach without increasing ad spend
 - **B2B Marketing Teams**: Ensure LinkedIn content reaches the specific professional communities it was designed for by matching hashtag strategy to target audience segment and content topic
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: LinkedIn Post Hashtag Strategy**
 ```
@@ -6155,13 +6123,12 @@ Please:
 6. Recommend 3 keyword-optimized article or video topics based on current search trends in my niche
 ```
 
-:::
 
 ## 35. AI Brand Crisis Communication Handler
 
 > Drafts crisis response communications — first response time: 6–12h → under 2h, revision rounds -50%, tone accuracy errors -65%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Brand Crises Require Immediate, Calibrated Communication — But Companies Respond Too Slowly and Too Poorly**
 
@@ -6216,9 +6183,8 @@ COCO serves as an always-ready crisis communications support system — helping 
    - Times positive story introduction to avoid appearing to paper over unresolved issues
    - Monitors for narrative drift signals that indicate the initial messaging is not landing
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6235,9 +6201,8 @@ COCO serves as an always-ready crisis communications support system — helping 
 - **Customer Success and Support Teams**: Receive pre-drafted FAQ responses and customer communication templates they can use immediately to address concerned customers at scale
 - **Legal and Executive Teams**: Review a higher-quality first draft that already anticipates legal sensitivities, reducing the review-and-revision burden while speeding approval time
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Rapid Crisis Response Statement**
 ```
@@ -6363,13 +6328,12 @@ Please:
 6. Design a "trust measurement" approach: how will we know when brand sentiment has actually recovered?
 ```
 
-:::
 
 ## 36. AI Customer Lifecycle Email Optimizer
 
 > E-commerce and SaaS companies invest heavily in email marketing infrastructure — ESP platforms, automation tools, customer data pipelines — yet most lifecycle email programs deliver mediocre results because the sequences are built once and rarely updated
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Generic Email Sequences That Fail to Convert**
 
@@ -6423,9 +6387,8 @@ Optimization cycles suffer from the same bottleneck. Running an A/B test, analyz
    - Prioritizes optimization opportunities by projected revenue impact
    - Creates quarterly lifecycle email strategy review with recommended roadmap for next 90 days
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6442,9 +6405,8 @@ Optimization cycles suffer from the same bottleneck. Running an A/B test, analyz
 - **Marketing Directors**: Track lifecycle email as a revenue channel with clear attribution, not just an engagement metric
 - **E-Commerce GMs**: See measurable lift in repeat purchase rate and customer LTV driven by better lifecycle communication
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Lifecycle Email Sequence Audit**
 ```
@@ -6562,13 +6524,12 @@ Write a 1-page summary covering:
 5. Metric to watch most closely next month and why
 ```
 
-:::
 
 ## 37. AI Marketing Competitor Ad Intelligence System
 
 > Organizations operating in E-Commerce face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Marketing Competitor Ad Intelligence Breakdowns**
 
@@ -6622,9 +6583,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6641,9 +6601,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Market Analysis Analysis**
 ```
@@ -6762,13 +6721,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 38. AI Marketing Influencer ROI Tracker
 
 > Organizations operating in Media face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Marketing Influencer ROI Tracker**
 
@@ -6822,9 +6780,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6841,9 +6798,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Reporting Analysis**
 ```
@@ -6962,13 +6918,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 39. AI Nonprofit Donor Retention Strategist
 
 > Organizations operating in Nonprofit face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Nonprofit Donor Retention Strategist**
 
@@ -7022,9 +6977,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -7041,9 +6995,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Donor Management Analysis**
 ```
@@ -7162,13 +7115,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 40. AI Marketing SEO Content Brief Generator
 
 > Organizations operating in E-Commerce face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Marketing SEO Content Brief Gaps**
 
@@ -7222,9 +7174,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -7241,9 +7192,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Content Creation Analysis**
 ```
@@ -7362,13 +7312,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 41. AI Marketing Demand Generation Campaign Planner
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Marketing Demand Generation Campaign Disorganization**
 
@@ -7422,9 +7371,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -7441,9 +7389,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Market Analysis Analysis**
 ```
@@ -7562,13 +7509,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 42. AI Marketing Brand Voice Consistency Checker
 
 > Organizations operating in Media face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Marketing Brand Voice Consistency Checker**
 
@@ -7622,9 +7568,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -7641,9 +7586,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Content Creation Analysis**
 ```
@@ -7762,13 +7706,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 43. AI Retail Customer Win-Back Planner
 
 > Organizations operating in Retail face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Retail Customer Win-Back Disorganization**
 
@@ -7822,9 +7765,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -7841,9 +7783,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Customer Win-Back Analysis**
 ```
@@ -7962,13 +7903,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 44. AI Event Promotion Content Planner
 
 > Organizations operating in Media face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Event Promotion Content Disorganization**
 
@@ -8022,9 +7962,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -8041,9 +7980,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Content Creation Analysis**
 ```
@@ -8162,13 +8100,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 45. AI Loyalty Program Designer
 
 > Organizations operating in Retail face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Loyalty Program Designer**
 
@@ -8222,9 +8159,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -8241,9 +8177,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Customer Success Analysis**
 ```
@@ -8362,13 +8297,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 46. AI Retail Promotion Effectiveness Analyzer
 
 > Organizations operating in Retail face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Retail Promotion Effectiveness Blind Spots**
 
@@ -8422,9 +8356,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -8441,9 +8374,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Data Analysis Analysis**
 ```
@@ -8562,13 +8494,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 47. AI Product Launch Go-to-Market Planner
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Product Launch Go-to-Market Disorganization**
 
@@ -8622,9 +8553,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -8641,9 +8571,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Market Analysis Analysis**
 ```
@@ -8762,13 +8691,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 48. AI Account-Based Marketing Campaign Planner
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Account-Based Marketing Campaign Disorganization**
 
@@ -8822,9 +8750,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -8841,9 +8768,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Sales Enablement Analysis**
 ```
@@ -8962,4 +8888,3 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::

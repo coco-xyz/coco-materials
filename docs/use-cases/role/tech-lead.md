@@ -6,7 +6,7 @@ AI-powered use cases for tech lead professionals.
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Tech Lead Architecture Decision Guesswork**
 
@@ -60,9 +60,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -79,9 +78,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Technical Documentation Analysis**
 ```
@@ -200,13 +198,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 2. AI Tech Lead Team Velocity Optimizer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Tech Lead Team Velocity Inefficiency**
 
@@ -260,9 +257,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -279,9 +275,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Performance Monitoring Analysis**
 ```
@@ -400,13 +395,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 3. AI Tech Lead Technical Debt Prioritizer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Tech Lead Technical Debt Prioritizer**
 
@@ -460,9 +454,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -479,9 +472,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Data Analysis Analysis**
 ```
@@ -600,13 +592,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 4. AI System Design Review Assistant
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: System Design Review Overhead**
 
@@ -660,9 +651,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -679,9 +669,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Data Analysis Analysis**
 ```
@@ -800,13 +789,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 5. AI Code Refactoring Strategy Advisor
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Code Refactoring Strategy Guesswork**
 
@@ -860,9 +848,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -879,9 +866,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Code Review Analysis**
 ```
@@ -1000,13 +986,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 6. AI Sprint Retrospective Facilitator
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Sprint Retrospective Facilitator**
 
@@ -1060,9 +1045,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1079,9 +1063,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Sprint Planning Analysis**
 ```
@@ -1200,13 +1183,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 7. AI Engineering Hiring Rubric Builder
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Engineering Hiring Rubric Manual Effort**
 
@@ -1260,9 +1242,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1279,9 +1260,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Recruitment Analysis**
 ```
@@ -1400,13 +1380,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 8. AI Code Review Standards Enforcer
 
 > Automated code review governance reduces standards violations by 82% and cuts review cycle time from 4 days to 6 hours.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Inconsistent Code Review Quality Across Teams**
 
@@ -1460,9 +1439,8 @@ Beyond the immediate quality concerns, inconsistent reviews erode team culture. 
    - Facilitates quarterly standards review by presenting data on rule effectiveness and team compliance
    - Generates A/B comparison reports when new standards are proposed to predict their impact on velocity and quality
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1479,9 +1457,8 @@ Beyond the immediate quality concerns, inconsistent reviews erode team culture. 
 - **Engineering Managers**: Gain visibility into review health metrics and team capability gaps without manual auditing
 - **QA and Release Teams**: Experience fewer escaped defects reaching staging and production environments
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Standards Rule Set Generation**
 ```
@@ -1579,13 +1556,12 @@ Generate:
 5. Metrics to track for ongoing load balance health
 ```
 
-:::
 
 ## 9. AI Engineering OKR Tracker
 
 > Continuous OKR alignment monitoring increases key result completion rates from 43% to 78% and eliminates end-of-quarter surprises.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Engineering OKRs That Drift Into Irrelevance**
 
@@ -1639,9 +1615,8 @@ The deeper cost is strategic misalignment. When OKRs are not actively monitored,
    - Recommends key result decomposition when a single KR is too broad to track meaningfully
    - Generates dependency maps showing which team OKRs depend on deliverables from other teams
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1658,9 +1633,8 @@ The deeper cost is strategic misalignment. When OKRs are not actively monitored,
 - **Individual Contributors**: See clear connections between their daily work and team objectives, increasing motivation and focus
 - **Product and Business Leaders**: Get reliable delivery forecasts that enable better downstream planning and resource commitments
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: OKR Health Dashboard Generation**
 ```
@@ -1774,13 +1748,12 @@ For each key result, evaluate:
 Output: Revised OKR set with improvements applied, plus a dependency map and a recommended tracking cadence.
 ```
 
-:::
 
 ## 10. AI System Design Document Generator
 
 > Automated system design documentation reduces document creation time from 3 weeks to 2 days while ensuring architectural consistency across 40+ microservices.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: System Design Docs That Are Outdated Before They Are Finished**
 
@@ -1834,9 +1807,8 @@ The consistency problem compounds at scale. In organizations with 20+ services, 
    - Archives superseded design decisions with links to the changes that replaced them
    - Creates a searchable knowledge base of all design documents indexed by system, technology, and pattern
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1853,9 +1825,8 @@ The consistency problem compounds at scale. In organizations with 20+ services, 
 - **Architecture Review Boards**: Review consistently structured documents with complete impact analysis, enabling faster and more confident approvals
 - **Future Maintainers**: Inherit accurate, searchable design documentation that explains not just what was built but why decisions were made
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: System Design Document Draft**
 ```
@@ -1961,13 +1932,12 @@ Generate a review checklist with sections:
 For each item, include: what to check, why it matters, and a pass/fail criterion.
 ```
 
-:::
 
 ## 11. AI Incident Post-Mortem Analyzer
 
 > AI-driven post-mortem analysis reduces repeat incidents by 67% and cuts post-mortem completion time from 2 weeks to 48 hours.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Post-Mortems That Never Prevent the Next Incident**
 
@@ -2021,9 +1991,8 @@ The pattern recognition failure is the most costly consequence. Across a large e
    - Identifies teams or services that would benefit most from chaos engineering or game day exercises
    - Generates a quarterly reliability investment proposal with estimated incident reduction per initiative
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2040,9 +2009,8 @@ The pattern recognition failure is the most costly consequence. Across a large e
 - **VP of Engineering**: Gain visibility into organizational reliability trends and ROI of reliability investments
 - **Product Managers**: Understand incident impact on customer experience with data-backed severity assessments
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Incident Timeline Reconstruction**
 ```
@@ -2141,13 +2109,12 @@ Generate:
 Output: Status report + escalation recommendations + suggested sprint allocation to close critical open items.
 ```
 
-:::
 
 ## 12. AI Cross-Team Dependency Mapper
 
 > Automated dependency mapping reduces cross-team coordination failures by 71% and makes hidden service couplings visible across 50+ microservices.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Invisible Dependencies That Derail Releases**
 
@@ -2201,9 +2168,8 @@ The coordination cost compounds multiplicatively with organizational scale. When
    - Models the impact of proposed architectural changes on the overall dependency graph before implementation
    - Generates quarterly dependency health reports with specific recommendations for the architecture review board
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2220,9 +2186,8 @@ The coordination cost compounds multiplicatively with organizational scale. When
 - **Release Managers**: Coordinate multi-team deployments with accurate impact assessment and sequencing recommendations
 - **Engineering Leadership**: Understand organizational dependency complexity and make informed investment decisions about platform simplification
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Dependency Map Generation**
 ```
@@ -2337,13 +2302,12 @@ Report sections:
 Output: Executive summary (1 page) + detailed report with visualizations + prioritized action plan.
 ```
 
-:::
 
 ## 13. AI Engineering Hiring Pipeline Optimizer
 
 > Data-driven hiring optimization reduces time-to-fill for engineering roles from 67 days to 34 days while improving offer acceptance rates from 62% to 84%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Engineering Hiring That Bleeds Time and Loses Top Candidates**
 
@@ -2397,9 +2361,8 @@ The evaluation quality problem is equally severe. Different interviewers assess 
    - Generates quarterly hiring effectiveness reports with cost-per-hire, quality-of-hire, and diversity metrics
    - Benchmarks team hiring outcomes against organizational averages and industry standards
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2416,9 +2379,8 @@ The evaluation quality problem is equally severe. Different interviewers assess 
 - **Recruiters**: Receive clear, consistent feedback from interviewers and predictive analytics on candidate engagement
 - **Candidates**: Experience a faster, more transparent, and more respectful hiring process
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Hiring Pipeline Health Analysis**
 ```
@@ -2531,13 +2493,12 @@ Analyze:
 Output: Calibration scorecard per interviewer + team-level recommendations + suggested calibration session agenda.
 ```
 
-:::
 
 ## 14. AI Sprint Capacity Planner
 
 > Intelligent capacity modeling improves sprint commitment accuracy from 58% to 91% and reduces over-commitment burnout incidents by 74%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Sprint Planning Based on Gut Feel Instead of Data**
 
@@ -2591,9 +2552,8 @@ The impact extends beyond individual sprint performance. Chronic over-commitment
    - Tracks carry-over rates and correlates them with sprint conditions to improve future planning
    - Generates sprint planning retrospective reports with specific recommendations for next sprint's planning approach
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2610,9 +2570,8 @@ The impact extends beyond individual sprint performance. Chronic over-commitment
 - **Product Managers**: Build reliable roadmaps and set accurate stakeholder expectations based on calibrated delivery forecasts
 - **Scrum Masters**: Facilitate more efficient planning sessions focused on approach and risk rather than scope negotiation
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Sprint Capacity Calculation**
 ```
@@ -2732,13 +2691,12 @@ Generate:
 6. Recommendations for next sprint planning: specific adjustments to improve accuracy
 ```
 
-:::
 
 ## 15. AI Codebase Knowledge Graph Builder
 
 > Automated codebase knowledge mapping reduces new engineer ramp-up time from 3 months to 5 weeks and cuts tribal knowledge loss from attrition by 80%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Critical Codebase Knowledge Trapped in Engineers' Heads**
 
@@ -2792,9 +2750,8 @@ The knowledge fragmentation problem worsens with system scale. In a codebase wit
    - Tracks knowledge distribution over time and reports whether the team is becoming more or less resilient
    - Suggests code review assignments that maximize cross-training — routing reviews to engineers who need exposure to unfamiliar modules
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2811,9 +2768,8 @@ The knowledge fragmentation problem worsens with system scale. In a codebase wit
 - **Engineering Managers**: Mitigate attrition risk with measurable knowledge distribution metrics and proactive transfer planning
 - **Senior Engineers**: Preserve their architectural knowledge in a lasting, searchable format rather than relying on oral tradition
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Codebase Knowledge Map Generation**
 ```
@@ -2918,13 +2874,12 @@ Generate:
 5. Verification checklist: how to confirm the recipient has sufficient understanding (e.g., can they independently modify the module?)
 ```
 
-:::
 
 ## 16. AI Release Readiness Assessor
 
 > Automated release readiness assessment reduces production rollback rate from 14% to 3% and cuts release validation time from 2 days to 3 hours.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Releases That Ship on Hope Instead of Evidence**
 
@@ -2978,9 +2933,8 @@ The problem intensifies with deployment frequency. Teams practicing continuous d
    - Tracks release approvals and ensures all required sign-offs are collected before deployment proceeds
    - Generates post-release monitoring checklists specifying which metrics to watch and for how long after deployment
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2997,9 +2951,8 @@ The problem intensifies with deployment frequency. Teams practicing continuous d
 - **SRE and On-Call Teams**: Receive releases with quantified risk profiles and prepared rollback plans, enabling faster incident response
 - **Product Managers**: Ship features faster with confidence that releases are validated against objective quality criteria
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Release Readiness Assessment**
 ```
@@ -3133,13 +3086,12 @@ Generate a monitoring plan covering:
 Output: Monitoring checklist + escalation flowchart + rollback decision tree.
 ```
 
-:::
 
 ## 17. AI On-Call Rotation Optimizer
 
 > Intelligent on-call scheduling reduces after-hours fatigue incidents by 63% and ensures equitable rotation distribution within a 5% variance across all engineers.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: On-Call Rotations That Burn Out Your Best Engineers**
 
@@ -3193,9 +3145,8 @@ The hidden cost is the impact on retention and morale. Research consistently sho
    - Creates runbooks for common escalation scenarios with pre-defined communication templates
    - Tests escalation path validity weekly and flags stale or unreachable contact information
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3212,9 +3163,8 @@ The hidden cost is the impact on retention and morale. Research consistently sho
 - **Engineering Managers**: Reduce attrition driven by on-call burden with measurable fairness and health tracking
 - **SRE Teams**: Ensure incident response coverage always includes engineers with relevant expertise for faster resolution
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: On-Call Rotation Schedule Generation**
 ```
@@ -3339,13 +3289,12 @@ Recommendations:
 5. Investment case: if on-call burden warrants hiring, quantify the ROI
 ```
 
-:::
 
 ## 18. AI Technical RFC Review Assistant
 
 > AI-assisted RFC review reduces review cycle time from 3 weeks to 5 days and increases the average number of substantive review comments from 4 to 12 per document.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: RFC Reviews That Are Either Superficial or Endless**
 
@@ -3399,9 +3348,8 @@ The review quality problem is rooted in a lack of structure. Most RFC reviews de
    - Identifies RFC topics that consistently stall in review and recommends process adjustments for those categories
    - Generates quarterly RFC process health reports with recommendations for improving review quality and velocity
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3418,9 +3366,8 @@ The review quality problem is rooted in a lack of structure. Most RFC reviews de
 - **Senior Engineers**: Review RFCs more effectively with AI-surfaced risk analysis and cross-organizational context
 - **Architecture Review Board**: Make better-informed decisions with complete risk assessments and historical precedent analysis
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: RFC Pre-Review Quality Check**
 ```
@@ -3548,13 +3495,12 @@ Generate:
 Output: Formal decision record document ready for archiving + notification message for stakeholders.
 ```
 
-:::
 
 ## 19. AI Migration Risk Estimator
 
 > Data-driven migration risk assessment reduces failed migrations by 76% and provides accurate effort estimates within 15% of actual duration.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Migrations That Blow Past Every Estimate and Break Everything**
 
@@ -3608,9 +3554,8 @@ The risk compounds because migrations are rarely the team's primary mission. The
    - Calculates the rollback time window — how long after cutover the team can still safely revert
    - Documents the decision criteria for triggering a rollback, removing ambiguity during high-pressure situations
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3627,9 +3572,8 @@ The risk compounds because migrations are rarely the team's primary mission. The
 - **Engineering Directors**: Make informed go/no-go decisions on migration investments with accurate cost and risk projections
 - **Product Managers**: Plan roadmaps around realistic migration timelines instead of discovering mid-quarter that the migration consumed the entire team's capacity
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Migration Impact Assessment**
 ```
@@ -3742,13 +3686,12 @@ Validate:
 Output: Rollback readiness score (ready / ready with caveats / not ready) + gaps to close before proceeding + recommended pre-migration checklist.
 ```
 
-:::
 
 ## 20. AI Developer Experience (DX) Survey Analyzer
 
 > Continuous DX survey analysis identifies friction points 3x faster than manual review and drives targeted improvements that increase developer satisfaction scores from 5.8/10 to 8.2/10.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Developer Satisfaction Data That Collects Dust**
 
@@ -3802,9 +3745,8 @@ The action gap is the most frustrating failure mode. Even when survey results ar
    - Identifies areas where additional context-gathering is needed and generates follow-up survey questions
    - Tracks developer trust in the feedback process itself and flags declining participation or engagement
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3821,9 +3763,8 @@ The action gap is the most frustrating failure mode. Even when survey results ar
 - **Platform and DevEx Teams**: Receive prioritized, quantified requirements for tooling and infrastructure improvements
 - **Individual Contributors**: See their feedback translated into tangible improvements, increasing trust in the feedback process
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: DX Survey Results Analysis**
 ```
@@ -3958,4 +3899,3 @@ Generate:
 Output: Benchmarking report + gap analysis + improvement target table + investment recommendations.
 ```
 
-:::

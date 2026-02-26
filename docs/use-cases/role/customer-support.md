@@ -2378,7 +2378,7 @@ This week's data:
 
 > Generates a fully personalized 30/60/90-day onboarding playbook from intake form data, contract scope, and CRM records — in 12 minutes instead of 6+ hours. Customers who hit value milestones within 30 days have 3× higher 12-month retention.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Customer onboarding is the single highest-leverage moment in the SaaS lifecycle. Research consistently shows that customers who achieve their first key value milestone within 30 days have a 3× higher 12-month retention rate than those who don't. Yet the median enterprise SaaS company still relies on a generic onboarding deck, a shared Notion template from 2021, and whatever tribal knowledge the longest-tenured CSM happens to remember. The result: time-to-value averages 47 days across B2B SaaS, churn in the first 90 days runs at 18–22% for companies with fewer than 200 employees, and Customer Success Managers spend an estimated 6.4 hours per new account manually assembling onboarding plans from scattered sources.
 
@@ -2400,9 +2400,8 @@ COCO solves this by compressing what was a multi-hour manual process into a 12-m
 
 6. **Version control and handoff**: The finalized playbook is formatted for export into the team's project management tool (Asana, Monday, Notion), with no reformatting labor required.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2419,9 +2418,8 @@ COCO solves this by compressing what was a multi-hour manual process into a 12-m
 - **Implementation / Solutions Engineers**: Receive clear, technically accurate checklists rather than vague scope summaries passed down from sales.
 - **New Customers / Champions**: Experience a professional, tailored first 30 days that signals the vendor takes their specific situation seriously — not just their logo.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Full Playbook Generation**
 ```
@@ -2500,13 +2498,12 @@ Current playbook:
 Suggest a revised version with specific improvements. Mark each change with [ADDED], [MODIFIED], or [REMOVED] so we can diff it easily.
 ```
 
-:::
 
 ## 16. AI Churn Risk Early Warning System {#use-case-341}
 
 > Synthesizes login frequency, support ticket volume, stakeholder engagement, and usage trends into a risk-ranked portfolio alert with specific intervention plans — detecting churn 52 days ahead of cancellation instead of 12.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Churn is rarely a surprise — but it almost always feels like one. Post-mortems on churned accounts consistently reveal that the warning signs were present weeks or even months before the customer submitted a cancellation request. Login frequency had dropped by 40%. The executive sponsor had gone quiet on email for six weeks. A support ticket about a "critical" feature had been open for 47 days with no resolution. Three power users had been deactivated, suggesting internal headcount changes. The signals were there. Nobody synthesized them into a coherent alert in time.
 
@@ -2530,9 +2527,8 @@ COCO transforms this from a reactive firefighting exercise into a proactive moni
 
 6. **Weekly summary for leadership**: COCO produces a one-page portfolio health summary the CSM can share with their VP, showing risk distribution, trend direction, and planned interventions.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2549,9 +2545,8 @@ COCO transforms this from a reactive firefighting exercise into a proactive moni
 - **Revenue Operations**: Can model churn risk into ARR forecasts with far greater accuracy, improving board-level financial visibility.
 - **Customers at risk**: Receive proactive, relevant outreach rather than being ignored until they've already made the decision to leave.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Weekly Portfolio Risk Analysis**
 ```
@@ -2623,13 +2618,12 @@ Data:
 Format as a concise executive summary (half a page), followed by a risk register table. Highlight the ARR at risk, trend direction, and recommended leadership actions.
 ```
 
-:::
 
 ## 17. AI QBR Presentation Builder {#use-case-342}
 
 > Transforms raw usage metrics and account notes into executive-ready QBR narratives that tell a value story — not just a data dump — in 45 minutes instead of 4–8 hours. Executive sponsor attendance rises from 34% to 71%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 The Quarterly Business Review is the most strategically important recurring touchpoint in the enterprise SaaS customer relationship. Done well, a QBR reinforces value, surfaces expansion opportunities, strengthens executive relationships, and sets the renewal conversation on firm footing months before the contract end date. Done poorly — which is the outcome for most QBRs conducted at scale — it becomes a data dump that bores executives, fails to connect product usage to business outcomes, and leaves the customer questioning why they're paying what they're paying.
 
@@ -2653,9 +2647,8 @@ COCO addresses this by separating QBR preparation into two distinct problems —
 
 6. **Executive summary email**: COCO generates a pre-QBR email to the executive sponsor that previews the agenda, sets the strategic context, and maximizes the chance they'll attend.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2672,9 +2665,8 @@ COCO addresses this by separating QBR preparation into two distinct problems —
 - **VP of Customer Success**: Gains consistent QBR quality across the team, reduced prep variance between junior and senior CSMs, and higher renewal rates from properly executed QBRs.
 - **Account Executives / Renewal Team**: Receives a warm handoff from the QBR with documented expansion opportunities and clearly articulated renewal rationale.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Full QBR Slide Content Generation**
 ```
@@ -2758,13 +2750,12 @@ Include:
 Tone: warm, concise, professional. Under 200 words total.
 ```
 
-:::
 
 ## 18. AI Support Ticket Deflection Trainer {#use-case-343}
 
 > Converts recurring support ticket patterns into publication-ready knowledge base articles — reducing repeat tickets by 28 percentage points and cutting KB article creation from 3–5 hours to 25 minutes.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Every support ticket that reaches a human agent represents a failure of self-service documentation. A customer couldn't find the answer, couldn't understand the answer they found, or the answer didn't exist. For a SaaS company processing 500 tickets per month at an average cost of $22 per ticket (fully loaded: agent time, tooling, management overhead), that's $132,000 per year in support costs — before accounting for the customer satisfaction drag that unresolved tickets create. Worse, 68% of those tickets are repeat questions: the same ten issues surfacing over and over because the knowledge base article covering them either doesn't exist or fails to answer the question in the way customers actually ask it.
 
@@ -2788,9 +2779,8 @@ COCO eliminates the writing bottleneck by turning the CSM's existing knowledge �
 
 6. **Related content map**: COCO generates a content dependency map showing which articles should cross-link, what prerequisite knowledge an article assumes, and where knowledge gaps still exist.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2807,9 +2797,8 @@ COCO eliminates the writing bottleneck by turning the CSM's existing knowledge �
 - **VP of Customer Success / Support Manager**: Reduces support costs materially while improving the customer experience across the self-service channel.
 - **Customers**: Get instant, accurate answers to common questions 24/7 without waiting for a support response during business hours.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Ticket Pattern Analysis and Documentation Backlog**
 ```
@@ -2887,13 +2876,12 @@ Current KB article count: [N]
 Current deflection rate: [X]%
 ```
 
-:::
 
 ## 19. AI NPS Response Handler {#use-case-344}
 
 > Generates personalized, score-appropriate follow-up emails for every NPS respondent — Detractor, Passive, and Promoter — raising follow-up coverage from 14% to 94% and cutting response time from 60 hours to 4 hours for 300 comments.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Net Promoter Score surveys generate two things: a number that goes into a dashboard, and a pile of verbatim comments that usually go nowhere. The number gets reported to the board. The comments sit in a spreadsheet until the next quarterly review, by which time the customer who wrote them has either resolved their frustration on their own, churned, or forgotten what they meant. This is the fundamental dysfunction of how most SaaS companies manage NPS: they measure the sentiment but don't close the loop on the signal.
 
@@ -2917,9 +2905,8 @@ COCO closes the loop at scale. A CSM provides the NPS response data and COCO gen
 
 6. **Promoter activation**: For high-scoring Promoters, COCO generates a second email in the sequence asking if they'd be willing to participate in a case study, G2 review, or customer advisory board.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2936,9 +2923,8 @@ COCO closes the loop at scale. A CSM provides the NPS response data and COCO gen
 - **Product Team**: Receives a structured, prioritized theme report from NPS comments that informs the roadmap with voice-of-customer evidence.
 - **Marketing**: Gets a pipeline of Promoters who have been activated and are primed to write reviews, participate in case studies, or serve as references.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Detractor Response Email**
 ```
@@ -3017,13 +3003,12 @@ For each segment, define:
 5. Success metric for this NPS cycle's follow-up effort
 ```
 
-:::
 
 ## 20. AI Customer Health Score Explainer {#use-case-345}
 
 > Translates health score data into plain-English narrative explanations with pattern identification, customer situation assessment, and a prioritized action plan — raising health score utilization from 34% to 81% and enabling junior CSMs to act like senior ones.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Customer health scores are one of the most powerful tools in the CS arsenal — and one of the most misused. In theory, a health score synthesizes signals across product usage, support interactions, engagement activity, and financial indicators into a single number that tells a CSM where to focus. In practice, most health scores are black boxes: a green/yellow/red color emerges from an algorithm that nobody on the CS team can fully explain, and more importantly, nobody knows what to do with it. An account goes yellow. Should you call them? Email them? Escalate? What specific aspect of the relationship is yellow? How long has it been trending that way?
 
@@ -3047,9 +3032,8 @@ COCO serves as an always-available senior analyst that interprets health score d
 
 6. **Score trend narration**: For accounts with historical health score data, COCO narrates the trend: "Over the past 90 days, this account moved from healthy to at-risk. The inflection point was [DATE], triggered by [EVENT]. Here's what's happened since."
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3066,9 +3050,8 @@ COCO serves as an always-available senior analyst that interprets health score d
 - **VP of Customer Success**: Increases the ROI of the health scoring investment by ensuring the scores actually drive behavior change across the team.
 - **Customers**: Can have transparent, coherent conversations with their CSM about how the relationship is tracking — building trust rather than mystery.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Full Health Score Interpretation**
 ```
@@ -3137,13 +3120,12 @@ Portfolio health data: [PASTE_WEEKLY_HEALTH_SNAPSHOT]
 Notable changes since last week: [LIST]
 ```
 
-:::
 
 ## 21. AI Upsell Opportunity Identifier {#use-case-346}
 
 > Scans the existing account portfolio for expansion signals — feature requests, usage workarounds, seat limits, job postings — producing 3.2× more identified opportunities and raising conversion rates from 18% to 41%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Net Revenue Retention (NRR) has become the defining metric of SaaS health — and for good reason. Companies with NRR above 120% can grow revenue year-over-year even with zero new customer acquisition. The expansion revenue that drives NRR comes from upsells, cross-sells, and seat expansion within the existing customer base. In theory, the Customer Success team is perfectly positioned to identify and convert these opportunities because they have the deepest knowledge of customer needs, usage patterns, and organizational structure. In practice, most CS teams leave 40–60% of their expansion revenue on the table simply because they don't have a systematic process for identifying which customers are ready for expansion and what specifically to offer them.
 
@@ -3167,9 +3149,8 @@ COCO systematizes expansion opportunity identification by analyzing account data
 
 6. **Revenue projection**: COCO estimates the ARR expansion potential across the portfolio and segments it by confidence level (high/medium/low) for pipeline forecasting.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3186,9 +3167,8 @@ COCO systematizes expansion opportunity identification by analyzing account data
 - **Account Executives / Sales**: Receive qualified expansion leads from the CS team with product fit rationale already documented — dramatically increasing close rates on upsell deals.
 - **Customers**: Receive recommendations that are genuinely relevant to their situation and backed by evidence from their own usage — rather than generic "upgrade" pitches.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Portfolio Expansion Opportunity Scan**
 ```
@@ -3267,13 +3247,12 @@ For each risk area:
 3. How do I reframe the conversation to position our solution before they buy a competitor add-on?
 ```
 
-:::
 
 ## 22. AI Customer Success Playbook Writer {#use-case-347}
 
 > Creates comprehensive, situation-specific CS playbooks that codify senior CSM expertise into repeatable processes — raising playbook coverage from 28% to 91% and cutting creation time from 12+ hours to 90 minutes.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Every high-performing Customer Success team operates from a shared set of playbooks: documented protocols that tell a CSM exactly what to do when a customer hits a specific situation — whether that's a QBR, a renewal conversation, an at-risk escalation, or an executive sponsor change. These playbooks are the intellectual capital of the CS organization. They encode the team's best practices, hard-won lessons, and strategic frameworks in a reusable format that raises the floor for every CSM, regardless of experience level.
 
@@ -3297,9 +3276,8 @@ COCO solves both problems. It helps CS teams generate comprehensive, structured 
 
 6. **Review and update protocol**: COCO generates a suggested review cadence and a set of trigger events that should prompt a playbook revision (e.g., "review after every churn in this segment").
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3316,9 +3294,8 @@ COCO solves both problems. It helps CS teams generate comprehensive, structured 
 - **VP of Customer Success**: Builds a scalable, auditable CS operation where quality doesn't depend on headcount seniority — and can confidently hire to scale.
 - **Customers**: Experience consistent, high-quality engagement regardless of whether they're assigned a 2-year or 2-month CSM.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Full Playbook Generation**
 ```
@@ -3401,13 +3378,12 @@ For each recommended playbook:
 - Expected impact on retention if implemented
 ```
 
-:::
 
 ## 23. AI Escalation Resolution Advisor {#use-case-348}
 
 > Provides a real-time, structured escalation response plan — covering customer-facing communication, internal activation, timeline and cadence, and resolution pathway — reducing time to first customer response from 4.2 hours to 47 minutes.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Customer escalations are the highest-stakes moments in the CSM's work calendar. When a customer escalates — whether through a formal notice, an angry email, a call demanding executive involvement, or a threat to cancel — the CSM faces a multi-front challenge that must be managed simultaneously: the customer's immediate emotional state, the underlying operational problem, the internal stakeholders who need to be informed and activated, the communication cadence required to show the customer they're being taken seriously, and the timeline pressure that determines whether this becomes a save or a loss.
 
@@ -3431,9 +3407,8 @@ COCO serves as a real-time escalation advisor that helps CSMs navigate all of th
 
 6. **Post-escalation debrief**: Once resolved, COCO generates a post-escalation summary for internal review — what happened, how it was handled, what was learned, and what process change would prevent a recurrence.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3450,9 +3425,8 @@ COCO serves as a real-time escalation advisor that helps CSMs navigate all of th
 - **Support and Engineering Teams**: Receive clear, structured internal escalation briefs rather than panicked Slack messages — allowing them to triage and respond faster.
 - **Customers (escalating)**: Experience a response that demonstrates competence and care — transforming a potential churn moment into a trust-building milestone.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Escalation Response Plan**
 ```
@@ -3540,13 +3514,12 @@ Document must include:
 6. Flag: does this reveal a systemic issue affecting other accounts?
 ```
 
-:::
 
 ## 24. AI Knowledge Base Article Generator {#use-case-349}
 
 > Turns support ticket threads, rough CSM notes, or verbal descriptions of common issues into publication-ready KB articles in 20 minutes instead of 3–5 hours — increasing a 2-person support team's monthly output from 4 to 28 articles.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 The knowledge base is the 24/7 customer service representative that never sleeps, never gets burned out, and can serve every customer simultaneously. For a SaaS company with 1,000 customers and a support team of 10, a well-built knowledge base is the single highest-ROI investment in the support infrastructure — capable of deflecting 30–50% of incoming tickets if built with the right content, at the right reading level, in the language customers actually use. The economics are stark: a $15 knowledge base article that deflects 5 tickets per month saves $1,320 per year at $22 per ticket.
 
@@ -3570,9 +3543,8 @@ COCO eliminates this bottleneck by acting as a knowledge base article co-author.
 
 6. **Quality scoring**: COCO evaluates its own draft against a readability rubric and flags any section that is too long, too technical, or missing a key structural element.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3589,9 +3561,8 @@ COCO eliminates this bottleneck by acting as a knowledge base article co-author.
 - **Head of Support**: Achieves dramatically faster knowledge base growth, better article quality, and measurable deflection improvements without hiring additional writers.
 - **Customers**: Find complete, accurate, readable answers to their questions without waiting for a human response.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Article from Ticket Thread**
 ```
@@ -3661,13 +3632,12 @@ Platform: [ZENDESK / CONFLUENCE / NOTION]
 Output as a prioritized writing plan I can bring to my weekly team meeting.
 ```
 
-:::
 
 ## 25. AI Customer Journey Mapper {#use-case-350}
 
 > Builds formal customer journey maps with stage-specific health indicators, common drop-off points, and intervention triggers — enabling at-risk detection 60–90 days earlier and improving onboarding completion rates by 30–40%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Customer Churn Is Predictable in Hindsight and Invisible in Real Time**
 
@@ -3707,9 +3677,8 @@ COCO helps CS teams analyze customer journey data systematically — synthesizin
    - Designs stage-specific playbook additions based on drop-off analysis
    - Recommends timing and content of proactive outreach at risk stages
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3726,9 +3695,8 @@ COCO helps CS teams analyze customer journey data systematically — synthesizin
 - **Product Teams** who need to understand which product journey friction points are causing adoption gaps and churn, so they can prioritize improvements with the highest retention impact
 - **Revenue Operations Teams** who are responsible for forecasting and gross revenue retention reporting and need early, data-driven signals about churn risk trends in the portfolio
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Customer journey stage definition**
 ```
@@ -3837,13 +3805,12 @@ Please structure a report that includes:
 5. Recommendations for my CS director: what resources or support do I need to manage the highest-risk accounts effectively?
 ```
 
-:::
 
 ## 26. AI Success Story Case Study Writer {#use-case-351}
 
 > Transforms customer interview notes into approval-ready case study drafts — cutting production from 3–6 weeks to 3–5 days, achieving 85% first-draft approval rates, and enabling 3–5× more annual case study output without added headcount.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Customer Wins Go Undocumented While the Sales Cycle Pays the Price**
 
@@ -3883,9 +3850,8 @@ COCO compresses the case study production cycle — enabling CS teams to convert
    - Creates rep briefing notes for each case study with deployment guidance
    - Generates objection-handling excerpts tailored from customer success metrics
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3902,9 +3868,8 @@ COCO compresses the case study production cycle — enabling CS teams to convert
 - **Sales Teams** who need a growing library of relevant customer proof to deploy in late-stage evaluations — particularly for specific verticals, company sizes, or use cases where prospects are skeptical
 - **CS Leaders and VP CS** who want to demonstrate the tangible value their function creates for customers in a format that generates organizational visibility and supports the CS team's internal positioning
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Full case study draft from interview notes**
 ```
@@ -4008,13 +3973,12 @@ Please produce:
 4. Key metrics to highlight: a list of the quantified results mentioned in the QBR that should anchor the case study story
 ```
 
-:::
 
 ## 27. AI Product Adoption Accelerator {#use-case-352}
 
 > Identifies adoption gaps by customer segment, generates personalized enablement plans, and creates targeted outreach that achieves 35–45% response rates versus 8–12% for generic campaigns — identifying low adoption 70 days earlier than renewal-cycle discovery.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Low Adoption Is Silent Churn in Progress — and CS Teams Discover It Too Late**
 
@@ -4054,9 +4018,8 @@ COCO enables CS teams to monitor adoption at scale, identify the specific adopti
    - Produces account-level adoption trend reports for CSM review
    - Generates portfolio adoption health summaries for CS leadership
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4073,9 +4036,8 @@ COCO enables CS teams to monitor adoption at scale, identify the specific adopti
 - **Product Teams** who want to understand which features have the highest adoption gaps by customer segment, so they can prioritize in-product guidance improvements and onboarding flow changes with the highest retention impact
 - **VP Customer Success** who are accountable for net revenue retention and need systematic evidence that their team is proactively driving adoption rather than waiting for renewal signals to trigger remediation
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Adoption gap analysis for a customer segment**
 ```
@@ -4178,13 +4140,12 @@ Please produce:
 4. A recommended conversation topic for my next 1:1 with my CS director based on this data
 ```
 
-:::
 
 ## 28. AI Customer Feedback Loop Manager {#use-case-353}
 
 > Synthesizes NPS verbatims, support themes, and customer feedback into structured reports routed to the right teams — increasing feedback reaching product teams by 3–4× and driving 35% higher renewal rates for accounts with closed-loop communications.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Feedback Is Collected and Filed — Never Closed**
 
@@ -4224,9 +4185,8 @@ COCO creates a functioning feedback loop — helping CS teams categorize and rou
    - Generates monthly feedback loop health reports with trend analysis
    - Identifies structural gaps in the feedback process with specific improvement recommendations
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4243,9 +4203,8 @@ COCO creates a functioning feedback loop — helping CS teams categorize and rou
 - **Product Managers** who are making roadmap decisions with incomplete customer signal and would benefit from structured, volume-weighted feedback summaries that give them high-confidence prioritization input
 - **Customers** who are investing time in providing feedback and want evidence that the organization is actually listening and responding — the closed-loop communication is the primary mechanism through which SaaS customers develop trust in the feedback process
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — NPS verbatim theme analysis**
 ```
@@ -4361,13 +4320,12 @@ Please produce:
 4. A draft message to my CS director summarizing this month's feedback landscape and requesting their support on [specific escalation or process gap I've identified]
 ```
 
-:::
 
 ## 29. AI SLA Compliance Tracker {#use-case-354}
 
 > Builds centralized SLA commitment tracking, identifies approaching breaches 14 days in advance, and generates proactive customer communications — reducing credit dispute incidents by 78% and cutting time-to-first notification from 45–90 minutes to 8–12 minutes.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: SLA Breaches Are Discovered After They Have Already Damaged the Relationship**
 
@@ -4407,9 +4365,8 @@ COCO helps CS teams manage SLA compliance proactively — monitoring commitments
    - Calculates credit amounts based on outage duration and contractual credit schedule
    - Drafts proactive credit offer communications that protect the relationship before customers claim
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4426,9 +4383,8 @@ COCO helps CS teams manage SLA compliance proactively — monitoring commitments
 - **Engineering and Technical Support Teams** who manage the uptime and incident response side of SLA compliance and need high-quality customer communication templates that meet contractual standards without requiring custom writing for each incident
 - **VP Customer Success and CS Directors** who are accountable for SLA compliance as a component of customer health and contractual obligation — and need portfolio-level visibility into where SLA risk is concentrated
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — SLA commitment registry and tracking framework**
 ```
@@ -4550,13 +4506,12 @@ Please draft a proactive credit offer communication that:
 Keep the tone warm, accountable, and direct. Length: 200-250 words.
 ```
 
-:::
 
 ## 30. AI Customer Segmentation Advisor {#use-case-355}
 
 > Redesigns ARR-only segmentation models into multi-dimensional frameworks — identifying 20–25% of accounts in the wrong tier, capturing 35–45% more expansion revenue per CSM, and improving CSM job satisfaction by 28%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: One-Size-Fits-All CS Coverage Models Destroy Value on Both Ends of the Portfolio**
 
@@ -4596,9 +4551,8 @@ COCO helps CS leaders build multi-dimensional segmentation models that accuratel
    - Analyzes territory balance across CSM team with complexity-weighted metrics
    - Generates territory rebalancing recommendations with projected impact on CSM workload and account coverage quality
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4615,9 +4569,8 @@ COCO helps CS leaders build multi-dimensional segmentation models that accuratel
 - **Sales and Revenue Leadership** who need CS coverage models that are explicitly designed to capture expansion revenue — ensuring that high-potential accounts in the CS portfolio are not treated as renewals-only but as active pipeline
 - **Customer Success Managers** who manage large, heterogeneous portfolios and need structured prioritization guidance to allocate their time across accounts with vastly different value profiles and engagement requirements
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Customer segmentation model design**
 ```
@@ -4737,13 +4690,12 @@ Please:
 5. Draft the internal CS team communication announcing the tier migration plan
 ```
 
-:::
 
 ## 31. AI Renewal Negotiation Prep Assistant {#use-case-356}
 
 > Prepares a comprehensive renewal dossier — health summary, value story, expansion analysis, risk factors, negotiation strategy — reducing price concessions by 22%, increasing expansion attach rates 2.4×, and cutting prep time from 3–4 hours to 45–60 minutes.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Renewal Conversations Happen Without the Evidence to Win Them**
 
@@ -4783,9 +4735,8 @@ COCO helps CS managers build comprehensive renewal prep dossiers that transform 
    - Generates a renewal negotiation brief with position, strategy, and key talking points
    - Drafts opening statements and ROI narratives for the renewal conversation
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4802,9 +4753,8 @@ COCO helps CS managers build comprehensive renewal prep dossiers that transform 
 - **Sales and Revenue Operations Teams** who collaborate with CS on expansion and renewal strategy and need structured account analysis to inform the commercial strategy for each renewal opportunity
 - **Customers** who are making annual investment decisions and benefit from CS managers who can clearly articulate the value delivered and the forward-looking case for continued investment
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Full renewal prep dossier**
 ```
@@ -4938,13 +4888,12 @@ Please produce a negotiation strategy brief:
 6. Draft the 3-sentence opening I'll use to frame the renewal conversation before any pricing discussion starts
 ```
 
-:::
 
 ## 32. AI Healthcare Patient Intake Optimizer
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Healthcare Patient Intake Inefficiency**
 
@@ -4998,9 +4947,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5017,9 +4965,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Patient Intake Analysis**
 ```
@@ -5138,13 +5085,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 33. AI Customer Support Ticket Triage System
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Customer Support Ticket Triage Breakdowns**
 
@@ -5198,9 +5144,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5217,9 +5162,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Support Automation Analysis**
 ```
@@ -5338,13 +5282,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 34. AI Healthcare Medication Adherence Coach
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Healthcare Medication Adherence Coach**
 
@@ -5398,9 +5341,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5417,9 +5359,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Health Monitoring Analysis**
 ```
@@ -5538,13 +5479,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 35. AI Healthcare Discharge Summary Generator
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Healthcare Discharge Summary Gaps**
 
@@ -5598,9 +5538,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5617,9 +5556,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Technical Documentation Analysis**
 ```
@@ -5738,13 +5676,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 36. AI Telecom Customer Complaint Classifier
 
 > Organizations operating in Telecommunications face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Telecom Customer Complaint Classifier**
 
@@ -5798,9 +5735,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5817,9 +5753,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Escalation Management Analysis**
 ```
@@ -5938,13 +5873,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 37. AI Healthcare Claims Denial Appeal Writer
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Healthcare Claims Denial Appeal Writer**
 
@@ -5998,9 +5932,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6017,9 +5950,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Claims Processing Analysis**
 ```
@@ -6138,13 +6070,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 38. AI Nurse Handoff Report Generator
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Nurse Handoff Report Gaps**
 
@@ -6198,9 +6129,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6217,9 +6147,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Technical Documentation Analysis**
 ```
@@ -6338,13 +6267,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 39. AI Telemedicine Patient Intake Screener
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Telemedicine Patient Intake Screener**
 
@@ -6398,9 +6326,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6417,9 +6344,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Patient Intake Analysis**
 ```
@@ -6538,13 +6464,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 40. AI Healthcare Insurance Prior Authorization Assistant
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Healthcare Insurance Prior Authorization Overhead**
 
@@ -6598,9 +6523,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6617,9 +6541,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Claims Processing Analysis**
 ```
@@ -6738,4 +6661,3 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::

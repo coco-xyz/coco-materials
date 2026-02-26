@@ -6,7 +6,7 @@ AI-powered use cases for writer professionals.
 
 > Organizations operating in E-Commerce face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: E-Commerce Product Description Scaler**
 
@@ -60,9 +60,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -79,9 +78,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Content Creation Analysis**
 ```
@@ -200,13 +198,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 2. AI Nonprofit Grant Writing Accelerator
 
 > Organizations operating in Nonprofit face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Nonprofit Grant Writing Accelerator**
 
@@ -260,9 +257,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -279,9 +275,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Grant Writing Analysis**
 ```
@@ -400,13 +395,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 3. AI Technical Documentation Planner
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Technical Documentation Disorganization**
 
@@ -460,9 +454,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -479,9 +472,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Technical Writing Analysis**
 ```
@@ -600,13 +592,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 4. AI White Paper Research Compiler
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: White Paper Research Compiler**
 
@@ -660,9 +651,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -679,9 +669,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Research Analysis**
 ```
@@ -800,13 +789,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 5. AI Press Release Generator
 
 > Organizations operating in Media face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Press Release Gaps**
 
@@ -860,9 +848,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -879,9 +866,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Content Creation Analysis**
 ```
@@ -1000,13 +986,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 6. AI Nonprofit Impact Report Writer
 
 > Organizations operating in Nonprofit face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Nonprofit Impact Report Writer**
 
@@ -1060,9 +1045,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1079,9 +1063,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Impact Reporting Analysis**
 ```
@@ -1200,13 +1183,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 7. AI Social Media Content Calendar Planner
 
 > Organizations operating in Media face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Social Media Content Calendar Disorganization**
 
@@ -1260,9 +1242,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1279,9 +1260,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Content Creation Analysis**
 ```
@@ -1400,13 +1380,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 8. AI Thought Leadership Article Builder
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Thought Leadership Article Manual Effort**
 
@@ -1460,9 +1439,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1479,9 +1457,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Content Creation Analysis**
 ```
@@ -1600,13 +1577,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 9. AI Ghostwriting Style Matcher
 
 > COCO analyzes an executive's existing body of work and produces new drafts that are stylistically indistinguishable from their voice, cutting ghostwriting revision cycles by 74%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Every Executive Sounds Like Their Ghostwriter, Not Themselves**
 
@@ -1660,9 +1636,8 @@ The financial cost is substantial. Each unnecessary revision cycle costs 2-4 hou
    - Supports team onboarding by generating interactive voice guides with annotated examples
    - Tracks per-client voice fidelity scores over time to demonstrate ROI to clients
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1679,9 +1654,8 @@ The financial cost is substantial. Each unnecessary revision cycle costs 2-4 hou
 - **Content Agency Managers**: Scale client portfolios without proportional headcount increases, improving margins by 35-45%
 - **Brand and Communications Directors**: Ensure consistent executive voice across all channels, protecting brand coherence at scale
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Voice Profile Construction**
 ```
@@ -1767,13 +1741,12 @@ Identify:
 5. Recommendations: Top 5 adjustments to the voice profile that would reduce future revisions by 50%+
 ```
 
-:::
 
 ## 10. AI Long-Form Content Outliner
 
 > COCO transforms rough topic briefs into comprehensive, publication-ready outlines for books, whitepapers, and series — reducing outline development time from 2 weeks to 4 hours.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Outlines That Take Longer Than the Writing Itself**
 
@@ -1827,9 +1800,8 @@ The intellectual challenge is equally daunting. A comprehensive outline must bal
    - Flags when a structural change creates downstream inconsistencies (e.g., removing a definition that later sections depend on)
    - Produces a final "outline health report" scoring completeness, coherence, pacing, and differentiation
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1846,9 +1818,8 @@ The intellectual challenge is equally daunting. A comprehensive outline must bal
 - **Subject Matter Experts**: Contribute domain knowledge to structure without needing to understand content architecture
 - **Project Managers**: Forecast realistic timelines based on validated outlines instead of guessing at scope
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Topic Brief to Full Outline**
 ```
@@ -1942,13 +1913,12 @@ For each section, provide:
 Summarize with a prioritized master research task list, ordered by section dependency and effort level.
 ```
 
-:::
 
 ## 11. AI Citation & Source Verification Engine
 
 > COCO automatically verifies every claim, quote, and statistic in a manuscript against primary sources, catching 93% of citation errors before publication.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: One Bad Citation Can Destroy Years of Credibility**
 
@@ -2002,9 +1972,8 @@ The stakes vary by context but are universally high. For journalists, a citation
    - Suggests replacement sources or corrected figures for claims with identified issues
    - Creates an audit trail that editors and legal teams can reference during pre-publication review
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2021,9 +1990,8 @@ The stakes vary by context but are universally high. For journalists, a citation
 - **Legal and Compliance Teams**: Reduce defamation and misrepresentation risk with documented verification audit trails
 - **Publishers and Brand Leaders**: Protect institutional credibility by ensuring all content meets the highest accuracy standards
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Full Manuscript Citation Audit**
 ```
@@ -2118,13 +2086,12 @@ Tasks:
 5. Generate a clean, formatted reference list and insert properly formatted in-text citations throughout
 ```
 
-:::
 
 ## 12. AI Tone & Voice Consistency Checker
 
 > COCO scans entire manuscripts for tone drift, register inconsistencies, and voice breaks, maintaining 97% tonal consistency across documents of any length.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Tone That Wanders, Eroding Reader Trust Paragraph by Paragraph**
 
@@ -2178,9 +2145,8 @@ The challenge extends beyond multi-author situations. Even a single writer produ
    - Learns from writer responses to feedback, adjusting sensitivity to avoid alert fatigue
    - Tracks the writer's "consistency score" over sessions, showing improvement trends
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2197,9 +2163,8 @@ The challenge extends beyond multi-author situations. Even a single writer produ
 - **Brand Managers**: Ensure every piece of content, from every writer, reinforces rather than dilutes the brand voice
 - **Content Operations Teams**: Scale content production across more writers and channels without sacrificing voice quality
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Full Document Tone Audit**
 ```
@@ -2303,13 +2268,12 @@ Provide:
 4. Any content that was difficult to rewrite without changing the meaning — flag for human review
 ```
 
-:::
 
 ## 13. AI Content Repurposing Engine
 
 > COCO transforms a single long-form asset into 15-25 derivative pieces across formats and channels, extracting 8x more value from every piece of original content.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: One Great Piece, Then Nothing — Content That Dies After Its First Publication**
 
@@ -2363,9 +2327,8 @@ The opportunity cost is staggering. Organizations that systematically repurpose 
    - Suggests refreshing or re-releasing high-performing derivatives when source content is updated
    - Produces quarterly repurposing ROI reports showing total reach multiplier per source asset
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2382,9 +2345,8 @@ The opportunity cost is staggering. Organizations that systematically repurpose 
 - **Writers and Editors**: Focus creative energy on new original work, knowing existing assets are being systematically repurposed
 - **Marketing Leaders**: Sustain consistent multi-channel presence without proportionally growing the content team
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Content Atomization and Derivative Plan**
 ```
@@ -2484,13 +2446,12 @@ Assess:
 5. If refreshing: provide the updated version with changes tracked, plus a new set of 5-10 derivative content pieces from the refreshed asset
 ```
 
-:::
 
 ## 14. AI Book Manuscript Structure Advisor
 
 > COCO analyzes book manuscripts for structural integrity, pacing, and narrative architecture, identifying 89% of structural problems before they reach an editor's desk.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Books That Collapse Under Their Own Weight Because the Architecture Was Never Sound**
 
@@ -2544,9 +2505,8 @@ Self-published authors and independent writers face the sharpest version of this
    - Evaluates front matter and back matter completeness (introduction, conclusion, appendices, notes)
    - Provides market-informed recommendations on structural adjustments that improve reader satisfaction
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2563,9 +2523,8 @@ Self-published authors and independent writers face the sharpest version of this
 - **Publishing Acquisitions Editors**: Evaluate proposals and early manuscripts with objective structural quality data
 - **Self-Published Authors**: Access structural analysis that was previously available only through expensive editorial services
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Full Manuscript Structural Audit**
 ```
@@ -2666,13 +2625,12 @@ For each chapter, describe:
 Summarize: Where are the strongest engagement points? Where are the biggest dropout risks? What is the reader's likely feeling when they close the book after the final chapter?
 ```
 
-:::
 
 ## 15. AI Dialogue & Script Polisher
 
 > COCO transforms flat, on-the-nose dialogue into naturalistic, character-differentiated speech, improving screenplay and script dialogue quality scores by 61%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Dialogue Where Every Character Sounds Like the Writer Wearing Different Hats**
 
@@ -2726,9 +2684,8 @@ Beyond creative writing, dialogue quality directly impacts business outcomes in 
    - Suggests "breath points" — natural pauses that performers will need for comfortable delivery
    - Generates a "speakability score" for each line and flags those that need revision for performance
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2745,9 +2702,8 @@ Beyond creative writing, dialogue quality directly impacts business outcomes in 
 - **Podcast Producers**: Develop interview frameworks and scripted segments that sound conversational rather than rehearsed
 - **Game Writers and Interactive Narrative Designers**: Create character dialogue trees where every branch sounds authentically different
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Character Voice Differentiation Pass**
 ```
@@ -2844,13 +2800,12 @@ Analyze and revise:
 5. Provide the revised scene with annotations showing where rhythm changes were made and why
 ```
 
-:::
 
 ## 16. AI Grant Proposal Narrative Builder
 
 > COCO constructs compelling grant proposal narratives that align project stories with funder priorities, improving grant success rates from 18% to 37%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Brilliant Projects That Die Because the Narrative Didn't Land**
 
@@ -2904,9 +2859,8 @@ The financial pressure is immense. Nonprofits and research institutions typicall
    - Generates first drafts from proposal outlines in hours rather than days, using learned patterns from successful submissions
    - Produces proposal calendars that account for writing time, internal review, and submission deadlines
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2923,9 +2877,8 @@ The financial pressure is immense. Nonprofits and research institutions typicall
 - **Academic Researchers**: Focus on research design and execution while COCO handles the narrative translation for funding agencies
 - **Program Staff Contributing to Proposals**: Translate their deep program knowledge into funder-friendly narrative without needing professional writing skills
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Funder Alignment Analysis and Narrative Strategy**
 ```
@@ -3044,13 +2997,12 @@ Analyze:
 5. Produce a point-by-point response matrix: original feedback → specific change made → where in the revised proposal
 ```
 
-:::
 
 ## 17. AI Content Localization Quality Checker
 
 > COCO evaluates localized content for cultural nuance, idiomatic accuracy, and brand voice preservation across 40+ languages, catching 91% of localization quality issues pre-publication.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Translation That's Technically Correct But Culturally Clueless**
 
@@ -3104,9 +3056,8 @@ The business impact is measurable and significant. Poor localization quality red
    - Generates actionable feedback reports that translators can use to improve future deliveries
    - Produces quarterly localization quality dashboards for stakeholder reporting
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3123,9 +3074,8 @@ The business impact is measurable and significant. Poor localization quality red
 - **Translation and Transcreation Teams**: Receive specific, actionable feedback that improves their work, rather than vague "doesn't sound right" comments
 - **International Market Managers**: Trust that content representing their market meets local quality standards and cultural expectations
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Comprehensive Localization Quality Review**
 ```
@@ -3237,13 +3187,12 @@ Generate a professional feedback report that includes:
 5. Recommendations: Specific, actionable steps the vendor should take to improve future deliveries
 ```
 
-:::
 
 ## 18. AI Editorial Calendar Planner
 
 > COCO builds data-driven editorial calendars that balance audience demand, SEO opportunity, sales cycle alignment, and team capacity — increasing content ROI by 156%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Editorial Calendars Built on Gut Feeling Instead of Data**
 
@@ -3297,9 +3246,8 @@ The consequences cascade throughout the content operation. Content published at 
    - Generates monthly "planning accuracy reports" showing where predictions were right and wrong
    - Recommends calendar strategy adjustments based on performance patterns
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3316,9 +3264,8 @@ The consequences cascade throughout the content operation. Content published at 
 - **Sales and Revenue Leaders**: See content that directly supports pipeline generation and deal progression
 - **Content Production Teams**: Work from a realistic, capacity-aware plan instead of an aspirational wish list that leads to burnout
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Quarterly Editorial Calendar Build**
 ```
@@ -3437,13 +3384,12 @@ Analyze:
 5. Top 5 specific recommendations for next quarter's calendar based on what we learned
 ```
 
-:::
 
 ## 19. AI Thought Leadership Article Generator
 
 > COCO transforms executive insights and market observations into polished thought leadership articles, reducing production time from 3 weeks to 3 days while maintaining executive authenticity.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Executives With Brilliant Ideas and Zero Time to Write Them Down**
 
@@ -3497,9 +3443,8 @@ The competitive landscape makes the problem urgent. LinkedIn alone sees 150,000+
    - Suggests article sequences that progressively build authority on a specific theme
    - Generates a "thought leadership roadmap" showing how planned articles support long-term positioning goals
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3516,9 +3461,8 @@ The competitive landscape makes the problem urgent. LinkedIn alone sees 150,000+
 - **Content Marketing Leaders**: Build a thought leadership engine that consistently produces differentiated, high-performing content
 - **Personal Brand Strategists**: Help executive clients build intellectual authority systematically rather than sporadically
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Raw Insight to Article Framework**
 ```
@@ -3625,13 +3569,12 @@ Instructions:
 6. Flag any claims from the interview that need fact-checking or data support before publication
 ```
 
-:::
 
 ## 20. AI Content Performance Feedback Synthesizer
 
 > COCO aggregates performance data across all content channels and translates analytics into specific, actionable writing recommendations, improving next-quarter content performance by 43%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Drowning in Analytics Dashboards, Starving for Actionable Writing Advice**
 
@@ -3685,9 +3628,8 @@ The organizational cost extends beyond individual article performance. Without s
    - Maps the correlation between content investments and business outcomes (pipeline, revenue, retention)
    - Generates quarterly "content intelligence reports" with strategic recommendations for leadership
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3704,9 +3646,8 @@ The organizational cost extends beyond individual article performance. Without s
 - **Marketing Leadership**: Demonstrate content ROI with clear data connecting editorial choices to business outcomes
 - **Data and Analytics Teams**: Bridge the gap between raw metrics and the editorial decisions those metrics should inform
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Quarterly Content Performance Review**
 ```
@@ -3814,4 +3755,3 @@ For each planned piece:
 5. Rank all planned pieces by predicted ROI to help prioritize production resources
 ```
 
-:::

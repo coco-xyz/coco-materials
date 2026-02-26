@@ -6,7 +6,7 @@ AI-powered use cases for data scientist professionals.
 
 > Organizations operating in Telecommunications face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Telecom Customer Churn Prediction Modeler**
 
@@ -60,9 +60,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -79,9 +78,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Churn Prediction Analysis**
 ```
@@ -200,13 +198,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 2. AI Agriculture Crop Yield Forecaster
 
 > Organizations operating in Agriculture face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Agriculture Crop Yield Forecaster**
 
@@ -260,9 +257,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -279,9 +275,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Yield Forecasting Analysis**
 ```
@@ -400,13 +395,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 3. AI Data Scientist Feature Engineering Advisor
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Data Scientist Feature Failuresering Guesswork**
 
@@ -460,9 +454,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -479,9 +472,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Data Analysis Analysis**
 ```
@@ -600,13 +592,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 4. AI Data Scientist Model Explainability Reporter
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Data Scientist Model Explainability Reporter**
 
@@ -660,9 +651,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -679,9 +669,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Reporting Analysis**
 ```
@@ -800,13 +789,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 5. AI Healthcare Patient Readmission Risk Scorer
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Healthcare Patient Readmission Risk Scorer**
 
@@ -860,9 +848,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -879,9 +866,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Risk Scoring Analysis**
 ```
@@ -1000,13 +986,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 6. AI A/B Test Design and Analysis Advisor
 
 > Organizations operating in E-Commerce face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: A/B Test Design and Analysis Guesswork**
 
@@ -1060,9 +1045,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1079,9 +1063,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Data Analysis Analysis**
 ```
@@ -1200,13 +1183,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 7. AI Time Series Forecasting Advisor
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Time Series Forecasting Guesswork**
 
@@ -1260,9 +1242,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1279,9 +1260,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Data Analysis Analysis**
 ```
@@ -1400,13 +1380,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 8. AI Actuarial Data Summary and Analysis Engine
 
 > Organizations operating in Insurance face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Actuarial Data Summary and Analysis Failures**
 
@@ -1460,9 +1439,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1479,9 +1457,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Actuarial Modeling Analysis**
 ```
@@ -1600,13 +1577,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 9. AI Data Pipeline Health Monitor
 
 > Reduce pipeline failure detection time by 92% with continuous AI-driven monitoring across ingestion, transformation, and delivery stages.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Silent Pipeline Failures Corrupting Downstream Analytics**
 
@@ -1660,9 +1636,8 @@ The business cost compounds rapidly. A corrupted customer segmentation table fee
    - Detects redundant computations where multiple pipelines recompute the same intermediate results
    - Produces weekly pipeline health scorecards with SLA compliance rates and optimization priorities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1679,9 +1654,8 @@ The business cost compounds rapidly. A corrupted customer segmentation table fee
 - **Analytics Consumers**: Trust dashboard numbers with confidence knowing that data freshness and quality are continuously validated before results are served
 - **Engineering Managers**: Gain visibility into pipeline reliability SLAs and can proactively invest in infrastructure improvements before failures impact the business
 
-:::
 
-::: details Practical Prompts
+**Practical Prompts**
 
 **Prompt 1: Pipeline Health Assessment**
 ```
@@ -1789,13 +1763,12 @@ Design a dashboard with:
 5. Alerting effectiveness — false positive rate, alert-to-incident ratio, mean time from anomaly to alert
 ```
 
-:::
 
 ## 10. AI Experiment Tracking & Comparison Engine
 
 > Cut model selection time by 78% with automated experiment logging, multi-dimensional comparison, and reproducibility verification.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Experiment Chaos Turning Model Development into Guesswork**
 
@@ -1849,9 +1822,8 @@ The business impact goes beyond wasted compute and labor hours. When model selec
    - Builds interactive dashboards showing experiment progress and convergence toward project objectives
    - Drafts model cards with performance characteristics, limitations, and recommended use conditions
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1868,9 +1840,8 @@ The business impact goes beyond wasted compute and labor hours. When model selec
 - **Compliance and Audit Teams**: Access complete model development audit trails showing every alternative considered, enabling faster regulatory reviews
 - **Product Managers**: Track experiment progress against business objectives with clear visibility into when model quality targets will be met
 
-:::
 
-::: details Practical Prompts
+**Practical Prompts**
 
 **Prompt 1: Experiment Comparison Report**
 ```
@@ -1979,13 +1950,12 @@ Document should include:
 Audience: [technical leadership / business stakeholders / regulatory review board]
 ```
 
-:::
 
 ## 11. AI Dataset Bias Detector
 
 > Uncover hidden dataset biases 15x faster with automated demographic analysis, proxy variable detection, and fairness metric computation across protected attributes.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Invisible Bias Baked Into Training Data**
 
@@ -2039,9 +2009,8 @@ The regulatory landscape is rapidly tightening. The EU AI Act mandates bias test
    - Tracks bias remediation progress over successive model versions with before/after comparisons
    - Produces audit trail documentation linking every bias finding to the analysis that detected it and the action taken
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2058,9 +2027,8 @@ The regulatory landscape is rapidly tightening. The EU AI Act mandates bias test
 - **Product Managers**: Make informed risk decisions about model deployment with clear visibility into fairness tradeoffs and their business implications
 - **Affected Communities**: Benefit from models that are systematically tested for discriminatory impact before deployment, reducing real-world harm from biased AI systems
 
-:::
 
-::: details Practical Prompts
+**Practical Prompts**
 
 **Prompt 1: Comprehensive Dataset Bias Audit**
 ```
@@ -2174,13 +2142,12 @@ Design a monitoring system that:
 Specify: metrics to track, alert thresholds, reporting cadence, escalation procedures, and dashboard layout.
 ```
 
-:::
 
 ## 12. AI AutoML Hyperparameter Tuner
 
 > Achieve optimal model configurations in 70% less compute time through intelligent search space pruning, early stopping strategies, and transfer learning from prior tuning runs.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Burning GPU Hours on Brute-Force Hyperparameter Search**
 
@@ -2234,9 +2201,8 @@ The business cost extends beyond the compute bill. Every day spent tuning is a d
    - Creates reproducible tuning reports documenting the full search history for audit and documentation purposes
    - Recommends when to stop tuning based on diminishing returns analysis and budget constraints
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2253,9 +2219,8 @@ The business cost extends beyond the compute bill. Every day spent tuning is a d
 - **Finance and Operations**: Forecast and control cloud compute costs with reliable tuning budget estimates instead of unpredictable month-end GPU bills
 - **Product Teams**: Receive more accurate delivery timelines for ML features because tuning duration is predictable rather than open-ended
 
-:::
 
-::: details Practical Prompts
+**Practical Prompts**
 
 **Prompt 1: Hyperparameter Search Strategy Design**
 ```
@@ -2375,13 +2340,12 @@ Design:
 5. Sensitivity analysis — how much accuracy do we lose at each latency/size constraint level?
 ```
 
-:::
 
 ## 13. AI Model Drift Detection System
 
 > Catch production model degradation within hours instead of weeks by monitoring prediction distributions, feature drift, and concept drift across all deployed models.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Models Silently Degrading in Production**
 
@@ -2435,9 +2399,8 @@ Data scientists typically lack the tooling and bandwidth for proactive drift mon
    - Generates drift incident reports with evidence, impact assessment, and recommended response for model owners
    - Builds organizational knowledge of drift patterns, enabling proactive model maintenance scheduling
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2454,9 +2417,8 @@ Data scientists typically lack the tooling and bandwidth for proactive drift mon
 - **Business Stakeholders**: Maintain trust in ML-driven decisions knowing that model quality is continuously monitored and degradation is caught before it impacts business outcomes
 - **Risk and Compliance Teams**: Receive continuous evidence that deployed models meet performance and fairness standards, satisfying regulatory monitoring requirements
 
-:::
 
-::: details Practical Prompts
+**Practical Prompts**
 
 **Prompt 1: Drift Monitoring Setup**
 ```
@@ -2566,13 +2528,12 @@ Report should include:
 6. Action items — recommended interventions ranked by urgency and business impact
 ```
 
-:::
 
 ## 14. AI Data Catalog & Lineage Mapper
 
 > Reduce data discovery time by 85% with automated metadata extraction, intelligent search, and end-to-end lineage tracking from source to consumption.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Data Scientists Spending More Time Finding Data Than Analyzing It**
 
@@ -2626,9 +2587,8 @@ The organizational cost is staggering. Duplicate tables proliferate because it i
    - Notifies relevant users when tables they depend on are modified, deprecated, or replaced
    - Builds institutional data knowledge that survives team turnover, reducing onboarding time for new data scientists
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2645,9 +2605,8 @@ The organizational cost is staggering. Duplicate tables proliferate because it i
 - **Compliance Officers**: Maintain continuous awareness of where sensitive data resides and how it flows, satisfying audit requirements without quarterly fire drills
 - **Analytics Managers**: Reduce redundant work across the team by ensuring everyone can discover and reuse existing data assets rather than re-creating from scratch
 
-:::
 
-::: details Practical Prompts
+**Practical Prompts**
 
 **Prompt 1: Data Asset Discovery**
 ```
@@ -2748,13 +2707,12 @@ Investigate:
 Output: Definition comparison matrix + discrepancy analysis + consolidation plan with migration steps.
 ```
 
-:::
 
 ## 15. AI Statistical Test Selector & Validator
 
 > Eliminate statistical methodology errors by 94% with automated test selection, assumption validation, and results interpretation calibrated to the analyst's domain.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Misapplied Statistics Producing Confidently Wrong Conclusions**
 
@@ -2808,9 +2766,8 @@ The downstream cost is enormous but invisible. Unlike a model that visibly fails
    - Flags common misinterpretations before they happen — "a non-significant result does not prove no effect"
    - Documents the complete analytical decision chain for reproducibility and audit purposes
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2827,9 +2784,8 @@ The downstream cost is enormous but invisible. Unlike a model that visibly fails
 - **Research Teams**: Produce publication-quality statistical analyses that withstand peer review and replication, strengthening the organization's research credibility
 - **Executive Leadership**: Receive decision-support analyses built on rigorous statistical foundations with clear confidence levels and practical significance assessments
 
-:::
 
-::: details Practical Prompts
+**Practical Prompts**
 
 **Prompt 1: Statistical Test Selection**
 ```
@@ -2951,13 +2907,12 @@ Recommend:
 4. Sample size increase needed to maintain 80% power after correction
 ```
 
-:::
 
 ## 16. AI Synthetic Data Generator
 
 > Accelerate model development by 60% with privacy-safe synthetic datasets that preserve statistical properties, handle class imbalance, and enable testing without production data access.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Real Data Bottlenecks Stalling Every Phase of Model Development**
 
@@ -3011,9 +2966,8 @@ Testing and validation present a third data challenge. End-to-end pipeline testi
    - Integrates with data catalogs and access control systems to enforce that generators are trained only on authorized data
    - Enables cross-team data sharing through synthetic proxies — teams share the generator instead of the sensitive source data
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3030,9 +2984,8 @@ Testing and validation present a third data challenge. End-to-end pipeline testi
 - **QA Engineers**: Test data pipelines and models against comprehensive, realistic scenarios including rare edge cases that would be impractical to collect from production
 - **Compliance Officers**: Satisfy data minimization requirements by enabling development on synthetic data, with auditable privacy guarantees and no real personal data in non-production environments
 
-:::
 
-::: details Practical Prompts
+**Practical Prompts**
 
 **Prompt 1: Synthetic Dataset Specification**
 ```
@@ -3138,13 +3091,12 @@ Evaluate:
 Output: Quality scorecard with pass/fail per criterion + visualization of real vs. synthetic distributions + recommendations for improvement.
 ```
 
-:::
 
 ## 17. AI Research Paper Implementation Assistant
 
 > Bridge the gap between published research and production code 5x faster with automated paper parsing, algorithm extraction, and implementation scaffolding with test suites.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Months Lost Translating Academic Papers into Working Code**
 
@@ -3198,9 +3150,8 @@ The business cost of this friction is substantial. A recommendation system impro
    - Compares intermediate results (loss curves, gradient magnitudes, hidden representations) against any reported diagnostics
    - Produces a reproduction report documenting matches, discrepancies, and hypotheses for any performance gaps
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3217,9 +3168,8 @@ The business cost of this friction is substantial. A recommendation system impro
 - **Research Leads**: Evaluate more candidate approaches in less time, making better-informed decisions about which methods to invest in for long-term development
 - **Engineering Managers**: Predict implementation timelines accurately and reduce the risk of multi-week implementation efforts that end with inconclusive results
 
-:::
 
-::: details Practical Prompts
+**Practical Prompts**
 
 **Prompt 1: Paper Analysis and Implementation Plan**
 ```
@@ -3335,13 +3285,12 @@ Compare on:
 Recommend: Which method to implement first, and why.
 ```
 
-:::
 
 ## 18. AI Feature Store Curator
 
 > Cut feature engineering duplication by 75% with centralized feature discovery, automated quality monitoring, and versioned feature pipelines shared across all ML projects.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Every Model Reinventing the Same Features from Scratch**
 
@@ -3395,9 +3344,8 @@ The operational burden of managing feature pipelines at scale is crushing. Each 
    - Supports feature deprecation workflows that migrate consumers to replacement features with minimal disruption
    - Generates cross-team feature usage reports showing collaboration patterns and reuse metrics
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3414,9 +3362,8 @@ The operational burden of managing feature pipelines at scale is crushing. Each 
 - **Data Platform Teams**: Manage feature infrastructure as a centralized service with clear ownership, SLAs, and cost visibility instead of a sprawling collection of ad-hoc pipelines
 - **Engineering Leadership**: Reduce duplicate infrastructure investment and cross-team friction by providing a shared feature economy with transparent governance
 
-:::
 
-::: details Practical Prompts
+**Practical Prompts**
 
 **Prompt 1: Feature Store Inventory Assessment**
 ```
@@ -3532,13 +3479,12 @@ Analyze:
 5. Total ROI calculation with payback period
 ```
 
-:::
 
 ## 19. AI Model Governance & Compliance Reporter
 
 > Slash model documentation and audit preparation time by 80% with automated model risk tiering, regulatory report generation, and continuous compliance monitoring across the model portfolio.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Regulatory Compliance Consuming Half the Model Lifecycle Budget**
 
@@ -3592,9 +3538,8 @@ The compliance risk of manual governance is also high. Documentation becomes sta
    - Generates gap analysis reports when new regulations are enacted, showing which models need additional documentation
    - Maintains a regulatory change feed alerting the team to evolving requirements that affect existing models
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3611,9 +3556,8 @@ The compliance risk of manual governance is also high. Documentation becomes sta
 - **Internal Audit**: Conduct model risk examinations efficiently with pre-assembled evidence packages, reducing examination duration and findings related to documentation gaps
 - **Chief Risk Officers**: Demonstrate to regulators and the board that the organization maintains a mature, systematic model governance program with quantifiable compliance metrics
 
-:::
 
-::: details Practical Prompts
+**Practical Prompts**
 
 **Prompt 1: Model Card Generation**
 ```
@@ -3724,13 +3668,12 @@ Design a dashboard with:
 Include: drill-down paths from portfolio-level to individual model details.
 ```
 
-:::
 
 ## 20. AI Time Series Anomaly Detective
 
 > Detect complex time series anomalies with 89% precision and 30-minute detection latency by combining statistical, ML, and contextual analysis across thousands of concurrent data streams.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Missing Critical Anomalies Hidden in an Ocean of Time Series Data**
 
@@ -3784,9 +3727,8 @@ The most dangerous anomalies are contextual and multivariate, meaning they only 
    - Estimates time-to-impact — how long before this anomaly affects customer experience or business metrics
    - Generates post-incident analysis showing anomaly timeline, propagation path, and suggested preventive measures
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3803,9 +3745,8 @@ The most dangerous anomalies are contextual and multivariate, meaning they only 
 - **Business Operations**: Gain confidence that critical KPI anomalies are caught in near-real-time, enabling faster response to market shifts, campaign issues, and operational disruptions
 - **Executive Leadership**: Access a reliable early-warning system for business-critical metrics with clear severity levels and impact estimates, supporting faster and more informed decision-making
 
-:::
 
-::: details Practical Prompts
+**Practical Prompts**
 
 **Prompt 1: Anomaly Detection System Design**
 ```
@@ -3918,5 +3859,3 @@ Analyze:
 4. Impact assessment — which downstream metrics/systems are likely to be affected next?
 5. Recommended action — immediate mitigation + investigation steps
 ```
-
-:::

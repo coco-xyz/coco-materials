@@ -5657,7 +5657,7 @@ This week's data:
 
 > Structures meeting agendas with objectives, decision framing, and time allocation — meeting duration -30–40%, decision cycle time -50%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Meetings are simultaneously one of the most essential and most wasteful activities in modern enterprise operations. A 2023 Microsoft study found that employees spend an average of 57% of their working hours in meetings or on email, yet 71% of senior managers consider most meetings unproductive. For an enterprise with 500 employees, poorly structured meetings can cost over $2 million annually in lost productive hours. Operations managers bear a disproportionate share of this burden: they coordinate across departments, chase alignment on cross-functional initiatives, and frequently walk away from hour-long syncs without clear outcomes, owners, or deadlines.
 
@@ -5679,9 +5679,8 @@ COCO transforms this process by acting as an intelligent agenda design partner t
 
 6. **Post-Meeting Summary Draft**: After the meeting, the operations manager can paste raw notes or a transcript into COCO, which produces a clean summary aligned to the original agenda structure, ready to distribute within minutes.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5694,9 +5693,8 @@ Organizations that implement structured meeting practices report 30-40% reductio
 - **Senior Executives** spend less time in inconclusive meetings and more time on decisions that move the business forward.
 - **All Meeting Participants** arrive better prepared, contribute more meaningfully, and leave with clearer accountability for next steps.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Full Agenda Generation**
 ```
@@ -5723,13 +5721,12 @@ I'm facilitating a meeting on [TOPIC]. The agenda has these items: [LIST ITEMS].
 Here are my raw notes from today's [MEETING TYPE] meeting: [PASTE NOTES OR TRANSCRIPT]. The original agenda was: [PASTE AGENDA]. Produce a clean meeting summary with: (1) Key decisions made, (2) Action items with owners and deadlines, (3) Topics deferred to next meeting, (4) Any risks or blockers flagged. Keep it under one page.
 ```
 
-:::
 
 ## 38. AI Process Documentation Writer
 
 > Documents processes in audit-ready format — onboarding time -35–50%, process errors -40–60%, documentation production 3–5×.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Process documentation is the operational backbone of any scalable enterprise. Without clearly written standard operating procedures (SOPs), onboarding new employees takes longer, quality is inconsistent, compliance audits become high-risk events, and institutional knowledge walks out the door every time a key employee leaves. Yet despite its importance, process documentation is chronically neglected. A 2022 APQC survey found that over 60% of organizations rate their process documentation as "incomplete or outdated," and operations managers consistently rank documentation as one of the most time-consuming, lowest-priority tasks on their plates.
 
@@ -5751,9 +5748,8 @@ COCO breaks this cycle by acting as a documentation co-writer that combines the 
 
 6. **Cross-Reference Mapping**: COCO identifies related processes mentioned in the documentation and suggests links to supporting documents, creating a connected documentation ecosystem rather than isolated SOPs.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5766,9 +5762,8 @@ Organizations with mature process documentation reduce employee onboarding time 
 - **New Employees and Contractors** onboard faster and with greater confidence when they have access to clear, current process documentation.
 - **Compliance and Audit Teams** enter audits with confidence, knowing that processes are documented to a standard that will withstand scrutiny.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Draft an SOP from a Process Description**
 ```
@@ -5795,13 +5790,12 @@ We have an upcoming [TYPE] audit. I need to document [PROCESS NAME] in a format 
 Here is our current SOP for [PROCESS NAME]: [PASTE EXISTING SOP]. The process has changed in the following ways: [DESCRIBE CHANGES]. Update the SOP to reflect the new process, highlight what changed in a "Change Summary" section, increment the version number, and flag any areas where the changes may create compliance or quality risks.
 ```
 
-:::
 
 ## 39. AI Vendor Contract Analyzer
 
 > Reviews vendor contracts for risk clauses and renewal opportunities — risk issues caught: 3–5 per contract, review time: 4–8h → 45–90min.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Vendor contracts are among the highest-stakes documents an enterprise operations team manages, yet the processes surrounding them are surprisingly manual, inconsistent, and risk-laden. The average mid-size enterprise manages 200-500 active vendor contracts at any given time, spanning software subscriptions, professional services, logistics providers, facility management, and specialized consultants. Each contract contains clauses that affect pricing, liability, data rights, termination options, service levels, and renewal terms — details that directly impact the business but are rarely surfaced until something goes wrong.
 
@@ -5823,9 +5817,8 @@ COCO addresses this gap by providing operations teams with AI-assisted contract 
 
 6. **Negotiation Talking Points**: Based on the risk flags identified, COCO drafts specific negotiation points and suggested alternative language for flagged clauses, equipping the operations team to engage in informed vendor discussions without legal counsel present for every conversation.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5838,9 +5831,8 @@ Organizations that implement structured contract review processes catch an avera
 - **Legal and Compliance Teams** receive pre-analyzed contracts with flagged risks, allowing them to focus their time on complex issues rather than routine review.
 - **Finance and Leadership** make contract approval decisions with clear, business-readable summaries rather than dense legal text.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Full Contract Risk Analysis**
 ```
@@ -5867,13 +5859,12 @@ Based on this contract review: [PASTE OR SUMMARIZE CONTRACT RISK FLAGS], prepare
 Review the following contract sections for data privacy and security compliance: [PASTE DATA HANDLING / PRIVACY SECTIONS OF CONTRACT]. We operate under [GDPR / CCPA / HIPAA / other applicable regulation]. Flag any provisions that: (1) Are missing or insufficient under these regulations, (2) Give the vendor rights to our data we should not allow, (3) Lack required security standards or breach notification timelines.
 ```
 
-:::
 
 ## 40. AI Operational KPI Dashboard Narrator
 
 > Generates narrative explanations for KPI dashboards — report writing time -60–75%, leadership action items from reviews +40%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Operational KPI dashboards are among the most widely deployed tools in the modern enterprise, yet they are also among the most consistently misunderstood. Every operations team has dashboards — in Power BI, Tableau, Looker, or custom-built tools — showing hundreds of metrics: cycle times, throughput rates, cost per unit, defect rates, SLA compliance, headcount utilization, and dozens more. But raw numbers, even when visualized beautifully, do not inherently communicate meaning. A metric moving from 87% to 84% is visually obvious on a trend line; whether that movement is a crisis, an expected seasonal pattern, a lagging indicator of a decision made three months ago, or a measurement artifact requires interpretation that the dashboard cannot provide on its own.
 
@@ -5895,9 +5886,8 @@ COCO bridges this gap by acting as an intelligent narrator that transforms raw K
 
 6. **Consistent Reporting Cadence**: COCO maintains narrative consistency across reporting periods, enabling operations managers to show trend continuity in their commentary and ensuring that the language used to describe the same metric evolves consistently over time.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5910,9 +5900,8 @@ Operations managers who use AI-assisted KPI narration report reducing report wri
 - **Business Analysts** have a structured framework for translating quantitative findings into narrative commentary appropriate for different stakeholder audiences.
 - **Department Heads** understand operational performance in their area more clearly and can communicate it effectively in cross-functional discussions.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Full Weekly KPI Narrative**
 ```
@@ -5944,13 +5933,12 @@ Current period KPIs: [PASTE METRICS]. We are [X WEEKS] into a [MONTH/QUARTER]. T
 Here is the raw KPI data for [PERIOD]: [PASTE DATA]. Write three versions of the operational performance report: (1) A 5-sentence email for the CEO, (2) A 1-page narrative for the VP Operations meeting with metric commentary and recommendations, (3) A detailed breakdown for the operations team with root cause discussion and action items. Use plain language throughout; minimize jargon.
 ```
 
-:::
 
 ## 41. AI Supply Chain Risk Monitor
 
 > Monitors supplier health signals — disruption detected 14 days earlier, single-source failure cost avoidance $500K–$2M per incident.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Supply chain disruption has moved from a background operational risk to a boardroom-level concern over the past decade, accelerated by pandemic-era disruptions, geopolitical instability, climate events, and escalating cyber threats targeting logistics infrastructure. A 2023 Gartner survey found that 89% of companies experienced a supply chain disruption over a five-year period, with the average disruption costing $184 million in lost revenue. Yet despite this elevated awareness, most enterprise operations teams still rely on reactive monitoring — discovering supply chain problems only after they have already impacted production, delivery schedules, or customer commitments.
 
@@ -5972,9 +5960,8 @@ COCO addresses this by enabling operations managers to build an AI-assisted supp
 
 6. **Executive Risk Briefings**: COCO produces executive-ready supply chain risk briefings for leadership review, translating technical supply chain complexity into business impact language: revenue at risk, customer commitments threatened, cost exposure from premium sourcing alternatives.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5987,9 +5974,8 @@ Organizations with proactive supply chain risk monitoring detect disruption sign
 - **Senior Leadership** receive clear, business-impact-framed supply chain risk briefings that enable informed decisions on inventory strategy, supplier investment, and geographic diversification.
 - **Finance Teams** can quantify supply chain risk exposure for financial reporting and insurance purposes, improving enterprise risk management maturity.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Supplier Risk Profile**
 ```
@@ -6016,13 +6002,12 @@ I need to brief our leadership team on our current supply chain risk posture. Ou
 I've received the following information suggesting financial stress at one of our key suppliers: [DESCRIBE SIGNALS — e.g., late payments, news of layoffs, credit rating downgrade, public earnings miss]. Supplier details: [SUPPLIER NAME, WHAT THEY SUPPLY, ANNUAL SPEND, ALTERNATIVE SOURCES]. Draft an internal risk alert for our procurement and operations leadership, with recommended actions and a suggested timeline for response.
 ```
 
-:::
 
 ## 42. AI Business Continuity Plan Writer
 
 > Develops BCPs in weeks not months — plan development: 6–12 months → 6–8 weeks, disruption recovery time -30–50%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Business continuity planning (BCP) is one of the most universally recognized organizational priorities and one of the most consistently underdeveloped. The reason is straightforward: writing a comprehensive, actionable business continuity plan is an enormous undertaking that requires synthesizing input from every department, mapping complex interdependencies, designing detailed recovery procedures for dozens of scenarios, and keeping the resulting document alive and current through constant organizational change. For most organizations, BCP exists somewhere on a spectrum between "we have a document from three years ago that nobody has read" and "we have a plan for the most obvious scenarios but significant gaps everywhere else."
 
@@ -6046,9 +6031,8 @@ COCO accelerates BCP development by acting as a structured planning co-author th
 
 6. **Plan Maintenance Scheduling**: COCO produces a maintenance schedule and review checklist for the BCP, flagging which sections should be reviewed after specific types of organizational change (acquisitions, technology changes, key personnel moves) and which require regular review regardless.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6061,9 +6045,8 @@ Organizations with mature BCPs recover from disruptions 30-50% faster than those
 - **Executive Leadership** have tested, documented business continuity capability to present to boards, auditors, and enterprise clients who require demonstrated resilience.
 - **All Employees** benefit from knowing that clear procedures exist for crisis situations, reducing confusion and enabling faster, more organized response when disruptions occur.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Business Impact Analysis**
 ```
@@ -6090,13 +6073,12 @@ Design a [2-hour / half-day] tabletop exercise for our business continuity plan.
 Here is our current business continuity plan: [PASTE BCP OR DESCRIBE CURRENT STATE]. We need to meet [ISO 22301 / SOC 2 / PCI DSS / other standard] requirements. Assess the plan against the standard and provide: (1) A gap analysis of missing or inadequate sections, (2) Priority ranking of gaps by compliance and operational risk, (3) Specific content we need to add for each gap, (4) Estimated effort to close each gap.
 ```
 
-:::
 
 ## 43. AI Change Management Communications Writer
 
 > Produces structured change communication packages — adoption rate 3×, resistance -40–60%, communication package production: 2–3 weeks → 1–2 days.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Organizational change — system migrations, process redesigns, restructuring, policy updates, new tool rollouts — fails more often from communication breakdown than from technical failure. Prosci's 2023 Best Practices in Change Management report found that poor communication is the number one contributor to change initiative failure, cited by 72% of organizations that experienced unsuccessful change programs. Yet despite this well-established link, change communications in most enterprises remain an afterthought: rushed, inconsistent, tone-deaf to the concerns of affected employees, and woefully insufficient in volume and frequency relative to what the research recommends.
 
@@ -6120,9 +6102,8 @@ COCO addresses this by giving operations managers an AI-powered change communica
 
 6. **Cascade Measurement and Feedback**: COCO drafts pulse check questions and feedback mechanisms that can be deployed at key points in the change timeline to measure message reach, understanding levels, and resistance indicators — enabling real-time adjustments to the communication approach.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6135,9 +6116,8 @@ Organizations that deploy structured change communication programs achieve adopt
 - **Senior Leadership** deliver clear, strategically framed change narratives that reinforce organizational direction without requiring extensive communications coaching.
 - **Employees** experience change programs with better understanding, clearer expectations, and more accessible support — reducing anxiety and accelerating adoption.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Full Change Communication Plan**
 ```
@@ -6164,13 +6144,12 @@ We are rolling out [CHANGE]. Based on past experience and the nature of this cha
 I need to script a [15-minute / 30-minute] town hall presentation by [EXECUTIVE TITLE] introducing [CHANGE] to all [NUMBER] employees. Key messages: [LIST 3-5 KEY MESSAGES]. Questions we expect: [LIST ANTICIPATED QUESTIONS]. Write: (1) Opening (30 seconds — hook and why this matters), (2) Context and rationale (3-4 minutes), (3) What is changing and what is not (5-6 minutes), (4) What support is available (2-3 minutes), (5) Q&A framing and close. Include slide talking point bullets and speaker notes.
 ```
 
-:::
 
 ## 44. AI Internal Policy Compliance Checker
 
 > Reviews operations for internal policy adherence — violations detected 70% earlier, compliance errors -45–55%, audit preparation -35–40%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Internal policy compliance is one of the most underestimated operational risks in the enterprise. While organizations invest heavily in regulatory and external compliance programs, the enforcement of internal policies — expense policies, procurement thresholds, data handling rules, HR conduct policies, information security requirements, and dozens of others — is often left to inconsistent manual review, self-reporting, or detection after the fact during audits. The result is a chronic compliance gap that creates real financial, legal, and reputational exposure.
 
@@ -6194,9 +6173,8 @@ COCO transforms internal policy compliance from a reactive, audit-driven exercis
 
 6. **Audit Trail Documentation**: COCO generates structured documentation of compliance review activities — what was reviewed, when, by whom, and what was found — creating the audit trail evidence that internal audit and external regulators require.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6209,9 +6187,8 @@ Organizations with proactive internal compliance programs detect policy violatio
 - **Internal Audit Teams** receive well-documented compliance evidence and can focus their capacity on complex or high-risk areas rather than routine compliance checking.
 - **Legal and Risk Teams** gain visibility into compliance trends and emerging risk areas, enabling proactive policy updates and targeted training.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Policy Compliance Review of a Document**
 ```
@@ -6238,13 +6215,12 @@ Our employees in [DEPARTMENT] frequently make compliance errors in [POLICY AREA 
 I need to document our compliance review activities for the [PERIOD] audit. Reviews conducted: [LIST REVIEWS — what was reviewed, date, reviewer]. Findings: [SUMMARY OF FINDINGS]. Remediation actions taken: [LIST ACTIONS]. Write a structured compliance review summary that presents this information in the format required for [internal audit / ISO / SOC 2 / other standard] review, with all relevant evidence references and a compliance status conclusion.
 ```
 
-:::
 
 ## 45. AI Project Status Report Generator
 
 > Generates decision-oriented project status reports — reporting time -60–70%, risk detection 2–3 weeks earlier.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Project status reporting is among the most universally dreaded yet most consequential activities in enterprise operations. Every project — from technology implementations to facility relocations to process improvement initiatives — requires regular status reporting to leadership, steering committees, sponsors, and cross-functional stakeholders. These reports serve a critical function: they maintain organizational visibility into project health, surface risks and issues before they become crises, drive accountability for commitments, and enable timely resource reallocation decisions. When done well, status reporting is the connective tissue of project governance. When done poorly, it is a bureaucratic checkbox that consumes hours of project manager time without producing useful information.
 
@@ -6268,9 +6244,8 @@ COCO transforms project status reporting from a time-consuming, variable-quality
 
 6. **Leadership Decision Preparation**: COCO identifies the specific decisions that the leadership audience needs to make based on the current project status and frames each decision clearly: what is the decision, why is it needed now, what are the options, and what is the recommendation.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6283,9 +6258,8 @@ Operations managers using AI-assisted status report generation reduce reporting 
 - **PMO Teams** achieve reporting consistency across projects and project managers, enabling meaningful portfolio-level roll-ups and comparisons.
 - **All Project Stakeholders** benefit from better information about project health, enabling timely adjustments and reducing the frequency of unpleasant surprises.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Weekly Status Report**
 ```
@@ -6312,13 +6286,12 @@ Here are individual status reports for [NUMBER] projects: [PASTE SUMMARIES OR KE
 Our project [PROJECT NAME] is currently [X WEEKS / MONTHS] behind schedule and [AMOUNT] over budget. The root cause was: [DESCRIBE]. We have developed a recovery plan. Here is the current status of the recovery: [DESCRIBE RECOVERY ACTIONS AND STATUS]. Write a status report section specifically for a steering committee that: (1) Acknowledges the situation honestly, (2) Explains the recovery plan and its basis for confidence, (3) Shows the revised timeline, (4) Identifies what we need from the committee to execute the recovery, (5) Sets clear go/no-go checkpoints.
 ```
 
-:::
 
 ## 46. AI Resource Allocation Optimizer
 
 > Analyzes resource availability vs project demand — on-time delivery +20–35%, skill gap discovery: 15–25% of project delays prevented.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Resource allocation is the operations manager's most consequential and most difficult daily challenge. In any enterprise with more demand than supply — which is to say, virtually every enterprise — operations teams must continuously make decisions about where to deploy limited people, budget, equipment, and time. These decisions have direct and measurable consequences: the right allocation accelerates priorities, the wrong allocation creates bottlenecks, delays, and frustrated teams. Yet despite the stakes, most resource allocation decisions in enterprises are made with incomplete information, outdated models, and processes that are more political than analytical.
 
@@ -6342,9 +6315,8 @@ COCO brings AI-assisted analytical capability to resource allocation decisions, 
 
 6. **Resource Allocation Decisions Documentation**: COCO produces a structured documentation of allocation decisions — rationale, alternatives considered, and assumptions — that creates an auditable record of how resources were deployed and enables retrospective learning when projects exceed or miss resource estimates.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6357,9 +6329,8 @@ Organizations that implement structured resource allocation processes report 20-
 - **Individual Contributors** experience more balanced workloads, with overload and underutilization both reduced through better visibility.
 - **Senior Leadership** gain a clearer view of organizational capacity and its constraints, enabling better decisions about which initiatives to pursue, sequence, or delay.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — Resource Availability Analysis**
 ```
@@ -6386,13 +6357,12 @@ Our team is experiencing workload imbalance. Overloaded: [LIST NAMES AND CURRENT
 We have identified the following skill gaps that cannot be filled from internal resources: [LIST GAPS WITH REQUIRED SKILLS, PROJECT CONTEXT, ESTIMATED HOURS/WEEK, AND TIMELINE]. Help me build a contractor resourcing plan that includes: (1) Specification of the skills and experience required for each gap, (2) Recommended engagement type (full-time contractor, part-time specialist, statement of work), (3) Estimated cost range, (4) Onboarding timeline and knowledge transfer plan, (5) Risk assessment if we cannot fill the gap on time.
 ```
 
-:::
 
 ## 47. AI SLA Breach Predictor
 
 > Predicts SLA breaches before they occur — breach rate -40–60%, customer escalations -30–45%, intervention lead time 5–7× faster.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 Service Level Agreements (SLAs) are the contractual backbone of enterprise operations — the commitments made to customers, internal stakeholders, and vendors about the speed, quality, and reliability of services delivered. When SLAs are met consistently, they build trust, protect revenue, and enable commercial relationships to scale. When they are breached, the consequences are immediately and measurably costly: penalty payments that directly reduce margins, customer escalations that consume management time, contract terminations that destroy recurring revenue, and reputational damage that compounds in competitive markets.
 
@@ -6416,9 +6386,8 @@ COCO enables operations managers to build an AI-assisted SLA breach prediction a
 
 6. **SLA Health Executive Summary**: For customer-facing or contract-critical SLAs, COCO produces a concise executive health summary suitable for customer QBR presentations, contract renewal discussions, or internal leadership review — translating raw SLA data into business impact language.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6431,9 +6400,8 @@ Operations teams that implement predictive SLA monitoring report 40-60% reductio
 - **Customer Success and Account Management Teams** enter customer conversations with accurate, current SLA health data, enabling proactive relationship management.
 - **Finance Teams** can quantify SLA breach exposure and track the financial impact of improvement initiatives.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1 — SLA Risk Pattern Analysis from Historical Data**
 ```
@@ -6460,13 +6428,12 @@ I need to prepare an SLA performance summary for our [MONTHLY / QUARTERLY] revie
 We experienced [NUMBER] SLA breaches this [week/month] in [SERVICE/TICKET TYPE]. Breach details: [DESCRIBE EACH BREACH — case ID, breach duration, team, case type, contributing factors]. Conduct a root cause analysis and produce: (1) The primary root cause category for each breach (e.g., skill gap, volume spike, process bottleneck, system issue), (2) Common themes across breaches, (3) Systemic corrective actions to prevent recurrence, (4) Individual case-level actions already taken, (5) A draft summary suitable for customer or leadership communication.
 ```
 
-:::
 
 ## 48. AI Procurement Request Processor
 
 > Processes and routes procurement requests — processing: 3.2 days → 8 hours, maverick spend -40–55%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Manual Procurement Processing Creates Bottlenecks, Errors, and Maverick Spending**
 
@@ -6506,9 +6473,8 @@ COCO brings structure, consistency, and intelligence to procurement request proc
    - Generates escalation alerts with context: what triggered escalation, who needs to act, and by when
    - Drafts escalation communications for urgent or high-value requests requiring senior approval
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6525,9 +6491,8 @@ COCO brings structure, consistency, and intelligence to procurement request proc
 - **Department Requester**: Gets a guided submission experience with clear status updates rather than submitting into a black hole
 - **Finance and Audit Teams**: Receives consistent, structured documentation for every purchase request, dramatically simplifying audit and reconciliation processes
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Structure an Incoming Procurement Request**
 ```
@@ -6645,13 +6610,12 @@ Generate:
 5. Recommendations for 1-2 process improvements based on this week's patterns
 ```
 
-:::
 
 ## 49. AI Facility Utilization Optimizer
 
 > Analyzes space utilization patterns — real estate cost reduction potential: 15–25%, overcrowding incidents -30–45%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Facility Space Is Wasted or Overwhelmed Because Decisions Are Made Without Data**
 
@@ -6691,9 +6655,8 @@ COCO brings analytical structure to facility utilization by helping operations a
    - Drafts space policy updates and usage guidance communications
    - Generates floor-level utilization reports for department heads to encourage behavior change
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6710,9 +6673,8 @@ COCO brings analytical structure to facility utilization by helping operations a
 - **Finance Leadership**: Receives structured analysis supporting real estate cost decisions with ROI framing rather than intuition-based requests
 - **HR and People Teams**: Understands whether physical space design supports the collaboration and culture goals of hybrid work policies, enabling evidence-based workspace policy decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Analyze Occupancy Data and Produce Utilization Summary**
 ```
@@ -6839,13 +6801,12 @@ Draft:
 4. Suggested subject line options (3 variations)
 ```
 
-:::
 
 ## 50. AI Inventory Reorder Advisor
 
 > Optimizes reorder points with demand variability — stockouts -30–50%, excess inventory costs -15–25%, analysis time: 3–5h → 30–45min.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Inventory Reorder Decisions Are Reactive, Gut-Driven, and Costly in Both Directions**
 
@@ -6885,9 +6846,8 @@ COCO supports inventory reorder decision-making by helping operations teams anal
    - Produces daily or weekly reorder action lists ranked by urgency and risk level
    - Generates documentation supporting reorder decisions for audit and review purposes
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6904,9 +6864,8 @@ COCO supports inventory reorder decision-making by helping operations teams anal
 - **Supply Chain Manager**: Understands supplier reliability patterns systematically, enabling better supplier development prioritization and contract negotiation
 - **Finance and Accounting**: Benefits from more predictable inventory levels, reduced carrying costs, and better cash flow predictability as a result of optimized ordering patterns
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Analyze SKU Demand Patterns and Calculate Reorder Parameters**
 ```
@@ -7028,13 +6987,12 @@ For items identified as excess, provide:
 6. Total potential inventory reduction value if recommendations implemented
 ```
 
-:::
 
 ## 51. AI Workforce Schedule Builder
 
 > Builds optimized staff schedules — schedule build time: 6–12h → 1–2h, coverage gaps -35–50%, overtime costs -15–25%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Manual Workforce Scheduling Is a Time-Consuming Puzzle That Still Produces Suboptimal Results**
 
@@ -7074,9 +7032,8 @@ COCO supports workforce schedule construction by processing coverage requirement
    - Calculates projected straight-time, overtime, and premium pay costs by proposed schedule
    - Compares cost of alternative coverage approaches for manager decision-making
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -7093,9 +7050,8 @@ COCO supports workforce schedule construction by processing coverage requirement
 - **Employees**: Experience more consistent, transparent, and preference-respecting scheduling with clear communication of assignments
 - **Finance and Labor Relations**: Gains visibility into labor cost drivers by schedule type and period, enabling better cost management and union negotiation support
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Generate a Draft Shift Schedule**
 ```
@@ -7238,13 +7194,12 @@ Generate:
 5. Escalation contact information block to include in all communications
 ```
 
-:::
 
 ## 52. AI Budget Request Evaluator
 
 > Evaluates budget requests with structured scoring — evaluation consistency +60–70%, missing information rate -40–55%, evaluation time: 45–90min → 15–25min.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Budget Request Evaluation Is Inconsistent, Biased, and Chronically Bottlenecked**
 
@@ -7284,9 +7239,8 @@ COCO brings consistency and analytical rigor to budget request evaluation by hel
    - Generates one-page evaluation summaries per request with recommendation and supporting rationale
    - Produces portfolio-level budget recommendation documents for finance and executive review
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -7303,9 +7257,8 @@ COCO brings consistency and analytical rigor to budget request evaluation by hel
 - **Requesting Department**: Gets clear feedback on what is missing from their submission and what standard they need to meet, enabling faster revision and resubmission
 - **Approval Committee**: Reviews consistently structured, pre-analyzed requests that enable genuine allocation decision-making rather than spending meeting time assessing submission completeness
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Evaluate a Budget Request Against Standard Framework**
 ```
@@ -7442,13 +7395,12 @@ Generate:
 5. Suggested discussion agenda for the committee session with time allocation
 ```
 
-:::
 
 ## 53. AI Cross-Department Coordination Hub
 
 > Tracks cross-functional dependencies and handoffs — handoff failures -40–55%, escalation lead time: 5–8 days earlier, status collection time -3–5h/week.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Cross-Functional Coordination Fails Silently Until It Is Too Late to Recover**
 
@@ -7488,9 +7440,8 @@ COCO supports cross-functional coordination by helping operations managers creat
    - Produces weekly status reports formatted for different audiences with appropriate level of detail
    - Generates risk and issue logs with owner, status, and resolution timeline for each item
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -7507,9 +7458,8 @@ COCO supports cross-functional coordination by helping operations managers creat
 - **Project Stakeholders**: Receive consistent, accurate status communications rather than conflicting updates from different departments with different views of project state
 - **Executive Leadership**: Get escalations with full context and recommended decision framing rather than raw conflict surfaced without analysis, enabling faster and better-informed resolution
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Map Cross-Department Dependencies and Identify Risks**
 ```
@@ -7642,13 +7592,12 @@ Generate:
 3. Follow-up tracking item: what happens after the decision is made and who is accountable
 ```
 
-:::
 
 ## 54. AI Retail Inventory Reorder Forecaster
 
 > Organizations operating in Retail face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Retail Inventory Reorder Forecaster**
 
@@ -7702,9 +7651,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -7721,9 +7669,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Demand Forecasting Analysis**
 ```
@@ -7842,13 +7789,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 55. AI Operations Process Bottleneck Identifier
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Operations Process Bottleneck Identifier**
 
@@ -7902,9 +7848,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -7921,9 +7866,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Workflow Design Analysis**
 ```
@@ -8042,13 +7986,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 56. AI Government Public Comment Analyzer
 
 > Organizations operating in Government face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Government Public Comment Blind Spots**
 
@@ -8102,9 +8045,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -8121,9 +8063,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Data Analysis Analysis**
 ```
@@ -8242,13 +8183,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 57. AI Energy Grid Maintenance Scheduler
 
 > Organizations operating in Energy face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Energy Grid Maintenance Scheduler**
 
@@ -8302,9 +8242,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -8321,9 +8260,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Maintenance Scheduling Analysis**
 ```
@@ -8442,13 +8380,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 58. AI Manufacturing Predictive Maintenance Planner
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Manufacturing Predictive Maintenance Disorganization**
 
@@ -8502,9 +8439,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -8521,9 +8457,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Maintenance Scheduling Analysis**
 ```
@@ -8642,13 +8577,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 59. AI Retail Dynamic Pricing Strategy Optimizer
 
 > Organizations operating in Retail face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Retail Dynamic Pricing Strategy Inefficiency**
 
@@ -8702,9 +8636,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -8721,9 +8654,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Pricing Strategy Analysis**
 ```
@@ -8842,13 +8774,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 60. AI Hospitality Staff Scheduling Optimizer
 
 > Organizations operating in Hospitality face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Hospitality Staff Scheduling Inefficiency**
 
@@ -8902,9 +8833,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -8921,9 +8851,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Staff Scheduling Analysis**
 ```
@@ -9042,13 +8971,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 61. AI Manufacturing Production Schedule Optimizer
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Manufacturing Production Schedule Inefficiency**
 
@@ -9102,9 +9030,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -9121,9 +9048,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Production Scheduling Analysis**
 ```
@@ -9242,13 +9168,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 62. AI Nonprofit Volunteer Management System
 
 > Organizations operating in Nonprofit face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Nonprofit Volunteer Management Breakdowns**
 
@@ -9302,9 +9227,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -9321,9 +9245,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Volunteer Management Analysis**
 ```
@@ -9442,13 +9365,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 63. AI Energy Solar Site Feasibility Analyzer
 
 > Organizations operating in Energy face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Energy Solar Site Feasibility Blind Spots**
 
@@ -9502,9 +9424,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -9521,9 +9442,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Site Analysis Analysis**
 ```
@@ -9642,13 +9562,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 64. AI Automotive Dealer Inventory Optimizer
 
 > Organizations operating in Automotive face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Automotive Dealer Inventory Inefficiency**
 
@@ -9702,9 +9621,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -9721,9 +9639,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Inventory Management Analysis**
 ```
@@ -9842,13 +9759,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 65. AI Business Continuity Planning Assistant
 
 > Organizations operating in Insurance face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Business Continuity Planning Overhead**
 
@@ -9902,9 +9818,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -9921,9 +9836,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Risk Assessment Analysis**
 ```
@@ -10042,13 +9956,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 66. AI Retail Store Layout Optimizer
 
 > Organizations operating in Retail face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Retail Store Layout Inefficiency**
 
@@ -10102,9 +10015,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -10121,9 +10033,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Layout Optimization Analysis**
 ```
@@ -10242,13 +10153,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 67. AI Restaurant Menu Engineering Advisor
 
 > Organizations operating in Hospitality face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Restaurant Menu Failuresering Guesswork**
 
@@ -10302,9 +10212,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -10321,9 +10230,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Pricing Strategy Analysis**
 ```
@@ -10442,13 +10350,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 68. AI Manufacturing Energy Efficiency Optimizer
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Manufacturing Energy Efficiency Inefficiency**
 
@@ -10502,9 +10409,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -10521,9 +10427,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Monitoring Analysis**
 ```
@@ -10642,13 +10547,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 69. AI OKR Progress Tracking and Reporting Engine
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: OKR Progress Tracking and Reporting Failures**
 
@@ -10702,9 +10606,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -10721,9 +10624,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core OKR Tracking Analysis**
 ```
@@ -10842,4 +10744,3 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::

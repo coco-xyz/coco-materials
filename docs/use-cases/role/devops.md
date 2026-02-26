@@ -258,7 +258,7 @@ This week's data:
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Software Incident Postmortem Blind Spots**
 
@@ -312,9 +312,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -331,9 +330,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Incident Management Analysis**
 ```
@@ -452,13 +450,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 4. AI Energy Consumption Anomaly Detector
 
 > Organizations operating in Energy face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Energy Consumption Anomaly Detector**
 
@@ -512,9 +509,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -531,9 +527,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Monitoring Analysis**
 ```
@@ -652,13 +647,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 5. AI DevOps Release Notes Auto-Generator
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: DevOps Release Notes Auto-Generator**
 
@@ -712,9 +706,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -731,9 +724,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Release Management Analysis**
 ```
@@ -852,13 +844,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 6. AI Telecom Network Outage Root Cause Analyzer
 
 > Organizations operating in Telecommunications face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Telecom Network Outage Root Cause Blind Spots**
 
@@ -912,9 +903,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -931,9 +921,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Outage Analysis Analysis**
 ```
@@ -1052,13 +1041,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 7. AI DevOps Infrastructure Cost Optimizer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: DevOps Infrastructure Cost Inefficiency**
 
@@ -1112,9 +1100,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1131,9 +1118,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Cost Analysis Analysis**
 ```
@@ -1252,13 +1238,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 8. AI DevOps Deployment Pipeline Optimizer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: DevOps Deployment Pipeline Inefficiency**
 
@@ -1312,9 +1297,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1331,9 +1315,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Deployment Analysis**
 ```
@@ -1452,13 +1435,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 9. AI Kubernetes Cluster Cost Rightsizing Advisor
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Kubernetes Cluster Cost Rightsizing Guesswork**
 
@@ -1512,9 +1494,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1531,9 +1512,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Cost Analysis Analysis**
 ```
@@ -1652,13 +1632,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 10. AI On-Call Runbook Generator
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: On-Call Runbook Gaps**
 
@@ -1712,9 +1691,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1731,9 +1709,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Technical Documentation Analysis**
 ```
@@ -1852,13 +1829,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 11. AI Security Patch Management Advisor
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Security Patch Management Guesswork**
 
@@ -1912,9 +1888,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -1931,9 +1906,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Security Scanning Analysis**
 ```
@@ -2052,13 +2026,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 12. AI Container Image Vulnerability Scanner
 
 > Organizations operating in FinTech face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Container Image Vulnerability Scanner**
 
@@ -2112,9 +2085,8 @@ Patch fatigue is real: engineers who receive 200+ CVE alerts per week start igno
    - Detects newly published exploits matching existing unpatched CVEs and escalates automatically
    - Produces weekly trend reports showing vulnerability backlog growth or reduction over time
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2131,9 +2103,8 @@ Patch fatigue is real: engineers who receive 200+ CVE alerts per week start igno
 - **Engineering Managers**: Gain real-time dashboards showing team-level vulnerability backlog and MTTR trends, enabling data-driven prioritization conversations.
 - **Compliance and Risk Officers**: Receive automatically generated audit evidence packages that satisfy PCI-DSS and SOC 2 requirements without manual documentation sprints.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: CVE Triage from Scanner Output**
 ```
@@ -2194,13 +2165,12 @@ Please:
 5. Suggest a patch timeline that balances speed with change-risk
 ```
 
-:::
 
 ## 13. AI CI/CD Pipeline Failure Predictor
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: CI/CD Pipeline Failure Predictor**
 
@@ -2254,9 +2224,8 @@ The cost extends beyond engineering time. Failed pipelines delay feature deliver
    - Produces post-mortem templates pre-populated with timeline data for any pipeline-related incidents
    - Maintains a living knowledge base of resolved failure patterns searchable by error message or symptom
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2273,9 +2242,8 @@ The cost extends beyond engineering time. Failed pipelines delay feature deliver
 - **Engineering Managers**: Gain pipeline reliability as a measurable team health metric, enabling proactive conversations about technical debt before it causes outages.
 - **On-Call Engineers**: Receive pre-contextualized alerts with likely root cause and runbook links, reducing 2am diagnostic effort from 45 minutes to under 10 minutes.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Pipeline Failure Log Analysis**
 ```
@@ -2341,13 +2309,12 @@ Please:
 5. Flag any dependency changes with known historical failure patterns
 ```
 
-:::
 
 ## 14. AI Service Mesh Traffic Analyzer
 
 > Organizations operating in Media and Streaming face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Service Mesh Traffic Analyzer**
 
@@ -2401,9 +2368,8 @@ Capacity planning for service mesh traffic is equally challenging. Traffic patte
    - Summarizes the impact of deployed mesh policy changes by comparing before/after traffic metrics
    - Exports service-level objective (SLO) compliance reports for each service based on mesh-measured error budgets
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2420,9 +2386,8 @@ Capacity planning for service mesh traffic is equally challenging. Traffic patte
 - **Engineering Managers and SRE Leads**: Gain quantified SLO compliance data per service to prioritize reliability investments and justify platform engineering headcount.
 - **Product and Business Stakeholders**: Benefit from higher streaming reliability during high-stakes live events, directly reducing subscriber churn caused by buffering and outage experiences.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Traffic Anomaly Diagnosis**
 ```
@@ -2498,13 +2463,12 @@ Please:
 5. Define rollback triggers — at what metrics should we activate our contingency plan
 ```
 
-:::
 
 ## 15. AI Log Aggregation and Anomaly Classifier
 
 > Organizations operating in Healthcare IT face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Log Aggregation and Anomaly Classifier**
 
@@ -2558,9 +2522,8 @@ Alert fatigue compounds the problem. The average healthcare IT operations team r
    - Generates anomaly investigation reports with documented evidence and disposition for each flagged event
    - Schedules automated monthly compliance digests delivered to Security Officers and Compliance teams
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2577,9 +2540,8 @@ Alert fatigue compounds the problem. The average healthcare IT operations team r
 - **Clinical Informatics Teams**: Benefit from faster resolution of EHR and clinical application issues, reducing the frequency and duration of system unavailability that disrupts patient care workflows.
 - **CIO and CISO Leadership**: Achieve quantified visibility into security posture and compliance coverage that supports board-level reporting and regulatory audit readiness without manual data aggregation.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Log Anomaly Triage and Investigation**
 ```
@@ -2657,13 +2619,12 @@ Please identify:
 5. Recommended investigation steps and documentation for potential breach assessment
 ```
 
-:::
 
 ## 16. AI Infrastructure Drift Detector
 
 > Organizations operating in E-Commerce face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Infrastructure Drift Detector**
 
@@ -2717,9 +2678,8 @@ The business consequences are direct and measurable. Undetected security group d
    - Creates change management exception reports for drift items that represent approved out-of-band changes
    - Exports compliance dashboards as PDF or JSON for quarterly auditor submissions
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2736,9 +2696,8 @@ The business consequences are direct and measurable. Undetected security group d
 - **Engineering Managers**: Can demonstrate infrastructure compliance coverage quantitatively for internal reviews and external audits, replacing ad-hoc manual checks with continuous automated monitoring.
 - **Business Stakeholders (VP Engineering, CTO)**: Benefit from a formal pre-event infrastructure readiness certification that reduces the operational risk of major commercial events like Black Friday and Cyber Monday.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Terraform Plan Drift Analysis**
 ```
@@ -2817,13 +2776,12 @@ Please:
 5. Draft a post-mortem root cause section attributing infrastructure drift as a contributing factor
 ```
 
-:::
 
 ## 17. AI Disaster Recovery Plan Validator
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Disaster Recovery Plan Validator**
 
@@ -2877,9 +2835,8 @@ Tabletop exercises and DR tests are designed to close this gap, but they are exp
    - Maintains a DR testing calendar with audit trail showing test frequency, scope, and outcomes
    - Exports all evidence in formats accepted by OCC, FDIC, and state banking regulators for examination submissions
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2896,9 +2853,8 @@ Tabletop exercises and DR tests are designed to close this gap, but they are exp
 - **Risk and Compliance Officers**: Receive automatically generated regulatory evidence packages that satisfy FFIEC, SOC 2, and ISO 22301 examination requirements without manual document assembly sprints.
 - **CIO and CRO Leadership**: Can attest to DR readiness with quantified confidence metrics — actual vs. declared RTO, plan coverage percentage, test frequency — rather than relying on attestation by exception.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: DR Plan Gap Analysis**
 ```
@@ -2971,13 +2927,12 @@ Please design:
 5. A post-exercise report template documenting findings for regulatory evidence
 ```
 
-:::
 
 ## 18. AI Cloud Resource Tagging Compliance Agent
 
 > Organizations operating in Enterprise SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Cloud Resource Tagging Compliance Agent**
 
@@ -3031,9 +2986,8 @@ Security and compliance teams depend on tagging for automated policy enforcement
    - Exports resource-level compliance reports showing every resource's tag status with timestamps
    - Produces quarterly trend reports showing compliance rate improvement to demonstrate control maturity
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3050,9 +3004,8 @@ Security and compliance teams depend on tagging for automated policy enforcement
 - **Engineering Teams**: Receive clear tagging requirements embedded in their existing IaC workflow rather than discovering compliance gaps in quarterly audits.
 - **Business Unit Leaders and Product Managers**: Gain accurate per-product cloud cost visibility that supports build vs. buy decisions, pricing model design, and capacity investment justification.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Tag Compliance Audit**
 ```
@@ -3135,13 +3088,12 @@ Please design:
 5. An adoption rollout plan that achieves 90%+ compliance within 90 days
 ```
 
-:::
 
 ## 19. AI SLA Monitoring and Alert Tuning Advisor
 
 > Organizations operating in Telecommunications face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: SLA Monitoring and Alert Tuning Advisor**
 
@@ -3195,9 +3147,8 @@ Alert tuning is a persistent problem in telecom environments. SNMP trap storms �
    - Produces quarterly SLA compliance reports for customer business reviews (QBRs) with trend analysis
    - Recommends infrastructure investments prioritized by the SLA breach risk they mitigate per dollar spent
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3214,9 +3165,8 @@ Alert tuning is a persistent problem in telecom environments. SNMP trap storms �
 - **Account Managers and Customer Success Teams**: Receive accurate, professionally formatted SLA breach notifications and QBR reports that demonstrate transparency and accelerate customer trust recovery after incidents.
 - **Network Engineering and Capacity Planning Teams**: Access correlation between SLA performance and infrastructure utilization that prioritizes capacity investments by their impact on SLA compliance rather than by traffic volume alone.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: SLA Breach Risk Assessment**
 ```
@@ -3299,13 +3249,12 @@ Please produce:
 5. Talking points for the account manager's call with the customer
 ```
 
-:::
 
 ## 20. AI Secrets Rotation and Vault Manager
 
 > Organizations operating in Cybersecurity and Managed Security Services face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Secrets Rotation and Vault Manager**
 
@@ -3359,9 +3308,8 @@ Rotation itself creates operational risk that discourages teams from doing it. M
    - Creates ISO 27001 A.9.4 evidence for application access controls and credential management
    - Exports rotation compliance dashboards showing percentage of secrets within rotation policy for executive review
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3378,9 +3326,8 @@ Rotation itself creates operational risk that discourages teams from doing it. M
 - **Compliance and GRC Teams**: Generate SOC 2, PCI-DSS, and ISO 27001 secrets management evidence automatically, turning a multi-week evidence-gathering effort into a same-day report.
 - **CISO and Security Leadership**: Demonstrate a quantified improvement in credential security posture through metrics like secrets-within-policy percentage and sprawl detection rate for board and customer reporting.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Secrets Inventory Audit**
 ```
@@ -3464,13 +3411,12 @@ Please:
 5. Prioritize findings by blast radius if the over-permissioned identity were compromised
 ```
 
-:::
 
 ## 21. AI Multi-Cloud Cost Arbitrage Optimizer
 
 > Organizations operating in Gaming face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Multi-Cloud Cost Arbitrage Optimizer**
 
@@ -3524,9 +3470,8 @@ Commitment-based discounts (reserved instances, savings plans, committed use dis
    - Calculates the annualized cost impact of each identified anomaly for business prioritization
    - Generates investigation reports with actionable remediation steps and estimated savings upon resolution
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3543,9 +3488,8 @@ Commitment-based discounts (reserved instances, savings plans, committed use dis
 - **Game Producers and Product Managers**: Get accurate cloud cost forecasts for upcoming game launches that inform business cases and allow budget adjustments before launch day surprises.
 - **CFO and Finance Leadership**: Achieve predictable cloud budgets with anomaly detection that prevents monthly invoice surprises, enabling cloud cost to be managed with the same rigor as other major operating expenses.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Cross-Cloud Cost Comparison Analysis**
 ```
@@ -3632,13 +3576,12 @@ Please recommend:
 5. Expected 12-month savings from implementing your recommendations vs. current portfolio
 ```
 
-:::
 
 ## 22. AI Canary Deployment Impact Analyzer
 
 > Organizations operating in B2B SaaS and Marketplace Platforms face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Canary Deployment Impact Analyzer**
 
@@ -3692,9 +3635,8 @@ The rollback decision is equally fraught. When something does go wrong during a 
    - Creates quarterly deployment reliability reports showing canary effectiveness (regressions caught before full rollout vs. missed)
    - Exports deployment audit trails for change management governance and enterprise customer security questionnaire evidence
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3711,9 +3653,8 @@ The rollback decision is equally fraught. When something does go wrong during a 
 - **Engineering Managers**: Can demonstrate deployment safety to enterprise customers and internal stakeholders through quantified metrics — regression catch rates, deployment incident rates, rollback frequency.
 - **Enterprise Customer Success and Account Managers**: Benefit from fewer deployment-caused disruptions to enterprise customers, reducing the frequency of SLA breach conversations and trust-recovery efforts.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Canary Deployment Analysis**
 ```
@@ -3822,13 +3763,12 @@ Please provide:
 5. A 3-sentence rollout status communication for customer-facing teams while the decision is made
 ```
 
-:::
 
 ## 23. AI Capacity Forecasting and Auto-Scaling Advisor
 
 > Organizations operating in EdTech and Online Education face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Capacity Forecasting and Auto-Scaling Advisor**
 
@@ -3882,9 +3822,8 @@ Capacity forecasting for planned events is equally inadequate. When a platform h
    - Identifies cost optimization opportunities — services that pre-scaled beyond actual demand for future events
    - Produces a post-event operations report with specific forecast and scaling improvements for the next similar event
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3901,9 +3840,8 @@ Capacity forecasting for planned events is equally inadequate. When a platform h
 - **FinOps and Engineering Finance Teams**: Achieve significant cost savings from eliminating off-peak over-provisioning while simultaneously reducing peak-period outage costs and the engineering time consumed by incident response.
 - **University and Institution Customers**: Experience consistently reliable platform availability during the highest-stakes academic moments — exams, enrollment, graduation events — preserving the institution's trust and long-term contract renewal commitment.
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Academic Calendar Capacity Forecast**
 ```
@@ -3998,4 +3936,3 @@ Please:
 5. Define monitoring thresholds and escalation criteria for the event operations team to watch during the live event
 ```
 
-:::

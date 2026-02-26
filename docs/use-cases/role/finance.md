@@ -2905,7 +2905,7 @@ This week's data:
 
 > Analyzes AR aging, AP timing, and inventory carrying costs — DSO reduction 8–12 days within 90 days, early payment discount capture rising from 34% to 71%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Companies Are Leaving $500K to $5M in Unnecessary Cash Trapped in Operations While Simultaneously Paying for Credit They Don't Need to Draw**
 
@@ -2948,9 +2948,8 @@ COCO's AI Working Capital Optimizer provides systematic, data-driven analysis ac
    - Models optimal cash balance targets by day of week and month to minimize average revolving credit balances
    - Identifies opportunities to restructure the revolving facility terms based on actual utilization patterns
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -2967,9 +2966,8 @@ COCO's AI Working Capital Optimizer provides systematic, data-driven analysis ac
 - **AR/Collections Teams**: Work from a prioritized, behavior-segmented queue rather than a raw aging report — contact the right customers at the right time with the right approach
 - **Operations and Procurement**: Understand the true cost of inventory decisions and supplier payment terms rather than treating them as pure operational choices
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: AR Aging Behavioral Analysis and Collections Prioritization**
 ```
@@ -3093,13 +3091,12 @@ Please:
 6. Recommend whether our current revolving credit facility is appropriately sized given this forecast and our stress scenarios
 ```
 
-:::
 
 ## 21. AI Budget Variance Explainer
 
 > Generates root cause analysis for budget variances — variance narrative prep reduced from 15–30h to 4–6h, first-pass explanation acceptance rising from 35% to 78%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Budget Variance Reports Tell Finance Teams What Happened — But Not Why, Leaving Management Meetings Full of Guesswork and Blame**
 
@@ -3127,9 +3124,8 @@ COCO's AI Budget Variance Explainer transforms raw variance data into structured
 
 6. **Forecast Adjustment Recommendations**: Based on the variance root cause, COCO recommends specific forecast adjustments: where the budget assumption should be revised for the remainder of the year, and by how much, given what the variance analysis revealed.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3146,9 +3142,8 @@ COCO's AI Budget Variance Explainer transforms raw variance data into structured
 - **Department Heads (Marketing, Operations, HR)**: Receive specific, data-grounded variance analyses rather than generic "you overspent by X%" notifications, enabling more productive responses
 - **CEOs and Board Members**: Receive variance commentary that connects financial results to operational decisions, enabling better strategic oversight
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Full Monthly Variance Analysis with Root Cause Explanation**
 ```
@@ -3261,13 +3256,12 @@ Please:
 6. Identify the 3 biggest uncertainties in the month-end projection — where could actual results differ most from current projection?
 ```
 
-:::
 
 ## 22. AI Investor Relations Prep Assistant
 
 > Prepares Q&A packages for earnings calls — Q&A coverage rising from 55–65% to 87–92% of actual analyst questions, earnings prep time reduced 50–55%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: IR Teams and CFOs Spend 40-60 Hours Per Quarter Preparing for Earnings Calls and Investor Meetings — and Still Get Blindsided by Analyst Questions**
 
@@ -3295,9 +3289,8 @@ COCO's AI Investor Relations Prep Assistant accelerates every phase of quarterly
 
 6. **Post-Call Analysis and Learning**: After the earnings call, COCO analyzes the actual transcript against the preparation materials — which questions were not anticipated, which answers deviated from the script, where management appeared uncertain. This creates a systematic improvement loop for the next quarter.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3314,9 +3307,8 @@ COCO's AI Investor Relations Prep Assistant accelerates every phase of quarterly
 - **CEOs**: Receive a concise, well-synthesized briefing for earnings calls and investor meetings rather than having to absorb 60-page prep books
 - **Legal and Compliance Teams**: Benefit from COCO's disclosure consistency checking, which reduces the risk of inadvertent forward-looking statement problems or guidance inconsistencies
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Earnings Call Q&A Preparation**
 ```
@@ -3432,13 +3424,12 @@ Please:
 6. Produce a prioritized "preparation improvement" list for Q[X+1]: specific topics to prepare more deeply, new question categories to add, prior guidance to reconcile proactively
 ```
 
-:::
 
 ## 23. AI Tax Planning Advisor
 
 > Identifies tax planning opportunities before fiscal year-end — effective tax rate reduction 3–6 percentage points, R&D credit capture averaging $185K in the first year.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Companies Pay an Average of 18-25% More in Tax Than Necessary Because Tax Planning Is Reactive, Fragmented, and Starts Too Late in the Fiscal Year**
 
@@ -3466,9 +3457,8 @@ COCO's AI Tax Planning Advisor functions as a proactive tax intelligence layer �
 
 6. **Year-End Tax Projection and Action Checklist**: COCO produces a rolling year-end tax projection — estimated taxable income, estimated liability, estimated effective rate — and generates a prioritized action checklist of steps to take before fiscal year-end to implement identified planning strategies.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3485,9 +3475,8 @@ COCO's AI Tax Planning Advisor functions as a proactive tax intelligence layer �
 - **Controllers**: Identify accrual and provision implications of tax planning actions earlier in the year, improving period-end close accuracy
 - **Business Owners (Private Companies)**: Capture pass-through planning opportunities — QBI deduction optimization, S-corp election analysis, retirement plan strategies — that are routinely missed without proactive support
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Annual Tax Planning Opportunity Identification**
 ```
@@ -3639,13 +3628,12 @@ Please:
 6. Recommend specialist involvement: at what point should a transaction tax specialist be engaged?
 ```
 
-:::
 
 ## 24. AI Financial Model Stress Tester
 
 > Identifies hidden assumption sensitivities in financial models — stress testing time reduced from 15–25h to 4–6h, board question coverage rising from 52% to 84%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Financial Models Are Built for Base-Case Scenarios and Collapse Under Real-World Pressure — Leaving Executives Making Decisions on Assumptions That Have Never Been Challenged**
 
@@ -3673,9 +3661,8 @@ COCO's AI Financial Model Stress Tester systematically interrogates financial mo
 
 6. **Risk-Adjusted Narrative Generation**: COCO translates stress test results into board-ready narrative that communicates the key risks, their probability, their impact, and the mitigants or monitoring triggers management has in place. This bridges the gap between the technical model analysis and the strategic conversation the board needs to have.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3692,9 +3679,8 @@ COCO's AI Financial Model Stress Tester systematically interrogates financial mo
 - **Board Members**: Receive risk commentary that honestly characterizes the range of outcomes and the conditions under which the investment thesis fails
 - **Lenders and Credit Analysts**: Stress test borrower financial models against covenant headroom under a range of operating scenarios, improving credit decision quality
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Full Model Stress Test — Five-Year Operating Plan**
 ```
@@ -3842,13 +3828,12 @@ Please:
 6. Recommend proactive steps: at what headroom threshold should we begin lender conversations about covenant relief?
 ```
 
-:::
 
 ## 25. AI Accounts Receivable Aging Analyst
 
 > Prioritizes collections by recovery probability — DSO reduction 7–11 days, bad debt write-offs reduced 28–35%, collection productivity improved 40–55%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Accounts Receivable Is the Largest Current Asset on Most Balance Sheets — and the One Most Poorly Analyzed, Costing Companies 2-4% of Revenue in Avoidable Bad Debt and Financing Cost**
 
@@ -3876,9 +3861,8 @@ COCO's AI Accounts Receivable Aging Analyst transforms raw AR aging data into a 
 
 6. **Bad Debt Reserve Adequacy Assessment**: COCO evaluates whether the company's current bad debt reserve appropriately reflects the risk in the AR portfolio, given current aging, customer behavior patterns, and external signals. This helps finance avoid both over-reserving (which understates current income) and under-reserving (which creates future income volatility).
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -3895,9 +3879,8 @@ COCO's AI Accounts Receivable Aging Analyst transforms raw AR aging data into a 
 - **Credit Managers**: Receive data-driven customer credit risk profiles to inform credit limit and payment term decisions
 - **Sales Teams**: Understand which customers have AR issues that need to be addressed before additional orders should be accepted
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Full AR Portfolio Analysis and Collection Prioritization**
 ```
@@ -4027,13 +4010,12 @@ Please:
 6. Recommend the reserve methodology (percentage-of-aging vs. specific identification vs. historical loss rate) best suited to our AR profile
 ```
 
-:::
 
 ## 26. AI Cost Center Benchmark Analyst
 
 > Benchmarks departmental spending against industry peers — average $1.4–2.8M in over-benchmark spend identified, recommendation acceptance rate improved 58%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Finance Teams Approve Cost Center Budgets Without External Context — Making Internal Efficiency Conversations Impossible and Leaving $1-3M in Benchmarkable Cost Reduction Unidentified**
 
@@ -4061,9 +4043,8 @@ COCO's AI Cost Center Benchmark Analyst provides the analytical framework to com
 
 6. **Trend Analysis and Efficiency Improvement Tracking**: COCO tracks cost ratios over time and identifies whether the company is becoming more or less efficient relative to benchmark as it scales — providing the analytical foundation for "efficiency improvement" as a board-level operating metric.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4080,9 +4061,8 @@ COCO's AI Cost Center Benchmark Analyst provides the analytical framework to com
 - **Department Heads**: Receive clear, external-benchmarked targets rather than arbitrary cost cut mandates — enabling more productive dialogue about what efficiency improvement looks like in their function
 - **Private Equity Operating Teams**: Apply consistent benchmark frameworks across portfolio companies to identify and prioritize operational improvement opportunities
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Full Cost Structure Benchmark Analysis**
 ```
@@ -4228,13 +4208,12 @@ Please:
 6. Suggest 2-3 efficiency KPIs the board should track quarterly as the company executes on cost structure improvement
 ```
 
-:::
 
 ## 27. AI Treasury Cash Flow Forecaster
 
 > Builds 13-week rolling cash forecasts — 4-week accuracy improving from 75–82% to 89–94%, revolving credit interest savings $45K–$95K annually.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Treasury Teams Are Flying Blind on a 13-Week Horizon — Manual Cash Forecasts Are Consistently 15-25% Off, Causing Unnecessary Credit Draws and Missed Investment Opportunities**
 
@@ -4260,9 +4239,8 @@ COCO's AI Treasury Cash Flow Forecaster transforms disparate financial data inpu
 
 6. **Credit Facility Optimization**: Based on the cash flow forecast and scenario analysis, COCO recommends the optimal timing and sizing of revolving credit draws and repayments to minimize average outstanding balance and associated interest cost.
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4279,9 +4257,8 @@ COCO's AI Treasury Cash Flow Forecaster transforms disparate financial data inpu
 - **CEOs and Business Owners**: Understand cash dynamics well enough to make informed decisions about hiring, investment, and discretionary spending timing
 - **Lenders and Credit Officers**: Receive higher-quality cash flow forecasts from borrowers, improving credit monitoring quality and reducing surprise covenant breach situations
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: 13-Week Cash Flow Forecast Construction**
 ```
@@ -4418,13 +4395,12 @@ Please:
 6. Recommend 2-3 liquidity management actions to take before the next reporting date to strengthen the position being reported
 ```
 
-:::
 
 ## 28. AI Financial Narrative Report Generator
 
 > Converts financial data into board-ready narrative reports — report production reduced from 2–3 weeks to 3–5 days, board follow-up questions reduced 40–50%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: The Analysis Is Done — But Translating Numbers Into Narrative Takes Weeks**
 
@@ -4476,9 +4452,8 @@ COCO's AI Financial Narrative Report Generator transforms quantitative financial
    - Investor relations: market-facing narrative that is appropriately promotional while remaining factually accurate and legally defensible
    - Management team: operational narrative with more granular detail and explicit connection to decisions management needs to make
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4495,9 +4470,8 @@ COCO's AI Financial Narrative Report Generator transforms quantitative financial
 - **Boards and Audit Committees**: Receive more consistent, higher-quality narrative that answers the questions they would have asked before they need to ask them
 - **Investor Relations Teams**: Generate investor-facing narrative that is consistent with internal board reporting while appropriately calibrated for public audience
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Generate CFO Commentary for a Monthly Board Package**
 ```
@@ -4661,13 +4635,12 @@ Please write:
 5. Closing outlook statement: forward-looking language that is appropriately confident without creating undue expectations
 ```
 
-:::
 
 ## 29. AI M&A Target Screening Advisor
 
 > Screens M&A candidates against strategic criteria systematically — screening throughput 4–6x more candidates per quarter, early red flag capture improved 60–70%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: M&A Screening Is a Manual Research Burden That Creates Slow and Inconsistent Pipeline**
 
@@ -4724,9 +4697,8 @@ COCO's AI M&A Target Screening Advisor provides a systematic, consistent framewo
    - Third-party diligence recommendations: where to engage legal, technical, market, or HR due diligence specialists based on screening-identified risks
    - Integration planning seeds: preliminary notes on the integration workstreams likely to require attention based on identified strategic fit characteristics
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4743,9 +4715,8 @@ COCO's AI M&A Target Screening Advisor provides a systematic, consistent framewo
 - **Investment Banking and M&A Advisory**: Generate faster, more comprehensive preliminary target analyses for clients, differentiating advisory quality
 - **Private Equity Firms**: Screen acquisition targets at portfolio companies more systematically, and assess add-on acquisition candidates with consistent frameworks
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Generate a Structured Target Profile**
 ```
@@ -4902,13 +4873,12 @@ Please produce:
 5. Preliminary integration considerations: based on the strategic rationale and target profile, what are the likely most challenging integration workstreams to flag for early planning?
 ```
 
-:::
 
 ## 30. AI Expense Policy Compliance Auditor
 
 > Reviews expense reports against policy systematically — violations detected 3.2x more than manual review, pre-payment intervention catching 65–80% of violations before disbursement.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Expense Compliance Is Chronically Reactive, Inconsistent, and Expensive to Enforce**
 
@@ -4960,9 +4930,8 @@ COCO's AI Expense Policy Compliance Auditor applies systematic, consistent polic
    - Threshold calibration: comparing current limits against market benchmarks (per diem rates, hotel averages by market) to identify thresholds that have become unrealistically restrictive
    - Policy simplification opportunities: identifying overly complex rules that employees consistently fail to comply with correctly, suggesting candidates for simplification
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -4979,9 +4948,8 @@ COCO's AI Expense Policy Compliance Auditor applies systematic, consistent polic
 - **HR and Compliance**: Identify employees and departments with systemic compliance gaps, enabling targeted training and management intervention
 - **CFOs and Finance Leadership**: Operate with quantified confidence that expense controls are functioning consistently, rather than depending on variable human diligence
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Review an Expense Report Against Policy**
 ```
@@ -5132,13 +5100,12 @@ Please produce:
 6. Success metrics: how we'll know whether this training improved compliance rates, and over what timeframe
 ```
 
-:::
 
 ## 31. AI Accounts Payable Workflow Optimizer
 
 > Designs AP automation workflows and approval routing — AP processing cost reduced from $10–15 to $3–5 per invoice, early payment discount capture rising from under 30% to 60–75%.
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: AP Teams Process Hundreds of Invoices Manually While Errors and Delays Compound Costs**
 
@@ -5190,9 +5157,8 @@ COCO's AI Accounts Payable Workflow Optimizer restructures AP operations from a 
    - Discount capture rate: measuring what percentage of available early payment discounts are being captured, and identifying specific invoices where discounts were missed and why
    - Vendor performance indicators: aggregating invoice accuracy rates by vendor (how often does each vendor submit invoices that match their POs correctly?) to support vendor management conversations
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5209,9 +5175,8 @@ COCO's AI Accounts Payable Workflow Optimizer restructures AP operations from a 
 - **Procurement Teams**: Receive structured exception reports that identify vendor invoice quality issues and support vendor performance management conversations
 - **CFOs and Controllers**: Operate AP with documented controls, exception audit trails, and process performance metrics that satisfy internal and external audit requirements
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Analyze an Invoice Against a Purchase Order**
 ```
@@ -5387,13 +5352,12 @@ Please design:
 5. The governance structure needed: who owns AP performance, what gets reviewed weekly vs. monthly, and what escalation path exists for persistent problems
 ```
 
-:::
 
 ## 32. AI Financial Report Narrative Generator
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Financial Report Narrative Gaps**
 
@@ -5447,9 +5411,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5466,9 +5429,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Reporting Analysis**
 ```
@@ -5587,13 +5549,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 33. AI Finance Budget Variance Analyzer
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Finance Budget Variance Blind Spots**
 
@@ -5647,9 +5608,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5666,9 +5626,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Budget Analysis Analysis**
 ```
@@ -5787,13 +5746,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 34. AI Finance ESG Disclosure Report Writer
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Finance ESG Disclosure Report Writer**
 
@@ -5847,9 +5805,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -5866,9 +5823,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core ESG Reporting Analysis**
 ```
@@ -5987,13 +5943,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 35. AI Finance Cash Flow Scenario Modeler
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Finance Cash Flow Scenario Modeler**
 
@@ -6047,9 +6002,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6066,9 +6020,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Budget Analysis Analysis**
 ```
@@ -6187,13 +6140,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 36. AI Finance Accounts Payable Reconciliation Engine
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Finance Accounts Payable Reconciliation Failures**
 
@@ -6247,9 +6199,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6266,9 +6217,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Financial Reconciliation Analysis**
 ```
@@ -6387,13 +6337,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 37. AI M&A Financial Due Diligence Assistant
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: M&A Financial Due Diligence Overhead**
 
@@ -6447,9 +6396,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6466,9 +6414,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Due Diligence Analysis**
 ```
@@ -6587,13 +6534,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 38. AI Finance Tax Provision Analyzer
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Finance Tax Provision Blind Spots**
 
@@ -6647,9 +6593,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6666,9 +6611,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Regulatory Compliance Analysis**
 ```
@@ -6787,13 +6731,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 39. AI Government Budget Justification Writer
 
 > Organizations operating in Government face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Government Budget Justification Writer**
 
@@ -6847,9 +6790,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -6866,9 +6808,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Budget Analysis Analysis**
 ```
@@ -6987,13 +6928,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 40. AI Working Capital Optimization Advisor
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Working Capital Optimization Guesswork**
 
@@ -7047,9 +6987,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -7066,9 +7005,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Budget Analysis Analysis**
 ```
@@ -7187,13 +7125,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
 
 ## 41. AI Investor Relations Report Writer
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+**Pain Point & How COCO Solves It**
 
 **The Pain: Investor Relations Report Writer**
 
@@ -7247,9 +7184,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
-:::
 
-::: details Results & Who Benefits
+**Results & Who Benefits**
 
 **Measurable Results**
 
@@ -7266,9 +7202,8 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
-:::
 
-::: details 💡 Practical Prompts
+**💡 Practical Prompts**
 
 **Prompt 1: Core Reporting Analysis**
 ```
@@ -7387,4 +7322,3 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-:::
