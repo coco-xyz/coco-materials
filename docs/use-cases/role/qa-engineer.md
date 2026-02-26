@@ -3855,3 +3855,523 @@ Analyze:
 
 :::
 
+
+## 21. AI Shift-Left Testing Strategy Advisor
+
+> Catch defects at the source — before they reach QA — by embedding quality earlier in every development phase.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: AI Shift-Left Testing Strategy Advisor**
+
+QA teams are too often positioned at the end of the development pipeline, receiving code that has already been written, reviewed, and merged before testing begins. By this point, defects are expensive to fix: requirements ambiguities have already been implemented incorrectly, architectural decisions that make testing difficult are already baked in, and the feedback loop between the person who introduced a bug and the person who found it spans days or weeks. The traditional "test at the end" model creates a quality bottleneck that slows release velocity and embeds technical debt.
+
+The concept of shift-left testing — moving quality practices earlier in the development lifecycle — is well understood in theory but poorly executed in practice. Teams that attempt shift-left often find that developers lack the testing skills and context to write effective tests, product managers don't know how to write testable acceptance criteria, and architects don't receive quality input on design decisions before those decisions are finalized. The organizational and process changes required to genuinely shift quality left are substantial and hard to sustain.
+
+The consequence is a QA function that is chronically overwhelmed at the end of every sprint, acting as a bottleneck rather than a quality partner. Defects that could have been caught in requirements review or unit testing arrive as regression failures in the final testing cycle, compressing the time available for meaningful exploratory testing and pushing release dates.
+
+**How COCO Solves It**
+
+COCO embeds quality practices across the entire development lifecycle by providing QA-level guidance at every phase — from requirements to architecture to development to final testing:
+
+1. **Requirements quality review**
+   - Analyzes acceptance criteria for ambiguity, missing edge cases, and untestable specifications
+   - Generates the test cases that would be written for each acceptance criterion, surfacing gaps before development starts
+   - Identifies conflicting requirements that would create defects at the implementation stage
+   - Produces a requirements quality score with specific improvement recommendations
+
+2. **Architecture and design testability review**
+   - Evaluates proposed system designs for testability: dependency injection opportunities, interface seam identification, observability hooks
+   - Identifies architectural decisions that will make testing difficult or expensive later
+   - Recommends test-friendly design patterns that do not compromise business requirements
+   - Estimates testing complexity cost for proposed architectural approaches to inform design trade-off decisions
+
+3. **Developer-facing test guidance**
+   - Generates unit test templates and example tests for code under development
+   - Identifies the boundary conditions and equivalence partitions that should be covered in developer-written tests
+   - Provides mutation testing analysis to evaluate the effectiveness of existing unit tests
+   - Creates a "test this, not that" guide for each feature area helping developers write high-value tests efficiently
+
+4. **Three amigos facilitation support**
+   - Structures three amigos sessions (product, development, QA) with prepared questions and edge cases
+   - Generates a structured conversation agenda for each user story that surfaces quality concerns before coding begins
+   - Produces pre-session analysis identifying the highest-risk acceptance criteria for focused discussion
+   - Creates a session output template that captures edge cases, test scenarios, and definition-of-done items
+
+5. **Continuous integration test health**
+   - Monitors the health of the test suite over time: failure rates, flakiness, coverage trends, test execution time
+   - Identifies areas where shift-left has not been achieved (coverage gaps correlating with high bug rates)
+   - Generates weekly CI test health reports for engineering leadership
+   - Recommends specific investments in shift-left testing based on where defects are being introduced most often
+
+6. **Defect origin analysis**
+   - Traces each defect back to the phase where it could have been caught earliest
+   - Quantifies the cost of defects caught late vs. early for business case development
+   - Identifies systemic patterns: which requirement types, which developer habits, or which technical domains produce the most late-stage defects?
+   - Generates concrete, actionable shift-left recommendations based on actual defect origin data
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **45% reduction in defects reaching final QA** Earlier defect detection through requirements review and developer-written tests reduces the volume of issues QA encounters at the end of the cycle
+- **60% faster defect resolution time** Defects caught during requirements or development cost a fraction of the time to fix compared to defects found in final testing or production
+- **35% improvement in test coverage** Systematic test guidance for developers increases meaningful code coverage across the codebase
+- **50% reduction in last-sprint QA crunch** Distributing quality activities across the development cycle eliminates the end-of-sprint testing bottleneck
+- **30% decrease in production defect rate** Systematic shift-left reduces the defects that escape all testing phases and reach production users
+
+**Who Benefits**
+
+- **QA Engineers**: Transition from reactive defect finders at the end of the cycle to proactive quality advisors embedded throughout development, with more time for high-value exploratory testing
+- **Software Developers**: Receive specific, actionable testing guidance that helps them write effective tests without needing deep QA expertise
+- **Product Managers**: Write better acceptance criteria from the start, reducing the back-and-forth with QA and development over ambiguous requirements
+- **Engineering Managers**: Reduce release risk and improve team velocity by eliminating the QA bottleneck that delays every sprint
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Acceptance Criteria Testability Review**
+```
+Review the following user stories and acceptance criteria for testability and completeness.
+
+User stories to review:
+---
+Story 1: [paste user story]
+Acceptance criteria:
+- [AC 1]
+- [AC 2]
+- [AC 3]
+---
+Story 2: [paste user story]
+Acceptance criteria:
+- [AC 1]
+- [AC 2]
+---
+[Continue for all stories in the sprint]
+
+For each user story:
+1. Ambiguity scan: identify any acceptance criteria that are too vague to write a test for
+2. Missing edge cases: what scenarios are not covered by the current ACs?
+3. Missing negative cases: are failure conditions and error states specified?
+4. Testability issues: any ACs that would be difficult to automate? Why?
+5. Improved AC rewrites: for each problematic AC, provide a rewritten version that is specific, measurable, and testable
+
+At the end, produce a priority-ordered list of the top 5 risks across all stories that should be discussed in the next three amigos session.
+```
+
+**Prompt 2: Developer Unit Test Coverage Guide**
+```
+Generate a unit testing guide for the following code module.
+
+Module description: [describe what the module does]
+Language and test framework: [e.g. Python/pytest, JavaScript/Jest, Java/JUnit]
+
+Module code:
+[paste the relevant code — function signatures, class structure, or pseudocode description]
+
+Business rules encoded in this module:
+[describe the key business logic this code implements — what rules must be enforced?]
+
+Known edge cases from requirements:
+[list any edge cases called out in the spec or acceptance criteria]
+
+Generate:
+1. Equivalence partitions: what input classes should be tested? (valid inputs, boundary values, invalid inputs)
+2. Boundary value test cases: specific input values at and around each boundary
+3. Business rule test cases: one test per business rule
+4. Error condition test cases: what should happen for each error condition?
+5. Mock/stub strategy: what dependencies should be mocked and why?
+6. Test code skeleton: [language]-formatted test class with test method signatures and brief comments describing each test's intent
+
+Note any areas where unit testing alone is insufficient and integration or contract testing would be needed.
+```
+
+**Prompt 3: Sprint Defect Origin Analysis**
+```
+Analyze the defects from the last [N] sprints and produce shift-left recommendations.
+
+Defect dataset:
+[For each defect, provide:]
+- Defect ID: [ID]
+- Description: [brief description]
+- Severity: [critical / high / medium / low]
+- Component/area: [describe]
+- Where found: [unit test / integration test / QA testing / staging / production]
+- Root cause category: [requirements ambiguity / implementation error / missing test / environment issue / regression]
+- Sprint it was introduced: [sprint number or "unknown"]
+
+Team context:
+- Sprint velocity: [story points per sprint]
+- Team composition: [N developers, N QA engineers]
+- Current testing practices: [describe — what testing happens at each phase?]
+
+Analyze:
+1. Defect origin distribution: at what phase are defects being introduced vs. detected?
+2. Cost of quality: estimate relative cost of defects caught at each phase
+3. Highest-risk areas: which components, requirement types, or developers introduce the most defects?
+4. Root cause patterns: what systemic causes are driving defects?
+5. Top 3 shift-left investments: what specific changes would have the greatest impact on reducing late-stage defects?
+6. 30/60/90 day action plan: prioritized recommendations with expected outcomes
+
+Include: a visual breakdown of defect origins and detection phases.
+```
+
+:::
+
+## 22. AI Test Automation ROI Calculator
+
+> Justify, prioritize, and optimize your test automation portfolio with data-driven ROI analysis.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: AI Test Automation ROI Calculator**
+
+Test automation is universally recognized as valuable, but automation portfolios grow organically and without strategic prioritization. Tests get automated based on what is technically convenient rather than what delivers the most value. The result is a bloated automation suite with hundreds of tests covering low-risk, rarely-changing functionality while high-risk areas remain manually tested. The automation portfolio costs significant ongoing maintenance effort but doesn't deliver proportional reduction in manual testing or defect escape rates.
+
+QA managers struggle to answer fundamental questions about their automation investments: is the time spent maintaining these tests worth the time they save? should we automate more end-to-end tests or invest in better unit test coverage? which tests are costing more to maintain than they are worth? without data to answer these questions, automation decisions are made on intuition and advocacy rather than analysis.
+
+Justifying automation investment to leadership is equally difficult. The benefits of test automation are real but diffuse and long-term — reduced regression time, earlier defect detection, faster release velocity — while the costs are visible and immediate. Without a credible ROI framework, QA leaders find themselves unable to make the case for automation investment when competing against features for engineering time.
+
+**How COCO Solves It**
+
+COCO provides a structured ROI analysis framework for test automation, helping QA teams quantify the value of existing automation, prioritize what to automate next, and build data-driven investment cases:
+
+1. **Existing automation portfolio valuation**
+   - Calculates the ROI of each test or test suite based on execution frequency, manual test time saved, and maintenance cost
+   - Identifies negative-ROI tests (maintenance cost exceeds value delivered) that should be refactored or removed
+   - Segments the automation portfolio by value tier: high-value tests to expand, medium-value tests to maintain, low-value tests to eliminate
+   - Quantifies the total manual testing hours saved per quarter by the existing automation portfolio
+
+2. **Automation candidate prioritization**
+   - Scores unautomated test cases by automation ROI potential: risk level, execution frequency, manual test duration, and automation complexity
+   - Generates a prioritized automation backlog with expected ROI for each candidate
+   - Identifies the "quick wins" with high ROI and low automation effort
+   - Flags tests that appear high value but are poor automation candidates due to instability or complexity
+
+3. **Automation investment business case**
+   - Builds a structured ROI model for a proposed automation investment
+   - Calculates payback period, cumulative savings over 1/2/3 years, and net present value
+   - Benchmarks automation investment levels against industry standards for similar team sizes and product types
+   - Produces executive-ready ROI presentations with financial modeling
+
+4. **Maintenance cost optimization**
+   - Analyzes the test suite for maintenance cost drivers: flaky tests, brittle selectors, duplicated logic, missing abstractions
+   - Quantifies the maintenance overhead per test and identifies the highest-maintenance tests
+   - Recommends refactoring priorities to reduce maintenance cost without sacrificing coverage
+   - Calculates the expected maintenance cost reduction from architectural improvements (Page Object Model adoption, better test data management, etc.)
+
+5. **Coverage efficiency analysis**
+   - Maps automated test coverage against risk areas in the application
+   - Identifies coverage gaps in high-risk, frequently-changing areas
+   - Detects over-coverage in stable, low-risk areas where automation investment is excessive relative to value
+   - Recommends coverage rebalancing to maximize defect detection per unit of automation investment
+
+6. **Release efficiency benchmarking**
+   - Measures the contribution of automation to release cycle time reduction
+   - Calculates the "time to confidence" (how long it takes to reach sufficient test coverage for a release decision)
+   - Benchmarks release efficiency metrics against targets and historical trends
+   - Models the impact of automation improvements on release cadence and velocity
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **40% reduction in automation maintenance overhead** Systematic identification and elimination of negative-ROI tests reduces the time spent maintaining tests that deliver little value
+- **3x improvement in automation ROI clarity** Data-driven prioritization ensures new automation investment goes to the highest-value candidates rather than most technically convenient ones
+- **55% faster automation investment justification** Pre-built ROI models and business case frameworks reduce the time to prepare automation investment proposals for leadership
+- **25% increase in defect detection by automation** Coverage rebalancing toward high-risk areas improves the proportion of defects caught by automated rather than manual tests
+- **30% reduction in time-to-confidence for releases** Optimized automation portfolios reduce the total regression execution time needed to reach release readiness
+
+**Who Benefits**
+
+- **QA Engineers**: Spend time building automation that delivers measurable value rather than maintaining a bloated suite of low-value tests
+- **QA Managers and Directors**: Make data-driven automation portfolio decisions and build credible investment cases for leadership approval
+- **Engineering Leaders**: Understand the financial return on test automation investment and make informed trade-off decisions between automation and feature development
+- **Finance and Business Stakeholders**: Evaluate QA investment using standard financial metrics (ROI, payback period, NPV) rather than abstract quality arguments
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Automation Portfolio ROI Analysis**
+```
+Analyze the ROI of our current test automation portfolio.
+
+Portfolio overview:
+- Total automated tests: [count]
+- Test framework and layers: [unit: N, integration: N, E2E: N]
+- Average test suite execution time: [minutes]
+- Execution frequency: [how often does the full suite run — per commit / per PR / nightly / weekly]
+- Annual engineering time spent on test maintenance: [hours or FTE %]
+
+For each major test suite or area (provide data for each):
+- Suite name: [name]
+- Test count: [N]
+- Average execution time: [minutes]
+- Failure rate (non-defect flakiness): [%]
+- Last defect caught: [date and severity, or "none in 6 months"]
+- Maintenance hours per month: [estimate]
+- Manual test equivalent time: [how long would it take to run these manually?]
+
+Team context:
+- QA engineer hourly cost (fully loaded): [$X]
+- Developer hourly cost (fully loaded): [$X]
+- Release frequency: [per week / per sprint / monthly]
+
+Calculate:
+1. Monthly value generated per suite (manual testing hours saved × hourly rate)
+2. Monthly maintenance cost per suite
+3. Net ROI per suite per month
+4. Negative-ROI tests: which suites cost more than they deliver?
+5. Portfolio-level ROI summary and overall automation investment effectiveness
+6. Top 5 recommendations to improve portfolio ROI
+```
+
+**Prompt 2: Automation Candidate Prioritization**
+```
+Prioritize the following unautomated test cases for automation investment.
+
+Test cases to evaluate:
+[For each test case provide:]
+- Test ID: [ID]
+- Description: [what is being tested]
+- Risk level: [critical / high / medium / low — based on feature importance and defect impact]
+- Manual execution time: [minutes]
+- Execution frequency: [how often is this run manually — daily / per sprint / per release]
+- Stability of the feature: [stable / moderate churn / frequently changing]
+- Automation complexity estimate: [low / medium / high — based on technical factors]
+- Current defect history: [how many defects has this area produced in the last 6 months?]
+
+Scoring criteria:
+- Weight risk level: [40% of score]
+- Weight time savings: [25% of score]
+- Weight execution frequency: [20% of score]
+- Weight automation feasibility (inverse of complexity): [15% of score]
+
+For each test case:
+1. Calculate weighted automation priority score
+2. Estimate monthly time savings if automated
+3. Estimate automation implementation effort (hours)
+4. Calculate payback period (when does cumulative savings exceed implementation cost?)
+5. Automation recommendation: Automate now / Automate next quarter / Manual only / Defer
+
+Output as a prioritized automation backlog sorted by ROI score.
+```
+
+**Prompt 3: Automation Investment Business Case**
+```
+Build a business case for the following test automation investment proposal.
+
+Proposed investment:
+- What: [describe the automation investment — e.g., "Build E2E automation suite for checkout flow", "Implement contract testing", "Migrate to parallel test execution"]
+- Estimated implementation cost: [hours] at [$X/hour] = $[total]
+- Estimated ongoing maintenance cost increase: [hours/month] at [$X/hour] = $[monthly]
+- Timeline to implement: [weeks/months]
+
+Current state being improved:
+- Manual testing hours per release cycle being replaced: [hours]
+- Current release frequency: [per month]
+- Current defect escape rate to production in this area: [% or count per release]
+- Average cost to fix a production defect in this area: [$X]
+- Current regression cycle time for this area: [hours]
+
+Expected outcomes:
+- Manual testing hours eliminated per release cycle: [hours]
+- Expected defect detection improvement: [% increase in defects caught before production]
+- Expected regression cycle time reduction: [hours]
+- Other benefits: [list any additional benefits — faster releases, reduced developer context switching, etc.]
+
+Build a business case including:
+1. Year 1, Year 2, Year 3 cost and savings projections
+2. Payback period calculation
+3. 3-year NPV and ROI percentage
+4. Risk-adjusted scenario analysis (conservative / base / optimistic)
+5. Qualitative benefits narrative for executive presentation
+6. Recommendation: approve / modify / defer — with rationale
+```
+
+:::
+
+## 23. AI Contract Testing Framework Designer
+
+> Ensure your microservices APIs stay compatible — catch breaking changes before they break production.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: AI Contract Testing Framework Designer**
+
+As organizations adopt microservices architectures, a specific class of integration failures becomes increasingly common and costly: API contract breakage. A service team updates their API — changing a field name, modifying a response structure, removing a deprecated endpoint — and services that depend on that API break in ways that only surface in integration testing or, worse, production. The dependency graph becomes a minefield where any change can have unpredictable downstream consequences.
+
+Integration test environments are the traditional solution, but they are expensive and fragile. Standing up a full suite of real dependent services to test one API change requires significant infrastructure, takes hours to provision, and creates inter-team coordination dependencies that slow release velocity. Integration environments are also unreliable — they fail for reasons unrelated to the change being tested, creating noise that erodes team confidence in the test results. Teams respond by bypassing integration testing, which simply moves the problem to production.
+
+The gap is often invisible until a production incident occurs. Service A deploys a change that is a technically valid modification to their API, service B's team doesn't know the contract changed, and the first signal that anything is wrong is a production error affecting real users. Post-incident analysis reveals that no mechanism existed to ensure both sides of the API agreed on the contract before either side deployed. Contract testing exists precisely to solve this problem, but implementing it requires coordination across teams that is difficult to organize and sustain.
+
+**How COCO Solves It**
+
+COCO designs and helps implement contract testing frameworks that catch API compatibility issues at the source, enabling service teams to deploy independently with confidence:
+
+1. **Contract testing strategy design**
+   - Evaluates the team's microservices architecture and recommends the appropriate contract testing approach (consumer-driven contracts with Pact, bi-directional contract testing, schema-based contracts)
+   - Identifies which service-to-service interactions are highest risk and should be covered by contracts first
+   - Designs the contract broker infrastructure and workflow for storing and sharing contracts between teams
+   - Creates a rollout plan for incrementally adding contract tests to an existing microservices ecosystem
+
+2. **Consumer contract generation**
+   - Generates Pact consumer test stubs from API documentation, OpenAPI specs, or existing integration test code
+   - Creates contracts that cover the specific interactions each consumer actually uses, not the entire provider API
+   - Identifies missing consumer contract coverage: API calls in the codebase that are not covered by a contract
+   - Designs consumer contract update workflows when consumer requirements change
+
+3. **Provider verification configuration**
+   - Configures provider verification tests that validate the provider's actual implementation against published consumer contracts
+   - Integrates contract verification into the provider's CI/CD pipeline as a mandatory gate before deployment
+   - Designs provider state setup for contract tests that depend on specific data states
+   - Creates provider verification failure triage guides for common failure categories
+
+4. **Breaking change detection**
+   - Defines what constitutes a breaking vs. non-breaking API change for each contract type
+   - Designs semantic versioning policies for APIs with consumer contracts
+   - Creates a pre-commit hook or CI check that detects potential contract-breaking changes before they reach the main branch
+   - Produces a breaking change impact analysis workflow: when a breaking change is necessary, identify all affected consumers
+
+5. **Contract broker and governance**
+   - Designs the Pact Broker (or equivalent) deployment and configuration
+   - Creates contract versioning and tagging policies for managing contracts across multiple environments (test, staging, production)
+   - Establishes the "can I deploy?" workflow integrating contract verification results with deployment gates
+   - Designs contract ownership and update notification workflows across service teams
+
+6. **Schema and event contract testing**
+   - Extends contract testing to asynchronous messaging: Kafka topics, event buses, and message queues
+   - Designs schema registry integration for event contract enforcement
+   - Creates backward/forward compatibility testing for schema evolution
+   - Produces a message contract governance framework for event-driven architectures
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **90% reduction in integration environment dependency** Consumer-driven contracts eliminate the need to spin up dependent services for most API compatibility verification
+- **75% faster detection of API breaking changes** Contract verification in CI catches breaking changes before they reach any shared environment, compared to discovery during integration testing
+- **40% reduction in cross-team coordination overhead** Automated contract verification replaces manual coordination between service teams for API change management
+- **60% decrease in production incidents from API incompatibility** Systematic contract testing prevents the class of production failures caused by undetected API contract breakage
+- **35% improvement in independent deployment frequency** Service teams gain the confidence to deploy independently rather than waiting for cross-team coordination to verify compatibility
+
+**Who Benefits**
+
+- **QA Engineers**: Replace fragile, expensive integration environments with fast, reliable contract tests that run in CI and provide immediate feedback on compatibility
+- **Backend Engineers**: Deploy service changes confidently knowing that consumer contracts will catch any breaking changes before they reach production
+- **API Platform and Architecture Teams**: Establish a governance framework that prevents API contract breakage at scale across dozens of services and teams
+- **Engineering Managers**: Reduce the cross-team coordination overhead that slows microservices development and increase independent deployment frequency across service teams
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Contract Testing Strategy Design**
+```
+Design a contract testing strategy for our microservices architecture.
+
+Architecture overview:
+- Number of services: [count]
+- Service communication patterns: [REST APIs / GraphQL / gRPC / async messaging — describe which services use which]
+- Programming languages: [list languages across services]
+- CI/CD system: [GitHub Actions / GitLab CI / Jenkins / etc.]
+- Current integration testing approach: [describe — shared environment, manual testing, etc.]
+
+High-priority service interactions to cover:
+[List the most critical service-to-service calls — describe consumer, provider, and what the call does]
+- Interaction 1: [Consumer: Service A] → [Provider: Service B] — [description]
+- Interaction 2: [same format]
+[Continue]
+
+Pain points to solve:
+[Describe specific problems you're experiencing — breaking API changes, flaky integration tests, deployment coordination delays, etc.]
+
+Constraints:
+- Team structure: [are teams separated by service? shared platform team?]
+- Tooling preferences: [any existing Pact / schema registry / API gateway investments?]
+
+Design:
+1. Recommended contract testing approach (Pact CDC / bi-directional / schema-based) with rationale
+2. Priority service pairs to add contracts for first, ranked by risk
+3. Contract broker architecture and deployment recommendation
+4. CI/CD integration design: where contract tests run in the pipeline for consumer and provider
+5. Rollout plan: how to implement incrementally without disrupting existing teams
+```
+
+**Prompt 2: Pact Consumer Test Generation**
+```
+Generate Pact consumer tests for the following API interaction.
+
+Consumer service: [service name and its role]
+Provider service: [service name and its role]
+Programming language: [consumer language — e.g. JavaScript/TypeScript, Python, Java]
+Test framework: [e.g. Jest, pytest, JUnit]
+Pact version: [Pact v3 / v4]
+
+API interaction to contract-test:
+- Endpoint: [HTTP method + path — e.g. GET /api/v2/orders/{orderId}]
+- When called with:
+  - Request headers: [list required headers — Authorization, Content-Type, etc.]
+  - Path parameters: [describe with example values]
+  - Query parameters (if any): [describe with example values]
+  - Request body (if applicable): [describe the request body structure]
+
+- Expected response:
+  - Status code: [e.g. 200]
+  - Response headers: [Content-Type, etc.]
+  - Response body: [describe the fields the consumer actually uses — only the fields that matter to the consumer]
+
+Consumer's use of this response:
+[Describe what the consumer does with the response — which fields it reads, how it uses them]
+
+Provider states required:
+[Describe the data state the provider must be in for this interaction — e.g. "an order with ID 123 exists and belongs to account 456"]
+
+Generate:
+1. Pact consumer test in [language] that captures this interaction as a contract
+2. Provider state setup code for the provider verification side
+3. Notes on what the contract covers and what it intentionally does not cover
+4. Instructions for publishing this contract to the Pact Broker
+```
+
+**Prompt 3: Breaking Change Impact Assessment**
+```
+Assess the impact of the following proposed API change on existing consumers.
+
+Provider service: [service name]
+Proposed change description: [describe what is changing in the API]
+
+Change details:
+- Endpoint affected: [HTTP method + path]
+- Change type: [field addition / field removal / field rename / type change / behavior change / endpoint removal / etc.]
+- Before: [describe the current API response/request structure in the affected area]
+- After: [describe the proposed API response/request structure]
+- Reason for change: [describe the business or technical reason]
+
+Known consumers of this endpoint:
+[List services or applications that call this endpoint]
+- Consumer 1: [name, programming language, approximate version of your API they depend on]
+- Consumer 2: [same]
+[Continue for all known consumers]
+
+Available contract data:
+[If you have Pact contracts or OpenAPI specs, describe what they show about consumer usage of the affected fields]
+
+Assess:
+1. Is this a breaking change? Define breaking vs. non-breaking for this specific change type
+2. Which consumers are affected and how?
+3. Can this be made backward-compatible? (e.g., field aliasing, versioned endpoint, deprecation period)
+4. If not backward-compatible: what is the migration plan and what changes does each consumer need to make?
+5. Recommended deployment sequence: in what order should the provider and each consumer deploy to avoid production failures?
+6. Contract update requirements: which Pact contracts need to be updated before provider deployment?
+```
+
+:::

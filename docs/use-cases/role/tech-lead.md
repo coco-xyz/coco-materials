@@ -3940,3 +3940,465 @@ Output: Benchmarking report + gap analysis + improvement target table + investme
 ```
 
 :::
+
+## 21. AI Engineering Metrics Dashboard Designer
+
+> Turn engineering data into clarity — build dashboards that drive decisions, not noise.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Engineering Metrics Dashboard Designer**
+
+Engineering teams drown in metrics while starving for insight. Modern software systems generate enormous volumes of telemetry — build times, test pass rates, deployment frequencies, incident counts, error rates, code churn — but most teams either ignore the data entirely or assemble ad-hoc dashboards that grow into unmaintained noise factories. Tech leads spend hours each week pulling numbers from different tools (JIRA, GitHub, Datadog, PagerDuty, Jenkins) and assembling them into slide decks for leadership, while the engineers actually doing the work have no real-time visibility into the health of their own systems and processes.
+
+The problem is not a lack of data — it is a lack of a coherent, intentional measurement philosophy. Without clearly defined engineering goals, any metric can be measured; without knowing what questions the dashboard is supposed to answer, any visualization can be built. Teams frequently measure what is easy to collect rather than what is meaningful to improve. This leads to dashboards that track vanity metrics (lines of code, ticket counts) while missing the indicators that actually predict outcomes (cycle time, deployment stability, on-call burden). Tech leads know their team is struggling but cannot pinpoint why because their metrics don't tell the right story.
+
+The consequences compound over time. Engineering managers making resource allocation and tooling investment decisions without reliable data are effectively guessing. Conversations with product and business stakeholders about engineering capacity and velocity lack credibility when the supporting numbers are assembled ad-hoc. Teams that do not measure their own performance cannot improve systematically — every sprint retrospective becomes anecdotal. Industry data consistently shows that high-performing engineering teams are distinguished by their metrics discipline: they measure the right things, track trends over time, and make decisions based on evidence.
+
+**How COCO Solves It**
+
+1. **Measurement Philosophy Design**: COCO aligns metrics to engineering goals:
+   - Facilitates a structured goal-question-metric exercise to identify what questions the team needs to answer
+   - Maps DORA metrics (deployment frequency, lead time, change failure rate, MTTR) to the team's specific context
+   - Distinguishes leading indicators (process health) from lagging indicators (outcome metrics) for a balanced view
+   - Identifies which metrics drive behavior change and which are purely diagnostic
+   - Generates a metrics strategy document defining what is measured, why, and at what frequency
+
+2. **Dashboard Architecture Planning**: COCO designs coherent dashboard structures:
+   - Recommends dashboard hierarchy: executive summary → team health → per-service deep dive
+   - Defines the audience and decision supported by each dashboard view
+   - Selects the appropriate visualization type for each metric (trend lines, heat maps, SLO burn rate charts)
+   - Identifies which metrics belong on the same view to enable correlation analysis
+   - Generates dashboard wireframes with panel layout, refresh cadences, and data source specifications
+
+3. **Data Source Integration Mapping**: COCO connects disparate toolchains:
+   - Audits the team's existing tools and identifies which metrics each can supply
+   - Maps data pipelines needed to bring metrics from source systems into a unified dashboard
+   - Identifies metric gaps where data collection infrastructure must be added
+   - Recommends the lowest-effort approach to achieving each required metric given the existing stack
+   - Generates integration specifications for BI tools (Grafana, Datadog, Looker) or custom dashboards
+
+4. **Alert and Threshold Configuration Advisor**: COCO improves signal-to-noise ratio:
+   - Reviews existing alert configurations for over-alerting patterns causing on-call fatigue
+   - Recommends threshold values based on historical baseline data and SLO requirements
+   - Designs tiered alert severity levels matching the urgency of different metric deviations
+   - Identifies metrics that should trigger dashboard review rather than immediate alerts
+   - Generates alert runbook stubs for each configured alert to reduce incident response time
+
+5. **Trend Analysis and Reporting**: COCO automates insight extraction:
+   - Analyzes metric trends over time to identify gradual degradation before it becomes a crisis
+   - Generates weekly and monthly engineering health reports summarizing key trends
+   - Highlights anomalies: metrics that deviated significantly from historical patterns and why
+   - Compares team performance against DORA benchmarks and internal historical baselines
+   - Produces executive-ready summaries of engineering health for quarterly business reviews
+
+6. **Engineering OKR Progress Tracking**: COCO connects metrics to objectives:
+   - Maps engineering OKRs to specific measurable metrics that evidence progress
+   - Generates OKR progress dashboards updated from live data sources
+   - Identifies which OKRs are on track, at risk, and off track based on current metric trends
+   - Advises on mid-quarter metric recalibration when OKR targets prove poorly scoped
+   - Produces OKR retrospective reports at quarter end with evidence-based analysis of what drove outcomes
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Time spent assembling engineering metrics for leadership reviews**: From 3-4 hours per week to **under 30 minutes** with automated dashboards
+- **Engineering OKR tracking accuracy**: Teams using structured metrics dashboards report **89% of OKRs with quantitative evidence** vs. 31% with ad-hoc tracking
+- **Alert fatigue reduction**: Properly tuned alert configurations reduce non-actionable pages by **64%** on average
+- **Time to detect gradual system health degradation**: From reactive incident discovery to **proactive detection 2-3 weeks earlier** via trend analysis
+- **Leadership confidence in engineering reporting**: Engineering managers report **3.2x higher confidence** in capacity planning decisions when backed by structured metrics
+
+**Who Benefits**
+
+- **Tech Leads**: Spend time acting on engineering insights rather than assembling them, and walk into leadership conversations with credible, data-backed narratives.
+- **Engineering Managers**: Make headcount, tooling, and process investment decisions based on evidence rather than anecdote, with clear ROI measurement.
+- **Platform and DevEx Teams**: Receive specific, quantified requirements for infrastructure improvements rather than vague complaints about developer experience.
+- **CTOs and VPs of Engineering**: Access reliable, consistent engineering health indicators to compare across teams and make portfolio-level decisions.
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Engineering Metrics Strategy Design**
+```
+Help me design a comprehensive engineering metrics strategy for my team.
+
+Team context:
+- Team size: [N engineers]
+- Team type: [product team / platform team / infrastructure / full-stack / mobile]
+- Primary engineering goal this quarter: [e.g., improve deployment reliability, reduce lead time, reduce on-call burden]
+- Current metrics we track: [list any metrics currently tracked, or "none systematically"]
+- Current tooling: [CI/CD: __, monitoring: __, issue tracking: __, source control: __]
+
+Problems we are trying to solve:
+1. [e.g., we don't know why our deployment frequency dropped last quarter]
+2. [e.g., we can't explain our velocity to product management credibly]
+3. [e.g., we have too many alerts and on-call is burned out]
+
+Please:
+1. Apply the Goal-Question-Metric framework to translate our goals into specific measurable indicators
+2. Map the DORA four key metrics to our context and recommend which to prioritize first
+3. Identify 8-10 core metrics for a balanced engineering health scorecard
+4. For each metric: data source, collection method, refresh frequency, and target threshold
+5. Recommend a phased implementation plan — what to instrument first given our existing toolchain
+```
+
+**Prompt 2: Dashboard Design and Layout Planning**
+```
+Design a dashboard for our engineering team's weekly health review.
+
+Audience: [tech lead + engineering manager / full engineering team / executive leadership]
+Primary questions this dashboard should answer:
+1. [e.g., Is our system getting more or less reliable week over week?]
+2. [e.g., Are we shipping faster or slower than last month?]
+3. [e.g., Which services are generating the most on-call burden?]
+
+Available data sources:
+- GitHub/GitLab: [available metrics — e.g., PR cycle time, merge frequency]
+- CI/CD system: [available metrics — e.g., build success rate, pipeline duration]
+- Monitoring platform: [available metrics — e.g., error rate, latency, uptime]
+- Incident management: [available metrics — e.g., incident count, MTTR, severity breakdown]
+- Issue tracker: [available metrics — e.g., cycle time, sprint completion rate]
+
+Dashboard tool we use: [Grafana / Datadog / Looker / custom / not yet decided]
+
+Please:
+1. Design the panel layout for a single-screen engineering health dashboard
+2. Specify the visualization type for each panel (line chart, gauge, table, heatmap) and justify the choice
+3. Identify the 3-5 most important metrics to show in the summary row visible at a glance
+4. Recommend alert thresholds for the 3 most critical metrics based on their role in identifying problems early
+5. Generate a dashboard specification document I can hand to an engineer to implement
+```
+
+**Prompt 3: Engineering Metrics Quarterly Review**
+```
+Analyze our engineering metrics from the past quarter and generate insights for our QBR.
+
+Metrics data for the quarter:
+[Paste or describe your key metrics with values for Q1 and Q2 for comparison]
+
+Context:
+- Major changes this quarter: [new services launched, team changes, incidents, process changes, etc.]
+- Engineering OKRs for the quarter: [list OKR titles and whether they were hit/missed]
+- Incidents: [count and severity breakdown]
+
+Please:
+1. Identify the 3 most significant positive trends and what likely drove them
+2. Identify the 3 most concerning trends or areas of degradation
+3. For each concerning trend, propose a root cause hypothesis and the diagnostic question to investigate
+4. Produce an executive summary (200 words) of engineering health this quarter — suitable for a QBR audience
+5. Generate 3 data-backed engineering investment recommendations for next quarter based on the trends observed
+```
+
+:::
+
+## 22. AI Team Knowledge Graph Builder
+
+> Surface what your team knows, map who knows it, and stop knowledge from walking out the door.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Team Knowledge Graph Builder**
+
+Engineering knowledge is distributed, invisible, and constantly at risk of being lost. When an engineer leaves, retires, or moves to a different team, they take with them years of accumulated understanding about why certain architectural decisions were made, how a specific service behaves under unusual conditions, which third-party integration has a quirk that only manifests at high load, and how to navigate a particular vendor relationship. This tacit knowledge — which lives in people's heads, not in documentation — is the actual operating system of most engineering teams, and it disappears with almost no warning.
+
+Tech leads are caught between two failure modes. On one end: they try to document everything, producing sprawling wikis that go stale within weeks, require heroic maintenance effort, and are ignored by engineers under deadline pressure. On the other end: they document nothing, operating purely on tribal knowledge until the next critical departure triggers a crisis. Neither extreme is sustainable. What teams actually need is a lightweight, continuously maintained knowledge graph — a map of who knows what, where critical knowledge lives, and which knowledge dependencies create single points of failure risk.
+
+The knowledge problem compounds in rapidly growing or changing teams. New engineers spend months slowly mapping the implicit knowledge landscape through questions, mistakes, and informal conversations. Onboarding is inefficient not because documentation is missing but because engineers cannot find relevant knowledge on demand. Team restructuring causes knowledge to become fragmented across organizational boundaries. The cost of knowledge loss is difficult to measure directly, but manifests as longer incident resolution times, repeated mistakes, slower onboarding, and dependencies on specific individuals that block work when those individuals are unavailable.
+
+**How COCO Solves It**
+
+1. **Knowledge Domain Mapping**: COCO builds a structured picture of team expertise:
+   - Facilitates structured interviews to surface the key knowledge domains the team operates across
+   - Distinguishes operational knowledge (how to run systems) from design knowledge (why systems are built this way)
+   - Maps knowledge to specific people, documents, and communication channels where it currently resides
+   - Identifies knowledge that exists only in one person's head with no backup holder
+   - Generates a knowledge domain inventory organized by system, process, and organizational context
+
+2. **Knowledge Risk Assessment**: COCO identifies dangerous single points of failure:
+   - Scores each knowledge domain by criticality (what breaks if this knowledge is lost?) and concentration (how many people hold it?)
+   - Identifies the highest-risk knowledge gaps — critical and concentrated in one person
+   - Models the impact of specific departure scenarios: "if engineer X leaves, what do we lose?"
+   - Tracks knowledge risk over time as the team changes and monitors risk trajectory
+   - Generates a knowledge risk report prioritizing which knowledge to capture or distribute first
+
+3. **Knowledge Capture Workflow**: COCO extracts knowledge efficiently:
+   - Generates structured interview guides for capturing system-specific knowledge from domain experts
+   - Converts meeting notes, incident postmortems, and Slack threads into structured knowledge entries
+   - Drafts "Architecture Decision Records" (ADRs) from conversations and pull request discussions
+   - Produces runbooks, FAQ documents, and troubleshooting guides from informal knowledge sources
+   - Identifies the minimal documentation needed to protect against the highest-risk knowledge losses
+
+4. **Knowledge Transfer Program Design**: COCO distributes knowledge across the team:
+   - Designs shadow-on-call rotations, pairing schedules, and knowledge transfer sessions
+   - Generates structured learning objectives for each knowledge transfer pairing
+   - Creates knowledge quizzes and validation exercises to confirm transfer has occurred
+   - Advises on the optimal sequence for distributing knowledge given team member bandwidth
+   - Tracks knowledge transfer progress and identifies sessions that have not yet resulted in confirmed transfer
+
+5. **Onboarding Knowledge Graph Integration**: COCO accelerates new engineer productivity:
+   - Generates a personalized learning map for each new engineer based on their role and prior background
+   - Connects new engineers to the specific knowledge holders relevant to their initial work assignments
+   - Creates a 30/60/90-day knowledge acquisition plan with checkpoints and validation exercises
+   - Identifies the most common knowledge gaps new engineers hit and proactively addresses them in onboarding materials
+   - Tracks onboarding velocity across cohorts to measure whether knowledge transfer is improving over time
+
+6. **Knowledge Freshness Monitor**: COCO keeps the graph current:
+   - Assigns expiration dates to documented knowledge based on the rate of change of the underlying system
+   - Alerts knowledge owners when their documented knowledge domains are due for review
+   - Detects knowledge decay signals: documentation that references deprecated systems, outdated configurations, or former team members
+   - Connects knowledge updates to release events, incident postmortems, and architectural changes
+   - Generates a "knowledge health score" for each system area based on documentation currency and coverage
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Mean time to resolve incidents involving unfamiliar system components**: Reduced by **47%** when team knowledge graph is current and searchable
+- **New engineer time to first independent contribution**: Shortened from **8-12 weeks to 4-6 weeks** with structured knowledge graph onboarding
+- **Knowledge single points of failure identified and mitigated**: Teams eliminate **68% of critical single-person knowledge dependencies** within one quarter of systematic mapping
+- **Documentation maintenance burden**: Reduced by **55%** when knowledge capture is triggered by events (incidents, releases, departures) rather than scheduled documentation sprints
+- **Time to execute critical runbooks without consulting the author**: Reduced by **71%** after runbooks are reviewed and enriched using the knowledge graph workflow
+
+**Who Benefits**
+
+- **Tech Leads**: Gain visibility into team knowledge distribution and can proactively address single points of failure before departures or role changes trigger a crisis.
+- **Engineering Managers**: Make better staffing, rotation, and growth decisions when they can see the knowledge landscape and identify under-invested areas.
+- **New Engineers**: Navigate the implicit knowledge landscape of a complex codebase and organization far faster with a structured guide rather than pure trial and error.
+- **Site Reliability and Platform Teams**: Maintain higher-quality runbooks and operational documentation by connecting knowledge capture to the incidents and events that reveal gaps.
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Team Knowledge Risk Assessment**
+```
+Help me assess my team's knowledge risk and identify single points of failure.
+
+Team composition:
+[For each engineer: name/alias, tenure, primary areas of expertise, systems they own, upcoming changes (leaving, changing role, parental leave, etc.)]
+
+Systems and domains the team is responsible for:
+[List key systems, services, processes, and integration points with brief descriptions]
+
+Recent incidents or close calls related to knowledge gaps:
+[Describe any incidents where unavailability of a specific person caused delay or problems]
+
+Planned personnel changes in the next 6 months:
+[List any confirmed departures, role changes, team transfers, or extended leaves]
+
+Please:
+1. Map each critical knowledge domain to the number of team members who hold it
+2. Identify the top 5 highest-risk knowledge concentrations (critical domain + 1-2 holders)
+3. For each high-risk domain: estimate the blast radius if the knowledge holder left tomorrow
+4. Prioritize knowledge transfer targets by combining criticality, concentration, and departure probability
+5. Generate a 90-day knowledge risk mitigation plan with specific actions and owners
+```
+
+**Prompt 2: Knowledge Capture Interview Guide**
+```
+Generate a structured knowledge capture guide for an expert interview.
+
+Engineer to interview: [ROLE AND TENURE — not name]
+Domain to capture: [SPECIFIC SYSTEM, SERVICE, OR PROCESS]
+Reason for capture: [UPCOMING DEPARTURE / ROLE CHANGE / RISK MITIGATION / ONBOARDING PREP]
+Interview duration available: [X hours total, over Y sessions]
+
+What we already have documented about this domain: [DESCRIBE OR "NOTHING"]
+
+What we know we don't know (identified gaps): [LIST SPECIFIC GAPS IF KNOWN]
+
+Please generate:
+1. A structured interview guide with 15-20 questions organized by: system architecture → operational procedures → failure modes → undocumented decisions
+2. For each question: what documentation artifact it should produce (ADR / runbook / FAQ / diagram description)
+3. Follow-up probe questions for the 5 most important areas
+4. A parallel shadowing exercise where the expert walks through a specific operational task while narrating decisions
+5. A post-interview validation checklist to confirm the knowledge was captured accurately before the expert is unavailable
+```
+
+**Prompt 3: New Engineer Knowledge Onboarding Plan**
+```
+Create a personalized knowledge onboarding plan for a new engineer joining my team.
+
+New engineer background:
+- Role: [SENIOR SWE / MID-LEVEL SWE / SRE / STAFF ENGINEER]
+- Prior experience: [RELEVANT BACKGROUND — languages, domains, company scale]
+- First assignment: [DESCRIBE THE INITIAL PROJECT OR TEAM THEY WILL JOIN]
+
+Team knowledge landscape:
+[Describe the team's primary systems, technical stack, and knowledge domains — or paste relevant sections of team documentation]
+
+Start date: [DATE]
+Ramp-up expectation: first independent PR by [DATE], fully productive by [DATE]
+
+Key knowledge holders available for pairing:
+[List team members with their domains of expertise]
+
+Please:
+1. Generate a 30/60/90-day knowledge acquisition plan with weekly learning objectives
+2. Identify the 10 most critical knowledge areas to acquire in the first 30 days for this specific role and assignment
+3. Design a structured pairing schedule connecting the new engineer to specific knowledge holders by domain
+4. Create a knowledge checkpoint quiz for the 30-day mark to validate acquisition of critical concepts
+5. List the 5 most common "gotchas" or non-obvious knowledge gaps for engineers new to this type of system, with pre-emptive explanations
+```
+
+:::
+
+## 23. AI Cross-Team Dependency Manager
+
+> Eliminate the coordination tax — make cross-team dependencies visible, predictable, and unblocked.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Cross-Team Dependency Manager**
+
+Cross-team dependencies are the invisible tax on engineering productivity. When a feature requires API changes from a platform team, infrastructure work from DevOps, and data schema updates from a data engineering team — all on different roadmaps, with different sprint cadences, and different priorities — the coordinating team spends enormous energy on alignment that produces no direct engineering output. Tech leads become full-time dependency chasers, attending cross-team syncs, sending status-request Slack messages, updating project trackers, and escalating blockers to engineering managers who escalate to product managers who escalate to directors — a coordination cascade that can take weeks to resolve a simple dependency.
+
+The deeper problem is that cross-team dependencies are usually discovered late. A team designs a feature, writes tickets, begins sprint planning, and only then discovers that another team's API does not support the required operation, or that a downstream service has a reliability concern that makes the planned approach unworkable. By this point, the team has committed to delivery timelines, product has communicated expectations to stakeholders, and the cost of the late discovery is amplified by the pressure to find a workaround rather than the right solution. Systematic early dependency identification — built into the planning process rather than discovered during execution — would prevent most of these delays.
+
+At scale, cross-team dependency mismanagement is one of the primary drivers of feature delays, sprint carryover, and engineering morale problems. Engineers experience it as repeated context switches, meetings replacing coding time, and the frustration of work that is blocked by factors outside their control. Tech leads experience it as constant escalation paths and the inability to give reliable commitments to product stakeholders. The solution requires both better tooling and better process — a systematic approach to identifying, communicating, and resolving dependencies before they become blockers.
+
+**How COCO Solves It**
+
+1. **Dependency Discovery and Mapping**: COCO surfaces hidden dependencies early:
+   - Reviews feature briefs, design documents, and JIRA epics to identify cross-team API, data, and infrastructure dependencies
+   - Builds a dependency graph showing which teams depend on which other teams and for what
+   - Distinguishes hard dependencies (work cannot start without the dependency resolved) from soft dependencies (preferred but can be worked around)
+   - Identifies bidirectional dependencies where two teams are each waiting on the other
+   - Generates a dependency inventory at the start of each planning cycle before sprints are committed
+
+2. **Dependency Communication Templates**: COCO standardizes cross-team coordination:
+   - Generates structured dependency request documents that communicate clearly what is needed, when, and why
+   - Drafts escalation messages calibrated to urgency level with appropriate tone for different audiences
+   - Creates dependency status update templates for weekly cross-team syncs
+   - Produces dependency "contract" documents that specify what Team A commits to delivering to Team B and by when
+   - Drafts API change notifications with adequate lead time for dependent teams to adapt
+
+3. **Blocker Resolution Advisor**: COCO accelerates unblocking:
+   - Analyzes a blocked dependency and generates a structured options analysis (wait / workaround / descope / escalate)
+   - Identifies technical workarounds (stubs, feature flags, contract tests) that allow parallel development
+   - Estimates the cost (time, tech debt) of each workaround option to inform the trade-off decision
+   - Recommends the appropriate escalation path based on urgency, blast radius, and organizational context
+   - Drafts escalation documents with enough context for a manager to act without requiring a lengthy briefing
+
+4. **Cross-Team Roadmap Alignment**: COCO coordinates planning across teams:
+   - Compares roadmaps across dependent teams to identify timeline mismatches before they cause delays
+   - Identifies upcoming features that will require significant cross-team coordination and flags them for early engagement
+   - Generates a quarterly dependency risk report identifying the highest-risk inter-team timeline gaps
+   - Advises on sequencing cross-team work to minimize coordination overhead
+   - Produces a shared timeline view showing dependencies and critical path across multiple team roadmaps
+
+5. **SLA and Commitment Tracking**: COCO holds cross-team commitments accountable:
+   - Tracks promises made across teams with owners, deadlines, and delivery criteria
+   - Sends automated reminders to commitment owners approaching deadlines
+   - Escalates missed commitments according to predefined rules before they become critical path blockers
+   - Generates a commitment reliability scorecard for each team to support objective conversations about partnership quality
+   - Documents commitment history for retrospectives and planning calibration
+
+6. **Dependency Pattern Analysis**: COCO identifies structural coordination problems:
+   - Analyzes historical dependency data to identify teams that are chronic bottlenecks
+   - Maps which coupling patterns recur most often as signals for potential architecture or team boundary changes
+   - Identifies whether recurring dependencies suggest a service ownership misalignment or team topology problem
+   - Compares dependency density across quarters to track whether coordination overhead is improving or worsening
+   - Generates architectural and organizational recommendations to reduce structural dependency through better service boundaries
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Sprint carryover due to cross-team dependency blockers**: Reduced from **34% to 11%** of stories per sprint for teams with structured dependency management
+- **Time from dependency identification to first cross-team alignment meeting**: Reduced from **8-12 days to 1-2 days** with standardized dependency request templates
+- **Missed cross-team commitments per quarter**: Decreased by **58%** when commitments are tracked with automated reminders and escalation rules
+- **Lead time for features with 3+ cross-team dependencies**: Shortened by **23%** through early dependency discovery during planning rather than execution
+- **Engineering manager time spent on cross-team escalation**: Reduced by **40%** when tech leads have structured tools to resolve dependencies at their level
+
+**Who Benefits**
+
+- **Tech Leads**: Spend time on engineering decisions rather than coordination overhead, and give product stakeholders reliable delivery commitments backed by visible dependency status.
+- **Engineering Managers**: Reduce time spent as escalation intermediaries and gain visibility into cross-team dependency health across their portfolio of teams.
+- **Product Managers**: Receive earlier, more accurate signals about delivery risk from cross-team dependencies, enabling proactive stakeholder management.
+- **Platform and Shared Service Teams**: Manage incoming dependency requests systematically with clear priority signals rather than reacting to the loudest request in Slack.
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Feature Dependency Discovery and Risk Assessment**
+```
+Help me identify and assess all cross-team dependencies for an upcoming feature.
+
+Feature description:
+- Feature name: [NAME]
+- User-facing goal: [WHAT DOES THE USER GET?]
+- Planned delivery: [SPRINT/DATE]
+- Owning team: [MY TEAM NAME AND PRIMARY RESPONSIBILITIES]
+
+Technical scope (what our team needs to build):
+[Describe the components, services, and changes our team is responsible for]
+
+Teams we know we interact with:
+[List any teams we've already identified as dependencies, with brief descriptions of what we need]
+
+Please:
+1. Review the technical scope and identify additional cross-team dependencies I may have missed
+2. For each dependency (known and identified): classify as hard or soft, and estimate when the dependency must be resolved relative to our delivery date
+3. Identify the 3 highest-risk dependencies by combining criticality and the likelihood of delay
+4. Generate a dependency request document for each hard dependency, including: what we need, acceptance criteria, needed-by date, and impact of delay
+5. Recommend a dependency kick-off meeting agenda for the first cross-team alignment session
+```
+
+**Prompt 2: Blocker Resolution Analysis**
+```
+I have a cross-team dependency that is blocking my team. Help me analyze options and determine the best path forward.
+
+Blocked work:
+- What we are trying to build: [DESCRIBE]
+- What we need from the other team: [SPECIFIC API, DATA, INFRASTRUCTURE, OR APPROVAL]
+- When we need it: [DATE]
+- Current status: [DESCRIBE THE BLOCKER — not started / in progress but delayed / deprioritized / unclear]
+
+Impact of the blocker:
+- Engineers blocked: [N]
+- Delivery date at risk: [DATE]
+- Downstream dependencies (other teams waiting on us): [DESCRIBE IF ANY]
+
+Other team context:
+- Team's current sprint priority: [DESCRIBE IF KNOWN]
+- Relationship with the team lead: [POSITIVE / NEUTRAL / TENSE]
+- Their stated reason for delay: [QUOTE OR PARAPHRASE IF KNOWN]
+
+Please:
+1. Generate a structured options analysis: wait / workaround / descope / escalate — with estimated time cost and trade-offs for each
+2. For the most promising workaround: describe it technically and estimate the debt removal effort required post-launch
+3. Draft an escalation message to my engineering manager with the context needed to act, calibrated to the urgency level
+4. Suggest what I should say to the other team's tech lead to move this forward without damaging the relationship
+5. Recommend what decision to make given the context and timeline
+```
+
+**Prompt 3: Quarterly Cross-Team Dependency Retrospective**
+```
+Help me analyze our cross-team dependency patterns from the past quarter to improve our planning process.
+
+Dependency data from last quarter:
+[For each significant cross-team dependency: teams involved, nature of dependency, discovery date, resolution date, outcome (resolved on time / delayed / worked around / descoped), impact on delivery]
+
+Total stories with cross-team dependencies: [N out of total N stories]
+Stories delayed due to cross-team dependencies: [N]
+Cross-team escalations required: [N]
+
+Please:
+1. Identify the top 3 most problematic dependency patterns — which team pairs, types of dependencies, or process failures caused the most delay
+2. Calculate the total sprint capacity lost to cross-team dependency overhead this quarter
+3. Identify which dependencies were discoverable earlier and what process change would have surfaced them sooner
+4. Recommend 3 specific process changes for next quarter to reduce dependency-related delays
+5. Draft a dependency health section for our quarterly engineering retrospective document (300 words), describing what happened and what we're changing
+```
+
+:::

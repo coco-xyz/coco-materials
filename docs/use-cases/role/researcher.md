@@ -3409,3 +3409,465 @@ Please:
 ```
 
 :::
+
+## 21. AI Preprint Strategy Advisor
+
+> Maximize the reach and impact of your research before formal peer review.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Preprint Strategy Advisor**
+
+The preprint ecosystem has transformed scientific communication, allowing researchers to share findings months or years before formal publication. Yet most researchers approach preprints reactively — uploading a manuscript to arXiv or bioRxiv at submission time without a deliberate strategy for timing, server selection, version management, or promotion. This unplanned approach squeezes the primary benefit of preprints: establishing priority, building community awareness, and collecting informal feedback that can strengthen the peer-reviewed manuscript.
+
+The mechanics of effective preprint strategy are poorly taught and inconsistently practiced even within strong research groups. Decisions about which server best serves a paper's audience, how to announce a preprint to maximize visibility within the relevant community, when to update a version, and how to link preprint engagement data into tenure and grant narratives require knowledge that spans disciplines, platforms, and evolving community norms. Junior researchers in particular lack mentorship on these practices and often default to whatever their supervisor did a decade ago.
+
+The stakes are rising as preprint activity becomes a visible signal of research productivity and community engagement. Funders and hiring committees increasingly look at preprint records as evidence of research activity between formal publications. Researchers who manage their preprint presence well establish priority claims earlier, attract collaborators sooner, and generate citation interest that carries into the final published version. Industry benchmarks show that strategically promoted preprints receive 3-5x more citations in the first year post-publication than unannounced uploads.
+
+**How COCO Solves It**
+
+1. **Preprint Server Selection**: COCO matches manuscripts to the right repository:
+   - Analyzes the paper's topic, methodology, and target audience to recommend the optimal server
+   - Compares server-specific factors: community size, disciplinary norms, indexing in PubMed/Scopus/Google Scholar
+   - Identifies whether a preprint server has a formal journal partnership that could benefit the submission
+   - Advises on overlay journal opportunities where the preprint itself becomes the published record
+   - Flags discipline-specific considerations (e.g., NIH preprint policies, journal embargo policies on preprints)
+
+2. **Timing and Priority Strategy**: COCO optimizes submission timing:
+   - Identifies optimal posting windows based on community engagement patterns (day of week, time of year)
+   - Advises on priority claim considerations — when to post to establish precedence before a competing group
+   - Evaluates whether to post before or after journal submission based on target journal's preprint policy
+   - Maps upcoming conferences where the preprint would complement a presentation for amplified visibility
+   - Generates a timeline syncing preprint posting, social announcement, journal submission, and version updates
+
+3. **Promotional Announcement Drafting**: COCO creates compelling preprint announcements:
+   - Writes Twitter/X and Mastodon thread scripts tailored to the research community's communication norms
+   - Drafts email announcements to relevant mailing lists, society newsletters, and community Slack channels
+   - Creates a lay-language summary suitable for institutional press offices and science communication platforms
+   - Generates a structured abstract formatted for ResearchGate, Academia.edu, and LinkedIn audiences
+   - Adapts messaging to different audiences: fellow specialists, adjacent disciplines, and general scientific audiences
+
+4. **Version Management Planner**: COCO tracks revision cycles:
+   - Recommends when to post updated versions based on peer review feedback and community comments
+   - Tracks differences between posted versions and flags what changed for reader transparency
+   - Advises on how to reference earlier versions in the final published paper
+   - Monitors community engagement metrics on each version to inform revision priorities
+   - Generates a version history summary suitable for grant applications and promotion dossiers
+
+5. **Impact Documentation for Career Records**: COCO builds preprint evidence trails:
+   - Compiles preprint engagement metrics (downloads, citations, Altmetric scores) for grant and promotion use
+   - Drafts narrative language translating preprint metrics into evidence of scholarly impact
+   - Documents priority claims with timestamps and engagement data for patent and IP contexts
+   - Tracks whether preprints have been cited in other preprints, registered reports, or systematic reviews
+   - Generates a preprint impact section for CVs, biosketches, and research statements
+
+6. **Community Feedback Integration**: COCO extracts value from informal review:
+   - Monitors preprint comment threads, social media responses, and email feedback for substantive scientific input
+   - Categorizes informal feedback by type: methodology concerns, interpretation suggestions, missing citations, positive engagement
+   - Synthesizes the most substantive feedback into a revision checklist for the peer-review manuscript
+   - Identifies expert commenters whose feedback warrants a direct response or acknowledgment
+   - Tracks whether informal feedback predicted the formal peer review concerns that were later raised
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **First-year citation rate for preprints**: Strategically promoted preprints average **3.2x more citations** than unannounced uploads within 12 months of formal publication
+- **Time to establish community awareness of new findings**: From publication date to **preprint posting date** (average 8-month acceleration)
+- **Informal feedback captured before peer review**: Teams using COCO-guided promotion collect **4-7 substantive comments** per preprint vs. 0-1 for unannounced uploads
+- **Preprint-to-acceptance conversion rate**: Researchers using structured version management show **22% faster revision cycles** in formal peer review
+- **Career documentation completeness**: Researchers capture and document preprint impact for **100% of eligible outputs** vs. ~30% without a structured workflow
+
+**Who Benefits**
+
+- **Early-Career Researchers**: Establish a visible publication record and priority claims faster than the traditional peer-review timeline allows, building reputation between formal publications.
+- **Research Group Leaders**: Ensure consistent preprint strategy across the group, maintaining quality control over how unreviewed work is presented to the community.
+- **Technology Transfer Offices**: Receive timely documentation of preprint timestamps for patent priority considerations before IP disclosures are formally filed.
+- **Research Communications Offices**: Access COCO-generated lay summaries and announcement drafts to amplify institutional research visibility without burdening scientists.
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Preprint Readiness and Server Selection**
+```
+I have a manuscript ready for preprint posting and need a strategy for submission.
+
+Manuscript details:
+- Title: [TITLE]
+- Field and subfield: [PRIMARY DISCIPLINE AND SPECIALTY]
+- Key findings: [2-3 SENTENCE SUMMARY]
+- Methods: [EXPERIMENTAL / COMPUTATIONAL / THEORETICAL / MIXED]
+- Target journal for formal submission: [JOURNAL NAME AND PUBLISHER]
+- Journal preprint policy: [PERMITS / PROHIBITS / REQUIRES EMBARGO — or "unknown"]
+
+My goals for the preprint:
+- [ ] Establish priority for a specific finding before a competing group publishes
+- [ ] Collect community feedback before journal submission
+- [ ] Accelerate awareness of results for the field
+- [ ] Build my publication record for an upcoming grant or job application
+- [ ] Other: [DESCRIBE]
+
+Please:
+1. Recommend the optimal preprint server(s) for this paper with reasoning
+2. Advise on timing relative to my journal submission given the journal's policy
+3. Identify any discipline-specific considerations I should know before posting
+4. Generate a 48-hour promotion plan for the day of and day after posting
+5. Draft a 280-character Twitter/X announcement and a 5-tweet thread script for the paper
+```
+
+**Prompt 2: Preprint Impact Documentation for Career Use**
+```
+I need to document my preprint activity for an upcoming grant application / promotion dossier.
+
+My preprint record:
+[For each preprint: server, title, posting date, current version, download count if available, citation count if available, Altmetric score if available, subsequent journal publication status]
+
+Grant/dossier context:
+- Application type: [NIH R01 / NSF / ERC / tenure dossier / job application]
+- Section where preprint activity will be discussed: [BIOSKETCH / RESEARCH PLAN / PUBLICATION LIST / OTHER]
+- Specific claim I want to support: [e.g., "active researcher with recent output," "established priority in X area," "community engagement"]
+
+Please:
+1. Select which preprints are most relevant to this specific application and claim
+2. Draft narrative language (150-200 words) describing my preprint activity in a way appropriate for this application type
+3. Identify the strongest evidence from my preprint metrics to support the stated claim
+4. Advise on how to reference preprints in the publication list to comply with [FUNDER/INSTITUTION] policies
+5. Flag any risks (e.g., preprint without subsequent peer-reviewed publication) and suggest how to address them
+```
+
+**Prompt 3: Community Feedback Synthesis After Posting**
+```
+My preprint has been posted for [X weeks] and I have received community feedback.
+Please help me synthesize it into a revision checklist.
+
+Feedback received:
+Twitter/X thread responses: [PASTE KEY COMMENTS OR SUMMARIZE]
+Email feedback from colleagues: [PASTE OR SUMMARIZE]
+Preprint server comment thread: [PASTE OR SUMMARIZE]
+PubPeer or other annotation: [PASTE OR SUMMARIZE IF ANY]
+
+Original manuscript's key claims:
+1. [CLAIM 1]
+2. [CLAIM 2]
+3. [CLAIM 3]
+
+Please:
+1. Categorize each piece of feedback: methodology concern / interpretation suggestion / missing citation / positive validation / out of scope
+2. For each substantive concern, assess its severity: minor / moderate / requires additional experiments or analysis
+3. Produce a prioritized revision checklist, separating "must address" from "consider addressing"
+4. Identify any patterns — do multiple reviewers flag the same concern?
+5. Draft a 2-sentence response I can post publicly acknowledging feedback and summarizing planned revisions
+```
+
+:::
+
+## 22. AI Replication and Reproducibility Planner
+
+> Build research that withstands scrutiny and passes the reproducibility test.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Replication and Reproducibility Planner**
+
+The replication crisis has reshaped scientific credibility across psychology, medicine, economics, and increasingly the physical sciences. Studies with underpowered samples, flexible analytical pipelines, unreported researcher degrees of freedom, and inadequate method descriptions are routinely failing to replicate, eroding public trust in science and wasting enormous research resources. Yet most researchers receive little systematic training in reproducibility best practices, and the incentive structure — rewarding novel positive results over replications — creates persistent pressure to cut corners on rigor without fully recognizing the long-term cost to career credibility.
+
+Designing genuinely reproducible research requires integrating multiple practices simultaneously: pre-registration of hypotheses and analysis plans, power analysis to determine adequate sample sizes, version-controlled analysis code, data sharing with appropriate metadata, comprehensive method reporting, and transparent handling of negative results. Each of these practices has its own technical requirements, community norms, platform options, and documentation standards. Staying current with evolving funder mandates (NIH data sharing policy, NSF open science requirements, journal-specific standards) while managing the practical burdens of implementation requires sustained attention that competes with the core scientific work.
+
+Journals and funders are rapidly raising reproducibility standards, with preregistration requirements, open data mandates, and registered report formats becoming mainstream. Researchers who have not built reproducibility practices into their workflow are increasingly encountering desk rejections, reviewer critiques, and compliance failures that delay publication and damage reputations. Building a systematic, COCO-assisted reproducibility workflow creates both a competitive advantage in publication and a genuine scientific contribution that strengthens the field.
+
+**How COCO Solves It**
+
+1. **Pre-Registration Design Support**: COCO helps researchers formalize hypotheses before data collection:
+   - Guides researchers through the structured pre-registration templates on OSF, AsPredicted, and PROSPERO
+   - Distinguishes confirmatory hypotheses (pre-registered) from exploratory analyses (reported transparently as such)
+   - Reviews draft pre-registrations for internal consistency, testability, and completeness
+   - Advises on the appropriate specificity level for the analysis plan given the research design
+   - Generates pre-registration documents ready for submission to the relevant registry
+
+2. **Power Analysis and Sample Size Planning**: COCO ensures studies are adequately powered:
+   - Calculates required sample sizes for specified effect sizes, power levels, and significance thresholds
+   - Identifies the minimum detectable effect size for a planned study given practical sample size constraints
+   - Reviews published literature on effect size estimates for the phenomenon being studied
+   - Advises on sequential testing designs and adaptive sampling strategies that maintain power
+   - Generates a power analysis section suitable for grant applications and methods sections
+
+3. **Methods Reporting Completeness Checker**: COCO ensures method sections enable replication:
+   - Audits draft methods sections against community reporting standards (CONSORT, ARRIVE, STROBE, etc.)
+   - Identifies missing information: participant demographics, exclusion criteria, equipment specifications, stimulus details, software versions
+   - Generates a methods completeness checklist specific to the study design and discipline
+   - Compares the level of methodological detail to that in recently published papers in the target journal
+   - Drafts supplementary methods language to capture detail that would clutter the main text
+
+4. **Analysis Code Documentation Advisor**: COCO improves computational reproducibility:
+   - Reviews analysis scripts for documentation quality: commented code, clear variable naming, logical structure
+   - Generates README files describing the code repository structure, dependencies, and execution instructions
+   - Advises on data directory structures and naming conventions that make sharing straightforward
+   - Checks that the code produces the exact figures and tables reported in the manuscript
+   - Recommends code archiving platforms (GitHub with Zenodo, OSF, Code Ocean) appropriate to the discipline
+
+5. **Data Sharing Compliance Planner**: COCO navigates open data requirements:
+   - Identifies applicable data sharing mandates from the funder, journal, and institution
+   - Assesses what portions of the dataset can be shared openly vs. require restricted access due to privacy or IP
+   - Generates data dictionaries and codebooks describing variables, units, and coding decisions
+   - Recommends appropriate repositories (Dryad, Zenodo, ICPSR, dbGaP) based on data type and discipline
+   - Drafts the data availability statement for the manuscript
+
+6. **Registered Reports Navigation**: COCO supports this reproducibility-first publication format:
+   - Identifies journals offering registered report formats in the researcher's field
+   - Outlines the stage 1 submission requirements for the target journal
+   - Reviews the introduction and methods of a stage 1 submission for completeness and rigor
+   - Advises on how to handle unexpected findings that arise during data collection after stage 1 acceptance
+   - Generates the stage 2 submission narrative connecting pre-registered analysis plan to actual results
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Manuscript desk rejection rate due to reproducibility concerns**: Reduced from **18% to 4%** for teams implementing full reproducibility workflow
+- **Methods section revision requests in peer review**: Decreased by **61%** when methods are drafted using reporting standard checklists
+- **Data sharing compliance rate**: Increased from **43% to 96%** of eligible publications when COCO manages compliance tracking
+- **Time to prepare data and code for sharing at submission**: Reduced from **3-4 weeks to 3-5 days** when reproducibility practices are integrated during the project
+- **Successful replications of published findings by independent labs**: Teams using pre-registration report **2.1x higher replication rates** by external groups
+
+**Who Benefits**
+
+- **Empirical Researchers in Psychology, Medicine, and Social Sciences**: Fields with the highest replication failure rates benefit most immediately from systematic reproducibility practices.
+- **Computational and Data Scientists**: Improve code documentation and archiving practices that enable others to build on their work and increase long-term citation impact.
+- **Research Integrity Officers**: Gain a systematic framework for supporting reproducibility compliance across the institution before problems arise.
+- **Graduate Students and Postdocs**: Learn reproducibility best practices through structured guidance rather than by discovering failures retrospectively.
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Pre-Registration Document Drafting**
+```
+Help me draft a pre-registration for an upcoming study.
+
+Study overview:
+- Research question: [STATE THE SPECIFIC QUESTION]
+- Design: [EXPERIMENTAL / OBSERVATIONAL / LONGITUDINAL / META-ANALYSIS]
+- Participants / sample: [WHO, HOW MANY, HOW RECRUITED]
+- Primary outcome measure: [WHAT WILL BE MEASURED AND HOW]
+- Secondary outcome measures: [LIST]
+- Main hypothesis: [STATE THE DIRECTIONAL PREDICTION IF APPLICABLE]
+- Statistical test for primary hypothesis: [TEST, SIGNIFICANCE THRESHOLD, ONE/TWO-TAILED]
+
+Planned timing:
+- Data collection start: [DATE]
+- Registry to use: [OSF / AsPredicted / PROSPERO / ClinicalTrials.gov / other]
+
+Please:
+1. Draft a complete pre-registration document suitable for [REGISTRY] using their standard template
+2. Identify any aspects of my study design that I have not adequately specified for pre-registration
+3. Flag any analysis decisions I have left ambiguous that reviewers or replicators will need to know
+4. Distinguish which analyses are confirmatory (should be pre-registered) vs. exploratory (should be labeled separately)
+5. Advise on whether any parts of the design should be refined before I commit to the pre-registration
+```
+
+**Prompt 2: Methods Section Reproducibility Audit**
+```
+Please audit my methods section for reproducibility completeness.
+
+My field: [DISCIPLINE]
+Study design: [BRIEF DESCRIPTION]
+Target journal: [JOURNAL NAME] (or "not yet determined")
+Applicable reporting standard: [CONSORT / ARRIVE / STROBE / JARS / other / "help me identify"]
+
+Methods section draft:
+[PASTE YOUR COMPLETE METHODS SECTION]
+
+Please:
+1. Identify every piece of information a replicating researcher would need that is missing or insufficiently described
+2. Check my methods against the applicable reporting standard checklist item by item
+3. For each gap, draft the specific language I should add (don't just tell me what's missing — write the text)
+4. Flag any methodological choices that require justification, not just description (e.g., choice of statistical test, exclusion criteria)
+5. Estimate the current replication probability of my study based on published benchmarks for this design type
+```
+
+**Prompt 3: Data and Code Sharing Preparation**
+```
+I am preparing to share data and analysis code alongside a manuscript submission.
+
+Journal requirements: [DESCRIBE OR PASTE THE DATA AVAILABILITY POLICY]
+Funder requirements: [DESCRIBE — e.g., NIH DMS plan, NSF data management plan]
+Dataset description:
+- Type of data: [SURVEY / BEHAVIORAL / PHYSIOLOGICAL / GENOMIC / IMAGE / OTHER]
+- Number of participants/observations: [N]
+- Identifiability risk: [NONE / LOW / MODERATE / HIGH — explain briefly]
+- Variables: [LIST KEY VARIABLES]
+
+Analysis code:
+- Language: [R / Python / MATLAB / Stata / other]
+- Repository: [GitHub / OSF / none yet]
+- Current documentation status: [WELL COMMENTED / PARTIALLY COMMENTED / UNDOCUMENTED]
+
+Please:
+1. Recommend the appropriate repository for this data type and identify whether open or restricted access is appropriate
+2. Generate a data dictionary / codebook template I should fill out for each variable
+3. Draft a README file template for my code repository
+4. Write the data availability statement for the manuscript
+5. Identify whether I need an IRB amendment or any other institutional approval before sharing
+```
+
+:::
+
+## 23. AI Science Communication Coach
+
+> Transform your research into stories that resonate beyond the lab.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Science Communication Coach**
+
+Researchers are generating knowledge at unprecedented speed, but the pathway from discovery to public understanding remains broken for most scientists. Grant agencies increasingly require broader impact activities. Universities mandate public engagement. Journalists need expert sources. Policymakers need accessible evidence. Yet most researchers have received no training in science communication, and the skills required — translating technical content for lay audiences, crafting compelling narratives, navigating media relationships, and adapting to different platforms and formats — are genuinely difficult and time-consuming to develop. The result is that most researchers either avoid public engagement entirely or produce communication that fails to reach or resonate with non-specialist audiences.
+
+The communication demands on researchers have multiplied with the rise of social media, podcast culture, video science communication, and the policy imperative to counter misinformation. A researcher who was adequate at writing for specialist colleagues now needs to operate competently across Twitter/X threads, podcast interviews, public lectures, congressional testimony, op-eds, and press releases — each with its own genre conventions, audience expectations, and strategic considerations. Developing fluency across these formats while running a research program is genuinely difficult without systematic support and feedback.
+
+The gap has real consequences for science and for individual careers. Research that is not communicated effectively does not influence policy, does not reach the patients or communities it is designed to serve, and does not attract the collaborators, students, and funders needed to sustain a research program. Meanwhile, researchers who build science communication skills early create compound advantages: media profiles that attract speaking invitations, public credibility that strengthens grant narratives, and networks that extend far beyond the academic community. COCO makes science communication systematic and sustainable.
+
+**How COCO Solves It**
+
+1. **Lay-Language Translation Engine**: COCO converts technical content for general audiences:
+   - Rewrites abstracts and key findings at specified reading levels (8th grade, science-literate adult, policy audience)
+   - Replaces discipline-specific jargon with accessible analogies without losing scientific accuracy
+   - Identifies the single most important finding and constructs a clear "so what" statement around it
+   - Tests drafts against readability scores and flags sentences that exceed comprehension thresholds
+   - Generates glossaries for technical terms that must be retained for precision
+
+2. **Media and Interview Preparation**: COCO builds researcher confidence for press engagement:
+   - Generates anticipated journalist questions for the specific research topic and current news context
+   - Drafts model answers using the SOCO (Single Overriding Communications Objective) framework
+   - Identifies potential misrepresentations or sensationalizations to watch for and prepare corrections
+   - Advises on "bridging" techniques for redirecting off-topic or misleading questions
+   - Produces a one-page press briefing sheet suitable for sharing with journalists before interviews
+
+3. **Platform-Specific Content Creation**: COCO adapts content for different channels:
+   - Writes Twitter/X threads, Instagram captions, LinkedIn posts, and Bluesky content for the same finding
+   - Structures podcast talking points with opening hook, key messages, and memorable closing
+   - Outlines TED-style public lecture formats with narrative arc, relatable openings, and audience engagement moments
+   - Drafts op-ed structures for target publications with their specific editorial tone and length requirements
+   - Creates policy brief formats adapted to Congressional audiences, agency briefings, and think tank publications
+
+4. **Visual Communication Advisor**: COCO improves science visualization:
+   - Reviews figures and charts for clarity, labeling completeness, and accessibility for color-blind audiences
+   - Recommends infographic structures for conveying multi-step processes, comparisons, or trends
+   - Identifies which findings are most effectively communicated visually vs. textually
+   - Suggests data visualization types (flow diagrams, annotated timelines, comparative bar charts) suited to specific findings
+   - Generates alt text for accessibility compliance and image descriptions for social media
+
+5. **Broader Impact Narrative Builder**: COCO strengthens grant communication sections:
+   - Drafts "broader impacts" and "significance" sections connecting technical research to societal benefit
+   - Identifies the most compelling public benefit claims that are both accurate and resonant
+   - Maps the research contribution to national priorities, funding agency strategic plans, and current policy debates
+   - Generates outreach activity descriptions appropriate for the grant's required broader impact plan
+   - Tracks and documents public engagement activities for reporting to funders
+
+6. **Science Communication Portfolio Builder**: COCO develops long-term communication assets:
+   - Maintains a library of approved lay summaries at multiple reading levels for each major publication
+   - Tracks media appearances, public lectures, and policy testimonies for CV and promotion documentation
+   - Identifies gaps in the communication portfolio and recommends high-priority activities to fill them
+   - Monitors the news cycle for opportunities to contribute expert commentary on topics matching the research
+   - Generates annual science communication impact reports summarizing reach, engagement, and outcomes
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Time to produce a press-ready lay summary from a manuscript**: From 4-6 hours to **45 minutes** with COCO drafting and researcher editing
+- **Media coverage per publication**: Research groups with COCO-assisted communication strategies average **2.8x more media pickups** per paper
+- **Broader impact section scores in grant review**: Proposals using COCO-drafted broader impact sections score **1.4 points higher** on NSF/NIH reviewer scales on average
+- **Public lecture and podcast invitations**: Researchers with active communication portfolios receive **3-5x more external speaking invitations** annually
+- **Social media reach for research announcements**: Structured COCO-assisted threads generate **6-8x more impressions** than unstructured posts of the same research
+
+**Who Benefits**
+
+- **Research Scientists Seeking Public Visibility**: Build a public profile and media presence without the time cost of learning science communication from scratch.
+- **Early-Career Researchers**: Develop broader impact narratives and public engagement portfolios that differentiate grant applications and job applications from the beginning of their careers.
+- **Research Communications and Press Offices**: Receive researcher-vetted, scientifically accurate lay summaries ready for press release adaptation, reducing back-and-forth editing cycles.
+- **Funding Agency Program Officers**: Work with grantees who submit clearer, more compelling progress reports and final grant summaries that demonstrate societal impact.
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Lay Summary and Press Briefing Sheet**
+```
+Please help me communicate my recent research finding to a general audience.
+
+Technical summary of the finding:
+[PASTE YOUR ABSTRACT OR WRITE A 3-5 SENTENCE TECHNICAL DESCRIPTION]
+
+Key technical terms that need translation: [LIST JARGON TERMS]
+The "so what" for society: [YOUR BEST ATTEMPT AT WHY THIS MATTERS BEYOND ACADEMIA]
+Target audience for this communication: [SELECT: general public / science-literate adults / policy audience / patient community / business audience]
+Planned communication channels: [SELECT ALL THAT APPLY: press release / Twitter thread / podcast / public lecture / op-ed / Congressional briefing]
+
+Please produce:
+1. A lay summary (200 words) at an 8th-grade reading level — no jargon, with an opening hook
+2. A version for a science-literate adult audience (300 words) — can use some scientific vocabulary with brief definitions
+3. Three headline options (under 10 words each) suitable for a press release
+4. A one-page press briefing sheet with: key finding, significance, methods (1 sentence), researcher bio, and 3 likely journalist questions with model answers
+5. A 5-tweet thread announcing the paper
+```
+
+**Prompt 2: Media Interview Preparation**
+```
+I have an upcoming media interview about my research and need to prepare.
+
+Outlet and journalist: [PUBLICATION/SHOW NAME, JOURNALIST NAME IF KNOWN]
+Interview format: [LIVE TV / RADIO / PODCAST / WRITTEN Q&A / PRINT JOURNALIST CALL]
+Duration: [X MINUTES]
+My research topic: [DESCRIBE]
+Key finding to communicate: [WHAT DO I MOST WANT LISTENERS/READERS TO TAKE AWAY?]
+Current news hook (why is this getting coverage now?): [DESCRIBE IF KNOWN]
+
+My concerns:
+- [ ] Being misquoted or oversimplified
+- [ ] Being asked about findings beyond my expertise
+- [ ] Politically charged questions about the implications
+- [ ] Specific technical misunderstandings common in media coverage of this topic
+- [ ] Other: [DESCRIBE]
+
+Please:
+1. Generate 10 likely interview questions ranging from easy to challenging
+2. For each question, draft a model answer using the message-bridge technique (answer + pivot to key message)
+3. Identify 3 potential sensationalization pitfalls specific to my research and give me language to gently correct them
+4. Draft my 30-second "elevator pitch" for the research — clear, compelling, jargon-free
+5. Suggest 1-2 concrete analogies I can use to explain the core mechanism or finding accessibly
+```
+
+**Prompt 3: Grant Broader Impact Section**
+```
+Help me write the Broader Impacts section for my grant proposal.
+
+Funding agency: [NSF / NIH / DOE / other]
+Proposal title: [TITLE]
+Research summary: [2-3 SENTENCES]
+Primary scientific contribution: [WHAT DOES THIS ADVANCE IN THE FIELD?]
+
+My planned broader impact activities:
+1. [ACTIVITY — e.g., K-12 outreach, undergraduate research, public lecture series, dataset release]
+2. [ACTIVITY]
+3. [ACTIVITY]
+
+My background for these activities: [RELEVANT EXPERIENCE, PARTNERSHIPS, OR TRACK RECORD]
+Target communities served: [WHO BENEFITS DIRECTLY FROM THESE ACTIVITIES?]
+Funding agency's stated strategic priorities: [PASTE RELEVANT TEXT FROM THE SOLICITATION IF AVAILABLE]
+
+Please:
+1. Draft a Broader Impacts section (500-600 words) that connects my activities to the agency's priorities
+2. Strengthen the narrative by making explicit the chain from research → activity → community benefit → societal impact
+3. Add specificity: replace vague plans with concrete deliverables, timelines, and measurable outcomes
+4. Suggest one additional high-impact activity I could add given my research area and the agency's priorities
+5. Flag any common reviewer criticisms of Broader Impact sections and advise whether my draft is vulnerable to them
+```
+
+:::

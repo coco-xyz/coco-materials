@@ -21,8 +21,8 @@ features:
     details: Hire your first AI digital employee in minutes. Step-by-step guides for registration, payment, and channel deployment.
     link: /getting-started/
   - icon: 📋
-    title: 925+ Use Cases
-    details: 925+ real-world scenarios across 30 roles and 19 industries. From code review to financial reports — each with demo video and practical prompts.
+    title: 1,001+ Use Cases
+    details: 1,001+ real-world scenarios across 30 roles and 19 industries. From code review to financial reports — each with demo video and practical prompts.
     link: /use-cases/
   - icon: 🎬
     title: Social Media

@@ -1,6 +1,6 @@
 # 用例库
 
-发现 **925个真实场景**，COCO AI员工如何为各部门节省时间和成本。按**角色**、**任务**或**行业**浏览。
+发现 **1,001+个真实场景**，COCO AI员工如何为各部门节省时间和成本。按**角色**、**任务**或**行业**浏览。
 
 ## 按角色浏览
 
@@ -8,7 +8,7 @@
 
 | 角色 | 数量 | 核心场景 |
 |------|------|---------|
-| [产品经理](/zh/use-cases/role/product) | 19 | 情感分析、项目状态报告、冲刺规划、发版说明、工作流自动化 |
+| [产品经理](/zh/use-cases/role/product) | 23 | 情感分析、项目状态报告、冲刺规划、发版说明、工作流自动化 |
 | [研发工程](/zh/use-cases/role/dev) | 54 | 代码审查、测试生成、部署监控、API文档、安全扫描、缺陷排序... |
 | [运营](/zh/use-cases/role/operations) | 69 | 会议纪要、库存预测、供应商评估... |
 | [财务](/zh/use-cases/role/finance) | 41 | 费用审核、财务报告、发票处理... |
@@ -19,25 +19,25 @@
 | [法律](/zh/use-cases/role/legal) | 36 | AI合同分析师、AI保密协议生成器、AI知识产权组合分析器... |
 | [高管](/zh/use-cases/role/executive) | 23 | AI高管简报生成器、AI年度报告汇编器、AI OKR进度追踪器... |
 | [数据分析师](/zh/use-cases/role/data-analyst) | 50 | AI房产估值助手、AI作物产量预测器、AI剧本评审阅读器... |
-| [DevOps运维](/zh/use-cases/role/devops) | 23 | AI网络容量规划师、AI软件事故复盘分析器、AI版本发布说明自动生成器、AI Kubernetes集群成本调优顾问... |
-| [项目经理](/zh/use-cases/role/pm) | 21 | AI活动后勤规划器、AI筹款活动策划器... |
-| [QA工程师](/zh/use-cases/role/qa-engineer) | 20 | AI生产缺陷检测器、AI统计过程控制监控器、AI无障碍合规检查器、AI制造质量缺陷分类器... |
-| [合规官](/zh/use-cases/role/compliance-officer) | 15 | AI许可证申请追踪器、AI车辆召回监控器、AI碳足迹报告生成器... |
-| [咨询顾问](/zh/use-cases/role/consultant) | 13 | AI战略简报撰写器、AI尽职调查编撰器、AI咨询方案构建器... |
-| [物流经理](/zh/use-cases/role/logistics-manager) | 16 | AI货运追踪器、AI仓库布局优化器、AI路线优化器... |
-| [采购](/zh/use-cases/role/procurement) | 11 | AI物料清单检查器、AI运费谈判助手、AI供应链风险评分器... |
-| [培训师](/zh/use-cases/role/trainer) | 13 | AI课程设计师、AI学生进度追踪器、AI抄袭检测器... |
-| [客户成功经理](/zh/use-cases/role/customer-success) | 20 | AI客户入职手册构建器、AI客户流失风险预警、AI季度业务回顾准备引擎、AI酒店宾客体验个性化系统... |
-| [数据科学家](/zh/use-cases/role/data-scientist) | 20 | AI流失预测模型构建器、AI特征工程顾问、AI模型可解释性报告器、AI电信客户流失预测建模器... |
-| [研究员](/zh/use-cases/role/researcher) | 20 | AI文献综述综合器、AI调研设计顾问、AI市场研究报告生成器、AI专利格局分析器... |
-| [技术负责人](/zh/use-cases/role/tech-lead) | 20 | AI架构决策顾问、AI团队速度优化器、AI技术债务优先级排序器、AI系统设计评审助手... |
-| [内容创作者](/zh/use-cases/role/writer) | 20 | AI技术文档规划器、AI白皮书研究编译器、AI新闻稿生成器、AI电商产品描述规模化生成器... |
+| [DevOps运维](/zh/use-cases/role/devops) | 24 | AI网络容量规划师、AI软件事故复盘分析器、AI版本发布说明自动生成器、AI Kubernetes集群成本调优顾问... |
+| [项目经理](/zh/use-cases/role/pm) | 24 | AI活动后勤规划器、AI筹款活动策划器... |
+| [QA工程师](/zh/use-cases/role/qa-engineer) | 23 | AI生产缺陷检测器、AI统计过程控制监控器、AI无障碍合规检查器、AI制造质量缺陷分类器... |
+| [合规官](/zh/use-cases/role/compliance-officer) | 23 | AI许可证申请追踪器、AI车辆召回监控器、AI碳足迹报告生成器... |
+| [咨询顾问](/zh/use-cases/role/consultant) | 23 | AI战略简报撰写器、AI尽职调查编撰器、AI咨询方案构建器... |
+| [物流经理](/zh/use-cases/role/logistics-manager) | 23 | AI货运追踪器、AI仓库布局优化器、AI路线优化器... |
+| [采购](/zh/use-cases/role/procurement) | 23 | AI物料清单检查器、AI运费谈判助手、AI供应链风险评分器... |
+| [培训师](/zh/use-cases/role/trainer) | 23 | AI课程设计师、AI学生进度追踪器、AI抄袭检测器... |
+| [客户成功经理](/zh/use-cases/role/customer-success) | 23 | AI客户入职手册构建器、AI客户流失风险预警、AI季度业务回顾准备引擎、AI酒店宾客体验个性化系统... |
+| [数据科学家](/zh/use-cases/role/data-scientist) | 23 | AI流失预测模型构建器、AI特征工程顾问、AI模型可解释性报告器、AI电信客户流失预测建模器... |
+| [研究员](/zh/use-cases/role/researcher) | 23 | AI文献综述综合器、AI调研设计顾问、AI市场研究报告生成器、AI专利格局分析器... |
+| [技术负责人](/zh/use-cases/role/tech-lead) | 23 | AI架构决策顾问、AI团队速度优化器、AI技术债务优先级排序器、AI系统设计评审助手... |
+| [内容创作者](/zh/use-cases/role/writer) | 23 | AI技术文档规划器、AI白皮书研究编译器、AI新闻稿生成器、AI电商产品描述规模化生成器... |
 | [尽职调查分析师](/zh/use-cases/role/due-diligence-analyst) | 35 | AI子公司与关联实体图谱构建器、AI受益所有人识别引擎、AI制裁名单与PEP筛查编排器... |
 | [加密货币与Web3分析师](/zh/use-cases/role/crypto-analyst) | 40 | AI链上交易模式分析器、AI DeFi协议风险与漏洞暴露评估器、AI代币经济学模型构建器... |
 | [基金经理](/zh/use-cases/role/fund-manager) | 40 | AI LP季度报告生成器、AI交易流量管线评分与优先级排序引擎、AI条款清单条款对比与红旗提示工具... |
 | [AI产品经理](/zh/use-cases/role/ai-product-manager) | 49 | AI模型评估框架构建器、AI提示词工程工作流优化器、AI偏见检测与公平性审计引擎... |
 | [研究分析师](/zh/use-cases/role/research-analyst) | 40 | AI市场规模与TAM/SAM/SOM计算器、AI竞争情报深度报告构建器、AI行业趋势信号聚合与综合器... |
-| [设计师](/zh/use-cases/role/designer) | 20 | AI品牌资产一致性审计员、AI设计系统组件审计员、AI响应式设计QA引擎、AI用户流程线框生成器... |
+| [设计师](/zh/use-cases/role/designer) | 23 | AI品牌资产一致性审计员、AI设计系统组件审计员、AI响应式设计QA引擎、AI用户流程线框生成器... |
 
 ## 按任务浏览
 
@@ -1005,3 +1005,79 @@
 | 923 | [AI 产品收益归因与商业案例构建器](/zh/use-cases/role/ai-product-manager#_47-ai-产品收益归因与商业案例构建器) | AI产品经理 | 科技/SaaS | 数据分析 | 预算审批率提升50-70% |
 | 924 | [AI 产品生态系统与合作伙伴策略构建器](/zh/use-cases/role/ai-product-manager#_48-ai-产品生态系统与合作伙伴策略构建器) | AI产品经理 | 科技/SaaS | 数据分析 | 渠道收入贡献20-40% |
 | 925 | [AI 产品长期愿景与创新管道构建器](/zh/use-cases/role/ai-product-manager#_49-ai-产品长期愿景与创新管道构建器) | AI产品经理 | 科技/SaaS | 数据分析 | 创新项目成功率: 20-30%→50-60% |
+| 926 | [AI合规沟通起草助手](/zh/use-cases/role/compliance-officer#_16-ai合规沟通起草助手) | 合规 | 企业 | 自动化 | — |
+| 927 | [AI合规培训需求评估师](/zh/use-cases/role/compliance-officer#_17-ai合规培训需求评估师) | 合规 | 企业 | 自动化 | — |
+| 928 | [AI跨境合规协调员](/zh/use-cases/role/compliance-officer#_18-ai跨境合规协调员) | 合规 | 企业 | 自动化 | — |
+| 929 | [AI道德热线和调查案件管理器](/zh/use-cases/role/compliance-officer#_19-ai道德热线和调查案件管理器) | 合规 | 企业 | 自动化 | — |
+| 930 | [AI监管处罚缓解顾问](/zh/use-cases/role/compliance-officer#_20-ai监管处罚缓解顾问) | 合规 | 企业 | 自动化 | — |
+| 931 | [AI合规仪表板和KPI构建器](/zh/use-cases/role/compliance-officer#_21-ai合规仪表板和kpi构建器) | 合规 | 企业 | 自动化 | — |
+| 932 | [AI合同合规风险分析师](/zh/use-cases/role/compliance-officer#_22-ai合同合规风险分析师) | 合规 | 企业 | 自动化 | — |
+| 933 | [AI合规项目差距基准评估师](/zh/use-cases/role/compliance-officer#_23-ai合规项目差距基准评估师) | 合规 | 企业 | 自动化 | — |
+| 934 | [AI客户入职加速器](/zh/use-cases/role/consultant#_14-ai客户入职加速器) | 咨询 | 咨询 | 研究 | — |
+| 935 | [AI项目盈利能力优化器](/zh/use-cases/role/consultant#_15-ai项目盈利能力优化器) | 咨询 | 咨询 | 研究 | — |
+| 936 | [AI专家网络促进器](/zh/use-cases/role/consultant#_16-ai专家网络促进器) | 咨询 | 咨询 | 研究 | — |
+| 937 | [AI咨询提案质量审阅者](/zh/use-cases/role/consultant#_17-ai咨询提案质量审阅者) | 咨询 | 咨询 | 研究 | — |
+| 938 | [AI业务领域市场定位顾问](/zh/use-cases/role/consultant#_18-ai业务领域市场定位顾问) | 咨询 | 咨询 | 研究 | — |
+| 939 | [AI监管影响评估工具](/zh/use-cases/role/consultant#_19-ai监管影响评估工具) | 咨询 | 咨询 | 研究 | — |
+| 940 | [AI客户价值实现追踪器](/zh/use-cases/role/consultant#_20-ai客户价值实现追踪器) | 咨询 | 咨询 | 研究 | — |
+| 941 | [AI并购整合就绪顾问](/zh/use-cases/role/consultant#_21-ai并购整合就绪顾问) | 咨询 | 咨询 | 研究 | — |
+| 942 | [AI客户沟通策略构建器](/zh/use-cases/role/consultant#_22-ai客户沟通策略构建器) | 咨询 | 咨询 | 研究 | — |
+| 943 | [AI咨询方法论库构建器](/zh/use-cases/role/consultant#_23-ai咨询方法论库构建器) | 咨询 | 咨询 | 研究 | — |
+| 944 | [AI客户生命周期阶段分析器](/zh/use-cases/role/customer-success#_21-ai客户生命周期阶段分析器) | 客户成功 | 科技/SaaS | 分析 | — |
+| 945 | [AI干系人情绪追踪器](/zh/use-cases/role/customer-success#_22-ai干系人情绪追踪器) | 客户成功 | 科技/SaaS | 分析 | — |
+| 946 | [AI竞争替代风险监控器](/zh/use-cases/role/customer-success#_23-ai竞争替代风险监控器) | 客户成功 | 科技/SaaS | 分析 | — |
+| 947 | [AI模型版本控制与血缘追踪器](/zh/use-cases/role/data-scientist#_21-ai模型版本控制与血缘追踪器) | 数据科学 | 科技/SaaS | 分析 | — |
+| 948 | [AI特征库设计顾问](/zh/use-cases/role/data-scientist#_22-ai特征库设计顾问) | 数据科学 | 科技/SaaS | 分析 | — |
+| 949 | [AI因果推断助手](/zh/use-cases/role/data-scientist#_23-ai因果推断助手) | 数据科学 | 科技/SaaS | 分析 | — |
+| 950 | [AI设计工作坊规划助手](/zh/use-cases/role/designer#_21-ai设计工作坊规划助手) | 设计 | 科技/SaaS | 自动化 | — |
+| 951 | [AI本地化设计顾问](/zh/use-cases/role/designer#_22-ai本地化设计顾问) | 设计 | 科技/SaaS | 自动化 | — |
+| 952 | [AI交互模式库构建助手](/zh/use-cases/role/designer#_23-ai交互模式库构建助手) | 设计 | 科技/SaaS | 自动化 | — |
+| 953 | [AI流水线安全与软件供应链加固师](/zh/use-cases/role/devops#_24-ai流水线安全与软件供应链加固师) | DevOps | 科技/SaaS | 自动化 | — |
+| 954 | [AI入库预约调度器](/zh/use-cases/role/logistics-manager#_17-ai入库预约调度器) | 物流 | 物流 | 自动化 | — |
+| 955 | [AI入库质量异常处理器](/zh/use-cases/role/logistics-manager#_18-ai入库质量异常处理器) | 物流 | 物流 | 自动化 | — |
+| 956 | [AI运输支出分析器](/zh/use-cases/role/logistics-manager#_19-ai运输支出分析器) | 物流 | 物流 | 自动化 | — |
+| 957 | [AI逆向物流成本优化器](/zh/use-cases/role/logistics-manager#_20-ai逆向物流成本优化器) | 物流 | 物流 | 自动化 | — |
+| 958 | [AI运费索赔管理器](/zh/use-cases/role/logistics-manager#_21-ai运费索赔管理器) | 物流 | 物流 | 自动化 | — |
+| 959 | [AI供应商交货期追踪器](/zh/use-cases/role/logistics-manager#_22-ai供应商交货期追踪器) | 物流 | 物流 | 自动化 | — |
+| 960 | [AI多式联运优化器](/zh/use-cases/role/logistics-manager#_23-ai多式联运优化器) | 物流 | 物流 | 自动化 | — |
+| 961 | [AI项目复盘引导器](/zh/use-cases/role/pm#_22-ai项目复盘引导器) | PM | 企业 | 自动化 | — |
+| 962 | [AI项目成本预测器](/zh/use-cases/role/pm#_23-ai项目成本预测器) | PM | 企业 | 自动化 | — |
+| 963 | [AI会议ROI分析器](/zh/use-cases/role/pm#_24-ai会议roi分析器) | PM | 企业 | 自动化 | — |
+| 964 | [AI供应商谈判教练](/zh/use-cases/role/procurement#_12-ai供应商谈判教练) | 采购 | 企业 | 自动化 | — |
+| 965 | [AI采购风险预警系统](/zh/use-cases/role/procurement#_13-ai采购风险预警系统) | 采购 | 企业 | 自动化 | — |
+| 966 | [AI采购政策合规检查器](/zh/use-cases/role/procurement#_14-ai采购政策合规检查器) | 采购 | 企业 | 自动化 | — |
+| 967 | [AI采购目录管理优化器](/zh/use-cases/role/procurement#_15-ai采购目录管理优化器) | 采购 | 企业 | 自动化 | — |
+| 968 | [AI尾部采购整合顾问](/zh/use-cases/role/procurement#_16-ai尾部采购整合顾问) | 采购 | 企业 | 自动化 | — |
+| 969 | [AI采购KPI仪表盘构建器](/zh/use-cases/role/procurement#_17-ai采购kpi仪表盘构建器) | 采购 | 企业 | 自动化 | — |
+| 970 | [AI供应商发展规划师](/zh/use-cases/role/procurement#_18-ai供应商发展规划师) | 采购 | 企业 | 自动化 | — |
+| 971 | [AI全球采购情报平台](/zh/use-cases/role/procurement#_19-ai全球采购情报平台) | 采购 | 企业 | 自动化 | — |
+| 972 | [AI采购欺诈检测顾问](/zh/use-cases/role/procurement#_20-ai采购欺诈检测顾问) | 采购 | 企业 | 自动化 | — |
+| 973 | [AI采购培训内容生成器](/zh/use-cases/role/procurement#_21-ai采购培训内容生成器) | 采购 | 企业 | 自动化 | — |
+| 974 | [AI采购支出预测引擎](/zh/use-cases/role/procurement#_22-ai采购支出预测引擎) | 采购 | 企业 | 自动化 | — |
+| 975 | [AI可持续采购记分卡](/zh/use-cases/role/procurement#_23-ai可持续采购记分卡) | 采购 | 企业 | 自动化 | — |
+| 976 | [AI功能开关治理顾问](/zh/use-cases/role/product#_20-ai功能开关治理顾问) | 产品 | 科技/SaaS | 分析 | — |
+| 977 | [AI客户发现访谈分析器](/zh/use-cases/role/product#_21-ai客户发现访谈分析器) | 产品 | 科技/SaaS | 分析 | — |
+| 978 | [AI实验速度追踪器](/zh/use-cases/role/product#_22-ai实验速度追踪器) | 产品 | 科技/SaaS | 分析 | — |
+| 979 | [AI激活漏斗优化器](/zh/use-cases/role/product#_23-ai激活漏斗优化器) | 产品 | 科技/SaaS | 分析 | — |
+| 980 | [AI左移测试策略顾问](/zh/use-cases/role/qa-engineer#_21-ai左移测试策略顾问) | QA | 科技/SaaS | 自动化 | — |
+| 981 | [AI测试自动化投资回报计算器](/zh/use-cases/role/qa-engineer#_22-ai测试自动化投资回报计算器) | QA | 科技/SaaS | 自动化 | — |
+| 982 | [AI契约测试框架设计师](/zh/use-cases/role/qa-engineer#_23-ai契约测试框架设计师) | QA | 科技/SaaS | 自动化 | — |
+| 983 | [AI预印本策略顾问](/zh/use-cases/role/researcher#_21-ai预印本策略顾问) | 研究员 | 教育 | 研究 | — |
+| 984 | [AI重复性与可重现性规划师](/zh/use-cases/role/researcher#_22-ai重复性与可重现性规划师) | 研究员 | 教育 | 研究 | — |
+| 985 | [AI科学传播教练](/zh/use-cases/role/researcher#_23-ai科学传播教练) | 研究员 | 教育 | 研究 | — |
+| 986 | [AI工程指标仪表盘设计师](/zh/use-cases/role/tech-lead#_21-ai工程指标仪表盘设计师) | 技术主管 | 科技/SaaS | 自动化 | — |
+| 987 | [AI团队知识图谱构建师](/zh/use-cases/role/tech-lead#_22-ai团队知识图谱构建师) | 技术主管 | 科技/SaaS | 自动化 | — |
+| 988 | [AI跨团队依赖关系管理师](/zh/use-cases/role/tech-lead#_23-ai跨团队依赖关系管理师) | 技术主管 | 科技/SaaS | 自动化 | — |
+| 989 | [AI培训效果评估师](/zh/use-cases/role/trainer#_14-ai培训效果评估师) | 培训 | 教育 | 自动化 | — |
+| 990 | [AI新员工入职自动化助手](/zh/use-cases/role/trainer#_15-ai新员工入职自动化助手) | 培训 | 教育 | 自动化 | — |
+| 991 | [AI学习内容质量审核师](/zh/use-cases/role/trainer#_16-ai学习内容质量审核师) | 培训 | 教育 | 自动化 | — |
+| 992 | [AI虚拟讲师支持助手](/zh/use-cases/role/trainer#_17-ai虚拟讲师支持助手) | 培训 | 教育 | 自动化 | — |
+| 993 | [AI销售赋能培训设计师](/zh/use-cases/role/trainer#_18-ai销售赋能培训设计师) | 培训 | 教育 | 自动化 | — |
+| 994 | [AI领导力发展项目架构师](/zh/use-cases/role/trainer#_19-ai领导力发展项目架构师) | 培训 | 教育 | 自动化 | — |
+| 995 | [AI技术技能培训规划师](/zh/use-cases/role/trainer#_20-ai技术技能培训规划师) | 培训 | 教育 | 自动化 | — |
+| 996 | [AI多元共融培训专家](/zh/use-cases/role/trainer#_21-ai多元共融培训专家) | 培训 | 教育 | 自动化 | — |
+| 997 | [AI软技能培训课程构建器](/zh/use-cases/role/trainer#_22-ai软技能培训课程构建器) | 培训 | 教育 | 自动化 | — |
+| 998 | [AI企业培训预算优化师](/zh/use-cases/role/trainer#_23-ai企业培训预算优化师) | 培训 | 教育 | 自动化 | — |
+| 999 | [AI品牌语调一致性执行官](/zh/use-cases/role/writer#_21-ai品牌语调一致性执行官) | 写作 | 媒体 | 写作 | — |
+| 1000 | [AI故事弧线与叙事结构顾问](/zh/use-cases/role/writer#_22-ai故事弧线与叙事结构顾问) | 写作 | 媒体 | 写作 | — |
+| 1001 | [AI读者心理与说服力顾问](/zh/use-cases/role/writer#_23-ai读者心理与说服力顾问) | 写作 | 媒体 | 写作 | — |

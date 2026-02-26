@@ -4058,3 +4058,486 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
+
+## 22. AI Project Retrospective Facilitator
+
+> Run retrospectives that actually produce action — not a list of observations that no one follows up on.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Retrospectives Are Universally Acknowledged as Valuable and Universally Executed Poorly**
+
+Every project methodology recommends retrospectives. Every experienced project manager knows they matter. And yet most organizations run retrospectives that follow a predictable and ineffective pattern: a 60-minute meeting produces a list of "what went well" and "what could be better," someone captures it in a document, and the document is never looked at again. The next project begins with the same structural problems unaddressed — scope management, communication gaps, estimation failures, dependency blindness — because the retro produced observations rather than change.
+
+The failure mode isn't lack of time or willingness. It's lack of structure. Without a systematic approach to retrospective facilitation, the conversation defaults to recency bias (focusing on the last two weeks rather than the full project), advocacy (team members push their own pain points), and social discomfort (real problems go unspoken to avoid conflict). The root causes of actual project failures — the planning assumption that was wrong from day one, the dependency that was never escalated, the scope conversation that was avoided until it was too late — rarely surface in an unstructured retrospective.
+
+The action gap compounds the problem. Even when retrospectives produce genuine insights, the resulting action items are typically added to a backlog where they compete with feature work and operational demands. Without a systematic follow-up mechanism, the accountability loop never closes. Organizations repeat the same mistakes across projects because no mechanism exists to translate retrospective insight into durable process change.
+
+**How COCO Solves It**
+
+1. **Pre-Retrospective Data Synthesis**: COCO builds the factual foundation before the meeting:
+   - Analyzes project timeline data: planned vs. actual for milestones, sprints, and deliverables
+   - Identifies scope changes: what was added, removed, or modified from the original project brief
+   - Summarizes risk register history: which risks materialized, which were mitigated, which were missed
+   - Compiles stakeholder feedback and satisfaction data from the project period
+   - Generates a pre-read document for participants covering project facts, not just impressions
+
+2. **Structured Retrospective Facilitation Guide**: COCO designs the meeting for depth, not comfort:
+   - Creates a facilitation agenda that moves from data review to pattern identification to root cause analysis
+   - Generates specific retrospective questions tailored to the project type and known pain points
+   - Prepares a voting or prioritization mechanism to surface the highest-impact issues from diverse team input
+   - Designs breakout discussion structures to ensure quiet team members contribute alongside vocal ones
+   - Includes a "challenging questions" section that explicitly addresses the most sensitive topics
+
+3. **Root Cause Analysis Framework**: COCO moves beyond symptoms to causes:
+   - Structures the "what went wrong" discussion around 5-Why chains for each identified problem
+   - Distinguishes one-time incidents from systemic process failures requiring structural change
+   - Identifies which root causes are within the team's control vs. organizational constraints vs. external factors
+   - Groups related symptoms under shared root causes to avoid fragmented action planning
+   - Prioritizes root causes by recurrence likelihood and impact if unaddressed
+
+4. **Action Item Quality Enforcement**: COCO converts insights into accountable commitments:
+   - Translates each root cause into a specific, time-bound action item with a named owner
+   - Distinguishes process changes (permanent) from project-specific fixes (temporary)
+   - Checks action items for specificity: "improve communication" becomes "implement weekly written status update by [owner] by [date]"
+   - Links each action item to the root cause it addresses for traceability
+   - Generates a 30-day follow-up schedule for action item status reviews
+
+5. **Cross-Project Pattern Analysis**: COCO identifies organizational learning opportunities:
+   - Compares retrospective findings across multiple recent projects to identify recurring themes
+   - Flags root causes that appear in multiple project retrospectives — signaling systemic organizational issues
+   - Benchmarks project health metrics (schedule performance, scope changes, team satisfaction) across the portfolio
+   - Identifies teams or project types with above-average or below-average retrospective outcomes
+   - Generates organizational improvement recommendations based on cross-project pattern data
+
+6. **Retrospective Effectiveness Tracking**: COCO measures whether retrospectives are working:
+   - Tracks the completion rate of action items from prior retrospectives
+   - Measures whether recurring issues from past retros have been resolved or continue to appear
+   - Calculates a retrospective effectiveness score: proportion of actions completed, proportion of root causes addressed
+   - Generates a retrospective health report for the PMO showing continuous improvement trends
+   - Alerts when a team is repeating the same retrospective findings without completing the associated actions
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Action item completion rate**: Increases from typical 20–35% to 65–80% with structured ownership and follow-up tracking
+- **Meeting value rating**: Teams report 40–60% improvement in retrospective usefulness when data-driven pre-reads replace memory-based discussion
+- **Recurring issue rate**: Organizations with systematic cross-project analysis reduce the recurrence of identified process failures by 35–50% over four quarters
+- **Time to retrospective insight**: Pre-synthesized project data reduces the fact-finding portion of retrospectives from 30–40 minutes to under 10 minutes, allowing more time for root cause and action planning
+- **Retrospective participation equality**: Structured facilitation guides increase contribution from quieter team members, surfacing issues that vocal members might not raise
+
+**Who Benefits**
+
+- **Project Managers**: Run retrospectives that produce durable change rather than document artifacts that are never revisited
+- **Scrum Masters and Agile Coaches**: Access structured facilitation frameworks and data synthesis that improve meeting quality without extending time
+- **PMO Leaders**: Gain cross-project visibility into recurring process failures and measure the organizational learning rate over time
+- **Team Members**: Participate in retrospectives where their input is systematically captured and acted on — not just heard and forgotten
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Retrospective Pre-Read Generation**
+```
+Generate a retrospective pre-read document for our [project name] that ended [date].
+
+Project data:
+- Original scope: [describe deliverables and objectives]
+- Final delivered scope: [describe what was actually delivered — note additions, reductions, deferrals]
+- Timeline: planned end date [X], actual end date [X], key milestone slips [describe]
+- Budget: planned $[X], actual $[X], variance explanation [brief]
+- Team: [describe team size and composition]
+- Key stakeholders and their satisfaction level: [describe]
+
+Issues and risks during the project:
+[list: issue, when it surfaced, how it was resolved or whether it remained open]
+
+Please generate:
+1. Project performance summary: schedule, scope, budget, and stakeholder satisfaction
+2. Timeline of key events: decision points, escalations, pivots, and their outcomes
+3. 3 things that went particularly well — with evidence
+4. 3 things that caused the most friction — with evidence
+5. 3 questions the team should discuss in the retrospective meeting (designed to surface root causes, not just symptoms)
+```
+
+**Prompt 2: Retrospective Facilitation Guide**
+```
+Design a retrospective facilitation guide for a [60 / 90 / 120]-minute retrospective session.
+
+Project context:
+- Project type: [software development / process improvement / event / organizational change / other]
+- Team size: [X people]
+- Known tension areas: [describe any known interpersonal dynamics or sensitive topics]
+- Primary objective: [process improvement / team morale / lessons learned documentation / all three]
+
+Key issues we expect to discuss (from pre-read):
+[list 3-5 issues identified in pre-read data]
+
+Please design:
+1. Agenda with time allocation for each section
+2. Opening: how to set the right tone (psychological safety, forward-looking)
+3. Data review section: how to present project facts without triggering defensiveness
+4. Pattern identification activity: structured exercise to surface the most important issues from the full team
+5. Root cause discussion: facilitation prompts to move from "what happened" to "why it happened"
+6. Action planning: how to convert insights into specific, owned, time-bound actions
+7. Closing: how to end with shared commitment rather than exhaustion
+```
+
+**Prompt 3: Cross-Project Retrospective Pattern Analysis**
+```
+Analyze retrospective findings across our recent projects and identify recurring themes requiring organizational attention.
+
+Retrospective data:
+[paste or describe: for each of the last [X] projects, the key findings, action items generated, and action items completed]
+
+Please provide:
+1. Recurring issues: problems that appeared in 3 or more retrospectives — ranked by frequency
+2. For each recurring issue: has it been getting better, worse, or staying the same across projects?
+3. Root cause hypothesis for each recurring issue — is this a process problem, a tools problem, a skills gap, or an organizational structure problem?
+4. Action items from prior retros that were never completed — patterns in what gets abandoned
+5. Recommended organizational interventions: 3 changes that would address the highest-recurrence root causes
+6. Draft language for a PMO improvement initiative proposal targeting the top recurring issue
+```
+
+:::
+
+## 23. AI Project Cost Forecaster
+
+> Replace end-of-month budget surprises with a rolling forecast that flags overspend 3–4 weeks before it happens.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Project Budget Management Is Reactive, Not Predictive — and the Surprises Always Come Too Late**
+
+Project cost management typically works like this: a project manager tracks actuals against budget in a spreadsheet, reviews the numbers at month-end, notices that a work package is over budget, reports the variance to the PMO, and then explains what happened. By the time the variance is visible in the monthly report, it's already too late to change course for that month. The money is spent, the variance is locked, and the explanation is the only output of the process.
+
+The problem is compounded by the nature of project cost drivers. Labor cost overruns — the primary driver of project budget variance on most professional services and technology projects — are driven by scope changes, estimation errors, and productivity shortfalls that are visible in behavioral leading indicators weeks before they appear in actuals. A team adding unplanned technical debt resolution to their sprint. A requirement that expanded significantly during definition. A dependency that turned out to require more integration work than estimated. These signals exist in project management tools, but no one is synthesizing them into a forward-looking cost view in real time.
+
+The consequence goes beyond the immediate variance. Projects that consistently surprise their sponsors with budget overruns erode trust in project management. Executives respond by adding approval gates, slowing project velocity, and requiring more detailed forecasting — which creates more administrative overhead without addressing the underlying prediction problem. The cycle perpetuates.
+
+**How COCO Solves It**
+
+1. **Rolling Cost Forecast Generation**: COCO replaces static budget tracking with continuous prediction:
+   - Aggregates actual cost data (labor hours, external spend, direct costs) from connected project systems
+   - Calculates earned value metrics (planned value, earned value, actual cost, SPI, CPI) on a weekly basis
+   - Projects final cost at completion using multiple methods: current CPI, blended CPI-SPI, and bottom-up re-estimate
+   - Produces a forecast range (base case, optimistic, pessimistic) with confidence intervals
+   - Updates the forecast automatically as new actuals are entered without requiring manual recalculation
+
+2. **Leading Indicator Monitoring**: COCO identifies cost risk before it shows in actuals:
+   - Monitors scope change volume and trend — each scope addition creates cost risk in subsequent periods
+   - Tracks team velocity against estimate to identify productivity shortfalls before they compound
+   - Flags unresolved dependencies that are blocking work and creating schedule-driven cost risk
+   - Monitors burn rate acceleration — catching projects where cost is increasing faster than value delivered
+   - Identifies time-reporting patterns that suggest scope creep is occurring without formal change control
+
+3. **Work Package Variance Analysis**: COCO pinpoints where the budget problem is occurring:
+   - Breaks down cost variance by work package, team, and cost category (labor, licenses, contractors, travel)
+   - Calculates variance explanation: how much is volume (more hours than planned), rate (higher cost per hour), or scope (additional work added)
+   - Identifies work packages where recovery is still possible vs. those where variance is permanent
+   - Prioritizes work packages requiring management attention based on variance magnitude and trend
+   - Generates a work package cost forecast showing expected final variance for each element
+
+4. **What-If Scenario Modeling**: COCO evaluates response options before committing:
+   - Models the cost impact of scope reduction options: removing or deferring specific deliverables
+   - Calculates the tradeoff between accepting schedule extension and adding resources to maintain timeline
+   - Models the impact of team composition changes (replacing contractors with FTEs, adjusting team size)
+   - Analyzes the risk of accelerating work (overtime, parallel streams) against probability of cost savings
+   - Generates a decision brief for each scenario with cost, schedule, and risk tradeoffs
+
+5. **Budget Variance Explanation Generation**: COCO produces stakeholder-ready reporting:
+   - Generates plain-language variance explanations connecting cost data to project events
+   - Distinguishes root causes: scope changes, estimation errors, productivity factors, external cost changes
+   - Quantifies the cost impact of each root cause independently
+   - Drafts executive-level budget status updates with appropriate level of detail for the audience
+   - Produces the PMO cost report automatically from connected data sources, reducing manual reporting effort
+
+6. **Contingency Reserve Management**: COCO tracks risk-adjusted budget consumption:
+   - Monitors contingency reserve drawdown against the risk profile of remaining work
+   - Alerts when contingency consumption rate is inconsistent with remaining risk exposure
+   - Recommends reserve re-allocation when risk profile changes during project execution
+   - Generates a contingency release recommendation when project risk decreases materially in late phases
+   - Tracks management reserve requests and approvals for PMO governance
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Forecast accuracy**: Rolling forecasts generated 4+ weeks before month-end achieve within 5% of final actuals in 80% of cases vs. 45% for month-end-only reviews
+- **Early warning lead time**: Cost overruns identified 3–4 weeks earlier than traditional month-end reporting, allowing corrective action while options remain
+- **Reporting time reduction**: Automated variance explanation and report generation reduces monthly cost reporting effort by 60–75%
+- **Contingency utilization**: Projects using predictive cost management use 15–20% less contingency on average because problems are addressed earlier when correction is cheaper
+- **Sponsor satisfaction**: Proactive cost communication increases project sponsor confidence scores by 30–40% — fewer surprises means more trust
+
+**Who Benefits**
+
+- **Project Managers**: Spend time on cost management decisions rather than spreadsheet maintenance and variance explanation writing
+- **PMO Leaders**: Maintain a real-time portfolio cost view without waiting for monthly project reports to be submitted
+- **Finance Business Partners**: Receive accurate project cost accruals and forecasts for financial reporting without chasing project managers
+- **Program Sponsors**: Get early warning of budget risk with recommended response options — not just a report of what went wrong
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Rolling Cost Forecast Update**
+```
+Generate an updated project cost forecast based on the following data.
+
+Project: [name]
+Original approved budget: $[X]
+Current period: [week/month X of Y]
+
+Actuals to date:
+- Labor hours logged: [X] hours at average rate $[X]/hr = $[X]
+- External costs (licenses, contractors, travel, other): $[X]
+- Total actual cost to date: $[X]
+
+Planned cost to date (from baseline):
+- Planned labor: $[X]
+- Planned external costs: $[X]
+- Total planned cost to date: $[X]
+
+Scope and progress:
+- % complete (earned value basis): [X]%
+- Scope changes approved since baseline: [describe — estimated cost impact $X]
+- Known upcoming scope or cost risks: [describe]
+
+Remaining work:
+- Estimated remaining hours: [X] at rate $[X]/hr
+- Committed future external costs: $[X]
+- Unresolved scope or risk items that could add cost: [describe]
+
+Please provide:
+1. Earned value metrics: PV, EV, AC, SV, CV, SPI, CPI
+2. Forecast at completion: three scenarios (current CPI, blended, bottom-up) with rationale
+3. Forecast confidence range: base case ± what percentage?
+4. Top 3 cost risks that could shift the forecast materially
+5. Recommended management action if forecast exceeds approved budget
+```
+
+**Prompt 2: Budget Variance Root Cause Analysis**
+```
+Analyze the following project budget variance and identify root causes and recovery options.
+
+Project: [name]
+Budget baseline: $[X]
+Current forecast at completion: $[X]
+Variance: $[X] over budget ([X]%)
+
+Variance breakdown by work package:
+[paste: work package name, baseline budget, forecast at completion, variance $, variance %]
+
+Known causes (preliminary):
+[describe what the project team believes is driving the variance]
+
+Project events during the variance period:
+- Scope changes: [list]
+- Team changes: [describe]
+- Technical issues: [describe]
+- External factors: [describe]
+
+Please provide:
+1. Root cause analysis: decompose the variance into scope, rate, volume, and external cost components
+2. Which root causes are one-time vs. recurring (will they continue to drive variance in remaining work)?
+3. Recovery options: what actions could reduce the variance, their estimated impact, and tradeoffs
+4. Work packages where variance is permanent vs. where recovery is still achievable
+5. Executive summary draft: 3–4 sentences explaining the variance and recommended response for sponsor communication
+```
+
+**Prompt 3: Project Cost Scenario Planning**
+```
+Model the cost and schedule implications of the following response options for a project that is over budget.
+
+Project situation:
+- Current approved budget: $[X]
+- Current forecast at completion: $[X] ([$X] over budget)
+- Current projected completion date: [date] ([X weeks] behind schedule)
+- Remaining work: [X] weeks of planned work at current team capacity
+- Current team: [X] FTEs + [X] contractors at $[X]/day
+
+Response options to model:
+1. Scope reduction: remove [describe deliverables] — estimated [X] weeks of work removed
+2. Timeline extension: accept [X] additional weeks without adding resources
+3. Resource addition: add [X] FTEs or contractors at $[X]/day to recover [X] weeks of schedule
+4. Hybrid: scope reduction + timeline extension without resource addition
+
+For each option, please model:
+1. Revised cost at completion
+2. Revised schedule (completion date)
+3. Impact on project objectives: what is delivered vs. deferred vs. removed?
+4. Risk profile change: does this option introduce new risks?
+5. Stakeholder impact: which stakeholders are most affected and how?
+6. Recommendation: which option best balances cost, schedule, scope, and stakeholder needs — with rationale
+```
+
+:::
+
+## 24. AI Meeting ROI Analyzer
+
+> Calculate the true cost of your recurring meetings and identify the ones that are burning your project's budget.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Meeting Time Is the Largest Unmanaged Cost in Most Project Budgets**
+
+A standard enterprise project with a team of 10 running for 6 months will consume 400–800 hours in meetings — a figure that typically represents 15–25% of total project labor cost. Unlike external vendor spend, this cost is invisible in most project budgets because internal labor is tracked as headcount allocation rather than per-activity spend. Meetings never appear as a line item. They never require approval. And they accumulate through a combination of habit, coordination necessity, and social obligation until they consume a quarter of the available project bandwidth.
+
+The problem isn't that meetings are valueless — some are essential. The problem is that project teams have no systematic mechanism to evaluate which meetings are returning value proportional to their cost. A weekly status meeting with 8 senior team members costs $1,500–$3,000 per occurrence in loaded labor. Over a six-month project, that's $36,000–$72,000. If that meeting is producing decisions, alignment, and unblocking outcomes that would otherwise require hours of asynchronous back-and-forth, the ROI is positive. If it's producing a verbal repetition of a status report that everyone already read, the ROI is negative — and the $72,000 is waste.
+
+Project managers rarely audit their meeting portfolio because the tools don't make it easy and the culture doesn't expect it. Recurring meetings get created at project kickoff and run unchanged for the project duration, long after the communication need that justified them has evolved. New meetings get added when problems arise but old meetings rarely get retired when they're no longer needed. The meeting calendar accumulates until everyone complains about too many meetings but no one has the data to act.
+
+**How COCO Solves It**
+
+1. **Meeting Cost Calculation**: COCO quantifies what meetings actually cost:
+   - Calculates per-meeting cost from attendee list, role, loaded hourly rate, and duration
+   - Computes recurring meeting annual cost from frequency and attendee composition
+   - Aggregates project meeting costs by type (status, design review, decision, operational, social)
+   - Compares meeting cost against project labor budget to express meeting spend as a percentage of total
+   - Identifies the top 10 highest-cost meetings in the project calendar
+
+2. **Meeting Value Assessment Framework**: COCO evaluates whether each meeting is earning its cost:
+   - Categorizes meetings by primary function: decision-making, information sharing, coordination, problem-solving, relationship
+   - Assesses whether each meeting type requires synchronous attendance or could be replaced with asynchronous alternatives
+   - Reviews meeting history for decision output rate: how often does this meeting produce a decision or unblocked action?
+   - Identifies meetings with consistently incomplete attendance — a signal of perceived low value
+   - Scores each recurring meeting on a value-cost matrix to prioritize review and optimization
+
+3. **Meeting Pattern Analysis**: COCO identifies structural inefficiencies in the meeting portfolio:
+   - Detects duplicate meetings serving the same coordination need across the portfolio
+   - Identifies meeting chains — sequences of meetings where the output of one feeds directly into the next, suggesting consolidation opportunity
+   - Flags meetings where the same information is being communicated in multiple separate meetings (newsletter candidate)
+   - Analyzes meeting clustering: days or time periods where meetings consume 70%+ of the team's available deep work time
+   - Identifies attendees who are in more meetings than they can productively participate in
+
+4. **Meeting Optimization Recommendations**: COCO generates specific improvement actions:
+   - Recommends which meetings to eliminate, consolidate, reduce frequency, reduce duration, or convert to async
+   - Calculates the annual hours and cost savings from each recommended change
+   - Proposes async alternatives: written updates, shared dashboards, recorded video briefings, decision wikis
+   - Designs a right-sized meeting cadence for the project phase (different phases need different coordination intensity)
+   - Generates a meeting audit facilitation guide for running a team discussion about meeting portfolio optimization
+
+5. **Meeting Effectiveness Tracking**: COCO measures improvement over time:
+   - Tracks meeting acceptance and attendance rates as proxies for perceived value
+   - Monitors decision output from decision meetings (did this meeting produce the intended decision?)
+   - Measures time-to-decision on key project decisions — proxy for whether the coordination structure is working
+   - Generates a monthly meeting health report showing cost, value indicators, and trend
+   - Alerts when new recurring meetings are being added without corresponding retirement of obsolete ones
+
+6. **Stakeholder Meeting Right-Sizing**: COCO optimizes which stakeholders attend which meetings:
+   - Analyzes attendee contribution patterns — who speaks and decides vs. who attends without active participation
+   - Identifies over-invited attendees who could be served by a written summary instead
+   - Recommends tiered communication: meeting attendance for active participants, async update for observers
+   - Calculates the cost reduction from moving passive attendees to async communication
+   - Generates invitation list recommendations for each meeting type based on decision rights and contribution data
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Meeting cost visibility**: Organizations that conduct meeting portfolio audits typically discover that meetings consume 20–30% of total project labor budget — making it the largest single reducible cost category
+- **Meeting cost reduction**: Teams implementing systematic meeting optimization reduce total meeting time by 25–40% in the subsequent quarter
+- **Deep work time recovery**: Reducing unnecessary meetings recovers 4–8 hours of uninterrupted work time per person per week — the time most team members cite as most valuable for complex project work
+- **Decision velocity improvement**: Right-sizing decision meetings (right attendees, clear agenda, decision authority) reduces average time-to-decision by 30–50%
+- **Team satisfaction**: Reducing meeting overload is consistently the top-cited improvement in team retrospectives — directly impacting retention and engagement
+
+**Who Benefits**
+
+- **Project Managers**: Audit and optimize the meeting structure they created at kickoff against the actual coordination needs of the current project phase
+- **PMO Leaders**: Establish a culture of meeting ROI accountability across the project portfolio — not just feature delivery metrics
+- **Senior Technical Contributors**: Recover deep work time by demonstrating data that their meeting attendance is disproportionate to their contribution in those settings
+- **Project Sponsors**: Understand that meeting efficiency is a direct lever on project cost and team capacity — not just a quality-of-life issue
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Project Meeting Portfolio Audit**
+```
+Audit our current project meeting calendar and calculate the cost and value of each meeting.
+
+Project context:
+- Project name: [name]
+- Team size: [X people]
+- Average loaded hourly rate: $[X]/hr (or provide by role: PM $X, senior engineer $X, business analyst $X, etc.)
+- Project phase: [initiation / planning / execution / closing]
+- Total project labor budget: $[X]
+
+Recurring meetings:
+[list each meeting: name, frequency, duration, attendees by role, stated purpose]
+
+Please provide:
+1. Cost per occurrence and annual/project-total cost for each meeting
+2. Meetings ranked by total cost — top 5 highest-cost meetings
+3. Meeting cost as % of total project labor budget
+4. Initial value assessment: which meetings are high-value (decision-making, active problem-solving) vs. low-value (information relay, passive update)?
+5. Quick win recommendations: meetings to eliminate, convert to async, or reduce frequency — with estimated annual savings
+6. Meeting portfolio health summary: are we over-indexed on status meetings at the expense of decision meetings?
+```
+
+**Prompt 2: Meeting Optimization Plan**
+```
+Design an optimized meeting structure for our project based on our current issues.
+
+Current meeting pain points:
+[describe: too many meetings, wrong people in meetings, meetings that don't produce decisions, fragmented schedules, etc.]
+
+Current recurring meetings:
+[list: name, frequency, duration, attendees, purpose]
+
+Project coordination needs:
+- Key decisions required in the next 4 weeks: [list]
+- Teams that need regular coordination: [list]
+- Stakeholders requiring status updates: [list]
+- Issues or risks requiring active tracking: [list]
+
+Team capacity context:
+- Available hours per person per week for project work: [X]
+- Current hours per person in meetings: [X]
+- Target: no more than [X]% of work hours in meetings
+
+Please design:
+1. Recommended meeting portfolio: what to keep, modify, consolidate, and eliminate
+2. For each meeting to keep: recommended frequency, duration, attendees, and decision criteria for retirement
+3. Async alternatives: what communication can replace eliminated meetings without losing coordination quality?
+4. Estimated time savings per person per week from the optimized structure
+5. Change management: how to implement the changes without creating coordination gaps
+```
+
+**Prompt 3: Meeting Effectiveness Post-Mortem**
+```
+Evaluate the effectiveness of our [meeting name] based on the following data and recommend whether to continue, modify, or eliminate it.
+
+Meeting details:
+- Name: [meeting name]
+- Stated purpose: [description]
+- Frequency: [weekly / biweekly / monthly]
+- Duration: [X minutes]
+- Attendees: [list roles and names]
+- Cost per occurrence: $[X] (calculated from attendee rates)
+- Running for: [X months]
+
+Evidence to evaluate:
+- Average attendance rate: [X]%
+- Decisions made in last [X] occurrences: [list or describe — or "none identified"]
+- Actions generated: [list or describe — or "rarely tracked"]
+- Attendee feedback (if available): [describe]
+- What would happen if this meeting were cancelled: [describe — would anything break?]
+
+Please provide:
+1. Value assessment: is this meeting earning its cost based on the evidence?
+2. Root cause of any effectiveness issues: wrong attendees, unclear purpose, no pre-work, no decision authority in the room?
+3. Recommendation: continue as-is / modify (specify changes) / reduce frequency / convert to async / eliminate
+4. If modifying: specific changes to format, attendees, frequency, or purpose
+5. If eliminating: what replaces this meeting's coordination function?
+6. Draft message to send to attendees explaining the change
+```
+
+:::

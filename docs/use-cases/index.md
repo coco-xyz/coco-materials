@@ -1,6 +1,6 @@
 # Use Cases
 
-Discover **925 real-world scenarios** where COCO AI employees save time and money. Browse by **Role**, **Task**, or **Industry**.
+Discover **1,001+ real-world scenarios** where COCO AI employees save time and money. Browse by **Role**, **Task**, or **Industry**.
 
 ## Browse by Role
 
@@ -8,7 +8,7 @@ Find use cases for your specific job function:
 
 | Role | Cases | Key Scenarios |
 |------|-------|--------------|
-| [Product Manager](/use-cases/role/product) | 19 | Sentiment Analyzer, Project Status Reporter, Sprint Planning, Release Notes, Workflow Automator |
+| [Product Manager](/use-cases/role/product) | 23 | Sentiment Analyzer, Project Status Reporter, Sprint Planning, Release Notes, Workflow Automator |
 | [Developer / Engineering](/use-cases/role/dev) | 54 | Code Review, Test Gen, Deploy Monitor, API Docs, Security Scanner, Bug Prioritizer, ... |
 | [Operations](/use-cases/role/operations) | 69 | Meeting Notes, Inventory Forecasting, Vendor Evaluation, ... |
 | [Finance](/use-cases/role/finance) | 41 | Expense Auditing, Financial Reports, Invoice Processing, ... |
@@ -19,25 +19,25 @@ Find use cases for your specific job function:
 | [Legal](/use-cases/role/legal) | 36 | Contract Analyzer, NDA Generator, IP Portfolio Analyzer, ... |
 | [Executive](/use-cases/role/executive) | 23 | Executive Briefing Generator, Annual Report Assembler, OKR Progress Tracker, ... |
 | [Data Analyst](/use-cases/role/data-analyst) | 50 | Property Valuation Assistant, Crop Yield Predictor, Script Coverage Reader, ... |
-| [DevOps](/use-cases/role/devops) | 23 | Network Capacity Planner, Container Image Vulnerability Scanner, CI/CD Pipeline Failure Predictor, ... |
-| [Project Manager](/use-cases/role/pm) | 21 | Event Logistics Planner, Fundraising Event Planner, ... |
-| [QA Engineer](/use-cases/role/qa-engineer) | 20 | Production Defect Detector, Bug Report Triage, Visual UI Regression Detector, ... |
-| [Compliance Officer](/use-cases/role/compliance-officer) | 15 | Permit Application Tracker, Vehicle Recall Monitor, Carbon Footprint Reporter, ... |
-| [Consultant](/use-cases/role/consultant) | 13 | Strategy Brief Writer, Due Diligence Compiler, Consulting Deck Builder, ... |
-| [Logistics Manager](/use-cases/role/logistics-manager) | 16 | Shipment Tracker, Warehouse Layout Optimizer, Route Optimizer, ... |
-| [Procurement](/use-cases/role/procurement) | 11 | Bill of Materials Checker, Freight Rate Negotiator, Supply Chain Risk Scorer, ... |
-| [Trainer](/use-cases/role/trainer) | 13 | Curriculum Designer, Student Progress Tracker, Plagiarism Checker, ... |
-| [Customer Success](/use-cases/role/customer-success) | 20 | Onboarding Playbook Builder, Churn Risk Early Warning, QBR Prep Engine, ... |
-| [Data Scientist](/use-cases/role/data-scientist) | 20 | Churn Prediction Modeler, Feature Engineering Advisor, Model Explainability Reporter, ... |
-| [Researcher](/use-cases/role/researcher) | 20 | Literature Review Synthesizer, Research Grant Proposal Reviewer, Bibliometric Analysis, ... |
-| [Tech Lead](/use-cases/role/tech-lead) | 20 | Architecture Decision Advisor, Team Velocity Optimizer, Technical Debt Prioritizer, ... |
-| [Writer](/use-cases/role/writer) | 20 | Technical Documentation Planner, White Paper Research Compiler, Press Release Generator, ... |
+| [DevOps](/use-cases/role/devops) | 24 | Network Capacity Planner, Container Image Vulnerability Scanner, CI/CD Pipeline Failure Predictor, ... |
+| [Project Manager](/use-cases/role/pm) | 24 | Event Logistics Planner, Fundraising Event Planner, ... |
+| [QA Engineer](/use-cases/role/qa-engineer) | 23 | Production Defect Detector, Bug Report Triage, Visual UI Regression Detector, ... |
+| [Compliance Officer](/use-cases/role/compliance-officer) | 23 | Permit Application Tracker, Vehicle Recall Monitor, Carbon Footprint Reporter, ... |
+| [Consultant](/use-cases/role/consultant) | 23 | Strategy Brief Writer, Due Diligence Compiler, Consulting Deck Builder, ... |
+| [Logistics Manager](/use-cases/role/logistics-manager) | 23 | Shipment Tracker, Warehouse Layout Optimizer, Route Optimizer, ... |
+| [Procurement](/use-cases/role/procurement) | 23 | Bill of Materials Checker, Freight Rate Negotiator, Supply Chain Risk Scorer, ... |
+| [Trainer](/use-cases/role/trainer) | 23 | Curriculum Designer, Student Progress Tracker, Plagiarism Checker, ... |
+| [Customer Success](/use-cases/role/customer-success) | 23 | Onboarding Playbook Builder, Churn Risk Early Warning, QBR Prep Engine, ... |
+| [Data Scientist](/use-cases/role/data-scientist) | 23 | Churn Prediction Modeler, Feature Engineering Advisor, Model Explainability Reporter, ... |
+| [Researcher](/use-cases/role/researcher) | 23 | Literature Review Synthesizer, Research Grant Proposal Reviewer, Bibliometric Analysis, ... |
+| [Tech Lead](/use-cases/role/tech-lead) | 23 | Architecture Decision Advisor, Team Velocity Optimizer, Technical Debt Prioritizer, ... |
+| [Writer](/use-cases/role/writer) | 23 | Technical Documentation Planner, White Paper Research Compiler, Press Release Generator, ... |
 | [Due Diligence Analyst](/use-cases/role/due-diligence-analyst) | 35 | Subsidiary & Affiliated Entity Mapper, Beneficial Owner Identification Engine, Sanctions & PEP Screening, ... |
 | [Crypto & Web3 Analyst](/use-cases/role/crypto-analyst) | 40 | On-Chain Transaction Pattern Analyzer, DeFi Protocol Risk Assessor, Token Economics Model Builder, ... |
 | [Fund Manager / VC Analyst](/use-cases/role/fund-manager) | 40 | LP Quarterly Report Generator, Deal Flow Pipeline Scoring, Term Sheet Clause Comparator, ... |
 | [AI Product Manager](/use-cases/role/ai-product-manager) | 49 | Model Evaluation Framework Builder, Prompt Engineering Optimizer, Bias Detection & Fairness Audit, ... |
 | [Research Analyst](/use-cases/role/research-analyst) | 40 | Market Sizing & TAM/SAM/SOM Calculator, Competitive Intelligence Report Builder, Industry Trend Aggregator, ... |
-| [Designer](/use-cases/role/designer) | 20 | Brand Asset Consistency Auditor, Design System Component Auditor, Responsive Design QA, ... |
+| [Designer](/use-cases/role/designer) | 23 | Brand Asset Consistency Auditor, Design System Component Auditor, Responsive Design QA, ... |
 
 ## Browse by Task
 
@@ -1005,3 +1005,79 @@ Find use cases by what you need to get done:
 | 923 | [AI Product Revenue Attribution & Business Case Builder](/use-cases/role/ai-product-manager#_47-ai-product-revenue-attribution-business-case-builder) | AI PM | Tech/SaaS | Analysis | Budget approval rate +50-70% |
 | 924 | [AI Product Ecosystem & Partnership Strategy Builder](/use-cases/role/ai-product-manager#_48-ai-product-ecosystem-partnership-strategy-builder) | AI PM | Tech/SaaS | Analysis | Channel revenue contribution 20-40% |
 | 925 | [AI Product Long-Term Vision & Innovation Pipeline Builder](/use-cases/role/ai-product-manager#_49-ai-product-long-term-vision-innovation-pipeline-builder) | AI PM | Tech/SaaS | Analysis | Innovation success: 20-30% → 50-60% |
+| 926 | [AI Compliance Communication Drafting Assistant](/use-cases/role/compliance-officer#16-ai-compliance-communication-drafting-assistant) | Compliance | Enterprise | Automation | — |
+| 927 | [AI Compliance Training Needs Assessor](/use-cases/role/compliance-officer#17-ai-compliance-training-needs-assessor) | Compliance | Enterprise | Automation | — |
+| 928 | [AI Cross-Border Compliance Coordinator](/use-cases/role/compliance-officer#18-ai-cross-border-compliance-coordinator) | Compliance | Enterprise | Automation | — |
+| 929 | [AI Ethics Hotline and Investigation Case Manager](/use-cases/role/compliance-officer#19-ai-ethics-hotline-and-investigation-case-manager) | Compliance | Enterprise | Automation | — |
+| 930 | [AI Regulatory Penalty Mitigation Advisor](/use-cases/role/compliance-officer#20-ai-regulatory-penalty-mitigation-advisor) | Compliance | Enterprise | Automation | — |
+| 931 | [AI Compliance Dashboard and KPI Builder](/use-cases/role/compliance-officer#21-ai-compliance-dashboard-and-kpi-builder) | Compliance | Enterprise | Automation | — |
+| 932 | [AI Contract Compliance Risk Analyzer](/use-cases/role/compliance-officer#22-ai-contract-compliance-risk-analyzer) | Compliance | Enterprise | Automation | — |
+| 933 | [AI Compliance Program Gap Benchmarker](/use-cases/role/compliance-officer#23-ai-compliance-program-gap-benchmarker) | Compliance | Enterprise | Automation | — |
+| 934 | [AI Client Onboarding Accelerator](/use-cases/role/consultant#14-ai-client-onboarding-accelerator) | Consultant | Consulting | Research | — |
+| 935 | [AI Engagement Profitability Optimizer](/use-cases/role/consultant#15-ai-engagement-profitability-optimizer) | Consultant | Consulting | Research | — |
+| 936 | [AI Expert Network Facilitator](/use-cases/role/consultant#16-ai-expert-network-facilitator) | Consultant | Consulting | Research | — |
+| 937 | [AI Consulting Proposal Quality Reviewer](/use-cases/role/consultant#17-ai-consulting-proposal-quality-reviewer) | Consultant | Consulting | Research | — |
+| 938 | [AI Practice Area Market Positioning Advisor](/use-cases/role/consultant#18-ai-practice-area-market-positioning-advisor) | Consultant | Consulting | Research | — |
+| 939 | [AI Regulatory Impact Assessment Tool](/use-cases/role/consultant#19-ai-regulatory-impact-assessment-tool) | Consultant | Consulting | Research | — |
+| 940 | [AI Client Value Realization Tracker](/use-cases/role/consultant#20-ai-client-value-realization-tracker) | Consultant | Consulting | Research | — |
+| 941 | [AI M&A Integration Readiness Advisor](/use-cases/role/consultant#21-ai-ma-integration-readiness-advisor) | Consultant | Consulting | Research | — |
+| 942 | [AI Client Communication Strategy Builder](/use-cases/role/consultant#22-ai-client-communication-strategy-builder) | Consultant | Consulting | Research | — |
+| 943 | [AI Consulting Methodology Library Builder](/use-cases/role/consultant#23-ai-consulting-methodology-library-builder) | Consultant | Consulting | Research | — |
+| 944 | [AI Customer Lifecycle Stage Analyzer](/use-cases/role/customer-success#21-ai-customer-lifecycle-stage-analyzer) | CS | Tech/SaaS | Analysis | — |
+| 945 | [AI Stakeholder Sentiment Tracker](/use-cases/role/customer-success#22-ai-stakeholder-sentiment-tracker) | CS | Tech/SaaS | Analysis | — |
+| 946 | [AI Competitive Displacement Risk Monitor](/use-cases/role/customer-success#23-ai-competitive-displacement-risk-monitor) | CS | Tech/SaaS | Analysis | — |
+| 947 | [AI Model Versioning and Lineage Tracker](/use-cases/role/data-scientist#21-ai-model-versioning-and-lineage-tracker) | Data Sci | Tech/SaaS | Analysis | — |
+| 948 | [AI Feature Store Design Advisor](/use-cases/role/data-scientist#22-ai-feature-store-design-advisor) | Data Sci | Tech/SaaS | Analysis | — |
+| 949 | [AI Causal Inference Assistant](/use-cases/role/data-scientist#23-ai-causal-inference-assistant) | Data Sci | Tech/SaaS | Analysis | — |
+| 950 | [AI Design Workshop Planner](/use-cases/role/designer#21-ai-design-workshop-planner) | Designer | Tech/SaaS | Automation | — |
+| 951 | [AI Localization Design Advisor](/use-cases/role/designer#22-ai-localization-design-advisor) | Designer | Tech/SaaS | Automation | — |
+| 952 | [AI Interaction Pattern Library Builder](/use-cases/role/designer#23-ai-interaction-pattern-library-builder) | Designer | Tech/SaaS | Automation | — |
+| 953 | [AI Pipeline Security and Supply Chain Hardener](/use-cases/role/devops#24-ai-pipeline-security-and-supply-chain-hardener) | DevOps | Tech/SaaS | Automation | — |
+| 954 | [AI Inbound Shipment Appointment Scheduler](/use-cases/role/logistics-manager#17-ai-inbound-shipment-appointment-scheduler) | Logistics Mgr | Logistics | Automation | — |
+| 955 | [AI Inbound Quality Exception Handler](/use-cases/role/logistics-manager#18-ai-inbound-quality-exception-handler) | Logistics Mgr | Logistics | Automation | — |
+| 956 | [AI Transportation Spend Analyzer](/use-cases/role/logistics-manager#19-ai-transportation-spend-analyzer) | Logistics Mgr | Logistics | Automation | — |
+| 957 | [AI Reverse Logistics Cost Optimizer](/use-cases/role/logistics-manager#20-ai-reverse-logistics-cost-optimizer) | Logistics Mgr | Logistics | Automation | — |
+| 958 | [AI Freight Claims Manager](/use-cases/role/logistics-manager#21-ai-freight-claims-manager) | Logistics Mgr | Logistics | Automation | — |
+| 959 | [AI Supplier Lead Time Tracker](/use-cases/role/logistics-manager#22-ai-supplier-lead-time-tracker) | Logistics Mgr | Logistics | Automation | — |
+| 960 | [AI Intermodal Shift Optimizer](/use-cases/role/logistics-manager#23-ai-intermodal-shift-optimizer) | Logistics Mgr | Logistics | Automation | — |
+| 961 | [AI Project Retrospective Facilitator](/use-cases/role/pm#22-ai-project-retrospective-facilitator) | PM | Enterprise | Automation | — |
+| 962 | [AI Project Cost Forecaster](/use-cases/role/pm#23-ai-project-cost-forecaster) | PM | Enterprise | Automation | — |
+| 963 | [AI Meeting ROI Analyzer](/use-cases/role/pm#24-ai-meeting-roi-analyzer) | PM | Enterprise | Automation | — |
+| 964 | [AI Supplier Negotiation Coach](/use-cases/role/procurement#12-ai-supplier-negotiation-coach) | Procurement | Enterprise | Automation | — |
+| 965 | [AI Procurement Risk Early Warning System](/use-cases/role/procurement#13-ai-procurement-risk-early-warning-system) | Procurement | Enterprise | Automation | — |
+| 966 | [AI Procurement Policy Compliance Checker](/use-cases/role/procurement#14-ai-procurement-policy-compliance-checker) | Procurement | Enterprise | Automation | — |
+| 967 | [AI Catalog Management Optimizer](/use-cases/role/procurement#15-ai-catalog-management-optimizer) | Procurement | Enterprise | Automation | — |
+| 968 | [AI Tail Spend Consolidation Advisor](/use-cases/role/procurement#16-ai-tail-spend-consolidation-advisor) | Procurement | Enterprise | Automation | — |
+| 969 | [AI Procurement KPI Dashboard Builder](/use-cases/role/procurement#17-ai-procurement-kpi-dashboard-builder) | Procurement | Enterprise | Automation | — |
+| 970 | [AI Supplier Development Planner](/use-cases/role/procurement#18-ai-supplier-development-planner) | Procurement | Enterprise | Automation | — |
+| 971 | [AI Global Sourcing Intelligence Platform](/use-cases/role/procurement#19-ai-global-sourcing-intelligence-platform) | Procurement | Enterprise | Automation | — |
+| 972 | [AI Procurement Fraud Detection Advisor](/use-cases/role/procurement#20-ai-procurement-fraud-detection-advisor) | Procurement | Enterprise | Automation | — |
+| 973 | [AI Procurement Training Content Generator](/use-cases/role/procurement#21-ai-procurement-training-content-generator) | Procurement | Enterprise | Automation | — |
+| 974 | [AI Procurement Spend Forecasting Engine](/use-cases/role/procurement#22-ai-procurement-spend-forecasting-engine) | Procurement | Enterprise | Automation | — |
+| 975 | [AI Sustainable Procurement Scorecard](/use-cases/role/procurement#23-ai-sustainable-procurement-scorecard) | Procurement | Enterprise | Automation | — |
+| 976 | [AI Feature Flag Governance Advisor](/use-cases/role/product#20-ai-feature-flag-governance-advisor) | Product | Tech/SaaS | Analysis | — |
+| 977 | [AI Customer Discovery Interview Analyzer](/use-cases/role/product#21-ai-customer-discovery-interview-analyzer) | Product | Tech/SaaS | Analysis | — |
+| 978 | [AI Experiment Velocity Tracker](/use-cases/role/product#22-ai-experiment-velocity-tracker) | Product | Tech/SaaS | Analysis | — |
+| 979 | [AI Activation Funnel Optimizer](/use-cases/role/product#23-ai-activation-funnel-optimizer) | Product | Tech/SaaS | Analysis | — |
+| 980 | [AI Shift-Left Testing Strategy Advisor](/use-cases/role/qa-engineer#21-ai-shift-left-testing-strategy-advisor) | QA | Tech/SaaS | Automation | — |
+| 981 | [AI Test Automation ROI Calculator](/use-cases/role/qa-engineer#22-ai-test-automation-roi-calculator) | QA | Tech/SaaS | Automation | — |
+| 982 | [AI Contract Testing Framework Designer](/use-cases/role/qa-engineer#23-ai-contract-testing-framework-designer) | QA | Tech/SaaS | Automation | — |
+| 983 | [AI Preprint Strategy Advisor](/use-cases/role/researcher#21-ai-preprint-strategy-advisor) | Researcher | Education | Research | — |
+| 984 | [AI Replication and Reproducibility Planner](/use-cases/role/researcher#22-ai-replication-and-reproducibility-planner) | Researcher | Education | Research | — |
+| 985 | [AI Science Communication Coach](/use-cases/role/researcher#23-ai-science-communication-coach) | Researcher | Education | Research | — |
+| 986 | [AI Engineering Metrics Dashboard Designer](/use-cases/role/tech-lead#21-ai-engineering-metrics-dashboard-designer) | Tech Lead | Tech/SaaS | Automation | — |
+| 987 | [AI Team Knowledge Graph Builder](/use-cases/role/tech-lead#22-ai-team-knowledge-graph-builder) | Tech Lead | Tech/SaaS | Automation | — |
+| 988 | [AI Cross-Team Dependency Manager](/use-cases/role/tech-lead#23-ai-cross-team-dependency-manager) | Tech Lead | Tech/SaaS | Automation | — |
+| 989 | [AI Training Effectiveness Evaluator](/use-cases/role/trainer#14-ai-training-effectiveness-evaluator) | Trainer | Education | Automation | — |
+| 990 | [AI New Employee Orientation Automator](/use-cases/role/trainer#15-ai-new-employee-orientation-automator) | Trainer | Education | Automation | — |
+| 991 | [AI Learning Content Quality Auditor](/use-cases/role/trainer#16-ai-learning-content-quality-auditor) | Trainer | Education | Automation | — |
+| 992 | [AI Virtual Instructor Support Assistant](/use-cases/role/trainer#17-ai-virtual-instructor-support-assistant) | Trainer | Education | Automation | — |
+| 993 | [AI Sales Enablement Training Designer](/use-cases/role/trainer#18-ai-sales-enablement-training-designer) | Trainer | Education | Automation | — |
+| 994 | [AI Leadership Development Program Architect](/use-cases/role/trainer#19-ai-leadership-development-program-architect) | Trainer | Education | Automation | — |
+| 995 | [AI Technical Skills Training Planner](/use-cases/role/trainer#20-ai-technical-skills-training-planner) | Trainer | Education | Automation | — |
+| 996 | [AI Diversity and Inclusion Training Specialist](/use-cases/role/trainer#21-ai-diversity-and-inclusion-training-specialist) | Trainer | Education | Automation | — |
+| 997 | [AI Soft Skills Training Curriculum Builder](/use-cases/role/trainer#22-ai-soft-skills-training-curriculum-builder) | Trainer | Education | Automation | — |
+| 998 | [AI Corporate Training Budget Optimizer](/use-cases/role/trainer#23-ai-corporate-training-budget-optimizer) | Trainer | Education | Automation | — |
+| 999 | [AI Voice and Brand Consistency Enforcer](/use-cases/role/writer#21-ai-voice-and-brand-consistency-enforcer) | Writer | Media | Writing | — |
+| 1000 | [AI Story Arc and Narrative Structure Advisor](/use-cases/role/writer#22-ai-story-arc-and-narrative-structure-advisor) | Writer | Media | Writing | — |
+| 1001 | [AI Reader Psychology and Persuasion Advisor](/use-cases/role/writer#23-ai-reader-psychology-and-persuasion-advisor) | Writer | Media | Writing | — |
