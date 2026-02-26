@@ -7934,6 +7934,7 @@ Design the maintenance system:
 Output: Complete documentation maintenance system specification + responsibility matrix + process flowcharts for each update trigger + tooling recommendations
 ```
 
+:::
 
 ## 33. AI Product Market Fit Signal Detector
 

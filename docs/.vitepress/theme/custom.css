@@ -96,6 +96,10 @@
 }
 
 /* ===== Tables ===== */
+/* Ensure horizontal scroll on narrow viewports */
+.vp-doc table {
+  overflow-x: auto;
+}
 /* Override VitePress default word-break: break-all to prevent
    character-by-character wrapping in short-content columns */
 .vp-doc table td,
