@@ -6,9 +6,13 @@ AI-powered use cases for operations, procurement, and business management.
 
 > Meeting notes ready instantly: transcript, summary, action items assigned.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/032-ai-meeting-notes.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -166,9 +170,13 @@ Provide a specific "meeting diet" recommendation: what to keep, cut, shorten, me
 
 > Real-time inventory forecasting, replacing weekly manual stocktakes.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/033-ai-inventory-forecaster.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -322,9 +330,13 @@ For each scenario:
 
 > Vendor evaluation and ranking in 2 hours, replacing 1 week of manual research.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/034-ai-vendor-evaluator.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -511,9 +523,13 @@ Overall risk score (0-100) with justification and recommended mitigation for eac
 
 > Real-time competitor pricing monitoring. Response: 3 weeks → 4 hours. Revenue/user +23%.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/047-ai-pricing-optimizer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -615,9 +631,13 @@ Evaluate:
 
 > Contract review: 5 days → 45 minutes. Risk detection: 72% → 99%.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/048-ai-contract-analyzer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -719,9 +739,13 @@ Evaluate:
 
 > SLA breaches: 12/quarter → 1/quarter. Penalties: $200K/yr → $15K/yr.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/052-ai-sla-tracker.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -823,9 +847,13 @@ Evaluate:
 
 > 847 policy docs updated: 6 weeks → 4 days. Compliance risk -89%.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/059-ai-policy-updater.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -927,9 +955,13 @@ Evaluate:
 
 > Process cycle: 14 days → 4 days. Rework rate: 31% → 8%. Cost -47%.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/062-ai-process-miner.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1031,9 +1063,13 @@ Evaluate:
 
 > Document search: 18 min → 30 sec. Misclassification: 34% → 3%.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/063-ai-document-classifier.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1135,9 +1171,13 @@ Evaluate:
 
 > Risk prediction: 84% accurate. Loss prevention: $4.2M/year saved.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/064-ai-risk-scorer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1239,9 +1279,13 @@ Evaluate:
 
 > Data entry automation. Accuracy: 96% → 99.7%. Processing time reduced 94%.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/065-ai-data-entry-automator.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1424,9 +1468,13 @@ Output: Updated inventory receiving log, exception summary (shortages, damages, 
 
 > Email processing time reduced 73%. Priority response: 4.2 hours → 23 minutes.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/066-ai-email-triage-manager.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1593,9 +1641,13 @@ Keep it concise but data-driven. Highlight wins and flag concerns.
 
 > Meeting scheduling logistics reduced 87%. Cross-timezone scheduling 3x faster.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/067-ai-meeting-scheduler.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1761,9 +1813,13 @@ Include a FAQ section addressing common objections.
 
 > Churn early warning 30 days ahead. Save rate: 15% → 42%.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/069-ai-customer-success-monitor.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1938,9 +1994,13 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Supply chain visibility: 30% → 95%. Disruption response time reduced 76%.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/077-ai-supply-chain-tracker.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2115,9 +2175,13 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Customer onboarding: 3 weeks → 3 days. First-month activation rate +55%.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/078-ai-customer-onboarding-guide.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2292,9 +2356,13 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Employee offboarding: 2 weeks → 1 day. Access revocation gaps: zero.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/082-ai-employee-offboarding-manager.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2469,9 +2537,13 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Travel expense compliance: 68% → 97%. Travel spend reduced 23%.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/092-ai-travel-expense-optimizer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2666,9 +2738,13 @@ Implementation roadmap: Phase 1 (quick wins, 0-3 months), Phase 2 (system change
 
 > Compliance training completion: 52% → 96%. Overdue training: near zero.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/097-ai-compliance-training-tracker.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -2886,9 +2962,13 @@ Present with executive-ready visualizations described in markdown (tables, compa
 
 > IT asset visibility: 45% → 99%. Shadow IT discovery 10x.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/099-ai-it-asset-manager.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3160,9 +3240,13 @@ For each metric, specify:
 
 > Cross-department workflow automation: 15% → 78%. Processing time reduced 65%.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/103-ai-workflow-automator.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3500,9 +3584,13 @@ Analyze and provide:
 
 > RFP response: 40 hours → 8 hours. Win rate: 5% → 18%.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/104-ai-rfp-response-writer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3805,9 +3893,13 @@ Analyze and provide:
 
 > Digitizes patient intake forms in 90 seconds — extracts demographics, insurance info, and medical history into your EHR.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/106-ai-patient-intake-processor.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -3927,9 +4019,13 @@ This week's data:
 
 > Drafts grant proposals tailored to funder requirements — generates budgets, timelines, and impact metrics in 20 minutes.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/113-ai-grant-proposal-writer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4049,9 +4145,13 @@ This week's data:
 
 > Correlates sensor data from 1,000+ grid nodes — pinpoints outage root cause in 2 minutes instead of 2 hours.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/116-ai-grid-outage-analyzer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4171,9 +4271,13 @@ This week's data:
 
 > Reviews insurance claims against policy terms — auto-approves straightforward cases, cutting processing from 5 days to 4 hours.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/117-ai-claims-adjuster.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4293,9 +4397,13 @@ This week's data:
 
 > Analyzes vibration, temperature, and runtime data from 100+ machines — schedules maintenance before breakdowns, reducing downtime 40%.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/126-ai-predictive-maintenance-scheduler.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4415,9 +4523,13 @@ This week's data:
 
 > Combines soil moisture sensors, weather forecasts, and crop needs — optimizes irrigation schedules to reduce water usage 30%.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/130-ai-irrigation-scheduler.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4537,9 +4649,13 @@ This week's data:
 
 > Matches 500 volunteers to 30 event roles based on skills, availability, and past performance — sends confirmations automatically.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/143-ai-volunteer-coordinator.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4659,9 +4775,13 @@ This week's data:
 
 > Syncs OEM part numbers, pricing, and fitment data across 3 systems — keeps 80,000 SKUs accurate with nightly reconciliation.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/150-ai-parts-catalog-updater.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4781,9 +4901,13 @@ This week's data:
 
 > Distills 20-page patient charts into structured 1-page summaries — highlights active problems, medications, and pending orders.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/162-ai-clinical-notes-summarizer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -4903,9 +5027,13 @@ This week's data:
 
 > Assigns 80 rooms to 15 housekeepers based on checkout times, special requests, and proximity — cuts turnover time by 25%.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/172-ai-housekeeping-scheduler.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -5025,9 +5153,13 @@ This week's data:
 
 > Sequences 200 production orders to minimize changeover time — increases throughput 15% while meeting all delivery deadlines.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/173-ai-production-batch-optimizer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -5147,9 +5279,13 @@ This week's data:
 
 > Processes GPS, fuel, and driver behavior data from 500 vehicles — generates weekly scorecards and identifies $80K annual fuel savings.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/182-ai-fleet-telematics-analyzer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -5269,9 +5405,13 @@ This week's data:
 
 > Tracks feed intake, movement, and temperature for 1,000 head — detects illness indicators 48 hours before visible symptoms.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/192-ai-livestock-health-monitor.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -5391,9 +5531,13 @@ This week's data:
 
 > Pulls credit, employment, and rental history — generates Fair Housing-compliant screening reports with risk scores in 3 minutes.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/199-ai-tenant-screening-processor.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 

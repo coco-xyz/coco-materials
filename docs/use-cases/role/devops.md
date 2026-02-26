@@ -6,9 +6,13 @@ AI-powered use cases for devops professionals.
 
 > Analyzes traffic patterns across 50+ cell towers — recommends capacity upgrades 3 months before congestion hits.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/119-ai-network-capacity-planner.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -128,9 +132,13 @@ This week's data:
 
 > Tracks output from 2,000+ panels in real-time — detects degradation, shading issues, and inverter faults within 10 minutes.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/146-ai-solar-panel-performance-monitor.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 

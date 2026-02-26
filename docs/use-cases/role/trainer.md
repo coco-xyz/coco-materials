@@ -6,9 +6,13 @@ AI-powered use cases for trainer professionals.
 
 > Generates a 12-week course syllabus with learning objectives, assignments, and rubrics in under 10 minutes.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/107-ai-curriculum-designer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -128,9 +132,13 @@ This week's data:
 
 > Aggregates grades, attendance, and engagement data for 200 students — flags at-risk learners weekly with intervention suggestions.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/122-ai-student-progress-tracker.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -250,9 +258,13 @@ This week's data:
 
 > Compares student submissions against 10M+ sources and AI-generated patterns — flags suspicious passages with confidence scores.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/137-ai-plagiarism-checker.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -372,9 +384,13 @@ This week's data:
 
 > Grades research papers against your rubric — provides paragraph-level feedback on argument, evidence, and writing quality in 2 minutes.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/163-ai-research-paper-grader.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -494,9 +510,13 @@ This week's data:
 
 > Assesses student skills via diagnostic quiz — generates personalized 8-week learning paths with resources, milestones, and check-ins.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/169-ai-learning-path-builder.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 

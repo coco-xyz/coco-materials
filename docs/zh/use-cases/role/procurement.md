@@ -6,9 +6,13 @@ AI驱动的采购专业人员用例。
 
 > 将BOM与5000+供应商目录交叉验证——3分钟发现停产零件并建议替代方案以降低成本。
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/141-ai-bill-of-materials-checker.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -128,9 +132,13 @@ COCO的AI物料清单检查器直接集成到你现有的工作流程中，充�
 
 > 将运费与200+航线的市场数据对标——发现平均每批货物可节省12%的机会。
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/154-ai-freight-rate-negotiator.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -250,9 +258,13 @@ COCO的AI运费谈判助手直接集成到你现有的工作流程中，充当�
 
 > 跨地缘政治、财务和天气风险因素监控300家供应商——每日生成带缓解措施的风险评分卡。
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/160-ai-supply-chain-risk-scorer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -372,9 +384,13 @@ COCO的AI供应链风险评分器直接集成到你现有的工作流程中，�
 
 > 对比5家PBM的药品目录方案——找到节省22%药品支出的等效替代品，不影响疗效。
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/183-ai-pharmacy-benefit-optimizer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -494,9 +510,13 @@ COCO的AI药品福利优化器直接集成到你现有的工作流程中，充�
 
 > 按25项加权标准评分30份供应商投标——45分钟生成比较矩阵并筛选前3名。
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/191-ai-procurement-bid-evaluator.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 

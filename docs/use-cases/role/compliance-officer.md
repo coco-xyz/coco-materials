@@ -6,9 +6,13 @@ AI-powered use cases for compliance officer professionals.
 
 > Tracks 200+ permit applications across agencies — flags missing documents and approaching deadlines 7 days early.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/114-ai-permit-application-tracker.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -128,9 +132,13 @@ This week's data:
 
 > Scans NHTSA databases and service bulletins daily — maps recalls to your fleet inventory and generates action plans.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/120-ai-vehicle-recall-monitor.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -250,9 +258,13 @@ This week's data:
 
 > Aggregates Scope 1-3 emissions data from 12 sources — generates audit-ready carbon reports aligned to GHG Protocol.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/131-ai-carbon-footprint-reporter.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -372,9 +384,13 @@ This week's data:
 
 > Scans access logs, encryption configs, and data flows — identifies HIPAA violations and generates remediation tasks in 15 minutes.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/136-ai-hipaa-compliance-auditor.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -494,9 +510,13 @@ This week's data:
 
 > Maps your programs against 150+ accreditation standards — highlights gaps and auto-generates evidence documentation.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/152-ai-accreditation-compliance-checker.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -616,9 +636,13 @@ This week's data:
 
 > Captures incident details from natural language — generates OSHA-compliant reports with root-cause analysis and corrective actions.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/156-ai-safety-incident-reporter.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -738,9 +762,13 @@ This week's data:
 
 > Collects ESG metrics from 10 departments — drafts TCFD and GRI-aligned disclosures with data validation in 2 hours.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/185-ai-esg-disclosure-writer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 

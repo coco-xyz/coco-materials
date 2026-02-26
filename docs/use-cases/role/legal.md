@@ -6,9 +6,13 @@ AI-powered use cases for legal professionals.
 
 > Scans 50-page contracts in 3 minutes — flags risks, missing clauses, and unusual terms before you sign.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/105-ai-contract-analyzer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -128,9 +132,13 @@ This week's data:
 
 > Generates jurisdiction-specific NDAs in 60 seconds — customizes scope, duration, and carve-outs based on deal context.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/123-ai-nda-generator.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -250,9 +258,13 @@ This week's data:
 
 > Maps your patent portfolio against competitor filings — identifies white spaces and potential infringement risks across 300+ patents.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/138-ai-ip-portfolio-analyzer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -372,9 +384,13 @@ This week's data:
 
 > Searches USPTO, EUIPO, and 20+ trademark databases — delivers a comprehensive conflict report with risk scores in 10 minutes.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/153-ai-trademark-conflict-searcher.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -494,9 +510,13 @@ This week's data:
 
 > Reviews FOIA requests against exemption criteria — redacts sensitive content and drafts responses, cutting turnaround from 30 to 5 days.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/159-ai-foia-request-processor.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -616,9 +636,13 @@ This week's data:
 
 > Monitors SEC, FINRA, and 12 global regulators daily — maps new rules to your compliance obligations with 48-hour advance alerts.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/164-ai-regulatory-change-tracker.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -738,9 +762,13 @@ This week's data:
 
 > Identifies custodians, sends hold notices, tracks acknowledgments, and monitors compliance — manages 50+ active holds with zero missed deadlines.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/170-ai-litigation-hold-manager.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -860,9 +888,13 @@ This week's data:
 
 > Tracks licensing windows for 10,000+ titles across 30 territories — alerts you 60 days before rights expire for renewal decisions.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/180-ai-content-rights-tracker.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -982,9 +1014,13 @@ This week's data:
 
 > Reviews 80-page power purchase agreements — flags escalation clauses, curtailment risks, and unfavorable terms in 10 minutes.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/193-ai-power-purchase-agreement-reviewer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 

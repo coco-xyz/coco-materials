@@ -6,9 +6,13 @@ AI-powered use cases for product managers, project management, and product opera
 
 > Processes 100% of 14K monthly feedback. Issue detection: 3 weeks → 24 hours.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/053-ai-sentiment-analyzer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -110,9 +114,13 @@ Evaluate:
 
 > Project status reports: 4 hours → 15 minutes. Real-time data aggregation.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/072-ai-project-status-reporter.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -287,9 +295,13 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 > Sprint planning: 3 hours → 45 minutes. Delivery accuracy +38%.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/090-ai-sprint-planning-assistant.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -482,9 +494,13 @@ Generate:
 
 > Release notes: 3-4 hours → 5 minutes. Feature adoption +35%.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/095-ai-release-notes-generator.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -744,9 +760,13 @@ Provide: Architecture diagram description, tool recommendations, implementation 
 
 > Cross-department workflow automation: 15% → 78%. Processing time reduced 65%.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/103-ai-workflow-automator.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 

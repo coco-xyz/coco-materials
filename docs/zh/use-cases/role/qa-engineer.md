@@ -6,9 +6,13 @@ AI驱动的QA工程师专业人员用例。
 
 > 分析产线照片和传感器数据——产品出厂前以98.5%准确率捕捉缺陷。
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/111-ai-production-defect-detector.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -128,9 +132,13 @@ COCO的AI生产缺陷检测器直接集成到你现有的工作流程中，充�
 
 > 实时监控50张控制图——在产生废品前3个班次检测到超差趋势，自动触发警报。
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/188-ai-spc-chart-monitor.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -250,9 +258,13 @@ COCO的AI统计过程控制监控器直接集成到你现有的工作流程中�
 
 > 按WCAG 2.2 AA标准扫描Web应用——标记200+检查点并提供修复建议和优先级排名。
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/204-ai-accessibility-compliance-checker.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 

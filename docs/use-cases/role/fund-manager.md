@@ -2,7 +2,7 @@
 
 AI-powered use cases for fund managers, VC analysts, and private equity professionals.
 
-## 681. AI LP Quarterly Report Generator
+## 1. AI LP Quarterly Report Generator
 
 > Automates the production of institutional-quality LP quarterly reports — covering fund performance, portfolio company updates, capital accounts, and market commentary — in hours instead of weeks.
 
@@ -212,7 +212,7 @@ Tone: Professional, measured, LP-appropriate (no forward-looking guarantees; ack
 ```
 
 :::
-## 682. AI Deal Flow Pipeline Scoring & Prioritization Engine
+## 2. AI Deal Flow Pipeline Scoring & Prioritization Engine
 
 > Scores and ranks inbound deal flow against fund thesis, team capacity, and historical win rates — so analysts spend time on the opportunities most likely to close and generate returns.
 
@@ -415,7 +415,7 @@ Output: Decision post-mortem memo + 3 specific recommended scoring model calibra
 ```
 
 :::
-## 683. AI Term Sheet Clause Comparator & Red-Flag Highlighter
+## 3. AI Term Sheet Clause Comparator & Red-Flag Highlighter
 
 > Compares term sheets side-by-side across economic and control provisions, flags non-market clauses, and identifies hidden economic costs before the fund commits to a deal structure.
 
@@ -615,7 +615,7 @@ Output format: 1-page IC memo with provisions ranked by economic significance + 
 ```
 
 :::
-## 684. AI Cap Table Dilution Scenario Modeler
+## 4. AI Cap Table Dilution Scenario Modeler
 
 > Models the dilution impact of future financing rounds, option pool expansions, convertible instruments, and exit scenarios on every shareholder — before the fund commits capital.
 
@@ -824,7 +824,7 @@ Output: Portfolio cap table dashboard table + dilution risk flag report + compan
 ```
 
 :::
-## 685. AI Fund Administration Expense Allocation Automator
+## 5. AI Fund Administration Expense Allocation Automator
 
 > Automates the allocation of fund-level expenses across LPs according to LPA terms, side letter obligations, and applicable regulatory requirements — eliminating manual spreadsheet errors and audit risk.
 
@@ -1041,7 +1041,7 @@ Output: LP capital account statement for each LP + aggregate fund reconciliation
 ```
 
 :::
-## 686. AI Portfolio Company KPI Health Monitor
+## 6. AI Portfolio Company KPI Health Monitor
 
 > Tracks KPIs across the entire portfolio in real time, flags underperformers and covenant risks before they become crises, and surfaces early warning signals that allow GP intervention before permanent value impairment.
 
@@ -1246,7 +1246,7 @@ Output: Intervention brief (2 pages) for distribution to the deal partner and in
 ```
 
 :::
-## 687. AI IRR & MOIC Sensitivity Scenario Calculator
+## 7. AI IRR & MOIC Sensitivity Scenario Calculator
 
 > Models fund-level and deal-level IRR and MOIC across hundreds of exit timing, valuation, and portfolio construction scenarios — enabling investment committees to understand the full distribution of outcomes before committing capital.
 
@@ -1465,7 +1465,7 @@ Output: Formatted 2-page performance update section suitable for LP annual meeti
 ```
 
 :::
-## 688. AI Co-Investment Opportunity Risk-Return Analyzer
+## 8. AI Co-Investment Opportunity Risk-Return Analyzer
 
 > Evaluates co-investment opportunities alongside a lead GP, benchmarks terms against market standards, and provides LPs and co-investors with a rapid risk-return assessment before the co-investment window closes.
 
@@ -1661,7 +1661,7 @@ Output: Monitoring plan document + quarterly review checklist for our investment
 ```
 
 :::
-## 689. AI M&A Add-On Target Screening Engine
+## 9. AI M&A Add-On Target Screening Engine
 
 > Identifies, scores, and prioritizes acquisition targets for portfolio companies pursuing an add-on M&A strategy — accelerating deal flow generation and improving target fit assessment before management bandwidth is consumed.
 
@@ -1857,7 +1857,7 @@ Output: Formatted 1-page pipeline report for distribution to PE deal team and po
 ```
 
 :::
-## 690. AI Investment Memo Drafting Assistant
+## 10. AI Investment Memo Drafting Assistant
 
 > Drafts comprehensive investment committee memos covering market thesis, company analysis, financial diligence, risk assessment, and deal terms — turning analyst notes and diligence findings into IC-ready documents in hours.
 
@@ -2064,7 +2064,7 @@ Output: Executive summary + deal card, each on one page, formatted for IC distri
 ```
 
 :::
-## 691. AI Fund Marketing Deck & Pitch Book Builder
+## 11. AI Fund Marketing Deck & Pitch Book Builder
 
 > Builds institutional-quality fund marketing materials — including pitch books, one-pagers, and data room documents — that communicate the fund's thesis, track record, and team to prospective LPs.
 
@@ -2280,7 +2280,7 @@ Output: Updated pitch book + change log memo
 ```
 
 :::
-## 692. AI LP Relationship & Commitment Tracker
+## 12. AI LP Relationship & Commitment Tracker
 
 > Maintains a comprehensive, current view of all LP relationships, commitments, soft circles, and engagement touchpoints — ensuring no LP falls through the cracks during a fundraise or re-up cycle.
 
@@ -2502,7 +2502,7 @@ Output: Annual compliance calendar (monthly view) + Q1 action list + LP-specific
 ```
 
 :::
-## 693. AI Form D / AIFMD Regulatory Filing Preparer
+## 13. AI Form D / AIFMD Regulatory Filing Preparer
 
 > Automates the preparation of required regulatory filings for private funds — including SEC Form D, AIFMD reporting, and state blue sky filings — reducing preparation time and eliminating common errors that trigger regulatory scrutiny.
 
@@ -2710,7 +2710,7 @@ Output: Annual compliance calendar (monthly view) + current status dashboard + 3
 ```
 
 :::
-## 694. AI ESG & Impact Reporting Engine for LPs
+## 14. AI ESG & Impact Reporting Engine for LPs
 
 > Generates comprehensive ESG and impact reports for LP audiences — covering portfolio company sustainability metrics, fund-level ESG integration, and progress toward stated impact targets — in formats aligned with leading ESG reporting frameworks.
 
@@ -2913,7 +2913,7 @@ Output: LP-specific ESG data pack (PDF, 4–6 pages) formatted for their interna
 ```
 
 :::
-## 695. AI Venture Portfolio Concentration Risk Analyzer
+## 15. AI Venture Portfolio Concentration Risk Analyzer
 
 > Analyzes fund-level concentration risk across sectors, stages, geographies, business models, and capital deployment timing — and models the portfolio construction adjustments needed to improve risk-adjusted return profiles.
 
@@ -3120,7 +3120,7 @@ Output: Portfolio concentration and risk section (2–3 pages) formatted for ins
 ```
 
 :::
-## 696. AI Secondary Market LP Interest Valuation Tool
+## 16. AI Secondary Market LP Interest Valuation Tool
 
 > Provides rapid, defensible fair value assessments for LP interests in secondary transactions — analyzing underlying portfolio company values, discount-to-NAV dynamics, and market conditions to support buy-side and sell-side pricing decisions.
 
@@ -3334,7 +3334,7 @@ Output: Fund-by-fund pricing table + aggregate portfolio pricing summary + bid r
 ```
 
 :::
-## 697. AI Management Fee & Carry Waterfall Calculator
+## 17. AI Management Fee & Carry Waterfall Calculator
 
 > Models management fee calculations, carried interest waterfalls, and GP/LP distribution mechanics under any fund LPA structure — ensuring accurate economic modeling and transparent LP disclosure.
 
@@ -3570,7 +3570,7 @@ Output: 1-page GP economics summary slide for LP annual meeting + narrative disc
 ```
 
 :::
-## 698. AI Startup Founder Reference Check Synthesizer
+## 18. AI Startup Founder Reference Check Synthesizer
 
 > Synthesizes qualitative findings from founder reference check calls into structured, actionable character and leadership assessments — reducing the time to complete personnel due diligence and improving the quality of investment committee management assessments.
 
@@ -3775,7 +3775,7 @@ Output: Management section for IC memo + brief confidential reference check flag
 ```
 
 :::
-## 699. AI Competitive Landscape Mapping for Portfolio Companies
+## 19. AI Competitive Landscape Mapping for Portfolio Companies
 
 > Maps the competitive landscape for portfolio companies at investment entry and on a quarterly basis — providing GPs and portfolio company management with strategic intelligence to inform positioning, pricing, and go-to-market decisions.
 
@@ -3975,7 +3975,7 @@ Output: Portfolio competitive intelligence briefing (2 pages for GP quarterly IC
 ```
 
 :::
-## 700. AI Board Meeting Preparation Pack Generator
+## 20. AI Board Meeting Preparation Pack Generator
 
 > Automates the creation of comprehensive board meeting preparation materials for portfolio company board meetings — including pre-read packages, management review analysis, and action item tracking.
 
@@ -4186,7 +4186,7 @@ Output: Board meeting summary + action item register + follow-up communication d
 ```
 
 :::
-## 701. AI Venture Portfolio Concentration Risk Analyzer
+## 21. AI Venture Portfolio Concentration Risk Analyzer
 
 > Identify dangerous single-company exposure before it becomes a fund-killing position.
 
@@ -4375,7 +4375,7 @@ Write a 2-paragraph concentration risk section for the LP report in ILPA-recomme
 ```
 
 :::
-## 702. AI Secondary Market LP Interest Valuation Tool
+## 22. AI Secondary Market LP Interest Valuation Tool
 
 > Price LP interests accurately and negotiate secondary transactions from a position of data strength.
 
@@ -4576,7 +4576,7 @@ Draft: negotiation memo with pricing rationale, counter-offer price, and walk-aw
 ```
 
 :::
-## 703. AI Management Fee & Carry Waterfall Calculator
+## 23. AI Management Fee & Carry Waterfall Calculator
 
 > Model every fee and carry scenario with precision — before you sign the LPA and after every distribution.
 
@@ -4787,7 +4787,7 @@ For each scenario:
 ```
 
 :::
-## 704. AI Startup Founder Reference Check Synthesizer
+## 24. AI Startup Founder Reference Check Synthesizer
 
 > Transform reference calls from polite formalities into decisive investment intelligence.
 
@@ -4995,7 +4995,7 @@ Section 6: Appendix — structured notes from each call
 ```
 
 :::
-## 705. AI Competitive Landscape Mapping for Portfolio Companies
+## 25. AI Competitive Landscape Mapping for Portfolio Companies
 
 > Give your portfolio companies the competitive intelligence that Fortune 500 strategy teams spend millions to assemble.
 
@@ -5200,7 +5200,7 @@ Draft:
 ```
 
 :::
-## 706. AI Board Meeting Preparation Pack Generator
+## 26. AI Board Meeting Preparation Pack Generator
 
 > Walk into every board meeting as the best-prepared person in the room.
 
@@ -5388,7 +5388,7 @@ Generate:
 ```
 
 :::
-## 707. AI Fund Vintage Year Performance Benchmarker
+## 27. AI Fund Vintage Year Performance Benchmarker
 
 > Know exactly where your fund stands relative to the market — before your LPs tell you.
 
@@ -5603,7 +5603,7 @@ Generate:
 ```
 
 :::
-## 708. AI Deal Pipeline Conversion Rate Analytics Engine
+## 28. AI Deal Pipeline Conversion Rate Analytics Engine
 
 > Know which deals are dying and why — before you've spent 200 hours on due diligence.
 
@@ -5807,7 +5807,7 @@ Generate:
 ```
 
 :::
-## 709. AI LP Co-Investment Rights & Pro-Rata Tracker
+## 29. AI LP Co-Investment Rights & Pro-Rata Tracker
 
 > Never miss a co-investment or pro-rata obligation — and never create an LP relations problem from a missed right.
 
@@ -6026,7 +6026,7 @@ Generate:
 ```
 
 :::
-## 710. AI Private Company Valuation Methodology Selector
+## 30. AI Private Company Valuation Methodology Selector
 
 > Stop debating valuation methodology at the board table — arrive with the right framework already chosen.
 
@@ -6237,7 +6237,7 @@ This sensitivity table will be included in the ASC 820 valuation memo.
 ```
 
 :::
-## 711. AI Cross-Fund Investment Conflict of Interest Detector
+## 31. AI Cross-Fund Investment Conflict of Interest Detector
 
 > Surface conflicts between funds before they become LP disputes or SEC enforcement actions.
 
@@ -6443,7 +6443,7 @@ Generate:
 ```
 
 :::
-## 712. AI Emerging Market Fund Risk Adjustment Calculator
+## 32. AI Emerging Market Fund Risk Adjustment Calculator
 
 > Price emerging market risk correctly — so LPs understand what they're getting and GPs can justify the premium.
 
@@ -6663,7 +6663,7 @@ Draft a 1-page emerging market risk section for the LP quarterly report covering
 ```
 
 :::
-## 713. AI Sector Rotation Signal Monitor for VC Portfolios
+## 33. AI Sector Rotation Signal Monitor for VC Portfolios
 
 > Know when the market is rotating away from your thesis before the term sheets stop coming.
 
@@ -6866,7 +6866,7 @@ Draft a 1-page sector analysis section that demonstrates GP's thesis awareness a
 ```
 
 :::
-## 714. AI Fund Wind-Down & Liquidation Planning Advisor
+## 34. AI Fund Wind-Down & Liquidation Planning Advisor
 
 > Navigate the most complex phase of fund management with a systematic plan — not improvisation.
 
@@ -7085,7 +7085,7 @@ Draft: final fund closing letter that is professional, honest, grateful, and set
 ```
 
 :::
-## 715. AI Manager Selection Due Diligence Scorecard Builder
+## 35. AI Manager Selection Due Diligence Scorecard Builder
 
 > Evaluate fund managers the way the best endowments do — with a systematic framework, not gut instinct.
 
@@ -7317,7 +7317,7 @@ Escalation triggers (initiate formal review if):
 ```
 
 :::
-## 716. AI GP Stakes Secondary Transaction Analyzer
+## 36. AI GP Stakes Secondary Transaction Analyzer
 
 > Model GP stakes economics with precision before selling a piece of your firm's future carry.
 
@@ -7535,7 +7535,7 @@ Calculate for 20-year horizon (year 2024–2044):
 ```
 
 :::
-## 717. AI Revenue-Based Financing Term Optimizer
+## 37. AI Revenue-Based Financing Term Optimizer
 
 > Structure RBF deals that win competitive deals while protecting downside — without sacrificing return.
 
@@ -7753,7 +7753,7 @@ Generate: 1-page RBF portfolio section for LP quarterly report covering: portfol
 ```
 
 :::
-## 718. AI Micro-VC Fund Economics & Carry Scenario Modeler
+## 38. AI Micro-VC Fund Economics & Carry Scenario Modeler
 
 > Model the math of running a small fund before you raise it — and optimize for GP economics, not just LP returns.
 
@@ -7987,7 +7987,7 @@ Recommend: optimal Fund II size and rationale.
 ```
 
 :::
-## 719. AI QSBS Tax Benefit Eligibility Tracker
+## 39. AI QSBS Tax Benefit Eligibility Tracker
 
 > Maximize your LPs' Section 1202 exclusion — the most valuable tax benefit in venture investing.
 
@@ -8196,7 +8196,7 @@ Draft:
 ```
 
 :::
-## 720. AI Dollar-Denominated Fund (USD Fund) Structuring Advisor
+## 40. AI Dollar-Denominated Fund (USD Fund) Structuring Advisor
 
 > Structure offshore USD-denominated funds correctly the first time — before regulatory complexity derails your fundraise.
 

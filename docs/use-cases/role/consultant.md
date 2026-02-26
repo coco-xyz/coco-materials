@@ -6,9 +6,13 @@ AI-powered use cases for consultant professionals.
 
 > Synthesizes market data, financials, and competitor intel into a 10-page strategy brief in 15 minutes.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/112-ai-strategy-brief-writer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -128,9 +132,13 @@ This week's data:
 
 > Pulls public filings, news, litigation records, and financial data — assembles a due diligence package in 2 hours instead of 2 weeks.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/127-ai-due-diligence-compiler.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -250,9 +258,13 @@ This week's data:
 
 > Transforms raw analysis into McKinsey-style slide decks — structures 30 slides with charts, key findings, and recommendations in 25 minutes.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/142-ai-management-consulting-deck-builder.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -372,9 +384,13 @@ This week's data:
 
 > Analyzes crop photos and local pest databases — identifies infestations with 95% accuracy and recommends treatment protocols.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/145-ai-pest-detection-advisor.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -494,9 +510,13 @@ This week's data:
 
 > Collects operational KPIs from 50+ industry peers — ranks your client's performance and identifies top-quartile improvement targets.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/157-ai-benchmarking-analyst.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -616,9 +636,13 @@ This week's data:
 
 > Builds TAM/SAM/SOM models from public data — generates bottom-up and top-down estimates with source citations in 20 minutes.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/174-ai-market-sizing-modeler.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -738,9 +762,13 @@ This week's data:
 
 > Runs 100 pricing scenarios with elasticity curves and competitor data — recommends tier structures that maximize LTV by 20%.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/189-ai-pricing-strategy-modeler.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 

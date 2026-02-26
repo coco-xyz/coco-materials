@@ -6,9 +6,13 @@ AI-powered use cases for data analyst professionals.
 
 > Pulls 20+ comps, adjusts for location and condition, and delivers a market valuation report in 5 minutes.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/108-ai-property-valuation-assistant.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -128,9 +132,13 @@ This week's data:
 
 > Combines weather data, soil reports, and historical yields to predict harvest volumes within 8% accuracy.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/115-ai-crop-yield-predictor.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -250,9 +258,13 @@ This week's data:
 
 > Reads a 120-page screenplay and generates professional coverage — synopsis, character analysis, and market fit in 8 minutes.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/118-ai-script-coverage-reader.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -372,9 +384,13 @@ This week's data:
 
 > Matches patient records against 40+ trial criteria — identifies eligible candidates 10x faster than manual review.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/121-ai-clinical-trial-screener.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -494,9 +510,13 @@ This week's data:
 
 > Searches across 15 government databases simultaneously — compiles property, court, and business records in 5 minutes.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/129-ai-public-records-researcher.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -616,9 +636,13 @@ This week's data:
 
 > Processes RF propagation data, terrain maps, and zoning rules — ranks 50 candidate sites by coverage potential in 20 minutes.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/134-ai-5g-site-survey-analyzer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -738,9 +762,13 @@ This week's data:
 
 > Processes 10,000+ citizen comments from town halls and surveys — clusters themes, sentiment, and urgency into actionable briefs.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/144-ai-constituent-feedback-analyzer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -860,9 +888,13 @@ This week's data:
 
 > Evaluates applicant data against 50 risk factors — generates underwriting recommendations with confidence scores in 8 minutes.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/147-ai-underwriting-assistant.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -982,9 +1014,13 @@ This week's data:
 
 > Scores 100,000 subscribers on 30+ behavioral signals — identifies likely churners 45 days out with 87% accuracy.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/149-ai-churn-predictor.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1104,9 +1140,13 @@ This week's data:
 
 > Aggregates program data from 8 sources — produces funder-ready impact reports with visualizations and outcome metrics in 20 minutes.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/158-ai-impact-measurement-reporter.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1226,9 +1266,13 @@ This week's data:
 
 > Extracts room dimensions, calculates usable square footage, and flags code violations from uploaded floor plans in 2 minutes.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/166-ai-floor-plan-analyzer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1348,9 +1392,13 @@ This week's data:
 
 > Interprets lab results for pH, nutrients, and organic matter across 50 field zones — recommends fertilizer plans with cost estimates.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/177-ai-soil-health-reporter.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1470,9 +1518,13 @@ This week's data:
 
 > Analyzes claim patterns across 100,000 records — identifies suspicious clusters and staged accident indicators with 92% precision.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/179-ai-fraud-pattern-detector.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 
@@ -1592,9 +1644,13 @@ This week's data:
 
 > Models demographic trends, application funnel data, and competitor moves — forecasts next-year enrollment within 3% accuracy.
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/en/184-ai-enrollment-forecaster.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details Pain Point & How COCO Solves It
 

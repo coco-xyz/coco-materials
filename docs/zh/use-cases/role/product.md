@@ -6,9 +6,13 @@ AI驱动的产品经理、项目管理和产品运营用例。
 
 > 100%处理14000条月度反馈，问题发现从3周到24小时。
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/053-ai-sentiment-analyzer.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -110,9 +114,13 @@ AI驱动的产品经理、项目管理和产品运营用例。
 
 > 项目状态报告编写从4小时降至15分钟，实时数据自动聚合。
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/072-ai-project-status-reporter.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -287,9 +295,13 @@ COCO的AI项目状态报告生成器将这种混乱转变为流畅的智能工�
 
 > 冲刺规划会议从3小时缩短到45分钟，交付准确率提升38%。
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/090-ai-sprint-planning-assistant.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -482,9 +494,13 @@ COCO的AI冲刺规划助手将冲刺规划从主观辩论转变为数据驱动�
 
 > 发版说明编写从3-4小时降至5分钟，功能采用率提升35%。
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/095-ai-release-notes-generator.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
@@ -744,9 +760,13 @@ Git日志：
 
 > 跨部门工作流自动化率从15%提升到78%，处理时间减少65%。
 
+::: details 🎬 Watch Demo Video
+
 <video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
   <source src="/videos/cn/103-ai-workflow-automator.mp4" type="video/mp4">
 </video>
+
+:::
 
 ::: details 痛点与解决方案
 
