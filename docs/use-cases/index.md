@@ -1,6 +1,6 @@
 # Use Cases
 
-Discover **914 real-world scenarios** where COCO AI employees save time and money. Browse by **Role**, **Task**, or **Industry**.
+Discover **925 real-world scenarios** where COCO AI employees save time and money. Browse by **Role**, **Task**, or **Industry**.
 
 ## Browse by Role
 
@@ -35,7 +35,7 @@ Find use cases for your specific job function:
 | [Due Diligence Analyst](/use-cases/role/due-diligence-analyst) | 35 | Subsidiary & Affiliated Entity Mapper, Beneficial Owner Identification Engine, Sanctions & PEP Screening, ... |
 | [Crypto & Web3 Analyst](/use-cases/role/crypto-analyst) | 40 | On-Chain Transaction Pattern Analyzer, DeFi Protocol Risk Assessor, Token Economics Model Builder, ... |
 | [Fund Manager / VC Analyst](/use-cases/role/fund-manager) | 40 | LP Quarterly Report Generator, Deal Flow Pipeline Scoring, Term Sheet Clause Comparator, ... |
-| [AI Product Manager](/use-cases/role/ai-product-manager) | 40 | Model Evaluation Framework Builder, Prompt Engineering Optimizer, Bias Detection & Fairness Audit, ... |
+| [AI Product Manager](/use-cases/role/ai-product-manager) | 49 | Model Evaluation Framework Builder, Prompt Engineering Optimizer, Bias Detection & Fairness Audit, ... |
 | [Research Analyst](/use-cases/role/research-analyst) | 40 | Market Sizing & TAM/SAM/SOM Calculator, Competitive Intelligence Report Builder, Industry Trend Aggregator, ... |
 | [Designer](/use-cases/role/designer) | 20 | Brand Asset Consistency Auditor, Design System Component Auditor, Responsive Design QA, ... |
 
@@ -994,3 +994,14 @@ Find use cases by what you need to get done:
 | 912 | [AI Sales Objection Handler](/use-cases/role/customer-support#_12-ai-sales-objection-handler) | Support | Tech/SaaS | Automation | Success rate 35% → 72% |
 | 913 | [AI Customer Health Scorer](/use-cases/role/customer-support#_13-ai-customer-health-scorer) | Support | Tech/SaaS | Analysis | Coverage 20% → 100% |
 | 914 | [AI Pitch Deck Builder](/use-cases/role/sales#_15-ai-pitch-deck-builder) | Sales | Tech/SaaS | Writing | 15h → 1h per deck |
+| 915 | [AI Recruitment Marketing Writer](/use-cases/role/hr-recruiting#_10-ai-recruitment-marketing-writer) | HR | Tech/SaaS | Writing | Click-through +65%, quality applications +40% |
+| 916 | [AI IP Portfolio Analyzer](/use-cases/role/legal#use-case-363) | Legal | Tech/SaaS | Analysis | IP costs reduced 15-25%, M&A DD: 6-8wk → 2-3wk |
+| 917 | [AI Product Accessibility & Inclusive Design Auditor](/use-cases/role/ai-product-manager#_41-ai-product-accessibility-inclusive-design-auditor) | AI PM | Tech/SaaS | Analysis | Edge-user retention +25-40% |
+| 918 | [AI Product Technical Debt Assessment & Refactoring Planner](/use-cases/role/ai-product-manager#_42-ai-product-technical-debt-assessment-refactoring-planner) | AI PM | Tech/SaaS | Analysis | Delivery lead time -30-50% |
+| 919 | [AI Product User Segmentation & Personalization Engine](/use-cases/role/ai-product-manager#_43-ai-product-user-segmentation-personalization-engine) | AI PM | Tech/SaaS | Automation | 60-day retention +20-35% |
+| 920 | [AI Product Competitive Intelligence Monitoring System](/use-cases/role/ai-product-manager#_44-ai-product-competitive-intelligence-monitoring-system) | AI PM | Tech/SaaS | Research | Response time: 2-3wk → 3-5 days |
+| 921 | [AI Product Knowledge Management & Documentation System](/use-cases/role/ai-product-manager#_45-ai-product-knowledge-management-documentation-system) | AI PM | Tech/SaaS | Writing | Ramp-up: 3-4mo → 6-8wk |
+| 922 | [AI Product Crisis Communication & Stakeholder Management Playbook](/use-cases/role/ai-product-manager#_46-ai-product-crisis-communication-stakeholder-management-playbook) | AI PM | Tech/SaaS | Writing | Crisis response: 24-72h → 4-8h |
+| 923 | [AI Product Revenue Attribution & Business Case Builder](/use-cases/role/ai-product-manager#_47-ai-product-revenue-attribution-business-case-builder) | AI PM | Tech/SaaS | Analysis | Budget approval rate +50-70% |
+| 924 | [AI Product Ecosystem & Partnership Strategy Builder](/use-cases/role/ai-product-manager#_48-ai-product-ecosystem-partnership-strategy-builder) | AI PM | Tech/SaaS | Analysis | Channel revenue contribution 20-40% |
+| 925 | [AI Product Long-Term Vision & Innovation Pipeline Builder](/use-cases/role/ai-product-manager#_49-ai-product-long-term-vision-innovation-pipeline-builder) | AI PM | Tech/SaaS | Analysis | Innovation success: 20-30% → 50-60% |
