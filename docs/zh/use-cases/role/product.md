@@ -8,9 +8,7 @@ AI驱动的产品经理、项目管理和产品运营用例。
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/053-ai-sentiment-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/053-ai-sentiment-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -116,9 +114,7 @@ AI驱动的产品经理、项目管理和产品运营用例。
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/072-ai-project-status-reporter.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/072-ai-project-status-reporter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -297,9 +293,7 @@ COCO的AI项目状态报告生成器将这种混乱转变为流畅的智能工�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/090-ai-sprint-planning-assistant.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/090-ai-sprint-planning-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -496,9 +490,7 @@ COCO的AI冲刺规划助手将冲刺规划从主观辩论转变为数据驱动�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/095-ai-release-notes-generator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/095-ai-release-notes-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -762,9 +754,7 @@ Git日志：
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/103-ai-workflow-automator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/103-ai-workflow-automator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 

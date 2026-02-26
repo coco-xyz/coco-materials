@@ -8,9 +8,7 @@ AI驱动的培训师专业人员用例。
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/107-ai-curriculum-designer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/107-ai-curriculum-designer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -134,9 +132,7 @@ COCO的AI课程设计师直接集成到你现有的工作流程中，充当一�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/122-ai-student-progress-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/122-ai-student-progress-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -260,9 +256,7 @@ COCO的AI学生进度追踪器直接集成到你现有的工作流程中，充�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/137-ai-plagiarism-checker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/137-ai-plagiarism-checker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -386,9 +380,7 @@ COCO的AI抄袭检测器直接集成到你现有的工作流程中，充当一�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/163-ai-research-paper-grader.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/163-ai-research-paper-grader.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -512,9 +504,7 @@ COCO的AI论文评分助手直接集成到你现有的工作流程中，充当�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/169-ai-learning-path-builder.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/169-ai-learning-path-builder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 

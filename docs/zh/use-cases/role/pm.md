@@ -8,9 +8,7 @@ AI驱动的项目经理专业人员用例。
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/155-ai-event-logistics-planner.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/155-ai-event-logistics-planner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -134,9 +132,7 @@ COCO的AI活动后勤规划器直接集成到你现有的工作流程中，充�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/175-ai-fundraising-event-planner.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/175-ai-fundraising-event-planner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 

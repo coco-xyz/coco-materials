@@ -8,9 +8,7 @@ AI驱动的合规官专业人员用例。
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/114-ai-permit-application-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/114-ai-permit-application-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -134,9 +132,7 @@ COCO的AI许可证申请追踪器直接集成到你现有的工作流程中，�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/120-ai-vehicle-recall-monitor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/120-ai-vehicle-recall-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -260,9 +256,7 @@ COCO的AI车辆召回监控器直接集成到你现有的工作流程中，充�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/131-ai-carbon-footprint-reporter.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/131-ai-carbon-footprint-reporter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -386,9 +380,7 @@ COCO的AI碳足迹报告生成器直接集成到你现有的工作流程中，�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/136-ai-hipaa-compliance-auditor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/136-ai-hipaa-compliance-auditor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -512,9 +504,7 @@ COCO的AI HIPAA合规审计师直接集成到你现有的工作流程中，充�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/152-ai-accreditation-compliance-checker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/152-ai-accreditation-compliance-checker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -638,9 +628,7 @@ COCO的AI认证合规检查器直接集成到你现有的工作流程中，充�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/156-ai-safety-incident-reporter.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/156-ai-safety-incident-reporter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -764,9 +752,7 @@ COCO的AI安全事故报告器直接集成到你现有的工作流程中，充�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/185-ai-esg-disclosure-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/185-ai-esg-disclosure-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 

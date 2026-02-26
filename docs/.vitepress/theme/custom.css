@@ -115,3 +115,12 @@
   white-space: nowrap;
   min-width: 3em;
 }
+/* Prevent short-content columns (角色, 行业, 任务) from wrapping */
+.vp-doc table td:nth-child(3),
+.vp-doc table th:nth-child(3),
+.vp-doc table td:nth-child(4),
+.vp-doc table th:nth-child(4),
+.vp-doc table td:nth-child(5),
+.vp-doc table th:nth-child(5) {
+  white-space: nowrap;
+}

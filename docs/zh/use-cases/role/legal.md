@@ -8,9 +8,7 @@ AI驱动的法律专业人员用例。
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/105-ai-contract-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/105-ai-contract-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -134,9 +132,7 @@ COCO的AI合同分析师直接集成到你现有的工作流程中，充当一�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/123-ai-nda-generator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/123-ai-nda-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -260,9 +256,7 @@ COCO的AI保密协议生成器直接集成到你现有的工作流程中，充�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/138-ai-ip-portfolio-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/138-ai-ip-portfolio-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -386,9 +380,7 @@ COCO的AI知识产权组合分析器直接集成到你现有的工作流程中�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/153-ai-trademark-conflict-searcher.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/153-ai-trademark-conflict-searcher.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -512,9 +504,7 @@ COCO的AI商标冲突检索器直接集成到你现有的工作流程中，充�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/159-ai-foia-request-processor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/159-ai-foia-request-processor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -638,9 +628,7 @@ COCO的AI信息公开请求处理器直接集成到你现有的工作流程中�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/164-ai-regulatory-change-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/164-ai-regulatory-change-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -764,9 +752,7 @@ COCO的AI法规变更追踪器直接集成到你现有的工作流程中，充�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/170-ai-litigation-hold-manager.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/170-ai-litigation-hold-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -890,9 +876,7 @@ COCO的AI诉讼保全管理器直接集成到你现有的工作流程中，充�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/180-ai-content-rights-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/180-ai-content-rights-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1016,9 +1000,7 @@ COCO的AI内容版权追踪器直接集成到你现有的工作流程中，充�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/193-ai-power-purchase-agreement-reviewer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/193-ai-power-purchase-agreement-reviewer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 

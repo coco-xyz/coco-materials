@@ -8,9 +8,7 @@ AI驱动的内容创作者、营销团队和品牌经理用例。
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/010-ai-seo-content-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/010-ai-seo-content-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -215,9 +213,7 @@ COCO的AI SEO Content Writer将内容创作流水线从一个串行的、劳动�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/011-ai-social-media-manager.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/011-ai-social-media-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -404,9 +400,7 @@ COCO的AI Social Media Manager作为社交媒体团队的力量倍增器，处�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/012-ai-ad-copy-generator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/012-ai-ad-copy-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -615,9 +609,7 @@ COCO的AI Ad Copy Generator专为效果营销构建，理解各平台付费广�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/013-ai-newsletter-curator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/013-ai-newsletter-curator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -769,9 +761,7 @@ COCO的AI Newsletter Curator自动化Newsletter制作中劳动密集的部分，
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/014-ai-competitive-copywriter.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/014-ai-competitive-copywriter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -946,9 +936,7 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/040-ai-brand-monitor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/040-ai-brand-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1054,9 +1042,7 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/041-ai-influencer-finder.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/041-ai-influencer-finder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1162,9 +1148,7 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/042-ai-campaign-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/042-ai-campaign-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1270,9 +1254,7 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/043-ai-content-calendar.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/043-ai-content-calendar.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1378,9 +1360,7 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/044-ai-persona-builder.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/044-ai-persona-builder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1486,9 +1466,7 @@ COCO的AI Competitive Copywriter弥合竞品情报和面向收入的文案之间
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/070-ai-product-feedback-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/070-ai-product-feedback-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1667,9 +1645,7 @@ COCO的AI产品反馈分析器将这种混乱转变为流畅的智能工作流�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/076-ai-localization-manager.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/076-ai-localization-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1848,9 +1824,7 @@ COCO的AI本地化管理器将这种混乱转变为流畅的智能工作流。�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/079-ai-marketing-roi-dashboard.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/079-ai-marketing-roi-dashboard.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2029,9 +2003,7 @@ COCO的AI营销ROI仪表盘将这种混乱转变为流畅的智能工作流。�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/084-ai-competitive-intelligence-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/084-ai-competitive-intelligence-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2210,9 +2182,7 @@ COCO的AI竞争情报追踪器将这种混乱转变为流畅的智能工作流�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/089-ai-social-listening-agent.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/089-ai-social-listening-agent.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2411,9 +2381,7 @@ COCO的AI社交媒体监听助手作为7×24小时品牌情报系统运作，覆
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/093-ai-recruitment-marketing-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/093-ai-recruitment-marketing-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2592,9 +2560,7 @@ COCO的AI招聘营销文案助手将这种混乱转变为流畅的智能工作�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/094-ai-customer-survey-designer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/094-ai-customer-survey-designer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2839,9 +2805,7 @@ COCO的AI客户调研设计师将调查从粗糙的工具转变为精准的反�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/100-ai-demand-forecaster.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/100-ai-demand-forecaster.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3040,9 +3004,7 @@ COCO的AI需求预测器通过结合先进的机器学习和外部信号集成�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/101-ai-pitch-deck-builder.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/101-ai-pitch-deck-builder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3247,9 +3209,7 @@ COCO的AI演示文稿构建器将演示创建从手动、耗时的苦差事转�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/110-ai-hotel-review-responder.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/110-ai-hotel-review-responder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3373,9 +3333,7 @@ COCO的AI酒店评论回复器直接集成到你现有的工作流程中，充�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/133-ai-podcast-show-notes-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/133-ai-podcast-show-notes-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3499,9 +3457,7 @@ COCO的AI播客节目笔记撰写器直接集成到你现有的工作流程中�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/181-ai-subscriber-lifecycle-manager.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/181-ai-subscriber-lifecycle-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3625,9 +3581,7 @@ COCO的AI订户生命周期管理器直接集成到你现有的工作流程中�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/195-ai-audience-segmentation-engine.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/195-ai-audience-segmentation-engine.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 

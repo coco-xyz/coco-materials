@@ -8,9 +8,7 @@ AI驱动的开发者、DevOps工程师和技术负责人用例。
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/005-ai-code-reviewer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/005-ai-code-reviewer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -150,9 +148,7 @@ PR信息：
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/006-ai-test-generator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/006-ai-test-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -328,9 +324,7 @@ Bug描述：[描述bug]
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/007-ai-deploy-monitor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/007-ai-deploy-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -501,9 +495,7 @@ COCO的AI Deploy Monitor作为智能层叠加在你现有的监控基础设施�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/008-ai-api-doc-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/008-ai-api-doc-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -688,9 +680,7 @@ API概述：[简要描述API功能]
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/009-ai-debug-assistant.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/009-ai-debug-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -889,9 +879,7 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/035-ai-code-migrator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/035-ai-code-migrator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -997,9 +985,7 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/036-ai-performance-profiler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/036-ai-performance-profiler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1105,9 +1091,7 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/037-ai-security-scanner.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/037-ai-security-scanner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1213,9 +1197,7 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/038-ai-database-optimizer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/038-ai-database-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1320,9 +1302,7 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/039-ai-dependency-manager.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/039-ai-dependency-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1428,9 +1408,7 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/051-ai-bug-prioritizer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/051-ai-bug-prioritizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1536,9 +1514,7 @@ COCO的AI Debug Assistant作为一个高级debug伙伴，读过你的整个代�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/074-ai-helpdesk-escalation-router.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/074-ai-helpdesk-escalation-router.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1717,9 +1693,7 @@ COCO的AI工单升级路由器将这种混乱转变为流畅的智能工作流�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/075-ai-data-pipeline-monitor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/075-ai-data-pipeline-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1898,9 +1872,7 @@ COCO的AI数据管道监控器将这种混乱转变为流畅的智能工作流�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/080-ai-incident-response-coordinator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/080-ai-incident-response-coordinator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2079,9 +2051,7 @@ COCO的AI事件响应协调器将这种混乱转变为流畅的智能工作流�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/081-ai-patent-research-assistant.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/081-ai-patent-research-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2260,9 +2230,7 @@ COCO的AI专利研究助手将这种混乱转变为流畅的智能工作流。�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/083-ai-quality-assurance-auditor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/083-ai-quality-assurance-auditor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2441,9 +2409,7 @@ COCO的AI质量保证审计器将这种混乱转变为流畅的智能工作流�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/087-ai-technical-writer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/087-ai-technical-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2631,9 +2597,7 @@ SDK语言：[语言]
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/099-ai-it-asset-manager.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/099-ai-it-asset-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2866,9 +2830,7 @@ COCO的AI IT资产管理器为您组织中的每项技术资产创建全面、�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/161-ai-api-migration-planner.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/161-ai-api-migration-planner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2992,9 +2954,7 @@ COCO的AI API迁移规划器直接集成到你现有的工作流程中，充当�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/168-ai-ehr-data-migrator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/168-ai-ehr-data-migrator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -3118,9 +3078,7 @@ COCO的AI电子病历数据迁移器直接集成到你现有的工作流程中�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/198-ai-dependency-vulnerability-scanner.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/198-ai-dependency-vulnerability-scanner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 

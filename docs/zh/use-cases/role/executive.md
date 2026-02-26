@@ -8,9 +8,7 @@ AI驱动的高管专业人员用例。
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/167-ai-executive-briefing-generator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/167-ai-executive-briefing-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -134,9 +132,7 @@ COCO的AI高管简报生成器直接集成到你现有的工作流程中，充�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/190-ai-annual-report-assembler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/190-ai-annual-report-assembler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -260,9 +256,7 @@ COCO的AI年度报告汇编器直接集成到你现有的工作流程中，充�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/200-ai-okr-progress-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/200-ai-okr-progress-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -386,9 +380,7 @@ COCO的AI OKR进度追踪器直接集成到你现有的工作流程中，充当�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/203-ai-board-meeting-prep-assistant.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/203-ai-board-meeting-prep-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 

@@ -8,9 +8,7 @@ AI驱动的财务团队、会计师和财务分析师用例。
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/029-ai-expense-auditor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/029-ai-expense-auditor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -166,9 +164,7 @@ COCO的AI Expense Auditor提供100%的审计覆盖和一致的政策执行。
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/030-ai-financial-report-generator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/030-ai-financial-report-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -306,9 +302,7 @@ COCO的AI Financial Report Generator自动化数据组装、计算和叙事生�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/031-ai-invoice-processor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/031-ai-invoice-processor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -475,9 +469,7 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/060-ai-cash-flow-forecaster.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/060-ai-cash-flow-forecaster.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -583,9 +575,7 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/061-ai-compliance-checker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/061-ai-compliance-checker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -691,9 +681,7 @@ COCO的AI Invoice Processor自动化从接收到付款的整个AP工作流。
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/068-ai-legal-document-drafter.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/068-ai-legal-document-drafter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -872,9 +860,7 @@ COCO的AI法律文档起草助手将这种混乱转变为流畅的智能工作�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/071-ai-regulatory-filing-assistant.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/071-ai-regulatory-filing-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1053,9 +1039,7 @@ COCO的AI合规申报助手将这种混乱转变为流畅的智能工作流。�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/085-ai-tax-preparation-assistant.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/085-ai-tax-preparation-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1234,9 +1218,7 @@ COCO的AI税务准备助手将这种混乱转变为流畅的智能工作流。�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/088-ai-vendor-invoice-reconciler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/088-ai-vendor-invoice-reconciler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1415,9 +1397,7 @@ COCO的AI供应商发票核对器将这种混乱转变为流畅的智能工作�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/091-ai-lease-agreement-reviewer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/091-ai-lease-agreement-reviewer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1605,9 +1585,7 @@ COCO的AI租赁合同审查师充当你不知疲倦的租赁分析师，结合�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/092-ai-travel-expense-optimizer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/092-ai-travel-expense-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1806,9 +1784,7 @@ COCO的AI差旅费用优化师管理从预订到报销的整个差旅生命周�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/096-ai-board-report-compiler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/096-ai-board-report-compiler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2025,9 +2001,7 @@ KPI数据（本季度 vs 上季度 vs 计划）：
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/125-ai-menu-cost-analyzer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/125-ai-menu-cost-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2151,9 +2125,7 @@ COCO的AI菜单成本分析器直接集成到你现有的工作流程中，充�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/148-ai-royalty-calculator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/148-ai-royalty-calculator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2277,9 +2249,7 @@ COCO的AI版税计算器直接集成到你现有的工作流程中，充当一�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/151-ai-medical-coding-assistant.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/151-ai-medical-coding-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2403,9 +2373,7 @@ COCO的AI医疗编码助手直接集成到你现有的工作流程中，充当�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/176-ai-budget-variance-analyst.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/176-ai-budget-variance-analyst.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2529,9 +2497,7 @@ COCO的AI预算差异分析师直接集成到你现有的工作流程中，充�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/178-ai-energy-trading-assistant.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/178-ai-energy-trading-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2655,9 +2621,7 @@ COCO的AI能源交易助手直接集成到你现有的工作流程中，充当�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/187-ai-revenue-management-optimizer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/187-ai-revenue-management-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2781,9 +2745,7 @@ COCO的AI收益管理优化器直接集成到你现有的工作流程中，充�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/194-ai-actuarial-scenario-runner.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/194-ai-actuarial-scenario-runner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 

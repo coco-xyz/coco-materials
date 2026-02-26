@@ -8,9 +8,7 @@ AI驱动的物流经理专业人员用例。
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/109-ai-shipment-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/109-ai-shipment-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -134,9 +132,7 @@ COCO的AI货运追踪器直接集成到你现有的工作流程中，充当一�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/124-ai-warehouse-layout-optimizer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/124-ai-warehouse-layout-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -260,9 +256,7 @@ COCO的AI仓库布局优化器直接集成到你现有的工作流程中，充�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/139-ai-route-optimizer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/139-ai-route-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -386,9 +380,7 @@ COCO的AI路线优化器直接集成到你现有的工作流程中，充当一�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/165-ai-last-mile-delivery-tracker.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/165-ai-last-mile-delivery-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -512,9 +504,7 @@ COCO的AI最后一公里配送追踪器直接集成到你现有的工作流程�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/171-ai-cross-dock-scheduler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/171-ai-cross-dock-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -638,9 +628,7 @@ COCO的AI越库调度器直接集成到你现有的工作流程中，充当一�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/186-ai-customs-declaration-filer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/186-ai-customs-declaration-filer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 

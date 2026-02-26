@@ -8,9 +8,7 @@ AI驱动的客服团队、帮助台和客户成功用例。
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/021-ai-ticket-classifier.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/021-ai-ticket-classifier.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -165,9 +163,7 @@ SLA层级：[按优先级列出你的SLA要求]
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/022-ai-knowledge-base-builder.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/022-ai-knowledge-base-builder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -325,9 +321,7 @@ COCO的AI Knowledge Base Builder将已解决的客服工单转化为已发布的
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/023-ai-multi-language-support.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/023-ai-multi-language-support.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -487,9 +481,7 @@ COCO的AI Multi-Language Support提供母语质量的多语言客户服务，无
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/024-ai-vip-escalation.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/024-ai-vip-escalation.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -646,9 +638,7 @@ CSM：[姓名]
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/049-ai-churn-predictor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/049-ai-churn-predictor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -754,9 +744,7 @@ CSM：[姓名]
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/050-ai-chatbot-trainer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/050-ai-chatbot-trainer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -862,9 +850,7 @@ CSM：[姓名]
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/054-ai-faq-generator.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/054-ai-faq-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -970,9 +956,7 @@ CSM：[姓名]
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/069-ai-customer-success-monitor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/069-ai-customer-success-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1151,9 +1135,7 @@ COCO的AI客户成功监控器将这种混乱转变为流畅的智能工作流�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/074-ai-helpdesk-escalation-router.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/074-ai-helpdesk-escalation-router.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1332,9 +1314,7 @@ COCO的AI工单升级路由器将这种混乱转变为流畅的智能工作流�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/078-ai-customer-onboarding-guide.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/078-ai-customer-onboarding-guide.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1513,9 +1493,7 @@ COCO的AI客户入驻引导助手将这种混乱转变为流畅的智能工作�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/086-ai-customer-win-back-campaigner.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/086-ai-customer-win-back-campaigner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1694,9 +1672,7 @@ COCO的AI客户挽回营销器将这种混乱转变为流畅的智能工作流�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/098-ai-sales-objection-handler.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/098-ai-sales-objection-handler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -1928,9 +1904,7 @@ COCO的AI销售异议处理器将经验知识转化为可扩展的、始终最�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/102-ai-customer-health-scorer.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/102-ai-customer-health-scorer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
@@ -2142,9 +2116,7 @@ COCO的AI客户健康评分器用全面的预测系统替代简单的手动健�
 
 ::: details 🎬 Watch Demo Video
 
-<video controls style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;">
-  <source src="/videos/cn/196-ai-service-ticket-predictor.mp4" type="video/mp4">
-</video>
+<video controls src="/videos/cn/196-ai-service-ticket-predictor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
 :::
 
