@@ -7671,9 +7671,8 @@ Known limitations: [honest assessment of what the system does poorly or fails on
 Intended users: [who is this for — describe user population]
 Unintended uses: [what should this NOT be used for]
 
-Generate the model card:
+Generate the model card with the following sections:
 
-:::
 ## Model Details
 - Model name and version
 - Model type and architecture
