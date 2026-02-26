@@ -250,7 +250,7 @@ This week's data:
 
 > Synthesizes 200–400 signals from NPS, support, sales calls, and usage data into a structured PMF assessment with confidence scores — reduces PMF research cycle from 3–4 weeks to 3–4 days.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: PMs Are Making Multi-Million Dollar Roadmap Decisions on Gut Feel and Cherry-Picked Signals**
 
@@ -290,8 +290,9 @@ COCO's AI Product-Market Fit Validator synthesizes signals across quantitative u
    - Tracks "unintended use" patterns where customers use the product for jobs it wasn't designed for — often the strongest PMF signal
    - Identifies customers who mention competitors favorably in support tickets or NPS verbatims as a churn-risk and competitive signal
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -308,8 +309,9 @@ COCO's AI Product-Market Fit Validator synthesizes signals across quantitative u
 - **Investors and Board Members**: Access structured PMF assessments with assumption tracking and evidence bases rather than narrative-only updates
 - **Sales and Customer Success**: Understand which customer segments have genuine PMF so they can focus acquisition and expansion on segments where the product truly fits
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full PMF Assessment for a New Product Initiative**
 ```
@@ -436,12 +438,12 @@ Please assess:
 5. What 2-3 product investments would most strengthen our PMF advantage in our core winning segments?
 ```
 
-
+:::
 ## 4. AI Competitive Intelligence Synthesizer
 
 > Monitors 300–500 signals per competitor per quarter — delivers living battlecards, feature gap analysis, and win/loss intelligence to PMs in 2 hours instead of 12.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Competitive Intelligence Is Stale, Incomplete, and Siloed Before It Reaches a PM's Desk**
 
@@ -481,8 +483,9 @@ COCO's AI Competitive Intelligence Synthesizer continuously ingests, classifies,
    - "Competitor Y's job postings suggest a mobile-first pivot; their current mobile reviews average 3.1 stars — potential opening"
    - Prioritized by likely impact on your roadmap, deals in progress, and customer retention risk
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -499,8 +502,9 @@ COCO's AI Competitive Intelligence Synthesizer continuously ingests, classifies,
 - **Executive Leadership (CPO, CEO)**: Make positioning and M&A evaluation decisions with structured competitive intelligence rather than anecdote-driven briefings
 - **Customer Success Managers**: Identify customers who are at risk of churning to specific competitors based on their feature usage profile vs. competitor capabilities
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Competitive Landscape Synthesis**
 ```
@@ -616,12 +620,12 @@ Please:
 5. What should we do now — in product, sales preparation, or customer communication — to be ready for these likely announcements?
 ```
 
-
+:::
 ## 5. AI Feature Flag Strategy Advisor
 
 > Designs flag lifecycle policies, rollout strategies, and graduation criteria — reduces stale flags 45% and rollout incidents 31%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Feature Flags Are Proliferating Without Strategy, Creating Debt and Risk That PMs Can't See or Manage**
 
@@ -665,8 +669,9 @@ COCO's AI Feature Flag Strategy Advisor helps PMs design, document, and manage f
    - Customer support escalation criteria: what patterns in support tickets should trigger a rollout pause
    - Engineering on-call criteria: what system metrics should page an engineer during a flag-controlled rollout
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -683,8 +688,9 @@ COCO's AI Feature Flag Strategy Advisor helps PMs design, document, and manage f
 - **Customer Success Managers**: Know exactly which features each customer can see, preventing surprise exposures to beta functionality in sensitive accounts
 - **Enterprise Account Managers**: Manage contractual feature access commitments with explicit flag governance documentation rather than tribal knowledge
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Design a Feature Flag Rollout Strategy**
 ```
@@ -821,12 +827,12 @@ Please assess:
 6. What learnings from this rollout should we apply to our next flag strategy?
 ```
 
-
+:::
 ## 6. AI Stakeholder Alignment Engine
 
 > Structures stakeholder input collection, surfaces conflicts before sprint planning, and documents agreements — reduces PM alignment time from 47% to 28% of working hours.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: PMs Spend More Time Managing Alignment Than Building Product — and Still Fail at It**
 
@@ -868,8 +874,9 @@ COCO's AI Stakeholder Alignment Engine maps stakeholder influence and informatio
    - Upcoming commitments or deadlines that require stakeholder input
    - Early warning flags when a previously aligned stakeholder makes a comment or request that signals renegotiation
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -886,8 +893,9 @@ COCO's AI Stakeholder Alignment Engine maps stakeholder influence and informatio
 - **Engineering Leadership**: Get clear, early-stage visibility into requirements changes and scope decisions before they become mid-sprint surprises
 - **Cross-Functional Partners (Sales, Legal, Finance, Marketing)**: Receive the specific information relevant to their role without having to decode general roadmap documents
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Build a Stakeholder Map for a New Initiative**
 ```
@@ -1004,12 +1012,12 @@ Please assess:
 5. What stakeholder communication should I establish as a recurring rhythm going into next quarter?
 ```
 
-
+:::
 ## 7. AI OKR Cascade Manager
 
 > Drafts quarterly OKRs from company objectives, validates outcome orientation, detects cross-team conflicts, and maps roadmap items to key results — reduces OKR drafting from 3 weeks to 8 days.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: OKRs Are Proliferating Without Cascading — Every Team Has Goals, None Connect to Company Strategy**
 
@@ -1049,8 +1057,9 @@ COCO's AI OKR Cascade Manager helps product teams design OKRs that genuinely cas
    - Identifies Key Results with no roadmap backing — aspirational numbers without associated work
    - Identifies roadmap initiatives not connected to any OKR — work that may be activity without strategy
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1067,8 +1076,9 @@ COCO's AI OKR Cascade Manager helps product teams design OKRs that genuinely cas
 - **Executive Teams**: Receive cascade quality assessments that surface alignment problems before they produce misaligned quarter-end results
 - **Engineering Teams**: Understand how their sprint work connects to outcomes that matter, not just feature delivery metrics
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Cascade Company OKRs to Team OKRs**
 ```
@@ -1172,12 +1182,12 @@ Please analyze:
 6. Are there missing initiatives that would significantly improve our OKR performance that aren't on the current roadmap?
 ```
 
-
+:::
 ## 8. AI User Persona Deep Builder
 
 > Synthesizes 40–60 interview transcripts and behavioral datasets into behavior-grounded personas in hours vs 2–3 weeks manual — produces 3.2× more citations in product decision documentation.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: User Personas Are Marketing Fiction — They Don't Drive Product Decisions Because They Weren't Built From Real Behavior**
 
@@ -1219,8 +1229,9 @@ COCO's AI User Persona Deep Builder constructs richly evidenced personas from mu
    - Segment composition change: when the proportion of customers matching each persona shifts materially
    - Feature adoption anomalies: when users are heavily using features the persona wasn't supposed to care about — suggesting persona reality drift
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1237,8 +1248,9 @@ COCO's AI User Persona Deep Builder constructs richly evidenced personas from mu
 - **Engineering Teams**: Understand the user context behind technical requirements, enabling better architectural decisions
 - **Marketing and Sales**: Receive accurate, behavior-grounded user profiles that improve targeting and messaging rather than fiction-based demographics
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Build a Persona from Behavioral and Qualitative Data**
 ```
@@ -1358,12 +1370,12 @@ Please build:
 5. What product gaps would we likely need to fill to serve this persona well?
 ```
 
-
+:::
 ## 9. AI Sprint Retrospective Facilitator
 
 > Structures retrospective data collection, identifies recurring impediment patterns across sprints, generates specific action items — action completion: 67% vs industry average 39%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Sprint Retrospectives Are the Most Consistently Under-Delivered Ritual in Agile — Teams Go Through the Motions Without Getting Better**
 
@@ -1409,8 +1421,9 @@ COCO's AI Sprint Retrospective Facilitator helps PMs design, prepare, and synthe
    - Structured prompts designed to surface specific high-censorship topics: requirements clarity, PM responsiveness, cross-team dependencies
    - "For the team without anyone getting defensive" reframing techniques for sensitive feedback
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1427,8 +1440,9 @@ COCO's AI Sprint Retrospective Facilitator helps PMs design, prepare, and synthe
 - **Scrum Masters and Agile Coaches**: Access AI-powered format design and data synthesis that elevates facilitation quality without requiring extensive personal preparation time
 - **Engineering Leadership**: Receive aggregate retrospective pattern data that identifies team-level and org-level process failures before they compound into sustained velocity regression
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Design This Sprint's Retrospective**
 ```
@@ -1539,12 +1553,12 @@ Please design:
 5. When should a retrospective pattern escalate from team ownership to PM or leadership intervention?
 ```
 
-
+:::
 ## 10. AI Product Analytics Storyteller
 
 > Converts raw dashboard metrics into narrative analytics presentations — decisions made from analytics presentations increase 47%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: PMs Have More Data Than Ever and Are Less Able to Communicate What It Means**
 
@@ -1584,8 +1598,9 @@ COCO's AI Product Analytics Storyteller transforms raw product metrics into stru
    - Monthly executive update: structured narrative with trend analysis, causal hypotheses, and recommended actions for the month's key metrics
    - Quarterly business review analytics section: comprehensive narrative synthesis for QBR presentations
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1602,8 +1617,9 @@ COCO's AI Product Analytics Storyteller transforms raw product metrics into stru
 - **Investors and Board Members**: Access structured analytical narratives that demonstrate product rigor and enable informed governance
 - **Customer Success Teams**: Understand why customers are behaving the way they are in product, enabling proactive account management
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Build a Full Product Health Narrative**
 ```
@@ -1729,12 +1745,12 @@ Please produce:
 4. Connection between last quarter's product work and next quarter's business outcome targets
 ```
 
-
+:::
 ## 11. AI Beta Test Coordinator
 
 > Designs hypothesis-driven beta programs, selects participants systematically, and generates structured feedback collection — beta-to-GA issue rate -54%, feature 90-day adoption +31%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Beta Programs Are Run as Favors to Customers Rather Than Structured Learning Experiments**
 
@@ -1778,8 +1794,9 @@ COCO's AI Beta Test Coordinator helps PMs design, operate, and conclude beta pro
    - Customer communication recommendations: what to tell beta participants about what changed and what didn't based on their feedback
    - Post-GA monitoring plan: which metrics to watch in the first 30 days at GA to validate that beta findings generalize
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1796,8 +1813,9 @@ COCO's AI Beta Test Coordinator helps PMs design, operate, and conclude beta pro
 - **Customer Success Managers**: Know exactly what to communicate to beta participants about outcomes and what to expect at GA
 - **Executive Leadership**: Approve GA decisions with documented evidence rather than PM conviction alone
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Design a Beta Program for a New Feature**
 ```
@@ -1926,12 +1944,12 @@ Please create:
 6. The closing questions that will surface overall sentiment and any issues the structured questions missed
 ```
 
-
+:::
 ## 12. AI Product Roadmap Prioritization Advisor
 
 > Applies structured scoring frameworks to roadmap candidates — reduces planning cycles from 6–8 weeks to 2–3 weeks, feature adoption +38%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Roadmap Prioritization Is a Political Exercise Masquerading as Strategy**
 
@@ -1984,8 +2002,9 @@ COCO's AI Product Roadmap Prioritization Advisor provides a systematic framework
    - Opportunity cost analysis: what deprioritized items, in retrospect, would have produced more value than what was built?
    - Framework calibration: which scoring dimensions proved to be the most and least predictive of actual customer value delivered?
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2002,8 +2021,9 @@ COCO's AI Product Roadmap Prioritization Advisor provides a systematic framework
 - **Sales and Revenue Teams**: Understand exactly how customer and deal input was weighted, and what the roadmap implications are for pipeline conversations
 - **Executive Leadership**: Approve roadmaps backed by documented evidence and strategic alignment, rather than trusting PM conviction alone
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Run a Full Roadmap Prioritization Session**
 ```
@@ -2147,12 +2167,12 @@ Please:
 5. Write a "lessons learned" section I can share with the broader product team to improve our collective prioritization judgment
 ```
 
-
+:::
 ## 13. AI Customer Feedback Aggregator
 
 > Synthesizes feedback from NPS, support tickets, sales calls, and review sites — identifies 2.9× more pain point themes from same corpus, reduces synthesis time from 7.4h to 90min/week.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: The Loudest Voice Gets the Feature, Not the Most Representative One**
 
@@ -2203,8 +2223,9 @@ COCO's AI Customer Feedback Aggregator transforms fragmented, multi-channel feed
    - Feature validation monitoring: after shipping a feature, automated tracking of whether it generates positive mentions, reduces negative mentions of the problem it was intended to solve, or generates new complaints
    - Longitudinal theme tracking: maintaining a record of theme frequency over time, enabling before/after comparisons around product changes
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2221,8 +2242,9 @@ COCO's AI Customer Feedback Aggregator transforms fragmented, multi-channel feed
 - **Sales Teams**: Understand which product gaps are most commonly cited in deals, with frequency data that supports feature prioritization requests
 - **Executive Leadership**: Review customer signal in board-ready format with clear connections between pain point frequency and business impact metrics
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Synthesize Feedback from Multiple Channels into a Unified Signal Report**
 ```
@@ -2367,12 +2389,12 @@ Please generate:
 6. Methodology note: how this feedback was collected and classified, so leadership understands the rigor of the analysis
 ```
 
-
+:::
 ## 14. AI PRD Writing Assistant
 
 > Generates complete PRDs with user stories, acceptance criteria, and edge cases — PRD writing: 4–6h → 60–90min, engineering clarifying questions -43%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Vague Specs Cost More Than the Time Saved by Skipping Them**
 
@@ -2424,8 +2446,9 @@ COCO's AI PRD Writing Assistant accelerates PRD creation from rough idea to comp
    - Readability assessment: ensuring the PRD is written in plain language that engineering, QA, and design can all understand without domain-specific PM jargon
    - Handoff readiness score: a structured assessment of whether the PRD is complete enough to begin engineering without additional clarification sessions
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2442,8 +2465,9 @@ COCO's AI PRD Writing Assistant accelerates PRD creation from rough idea to comp
 - **QA Engineers**: Get acceptance criteria in testable formats that can be directly converted to test cases without interpretation
 - **Design Teams**: Receive interaction requirements, state requirements, and edge case documentation that informs design decisions earlier
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Generate a Complete PRD from a Feature Idea**
 ```
@@ -2607,12 +2631,12 @@ Please evaluate this PRD on the following dimensions:
 4. Overall readiness score (1-10) with specific items that must be resolved before handoff
 ```
 
-
+:::
 ## 15. AI Pricing Strategy Advisor
 
 > Models value metric alignment, packaging options, and price sensitivity scenarios — pricing change success rate 3.4×, NDR improvement +22 points for value-metric-aligned models.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: SaaS Pricing Is a High-Stakes Decision Made with Thin Data and No Framework**
 
@@ -2664,8 +2688,9 @@ COCO's AI Pricing Strategy Advisor provides the systematic analytical framework 
    - Finance modeling: the revenue, churn, and expansion implications of the recommendation with sensitivity analysis
    - Board summary: one-page pricing strategy overview connecting the recommendation to company ARR targets and competitive positioning
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2682,8 +2707,9 @@ COCO's AI Pricing Strategy Advisor provides the systematic analytical framework 
 - **Finance and Revenue Operations**: Work with pricing models that have documented revenue impact projections and sensitivity analysis
 - **Executive Leadership**: Approve pricing decisions backed by competitive analysis, value metric rationale, and financial modeling
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Select the Right Value Metric for a SaaS Product**
 ```
@@ -2833,12 +2859,12 @@ Please produce:
 4. Implementation plan: rollout sequence, grandfather policy details, and the metrics we'll use to evaluate whether the change is working
 ```
 
-
+:::
 ## 16. AI Product Manager Sprint Planning Optimizer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Product Manager Sprint Planning Inefficiency**
 
@@ -2892,8 +2918,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2910,8 +2937,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Sprint Planning Analysis**
 ```
@@ -3030,12 +3058,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 17. AI Product Roadmap Prioritization Engine
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Product Roadmap Prioritization Failures**
 
@@ -3089,8 +3117,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3107,8 +3136,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Product Roadmap Analysis**
 ```
@@ -3227,12 +3257,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 18. AI Product Manager User Story Refinement Engine
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Product Manager User Story Refinement Failures**
 
@@ -3286,8 +3316,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3304,8 +3335,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Technical Documentation Analysis**
 ```
@@ -3424,12 +3456,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 19. AI Product Manager Customer Feedback Synthesizer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Product Manager Customer Feedback Synthesizer**
 
@@ -3483,8 +3515,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3501,8 +3534,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Research Analysis**
 ```
@@ -3621,12 +3655,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 20. AI Feature Adoption Tracking Advisor
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Feature Adoption Tracking Guesswork**
 
@@ -3680,8 +3714,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3698,8 +3733,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Performance Monitoring Analysis**
 ```
@@ -3818,12 +3854,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 21. AI Release Readiness Checklist Builder
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Release Readiness Checklist Manual Effort**
 
@@ -3877,8 +3913,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3895,8 +3932,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Release Management Analysis**
 ```
@@ -4015,3 +4053,4 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
+:::

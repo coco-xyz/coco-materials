@@ -6,7 +6,7 @@ AI-powered use cases for customer success manager professionals.
 
 > Organizations operating in Hospitality face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Hospitality Guest Experience Personalizer**
 
@@ -60,8 +60,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -78,8 +79,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Personalized Learning Analysis**
 ```
@@ -198,12 +200,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 2. AI SaaS Contract Renewal Risk Scorer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: SaaS Contract Renewal Risk Scorer**
 
@@ -257,8 +259,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -275,8 +278,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Contract Renewal Analysis**
 ```
@@ -395,12 +399,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 3. AI Customer Success Health Score Engine
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Customer Success Health Score Failures**
 
@@ -454,8 +458,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -472,8 +477,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Health Scoring Analysis**
 ```
@@ -592,12 +598,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 4. AI Insurance Policy Renewal Optimizer
 
 > Organizations operating in Insurance face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Insurance Policy Renewal Inefficiency**
 
@@ -651,8 +657,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -669,8 +676,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Contract Renewal Analysis**
 ```
@@ -789,12 +797,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 5. AI Insurance Policy Comparison Assistant
 
 > Organizations operating in Insurance face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Insurance Policy Comparison Overhead**
 
@@ -848,8 +856,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -866,8 +875,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Data Analysis Analysis**
 ```
@@ -986,12 +996,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 6. AI Customer Success QBR Preparation Engine
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Customer Success QBR Preparation Failures**
 
@@ -1045,8 +1055,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1063,8 +1074,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Customer Success Analysis**
 ```
@@ -1183,12 +1195,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 7. AI Customer Escalation Handling Guide
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Customer Escalation Handling Guide**
 
@@ -1242,8 +1254,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1260,8 +1273,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Escalation Management Analysis**
 ```
@@ -1380,12 +1394,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 8. AI Customer Health Score Predictor
 
 > Predictive health scoring reduces unexpected churn by 62% by surfacing at-risk accounts 45 days earlier than traditional methods.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Reactive Health Scores That Arrive Too Late**
 
@@ -1439,8 +1453,9 @@ The financial impact is staggering. Industry data shows that acquiring a new cus
    - Proposes product-led interventions such as training sessions or feature enablement when usage gaps drive the risk
    - Tracks intervention outcomes to continuously refine recommendations and build an institutional playbook
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1457,8 +1472,9 @@ The financial impact is staggering. Industry data shows that acquiring a new cus
 - **Product Management**: Receives aggregated signals about which product gaps drive health score declines across segments, informing roadmap prioritization with retention impact data
 - **CFO / Finance Team**: Obtains more accurate churn forecasts for revenue modeling, reducing forecast variance and improving cash flow planning confidence
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Health Score Model Configuration**
 ```
@@ -1570,12 +1586,12 @@ Design:
 5. Weekly digest format that replaces individual low-severity alerts with a summary view
 ```
 
-
+:::
 ## 9. AI Expansion Revenue Opportunity Finder
 
 > Identifies upsell and cross-sell opportunities across the customer base, increasing net expansion revenue by 34% within two quarters.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Leaving Expansion Revenue on the Table**
 
@@ -1629,8 +1645,9 @@ The revenue impact of systematic expansion blindness is enormous. Research shows
    - Compares actual expansion conversion rates against model predictions to refine scoring accuracy
    - Generates monthly expansion revenue reports showing pipeline generation, conversion, and gap to target
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1647,8 +1664,9 @@ The revenue impact of systematic expansion blindness is enormous. Research shows
 - **Product Marketing**: Obtains real-world adoption and whitespace data across the customer base to refine packaging, bundling strategies, and competitive positioning
 - **Customer Champions**: Receive compelling internal business cases that make it easier to justify budget for additional products they already want to adopt
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Account Expansion Opportunity Scan**
 ```
@@ -1760,12 +1778,12 @@ Create:
 5. Follow-up email draft summarizing the conversation and proposed next steps
 ```
 
-
+:::
 ## 10. AI Customer Onboarding Progress Tracker
 
 > Automated onboarding tracking reduces time-to-first-value by 40% and cuts onboarding-stage churn by half.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Onboarding Black Holes Where New Customers Disappear**
 
@@ -1819,8 +1837,9 @@ The scale of the problem grows with company growth. A CSM managing 15 concurrent
    - Detects systemic bottlenecks that slow onboarding across many accounts, informing process improvements
    - Produces monthly onboarding effectiveness reports with cohort comparisons and improvement recommendations
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1837,8 +1856,9 @@ The scale of the problem grows with company growth. A CSM managing 15 concurrent
 - **New Customers**: Experience a smoother, more proactive onboarding with fewer dropped balls and faster access to the product value that justified their purchase
 - **CS Operations / Leadership**: Obtain data-driven insights into onboarding program effectiveness, enabling continuous improvement and accurate capacity planning
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Onboarding Health Assessment**
 ```
@@ -1953,12 +1973,12 @@ Analyze:
 5. Top 3 process improvement recommendations with expected impact and implementation plan
 ```
 
-
+:::
 ## 11. AI Product Adoption Gap Analyzer
 
 > Surfaces feature adoption blind spots across the customer base, increasing deep feature usage by 52% and reducing "shelfware" churn by 38%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Customers Paying for Features They Never Use**
 
@@ -2012,8 +2032,9 @@ The business cost of adoption gaps extends beyond churn risk. Customers stuck on
    - Reports on adoption program ROI to justify continued investment in enablement resources
    - Feeds adoption outcome data back into gap prioritization to continuously refine which features matter most
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2030,8 +2051,9 @@ The business cost of adoption gaps extends beyond churn risk. Customers stuck on
 - **Customer Education / Enablement Teams**: Can target training investments on the specific features and segments with the highest adoption gaps, maximizing the ROI of every webinar and guide produced
 - **Customers**: Receive proactive, relevant guidance on features that address their actual business needs rather than generic product tips they have no use for
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Account Adoption Gap Analysis**
 ```
@@ -2145,12 +2167,12 @@ Create a presentation outline with:
 5. Peer insights — how do similar companies in their industry leverage the features they're missing?
 ```
 
-
+:::
 ## 12. AI Renewal Risk Dashboard Builder
 
 > Automates renewal risk assessment across the entire book of business, improving renewal forecast accuracy from 72% to 94%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Renewal Forecasting Built on Hope Instead of Data**
 
@@ -2204,8 +2226,9 @@ The consequences are predictable and painful. Renewals that were forecast as "co
    - Projects the resource investment required (CSM hours, executive time, discount budget) for each scenario
    - Enables "what-if" analysis: what happens to forecast if a specific large account churns or renews early
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2222,8 +2245,9 @@ The consequences are predictable and painful. Renewals that were forecast as "co
 - **CFO / Finance Planning**: Obtains accurate renewal revenue projections for cash flow modeling, reducing the variance in quarterly revenue forecasts
 - **Revenue Operations**: Can align renewal forecasting methodology with sales forecasting standards, creating a unified revenue intelligence framework across the customer lifecycle
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Renewal Risk Assessment**
 ```
@@ -2337,12 +2361,12 @@ Analyze:
 5. Top 3 recommendations to improve retention in the coming quarters
 ```
 
-
+:::
 ## 13. AI Customer Journey Touchpoint Mapper
 
 > Maps every customer interaction across channels to identify journey gaps, increasing proactive touchpoint coverage by 67% and reducing "dark periods" with no contact to near zero.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Blind Spots in the Customer Relationship Timeline**
 
@@ -2396,8 +2420,9 @@ The downstream impact on retention and growth is severe. Customers who feel igno
    - Benchmarks touchpoint effectiveness across CSMs to surface best practices
    - Produces monthly journey health reports showing coverage improvements and remaining gaps
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2414,8 +2439,9 @@ The downstream impact on retention and growth is severe. Customers who feel igno
 - **Marketing**: Sees how their content and event touchpoints fit into the broader customer journey, enabling better alignment between marketing programs and CS engagement strategies
 - **Customers**: Experience a more connected, informed relationship where their CSM knows what has happened across the organization, rather than asking questions the customer has already answered elsewhere
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Account Journey Timeline**
 ```
@@ -2521,12 +2547,12 @@ Develop:
 5. Success metrics — how do we measure whether multi-threading is working?
 ```
 
-
+:::
 ## 14. AI CSM Workload Balancer
 
 > Optimizes account distribution and task prioritization across the CS team, improving CSM productivity by 29% and reducing account neglect incidents by 71%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Uneven Workloads That Burn Out Top Performers and Neglect Key Accounts**
 
@@ -2580,8 +2606,9 @@ The talent retention impact is equally damaging. Top-performing CSMs, who are of
    - Provides managers with early warning when any CSM's workload exceeds sustainable thresholds
    - Tracks correlation between workload levels and key outcomes: when CSMs are overloaded, how much do their health scores, response times, and retention rates suffer?
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2598,8 +2625,9 @@ The talent retention impact is equally damaging. Top-performing CSMs, who are of
 - **VP of Customer Success**: Can make data-backed hiring and capacity decisions based on actual effort data rather than headcount ratios and assumptions
 - **Customers**: Receive more consistent attention regardless of which CSM manages their account, as no CSM is so overloaded that accounts slip through the cracks
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Team Workload Assessment**
 ```
@@ -2723,12 +2751,12 @@ Analyze:
 5. Recommendations for workload thresholds and alert triggers to prevent outcome degradation
 ```
 
-
+:::
 ## 15. AI Customer Feedback Loop Closer
 
 > Transforms scattered customer feedback into closed-loop action items, increasing feedback resolution rate from 23% to 78% and boosting NPS by 18 points.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Customer Feedback That Goes Into a Black Hole**
 
@@ -2782,8 +2810,9 @@ The trust erosion from unclosed feedback loops is one of the most underestimated
    - Identifies which feedback channels produce the most actionable insights per signal
    - Produces quarterly feedback program health reports with recommendations for improving collection and response rates
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2800,8 +2829,9 @@ The trust erosion from unclosed feedback loops is one of the most underestimated
 - **Customer Experience / CX Teams**: Gains visibility into feedback program effectiveness with metrics that demonstrate ROI and identify areas for improvement
 - **Customers**: Experience a responsive organization that acknowledges their input, communicates what was done, and demonstrates that feedback actually influences product direction
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Feedback Consolidation and Analysis**
 ```
@@ -2903,12 +2933,12 @@ Assess:
 5. Top 3 recommendations to improve the feedback program's impact on retention and product quality
 ```
 
-
+:::
 ## 16. AI Multi-Product Cross-Sell Recommender
 
 > Generates data-driven cross-sell recommendations that increase multi-product adoption from 24% to 41% of the customer base, adding $1.2M in incremental ARR per quarter.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: CSMs Selling Blind Without Product Affinity Insights**
 
@@ -2962,8 +2992,9 @@ The cost of poor cross-sell execution extends beyond missed revenue. A badly tim
    - Measures pipeline generation velocity to ensure a healthy flow of new cross-sell opportunities
    - Reports on revenue contribution from cross-sell relative to new logo and upsell to demonstrate program ROI
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2980,8 +3011,9 @@ The cost of poor cross-sell execution extends beyond missed revenue. A badly tim
 - **Product Marketing**: Obtains direct feedback on which product positioning and value stories resonate in cross-sell conversations, informing messaging refinement
 - **Customers**: Discover relevant additional capabilities they were unaware of, presented in context of their specific needs rather than as generic promotional offers
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Cross-Sell Opportunity Identification**
 ```
@@ -3092,12 +3124,12 @@ Design a step-by-step playbook:
 5. Post-sale onboarding — how should the new product be activated to ensure fast time-to-value and reinforce the cross-sell decision?
 ```
 
-
+:::
 ## 17. AI Executive Business Review Generator
 
 > Automates 80% of QBR/EBR preparation work, reducing CSM prep time from 6 hours to 45 minutes while improving executive engagement scores by 35%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: QBR Preparation That Consumes Days of CSM Capacity**
 
@@ -3151,8 +3183,9 @@ The organizational cost compounds across the team. CSMs prepare QBRs in isolatio
    - Compares QBR quality and outcomes across CSMs to surface best practices
    - Produces quarterly program reports with recommendations for template and process improvements
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3169,8 +3202,9 @@ The organizational cost compounds across the team. CSMs prepare QBRs in isolatio
 - **Customer Executive Sponsors**: Receive QBRs that speak their language — business outcomes, competitive positioning, and strategic alignment — rather than product usage statistics they do not care about
 - **Account Executives / Sales Partners**: Get expansion-ready insights from QBR conversations that create natural upsell opportunities without requiring a separate discovery process
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: QBR Data Package Assembly**
 ```
@@ -3282,12 +3316,12 @@ Evaluate:
 5. Top 5 recommendations to improve QBR effectiveness and efficiency
 ```
 
-
+:::
 ## 18. AI Customer Community Engagement Tracker
 
 > Transforms community activity data into retention and advocacy intelligence, identifying at-risk and champion accounts 3x faster than traditional CSM methods.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: A Goldmine of Customer Signals Sitting Unread in the Community Forum**
 
@@ -3341,8 +3375,9 @@ The advocacy dimension is equally underexploited. Customer community members who
    - Measures advocacy program ROI: pipeline influenced, deals supported, content produced, and support costs deflected
    - Generates personalized recognition and thank-you communications for active advocates based on their specific contributions
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3359,8 +3394,9 @@ The advocacy dimension is equally underexploited. Customer community members who
 - **Customer Marketing / Advocacy Teams**: Access a systematic pipeline of qualified advocates with activity data to support reference programs, case studies, and event planning
 - **Product Management**: Obtains unfiltered product feedback from community discussions organized by theme, frequency, and business impact, complementing formal feedback channels
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Account Community Activity Summary**
 ```
@@ -3480,12 +3516,12 @@ Calculate:
 5. Total community program ROI and recommendations for increasing returns
 ```
 
-
+:::
 ## 19. AI Time-to-Value Accelerator
 
 > Compresses the customer's path from purchase to measurable business impact by 54%, reducing first-value-realization from 62 days to 29 days.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Customers Who Pay for Months Before Seeing Any Return**
 
@@ -3539,8 +3575,9 @@ The financial arithmetic is unforgiving. A customer paying $120K annually who do
    - Measures the impact of TTV on downstream metrics: first-year retention, expansion rate, and NPS
    - Produces quarterly TTV reports with trend analysis and specific recommendations for program improvement
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3557,8 +3594,9 @@ The financial arithmetic is unforgiving. A customer paying $120K annually who do
 - **CS Leadership**: Can benchmark TTV performance across the team and identify systemic bottlenecks, driving continuous improvement in the onboarding-to-value pipeline
 - **Sales Teams**: Benefit from faster value realization that turns new customers into referenceable accounts sooner, shortening sales cycles for new prospects
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Value Milestone Plan Creation**
 ```
@@ -3671,12 +3709,12 @@ Analyze:
 5. Recommendations: specific process, tooling, or resource changes that would reduce median TTV by [target]%
 ```
 
-
+:::
 ## 20. AI Customer Advocacy Program Manager
 
 > Systematizes advocacy program operations, increasing qualified advocate participation by 3.5x and generating $4.2M in advocate-influenced pipeline per quarter.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Advocacy Programs That Run on Spreadsheets and Goodwill**
 
@@ -3730,8 +3768,9 @@ The operational burden is the second bottleneck. Coordinating a single customer 
    - Personalizes nurture communications based on each advocate's interests and career context
    - Generates annual "impact reports" for advocates showing how their contributions influenced the company's success
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3748,8 +3787,9 @@ The operational burden is the second bottleneck. Coordinating a single customer 
 - **Customer Success Managers**: Can nominate advocates systematically rather than being the sole source of reference candidates, and receive recognition when their accounts contribute to advocacy wins
 - **Customer Advocates**: Experience a well-organized program that respects their time, matches them with relevant requests, recognizes their contributions, and provides genuine value in return
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Advocate Pipeline Assessment**
 ```
@@ -3881,3 +3921,4 @@ For each advocate:
 5. Risk assessment: any signs of fatigue or disengagement that need proactive attention?
 ```
 
+:::

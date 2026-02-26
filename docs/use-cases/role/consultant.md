@@ -860,7 +860,7 @@ This week's data:
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Consultant Client Proposal Gaps**
 
@@ -914,8 +914,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -932,8 +933,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core RFP Response Analysis**
 ```
@@ -1052,12 +1054,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 9. AI Market Entry Strategy Builder
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Market Entry Strategy Manual Effort**
 
@@ -1111,8 +1113,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1129,8 +1132,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Strategy Development Analysis**
 ```
@@ -1249,12 +1253,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 10. AI Consultant Competitive Landscape Mapper
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Consultant Competitive Landscape Mapper**
 
@@ -1308,8 +1312,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1326,8 +1331,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Market Analysis Analysis**
 ```
@@ -1446,12 +1452,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 11. AI Post-Merger Integration Planner
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Post-Merger Integration Disorganization**
 
@@ -1505,8 +1511,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1523,8 +1530,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Strategic Planning Analysis**
 ```
@@ -1643,12 +1651,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 12. AI Digital Transformation Roadmap Builder
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Digital Transformation Roadmap Manual Effort**
 
@@ -1702,8 +1710,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1720,8 +1729,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Strategic Planning Analysis**
 ```
@@ -1840,12 +1850,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 13. AI Organizational Change Management Advisor
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Organizational Change Management Guesswork**
 
@@ -1899,8 +1909,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1917,8 +1928,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Workflow Design Analysis**
 ```
@@ -2037,3 +2049,4 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
+:::

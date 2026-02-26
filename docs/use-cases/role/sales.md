@@ -3853,7 +3853,7 @@ This week's data:
 
 > Identifies stalled deals, multi-threading gaps, and forecast fiction — producing a risk-ranked pipeline assessment that improves forecast accuracy from ±30% to ±12% variance within two quarters.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Your Pipeline Is Full of Deals That Will Never Close**
 
@@ -3899,8 +3899,9 @@ COCO applies a multi-dimensional analysis framework to pipeline data, transformi
    - Estimates the revenue recovery potential of each intervention
    - Provides a weekly pipeline health score with trend tracking over time
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3917,8 +3918,9 @@ COCO applies a multi-dimensional analysis framework to pipeline data, transformi
 - **Sales Operations**: Reduce time spent chasing pipeline data quality and instead focus on system improvements and forecasting methodology refinement
 - **Revenue Leaders / CROs**: Access reliable leading indicators of quarterly performance 6-8 weeks before close, enabling proactive resource allocation and demand generation decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Pipeline Health Assessment**
 ```
@@ -4044,12 +4046,12 @@ Analyze:
 6. What should be communicated to leadership about quarter-end expectations
 ```
 
-
+:::
 ## 26. AI Prospect Research Synthesizer {#use-case-374}
 
 > Compresses 45–60 minutes of pre-call research into 10–15 minutes while producing a more comprehensive brief — improving discovery-to-opportunity conversion by 34%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Pre-Call Research Eats Hours and Still Produces Incomplete Intelligence**
 
@@ -4095,8 +4097,9 @@ COCO synthesizes prospect intelligence from structured inputs into a comprehensi
    - Flags whether known competitors are active in the account
    - Suggests competitive positioning angles relevant to the prospect's likely evaluation criteria
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4113,8 +4116,9 @@ COCO synthesizes prospect intelligence from structured inputs into a comprehensi
 - **Sales Managers**: Gain the ability to review rep preparation quality before calls and coach on research interpretation, not just on product knowledge
 - **Revenue Operations**: Standardize research quality across the team, enabling fair performance benchmarking and identifying rep skill gaps in intelligence interpretation
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Pre-Call Research Brief**
 ```
@@ -4240,12 +4244,12 @@ Based on what's publicly available about this company's tech stack, hiring patte
 7. Questions I should ask to surface our competitive advantages without explicitly asking "why us over them?"
 ```
 
-
+:::
 ## 27. AI Sales Email Personalization Engine {#use-case-375}
 
 > Produces research-backed, trigger-event-driven outreach emails in 3–5 minutes per email — achieving 8–12% response rates versus 2–3% for templated sequences on the same prospect universe.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Generic Outreach Gets Ignored While Personalization at Scale Is Impossible**
 
@@ -4294,8 +4298,9 @@ COCO generates personalized outreach emails that use prospect-specific signals t
    - Suggests subject line length and preview text optimization
    - Recommends email length adjustments based on email type and stage in sequence
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4312,8 +4317,9 @@ COCO generates personalized outreach emails that use prospect-specific signals t
 - **Sales Managers**: Achieve team outreach performance targets without requiring reps to work unsustainable hours or compromise on prospect experience quality
 - **Marketing / Demand Generation**: Align outbound personalization with inbound messaging themes, ensuring consistent brand voice across all prospect touchpoints
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Trigger-Based Cold Outreach Email**
 ```
@@ -4454,12 +4460,12 @@ Email requirements:
 7. Tone: [match the tone of the meeting — formal / conversational / collaborative]
 ```
 
-
+:::
 ## 28. AI Deal Risk Assessor {#use-case-376}
 
 > Produces a structured deal risk assessment that reduces late-stage loss rates by 30–35% and deal slippage by 40% by identifying the specific risks — stakeholder gaps, competitive threats, process failures — 30+ days before close.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Deal Risks Stay Invisible Until They Kill the Deal**
 
@@ -4506,8 +4512,9 @@ COCO helps AEs conduct structured deal risk assessments that systematically surf
    - Recommends a specific action for each risk with suggested timing and owner
    - Estimates the probability impact of addressing versus not addressing each risk
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4524,8 +4531,9 @@ COCO helps AEs conduct structured deal risk assessments that systematically surf
 - **Forecast Reviewers / Revenue Operations**: Improve forecast reliability by ensuring that deal probability is informed by systematic risk assessment rather than AE optimism
 - **Customer Success (post-sale)**: Understand deal history and identified risks before customer handoff, enabling proactive relationship management from day one
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Deal Risk Assessment**
 ```
@@ -4687,12 +4695,12 @@ Please provide:
 5. How to communicate the updated status to my manager without undermining my credibility
 ```
 
-
+:::
 ## 29. AI Win-Loss Debrief Analyzer {#use-case-377}
 
 > Transforms individual deal debrief notes into pattern-level intelligence — identifying competitive win/loss drivers, sales process failures, and persona-level insights that improve win rates 15–20% over four quarters.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Win/Loss Data Exists but Never Drives Real Change**
 
@@ -4738,8 +4746,9 @@ COCO structures, synthesizes, and analyzes win/loss data to surface patterns tha
    - Recommends new objection handling approaches based on what successfully addressed recurring objections in won deals
    - Generates a prioritized list of playbook updates ranked by potential win rate impact
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4756,8 +4765,9 @@ COCO structures, synthesizes, and analyzes win/loss data to surface patterns tha
 - **Product Marketing**: Receive structured, pattern-based win/loss data that enables evidence-based messaging decisions rather than anecdotal feedback from field calls
 - **Revenue Leadership**: Gain a systematic, ongoing view of why the company wins and loses in the market — enabling strategy decisions grounded in deal reality rather than executive intuition
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Deal Debrief Capture**
 ```
@@ -4903,12 +4913,12 @@ For each finding, generate:
 Prioritize updates by expected win rate impact: High / Medium / Low
 ```
 
-
+:::
 ## 30. AI Sales Call Summary Generator {#use-case-378}
 
 > Transforms raw call notes into structured, CRM-ready summaries in 3–5 minutes instead of 20–30 minutes — recovering 2–4 hours per week per rep for selling activities while improving CRM data completeness by 65%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Note-Taking Competes with Active Listening, and CRM Updates Get Skipped**
 
@@ -4954,8 +4964,9 @@ COCO transforms raw call notes, key discussion points, or rough transcripts into
    - Recommends close date updates based on timeline information shared
    - Flags deal size changes if scope was adjusted during the discussion
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4972,8 +4983,9 @@ COCO transforms raw call notes, key discussion points, or rough transcripts into
 - **Sales Operations / CRM Administrators**: Achieve higher CRM data quality without burdening reps with longer data entry requirements — better data from less effort
 - **Customer Success (at handoff)**: Receive complete, structured interaction history that enables informed onboarding conversations from the first contact rather than starting from scratch
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Post-Call Summary from Raw Notes**
 ```
@@ -5112,12 +5124,12 @@ Overall objection analysis:
 - What should my next interaction specifically address to move past these objections?
 ```
 
-
+:::
 ## 31. AI CRM Data Quality Auditor {#use-case-379}
 
 > Systematically identifies data quality issues across the pipeline — missing fields, stage misclassification, stale records — and generates a targeted remediation plan that improves forecast accuracy 20–25% within two quarters.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: CRM Data Degrades Continuously and Nobody Has Time to Fix It**
 
@@ -5167,8 +5179,9 @@ COCO identifies CRM data quality gaps, flags stale records, and generates struct
    - Identifies the top 10 data quality issues by revenue impact
    - Generates a prioritized remediation plan with effort estimates and expected impact
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5185,8 +5198,9 @@ COCO identifies CRM data quality gaps, flags stale records, and generates struct
 - **Sales Managers**: Access accurate pipeline and activity data to conduct meaningful coaching conversations rather than struggling to interpret what's actually happening in deals
 - **Revenue Leadership / Finance**: Build forecasting and resource planning models on data that is known to be accurate rather than estimated, reducing the uncertainty premium applied to every forecast
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: CRM Deal Record Quality Audit**
 ```
@@ -5302,12 +5316,12 @@ Generate:
 - Estimated time to complete enrichment for high-priority gaps
 ```
 
-
+:::
 ## 32. AI Sales Proposal Generator {#use-case-380}
 
 > Produces personalized, prospect-specific proposals in 45–60 minutes instead of 3–6 hours — using discovery findings to frame value in the prospect's language, improving proposal win rates by 25–30%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Proposals Take 3-6 Hours to Produce and Arrive Too Late or Too Generic**
 
@@ -5353,8 +5367,9 @@ COCO helps AEs structure and draft proposals tailored to the specific prospect's
    - Explains the pricing structure in terms of the prospect's preferred consumption model
    - Drafts the options narrative to guide the prospect toward the recommended configuration
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5371,8 +5386,9 @@ COCO helps AEs structure and draft proposals tailored to the specific prospect's
 - **Solution Engineers / Pre-Sales**: Spend time on technical validation rather than proposal writing — the discovery-informed structure ensures the technical section accurately reflects what was discussed
 - **Deal Desk / Pricing**: Receive proposals with well-structured pricing narratives that have been framed as value conversations rather than number requests, enabling more productive pricing discussions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Proposal Draft**
 ```
@@ -5524,12 +5540,12 @@ Write the pricing section to:
 Length: 300-500 words for narrative, plus a clean pricing table
 ```
 
-
+:::
 ## 33. AI Territory Planning Advisor {#use-case-381}
 
 > Reduces territory planning cycles from 4–6 weeks to 2 weeks and narrows the spread between highest and lowest potential territories by 30–40% — enabling earlier rep communication and reducing attrition from perceived unfairness.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Territory Assignments Feel Arbitrary and Breed Resentment**
 
@@ -5575,8 +5591,9 @@ COCO helps analyze account potential, segment prospects by strategic fit, model 
    - Articulates the strategic hypothesis for each territory (why this set of accounts represents a coherent opportunity)
    - Provides reps with a starting point for their territory business plan
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5593,8 +5610,9 @@ COCO helps analyze account potential, segment prospects by strategic fit, model 
 - **Sales Operations**: Reduce territory planning cycle time and manual analysis burden while producing more analytically rigorous territory designs
 - **Revenue Leadership**: Make territory investment decisions — where to add headcount, which segments to prioritize — grounded in potential analysis rather than intuition
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Account Potential Scoring and Tier Classification**
 ```
@@ -5723,12 +5741,12 @@ For each whitespace account, assess:
 Produce a prioritized top 15 whitespace accounts I should approach this quarter, with a one-sentence outreach hypothesis for each.
 ```
 
-
+:::
 ## 34. AI Sales Forecast Builder {#use-case-382}
 
 > Produces three-scenario (conservative/base/upside) quarterly forecasts with explicit deal-level assumptions — improving quarter-over-quarter accuracy from ±25% to ±12% variance within two cycles.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Forecasting Is Intuition Theater That Produces Consistently Wrong Numbers**
 
@@ -5775,8 +5793,9 @@ COCO helps build structured forecasts from pipeline data, applies probability ad
    - Articulates the key assumptions and what would need to be true for each scenario to occur
    - Generates a management presentation that shows the range of outcomes with appropriate confidence levels
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5793,8 +5812,9 @@ COCO helps build structured forecasts from pipeline data, applies probability ad
 - **Revenue Operations**: Implement a documented, repeatable forecasting methodology that enables learning and improvement across cycles rather than perpetual intuition adjustment
 - **CFO / Finance**: Receive forecast inputs with explicit assumptions and scenario ranges rather than point estimates, enabling more confident financial planning and board-level communication
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Quarter Forecast Build**
 ```
@@ -5946,12 +5966,12 @@ Calculate:
 6. If I win everything currently in the forecast, do I close the gap? What's still missing?
 ```
 
-
+:::
 ## 35. AI Customer Objection Handler {#use-case-383}
 
 > Develops evidence-backed, contextually calibrated objection responses that convert persistent objections into deal advancement 28% more often and reduce unplanned discounting by 35%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Reps Handle the Same Objections Repeatedly Without Consistent, Evidence-Backed Responses**
 
@@ -5997,8 +6017,9 @@ COCO helps build and use objection response playbooks grounded in customer evide
    - Includes role-specific variants for the same objection encountered with different stakeholders
    - Provides a "what to listen for" guide that helps reps identify the underlying concern behind each objection type
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6015,8 +6036,9 @@ COCO helps build and use objection response playbooks grounded in customer evide
 - **Sales Managers**: Ensure consistent, high-quality objection handling across the team without individually coaching every rep through every objection in every deal
 - **Sales Enablement Teams**: Build and maintain a living objection playbook that is grounded in real deal evidence and updated as products, markets, and competitors evolve
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Objection Response Development**
 ```
@@ -6153,12 +6175,12 @@ Build a champion support kit with:
 Format the champion kit as content they can actually use — concise, plain language, no jargon.
 ```
 
-
+:::
 ## 36. AI RFP Response Assistant {#use-case-384}
 
 > Reduces RFP response time from 40–80 hours to 20–35 hours with AI-assisted answer drafting, routing, and completeness review — enabling response to RFPs that were previously declined due to bandwidth.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: RFP Responses Require 40-80 Hours of Coordinated Effort That Most Teams Can't Sustain**
 
@@ -6206,8 +6228,9 @@ COCO helps structure RFP response workflows, draft answers to standard questions
    - Identifies answer sections that are outdated based on product or policy changes
    - Maintains version control and recency tracking for all library entries
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6224,8 +6247,9 @@ COCO helps structure RFP response workflows, draft answers to standard questions
 - **Revenue Operations / Bid Management**: Build and maintain response infrastructure that improves as each RFP is completed, creating compound returns on the institutional knowledge investment
 - **Executive Leadership**: Respond confidently to enterprise RFPs that represent strategic account opportunities — with the assurance that the response quality reflects organizational capability rather than bandwidth limitations
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: RFP Qualification Assessment**
 ```
@@ -6376,12 +6400,12 @@ Create a library entry with:
 Format for storage in a shared knowledge base that team members can search and retrieve.
 ```
 
-
+:::
 ## 37. AI Account Expansion Opportunity Identifier {#use-case-385}
 
 > Identifies expansion signals across the existing customer base — feature usage, org growth, new use cases — and produces a ranked expansion pipeline that drives NRR from 105% toward 115–125%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Account Expansion Is the Highest-ROI Motion and the Most Neglected**
 
@@ -6427,8 +6451,9 @@ COCO analyzes account usage patterns, org chart gaps, product adoption whitespac
    - Generates a recommended outreach angle for each expansion opportunity
    - Drafts the QBR or business review agenda for accounts with strong expansion potential
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6445,8 +6470,9 @@ COCO analyzes account usage patterns, org chart gaps, product adoption whitespac
 - **Revenue Operations**: Create a systematic expansion motion that produces predictable pipeline rather than relying on opportunistic identification or customer self-service expansion requests
 - **Executive Leadership / CFO**: Drive NRR improvement — the metric most correlated with SaaS company valuation — through a systematic, data-backed expansion program rather than hoping existing customers expand organically
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Account Expansion Opportunity Assessment**
 ```
@@ -6595,12 +6621,12 @@ Generate:
 5. A follow-up message if they express interest but need time to evaluate internally
 ```
 
-
+:::
 ## 38. AI Sales Enablement Content Creator {#use-case-386}
 
 > Produces competitive battlecards, objection handling guides, and conversation frameworks from field intel and product updates — maintaining 90%+ content accuracy versus the typical 60–70% at quarterly review.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 **The Pain: Enablement Content Is Outdated, Scattered, and Goes Unused**
 
 Sales enablement content — battlecards, one-pagers, objection guides, competitive positioning decks — is one of the most time-intensive investments a sales organization makes, and one of the most consistently underutilized. The root cause is a timing and maintenance mismatch: content is created in batches (at annual SKO, at product launch, at competitive intelligence reviews) and then left to decay as products evolve, competitors pivot, and market dynamics shift. The battlecard that accurately described a competitor's weakness last year may not reflect the competitor's most recent product update. The one-pager that featured a customer logo has since lost that customer. The objection guide was written by a product marketing manager who has never been on a discovery call and whose language no longer matches how prospects frame their concerns.
@@ -6645,7 +6671,9 @@ COCO helps create, update, and organize sales enablement content — battlecards
    - Identifies content gaps (stages or scenarios without supporting materials)
    - Recommends a content creation priority order based on content gap impact on revenue
 
-**Results & Who Benefits**
+:::
+
+::: details Results & Who Benefits
 **Measurable Results**
 
 - **Enablement Content Usage**: Reps using regularly updated, easily accessible battlecards show 40% higher usage rates than those relying on annual-refresh content repositories
@@ -6661,7 +6689,9 @@ COCO helps create, update, and organize sales enablement content — battlecards
 - **Sales Enablement Teams (where they exist)**: Multiply content creation and refresh capacity significantly, enabling coverage of more competitive scenarios, more segments, and more deal stages than is possible with manual production
 - **Marketing / Product Marketing**: Ensure field-facing content reflects current positioning, current competitive landscape, and current product capability — without the quarterly content audit that always gets deprioritized
 
-**💡 Practical Prompts**
+:::
+
+::: details 💡 Practical Prompts
 **Prompt 1: Competitive Battlecard Creator**
 ```
 Create a competitive battlecard for use in sales conversations.
@@ -6815,11 +6845,12 @@ For each template:
 Keep each template to a realistic length — these should feel like genuine emails, not marketing copy.
 ```
 
+:::
 ## 39. AI Buyer Persona Builder {#use-case-387}
 
 > Builds evidence-based buyer personas from deal data and win/loss patterns — improving outbound meeting acceptance rates 28% and discovery-to-opportunity conversion 22% by calibrating messaging to current buyer reality.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 **The Pain: Buyer Personas Are Created Once and Immediately Begin to Decay**
 
 Every go-to-market strategy begins with a set of buyer personas. These personas — "The VP of Sales Operations at a Series B SaaS company, who is primarily concerned with pipeline visibility and forecast accuracy" — shape everything: which prospects the sales team targets, how reps open conversations, what proof points resonate, which objections to anticipate, and how the product should be messaged. When the persona is accurate, the entire go-to-market motion becomes more efficient. When the persona is inaccurate — when it describes the buyer of two years ago rather than today's buyer — the inefficiency is pervasive and invisible. Reps keep missing in ways they can't explain because the conceptual model they're selling from is subtly wrong.
@@ -6864,7 +6895,9 @@ COCO synthesizes win/loss data, customer interview themes, and market signals to
    - Identifies where actual buyer behavior deviates from documented persona assumptions
    - Recommends specific persona updates prioritized by their impact on sales effectiveness
 
-**Results & Who Benefits**
+:::
+
+::: details Results & Who Benefits
 **Measurable Results**
 
 - **Prospect Targeting Accuracy**: Teams with evidence-refreshed personas show 28% improvement in outbound meeting acceptance rates, attributed to more relevant opening messages and better-fit prospect selection
@@ -6880,7 +6913,9 @@ COCO synthesizes win/loss data, customer interview themes, and market signals to
 - **Product Marketing**: Build messaging and positioning on a foundation of current buyer reality rather than launch-time assumptions — with specific evidence from recent deals
 - **Revenue Leadership / GTM Strategy**: Make ICP refinement and market expansion decisions based on data about actual buying patterns rather than theoretical market analysis
 
-**💡 Practical Prompts**
+:::
+
+::: details 💡 Practical Prompts
 **Prompt 1: Evidence-Based Persona Build from Deal Data**
 ```
 Build a buyer persona profile from the following deal and customer data.
@@ -7030,11 +7065,12 @@ For each section, include:
 - Note-taking guidance (what to capture verbatim)
 ```
 
+:::
 ## 40. AI Partnership Proposal Writer {#use-case-388}
 
 > Produces mutual-value-framed partnership proposals that advance to a second conversation 40% more often and achieve 25–30% response rates on cold outreach — versus 5–10% for generic "let's explore" approaches.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 **The Pain: Partnership Proposals Require Reciprocal Value Framing That Generic Sales Templates Don't Support**
 
 Partnership conversations are structurally different from customer conversations in ways that most sales professionals underestimate. In a standard sales deal, the seller frames value for the buyer: here is what you get, here is what it costs, here is why you should choose us. The buyer's interests are known, the decision criteria are reasonably predictable, and the proposal structure reflects a clear asymmetry — one party is selling, the other is buying. In a partnership conversation, both parties are simultaneously evaluating what they contribute and what they receive. A proposal that reads as a sales document — emphasizing your company's strengths and the partner's benefits from working with you — misses the reciprocity that makes partnership conversations fundamentally different from sales conversations.
@@ -7079,7 +7115,9 @@ COCO helps craft partnership proposals that articulate joint value creation, cus
    - Responds to exclusivity and competitive conflict questions
    - Frames the risk profile of the proposed arrangement for each party
 
-**Results & Who Benefits**
+:::
+
+::: details Results & Who Benefits
 **Measurable Results**
 
 - **Partnership Conversation Advancement**: Proposals built with explicit mutual value framing advance to a second conversation 40% more often than proposals written with a sales-centric approach
@@ -7095,7 +7133,9 @@ COCO helps craft partnership proposals that articulate joint value creation, cus
 - **Revenue Leadership**: Develop a partnership motion that is grounded in analytical rigor rather than personal relationships — enabling partnerships that can scale beyond any individual relationship
 - **Product / Integration Teams**: Receive partnership proposals with clear technical and operational requirements, enabling faster feasibility assessment and integration planning
 
-**💡 Practical Prompts**
+:::
+
+::: details 💡 Practical Prompts
 **Prompt 1: Full Partnership Proposal Draft**
 ```
 Write a comprehensive partnership proposal for the following potential partner.
@@ -7252,11 +7292,12 @@ For each objection:
 Also provide: the one objection from this list that is most likely to be a real dealbreaker vs. the ones that are negotiating positions, and how to tell the difference.
 ```
 
+:::
 ## 41. AI Sales Playbook Updater {#use-case-389}
 
 > Audits playbook sections for staleness against recent product changes, competitive shifts, and win/loss insights — maintaining 90%+ accuracy versus the typical 60–70% at quarterly review without AI assistance.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 **The Pain: Sales Playbooks Go Stale the Moment They're Published**
 
 The sales playbook is the central repository of institutional knowledge about how to sell — discovery frameworks, qualification criteria, objection responses, competitive positioning, messaging by segment, and the sequence of activities that produce consistent sales outcomes. When the playbook is accurate and current, it accelerates new rep ramp, maintains consistency across a growing team, and compounds the win rate improvements that came from the original playbook development work. When the playbook is out of date — and it almost always is — it does something worse than nothing. It gives reps a false sense of guidance, teaches them outdated responses to objections that have evolved, competitive positioning that doesn't reflect current competitive dynamics, and discovery questions that don't surface the pain points prospects actually have today.
@@ -7302,7 +7343,9 @@ COCO helps identify which playbook sections are outdated based on product change
    - Suggests the creation of quick-reference cards, checklists, or one-pagers for high-frequency content
    - Recommends a section organization that matches the rep's workflow rather than the author's logic
 
-**Results & Who Benefits**
+:::
+
+::: details Results & Who Benefits
 **Measurable Results**
 
 - **Playbook Currency**: Quarterly AI-assisted audits maintain playbook accuracy at 90%+ current versus the typical 60-70% accuracy at quarterly review without systematic maintenance
@@ -7318,7 +7361,9 @@ COCO helps identify which playbook sections are outdated based on product change
 - **Sales Enablement (where they exist)**: Multiply content maintenance capacity significantly, enabling proactive playbook currency management rather than reactive rewrite projects driven by rep complaints about outdated content
 - **Revenue Operations**: Maintain the institutional knowledge infrastructure that onboards new reps, enables consistent performance, and supports forecast reliability — without the quarterly crisis of discovering the playbook is six months behind reality
 
-**💡 Practical Prompts**
+:::
+
+::: details 💡 Practical Prompts
 **Prompt 1: Playbook Staleness Audit**
 ```
 Audit the following sales playbook sections for staleness and prioritize updates.
@@ -7477,11 +7522,12 @@ For the new objection:
 Format as a quick-reference card reps can use during live calls.
 ```
 
+:::
 ## 42. AI Sales Call Coaching Engine
 
 > Sales teams lose deals not because their product is inferior, but because reps make predictable, coachable mistakes on calls — speaking too much, failing to ask discovery questions, mishandling objections, skipping urgency creation, or losing control of the buying conversation
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Sales Managers Can't Coach at Scale**
 
@@ -7535,8 +7581,9 @@ The downstream cost is substantial. A mid-market SaaS company with 15 AEs, each 
    - Produces monthly team health report with win-rate-correlated skill trends
    - Benchmarks team performance against industry conversion norms for the relevant sales motion
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -7553,8 +7600,9 @@ The downstream cost is substantial. A mid-market SaaS company with 15 AEs, each 
 - **Sales Enablement Leads**: Identify training content gaps and build programs targeted at the actual skill weaknesses showing up in call data
 - **Revenue Leaders (CRO/VP Sales)**: Track coaching quality and skill development as leading indicators of win rate and quota attainment
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Single Call Coaching Analysis**
 ```
@@ -7650,12 +7698,12 @@ Assess:
 5. Escalation recommendation: should manager get involved? Why?
 ```
 
-
+:::
 ## 43. AI Sales Territory Plan Optimizer
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Sales Territory Plan Inefficiency**
 
@@ -7709,8 +7757,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -7727,8 +7776,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Territory Planning Analysis**
 ```
@@ -7847,12 +7897,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 44. AI Sales Competitive Battlecard Generator
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Sales Competitive Battlecard Gaps**
 
@@ -7906,8 +7956,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -7924,8 +7975,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Sales Enablement Analysis**
 ```
@@ -8044,12 +8096,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 45. AI Sales Pipeline Forecast Optimizer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Sales Pipeline Forecast Inefficiency**
 
@@ -8103,8 +8155,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -8121,8 +8174,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Sales Enablement Analysis**
 ```
@@ -8241,12 +8295,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 46. AI Sales Account Expansion Opportunity Finder
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Sales Account Expansion Opportunity Finder**
 
@@ -8300,8 +8354,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -8318,8 +8373,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Account Expansion Analysis**
 ```
@@ -8438,12 +8494,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 47. AI Deal Desk Pricing Advisor
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Deal Desk Pricing Guesswork**
 
@@ -8497,8 +8553,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -8515,8 +8572,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Pricing Strategy Analysis**
 ```
@@ -8635,12 +8693,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 48. AI Sales Proposal Win Rate Optimizer
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Sales Proposal Win Rate Inefficiency**
 
@@ -8694,8 +8752,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -8712,8 +8771,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Sales Enablement Analysis**
 ```
@@ -8832,12 +8892,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 49. AI Inbound Lead Scoring Engine
 
 > Organizations operating in E-Commerce face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Inbound Lead Scoring Failures**
 
@@ -8891,8 +8951,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -8909,8 +8970,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Data Analysis Analysis**
 ```
@@ -9029,12 +9091,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 50. AI Customer Reference Story Builder
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Customer Reference Story Manual Effort**
 
@@ -9088,8 +9150,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -9106,8 +9169,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Content Creation Analysis**
 ```
@@ -9226,3 +9290,4 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
+:::

@@ -1104,7 +1104,7 @@ This week's data:
 
 > Cuts contract review time from 4 hours to 45 minutes by systematically flagging high-risk clauses — liability caps, indemnification scope, auto-renewal traps, governing law conflicts — against company policy.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 Enterprise legal teams review hundreds of commercial contracts every quarter. A mid-sized company with an active procurement and sales pipeline may handle 300–500 contracts per year, each ranging from 10 to 80 pages. Senior attorneys spend an average of 3–5 hours per contract reviewing clause-level language for risk — liability caps, indemnification scope, limitation of liability carve-outs, auto-renewal traps, and governing law provisions that conflict with corporate policy. At a fully-loaded cost of $350–$600 per attorney hour, that translates to $500,000–$2.5 million in annual legal spend on contract review alone, before outside counsel fees are factored in.
 
@@ -1123,8 +1123,9 @@ COCO transforms contract clause analysis from a manual, judgment-dependent proce
 
 Teams that deploy this workflow report cutting average contract review time from 4 hours to 45 minutes per document. Risk consistency scores (measured by inter-attorney agreement on clause ratings) improve from roughly 60% to over 90%. Escalation rates to outside counsel drop by 35–50% because in-house teams can resolve more issues confidently without external validation.
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1139,8 +1140,9 @@ Teams that deploy this workflow report cutting average contract review time from
 - **Procurement and finance leaders**: who sign contracts but lack legal training and need risk summaries in business language
 - **Compliance officers**: who must ensure every contract meets data protection, export control, and regulatory requirements before execution
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Full contract risk analysis**
 ```
@@ -1220,12 +1222,12 @@ CONTRACT:
 [PASTE CONTRACT TEXT]
 ```
 
-
+:::
 ## 11. AI Privacy Policy Generator {#use-case-358}
 
 > Produces a complete, jurisdiction-appropriate privacy policy for SaaS applications — covering cloud storage, analytics, AI training data use, and third-party integrations — in 2–3 hours instead of 12–20 hours.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 Every software product that collects, stores, or processes personal data requires a privacy policy — and in most jurisdictions that policy must be not just present but accurate, current, and written in language that real users can understand. For SaaS companies, this requirement multiplies: a single platform may collect data under GDPR (EU users), CCPA/CPRA (California users), PIPEDA (Canadian users), PDPA (Singapore/Thailand users), and a growing list of US state privacy laws passed since 2022. Each framework imposes different disclosure obligations, different definitions of "personal data," different user rights, and different retention requirements.
 
@@ -1246,8 +1248,9 @@ COCO addresses all three dimensions — completeness, accuracy, and maintenance 
 
 Teams using this workflow report reducing initial privacy policy drafting time from 15 hours to 2–3 hours, and update cycles from 6 hours to under 1 hour. Regulatory audit preparation time drops by 40% because the policy is continuously aligned with actual data practices. Enterprise sales cycles that previously stalled on privacy documentation are resolved in days rather than weeks.
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1264,8 +1267,9 @@ Teams using this workflow report reducing initial privacy policy drafting time f
 - **Chief Privacy Officers and DPOs**: who must demonstrate regulatory compliance to supervisory authorities and enterprise customers
 - **Sales and solutions engineering teams**: who lose deals when privacy documentation is inadequate during procurement reviews
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Full privacy policy generation**
 ```
@@ -1348,12 +1352,12 @@ PRIVACY POLICY:
 [PASTE POLICY TEXT]
 ```
 
-
+:::
 ## 12. AI GDPR Compliance Checklist Builder {#use-case-359}
 
 > Generates a dynamic, organization-specific GDPR compliance checklist — covering data inventory, consent mechanisms, processor agreements, and breach response — and tracks remediation progress against regulatory requirements.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 The General Data Protection Regulation remains the world's most consequential data privacy law — and one of the most operationally complex to implement across a large enterprise. Since enforcement began in May 2018, European Data Protection Authorities have issued over €4.5 billion in fines. The average fine per significant enforcement action exceeds €2 million. Yet a 2023 survey by the International Association of Privacy Professionals found that 43% of companies operating in the EU still lack a complete, current GDPR compliance program — not because they are indifferent to compliance, but because they lack a systematic way to track and close the hundreds of discrete obligations the regulation imposes.
 
@@ -1374,8 +1378,9 @@ COCO solves this through a dynamic, role-specific checklist generation and gap-t
 
 Enterprises using this workflow reduce GDPR audit preparation time by 55–70%. Compliance gaps identified before an audit cost 10–20× less to remediate than gaps discovered during an enforcement action. Teams with dynamic, COCO-assisted checklists report sustaining compliance postures across M&A events and rapid product growth cycles that previously caused significant regression.
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1390,8 +1395,9 @@ Enterprises using this workflow reduce GDPR audit preparation time by 55–70%. 
 - **IT and InfoSec teams**: responsible for technical compliance measures (encryption, access controls, breach detection) that intersect with GDPR Article 32
 - **HR and People Operations leaders**: who process employee data under GDPR and must manage separate, often overlooked employee data compliance requirements
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Tailored GDPR checklist generation**
 ```
@@ -1466,12 +1472,12 @@ Draft a Standard Operating Procedure for responding to GDPR data subject rights 
 Our company context: [DESCRIBE COMPANY TYPE, SYSTEMS USED, TEAM RESPONSIBLE]
 ```
 
-
+:::
 ## 13. AI Terms of Service Reviewer {#use-case-360}
 
 > Reviews vendor Terms of Service documents in 35 minutes instead of 3 hours, flagging provisions that expose the company to liability, data rights issues, unilateral change clauses, and unfavorable dispute resolution terms.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 SaaS companies live and die by their Terms of Service. For vendors, ToS is the primary legal instrument defining acceptable use, limiting liability, protecting intellectual property, establishing payment terms, and governing dispute resolution. For buyers and enterprise customers, reviewing vendor ToS before procurement sign-off is a mandatory step in vendor risk management — yet most legal teams approach this review with insufficient structure and inconsistent rigor.
 
@@ -1494,8 +1500,9 @@ COCO addresses both sides of this problem:
 
 Teams using this workflow reduce ToS review time from 3 hours to 35 minutes per document, allowing legal teams to process 5× more reviews at the same resource level. Procurement cycle times for software purchases drop by 30–40% when legal review is faster. Enterprise vendors who update their ToS using COCO's market benchmarking report a 25% reduction in legal pushback from prospects during sales cycles.
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1511,8 +1518,9 @@ Teams using this workflow reduce ToS review time from 3 hours to 35 minutes per 
 - **SaaS founders and product leaders**: who need their ToS to pass enterprise procurement review without scaring away customers
 - **Compliance and vendor risk managers**: who track ToS compliance status across a portfolio of active vendor relationships
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Full ToS risk review (buyer perspective)**
 ```
@@ -1597,12 +1605,12 @@ NEW FEATURE DESCRIPTION:
 [DESCRIBE IN DETAIL]
 ```
 
-
+:::
 ## 14. AI NDA Redline Suggester {#use-case-361}
 
 > Reduces NDA turnaround from 2–3 business days to 4–6 hours by automatically identifying the 15–20 standard negotiating points in any NDA and generating policy-consistent redlines for each.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 Non-Disclosure Agreements are the most frequently negotiated contracts in business. A mid-sized enterprise may execute 200–500 NDAs per year — covering potential partnerships, vendor evaluations, M&A discussions, customer pilots, and employee separations. Despite their ubiquity, NDA negotiation consumes a disproportionate share of in-house legal capacity. A survey by the Association of Corporate Counsel found that NDA review and negotiation ranks among the top three time consumers for in-house legal teams, yet most legal leaders consider it a low-value activity that distracts from strategic work.
 
@@ -1623,8 +1631,9 @@ COCO transforms NDA redlining from a labor-intensive review into a rapid, policy
 
 Organizations using this workflow report reducing NDA turnaround time from 2–3 business days to 4–6 hours. Legal teams processing 400 NDAs per year save an estimated 300–600 attorney hours annually. Sales teams report higher deal velocity because legal review no longer creates a bottleneck at the top-of-funnel stage. NDA risk consistency — measured by whether accepted NDAs contain known risk provisions — improves dramatically because policy is applied mechanically rather than from memory.
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1640,8 +1649,9 @@ Organizations using this workflow report reducing NDA turnaround time from 2–3
 - **Legal operations managers**: who track NDA cycle times and seek to reduce time-to-execution as a legal efficiency metric
 - **M&A and corporate development teams**: who need to process target NDAs quickly and consistently during active deal pipelines
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Full NDA redline**
 ```
@@ -1726,12 +1736,12 @@ NDA:
 [PASTE NDA HERE]
 ```
 
-
+:::
 ## 15. AI Regulatory Filing Summarizer {#use-case-362}
 
 > Compresses 8–12 hours of regulatory filing review into 90 minutes by extracting all compliance obligations, deadlines, and action items from agency rulemakings, guidance documents, and enforcement actions.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 Large enterprises operating in regulated industries — financial services, healthcare, energy, telecommunications, pharmaceuticals — face a continuous stream of regulatory filings, guidance documents, rulemaking notices, enforcement actions, and supervisory letters. A financial services firm's legal and compliance team may need to monitor and digest regulatory output from 10–15 agencies simultaneously: the SEC, FINRA, CFTC, OCC, Federal Reserve, state banking regulators, CFPB, and more. Each agency publishes dozens of documents per month. A healthcare company tracks CMS rules, FDA guidance, OIG advisory opinions, state Medicaid notices, and HIPAA enforcement updates. An energy company monitors FERC orders, EPA rulemakings, state PUC decisions, and international carbon market regulations.
 
@@ -1752,8 +1762,9 @@ COCO transforms regulatory filing digestion into a structured, scalable intellig
 
 Enterprises using this workflow report reducing average regulatory filing review time from 8–12 hours to 90 minutes per major document. Compliance teams cover 3–4× more regulatory output at the same resource level. Missed compliance deadlines — a frequent risk under manual processes — drop to near zero because COCO systematically extracts and calendars every stated deadline.
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1768,8 +1779,9 @@ Enterprises using this workflow report reducing average regulatory filing review
 - **Government affairs and public policy teams**: who monitor regulatory trends and need to engage in rulemaking comment processes
 - **Operations and technology leaders**: who must understand regulatory filing implications for their systems and processes without reading hundreds of pages of dense regulatory text
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Regulatory filing executive summary**
 ```
@@ -1856,12 +1868,12 @@ OUR COMPANY CONTEXT:
 [DESCRIBE RELEVANT BUSINESS ACTIVITIES AND COMPLIANCE PROGRAM]
 ```
 
-
+:::
 ## 16. AI IP Portfolio Analyzer {#use-case-363}
 
 > Provides systematic IP portfolio analysis — patent maintenance prioritization, trademark monitoring, open source license compliance, and M&A due diligence preparation — reducing IP maintenance costs by 15–25% and M&A due diligence time from 6–8 weeks to 2–3 weeks.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 For technology companies, intellectual property is often the most valuable asset on the balance sheet — yet it is frequently the least systematically managed. A SaaS company that has been operating for 5–10 years may have accumulated patents (granted and pending), trademarks (registered and common law), copyrights in source code and marketing materials, trade secrets in algorithms and customer data, and open source obligations — all tracked in disparate systems or, in many cases, in spreadsheets maintained by individuals who have since left the company.
 
@@ -1882,8 +1894,9 @@ COCO transforms IP portfolio management from a reactive, fragmented process into
 
 Technology companies using this workflow report reducing annual IP maintenance costs by 15–25% through systematic abandonment of non-strategic assets. IP due diligence preparation time for M&A transactions drops from 6–8 weeks to 2–3 weeks. Open source compliance gaps that would have been discovered by acquirers or through litigation are identified and remediated proactively, preserving deal value.
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1898,8 +1911,9 @@ Technology companies using this workflow report reducing annual IP maintenance c
 - **M&A and corporate development teams**: who need to assess IP portfolio quality quickly in both sell-side and buy-side transactions
 - **Engineering and product leaders**: who need to understand open source obligations before shipping and to ensure freedom to operate in competitive markets
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — IP portfolio health assessment**
 ```
@@ -1983,12 +1997,12 @@ We are preparing for a potential [SALE / ACQUISITION / INVESTMENT] transaction. 
 OUR BUSINESS: [DESCRIBE PRODUCTS, MARKETS, KEY IP ASSETS]
 ```
 
-
+:::
 ## 17. AI Legal Research Synthesizer {#use-case-364}
 
 > Reduces legal research time by 60–75% per question — systematically covering all relevant legal issues, preserving findings in searchable memos, and enabling in-house teams to handle 3–4× more advisory requests without adding headcount.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 Legal research is the foundation of sound legal advice — and it is also one of the most time-intensive, cost-escalating, and inconsistently performed activities in corporate legal practice. A junior associate at a law firm bills 6–12 hours to research a complex legal question and produce a memo. An in-house attorney, often without research staff, may spend 4–8 hours on the same task while also managing a full contract and advisory load. For questions that span multiple jurisdictions — a product liability analysis across 50 states, a data privacy compliance analysis across 12 countries, an employment law assessment across 30 locations — the research burden multiplies to the point where most in-house teams simply cannot afford to do it comprehensively.
 
@@ -2009,8 +2023,9 @@ COCO addresses research quality, speed, and knowledge retention through a struct
 
 Teams using this workflow reduce legal research time by 60–75% per question. Research quality improves because COCO systematically covers all relevant legal issues rather than focusing only on the most obvious sources. Knowledge is preserved in structured, searchable memos rather than email threads. In-house legal teams can handle 3–4× more advisory requests at the same resource level, reducing backlogs and improving business partner satisfaction.
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2026,8 +2041,9 @@ Teams using this workflow reduce legal research time by 60–75% per question. R
 - **Legal operations leaders**: who are building institutional legal knowledge and want a scalable way to capture and organize legal analysis
 - **Outside law firms**: who can use COCO to accelerate associate-level research work, reducing costs for clients and improving turnaround times
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Legal research memo**
 ```
@@ -2126,12 +2142,12 @@ JURISDICTION: [PRIMARY JURISDICTION]
 BUSINESS CONTEXT: [DESCRIBE]
 ```
 
-
+:::
 ## 18. AI Corporate Policy Drafter {#use-case-365}
 
 > Produces tailored corporate policies — anti-bribery, code of conduct, data retention, acceptable use — in 3–5 days instead of 15–25+ attorney hours, with appropriate jurisdictional adjustments and plain-language employee communications.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 Every enterprise requires a comprehensive library of corporate policies — governing employee conduct, data handling, financial controls, conflicts of interest, acceptable use of technology, travel and expenses, anti-bribery and corruption, securities trading, and dozens of other operational domains. These policies are not optional: many are legally required (FCPA, SOX, HIPAA, GDPR, employment law), many are required by insurance carriers (cyber liability policies typically require specific documented information security policies), and nearly all are required to demonstrate organizational due diligence in regulatory investigations or litigation.
 
@@ -2152,8 +2168,9 @@ COCO transforms corporate policy drafting from a reactive, bandwidth-constrained
 
 Organizations using this workflow reduce policy drafting time by 65–80% per policy. Policy review cycles — updating existing policies as laws change — drop from 4–6 weeks to 3–5 days. Companies that implement systematic, COCO-assisted policy programs report stronger audit outcomes, fewer employee conduct incidents (because policies are clearer and better communicated), and higher insurance carrier satisfaction scores in cyber and D&O coverage reviews.
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2169,8 +2186,9 @@ Organizations using this workflow reduce policy drafting time by 65–80% per po
 - **Chief Compliance Officers**: who are responsible for demonstrating to regulators and auditors that the organization has adequate written policies covering all required domains
 - **Board Audit Committees**: who oversee the adequacy of the company's internal controls and governance frameworks, including the corporate policy library
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Corporate policy draft**
 ```
@@ -2265,12 +2283,12 @@ POLICY:
 [PASTE POLICY TEXT]
 ```
 
-
+:::
 ## 19. AI Compliance Training Content Creator {#use-case-366}
 
 > Produces scenario-based, role-specific compliance training modules — in 12–18 hours instead of 100+ hours — with post-training assessments, reducing training-related audit findings by 60% in the first audit cycle.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 Compliance training is a legal necessity for enterprises in virtually every regulated industry. FCPA, HIPAA, SOX, GDPR, OSHA, anti-harassment, export controls, insider trading — each regulatory framework requires documented training as a condition of the compliance defense. In an enforcement action, regulators examine not just whether a company had policies, but whether employees were actually trained, how recently, and whether the training was substantive enough to constitute a genuine compliance education effort rather than a box-checking exercise.
 
@@ -2291,8 +2309,9 @@ COCO bridges the gap between compliance expertise and training effectiveness:
 
 Organizations using this workflow reduce compliance training content creation time from 100+ hours to 12–18 hours per module. Training effectiveness scores (measured by post-training assessment results and 90-day behavior audits) improve by 35–50% when scenario-based, role-specific content replaces generic text-heavy modules. Regulatory audit findings citing inadequate training drop by 60% in the first annual audit cycle following the program update.
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2307,8 +2326,9 @@ Organizations using this workflow reduce compliance training content creation ti
 - **Chief Compliance Officers**: who must demonstrate to regulators and auditors that training is substantive, current, and role-appropriate
 - **Business unit leaders**: who want their teams to make correct compliance decisions in real situations, not just pass annual training quizzes
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Compliance training module outline**
 ```
@@ -2397,12 +2417,12 @@ COMPLIANCE TOPIC: [DESCRIBE]
 COMPANY CONTEXT: [INDUSTRY, GEOGRAPHY, RELEVANT REGULATORY FRAMEWORK]
 ```
 
-
+:::
 ## 20. AI Due Diligence Checklist Generator {#use-case-367}
 
 > Generates deal-specific, industry-customized due diligence checklists in 4–6 hours instead of 3–5 days, reducing post-closing dispute rates by 20–30% by systematically surfacing risks that generic templates miss.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 Due diligence is the cornerstone of every significant business transaction — mergers and acquisitions, private equity investments, joint ventures, major vendor relationships, and strategic partnerships. The quality of due diligence directly determines the quality of deal execution: comprehensive due diligence surfaces risks before they become post-closing problems; incomplete due diligence leaves acquirers holding liabilities they did not price, investors funding companies with defects they did not know about, and partners exposed to counterparty risks they failed to assess.
 
@@ -2423,8 +2443,9 @@ COCO generates customized, comprehensive, deal-specific due diligence checklists
 
 Deal teams using this workflow report reducing due diligence checklist preparation time from 3–5 days to 4–6 hours. Completeness of due diligence coverage improves because COCO systematically applies industry-specific requirements that are frequently missed in manually prepared checklists. Post-closing dispute rates decline by 20–30% in transactions where COCO-assisted due diligence was performed, because more risk is identified and addressed before signing.
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2439,8 +2460,9 @@ Deal teams using this workflow report reducing due diligence checklist preparati
 - **Private equity and venture capital investment teams**: who perform due diligence on multiple deals simultaneously and need consistent, auditable processes
 - **Board and audit committee members**: who require confidence that management's due diligence process was systematic and comprehensive before approving a transaction
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Custom M&A due diligence checklist**
 ```
@@ -2526,12 +2548,12 @@ DATA/SYSTEMS ACCESS LEVEL: [DESCRIBE WHAT DATA OR SYSTEMS THIS VENDOR WILL ACCES
 REGULATORY ENVIRONMENT: [LIST APPLICABLE REGULATIONS]
 ```
 
-
+:::
 ## 21. AI Litigation Risk Assessor {#use-case-368}
 
 > Produces structured early case assessments in 2 weeks instead of 6–8 weeks, improving reserve accuracy by 35–45% and enabling confident settlement recommendations that reduce outside counsel fees by 40%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 Litigation is one of the most significant and least predictable costs an enterprise faces. U.S. businesses spend over $300 billion per year on litigation, and the average large corporation has 556 pending legal matters at any given time, according to ACC research. Yet most enterprise litigation risk management is reactive and inconsistent: disputes are managed individually, legal reserves are set based on individual attorney judgment without systematic methodology, and early case assessment — the analysis that would allow informed decisions about settlement vs. litigation — is performed too slowly and at too high a cost to be genuinely useful.
 
@@ -2552,8 +2574,9 @@ COCO provides a structured, consistent litigation risk assessment framework that
 
 Legal departments using this workflow report improving reserve accuracy (measured by variance between reserve and ultimate case outcome) by 35–45%. Early case assessment cycle time drops from 6–8 weeks to 2 weeks. Settlement rates at rational values increase because better-informed early case assessment allows legal teams to make settlement recommendations with confidence rather than deferring decisions indefinitely. Outside counsel fees on early case assessment drop by 40% because COCO handles the analytical framework, leaving outside counsel to provide specialized judgment.
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2569,8 +2592,9 @@ Legal departments using this workflow report improving reserve accuracy (measure
 - **CFOs and audit committees**: who require defensible, methodology-based litigation reserve estimates for financial statement purposes
 - **Outside litigation counsel**: who can use COCO's structured assessment framework to deliver better, faster early case assessments to their clients
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Early case assessment**
 ```
@@ -2671,12 +2695,12 @@ ESTIMATED CLASS SIZE: [NUMBER]
 JURISDICTIONS INVOLVED: [LIST]
 ```
 
-
+:::
 ## 22. AI Employment Law Compliance Advisor {#use-case-369}
 
 > Provides same-day employment law compliance guidance across jurisdictions — reducing manager compliance errors by 45–55% and employment litigation exposure by 30–40% in the first year.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 Employment law is the most operationally complex area of compliance for large enterprises. Unlike financial or environmental regulation, which typically requires a specialized compliance team to address, employment law touches every manager, every HR business partner, and every business decision involving people. Minimum wage, overtime classification, leave entitlements, accommodation requirements, termination procedures, non-compete enforceability, background check compliance, pay equity — each of these is governed by a patchwork of federal, state, and local laws that vary dramatically by jurisdiction and change frequently.
 
@@ -2697,8 +2721,9 @@ COCO provides on-demand, jurisdiction-specific employment law compliance guidanc
 
 HR and legal teams using this workflow report reducing average time-to-answer for employment law compliance questions from 2–3 days to same-day. Manager compliance error rates (taking adverse actions without following required procedures) drop by 45–55% when managers have access to clear, jurisdiction-specific guidance. Employment litigation exposure decreases by 30–40% in the first year of implementation, measured by EEOC charges filed and employment lawsuits initiated.
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2713,8 +2738,9 @@ HR and legal teams using this workflow report reducing average time-to-answer fo
 - **Operations and line managers**: who make day-to-day employment decisions and need to understand their legal obligations without waiting for HR or legal responses
 - **Chief People Officers and HR leaders**: who are responsible for enterprise-wide employment law compliance and must manage risk across multi-jurisdiction workforces
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Employment action compliance check**
 ```
@@ -2807,12 +2833,12 @@ Identify:
 5. Top 3 recommended remediation actions to reduce wage and hour litigation exposure
 ```
 
-
+:::
 ## 23. AI Data Processing Agreement Generator {#use-case-370}
 
 > Drafts or reviews GDPR-compliant Data Processing Agreements in 30–45 minutes instead of 2–4 hours — enabling SaaS vendors to close enterprise deals 20–35% faster by eliminating the DPA bottleneck.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 Data Processing Agreements are among the most frequently required yet least understood compliance documents in the modern enterprise stack. Under GDPR Article 28, every time a data controller (the company that determines what personal data is collected and why) shares personal data with a data processor (a vendor that processes data on the controller's behalf), a compliant DPA must be in place before processing begins. China's PIPL imposes similar requirements for data processors. California's CPRA introduced data processing contract requirements for service providers. The result is that any SaaS company with EU, Chinese, or California users faces a legal obligation to have DPAs in place with every vendor that handles personal data on their behalf — a number that, for a typical enterprise SaaS company, ranges from dozens to hundreds.
 
@@ -2833,8 +2859,9 @@ COCO generates fully compliant, customized DPAs for both sides of the relationsh
 
 Privacy and legal teams using this workflow reduce DPA drafting and review time from 3 hours to 30–45 minutes per agreement. DPA completeness rates (agreements that contain all GDPR Article 28 mandatory provisions) improve from 60–70% to 98%+. SaaS vendors who have COCO-generated DPAs ready to send during sales cycles close enterprise deals 20–35% faster, because the DPA bottleneck is eliminated before it occurs.
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2849,8 +2876,9 @@ Privacy and legal teams using this workflow reduce DPA drafting and review time 
 - **Procurement and vendor management teams**: who onboard new vendors and must ensure DPA execution before data processing begins
 - **Enterprise sales and solutions teams**: who lose deals or experience delays when they cannot immediately present compliant DPA documentation during customer security reviews
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Generate a GDPR-compliant DPA (controller to processor)**
 ```
@@ -2944,12 +2972,12 @@ VENDOR RELATIONSHIP:
 [DESCRIBE THE PROCESSING RELATIONSHIP]
 ```
 
-
+:::
 ## 24. AI Board Meeting Minutes Summarizer {#use-case-371}
 
 > Transforms meeting notes and recordings into complete, legally defensible board minutes — with precise resolution language, quorum confirmation, voting record, and privileged deliberation protection — in days instead of weeks.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 Board meeting minutes are among the most legally significant corporate documents a company produces. They are the official record of the board's exercise of its fiduciary duties — the contemporaneous documentation that directors approved material transactions, received required disclosures, engaged in deliberation, and fulfilled their oversight responsibilities. In litigation, regulatory investigations, M&A due diligence, and SEC enforcement proceedings, minutes are among the first documents reviewed and the most heavily scrutinized. Minutes that are incomplete, inaccurate, or drafted in a way that creates contradictions with other corporate records are a liability, not an asset.
 
@@ -2970,8 +2998,9 @@ COCO accelerates and improves the minutes production process:
 
 Organizations using this workflow report reducing minutes drafting time from 6–10 hours to 2–3 hours per meeting. Director approval cycles (the time from draft distribution to final approved minutes) shorten from 3–4 weeks to 10–14 days. Minutes quality — measured by the frequency of legal or audit findings related to minutes deficiencies — improves significantly. Companies preparing for IPO or M&A transactions report that COCO-assisted minutes are consistently sufficient to pass due diligence review without supplemental documentation requests.
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2987,8 +3016,9 @@ Organizations using this workflow report reducing minutes drafting time from 6�
 - **Independent directors and audit committee members**: who must be able to confirm, when asked, that the minutes accurately reflect the deliberations and actions they participated in
 - **Outside counsel and investment banks**: conducting due diligence who rely on board minutes to verify corporate approvals, conflicts disclosures, and governance processes
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Board meeting minutes draft from notes**
 ```
@@ -3085,12 +3115,12 @@ CORPORATE HISTORY:
 [DESCRIBE KEY EVENTS — EQUITY ROUNDS, ACQUISITIONS, OFFICER CHANGES, SIGNIFICANT CONTRACTS]
 ```
 
-
+:::
 ## 25. AI Contract Renewal Terms Optimizer {#use-case-372}
 
 > Transforms passive contract auto-renewals into active value-creation opportunities — identifying 90-day renewal windows, benchmarking current terms against market, and generating negotiation strategies that capture savings before contracts auto-renew.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 Contract renewal negotiations are a predictable, recurring opportunity that most enterprises systematically under-exploit. Every year, a company's contract management system surfaces dozens or hundreds of contracts approaching their renewal dates — vendor agreements, customer contracts, leases, software licenses, professional services retainers. Each renewal is an opportunity to renegotiate terms, correct provisions that created operational friction over the contract term, capture favorable market changes in pricing or scope, and strengthen the company's legal protections as the relationship matures.
 
@@ -3111,8 +3141,9 @@ COCO transforms contract renewal from a passive, missed-opportunity process into
 
 Enterprises that implement systematic renewal optimization programs using COCO report average savings of 12–18% on renewed contract values. Time invested in renewal preparation drops from 8–12 hours (when done ad hoc) to 2–3 hours (with COCO's structured workflow). Renewal terms quality improves because every renewal receives systematic legal and commercial review rather than auto-approval. Legal teams report higher business partner satisfaction because they are generating measurable commercial value, not just risk mitigation.
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3127,8 +3158,9 @@ Enterprises that implement systematic renewal optimization programs using COCO r
 - **In-house commercial counsel**: who review and negotiate renewal terms and need a structured preparation framework that maximizes value within limited time
 - **CFOs and finance leaders**: who are responsible for cost management and want to ensure contract renewals are managed as a cost optimization opportunity rather than an administrative process
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Contract renewal opportunity analysis**
 ```
@@ -3229,12 +3261,12 @@ Overall recommendation: Accept proposal / Negotiate improvements / Consider alte
 Estimated value impact of proposed changes vs. current terms: [CALCULATE]
 ```
 
-
+:::
 ## 26. AI Legal Contract Risk Extractor
 
 > Organizations operating in Legal Services face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Legal Contract Risk Extractor**
 
@@ -3288,8 +3320,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3306,8 +3339,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Contract Review Analysis**
 ```
@@ -3426,12 +3460,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 27. AI Government FOIA Response Assistant
 
 > Organizations operating in Government face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Government FOIA Response Overhead**
 
@@ -3485,8 +3519,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3503,8 +3538,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core FOIA Processing Analysis**
 ```
@@ -3623,12 +3659,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 28. AI Media Content Rights Clearance Assistant
 
 > Organizations operating in Media face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Media Content Rights Clearance Overhead**
 
@@ -3682,8 +3718,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3700,8 +3737,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Rights Management Analysis**
 ```
@@ -3820,12 +3858,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 29. AI Legal Due Diligence Document Scanner
 
 > Organizations operating in Legal Services face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Legal Due Diligence Document Scanner**
 
@@ -3879,8 +3917,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3897,8 +3936,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Due Diligence Analysis**
 ```
@@ -4017,12 +4057,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 30. AI Real Estate Lease Abstraction Engine
 
 > Organizations operating in Real Estate face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Real Estate Lease Abstraction Failures**
 
@@ -4076,8 +4116,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4094,8 +4135,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Lease Review Analysis**
 ```
@@ -4214,12 +4256,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 31. AI Legal IP Trademark Search Assistant
 
 > Organizations operating in Legal Services face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Legal IP Trademark Search Overhead**
 
@@ -4273,8 +4315,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4291,8 +4334,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Trademark Search Analysis**
 ```
@@ -4411,12 +4455,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 32. AI Legal Litigation Timeline Builder
 
 > Organizations operating in Legal Services face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Legal Litigation Timeline Manual Effort**
 
@@ -4470,8 +4514,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4488,8 +4533,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Litigation Management Analysis**
 ```
@@ -4608,12 +4654,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 33. AI Real Estate Tenant Screening Assistant
 
 > Organizations operating in Real Estate face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Real Estate Tenant Screening Overhead**
 
@@ -4667,8 +4713,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4685,8 +4732,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Tenant Screening Analysis**
 ```
@@ -4805,12 +4853,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 34. AI Employment Contract Drafting Assistant
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Employment Contract Drafting Overhead**
 
@@ -4864,8 +4912,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4882,8 +4931,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Legal Drafting Analysis**
 ```
@@ -5002,12 +5052,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 35. AI NDA Review and Redlining Assistant
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: NDA Review and Redlining Overhead**
 
@@ -5061,8 +5111,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5079,8 +5130,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Contract Review Analysis**
 ```
@@ -5199,12 +5251,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 36. AI Corporate Governance Compliance Advisor
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Corporate Governance Compliance Guesswork**
 
@@ -5258,8 +5310,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5276,8 +5329,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Regulatory Compliance Analysis**
 ```
@@ -5396,3 +5450,4 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
+:::

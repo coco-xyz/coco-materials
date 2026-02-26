@@ -6,7 +6,7 @@ AI-powered use cases for product managers building and managing AI products.
 
 > Constructs rigorous, repeatable evaluation frameworks for LLM and AI model selection — covering accuracy, latency, cost, safety, and domain-specific performance benchmarks before a single dollar is committed.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: AI Model Selection Is a High-Stakes Decision Made Without a Systematic Framework**
 
@@ -60,8 +60,9 @@ The problem compounds because AI PMs typically lack a repeatable methodology. Ea
    - Projects ROI of fine-tuning a smaller model vs. using a larger general-purpose model
    - Generates a build-vs-buy-vs-fine-tune decision matrix for the specific use case
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -78,8 +79,9 @@ The problem compounds because AI PMs typically lack a repeatable methodology. Ea
 - **Finance and Procurement Teams**: Obtain a rigorous cost-at-scale analysis and vendor comparison to support contract negotiations and budget approvals
 - **Legal and Compliance Officers**: Access documented evaluation methodology and safety scoring that satisfies AI governance requirements and audit trails
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Evaluation Framework Design**
 ```
@@ -212,12 +214,12 @@ Analyze:
 Output: Regression analysis memo + action plan with owner and deadline for each item
 ```
 
-
+:::
 ## 2. AI Prompt Engineering Workflow Optimizer
 
 > Systematizes prompt development from ad-hoc experimentation to a structured, version-controlled engineering discipline — covering prompt design, testing, iteration, and production deployment.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Prompt Engineering Is Treated as Art When It Needs to Be Engineering**
 
@@ -271,8 +273,9 @@ The business risk compounds when prompt engineering knowledge is concentrated in
    - Establishes a rollback SLA: how quickly a bad prompt change can be identified and reverted
    - Produces a prompt change audit log for compliance and incident post-mortem use
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -289,8 +292,9 @@ The business risk compounds when prompt engineering knowledge is concentrated in
 - **QA and Test Engineers**: Receive a defined regression test suite and clear pass/fail criteria for prompt quality validation, replacing ad-hoc output inspection
 - **Engineering Managers**: Eliminate the bus-factor risk of prompt knowledge concentrated in one person; any engineer can own any prompt with proper documentation
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Prompt Documentation Template**
 ```
@@ -402,12 +406,12 @@ For each extracted component:
 Output: Prompt component library document + list of current prompts requiring updates to adopt standard components
 ```
 
-
+:::
 ## 3. AI Bias Detection & Fairness Audit Engine
 
 > Systematically identifies, quantifies, and documents bias risks in AI product outputs — enabling AI PMs to ship equitable products and satisfy increasingly stringent regulatory fairness requirements.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Bias in AI Products Is a Silent, Systemic Risk That Surfaces at the Worst Possible Moment**
 
@@ -461,8 +465,9 @@ Regulatory pressure is intensifying the urgency. The EU AI Act classifies multip
    - Creates a bias incident response playbook for when significant disparities are discovered post-launch
    - Builds feedback collection mechanisms to surface bias from affected user populations
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -479,8 +484,9 @@ Regulatory pressure is intensifying the urgency. The EU AI Act classifies multip
 - **Engineering and ML Teams**: Receive specific, actionable remediation instructions rather than vague bias complaints that are difficult to translate into code changes
 - **Affected User Populations**: Benefit from AI products that have been systematically tested for equitable performance across demographic groups, reducing the probability of being disadvantaged by undetected algorithmic bias
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Bias Risk Scoping Assessment**
 ```
@@ -596,12 +602,12 @@ Design the monitoring system:
 Output: Monitoring system specification + dashboard wireframe description + alert threshold table
 ```
 
-
+:::
 ## 4. AI LLM Vendor Capability Comparison Matrix
 
 > Builds a structured, current-state comparison of leading LLM vendors across the dimensions that actually matter for AI product decisions: capability, cost, reliability, compliance, and roadmap trajectory.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: LLM Vendor Selection Decisions Are Made with Outdated, Incomplete, and Vendor-Biased Information**
 
@@ -655,8 +661,9 @@ The business consequence of a poor vendor selection compounds over time. API-lev
    - Produces a shortlist rationale document for procurement approval
    - Builds a risk-adjusted vendor scoring that weights business continuity risk appropriately
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -673,8 +680,9 @@ The business consequence of a poor vendor selection compounds over time. API-lev
 - **Procurement and Legal Teams**: Obtain a vendor capability and compliance matrix that supports contract negotiation, SLA negotiation, and due diligence requirements
 - **Finance Teams**: Get a rigorous 3-year TCO model that replaces back-of-envelope cost estimates and enables accurate AI infrastructure budgeting
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: LLM Vendor Comparison Matrix**
 ```
@@ -803,12 +811,12 @@ For each scenario:
 Output: Risk assessment register + mitigation roadmap with priority ranking and implementation estimates
 ```
 
-
+:::
 ## 5. AI Product Roadmap Prioritization Engine
 
 > Applies structured AI-specific prioritization frameworks to product backlogs — accounting for model dependencies, data requirements, evaluation complexity, and the unique tradeoffs of shipping AI-powered features.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Standard Product Prioritization Frameworks Break Down for AI Features**
 
@@ -862,8 +870,9 @@ The prioritization challenge is further complicated by the AI PM's need to balan
    - Builds a quarterly roadmap review agenda that reassesses AI feature priorities against new learnings
    - Designs the roadmap update communication process for when AI experiments fail to reach quality targets
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -880,8 +889,9 @@ The prioritization challenge is further complicated by the AI PM's need to balan
 - **Product Leadership and C-Suite**: Get roadmap commitments that come with explicit confidence levels and risk flags, enabling better resource allocation and expectation management
 - **Business Stakeholders**: Experience more predictable delivery of AI features, replacing the common pattern of AI feature promises that repeatedly slip without clear explanation
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: AI Feature Dependency Audit**
 ```
@@ -1008,12 +1018,12 @@ Generate a facilitation guide for each section with discussion questions, decisi
 Output: Meeting agenda + facilitator guide + decision templates for each section
 ```
 
-
+:::
 ## 6. AI Inference Cost Optimization Analyzer
 
 > Identifies and quantifies every lever available to reduce LLM inference costs — from prompt compression to model routing to caching — and generates a prioritized cost reduction roadmap.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: AI Inference Costs Scale Faster Than Revenue and Nobody Has a Clear Reduction Strategy**
 
@@ -1067,8 +1077,9 @@ Cost visibility is also hobbled by how LLM providers structure billing. A single
    - Creates a monitoring dashboard to track cost reduction progress in real time
    - Builds a reporting template for communicating cost optimization progress to leadership
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1085,8 +1096,9 @@ Cost visibility is also hobbled by how LLM providers structure billing. A single
 - **Engineering Teams**: Get a prioritized list of cost optimization work items with clear ROI calculations, replacing vague directives to "reduce costs"
 - **CEO and Business Leadership**: See a path to sustainable AI unit economics as the product scales, reducing the risk of growth-driven cost crises
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Inference Cost Attribution Analysis**
 ```
@@ -1223,12 +1235,12 @@ For each item: owner, success metric, rollback plan if quality is impacted
 Output: 90-day roadmap table + cumulative savings projection by week + leadership summary of the plan
 ```
 
-
+:::
 ## 7. AI Governance & Risk Framework Builder
 
 > Constructs a comprehensive AI governance program covering risk assessment, approval workflows, incident management, and regulatory alignment — enabling AI PMs to ship responsibly at speed.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: AI Products Are Shipping Faster Than Governance Structures Can Keep Up**
 
@@ -1282,8 +1294,9 @@ The regulatory pressure is creating urgency. Enterprise customers are inserting 
    - Develops a governance maturity assessment scorecard to track program development over time
    - Generates an annual AI governance review agenda and documentation checklist
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1300,8 +1313,9 @@ The regulatory pressure is creating urgency. Enterprise customers are inserting 
 - **Engineering Teams**: Work within defined governance lanes that make the review process predictable and fast rather than an unpredictable bottleneck
 - **Board and Executive Leadership**: Gain visibility into AI risk exposure and program maturity through standardized reporting, enabling informed risk acceptance decisions and governance investment
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: AI Risk Register Builder**
 ```
@@ -1449,12 +1463,12 @@ Draft policy covering:
 Output: Complete governance policy document in formal policy format with version, owner, approval date, and review schedule
 ```
 
-
+:::
 ## 8. AI Training Data Quality Assessment Tool
 
 > Evaluates training, fine-tuning, and RAG retrieval datasets for quality issues — coverage gaps, label noise, distribution bias, and contamination — before they degrade model performance in production.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Data Quality Problems Are Invisible Until They Surface as Model Failures in Production**
 
@@ -1508,8 +1522,9 @@ The RAG-specific data quality problem has its own failure modes that are not cap
    - Estimates the model performance improvement expected from each remediation action
    - Creates a data quality gate specification: minimum quality thresholds that must be met before fine-tuning or RAG deployment proceeds
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1526,8 +1541,9 @@ The RAG-specific data quality problem has its own failure modes that are not cap
 - **Data Engineering Teams**: Gain a clear specification of the quality standards their data pipelines must produce, with measurable acceptance criteria for each pipeline output
 - **Legal and Privacy Teams**: Obtain a data provenance and PII screening report that satisfies data protection obligations and reduces the risk of training data privacy incidents
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Training Data Coverage Gap Analysis**
 ```
@@ -1669,12 +1685,12 @@ For each gate: define the measurement method, who is responsible for measurement
 Output: Data quality gate document + measurement protocol + gating workflow integration guidance
 ```
 
-
+:::
 ## 9. AI Fine-Tuning ROI Planner
 
 > Builds a rigorous cost-benefit analysis for fine-tuning decisions — quantifying the quality gain, cost structure, and maintenance burden relative to prompt engineering and RAG alternatives.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Fine-Tuning Decisions Are Made on Intuition When They Should Be Made on Evidence**
 
@@ -1728,8 +1744,9 @@ The long-term cost structure of fine-tuned models is frequently underestimated. 
    - Establishes success criteria: what quality and cost outcomes must be achieved to consider the fine-tuning investment successful
    - Designs a pilot approach for high-uncertainty cases: a minimum viable fine-tuning experiment before full commitment
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1746,8 +1763,9 @@ The long-term cost structure of fine-tuned models is frequently underestimated. 
 - **Finance and Operations**: Obtain a lifecycle cost model that accurately represents the true financial commitment of a fine-tuning initiative, enabling accurate budget planning
 - **Engineering Leadership**: Use the ROI framework to compare fine-tuning against alternative AI improvement investments and allocate ML resources to the highest-return opportunities
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Fine-Tuning vs. Prompt Engineering Decision Analysis**
 ```
@@ -1878,12 +1896,12 @@ Build the lifecycle plan covering:
 Output: Fine-tuned model lifecycle plan document + annual maintenance cost estimate + monitoring dashboard specification
 ```
 
-
+:::
 ## 10. AI Feature Prioritization Scoring Engine
 
 > Applies an AI-product-specific scoring engine to rank feature candidates — accounting for model maturity, data availability, safety requirements, and the unique value dynamics of AI capabilities.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Generic Feature Scoring Frameworks Produce Wrong Answers for AI Feature Backlogs**
 
@@ -1937,8 +1955,9 @@ The prioritization challenge is compounded by the AI PM's need to balance AI fea
    - Builds a "not now" register documenting features explicitly deprioritized with the reasoning
    - Produces a commitment-ready top-5 list with explicit confidence levels and risk flags
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1955,8 +1974,9 @@ The prioritization challenge is compounded by the AI PM's need to balance AI fea
 - **Product Leadership**: Access a transparent, reproducible scoring methodology that enables consistent prioritization across multiple AI product teams in the portfolio
 - **Sales and Customer Success**: Get a prioritization rationale they can share with customers when explaining why specific requested features are or are not on the near-term roadmap
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: AI Feature Readiness Assessment**
 ```
@@ -2090,12 +2110,12 @@ Additional entries to consider generating:
 Output: Not-now register document + stakeholder communication templates for each deprioritized item
 ```
 
-
+:::
 ## 11. AI User Research Synthesis & Insight Extractor
 
 > Synthesizes large volumes of user research — interviews, surveys, support tickets, session recordings — into structured AI product insights with specific implications for model behavior, feature design, and quality thresholds.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: AI Product Teams Have Abundant User Data but Struggle to Translate It into Model and Feature Decisions**
 
@@ -2149,8 +2169,9 @@ The AI-specific research challenge is that users often cannot accurately describ
    - Creates a sentiment trend for each AI feature with alerts for significant degradation
    - Builds a quarterly research synthesis report for product strategy review
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2167,8 +2188,9 @@ The AI-specific research challenge is that users often cannot accurately describ
 - **UX Researchers**: Amplify the reach of qualitative research by feeding it into a synthesis system that connects findings to quantitative behavioral signals and product decisions
 - **Customer Success and Support Teams**: See their customer feedback taken seriously through a documented synthesis process that creates a clear path from customer complaint to product improvement
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: AI Feedback Triage and Classification**
 ```
@@ -2297,12 +2319,12 @@ Build the traceability matrix:
 Output: Traceability matrix table + gap analysis + recommended roadmap adjustments with research justification
 ```
 
-
+:::
 ## 12. AI Agent Workflow & Orchestration Designer
 
 > Designs reliable, observable multi-agent and agentic AI workflows — defining task decomposition, tool selection, error handling, and human escalation points before any code is written.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: AI Agent Systems Are Being Built Without Design Discipline, Creating Brittle and Unpredictable Behavior**
 
@@ -2356,8 +2378,9 @@ The human-in-the-loop design challenge is particularly underspecified in most ag
    - Designs rate limiting and resource consumption guardrails to prevent runaway agent loops from incurring unbounded costs
    - Creates an agent red-teaming checklist for testing attack vectors before production deployment
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2374,8 +2397,9 @@ The human-in-the-loop design challenge is particularly underspecified in most ag
 - **Legal and Compliance Teams**: Review an explicit agent authority boundary and action permission matrix before deployment, satisfying AI governance requirements for agentic systems
 - **End Users**: Interact with agent systems that behave predictably, escalate appropriately when uncertain, and communicate errors clearly rather than failing silently or taking unexpected actions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Agent Workflow Decomposition**
 ```
@@ -2534,12 +2558,12 @@ Audit trail design (if regulated):
 Output: Observability specification + monitoring dashboard layout + alert threshold table + audit trail format
 ```
 
-
+:::
 ## 13. AI Model Hallucination Rate Benchmark Tracker
 
 > Establishes repeatable hallucination measurement methodology, tracks hallucination rates across model versions and prompt changes, and generates actionable remediation guidance for AI PMs.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Hallucination Is the Most-Discussed AI Risk and the Least Systematically Measured**
 
@@ -2594,8 +2618,9 @@ The tracking problem is equally severe. Even teams that measure hallucination at
    - Builds a hallucination monitoring dashboard for ongoing production tracking
    - Produces a stakeholder briefing on hallucination risk and mitigation investments
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2612,8 +2637,9 @@ The tracking problem is equally severe. Even teams that measure hallucination at
 - **ML Engineers**: Receive a specific attribution of hallucination failures to root causes (model, prompt, or retrieval), enabling focused remediation rather than undirected experimentation
 - **End Users in High-Stakes Domains**: Benefit from AI products where hallucination rates have been systematically measured and reduced, with appropriate uncertainty indicators for high-risk query types
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Domain-Specific Hallucination Test Set Generator**
 ```
@@ -2743,12 +2769,12 @@ Design the disclosure system:
 Output: Disclosure language set + confidence communication design + known-unknown response template + citation format guide
 ```
 
-
+:::
 ## 14. AI System Prompt Security & Injection Risk Reviewer
 
 > Audits system prompts for prompt injection vulnerabilities, instruction override risks, and data leakage attack vectors — protecting AI products against adversarial manipulation before and after launch.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: System Prompts Are the Attack Surface That Most AI Security Reviews Miss**
 
@@ -2802,8 +2828,9 @@ The review challenge is that prompt injection vulnerabilities are not visible th
    - Establishes an injection incident response protocol
    - Produces a responsible disclosure policy for externally-reported prompt injection vulnerabilities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2820,8 +2847,9 @@ The review challenge is that prompt injection vulnerabilities are not visible th
 - **Enterprise Sales Teams**: Respond to customer security questionnaires about prompt injection risk with documented audit results and remediation evidence rather than vague assurances
 - **End Users**: Interact with AI systems that have been systematically tested against adversarial manipulation, reducing the risk of being harmed by an AI that has been injection-manipulated into harmful behavior
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: System Prompt Security Audit**
 ```
@@ -2980,12 +3008,12 @@ Design the testing program:
 Output: Testing program specification + automation recommendations + responsible disclosure template
 ```
 
-
+:::
 ## 15. AI Product Launch Readiness Checklist Generator
 
 > Generates a comprehensive, AI-specific pre-launch checklist covering model quality, safety testing, infrastructure readiness, legal review, and stakeholder alignment — ensuring nothing critical is missed before go-live.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: AI Product Launches Fail at a Higher Rate Than Conventional Feature Launches Because Pre-Launch Checklists Are Not Calibrated for AI**
 
@@ -3039,8 +3067,9 @@ The stakeholder alignment problem creates an additional launch failure mode. AI 
    - Creates a 24-hour launch monitoring schedule with assigned reviewers
    - Produces a post-launch review schedule: T+24h, T+7 days, T+30 days assessment points
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3057,8 +3086,9 @@ The stakeholder alignment problem creates an additional launch failure mode. AI 
 - **Legal, Security, and Compliance Teams**: Receive structured review requests at the right time in the launch process, with clear scope and documented sign-off requirements
 - **Customer Success and Support Teams**: Enter every AI feature launch fully briefed on capabilities, limitations, and known issues — enabling accurate customer expectation management from day one
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: AI Launch Readiness Checklist Generator**
 ```
@@ -3221,12 +3251,12 @@ T+30 Day Review:
 Output: Post-launch review template with discussion questions for each section + data collection checklist before each review meeting
 ```
 
-
+:::
 ## 16. AI RAG Pipeline Architecture Advisor
 
 > Designs, evaluates, and optimizes Retrieval-Augmented Generation pipelines — from document ingestion strategy to chunking, embedding, retrieval, reranking, and generation — for accuracy and performance.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: RAG Pipelines Are Built Incrementally Without a Coherent Architecture, Creating Compounding Quality Problems**
 
@@ -3280,8 +3310,9 @@ The scalability problem creates a third failure dimension. RAG pipelines that wo
    - Recommends async pre-computation strategies for latency-sensitive use cases
    - Projects infrastructure costs at target scale and identifies the cost-optimal architecture
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3298,8 +3329,9 @@ The scalability problem creates a third failure dimension. RAG pipelines that wo
 - **Data Engineers**: Get a clear specification for the document ingestion pipeline including metadata schema, content cleaning requirements, and update frequency requirements
 - **Product Users**: Experience a RAG-powered feature that retrieves relevant context reliably and generates accurate, grounded answers rather than plausible-sounding hallucinations
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: RAG Architecture Design**
 ```
@@ -3450,12 +3482,12 @@ Analyze and recommend:
 Output: Latency optimization roadmap + expected improvement per optimization + infrastructure cost impact
 ```
 
-
+:::
 ## 17. AI Model Latency & Throughput Optimization Guide
 
 > Identifies and resolves AI inference latency bottlenecks — streaming, batching, model selection, infrastructure tuning — to meet user experience SLAs without sacrificing output quality.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: AI Feature Latency Is Routinely Underestimated and Inadequately Diagnosed**
 
@@ -3509,8 +3541,9 @@ The user experience implications of latency are non-linear and use-case-dependen
    - Creates a latency budget allocation framework for features combining multiple AI calls
    - Produces a quarterly latency performance review template
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3527,8 +3560,9 @@ The user experience implications of latency are non-linear and use-case-dependen
 - **UX Designers**: Understand the latency budget available for their features and design loading states and progressive disclosure patterns that minimize perceived wait time
 - **Users**: Experience AI features that respond within acceptable timeframes consistently rather than exhibiting unpredictable latency that degrades trust
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Latency Decomposition Analysis**
 ```
@@ -3672,12 +3706,12 @@ Allocate the latency budget:
 Output: Latency budget table by step + parallelization design + optimization priority ranking
 ```
 
-
+:::
 ## 18. AI Competitor AI Feature Gap Analyzer
 
 > Systematically maps competitor AI features, identifies gaps in your product's AI capabilities, and generates a strategic response framework for AI roadmap prioritization.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Competitive AI Feature Tracking Is Ad-Hoc, Reactive, and Chronically Incomplete**
 
@@ -3731,8 +3765,9 @@ The strategic response problem is where most AI competitive analysis breaks down
    - Designs a systematic competitor product testing protocol for ongoing quality benchmarking
    - Produces a competitive newsletter template for distributing intelligence across the organization
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3749,8 +3784,9 @@ The strategic response problem is where most AI competitive analysis breaks down
 - **Product Leadership**: Access a regular competitive AI landscape report that supports strategic investment decisions and market positioning choices
 - **Engineering Teams**: Understand what specific AI capabilities competitors have deployed, enabling technical gap assessment rather than feature-level feature matching
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Competitor AI Feature Inventory**
 ```
@@ -3873,12 +3909,12 @@ Structure the report:
 Output: Quarterly competitive report + recommended actions + competitive monitoring plan for next quarter
 ```
 
-
+:::
 ## 19. AI Dataset Annotation Quality Control Reviewer
 
 > Designs and implements annotation quality control programs for AI training datasets — inter-annotator agreement measurement, systematic error detection, and guideline refinement to maximize training data value.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Annotation Quality Degrades Silently and Compounds Into Model Performance Problems**
 
@@ -3932,8 +3968,9 @@ The guideline inadequacy problem creates a third quality failure mode. Most anno
    - Recommends data selection strategies: which annotators' data to include/exclude based on quality
    - Generates a data quality audit trail for regulatory compliance and model documentation requirements
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3950,8 +3987,9 @@ The guideline inadequacy problem creates a third quality failure mode. Most anno
 - **Annotation Teams and Managers**: Operate within a clear quality management framework that provides regular feedback, enables proactive quality maintenance, and surfaces systematic issues early
 - **Legal and Compliance Teams**: Access annotation quality documentation that satisfies AI governance requirements for training data provenance and quality assurance
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Annotation Guideline Stress-Test Generator**
 ```
@@ -4089,12 +4127,12 @@ Generate a certification report:
 Output: Formal training data readiness certification document with all sections completed
 ```
 
-
+:::
 ## 20. AI Regulatory Compliance Checklist for AI Products
 
 > Generates jurisdiction-specific, use-case-specific regulatory compliance checklists for AI products — covering EU AI Act, US sector regulations, data protection laws, and emerging AI legislation.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: AI Regulatory Requirements Are Complex, Jurisdiction-Specific, and Moving Fast**
 
@@ -4148,8 +4186,9 @@ The documentation requirement problem creates the second compliance trap. Even w
    - Produces a transparency report template disclosing AI use to affected users
    - Builds a regulatory certification register documenting what certifications and assessments have been completed
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4166,8 +4205,9 @@ The documentation requirement problem creates the second compliance trap. Even w
 - **Engineering Teams**: Receive specific, technical compliance requirements that can be translated into concrete implementation tasks rather than vague legal directives
 - **Enterprise Customers**: Have access to documented evidence of compliance program maturity when conducting AI vendor due diligence
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: AI Regulatory Classification Assessment**
 ```
@@ -4346,12 +4386,12 @@ Generate the package:
 Output: Complete enterprise compliance package + customization guide for different enterprise customer sectors
 ```
 
-
+:::
 ## 21. AI Customer Feedback Loop Automation Engine
 
 > Turn unstructured customer signals into prioritized product decisions in hours, not weeks.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Drowning in Feedback with No Actionable Signal**
 
@@ -4405,8 +4445,9 @@ Closing the feedback loop requires cross-functional coordination: support teams 
    - Identifies "zombie issues" — problems marked resolved that re-emerge in feedback — for root cause re-investigation
    - Produces quarterly feedback health scorecards comparing feedback resolution velocity against industry benchmarks
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4423,8 +4464,9 @@ Closing the feedback loop requires cross-functional coordination: support teams 
 - **AI/ML Engineers**: Get precise, reproducible bug reports with user feedback examples attached, accelerating root cause diagnosis
 - **Executive Leadership**: Access real-time feedback health dashboards that connect product quality metrics to business outcomes like churn and NPS
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Multi-Source Feedback Synthesis**
 
@@ -4587,12 +4629,12 @@ Analyze:
 Generate: Resolution effectiveness dashboard + zombie issue alert list + feedback ROI ranking + lessons learned memo for PM/engineering retrospective
 ```
 
-
+:::
 ## 22. AI AI-Native Feature Flag & Experimentation Platform
 
 > Run statistically rigorous AI model experiments without engineering overhead or deployment risk.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Flying Blind on AI Feature Rollouts**
 
@@ -4646,8 +4688,9 @@ The cost of poor AI experimentation rigor compounds over time. Teams that can't 
    - Produces experiment velocity metrics: experiments completed per quarter, ship rate, average learning cycle time
    - Generates experiment retrospectives identifying which hypotheses proved correct and updating the product team's mental models
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4664,8 +4707,9 @@ The cost of poor AI experimentation rigor compounds over time. Teams that can't 
 - **Platform/Infrastructure Teams**: Get automated rollback triggers and canary deployment specs that reduce on-call burden during model deployments
 - **Business Stakeholders**: Access clear experiment result summaries connecting AI quality improvements to business metrics
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — AI Experiment Design Document**
 
@@ -4838,12 +4882,12 @@ Generate:
 Output: Experiment portfolio plan + calendar view + learning roadmap narrative
 ```
 
-
+:::
 ## 23. AI Model Drift & Performance Degradation Detector
 
 > Catch AI quality regressions before users do — with automated monitoring built for model behavior.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Silent Model Degradation Destroys User Trust**
 
@@ -4897,8 +4941,9 @@ The organizational consequence is that AI product managers operate on faith rath
    - Generates provider change communication templates for notifying users when upstream model changes affect product behavior
    - Designs multi-provider monitoring: tracking relative quality across provider options to enable rapid switching if one provider degrades
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4915,8 +4960,9 @@ The organizational consequence is that AI product managers operate on faith rath
 - **Customer Success Teams**: Get advance warning of quality issues affecting enterprise accounts before customers escalate
 - **Executive Leadership**: Access reliable AI quality dashboards for board reporting and investor updates on product health
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Drift Monitoring Framework Design**
 
@@ -5090,12 +5136,12 @@ Generate the post-mortem document:
 Output: Complete post-mortem document ready for engineering all-hands + action item tracker
 ```
 
-
+:::
 ## 24. AI LLM Output Quality Scoring & Routing System
 
 > Automatically score, filter, and route LLM outputs to deliver consistently high-quality responses at scale.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Inconsistent Output Quality Undermines Enterprise Adoption**
 
@@ -5149,8 +5195,9 @@ The competitive moat for AI products increasingly lies not in the underlying mod
    - Designs quality SLA reporting for enterprise customers: weekly/monthly reports on AI quality metrics against contracted targets
    - Produces quality improvement roadmaps: ranking potential interventions (fine-tuning, prompt optimization, retrieval improvement) by expected quality lift
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5167,8 +5214,9 @@ The competitive moat for AI products increasingly lies not in the underlying mod
 - **ML Engineers**: Receive structured quality signal from scoring systems that directly informs fine-tuning data selection and prompt optimization priorities
 - **End Users**: Experience more consistent, reliable AI outputs — building the trust that drives long-term retention
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Quality Scoring Framework Design**
 
@@ -5360,12 +5408,12 @@ Design the routing strategy:
 Output: Multi-model routing specification + model assignment matrix + cost-quality analysis + implementation guide
 ```
 
-
+:::
 ## 25. AI Product Metrics & KPI Dashboard Builder
 
 > Define, instrument, and visualize the metrics that actually matter for AI product health and growth.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Measuring AI Products with Traditional SaaS Metrics Misses What Matters**
 
@@ -5419,8 +5467,9 @@ Meanwhile, AI-specific operational metrics — hallucination rates, inference co
    - Generates metric evolution protocols: how to deprecate old metrics and introduce new ones without losing historical continuity
    - Designs metric communication templates: weekly metric digests for leadership and monthly metric deep-dives for product teams
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5437,8 +5486,9 @@ Meanwhile, AI-specific operational metrics — hallucination rates, inference co
 - **Finance & Operations Teams**: Gain visibility into AI unit economics for budgeting, pricing decisions, and cost optimization
 - **Executive Leadership**: Access reliable AI product health metrics for board reporting, investor updates, and strategic planning
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — AI Product Metrics Framework**
 
@@ -5642,12 +5692,12 @@ Design the weekly review:
 Output: Complete weekly review system — pre-read template + meeting agenda + deep dive templates + decision log + digest email template
 ```
 
-
+:::
 ## 26. AI Cross-Functional AI Requirements Specification Writer
 
 > Transform ambiguous AI feature requests into precise, engineering-ready specifications that prevent scope creep and costly rework.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: AI Features Die in the Gap Between Vision and Specification**
 
@@ -5701,8 +5751,9 @@ The cross-functional coordination burden amplifies these problems. AI features r
    - Produces success measurement plans: how success will be measured at 30, 60, and 90 days post-launch
    - Generates stakeholder communication packages: what to tell users, enterprise customers, and internal teams about new AI capabilities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5719,8 +5770,9 @@ The cross-functional coordination burden amplifies these problems. AI features r
 - **Legal & Compliance Teams**: Get proactive documentation of AI governance decisions rather than reactive reviews of shipped features
 - **Enterprise Customers**: Experience more predictable, documented AI capabilities that meet enterprise procurement requirements
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — AI Feature PRD Generator**
 
@@ -5974,12 +6026,12 @@ Write AI governance requirements:
 Output: AI governance requirements specification + compliance evidence checklist + incident response runbook skeleton
 ```
 
-
+:::
 ## 27. AI Product Beta Testing Feedback Synthesizer
 
 > Extract actionable product insights from beta user chaos — fast enough to act before launch.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Beta Feedback Floods In Faster Than Teams Can Process It**
 
@@ -6033,8 +6085,9 @@ The consequence is that beta feedback drives cosmetic launch changes — UI poli
    - Produces segment-specific insight summaries: what different user types (technical, non-technical, enterprise, consumer) each think
    - Generates beta cohort profiles: descriptive clusters of beta user types with implications for positioning and go-to-market
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6051,8 +6104,9 @@ The consequence is that beta feedback drives cosmetic launch changes — UI poli
 - **Design Teams**: Get specific, representative examples of UX confusion that guide focused design improvements
 - **Go-to-Market Teams**: Access honest, nuanced beta user sentiment to inform positioning and launch messaging
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Beta Feedback Synthesis Engine**
 
@@ -6259,12 +6313,12 @@ Extract roadmap intelligence:
 Output: Roadmap intelligence report with specific recommendations + supporting evidence + prioritization rationale
 ```
 
-
+:::
 ## 28. AI Competitive AI Product Teardown Analyzer
 
 > Systematically dissect competitor AI products to surface capability gaps, positioning opportunities, and strategic vulnerabilities.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: AI Competitive Intelligence Is Hard and Moves at Model Speed**
 
@@ -6318,8 +6372,9 @@ The evaluation challenge is also technically demanding. Assessing LLM output qua
    - Generates competitive response playbooks: pre-approved strategic responses to likely competitor moves
    - Designs competitive intelligence sharing processes: how to distribute competitive insights across product, sales, and marketing efficiently
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6336,8 +6391,9 @@ The evaluation challenge is also technically demanding. Assessing LLM output qua
 - **Marketing Teams**: Access validated competitive differentiation claims backed by benchmark data rather than unsubstantiated assertions
 - **Executive Leadership**: Understand the competitive landscape accurately for strategic planning and investor communication
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — AI Competitor Capability Teardown**
 
@@ -6565,12 +6621,12 @@ Strategic priorities matrix: Rank all mitigation actions across scenarios by (pr
 Output: 5 competitive threat scenarios + strategic priorities matrix + monitoring checklist for early warning signals
 ```
 
-
+:::
 ## 29. AI AI Product Pricing Strategy Modeler
 
 > Design AI product pricing that captures maximum value while driving adoption, retention, and sustainable unit economics.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: AI Products Face Pricing Challenges That Standard SaaS Models Cannot Handle**
 
@@ -6624,8 +6680,9 @@ The enterprise pricing complexity layer makes this worse. Enterprise buyers expe
    - Produces churn impact models: projecting churn rates from different pricing change scenarios
    - Generates pricing rollout playbooks: staged implementation of new pricing with monitoring and rollback criteria
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6642,8 +6699,9 @@ The enterprise pricing complexity layer makes this worse. Enterprise buyers expe
 - **Sales Teams**: Get pricing structures and calculators that accelerate enterprise deals and reduce discounting pressure
 - **Customers**: Experience transparent, predictable pricing that scales fairly with the value they receive
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — AI Pricing Model Architecture Analysis**
 
@@ -6888,12 +6946,12 @@ Design the price increase strategy:
 Output: Price increase strategy document + communication sequence + message drafts for each touchpoint + churn monitoring plan
 ```
 
-
+:::
 ## 30. AI AI Safety Red-Teaming Scenario Generator
 
 > Systematically probe your AI product for safety vulnerabilities before adversarial users find them in production.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Reactive Safety Fails — Adversarial Users Move Faster Than Post-Hoc Fixes**
 
@@ -6947,8 +7005,9 @@ The regulatory environment makes this increasingly costly. The EU AI Act mandate
    - Designs safety advisory board presentations: how to communicate safety practices to board-level audiences
    - Generates responsible disclosure templates: for communicating safety findings to regulators or affected parties
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6965,8 +7024,9 @@ The regulatory environment makes this increasingly costly. The EU AI Act mandate
 - **Legal & Compliance Teams**: Get the documentation required for regulatory compliance and enterprise security reviews
 - **Enterprise Customers**: Gain confidence in AI product safety practices, reducing procurement friction and accelerating deal closure
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — AI Safety Threat Model Generator**
 
@@ -7216,12 +7276,12 @@ Design the ongoing safety program:
 Output: Ongoing safety program specification + monitoring dashboard design + incident response playbook + external researcher program design
 ```
 
-
+:::
 ## 31. AI Product User Onboarding Flow Optimizer
 
 > Design AI product onboarding that transforms confused new users into confident power users in their first session.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: AI Product Onboarding Fails Because Users Don't Know What They Don't Know**
 
@@ -7275,8 +7335,9 @@ Most AI product teams respond to poor onboarding with more documentation — lon
    - Designs new feature onboarding: ensuring existing users discover and adopt new capabilities as they're launched
    - Generates churn prevention interventions: identifying users showing disengagement signals and triggering targeted re-engagement
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -7293,8 +7354,9 @@ Most AI product teams respond to poor onboarding with more documentation — lon
 - **Customer Success Teams**: Receive better-educated users who require less hand-holding and achieve value faster
 - **End Users**: Experience a product that works for them from day one, building confidence and trust that drives long-term loyalty
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — AI Product Onboarding Flow Design**
 
@@ -7512,12 +7574,12 @@ Prompt failure recovery guide:
 Output: Complete 35-prompt library organized by level + progression guide + failure recovery guide + localization-ready template format
 ```
 
-
+:::
 ## 32. AI Model Card & AI Product Documentation Generator
 
 > Produce the technical documentation that enterprise buyers, regulators, and AI-literate users require — without drowning your team.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: AI Product Documentation Is a Competitive and Regulatory Requirement Teams Are Ignoring**
 
@@ -7571,8 +7633,9 @@ The internal cost of documentation debt compounds over time. Every enterprise de
    - Designs AI changelog entries: communicating model updates and capability changes to users in accessible language
    - Generates FAQ responses for common user questions about AI: how it works, what data it uses, how to provide feedback
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -7589,8 +7652,9 @@ The internal cost of documentation debt compounds over time. Every enterprise de
 - **Enterprise Sales Teams**: Close deals faster with pre-prepared documentation packages that satisfy procurement requirements without custom scrambling
 - **End Users**: Gain meaningful transparency about how AI products work, building informed trust
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Model Card Generator**
 
@@ -7609,6 +7673,7 @@ Unintended uses: [what should this NOT be used for]
 
 Generate the model card:
 
+:::
 ## Model Details
 - Model name and version
 - Model type and architecture
@@ -7875,7 +7940,7 @@ Output: Complete documentation maintenance system specification + responsibility
 
 > Identify the behavioral signals that distinguish genuine product-market fit from early adopter enthusiasm before scaling prematurely.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: AI Products Confuse Early Adopter Excitement with Durable Product-Market Fit**
 
@@ -7929,8 +7994,9 @@ The cost of premature scaling without genuine product-market fit is severe. Scal
    - Designs early scaling experiments: limited marketing investment to test whether PMF extends to adjacent segments
    - Generates investor communication frameworks: how to communicate PMF evidence to investors without overstating confidence
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -7947,8 +8013,9 @@ The cost of premature scaling without genuine product-market fit is severe. Scal
 - **Investors/Board**: Access rigorous PMF evidence that supports investment decisions with confidence
 - **Leadership**: Avoid the catastrophic burn acceleration that results from premature scaling of products without genuine PMF
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — AI Product PMF Signal Audit**
 
@@ -8174,12 +8241,12 @@ Create the investor PMF communication:
 Output: PMF evidence package — narrative + slide spec + data presentation guide + user quote framework + investor Q&A responses
 ```
 
-
+:::
 ## 34. AI Multi-Model Routing & Fallback Logic Designer
 
 > Build intelligent model orchestration that maximizes quality, minimizes cost, and guarantees reliability across your AI infrastructure.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Single-Model Dependency Creates Quality, Cost, and Reliability Crises**
 
@@ -8233,8 +8300,9 @@ The fallback architecture challenge compounds the routing problem. AI model prov
    - Designs model update management: how to evaluate and integrate new model versions without disrupting production routing
    - Generates provider diversification strategies: reducing dependency concentration risk across model providers
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -8251,8 +8319,9 @@ The fallback architecture challenge compounds the routing problem. AI model prov
 - **Finance Teams**: Access reliable infrastructure cost models for budgeting and pricing decisions
 - **Operations Teams**: Get automatic failover systems that reduce on-call burden and eliminate complete outages from provider failures
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Multi-Model Routing Architecture Design**
 
@@ -8512,12 +8581,12 @@ Design the monitoring dashboard:
 Output: Dashboard specification for each panel + alerting configuration + on-call runbook for common alerts
 ```
 
-
+:::
 ## 35. AI Product Incident Response & Rollback Planner
 
 > Respond to AI product failures with speed and precision — minimizing user impact and restoring quality before crises become catastrophes.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: AI Product Incidents Are Uniquely Difficult to Detect, Diagnose, and Resolve**
 
@@ -8571,8 +8640,9 @@ Rollback decisions for AI products require tradeoffs that don't exist in traditi
    - Designs media/PR escalation criteria: when an AI incident requires communications team involvement
    - Generates post-incident customer reports: what enterprise customers may request and how to respond
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -8589,8 +8659,9 @@ Rollback decisions for AI products require tradeoffs that don't exist in traditi
 - **Enterprise Customer Success Teams**: Have professional communication templates ready for the inevitable incident conversations with enterprise accounts
 - **Legal & Compliance Teams**: Receive structured incident classification that surfaces regulatory notification requirements immediately
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — AI Incident Response Runbook Generator**
 
@@ -8855,12 +8926,12 @@ Communication guidance:
 Output: Complete incident communication template library + guidance + escalation protocols
 ```
 
-
+:::
 ## 36. AI Responsible AI Checklist & Audit Trail Generator
 
 > Embed responsible AI practices into every product decision with comprehensive checklists and documentation that satisfy regulators and enterprise buyers.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Responsible AI Is Treated as a Compliance Afterthought Rather Than a Product Design Discipline**
 
@@ -8914,8 +8985,9 @@ The economic cost of reactive responsible AI compounds over time. Each regulator
    - Designs responsible AI review committees: structure, membership, decision rights, and meeting cadence
    - Generates responsible AI maturity assessment: evaluating current practices against a maturity model with improvement roadmap
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -8932,8 +9004,9 @@ The economic cost of reactive responsible AI compounds over time. Each regulator
 - **Engineering Teams**: Have clear, structured responsible AI requirements that can be implemented with defined acceptance criteria
 - **Enterprise Customers**: Gain confidence in AI vendor practices, reducing procurement risk and accelerating due diligence
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Pre-Launch Responsible AI Checklist**
 
@@ -9225,12 +9298,12 @@ Design the governance program:
 Output: Governance program design + role definitions + policy framework outline + process integration map + maturity roadmap
 ```
 
-
+:::
 ## 37. AI Product Localization & Multilingual Expansion Planner
 
 > Scale your AI product across languages and markets without degrading quality, trust, or the user experience that made you successful.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: AI Localization Is an Order of Magnitude Harder Than Software Localization**
 
@@ -9284,8 +9357,9 @@ The business consequence is predictable: companies localize quickly to capture i
    - Designs localization update management: how to handle model updates, prompt changes, and content updates across multiple language variants
    - Generates multilingual community and beta testing programs: engaging native speakers in quality evaluation and improvement
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -9302,8 +9376,9 @@ The business consequence is predictable: companies localize quickly to capture i
 - **Legal & Compliance Teams**: Access market-specific regulatory assessments that prevent compliance failures in international markets
 - **International Sales & Marketing Teams**: Launch in new markets with genuine quality confidence rather than hoping translation is sufficient
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Multilingual AI Quality Assessment**
 
@@ -9554,12 +9629,12 @@ Create the multilingual launch plan:
 Output: Multilingual launch plan + pre-launch gate checklist + beta program design + 90-day success criteria
 ```
 
-
+:::
 ## 38. AI AI-Powered Feature Usage Analytics Engine
 
 > Understand not just whether users use AI features, but whether those features are delivering genuine value — and where the opportunities are.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Traditional Feature Analytics Cannot Capture AI Feature Value**
 
@@ -9613,8 +9688,9 @@ The AI feature usage analytics gap compounds across the full product experience.
    - Designs experiment result views for AI feature changes: connecting A/B test results to downstream value metrics
    - Generates weekly AI feature briefing templates for product team consumption
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -9631,8 +9707,9 @@ The AI feature usage analytics gap compounds across the full product experience.
 - **Finance & Leadership Teams**: Access AI feature ROI data that justifies continued AI investment with concrete business impact evidence
 - **ML Engineers**: Understand which AI capabilities are actually being used and valued, enabling focused improvement investment
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — AI Feature Value Analytics Framework Design**
 
@@ -9896,12 +9973,12 @@ For each dashboard: specify all panels, data sources, filter options, and alert 
 Output: Dashboard specifications + data requirements + implementation guide + alert configuration
 ```
 
-
+:::
 ## 39. AI Product OKR & Success Metrics Framework Builder
 
 > Align your entire product team around AI-specific OKRs that connect model quality improvements to business outcomes everyone cares about.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Generic OKR Frameworks Fail AI Product Teams**
 
@@ -9955,8 +10032,9 @@ The measurement challenge compounds the goal-setting problem. Unlike traditional
    - Designs benchmark context: how to contextualize AI product metrics against industry benchmarks and competitor signals
    - Generates investor Q&A preparation: pre-answering the AI product metrics questions sophisticated investors will ask
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -9973,8 +10051,9 @@ The measurement challenge compounds the goal-setting problem. Unlike traditional
 - **Executive Leadership**: Access coherent, consistent AI product progress metrics for strategic planning and investor communication
 - **Individual Contributors**: Understand how their work connects to company success through clear metric ladders from their role to business outcomes
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — AI Product OKR Framework Generator**
 
@@ -10231,12 +10310,12 @@ Design the retrospective:
 Output: Retrospective facilitation guide + analysis frameworks + output documentation template + next quarter planning inputs
 ```
 
-
+:::
 ## 40. AI Enterprise AI Product Go-to-Market Strategy Advisor
 
 > Build a go-to-market strategy that wins enterprise AI deals by addressing the unique trust, compliance, and organizational challenges of selling AI to risk-conscious buyers.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Enterprise AI GTM Is Fundamentally Different from Enterprise SaaS GTM**
 
@@ -10290,8 +10369,9 @@ The competitive dynamics of enterprise AI make this worse. Enterprise buyers are
    - Designs enterprise advocacy programs: converting successful enterprise customers into references, case studies, and co-marketing partners
    - Generates churn risk frameworks: early warning systems and intervention playbooks for at-risk enterprise AI accounts
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -10308,8 +10388,9 @@ The competitive dynamics of enterprise AI make this worse. Enterprise buyers are
 - **Customer Success Teams**: Get structured enterprise programs that systematically drive adoption, expansion, and advocacy
 - **Executive Leadership**: Access enterprise GTM strategies that enable premium pricing, larger deal sizes, and the strategic customer relationships that anchor business model stability
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Enterprise AI Buyer Persona Development**
 
@@ -10592,12 +10673,12 @@ Create the enterprise GTM launch plan:
 Output: Complete enterprise GTM launch plan + pre-launch readiness checklist + sales motion playbook + success metrics dashboard spec
 ```
 
-
+:::
 ## 41. AI Product Accessibility & Inclusive Design Auditor
 
 > Ensures AI products are inclusive and accessible to all users — eliminating algorithmic bias and interface barriers so that diverse user populations can benefit equally from AI capabilities.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Accessibility Blind Spots in AI Products Drive User Churn and Legal Exposure**
 
@@ -10651,8 +10732,9 @@ The deeper business challenge is that the value of accessibility investment is s
    - Generates vendor accessibility evaluation standards — a procurement framework ensuring third-party AI components meet accessibility requirements
    - Develops accessibility roadmap planning methods to systematically incorporate accessibility improvements into quarterly product planning
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -10669,8 +10751,9 @@ The deeper business challenge is that the value of accessibility investment is s
 - **Legal and Compliance Teams**: Gain proactive accessibility risk identification and mitigation tools that substantially reduce regulatory exposure
 - **Business Development and Sales Teams**: Unlock procurement opportunities in compliance-mandatory markets such as government, healthcare, and education through accessibility certification
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — AI Feature Accessibility Audit**
 
@@ -10735,13 +10818,12 @@ For each phase: specific deliverables, success metrics, dependencies, expected b
 Output: Inclusive design roadmap + quarterly OKR recommendations + resource requirement estimates + business value measurement framework
 ```
 
-
-
+:::
 ## 42. AI Product Technical Debt Assessment & Refactoring Planner
 
 > Systematically identifies accumulated technical debt in AI products, creates data-driven refactoring priorities and migration plans, and improves system maintainability without disrupting product iteration.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: The Hidden and Compounding Nature of AI Product Technical Debt Threatens Long-Term Competitiveness**
 
@@ -10795,8 +10877,9 @@ The core dilemma facing product managers is how to secure resources and priority
    - Generates technical debt prevention norms to stop new debt from accumulating through engineering culture, code review, and architecture decision standards
    - Develops an AI system lifecycle management strategy covering model and data pipeline retirement, migration, and version management best practices
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -10813,8 +10896,9 @@ The core dilemma facing product managers is how to secure resources and priority
 - **CTOs and Engineering Leadership**: Gain a data-driven technical investment decision framework for clearly demonstrating the connection between technical health and business velocity to business leadership
 - **Product VPs and Business Teams**: Build correct expectations for the long-term value of technical investment through quantified linkage between technical debt and iteration speed
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — AI Product Technical Debt Inventory**
 
@@ -10885,13 +10969,12 @@ For each quarter: engineering resource allocation ratio (debt vs. new features),
 Output: Three-quarter technical debt roadmap + resource allocation recommendations + success metrics + quarterly checkpoint definitions
 ```
 
-
-
+:::
 ## 43. AI Product User Segmentation & Personalization Engine
 
 > Uses AI capabilities to build a fine-grained user segmentation system and deliver personalized product experiences — serving users at scale while providing each user with highly relevant AI interactions.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Homogeneous AI Experiences Cannot Meet Diverse User Needs, Leading to Low Value Realization Rates**
 
@@ -10945,8 +11028,9 @@ The implementation complexity of personalization discourages most teams from att
    - Generates a cross-region personalization privacy compliance framework for processing personalization data under different privacy regulations such as GDPR and CCPA
    - Develops a personalization bias audit mechanism — periodic checks to ensure the personalization system does not systematically unfairly treat specific groups
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -10963,8 +11047,9 @@ The implementation complexity of personalization discourages most teams from att
 - **ML Engineering Teams**: Gain an engineering framework for systematically integrating user context into AI model inference, productizing personalization capabilities
 - **Customer Success and Sales Teams**: Use user segmentation insights to identify high-value user groups and design targeted expansion and upsell strategies
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — AI Product User Segmentation Design**
 
@@ -11025,13 +11110,12 @@ Design a personalization experiment:
 Output: Experiment design document + statistical power analysis + implementation timeline + results analysis framework
 ```
 
-
-
+:::
 ## 44. AI Product Competitive Intelligence Monitoring System
 
 > Establishes a continuously running AI competitive intelligence monitoring system that tracks competitor moves, industry trends, and technology breakthroughs in real time — providing timely, structured market insights for product decisions.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: The Speed of Change in AI Exceeds Manual Monitoring Capacity, Leaving Product Teams Perpetually Behind on Information**
 
@@ -11085,8 +11169,9 @@ The deeper challenge is the disconnection between competitive intelligence and p
    - Generates investment signal intelligence — early warning of competitive landscape changes from competitor funding rounds, acquisitions, and strategic partnerships
    - Develops regulatory policy competitive impact analysis — analysis of how new AI regulations differentially affect the market positions of different competitors
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -11103,8 +11188,9 @@ The deeper challenge is the disconnection between competitive intelligence and p
 - **Marketing Teams**: Develop differentiated market positioning and content strategies based on real competitive dynamics rather than guesswork
 - **Senior Leadership and Board**: Gain a clear view of the competitive landscape to support strategic investment decisions and market opportunity judgments
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Deep Competitor Analysis Report**
 
@@ -11178,13 +11264,12 @@ For each white space: market size estimate, entry difficulty assessment, fit wit
 Output: Competitive white space opportunity map + strategic entry assessment for each white space + priority recommendations
 ```
 
-
-
+:::
 ## 45. AI Product Knowledge Management & Documentation System
 
 > Builds a knowledge management system for AI product teams — systematically preserving product decisions, experiment insights, and best practices, eliminating knowledge silos and information loss, and accelerating team learning velocity.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: The Highly Tacit Nature of AI Product Knowledge Prevents Team Wisdom from Accumulating — Every Personnel Change Is a Knowledge Disaster**
 
@@ -11238,8 +11323,9 @@ The deeper problem is the disconnection between knowledge management and daily w
    - Generates a knowledge contribution incentive mechanism — designs for recognizing knowledge sharing contributions embedded in team culture and performance evaluation
    - Develops knowledge security and access control — an access permission management framework distinguishing public knowledge, internal knowledge, and sensitive knowledge
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -11256,8 +11342,9 @@ The deeper problem is the disconnection between knowledge management and daily w
 - **New Team Members**: Quickly grasp product context through structured knowledge transfer and contribute value faster than in a knowledge silo environment
 - **Engineering and Product Leadership**: Reduce the impact of personnel turnover on team capabilities, transforming team knowledge from individual assets into organizational competitive advantages
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Product Decision Record Template**
 
@@ -11339,13 +11426,12 @@ Knowledge transfer success criteria: [specific things this person should know by
 Output: Structured knowledge onboarding plan + checkpoint definitions + knowledge mentor pairing recommendations
 ```
 
-
-
+:::
 ## 46. AI Product Crisis Communication & Stakeholder Management Playbook
 
 > Builds a professional crisis communication and stakeholder management system for AI product failures, data incidents, and ethical controversies — protecting product reputation and user trust in high-pressure moments.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: AI Product-Specific Failure Modes Leave Teams Unprepared for Crises, and Wrong Communication Approaches Amplify Small Incidents into PR Disasters**
 
@@ -11399,8 +11485,9 @@ The most dangerous situation is unprepared crisis response. AI product teams typ
    - Generates a media relationship maintenance plan — building media trust relationships before a crisis to stockpile credibility for crisis moments
    - Develops a user feedback rapid response system — rapid intervention and resolution mechanisms before user complaints escalate into public events
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -11417,8 +11504,9 @@ The most dangerous situation is unprepared crisis response. AI product teams typ
 - **Legal and Compliance Teams**: Reduce legal liability exposure through standardized incident response and disclosure processes, maintaining compliance in crisis handling
 - **Customer Success and Sales Teams**: Effective customer communication during crises preserves key customer relationships, preventing competitors from poaching affected customers
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — AI Crisis Response Playbook Design**
 
@@ -11492,13 +11580,12 @@ Trust recovery metrics: [how to measure whether trust is being rebuilt — NPS t
 Output: Trust rebuilding roadmap + phased communication plan + trust metrics monitoring framework
 ```
 
-
-
+:::
 ## 47. AI Product Revenue Attribution & Business Case Builder
 
 > Precisely connects AI feature investment to quantifiable business outcomes — building data-driven AI product business cases that provide credible financial justification for resource acquisition and strategic decisions.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: AI Product Teams Cannot Clearly Demonstrate the Financial Return on AI Investment, Making Resource Acquisition Difficult and Strategic Credibility Insufficient**
 
@@ -11552,8 +11639,9 @@ The deeper challenge is the trust problem with business case quality. When AI pr
    - Generates a board AI investment reporting template — a structured format for quarterly and annual AI investment return reporting
    - Develops a CFO conversation toolkit — a professional conversation framework and common question responses for discussing AI investment with finance leadership
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -11570,8 +11658,9 @@ The deeper challenge is the trust problem with business case quality. When AI pr
 - **CEOs and Board**: Build clear understanding of AI product value, supporting more confident AI strategic investment decisions
 - **ML Engineering and Data Teams**: Technical work is financially quantified; engineers can see the specific business impact of their work, enhancing sense of purpose
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — AI Feature Investment Business Case**
 
@@ -11664,13 +11753,12 @@ Decision-maker specific arguments: [customize the argument for your specific app
 Output: Budget request document + financial justification + decision-maker specific one-pager summary
 ```
 
-
-
+:::
 ## 48. AI Product Ecosystem & Partnership Strategy Builder
 
 > Plans the ecosystem layout and partnership strategy for AI products — accelerating product capability expansion and widening distribution channels through strategic partnerships to build a platform moat that is difficult to replicate.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Isolated AI Products Struggle to Build Lasting Competitive Advantages in the Platform Economy Era — Ecosystem Building Is Treated as Optional Rather Than Strategically Essential**
 
@@ -11724,8 +11812,9 @@ The most common failure pattern is managing partnerships in isolation from direc
    - Generates an ecosystem value attribution analysis to quantify the ecosystem's contribution to total revenue, user acquisition, and product capabilities
    - Develops an ecosystem evolution decision framework for making decisions to adjust partnership depth or expand new partner types based on ecosystem health data
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -11742,8 +11831,9 @@ The most common failure pattern is managing partnerships in isolation from direc
 - **Sales Teams**: Gain more qualified leads through partner channels, leveraging partner industry trust to accelerate sales cycles
 - **Product Engineering Teams**: Clear API and ecosystem openness strategies concentrate technical resources on core capabilities, expanding peripheral capabilities through the ecosystem
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — AI Product Ecosystem Strategy Planning**
 
@@ -11822,13 +11912,12 @@ Design a partner operations system:
 Output: Partner operations handbook + tiering standards + performance tracking dashboard specification + communication calendar template
 ```
 
-
-
+:::
 ## 49. AI Product Long-Term Vision & Innovation Pipeline Builder
 
 > Builds a long-term vision narrative and innovation pipeline management system for AI products — systematically exploring breakthrough opportunities under daily iteration pressure to ensure the product maintains strategic leadership over a 3–5 year horizon.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Daily Iteration Pressure Crowds Out Strategic Thinking Space, Trapping AI Product Teams in a Feature Factory and Losing Long-Term Leadership Capability**
 
@@ -11882,8 +11971,9 @@ The more specific challenge is the management dilemma of the innovation pipeline
    - Generates an annual strategic review process — a structured process for annually revisiting long-term vision validity and strategic direction alignment
    - Develops methods for communicating long-term vision to internal stakeholders — a vision dissemination strategy for helping engineers, designers, and sales teams understand and align with the long-term direction
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -11900,8 +11990,9 @@ The more specific challenge is the management dilemma of the innovation pipeline
 - **Investors and Board**: Build confidence in the company's long-term innovation capability and strategic foresight, supporting higher valuations and larger strategic investments
 - **ML Research and Engineering Teams**: Technical exploration gains a clear strategic anchor under explicit long-term direction, inspiring more targeted technical innovation
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — AI Product Long-Term Vision Building**
 
@@ -11994,5 +12085,5 @@ Leading indicator monitoring: [for each scenario, what early signals would sugge
 Output: Three-scenario analysis + cross-scenario robust strategy + leading indicator monitoring system + trigger response plan
 ```
 
-
 :::
+

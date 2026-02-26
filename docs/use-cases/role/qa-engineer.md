@@ -372,7 +372,7 @@ This week's data:
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Manufacturing Quality Defect Classifier**
 
@@ -426,8 +426,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -444,8 +445,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Quality Control Analysis**
 ```
@@ -564,12 +566,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 5. AI Automotive Warranty Claims Analyzer
 
 > Organizations operating in Automotive face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Automotive Warranty Claims Blind Spots**
 
@@ -623,8 +625,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -641,8 +644,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Claims Processing Analysis**
 ```
@@ -761,12 +765,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 6. AI Automotive Supply Chain BOM Validator
 
 > Organizations operating in Automotive face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Automotive Supply Chain BOM Validator**
 
@@ -820,8 +824,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -838,8 +843,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core BOM Validation Analysis**
 ```
@@ -958,12 +964,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 7. AI QA Engineer Test Coverage Analyzer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: QA Failureser Test Coverage Blind Spots**
 
@@ -1017,8 +1023,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1035,8 +1042,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Testing Analysis**
 ```
@@ -1155,12 +1163,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 8. AI Manufacturing Scrap Rate Reduction Advisor
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Manufacturing Scrap Rate Reduction Guesswork**
 
@@ -1214,8 +1222,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1232,8 +1241,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Quality Control Analysis**
 ```
@@ -1352,12 +1362,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 9. AI Test Case Priority Ranker
 
 > Analyzes code changes, defect history, and risk signals to rank test cases by execution priority — cuts regression cycle time by 60% while catching 95% of critical defects in the first 20% of tests run.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Running Every Test Every Time Is Bleeding Your Sprint Velocity**
 
@@ -1411,8 +1421,9 @@ The downstream cost is enormous. Releases that should ship in hours take days. H
    - Generates release quality reports comparing current release risk profile against historical releases
    - Provides scenario analysis showing the risk delta between running the next 50, 100, or 500 tests
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1429,8 +1440,9 @@ The downstream cost is enormous. Releases that should ship in hours take days. H
 - **Release Managers**: Make confident ship-or-hold decisions backed by quantified risk scores rather than gut feelings and incomplete information
 - **Engineering Leadership**: Accelerate delivery cadence without increasing headcount or sacrificing quality, directly improving team velocity metrics
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Code Change Risk Assessment**
 ```
@@ -1557,12 +1569,12 @@ For each recommendation, provide:
 5. Estimated time savings from the recommended action
 ```
 
-
+:::
 ## 10. AI Regression Test Suite Optimizer
 
 > Organizations operating in Enterprise Software face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Regression Test Suite Optimizer**
 
@@ -1616,8 +1628,9 @@ The downstream cost is severe. Long test cycles delay releases, forcing teams in
    - Reports on optimization ROI including time saved and defects caught
    - Generates quarterly suite health reports with specific action recommendations
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1634,8 +1647,9 @@ The downstream cost is severe. Long test cycles delay releases, forcing teams in
 - **Engineering Manager**: Reduce infrastructure costs for test execution while improving release velocity and quality metrics
 - **Product Owner**: Ship features faster with maintained quality, reducing time-to-market for competitive features
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Test Suite Coverage Analysis**
 ```
@@ -1775,12 +1789,12 @@ Design:
 5. Monthly report template auto-generated from dashboard data
 ```
 
-
+:::
 ## 11. AI API Contract Testing Validator
 
 > Organizations operating in Microservices Architecture face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: API Contract Testing Validator**
 
@@ -1834,8 +1848,9 @@ The downstream impact cascades through the entire delivery pipeline. Integration
    - Produces impact assessments for proposed API changes across the ecosystem
    - Automates sunset notifications to affected teams with specific migration steps
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1852,8 +1867,9 @@ The downstream impact cascades through the entire delivery pipeline. Integration
 - **Platform/Infrastructure Team**: Maintain a reliable service mesh with clear compatibility guarantees and automated governance
 - **Engineering Director**: Achieve true microservices velocity with independent deployments while maintaining system-wide stability
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: API Contract Audit**
 ```
@@ -1982,12 +1998,12 @@ Generate:
 5. Recommended deployment order for the next release cycle
 ```
 
-
+:::
 ## 12. AI Load Testing Scenario Generator
 
 > Organizations operating in E-Commerce face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Load Testing Scenario Generator**
 
@@ -2041,8 +2057,9 @@ The business consequences of inadequate load testing are catastrophic and highly
    - Compares actual production performance against load test predictions
    - Generates trend reports showing system capacity evolution over time
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2059,8 +2076,9 @@ The business consequences of inadequate load testing are catastrophic and highly
 - **E-Commerce Director**: Protect revenue during peak events with confidence that systems are tested against realistic worst-case scenarios
 - **CFO/Finance**: Optimize infrastructure spend based on data-driven capacity models instead of fear-based over-provisioning
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Production Traffic Pattern Analysis**
 ```
@@ -2200,12 +2218,12 @@ Design:
 5. Exemption process for known, accepted performance trade-offs
 ```
 
-
+:::
 ## 13. AI Bug Report Triage and Deduplication Agent
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Bug Report Triage and Deduplication Agent**
 
@@ -2259,8 +2277,9 @@ The downstream impact radiates across the entire delivery pipeline. Product mana
    - Flags stale triaged-but-unassigned tickets that risk slipping through sprint planning
    - Benchmarks triage throughput against prior release cycles to measure process improvement over time
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2277,8 +2296,9 @@ The downstream impact radiates across the entire delivery pipeline. Product mana
 - **Engineering Managers**: Gain a reliable, real-time view of defect volume, severity distribution, and triage backlog health to make accurate sprint capacity decisions.
 - **Customer Success Teams**: See faster resolution of customer-reported bugs as high-severity issues surface immediately instead of sitting in an unsorted queue for days.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Semantic Duplicate Detection Analysis**
 ```
@@ -2388,12 +2408,12 @@ Produce:
 5. Goals for next month: specific, measurable targets for each key metric
 ```
 
-
+:::
 ## 14. AI Visual UI Regression Detector
 
 > Organizations operating in FinTech face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Visual UI Regression Detector**
 
@@ -2447,8 +2467,9 @@ The regulatory dimension amplifies the stakes further. FinTech organizations sub
    - Configures adjustable sensitivity thresholds per component category so cosmetic-only changes don't block critical path releases
    - Archives all run artifacts (screenshots, diff images, reports) with retention policies aligned to the organization's audit requirements
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2465,8 +2486,9 @@ The regulatory dimension amplifies the stakes further. FinTech organizations sub
 - **Compliance and Legal Teams**: Access a continuously maintained, auditable record of visual state approvals and accessibility validation results without scheduling manual pre-release audits.
 - **Product Managers**: Ship releases with confidence on accelerated schedules, knowing that the full environment matrix has been mechanically verified rather than spot-checked.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Visual Regression Triage Report**
 ```
@@ -2575,12 +2597,12 @@ Analyze:
 5. Long-term preventive controls (implement within 1 quarter)
 ```
 
-
+:::
 ## 15. AI Database Migration Testing Advisor
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Database Migration Testing Advisor**
 
@@ -2634,8 +2656,9 @@ The organizational dimension is equally challenging. Healthcare database migrati
    - Produces a post-migration sign-off checklist linking each validation requirement to its responsible owner
    - Generates the compliance documentation package required for HIPAA audit trail attestation and change control records
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2652,8 +2675,9 @@ The organizational dimension is equally challenging. Healthcare database migrati
 - **Compliance Officers**: Receive a structured, auditable evidence package demonstrating that each migration was tested, validated, and rolled back successfully in a controlled environment before touching production.
 - **Engineering Managers and CTOs**: Reduce the organizational anxiety and emergency response overhead associated with database maintenance windows by ensuring migrations are boring by design.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Migration Script Risk Analysis**
 ```
@@ -2773,12 +2797,12 @@ Analyze:
 6. Regulatory response plan if HIPAA notification obligations are triggered
 ```
 
-
+:::
 ## 16. AI Mobile App Crash Log Analyzer
 
 > Organizations operating in Gaming face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Mobile App Crash Log Analyzer**
 
@@ -2832,8 +2856,9 @@ The business consequence of unresolved crashes in gaming is measurable and sever
    - Drafts platform-specific workaround recommendations for driver bugs that cannot be fixed in studio code
    - Generates a sprint-ready ticket with all investigation context pre-populated and acceptance criteria for fix verification
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2850,8 +2875,9 @@ The business consequence of unresolved crashes in gaming is measurable and sever
 - **Product Managers**: Access real-time crash rate dashboards segmented by player cohort and session stage to make release go/no-go decisions with quantitative risk data rather than gut feel.
 - **Studio Leadership**: Measure crash quality improvements release-over-release with objective metrics and correlate crash rate reduction with retention and monetization lift.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Crash Cluster Analysis and Prioritization**
 ```
@@ -2974,12 +3000,12 @@ Analyze:
 5. Prioritized fix list based on combined crash frequency + review sentiment + revenue impact scoring
 ```
 
-
+:::
 ## 17. AI Compliance Audit Test Generator
 
 > Organizations operating in Insurance face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Compliance Audit Test Generator**
 
@@ -3033,8 +3059,9 @@ The volume and velocity of regulatory change makes compliance test maintenance a
    - Prioritizes regulatory changes by effective date proximity and examination risk to sequence implementation work
    - Drafts a compliance testing project plan with milestones and dependencies for leadership review
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3051,8 +3078,9 @@ The volume and velocity of regulatory change makes compliance test maintenance a
 - **Regulatory Affairs Teams**: Automate the translation of newly issued bulletins into sprint-ready compliance testing work items, reducing the response lag between regulatory change and system validation.
 - **Chief Compliance Officers and General Counsel**: Demonstrate a systematic, documented compliance testing program to regulators rather than reactive evidence collection, significantly improving examination outcomes.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Regulatory Requirement to Test Case Conversion**
 ```
@@ -3175,12 +3203,12 @@ Analyze:
 5. Sprint effort estimate for full compliance test implementation with recommended prioritization
 ```
 
-
+:::
 ## 18. AI Microservices Integration Test Orchestrator
 
 > Organizations operating in Telecom face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Microservices Integration Test Orchestrator**
 
@@ -3234,8 +3262,9 @@ The deployment frequency mismatch creates a continuous integration testing crisi
    - Generates a timeline of the incident with per-service attribution of contribution to the failure chain
    - Produces a post-incident test case recommendation — the specific integration scenario that would have caught the failure pre-production
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3252,8 +3281,9 @@ The deployment frequency mismatch creates a continuous integration testing crisi
 - **Platform and SRE Teams**: Access a continuously maintained dependency graph and environment parity scorecard that accelerates incident investigation and reduces the blast radius of service changes.
 - **Engineering Leadership**: Demonstrate measurable progress on integration quality through objective contract compliance metrics and integration failure trend data rather than anecdotal release retrospectives.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Service Dependency Impact Analysis**
 ```
@@ -3372,12 +3402,12 @@ Design:
 5. Monitoring and alerting additions that would have shortened time to detection if the failure recurred in production
 ```
 
-
+:::
 ## 19. AI Performance Bottleneck Root Cause Analyzer
 
 > Organizations operating in E-Commerce face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Performance Bottleneck Root Cause Analyzer**
 
@@ -3431,8 +3461,9 @@ The organizational dynamics make rapid resolution even harder. Business stakehol
    - Recommends performance budgets — specific thresholds for page load time, API latency, and database query time — that should gate deployments in the CI pipeline
    - Produces a prioritized performance debt backlog of pre-existing issues uncovered during the investigation that pose future incident risk
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3449,8 +3480,9 @@ The organizational dynamics make rapid resolution even harder. Business stakehol
 - **Site Reliability Engineers**: Shorten the war room phase of performance incidents dramatically by entering the investigation with a pre-assembled timeline and hypothesis set rather than starting from raw telemetry.
 - **E-Commerce Business Stakeholders**: Receive rapid, quantified answers during performance incidents — "estimated revenue impact is $X per hour, root cause identified, fix deploying in 45 minutes" — rather than open-ended uncertainty.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Performance Incident Root Cause Investigation**
 ```
@@ -3605,12 +3637,12 @@ Design:
 5. Exemption and override process for known, accepted performance trade-offs
 ```
 
-
+:::
 ## 20. AI Test Environment Provisioning Advisor
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Test Environment Provisioning Advisor**
 
@@ -3664,8 +3696,9 @@ The organizational cost of poor environment provisioning is primarily borne by Q
    - Maintains an environment change log tracking who changed what configuration, when, and why — enabling rapid diagnosis when a previously working environment begins failing
    - Produces onboarding documentation for new QA engineers covering environment access, provisioning procedures, and team conventions
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3682,8 +3715,9 @@ The organizational cost of poor environment provisioning is primarily borne by Q
 - **Software Developers**: Receive faster feedback on feature branches because test environments are available on demand rather than contended across multiple teams, reducing the cost of context-switching between features while awaiting test results.
 - **Engineering Managers**: Make accurate sprint commitments knowing that environment availability is not an unpredictable variable that silently absorbs QA capacity, and demonstrate measurable infrastructure cost discipline to finance stakeholders.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Test Environment Blueprint Design**
 ```
@@ -3814,3 +3848,4 @@ Analyze:
 ```
 
 :::
+

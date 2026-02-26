@@ -494,7 +494,7 @@ This week's data:
 
 > Automatically prepares briefing packages for every scheduled meeting — meeting prep: 45–90 min → 8–12 min review, EA briefing coverage: 20–30% → 85–95% of meetings.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Executives Walk Into High-Stakes Meetings Under-Prepared Because Good Prep Takes 3-4 Hours Nobody Has**
 
@@ -539,8 +539,9 @@ COCO's AI Executive Meeting Prep Assistant automatically prepares comprehensive 
    - Updates the relationship record with new context captured in the meeting
    - Schedules appropriate follow-up contacts based on the meeting outcome
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -557,8 +558,9 @@ COCO's AI Executive Meeting Prep Assistant automatically prepares comprehensive 
 - **Chiefs of Staff**: Prepare executives for board meetings, major external relationships, and strategic partnership conversations with the depth of intelligence that used to require a full day's preparation
 - **Business Development and Partnership Teams**: Approach every external meeting with the full context of the commercial relationship, competitive intelligence, and strategic objectives aligned
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Pre-Meeting Intelligence Brief**
 ```
@@ -693,12 +695,12 @@ Please:
 6. What's the one meeting this week where strong preparation would have the highest ROI for my priorities?
 ```
 
-
+:::
 ## 6. AI Travel Itinerary Optimizer
 
 > Optimizes meeting sequencing, hotel proximity, and buffer time — trip planning: 4–6h → 45–75min, transit time saved avg 90–120 min per multi-city trip.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Business Travel Planning Consumes 4-6 Hours Per Trip While Executives Fly Blind on Logistics**
 
@@ -746,8 +748,9 @@ COCO's AI Travel Itinerary Optimizer transforms trip planning from a multi-hour 
    - Prepares a "disruption quick card" with: airline rebooking number, hotel cancellation policy, alternative hotel options if rebooking is needed, and the EA/assistant contact for after-hours support
    - Post-trip: compiles receipts and expense documentation into a structured expense report ready for submission
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -764,8 +767,9 @@ COCO's AI Travel Itinerary Optimizer transforms trip planning from a multi-hour 
 - **Business Development and Sales Leaders**: Optimize client visit schedules geographically to fit more high-value meetings into each travel day without adding stress
 - **Finance and Operations Teams**: Consistent application of travel policy guardrails reduces out-of-policy bookings and simplifies expense reconciliation
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Trip Planning Package**
 ```
@@ -909,12 +913,12 @@ Please:
 6. Note the submission deadline based on standard [X]-day post-trip policy
 ```
 
-
+:::
 ## 7. AI Email Triage and Drafting Assistant
 
 > Categorizes, prioritizes, and drafts replies for executive inboxes — daily email time: 2.5–3h → 45–75min, delegation drop rate: 23% → under 7%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Executives Spend 2-3 Hours Per Day on Email While Most of It Doesn't Require Their Direct Attention**
 
@@ -958,8 +962,9 @@ COCO's AI Email Triage and Drafting Assistant transforms email from a reactive t
    - Topics and senders consuming disproportionate executive attention
    - Recurring email types that could be templated or delegated systematically
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -976,8 +981,9 @@ COCO's AI Email Triage and Drafting Assistant transforms email from a reactive t
 - **Chiefs of Staff**: Manage complex communication threads involving multiple stakeholders, ensuring nothing falls through the cracks and the executive's attention is directed where it matters most
 - **Senior Leaders and VPs**: Tame the email volume that comes with organizational scale, without sacrificing relationship quality in key external and board-level communications
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Inbox Triage and Prioritization**
 ```
@@ -1097,12 +1103,12 @@ For each type I've listed, please create:
 3. Tone guidance: how to keep it feeling genuine even when templated
 ```
 
-
+:::
 ## 8. AI Weekly Review Summarizer
 
 > Structures weekly executive review — completion rate: 22% → 87%, quarterly priority achievement +28–35%, strategic drift -45%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Executives End Every Week Without a Clear Picture of What Actually Got Done, What's at Risk, and What Next Week Needs**
 
@@ -1147,8 +1153,9 @@ COCO's AI Weekly Review Summarizer transforms the weekly review from a 90-minute
    - Decision velocity: whether the executive is making decisions quickly enough or creating bottlenecks
    - Meeting ROI: which recurring meetings are producing outcomes vs. consuming time without clear return
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1165,8 +1172,9 @@ COCO's AI Weekly Review Summarizer transforms the weekly review from a 90-minute
 - **Senior Leaders and VPs**: Run disciplined weekly reviews with their direct teams using a consistent framework that tracks commitments, progress, and blockers
 - **Founders and Entrepreneurs**: Maintain the strategic discipline of larger organizations without the infrastructure — catching drift early before it compounds over quarters
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Weekly Review**
 ```
@@ -1309,12 +1317,12 @@ Please produce:
 5. Top 5 recommended priorities for next year with the rationale for each
 ```
 
-
+:::
 ## 9. AI Decision Framework Builder
 
 > Structures complex decisions with explicit criteria, pre-mortem, and bias audit — decision regrets -41%, decision documentation rate: 15% → 80%+.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Executives Make High-Stakes Decisions Under Time Pressure Without a Structured Process, and the Cost of Poorly Made Decisions Compounds Over Years**
 
@@ -1362,8 +1370,9 @@ COCO's AI Decision Framework Builder gives executives a structured thinking part
    - Review trigger: what conditions, if they change, should prompt revisiting this decision
    - Success metrics: how we will know in 6-12 months whether this was a good decision
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1380,8 +1389,9 @@ COCO's AI Decision Framework Builder gives executives a structured thinking part
 - **Board Members**: Use structured decision frameworks when evaluating management proposals, ensuring adequate alternatives and assumptions have been tested
 - **Senior Leaders and Strategy Teams**: Bring rigorous decision analysis to strategic planning, investment cases, and major operational choices — improving both the quality of decisions and the quality of the debates that precede them
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Decision Framework for a Major Decision**
 ```
@@ -1528,12 +1538,12 @@ Please build:
 5. The key question to ask at the end: one question that cuts through the analysis and tests whether the recommendation feels right
 ```
 
-
+:::
 ## 10. AI Knowledge Base Curator
 
 > Organizes institutional knowledge into structured, searchable repositories — information search time -60%, knowledge reuse rate 3–4×, onboarding acceleration +40%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Executives and Their Teams Accumulate Enormous Amounts of Valuable Knowledge That Is Never Organized, Never Findable, and Lost When People Leave**
 
@@ -1576,8 +1586,9 @@ COCO's AI Knowledge Base Curator transforms raw information — meeting notes, a
    - Contradiction detection: when new information conflicts with an existing knowledge entry, COCO flags it for resolution rather than silently coexisting with conflicting information
    - Confidence decay: for knowledge based on secondary sources or limited data, confidence scores automatically decay over time unless new evidence confirms them
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1594,8 +1605,9 @@ COCO's AI Knowledge Base Curator transforms raw information — meeting notes, a
 - **Strategy and Research Teams**: Maintain a living intelligence base that informs decisions without requiring every analysis to start from scratch
 - **Sales and Business Development Leaders**: Capture competitive intelligence, client insights, and market knowledge in a form that the entire team can access and build upon
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Capture and Structure a Knowledge Entry**
 ```
@@ -1735,12 +1747,12 @@ Please produce:
 5. Recommended follow-up: are there any decisions or processes that should be changed organization-wide based on what we learned?
 ```
 
-
+:::
 ## 11. AI Personal Goal Tracker
 
 > Structures personal and professional goal tracking with weekly accountability — goal progress 3.2× over 12 months, behavioral goal achievement: 23% → 61%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Executives Set Ambitious Personal and Professional Goals That Quietly Stall Because No System Holds Them Accountable Between Annual Reviews**
 
@@ -1784,8 +1796,9 @@ COCO's AI Personal Goal Tracker creates a continuous accountability loop between
    - Qualitative narrative: not just metrics but the executive's own reflection on what they're learning and how they're changing
    - Forward commitment: specific commitments for the coming month with defined check-in points
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1802,8 +1815,9 @@ COCO's AI Personal Goal Tracker creates a continuous accountability loop between
 - **High-Potential Senior Leaders**: Build the personal accountability discipline that distinguishes high performers from exceptional executives — tracking development goals with the same rigor applied to business metrics
 - **Executive Coaches and Leadership Development Professionals**: Provide clients with a continuous accountability infrastructure between sessions that multiplies the impact of coaching conversations
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Set Up Annual Goals with a Tracking System**
 ```
@@ -1963,12 +1977,12 @@ Please:
 5. Design a goal-tracking system for next year that addresses the gaps in how I tracked this year
 ```
 
-
+:::
 ## 12. AI Research Briefing Generator
 
 > Generates comprehensive research briefings on any strategic topic — briefing time: 3–5h → 30–45min, decision confidence +38%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Executives Need Sharp, Current Intelligence on Fast-Moving Topics But Cannot Invest 3-5 Hours in Original Research for Every Decision That Requires It**
 
@@ -2015,8 +2029,9 @@ COCO's AI Research Briefing Generator transforms the research process from a mul
    - Change alert system: monitors for significant developments that would materially change the conclusions of a prior briefing
    - Annual deep refresh: once per year, a full refresh of standing intelligence on the organization's most important external factors
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2033,8 +2048,9 @@ COCO's AI Research Briefing Generator transforms the research process from a mul
 - **Board Members**: Arrive at board meetings with independently synthesized intelligence on the topics under discussion, not just the materials management has prepared
 - **Business Development and M&A Teams**: Generate rapid competitive and market intelligence to support deal evaluation, partnership assessment, and market entry decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Rapid Research Brief on Any Topic**
 ```
@@ -2169,12 +2185,12 @@ Please produce:
 4. Key assumptions our plan should make explicit — and the monitoring signals that would tell us if we're wrong
 ```
 
-
+:::
 ## 13. AI Delegation Workflow Designer
 
 > Structures delegation briefs with authority scope, success criteria, and escalation triggers — delegation completion: +52%, executive time recovered 6–8h/week.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Executives Stay Stuck in Operational Work Not Because They Don't Want to Delegate, But Because They Never Built the Systems That Make Delegation Actually Stick**
 
@@ -2222,8 +2238,9 @@ COCO's AI Delegation Workflow Designer helps executives build the delegation inf
    - How the check-in structure performed
    - What to do differently next time for similar delegations
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2240,8 +2257,9 @@ COCO's AI Delegation Workflow Designer helps executives build the delegation inf
 - **Senior Leaders and VPs Managing Large Teams**: Operate with consistent delegation practices across their function, reducing the patchwork of verbal handoffs and untracked commitments that creates organizational inefficiency
 - **Founders and CEOs Scaling Organizations**: Build delegation capacity as the company grows — creating systems that allow work to be reliably executed at multiple levels of the organization rather than bottlenecked at the top
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Build a Complete Delegation Brief**
 ```
@@ -2390,12 +2408,12 @@ For each target area, please help me:
 5. Create a 90-day transition plan: how to phase this in progressively so they can build competence and confidence in each new area before we add the next one
 ```
 
-
+:::
 ## 14. AI Meeting Preparation Briefer
 
 > Generates pre-meeting intelligence packages — prep time: 35–45min → under 5min, meeting objective achievement: 54% → 71%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Executives Enter High-Stakes Meetings Unprepared — Losing Credibility and Deal Leverage**
 
@@ -2441,8 +2459,9 @@ COCO acts as an always-on meeting intelligence layer that converts raw context �
    - Color-coded priority flags for immediate attention items
    - Bullet-first structure with expandable sections for attendees who want depth
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2459,8 +2478,9 @@ COCO acts as an always-on meeting intelligence layer that converts raw context �
 - **Sales Leaders**: Prepare for key account reviews and executive sponsor meetings with buyer intelligence that meaningfully improves deal conversations
 - **Business Development Professionals**: Arrive at partnership and negotiation meetings with counterpart context, leverage analysis, and pre-built talking points that accelerate relationship development
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Pre-Meeting Brief**
 ```
@@ -2579,12 +2599,12 @@ Please:
 6. Update my brief template for the next meeting with this person based on what I learned today
 ```
 
-
+:::
 ## 15. AI Task Priority Balancer
 
 > Applies Eisenhower Matrix and priority frameworks to daily work — priority completion: 41% → 78%, strategic work time +35%, delegation rate 2.3×.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Urgent Work Crowds Out Strategic Work — And Knowledge Workers Can't See the Difference**
 
@@ -2630,8 +2650,9 @@ COCO acts as an AI prioritization partner — helping knowledge workers systemat
    - Generates a rolling 7-day priority view that accounts for upcoming deadlines
    - Tracks completion rate and flags patterns (e.g., consistently deprioritized item types) for habit-level intervention
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2648,8 +2669,9 @@ COCO acts as an AI prioritization partner — helping knowledge workers systemat
 - **Individual Contributors**: Apply clear priority frameworks to complex multi-project workloads and communicate their capacity honestly and credibly to managers
 - **Executive Assistants and Chiefs of Staff**: Use structured priority output to proactively manage the executive's schedule, protect deep work time, and sequence incoming requests intelligently
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Weekly Priority Sort**
 ```
@@ -2769,12 +2791,12 @@ Please:
 6. Recommend one recurring habit or system change that would prevent this pile-up from recurring
 ```
 
-
+:::
 ## 16. AI Executive Communication Drafter
 
 > Drafts board communications, all-hands messages, and stakeholder letters in the executive's voice — draft-to-send cycle: 3–5h → 45–90min, revision rounds -60%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: High-Stakes Executive Communications Demand Hours of Precision That Leaders Don't Have**
 
@@ -2823,8 +2845,9 @@ COCO accelerates the executive communication drafting process by generating poli
    - Follow-up communications for different stakeholder segments
    - Holding statement for urgent situations while full communications are prepared
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2841,8 +2864,9 @@ COCO accelerates the executive communication drafting process by generating poli
 - **Investor Relations Professionals**: Draft consistent, compliant, and compelling investor communications faster, especially in time-sensitive situations like earnings calls or material disclosures
 - **Board Secretaries and Chiefs of Staff**: Manage the full communication cascade for major organizational announcements, ensuring all stakeholder groups receive appropriate, aligned messaging simultaneously
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: All-Hands Announcement Draft**
 ```
@@ -2971,12 +2995,12 @@ Please draft:
 6. Common objections and how to respond to each
 ```
 
-
+:::
 ## 17. AI Startup Investor Pitch Deck Advisor
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Startup Investor Pitch Deck Guesswork**
 
@@ -3030,8 +3054,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3048,8 +3073,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Pitch Decks Analysis**
 ```
@@ -3168,12 +3194,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 18. AI Executive Board Meeting Prep Assistant
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Executive Board Meeting Prep Overhead**
 
@@ -3227,8 +3253,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3245,8 +3272,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Meeting Preparation Analysis**
 ```
@@ -3365,12 +3393,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 19. AI Hospitality Revenue Management Optimizer
 
 > Organizations operating in Hospitality face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Hospitality Revenue Management Inefficiency**
 
@@ -3424,8 +3452,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3442,8 +3471,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Revenue Management Analysis**
 ```
@@ -3562,12 +3592,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 20. AI Executive Strategic Memo Writer
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Executive Strategic Memo Writer**
 
@@ -3621,8 +3651,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3639,8 +3670,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Strategy Development Analysis**
 ```
@@ -3759,12 +3791,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 21. AI Executive Quarterly Business Review Prep
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Executive Quarterly Business Review Prep**
 
@@ -3818,8 +3850,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3836,8 +3869,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Executive Briefing Analysis**
 ```
@@ -3956,12 +3990,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 22. AI Competitive Strategy Analyzer
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Competitive Strategy Blind Spots**
 
@@ -4015,8 +4049,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4033,8 +4068,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Strategy Development Analysis**
 ```
@@ -4153,12 +4189,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 23. AI Annual Strategy Narrative Builder
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Annual Strategy Narrative Manual Effort**
 
@@ -4212,8 +4248,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4230,8 +4267,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Strategy Development Analysis**
 ```
@@ -4350,3 +4388,4 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
+:::

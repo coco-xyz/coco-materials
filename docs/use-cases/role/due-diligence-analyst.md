@@ -6,7 +6,7 @@ AI-powered use cases for due diligence analyst professionals.
 
 > Maps the full corporate ownership tree — direct subsidiaries, indirect holdings, VIEs, nominee structures, and shell entities — across 50+ jurisdictions in hours, not weeks.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Corporate Structure Investigation Paralyzes Deal Timelines**
 
@@ -60,8 +60,9 @@ The downstream cost compounds further when the same mapping work must be repeate
    - Flags gaps in the map — entities referenced but not yet fully verified — with suggested next steps for each
    - Supports iterative refinement: analysts add context or corrections, and COCO regenerates the report with updated findings
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -78,8 +79,9 @@ The downstream cost compounds further when the same mapping work must be repeate
 - **Legal Counsel and Compliance Officers**: Obtain audit-ready documentation of corporate structure investigation with source citations, version history, and gap disclosures — satisfying regulatory and legal defense standards
 - **Investment Committees and LPs**: Receive a consistent, verifiable corporate structure deliverable for every deal rather than analyst-dependent ad-hoc outputs, enabling more reliable investment screening
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Initial Corporate Structure Mapping**
 ```
@@ -176,12 +178,12 @@ For each entity:
 Output: Change summary table (entity × change type × date × significance rating) + narrative summary of material changes requiring deal team attention + recommended follow-up actions for high-significance changes
 ```
 
-
+:::
 ## 2. AI Beneficial Owner Identification Engine
 
 > Traces ultimate beneficial ownership through multi-layer holding structures, nominee arrangements, and trust intermediaries across 80+ jurisdictions — producing a verified UBO map with compliance risk ratings in hours rather than weeks.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Beneficial Ownership Opacity Paralyzes AML and Pre-Deal Compliance**
 
@@ -235,8 +237,9 @@ The problem compounds in cross-border M&A, where the target's UBO chain may span
    - Drafts an enhanced due diligence narrative for any high-risk UBO, summarizing risk factors and recommended remediation steps
    - Exports a machine-readable UBO data file compatible with KYC onboarding platforms and AML case management systems
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -253,8 +256,9 @@ The problem compounds in cross-border M&A, where the target's UBO chain may span
 - **M&A Legal Counsel**: Receive verified UBO maps with source citations and gap disclosures that support legal opinions on ownership structure and change-of-control requirements
 - **Financial Institutions and Transaction Banks**: Clear KYC obligations for counterparties and beneficial owners before transaction closing, reducing transaction blocking risk
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full UBO Chain Identification**
 ```
@@ -356,13 +360,12 @@ Memo structure:
 Output: Formal UBO verification memo in compliance-ready format suitable for regulatory examination or file defense
 ```
 
-
-
+:::
 ## 3. AI Sanctions & PEP Screening Orchestrator
 
 > Orchestrates multi-list sanctions screening and PEP identification across all entities, directors, shareholders, and counterparties in a transaction — with alias resolution, transliteration matching, and jurisdictional list management built in.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Manual Sanctions Screening Fails at Transaction Scale and Generates Unacceptable False Negative Risk**
 
@@ -416,8 +419,9 @@ The compliance landscape is also dynamic in ways that make point-in-time screeni
    - Drafts a negative screening certification for clean entities, citing list versions checked and match disposition rationale
    - Exports all screening records in formats compatible with major compliance case management platforms (Actimize, Oracle FCCM, Napier)
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -434,8 +438,9 @@ The compliance landscape is also dynamic in ways that make point-in-time screeni
 - **Transaction Counsel**: Receive sanctions clearance documentation that supports legal opinions on OFAC and EU sanctions compliance, including evidence of enhanced diligence for high-risk counterparties
 - **Financial Institutions and Regulated Entities**: Demonstrate to regulators a systematic, complete screening process across all counterparties — not just primary obligors — reducing enforcement exposure
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Transaction Sanctions Screening**
 ```
@@ -541,13 +546,12 @@ Certification content:
 Output: Formal negative screening certification memo in compliance-ready format with analyst attestation fields
 ```
 
-
-
+:::
 ## 4. AI Litigation Record Search & Timeline Builder
 
 > Searches court databases, regulatory enforcement portals, and arbitration records across multiple jurisdictions to construct a complete litigation history timeline — identifying material pending claims, prior judgments, and regulatory actions in hours.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Incomplete Litigation Discovery Creates Catastrophic Post-Close Surprises**
 
@@ -601,8 +605,9 @@ The consequences of litigation discovery failures are severe and well-documented
    - Drafts a data room request list for documents not yet provided on material proceedings (complaints, answers, expert reports, settlement agreements)
    - Summarizes litigation findings in an executive format for investment committee and deal team decision-making
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -619,8 +624,9 @@ The consequences of litigation discovery failures are severe and well-documented
 - **Investment Committees and Deal Teams**: Make go/no-go decisions with a complete litigation risk picture rather than relying on target-provided disclosures that may be strategically incomplete
 - **Risk and Insurance Teams**: Obtain a comprehensive pending litigation register required for representations and warranties insurance underwriting and liability exposure modeling
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Comprehensive Litigation Search Request**
 ```
@@ -727,13 +733,12 @@ Risk register structure for each proceeding:
 Output: Formatted litigation risk register table + aggregate exposure summary (best case / expected / worst case) + deal structuring recommendations for critical and significant items
 ```
 
-
-
+:::
 ## 5. AI Business Registration Verification Assistant
 
 > Verifies the active legal existence, registration status, authorized business scope, and filing compliance of corporate entities across 80+ jurisdictions — flagging discrepancies, dormant entities, and scope violations within hours.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Counterparty Registration Failures Are the Most Common and Most Underestimated Deal Risk**
 
@@ -787,8 +792,9 @@ The consequences of failing to verify registration status range from awkward to 
    - Creates a verification matrix suitable for inclusion in the due diligence closing checklist
    - Generates a clean entity certification for entities passing all verification criteria, suitable for inclusion in closing documentation
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -805,8 +811,9 @@ The consequences of failing to verify registration status range from awkward to 
 - **Compliance and Regulatory Affairs Teams**: Confirm that acquired entities hold all required licenses and authorizations before close, avoiding post-close regulatory remediation costs
 - **Procurement and Third-Party Risk Officers**: Verify supplier and partner registration status and business scope compliance before contract execution, reducing regulatory and contractual liability
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Multi-Entity Registration Verification**
 ```
@@ -903,13 +910,12 @@ For each gap:
 Output: Gap resolution action plan (entity / gap type / resolution method / timeline / cost estimate / pre-close vs. post-close priority) + escrow or holdback recommendation for material unresolved gaps
 ```
 
-
-
+:::
 ## 6. AI Corporate History Timeline Reconstructor
 
 > Reconstructs the complete corporate history of a target entity — mergers, acquisitions, divestitures, restructurings, name changes, and control shifts — from public records, registry data, and news archives, producing a verified chronological narrative.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Hidden Corporate History Conceals Inherited Liabilities That Surface After Close**
 
@@ -963,8 +969,9 @@ The fragmentation of historical records adds further difficulty. Corporate event
    - Drafts an inherited liability summary highlighting the most significant historical events with current legal implications
    - Produces targeted research questions for management interviews based on gaps or unexplained events in the reconstructed history
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -981,8 +988,9 @@ The fragmentation of historical records adds further difficulty. Corporate event
 - **Environmental and Specialist Due Diligence Teams**: Understand which predecessor entities' operational history may create environmental, pension, or tax liabilities that need specialist investigation
 - **Investment Committee and Portfolio Management Teams**: Understand the full legacy context of an acquisition target — not just its current presentation — before committing capital
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Corporate History Reconstruction**
 ```
@@ -1093,13 +1101,12 @@ For each gap or suspicious event:
 Output: Structured gap investigation memo with recommended questions for management interview + specific document requests + priority ranking of gaps by adverse risk potential
 ```
 
-
-
+:::
 ## 7. AI Director & Officer Background Check Engine
 
 > Runs comprehensive background investigations on directors, officers, and key executives — covering professional history verification, regulatory sanctions, criminal records, litigation exposure, adverse media, and PEP status — across 50+ data sources simultaneously.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Undisclosed Executive Misconduct Creates Catastrophic Post-Acquisition Exposure**
 
@@ -1153,8 +1160,9 @@ The stakes of an inadequate background check are clear and well-documented. The 
    - Creates a retention risk assessment: executives with significant adverse history who may depart or face removal post-close
    - Summarizes aggregate management team integrity risk in an executive format for investment committee presentation
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1171,8 +1179,9 @@ The stakes of an inadequate background check are clear and well-documented. The 
 - **Boards of Directors and Audit Committees**: Fulfill fiduciary duties for director appointment and executive hiring with documented, comprehensive background investigation support
 - **Representations and Warranties Insurance Underwriters**: Assess management team integrity risk with systematic, documented background investigation findings that inform coverage terms and exclusions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Executive Background Investigation Request**
 ```
@@ -1278,13 +1287,12 @@ Assessment required:
 Output: Per-executive retention risk rating + regulatory fitness confirmation + key contract terms affecting retention + recommended retention strategy for each individual
 ```
 
-
-
+:::
 ## 8. AI IP Portfolio Integrity Analyzer
 
 > Analyzes the integrity, ownership chain, and encumbrance status of a target's intellectual property portfolio — patents, trademarks, trade secrets, and software licenses — identifying gaps, disputes, and freedom-to-operate risks before deal close.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: IP Portfolio Defects Silently Destroy Deal Value and Create Post-Close Liability**
 
@@ -1338,8 +1346,9 @@ Freedom-to-operate risk — the question of whether the target's products infrin
    - Creates a post-close IP remediation roadmap for issues that cannot be resolved before closing (e.g., retroactive assignment execution, FRAND negotiation initiation)
    - Summarizes the net IP value assessment — positive portfolio strength vs. deductions for disputes, encumbrances, and freedom-to-operate risks
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1356,8 +1365,9 @@ Freedom-to-operate risk — the question of whether the target's products infrin
 - **Technology M&A Teams**: Identify IP portfolio risks early in the process — before final pricing — ensuring deal economics reflect actual IP value rather than the target's optimistic representation
 - **Post-Merger Integration Teams**: Obtain a complete IP remediation roadmap pre-close, enabling immediate action on assignment gaps and license transfers at closing rather than discovering them months later
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: IP Portfolio Registry Verification**
 ```
@@ -1458,13 +1468,12 @@ For each action: assign responsibility (legal / technical / business), identify 
 Output: Structured remediation roadmap with timeline, owners, and dependencies + critical path analysis + cost estimate for remediation activities
 ```
 
-
-
+:::
 ## 9. AI Tax Compliance Gap Detector
 
 > Analyzes the target entity's tax filing history, transfer pricing documentation, and cross-border tax positions across multiple jurisdictions — identifying filing gaps, undisclosed liabilities, and aggressive tax positions that create post-acquisition exposure.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Hidden Tax Liabilities Are the Single Largest Source of Post-Close M&A Indemnification Claims**
 
@@ -1518,8 +1527,9 @@ The tax landscape has become dramatically more complex and adversarial in the po
    - Creates a post-close tax remediation plan for filing gaps, documentation deficiencies, and voluntary disclosure opportunities
    - Summarizes tax findings in an executive format showing aggregate best-case, expected, and worst-case tax exposure
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1536,8 +1546,9 @@ The tax landscape has become dramatically more complex and adversarial in the po
 - **M&A Deal Teams and CFOs**: Understand aggregate tax exposure and its impact on deal economics — including purchase price adjustment and escrow holdback sizing — before finalizing deal terms
 - **Representations and Warranties Insurance Underwriters**: Assess the completeness of tax due diligence and the magnitude of identified tax exposure when evaluating coverage scope and tax-related exclusions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Tax Compliance Calendar Gap Analysis**
 ```
@@ -1647,13 +1658,12 @@ For each structure:
 Output: Tax attribute value comparison table across structures + present value modeling + deal structure recommendation with supporting analysis
 ```
 
-
-
+:::
 ## 10. AI Financial Health & Solvency Assessor
 
 > Analyzes financial statements, cash flow patterns, working capital dynamics, and debt covenant compliance to produce a forward-looking solvency assessment and financial risk rating — identifying distress signals and going-concern risks before they materialize in deal losses.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Surface Financial Metrics Mask Solvency Risks That Emerge Immediately After Close**
 
@@ -1707,8 +1717,9 @@ Cash flow quality analysis adds another dimension of risk that income statement 
    - Drafts a financial covenant monitoring protocol for the post-close period, with trigger levels and response procedures
    - Creates a financial early warning indicator dashboard for post-close monitoring of the business's financial health trajectory
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1725,8 +1736,9 @@ Cash flow quality analysis adds another dimension of risk that income statement 
 - **Debt Capital Markets and Leveraged Finance Teams**: Structure acquisition financing with a clear-eyed view of the target's cash generation capacity and covenant compliance headroom under base and stress scenarios
 - **Portfolio Monitoring Teams**: Establish a financial health baseline at close that enables immediate identification of deterioration in post-close portfolio company performance
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Quality of Earnings Analysis Request**
 ```
@@ -1826,13 +1838,12 @@ Distress modeling required:
 Output: Financial health scorecard with Z-Score and F-Score + distress signal registry + liquidity runway analysis + overall solvency risk rating (low / moderate / elevated / critical) with supporting narrative
 ```
 
-
-
+:::
 ## 11. AI Related Party Transaction Risk Analyzer
 
 > Maps all related party transactions within the target's corporate group — identifying undisclosed relationships, non-arm's-length pricing, self-dealing arrangements, and conflicts of interest that distort financial performance and create legal liability.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Related Party Transactions Systematically Distort Deal Economics and Conceal Fraud**
 
@@ -1886,8 +1897,9 @@ The governance risk of undisclosed related party relationships extends beyond fi
    - Creates a post-close transition plan for critical related party services requiring replacement or renegotiation
    - Summarizes related party conflict-of-interest findings for board governance assessment and fiduciary duty compliance
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1904,8 +1916,9 @@ The governance risk of undisclosed related party relationships extends beyond fi
 - **Private Equity Sponsors and Investment Teams**: Negotiate purchase price with a complete picture of EBITDA normalization — including related party adjustments that sellers routinely omit from their management presentations
 - **Post-Close Governance Teams**: Inherit a complete related party registry enabling immediate termination or renegotiation of conflict-of-interest arrangements that distort business economics
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Related Party Universe Identification**
 ```
@@ -2001,13 +2014,12 @@ For each representation: recommend the appropriate survival period, applicable c
 Output: Annotated R&W checklist with recommended language, negotiation posture, and escrow/indemnification implications for each related party risk category
 ```
 
-
-
+:::
 ## 12. AI Anti-Bribery & FCPA Compliance Checker
 
 > Analyzes the target entity's operations, third-party relationships, geographic footprint, and transaction records against FCPA, UK Bribery Act, and applicable anti-corruption frameworks — producing a risk-tiered compliance assessment with specific remediation recommendations.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Anti-Corruption Liability Follows the Acquirer and Persists Beyond the Transaction**
 
@@ -2061,8 +2073,9 @@ The documentation challenges are substantial because, by its nature, bribery doe
    - Drafts a post-close FCPA compliance enhancement roadmap with 90-day, 180-day, and 12-month milestones
    - Assesses whether identified risks warrant voluntary disclosure to the DOJ/SEC, with analysis of the costs and benefits of proactive engagement
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2079,8 +2092,9 @@ The documentation challenges are substantial because, by its nature, bribery doe
 - **M&A Deal Teams and Investment Committees**: Quantify anti-corruption exposure before pricing — including potential DOJ/SEC enforcement liability — and structure appropriate reps, warranties, and escrow provisions
 - **Chief Compliance Officers Post-Close**: Receive a pre-built anti-corruption risk map and remediation roadmap at close, enabling immediate program enhancement rather than spending months reassessing from scratch
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Anti-Corruption Risk Profile Assessment**
 ```
@@ -2190,13 +2204,12 @@ Remediation plan structure:
 Output: Prioritized remediation action plan with timeline, responsible parties, and cost estimates + voluntary disclosure analysis (pros / cons / recommended approach)
 ```
 
-
-
+:::
 ## 13. AI Shell Company Detection & Risk Scorer
 
 > Screens corporate entities for shell company indicators — nominee directors, registered-agent-only addresses, zero employees, round-trip fund flows, and jurisdictional secrecy — generating a composite risk score that prioritizes entities requiring enhanced due diligence.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Shell Companies in Corporate Structures Create AML, Sanctions, and Fraud Exposure That Is Invisible Without Systematic Detection**
 
@@ -2250,8 +2263,9 @@ The jurisdictional dimension adds further complexity. Different jurisdictions im
    - Creates a data room request list targeting shell entity documentation: beneficial owner declarations, substance certifications, and activity evidence
    - Provides a transaction risk assessment: does the presence of identified shells create AML, sanctions, or regulatory approval risks that affect deal timing or structure?
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2268,8 +2282,9 @@ The jurisdictional dimension adds further complexity. Different jurisdictions im
 - **Regulatory and Government Investigators**: Rapidly identify the structural patterns — nominee networks, jurisdiction clustering, fund flow circles — that indicate organized financial crime infrastructure
 - **Financial Institution Risk Teams**: Score incoming counterparty structures for shell company risk as part of customer onboarding, providing documented risk-based decision support for relationship acceptance
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Shell Company Risk Scoring for Corporate Structure Entities**
 ```
@@ -2364,13 +2379,12 @@ EDD request package for each entity:
 Output: Formatted EDD request letters for each entity + timeline expectations + escalation protocol if responses are not received or are unsatisfactory
 ```
 
-
-
+:::
 ## 14. AI Data Room Organization & Gap Identifier
 
 > Analyzes data room contents against deal-specific due diligence checklists — mapping provided documents to request categories, identifying missing materials, flagging contradictions between documents, and generating targeted follow-up requests with precise document specifications.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Poorly Organized Data Rooms Waste Analyst Time and Create Catastrophic Information Gaps**
 
@@ -2424,8 +2438,9 @@ The document contradiction problem adds another dimension of complexity. Due dil
    - Generates a post-close data room archive package — complete, organized, and searchable — for ongoing reference during integration and regulatory review
    - Documents all gaps, contradictions, and follow-up requests in a contemporaneous record that supports R&W insurance underwriting and legal file defense
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2442,8 +2457,9 @@ The document contradiction problem adds another dimension of complexity. Due dil
 - **Investment Banks and Financial Advisors**: Deliver faster, more comprehensive due diligence reports to clients by eliminating the document organization and gap-tracking burden from the analyst workflow
 - **Sellers and Their Advisors**: Proactively identify data room gaps before buyer teams do — reducing friction, accelerating the buyer's due diligence process, and reducing the risk of deal delay or price renegotiation based on information gaps
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Data Room Document Classification and Index Generation**
 ```
@@ -2537,13 +2553,12 @@ Certification content:
 Output: Formal data room completeness certification memo + final outstanding items register + document relied upon table for deal file
 ```
 
-
-
+:::
 ## 15. AI Cross-Border M&A Regulatory Risk Mapper
 
 > Maps all merger control, foreign investment screening, sector-specific regulatory approval, and change-of-control consent requirements triggered by a cross-border transaction — generating a jurisdiction-by-jurisdiction approval roadmap with timeline and strategy recommendations.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Unidentified Regulatory Approval Requirements Delay or Block Transactions at the Most Costly Stage**
 
@@ -2597,8 +2612,9 @@ The change-of-control consent landscape adds a third dimension of complexity. Ma
    - Drafts a regulatory announcement strategy: the sequence and timing of public announcements required to satisfy legal obligations without prejudicing regulatory review
    - Summarizes total estimated regulatory approval cost (filing fees, local counsel, expert witnesses) across all jurisdictions
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2615,8 +2631,9 @@ The change-of-control consent landscape adds a third dimension of complexity. Ma
 - **Antitrust and Regulatory Counsel**: Receive a pre-built jurisdiction identification and filing threshold analysis that allows them to focus on substantive competition law and national security strategy rather than threshold mapping
 - **Transaction Management Offices**: Manage the regulatory approval process against a complete, AI-generated roadmap with dependencies, critical path identification, and timeline modeling — rather than assembling the roadmap incrementally as obligations become apparent
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Global Merger Control Filing Obligation Analysis**
 ```
@@ -2722,13 +2739,12 @@ Recommendations required:
 Output: Deal term recommendations matrix (provision / recommended language / rationale / party whose risk it addresses) + sensitivity analysis on reverse termination fee sizing
 ```
 
-
-
+:::
 ## 16. AI Supplier Integrity & Third-Party Risk Profiler
 
 > Screens the target entity's supplier and vendor base for financial instability, sanctions exposure, corruption risk, and contract concentration — identifying supply chain vulnerabilities that create operational continuity and compliance risk post-acquisition.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Undisclosed Supply Chain Vulnerabilities Destroy Post-Acquisition Operating Performance**
 
@@ -2782,8 +2798,9 @@ The financial stability of key suppliers represents a third risk dimension that 
    - Creates a supply chain compliance enhancement roadmap aligned with CSDDD, LkSG, and UFLPA requirements
    - Summarizes total supply chain risk exposure for deal team decision-making and deal structuring recommendations
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2800,8 +2817,9 @@ The financial stability of key suppliers represents a third risk dimension that 
 - **ESG and Sustainability Teams**: Assess supply chain human rights and labor compliance obligations before close, enabling pre-close remediation planning and regulatory disclosure preparation
 - **Post-Close Integration Teams**: Use AI-generated supplier risk prioritization to allocate limited post-close integration resources to the supplier relationships most likely to create operational disruption
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Supplier Universe Mapping and Concentration Analysis**
 ```
@@ -2892,13 +2910,12 @@ For each contract:
 Output: Supplier change-of-control consent matrix (supplier / provision / trigger / remedy / exercise probability / financial impact) + priority outreach list + consent solicitation strategy
 ```
 
-
-
+:::
 ## 17. AI Investment Target Red Flag Screener
 
 > Applies a comprehensive red flag framework to investment targets in the pre-LOI phase — identifying structural, financial, legal, and reputational concerns that should inform go/no-go decisions and negotiating position before significant diligence investment is made.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Costly Full Due Diligence Is Frequently Invested in Targets That Should Have Been Screened Out Earlier**
 
@@ -2952,8 +2969,9 @@ The red flag indicators that most commonly predict deal failure or material purc
    - Drafts a prioritized full due diligence scope: which red flag categories require deepest investigation, calibrated to reduce the most material risks first
    - Summarizes the overall pre-LOI risk profile in an investment committee format: the three most significant risks, the probability of a material adverse finding in each, and the recommended next steps
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2970,8 +2988,9 @@ The red flag indicators that most commonly predict deal failure or material purc
 - **Investment Banks and M&A Advisors**: Provide clients with a rapid, systematic pre-LOI risk assessment as part of deal origination services — differentiating from advisory firms that rely solely on management-curated information
 - **Portfolio Company Acquisition Teams**: Screen bolt-on acquisition targets against the acquirer's specific risk appetite and post-close integration requirements before committing legal and financial advisor resources
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Pre-LOI Red Flag Screening Request**
 ```
@@ -3064,13 +3083,12 @@ Recommendations for each identified red flag:
 Output: LOI term sheet addendum with risk-specific provisions + overall deal risk assessment + recommended full due diligence scope calibrated to identified red flags
 ```
 
-
-
+:::
 ## 18. AI VIE Structure Unwinding & Risk Analyzer
 
 > Deconstructs variable interest entity (VIE) structures used by Chinese technology, education, and healthcare companies — mapping contractual control arrangements, identifying regulatory change risk, and modeling the economic and legal consequences of forced unwinding.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: VIE Structures Create Fundamental Legal Uncertainty That Standard Due Diligence Cannot Adequately Quantify**
 
@@ -3124,8 +3142,9 @@ The analytical complexity of VIE due diligence is substantial. Each VIE structur
    - Creates an investor disclosure summary presenting VIE risks in language appropriate for LP or investor reporting on a fund's VIE-exposed portfolio
    - Summarizes the overall VIE risk profile in an investment committee format with recommended risk tolerance framework and exit strategy implications
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3142,8 +3161,9 @@ The analytical complexity of VIE due diligence is substantial. Each VIE structur
 - **Private Equity and Hedge Fund Investment Teams**: Quantify VIE risk in economic terms — not just legal terms — enabling a probability-weighted investment decision that reflects the full range of regulatory outcomes
 - **Fund LPs and Portfolio Monitoring Teams**: Obtain ongoing VIE sustainability assessments for fund portfolios with VIE-exposed positions, enabling proactive exit or de-risking decisions before regulatory deterioration materializes
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: VIE Structure Mapping and Agreement Analysis**
 ```
@@ -3243,13 +3263,12 @@ Representations required covering:
 Output: VIE-specific R&W checklist with recommended language + survival period and cap recommendations + indemnification provisions specific to VIE regulatory risk
 ```
 
-
-
+:::
 ## 19. AI Adverse Media & Reputational Risk Monitor
 
 > Continuously monitors global news, social media, court filings, and regulatory announcements across 40+ languages and 10,000+ sources — generating severity-rated adverse media alerts and reputational risk profiles for corporate entities and their principals.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Reputational Risk Manifests Suddenly and Spreads Faster Than Manual Monitoring Can Track**
 
@@ -3303,8 +3322,9 @@ The temporal dimension of adverse media monitoring is equally critical. An initi
    - Drafts specific questions for management to address identified adverse media concerns — calibrated to test whether management responses are consistent with the media record
    - Provides post-close monitoring recommendations: which risk categories require ongoing monitoring and what alert thresholds should be maintained in the portfolio monitoring phase
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3321,8 +3341,9 @@ The temporal dimension of adverse media monitoring is equally critical. An initi
 - **Compliance and AML Officers**: Document a complete adverse media screening record satisfying regulatory requirements for periodic reputational due diligence on clients and counterparties
 - **Corporate Communications and Reputation Management Teams**: Receive early warning of adverse media trends before they reach threshold for major press coverage — enabling proactive response planning rather than reactive crisis management
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Adverse Media Initial Screening**
 ```
@@ -3418,13 +3439,12 @@ For each significant adverse finding:
 Output: Interview question matrix organized by finding + expected responses vs. red flag responses + documentation checklist for supporting evidence requested during interview
 ```
 
-
-
+:::
 ## 20. AI Environmental Liability & ESG Risk Scanner
 
 > Analyzes the target entity's environmental liabilities, regulatory compliance history, and ESG risk profile — identifying remediation obligations, permit violations, climate transition risks, and supply chain ESG exposure that affect deal value and post-close liability.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Environmental Liabilities Are Among the Largest and Most Unpredictable Post-Acquisition Costs**
 
@@ -3478,8 +3498,9 @@ The ESG dimension has expanded the scope of environmental due diligence dramatic
    - Drafts deal structuring recommendations: environmental escrow sizing, remediation cost indemnification provisions, post-close environmental monitoring obligations
    - Summarizes environmental and ESG findings in a format suitable for ESG-focused institutional investors and lender environmental review committees
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3496,8 +3517,9 @@ The ESG dimension has expanded the scope of environmental due diligence dramatic
 - **ESG and Sustainable Investment Teams**: Obtain a complete climate risk and ESG materiality assessment that satisfies institutional LP requirements for ESG integration in deal analysis
 - **Post-Close Operations and EHS Teams**: Receive a complete facility-level compliance register and remediation priority list at close, enabling immediate action on identified violations and contamination risks
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Facility Environmental Compliance Audit**
 ```
@@ -3597,13 +3619,12 @@ Deal structuring recommendations:
 Output: Environmental liability register + quantification summary table + deal structuring recommendation memo
 ```
 
-
-
+:::
 ## 21. AI Key Person Dependency Risk Assessor
 
 > Identifies and quantifies the business's dependence on specific individuals — founders, technical leads, sales champions, and regulatory relationship holders — modeling the revenue, operational, and valuation impact of key person departure scenarios.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Unquantified Key Person Risk Materializes Immediately When Founders or Stars Depart Post-Close**
 
@@ -3657,8 +3678,9 @@ The equity structure dimension creates additional complexity. In founder-led bus
    - Creates a knowledge transfer pre-close action plan: documentation requirements that should be completed before closing to reduce concentration risk
    - Summarizes deal structuring implications: escrow holdbacks contingent on key person retention, employment agreement conditions to close, and post-close compensation plan design
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3675,8 +3697,9 @@ The equity structure dimension creates additional complexity. In founder-led bus
 - **Private Equity Sponsors and Integration Teams**: Design post-close management incentive plans with full awareness of each key person's departure risk profile and the specific retention levers most likely to be effective
 - **Investment Committees**: Evaluate key person risk as a quantified economic variable — revenue-at-risk, replacement cost, recovery timeline — enabling risk-adjusted valuation decisions rather than relying on qualitative management assessments
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Key Person Dependency Analysis**
 ```
@@ -3775,13 +3798,12 @@ For each individual, recommend:
 Output: Retention package recommendation per individual + total retention cost estimate + recommended communication strategy for each individual
 ```
 
-
-
+:::
 ## 22. AI Regulatory License & Permit Verification Engine
 
 > Verifies the current status, coverage adequacy, and renewal compliance of all regulatory licenses, operating permits, and professional certifications held by the target entity — across all jurisdictions of operation, ensuring full authorization before deal close.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Operating Without Valid Licenses Creates Immediate Post-Close Enforcement Exposure**
 
@@ -3835,8 +3857,9 @@ The professional certification dimension is distinct but equally important. Busi
    - Creates a closing condition checklist for license-related requirements: which license approvals must be obtained before closing conditions are satisfied?
    - Summarizes the aggregate licensing risk picture for deal team decision-making, including worst-case exposure if unlicensed operations are discovered by regulators post-close
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3853,8 +3876,9 @@ The professional certification dimension is distinct but equally important. Busi
 - **Deal Teams and Transaction Managers**: Identify change-of-control license approvals early enough to incorporate them into the regulatory approval roadmap and closing timeline — avoiding post-announcement surprises
 - **Post-Close Compliance and Operations Teams**: Receive a complete license register at close, with expiration dates, renewal procedures, and coverage scope — enabling proactive license management rather than reactive enforcement response
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: License and Permit Inventory Construction**
 ```
@@ -3946,13 +3970,12 @@ For each item:
 Output: License action plan (item / action / responsible party / timeline / pre/post-close / disclosure requirements) + deal conditions checklist for license-dependent closing requirements
 ```
 
-
-
+:::
 ## 23. AI Debt & Lien Encumbrance Search Aggregator
 
 > Searches UCC filings, mortgage records, tax liens, judgment liens, and cross-border security interest registers to build a complete picture of all encumbrances on the target's assets — enabling clean title delivery at closing and identifying unexpected lender consents.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Undiscovered Asset Encumbrances Prevent Clean Title Transfer and Create Lender Consent Failures**
 
@@ -4006,8 +4029,9 @@ The lender consent problem compounds the challenge. Most secured lending facilit
    - Drafts a title company instruction letter for any real property transactions, detailing the encumbrances to be addressed before closing
    - Creates a post-close lien clearance confirmation checklist to verify that all required releases and terminations have been properly filed
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4024,8 +4048,9 @@ The lender consent problem compounds the challenge. Most secured lending facilit
 - **Asset Purchase and Structured Finance Teams**: Confirm that the assets being acquired or financed are free of undisclosed encumbrances — satisfying title and lien insurance requirements before closing
 - **Title Companies and Escrow Agents**: Obtain a complete, pre-closing encumbrance register that supports accurate title commitment preparation and identifies all items requiring resolution before closing can occur
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Multi-State UCC Lien Search**
 ```
@@ -4126,13 +4151,12 @@ Checklist structure:
 Output: Lien clearance checklist with status tracking + pending items requiring follow-up + post-close filing confirmation requirements
 ```
 
-
-
+:::
 ## 24. AI Customer Concentration Risk Analyzer
 
 > Analyzes the target entity's customer revenue distribution, contract terms, renewal rates, and relationship stability — identifying dangerous revenue concentration, churn risk, and counterparty dependency that affect post-acquisition commercial continuity.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Customer Concentration Is the Most Common Driver of Post-Acquisition Revenue Underperformance**
 
@@ -4186,8 +4210,9 @@ The relationship stability dimension adds a qualitative layer that is difficult 
    - Drafts targeted management interview questions for each high-risk customer relationship
    - Summarizes customer concentration risk findings for investment committee in a format that quantifies the revenue-at-risk with probability weightings
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4204,8 +4229,9 @@ The relationship stability dimension adds a qualitative layer that is difficult 
 - **Investment Committees and Deal Teams**: Assess the revenue reliability of the investment thesis with granular customer-level analysis — adjusting entry valuation and deal structure based on quantified concentration risk
 - **Post-Close Sales and Customer Success Teams**: Receive a prioritized customer risk register at close, enabling immediate focus of retention resources on the highest-risk relationships before they churn
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Customer Revenue Concentration Analysis**
 ```
@@ -4301,13 +4327,12 @@ For each scenario: calculate implied EV/EBITDA multiple on projected revenue and
 Output: Scenario revenue model + probability-weighted expected revenue + deal valuation sensitivity to customer risk scenarios + recommended purchase price adjustment or escrow protection based on downside scenarios
 ```
 
-
-
+:::
 ## 25. AI Cybersecurity Posture Due Diligence Reviewer
 
 > Analyzes the target entity's cybersecurity architecture, breach history, regulatory compliance posture, and third-party vendor security risk — identifying material vulnerabilities, data privacy obligations, and cyber liability exposure before deal close.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Undetected Cybersecurity Vulnerabilities Become the Acquirer's Liability the Moment the Deal Closes**
 
@@ -4361,8 +4386,9 @@ The technical complexity of cybersecurity assessment is a significant barrier to
    - Creates deal structuring recommendations: cybersecurity escrow sizing, warranty provisions covering known vulnerabilities and breach history, and post-close remediation obligations
    - Summarizes total estimated post-close cybersecurity remediation investment to achieve the acquirer's target security standard
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4379,8 +4405,9 @@ The technical complexity of cybersecurity assessment is a significant barrier to
 - **M&A Counsel and Deal Teams**: Quantify cyber and privacy liability exposure in deal economic terms and structure appropriate representations, warranties, and escrow provisions addressing disclosed vulnerabilities
 - **Cyber Insurance Brokers and Underwriters**: Assess the target's pre-acquisition security posture and incident history to inform post-close cyber insurance placement, coverage structuring, and premium determination
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Cybersecurity Documentation and Maturity Assessment**
 ```
@@ -4475,13 +4502,12 @@ For each action: identify responsible party (internal / external consultant), es
 Output: Phased cybersecurity remediation roadmap + total estimated cost by phase + day-1 critical actions + integration milestones aligned with overall deal integration plan
 ```
 
-
-
+:::
 ## 26. AI Employment & Labor Law Compliance Auditor
 
 > Audits the target entity's employment practices, workforce classifications, benefits compliance, collective bargaining obligations, and labor law violations across all operating jurisdictions — identifying exposure that affects deal value, post-close operations, and employee transition planning.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Labor Law Non-Compliance Creates Immediate Post-Close Enforcement and Employee Claims Exposure**
 
@@ -4535,8 +4561,9 @@ The benefits compliance dimension represents a distinct and substantial liabilit
    - Creates a WARN Act compliance analysis: identifies any planned post-close workforce reductions that may trigger advance notification requirements
    - Summarizes deal structuring implications: escrow recommendations for identified labor liabilities, representations and warranties coverage, and employee retention plan requirements
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4553,8 +4580,9 @@ The benefits compliance dimension represents a distinct and substantial liabilit
 - **HR and Integration Planning Teams**: Understand all inherited employment obligations, CBA constraints, and compliance remediation requirements before finalizing post-close integration plans — avoiding plans that are contractually or legally infeasible
 - **Investment Committees**: Quantify total workforce-related transaction costs and compliance remediation costs as inputs to valuation modeling rather than treating them as unquantified contingent liabilities
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Worker Classification Risk Assessment**
 ```
@@ -4655,13 +4683,12 @@ Costs to quantify:
 Output: Employment cost summary table (cost category / employees affected / aggregate amount) + total transaction-triggered employment cost + treatment in purchase price allocation + recommended deal structuring to optimize costs
 ```
 
-
-
+:::
 ## 27. AI Real Property & Asset Title Verification Tool
 
 > Verifies legal title, encumbrances, zoning compliance, and lease assignment rights for all real property and material tangible assets held by the target — identifying title defects, restriction violations, and landlord consent requirements before deal close.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Real Property Title Defects and Lease Assignment Failures Create Post-Close Operational and Legal Crises**
 
@@ -4715,8 +4742,9 @@ The commercial lease landscape creates a distinct layer of complexity in asset p
    - Drafts representations and warranty recommendations for real property: title, lease compliance, zoning, and no material default
    - Summarizes aggregate real property risk exposure for deal economic analysis, including any properties where pre-close issues cannot be resolved and post-close remediation costs apply
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4733,8 +4761,9 @@ The commercial lease landscape creates a distinct layer of complexity in asset p
 - **Commercial Real Estate Teams**: Use the AI-generated lease term matrix and expiration schedule to plan post-close portfolio management — renewals, relocations, and optimization decisions — before the close
 - **Transaction Management Teams**: Identify all landlord consent requirements early in the process, enabling a structured consent solicitation timeline that doesn't compress against the closing date
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Real Property Asset Inventory and Prioritization**
 ```
@@ -4832,13 +4861,12 @@ Generate a portfolio-level risk summary:
 Output: Lease portfolio key terms table + portfolio risk summary + renewal priority calendar + above/below-market rent flags
 ```
 
-
-
+:::
 ## 28. AI Post-Merger Integration Risk Pre-Assessment
 
 > Evaluates integration risks before deal close — analyzing cultural compatibility, systems architecture complexity, organizational structure conflicts, and regulatory integration timeline — producing a pre-close integration risk register and Day-1 readiness assessment.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Integration Failures Drive More Value Destruction Than Due Diligence Failures**
 
@@ -4892,8 +4920,9 @@ The financial cost of integration failure is quantifiable and substantial. Faile
    - Drafts a Day-1 employee communication framework aligned with key person risk findings and regulatory communication obligations
    - Summarizes the overall integration complexity score and its implications for the integration timeline, cost, and synergy achievability assumptions
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4910,8 +4939,9 @@ The financial cost of integration failure is quantifiable and substantial. Faile
 - **Investment Committees**: Assess integration risk and synergy achievability as quantified inputs to the deal investment case — not just qualitative management assurances
 - **Deal Teams and Boards**: Structure deal documentation to reflect integration risk findings — escrow provisions for integration costs, synergy milestone-based earnouts, and management retention plans calibrated to integration risk
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Organizational Integration Complexity Assessment**
 ```
@@ -5015,13 +5045,12 @@ Phase 3 (Day 61 to 100): early execution
 Output: 100-day integration plan with milestones, owners, and dependencies + critical path analysis + key risk watch list for IMO monitoring
 ```
 
-
-
+:::
 ## 29. AI Insurance Coverage Gap & Claims History Reviewer
 
 > Transform insurance due diligence from a clerical exercise into a strategic risk transfer assessment that surfaces hidden liabilities before they become your problem.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Insurance Due Diligence Is Chronically Underdone and Dangerously Incomplete**
 
@@ -5075,8 +5104,9 @@ Analysts processing this material typically spend four to six hours per target m
    - Coordinates with R&W insurance underwriters to identify which insurance-related representations need carve-outs or enhanced diligence
    - Prepares post-close Day 1 insurance action plan with broker instructions and timeline
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5093,8 +5123,9 @@ Analysts processing this material typically spend four to six hours per target m
 - **Chief Risk Officers and Insurance Managers**: Use COCO's post-acquisition coverage enhancement plan to execute broker transitions, policy replacements, and limits adjustments within the Day 1 integration window.
 - **CFOs and Finance Teams**: Obtain quantified insurance liability exposure that feeds directly into purchase price adjustment models, escrow sizing decisions, and financial statement reserve assessments.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Full Coverage Gap Analysis**
 
@@ -5216,12 +5247,12 @@ Analysis required:
 Output: Representation-by-representation assessment table + list of R&W carve-out recommendations + specific indemnity candidates with suggested basket and cap language + disclosure schedule draft language
 ```
 
-
+:::
 ## 30. AI Management Team Credibility & Track Record Verifier
 
 > Go beyond LinkedIn profiles and reference calls — systematically verify what management actually delivered versus what they claim to have built.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Management Due Diligence Relies on Self-Reported Credentials That Are Rarely Verified**
 
@@ -5275,8 +5306,9 @@ The verification problem is fundamentally a data aggregation challenge. A CEO's 
    - Reviews former employee LinkedIn profiles to assess retention patterns, career trajectory post-departure, and departure clustering around specific events
    - Identifies media coverage that reveals leadership under pressure — crisis responses, layoff communications, public disputes with board or investors
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5293,8 +5325,9 @@ The verification problem is fundamentally a data aggregation challenge. A CEO's 
 - **M&A Legal Counsel**: Obtain verified factual record of management representations that directly supports SPA reps and warranties review and informs indemnification scope for management-related claims.
 - **Operating Partners and Portfolio Company CEOs**: Use management benchmarking to evaluate incoming leadership against high-performance peer profiles, informing retention decisions and succession planning immediately post-acquisition.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Executive Track Record Verification**
 
@@ -5433,12 +5466,12 @@ Analysis required:
 Output: Culture risk assessment (High/Medium/Low with rationale) + top 5 culture-driven integration risks + recommended management interventions + integration communication strategy recommendations
 ```
 
-
+:::
 ## 31. AI Joint Venture Partner Due Diligence Engine
 
 > Vet your joint venture partner with the rigor of a merger — because a bad JV partner can cost you market access, IP, and reputation without the protections of full ownership.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: JV Partner Diligence Is Treated as a Formality Rather Than a Risk Management Process**
 
@@ -5492,8 +5525,9 @@ Due diligence teams conducting JV partner assessments typically rely on the same
    - Reviews partner's financial statements for existing pledge or encumbrance on the assets they are contributing to the JV — pledged assets cannot be effectively contributed
    - Prepares JV failure scenario analysis: what happens to each party's assets, IP, customer relationships, and employees if the JV is dissolved in years 1, 3, and 5
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5510,8 +5544,9 @@ Due diligence teams conducting JV partner assessments typically rely on the same
 - **Chief Compliance Officers**: Build a reproducible, documented JV partner diligence process that satisfies board governance requirements and regulatory expectations for third-party risk management programs.
 - **Private Equity and Venture Capital Firms**: Apply consistent JV partner screening standards across portfolio companies pursuing strategic joint ventures, particularly in emerging markets where partner quality is the primary driver of outcome variance.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — JV Partner Integrity and Ownership Screening**
 
@@ -5627,12 +5662,12 @@ For each scenario: Assess whether the proposed JV agreement adequately addresses
 Output: Scenario-by-scenario risk assessment + contract gap matrix + recommended protective provisions + jurisdiction-specific exit law considerations
 ```
 
-
+:::
 ## 32. AI Government Contract & Debarment History Checker
 
 > Protect your acquisition from inherited federal exclusions — a single debarment finding post-close can disqualify your entire entity from all government contracting.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Government Contracting History Is a Specialized Diligence Domain That Generic Due Diligence Frameworks Ignore**
 
@@ -5686,8 +5721,9 @@ The structural complexity of government contracting creates additional layers of
    - Prepares government customer notification strategy — identifies which contracting officers need to be personally briefed on the transaction and what information must be disclosed proactively
    - Drafts novation agreement execution schedule with agency-by-agency sequencing based on contract value, performance sensitivity, and anticipated agency processing time
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5704,8 +5740,9 @@ The structural complexity of government contracting creates additional layers of
 - **Government Contracts Counsel**: Use COCO's multi-database screening and contract portfolio analysis as the foundation for legal opinion on assignability and compliance, focusing attorney time on high-risk findings rather than database mechanics.
 - **Chief Compliance Officers of Acquiring Entities**: Obtain a pre-close compliance gap inventory and post-close remediation roadmap that enables immediate integration planning and proactive agency communication — preventing inadvertent compliance violations during the integration window.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Government Contract Portfolio Assignability Review**
 
@@ -5830,12 +5867,12 @@ Assessment required:
 Output: State-by-state contract assignability assessment + state debarment screening results + state FCA exposure summary + set-aside program compliance risk + priority remediation actions
 ```
 
-
+:::
 ## 33. AI Cross-Jurisdictional Compliance Framework Mapper
 
 > When your acquisition spans three countries and four regulatory regimes, you need a compliance map before you can build a compliance plan.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Multi-Jurisdictional Compliance Is the Fastest-Growing Source of Post-Acquisition Surprises**
 
@@ -5889,8 +5926,9 @@ Due diligence teams facing multi-jurisdictional acquisitions typically lack the 
    - Designs compliance monitoring framework for the post-acquisition period: regulatory change tracking, license renewal calendar, audit and inspection readiness protocol
    - Estimates total compliance remediation cost by jurisdiction and compliance domain — feeds into deal model and integration budget
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5907,8 +5945,9 @@ Due diligence teams facing multi-jurisdictional acquisitions typically lack the 
 - **M&A Partners at Law Firms**: Use COCO's cross-jurisdictional compliance matrix as the foundation for multi-jurisdictional legal opinion coordination, reducing duplication across local counsel and identifying cross-jurisdictional conflicts that no single local counsel can see.
 - **Private Equity Portco CFOs**: Accurately model compliance remediation costs in the acquisition business plan, avoiding the cash flow surprise that post-close compliance discovery creates for portfolio company financial models.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Compliance Universe Mapping**
 
@@ -6033,12 +6072,12 @@ Environmental compliance mapping required:
 Output: Environmental compliance gap matrix by site and jurisdiction + product substance compliance cross-map + remediation site liability estimate + regulatory permit transfer requirements + cross-jurisdictional product compliance conflict list
 ```
 
-
+:::
 ## 34. AI Distressed Asset & Bankruptcy History Analyzer
 
 > Uncover the full liability footprint of a distressed acquisition before the gavel falls — because in bankruptcy, what you don't know absolutely can hurt you.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Distressed Asset Transactions Compress Diligence Timelines While Hiding Concentrated Liability**
 
@@ -6092,8 +6131,9 @@ Analysts conducting diligence on distressed assets face a fundamental challenge:
    - Develops break-fee and bid protection analysis for stalking-horse bidder negotiations
    - Models liquidation value as floor for 363 bid — ensures proposed acquisition bid clears the "best interests of creditors" test that courts apply
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6110,8 +6150,9 @@ Analysts conducting diligence on distressed assets face a fundamental challenge:
 - **Bankruptcy Counsel and Litigation Finance Investors**: Rapidly analyze complex bankruptcy case records to identify litigation value — preference claims, fraudulent transfer actions, and lien avoidance — in distressed investment opportunities.
 - **Corporate Development Teams Pursuing Distressed Bolt-On Acquisitions**: Apply systematic distressed diligence framework to opportunities that arise when competitors enter financial distress, capturing strategic assets at distressed valuations with manageable risk.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Bankruptcy Case Record Analysis**
 
@@ -6236,12 +6277,12 @@ Bid structure analysis:
 Output: Maximum supportable bid recommendation with supporting model + bid structure recommendation (cash vs. credit vs. hybrid) + assumed liability optimization + stalking-horse strategy recommendation
 ```
 
-
+:::
 ## 35. AI Due Diligence Final Report Compiler & Summarizer
 
 > Transform thousands of pages of workstream findings into a board-ready investment thesis validation document in hours, not weeks.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: The Final Due Diligence Report Is the Most Important Deliverable That Receives the Least Systematic Attention**
 
@@ -6295,8 +6336,9 @@ Report assembly mechanics compound the problem. A typical deal generates 3,000�
    - Applies automated citation linking — every factual assertion in the report is traceable to a source document, creating an auditable diligence record for post-close disputes
    - Generates an executive-facing one-page deal summary and a detailed working-level report from the same underlying finding database, calibrated for different audiences
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6313,8 +6355,9 @@ Report assembly mechanics compound the problem. A typical deal generates 3,000�
 - **M&A Legal Counsel and SPA Negotiators**: Use COCO's diligence-to-SPA mapping to directly inform specific indemnification provisions, disclosure schedule review, and R&W insurance package preparation.
 - **Portfolio Monitoring Teams and Post-Close Integration Leaders**: Inherit a complete, searchable diligence record with findings mapped to integration workstreams — enabling accountability for risk mitigation during the integration period and continuity of institutional knowledge as deal team members rotate off.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Investment Thesis Validation Summary**
 
@@ -6473,3 +6516,4 @@ EDITORIAL:
 Output: Consistency error log (metric / section A value / section B value / recommendation) + completeness gap list + editorial issue list + priority corrections required before distribution
 ```
 
+:::

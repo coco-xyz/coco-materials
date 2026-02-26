@@ -1081,12 +1081,11 @@ Analyze and provide:
 :::
 
 
-
 ## 6. AI User Interview Synthesizer
 
 > Synthesis time cut from 3 weeks to 4 hours — while covering 100% of transcripts instead of 40%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Drowning in Hours of Recordings with No Time to Surface the Insights**
 
@@ -1103,8 +1102,9 @@ COCO's AI User Interview Synthesizer ingests raw interview recordings, transcrip
 - **Persona Signal Extraction**: Identifies behavioral and attitudinal patterns that cluster users meaningfully — and flags when a single "user type" actually contains two conflicting sub-segments
 - **Insight-to-Opportunity Mapping**: Converts synthesized pain points into product opportunity statements formatted for backlog intake, each linked to its supporting evidence trail
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1122,8 +1122,9 @@ COCO's AI User Interview Synthesizer ingests raw interview recordings, transcrip
 - **Product Designers**: Receive persona-tagged pain points and verbatim quotes directly usable in design briefs
 - **Product Leadership**: Get credible, evidence-backed summaries before quarterly planning without waiting for full research cycles
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Full Interview Set Synthesis**
 ```
@@ -1157,12 +1158,12 @@ For each major pain point, generate:
 4. A suggested validation approach if confidence is Medium or Low.
 ```
 
-
+:::
 ## 7. AI Usability Test Analyzer
 
 > Analysis time cut from 5–7 days to 6–8 hours — with 2.5× more UX friction points identified.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Usability Sessions Are Done, But the Real Work Has Barely Begun**
 
@@ -1179,8 +1180,9 @@ COCO's AI Usability Test Analyzer processes multi-modal session data — click p
 - **Friction Moment Clustering**: Groups hesitation points, error events, and backtrack behaviors by screen and user type — ranked by frequency and task impact
 - **Design Recommendation Generation**: Translates friction findings into testable hypotheses ready for designer handoff
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1198,8 +1200,9 @@ COCO's AI Usability Test Analyzer processes multi-modal session data — click p
 - **UX Researchers**: Spend research time on facilitation and protocol design, not hours of manual session review
 - **Engineering Teams**: Get unambiguous design requirements rooted in behavioral data
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Full Usability Test Session Analysis**
 ```
@@ -1237,12 +1240,12 @@ I want to understand:
 4. Which "wrong" paths still lead to task completion, and which result in abandonment?
 ```
 
-
+:::
 ## 8. AI Customer Journey Mapper
 
 > Journey mapping time cut from 3–4 weeks to 2–3 days — with 40% more drop-off points identified.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Everyone Has a Journey Map on the Wall, Nobody Knows If It Reflects Reality**
 
@@ -1259,8 +1262,9 @@ COCO's AI Customer Journey Mapper synthesizes data from multiple behavioral and 
 - **Emotional Journey Overlay**: Layers qualitative sentiment data onto the behavioral journey, surfacing moments of delight vs. frustration by journey stage
 - **Opportunity Scoring by Stage**: Ranks each optimization opportunity by potential impact on overall journey conversion — distinguishing quick wins from strategic bets
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1278,8 +1282,9 @@ COCO's AI Customer Journey Mapper synthesizes data from multiple behavioral and 
 - **Customer Success Managers**: Understand where enterprise customers struggle before churn becomes visible
 - **Marketing Teams**: See which acquisition channels produce users with the highest journey completion rates
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Full Multi-Source Journey Synthesis**
 ```
@@ -1322,12 +1327,12 @@ Please provide:
 4. A quick-test recommendation to validate the top hypothesis
 ```
 
-
+:::
 ## 9. AI PRD Generator
 
 > PRD drafting time cut from 6–10 hours to 60–90 minutes — with 50% fewer clarifying questions from engineering.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Writing PRDs Is the Job That Steals Time from the Real Job**
 
@@ -1344,8 +1349,9 @@ COCO's AI PRD Generator transforms raw input — meeting notes, research finding
 - **Acceptance Criteria Writing**: Produces specific, testable acceptance criteria for each requirement in given/when/then format — directly usable by QA
 - **Scope Boundary Definition**: Explicitly defines what is and is not in scope — preventing scope creep and misalignment during development
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1363,8 +1369,9 @@ COCO's AI PRD Generator transforms raw input — meeting notes, research finding
 - **QA / Test Engineers**: Receive testable acceptance criteria directly from the PRD, reducing interpretation overhead
 - **Product Designers**: Have a clear requirements foundation to design against, reducing back-and-forth on scope
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Full PRD from Meeting Notes and Research**
 ```
@@ -1404,12 +1411,12 @@ For each issue found, suggest a specific fix.
 [Paste PRD draft below]
 ```
 
-
+:::
 ## 10. AI Feature Impact Estimator
 
 > 35% fewer "regret features" built — calibrated estimates replace gut-feel prioritization.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Every Feature Feels Equally Important Until You Have to Choose**
 
@@ -1426,8 +1433,9 @@ COCO's AI Feature Impact Estimator combines historical product data, user segmen
 - **Sensitivity Analysis**: Tests how priority rankings change if key assumptions are wrong — identifying features with robust vs. fragile priority rankings
 - **Effort-to-Impact Frontier Mapping**: Recalculates RICE/ICE scores with evidence-adjusted inputs, identifying misclassified features
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1445,8 +1453,9 @@ COCO's AI Feature Impact Estimator combines historical product data, user segmen
 - **Engineering Leads**: Understand which features have the strongest evidence base to plan sprint capacity
 - **Sales and CS Teams**: Understand prioritization logic and set accurate customer expectations on timelines
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Multi-Feature Prioritization Analysis**
 ```
@@ -1493,12 +1502,12 @@ Questions I want answered:
 4. Suggest adjustments to our RICE/impact scoring methodology.
 ```
 
-
+:::
 ## 11. AI Requirements Conflict Detector
 
 > 70–80% of requirements conflicts detected before sprint start vs. ~20% with manual review.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: The Conflict Was There All Along — Nobody Found It Until Sprint 3**
 
@@ -1515,8 +1524,9 @@ COCO's AI Requirements Conflict Detector analyzes requirements from multiple sou
 - **Conflict Severity Scoring**: Rates each conflict as Critical, High, Medium, or Low — with resolution options for each
 - **Alignment Meeting Preparation**: Produces a pre-structured conflict review document with each conflict framed as a clear decision item for the meeting
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1534,8 +1544,9 @@ COCO's AI Requirements Conflict Detector analyzes requirements from multiple sou
 - **Stakeholders**: Have their requirements properly tracked and conflicts surfaced transparently
 - **Project / Program Managers**: Get a dependency map and risk register for delivery planning
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Full Multi-Stakeholder Requirements Conflict Scan**
 ```
@@ -1567,12 +1578,12 @@ Please deliver:
 5. A prioritized list of decisions that must be made before development begins
 ```
 
-
+:::
 ## 12. AI Multi-Tenant Feature Rollout Manager
 
 > Rollout-related support escalations reduced 60%. Per-tenant communication prep time: 45 min → 5 min.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Rolling Out to Enterprise Tenants Is a Risk Management Problem in Disguise**
 
@@ -1617,8 +1628,9 @@ COCO's AI Multi-Tenant Feature Rollout Manager plans, sequences, and monitors fe
    - Flags tenants showing anomalous behavior post-rollout for proactive outreach
    - Generates a rollout retrospective that feeds into the next release's planning
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1636,8 +1648,9 @@ COCO's AI Multi-Tenant Feature Rollout Manager plans, sequences, and monitors fe
 - **Engineering / SRE Teams**: Clear monitoring parameters and rollback triggers — no more judgment calls during incidents
 - **Enterprise Customers**: Specific, accurate advance notice of changes — improving trust and reducing confusion
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Full Rollout Plan for a New Feature**
 ```
@@ -1708,13 +1721,12 @@ Please analyze and provide:
 5. Updated tenant risk profile recommendations
 ```
 
-
-
+:::
 ## 13. AI Enterprise Onboarding Playbook Builder
 
 > Average onboarding duration reduced 30–40% — time-to-first-value milestone accelerated to under 30 days.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Every Enterprise Customer Feels Like the First — Because There's No Playbook**
 
@@ -1731,8 +1743,9 @@ COCO's AI Enterprise Onboarding Playbook Builder creates tailored, step-by-step 
 - **Risk Register and Mitigation Paths**: Identifies common onboarding failure modes for the customer's profile — with early warning indicators and escalation triggers for each
 - **Playbook Versioning and Feedback Loop**: Creates a structured format for continuous improvement based on onboarding outcomes
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1750,8 +1763,9 @@ COCO's AI Enterprise Onboarding Playbook Builder creates tailored, step-by-step 
 - **Sales Teams**: Use playbook summaries to set accurate implementation timeline expectations during the sales cycle
 - **Customer Implementation Teams**: Receive clear task assignments and success criteria from day one
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Tailored Enterprise Onboarding Playbook Creation**
 ```
@@ -1775,12 +1789,12 @@ Please build a phased playbook with:
 7. Risk register with early warning indicators and mitigation steps
 ```
 
-
+:::
 ## 14. AI Customer Expansion Opportunity Finder
 
 > 35–45% more expansion revenue identified proactively — before the renewal window opens.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: The Best Expansion Opportunities Are Already Hiding in Your Data — Nobody's Reading It**
 
@@ -1797,8 +1811,9 @@ COCO's AI Customer Expansion Opportunity Finder continuously analyzes product us
 - **Health-Signal Timing Engine**: Outputs a recommended outreach timing for each account — "now," "30 days," "90 days," or "hold" — based on account health trajectory
 - **Personalized Expansion Narrative Generation**: Creates customer-specific talking points using their own usage data — framing expansion as solving a problem, not as a sales pitch
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1816,8 +1831,9 @@ COCO's AI Customer Expansion Opportunity Finder continuously analyzes product us
 - **Sales / Account Executives**: Receive warm expansion leads from CS with behavioral evidence
 - **Finance / Revenue Teams**: Build more accurate expansion revenue forecasts based on pipeline signal data
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Account Portfolio Expansion Opportunity Scan**
 ```
@@ -1840,12 +1856,12 @@ Please produce:
 5. A health flag: green (expand), yellow (nurture first), red (retention priority)
 ```
 
-
+:::
 ## 15. AI Product Metrics Anomaly Detector
 
 > Mean time to anomaly detection reduced from 2–3 days to under 4 hours — with an 8% false positive rate.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: You Find Out About the Metric Drop on Monday Morning, From Your CEO**
 
@@ -1862,8 +1878,9 @@ COCO's AI Product Metrics Anomaly Detector applies statistical analysis to ident
 - **Statistical Significance Filtering**: Uses Z-score and control chart methods to distinguish real deviations from natural variance — achieving below 8% false positive rate vs. 35–40% in naive alerting
 - **Root Cause Hypothesis Generation**: Cross-references recent product changes and infrastructure events against anomaly timing to generate ranked causal hypotheses
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1881,8 +1898,9 @@ COCO's AI Product Metrics Anomaly Detector applies statistical analysis to ident
 - **Engineering Teams**: Receive structured, hypothesis-driven anomaly reports that make root cause investigation 40% faster
 - **Product Leadership**: Get a continuous view of product health rather than weekly snapshots
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Anomaly Investigation and Root Cause Analysis**
 ```
@@ -1909,12 +1927,12 @@ Please:
 5. Draft a brief team alert message appropriate to the severity level
 ```
 
-
+:::
 ## 16. AI Cohort Retention Analyzer
 
 > Day-30 retention improvements of 4–8% within one quarter — from identifying the specific behaviors that predict churn.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: The Retention Curve Is a Fact, But You Don't Know What Caused It**
 
@@ -1931,8 +1949,9 @@ COCO's AI Cohort Retention Analyzer segments users by behavioral dimensions, ide
 - **Churn Prediction Signal Identification**: Surfaces early behavioral signals in Days 1–7 that predict churn at Day 30 and beyond — enabling proactive intervention
 - **Intervention Hypothesis Generation**: Translates findings into specific, testable hypotheses with A/B test designs for each
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1950,8 +1969,9 @@ COCO's AI Cohort Retention Analyzer segments users by behavioral dimensions, ide
 - **UX Designers**: Know exactly which product moments are predictive of retention to focus design effort precisely
 - **Data Analysts**: Produce retention analysis with behavioral depth in hours instead of weeks
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Behavioral Cohort Retention Deep Analysis**
 ```
@@ -1976,12 +1996,12 @@ Please analyze and output:
 6. Intervention recommendations for each Aha moment
 ```
 
-
+:::
 ## 17. AI Feature Adoption Tracker
 
 > 90-day adoption rates improve 25–40% after implementing COCO-identified barrier fixes.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: The Feature Shipped. Three Months Later, Only 8% of Users Have Touched It.**
 
@@ -1998,8 +2018,9 @@ COCO's AI Feature Adoption Tracker monitors adoption rates across user segments,
 - **Segment-Level Adoption Variance**: Reveals dramatically different adoption rates across user personas, plan tiers, company sizes, and acquisition channels — identifying the core user segments where the feature has strong fit
 - **Intervention Recommendation Engine**: For each identified barrier, generates targeted intervention options with estimated adoption lift based on historical precedent
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2017,8 +2038,9 @@ COCO's AI Feature Adoption Tracker monitors adoption rates across user segments,
 - **Product Marketing**: Understand which user segments are most likely to successfully adopt — enabling targeted launch and relaunch campaigns
 - **Engineering Teams**: Prioritize adoption-related fixes with impact evidence rather than PM intuition about "what might help"
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Feature Adoption Review**
 ```
@@ -2045,12 +2067,12 @@ Please:
 5. Top 3 recommended interventions with expected adoption lift for each
 ```
 
-
+:::
 ## 18. AI Product Launch Planner
 
 > Launch task completion rate rises from ~70% to 92%+ — with 45% fewer timeline delays.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: "Ready to Launch" Means Something Different to Every Team at the Table**
 
@@ -2067,8 +2089,9 @@ COCO's AI Product Launch Planner generates comprehensive, dependency-mapped laun
 - **Risk Checklist and Contingency Plans**: Identifies the most likely launch risks with probability, impact, early warning signals, and contingency plans for each
 - **Post-Launch Monitoring Plan**: Defines Day-0 through Day-3 and 30-day monitoring protocols, rollback decision criteria, and success metric checkpoints
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2086,8 +2109,9 @@ COCO's AI Product Launch Planner generates comprehensive, dependency-mapped laun
 - **Sales Teams**: Have demo environments, pricing, and competitive cards ready before the first launch conversation
 - **Engineering Teams**: Have a clear release strategy, monitoring plan, and rollback criteria — reducing launch-day stress
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Full Product Launch Plan Generation**
 ```
@@ -2120,12 +2144,12 @@ Please generate:
 5. Stakeholder communication timeline (internal and external)
 ```
 
-
+:::
 ## 19. AI Competitive Battlecard Builder
 
 > Battlecard creation time cut from 8–12 hours to 2–3 hours per competitor — with win rates improving 10–18%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Your Sales Team Is Walking Into Competitive Deals with a Battlecard from Nine Months Ago**
 
@@ -2142,8 +2166,9 @@ COCO's AI Competitive Battlecard Builder synthesizes data from multiple intellig
 - **Objection Handling Script Generation**: Produces specific, actionable responses to the top 5–8 objections per competitor — complete with reframe, response, evidence, and follow-up questions
 - **Battlecard Freshness Maintenance**: Timestamps each intelligence data point, alerts when key sections exceed a configurable freshness window, and auto-summarizes competitor product updates from release notes
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2161,8 +2186,9 @@ COCO's AI Competitive Battlecard Builder synthesizes data from multiple intellig
 - **Sales Reps**: Walk into competitive opportunities with current, specific, objection-ready information
 - **Sales Management**: Maintain a consistent competitive narrative across the sales team
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Full Competitor Battlecard Generation**
 ```
@@ -2192,3 +2218,4 @@ Please generate a battlecard including:
 7. Pricing comparison and TCO framework
 ```
 
+:::

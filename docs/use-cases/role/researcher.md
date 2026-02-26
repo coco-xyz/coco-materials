@@ -6,7 +6,7 @@ AI-powered use cases for researcher professionals.
 
 > Organizations operating in Education face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Academic Research Literature Synthesizer**
 
@@ -60,8 +60,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -78,8 +79,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Research Analysis**
 ```
@@ -198,12 +200,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 2. AI Clinical Trial Protocol Reviewer
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Clinical Trial Protocol Reviewer**
 
@@ -257,8 +259,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -275,8 +278,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Research Analysis**
 ```
@@ -395,12 +399,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 3. AI Research Patent Landscape Analyzer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Research Patent Landscape Blind Spots**
 
@@ -454,8 +458,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -472,8 +477,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core IP Analysis Analysis**
 ```
@@ -592,12 +598,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 4. AI Agriculture Soil Health Analyzer
 
 > Organizations operating in Agriculture face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Agriculture Soil Health Blind Spots**
 
@@ -651,8 +657,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -669,8 +676,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Soil Analysis Analysis**
 ```
@@ -789,12 +797,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 5. AI Government Policy Impact Analyzer
 
 > Organizations operating in Government face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Government Policy Impact Blind Spots**
 
@@ -848,8 +856,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -866,8 +875,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Data Analysis Analysis**
 ```
@@ -986,12 +996,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 6. AI Survey Design and Analysis Optimizer
 
 > Organizations operating in Education face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Survey Design and Analysis Inefficiency**
 
@@ -1045,8 +1055,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1063,8 +1074,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Survey Design Analysis**
 ```
@@ -1183,12 +1195,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 7. AI Agriculture Pest and Disease Detection Advisor
 
 > Organizations operating in Agriculture face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Agriculture Pest and Disease Detection Guesswork**
 
@@ -1242,8 +1254,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1260,8 +1273,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Pest Detection Analysis**
 ```
@@ -1380,12 +1394,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 8. AI Nonprofit Program Evaluation Report Generator
 
 > Organizations operating in Nonprofit face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Nonprofit Program Evaluation Report Gaps**
 
@@ -1439,8 +1453,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1457,8 +1472,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Impact Reporting Analysis**
 ```
@@ -1577,12 +1593,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 9. AI Systematic Literature Review Assistant
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Systematic Literature Review Overhead**
 
@@ -1636,8 +1652,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1654,8 +1671,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Research Analysis**
 ```
@@ -1774,12 +1792,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 10. AI Research Grant Proposal Reviewer
 
 > Organizations operating in Biotech face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Research Grant Proposal Reviewer**
 
@@ -1833,8 +1851,9 @@ Without an AI-assisted review system, institutions waste millions of dollars in 
    - Checks that the proposal is self-contained and does not assume reviewer familiarity with prior work
    - Produces a mock summary statement to help researchers understand how their proposal reads
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1851,8 +1870,9 @@ Without an AI-assisted review system, institutions waste millions of dollars in 
 - **Early-Career Researchers**: Access the same quality of proposal feedback previously available only to well-networked faculty, leveling the playing field for first-time applicants.
 - **Research Office Leadership**: Gain institution-wide visibility into proposal quality trends, enabling targeted training investments and benchmarking against funding success rates.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Proposal Review Against NIH Criteria**
 
@@ -1862,13 +1882,12 @@ Without an AI-assisted review system, institutions waste millions of dollars in 
 
 **Prompt 3: Budget Justification Review**
 
-
-
+:::
 ## 11. AI Bibliometric Analysis and Citation Mapping Agent
 
 > Organizations operating in Social Sciences face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Bibliometric Analysis and Citation Mapping Agent**
 
@@ -1922,8 +1941,9 @@ Without AI assistance, bibliometric insights arrive too late to shape research s
    - Tracks temporal gaps where an established finding has not been replicated recently
    - Produces a research opportunity matrix ranked by gap size and feasibility
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1940,8 +1960,9 @@ Without AI assistance, bibliometric insights arrive too late to shape research s
 - **Research Librarians**: Expand their capacity to support faculty across multiple systematic reviews simultaneously without sacrificing search quality or documentation standards.
 - **Department Chairs and Research Directors**: Access institution-level publication analytics to inform hiring, collaboration, and strategic research focus decisions with data-driven precision.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Field Landscape Mapping**
 ```
@@ -2004,12 +2025,12 @@ Then identify: which clusters are most likely to merge in the next 5 years,
 and what new hybrid research directions would result?
 ```
 
-
+:::
 ## 12. AI Qualitative Data Coding Assistant
 
 > Organizations operating in Public Health face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Qualitative Data Coding Assistant**
 
@@ -2063,8 +2084,9 @@ Without AI assistance, qualitative studies in public health are often underpower
    - Formats references to coded transcripts and line numbers in publication-ready style
    - Generates a methods section description of the coding process for peer review submission
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2081,8 +2103,9 @@ Without AI assistance, qualitative studies in public health are often underpower
 - **Mixed-Methods Research Teams**: Integrate qualitative findings more rapidly into mixed-methods studies, reducing the timeline gap between quantitative and qualitative analysis phases.
 - **Public Health Program Evaluators**: Analyze community feedback, focus group data, and implementation interviews at a scale that was previously impractical, enabling more responsive program design.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Inductive Codebook Development from Transcripts**
 ```
@@ -2150,12 +2173,12 @@ Please help me:
 Flag any interpretive leaps I should revisit with the raw data before finalizing.
 ```
 
-
+:::
 ## 13. AI Lab Experiment Protocol Optimizer
 
 > Organizations operating in Life Sciences face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Lab Experiment Protocol Optimizer**
 
@@ -2209,8 +2232,9 @@ Without AI assistance, protocol optimization is primarily learned through trial 
    - Summarizes optimization strategies used by leading labs in the field
    - Generates a comparison table of protocol variants with performance data where available
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2227,8 +2251,9 @@ Without AI assistance, protocol optimization is primarily learned through trial 
 - **Core Facility Directors**: Standardize and optimize shared protocols across user groups, reducing instrument-related troubleshooting and improving data quality for all facility users.
 - **Graduate Students**: Build protocol design and troubleshooting skills faster through structured AI guidance, accelerating their transition from supervised to independent experimental work.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Protocol Review and Optimization**
 ```
@@ -2300,12 +2325,12 @@ Please:
 5. Suggest what to document in the lab notebook to prevent recurrence
 ```
 
-
+:::
 ## 14. AI Research Ethics and IRB Compliance Checker
 
 > Organizations operating in Clinical Trials face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Research Ethics and IRB Compliance Checker**
 
@@ -2359,8 +2384,9 @@ Without AI assistance, IRB preparation falls entirely on research coordinators a
    - Identifies elements that could be modified to qualify for a lower-risk review pathway without compromising scientific validity
    - Generates a review category justification memo for submission with the application
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2377,8 +2403,9 @@ Without AI assistance, IRB preparation falls entirely on research coordinators a
 - **IRB Administrators**: Receive better-prepared submissions that require fewer clarification requests, improving throughput and allowing the board to focus on substantive ethical review rather than administrative corrections.
 - **Clinical Trial Sponsors**: Accelerate study initiation timelines by reducing IRB-related delays, improving site activation efficiency and overall trial timeline management.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: IRB Application Completeness Review**
 ```
@@ -2450,12 +2477,12 @@ Please assess:
 Cite the specific regulatory sections supporting each recommendation.
 ```
 
-
+:::
 ## 15. AI Cross-Disciplinary Research Gap Identifier
 
 > Organizations operating in Environmental Science face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Cross-Disciplinary Research Gap Identifier**
 
@@ -2509,8 +2536,9 @@ Without AI assistance, cross-disciplinary synthesis in environmental science hap
    - Generates outreach profiles for potential collaborators based on their published work
    - Produces a collaboration proposal template tailored to the identified gap and partner disciplines
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2527,8 +2555,9 @@ Without AI assistance, cross-disciplinary synthesis in environmental science hap
 - **Program Officers and Funding Agencies**: Gain structured intelligence on where disciplinary siloes are preventing progress on high-priority environmental challenges, informing targeted program design.
 - **Early-Career Researchers**: Access the broad cross-disciplinary awareness that senior scientists develop over decades of networking, enabling more strategically positioned research programs from the start of their careers.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Cross-Disciplinary Gap Mapping**
 ```
@@ -2596,12 +2625,12 @@ Please help me:
 Target length for gap statement: 400-500 words.
 ```
 
-
+:::
 ## 16. AI Dataset Quality Auditor
 
 > Organizations operating in Genomics face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Dataset Quality Auditor**
 
@@ -2655,8 +2684,9 @@ Without AI assistance, data quality auditing in genomics is either under-resourc
    - Produces a quality-controlled dataset manifest documenting inclusion/exclusion decisions
    - Generates a data quality methods section describing all QC steps for manuscript submission
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2673,8 +2703,9 @@ Without AI assistance, data quality auditing in genomics is either under-resourc
 - **Principal Investigators**: Gain confidence that results are not driven by data quality artifacts before investing in downstream wet-lab validation experiments, reducing wasted resources on false leads.
 - **Journal Editors and Peer Reviewers**: Benefit from standardized data quality reporting that makes it faster to assess whether submitted genomics studies meet community standards for rigor and reproducibility.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: FastQC/MultiQC Report Interpretation**
 ```
@@ -2753,12 +2784,12 @@ Please draft:
 4. Any standard citations I should include for the QC tools used
 ```
 
-
+:::
 ## 17. AI Research Reproducibility Validator
 
 > Organizations operating in Psychology face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Research Reproducibility Validator**
 
@@ -2812,8 +2843,9 @@ Without AI assistance, reproducibility checking is either skipped entirely, addr
    - Evaluates sensitivity analyses and robustness checks for completeness
    - Suggests additional analyses (equivalence tests, Bayes factors) that would strengthen conclusions
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2830,8 +2862,9 @@ Without AI assistance, reproducibility checking is either skipped entirely, addr
 - **Journal Editors**: Receive better-prepared submissions that pass initial statistical screening, improving editorial efficiency and reducing the burden on statistical reviewers.
 - **Research Methods Instructors**: Use the validation framework as a teaching tool to help students understand why each reproducibility standard exists and how to apply it in their own work.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Manuscript Reproducibility Audit**
 ```
@@ -2910,12 +2943,12 @@ Please:
    and suggest how to handle them transparently in the manuscript
 ```
 
-
+:::
 ## 18. AI Competitive Research Intelligence Monitor
 
 > Organizations operating in Pharma face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Competitive Research Intelligence Monitor**
 
@@ -2969,8 +3002,9 @@ Without AI assistance, competitive intelligence functions in pharma are chronica
    - Flags emerging therapeutic areas where multiple competitors are simultaneously increasing activity
    - Produces a quarterly competitive landscape report with strategic recommendations for portfolio decisions
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2987,8 +3021,9 @@ Without AI assistance, competitive intelligence functions in pharma are chronica
 - **Clinical Development Teams**: Monitor competitor trial designs and endpoint choices to inform protocol design and patient selection strategy for their own clinical programs.
 - **Portfolio Strategy and R&D Leadership**: Gain a continuous, synthesized view of the competitive environment across multiple therapeutic areas, enabling more confident capital allocation decisions.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Competitive Landscape Summary for a Target or Indication**
 ```
@@ -3066,12 +3101,12 @@ Please help me:
 5. Format as a professional CI debrief memo suitable for distribution
 ```
 
-
+:::
 ## 19. AI Thesis and Dissertation Structure Advisor
 
 > Organizations operating in Higher Education face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Thesis and Dissertation Structure Advisor**
 
@@ -3125,8 +3160,9 @@ Without AI assistance, structural guidance arrives late and unevenly — primari
    - Produces a defense presentation outline aligned with the dissertation's core argument structure
    - Creates a revision tracking template for implementing post-defense changes systematically
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3143,8 +3179,9 @@ Without AI assistance, structural guidance arrives late and unevenly — primari
 - **Faculty Advisors**: Spend committee feedback sessions on the intellectual substance of the research rather than on organizational problems that could have been resolved earlier, deepening the mentoring relationship.
 - **Graduate Program Directors**: Improve program completion rates and time-to-degree metrics — key factors in institutional rankings, accreditation reviews, and graduate student recruitment — without adding staff resources.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Dissertation Chapter Structure Planning**
 ```
@@ -3213,12 +3250,12 @@ Also: what are the most common reasons dissertation defenses result in major rev
 and how can I address those risks in my presentation?
 ```
 
-
+:::
 ## 20. AI Research Collaboration Network Analyzer
 
 > Organizations operating in Materials Science face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Research Collaboration Network Analyzer**
 
@@ -3272,8 +3309,9 @@ Without AI assistance, collaboration network development in materials science is
    - Tracks shifts in influence as funding priorities, breakthrough publications, and major grants redirect the community
    - Produces a field influence landscape report for strategic positioning of the research program
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3290,8 +3328,9 @@ Without AI assistance, collaboration network development in materials science is
 - **Early-Career Investigators**: Build collaboration networks faster by identifying senior researchers open to partnerships with junior faculty, overcoming the structural disadvantage of smaller personal networks at career launch.
 - **Technology Transfer and Industry Liaison Offices**: Identify industry partners with genuine research interest in institutional capabilities, improving the targeting and conversion rate of industry partnership outreach.
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Collaborator Discovery for a Specific Research Need**
 ```
@@ -3369,3 +3408,4 @@ Please:
    to create competitive advantage for my strategic goals
 ```
 
+:::

@@ -6,7 +6,7 @@ AI-powered use cases for research analyst professionals.
 
 > Transforms raw market data into defensible TAM/SAM/SOM estimates with source-cited methodology — in hours, not weeks.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Market Sizing Is Simultaneously Critical and Chronically Unreliable**
 
@@ -60,8 +60,9 @@ The downstream impact extends across the entire engagement. An underestimated TA
    - Formats citations in the client's preferred style (APA, Chicago, or custom footnote format)
    - Supports iterative refinement: analysts adjust assumptions and COCO regenerates all dependent figures automatically
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -78,8 +79,9 @@ The downstream impact extends across the entire engagement. An underestimated TA
 - **Investment Analysts**: Build market size assumptions into financial models with documented, auditable methodology that withstands LP and investment committee scrutiny
 - **Business Development Teams**: Access fast, credible market sizing for proposal development without pulling analyst resources from billable engagements
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Top-Down TAM Estimation**
 
@@ -199,12 +201,12 @@ Generate:
 Format for inclusion in a formal consulting or investment research report.
 ```
 
-
+:::
 ## 2. AI Competitive Intelligence Deep-Dive Report Builder
 
 > Builds comprehensive competitive profiles — products, pricing, positioning, leadership, and signals — synthesized from 50+ public sources into a single structured report.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Competitive Intelligence Is Perpetually Incomplete and Perpetually Outdated**
 
@@ -258,8 +260,9 @@ Clients and internal stakeholders respond to thin competitive intelligence by de
    - Formats a "key takeaways and implications" section with recommended strategic responses
    - Supports continuous monitoring mode with weekly or monthly digest updates highlighting new signals
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -276,8 +279,9 @@ Clients and internal stakeholders respond to thin competitive intelligence by de
 - **Product Managers**: Receive structured product intelligence with feature comparison matrices and roadmap signal analysis that directly informs product prioritization decisions
 - **Sales and Business Development**: Access competitor positioning summaries and pricing intelligence formatted for use in client conversations and competitive deal situations
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Full Competitor Profile**
 
@@ -383,12 +387,12 @@ Deliverables:
 Write at the level of a senior strategy consultant briefing an executive team.
 ```
 
-
+:::
 ## 3. AI Industry Trend Signal Aggregator & Synthesizer
 
 > Cuts through information overload to surface the 10 signals that actually matter this week — synthesized from 100+ industry sources into a structured trend briefing.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Trend Monitoring Is a Full-Time Job That Cannot Be Done Full-Time**
 
@@ -442,8 +446,9 @@ The synthesis gap compounds the monitoring gap. Even analysts who successfully c
    - Formats deliverables for different audiences: one-page executive digest, detailed analyst briefing, or client-facing market update
    - Supports custom briefing formats aligned with client or firm templates
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -460,8 +465,9 @@ The synthesis gap compounds the monitoring gap. Even analysts who successfully c
 - **Investment Analysts**: Access early signals on industry inflection points that affect portfolio company performance and investment thesis validity
 - **Client-Facing Professionals**: Deliver trend briefings with confidence, knowing the monitoring behind them is systematic rather than opportunistic
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Weekly Industry Trend Briefing**
 
@@ -574,12 +580,12 @@ Synthesize across all trends:
 - Top 3 recommended strategic priorities given the full trend picture
 ```
 
-
+:::
 ## 4. AI Expert Interview Guide & Question Bank Generator
 
 > Generates structured, hypothesis-driven interview guides tailored to the specific expert profile and research objective — ready to use in 15 minutes.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Expert Interview Quality Determines Research Quality — and Preparation Is Chronically Rushed**
 
@@ -633,8 +639,9 @@ The expert matching problem compounds the preparation problem. Even when analyst
    - Generates a gap analysis identifying which research hypotheses remain unresolved after each interview
    - Creates a follow-up question list for subsequent interviews based on insights from completed ones
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -651,8 +658,9 @@ The expert matching problem compounds the preparation problem. Even when analyst
 - **Investment Analysts**: Execute expert network calls efficiently — extracting maximum insight within the 30–45 minute window typical for expert network calls
 - **Market Research Professionals**: Apply consistent primary research methodology across projects and team members, reducing quality variance driven by individual preparation skill
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Expert Interview Guide Generation**
 
@@ -764,12 +772,12 @@ Extract and structure:
 Flag any statements that require verification from other sources before being incorporated into findings.
 ```
 
-
+:::
 ## 5. AI Primary Research Survey Design Engine
 
 > Designs statistically sound, bias-minimized survey instruments from research objectives to final questionnaire — in a fraction of the time of manual design.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Survey Design Errors Are Invisible Until the Data Is Collected — and Then It Is Too Late**
 
@@ -823,8 +831,9 @@ The downstream impact of poor survey design extends well beyond a single project
    - Generates an interviewer guide for CAPI/CATI versions with probing instructions for open-ended questions
    - Produces a pre-launch pilot test checklist with specific items to validate before full deployment
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -841,8 +850,9 @@ The downstream impact of poor survey design extends well beyond a single project
 - **Clients and Stakeholders**: Receive primary research data they can trust — fielded with a documented methodology that supports the conclusions drawn from it
 - **Data Analysts**: Work with clean, well-coded datasets that support the planned analysis without requiring extensive recoding or data quality remediation
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Full Survey Instrument Design**
 
@@ -956,12 +966,12 @@ Deliverables:
 5. Platform-specific configuration notes for [Qualtrics / SurveyMonkey / Typeform]
 ```
 
-
+:::
 ## 6. AI Secondary Research Source Discovery & Ranking Tool
 
 > Surfaces the 20 most relevant, credible, and current sources for any research question — ranked by quality, not just recency or keyword match.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Source Discovery Is Simultaneously Time-Consuming and Systematically Biased**
 
@@ -1015,8 +1025,9 @@ The credibility ranking problem compounds the discovery problem. Not all sources
    - Builds a reference management export compatible with Zotero, EndNote, and Mendeley
    - Flags duplicate coverage — when multiple sources contain the same underlying data — to avoid over-counting
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1033,8 +1044,9 @@ The credibility ranking problem compounds the discovery problem. Not all sources
 - **Academic and Policy Researchers**: Discover the full relevant literature, including gray literature and international sources typically missed in standard database searches
 - **Consulting Firms**: Standardize source quality across all client deliverables, reducing the risk of credibility-damaging citations and ensuring consistent methodology
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Source Discovery for Research Question**
 
@@ -1151,12 +1163,12 @@ Synthesize:
 - How to footnote the chosen figure with appropriate caveats
 ```
 
-
+:::
 ## 7. AI Survey Response Statistical Analysis Engine
 
 > Transforms raw survey data into publication-quality statistical findings — cross-tabs, significance tests, regression, and visualization — without requiring a statistician.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Survey Data Analysis Is a Bottleneck Between Data Collection and Insight**
 
@@ -1210,8 +1222,9 @@ The visualization and reporting challenge adds a third layer of difficulty. Stat
    - Produces a full data appendix with all cross-tabs, significance notations, and base sizes
    - Generates an executive summary: top 5 findings, their strategic implications, and recommended actions
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1228,8 +1241,9 @@ The visualization and reporting challenge adds a third layer of difficulty. Stat
 - **Clients and Stakeholders**: Receive findings they can act on with confidence — backed by appropriate significance testing and clearly communicated uncertainty
 - **Strategy and Product Teams**: Access driver analysis and segmentation that identifies what to do, not just what respondents said — shifting survey research from descriptive to decision-enabling
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Full Survey Analysis Plan**
 
@@ -1348,12 +1362,12 @@ Output:
 5. Segment classification model: rules or a decision tree for classifying new respondents into segments
 ```
 
-
+:::
 ## 8. AI Citation Builder & Bibliography Formatter
 
 > Generates perfectly formatted citations in any style and builds complete bibliographies from raw source information — eliminating manual formatting errors.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Citation Formatting Is Mandatory, Tedious, and Surprisingly Error-Prone**
 
@@ -1407,8 +1421,9 @@ The workflow fragmentation problem compounds both the time and error issues. Sou
    - Checks citation style consistency across the full document and flags formatting deviations
    - Generates a citation quality report with any identified issues and their recommended resolutions
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1425,8 +1440,9 @@ The workflow fragmentation problem compounds both the time and error issues. Sou
 - **Junior Analysts**: Produce professionally formatted citations from the start of their careers without having to memorize style guide details
 - **Editors and Publishers**: Receive manuscripts with clean, consistent citations that require minimal correction — reducing editorial processing time and communication with authors
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Citation Generation from Source Information**
 
@@ -1536,12 +1552,12 @@ For each source type, generate:
 - A note on whether this source type is appropriate for citation in the intended document type (academic journal / consulting report / policy brief)
 ```
 
-
+:::
 ## 9. AI Research Hypothesis Validation Framework
 
 > Structures research hypotheses, maps evidence requirements, and guides the analyst through a systematic validation process — reducing confirmation bias and strengthening research integrity.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Research Hypotheses Are Rarely Managed With the Rigor the Decision Stakes Require**
 
@@ -1595,8 +1611,9 @@ The research validity problem extends to the downstream decisions that research 
    - Generates a recommendation for what additional evidence would materially change confidence in the conclusion
    - Formats the validation framework as a research methodology appendix for client-facing reports
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1613,8 +1630,9 @@ The research validity problem extends to the downstream decisions that research 
 - **Investment Committees and Decision-Makers**: Receive research packages that explicitly address alternative hypotheses and document evidence sufficiency — enabling better-calibrated decision confidence
 - **Academic and Policy Researchers**: Apply a structured hypothesis management framework that meets the standards expected in peer review and policy evaluation contexts
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Hypothesis Register Generation**
 
@@ -1731,12 +1749,12 @@ Calculate:
 Present reasoning in plain language alongside the probability estimates.
 ```
 
-
+:::
 ## 10. AI Longitudinal Study Data Tracker & Change Analyzer
 
 > Manages multi-wave research data, detects statistically significant changes over time, and generates trend narratives — turning time-series survey data into strategic insight.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Longitudinal Research Data Is Systematically Under-Analyzed Because Tracking It Is Operationally Hard**
 
@@ -1790,8 +1808,9 @@ The analytical depth problem compounds the operational problem. Even when longit
    - Generates an at-risk indicator dashboard for metrics showing concerning trend patterns
    - Produces a longitudinal data story: a narrative synthesis of how the research picture has evolved over the full study period
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1808,8 +1827,9 @@ The analytical depth problem compounds the operational problem. Even when longit
 - **Strategy Teams**: Access trend data that is properly contextualized against external events, enabling attribution analysis rather than just description of what changed
 - **Product and CX Leaders**: Monitor customer experience metrics over time with confidence that changes are real — and understand which customer segments are driving aggregate movement
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Wave-over-Wave Change Report**
 
@@ -1926,12 +1946,12 @@ Overall comparability rating for this wave: [generate based on above assessment]
 Recommended disclosures: what should be noted in the methodology section of this wave's report
 ```
 
-
+:::
 ## 11. AI Regulatory & Policy Landscape Tracker
 
 > Maps the full regulatory environment for any industry across all active jurisdictions — updated continuously so analysts never miss a compliance or market-shaping development.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Regulatory Change Is Constant, Consequential, and Impossible to Monitor Comprehensively Without Dedicated Infrastructure**
 
@@ -1985,8 +2005,9 @@ The time lag problem is the most practically damaging aspect of inadequate regul
    - Produces a monthly regulatory pipeline report showing what is coming in the next 90 days
    - Generates comment letter drafting support when client participation in a rulemaking is warranted
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2003,8 +2024,9 @@ The time lag problem is the most practically damaging aspect of inadequate regul
 - **Strategy Teams**: Incorporate regulatory scenario analysis into strategic planning — understanding not just current rules but the regulatory trajectory over the next 2–3 years
 - **Investment Analysts**: Monitor the regulatory environment for portfolio companies and investment targets — identifying regulatory risks and opportunities before they are priced into valuations
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Regulatory Landscape Overview**
 
@@ -2128,12 +2150,12 @@ Analyze:
 Produce: Enforcement intelligence brief with compliance implication summary
 ```
 
-
+:::
 ## 12. AI Consumer Behavior Segmentation Analyzer
 
 > Transforms survey, behavioral, and demographic data into actionable consumer segments — with profiles, sizing, and strategic implications built in.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Consumer Segmentation Projects Consume Significant Resources but Too Often Produce Segments That Gather Dust**
 
@@ -2187,8 +2209,9 @@ The actionability problem is the ultimate test. A segmentation is only valuable 
    - Generates a segment monitoring dashboard specification: which metrics to track to assess segment health over time
    - Produces an implementation roadmap: how to operationalize the segmentation across marketing, sales, product, and CX functions
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2205,8 +2228,9 @@ The actionability problem is the ultimate test. A segmentation is only valuable 
 - **Product Teams**: Understand which consumer segments have which unmet needs — enabling product prioritization that reflects commercial reality rather than internal preference
 - **Customer Experience Leaders**: Design differentiated service experiences for distinct customer segments based on their value and needs rather than treating all customers uniformly
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Consumer Segmentation Analysis**
 
@@ -2317,12 +2341,12 @@ For each segment assess:
 Prioritize segments by competitive vulnerability and recommend defensive and offensive strategies for highest-risk segments.
 ```
 
-
+:::
 ## 13. AI Earnings Call Transcript Insight Extractor
 
 > Extracts strategic signals, management sentiment shifts, and forward guidance changes from earnings transcripts — across 50+ companies in the time it takes to read one.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Earnings Calls Contain Critical Intelligence That Most Analysts Cannot Extract at Scale**
 
@@ -2376,8 +2400,9 @@ The interpretation challenge adds a further layer of complexity. Management team
    - Generates an analyst question intelligence report: what questions analysts asked, how management responded, and where management was evasive
    - Produces a cross-quarter sentiment trend chart for any tracked company or sector
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2394,8 +2419,9 @@ The interpretation challenge adds a further layer of complexity. Management team
 - **Sell-Side Equity Research Teams**: Produce sector-level earnings synthesis reports that differentiate coverage by identifying themes invisible to analysts reading individual transcripts
 - **Strategy Teams**: Monitor competitive intelligence embedded in public company earnings calls — a rich, systematic source of competitor intelligence most teams exploit only occasionally
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Single Earnings Call Deep-Dive**
 
@@ -2506,12 +2532,12 @@ Extract:
 Synthesize: a competitive intelligence summary on the target built entirely from public earnings call commentary
 ```
 
-
+:::
 ## 14. AI Patent Application Landscape Mapping Engine
 
 > Maps the full patent landscape for any technology domain — identifying key players, white spaces, and innovation trajectories — in a fraction of the time of manual patent research.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Patent Landscape Analysis Is Essential to Technology Strategy but Prohibitively Slow to Do Well**
 
@@ -2565,8 +2591,9 @@ The interpretation challenge is as significant as the search challenge. Raw pate
    - Generates a white space opportunity brief identifying the most attractive areas for new IP investment
    - Formats all visualizations as data-ready exports for inclusion in presentations and strategy documents
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2583,8 +2610,9 @@ The interpretation challenge is as significant as the search challenge. Raw pate
 - **Investment Analysts**: Assess the quality and defensibility of a target company's IP portfolio as part of technology company due diligence
 - **Corporate IP and Legal Teams**: Accelerate freedom-to-operate analysis and competitive IP monitoring with COCO's systematic landscape mapping
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Technology Patent Landscape Overview**
 
@@ -2692,12 +2720,12 @@ Analysis:
 Strategic recommendation: top 3 expiration events to monitor and prepare for, with suggested preparation actions
 ```
 
-
+:::
 ## 15. AI Geopolitical Risk Impact Assessment Tool
 
 > Translates complex geopolitical developments into structured, quantified risk assessments with direct business implications — built for research analysts who are not geopolitical specialists.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Geopolitical Risk Is Now Central to Business Research but Requires Expertise Most Analysts Do Not Have**
 
@@ -2751,8 +2779,9 @@ The operationalization problem is the deepest challenge. Even analysts who can d
    - Formats deliverables appropriate for investment committee, board, or client strategy audiences
    - Generates monitoring dashboards with key geopolitical indicators and their current status
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2769,8 +2798,9 @@ The operationalization problem is the deepest challenge. Even analysts who can d
 - **Corporate Strategy Teams**: Assess market entry and operational footprint decisions against a structured geopolitical risk framework rather than gut instinct and news monitoring
 - **Risk Management Functions**: Build a systematic, defensible geopolitical risk monitoring program without dedicated geopolitical intelligence staff
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Country Geopolitical Risk Profile**
 
@@ -2891,12 +2921,12 @@ Dashboard design:
 Format: Specification document for dashboard implementation + manual monitoring protocol for interim use
 ```
 
-
+:::
 ## 16. AI Supply Chain Vulnerability Research Synthesizer
 
 > Synthesizes public data on supplier dependencies, chokepoints, and disruption risks into a structured supply chain intelligence report — without requiring proprietary supplier data.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Supply Chain Risk Research Is Fragmented Across Too Many Sources to Do Comprehensively Without Dedicated Infrastructure**
 
@@ -2950,8 +2980,9 @@ The research synthesis problem compounds the data collection challenge. Differen
    - Generates policy briefing formats for government and regulatory audiences
    - Produces monitoring dashboards with key supply chain risk indicators and their current status
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2968,8 +2999,9 @@ The research synthesis problem compounds the data collection challenge. Differen
 - **Corporate Risk and Strategy Teams**: Identify and prioritize supply chain vulnerabilities before they become crises — using a systematic research approach rather than incident-driven response
 - **Policymakers and Regulators**: Access structured analysis of systemic supply chain dependencies across sectors — supporting resilience policy development with evidence rather than anecdote
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Company Supply Chain Vulnerability Assessment**
 
@@ -3079,12 +3111,12 @@ Output:
 4. Laggard identification: which companies have the most material unaddressed supply chain vulnerability
 ```
 
-
+:::
 ## 17. AI Academic White Paper Outline & Argument Builder
 
 > Transforms a research question and evidence base into a fully structured white paper outline with argument architecture, evidence mapping, and section-by-section writing guidance.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: The Gap Between Raw Research and a Well-Structured Argument Document Is Where Good Research Dies**
 
@@ -3138,8 +3170,9 @@ The quality consistency problem compounds the structural challenge. In research 
    - Provides citation placement guidance: where to cite heavily, where to lead with the argument and cite for reference
    - Generates a before-you-write checklist for each section to ensure structural coherence before drafting begins
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3156,8 +3189,9 @@ The quality consistency problem compounds the structural challenge. In research 
 - **Thought Leadership Teams**: Consistently produce white papers that advance a clear thesis rather than merely synthesizing existing literature
 - **Junior Analysts**: Learn structured argument architecture by working through a COCO-generated outline — building a skill that improves all their written work over time
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — White Paper Argument Architecture**
 
@@ -3270,12 +3304,12 @@ For each section generate a writing brief containing:
 Format as a one-page brief per section that the analyst can reference while writing.
 ```
 
-
+:::
 ## 18. AI Investment Thesis Research Package Compiler
 
 > Compiles a complete investment thesis research package — market, competitive, financial, and risk analysis — structured for investment committee review.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Investment Thesis Packages Are Resource-Intensive to Compile and Quality-Inconsistent Across Analysts**
 
@@ -3329,8 +3363,9 @@ The research breadth problem compounds the integration challenge. A complete inv
    - Generates a data room index linking each claim in the memo to its supporting documentation
    - Produces a Q&A preparation document anticipating the most likely investment committee challenges
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3347,8 +3382,9 @@ The research breadth problem compounds the integration challenge. A complete inv
 - **Sell-Side Equity Research Analysts**: Build initiation-of-coverage research packages with the depth and integration quality that distinguishes differentiated research from commodity coverage
 - **Investment Committee Members**: Receive packages where the logic is internally consistent and the risk section actually addresses the most threatening risks
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Investment Thesis Statement and Architecture**
 
@@ -3479,12 +3515,12 @@ Categorize questions by difficulty:
 Format: Q&A preparation brief organized by topic with confidence ratings for each answer
 ```
 
-
+:::
 ## 19. AI Qualitative Interview Transcript Coder
 
 > Applies systematic qualitative coding to interview transcripts — identifying themes, patterns, and analytical categories — at a fraction of the time of manual coding.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Qualitative Data Analysis Is the Richest and Most Labor-Intensive Step in Primary Research**
 
@@ -3538,8 +3574,9 @@ The synthesis gap follows directly from the coding quality problem. Even when in
    - Generates an analytical memo documenting the coding process, framework decisions, and analytical reasoning
    - Produces a synthesis report integrating qualitative findings with quantitative data from the same research project
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3556,8 +3593,9 @@ The synthesis gap follows directly from the coding quality problem. Even when in
 - **Academic Researchers**: Apply systematic coding to large transcript corpora without the months of manual coding that typically limits the scale of qualitative research
 - **Strategy and Innovation Teams**: Access the depth of qualitative insight from customer and expert interviews without sacrificing the analytical rigor needed for strategic decision-making
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Inductive Coding Framework Development**
 
@@ -3682,12 +3720,12 @@ Generate a findings section that:
 Tone: Professionally rigorous, grounded in evidence, appropriately qualified where the data is mixed
 ```
 
-
+:::
 ## 20. AI Macro-Economic Indicator Dashboard Builder
 
 > Builds a customized macro-economic monitoring dashboard with the specific indicators, data sources, and analytical commentary most relevant to the research coverage universe.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Macro-Economic Monitoring Is Universally Required but Rarely Done With the Rigor the Task Deserves**
 
@@ -3741,8 +3779,9 @@ The interpretation problem is as significant as the selection problem. Macro-eco
    - Generates data export formats for integration into financial models and research reports
    - Produces audience-specific macro summaries: technical detail for analyst audiences, implication-focused summaries for clients
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3759,8 +3798,9 @@ The interpretation problem is as significant as the selection problem. Macro-eco
 - **Strategy Consultants**: Access current, well-structured macro analysis for client engagements without pulling analyst resources from billable project work
 - **Investment Portfolio Managers**: Monitor macro conditions with a coverage-specific lens — tracking the indicators that most directly drive portfolio performance rather than headline news flow
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Coverage-Specific Macro Dashboard Design**
 
@@ -3869,12 +3909,12 @@ For each scenario:
 Output: Scenario risk table + monitoring dashboard specification for the identified risk scenarios
 ```
 
-
+:::
 ## 21. AI Media Coverage & Press Monitoring Digest
 
 > Aggregates, filters, and synthesizes media coverage across hundreds of sources into a structured daily or weekly intelligence digest — eliminating noise and surfacing only the signals that matter.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Media Monitoring Produces Information Overload Without Intelligence**
 
@@ -3928,8 +3968,9 @@ The synthesis gap is the third dimension of the problem. Even when analysts coll
    - Generates custom digest formats for different audiences: detailed analyst brief vs. concise executive summary vs. client-facing media update
    - Produces an alert format for high-urgency stories requiring immediate analyst attention
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3946,8 +3987,9 @@ The synthesis gap is the third dimension of the problem. Even when analysts coll
 - **Investment Analysts**: Track the media narrative around portfolio companies and investment targets — identifying sentiment shifts that may anticipate price movements or stakeholder reactions
 - **Strategy and Reputation Teams**: Maintain real-time situational awareness of how key issues are being framed in the media landscape most relevant to their stakeholders
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Daily Media Intelligence Digest**
 
@@ -4052,12 +4094,12 @@ For each signal detected:
 Output: Pre-publication signal brief with prioritized action recommendations
 ```
 
-
+:::
 ## 22. AI Analyst Report Comparison & Consensus Synthesizer
 
 > Synthesizes sell-side analyst reports, rating changes, and estimate revisions into a structured consensus view — identifying where the consensus is right, where it is wrong, and where the disagreement is most significant.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Analyst Consensus Is Valuable but Requires More Than Averaging the Numbers**
 
@@ -4111,8 +4153,9 @@ The revision tracking problem compounds the synthesis challenge. Analyst estimat
    - Generates a differentiated view assessment: where your thesis differs from consensus and the analyst evidence for each side
    - Produces a pre-event briefing (earnings, investor day, product launch) synthesizing what consensus expects and where surprises are most likely
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4129,8 +4172,9 @@ The revision tracking problem compounds the synthesis challenge. Analyst estimat
 - **Research Analysts**: Synthesize analyst consensus efficiently across a broad coverage universe — maintaining informed views on every name without sacrificing depth on any
 - **Investment Strategists**: Track consensus view evolution across sectors and styles — identifying where consensus is most stretched, most complacent, or most conflicted
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Consensus Summary Compilation**
 
@@ -4244,12 +4288,12 @@ Analysis:
 Output: Differentiated view assessment with explicit identification of where I am making a non-consensus bet and why
 ```
 
-
+:::
 ## 23. AI Technology Readiness Level Assessment Engine
 
 > Applies structured TRL assessment to evaluate the maturity, commercialization pathway, and investment readiness of any technology — with documented evidence and transition gap analysis.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Technology Maturity Assessment Is Too Often Done by Intuition Rather Than Structured Evidence**
 
@@ -4303,8 +4347,9 @@ The transition risk problem is equally important and equally underanalyzed. Tech
    - Generates a portfolio positioning analysis for investors holding technologies at different TRL stages
    - Formats output for investment committee, board technology review, or client strategy document contexts
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4321,8 +4366,9 @@ The transition risk problem is equally important and equally underanalyzed. Tech
 - **Corporate R&D and Strategy Teams**: Evaluate internal and external technology options against a common maturity framework — informing build vs. buy vs. partner decisions with analytical rigor
 - **Government and Public Sector Researchers**: Apply established TRL standards to assess readiness for technology deployment in public programs — meeting the evidence standards required for major procurement or policy decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — TRL Assessment for a Specific Technology**
 
@@ -4438,12 +4484,12 @@ Investment readiness assessment:
 Output: Investment readiness brief with go/no-go recommendation framework based on TRL evidence threshold
 ```
 
-
+:::
 ## 24. AI Customer Pain Point Cluster Analysis Tool
 
 > Synthesizes customer feedback, support tickets, review data, and interview insights into a structured pain point map — prioritized by frequency, severity, and strategic importance.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Customer Pain Point Data Is Abundant but Remains Fragmented and Unactionable**
 
@@ -4497,8 +4543,9 @@ The prioritization problem compounds the categorization challenge. Even when pai
    - Generates a competitive opportunity map: pain points where competitors perform better, providing the clearest competitive risk
    - Produces a product roadmap input document structured for direct use in product prioritization processes
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4515,8 +4562,9 @@ The prioritization problem compounds the categorization challenge. Even when pai
 - **Customer Success and Support Leaders**: Understand the systemic root causes behind support ticket volume and customer satisfaction issues — enabling structural fixes rather than case-by-case resolution
 - **Competitive Intelligence Teams**: Map competitor pain points using public review data — identifying where competitors are failing their customers and where opportunity exists for competitive differentiation
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Multi-Source Pain Point Synthesis**
 
@@ -4639,12 +4687,12 @@ Cross-segment synthesis:
 Output: Segment pain profile cards + cross-segment priority matrix
 ```
 
-
+:::
 ## 25. AI Grant & Funding Opportunity Research Assistant
 
 > Identifies, evaluates, and matches research grants, government funding, and private foundation opportunities to specific research programs — building the evidence base for competitive applications.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Grant Research Is a Full-Time Job That Competes With the Research It Is Supposed to Fund**
 
@@ -4698,8 +4746,9 @@ The application quality problem compounds the discovery problem. Even researcher
    - Generates resubmission strategy for rejected applications based on reviewer comments
    - Produces a funding gap analysis: identifying funding needs not covered by current pipeline
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4716,8 +4765,9 @@ The application quality problem compounds the discovery problem. Even researcher
 - **Think Tanks and Policy Research Organizations**: Access the full landscape of government and foundation funding relevant to their work — moving beyond the handful of funders they already know
 - **Early-Career Researchers**: Navigate the grant landscape without the personal network and institutional knowledge that gives established researchers a systematic advantage in funding discovery
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Grant Opportunity Discovery**
 
@@ -4840,12 +4890,12 @@ Develop a resubmission strategy:
 Priority ranking: which changes will have the greatest impact on the resubmission score, ranked by importance
 ```
 
-
+:::
 ## 26. AI M&A Comparable Transaction Database Builder
 
 > Builds a customized comparable transaction database for any deal type, industry, and geography — with deal multiples, deal terms, and strategic rationale synthesized from public sources.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Comparable Transaction Research Is Time-Intensive and Systematically Incomplete When Done Manually**
 
@@ -4899,8 +4949,9 @@ The deal terms intelligence problem is distinct from the valuation multiple prob
    - Generates a strategic rationale analysis across the comp set — patterns in what acquirers say they are paying for
    - Produces a deal terms market standard summary for the most common contractual provisions in the comp set
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4917,8 +4968,9 @@ The deal terms intelligence problem is distinct from the valuation multiple prob
 - **Corporate Development Teams**: Benchmark proposed transaction terms and valuations against a comprehensive comp set — negotiating from an informed position on both pricing and deal structure
 - **Private Equity Transaction Teams**: Access systematic comparable transaction databases for buy-side deal evaluation and portfolio company sale preparation
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Comparable Transaction Database Construction**
 
@@ -5030,12 +5082,12 @@ Synthesize:
 4. Risk implication for the current deal: based on these patterns, what are the most likely failure risks today
 ```
 
-
+:::
 ## 27. AI Social Listening & Online Sentiment Trend Tracker
 
 > Tracks brand, competitor, and topic sentiment across social platforms, forums, and review sites — delivering structured trend intelligence rather than raw mention counts.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Social Listening Tools Generate Volume Without Intelligence**
 
@@ -5089,8 +5141,9 @@ The context and influence problem adds a second dimension. Not all social mentio
    - Generates competitive social intelligence summaries for sales and product teams
    - Produces audience insight reports from social conversation analysis — what the target audience cares about, in their own words
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5107,8 +5160,9 @@ The context and influence problem adds a second dimension. Not all social mentio
 - **Product Teams**: Receive organized, prioritized social feedback on specific product features and use cases — supplementing formal research with real-world user expression
 - **Competitive Intelligence Teams**: Track competitor brand and product perception systematically — identifying competitive vulnerabilities and shifts in market positioning before they appear in formal research
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Social Listening Dashboard Setup**
 
@@ -5223,12 +5277,12 @@ Extract:
 Format insights as direct language that can be incorporated into a research deliverable or strategic brief.
 ```
 
-
+:::
 ## 28. AI Industry Association Report Synthesizer
 
 > Extracts the strategic intelligence buried in industry association reports, trade publications, and conference proceedings — synthesized across dozens of documents into a single coherent industry briefing.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Industry Association Intelligence Is Underexploited Because Extracting It Is Too Time-Consuming**
 
@@ -5282,8 +5336,9 @@ The synthesis problem is the second and more significant barrier. Even analysts 
    - Generates a conference intelligence brief after major industry conferences: key themes, presentations, and sentiment signals
    - Produces a policy intelligence update tracking association regulatory positions and advocacy activity
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5300,8 +5355,9 @@ The synthesis problem is the second and more significant barrier. Even analysts 
 - **Policy Researchers and Government Affairs Teams**: Track industry positions on regulatory issues systematically — understanding what the industry collectively believes and why
 - **Investment Analysts**: Incorporate industry association data — including statistics not available in any commercial database — into sector and company analysis
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Industry Association Intelligence Sweep**
 
@@ -5414,12 +5470,12 @@ For each association, document:
 Output: Association landscape map organized by type, with access notes and publication calendar
 ```
 
-
+:::
 ## 29. AI Country Market Entry Feasibility Analyzer
 
 > Evaluates the feasibility, attractiveness, and entry strategy for market entry into any country — synthesizing regulatory, competitive, economic, and cultural dimensions into a structured assessment.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Country Market Entry Analysis Is Expensive, Slow, and Often Conducted After the Strategic Decision Has Already Been Made**
 
@@ -5473,8 +5529,9 @@ The knowledge transfer problem compounds the research quality problem. Market en
    - Generates a country comparison analysis when multiple markets are being evaluated simultaneously
    - Produces an investment requirement estimate: capital and operating cost implications of the recommended entry approach
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5491,8 +5548,9 @@ The knowledge transfer problem compounds the research quality problem. Market en
 - **Investment Analysts**: Assess international expansion plans in target company investment theses — understanding whether the entry strategy is realistic
 - **Government and Economic Development Organizations**: Understand what is making their country attractive or unattractive to foreign investors
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Country Market Entry Feasibility Assessment**
 
@@ -5616,12 +5674,12 @@ Overall competitive environment assessment:
 4. What first-mover advantages can the entrant establish before incumbents respond effectively
 ```
 
-
+:::
 ## 30. AI Focus Group Discussion Guide Builder
 
 > Designs professional focus group discussion guides with hypothesis-driven questioning, probe strategies, and projective techniques — tailored to the research objective and group profile.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Focus Group Quality Is Highly Dependent on Discussion Guide Quality — Which Is Chronically Under-Invested**
 
@@ -5675,8 +5733,9 @@ The time pressure problem compounds the methodology problem. Discussion guides a
    - Generates a post-session debrief template for capturing moderator and observer insights immediately after each session
    - Produces an analysis framework aligned with the discussion guide structure for consistent coding across sessions
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5693,8 +5752,9 @@ The time pressure problem compounds the methodology problem. Discussion guides a
 - **Qualitative Research Specialists**: Use COCO to accelerate guide development for the structural and tactical elements, freeing specialist time for the most complex methodological decisions
 - **Client-Side Research Teams**: Commission and evaluate focus group research with the ability to assess discussion guide quality
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Full Focus Group Discussion Guide**
 
@@ -5804,12 +5864,12 @@ Create:
 Format as ready-to-use analysis documents for the research team
 ```
 
-
+:::
 ## 31. AI Systematic Literature Review Automation Engine
 
 > Searches, screens, extracts, and synthesizes evidence across thousands of academic papers — producing a PRISMA-compliant literature review in days rather than months.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Systematic Literature Reviews Consume Months of Researcher Time with High Error Risk**
 
@@ -5863,8 +5923,9 @@ The synthesis stage, where patterns across studies are identified and conclusion
    - Generates an update summary report documenting what changed since the last version, which studies were added, and how conclusions were affected
    - Supports continuous publication to a living review platform with version-controlled manuscript updates
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5881,8 +5942,9 @@ The synthesis stage, where patterns across studies are identified and conclusion
 - **Government Policy Research Units**: Maintain living evidence bases on active policy questions without requiring permanent dedicated reviewer teams for each topic area
 - **Research Funders and Systematic Review Centers**: Scale systematic review production across multiple topics simultaneously without proportional increases in reviewer headcount
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Database Search Strategy Development**
 ```
@@ -5992,12 +6054,12 @@ Draft:
 Write in formal academic register suitable for journal submission. Flag any interpretive judgments where reviewer input is needed.
 ```
 
-
+:::
 ## 32. AI Patent Landscape Analysis Engine
 
 > Maps the complete patent ecosystem for any technology domain — identifying filing trends, key assignees, whitespace opportunities, and freedom-to-operate risks — in a fraction of the time of manual patent searches.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Patent Landscape Analysis Is Slow, Expensive, and Often Incomplete**
 
@@ -6051,8 +6113,9 @@ The strategic value of landscape analysis — identifying whitespace where no on
    - Alerts when a specific competitor files in a new technology sub-domain or when a patent covering a key claim area is granted
    - Maintains a living landscape database that integrates new publications on a rolling basis without requiring a full rebuild
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6069,8 +6132,9 @@ The strategic value of landscape analysis — identifying whitespace where no on
 - **Investment Analysts and VC Due Diligence Teams**: Assess IP moat strength and freedom-to-operate risk for technology companies before investment, with a structured landscape deliverable rather than anecdotal IP commentary
 - **Academic Technology Transfer Offices**: Evaluate commercial patent potential and competitor landscape for faculty inventions quickly and cost-effectively, enabling more informed licensing and spin-out decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Patent Landscape Scoping**
 ```
@@ -6170,12 +6234,12 @@ Assess each patent (or patent family) on:
 Output: Portfolio heatmap scoring each family on the above dimensions + top 10 highest-value patents with justification + portfolio-level strategic assessment (blocking value / licensing revenue potential / defensive value)
 ```
 
-
+:::
 ## 33. AI Competitive Intelligence Synthesis Engine
 
 > Aggregates signals from earnings calls, product releases, job postings, patent filings, pricing changes, and regulatory submissions to produce a unified competitor intelligence picture — updated continuously, not quarterly.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Competitive Intelligence Is Fragmented, Reactive, and Always Behind**
 
@@ -6229,8 +6293,9 @@ The synthesis problem is as significant as the monitoring problem. Raw competiti
    - Supports ad-hoc competitive intelligence requests: "What do we know about Competitor X's plans in the enterprise segment?" answered in minutes from the maintained intelligence base
    - Tracks intelligence-to-decision linkages: which competitive insights led to strategic decisions, for demonstrating CI function ROI
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6247,8 +6312,9 @@ The synthesis problem is as significant as the monitoring problem. Raw competiti
 - **Sales and Business Development**: Receive continuously updated battlecards and deal-specific competitive intelligence drawn from a maintained knowledge base, reducing loss rates from competitive blind spots
 - **Executive Leadership**: Receive structured weekly and monthly competitive briefings that enable proactive strategic decisions rather than reactive responses to competitive moves already in market
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Competitor Signal Sweep**
 ```
@@ -6344,12 +6410,12 @@ Update the battlecard with:
 Format as a one-page sales enablement card suitable for AE use in active deals.
 ```
 
-
+:::
 ## 34. AI Regulatory Impact Assessment Tool
 
 > Analyzes proposed or enacted regulatory changes and quantifies their operational, financial, and strategic implications for a business or investment portfolio — producing a structured impact assessment in hours, not weeks.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Regulatory Change Is Constant, Multi-Jurisdictional, and Analytically Demanding**
 
@@ -6403,8 +6469,9 @@ The compounding challenge is regulatory interdependence. A new data privacy regu
    - Tracks regulatory outcomes against industry comment positions to calibrate regulatory influence effectiveness over time
    - Produces regulatory scenario analyses for planning purposes: impact assessment under the proposed text vs. modified text incorporating likely accommodations based on comment patterns
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6421,8 +6488,9 @@ The compounding challenge is regulatory interdependence. A new data privacy regu
 - **Investment Managers and Analysts**: Assess regulatory risk and opportunity exposure across portfolios with structured, comparable impact assessments rather than case-by-case ad-hoc analysis
 - **C-Suite and Board**: Access consolidated regulatory risk dashboards showing the full regulatory burden facing the organization, prioritized by financial impact and implementation urgency
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: New Regulation Impact Assessment**
 ```
@@ -6538,12 +6606,12 @@ For each scenario:
 Output: Scenario comparison table + recommended preparation strategy that builds optionality across all three scenarios
 ```
 
-
+:::
 ## 35. AI Research Dataset Quality Auditing Engine
 
 > Audits research datasets for completeness, consistency, validity, and bias — producing a structured data quality report with remediation recommendations before analysis begins.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Garbage-In-Garbage-Out Corrupts Research Findings at the Source**
 
@@ -6597,8 +6665,9 @@ The scale of modern research data compounds the problem. A survey with 5,000 res
    - Generates cleaned dataset variants applying each recommended remediation, preserving the original for comparison and auditing the transformation applied to each record
    - Tracks data quality metrics over time when the same dataset is updated periodically, flagging deterioration in quality dimensions that indicate upstream collection or processing problems
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6615,8 +6684,9 @@ The scale of modern research data compounds the problem. A survey with 5,000 res
 - **Financial Research Teams**: Validate the completeness and consistency of market data, financial statement data, and alternative data inputs before incorporating them into quantitative models where data errors compound
 - **Regulatory and Audit Functions**: Produce data quality attestations that meet evidentiary standards for regulatory submissions, compliance certifications, and external audit review
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Comprehensive Dataset Quality Audit**
 ```
@@ -6719,12 +6789,12 @@ Analyze:
 Output: Attrition analysis report + recommended weighting or imputation approach + methods section text documenting the attrition pattern and the correction applied
 ```
 
-
+:::
 ## 36. AI Citation Network Mapping Engine
 
 > Maps the citation relationships among academic papers, patents, and reports in any research domain — identifying foundational works, emerging clusters, and knowledge flow pathways to guide literature strategy and research positioning.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Citation Networks Encode the Intellectual History of a Field — and Are Nearly Impossible to Navigate Manually**
 
@@ -6778,8 +6848,9 @@ For research strategy purposes, the most valuable use of citation network analys
    - Identifies the journals and conferences where papers with the highest ongoing citation velocity are published — guiding venue selection for maximum impact
    - Produces a gap analysis memo suitable for grant proposal background sections: documenting the state of knowledge, its limitations, and the specific gap the proposed research will fill
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6796,8 +6867,9 @@ For research strategy purposes, the most valuable use of citation network analys
 - **Technology Analysts and Innovation Scout Teams**: Use citation network analysis of patent and academic literature simultaneously to track where scientific knowledge is flowing into applied technology, identifying emerging commercialization opportunities
 - **University Libraries and Research Support Teams**: Provide researchers with citation network intelligence services that enhance the competitiveness of institutional research proposals and the impact of publications
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Citation Network Construction and Overview**
 ```
@@ -6889,12 +6961,12 @@ Analyze:
 Output: Positioning analysis report with network visualization showing researcher's position relative to all clusters + strategic recommendations for maximizing research impact
 ```
 
-
+:::
 ## 37. AI Grant Proposal Optimization Engine
 
 > Analyzes funder priorities, reviewer expectations, and successful proposal patterns to strengthen grant narratives, align evaluation criteria, and improve competitive positioning before submission.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Grant Writing Is High-Stakes, Time-Consuming, and Systematically Disadvantages Researchers Without Institutional Support**
 
@@ -6948,8 +7020,9 @@ The time pressure compounds the challenge. Grant applications involve coordinati
    - Checks the proposal against common rejection reasons documented by the funding agency — does this proposal have the warning signs?
    - Produces a revision priority list: the changes that would most improve the competitive score, ordered by impact and feasibility within the remaining preparation time
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6966,8 +7039,9 @@ The time pressure compounds the challenge. Grant applications involve coordinati
 - **Principal Investigators with Multiple Active Grants**: Efficiently manage proposal development across multiple concurrent submissions with systematic alignment analysis that reduces the time investment per proposal
 - **Research Institutions and Funding Agencies**: Increase the overall quality and rigor of submitted proposals, reducing the noise-to-signal ratio in competitive review processes and improving the probability that funded research represents genuinely high-quality science
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Funder Priority Alignment Check**
 ```
@@ -7068,12 +7142,12 @@ Plan:
 Output: Resubmission strategy memo + draft Introduction page + prioritized revision checklist
 ```
 
-
+:::
 ## 38. AI Meta-Analysis Workflow Engine
 
 > Automates the statistical and methodological workflow of quantitative meta-analysis — from data extraction standardization through heterogeneity testing, publication bias assessment, and Forest plot generation.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Meta-Analysis Is the Highest-Value Research Synthesis Method and the Most Technically Demanding**
 
@@ -7127,8 +7201,9 @@ Subgroup analysis and meta-regression — the most valuable parts of a meta-anal
    - Provides written rationale for each GRADE judgment, suitable for inclusion in the review text and for transparency in replication
    - Produces an overall evidence certainty rating (high/moderate/low/very low) with a plain-language interpretation of what the certainty level means for practice and policy
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -7145,8 +7220,9 @@ Subgroup analysis and meta-regression — the most valuable parts of a meta-anal
 - **Health Technology Assessment Organizations**: Generate meta-analytic evidence summaries for reimbursement decisions, comparative effectiveness reviews, and benefit-risk assessments within compressed regulatory and budget cycles
 - **Research Synthesis Centers and Cochrane Review Groups**: Scale the number of high-quality meta-analyses produced annually without proportional growth in biostatistician headcount, by enabling research teams with substantive expertise to handle the statistical workflow with systematic AI support
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Effect Size Extraction and Standardization**
 ```
@@ -7250,12 +7326,12 @@ Apply any applicable upgrading factors (large effect, dose-response, opposing co
 Output: GRADE evidence profile table in standard format + written rationale for each domain judgment + overall certainty rating (High/Moderate/Low/Very Low) with plain-language interpretation
 ```
 
-
+:::
 ## 39. AI Research Collaboration Matching Engine
 
 > Identifies the most productive potential research collaborators based on complementary expertise, methodological fit, publication network overlap, and funding compatibility — accelerating team formation for grant applications and large-scale projects.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Research Collaboration Formation Is Inefficient, Proximity-Dependent, and Systematically Reproduces Existing Networks**
 
@@ -7309,8 +7385,9 @@ The collaboration formation process itself consumes resources that most research
    - Identifies alternative candidates for each role in case primary candidates are unavailable or unresponsive — ensuring backup options at each position
    - Generates a team building timeline: the sequence of outreach, negotiation, and commitment needed to assemble the team before the grant submission deadline
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -7327,8 +7404,9 @@ The collaboration formation process itself consumes resources that most research
 - **Funding Agencies and Research Councils**: Enable better-matched multidisciplinary teams on large collaborative grants by providing researchers with tools to look beyond their immediate networks
 - **Early-Career Researchers**: Access collaboration opportunities that are normally gated by established networks, leveling the playing field and enabling independent career development beyond their PhD advisor's collaboration circle
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Collaboration Candidate Search**
 ```
@@ -7434,12 +7512,12 @@ Analyze:
 Output: Collaboration portfolio report + network visualization data + strategic partnership recommendations for the next 3-year planning cycle
 ```
 
-
+:::
 ## 40. AI Technology Readiness Level Assessment Engine
 
 > Evaluates the maturity and commercialization readiness of emerging technologies against standardized TRL frameworks — producing a structured assessment that guides R&D investment, partnership decisions, and market entry timing.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Technology Readiness Assessment Is Inconsistently Applied and Strategically Underutilized**
 
@@ -7493,8 +7571,9 @@ The strategic value of TRL assessment extends well beyond binary "ready or not" 
    - Generates a technology watch brief for ongoing monitoring: what developments to watch for that would indicate TRL advancement, which technical publications and programs to track
    - Supports portfolio-level TRL analysis: assessing a portfolio of technologies simultaneously and comparing their readiness profiles, development trajectories, and commercialization timelines for portfolio management decisions
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -7511,8 +7590,9 @@ The strategic value of TRL assessment extends well beyond binary "ready or not" 
 - **Government Procurement and Defense Acquisition**: Evaluate technology supplier claims against an evidence-documented TRL standard, reducing the risk of procurement commitments to technologies that cannot achieve operational readiness on contract timelines
 - **University Technology Transfer Offices**: Assess the commercialization readiness of faculty inventions systematically, prioritizing licensing and spin-out investment toward technologies with the strongest evidence of advancement potential
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full TRL Assessment**
 ```
@@ -7619,3 +7699,4 @@ Portfolio synthesis:
 Output: Portfolio TRL dashboard + technology-by-technology assessment table + resource allocation recommendation matrix
 ```
 
+:::

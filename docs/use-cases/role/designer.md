@@ -6,7 +6,7 @@ AI-powered use cases for designers and creative professionals.
 
 > Reduces brand compliance audit cycle from 3 weeks to 4 hours — catching 97%+ of violations automatically.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Brand Inconsistency Is Silent Revenue Leakage**
 
@@ -60,8 +60,9 @@ COCO's AI Brand Asset Consistency Auditor transforms brand governance from a rea
    - Brand change propagation: when guidelines update, auto-identify all assets needing refresh
    - Dashboard showing compliance trend over time by team and asset category
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -80,8 +81,9 @@ COCO's AI Brand Asset Consistency Auditor transforms brand governance from a rea
 
 ---
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Brand Compliance Audit**
 ```
@@ -190,11 +192,12 @@ Make it clear, practical, and scannable — the agency PM and designers should b
 
 ---
 
+:::
 ## 2. AI Design System Component Auditor
 
 > Cuts design system drift detection from quarterly manual reviews to **continuous automated monitoring** — catching 94% of component violations before they ship.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Design System Entropy Is the Quiet Death of Product Consistency**
 
@@ -248,8 +251,9 @@ COCO's AI Design System Component Auditor turns design system governance from a 
    - Provides real-time feedback during design reviews with inline violation annotations
    - Generates a compliance certificate for each release with pass/fail status and exception list
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -268,8 +272,9 @@ COCO's AI Design System Component Auditor turns design system governance from a 
 
 ---
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Design System Compliance Audit**
 ```
@@ -392,11 +397,12 @@ Provide a checklist the designer can use to fix issues before handoff.
 
 ---
 
+:::
 ## 3. AI Responsive Design QA Engine
 
 > Reduces responsive design QA from 2 days of manual testing to **35 minutes of automated scanning** — detecting 96% of layout breakage across all breakpoints.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Responsive Breakage Ships Silently and Costs Conversions**
 
@@ -453,8 +459,9 @@ COCO's AI Responsive Design QA Engine automates layout validation across every b
    - Integration with analytics to correlate responsive issues with conversion drop-offs
    - Dashboard showing responsive health trends across the entire product surface
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -473,8 +480,9 @@ COCO's AI Responsive Design QA Engine automates layout validation across every b
 
 ---
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Responsive Layout Audit**
 ```
@@ -592,11 +600,12 @@ Provide a prioritized remediation plan for non-ready components.
 
 ---
 
+:::
 ## 4. AI Accessibility Compliance Checker
 
 > Catches **92% of WCAG 2.1 AA violations** at the design stage — preventing accessibility debt before a single line of code is written.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Accessibility Is Treated as a Retrofit Instead of a Design Requirement**
 
@@ -654,8 +663,9 @@ COCO's AI Accessibility Compliance Checker embeds WCAG evaluation directly into 
    - Pre-development compliance certificate to attach to handoff documentation
    - Audit trail showing which criteria were checked, when, and by whom
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -674,8 +684,9 @@ COCO's AI Accessibility Compliance Checker embeds WCAG evaluation directly into 
 
 ---
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full WCAG 2.1 AA Design Audit**
 ```
@@ -804,11 +815,12 @@ Output as a design review scorecard with actionable next steps.
 
 ---
 
+:::
 ## 5. AI Design-to-Code Fidelity Validator
 
 > Reduces design-to-code discrepancy resolution from **5 days of back-and-forth** to **2-hour automated comparison** — achieving 98% pixel-level fidelity on first implementation.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: What Gets Designed Is Not What Gets Built**
 
@@ -865,8 +877,9 @@ COCO's AI Design-to-Code Fidelity Validator automates the comparison between des
    - Fidelity score per component in the design system (highlights components that consistently drift)
    - Historical comparison showing how fidelity has evolved across product releases
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -885,8 +898,9 @@ COCO's AI Design-to-Code Fidelity Validator automates the comparison between des
 
 ---
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Design-to-Code Fidelity Comparison**
 ```
@@ -1014,11 +1028,12 @@ Format for design team sign-off — this will be attached to the release notes.
 
 ---
 
+:::
 ## 6. AI UI Pattern Library Curator
 
 > Cuts pattern library maintenance from **40 hours/month** to **6 hours/month** — ensuring 95% pattern adoption across product teams.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Pattern Libraries That Nobody Uses**
 
@@ -1072,8 +1087,9 @@ Discovery is the other half of the problem. Even when the right pattern exists, 
    - Archives deprecated patterns with full history so teams on older codebases can still reference them
    - Coordinates versioning across Figma components, code libraries, and documentation simultaneously
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1090,8 +1106,9 @@ Discovery is the other half of the problem. Even when the right pattern exists, 
 - **Front-End Engineers**: One canonical implementation per pattern with clear specs, reducing "which version should I use?" confusion
 - **Design Directors**: Quantified pattern adoption data to demonstrate design system ROI and justify continued investment
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Pattern Audit and Gap Analysis**
 ```
@@ -1210,12 +1227,12 @@ Generate:
 Format as a self-contained migration guide document.
 ```
 
-
+:::
 ## 7. AI Color Palette Accessibility Optimizer
 
 > Transforms brand palettes into **WCAG AAA-compliant** color systems in **under 2 hours** — maintaining 94% perceptual brand similarity while achieving full accessibility.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Beautiful Brands That Exclude Millions of Users**
 
@@ -1269,8 +1286,9 @@ The challenge multiplies with dark mode, high contrast mode, and colorblind simu
    - Creates automated tests that CI/CD pipelines can run to prevent future accessibility regressions
    - Maintains a change log so brand teams can see exactly what changed and why
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1287,8 +1305,9 @@ The challenge multiplies with dark mode, high contrast mode, and colorblind simu
 - **Front-End Engineers**: Implementation-ready tokens in their preferred format with clear usage rules — no more guessing which color to use where
 - **Accessibility Leads**: Automated verification that color compliance is maintained across releases, reducing manual audit burden by 80%
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Full Brand Palette Accessibility Audit**
 ```
@@ -1427,12 +1446,12 @@ Output:
 - Export format for [CSS variables / Tailwind / Figma variables — specify preference]
 ```
 
-
+:::
 ## 8. AI Design Sprint Facilitator
 
 > Compresses a **5-day design sprint** into **2 days** — generating research synthesis, sketches, and test protocols that would normally require a full facilitation team.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Design Sprints That Consume a Week and Still Miss the Mark**
 
@@ -1486,8 +1505,9 @@ The output quality problem extends beyond facilitation. Sprint sketches are ofte
    - Synthesizes test session notes into pattern-based findings with severity ratings
    - Produces a sprint outcome report with validated/invalidated hypotheses and recommended next steps
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1504,8 +1524,9 @@ The output quality problem extends beyond facilitation. Sprint sketches are ofte
 - **UX Researchers**: Rigorous test protocols and synthesis frameworks that meet research standards, even when sprints are run without a dedicated researcher
 - **Engineering Leads**: Clear prototype specifications with documented trade-offs that translate directly into technical planning
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Pre-Sprint Research Synthesis**
 ```
@@ -1645,12 +1666,12 @@ Produce:
 Format for stakeholder presentation — executive summary on page 1, details following.
 ```
 
-
+:::
 ## 9. AI User Flow Wireframe Generator
 
 > Generates complete user flow wireframes in **3 hours** instead of **3 days** — producing 40+ screens with consistent interaction patterns and edge case coverage.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Wireframing Bottlenecks That Delay Every Project**
 
@@ -1704,8 +1725,9 @@ Quality suffers under time pressure. When designers rush wireframes to unblock d
    - Validates that all flow paths are complete — no dead ends or missing transitions
    - Generates a review checklist so the designer can efficiently verify and approve each screen
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1722,8 +1744,9 @@ Quality suffers under time pressure. When designers rush wireframes to unblock d
 - **Product Managers**: Faster turnaround from requirements to reviewable wireframes, enabling quicker alignment and keeping sprints on schedule
 - **QA Engineers**: Comprehensive wireframe sets serve as test case documentation — every state the wireframe specifies becomes a test scenario
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Requirements-to-Wireframe Flow**
 ```
@@ -1873,12 +1896,12 @@ Generate:
 Output as a navigation specification with wireframes for each navigation level.
 ```
 
-
+:::
 ## 10. AI Design Handoff Documentation Builder
 
 > Reduces design handoff documentation time from **8 hours per feature** to **45 minutes** — generating pixel-perfect specs that eliminate 90% of engineer follow-up questions.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Handoffs That Create More Questions Than They Answer**
 
@@ -1932,8 +1955,9 @@ The problem is fundamentally one of translation between mental models. Designers
    - Creates a QA checklist derived from the spec — every documented behavior becomes a test case
    - Adds a "Known Decisions" section documenting why certain design choices were made (context for future maintainers)
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1950,8 +1974,9 @@ The problem is fundamentally one of translation between mental models. Designers
 - **QA Engineers**: Auto-generated test checklists derived from design specs ensure nothing is missed during quality assurance
 - **Design Managers**: Consistent handoff quality across the team regardless of individual designer documentation habits
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Complete Component Handoff Specification**
 ```
@@ -2103,12 +2128,12 @@ For each change, generate:
 Output as a change log document that developers can use as a PR checklist.
 ```
 
-
+:::
 ## 11. AI Icon Set Consistency Checker
 
 > Audits icon libraries of **500+ icons** in **under 30 minutes** — catching 98% of visual inconsistencies that manual reviews miss across stroke weight, optical size, and grid alignment.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Icon Sets That Look Like They Were Designed by 12 Different People**
 
@@ -2162,8 +2187,9 @@ The problem intensifies when organizations use icons from multiple sources — a
    - Flags "drift alerts" when a sequence of new additions gradually shifts the library style
    - Produces a quarterly icon audit report with prioritized remediation recommendations
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2180,8 +2206,9 @@ The problem intensifies when organizations use icons from multiple sources — a
 - **Product Designers**: Confidence that any icon chosen from the library will look consistent alongside any other icon, eliminating per-use visual checking
 - **Brand Managers**: Quantified assurance that the icon library maintains brand quality standards across all contributors and sources
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Full Icon Library Consistency Audit**
 ```
@@ -2323,12 +2350,12 @@ Evaluate each icon for:
 Output: Icon usability scorecard with prioritized improvements and alternative icon suggestions for any that scored poorly.
 ```
 
-
+:::
 ## 12. AI Design Critique & Feedback Synthesizer
 
 > Synthesizes feedback from **15+ stakeholders** into actionable design direction in **20 minutes** — resolving contradictory opinions that previously stalled projects for weeks.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Death by a Thousand Conflicting Opinions**
 
@@ -2382,8 +2409,9 @@ The political dimension makes it worse. When the VP of Marketing says "this need
    - Generates a "review health" dashboard showing average time-to-alignment per project
    - Recommends process improvements based on analysis of completed review cycles
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2400,8 +2428,9 @@ The political dimension makes it worse. When the VP of Marketing says "this need
 - **Design Directors**: Data on review cycle efficiency and recurring feedback patterns to improve team processes and stakeholder management
 - **All Reviewers**: Confidence that their feedback is captured, categorized, and addressed — or explicitly deprioritized with clear rationale
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Multi-Stakeholder Feedback Synthesis**
 ```
@@ -2549,12 +2578,12 @@ Analyze:
 Output as a design review retrospective report with specific, implementable recommendations.
 ```
 
-
+:::
 ## 13. AI Figma Component Usage Analyzer
 
 > Analyzes component usage across **200+ Figma files** in **under 1 hour** — identifying orphaned components, detached instances, and adoption gaps that waste 30% of design system investment.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: A Design System Nobody Fully Adopts**
 
@@ -2608,8 +2637,9 @@ The data problem extends beyond simple adoption counting. Design system teams ne
    - Estimates the cost of technical debt from detached instances and custom recreations
    - Produces executive-friendly ROI reports that connect design system investment to productivity and quality metrics
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2626,8 +2656,9 @@ The data problem extends beyond simple adoption counting. Design system teams ne
 - **Design Leadership**: Quantified ROI metrics to defend design system investment and allocate resources to highest-impact improvements
 - **Engineering Teams**: Fewer one-off component implementations as design system adoption increases, reducing front-end maintenance burden
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Component Usage Inventory**
 ```
@@ -2777,12 +2808,12 @@ Calculate and present:
 Format as an executive presentation with key metrics on page 1 and supporting detail following.
 ```
 
-
+:::
 ## 14. AI Dark Mode Design Converter
 
 > Converts light mode designs to **production-ready dark mode** in **4 hours** instead of **3 weeks** — handling semantic color mapping, elevation adjustments, and image treatments across 100+ screens.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Dark Mode Is Not "Invert the Colors"**
 
@@ -2836,8 +2867,9 @@ The scale of the work is what makes it truly painful. A typical SaaS product has
    - Validates that transitions between light and dark mode don't create flash-of-wrong-color artifacts
    - Generates a dark mode QA report with pass/fail per screen and prioritized fix list
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2854,8 +2886,9 @@ The scale of the work is what makes it truly painful. A typical SaaS product has
 - **Product Managers**: Ship dark mode as a standard feature without a multi-week design detour that delays the roadmap
 - **End Users**: A polished, well-considered dark mode experience rather than the hastily inverted version that causes eye strain and readability issues
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Light-to-Dark Mode Color System Conversion**
 ```
@@ -3009,12 +3042,12 @@ Generate:
 Output: Copy-paste-ready token files with implementation instructions.
 ```
 
-
+:::
 ## 15. AI Micro-Interaction Prototype Generator
 
 > Generates **production-ready micro-interaction specifications** in **90 minutes** — complete with timing curves, state transitions, and code snippets that previously took **2 weeks** to prototype and document.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Micro-Interactions That Get Cut Because Nobody Has Time to Spec Them**
 
@@ -3068,8 +3101,9 @@ Most designers skip the detailed specification and give engineers vague directio
    - Produces a motion component library specification: reusable animation patterns that engineers can apply without designer input
    - Generates a motion audit checklist for design reviews (does every state transition have appropriate motion?)
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3086,8 +3120,9 @@ Most designers skip the detailed specification and give engineers vague directio
 - **Design System Teams**: A documented motion language that ensures consistency across all product teams without reviewing every animation individually
 - **Users with Motion Sensitivity**: Every animation ships with a reduced-motion alternative, making the product accessible to the 35% of users who enable reduced motion settings
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Micro-Interaction Specification for a Component**
 ```
@@ -3292,12 +3327,12 @@ Generate a complete motion system document:
 Format as a design system documentation page.
 ```
 
-
+:::
 ## 16. AI Design Token Manager
 
 > Automates design token lifecycle across **Figma, code, and documentation** — reducing token drift incidents from **35 per quarter** to **fewer than 2** while cutting token management overhead by 85%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Design Tokens That Fall Out of Sync Across Every Platform**
 
@@ -3351,8 +3386,9 @@ Documentation is the perpetually neglected third pillar. Even when Figma and cod
    - Tracks token adoption over time: is tokenization increasing or are developers still hardcoding?
    - Measures "token coverage" — the percentage of all design values that are tokenized vs. hardcoded
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3369,8 +3405,9 @@ Documentation is the perpetually neglected third pillar. Even when Figma and cod
 - **Front-End Engineers**: Clear, current token reference with platform-specific usage examples — no more guessing which token to use or discovering stale documentation
 - **Mobile Engineers**: iOS and Android token values are automatically generated and kept in sync with web, eliminating the historical lag that caused cross-platform visual inconsistency
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Token System Architecture Design**
 ```
@@ -3535,12 +3572,12 @@ Output:
 - Process recommendation to prevent future drift
 ```
 
-
+:::
 ## 17. AI Visual Regression Testing Engine
 
 > Catches **100% of unintended visual changes** before deployment — reducing visual bugs in production from **22 per release** to **zero** with automated screenshot comparison across 50+ page-component combinations.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Visual Bugs That Slip Through Code Review and QA**
 
@@ -3594,8 +3631,9 @@ Existing visual regression tools (Percy, Chromatic, BackstopJS) help but have ad
    - Monitors trend data: is the regression rate increasing or decreasing over time?
    - Produces weekly visual quality reports showing regression rate, time-to-fix, and coverage metrics
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3612,8 +3650,9 @@ Existing visual regression tools (Percy, Chromatic, BackstopJS) help but have ad
 - **QA Engineers**: Automated visual testing replaces the most tedious part of QA (manual screenshot comparison), freeing time for functional and exploratory testing
 - **Release Managers**: A clear quality signal — no visual regressions means one fewer category of launch-blocking issues to worry about
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Visual Regression Test Configuration**
 ```
@@ -3766,12 +3805,12 @@ Generate a report including:
 Format for a team retrospective presentation — data-driven, actionable, under 10 minutes to present.
 ```
 
-
+:::
 ## 18. AI Typography Pairing Advisor
 
 > Generates **professionally harmonious typography pairings** in **15 minutes** — replacing weeks of trial-and-error with data-driven recommendations that improve readability scores by 28%.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Typography Pairing That Relies on Gut Feel and Good Luck**
 
@@ -3825,8 +3864,9 @@ The downstream cost of a poor typography choice is enormous because it's embedde
    - Includes 2 alternative pairings as fallback options with comparative analysis
    - Generates CSS and Figma text style specifications ready for implementation
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3843,8 +3883,9 @@ The downstream cost of a poor typography choice is enormous because it's embedde
 - **Front-End Engineers**: Performance-optimized font loading specifications with exact weights, subsets, and display strategies — no more debugging font loading issues
 - **Content Strategists**: Typography optimized for their content type (long reads, data tables, marketing copy) ensuring readability where it matters most
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Typography Pairing Recommendation**
 ```
@@ -4012,12 +4053,12 @@ Generate a brand typography guide including:
 Format as a brand guidelines chapter ready for the brand book.
 ```
 
-
+:::
 ## 19. AI Design Portfolio Review Assistant
 
 > Reviews design portfolios in **10 minutes** with institutional-quality critique — helping designers improve presentation quality by **65%** and doubling interview callback rates.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Portfolio Feedback Is Expensive, Subjective, and Inaccessible**
 
@@ -4071,8 +4112,9 @@ Self-review is insufficient because designers are too close to their own work. T
    - Identifies the single strongest and weakest case study, with specific guidance for each
    - Creates a 1-week revision plan with daily focus areas for efficient portfolio improvement
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4089,8 +4131,9 @@ Self-review is insufficient because designers are too close to their own work. T
 - **Career-Switching Designers**: Framework for reframing non-design experience as relevant design thinking, with guidance on portfolio structure for career changers
 - **Design Managers (as Hiring Managers)**: Higher-quality candidate portfolios mean less time wasted on misaligned interviews and faster identification of strong candidates
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Full Portfolio Review**
 ```
@@ -4247,12 +4290,12 @@ Help me prepare:
 Output as a presentation prep document with scripted talking points for key moments.
 ```
 
-
+:::
 ## 20. AI Multi-Platform Asset Exporter
 
 > Exports design assets for **7+ platforms** simultaneously in **under 30 minutes** — replacing a manual process that takes **2 full days** and eliminates the platform-specific sizing errors that cause 40% of asset-related bug reports.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Exporting Assets Is a Full-Time Job Nobody Wants**
 
@@ -4306,8 +4349,9 @@ The organizational dysfunction is that asset export is neither a design task nor
    - Generates asset manifest files that engineers import to reference assets by name rather than path
    - Maintains a browsable asset catalog with search, filtering, and download-per-platform capability
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4324,8 +4368,9 @@ The organizational dysfunction is that asset export is neither a design task nor
 - **Android Engineers**: Vector drawables and density-specific rasters in the correct resource folders with proper naming, eliminating manual asset wrangling
 - **Web Engineers**: Optimized WebP/SVG/PNG assets with fallbacks, delivered as an importable package with cache-busting filenames
 
+:::
 
-**Practical Prompts**
+::: details Practical Prompts
 
 **Prompt 1: Multi-Platform Export Configuration**
 ```
@@ -4513,3 +4558,5 @@ For each image context, define:
 
 Output as an implementation specification with HTML/CSS code examples for each image context.
 ```
+
+:::

@@ -6,7 +6,7 @@ AI-powered use cases for fund managers, VC analysts, and private equity professi
 
 > Automates the production of institutional-quality LP quarterly reports — covering fund performance, portfolio company updates, capital accounts, and market commentary — in hours instead of weeks.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Quarterly Reporting Consumes Weeks of High-Value Team Bandwidth**
 
@@ -60,8 +60,9 @@ The quality problem is equally significant. Reports produced under time pressure
    - Generates a final sign-off checklist confirming that all required sections are complete, all figures are reconciled, and all LPs have been mapped to their distribution list
    - Sends automated distribution notifications when the final report is released to the LP portal
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -78,8 +79,9 @@ The quality problem is equally significant. Reports produced under time pressure
 - **Limited Partners (LPs)**: Receive consistent, timely, ILPA-compliant reports with the portfolio detail and capital account accuracy needed to satisfy their own portfolio reporting and audit obligations
 - **Fund Administrators**: Eliminate repetitive formatting and narrative work, focusing their engagement with the GP on higher-value accounting and compliance functions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Quarterly Report Generation**
 ```
@@ -209,12 +211,12 @@ Draft:
 Tone: Professional, measured, LP-appropriate (no forward-looking guarantees; acknowledge risks; reflect investment thesis conviction)
 ```
 
-
+:::
 ## 682. AI Deal Flow Pipeline Scoring & Prioritization Engine
 
 > Scores and ranks inbound deal flow against fund thesis, team capacity, and historical win rates — so analysts spend time on the opportunities most likely to close and generate returns.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Unstructured Deal Flow Drowns Analysts in Low-Probability Opportunities**
 
@@ -268,8 +270,9 @@ The problem intensifies when deal flow is managed across multiple partners with 
    - Produces a pass recommendation for low-scoring deals with a draft declination note that can be sent with one click
    - Maintains a searchable deal database with full scoring history for post-mortem analysis of investment decisions
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -286,8 +289,9 @@ The problem intensifies when deal flow is managed across multiple partners with 
 - **Fund Managers (GPs)**: Ensure the fund's deployment strategy reflects its stated thesis consistently rather than being shaped by whichever deals happened to arrive at the right moment
 - **Founders**: Receive faster, more informed responses from funds — high-fit opportunities get rapid follow-up; low-fit submissions receive prompt, respectful declinations rather than indefinite silence
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Deal Thesis Alignment Scoring**
 ```
@@ -410,12 +414,12 @@ Analysis required:
 Output: Decision post-mortem memo + 3 specific recommended scoring model calibration changes
 ```
 
-
+:::
 ## 683. AI Term Sheet Clause Comparator & Red-Flag Highlighter
 
 > Compares term sheets side-by-side across economic and control provisions, flags non-market clauses, and identifies hidden economic costs before the fund commits to a deal structure.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Non-Market Term Sheet Clauses Cost Funds Millions in Hidden Economics**
 
@@ -468,8 +472,9 @@ The velocity of deal execution makes this problem worse. In a competitive round,
    - Generates a comparison of the current term sheet against the fund's standard investment terms for consistency
    - Produces a clean term sheet with all redlines resolved for final IC sign-off review
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -486,8 +491,9 @@ The velocity of deal execution makes this problem worse. In a competitive round,
 - **Legal Counsel**: Receive a pre-analyzed brief that focuses their time on genuinely complex provisions rather than performing a complete first-pass review from scratch
 - **Portfolio Companies (Founders)**: Benefit from investors who understand the full implications of what they are signing — funds using systematic term analysis negotiate more balanced terms rather than accepting or imposing extreme provisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Term Sheet Analysis**
 ```
@@ -608,12 +614,12 @@ Memo structure:
 Output format: 1-page IC memo with provisions ranked by economic significance + recommended language for each item we intend to negotiate
 ```
 
-
+:::
 ## 684. AI Cap Table Dilution Scenario Modeler
 
 > Models the dilution impact of future financing rounds, option pool expansions, convertible instruments, and exit scenarios on every shareholder — before the fund commits capital.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Cap Table Complexity Hides True Ownership Economics Until It's Too Late**
 
@@ -667,8 +673,9 @@ The downstream risk of an inaccurate or outdated cap table model is material. Fu
    - Produces a capital concentration analysis: what percentage of fund NAV is concentrated in each holding?
    - Generates a portfolio dilution risk report: which holdings have significant outstanding convertible instruments that could materially dilute our position in a future round?
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -685,8 +692,9 @@ The downstream risk of an inaccurate or outdated cap table model is material. Fu
 - **Portfolio Company CFOs and Founders**: Receive accurate, independently modeled cap table analyses that can serve as a verification check against their legal counsel's work before a new round closes
 - **Limited Partners (LPs)**: Benefit from fund managers who maintain accurate portfolio ownership records, resulting in more reliable NAV calculations and ownership reporting in quarterly LP reports
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Fully Diluted Cap Table Construction**
 ```
@@ -815,12 +823,12 @@ Portfolio summary:
 Output: Portfolio cap table dashboard table + dilution risk flag report + companies requiring updated cap table models
 ```
 
-
+:::
 ## 685. AI Fund Administration Expense Allocation Automator
 
 > Automates the allocation of fund-level expenses across LPs according to LPA terms, side letter obligations, and applicable regulatory requirements — eliminating manual spreadsheet errors and audit risk.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Expense Allocation Errors Create LP Disputes and Audit Exposure**
 
@@ -874,8 +882,9 @@ The regulatory environment has also intensified. The SEC's 2023 Private Fund Adv
    - Maintains a 7-year archive of all allocation records, notices, and supporting documents in a searchable, auditor-accessible format
    - Generates an annual fee and expense disclosure statement for each LP for inclusion in the annual report
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -892,8 +901,9 @@ The regulatory environment has also intensified. The SEC's 2023 Private Fund Adv
 - **Limited Partners**: Receive detailed, accurate expense attribution documentation with every capital call and distribution notice, satisfying their own internal audit and fiduciary documentation requirements
 - **Compliance and Legal Counsel**: Maintain a complete, auditor-ready record of all fee and expense allocation decisions, supporting SEC examination responses and LP audit rights exercises without scrambling to reconstruct records
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Management Fee Calculation and Notice Generation**
 ```
@@ -1030,13 +1040,12 @@ Flag any LP whose closing balance differs from the expected amount by more than 
 Output: LP capital account statement for each LP + aggregate fund reconciliation table + discrepancy flag report
 ```
 
-
-
+:::
 ## 686. AI Portfolio Company KPI Health Monitor
 
 > Tracks KPIs across the entire portfolio in real time, flags underperformers and covenant risks before they become crises, and surfaces early warning signals that allow GP intervention before permanent value impairment.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Portfolio Monitoring Lags Reality — Problems Surface Too Late to Fix**
 
@@ -1090,8 +1099,9 @@ The intervention cost of late detection is enormous. A portfolio company that be
    - Maintains a log of all flags, interventions, and resolutions for each portfolio company for investment committee reference and LP reporting
    - Generates a "portfolio company watch list" for the GP's monthly investment committee meeting, prioritized by risk severity and capital at risk
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1108,8 +1118,9 @@ The intervention cost of late detection is enormous. A portfolio company that be
 - **Investment Committee Members**: Receive a structured, data-driven portfolio health briefing at each IC meeting rather than qualitative updates filtered through deal team optimism
 - **Limited Partners**: See the benefit of systematic portfolio monitoring in better fund-level performance outcomes and more accurate mid-term NAV assessments, reducing valuation surprises at exit
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Portfolio KPI Dashboard Generation**
 ```
@@ -1234,12 +1245,12 @@ Provide:
 Output: Intervention brief (2 pages) for distribution to the deal partner and investment committee
 ```
 
-
+:::
 ## 687. AI IRR & MOIC Sensitivity Scenario Calculator
 
 > Models fund-level and deal-level IRR and MOIC across hundreds of exit timing, valuation, and portfolio construction scenarios — enabling investment committees to understand the full distribution of outcomes before committing capital.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Single-Point Return Estimates Create Overconfidence and Mislead Investment Committees**
 
@@ -1293,8 +1304,9 @@ Fund-level return modeling faces an additional complexity that deal-level models
    - Generates an "optimal follow-on" recommendation: the capital amount that maximizes the fund's blended net IRR given the company's current trajectory
    - Produces a "portfolio construction scorecard" comparing the current portfolio's risk-return profile against the fund's original deployment thesis
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1311,8 +1323,9 @@ Fund-level return modeling faces an additional complexity that deal-level models
 - **Limited Partners**: Receive more transparent return projections in fund marketing materials, with a stated probability distribution rather than a single base case that implicitly ignores downside scenarios
 - **Fund Auditors and Valuation Specialists**: Use the scenario model infrastructure to support ASC 820 fair value assessments and IRC 409A valuations for portfolio companies with complex return structures
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Deal-Level IRR/MOIC Sensitivity Table**
 ```
@@ -1451,12 +1464,12 @@ Tone: transparent, calibrated, LP-appropriate (no guarantees; acknowledge uncert
 Output: Formatted 2-page performance update section suitable for LP annual meeting presentation deck
 ```
 
-
+:::
 ## 688. AI Co-Investment Opportunity Risk-Return Analyzer
 
 > Evaluates co-investment opportunities alongside a lead GP, benchmarks terms against market standards, and provides LPs and co-investors with a rapid risk-return assessment before the co-investment window closes.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Co-Investment Windows Are Too Short for Thorough Independent Analysis**
 
@@ -1510,8 +1523,9 @@ The risk-return analysis for co-investments is also technically demanding in way
    - Generates a portfolio impact summary: how this investment affects overall portfolio concentration and risk profile
    - Maintains a co-investment database: all opportunities evaluated, decisions made, and outcomes tracked
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1528,8 +1542,9 @@ The risk-return analysis for co-investments is also technically demanding in way
 - **Fund of Funds Managers**: Evaluate co-investment opportunities from multiple GPs on a consistent analytical framework, enabling portfolio construction across a diverse co-investment program
 - **GP Investor Relations Teams**: Benefit from co-investors who can engage more substantively with deal quality and terms, leading to faster, more reliable co-investment closes with fewer withdrawals
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Co-Investment Opportunity Assessment**
 ```
@@ -1645,12 +1660,12 @@ Monitoring plan:
 Output: Monitoring plan document + quarterly review checklist for our investment team
 ```
 
-
+:::
 ## 689. AI M&A Add-On Target Screening Engine
 
 > Identifies, scores, and prioritizes acquisition targets for portfolio companies pursuing an add-on M&A strategy — accelerating deal flow generation and improving target fit assessment before management bandwidth is consumed.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Add-On M&A Target Identification Is a Resource-Intensive Bottleneck for PE Portfolio Value Creation**
 
@@ -1704,8 +1719,9 @@ The evaluation quality problem compounds the sourcing challenge. When targets ar
    - Produces a quarterly "white space analysis": which geographic markets or product segments in the acquisition strategy are not yet covered by engaged targets?
    - Integrates with the platform's post-merger integration tracker to connect acquisition completion to value creation milestone tracking
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1722,8 +1738,9 @@ The evaluation quality problem compounds the sourcing challenge. When targets ar
 - **M&A Intermediaries and Brokers**: Receive faster, more informed responses to their deal submissions, improving the quality of the GP/platform relationship and generating more targeted deal flow
 - **Limited Partners**: See accelerated execution of the buy-and-build value creation thesis they underwrote at fund commitment, supported by systematic rather than ad hoc acquisition sourcing
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Add-On Target Universe Construction**
 ```
@@ -1839,12 +1856,12 @@ Report sections:
 Output: Formatted 1-page pipeline report for distribution to PE deal team and portfolio company CEO
 ```
 
-
+:::
 ## 690. AI Investment Memo Drafting Assistant
 
 > Drafts comprehensive investment committee memos covering market thesis, company analysis, financial diligence, risk assessment, and deal terms — turning analyst notes and diligence findings into IC-ready documents in hours.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Investment Memo Drafting Consumes Disproportionate Analyst Time Without Adding Analytical Value**
 
@@ -1898,8 +1915,9 @@ The coordination challenge makes the problem worse. A complete IC memo requires 
    - Produces a version with tracked changes for partner review, with all source references linked to the underlying diligence documents
    - Generates a 1-page IC "deal card" summary for board meeting pre-reads where partners want the short version first
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -1916,8 +1934,9 @@ The coordination challenge makes the problem worse. A complete IC memo requires 
 - **Investment Committees**: Make better decisions with more consistent memo quality across deals and teams, reducing the noise introduced by variable presentation quality
 - **Portfolio Company Founders**: Benefit from faster processes — the compression in IC prep time means faster term sheet to close timelines, which matters when founders are managing competitive round dynamics
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Investment Memo Draft**
 ```
@@ -2044,13 +2063,12 @@ Executive summary (200–300 words):
 Output: Executive summary + deal card, each on one page, formatted for IC distribution
 ```
 
-
-
+:::
 ## 691. AI Fund Marketing Deck & Pitch Book Builder
 
 > Builds institutional-quality fund marketing materials — including pitch books, one-pagers, and data room documents — that communicate the fund's thesis, track record, and team to prospective LPs.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Fundraising Materials Consume Months of GP Time and Arrive Inconsistent and Outdated**
 
@@ -2104,8 +2122,9 @@ The LP differentiation challenge compounds these problems. Different LP audience
    - Produces LP-specific update packs: the specific sections that have changed since a particular LP last received materials
    - Maintains a library of all materials versions distributed to each LP for compliance record-keeping
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2122,8 +2141,9 @@ The LP differentiation challenge compounds these problems. Different LP audience
 - **Limited Partners (Prospective)**: Receive materials that are tailored to their specific investment mandate and due diligence requirements, enabling faster internal approval processes
 - **Placement Agents**: Work with GP clients whose marketing materials are consistently formatted, data-accurate, and LP-ready, reducing the rework cycle that typically delays placement launches
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Fund Pitch Book Draft**
 ```
@@ -2259,12 +2279,12 @@ Generate:
 Output: Updated pitch book + change log memo
 ```
 
-
+:::
 ## 692. AI LP Relationship & Commitment Tracker
 
 > Maintains a comprehensive, current view of all LP relationships, commitments, soft circles, and engagement touchpoints — ensuring no LP falls through the cracks during a fundraise or re-up cycle.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: LP Relationship Management Is Fragmented Across Inboxes, Spreadsheets, and Institutional Memory**
 
@@ -2318,8 +2338,9 @@ The post-close relationship management challenge is equally significant. Once a 
    - Generates a compliance status dashboard: all LP-facing obligations for the current quarter, status (complete / in progress / not started), and responsible team member
    - Maintains a record of all LP communications for regulatory compliance and legal reference purposes
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2336,8 +2357,9 @@ The post-close relationship management challenge is equally significant. Once a 
 - **Fund Administrators**: Coordinate capital call and distribution logistics with accurate, current LP contact and bank information without chasing the IR team for records
 - **Limited Partners**: Experience more proactive, consistent communication from the GP — informed outreach rather than reactive responses to LP-initiated contact
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: LP Commitment and Pipeline Tracker Setup**
 ```
@@ -2479,12 +2501,12 @@ Generate:
 Output: Annual compliance calendar (monthly view) + Q1 action list + LP-specific obligation register
 ```
 
-
+:::
 ## 693. AI Form D / AIFMD Regulatory Filing Preparer
 
 > Automates the preparation of required regulatory filings for private funds — including SEC Form D, AIFMD reporting, and state blue sky filings — reducing preparation time and eliminating common errors that trigger regulatory scrutiny.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Private Fund Regulatory Filings Are Technically Demanding, Deadline-Driven, and Error-Prone When Managed Manually**
 
@@ -2538,8 +2560,9 @@ The AIFMD reporting burden for cross-border USD funds with European LPs has adde
    - Supports examination responses: when a regulator requests documentation supporting a specific filing, COCO retrieves the full preparation package with source references
    - Generates a periodic "regulatory health check" reviewing all outstanding filings for completeness and accuracy
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2556,8 +2579,9 @@ The AIFMD reporting burden for cross-border USD funds with European LPs has adde
 - **Fund Managers and GPs**: Maintain full regulatory compliance without diverting partner time to filing mechanics, with a documented compliance record that supports examination defense
 - **Limited Partners**: Invest in funds that demonstrate systematic regulatory compliance — an important operational due diligence signal for institutional LP investors evaluating GP operational quality
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Form D Initial Filing Preparation**
 ```
@@ -2685,12 +2709,12 @@ Generate:
 Output: Annual compliance calendar (monthly view) + current status dashboard + 30-day action list
 ```
 
-
+:::
 ## 694. AI ESG & Impact Reporting Engine for LPs
 
 > Generates comprehensive ESG and impact reports for LP audiences — covering portfolio company sustainability metrics, fund-level ESG integration, and progress toward stated impact targets — in formats aligned with leading ESG reporting frameworks.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: LP ESG Reporting Demands Are Intensifying Faster Than GP Infrastructure Can Keep Pace**
 
@@ -2744,8 +2768,9 @@ The framework complexity problem compounds the data challenge. There is no singl
    - Creates an ESG data room package with all underlying data, collection methodology notes, and data quality disclosures
    - Produces year-over-year ESG performance comparison showing progress and areas requiring continued focus
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2762,8 +2787,9 @@ The framework complexity problem compounds the data challenge. There is no singl
 - **Portfolio Companies**: Receive structured ESG data requests with clear guidance on measurement methodology, building internal ESG reporting capabilities that benefit them beyond GP reporting
 - **Limited Partners**: Receive consistent, framework-aligned ESG data that satisfies their own internal reporting requirements and regulatory obligations, reducing the friction of alternative asset ESG compliance
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Annual ESG Report Generation**
 ```
@@ -2886,12 +2912,12 @@ Generate:
 Output: LP-specific ESG data pack (PDF, 4–6 pages) formatted for their internal reporting submission
 ```
 
-
+:::
 ## 695. AI Venture Portfolio Concentration Risk Analyzer
 
 > Analyzes fund-level concentration risk across sectors, stages, geographies, business models, and capital deployment timing — and models the portfolio construction adjustments needed to improve risk-adjusted return profiles.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Portfolio Concentration Risks Build Silently Until They Crystallize in Simultaneous Losses**
 
@@ -2945,8 +2971,9 @@ The problem intensifies at fund-level. The fund's LPA describes a stated investm
    - Drafts the annual portfolio construction review section for the LP annual meeting presentation
    - Produces a "risk factor disclosure" summary for new LP marketing materials describing the portfolio's known concentration risks and how they are managed
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -2963,8 +2990,9 @@ The problem intensifies at fund-level. The fund's LPA describes a stated investm
 - **Investment Committee Members**: Evaluate each new deal in the context of its portfolio construction implications, not just its standalone investment thesis, leading to better-balanced portfolio decisions over the fund lifecycle
 - **Fund of Funds Managers**: Analyze concentration risk across multiple GP allocations to manage portfolio-level correlation risk in their own multi-manager programs
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Portfolio Concentration Analysis**
 ```
@@ -3091,13 +3119,12 @@ Tone: factual, quantitative, transparent — LPs appreciate seeing that the GP i
 Output: Portfolio concentration and risk section (2–3 pages) formatted for insertion into quarterly LP report
 ```
 
-
-
+:::
 ## 696. AI Secondary Market LP Interest Valuation Tool
 
 > Provides rapid, defensible fair value assessments for LP interests in secondary transactions — analyzing underlying portfolio company values, discount-to-NAV dynamics, and market conditions to support buy-side and sell-side pricing decisions.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Secondary LP Interest Pricing Is Opaque, Time-Constrained, and Analytically Demanding**
 
@@ -3151,8 +3178,9 @@ The market dynamics of secondary pricing create additional complexity. Discount-
    - Reviews the proposed secondary purchase agreement for alignment with the LPA's transfer mechanics and buyer/seller protections
    - Generates a transaction checklist with all required approvals, filings, and documentation for closing the secondary transfer
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3169,8 +3197,9 @@ The market dynamics of secondary pricing create additional complexity. Discount-
 - **Primary Fund GPs**: Facilitate LP liquidity through secondary transactions more efficiently by supporting prospective buyers with structured data packages and consenting to transfers on an informed basis
 - **Institutional LP Investment Committees**: Approve LP interest sales with documented valuation analysis rather than accepting broker price quotes at face value
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: LP Interest Secondary Valuation**
 ```
@@ -3304,12 +3333,12 @@ Portfolio-level output:
 Output: Fund-by-fund pricing table + aggregate portfolio pricing summary + bid recommendation
 ```
 
-
+:::
 ## 697. AI Management Fee & Carry Waterfall Calculator
 
 > Models management fee calculations, carried interest waterfalls, and GP/LP distribution mechanics under any fund LPA structure — ensuring accurate economic modeling and transparent LP disclosure.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Waterfall Mechanics Are Complex, Error-Prone, and the Source of the Most Contentious GP/LP Disputes**
 
@@ -3363,8 +3392,9 @@ The carry clawback provision — which requires the GP to return distributed car
    - Produces the disclosures required by the SEC's private fund adviser rules regarding compensation and carried interest
    - Calculates the fund's effective fee rate (total fees and carry as a % of committed capital) for LP comparison and marketing purposes
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3381,8 +3411,9 @@ The carry clawback provision — which requires the GP to return distributed car
 - **Limited Partners**: Receive transparent, auditable waterfall calculations that confirm their distributions are accurate, satisfying their fiduciary documentation requirements and reducing the friction of LP audit rights exercises
 - **Placement Agents and Fund Marketers**: Model fund economics for GP marketing materials with precision, enabling accurate representations of expected GP/LP economic outcomes to prospective LPs
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Management Fee Quarterly Calculation**
 ```
@@ -3538,12 +3569,12 @@ Total LP return net of all fees and carry: DPI [X]x / TVPI [X]x / Net IRR [X]%
 Output: 1-page GP economics summary slide for LP annual meeting + narrative disclosure (for LPs who want full transparency on GP economics)
 ```
 
-
+:::
 ## 698. AI Startup Founder Reference Check Synthesizer
 
 > Synthesizes qualitative findings from founder reference check calls into structured, actionable character and leadership assessments — reducing the time to complete personnel due diligence and improving the quality of investment committee management assessments.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Reference Checks Are Time-Consuming to Conduct, Inconsistent to Synthesize, and Rarely Integrated into IC Decision-Making**
 
@@ -3598,8 +3629,9 @@ The reference check bias problem is also significant. Investment teams conduct f
    - Generates post-investment monitoring recommendations: specific behaviors or areas to watch during the first 12 months based on the reference findings
    - Maintains the reference check documentation in a confidential personnel file for regulatory and legal reference
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3616,8 +3648,9 @@ The reference check bias problem is also significant. Investment teams conduct f
 - **Investment Committees**: Make founder quality assessments based on systematic, multi-source evidence rather than the deal team's relationship-influenced impressions, improving decision consistency across deals
 - **Portfolio Companies (Post-Investment)**: Benefit from investors who entered the relationship with accurate expectations about the founder's strengths and development areas, enabling more targeted and effective board-level support
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Reference Call Guide Generation**
 ```
@@ -3741,12 +3774,12 @@ Tone: analytically honest — acknowledge both strengths and concerns; do not ch
 Output: Management section for IC memo + brief confidential reference check flag note for partner-only review
 ```
 
-
+:::
 ## 699. AI Competitive Landscape Mapping for Portfolio Companies
 
 > Maps the competitive landscape for portfolio companies at investment entry and on a quarterly basis — providing GPs and portfolio company management with strategic intelligence to inform positioning, pricing, and go-to-market decisions.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Competitive Intelligence Gets Stale Fast — But Portfolio Teams Rarely Have Time to Keep It Current**
 
@@ -3800,8 +3833,9 @@ The GP's competitive intelligence challenge extends beyond individual portfolio 
    - Generates a portfolio-level competitive intelligence briefing for the GP's quarterly IC meeting
    - Produces "competitive landscape convergence" alerts when two portfolio companies' competitive landscapes are converging — an early warning of potential in-portfolio conflicts
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3818,8 +3852,9 @@ The GP's competitive intelligence challenge extends beyond individual portfolio 
 - **Portfolio Company Sales Teams**: Receive battle cards and win/loss analysis from COCO-powered competitive intelligence, improving competitive win rates and shortening sales cycles
 - **Investment Committees**: Evaluate follow-on investments and exit timing decisions with current competitive landscape context rather than the original deal thesis competitive map
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Comprehensive Competitive Landscape Mapping**
 ```
@@ -3939,12 +3974,12 @@ Analyze across the portfolio:
 Output: Portfolio competitive intelligence briefing (2 pages for GP quarterly IC meeting) + cross-portfolio opportunity map + competitive threat priority ranking
 ```
 
-
+:::
 ## 700. AI Board Meeting Preparation Pack Generator
 
 > Automates the creation of comprehensive board meeting preparation materials for portfolio company board meetings — including pre-read packages, management review analysis, and action item tracking.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Board Meeting Preparation Consumes Deal Team Time Without Proportional Improvement in Meeting Quality**
 
@@ -3998,8 +4033,9 @@ The quality gap between prepared and unprepared board members is material to por
    - Creates follow-up reminders for the deal partner's own action items arising from the meeting
    - Updates the rolling action item log and prepares the accountability brief for the next meeting
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4016,8 +4052,9 @@ The quality gap between prepared and unprepared board members is material to por
 - **Portfolio Company Boards (Independent Directors)**: Benefit from a deal partner's well-prepared participation, elevating the overall board discussion quality and accountability level
 - **Limited Partners**: See the downstream impact of better board governance in improved portfolio company performance outcomes and more active GP involvement in value creation
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Board Package Analysis and Executive Brief**
 ```
@@ -4148,13 +4185,12 @@ Generate:
 Output: Board meeting summary + action item register + follow-up communication draft (if needed)
 ```
 
-
-
+:::
 ## 701. AI Venture Portfolio Concentration Risk Analyzer
 
 > Identify dangerous single-company exposure before it becomes a fund-killing position.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Concentration Risk Creeps Up Invisibly**
 
@@ -4208,8 +4244,9 @@ The regulatory and LP relationship consequences are real. Some LPs have explicit
    - Creates visualization-ready data exports for GP deck concentration slides
    - Formats data for integration with fund administration software (Allvue, Juniper Square, Carta)
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4226,8 +4263,9 @@ The regulatory and LP relationship consequences are real. Some LPs have explicit
 - **LP Relations Teams**: Automate compliance monitoring for concentration covenants across dozens of LP side letters without manual tracking
 - **Fund CFOs/COOs**: Generate ILPA-compliant concentration disclosures and capital account statements in hours rather than days
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Portfolio Concentration Snapshot**
 
@@ -4336,12 +4374,12 @@ Changes vs. prior quarter:
 Write a 2-paragraph concentration risk section for the LP report in ILPA-recommended format, explaining current concentration, the GP's rationale for maintaining it, and any planned actions.
 ```
 
-
+:::
 ## 702. AI Secondary Market LP Interest Valuation Tool
 
 > Price LP interests accurately and negotiate secondary transactions from a position of data strength.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Secondary LP Interest Pricing Is an Opaque, High-Stakes Negotiation**
 
@@ -4395,8 +4433,9 @@ Pricing complexity is substantial. A fund's NAV on paper tells only part of the 
    - Creates transfer closing checklist: assignment agreement, amendment to schedule of LPs, updated cap table
    - Schedules follow-up: post-transfer capital account reconciliation for fund administrator
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4413,8 +4452,9 @@ Pricing complexity is substantial. A fund's NAV on paper tells only part of the 
 - **Fund CFOs/COOs**: Manage transfer consent workflow systematically, reducing legal and administrative error
 - **Secondary Fund Buyers**: Validate their pricing models against GP-provided portfolio data more efficiently in due diligence
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — LP Interest Valuation Request**
 
@@ -4535,12 +4575,12 @@ Anticipated buyer pushback and counter-arguments:
 Draft: negotiation memo with pricing rationale, counter-offer price, and walk-away price with justification.
 ```
 
-
+:::
 ## 703. AI Management Fee & Carry Waterfall Calculator
 
 > Model every fee and carry scenario with precision — before you sign the LPA and after every distribution.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Waterfall Calculations Are Error-Prone and Dispute-Generating**
 
@@ -4594,8 +4634,9 @@ LPs are increasingly sophisticated about waterfall calculations. Major instituti
    - Models tax withholding requirements for foreign LP distributions (FIRPTA, FDAP withholding)
    - Produces wire instruction schedule for fund administrator to execute distributions
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4612,8 +4653,9 @@ LPs are increasingly sophisticated about waterfall calculations. Major instituti
 - **LP Finance Teams**: Independently verify GP waterfall calculations with compatible models, reducing reconciliation time
 - **Fund Administrators**: Receive precise distribution calculation inputs, reducing back-and-forth with GP finance teams
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Waterfall Structure Comparison**
 
@@ -4744,12 +4786,12 @@ For each scenario:
 5. Is current clawback reserve ($[X]M) sufficient?
 ```
 
-
+:::
 ## 704. AI Startup Founder Reference Check Synthesizer
 
 > Transform reference calls from polite formalities into decisive investment intelligence.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Reference Checks Are the Most Underutilized Due Diligence Tool in Venture**
 
@@ -4803,8 +4845,9 @@ The synthesis problem is the hardest part: how do you combine six reference call
    - Recommendation: proceed with conviction, proceed with specific monitoring plan, or pass with reference rationale
    - Appends structured notes from all reference calls for IC members who want to review raw data
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4821,8 +4864,9 @@ The synthesis problem is the hardest part: how do you combine six reference call
 - **Investment Committees**: Review structured, synthesized reference reports rather than informal verbal summaries from single partners
 - **Portfolio Founders**: Benefit from GPs who hired better fund leaders — systematic reference processes improve portfolio team quality throughout
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Reference Call Question Generator**
 
@@ -4950,12 +4994,12 @@ Section 5: Recommendation (proceed / proceed with conditions / pass) with ration
 Section 6: Appendix — structured notes from each call
 ```
 
-
+:::
 ## 705. AI Competitive Landscape Mapping for Portfolio Companies
 
 > Give your portfolio companies the competitive intelligence that Fortune 500 strategy teams spend millions to assemble.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Portfolio Companies Waste Months on Competitive Research That GPs Could Systematize**
 
@@ -5009,8 +5053,9 @@ For GPs, the cost is asymmetric. A portfolio company that misunderstands its com
    - Benchmarks portfolio company's competitive position against GP's prior portfolio companies at similar stages
    - Tracks competitive intensity score over time: is the market getting more or less competitive?
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5027,8 +5072,9 @@ For GPs, the cost is asymmetric. A portfolio company that misunderstands its com
 - **General Partners**: Deliver tangible value-add beyond capital through portfolio intelligence services that strengthen GP-founder relationships
 - **LPs**: Benefit from GP-level competitive monitoring that helps portfolio companies navigate competitive threats before they become existential
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Competitive Landscape Discovery**
 
@@ -5153,12 +5199,12 @@ Draft:
 4. Any competitive threats the board should be aware of that management may not be highlighting
 ```
 
-
+:::
 ## 706. AI Board Meeting Preparation Pack Generator
 
 > Walk into every board meeting as the best-prepared person in the room.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Board Preparation Is Chaotic, Inconsistent, and Leaves GPs Underlevered**
 
@@ -5212,8 +5258,9 @@ The asymmetry problem compounds this: founders spend weeks preparing board mater
    - Updates action item tracker for next meeting preparation cycle
    - Schedules follow-up check-ins for time-sensitive action items (30-day or 60-day check)
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5230,8 +5277,9 @@ The asymmetry problem compounds this: founders spend weeks preparing board mater
 - **Investment Associates**: Support GP board preparation systematically, building analytical skills and portfolio company knowledge
 - **LPs**: Benefit from GP board engagement that improves portfolio company performance through better governance
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Board Package Rapid Analysis**
 
@@ -5339,12 +5387,12 @@ Generate:
 5. Update to my board prep template for next quarter: any standing questions I should add based on today's discussion?
 ```
 
-
+:::
 ## 707. AI Fund Vintage Year Performance Benchmarker
 
 > Know exactly where your fund stands relative to the market — before your LPs tell you.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: GPs Benchmark in Vacuum or Not at All**
 
@@ -5398,8 +5446,9 @@ For GPs raising Fund II or III, vintage year benchmarking is an LP prerequisite.
    - Identifies whether the fund's quartile position is strengthening or weakening and what to say
    - Creates Fund II/III fundraising track record summary benchmarking prior funds vs. vintage peers
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5416,8 +5465,9 @@ For GPs raising Fund II or III, vintage year benchmarking is an LP prerequisite.
 - **Fund CFOs**: Generate accurate, multi-source benchmark data for LP reports and annual meeting presentations
 - **LPs**: Receive clearly benchmarked performance data that enables more informed re-up decisions and portfolio allocation
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Quartile Ranking Calculation**
 
@@ -5552,12 +5602,12 @@ Generate:
 6. Any performance nuances that need proactive explanation (J-curve, COVID impact, etc.)
 ```
 
-
+:::
 ## 708. AI Deal Pipeline Conversion Rate Analytics Engine
 
 > Know which deals are dying and why — before you've spent 200 hours on due diligence.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: VC Deal Pipelines Are Black Boxes That Waste Analyst Time**
 
@@ -5611,8 +5661,9 @@ The competitive intelligence value is equally underutilized. Every passed deal r
    - Calculates proprietary sourcing advantage metrics (% of investments sourced before other VCs engaged)
    - Benchmarks deal review capacity vs. fund investment pace for fund size justification
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5629,8 +5680,9 @@ The competitive intelligence value is equally underutilized. Every passed deal r
 - **LP Relations**: Show LPs quantitative proof of sourcing quality and investment discipline in quarterly and annual reports
 - **Scouts and Venture Partners**: Receive performance data on their sourcing contributions, enabling accountability and incentive alignment
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Pipeline Funnel Conversion Analysis**
 
@@ -5754,12 +5806,12 @@ Generate:
 5. LP-facing commentary on competitive deal dynamics this year
 ```
 
-
+:::
 ## 709. AI LP Co-Investment Rights & Pro-Rata Tracker
 
 > Never miss a co-investment or pro-rata obligation — and never create an LP relations problem from a missed right.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Co-Investment and Pro-Rata Rights Are Contractually Binding and Administratively Nightmarish**
 
@@ -5813,8 +5865,9 @@ Pro-rata rights in portfolio companies add another layer of complexity. When a p
    - Produces annual side letter compliance certification for LP audits
    - Alerts GP when any side letter obligation is approaching without action taken
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5831,8 +5884,9 @@ Pro-rata rights in portfolio companies add another layer of complexity. When a p
 - **LP Relations Teams**: Answer LP questions about co-investment opportunities and performance with instant access to complete co-investment history
 - **LPs with Co-Investment Rights**: Receive timely, complete notifications of co-investment opportunities they are entitled to, enabling informed decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — LP Co-Investment Rights Registry Setup**
 
@@ -5971,12 +6025,12 @@ Generate:
 5. Recommendation: any adjustments to co-investment right size or strategy for next fund?
 ```
 
-
+:::
 ## 710. AI Private Company Valuation Methodology Selector
 
 > Stop debating valuation methodology at the board table — arrive with the right framework already chosen.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Private Company Valuation Is Simultaneously Critical and Methodologically Contested**
 
@@ -6032,8 +6086,9 @@ ASC 820 (and IFRS 13 for international funds) has increasingly regulated this sp
    - Produces valuation summary for finance committee and LP reporting
    - Generates footnote language for financial statements explaining significant valuation assumptions
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6050,8 +6105,9 @@ ASC 820 (and IFRS 13 for international funds) has increasingly regulated this sp
 - **Fund Auditors**: Receive comprehensive, ASC 820-compliant valuation memos that reduce audit time and queries
 - **Portfolio Company Finance Teams**: Benefit from GP valuation analysis that informs their own 409A and financial reporting processes
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Valuation Methodology Selection**
 
@@ -6180,12 +6236,12 @@ Analyze:
 This sensitivity table will be included in the ASC 820 valuation memo.
 ```
 
-
+:::
 ## 711. AI Cross-Fund Investment Conflict of Interest Detector
 
 > Surface conflicts between funds before they become LP disputes or SEC enforcement actions.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Multi-Fund GPs Face Complex Conflict of Interest Obligations That Spreadsheets Cannot Track**
 
@@ -6239,8 +6295,9 @@ Most GP firms address conflicts through a combination of lawyers and judgment, w
    - Creates FAQ document for LPs who ask questions about specific conflict situations
    - Prepares GP response templates for SEC examination inquiries about conflict management
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6257,8 +6314,9 @@ Most GP firms address conflicts through a combination of lawyers and judgment, w
 - **LPs and LPAC Members**: Receive timely, complete conflict disclosures that enable informed consent decisions
 - **Fund Auditors**: Review conflict management documentation as part of annual audit with complete records available
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Cross-Fund Conflict Scan**
 
@@ -6384,12 +6442,12 @@ Generate:
 4. Response to any specific examiner inquiries about conflict identification methodology
 ```
 
-
+:::
 ## 712. AI Emerging Market Fund Risk Adjustment Calculator
 
 > Price emerging market risk correctly — so LPs understand what they're getting and GPs can justify the premium.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Emerging Market Funds Apply Developed Market Frameworks to Fundamentally Different Risk Environments**
 
@@ -6443,8 +6501,9 @@ Country and political risk adds another layer. A fund concentrated in one countr
    - Creates comparison: developed market equivalent return for this emerging market fund (risk-adjusted)
    - Benchmarks fund risk against EMPEA (Emerging Market Private Equity Association) data
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6461,8 +6520,9 @@ Country and political risk adds another layer. A fund concentrated in one countr
 - **Fund CFOs**: Manage the complexity of multi-currency, multi-jurisdiction fund accounting with systematic frameworks
 - **DFI Co-Investors**: Receive compliant E&S and development impact reporting that meets their institutional requirements
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Currency-Adjusted Return Calculation**
 
@@ -6602,12 +6662,12 @@ Fund risk metrics:
 Draft a 1-page emerging market risk section for the LP quarterly report covering: currency risk, country/political risk, exit market conditions, and risk mitigation measures the GP has taken.
 ```
 
-
+:::
 ## 713. AI Sector Rotation Signal Monitor for VC Portfolios
 
 > Know when the market is rotating away from your thesis before the term sheets stop coming.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: VC Sector Theses Get Stale While GPs Are Head-Down Managing Portfolio Companies**
 
@@ -6661,8 +6721,9 @@ For portfolio management, sector rotation creates specific acute problems. Portf
    - Suggests new investment thesis areas for Fund II/III based on emerging sector signals
    - Produces LP communication update on sector trends affecting fund portfolio
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6679,8 +6740,9 @@ For portfolio management, sector rotation creates specific acute problems. Portf
 - **Portfolio Company CEOs**: Receive GP-provided sector intelligence that helps them time fundraising and position against sector trends
 - **LPs**: Benefit from GP sector rotation awareness that preserves fund returns when sectors rotate
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Quarterly Sector Funding Trend Analysis**
 
@@ -6803,12 +6865,12 @@ Portfolio positioning:
 Draft a 1-page sector analysis section that demonstrates GP's thesis awareness and proactive portfolio management, suitable for institutional LP quarterly report.
 ```
 
-
+:::
 ## 714. AI Fund Wind-Down & Liquidation Planning Advisor
 
 > Navigate the most complex phase of fund management with a systematic plan — not improvisation.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Fund Wind-Down Is the Most Administratively Complex Phase and the Most Neglected**
 
@@ -6862,8 +6924,9 @@ Reserve management in the wind-down phase is equally challenging. How much of re
    - Drafts clawback payment mechanics: timeline, wire instructions, tax treatment
    - Generates clawback certificate for LP audit: confirms clawback calculation methodology and amount
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6880,8 +6943,9 @@ Reserve management in the wind-down phase is equally challenging. How much of re
 - **LPs**: Receive transparent, timely communication about remaining portfolio, exit timelines, and expected final distributions throughout the wind-down period
 - **Fund Counsel**: Work with GPs who have complete, organized wind-down documentation rather than reconstructing records during a rushed final liquidation
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Remaining Portfolio Exit Priority Analysis**
 
@@ -7020,12 +7084,12 @@ Fund entity dissolution: expected [DATE]
 Draft: final fund closing letter that is professional, honest, grateful, and sets the stage for LP re-up to Fund II/III. Tone: warm, direct, accountable. Length: 1.5–2 pages.
 ```
 
-
+:::
 ## 715. AI Manager Selection Due Diligence Scorecard Builder
 
 > Evaluate fund managers the way the best endowments do — with a systematic framework, not gut instinct.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: LP Manager Selection Is Often Superficial, Inconsistent, and Relationship-Driven**
 
@@ -7080,8 +7144,9 @@ The due diligence documentation problem is equally significant. LP investment co
    - Produces ongoing monitoring framework: what metrics will the LP track to verify GP performs as expected?
    - Documents conditions or concerns that will trigger allocation review
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -7098,8 +7163,9 @@ The due diligence documentation problem is equally significant. LP investment co
 - **Fund-of-Funds Managers**: Build scalable manager selection infrastructure that supports a diversified portfolio of 20–40 GPs without proportional headcount increases
 - **Family Offices**: Access institutional-grade GP due diligence frameworks typically available only to endowments and pension funds with large dedicated teams
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Manager Due Diligence Scorecard**
 
@@ -7250,12 +7316,12 @@ Escalation triggers (initiate formal review if):
 - [ ] Re-up decision threshold: assess re-up to Fund [N+1] based on Fund [N] performance at year [X]
 ```
 
-
+:::
 ## 716. AI GP Stakes Secondary Transaction Analyzer
 
 > Model GP stakes economics with precision before selling a piece of your firm's future carry.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: GP Stakes Transactions Are Among the Most Complex and Consequential Deals a Firm Will Ever Do**
 
@@ -7309,8 +7375,9 @@ The economics of GP stakes transactions are genuinely complex. GP stakes buyers 
    - Models re-investment of GP stakes proceeds: if GP reinvests at X% return, what is the net wealth effect?
    - Generates founder wealth comparison: GP stakes proceeds + continuing economics vs. 100% continuing economics
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -7327,8 +7394,9 @@ The economics of GP stakes transactions are genuinely complex. GP stakes buyers 
 - **Investment Banks and Placement Agents**: Use systematic GP stakes analysis tools to advise fund manager clients more effectively
 - **GP Stakeholder Partners**: Understand the economic implications of a GP stakes transaction on their personal economics before the firm commits
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Management Company Valuation**
 
@@ -7466,12 +7534,12 @@ Calculate for 20-year horizon (year 2024–2044):
 5. Recommendation: at what GP stakes price does selling become wealth-maximizing?
 ```
 
-
+:::
 ## 717. AI Revenue-Based Financing Term Optimizer
 
 > Structure RBF deals that win competitive deals while protecting downside — without sacrificing return.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Revenue-Based Financing Structuring Is Both Art and Science — and Most Funds Get the Balance Wrong**
 
@@ -7525,8 +7593,9 @@ Portfolio concentration risk in RBF is different from equity VC. RBF portfolios 
    - Generates LP quarterly report section for RBF portfolio: advance balances, collections, realized returns
    - Benchmarks portfolio performance against RBF industry benchmarks (Lighter Capital, Capchase data)
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -7543,8 +7612,9 @@ Portfolio concentration risk in RBF is different from equity VC. RBF portfolios 
 - **Fund CFOs**: Manage portfolio monitoring and covenant compliance systematically without manual spreadsheet tracking
 - **LPs**: Benefit from superior risk-adjusted returns generated by disciplined underwriting and proactive portfolio management
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — RBF Term Optimization for a Specific Deal**
 
@@ -7682,12 +7752,12 @@ Performance vs. underwriting:
 Generate: 1-page RBF portfolio section for LP quarterly report covering: portfolio health, realized returns, watch list status, and comparison to underwriting assumptions.
 ```
 
-
+:::
 ## 718. AI Micro-VC Fund Economics & Carry Scenario Modeler
 
 > Model the math of running a small fund before you raise it — and optimize for GP economics, not just LP returns.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Micro-VC Fund Economics Are Brutal and Widely Misunderstood by First-Time GPs**
 
@@ -7741,8 +7811,9 @@ Portfolio construction for micro-VCs presents additional mathematical challenges
    - Prepares carried interest waterfall explanation for first-time LP investors
    - Creates breakeven analysis: at what fund performance do LPs earn more than public market alternatives?
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -7759,8 +7830,9 @@ Portfolio construction for micro-VCs presents additional mathematical challenges
 - **Emerging Manager Program LPs**: Evaluate micro-VC economics as part of due diligence on first-time fund managers
 - **Placement Agents**: Use systematic micro-VC economic modeling to advise first-time GP clients on fund sizing and structure
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Micro-VC Fund Economics Model**
 
@@ -7914,12 +7986,12 @@ For each scenario: GP management fee economics, portfolio construction requireme
 Recommend: optimal Fund II size and rationale.
 ```
 
-
+:::
 ## 719. AI QSBS Tax Benefit Eligibility Tracker
 
 > Maximize your LPs' Section 1202 exclusion — the most valuable tax benefit in venture investing.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: QSBS Eligibility Is Worth Millions in LP Tax Savings — and Most GPs Track It Inadequately**
 
@@ -7973,8 +8045,9 @@ GPs bear responsibility for the fund-level QSBS determination. While each LP's i
    - Identifies Section 1045 rollover option: LPs can roll QSBS proceeds into new QSBS to restart the 5-year clock
    - Coordinates with fund tax counsel for fund-level QSBS planning before major exits
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -7991,8 +8064,9 @@ GPs bear responsibility for the fund-level QSBS determination. While each LP's i
 - **Fund Tax Counsel**: Work with GPs who have complete, organized QSBS documentation rather than reconstructing records years after investment
 - **Portfolio Company Finance Teams**: Receive systematic requests for gross asset confirmations and entity documentation that helps them understand their own QSBS status
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — QSBS Eligibility Screen for New Investment**
 
@@ -8121,12 +8195,12 @@ Draft:
 4. Brief explanation of why this documentation matters (LP tax benefit, no company cost)
 ```
 
-
+:::
 ## 720. AI Dollar-Denominated Fund (USD Fund) Structuring Advisor
 
 > Structure offshore USD-denominated funds correctly the first time — before regulatory complexity derails your fundraise.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: USD Fund Structuring for Emerging Market GPs Is a Minefield of Competing Legal, Tax, and Regulatory Requirements**
 
@@ -8180,8 +8254,9 @@ For USD funds investing in specific countries like China, India, or Indonesia, a
    - Generates seed investor documentation requirements: first closing mechanics, subscription agreement, capital call procedures
    - Produces formation cost estimate: one-time legal + registration costs by jurisdiction ($250K–$600K typical range)
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -8198,8 +8273,9 @@ For USD funds investing in specific countries like China, India, or Indonesia, a
 - **Institutional LPs**: Invest in properly structured funds that meet their internal compliance requirements without requiring costly structural modifications
 - **Fund Administrators**: Receive properly structured fund documents that enable efficient administration from day one
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1 — Fund Jurisdiction Selection Analysis**
 
@@ -8369,3 +8445,4 @@ Week 13–16 — First Close Preparation:
 Estimated formation costs by category: [itemize legal, registration, administration, audit setup]
 ```
 
+:::

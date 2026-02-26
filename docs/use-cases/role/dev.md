@@ -3201,7 +3201,7 @@ This week's data:
 
 > Identify which technical debt actually costs your team — teams targeting COCO's top-priority debt items achieve 3× more velocity improvement per engineering-hour than random refactoring.
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Drowning in Debt You Can't See, Measure, or Defend**
 
@@ -3248,8 +3248,9 @@ COCO's AI Technical Debt Prioritizer transforms a diffuse, subjective problem in
    - Alerts when new features introduce debt above a configurable threshold
    - Generates sprint-level debt reports to keep teams accountable without adding process overhead
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3267,8 +3268,9 @@ COCO's AI Technical Debt Prioritizer transforms a diffuse, subjective problem in
 - **CTOs / VPs of Engineering**: Translate technical debt into business risk language for board and product conversations
 - **DevOps / Platform Engineers**: Identify infrastructure-layer technical debt (deprecated runtimes, EOL dependencies) before it becomes an incident
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Codebase Debt Assessment**
 ```
@@ -3361,12 +3363,12 @@ Questions to answer:
 Produce a dependency debt roadmap with effort estimates and risk ratings for each item.
 ```
 
-
+:::
 ## 23. AI Code Refactoring Advisor {#case-23}
 
 **Role**: Developer / Senior Engineer / Tech Lead | **Industry**: Technology, SaaS, Fintech, Enterprise Software | **Task**: Legacy Code Modernization, Refactoring Strategy, Code Quality Improvement
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Legacy Code That Nobody Wants to Touch — But Everyone Has to**
 
@@ -3416,8 +3418,9 @@ COCO's AI Code Refactoring Advisor analyzes legacy code patterns and generates s
    - TypeScript: strict mode adoption path, interface segregation, utility type refactoring
    - Node.js: callback → Promise → async/await migration, ESM migration, Express → framework patterns
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3435,8 +3438,9 @@ COCO's AI Code Refactoring Advisor analyzes legacy code patterns and generates s
 - **Junior / Mid Engineers**: Learn refactoring patterns through concrete, code-specific examples rather than abstract theory
 - **Engineering Managers**: Get effort and risk estimates that make refactoring work plannable and trackable alongside feature work
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Single Module Deep Refactoring Analysis**
 ```
@@ -3534,12 +3538,12 @@ Please recommend:
 5. Test approach for the refactored version
 ```
 
-
+:::
 ## 24. AI Code Coverage Gap Finder {#case-24}
 
 **Role**: Developer / QA Engineer / Tech Lead | **Industry**: Technology, SaaS, Fintech, Healthcare Software | **Task**: Test Coverage Analysis, Quality Risk Assessment, Test Strategy
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: High Coverage Numbers That Lie About Your Actual Risk**
 
@@ -3590,8 +3594,9 @@ COCO's AI Code Coverage Gap Finder goes beyond line counting to identify which u
    - Generates a coverage improvement roadmap with effort estimates for closing critical gaps
    - Integrates with CI/CD to enforce coverage gates on new code while managing legacy coverage debt separately
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3609,8 +3614,9 @@ COCO's AI Code Coverage Gap Finder goes beyond line counting to identify which u
 - **Tech Leads**: Can make defensible decisions about coverage targets based on risk rather than arbitrary percentage thresholds
 - **Engineering Managers**: Understand test coverage health as a risk metric, not just a compliance checkbox
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Risk-Based Coverage Gap Analysis**
 ```
@@ -3719,12 +3725,12 @@ Please design:
 6. Coverage targets by module that would give us confidence to deploy
 ```
 
-
+:::
 ## 25. AI Incident Root Cause Analyzer {#case-25}
 
 **Role**: Developer / SRE / DevOps Engineer | **Industry**: Technology, SaaS, Fintech, E-commerce | **Task**: Production Incident Response, Root Cause Analysis, Post-Mortem Generation
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Every Minute of Downtime Is a Race Against Incomplete Information**
 
@@ -3776,8 +3782,9 @@ COCO's AI Incident Root Cause Analyzer ingests logs, metrics, and traces from pr
    - Suggests specific, measurable action items to prevent recurrence (not vague "improve monitoring" but "add alert for connection pool utilization > 80% with 5-minute window")
    - Tracks action item completion across subsequent incidents
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3795,8 +3802,9 @@ COCO's AI Incident Root Cause Analyzer ingests logs, metrics, and traces from pr
 - **Engineering Managers**: Get reliable post-mortems that produce genuine organizational learning and measurable follow-through
 - **CTOs / VPs of Engineering**: Understand incident patterns, systemic risk areas, and the effectiveness of reliability investments
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Active Incident Root Cause Investigation**
 ```
@@ -3873,12 +3881,12 @@ Questions to answer:
 5. What monitoring/alerting would have caught this earlier?
 ```
 
-
+:::
 ## 26. AI Infrastructure Cost Optimizer {#case-26}
 
 **Role**: Developer / DevOps Engineer / SRE / Engineering Manager | **Industry**: Technology, SaaS, Fintech, E-commerce | **Task**: Cloud Cost Optimization, FinOps, Infrastructure Right-Sizing
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Cloud Bills That Grow Faster Than Revenue**
 
@@ -3933,8 +3941,9 @@ COCO's AI Infrastructure Cost Optimizer analyzes cloud spend patterns across AWS
    - Tracks realized savings after recommendations are implemented
    - Generates a FinOps report suitable for engineering and finance leadership
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -3952,8 +3961,9 @@ COCO's AI Infrastructure Cost Optimizer analyzes cloud spend patterns across AWS
 - **Developers**: Understand the cost impact of their infrastructure decisions, enabling cost-conscious engineering
 - **CFO / Finance**: Get engineering-validated cost reduction roadmaps with realistic timelines and projected savings
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Cloud Cost Audit**
 ```
@@ -4038,12 +4048,12 @@ Please:
 6. Estimate the implementation effort for each optimization
 ```
 
-
+:::
 ## 27. AI CI/CD Pipeline Optimizer {#case-27}
 
 **Role**: Developer / DevOps Engineer / Platform Engineer | **Industry**: Technology, SaaS, Fintech, Enterprise Software | **Task**: CI/CD Optimization, Build Performance, Developer Productivity
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Pipelines That Have Become a Tax on Developer Productivity**
 
@@ -4096,8 +4106,9 @@ COCO's AI CI/CD Pipeline Optimizer analyzes pipeline configurations, run histori
    - Recommends path-based filtering: skip build and test steps when only documentation, configuration, or non-code files change
    - Suggests pipeline-as-code refactoring to eliminate duplication across workflow files
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4115,8 +4126,9 @@ COCO's AI CI/CD Pipeline Optimizer analyzes pipeline configurations, run histori
 - **Engineering Managers**: Improve DORA metrics (deploy frequency, lead time for changes) — the metrics that define engineering team performance
 - **CTOs**: Reduce CI/CD infrastructure costs while improving developer throughput
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Pipeline Performance Analysis**
 ```
@@ -4206,12 +4218,12 @@ Please:
 6. Estimate the build time and image size improvement from each change
 ```
 
-
+:::
 ## 28. AI System Design Reviewer {#case-28}
 
 **Role**: Developer / Senior Engineer / Tech Lead / Solution Architect | **Industry**: Technology, SaaS, Fintech, Enterprise Software | **Task**: Architecture Review, Design Validation, Scalability Assessment
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Architecture Decisions Made in a Vacuum, Discovered Too Late**
 
@@ -4265,8 +4277,9 @@ COCO's AI System Design Reviewer evaluates architecture diagrams, design documen
    - Creates a "design assumptions" document capturing explicit assumptions that should be validated
    - Suggests specific design alternatives for critical findings with trade-off analysis
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4284,8 +4297,9 @@ COCO's AI System Design Reviewer evaluates architecture diagrams, design documen
 - **Engineering Managers**: Establish consistent, documented architectural review processes that scale with team growth
 - **CTOs**: Build architectural governance that catches systemic risks without creating bureaucratic bottlenecks
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full System Design Review**
 ```
@@ -4361,12 +4375,12 @@ Please:
 5. Identify related decisions that should also be documented (decisions this choice implies or constrains)
 ```
 
-
+:::
 ## 29. AI Microservices Dependency Analyzer {#case-29}
 
 **Role**: Developer / Senior Engineer / Platform Engineer / Solution Architect | **Industry**: Technology, SaaS, Fintech, Enterprise Software | **Task**: Service Dependency Mapping, Microservices Architecture, System Reliability
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: A Map of Your System That Nobody Has**
 
@@ -4418,8 +4432,9 @@ COCO's AI Microservices Dependency Analyzer automatically maps service-to-servic
    - Tracks dependency graph health metrics over time (coupling trends, SPOF count, cycle count)
    - Enables dependency governance policies: "Service X cannot directly depend on Service Y — must go through Service Z"
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4437,8 +4452,9 @@ COCO's AI Microservices Dependency Analyzer automatically maps service-to-servic
 - **Individual Developers**: Understand impact of changes before deploying — no more "I didn't know Service B depended on mine"
 - **Engineering Managers**: Gain visibility into hidden coupling that creates unplanned cross-team coordination costs
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Service Dependency Map Generation**
 ```
@@ -4530,12 +4546,12 @@ Please:
 5. Identify what tests need to exist before starting migration
 ```
 
-
+:::
 ## 30. AI API Design Validator {#case-30}
 
 **Role**: Developer / API Engineer / Tech Lead / Platform Engineer | **Industry**: Technology, SaaS, Fintech, Developer Platforms | **Task**: API Design Review, Contract Validation, API Governance
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: APIs That Work on Day One and Break Teams on Day One Hundred**
 
@@ -4590,8 +4606,9 @@ COCO's AI API Design Validator examines API contracts against protocol-specific 
    - Validates that security scheme definitions are complete and applied consistently
    - Lints AsyncAPI specifications for event-driven API designs (Kafka, WebSocket, AMQP)
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4609,8 +4626,9 @@ COCO's AI API Design Validator examines API contracts against protocol-specific 
 - **Developer Relations / API Consumer Teams**: Receive better-designed, more consistent APIs with complete documentation
 - **Tech Leads**: Enforce API design standards programmatically rather than relying on individual reviewer knowledge
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: REST API Design Review**
 ```
@@ -4696,12 +4714,12 @@ Please review:
 8. Recommend specific DataLoader patterns for identified N+1 risks
 ```
 
-
+:::
 ## 31. AI Threat Model Generator {#case-31}
 
 **Role**: Developer / Security Engineer / Tech Lead / Application Architect | **Industry**: Technology, SaaS, Fintech, Healthcare, Enterprise Software | **Task**: Threat Modeling, Security Architecture, Risk Assessment
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Security Reviews That Happen Too Late, Cover Too Little**
 
@@ -4751,8 +4769,9 @@ COCO's AI Threat Model Generator creates systematic STRIDE/DREAD threat models f
    - Integrates with development workflows: threat model check as part of feature design review
    - Tracks mitigation implementation status: which identified threats have been addressed, which are still open
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4770,8 +4789,9 @@ COCO's AI Threat Model Generator creates systematic STRIDE/DREAD threat models f
 - **Tech Leads / Architects**: Integrate security into design decisions from the start, not as a post-development gate
 - **Compliance & Risk Teams**: Get documented, systematic security analysis that satisfies regulatory audit requirements
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Application Threat Model**
 ```
@@ -4858,12 +4878,12 @@ Please generate:
 6. Test cases that would validate the security of each mitigation
 ```
 
-
+:::
 ## 32. AI Security Incident Forensics Assistant {#case-32}
 
 **Role**: Developer / Security Engineer / DevOps Engineer / Incident Responder | **Industry**: Technology, SaaS, Fintech, Healthcare, Enterprise Software | **Task**: Security Incident Investigation, Digital Forensics, Incident Timeline Analysis
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Security Incidents That Unfold Faster Than Humans Can Analyze**
 
@@ -4917,8 +4937,9 @@ COCO's AI Security Incident Forensics Assistant analyzes security incident artif
    - Drafts a regulatory notification with the required elements for GDPR, HIPAA, or other applicable frameworks
    - Generates evidence preservation checklist ensuring forensic integrity is maintained throughout
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -4936,8 +4957,9 @@ COCO's AI Security Incident Forensics Assistant analyzes security incident artif
 - **Engineering Leadership**: Understand the full scope and timeline of incidents for accurate business impact assessment
 - **Legal / Compliance Teams**: Receive analysis-backed regulatory notifications and legal evidence packages on compressed timelines
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Initial Compromise Investigation**
 ```
@@ -5027,12 +5049,12 @@ Questions to answer:
 7. Are there IoCs I should immediately block at the firewall/WAF?
 ```
 
-
+:::
 ## 33. AI Access Permission Auditor {#case-33}
 
 **Role**: Developer / DevOps Engineer / Security Engineer / Platform Engineer | **Industry**: Technology, SaaS, Fintech, Healthcare, Enterprise | **Task**: IAM Audit, Least Privilege Enforcement, Compliance Review
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Access Creep That Accumulates Until It Becomes a Security Crisis**
 
@@ -5085,8 +5107,9 @@ COCO's AI Access Permission Auditor reviews IAM policies, RBAC configurations, a
    - Produces an access cleanup plan with effort estimates and sequencing recommendations
    - Generates permission scope recommendations for new service accounts using observed access patterns
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5104,8 +5127,9 @@ COCO's AI Access Permission Auditor reviews IAM policies, RBAC configurations, a
 - **Tech Leads / Developers**: Get guidance on correct scoping for service account permissions in new infrastructure code
 - **CTO / CISO**: Demonstrate least-privilege compliance to auditors and enterprise customers with documented, systematic access reviews
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: AWS IAM Audit**
 ```
@@ -5199,12 +5223,12 @@ Please:
 6. Map findings to specific compliance control gaps with remediation recommendations
 ```
 
-
+:::
 ## 34. AI Legacy Code Archaeologist {#case-34}
 
 **Role**: Software Developer / Senior Engineer / Tech Lead | **Industry**: SaaS, Enterprise Software, Financial Services, Healthcare IT | **Task**: Code Review, Legacy System Modernization, Technical Debt Analysis, Documentation
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Developers Are Losing Weeks Every Quarter to Code That Nobody Alive Can Fully Explain**
 
@@ -5248,8 +5272,9 @@ COCO's AI Legacy Code Archaeologist performs deep structural analysis of codebas
    - Estimates modernization complexity per module based on coupling metrics, cyclomatic complexity, and dependency density
    - Produces a risk-ranked modernization sequencing recommendation: which modules to replace first, which to leave until last
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5266,8 +5291,9 @@ COCO's AI Legacy Code Archaeologist performs deep structural analysis of codebas
 - **Engineering Managers**: Produce accurate time and risk estimates for legacy modernization projects instead of guesses that routinely underestimate by 40-60%
 - **SRE and Platform Teams**: Diagnose production incidents faster when the affected code is in systems built before current team members joined
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Unfamiliar Function Deep Dive**
 ```
@@ -5392,12 +5418,12 @@ Please produce a modernization assessment:
 7. Realistic timeline estimate: given the complexity assessment, what timeline would you recommend and what are the major risks to that timeline?
 ```
 
-
+:::
 ## 35. AI Code Documentation Generator {#case-35}
 
 **Role**: Developer | **Industry**: SaaS, Enterprise Software, Developer Tools, Platform Engineering | **Task**: Documentation, Code Review, Knowledge Management
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Codebases That Only Their Authors Can Navigate**
 
@@ -5452,8 +5478,9 @@ COCO's AI Code Documentation Generator analyzes code structure, function signatu
    - Generates documentation diffs: what documentation needs to be updated after a set of code changes
    - Integrates with CI/CD to enforce documentation requirements on new code
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5470,8 +5497,9 @@ COCO's AI Code Documentation Generator analyzes code structure, function signatu
 - **Tech Leads**: Enforce documentation standards without manual review overhead — use COCO to generate a baseline that humans refine
 - **DevRel and Platform Teams**: Generate accurate API documentation that improves developer experience for internal and external API consumers
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Generate Docstrings for a Function or Class**
 ```
@@ -5584,12 +5612,12 @@ Please:
 5. Suggest any documentation additions that would prevent this type of staleness in the future (e.g., adding examples that would fail if the docs diverged from code)
 ```
 
-
+:::
 ## 36. AI Performance Bottleneck Detective {#case-36}
 
 **Role**: Developer | **Industry**: SaaS, E-commerce, Fintech, Enterprise Software | **Task**: Performance Optimization, Profiling, System Tuning
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Performance Investigations That Take Longer Than the Code That Caused Them**
 
@@ -5644,8 +5672,9 @@ COCO's AI Performance Bottleneck Detective analyzes profiling output, database q
    - Models the performance improvement expected from specific optimizations vs. capacity additions
    - Identifies the traffic level at which the current architecture becomes unsustainable
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5662,8 +5691,9 @@ COCO's AI Performance Bottleneck Detective analyzes profiling output, database q
 - **Platform and SRE Teams**: Investigate performance incidents faster and build better runbooks from COCO-generated diagnosis reports
 - **Engineering Managers**: Reduce the time senior engineers spend on performance investigations that could be handled with AI assistance
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Diagnose Slow API Endpoint**
 ```
@@ -5801,12 +5831,12 @@ Please:
 6. What safeguards (memory limits, circuit breakers) should be in place while the fix is being developed?
 ```
 
-
+:::
 ## 37. AI API Design Reviewer {#case-37}
 
 **Role**: Developer | **Industry**: SaaS, Platform Engineering, Fintech, Enterprise Software | **Task**: Code Review, API Design, Developer Experience
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: APIs Designed for the Author, Not the Consumer**
 
@@ -5860,8 +5890,9 @@ COCO's AI API Design Reviewer evaluates REST, GraphQL, and gRPC APIs against des
    - Checks for schema reuse vs. duplication
    - Validates that examples are present and accurate
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -5878,8 +5909,9 @@ COCO's AI API Design Reviewer evaluates REST, GraphQL, and gRPC APIs against des
 - **Developer Relations Teams**: Ship external APIs that developers love rather than apologize for
 - **Tech Leads**: Conduct thorough API design reviews without needing to be an expert on every API paradigm
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full REST API Design Review**
 ```
@@ -5991,12 +6023,12 @@ Please evaluate:
 8. Schema evolution — are there fields/types that will be difficult to change later?
 ```
 
-
+:::
 ## 38. AI Database Schema Optimizer {#case-38}
 
 **Role**: Developer | **Industry**: SaaS, Fintech, E-commerce, Enterprise Software | **Task**: Database Design, Performance Optimization, Schema Review
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Database Schemas Designed for Today That Become Tomorrow's Performance Crisis**
 
@@ -6051,8 +6083,9 @@ COCO's AI Database Schema Optimizer reviews database schemas for performance ris
    - Recommends safe migration strategies: expand-contract pattern, shadow tables, online DDL
    - Estimates migration duration for tables with specific row counts and data volumes
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6069,8 +6102,9 @@ COCO's AI Database Schema Optimizer reviews database schemas for performance ris
 - **Engineering Managers**: Prevent expensive database migrations before they become necessary by catching design issues early
 - **Architects**: Validate data model decisions against performance requirements before committing to a schema
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Schema Design Review**
 ```
@@ -6199,12 +6233,12 @@ Please design:
 6. A diagram description (text-based ER diagram) showing the relationships
 ```
 
-
+:::
 ## 39. AI Incident Post-Mortem Writer {#case-39}
 
 **Role**: Developer | **Industry**: SaaS, E-commerce, Fintech, Enterprise Software | **Task**: Incident Response, Post-Mortem Documentation, Reliability
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Post-Mortems Written Under Pressure Produce Shallow Analysis and No Learning**
 
@@ -6258,8 +6292,9 @@ COCO's AI Incident Post-Mortem Writer generates structured, comprehensive post-m
    - Recommends systemic improvements that would address a class of incidents rather than just this one
    - Identifies gaps in the on-call runbook that this incident revealed
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6276,8 +6311,9 @@ COCO's AI Incident Post-Mortem Writer generates structured, comprehensive post-m
 - **Engineering Managers**: Get consistent, high-quality incident documentation that enables organizational learning
 - **Leadership Teams**: Receive clear, non-technical incident summaries that communicate business impact accurately
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Generate Full Post-Mortem from Incident Data**
 ```
@@ -6418,12 +6454,12 @@ Please evaluate:
 7. Provide a revised version of the weakest section(s) showing how to improve them
 ```
 
-
+:::
 ## 40. AI Dependency Vulnerability Scanner {#case-40}
 
 **Role**: Developer | **Industry**: SaaS, Enterprise Software, Fintech, Healthcare Software | **Task**: Security, Dependency Management, Supply Chain Security
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Open Source Dependencies Are a Security Attack Surface Most Teams Don't Manage**
 
@@ -6476,8 +6512,9 @@ COCO's AI Dependency Vulnerability Scanner analyzes dependency manifests, identi
    - Creates a dependency update schedule: automated PRs for patch-version security updates
    - Generates SBOM (Software Bill of Materials) for compliance requirements
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6494,8 +6531,9 @@ COCO's AI Dependency Vulnerability Scanner analyzes dependency manifests, identi
 - **Engineering Managers**: Meet security SLAs for vulnerability remediation with visibility into the current state
 - **Compliance and Legal Teams**: Demonstrate due diligence in supply chain security with documented scanning and remediation
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full Dependency Vulnerability Audit**
 ```
@@ -6616,12 +6654,12 @@ Please assess each dependency for:
 7. Prioritize findings: which dependency risks should be addressed first?
 ```
 
-
+:::
 ## 41. AI Test Case Generator {#case-41}
 
 **Role**: Developer | **Industry**: SaaS, Enterprise Software, Fintech, Healthcare Software | **Task**: Testing, Quality Assurance, Test-Driven Development
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Test Suites That Cover the Code but Not the Risk**
 
@@ -6673,8 +6711,9 @@ COCO's AI Test Case Generator analyzes code, specifications, and existing test s
    - Designs test cases that are specifically crafted to catch the most likely mutation errors
    - Recommends mutation testing tools and configuration for the project's language and test framework
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6691,8 +6730,9 @@ COCO's AI Test Case Generator analyzes code, specifications, and existing test s
 - **Tech Leads**: Enforce test quality standards with COCO-generated baseline tests that developers review and refine
 - **Engineering Managers**: Reduce production defect rates without proportionally increasing development time
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Generate Comprehensive Unit Tests**
 ```
@@ -6822,12 +6862,12 @@ Please design:
 7. CI configuration to run integration tests efficiently
 ```
 
-
+:::
 ## 42. AI Code Refactoring Strategist {#case-42}
 
 **Role**: Developer | **Industry**: SaaS, Enterprise Software, Fintech, Developer Tools | **Task**: Code Review, Refactoring, Technical Debt
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Refactoring Stalls When Nobody Agrees on Where to Start or How to Do It Safely**
 
@@ -6877,8 +6917,9 @@ COCO's AI Code Refactoring Strategist analyzes code for structural issues, desig
    - Ensures each PR is independently deployable: contains a complete, working state
    - Generates PR descriptions that explain the intent of each step for code reviewers
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -6895,8 +6936,9 @@ COCO's AI Code Refactoring Strategist analyzes code for structural issues, desig
 - **Engineering Managers**: Prioritize technical debt reduction with visibility into the effort, risk, and business impact of specific refactoring initiatives
 - **Product Managers**: Understand why technical investment in refactoring produces faster, more reliable feature development — making the case for allocating time to it
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Analyze Code for Refactoring Opportunities**
 ```
@@ -7020,12 +7062,12 @@ Please evaluate:
 7. Overall assessment: approve, approve with suggestions, or request changes?
 ```
 
-
+:::
 ## 43. AI System Architecture Advisor {#case-43}
 
 **Role**: Developer | **Industry**: SaaS, Enterprise Software, Platform Engineering, Fintech | **Task**: Analysis, Architecture, System Design
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Architecture Decisions Are Made Once and Lived With for Decades — Usually With Insufficient Analysis**
 
@@ -7076,8 +7118,9 @@ COCO's AI System Architecture Advisor provides on-demand architectural analysis,
    - Estimates the total cost of ownership of building vs. buying: implementation time, operational complexity, maintenance burden
    - Identifies the capability gaps that would be created by each option and their business impact
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -7094,8 +7137,9 @@ COCO's AI System Architecture Advisor provides on-demand architectural analysis,
 - **Engineering Managers and Directors**: Make informed build-vs-buy and architectural investment decisions with structured analysis rather than gut feel
 - **CTOs and VPs of Engineering**: Ensure architectural decisions across multiple teams are documented, reasoned, and consistent with organizational scaling goals
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Architecture Design Review**
 ```
@@ -7229,12 +7273,12 @@ Please:
 7. Recommendation: proceed, don't proceed, or proceed with modifications — and why.
 ```
 
-
+:::
 ## 44. AI CI/CD Pipeline Optimizer {#case-44}
 
 **Role**: Developer | **Industry**: SaaS, Enterprise Software, Developer Tools, Platform Engineering | **Task**: Automation, DevOps, Performance Optimization
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Slow, Flaky CI/CD Pipelines Are a Hidden Tax on Engineering Productivity That Compounds Every Day**
 
@@ -7286,8 +7330,9 @@ COCO's AI CI/CD Pipeline Optimizer analyzes pipeline configurations, build times
    - Recommends local pre-commit hooks that match CI checks to catch failures before pipeline runs
    - Designs branch-specific pipeline strategies: fast feedback pipelines for feature branches, comprehensive pipelines for main
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -7304,8 +7349,9 @@ COCO's AI CI/CD Pipeline Optimizer analyzes pipeline configurations, build times
 - **Security Engineers**: Audit CI/CD pipeline security with the same rigor applied to production systems
 - **Engineering Managers**: Track and improve the deployment pipeline metrics that directly predict team delivery velocity
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Full CI/CD Pipeline Analysis and Optimization**
 ```
@@ -7442,12 +7488,12 @@ Please:
 6. Expected build time improvement from the optimized Dockerfile and caching strategy
 ```
 
-
+:::
 ## 45. AI Error Log Analyzer {#case-45}
 
 **Role**: Developer | **Industry**: SaaS, Enterprise Software, E-commerce, Fintech | **Task**: Monitoring, Debugging, Incident Response
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Engineering Teams Drown in Log Volume While the Signal They Need Hides in Plain Sight**
 
@@ -7498,8 +7544,9 @@ COCO's AI Error Log Analyzer ingests raw log output, identifies patterns, correl
    - Recommends new alert rules based on the patterns identified in incident logs
    - Identifies alert noise: existing alerts that fired but weren't actionable, causing alarm fatigue
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -7516,8 +7563,9 @@ COCO's AI Error Log Analyzer ingests raw log output, identifies patterns, correl
 - **Backend Developers**: Investigate application errors in services they didn't build, with guidance on what the errors mean in context
 - **Engineering Managers**: Reduce mean time to resolution (MTTR) as a measurable team metric, with COCO providing systematic analysis where manual review falls short
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Analyze Error Logs During an Active Incident**
 ```
@@ -7637,12 +7685,12 @@ Please design:
 6. Any existing alerts I should review for tuning based on the patterns in these logs
 ```
 
-
+:::
 ## 46. AI Open Source Contribution Reviewer {#case-46}
 
 **Role**: Developer | **Industry**: SaaS, Enterprise Software, Developer Tools, Platform Engineering | **Task**: Code Review, Open Source, Community
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Open Source Maintainers Are Overwhelmed, and Contributors Are Left Waiting or Guessing**
 
@@ -7693,8 +7741,9 @@ COCO's AI Open Source Contribution Reviewer provides automated first-pass review
    - Identifies the most similar merged PRs in the project for the contributor to reference as style examples
    - Provides context on the project's architecture and conventions that's relevant to the specific contribution
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -7711,8 +7760,9 @@ COCO's AI Open Source Contribution Reviewer provides automated first-pass review
 - **Developer Relations and Community Teams**: Scale community contribution programs without proportionally scaling maintainer review time
 - **Engineering Teams Consuming Open Source**: Have greater confidence in the security and quality of open source contributions from their team members and from external contributors to libraries they depend on
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Pre-Submission Contribution Review**
 ```
@@ -7844,12 +7894,12 @@ Please create:
 6. Suggested language for the most common types of review feedback I need to give
 ```
 
-
+:::
 ## 47. AI Developer Code Review Quality Auditor
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Developer Code Review Quality Auditor**
 
@@ -7903,8 +7953,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -7921,8 +7972,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Code Review Analysis**
 ```
@@ -8041,12 +8093,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 48. AI Developer API Documentation Generator
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Developer API Documentation Gaps**
 
@@ -8100,8 +8152,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -8118,8 +8171,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Technical Documentation Analysis**
 ```
@@ -8238,12 +8292,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 49. AI Developer Security Vulnerability Scanner
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Developer Security Vulnerability Scanner**
 
@@ -8297,8 +8351,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -8315,8 +8370,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Security Scanning Analysis**
 ```
@@ -8435,12 +8491,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 50. AI Developer Automated Test Case Generator
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Developer Automated Test Case Gaps**
 
@@ -8494,8 +8550,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -8512,8 +8569,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Testing Analysis**
 ```
@@ -8632,12 +8690,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 51. AI Legacy Code Modernization Guide
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Legacy Code Modernization Guide**
 
@@ -8691,8 +8749,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -8709,8 +8768,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core System Migration Analysis**
 ```
@@ -8829,12 +8889,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 52. AI Database Query Performance Optimizer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Database Query Performance Inefficiency**
 
@@ -8888,8 +8948,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -8906,8 +8967,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Data Analysis Analysis**
 ```
@@ -9026,12 +9088,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 53. AI Microservices Migration Planner
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Microservices Migration Disorganization**
 
@@ -9085,8 +9147,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -9103,8 +9166,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core System Migration Analysis**
 ```
@@ -9223,12 +9287,12 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
-
+:::
 ## 54. AI Open Source Dependency Security Auditor
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-**Pain Point & How COCO Solves It**
+::: details Pain Point & How COCO Solves It
 
 **The Pain: Open Source Dependency Security Auditor**
 
@@ -9282,8 +9346,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
    - Benchmarks team performance against prior periods and best-practice standards
    - Generates quarterly process health reports with specific optimization opportunities
 
+:::
 
-**Results & Who Benefits**
+::: details Results & Who Benefits
 
 **Measurable Results**
 
@@ -9300,8 +9365,9 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 - **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
 - **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
 
+:::
 
-**💡 Practical Prompts**
+::: details 💡 Practical Prompts
 
 **Prompt 1: Core Security Scanning Analysis**
 ```
@@ -9420,3 +9486,4 @@ Recommend:
 For each: expected impact, implementation steps, owner, dependencies, and success metrics.
 ```
 
+:::
