@@ -4560,3 +4560,510 @@ Output as an implementation specification with HTML/CSS code examples for each i
 ```
 
 :::
+
+## 21. AI Design Workshop Planner
+
+> Run focused, high-output design workshops with structured facilitation that keeps teams aligned and moving.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: AI Design Workshop Planner**
+
+Design sprints are one of the most powerful tools for rapidly solving complex design problems — but they require expert facilitation, careful time management, and structured activities that most design teams struggle to execute consistently. Without strong facilitation, sprints drift: Monday's problem definition gets reopened on Wednesday, sketch sessions become unproductive debates, and the final prototype reflects the loudest voice rather than the best thinking.
+
+Preparation is another significant challenge. A well-run sprint requires a carefully crafted schedule, pre-prepared templates and canvases, tailored voting and decision exercises, and a prototype plan that is achievable in the time available. Assembling all of this from scratch for each sprint takes a facilitator 8-12 hours of preparation work. Many design teams run far fewer sprints than they should simply because the overhead is prohibitive.
+
+Sprint documentation also tends to be poor. The rich thinking that happens during a sprint — user journey maps, problem statements, "How Might We" clusters, storyboards — gets captured inconsistently in photos and sticky notes that no one organizes afterward. Six months later, the team cannot reconstruct why they made the decisions they did during the sprint, and valuable insights are lost.
+
+**How COCO Solves It**
+
+COCO acts as a comprehensive design sprint facilitator, reducing preparation overhead, guiding sprint execution, and producing structured documentation throughout the process:
+
+1. **Sprint planning and preparation**
+   - Generates a complete sprint schedule tailored to the specific problem, team size, and available days
+   - Creates all sprint materials: problem statement templates, HMW question prompts, lightning demo guides, sketch templates, and voting frameworks
+   - Produces a pre-sprint reading package for participants covering the problem space and relevant research
+   - Identifies the right sprint variant (full 5-day, 3-day compressed, 1-day focused) for the complexity of the problem
+
+2. **Problem framing facilitation**
+   - Guides the team through structured problem definition activities
+   - Generates "How Might We" question sets from customer research inputs
+   - Facilitates affinity clustering and priority voting to narrow scope
+   - Produces a crisp, testable sprint question at the end of Day 1
+
+3. **Ideation and sketching support**
+   - Provides lightning demo inspiration by surfacing relevant solutions from analogous industries
+   - Generates structured sketching prompts to help teams move past blank-page paralysis
+   - Facilitates "Crazy 8s" and solution sketch reviews with structured critique frameworks
+   - Helps the team converge on a single storyboard direction with clear decision rationale
+
+4. **Prototype planning**
+   - Scopes the prototype to what is achievable in the time available without sacrificing testability
+   - Generates a division of labor plan for the prototype build day
+   - Identifies which screens or flows are critical to test the sprint question vs. which can be simplified
+   - Creates a prototype script that ensures the test will generate actionable data
+
+5. **User test preparation**
+   - Writes a complete interview guide aligned to the sprint question
+   - Generates screener criteria and recruitment brief for participant sourcing
+   - Creates an observation note-taking template for the sprint team watching from the back room
+   - Produces a synthesis framework for extracting patterns from five user sessions efficiently
+
+6. **Sprint documentation and retrospective**
+   - Synthesizes all sprint artifacts into a structured sprint report
+   - Documents the decision log explaining why key choices were made at each stage
+   - Identifies key insights from user testing with confidence ratings
+   - Generates a retrospective agenda and produces a sprint learnings document for future reference
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **70% reduction in sprint preparation time** Complete material generation eliminates the 8-12 hours of facilitator prep work required for each sprint
+- **40% improvement in sprint output quality** Structured facilitation activities ensure the team generates more diverse ideas and converges on better solutions
+- **3x more sprints completed per quarter** Reduced preparation overhead makes it practical to run sprints for problems that previously would have gone through slower design review processes
+- **60% better sprint documentation** Automated synthesis produces comprehensive sprint reports that preserve institutional knowledge rather than leaving it in unorganized photos
+- **35% faster time to testable prototype** Better prototype scoping and division of labor enables teams to build and test within the sprint timeline without scope creep
+
+**Who Benefits**
+
+- **Lead Designers and Design Managers**: Facilitate high-quality sprints without needing to be expert sprint coaches, and run more sprints than the team's facilitation capacity would otherwise allow
+- **Product Managers**: Arrive at sprint decisions faster with structured exercises that prevent the open-ended debates that typically slow down design workshops
+- **Cross-Functional Sprint Participants**: Engage more effectively with well-prepared sprint materials and structured facilitation guidance rather than unproductive free-form discussion
+- **Design Research Teams**: Receive better-framed user test questions and synthesis frameworks that make sprint testing sessions more productive and insightful
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Sprint Planning and Schedule Generation**
+```
+Create a complete design sprint plan for the following problem.
+
+Sprint context:
+- Problem to solve: [describe the design or product problem — be specific]
+- Sprint format: [5-day / 3-day / 1-day]
+- Team composition: [list roles — e.g., product manager, 2 designers, engineer, customer success rep]
+- Decider: [who has final decision-making authority in the sprint?]
+- Available facilities: [in-person / remote / hybrid, tools available — Miro, FigJam, etc.]
+- Key constraint: [e.g., "prototype must be testable without engineering involvement"]
+
+User context:
+- Target user: [describe the primary user persona]
+- Key user research already available: [summarize relevant findings]
+- Top user pain points to address: [list 3-5]
+
+Sprint question (draft): [your working sprint question, or "help me define it"]
+
+Generate:
+1. Day-by-day schedule with time-boxed activities and owners
+2. Sprint question refinement (if needed)
+3. Preparation checklist: what each participant should do before the sprint starts
+4. Materials list: templates, supplies, and tool setup needed
+5. HMW question starter set based on the user pain points described
+```
+
+**Prompt 2: Day 3 Decision and Storyboard Facilitation**
+```
+Facilitate the Day 3 decision and storyboard phase of our design sprint.
+
+Sprint context:
+- Sprint question: [your sprint question]
+- User persona: [describe]
+
+Solution sketches produced (Day 2 output):
+- Sketch 1 by [participant]: [describe the concept — main idea, key screens or flows]
+- Sketch 2 by [participant]: [describe]
+- Sketch 3 by [participant]: [describe]
+- Sketch 4 by [participant]: [describe]
+[Continue for all sketches]
+
+Dot voting results:
+- Sketch 1: [N votes, which aspects got most votes]
+- Sketch 2: [N votes, which aspects got most votes]
+[Continue]
+
+Conflicts to resolve:
+- [Conflict 1: e.g., "Two sketches have incompatible approaches to the core user action"]
+- [Conflict 2: e.g., "Team is split between a simple and a feature-rich solution"]
+
+Facilitate:
+1. Art Museum review summary — what patterns emerged across sketches?
+2. Speed critique findings — top strengths of each sketch in 2 sentences
+3. Conflict resolution recommendation — how to decide between competing approaches
+4. Storyboard recommendation — which sketch(es) to combine into the winning concept and how
+5. Storyboard outline — 8-12 panel storyboard describing the user journey to prototype
+```
+
+**Prompt 3: Sprint User Test Interview Guide**
+```
+Write a complete user test interview guide for the following design sprint prototype.
+
+Sprint question: [your sprint question]
+Prototype description: [describe what the prototype shows — screens, flow, key interactions]
+User persona: [describe the target user being tested]
+Recruit profile: [describe the screener criteria for test participants]
+
+Test objectives — the 3 most important things to learn from this test:
+1. [Objective 1: e.g., "Does the user understand the primary value proposition within the first 2 minutes?"]
+2. [Objective 2]
+3. [Objective 3]
+
+Critical assumptions being tested:
+- [Assumption 1: e.g., "Users will naturally navigate to the key feature without guidance"]
+- [Assumption 2]
+
+Generate:
+1. Intro script (2-3 minutes): how to welcome the participant and set expectations without biasing them
+2. Warm-up questions (5 minutes): questions to understand the participant's context and current behavior
+3. Task scenarios (20-25 minutes): 3-4 tasks written in scenario format that allow natural exploration without leading
+4. Debrief questions (5-10 minutes): questions to surface overall impressions and unmet needs
+5. Observer note-taking template: what the back-room team should capture during each task
+
+Include: a list of phrases facilitators must avoid that could bias responses.
+```
+
+:::
+
+## 22. AI Localization Design Advisor
+
+> Design products that feel native in every language — not just translated.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: AI Localization Design Advisor**
+
+Localization is consistently one of the most underinvested areas of product design until it becomes a crisis. Design teams build interfaces for English and discover too late that German strings are 40% longer, Arabic text flows right-to-left and breaks every layout assumption, or Japanese date formats make the date picker logic incorrect. By the time these issues are discovered — often during or after engineering implementation — fixing them requires rework that could have been prevented with localization-aware design from the start.
+
+The problem runs deeper than string length and text direction. Different cultures have fundamentally different expectations about information density, color symbolism, iconography, and interaction patterns. An icon that means "save" or "success" in one culture may be meaningless or offensive in another. A date input designed for MM/DD/YYYY creates friction for every non-American user. Form field patterns (address formats, phone numbers, postal codes) vary dramatically across markets, yet most design systems encode American formats as the default.
+
+Designers working on localization also lack efficient tools for testing their designs against different locales. Manually translating strings into a design file, testing the layout at different text expansion rates, and checking RTL layout behavior is time-consuming and inconsistent. Without a systematic approach, localization issues get discovered late, fixed expensively, and re-introduced in subsequent design iterations.
+
+**How COCO Solves It**
+
+COCO serves as a localization design expert, helping designers build for global from the beginning rather than retrofitting localization as an afterthought:
+
+1. **String expansion and layout stress testing**
+   - Calculates text expansion rates for target languages (German +35%, French +25%, etc.) and applies them to design components
+   - Identifies UI components that will break at standard expansion rates before strings are translated
+   - Recommends minimum column widths, flexible container patterns, and truncation strategies for each component type
+   - Generates expansion-safe component variants for the design system
+
+2. **Bidirectional (RTL) layout guidance**
+   - Audits existing designs for RTL compatibility issues: unmirrored icons, hardcoded left-aligned layouts, non-logical CSS properties
+   - Produces a complete RTL design spec for each screen including mirroring rules, exceptions, and layout adjustments
+   - Distinguishes between elements that should mirror (navigation, progress indicators) and those that should not (checkboxes, play/pause icons)
+   - Creates side-by-side LTR/RTL mockup specifications for developer handoff
+
+3. **Cultural adaptation recommendations**
+   - Reviews iconography, imagery, and color usage for cultural appropriateness in target markets
+   - Flags symbols with known cultural ambiguity or negative associations in specific regions
+   - Recommends culturally appropriate alternatives for flagged design elements
+   - Provides market-specific UX pattern guidance (e.g., preferred payment UI patterns in China vs. India vs. Germany)
+
+4. **Locale-specific form design**
+   - Generates locale-correct field patterns for names, addresses, phone numbers, and postal codes per target market
+   - Reviews date, time, and number formatting in designs against locale standards
+   - Identifies form validation logic that encodes locale-specific assumptions (phone number digit counts, zip code formats)
+   - Recommends progressive localization: which fields to localize in the UI vs. which to handle in the backend
+
+5. **Localization-ready component guidelines**
+   - Writes localization requirements into component documentation in the design system
+   - Identifies which components require locale-specific variants vs. which are locale-agnostic
+   - Generates pseudo-localization test strings (used in design review before real translations are available)
+   - Creates a localization testing checklist for design QA
+
+6. **Translation-friendly copy design**
+   - Reviews UI copy for patterns that are difficult or expensive to translate (idioms, puns, culturally specific references, concatenated strings)
+   - Recommends plain language alternatives that translate cleanly into target languages
+   - Identifies dynamic string patterns (e.g., "5 items selected") that require plural form handling for each locale
+   - Estimates translation complexity and cost implications of the current copy approach
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **60% reduction in post-implementation localization rework** Catching layout and cultural issues in the design phase eliminates expensive engineering rework after strings are integrated
+- **45% faster localization QA cycles** Localization-ready components and pre-tested expansion layouts reduce the back-and-forth between design, engineering, and localization teams
+- **30% reduction in per-locale design effort** Systematic localization guidelines and reusable locale-specific patterns eliminate redundant design work for each new market entry
+- **Zero high-severity cultural incidents post-launch** Structured cultural review catches symbolism and imagery issues before products reach global markets
+- **25% improvement in international user satisfaction scores** Products designed for localization from the start feel native rather than awkwardly translated
+
+**Who Benefits**
+
+- **Product Designers**: Catch localization issues in the design phase when fixes are cheap, rather than after implementation when they are expensive
+- **Localization and Internationalization Engineers**: Receive design specs that are localization-ready, reducing the engineering work required to handle multi-locale rendering
+- **Product Managers**: Enter new international markets faster because the design foundation handles global requirements from the first iteration
+- **Global Marketing Teams**: Receive product designs that respect cultural nuances rather than requiring market-specific redesign after the fact
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: String Expansion Layout Audit**
+```
+Audit the following UI components for string expansion failures in our target locales.
+
+Target locales: [list — e.g., de-DE, fr-FR, ja-JP, ar-SA, ko-KR]
+Base language: [en-US or other]
+
+Components to audit (describe each):
+- Component 1: [name, e.g. "Navigation menu"] — current layout: [describe width constraints, font size, line height]
+- Component 2: [name, e.g. "Primary button"] — current layout: [describe]
+- Component 3: [name, e.g. "Data table headers"] — current layout: [describe]
+[Continue for all components]
+
+Current UI strings (provide the EN strings for each component):
+- [Component 1 strings]: [list]
+- [Component 2 strings]: [list]
+[Continue]
+
+For each component and locale:
+1. Estimated expanded string length with expansion rate applied
+2. Will the component break? (overflow, truncation, wrapping, layout shift)
+3. Specific breaking scenario description
+4. Recommended fix: flexible container, multi-line support, abbreviated variant, icon-only fallback
+5. Priority (Critical / High / Medium) based on visibility and frequency of use
+
+Output as a tabular audit report with component × locale breakdown.
+```
+
+**Prompt 2: RTL Layout Design Specification**
+```
+Create an RTL layout specification for the following screens.
+
+Screens to convert to RTL:
+- Screen 1: [name — e.g., "Main navigation sidebar"] — describe the layout and key elements
+- Screen 2: [name — e.g., "Form with multi-step progress indicator"] — describe
+- Screen 3: [name — e.g., "Data dashboard with charts"] — describe
+[Continue]
+
+Target RTL locales: [e.g., ar-SA, he-IL, fa-IR]
+
+For each screen produce:
+1. Mirroring rules: which elements should mirror (swap left/right) and which should not
+   - Mirror: navigation direction, progress flow, text alignment, icon directionality
+   - Do not mirror: logos, mathematical operators, checkboxes, circular progress, media controls
+2. Typography changes: font stack for each RTL locale, line height adjustments for Arabic script
+3. Layout adjustments: specific spacing, alignment, and container changes required
+4. Icon inventory: list each icon and specify whether it requires a mirrored variant
+5. CSS/design token changes: specific logical property recommendations (margin-inline-start vs. margin-left)
+
+Output as a developer-ready RTL design specification with annotated component notes.
+```
+
+**Prompt 3: Cultural Design Review**
+```
+Conduct a cultural design review for our product's planned expansion into [target market(s)].
+
+Target markets: [list countries and their primary locales]
+Product type: [describe — e.g., B2B SaaS dashboard, consumer mobile app, e-commerce platform]
+
+Design elements to review:
+1. Color usage: [describe current color palette and its primary uses — primary CTA color, error states, success states, backgrounds]
+2. Iconography: [describe or list key icons used in the product — navigation icons, status icons, action icons]
+3. Imagery and illustrations: [describe style and content of any people, objects, or scenarios depicted]
+4. Gestures and interactions: [list key gestures if mobile — swipe patterns, long press, etc.]
+5. Terminology: [list any culturally loaded terms — e.g., "free trial", currency symbols, holidays]
+
+For each element, for each target market:
+1. Cultural compatibility assessment (Compatible / Caution / Problematic)
+2. Specific concern if flagged (Caution or Problematic)
+3. Recommended alternative or adaptation
+4. Severity (cosmetic vs. offensive vs. legally problematic)
+
+Also provide:
+- Top 3 highest-priority cultural adaptations to make before launch
+- Any market-specific UX conventions we should adopt (e.g., WeChat-style navigation for China, local payment UI norms)
+```
+
+:::
+
+## 23. AI Interaction Pattern Library Builder
+
+> Build a living, consistent interaction pattern library that the whole team actually uses.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: AI Interaction Pattern Library Builder**
+
+Design systems at most organizations cover visual components well — buttons, typography, colors, form elements — but fall short on interaction patterns. How should loading states behave when data is partial? What is the correct empty state pattern when a filter returns no results vs. when a user has no data yet? How should inline editing confirm or discard changes? These behavioral questions get answered inconsistently across the product because no authoritative pattern library exists, and each designer makes their own judgment call.
+
+The result is a product that looks visually consistent but behaves inconsistently. Users encounter different feedback patterns for similar actions, different error messaging styles, different ways to undo operations, and different loading indicators depending on which part of the product they are in. This behavioral inconsistency degrades user confidence and increases support volume, yet it is invisible in component-level design reviews that focus on visual fidelity.
+
+Documenting interaction patterns requires a different skill set than documenting visual components. Interactions are inherently temporal and conditional — they require specifying behavior across multiple states, multiple edge cases, and multiple device contexts. Writing this documentation is painstaking, and keeping it up to date as the product evolves is even harder. Most design teams find that interaction documentation starts strong and becomes stale within months.
+
+**How COCO Solves It**
+
+COCO helps design teams build comprehensive, maintainable interaction pattern libraries by providing structured pattern documentation, identifying gaps, and generating the specification content that teams find most difficult to write:
+
+1. **Interaction audit and inventory**
+   - Catalogs all existing interaction patterns across the product by analyzing component libraries, design files, and product descriptions
+   - Identifies where the same interaction type is handled differently in different parts of the product
+   - Categorizes patterns by type: feedback patterns, navigation patterns, data entry patterns, error recovery patterns, empty state patterns
+   - Produces a heat map of pattern inconsistency to prioritize which areas need standardization first
+
+2. **Pattern documentation generation**
+   - Generates structured pattern documentation covering all required specification dimensions
+   - Specifies behavior across the full state machine: default, hover, focus, active, disabled, loading, success, error, empty
+   - Documents timing, animation curves, and transition durations for each interaction
+   - Creates decision trees for conditional behavior ("if the user is offline", "if the data takes >3 seconds to load")
+
+3. **Edge case specification**
+   - Systematically identifies edge cases for each interaction pattern that designers commonly overlook
+   - Specifies behavior for network failure states, partial data availability, permission edge cases, and concurrent user actions
+   - Documents race condition handling for async operations (what if the user triggers a second action before the first completes?)
+   - Creates negative case libraries — what should NOT happen — alongside positive specifications
+
+4. **Cross-platform adaptation guidelines**
+   - Adapts each interaction pattern for web, iOS, and Android platform conventions
+   - Identifies which patterns should be platform-specific vs. which can be unified across platforms
+   - Documents the specific implementation differences required for each platform
+   - Generates platform-appropriate animation specifications (Material Motion vs. iOS Human Interface Guidelines)
+
+5. **Pattern decision rationale documentation**
+   - Captures the design rationale behind each pattern decision to prevent "why did we do it this way?" questions
+   - Connects patterns to the usability principles and research that motivated them
+   - Documents alternatives that were considered and rejected, with reasoning
+   - Creates update logs that track how patterns evolve over time and why
+
+6. **Pattern governance and contribution process**
+   - Designs a workflow for proposing, reviewing, and approving new interaction patterns
+   - Creates evaluation criteria for assessing whether a proposed pattern should be added to the library
+   - Establishes a deprecation process for retiring outdated patterns without breaking existing implementations
+   - Generates a pattern health dashboard showing adoption rate and consistency across the product
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **50% reduction in interaction design decision time** Designers consult the pattern library instead of solving previously-solved problems from scratch, dramatically reducing per-feature design time
+- **35% decrease in design review cycles** Consistent interaction patterns mean fewer revision requests for behavioral inconsistencies that previously went unnoticed until review
+- **40% reduction in interaction-related bugs** Comprehensive edge case specifications prevent the "undefined behavior" gaps that engineers fill with inconsistent implementations
+- **30% improvement in measured usability scores** Behavioral consistency across the product reduces user confusion and increases task completion rates
+- **60% reduction in pattern documentation effort** AI-generated specification content cuts the time required to document each new pattern from hours to minutes
+
+**Who Benefits**
+
+- **Product Designers**: Work faster with a comprehensive pattern library to reference and contribute to, spending creative effort on novel problems rather than re-solving established patterns
+- **Frontend Engineers**: Receive precise, complete interaction specifications that eliminate ambiguity and reduce back-and-forth with designers during implementation
+- **Design System Maintainers**: Keep interaction documentation accurate and up-to-date without the manual effort that makes documentation stale within months of creation
+- **QA Engineers**: Test interactions against a complete specification including edge cases, rather than making judgment calls about expected behavior during test execution
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Interaction Pattern Documentation Template**
+```
+Generate complete interaction pattern documentation for the following UI pattern.
+
+Pattern: [pattern name — e.g., "Inline Edit", "Optimistic UI Update", "Infinite Scroll with Error Recovery"]
+Pattern category: [feedback / navigation / data entry / error recovery / empty state / selection / etc.]
+Product context: [describe where this pattern appears in your product]
+
+Pattern trigger: [what user action or system event initiates this pattern?]
+Pattern goal: [what is the user trying to accomplish?]
+Success criteria: [how does the user know the interaction succeeded?]
+
+For this pattern, document:
+1. Complete state machine:
+   - Default/resting state: [describe appearance and behavior]
+   - Hover state: [describe]
+   - Focus/active state: [describe]
+   - In-progress/loading state: [describe — timing, indicator type]
+   - Success state: [describe — confirmation, timing, transition back to default]
+   - Error state: [describe — messaging, recovery options]
+   - Disabled state: [describe — when and how]
+   - Empty/null state: [describe if applicable]
+
+2. Timing and animation specifications:
+   - Transition duration for each state change
+   - Easing curves
+   - Any sequenced or staged animations
+
+3. Edge cases to specify:
+   - What happens if the action takes >3 seconds?
+   - What happens if the network connection is lost mid-action?
+   - What happens if the user navigates away before the action completes?
+   - What happens if the same action is triggered twice rapidly?
+
+4. Accessibility requirements:
+   - Focus management during state transitions
+   - ARIA attributes and live region announcements for each state
+   - Keyboard interaction specification
+
+5. Do/don't examples: 2-3 correct implementations and 2-3 common mistakes to avoid
+
+Output as a complete pattern specification document ready for the design system.
+```
+
+**Prompt 2: Empty State Pattern Audit and Standardization**
+```
+Audit our empty state patterns and create a standardized empty state system.
+
+Current empty state inventory:
+Describe how your product currently handles each of the following empty state scenarios:
+- New user with no data yet: [describe current treatment]
+- Search or filter with no results: [describe current treatment]
+- Error prevented data from loading: [describe current treatment]
+- User has data but nothing matches their current view/filter: [describe current treatment]
+- Feature the user hasn't activated yet: [describe current treatment]
+- Content the user deleted or archived: [describe current treatment]
+
+Inconsistencies observed:
+[Describe any inconsistencies you've noticed — different visual styles, different copy tones, different CTA approaches]
+
+Product context:
+- Product type: [B2B SaaS / consumer app / etc.]
+- Primary emotional context: [professional / playful / neutral]
+- Illustration style: [do you use illustrations? describe the style]
+
+Design a standardized empty state system:
+1. Empty state taxonomy: classify each scenario type and define when each applies
+2. Component anatomy: what elements every empty state must include (icon/illustration, headline, body copy, CTA)
+3. Visual hierarchy specification for each empty state type
+4. Copy tone guidelines per scenario type (error tone vs. onboarding tone vs. filter-no-results tone)
+5. CTA strategy: when to show one CTA, two CTAs, or no CTA — and what actions are appropriate for each type
+6. Illustration/icon guidelines: when to use each asset type and what they should communicate
+
+Output as a design system specification with example templates for each empty state type.
+```
+
+**Prompt 3: Loading State Pattern Specification**
+```
+Create a comprehensive loading state pattern specification for our product.
+
+Product context:
+- Product type: [describe — e.g., data-heavy analytics dashboard, e-commerce product catalog, SaaS form-based workflow]
+- Typical data load times: [fast <500ms / medium 500ms-2s / slow 2s+ — describe which scenarios fall into each]
+- Primary user tasks: [list the 3-5 most important user tasks where loading states appear]
+
+Current loading state approach: [describe what you currently do — spinners, skeletons, progressive loading, optimistic UI, or inconsistent mix]
+
+For each of the following loading scenarios, specify the appropriate pattern:
+1. Initial page/view load (full screen)
+2. Partial content refresh (a section of a page updates)
+3. Action feedback (user clicks a button that triggers a backend operation)
+4. Infinite scroll / pagination loading
+5. Background sync (data updates without user action)
+6. Slow load (>3 seconds — when do we show a progress indicator vs. just wait?)
+
+For each scenario specify:
+1. Pattern recommendation: skeleton screen / spinner / progress bar / optimistic update / shimmer / none
+2. Timing thresholds: at what duration does each loading state appear?
+3. Content priority: if partial data loads, what should appear first?
+4. Animation specification: style, speed, and type of loading animation
+5. Cancellation behavior: can users cancel? How?
+6. Error transition: how does the loading state transition to an error state if the load fails?
+
+Also specify: how loading states should behave differently on mobile (where data connections are slower and screens are smaller).
+```
+
+:::

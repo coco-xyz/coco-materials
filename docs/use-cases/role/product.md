@@ -2229,3 +2229,620 @@ Please generate a battlecard including:
 ```
 
 :::
+
+## 20. AI Feature Flag Governance Advisor
+
+> Get control of your feature flag sprawl — identify stale flags, assess cleanup risk, and generate the rollout or retirement plan.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Feature Flags Accumulate Into an Unmanaged Tax on Engineering Velocity**
+
+Feature flags solve a real problem: they decouple deployment from release, allowing teams to ship code continuously while controlling when features become visible to users. The problem is what happens six months later. Most engineering organizations have no formal process for retiring flags once a feature is fully rolled out. Flags accumulate — gradually at first, then all at once — until the codebase contains hundreds of active flags in various states: fully rolled out but never cleaned up, stuck at partial rollout for reasons no one remembers, created for an experiment that concluded but never turned off.
+
+The technical debt is concrete. Every active flag represents a branch in the code that must be maintained, tested, and reasoned about. A codebase with 200 active feature flags has 200 potential sources of "why is this behaving differently for this user?" confusion. Testing coverage becomes combinatorially complex when flag state combinations multiply across the system. New engineers spend hours understanding which flags affect which behavior before they can confidently make changes. The cognitive load compounds until flag management becomes a standing item on every engineering retrospective that nobody ever actually fixes.
+
+The governance gap also creates risk. Flags controlling security features, pricing tiers, or access control that should be fully enabled sit at 95% rollout with the final 5% never completed because the PM who created the flag left the company and no one has context on why it was paused. Flags controlling deprecated code paths keep the old implementation in production long after it should have been removed. Every stale flag is a hidden liability waiting to become an incident.
+
+**How COCO Solves It**
+
+1. **Flag Inventory Audit and Age Analysis**: COCO builds the authoritative flag registry:
+   - Ingests flag data from your feature flag platform (LaunchDarkly, Unleash, Flagsmith, custom)
+   - Classifies each flag by type: release flag, experiment flag, ops flag, permission flag, kill switch
+   - Calculates flag age, last modification date, current rollout percentage, and who created it
+   - Identifies flags with no associated Jira/Linear ticket, no owner, or owners who have left the company
+   - Produces a prioritized cleanup backlog ranked by staleness, risk, and cleanup complexity
+
+2. **Stale Flag Detection and Risk Assessment**: COCO distinguishes safe cleanup from risky removal:
+   - Flags that have been at 100% rollout for over [X] days with no code removal are cleanup candidates
+   - Flags at 0% rollout for over [X] days that are not active experiments are retirement candidates
+   - Evaluates the risk of each flag based on what it controls (UI text vs. core data processing vs. access control)
+   - Identifies flags whose default value would cause harm if evaluated incorrectly after removal
+   - Generates a risk tier (low / medium / high) for each cleanup action with rationale
+
+3. **Rollout Completion Analysis**: COCO identifies flags stuck in partial rollout:
+   - Finds flags at partial rollout (1–99%) with no change in the past [X] weeks
+   - Investigates whether partial rollout was intentional (gradual rollout in progress) or abandoned
+   - For abandoned partial rollouts: identifies what data or event was needed to proceed and whether it exists
+   - Generates rollout completion recommendations with the monitoring criteria that should trigger full release
+   - Drafts the rollout decision for product and engineering review
+
+4. **Code Removal Guidance**: COCO helps engineers clean up the implementation:
+   - Identifies which code branches to keep (default value wins) and which to remove for each flag
+   - Generates a structured code removal checklist for each flag retirement
+   - Flags any places where flag evaluation results are persisted in databases or logs that also need cleanup
+   - Identifies test cases that reference the flag and need to be updated or removed
+   - Estimates engineering effort for each cleanup action to support sprint planning
+
+5. **Governance Policy Generation**: COCO establishes sustainable processes:
+   - Drafts a feature flag lifecycle policy: creation standards, required fields, expiry date mandate
+   - Defines retirement criteria for each flag type with objective thresholds
+   - Creates a flag ownership assignment model tied to team structure
+   - Generates a recurring audit process that keeps the flag registry clean going forward
+   - Produces a dashboard specification for ongoing flag health monitoring
+
+6. **Experiment Flag Post-Mortem Support**: COCO closes the loop on experiments:
+   - Identifies experiment flags where the A/B test has concluded but the winning variant isn't fully shipped
+   - Extracts experiment metadata to generate a post-mortem report template pre-populated with flag data
+   - Flags experiments with no associated analytics event — suggesting the experiment was never properly instrumented
+   - Identifies opportunities to consolidate related experiment findings into a single rollout decision
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Flag cleanup velocity**: Engineering teams using structured cleanup programs reduce active flag count by 30–50% in the first quarter
+- **Incident reduction**: Stale flag incidents (unexpected behavior from forgotten flags) reduce by 60–80% with systematic monitoring
+- **Onboarding time**: New engineer time-to-productivity improves as codebase complexity from flag sprawl decreases
+- **Testing coverage**: Test suite complexity reduced proportional to flag retirement — teams report 15–25% reduction in test execution time after major cleanup cycles
+- **Code removal completion rate**: 85–95% of identified cleanup actions completed when paired with sprint-level planning vs. 20–30% from unstructured backlog items
+
+**Who Benefits**
+
+- **Product Managers**: Understand the full state of features in production and make informed decisions about completing stalled rollouts
+- **Engineering Leads**: Manage technical debt proactively with a data-driven cleanup backlog instead of reactive firefighting
+- **Platform and DevEx Teams**: Establish governance standards that prevent flag sprawl from recurring
+- **Engineering Directors**: Measure and report on codebase health as a concrete indicator of engineering quality
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Feature Flag Audit**
+```
+Audit the following feature flag inventory and identify cleanup priorities.
+
+Flag data:
+[paste or describe: flag key, flag type, created date, last modified date, current rollout %, owner, associated ticket/feature, description]
+
+Our flag platform: [LaunchDarkly / Unleash / Flagsmith / custom]
+Team size: [number of engineers]
+Cleanup criteria:
+- Stale if at 100% rollout for more than [X] days with no code removal
+- Stale if at 0% rollout for more than [X] days with no active experiment
+- Orphaned if no active owner or associated ticket
+
+Please produce:
+1. Flag inventory summary: total flags, breakdown by type and status
+2. Cleanup candidates: flags meeting staleness or orphan criteria — sorted by priority
+3. Risk tier for each cleanup action (low / medium / high) with rationale
+4. Recommended first sprint's worth of cleanup work (estimated effort under [X] engineer-hours)
+5. Flags that appear stuck in partial rollout — summary of each with recommended next action
+```
+
+**Prompt 2: Rollout Decision Support**
+```
+Help me make a rollout decision for the following feature flag that's been in partial rollout.
+
+Flag details:
+- Flag key: [name]
+- Feature description: [what does this flag control?]
+- Current rollout: [X]%
+- Time at current rollout: [X weeks/months]
+- Why rollout was paused (if known): [describe]
+
+Data available for the rollout decision:
+- Error rate on enabled vs. disabled: [paste or describe]
+- Performance metrics: [paste or describe]
+- User feedback from enabled cohort: [paste or describe]
+- Business metrics (if applicable): [conversion, engagement, revenue impact]
+- Any open issues or bugs in the enabled experience: [list]
+
+Please provide:
+1. Rollout recommendation: complete rollout / hold / roll back — with rationale
+2. If completing: recommended timeline and monitoring checkpoints during rollout
+3. If holding: what specific data or fix is needed before proceeding?
+4. If rolling back: what is the impact and how should it be communicated?
+5. Success criteria for the full rollout — what metrics confirm the feature is performing as intended?
+```
+
+**Prompt 3: Feature Flag Governance Policy**
+```
+Draft a feature flag governance policy for our engineering organization.
+
+Context:
+- Team size: [X engineers]
+- Current flag platform: [platform name]
+- Current flag count: [number]
+- Primary problem to solve: [flag sprawl / orphaned flags / no retirement process / inconsistent usage]
+- Existing processes we want to preserve: [describe]
+
+The policy should cover:
+1. Flag creation standards: required fields, naming conventions, mandatory expiry date
+2. Flag type definitions and when to use each (release / experiment / ops / permission / kill switch)
+3. Ownership rules: who is responsible for each flag and what that means
+4. Retirement criteria by flag type: objective thresholds that trigger cleanup
+5. Audit process: how often, who runs it, what the output is
+6. Escalation: what happens to orphaned flags and who makes the call to remove them
+
+Format: ready to publish in our engineering handbook with section headers and clear, actionable language.
+```
+
+:::
+
+## 21. AI Customer Discovery Interview Analyzer
+
+> Turn 20 hours of customer discovery recordings into a structured insight brief in under 2 hours.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Customer Discovery Interviews Produce Rich Qualitative Data That Almost Never Gets Properly Synthesized**
+
+Customer discovery is foundational to good product decisions. Teams know they should do it. Most teams do conduct interviews — at least at product inception and during major roadmap cycles. The problem is what happens after the recordings end. A well-run discovery sprint produces 15–25 hours of recorded interviews, each containing nuanced customer language, unspoken workflow pain, and insight fragments that are only meaningful in the context of other interviews. Synthesizing that material into actionable product direction requires a specific combination of analytical rigor and qualitative pattern recognition that most teams simply don't have the bandwidth to apply.
+
+In practice, interviews get summarized in one of two inadequate ways. Either someone writes up notes from each interview individually (preserving the structure of individual conversations but missing cross-interview patterns), or the PM synthesizes from memory and informal notes (fast but prone to confirmation bias and gaps). The research artifacts from most discovery projects are not robust enough to withstand scrutiny from stakeholders asking "how many customers said that?" or "did any customers indicate the opposite?" Without that rigor, product decisions built on discovery are vulnerable to challenge.
+
+The cost goes beyond the immediate sprint. When discovery is not synthesized into a durable, searchable artifact, the insights decay. Six months later, when the feature is being specced and the original interviewer has left, there's no way to go back to what customers actually said. The organization continuously re-discovers the same problems instead of building on prior learning.
+
+**How COCO Solves It**
+
+1. **Interview Transcript Ingestion and Structuring**: COCO processes raw interview material at scale:
+   - Ingests interview transcripts, notes, and recording summaries across all discovery sessions
+   - Identifies and segments each distinct question-answer exchange within transcripts
+   - Tags each segment with the relevant product area, job-to-be-done, or problem category
+   - Extracts verbatim customer quotes that capture the most insight-rich moments
+   - Links each insight to the specific customer context (role, company size, use case, segment)
+
+2. **Cross-Interview Pattern Synthesis**: COCO surfaces what appears across multiple conversations:
+   - Identifies themes that appear across multiple interviews, weighted by frequency and emphasis
+   - Distinguishes widely-shared problems (mentioned by 70%+ of interviewees) from segment-specific issues
+   - Detects contradictions — areas where customers expressed conflicting needs or priorities
+   - Maps the emotional intensity of pain points based on language analysis
+   - Groups related insights into coherent problem clusters with supporting quote evidence
+
+3. **Job-to-Be-Done Framework Application**: COCO structures insights around what customers are trying to accomplish:
+   - Identifies the functional, emotional, and social jobs customers are trying to complete
+   - Maps current workarounds customers have developed, revealing the gap your product needs to fill
+   - Distinguishes the hire criteria (what customers use to evaluate solutions) from the jobs themselves
+   - Identifies the moments of struggle where the job fails or becomes painful
+   - Structures job-to-be-done statements suitable for inclusion in product briefs and PRDs
+
+4. **Segment Differentiation Analysis**: COCO identifies which insights apply to which customers:
+   - Compares problem frequency and intensity across segments (company size, role, industry, use case)
+   - Identifies segments with distinct needs that should be treated as separate product personas
+   - Flags where the same surface-level problem has different root causes across segments
+   - Highlights which customer segments expressed the most acute pain — primary target for the solution
+   - Generates segment-specific insight summaries for use in persona development
+
+5. **Evidence-Based Prioritization Support**: COCO connects discovery to decision-making:
+   - Quantifies how many customers mentioned each problem area (with segment breakdown)
+   - Ranks problem areas by frequency, intensity, and alignment with company strategic priorities
+   - Identifies the "must-have" threshold: problems where non-solution is a blocker for adoption
+   - Generates a prioritization matrix comparing problem importance against current solution satisfaction
+   - Produces an evidence package for each potential product direction — quotes, frequency, and customer context
+
+6. **Insight Brief Generation**: COCO produces a publishable research artifact:
+   - Generates a structured discovery brief: goals, methodology, participants, top insights, and recommendations
+   - Formats the brief for internal audiences (engineering, design, leadership) with appropriate detail levels
+   - Creates a quotes bank organized by theme for use in pitch decks and PRDs
+   - Produces a follow-on research agenda identifying questions not answered by the current discovery
+   - Generates a summary slide deck structure for sharing discovery findings in team meetings
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Synthesis time**: 20 hours of interview material synthesized into a publishable brief in under 2 hours vs. 15–20 hours manually
+- **Pattern detection**: AI-assisted synthesis identifies 40% more cross-interview patterns than manual synthesis, particularly subtle contradictions and minority segments
+- **Insight durability**: Structured, searchable artifacts mean insights remain accessible and actionable 12+ months after the research
+- **Stakeholder confidence**: Evidence-backed insight briefs with verbatim quote support reduce stakeholder challenges to product direction by 50–60%
+- **Discovery-to-decision cycle**: Time from completed interviews to actionable product direction reduced from 3–4 weeks to under 1 week
+
+**Who Benefits**
+
+- **Product Managers**: Spend time on synthesis judgment and decision-making rather than note-taking and quote-hunting
+- **UX Researchers**: Amplify the impact of qualitative research by producing more rigorous, comprehensive synthesis outputs
+- **Design Teams**: Access structured customer language and job-to-be-done frameworks to anchor design decisions
+- **Product Leadership**: Build roadmap confidence with evidence packages that withstand stakeholder scrutiny
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Multi-Interview Theme Synthesis**
+```
+Synthesize the following customer discovery interviews and identify the primary themes and patterns.
+
+Interview context:
+- Research question: [what were you trying to learn?]
+- Participant profile: [role, company size, industry — describe the target segment]
+- Number of interviews: [X]
+- Interview format: [structured / semi-structured / problem discovery / solution validation]
+
+Interview transcripts or notes:
+[paste all interview transcripts, notes, or summaries here — one after another, labeled Interview 1, Interview 2, etc.]
+
+Please provide:
+1. Top 5–7 themes ranked by frequency across interviews — with the number of participants who mentioned each
+2. For each theme: 3 representative verbatim quotes that best capture the customer's expression of the problem
+3. Notable contradictions or tensions — areas where customers expressed conflicting views
+4. Segment differences — did any themes appear in one segment but not others?
+5. Insights that surprised you relative to the research hypothesis
+6. Top 3 recommended product directions supported by this research, with evidence strength rating
+```
+
+**Prompt 2: Jobs-to-Be-Done Extraction**
+```
+Extract the jobs-to-be-done from the following customer interview data and structure them for product planning use.
+
+Customer context:
+- Role: [job title / description of the person being interviewed]
+- Domain: [what industry/function do they work in?]
+- Current solutions: [what tools/processes do they currently use for this job?]
+
+Interview excerpts describing their workflow and pain:
+[paste relevant excerpts from transcripts focused on what they're trying to accomplish and where they struggle]
+
+Please identify:
+1. Functional jobs: What is the customer trying to accomplish? (Use "verb + object + context" format)
+2. Emotional jobs: How do they want to feel during and after completing this job?
+3. Social jobs: How do they want to be perceived by others in relation to this job?
+4. Current workarounds: What hacks, manual steps, or tool combinations have they built to make progress on this job?
+5. Moments of struggle: When does the current approach break down or become most painful?
+6. Hire criteria: Based on their language, what would make them "hire" a new solution for this job?
+```
+
+**Prompt 3: Discovery Brief Generation**
+```
+Generate a customer discovery brief based on the following synthesized research findings.
+
+Research metadata:
+- Product area: [feature / problem space being investigated]
+- Research period: [date range]
+- Number of participants: [X]
+- Participant breakdown: [by segment, role, or relevant characteristic]
+- Research method: [interviews / contextual inquiry / diary study / combination]
+
+Key findings (paste your synthesized themes, quotes, and observations):
+[insert findings here]
+
+Recommended product directions (if identified):
+[describe]
+
+Open questions not answered by this research:
+[list]
+
+Please generate a discovery brief that includes:
+1. Research overview: goals, method, participant profile (1 page)
+2. Key insights section: top 5 insights with supporting evidence and verbatim quotes
+3. Jobs-to-be-done summary: primary jobs and failure modes in customer language
+4. Segment differences: where do findings differ by customer type?
+5. Product implications: what should we build, change, or investigate further?
+6. Confidence assessment: which findings have strong evidence vs. which need validation?
+7. Next steps: recommended follow-on research or validation activities
+```
+
+:::
+
+## 22. AI Experiment Velocity Tracker
+
+> Know exactly how many experiments you're running, what's blocking throughput, and what it's costing you in decision speed.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Experimentation Programs Are Measured by Outcomes But Never by the Process Bottlenecks That Determine How Many Outcomes You Can Generate**
+
+Experimentation is a numbers game. The more high-quality experiments a product organization runs per quarter, the faster the compounding learning cycle and the more confident roadmap decisions become. Yet most organizations that are "committed to experimentation" run far fewer experiments than they believe they do — and have no idea why. They measure experiment win rates and revenue lift from winning tests, but never measure experiment cycle time, experiment abandonment rate, or the distribution of time spent in each pipeline stage. The result is that a program that should generate 20 meaningful experiments per quarter actually produces 8, and no one in leadership understands why growth is slower than expected.
+
+The bottlenecks are real and diverse. Some experiments take two weeks to instrument but sit in the engineering backlog for six weeks before instrumentation starts. Some are properly instrumented but launched with insufficient sample size to reach statistical significance in the allotted runtime, producing inconclusive results that consume a sprint of analysis time. Some experiments are inconclusive because the hypothesis was too vague to define a clear primary metric. Some are well-designed and properly executed but analyzed with the wrong statistical methodology, producing apparent "wins" that don't replicate. Each of these failure modes costs a full experiment cycle — typically 2–6 weeks — for zero decision value.
+
+Without a systematic view of where experiments are failing and why, product organizations optimize the wrong things. They hire more experimenters when the bottleneck is engineering instrumentation capacity. They lengthen experiment runtimes when the real problem is under-powered hypotheses. They add pre-mortems when the failure mode is post-experiment analysis rigor. The program improves superficially without addressing the structural constraints on throughput.
+
+**How COCO Solves It**
+
+1. **Experiment Pipeline Visibility**: COCO builds the complete view of experiments in flight:
+   - Tracks every experiment from hypothesis to decision across all stages (backlog, design, engineering, live, analysis, decision)
+   - Calculates time spent in each stage per experiment and across the portfolio
+   - Identifies the current stage distribution: how many experiments are stuck where right now
+   - Flags experiments that have been in a single stage for longer than the expected stage duration
+   - Produces a real-time pipeline dashboard showing throughput, bottlenecks, and aging
+
+2. **Cycle Time Analysis**: COCO measures what's actually taking time:
+   - Calculates end-to-end cycle time for completed experiments: hypothesis to decision
+   - Breaks cycle time into components: design, engineering, runtime, analysis, decision
+   - Identifies which stage is the primary bottleneck in the current quarter
+   - Compares cycle time across experiment types (UI, algorithm, copy, pricing) to identify category-specific delays
+   - Benchmarks cycle time against prior periods and industry norms for experimentation maturity
+
+3. **Statistical Quality Audit**: COCO catches methodological problems before they waste a sprint:
+   - Reviews experiment designs for sample size adequacy: will the experiment have sufficient power at planned runtime?
+   - Flags experiments with multiple primary metrics (increases false positive risk)
+   - Identifies experiments where the control and treatment populations may not be properly randomized
+   - Reviews early results for peeking bias and alerts when teams are considering stopping prematurely
+   - Audits completed experiment analyses for common errors (multiple testing, segment mining without correction)
+
+4. **Abandonment and Inconclusive Rate Analysis**: COCO quantifies the waste:
+   - Tracks experiments that were started but never launched, launched but never analyzed, or analyzed but never actioned
+   - Calculates the inconclusive experiment rate and analyzes the root cause distribution (under-powered, vague hypothesis, instrumentation failure, runtime cut short)
+   - Estimates the decision-hours wasted on abandoned and inconclusive experiments
+   - Identifies patterns in abandonment — certain teams, experiment types, or quarters with higher abandonment
+   - Generates recommendations to reduce abandonment rate through upstream process improvements
+
+5. **Experiment Hypothesis Quality Scoring**: COCO assesses hypotheses before they consume resources:
+   - Evaluates submitted hypotheses against quality criteria: specific, measurable, falsifiable, linked to a user insight
+   - Identifies hypotheses where the success metric is vague or would be difficult to measure cleanly
+   - Flags hypotheses where the expected effect size is unrealistically large (overconfident) or so small that reaching significance would require impractical sample sizes
+   - Suggests refinements to improve hypothesis quality before engineering work begins
+   - Builds a hypothesis quality score trend to assess team experimentation capability over time
+
+6. **Throughput Forecasting and Capacity Planning**: COCO connects experiment output to roadmap velocity:
+   - Forecasts how many experiments will complete in the next [quarter] based on current pipeline and cycle times
+   - Models the throughput impact of addressing specific bottlenecks (e.g., "fixing the engineering lag would increase quarterly output by 6 experiments")
+   - Generates staffing and tooling recommendations to hit target throughput levels
+   - Creates a quarterly experimentation capacity plan aligned to the product roadmap
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Experiment throughput increase**: Organizations that address measured bottlenecks typically achieve 40–70% more experiments per quarter within two cycles
+- **Inconclusive rate reduction**: Systematic hypothesis quality review and power analysis reduces inconclusive experiment rate from typical 35–45% to under 20%
+- **Cycle time reduction**: Identifying and resolving the primary pipeline bottleneck reduces average cycle time by 20–35%
+- **Abandonment rate**: Falls from typical 15–25% to under 8% when experiments are tracked with ownership and aging alerts
+- **Decision velocity**: Roadmap decisions backed by experimental evidence arrive 2–4 weeks faster per cycle, compounding over a year into significantly faster product iteration
+
+**Who Benefits**
+
+- **Product Managers**: Understand the actual state of experiments in flight and make reliable commitments about when data will be available for decisions
+- **Data Scientists and Analysts**: Identify which statistical quality issues are most prevalent and address them systematically rather than case-by-case
+- **Engineering Leaders**: See where experimentation engineering work is bottlenecked and allocate instrumentation capacity where it unblocks the most throughput
+- **Head of Product**: Measure and improve experimentation program maturity with concrete throughput and quality metrics
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Experiment Pipeline Review**
+```
+Review our current experiment pipeline and identify bottlenecks and priority actions.
+
+Experiment pipeline data:
+[paste: experiment name, hypothesis, current stage (backlog/design/engineering/live/analysis/decision), date entered current stage, owner, planned launch date, planned end date, status/notes]
+
+Expected stage durations (our targets):
+- Design: [X] days
+- Engineering: [X] days
+- Live (runtime): [X] days
+- Analysis: [X] days
+- Decision: [X] days
+
+Please provide:
+1. Pipeline summary: how many experiments in each stage, how many are aging beyond expected duration
+2. Bottleneck identification: which stage is holding the most experiments, and for how long?
+3. At-risk experiments: which experiments are most likely to miss their planned decision date?
+4. Immediate actions: top 5 things to unblock this week with owners and specific asks
+5. Throughput forecast: based on current pipeline, how many experiments will complete this quarter?
+```
+
+**Prompt 2: Experiment Hypothesis Quality Review**
+```
+Review the following experiment hypotheses and provide quality feedback before engineering work begins.
+
+For each hypothesis, assess:
+1. Clarity: Is the hypothesis specific enough to define a clear success/failure outcome?
+2. Measurability: Is there a defined primary metric that can be cleanly measured?
+3. Sample size feasibility: Given our typical experiment population of [X users/day on this surface], will we reach significance in [X] days with a realistic effect size?
+4. Risk of multiple testing: Are there multiple metrics that could each be called the "primary metric"?
+5. Overall quality rating: Ready to proceed / Needs refinement / Recommend redesign
+
+Hypotheses to review:
+[paste each hypothesis with: feature/change being tested, user problem being addressed, proposed primary metric, expected effect size if known, planned runtime]
+
+For each hypothesis needing refinement, provide specific suggestions to improve quality before launch.
+```
+
+**Prompt 3: Quarterly Experimentation Program Retrospective**
+```
+Generate a quarterly experimentation program retrospective based on the following data.
+
+Quarter: [Q1/Q2/Q3/Q4 20XX]
+
+Experiment outcomes:
+- Total experiments completed: [X]
+- Results: wins [X], losses [X], inconclusive [X], abandoned [X]
+- Average cycle time: [X] days (breakdown by stage if available)
+- Win rate: [X]%
+
+Notable experiments:
+[describe 3-5 experiments with significant outcomes — impact, learnings, decisions made]
+
+Known process issues this quarter:
+[list any process problems that affected experiment quality or throughput]
+
+Targets for next quarter:
+- Throughput target: [X] experiments
+- Cycle time target: [X] days
+- Inconclusive rate target: under [X]%
+
+Please generate:
+1. Quarter summary: throughput, quality, and key decisions driven by experimentation
+2. What worked well — process elements to preserve and reinforce
+3. Top 3 bottlenecks and their root causes — with specific improvement recommendations
+4. Experiment quality analysis: patterns in wins vs. losses vs. inconclusive results
+5. Next quarter plan: specific process changes, throughput targets, and measurement criteria
+```
+
+:::
+
+## 23. AI Activation Funnel Optimizer
+
+> Identify exactly where new users drop before experiencing your product's core value — and generate the intervention playbook.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Activation Is the Leakiest Part of Your Growth Funnel and the Hardest to Debug Without Deep Analysis**
+
+Activation — the moment a new user experiences the core value that prompted them to sign up — is the most consequential event in the user lifecycle. Users who activate convert to paid at 3–5x the rate of those who don't. They have dramatically higher 30-day and 90-day retention. They refer other users. They expand usage. Getting activation right compounds throughout the entire business model.
+
+Yet activation analytics is notoriously difficult. Unlike acquisition (measured by a single conversion event) or retention (measured by return visits), activation requires defining what "value experienced" means for your product — and that definition is rarely obvious. Even after defining the activation event, understanding why users are dropping before reaching it requires connecting behavioral data across multiple sessions, correlating drop-off points with user attributes, and distinguishing the users who drop for fixable product reasons from those who were never going to activate regardless.
+
+Most product teams have activation dashboards that tell them the aggregate activation rate and a funnel showing drop-off at each step. What they don't have is an understanding of which specific user cohorts are failing to activate, at which point in the journey they're dropping, what behavior differentiates activated users from non-activated users in the hours before the activation event, and which product interventions (onboarding changes, in-app guidance, email sequences, support triggers) would have the highest marginal impact on activation rate for each drop-off segment.
+
+**How COCO Solves It**
+
+1. **Activation Event Definition and Validation**: COCO ensures you're measuring the right thing:
+   - Analyzes behavioral data to identify which early actions are most predictive of long-term retention
+   - Tests candidate activation events against 30-day and 90-day retention outcomes to find the strongest signal
+   - Identifies "false activation" traps — events that look like activation but don't predict retention
+   - Proposes a refined activation event definition with statistical support
+   - Validates that the activation metric is measurable and consistently tracked across platforms
+
+2. **Funnel Segmentation Analysis**: COCO shows which users are failing and where:
+   - Segments activation funnel performance by acquisition channel, signup cohort, plan type, and ICP attributes
+   - Identifies segments with activation rates significantly above or below the overall rate
+   - Pinpoints the specific funnel step where each under-performing segment has its highest drop-off
+   - Calculates the revenue impact of closing the gap between segment activation rates and the top-performing segment
+   - Prioritizes segments by revenue opportunity and intervention feasibility
+
+3. **Behavioral Path Analysis**: COCO finds what activated users do differently:
+   - Compares the behavioral paths of activated vs. non-activated users in the first [24/48/72] hours
+   - Identifies actions that activated users take significantly more often — potential leading indicators
+   - Finds actions that activated users skip that non-activated users get stuck on (friction points)
+   - Calculates time-to-activation for users who do activate — identifying optimal intervention windows
+   - Discovers "activation shortcuts" — paths that lead to activation faster than the intended onboarding flow
+
+4. **Drop-Off Root Cause Classification**: COCO categorizes why users drop:
+   - Classifies drop-off reasons into: product friction, value discovery failure, use case mismatch, external distraction
+   - Identifies drop-offs that correlate with specific UI events (error messages, empty states, confusing UI patterns)
+   - Flags time-of-day and session duration patterns that suggest external distraction vs. product problems
+   - Correlates drop-off points with support contact topics to identify confusion-driven abandonment
+   - Distinguishes recoverable drop-offs (users who can be re-engaged) from final exits
+
+5. **Intervention Recommendation Engine**: COCO generates the activation improvement playbook:
+   - Recommends specific product changes, onboarding modifications, and in-app guidance additions for each drop-off point
+   - Prioritizes interventions by estimated activation rate impact and implementation effort
+   - Generates email and in-app message sequences for users who have dropped at each stage
+   - Designs re-engagement triggers: when to send, what to say, and what action to prompt
+   - Creates a testing roadmap for activation interventions, sequenced by expected impact and confidence
+
+6. **Ongoing Activation Health Monitoring**: COCO maintains continuous visibility:
+   - Tracks activation rate by cohort, channel, and segment on a rolling basis
+   - Alerts when activation rate drops significantly for a specific acquisition channel or signup cohort
+   - Measures the impact of onboarding changes on activation rate with statistical significance testing
+   - Generates a weekly activation report for product and growth team reviews
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Activation rate improvement**: Organizations implementing data-driven activation interventions typically achieve 15–35% improvement in activation rate within two quarters
+- **Time-to-activation**: Identifying and removing friction reduces median time-to-activation by 20–40%, increasing the percentage of users who activate before losing interest
+- **Revenue impact**: Each percentage point of activation rate improvement compounds through the entire funnel — for a $10M ARR business, a 10-point activation improvement typically translates to $800K–$1.5M in incremental ARR
+- **Onboarding experiment success rate**: Experiments targeting specific, data-identified drop-off points succeed at 2–3x the rate of general onboarding improvements
+- **Support volume reduction**: Resolving activation friction points reduces new-user support contacts by 25–40%
+
+**Who Benefits**
+
+- **Product Managers**: Move from aggregate activation rate to specific, actionable drop-off points that can be addressed in the next sprint
+- **Growth Teams**: Build targeted re-engagement sequences based on exactly where users dropped — not generic "we miss you" campaigns
+- **UX Designers**: Focus usability research on the specific steps with the highest drop-off rather than reviewing the entire onboarding experience
+- **Revenue Leaders**: Quantify the ARR impact of activation improvements to justify investment in onboarding and product experience
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Activation Funnel Drop-Off Analysis**
+```
+Analyze our new user activation funnel and identify the highest-priority drop-off points to address.
+
+Funnel data:
+[paste: step name, users entering, users completing, drop-off %, for each step in the activation funnel]
+
+Segmentation available:
+- Acquisition channel: [list channels with step-by-step data if available]
+- User plan/tier: [list]
+- Signup cohort: [weekly or monthly cohorts]
+- User role or ICP attribute: [list if available]
+
+Context:
+- Defined activation event: [what does "activated" mean for your product?]
+- Current overall activation rate: [X]%
+- Target activation rate: [X]%
+- Typical time-to-activation for users who do activate: [X hours/days]
+
+Please provide:
+1. Top 3 drop-off points by volume and revenue impact
+2. Segment comparison: which acquisition channels or user types have the worst activation rates at each step?
+3. Revenue opportunity: estimated ARR impact of closing the gap between worst and best-performing segment
+4. Drop-off classification: for each major drop-off, is this likely friction, value discovery failure, or use case mismatch?
+5. Recommended interventions for the top 3 drop-off points — with intervention type, expected impact, and implementation complexity
+```
+
+**Prompt 2: Activated vs. Non-Activated User Behavior Comparison**
+```
+Compare the behavioral patterns of activated vs. non-activated users in their first [48/72] hours and identify leading indicators of activation.
+
+Behavioral data:
+[paste or describe: event name, frequency for activated users, frequency for non-activated users, or describe the data you have available]
+
+Cohort definition:
+- Activated users: [how defined — completed X event within Y days]
+- Non-activated users: [signed up in same cohort, did not activate within Y days]
+- Cohort size: activated [X], non-activated [X]
+- Time window analyzed: first [X] hours after signup
+
+Please identify:
+1. Top 5 behaviors where activated users are significantly more likely to engage — potential activation leading indicators
+2. Top 3 friction points where non-activated users get stuck that activated users skip or complete quickly
+3. Time-to-first-key-action: how quickly do activated users reach each key step vs. non-activated?
+4. "Activation shortcuts": are there alternative paths that lead to activation faster than the primary onboarding flow?
+5. Re-engagement window: at what point (hours after signup) does the probability of activation for non-activated users drop below [X]%?
+6. Recommended triggers: what user behaviors should trigger an intervention, and what should that intervention be?
+```
+
+**Prompt 3: Activation Intervention Prioritization**
+```
+Help me prioritize our activation improvement backlog for the next quarter.
+
+Proposed interventions:
+[list each proposed intervention with: description, target drop-off point, estimated activation rate impact (if known), implementation effort (S/M/L), confidence in estimate (low/medium/high)]
+
+Constraints:
+- Engineering bandwidth available for activation work: [X engineer-weeks]
+- Design bandwidth: [X designer-weeks]
+- Experiments we can run simultaneously without interference: [X]
+- Must-have vs. nice-to-have constraints: [list any non-negotiable items]
+
+Business context:
+- Current activation rate: [X]%
+- Revenue impact per activation rate point: $[X] ARR
+- Quarterly target: [X]% activation rate
+
+Please provide:
+1. Prioritized intervention list: ranked by expected impact per engineering-week invested
+2. Recommended sprint allocation: what to tackle in weeks 1–4, 5–8, and 9–12
+3. Experiment sequencing: which interventions should be tested first to generate learnings that inform later decisions?
+4. Quick wins: any interventions with high confidence and low effort that should go first regardless of ranking
+5. What to defer: interventions that are low confidence or blocked by dependencies — defer until when and why?
+```
+
+:::

@@ -3922,3 +3922,470 @@ For each advocate:
 ```
 
 :::
+
+## 21. AI Customer Lifecycle Stage Analyzer
+
+> Know exactly where every account stands in its journey — and act before the moment passes.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: AI Customer Lifecycle Stage Analyzer**
+
+Customer success teams manage accounts in wildly different stages of their journey — new onboarding, early adoption, mature expansion, and at-risk renewal — yet most CSMs apply the same playbook to everyone. Without a reliable way to classify where each account truly stands, effort gets misallocated: CSMs over-invest in healthy accounts and miss critical intervention windows for accounts quietly drifting toward churn.
+
+The signals that indicate lifecycle stage are scattered across multiple systems. Product usage data lives in the analytics platform, financial metrics live in the CRM, support history lives in the ticketing tool, and stakeholder sentiment lives in CSM notes. Pulling all of that together manually to assess 50 or 100 accounts takes days — and by the time the assessment is complete, accounts have already moved.
+
+The result is reactive customer success: CSMs discover a customer is at risk only after they get a cancellation notice, discover an expansion opportunity only after the customer has already gone to a competitor, and miss the optimal moment to deepen a relationship because the lifecycle signal arrived too late to act on.
+
+**How COCO Solves It**
+
+COCO aggregates signals from every touchpoint and classifies each account into a precise lifecycle stage with confidence scoring and recommended actions:
+
+1. **Multi-signal stage classification**
+   - Synthesizes product usage depth, frequency, and breadth alongside CRM financial data
+   - Weights signals by recency and reliability to produce a stage confidence score
+   - Distinguishes between "early adopter expanding naturally" vs. "mature account plateauing"
+   - Flags accounts with conflicting signals (high NPS but declining usage) for CSM attention
+
+2. **Stage transition detection**
+   - Identifies accounts that have recently crossed a lifecycle threshold
+   - Alerts CSMs when an account moves from onboarding to adoption, or from healthy to at-risk
+   - Calculates the velocity of stage movement (fast vs. gradual transition)
+   - Prioritizes which transitions require immediate action vs. monitoring
+
+3. **Playbook matching by stage**
+   - Maps each lifecycle stage to the appropriate success motion
+   - Suggests specific actions and talking points relevant to the account's current stage
+   - Identifies which customers are ready for expansion conversations vs. need foundational work first
+   - Generates stage-appropriate outreach templates for each CSM
+
+4. **Portfolio-level lifecycle dashboard**
+   - Summarizes the distribution of accounts across all lifecycle stages
+   - Highlights stage concentration risks (too many accounts in at-risk simultaneously)
+   - Tracks portfolio health trends over time with predictive projection
+   - Benchmarks stage distribution against historical norms to surface emerging patterns
+
+5. **Stage-based capacity planning**
+   - Estimates CSM effort required per stage per account
+   - Identifies CSMs whose portfolios are skewed toward high-effort stages
+   - Recommends account redistribution to balance workload across the team
+   - Projects future stage distribution based on current trends to plan hiring or re-segmentation
+
+6. **Executive lifecycle reporting**
+   - Produces board-ready summaries of portfolio lifecycle health
+   - Translates stage distribution into revenue-at-risk and expansion-ready ARR
+   - Compares current lifecycle distribution to same period in prior year
+   - Highlights the accounts most likely to change stage in the next 30/60/90 days
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **40% faster lifecycle stage assessment** CSMs complete full portfolio reviews in hours instead of days by replacing manual data aggregation with automated stage classification
+- **28% increase in expansion revenue** Timely identification of accounts ready for expansion conversations drives more proactive upsell motions before competitors engage
+- **35% reduction in late-stage churn** Detecting at-risk transitions earlier enables intervention before customers make cancellation decisions
+- **50% improvement in playbook relevance** Stage-matched playbooks mean CSMs deliver the right message at the right moment instead of generic outreach
+- **20% better CSM capacity utilization** Stage-based workload balancing prevents over-investment in healthy accounts and under-investment in at-risk ones
+
+**Who Benefits**
+
+- **Customer Success Managers**: Eliminate the guesswork of determining which motion to run for each account and focus effort where it creates the most impact at the right lifecycle moment
+- **CS Team Leads**: Gain a real-time view of portfolio lifecycle distribution to make informed capacity, coverage, and playbook decisions
+- **Revenue Operations**: Connect lifecycle stage data to renewal and expansion forecasting for more accurate pipeline modeling
+- **Chief Customer Officer**: Access board-ready lifecycle health narratives that translate operational signals into revenue outcomes and strategic risk
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Lifecycle Stage Classification**
+```
+Classify each of the following accounts into a lifecycle stage and recommend the appropriate success motion.
+
+Lifecycle stages to use:
+- Onboarding (0-90 days, setting up and learning)
+- Early Adoption (actively using core features, building habits)
+- Mature Adoption (deep usage, measurable ROI, stable)
+- Expansion Ready (strong health signals, growth potential identified)
+- At Risk (declining engagement, support issues, or sentiment drop)
+- Pre-Churn (multiple negative signals, renewal uncertainty)
+
+For each account provide:
+- Company: [name]
+- Contract start: [date], Renewal date: [date], ARR: $[amount]
+- Product usage (last 30 days): [active users / total licensed, features used, logins per week]
+- Support tickets (last 90 days): [count, severity breakdown]
+- NPS / CSAT: [score and date]
+- Last CSM contact: [date and outcome]
+- Key stakeholder status: [champion present / champion left / executive disengaged]
+- Recent milestones: [any go-lives, expansions, or issues]
+
+For each account produce:
+1. Assigned lifecycle stage with confidence level (High / Medium / Low)
+2. Top 3 signals that drove the classification
+3. Conflicting signals to be aware of (if any)
+4. Recommended next action with suggested timing
+5. Stage-appropriate outreach message draft
+```
+
+**Prompt 2: Stage Transition Alert Analysis**
+```
+Analyze the following accounts for recent lifecycle stage transitions and prioritize CSM response.
+
+Accounts flagged for potential stage transition this week:
+- [Account 1]: Previous stage: [stage], current signals: [describe changes in usage, support, sentiment]
+- [Account 2]: Previous stage: [stage], current signals: [describe]
+- [Account 3]: Previous stage: [stage], current signals: [describe]
+[Continue for all flagged accounts]
+
+For each account:
+1. Confirm or reject the stage transition — what is the new stage?
+2. Assess transition velocity — how fast did this change happen?
+3. Urgency rating (1-5) — does this require action today, this week, or can it be monitored?
+4. Root cause hypothesis — what likely caused the transition?
+5. Recommended intervention — specific action, owner, and deadline
+
+At the end, produce a priority-ordered action list for the CSM team this week.
+```
+
+**Prompt 3: Portfolio Lifecycle Health Report**
+```
+Generate a portfolio lifecycle health report for the following account set.
+
+Portfolio summary:
+- Total accounts: [number]
+- Total ARR: $[amount]
+- Renewal concentration next 90 days: $[ARR amount renewing]
+
+Account list with lifecycle stage and ARR:
+- Onboarding: [list accounts with ARR]
+- Early Adoption: [list accounts with ARR]
+- Mature Adoption: [list accounts with ARR]
+- Expansion Ready: [list accounts with ARR]
+- At Risk: [list accounts with ARR]
+- Pre-Churn: [list accounts with ARR]
+
+Report should include:
+1. Portfolio health score (0-100) with scoring rationale
+2. ARR distribution across lifecycle stages — where is revenue concentrated?
+3. Risk exposure: ARR in At Risk + Pre-Churn stages with renewal timeline
+4. Expansion opportunity: ARR in Expansion Ready stage with estimated expansion potential
+5. Trend: how has stage distribution changed vs. last quarter?
+6. Top 5 priority actions for the CS team this month to improve portfolio health
+```
+
+:::
+
+## 22. AI Stakeholder Sentiment Tracker
+
+> Never be surprised by a stakeholder shift — detect relationship changes before they become renewal risks.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: AI Stakeholder Sentiment Tracker**
+
+Enterprise customer relationships are not monolithic — they are webs of individual stakeholders, each with their own level of engagement, satisfaction, and influence on renewal decisions. A CSM might have a strong relationship with the day-to-day champion while the economic buyer grows increasingly skeptical. By the time that skepticism surfaces in a renewal conversation, it is too late to address it.
+
+The challenge is that stakeholder sentiment is inherently qualitative and distributed. It lives in email tone, meeting participation levels, support ticket language, and the gaps between scheduled calls. CSMs who manage large portfolios cannot maintain deep awareness of every stakeholder's current disposition across 40 or 60 accounts simultaneously — the cognitive load is simply too high.
+
+When sentiment shifts go undetected, the consequences are severe: a champion leaves and no relationship exists with their successor, an executive sponsor quietly deprioritizes the tool without signaling their concerns, or a champion's enthusiasm wanes after an organizational restructuring. Each of these represents a preventable renewal risk that reactive CSMs discover only when the cancellation notice arrives.
+
+**How COCO Solves It**
+
+COCO continuously monitors stakeholder signals and synthesizes a live sentiment map for every account, making invisible relationship dynamics visible and actionable:
+
+1. **Multi-source sentiment synthesis**
+   - Analyzes tone and engagement patterns across emails, call transcripts, and meeting notes
+   - Tracks meeting participation rates, response time trends, and content of stakeholder communications
+   - Integrates support ticket sentiment and escalation history into the stakeholder view
+   - Distinguishes between role-based sentiment (champion vs. economic buyer vs. end user)
+
+2. **Relationship strength scoring**
+   - Assigns relationship strength scores to each stakeholder based on recent interaction quality
+   - Tracks score trajectories over time to detect gradual weakening before it becomes critical
+   - Benchmarks relationship depth against accounts of similar size and stage
+   - Identifies relationship gaps where CSMs have limited visibility into key decision-makers
+
+3. **Champion risk detection**
+   - Monitors for signals of champion disengagement or imminent departure
+   - Alerts when a champion has reduced meeting attendance, response frequency, or usage of the product
+   - Identifies potential successor champions within the account
+   - Triggers succession planning workflows when champion departure risk is high
+
+4. **Executive sponsor tracking**
+   - Monitors the engagement level of executive sponsors and economic buyers separately
+   - Detects when executive interest is shifting from active advocate to passive observer
+   - Identifies optimal moments to bring in the vendor-side executive for re-engagement
+   - Tracks whether executive-level ROI conversations are occurring at appropriate intervals
+
+5. **Sentiment trend alerts and prioritization**
+   - Generates weekly sentiment change summaries for each CSM's portfolio
+   - Ranks accounts by stakeholder sentiment deterioration rate for prioritized outreach
+   - Highlights accounts where a recent organizational change has disrupted the relationship map
+   - Distinguishes between noise (one bad meeting) and signal (sustained sentiment decline)
+
+6. **Relationship recovery playbooks**
+   - Produces targeted re-engagement plans for accounts with declining stakeholder sentiment
+   - Suggests talking points to address specific stakeholder concerns inferred from communication analysis
+   - Recommends multi-threaded engagement strategies when single-threaded risk is detected
+   - Provides templates for executive sponsor outreach and relationship reset conversations
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **45% earlier detection of at-risk relationships** Sentiment tracking surfaces stakeholder disengagement weeks before it manifests as formal renewal risk signals
+- **32% reduction in single-threaded account risk** Proactive identification of relationship gaps drives multi-threading before champions depart
+- **38% improvement in executive sponsor re-engagement success** Timely alerts and targeted playbooks enable effective executive outreach at the right moment
+- **25% decrease in surprise churn** Understanding the full stakeholder landscape eliminates the blind spots that lead to unexpected cancellations
+- **30% faster relationship recovery** AI-generated recovery playbooks reduce the time CSMs spend crafting re-engagement strategies from scratch
+
+**Who Benefits**
+
+- **Customer Success Managers**: Stop flying blind on stakeholder sentiment and get a clear, continuously updated picture of where each relationship stands across the entire portfolio
+- **CS Team Leads**: Identify which accounts are most vulnerable due to relationship deterioration and allocate senior CSM attention accordingly
+- **Account Executives**: Receive timely alerts about stakeholder changes in their accounts before they affect renewal or expansion conversations
+- **VP of Customer Success**: Quantify relationship health as a leading indicator of renewal performance and use it to forecast more accurately
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Stakeholder Sentiment Assessment**
+```
+Analyze the following stakeholder interactions and produce a sentiment assessment for this account.
+
+Account: [company name], ARR: $[amount], Renewal: [date]
+
+Stakeholder roster:
+- [Stakeholder 1]: [name, title, role in decision — champion / economic buyer / end user / IT admin]
+- [Stakeholder 2]: [same]
+- [Stakeholder 3]: [same]
+
+Interaction data (last 90 days):
+- Email threads: [summarize tone and content of recent exchanges per stakeholder]
+- Meeting attendance: [who attended which meetings, who was absent or silent]
+- Call transcripts: [key quotes or sentiment observations per stakeholder]
+- Support tickets: [any escalations or frustrated ticket language attributed to specific stakeholders]
+- Product usage by user: [active vs. inactive per stakeholder]
+
+For each stakeholder produce:
+1. Sentiment score (1-10) with trend (improving / stable / declining)
+2. Engagement level (high / medium / low / disengaged)
+3. Key signals driving the assessment
+4. Risk flags (any concerns about departure, disengagement, or opposition?)
+5. Recommended outreach action
+
+Account-level summary: overall relationship health score and top 2 priorities.
+```
+
+**Prompt 2: Champion Departure Risk Assessment**
+```
+Assess champion departure risk for the following account and create a succession plan.
+
+Account: [company name], ARR: $[amount], Renewal in: [X months]
+
+Current champion: [name, title, tenure at company: X years]
+
+Risk signals observed:
+- [Signal 1: e.g. "LinkedIn activity showing interest in new job opportunities"]
+- [Signal 2: e.g. "Reduced meeting attendance — missed last 2 scheduled calls"]
+- [Signal 3: e.g. "Shorter, less engaged email responses over last 30 days"]
+- [Signal 4: e.g. "Mentioned organizational changes in last call"]
+
+Current relationship map:
+- Other known stakeholders: [list names, titles, and current relationship strength]
+- Any identified potential successor champions: [name, title, engagement level]
+- Executive sponsor: [name, title, last meaningful interaction date]
+
+Produce:
+1. Champion departure probability assessment (Low / Medium / High) with rationale
+2. Timeline estimate for likely departure if signals continue
+3. Current multi-threading gap — which decision-makers are we not sufficiently connected to?
+4. Succession plan: who to develop as next champion and how
+5. Immediate actions: specific outreach to initiate this week to de-risk the situation
+```
+
+**Prompt 3: Multi-Threaded Engagement Plan**
+```
+Build a multi-threaded engagement plan for this account to reduce single-threaded risk.
+
+Account: [company name], ARR: $[amount], Renewal: [date]
+Current single thread: all relationship strength concentrated in [champion name, title]
+
+Organizational context:
+- Company size: [employees]
+- Our product is used by: [departments / teams]
+- Known but unengaged stakeholders: [list names and titles]
+- Unknown/unmapped decision-makers: [describe roles we don't have relationships with]
+- Recent organizational changes: [describe any reorgs, leadership changes, or team expansions]
+
+Business priorities of the account: [list their stated strategic initiatives]
+
+Design an engagement plan:
+1. Priority stakeholders to engage: ranked list with rationale for why each matters
+2. For each priority stakeholder: a personalized engagement approach relevant to their role and priorities
+3. Outreach calendar: suggested sequence of touchpoints over the next 60 days
+4. Topics and value props that will resonate with each persona
+5. Metrics for success: how will we know multi-threading has been achieved?
+```
+
+:::
+
+## 23. AI Competitive Displacement Risk Monitor
+
+> Know when a competitor is circling your accounts — and respond before they make their move.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: AI Competitive Displacement Risk Monitor**
+
+In competitive markets, customer success teams face a threat that goes largely unmonitored: competitors actively prospecting into the existing customer base. By the time a CSM learns that a customer is evaluating a competitive solution, the competitor has often already completed discovery calls, built internal champions, and created doubt about the incumbent. The CSM is responding to a threat that is already well advanced.
+
+The signals of competitive interest are present but scattered. A customer might ask about feature gaps that sound like they came from a competitor's pitch deck. A stakeholder might mention a competitor by name during a call. Support tickets might reference capabilities the product doesn't have. A new IT contact might have prior experience at a competitor. These signals exist but are never synthesized into an actionable competitive risk picture.
+
+The cost of missing competitive displacement is enormous. A churned enterprise account does not just represent lost ARR — it represents a competitor gaining a reference customer, potentially in the same industry vertical, who can be used to displace other accounts. Competitive churn has a multiplier effect that makes early detection and intervention economically critical.
+
+**How COCO Solves It**
+
+COCO continuously scans account interactions, product usage patterns, and market signals to identify competitive displacement risk early and equip CSMs with targeted counter-strategies:
+
+1. **Competitive signal detection**
+   - Scans call transcripts, emails, and support tickets for mentions of competitor names, features, or pricing
+   - Identifies language patterns that indicate a competitor evaluation is underway ("we're looking at alternatives", "another vendor told us")
+   - Tracks feature requests that align with known competitor differentiators
+   - Monitors for new stakeholders who have LinkedIn history at competitor companies
+
+2. **Competitive risk scoring**
+   - Aggregates detected signals into a competitive displacement risk score per account
+   - Adjusts scores based on account vulnerability factors (contract length, stakeholder strength, product adoption depth)
+   - Tracks risk score trends to detect when an account transitions from "competitor aware" to "active evaluation"
+   - Correlates competitive risk with renewal timeline to identify the most urgent situations
+
+3. **Competitor intelligence mapping**
+   - Maintains a knowledge base of known competitor tactics and messaging per product category
+   - Maps detected competitor signals to the specific competitor likely involved
+   - Identifies the specific objections and comparison points the customer is likely hearing
+   - Provides counter-messaging grounded in the account's own usage and outcome data
+
+4. **Account vulnerability analysis**
+   - Identifies the specific gaps or weaknesses that make each at-risk account susceptible to competitive displacement
+   - Distinguishes between feature gaps (addressable with product roadmap) and relationship gaps (addressable with CSM action)
+   - Assesses whether the competitive threat is executive-sponsored or end-user driven
+   - Evaluates how deeply embedded the product is in the customer's workflows as a switching cost indicator
+
+5. **Competitive response playbooks**
+   - Generates tailored competitive response strategies for each account and competitor scenario
+   - Produces ROI and switching cost analyses pre-built around the customer's actual usage data
+   - Suggests executive outreach timing and messaging for competitive situations
+   - Recommends which product team conversations to facilitate (roadmap previews, beta access) as retention levers
+
+6. **Win/loss pattern analysis**
+   - Tracks outcomes of past competitive situations to identify what interventions work
+   - Surfaces patterns: which competitor wins most often against which account profiles?
+   - Feeds insights back into competitive response playbooks to improve future win rates
+   - Provides CS leadership with a portfolio-level view of competitive threat concentration
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **52% earlier competitive threat detection** Automated signal scanning surfaces competitive interest an average of 6-8 weeks earlier than CSM-reported discovery
+- **40% improvement in competitive save rate** Equipped with early warning and targeted playbooks, CSMs successfully retain accounts that previously would have churned to competitors
+- **35% reduction in competitive churn ARR** Earlier intervention and stronger counter-positioning reduces the amount of revenue lost to competitive displacement annually
+- **60% faster competitive response preparation** Pre-built counter-messaging and ROI analyses cut the time CSMs spend preparing for competitive conversations
+- **25% increase in executive engagement during competitive situations** Timely alerts enable vendor-side executives to engage before competitive deals are too advanced to counter
+
+**Who Benefits**
+
+- **Customer Success Managers**: Get an early warning system for competitive threats in the portfolio and arrive at competitive conversations prepared rather than reactive
+- **Product Managers**: Receive structured competitive signal data from real customer interactions to inform roadmap prioritization for retention-critical features
+- **Sales and Account Executives**: Leverage CS-detected competitive intelligence to strengthen renewal and expansion positioning
+- **CS and Sales Leadership**: Gain portfolio-level visibility into competitive displacement risk concentration and use it to allocate resources to the highest-risk accounts
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Competitive Signal Analysis**
+```
+Analyze the following account interactions for competitive displacement signals and produce a risk assessment.
+
+Account: [company name], ARR: $[amount], Renewal: [date], Contract remaining: [months]
+
+Recent interactions to analyze:
+- Call transcript (date: [date]): [paste or summarize the transcript]
+- Support tickets (last 60 days): [summarize key tickets with any feature gap or comparison language]
+- Email exchanges (last 30 days): [summarize any relevant exchanges]
+- QBR notes: [summarize most recent QBR discussion points]
+
+Known competitive landscape for this account:
+- Primary competitors in their consideration set: [list known competitors]
+- Previous competitive evaluation history: [any past competitive situations with this account]
+- Account's industry and typical competitor set: [describe]
+
+Produce:
+1. Competitive displacement risk score (1-10) with confidence level
+2. Specific signals detected and their significance
+3. Most likely competitor involved (if identifiable) and rationale
+4. Account vulnerability assessment — what makes them susceptible right now?
+5. Recommended immediate actions for the CSM in the next 7 days
+```
+
+**Prompt 2: Competitive Counter-Positioning Strategy**
+```
+Build a competitive counter-positioning strategy for retaining this account.
+
+Account: [company name], ARR: $[amount], Renewal: [date]
+Competitor being evaluated: [competitor name]
+Stage of evaluation: [early research / active demos / final comparison / decision imminent]
+
+What we know about the competitive evaluation:
+- Features they are comparing: [list specific capabilities under comparison]
+- Concerns or objections we've heard: [list any stated or implied objections]
+- Internal champion for the competitor: [name/role if known, or "unknown"]
+- Decision-maker who is driving the evaluation: [name/role if known]
+
+Our account strengths:
+- Depth of adoption: [describe how embedded we are in their workflows]
+- ROI achieved to date: [quantified outcomes if available]
+- Integrations in use: [list active integrations — switching cost indicator]
+- Relationship strength: [describe executive and champion relationship quality]
+
+Produce:
+1. Switching cost analysis — what would it realistically cost them (time, money, risk) to switch?
+2. Counter-messaging for each identified comparison point
+3. ROI narrative using their actual usage and outcome data
+4. Recommended engagement sequence for the next 30 days
+5. Escalation recommendation — does this require executive-to-executive outreach?
+```
+
+**Prompt 3: Portfolio Competitive Risk Summary**
+```
+Generate a portfolio-level competitive risk summary for the CS team's monthly review.
+
+Portfolio data:
+- Total accounts: [number], Total ARR: $[amount]
+- Accounts with active competitive signals detected this month: [list with ARR and competitor if known]
+- Accounts successfully retained after competitive situation last quarter: [list]
+- Accounts lost to competitors last quarter: [list with competitor and ARR]
+
+Renewal pipeline at risk (next 90 days):
+[List accounts renewing in next 90 days that also have competitive signals, with ARR and risk level]
+
+Produce:
+1. Total ARR under competitive threat — current month vs. last month trend
+2. Competitor breakdown — which competitors appear most frequently in detected signals?
+3. Account profile patterns — are competitive threats concentrated in certain segments, industries, or tenure bands?
+4. Win rate analysis — based on last quarter's outcomes, what's our current competitive save rate?
+5. Top 5 highest-priority accounts requiring immediate competitive response this week, ranked by ARR-at-risk × urgency
+6. Recommended team focus areas and resource allocation for the next 30 days
+```
+
+:::

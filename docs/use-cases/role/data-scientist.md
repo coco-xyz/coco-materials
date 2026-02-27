@@ -3901,3 +3901,533 @@ Analyze:
 ```
 
 :::
+
+## 21. AI Model Versioning and Lineage Tracker
+
+> Never lose track of which model is in production, what trained it, or why it performs the way it does.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: AI Model Versioning and Lineage Tracker**
+
+Data science teams ship models iteratively, but the infrastructure for tracking what was built, how it was trained, and what data it saw rarely keeps pace with the velocity of model development. After a few months of active iteration, teams find themselves unable to answer basic but critical questions: why does the current production model perform differently than the one from last quarter? which training dataset was used for the version deployed in the EU region? what hyperparameters did the model that won the A/B test use?
+
+The consequences of poor model lineage are serious. When a model behaves unexpectedly in production, the debugging process becomes an archaeological dig through notebooks, scattered experiment logs, and version control history that was never designed for model artifact tracking. Regulatory requirements — increasingly common for models involved in lending, hiring, or healthcare — demand documented model lineage that teams simply cannot reconstruct after the fact.
+
+Beyond debugging and compliance, poor lineage creates organizational knowledge loss. When the data scientist who trained the best-performing model leaves the company, the knowledge of what made it work leaves with them. The team is left with a model artifact and no reproducible path to rebuild or improve it.
+
+**How COCO Solves It**
+
+COCO creates a structured model lineage system that documents every artifact, links each model to its full training provenance, and makes the entire model history queryable and auditable:
+
+1. **Training run documentation**
+   - Generates structured documentation for each training run capturing dataset version, preprocessing steps, and feature set
+   - Records all hyperparameters, framework versions, and hardware configuration
+   - Links model artifacts to the specific code commit that produced them
+   - Creates human-readable training summaries that non-technical stakeholders can understand
+
+2. **Dataset lineage tracking**
+   - Traces each model back to its exact training, validation, and test dataset versions
+   - Documents data sources, collection dates, and any transformations or filters applied
+   - Highlights data freshness for each model version to support retraining decisions
+   - Flags when a model in production is trained on data that is significantly older than current production data
+
+3. **Performance history comparison**
+   - Maintains a comparative performance log across all model versions on consistent evaluation sets
+   - Generates automated regression analysis when a new model version underperforms a previous one
+   - Tracks performance across multiple metrics simultaneously, not just the primary optimization target
+   - Identifies which performance changes are statistically significant vs. within noise
+
+4. **Deployment and rollback tracking**
+   - Documents every deployment event including what replaced what, when, and who approved
+   - Maintains a rollback map showing which previous version to revert to and the steps required
+   - Tracks deployment variants (A/B splits, regional rollouts, staged releases)
+   - Generates deployment change logs formatted for compliance audit requirements
+
+5. **Reproducibility verification**
+   - Assesses each model version's reproducibility by checking whether all training dependencies are pinned
+   - Identifies which models could be fully reproduced vs. which have missing or undocumented dependencies
+   - Generates a reproducibility score per model with a remediation checklist
+   - Creates step-by-step reproduction guides for critical model versions
+
+6. **Lineage query interface**
+   - Answers natural language questions about model history ("which version was deployed when the F1 score dropped last March?")
+   - Generates lineage graphs showing the relationship between model versions, datasets, and experiments
+   - Produces compliance-ready model cards pre-populated with lineage data
+   - Exports lineage reports in formats required by regulatory frameworks (EU AI Act, SR 11-7, etc.)
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **70% reduction in model incident investigation time** Complete lineage data eliminates the manual search through notebooks and logs that previously consumed days of engineer time
+- **100% compliance documentation coverage** Every model in production has a complete, auditable training provenance trail ready for regulatory review
+- **55% improvement in model reproducibility rate** Structured documentation of training dependencies enables teams to reliably reproduce any historical model version
+- **40% faster onboarding for new team members** Comprehensive lineage documentation enables new data scientists to understand the model history without relying on tribal knowledge
+- **30% reduction in duplicate experimentation** Queryable experiment history prevents teams from unknowingly repeating experiments that have already been run
+
+**Who Benefits**
+
+- **Data Scientists**: Spend time building better models instead of documenting what they built — lineage capture happens automatically during the training workflow
+- **ML Engineers**: Debug production model behavior faster by tracing performance changes directly to specific training data or code changes in the lineage graph
+- **Compliance and Risk Teams**: Access audit-ready model documentation that satisfies regulatory requirements without manual report preparation
+- **Data Science Managers**: Maintain institutional knowledge about model history independent of individual team members, reducing key-person risk
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Training Run Documentation**
+```
+Generate complete lineage documentation for the following model training run.
+
+Training context:
+- Model name and version: [name v.X.Y]
+- Task type: [classification / regression / ranking / etc.]
+- Framework and version: [e.g. PyTorch 2.1, scikit-learn 1.4]
+- Training infrastructure: [e.g. AWS p3.8xlarge, 4x V100 GPUs, 6 hours]
+
+Dataset:
+- Training set: [name, version/snapshot date, row count, feature count]
+- Validation set: [name, version/snapshot date, row count]
+- Test set: [name, version/snapshot date, row count]
+- Data sources: [list upstream data sources and collection periods]
+- Preprocessing: [describe transformations applied]
+- Known data quality issues: [any flagged issues or exclusions]
+
+Model configuration:
+- Architecture: [describe model architecture or algorithm]
+- Hyperparameters: [list all non-default hyperparameters]
+- Feature set: [list features used, note any feature engineering]
+- Random seeds: [list all seeds set for reproducibility]
+
+Results:
+- Evaluation metrics on test set: [list all metrics with values]
+- Comparison to previous version: [performance delta on key metrics]
+- Code commit: [git hash]
+
+Generate:
+1. Structured model card (training section)
+2. Human-readable training summary for non-technical stakeholders
+3. Reproducibility checklist — is this run fully reproducible? What's missing?
+4. Recommended tags and metadata for the model registry
+```
+
+**Prompt 2: Model Version Comparison Report**
+```
+Compare the following model versions and explain the performance differences.
+
+Model: [model name]
+Production version: [v.X]
+Candidate version: [v.Y]
+
+Version comparison data:
+- Training data changes: [describe differences in dataset, date range, or preprocessing between versions]
+- Feature changes: [list features added, removed, or modified]
+- Architecture/algorithm changes: [describe any model changes]
+- Hyperparameter changes: [list changed hyperparameters with old and new values]
+- Code changes: [describe significant code changes between training runs]
+
+Performance comparison (on the same held-out test set):
+| Metric | v.X (production) | v.Y (candidate) | Delta |
+|--------|-------------------|-----------------|-------|
+| [Metric 1] | [value] | [value] | [value] |
+| [Metric 2] | [value] | [value] | [value] |
+
+Segment-level performance (if available):
+- Performance by [segment 1]: v.X [value] vs v.Y [value]
+- Performance by [segment 2]: v.X [value] vs v.Y [value]
+
+Generate:
+1. Performance change attribution — which changes most likely explain the performance delta?
+2. Statistical significance assessment — are the observed differences meaningful?
+3. Regression analysis — does v.Y perform worse on any segments or metrics even if overall metrics improved?
+4. Promotion recommendation — should v.Y replace v.X in production? Why or why not?
+5. Monitoring plan — what to watch after deployment if v.Y is promoted
+```
+
+**Prompt 3: Compliance Model Card Generator**
+```
+Generate a compliance-ready model card for regulatory documentation.
+
+Model information:
+- Model name: [name], Version: [version], Deployment date: [date]
+- Regulatory context: [describe — e.g., EU AI Act Article 13, SR 11-7, ECOA, internal governance]
+- Model use case: [describe the business decision the model supports]
+- Decision scope: [who/what is affected by model outputs]
+
+Training lineage:
+- Training dataset: [name, version, date range, size]
+- Data sources: [list and describe]
+- Protected attributes: [list any demographic or sensitive attributes in the data]
+- Data governance: [how was data access and usage authorized?]
+
+Model details:
+- Algorithm/architecture: [describe]
+- Training objective: [what was optimized]
+- Performance on validation and test sets: [list metrics]
+- Known limitations: [describe any known failure modes or distribution limitations]
+
+Fairness and bias assessment:
+- Protected groups evaluated: [list]
+- Fairness metrics computed: [list metrics and values per group]
+- Bias findings: [describe any disparities found and how they were addressed]
+
+Human oversight:
+- How are model outputs used in decision-making: [automated / human-in-the-loop / advisory]
+- Override mechanism: [describe how humans can override or override the model]
+- Escalation path: [what triggers human review]
+
+Generate a complete model card formatted for [regulatory framework] compliance review.
+```
+
+:::
+
+## 22. AI Feature Store Design Advisor
+
+> Design a feature store architecture that eliminates training-serving skew and makes reusable features the default.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: AI Feature Store Design Advisor**
+
+Feature engineering is one of the most time-consuming and duplicated activities in data science organizations. The same features — customer lifetime value, rolling 7-day activity counts, days since last purchase — get re-implemented independently by different team members for different models. There is no shared registry of what features exist, how they are defined, or whether a given feature has already been validated. This duplication wastes engineering time and creates dangerous inconsistencies when the "same" feature is computed differently across models.
+
+Training-serving skew is a related and equally serious problem. A feature computed during model training uses one code path; the same feature computed at inference time uses a different code path maintained by a different team. Small differences in handling of null values, timezone conversions, or aggregation windows compound over time, causing model performance in production to silently diverge from what was measured in evaluation. Diagnosing this skew is notoriously difficult because the symptom (degraded model performance) appears far downstream from the cause.
+
+Without a well-designed feature store, organizations also struggle with feature freshness. A model that requires near-real-time features gets served stale data when the pipeline is delayed. A model that was trained on daily aggregations gets served hourly aggregations in production. These mismatches are often invisible until model behavior becomes obviously wrong.
+
+**How COCO Solves It**
+
+COCO acts as a feature store architect and implementation advisor, helping teams design, build, and govern feature infrastructure that scales with the organization:
+
+1. **Feature store architecture design**
+   - Evaluates the team's use cases and recommends the appropriate feature store architecture (offline-only, online-offline, real-time, hybrid)
+   - Designs the offline store (data warehouse / data lake integration) for training data retrieval with point-in-time correctness
+   - Designs the online store (low-latency key-value store) for serving features with <10ms latency requirements
+   - Specifies the feature pipeline architecture connecting the two stores with appropriate freshness guarantees
+
+2. **Feature definition standardization**
+   - Creates a feature definition schema that captures the computation logic, data source, freshness requirement, and owner for every feature
+   - Identifies candidate features for promotion to the shared feature registry from existing model codebases
+   - Generates standardized feature transformation code from natural language descriptions of feature logic
+   - Validates that feature definitions are unambiguous and can be implemented consistently across training and serving
+
+3. **Training-serving skew prevention**
+   - Audits existing feature computation code for sources of training-serving skew
+   - Designs point-in-time correct training dataset generation to prevent data leakage and skew
+   - Recommends testing frameworks to continuously validate feature parity between training and serving environments
+   - Produces a skew monitoring plan that alerts when offline and online feature values diverge
+
+4. **Feature governance and discovery**
+   - Designs a feature registry with metadata for discoverability, lineage, and access control
+   - Creates a feature approval workflow for promoting experimental features to production
+   - Establishes freshness SLAs and alerting thresholds per feature group
+   - Designs data lineage integration connecting features to their upstream data sources
+
+5. **Platform selection guidance**
+   - Evaluates open-source options (Feast, Hopsworks, Tecton) and managed cloud offerings against the team's requirements
+   - Produces a structured comparison matrix for the team's specific constraints (budget, cloud provider, team size, latency requirements)
+   - Identifies the minimum viable feature store architecture for teams not yet ready for a full platform investment
+   - Creates a migration plan for incrementally moving from ad-hoc feature computation to a governed feature store
+
+6. **Feature reuse analysis**
+   - Analyzes existing model codebases to identify features being computed redundantly across projects
+   - Quantifies the engineering time wasted by feature duplication
+   - Prioritizes which features to centralize first based on usage frequency and business importance
+   - Estimates the compute cost savings from centralizing high-cardinality feature computations
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **60% reduction in feature engineering time** Reusable, pre-validated features from the shared registry eliminate redundant computation across data science projects
+- **Near-elimination of training-serving skew incidents** Unified feature computation paths and continuous parity monitoring prevent the most common cause of silent model degradation
+- **45% faster new model development** New models can be built by assembling existing features from the registry rather than computing everything from scratch
+- **35% reduction in compute costs** Centralized feature computation replaces redundant per-model feature pipelines running in parallel
+- **50% improvement in feature discoverability** Governed feature registry with rich metadata enables data scientists to find and reuse features they didn't know existed
+
+**Who Benefits**
+
+- **Data Scientists**: Spend more time on modeling and less on feature engineering plumbing, with confidence that features are computed correctly and consistently
+- **ML Engineers**: Maintain a single feature computation codebase instead of debugging skew across dozens of independently maintained pipelines
+- **Data Engineering Teams**: Gain a clear interface between data pipelines and ML feature consumption, reducing ad-hoc requests and pipeline fragmentation
+- **Data Science Leadership**: Reduce technical debt, improve team velocity, and create an organizational capability that compounds in value as the feature library grows
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Feature Store Architecture Design**
+```
+Design a feature store architecture for our data science team.
+
+Team and use case context:
+- Team size: [N data scientists, N ML engineers]
+- Number of models in production: [count]
+- New models per quarter: [count]
+- Primary ML use cases: [e.g., real-time fraud scoring, batch churn prediction, recommendation engine]
+
+Latency requirements:
+- Real-time inference models (require online features): [list use cases and P99 latency SLA]
+- Batch inference models (offline features only): [list use cases]
+
+Feature engineering current state:
+- Where features are currently computed: [describe — ad-hoc notebooks, dbt models, custom pipelines]
+- Estimated number of distinct features across all models: [count or range]
+- Known training-serving skew issues: [describe any known problems]
+
+Infrastructure:
+- Cloud provider: [AWS / GCP / Azure]
+- Data warehouse: [BigQuery / Snowflake / Redshift / etc.]
+- Streaming infrastructure: [Kafka / Kinesis / Pub/Sub / none]
+- Team's infrastructure skill level: [beginner / intermediate / advanced]
+
+Design:
+1. Recommended feature store architecture with component diagram description
+2. Offline store design: storage technology, point-in-time correctness approach, training dataset generation
+3. Online store design: technology selection, write path (batch vs. streaming), read path for inference
+4. Feature pipeline design: how features flow from raw data to offline store to online store
+5. Platform recommendation (build vs. buy) with rationale and migration steps
+```
+
+**Prompt 2: Training-Serving Skew Audit**
+```
+Audit the following feature computation code for training-serving skew risks.
+
+Feature: [feature name and description]
+
+Training code (Python):
+[paste training feature computation code]
+
+Serving code (Python / SQL / other):
+[paste inference-time feature computation code]
+
+Data context:
+- Data source: [describe the upstream data source]
+- Known data quirks: [nulls, timezone issues, irregular updates, etc.]
+- Training data date range: [describe]
+- Serving data freshness: [how often is serving data updated?]
+
+Audit for:
+1. Null/missing value handling differences
+2. Timezone or timestamp conversion differences
+3. Aggregation window boundary differences (e.g., "last 7 days" defined differently)
+4. Categorical encoding inconsistencies
+5. Numeric scaling or normalization differences
+6. Any code logic that would produce different outputs for the same input
+
+For each issue found:
+- Describe the discrepancy
+- Estimate the magnitude of impact on feature values
+- Provide the corrected code for both training and serving
+- Recommend a unit test to catch this class of skew in the future
+```
+
+**Prompt 3: Feature Registry Design**
+```
+Design a feature registry schema and governance process for our organization.
+
+Organization context:
+- Teams contributing features: [list teams — data science, analytics engineering, ML platform, etc.]
+- Estimated total features to register: [count]
+- Access control requirements: [who should be able to read / write / delete features?]
+- Compliance requirements: [any PII, GDPR, or data residency constraints on certain features?]
+
+Current discovery problem: [describe how data scientists currently find out what features exist — or don't]
+
+Design:
+1. Feature metadata schema — what fields does every feature definition require?
+   - Identity: name, version, owner, team, creation date
+   - Definition: computation logic (code reference or SQL), data source(s), entity key
+   - Quality: freshness SLA, expected value distribution, known null rate
+   - Governance: PII flag, access tier, approved use cases
+   - Lineage: upstream datasets, downstream models that use this feature
+
+2. Feature naming convention: rules for consistent, searchable feature names
+
+3. Contribution workflow: steps for proposing, reviewing, and approving a new feature for the registry
+
+4. Freshness monitoring: how to alert when a feature pipeline is delayed beyond its SLA
+
+5. Deprecation process: how to safely retire features that are no longer needed without breaking models that use them
+
+Output as a feature governance specification document.
+```
+
+:::
+
+## 23. AI Causal Inference Assistant
+
+> Move beyond correlation and understand what actually causes the outcomes your business cares about.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: AI Causal Inference Assistant**
+
+Data science teams are routinely asked questions that observational data alone cannot answer: does this feature cause users to retain longer, or do retained users just happen to use that feature? did the marketing campaign cause the sales lift, or did it reach customers who would have purchased anyway? do power users become power users because of onboarding, or are they just inherently different? Answering these questions requires causal inference — a discipline that most data science teams acknowledge is important but struggle to apply rigorously in practice.
+
+The gap between correlation and causation is invisible in standard analytical outputs. A dashboard showing that users who complete onboarding have 60% higher 90-day retention looks compelling — but if users who complete onboarding are systematically different from those who don't (more motivated, less price-sensitive, larger teams), the observed retention difference may be entirely due to selection bias rather than the onboarding experience. Acting on this finding by investing heavily in onboarding improvements produces disappointing results because the causal effect was never established.
+
+A/B testing solves some of these problems but is not always available. Many interventions cannot be randomized — you cannot randomly assign different customers to different product tiers, randomly assign different prices to otherwise identical users, or run experiments on historical data. Causal inference methods like instrumental variables, difference-in-differences, regression discontinuity, and propensity score matching exist to address precisely these cases, but they are methodologically demanding and easy to apply incorrectly.
+
+**How COCO Solves It**
+
+COCO guides data scientists through the full causal inference workflow — from problem framing to method selection to results interpretation — making rigorous causal analysis accessible for the questions that matter most:
+
+1. **Causal question framing**
+   - Translates business questions into formally specified causal queries
+   - Identifies the treatment, outcome, and relevant confounders for each analysis
+   - Draws the causal DAG (Directed Acyclic Graph) from a description of domain knowledge
+   - Distinguishes between causal questions that can be answered with available data and those that require additional data collection or experimental design
+
+2. **Method selection and justification**
+   - Evaluates available data and research design against the requirements of each causal method
+   - Recommends the most appropriate method (RCT analysis, IV, DiD, RD, matching, synthetic control) with explicit justification
+   - Identifies when a proposed causal question is simply not answerable with available data and suggests what additional data or experimental design would be required
+   - Flags common misapplications of causal methods before analysis begins
+
+3. **Assumption testing and sensitivity analysis**
+   - Generates a complete list of identifying assumptions for the chosen method
+   - Designs empirical tests for each assumption that can be checked in the data
+   - Runs sensitivity analyses to quantify how much the conclusions change if key assumptions are violated
+   - Produces a structured robustness report documenting which assumptions are testable and which must be defended on domain knowledge grounds
+
+4. **Confounder identification and adjustment**
+   - Analyzes the causal DAG to identify the minimum sufficient adjustment set
+   - Distinguishes between confounders (must adjust), mediators (should not adjust for total effect), and colliders (must not adjust)
+   - Implements propensity score estimation and balance checking for matching and weighting approaches
+   - Tests for residual confounding using falsification tests and negative controls
+
+5. **Effect estimation and interpretation**
+   - Implements the chosen causal estimator and computes point estimates with appropriate confidence intervals
+   - Distinguishes between average treatment effect (ATE), average treatment effect on the treated (ATT), and local average treatment effect (LATE)
+   - Translates technical causal effect estimates into business-relevant language for stakeholder communication
+   - Quantifies the business value of the estimated causal effect to support prioritization decisions
+
+6. **Results communication and documentation**
+   - Generates methodology notes suitable for peer review or regulatory audit
+   - Produces stakeholder summaries that convey causal conclusions without overstatement
+   - Creates decision memos connecting causal findings to specific recommended actions
+   - Documents the full analysis in a reproducible format for future reference and replication
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **3x increase in causal analyses completed per quarter** Structured guidance reduces the time and expertise barrier for applying rigorous causal methods, enabling more analyses to reach completion
+- **65% reduction in false positive causal claims** Systematic assumption testing and sensitivity analysis prevents teams from acting on spurious correlations dressed up as causal findings
+- **40% improvement in experiment-free analysis quality** Teams tackling non-randomizable questions produce more defensible causal estimates using appropriate observational methods
+- **50% faster business decision turnaround** Causal insights with clear effect estimates and uncertainty quantification enable faster, more confident business decisions
+- **Significant reduction in wasted investment** Avoiding investments based on confounded correlations saves resources that would have gone toward interventions with no true causal effect
+
+**Who Benefits**
+
+- **Data Scientists**: Apply causal inference methods with confidence by following structured guidance on method selection, assumption testing, and interpretation — without needing a PhD in econometrics
+- **Product Managers**: Receive causal effect estimates rather than correlation-based findings, enabling product investment decisions grounded in true impact rather than selection bias
+- **Marketing Analytics Teams**: Distinguish campaign effects from self-selection in campaign attribution, leading to more accurate marketing mix models and budget allocation
+- **Senior Leadership**: Make strategic decisions on the basis of causal evidence rather than correlational heuristics, reducing the risk of investing in interventions that do not cause the desired outcomes
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Causal Question Formalization and Method Selection**
+```
+Help me formalize the following business question as a causal inference problem and select the appropriate method.
+
+Business question: [describe in natural language — e.g., "Does using our mobile app cause higher 6-month retention than web-only usage?"]
+
+Available data:
+- Dataset description: [describe the data — observational logs, historical records, panel data, etc.]
+- Treatment variable: [what is the intervention or exposure being studied?]
+- Outcome variable: [what is the outcome of interest?]
+- Time period: [data range]
+- Sample size: [approximate N]
+- Covariates available: [list key variables that might be confounders]
+
+Domain knowledge:
+- Known confounders: [what factors influence both treatment assignment and outcome?]
+- Suspected mechanisms: [how do you think the treatment affects the outcome?]
+- Selection process: [how do units end up in the treated vs. untreated group?]
+
+Additional data or natural experiments available:
+- Are there any instrumental variables? [describe any variables that affect treatment but not outcome directly]
+- Is there a threshold or cutoff in treatment assignment? [describe for regression discontinuity]
+- Is there a clear pre/post period with a control group? [describe for difference-in-differences]
+
+Produce:
+1. Formal causal query: What is the estimand? (ATE, ATT, or LATE?)
+2. Causal DAG: describe the nodes and edges based on domain knowledge
+3. Main confounders to address and why
+4. Recommended causal method with justification
+5. Key identifying assumptions to verify before proceeding
+```
+
+**Prompt 2: Propensity Score Analysis Design**
+```
+Design a propensity score analysis to estimate the causal effect of [treatment] on [outcome].
+
+Study context:
+- Treatment: [describe the treatment — binary indicator of what?]
+- Outcome: [describe the outcome variable and its measurement]
+- Dataset: [description, N, time period]
+- Treatment prevalence: [approximate % treated]
+
+Covariates to include in the propensity score model:
+[List all candidate covariates with their data types and roles — confounders, instruments, pure predictors]
+
+Concerns about selection bias:
+[Describe why simple comparison of treated vs. untreated would be biased — what drives treatment assignment?]
+
+Design the full analysis:
+1. Propensity score model specification — which covariates to include and why (exclude instruments and post-treatment variables)
+2. Estimation approach: logistic regression, gradient boosting, or ensemble — which to use and why?
+3. Matching or weighting strategy: 1:1 matching, k:1 matching, IPW, AIPW — recommendation with rationale
+4. Balance checking: which diagnostics to run and what constitutes acceptable balance?
+5. Outcome model: regression adjustment on matched/weighted sample
+6. Sensitivity analysis: how sensitive are results to unmeasured confounding? (Rosenbaum bounds or E-value)
+7. Results reporting: how to communicate the causal estimate and its uncertainty
+
+Include: code structure (Python with DoWhy/EconML or R with MatchIt/WeightIt) for each step.
+```
+
+**Prompt 3: Difference-in-Differences Analysis Guide**
+```
+Guide me through a difference-in-differences analysis for the following policy evaluation.
+
+Research question: [describe — e.g., "Did rolling out the new onboarding flow to the treatment cohort cause higher 30-day activation rates?"]
+
+Study design:
+- Treatment group: [describe who received the intervention and when]
+- Control group: [describe the comparison group — why is it a plausible counterfactual?]
+- Pre-period: [date range before intervention]
+- Post-period: [date range after intervention]
+- Outcome: [describe the outcome variable]
+
+Data structure:
+- Panel data (same units observed before and after): [yes / no]
+- Unit of analysis: [user / account / region / etc.]
+- Number of units per group: [treatment N, control N]
+
+Known complications:
+[Describe any issues — staggered rollout timing, differential attrition, concurrent confounding events, anticipation effects]
+
+Guide the full DiD analysis:
+1. Parallel trends assumption — how to test it using pre-period data, and what to do if it's violated
+2. Model specification — two-way fixed effects, event study specification, or stacked DiD — which is appropriate and why?
+3. Standard error clustering — at what level to cluster and why
+4. Heterogeneous treatment effects — should we estimate effects for subgroups?
+5. Robustness checks — placebo tests, synthetic control comparison, alternative control groups
+6. Interpretation — how to translate the DiD coefficient into a business-meaningful causal claim
+
+Include: annotated Python or R code for each step.
+```
+
+:::

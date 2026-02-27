@@ -21,8 +21,8 @@ features:
     details: 几分钟内雇佣你的第一位AI数字员工。注册、支付、渠道部署全流程指南。
     link: /zh/getting-started/
   - icon: 📋
-    title: 925+ 用例库
-    details: 覆盖30个角色、19个行业的925+个真实场景。从代码审查到财务报告，每个用例都配有演示视频和实用提示词。
+    title: 1,001+ 用例库
+    details: 覆盖30个角色、19个行业的1,001+个真实场景。从代码审查到财务报告，每个用例都配有演示视频和实用提示词。
     link: /zh/use-cases/
   - icon: 🎬
     title: 社交媒体

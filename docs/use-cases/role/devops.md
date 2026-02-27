@@ -3975,3 +3975,172 @@ Please:
 ```
 
 :::
+
+## 24. AI Pipeline Security and Supply Chain Hardener
+
+> Secure your software supply chain before an attacker does it for you.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Pipeline Security and Supply Chain Hardener**
+
+Software supply chain attacks have moved from theoretical concern to front-page crisis. The SolarWinds, Log4Shell, and XZ Utils incidents demonstrated that a single compromised dependency, build tool, or CI pipeline can cascade into a catastrophic breach affecting thousands of organizations downstream. DevOps teams are responsible for the pipeline infrastructure that connects source code to production systems — and increasingly, that infrastructure is itself an attack surface. Build servers, artifact registries, deployment scripts, and dependency resolution mechanisms all represent potential entry points for adversaries who have learned that attacking the supply chain is often easier than attacking the end target directly.
+
+Most DevOps teams have not systematically hardened their software supply chain, not because they are unaware of the risk but because the work is complex, scattered across multiple tools, and competes with feature delivery pressure. Supply chain security requires understanding Software Bill of Materials (SBOM) generation, dependency integrity verification, pipeline job permissions hardening, artifact signing, build environment isolation, and provenance attestation — each a specialized domain with its own tooling ecosystem (Sigstore, SLSA, SBOM formats, Dependabot, Snyk, etc.). Assembling a coherent hardening strategy from these fragmented pieces requires expertise that few DevOps practitioners have developed systematically.
+
+The gap between awareness and action is measured in real breaches. Organizations that delay supply chain hardening are relying on the assumption that they are not a high-value target — an assumption that the Log4Shell incident invalidated for virtually every organization running Java in production. Regulators are now codifying supply chain requirements in standards like NIST SSDF and the US Cyber EO, making compliance an additional driver. DevOps teams that build supply chain security into their pipeline architecture now will avoid both the breach cost and the compliance scramble that their peers will face as requirements tighten.
+
+**How COCO Solves It**
+
+1. **Supply Chain Attack Surface Mapping**: COCO identifies pipeline vulnerabilities:
+   - Inventories all external dependencies entering the build: direct packages, transitive dependencies, base images, build tools, GitHub Actions/GitLab CI community steps
+   - Maps the trust boundaries in the pipeline — where untrusted code can influence the build or deployment process
+   - Identifies CI/CD jobs with excessive permissions (write access to production, ability to exfiltrate secrets)
+   - Analyzes the build environment for persistence risk: can a malicious build step modify the build agent for future runs?
+   - Generates a supply chain attack surface report with risk scores for each identified entry point
+
+2. **Dependency Integrity and Verification**: COCO enforces supply chain trust:
+   - Reviews dependency configurations for pinned versions vs. floating ranges that allow silent upgrades
+   - Configures checksum verification and lock file enforcement to detect tampered dependencies
+   - Identifies packages with high supply chain risk signals: recent ownership transfer, low download counts, no code review history
+   - Advises on private registry mirroring to eliminate direct dependency on public repositories in production pipelines
+   - Generates a dependency vetting checklist for new package addition requests
+
+3. **SBOM Generation and Management**: COCO implements software bill of materials workflows:
+   - Designs SBOM generation steps integrated into the CI pipeline at build time
+   - Selects appropriate SBOM formats (CycloneDX, SPDX) based on toolchain and downstream consumption needs
+   - Advises on SBOM storage, signing, and distribution to customers and auditors
+   - Implements continuous SBOM vulnerability scanning against NVD, OSV, and vendor advisory feeds
+   - Generates SBOM attestation workflows that provide cryptographic evidence of build-time component inventory
+
+4. **Pipeline Permissions Hardening**: COCO applies least-privilege to CI/CD:
+   - Audits CI/CD job permissions and identifies jobs with broader access than their function requires
+   - Implements ephemeral credential patterns (OIDC workload identity) to eliminate long-lived CI secrets
+   - Designs secret scoping rules ensuring pipeline jobs can only access the secrets required for their stage
+   - Reviews GitHub Actions and GitLab CI configuration for third-party action pinning and permission declarations
+   - Generates a permissions hardening plan with specific configuration changes for the team's CI platform
+
+5. **Build Provenance and SLSA Framework Implementation**: COCO establishes artifact integrity:
+   - Guides implementation of SLSA (Supply-chain Levels for Software Artifacts) framework at the appropriate level for the team's risk profile
+   - Configures build provenance generation using Sigstore/Cosign to create signed attestations for every artifact
+   - Implements artifact signing workflows that connect container images and packages to their verified build source
+   - Designs verification gates in deployment pipelines that reject unsigned or unattested artifacts
+   - Produces SLSA compliance documentation for customer security questionnaires and regulatory audits
+
+6. **Incident Detection and Response for Supply Chain Events**: COCO prepares for breach scenarios:
+   - Defines detection signals for supply chain compromise: unusual dependency download patterns, unexpected pipeline behavior, anomalous outbound connections from build agents
+   - Generates a supply chain incident response playbook with containment, investigation, and recovery steps
+   - Designs blast radius analysis procedures for rapid assessment when a compromised dependency is discovered
+   - Advises on communication templates for customer and regulatory notification in supply chain breach scenarios
+   - Creates tabletop exercise scenarios to test the team's readiness for a supply chain compromise event
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Unverified external dependencies in production pipeline**: Reduced from average **340 unverified packages to under 20** with dependency pinning and verification enforcement
+- **CI pipeline jobs with excessive permissions**: Reduced by **78%** after least-privilege audit and OIDC workload identity implementation
+- **Time to detect a compromised dependency after public disclosure**: From **average 18 days to under 4 hours** with automated SBOM vulnerability scanning
+- **SLSA compliance level achieved**: Teams move from Level 0 to **Level 2 within one quarter** with COCO-guided implementation
+- **Security questionnaire completion time for supply chain questions**: Reduced from **3-4 hours per questionnaire to 20 minutes** with COCO-maintained provenance and SBOM documentation
+
+**Who Benefits**
+
+- **DevOps and Platform Engineers**: Have a structured, prioritized hardening plan that translates supply chain security principles into specific pipeline configuration changes.
+- **Security and AppSec Teams**: Receive DevOps-native security controls that integrate into existing pipelines rather than requiring separate security tooling that creates friction.
+- **CTOs and Engineering Leadership**: Demonstrate measurable supply chain security maturity to enterprise customers, regulators, and cyber insurance underwriters.
+- **Enterprise and Government Customers**: Gain confidence in the security of software delivered by vendors who can produce SBOM and provenance documentation on demand.
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Supply Chain Attack Surface Assessment**
+```
+Please assess the supply chain attack surface in our CI/CD pipeline and prioritize hardening actions.
+
+Pipeline platform: [GitHub Actions / GitLab CI / Jenkins / CircleCI / other]
+Deployment target: [cloud provider and environment — AWS/GCP/Azure, production/staging]
+Primary languages and package ecosystems: [e.g., Python/pip, Node.js/npm, Go modules, Java/Maven]
+Container registry: [Docker Hub / ECR / GCR / ACR / private]
+
+Current pipeline overview:
+[Describe the pipeline stages — source checkout → build → test → containerize → push → deploy]
+
+Current supply chain controls in place:
+- [ ] Dependency version pinning (lock files)
+- [ ] Dependency checksum verification
+- [ ] Container base image pinning
+- [ ] CI job permissions scoping
+- [ ] Third-party Action version pinning
+- [ ] Artifact signing
+- [ ] SBOM generation
+- [ ] Provenance attestation
+
+Known concerns or recent events:
+[Describe any supply chain incidents, audit findings, or specific concerns — or "none"]
+
+Please:
+1. Identify the top 5 supply chain attack vectors in our pipeline based on the configuration described
+2. For each vector: describe the attack scenario, potential blast radius, and detection difficulty
+3. Prioritize the hardening actions by: risk reduction vs. implementation effort
+4. Generate a 90-day supply chain hardening roadmap with specific actions, tooling recommendations, and milestones
+5. Identify the single highest-impact action we can implement in the next 2 weeks with minimal pipeline disruption
+```
+
+**Prompt 2: CI/CD Permissions Audit and Least-Privilege Implementation**
+```
+Please audit our CI/CD pipeline permissions and generate a least-privilege implementation plan.
+
+Pipeline platform: [GitHub Actions / GitLab CI / Jenkins / other]
+Cloud platform: [AWS / GCP / Azure]
+
+Current permission configuration:
+[Describe or paste your current CI job permission configuration — IAM roles, GitHub token permissions, secret access, etc.]
+
+Pipeline jobs and their functions:
+1. [Job name]: [what it does — build, test, push to registry, deploy to staging, deploy to production, etc.]
+2. [Job name]: [what it does]
+3. [Repeat for each job]
+
+Secrets currently in the pipeline:
+[List secret names and their purpose — do NOT paste actual values]
+
+Incidents or near-misses related to CI permissions: [describe or "none"]
+
+Please:
+1. For each job, identify which permissions it currently has vs. which permissions it actually needs
+2. Identify the highest-risk permission grants — jobs that have write access to production or can read all secrets
+3. Design an OIDC workload identity configuration to replace long-lived credentials for cloud deployments
+4. Generate specific configuration changes (GitHub Actions permission blocks, IAM role definitions) for the top 3 permission reductions
+5. Advise on a job isolation strategy to ensure a compromised job cannot affect other pipeline jobs' secrets or environments
+```
+
+**Prompt 3: Dependency Integrity and SBOM Implementation Plan**
+```
+Help me implement dependency integrity verification and SBOM generation in our pipeline.
+
+Language and package manager: [Python/pip / Node.js/npm / Go / Java/Maven / Rust/Cargo / other]
+Container base image: [image name and tag]
+Current pipeline stage where build happens: [describe]
+Artifact types produced: [container images / language packages / binaries / other]
+Downstream consumers of our artifacts: [internal only / external customers / regulated environment / other]
+
+Current dependency management:
+- Lock files in use: [yes/no — which files]
+- Dependency update automation: [Dependabot / Renovate / manual / none]
+- Vulnerability scanning: [current tool and coverage — or "none"]
+
+SBOM requirements from customers or regulators: [describe any known requirements — or "none yet"]
+
+Please:
+1. Recommend the optimal SBOM format (CycloneDX vs. SPDX) for our toolchain and consumer needs, with rationale
+2. Generate a CI pipeline step configuration that produces an SBOM at build time using [appropriate tool for our stack]
+3. Design a continuous vulnerability scanning workflow that alerts on newly disclosed vulnerabilities affecting our SBOM components
+4. Implement dependency integrity verification: specific configuration changes to pin and verify our top-level and transitive dependencies
+5. Advise on SBOM signing and storage: where to store SBOMs, how to sign them, and how to serve them to customers or auditors on request
+```
+
+:::
