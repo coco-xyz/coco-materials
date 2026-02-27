@@ -4389,3 +4389,285 @@ Produce:
 ```
 
 :::
+
+## 24. AI Executive Business Review Deck Builder
+
+> Assembles quarterly executive business review presentations from CRM data, usage metrics, and support history — personalized per account in under 30 minutes.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: QBR Preparation Consumes a Full Week of Customer Success Time Every Quarter**
+
+Executive business reviews are the highest-value touchpoint in the customer success calendar — the opportunity to demonstrate ROI, align on strategy, and expand the relationship. Yet preparation typically requires 4–8 hours per account. Across a book of 15–25 accounts, QBR prep consumes an entire week. The burden also creates quality inconsistency: CSMs who are stretched thin deliver generic slides, outdated metrics, and missed renewal discussions.
+
+**How COCO Solves It**
+
+1. **Automated Data Assembly**: COCO pulls account data from CRM, product analytics, and support systems — consolidating usage trends, ticket history, adoption scores, and business outcomes.
+2. **Personalized Slide Generation**: COCO generates a draft QBR presentation with account-specific metrics, outcomes achieved, and ROI evidence tailored to the customer's stated goals.
+3. **Success Story Framing**: COCO identifies the strongest adoption wins and business outcomes and frames them as customer success stories with quantified impact.
+4. **Strategic Agenda Building**: COCO proposes a QBR agenda prioritizing topics most relevant to the account's current phase (onboarding, adoption, renewal, expansion).
+5. **Risk and Opportunity Flags**: COCO highlights account health signals — underutilization gaps, support escalation patterns, and expansion opportunities — to address in the QBR.
+
+:::
+
+::: details Results & Who Benefits
+
+- **QBR prep time**: Drops from **4–8 hours to 45–90 minutes** per account
+- **Presentation quality**: AI-assembled decks with personalized metrics receive higher executive engagement scores than templated presentations
+- **CSM capacity**: With QBR prep time cut by 70%, CSMs conduct **30% more strategic customer conversations** per quarter
+- **Renewal rate correlation**: Accounts receiving well-prepared, data-driven QBRs renew at **12–18 percentage points higher** rates
+- **Expansion pipeline**: QBRs that include data-supported expansion conversations generate **2x the upsell opportunities**
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: QBR Presentation Draft Generator**
+```
+Build a quarterly executive business review presentation outline for the following account.
+
+Account: [company name]
+Customer since: [date]
+Contract value: $[ARR]
+Products/features in use: [list]
+Primary contact title: [C-level / VP / Director]
+
+Account metrics (last quarter):
+- Active users: [X] of [Y] licensed seats ([Z]% adoption)
+- Key feature usage: [describe top used and underused features]
+- Support tickets: [X] opened, [Y] resolved, average resolution [Z] days
+- Business outcomes achieved: [describe measurable results]
+
+Customer stated goals at last QBR: [list 2–3 goals]
+
+Create a QBR presentation outline with:
+1. Executive summary slide (ROI achieved this quarter)
+2. Usage and adoption dashboard (metrics with trend arrows)
+3. Business outcomes section (quantified results tied to customer goals)
+4. Success stories (2–3 specific wins with before/after metrics)
+5. Strategic roadmap discussion topics
+6. Renewal/expansion agenda items
+7. Agreed next steps framework
+```
+
+**Prompt 2: Account Health Pre-QBR Analysis**
+```
+Analyze the following account data before the QBR and identify the key themes, risks, and opportunities to address.
+
+Account: [name]
+QBR date: [date]
+Health score: [X/100 or RAG status]
+Usage data: [paste usage trends, adoption rates, feature engagement]
+Support history: [describe recent ticket trends, any escalations, unresolved issues]
+Commercial context: [renewal date, upsell opportunities, outstanding proposals]
+
+Analyze and provide:
+1. Top 3 wins to celebrate and lead with in the QBR
+2. Top 2 risks to address proactively (with talking points)
+3. Expansion opportunities to introduce with supporting usage data
+4. Questions to ask the executive to deepen strategic alignment
+5. One-paragraph executive summary suitable for the opening slide
+```
+
+**Prompt 3: Post-QBR Follow-Up Action Plan**
+```
+Draft a post-QBR follow-up communication and action plan based on the following meeting notes.
+
+Account: [name]
+QBR date: [date]
+Attendees: [titles only]
+Meeting outcomes and commitments: [describe what was discussed and decided]
+Open items: [list action items and owners]
+
+Draft:
+1. Follow-up email to the executive sponsor (professional, concise, confirms next steps)
+2. Internal CRM notes capturing account status and executive sentiment
+3. Updated account success plan priorities based on QBR discussion
+4. Calendar of next touchpoints with recommended agenda for each
+```
+
+:::
+
+## 25. AI Customer Expansion Signal Detector
+
+> Analyzes product usage, support interactions, and CRM notes to surface accounts ready for upsell or cross-sell conversations — before they ask.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Expansion Opportunities Are Identified Too Late or Missed Entirely**
+
+The most cost-effective revenue growth in SaaS comes from expanding existing customers — yet most customer success teams identify expansion opportunities reactively: customers ask for more seats or inquire about higher tiers. By then, they have often already evaluated alternatives, and the negotiating dynamic has shifted. Expansion readiness is embedded in dozens of data points — usage spikes near license limits, teams adopting features indicating adjacent needs, NPS scores showing strong advocacy — but connecting these signals manually takes time most CSMs don't have.
+
+**How COCO Solves It**
+
+1. **Usage-Based Signal Analysis**: COCO monitors product usage and flags accounts approaching license limits, demonstrating power-user adoption, or using features indicating adjacent needs.
+2. **Cross-Sell Pattern Recognition**: COCO identifies accounts using feature combinations that historically correlate with high uptake of specific add-on products.
+3. **Sentiment Signal Extraction**: COCO analyzes NPS responses, support interactions, and CRM notes for language indicating strong advocacy or new use case exploration.
+4. **Expansion Timing Scoring**: COCO scores each account on expansion readiness and timing — factoring in budget cycle proximity, renewal timeline, and relationship health.
+5. **Personalized Outreach Drafts**: COCO generates expansion conversation starters and email outreach tailored to each account's specific usage patterns and identified needs.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Expansion opportunity identification**: CSMs surface **3x more** expansion conversations per quarter vs. reactive-only approaches
+- **Win rate on proactive expansion**: Proactively initiated discussions close at **40–55%** vs. **20–30%** for reactive responses
+- **Time from signal to conversation**: Drops from **45 days to under 5 days** with automated signal alerts
+- **Revenue impact**: Organizations using AI-assisted expansion detection report **15–25% higher net revenue retention** within 12 months
+- **CSM workload**: Automated signal detection replaces 3–4 hours of manual data review per CSM per week
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Account Expansion Readiness Assessment**
+```
+Assess the expansion readiness of the following account and recommend the best upsell or cross-sell opportunity to pursue.
+
+Account: [company name]
+Current products: [list with tier/plan]
+Contract value: $[ARR], renewal in [X months]
+Health score: [X]
+
+Usage signals: [describe recent usage patterns — seat utilization, feature adoption, usage growth]
+Support and engagement signals: [describe recent interactions, NPS if available]
+CRM notes summary: [describe any conversations about new use cases or team growth]
+
+Analyze and provide:
+1. Expansion opportunity ranking: top 2–3 opportunities with rationale
+2. Readiness score for each: High / Medium / Low with supporting evidence
+3. Recommended first conversation approach
+4. Timing recommendation: when to initiate and why
+5. Risk factors: anything suggesting waiting or adjusting approach
+```
+
+**Prompt 2: Expansion Outreach Email Generator**
+```
+Draft a personalized expansion outreach email for the following account based on observed usage signals.
+
+Account: [company name]
+Contact: [title]
+Current plan: [describe]
+Usage signal triggering outreach: [describe — e.g., "team is at 95% seat utilization"]
+Recommended expansion: [describe the product/tier/add-on to propose]
+
+Draft an email that:
+1. Leads with a genuine observation about their usage (not a generic pitch)
+2. Connects their usage pattern to a specific business outcome they likely care about
+3. Introduces the expansion option as a natural next step based on how they use the product
+4. Proposes a specific, low-commitment next step (15-min call, demo, trial)
+5. Avoids sounding like a sales pitch — this should feel like a CSM sharing relevant insight
+
+Tone: Consultative, genuine, brief (under 150 words)
+```
+
+**Prompt 3: Book of Business Expansion Pipeline Review**
+```
+Analyze the following book of business data and generate an expansion pipeline prioritization for this quarter.
+
+CSM territory: [N accounts, $Y ARR managed]
+
+Account data (for each key account):
+[company name, current ARR, renewal date, health score, recent usage highlights, noted expansion signals]
+
+Produce:
+1. Top 5 accounts to prioritize for expansion conversations this quarter, ranked by opportunity × readiness
+2. For each: specific expansion rationale and what to say
+3. 3 accounts to watch next quarter — showing signals but not quite ready
+4. 2–3 accounts showing concerning signals that should be addressed before any expansion discussion
+5. Suggested weekly activity plan to work through this pipeline
+```
+
+:::
+
+## 26. AI Customer Success Playbook Generator
+
+> Builds standardized success playbooks for onboarding, adoption, at-risk, and renewal stages — tailored to customer segment, product, and industry vertical.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Customer Success Execution Quality Varies Widely Across the Team**
+
+Customer success organizations struggle with consistency. Senior CSMs build strong relationships and navigate renewals smoothly — but their methods live in their heads, not in documented processes. Junior CSMs lack the playbook to handle the full range of scenarios they encounter. Scaling a customer success team without documented playbooks amplifies this problem: each new hire must learn through trial and error, extending time-to-productivity. Inconsistent execution creates unequal customer experiences where outcomes depend more on which CSM was assigned than on how the product performs.
+
+**How COCO Solves It**
+
+1. **Lifecycle Stage Playbook Generation**: COCO builds structured playbooks for each customer lifecycle stage — onboarding, adoption, health monitoring, at-risk intervention, renewal, and expansion — with specific triggers, activities, and success criteria.
+2. **Segment-Specific Customization**: COCO adapts playbook content to customer segment (SMB, mid-market, enterprise), vertical, and product tier.
+3. **Email and Call Templates**: COCO generates the actual communication templates, call agendas, and check-in scripts CSMs need to execute the playbook.
+4. **Escalation Decision Trees**: COCO builds clear escalation logic with specific health score and behavior triggers.
+5. **Playbook Gap Analysis**: COCO audits existing playbooks against best-practice frameworks and identifies missing coverage areas.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Onboarding time-to-value**: Accounts on structured playbooks reach first value milestone **35% faster**
+- **At-risk save rate**: CSMs using documented intervention playbooks save at-risk accounts at a **25 percentage point higher** rate
+- **New CSM ramp time**: Documented playbooks reduce average time-to-full-productivity from **6–9 months to 3–4 months**
+- **Churn prediction accuracy**: Playbook adherence metrics improve health score model accuracy by **20–30%**
+- **Manager coaching time**: Standardized playbooks shift manager time from reactive problem-solving to proactive optimization
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Customer Onboarding Playbook Builder**
+```
+Build a customer onboarding playbook for the following customer profile.
+
+Customer segment: [SMB / Mid-Market / Enterprise]
+Product: [describe — e.g., project management SaaS, data analytics platform]
+Industry vertical: [e.g., financial services, healthcare, e-commerce]
+Typical onboarding timeline: [X weeks]
+Key integration requirements: [describe]
+Success milestone (time-to-value): [describe the first meaningful outcome]
+
+Build an onboarding playbook covering:
+1. Pre-kickoff checklist (what must be confirmed before kickoff call)
+2. Kickoff call agenda template (60 min)
+3. Week-by-week activity plan for the first [X] weeks
+4. Key milestones and success criteria at each stage
+5. Communication templates for each touchpoint
+6. Common onboarding failure patterns and how to address each
+7. Handoff criteria — when does onboarding close and ongoing CS begin?
+```
+
+**Prompt 2: At-Risk Customer Intervention Playbook**
+```
+Build an at-risk customer intervention playbook for the following scenario.
+
+Risk signal that triggers this playbook: [describe — e.g., NPS drops below 6, usage drops 30% in 30 days]
+Customer segment: [SMB / Mid-Market / Enterprise]
+Typical reason accounts become at-risk in this segment: [describe]
+
+Build a playbook covering:
+1. Immediate response (within 24 hours of trigger): who to contact and what to say
+2. Root cause investigation framework: what to assess in the first call
+3. Escalation criteria: when to bring in management, PS, or executive sponsor
+4. Intervention tactics by root cause type (adoption gap / support failure / product gap / competitive threat)
+5. Recovery success milestones: how you know the account is stabilizing
+6. Save vs. managed churn decision framework
+```
+
+**Prompt 3: Renewal Playbook Builder**
+```
+Build a renewal management playbook for the following renewal scenario.
+
+Contract value range: $[X–Y ARR]
+Renewal timeline: [how many months before renewal does the process begin?]
+Decision-maker profile: [describe typical renewal decision-maker]
+Common renewal risk factors: [describe]
+Expansion opportunity at renewal: [describe typical upsell patterns]
+
+Build a renewal playbook covering:
+1. 90-day renewal runway activities
+2. 60-day activities and executive alignment process
+3. 30-day activities and commercial discussion preparation
+4. Renewal call/meeting agenda template
+5. Objection handling scripts for top 3 renewal objections
+6. Expansion conversation integration — how to introduce expansion in the renewal process
+7. Post-renewal relationship reset strategy
+```
+
+:::

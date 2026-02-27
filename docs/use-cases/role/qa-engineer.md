@@ -4375,3 +4375,360 @@ Assess:
 ```
 
 :::
+
+## 24. AI Test Environment Configuration Validator
+
+> Compares test environment configurations against production baselines, identifies configuration drift, and generates remediation checklists before test cycles begin.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Configuration Differences Between Test and Production Environments Cause False Test Results**
+
+Environment configuration drift is one of the leading causes of defects that pass QA and reach production. When the test environment does not accurately mirror production — different database versions, different API gateway settings, different infrastructure scaling, different third-party service versions — tests pass against conditions that don't reflect what users will experience. Bugs that only surface at production scale, under production configuration, or with production data volumes go undetected. The QA team discovers this problem at the worst possible time: when a production defect is traced back to a configuration difference that would have been caught with proper environment validation.
+
+**How COCO Solves It**
+
+1. **Configuration Baseline Comparison**: COCO compares test environment configuration artifacts against documented production baselines, flagging every detected difference.
+2. **Configuration Drift Classification**: COCO categorizes detected drift by risk level — flagging differences that are known to affect test validity vs. intentional test environment customizations.
+3. **Remediation Checklist Generation**: COCO generates a prioritized remediation checklist for QA engineers to resolve high-risk configuration differences before testing begins.
+4. **Test Validity Assessment**: COCO assesses whether remaining configuration differences affect the validity of each test suite, recommending which tests can proceed and which require environment correction first.
+5. **Environment Readiness Report**: COCO generates a formal environment readiness report documenting the comparison, identified drift, remediation status, and test validity assessment.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Configuration-related production defects**: Organizations with systematic environment validation reduce configuration-related production bugs by **40–60%**
+- **Environment setup time**: Automated configuration comparison reduces pre-cycle environment validation from **4–8 hours to 30–60 minutes**
+- **False positive test results**: Detecting and resolving configuration drift before testing reduces false-pass results by **25–35%**
+- **Environment remediation efficiency**: Prioritized remediation checklists reduce time to environment readiness by **50%** vs. ad-hoc investigation
+- **Audit trail**: Formal environment readiness reports provide documentation for compliance frameworks requiring evidence of test environment controls
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Test Environment Configuration Comparison Report**
+```
+Compare the following test environment configuration against the production baseline and identify configuration drift.
+
+Environment: [test / staging / UAT]
+Comparison date: [date]
+Test cycle starting: [date]
+
+Production configuration baseline:
+[paste or describe key configuration parameters:
+- Database version: [e.g., PostgreSQL 15.2]
+- Application server version: [e.g., Java 17.0.5, Tomcat 10.1]
+- Key feature flags: [list settings and values]
+- External service endpoints: [list — e.g., payment gateway, email service, auth service]
+- Infrastructure specs: [CPU, memory, disk relevant to test validity]
+- Environment variables relevant to test behavior: [list]]
+
+Current test environment configuration:
+[paste or describe the same parameters for the test environment]
+
+Intentional test environment differences (expected and acceptable):
+[list differences that are known and intentional — e.g., "test uses mock payment gateway instead of live API"]
+
+Analyze:
+1. Configuration drift detected: list all differences between test and production
+2. Risk classification for each difference: High (likely to cause false test results) / Medium / Low / Acceptable
+3. Remediation required: changes needed before testing can begin
+4. Tests at risk: which test suites are affected by remaining unresolved differences
+5. Environment readiness assessment: Go / No-Go with conditions
+```
+
+**Prompt 2: Test Data Environment Validation Checklist**
+```
+Generate a test data validation checklist for the following test cycle.
+
+System under test: [describe — application, API, database]
+Test types being run: [functional / regression / performance / security / integration]
+Test data requirements: [describe what data types and volumes are needed]
+
+Available test data:
+[describe — synthetic data, anonymized production copy, manually created datasets]
+
+Data requirements checklist items to verify:
+[describe specific requirements — e.g., "test user accounts with different permission levels", "orders in each status (pending, fulfilled, cancelled)", "edge case data for boundary conditions tested"]
+
+Generate a test data validation checklist including:
+1. Data availability check: required data types vs. available data
+2. Data volume check: sufficient volume for performance tests, load tests
+3. Data freshness check: is test data recent enough to reflect current business logic?
+4. Data quality check: known data quality issues that could affect test results
+5. PII/sensitive data check: are privacy protections applied to any production data used?
+6. Data reset procedures: how to restore test data to baseline state between test runs
+7. Missing data items to create before testing begins
+```
+
+**Prompt 3: QA Environment Release Readiness Report**
+```
+Generate a QA environment release readiness report for the following pre-release validation.
+
+Release: [version number or feature name]
+Release date: [date]
+Test environment: [name]
+
+Test execution summary:
+- Total test cases: [N]
+- Tests passed: [N] ([X%])
+- Tests failed: [N] ([X%])
+- Tests blocked: [N] ([X%])
+- Tests not executed: [N] ([X%])
+
+Open defects by severity:
+- Critical: [N] — [describe any critical defects]
+- High: [N] — [describe]
+- Medium: [N]
+- Low: [N]
+
+Environment validation status:
+[describe — was environment validated, any known configuration differences, data quality issues]
+
+Release criteria (pre-defined):
+[e.g., "Zero critical defects, less than 3 high severity, 95% test execution, all smoke tests passed"]
+
+Generate a release readiness report including:
+1. Go / Conditional Go / No-Go recommendation with rationale
+2. Release criteria compliance: pass/fail for each criterion
+3. Unmitigated risk summary: what risks are being accepted if release proceeds
+4. Open defect impact assessment: business impact of known open defects
+5. Conditions for Conditional Go (if applicable): what must be resolved before production deployment
+6. Sign-off requirements: who needs to approve release given current status
+```
+
+:::
+
+## 25. AI Security Penetration Test Report Analyzer
+
+> Processes penetration test reports to extract findings, classify vulnerabilities by CVSS severity, map to remediation owners, and generate executive summaries with remediation roadmaps.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Penetration Test Reports Sit Unactioned Because They Are Hard to Prioritize and Assign**
+
+External penetration tests produce reports that are technically comprehensive but operationally difficult to act on. A typical pentest report contains 20–80 findings ranging from critical vulnerabilities to low-risk informational items, written in a technical format that varies by vendor. Translating these findings into an internal remediation program — prioritizing by risk, assigning to the right development or infrastructure owners, estimating effort, and tracking to closure — requires significant manual effort from a security engineer who often has many competing priorities.
+
+The consequence is the remediation gap: organizations invest in penetration testing but fail to close vulnerabilities in a timely manner because the findings never get converted into an actionable work queue. Regulators and auditors who review pentest reports and remediation tracking find significant delays between finding identification and closure — a pattern that itself becomes a compliance finding.
+
+**How COCO Solves It**
+
+1. **Finding Extraction and Structuring**: COCO extracts all findings from penetration test reports and structures them into a standardized format regardless of vendor report style.
+2. **CVSS Scoring and Risk Classification**: COCO assigns CVSS scores and risk ratings (Critical / High / Medium / Low / Informational) to findings using established vulnerability scoring frameworks.
+3. **Remediation Owner Mapping**: COCO maps each finding to the appropriate internal team based on the affected component (application, infrastructure, network, identity).
+4. **Effort Estimation**: COCO estimates remediation effort and complexity for each finding based on finding type and affected system.
+5. **Executive Summary and Roadmap**: COCO drafts executive summaries of pentest results and generates a remediation roadmap with priority-ordered milestones.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Findings triage time**: Converting a pentest report into an actionable remediation work queue drops from **8–12 hours to 2–3 hours**
+- **Remediation closure rate**: Organizations with AI-structured remediation tracking close **65% of findings within SLA** vs. **35–40%** without structured tracking
+- **Critical finding response time**: Mean time to begin remediation on critical findings drops from **2–3 weeks to 2–3 days** with clear assignment and prioritization
+- **Audit readiness**: Structured remediation tracking with evidence of closure satisfies regulatory requirements for security finding remediation documentation
+- **Security team capacity**: Automated structuring frees security engineers from administrative triage, enabling focus on remediation rather than tracking
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Penetration Test Finding Prioritization and Assignment**
+```
+Process the following penetration test findings and create a prioritized remediation plan.
+
+Pentest scope: [describe — application / infrastructure / network / cloud / full scope]
+Test dates: [date range]
+Testing firm: [vendor name]
+Total findings: [N]
+
+Findings (paste or describe each finding):
+[For each finding include: Finding title, Description, Affected component, Technical details, Risk impact, Recommended remediation — as provided in the vendor report]
+
+Internal team structure:
+[describe the teams responsible for remediation — e.g., Backend Engineering, Platform/Infrastructure, Identity/IAM, Security Engineering, Frontend]
+
+Produce:
+1. Findings table: Finding name, CVSS score, severity, affected component, owner team, estimated effort, SLA (Critical: 7 days, High: 30 days, Medium: 90 days)
+2. Critical and high findings brief: immediate action required summary
+3. Owner assignment breakdown: finding count by team
+4. Remediation roadmap: 90-day sprint plan grouping findings by team and priority
+5. False positive candidates: any findings that may require additional validation before remediation
+```
+
+**Prompt 2: Penetration Test Executive Summary Generator**
+```
+Generate an executive summary of the following penetration test results.
+
+Scope: [describe what was tested]
+Test dates: [date range]
+Overall findings summary:
+- Critical: [N]
+- High: [N]
+- Medium: [N]
+- Low: [N]
+- Informational: [N]
+
+Top critical and high findings: [describe the most significant findings — vulnerability name, component affected, business risk]
+Comparison to prior test: [describe any repeat findings, improvement, or new findings vs. prior test cycle]
+Overall security posture assessment from tester: [paste or summarize the tester assessment section]
+
+Generate an executive summary for a non-technical audience including:
+1. Overall security posture headline (1 sentence)
+2. Key findings summary: what was found and why it matters to the business
+3. Business risk statement: what could happen if critical/high findings are exploited?
+4. Comparison to prior test: improving / stable / declining and why
+5. Remediation priority and timeline: what will be fixed and when
+6. Investment required: estimate of remediation effort
+7. Next steps and who is responsible
+```
+
+**Prompt 3: Vulnerability Remediation Status Report**
+```
+Generate a vulnerability remediation status report for the following open penetration test findings.
+
+Original test date: [date]
+Report as of: [current date]
+Original findings: Critical [N], High [N], Medium [N], Low [N]
+
+Remediation status by finding:
+[For each finding:
+Finding: [title], Severity: [rating], Status: [Remediated / In Progress / Not Started / Accepted Risk], Remediated date: [date or blank], Owner team: [name], Notes: [describe any blockers or delays]]
+
+SLA definitions:
+Critical: 7 days, High: 30 days, Medium: 90 days, Low: 180 days
+
+Generate:
+1. Remediation progress summary: % closed by severity with trend vs. last report
+2. SLA compliance rate: % of findings closed within SLA by severity
+3. Overdue findings: list findings past SLA with days overdue and escalation recommendation
+4. Accepted risk items: formal risk acceptance summary for findings not being remediated
+5. Projected closure: when will remaining open findings be closed at current pace?
+6. Escalation needed: findings where management intervention is required to unblock remediation
+```
+
+:::
+
+## 26. AI Test Coverage Gap Detector
+
+> Analyzes requirements, user stories, and existing test suites to identify untested functionality, missing edge cases, and coverage gaps — before defects reach production.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: QA Teams Discover Coverage Gaps After Defects Reach Production**
+
+Test coverage gaps are the root cause of most production defects that could have been caught in QA. Requirements are written at a high level, and test cases are written by engineers who focus on happy-path scenarios and forget edge cases, error states, permission boundary conditions, and data input extremes. The mapping between requirements and test cases is often informal — QA knows they have "coverage" for a feature, but there is no systematic verification that every acceptance criterion is addressed by at least one test.
+
+Coverage analysis after the fact — post-production incident review, test case audits — is expensive and reactive. By the time a coverage gap is documented, the defect it enabled has already reached customers. Organizations with high defect escape rates (defects reaching production vs. caught in QA) invariably have unsystematic approaches to coverage verification.
+
+**How COCO Solves It**
+
+1. **Requirements-to-Test Mapping**: COCO maps existing test cases to requirements and acceptance criteria, identifying requirements with no corresponding test coverage.
+2. **Edge Case Identification**: COCO analyzes user stories and functional requirements to identify edge cases, error conditions, and boundary inputs that are commonly missed.
+3. **Permission and Role Coverage Analysis**: COCO checks whether test suites cover functionality for all relevant user roles and permission levels.
+4. **Integration Point Coverage**: COCO identifies system integration points — API calls, database operations, external service interactions — and checks whether they have corresponding tests.
+5. **Coverage Report Generation**: COCO generates detailed coverage gap reports mapped to specific requirements and test suites, with prioritized recommendations for new test cases.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Coverage gap identification**: Systematic AI-assisted coverage analysis surfaces **3–5x more** untested scenarios vs. manual review alone
+- **Defect escape rate**: Organizations with AI-assisted coverage analysis reduce defects reaching production by **25–40%** within two test cycles
+- **Test case creation efficiency**: Coverage gap reports with specific missing scenario descriptions reduce test case authoring time by **50%**
+- **Requirement traceability**: Systematic requirements-to-test mapping creates audit-ready traceability matrices in **hours instead of days**
+- **Pre-release confidence**: QA teams with documented coverage analysis close releases with **40% higher confidence** in defect detection effectiveness
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Requirements Coverage Gap Analysis**
+```
+Analyze the following requirements and test suite and identify coverage gaps.
+
+Feature/module: [describe]
+Sprint or release: [describe]
+
+Requirements / acceptance criteria:
+[paste user stories, acceptance criteria, or functional requirements — e.g.:
+"US-001: As a registered user, I can reset my password via email"
+- AC-1: User receives reset email within 2 minutes of request
+- AC-2: Reset link expires after 24 hours
+- AC-3: User is logged out of all sessions after password reset
+- AC-4: Invalid reset links display an appropriate error message]
+
+Existing test cases:
+[describe or list existing test cases for this feature — test case titles and what they cover]
+
+Analyze:
+1. Requirements with no corresponding test cases
+2. Acceptance criteria addressed only by happy-path tests (missing error/failure cases)
+3. Edge cases not covered: boundary conditions, empty inputs, maximum value inputs, concurrent access
+4. Error condition coverage gaps: what happens when the feature fails?
+5. Permission/role coverage: are all user types tested?
+6. Prioritized list of recommended new test cases with description of what each should test
+```
+
+**Prompt 2: Edge Case Identification for User Story**
+```
+Identify edge cases and boundary conditions that should be tested for the following user story.
+
+User story:
+[paste the full user story including acceptance criteria]
+
+System context:
+[describe the system or component — e.g., "e-commerce checkout with payment processing", "SaaS admin user management module", "data import pipeline"]
+
+Technical details:
+[describe relevant technical context — data types, validation rules, integration points, user roles]
+
+Generate a comprehensive edge case list covering:
+1. Input boundary conditions (minimum, maximum, zero, null, empty string, special characters)
+2. State-based edge cases (different object states that affect behavior)
+3. Concurrency scenarios (what if two users perform this action simultaneously?)
+4. Integration failure scenarios (what if dependent services return errors or timeouts?)
+5. Permission boundary cases (behavior for users at the edge of allowed permissions)
+6. Data volume edge cases (behavior with very large datasets, empty results)
+7. Time-dependent edge cases (behavior around deadlines, expirations, time zones)
+
+For each edge case: description of the scenario and expected behavior.
+```
+
+**Prompt 3: Test Suite Coverage Health Report**
+```
+Generate a test suite coverage health report for the following test suite analysis.
+
+Application/module: [describe]
+Analysis date: [date]
+
+Test suite summary:
+- Total test cases: [N]
+- Unit tests: [N]
+- Integration tests: [N]
+- End-to-end / UI tests: [N]
+- Last updated: [date — when were tests last reviewed/updated?]
+
+Code coverage metrics (if available):
+- Line coverage: [X%]
+- Branch coverage: [X%]
+- Function coverage: [X%]
+
+Recent production defect history:
+[describe defects that reached production in the past 3–6 months — type, component, whether a test existed]
+
+Known coverage gaps previously identified:
+[list any documented gaps not yet addressed]
+
+Generate a test suite health report including:
+1. Overall coverage health rating: Strong / Adequate / At Risk / Poor
+2. Coverage gaps by category (unit / integration / E2E)
+3. High-risk untested areas based on recent production defects
+4. Test suite quality indicators (stale tests, test fragility signals, test debt)
+5. Priority recommendations: top 5 coverage improvements ranked by defect risk reduction potential
+6. Investment estimate: how many test engineering hours to address the top gaps?
+```
+
+:::

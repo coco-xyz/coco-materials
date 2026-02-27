@@ -3871,3 +3871,328 @@ Please:
 ```
 
 :::
+
+## 24. AI Research Ethics Protocol Reviewer
+
+> Reviews research protocols for ethical compliance, identifies IRB/ethics board concerns, and generates structured ethics review documentation for human subjects research.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Research Ethics Review Is a Bottleneck That Delays Studies and Misses Real Risks**
+
+Human subjects research requires ethics review — from IRB submissions for academic research to internal ethics review for commercial user research. Yet most research teams approach ethics review reactively: they submit protocols with standard language and wait for reviewer feedback rather than proactively identifying and addressing concerns before submission. The result is revision cycles that add weeks to research timelines and sometimes surface risks that should have been caught during protocol design.
+
+The inverse problem is equally real: ethics reviews focused on procedural compliance can miss substantive ethical risks. Research involving vulnerable populations, sensitive data collection, or behavioral manipulation requires nuanced ethical analysis that procedural checklists may not capture. Researchers without ethics training miss risks that experienced reviewers would flag immediately.
+
+**How COCO Solves It**
+
+1. **Protocol Ethics Analysis**: COCO analyzes research protocols against established ethical principles (Belmont Report, Common Rule, GDPR, and sector-specific standards) to identify potential concerns.
+2. **Risk Identification**: COCO identifies research design elements that create ethical risk — inadequate informed consent, risks to vulnerable populations, privacy exposure, coercive design.
+3. **IRB Documentation Drafting**: COCO drafts IRB application sections, consent forms, and protocol amendments in the structured format required by institutional review boards.
+4. **Ethics Review Preparation**: COCO generates pre-submission checklists and reviewer Q&A preparation to accelerate ethics approval.
+5. **Ongoing Protocol Monitoring**: COCO reviews protocol amendments and adverse event reports against original approval terms to identify when re-review is required.
+
+:::
+
+::: details Results & Who Benefits
+
+- **IRB submission cycle time**: Proactive ethics analysis reduces first-submission IRB approval cycle by **3–4 weeks** by anticipating reviewer concerns
+- **Ethics violation risk**: Pre-protocol ethics review identifies **80%+ of concerns** that would have triggered IRB revision requests
+- **Consent form quality**: AI-drafted informed consent documents meet readability standards (8th-grade reading level) **95%+ of the time** vs. 40–50% for researcher-authored forms
+- **Protocol amendment rate**: Studies with comprehensive upfront ethics review require **60% fewer** mid-study protocol amendments
+- **Ethics documentation compliance**: Structured IRB submission packages reduce administrative rejection for incomplete submissions by **85%**
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Research Protocol Ethics Review**
+```
+Conduct an ethics review of the following research protocol.
+
+Study title: [title]
+Research objectives: [describe what the study aims to learn]
+Methodology: [describe — survey / experiment / interview / observational / secondary data]
+Participant population: [describe who will participate, recruitment method, inclusion/exclusion criteria]
+Data collection: [describe what data will be collected — survey responses, behavioral data, biometrics, etc.]
+Compensation: [describe any participant compensation]
+Risks to participants: [describe any foreseeable risks — physical, psychological, privacy, social, economic]
+Benefits: [describe benefits to participants and society]
+Data handling: [describe storage, access controls, retention, de-identification approach]
+Special populations: [describe if any vulnerable populations are involved — minors, prisoners, pregnant women, cognitively impaired individuals, employees]
+
+Conduct an ethics review covering:
+1. Risk/benefit assessment: are risks minimized and proportional to anticipated benefits?
+2. Informed consent adequacy: does the consent process meet legal and ethical standards?
+3. Privacy and data protection: does the data collection plan protect participant privacy?
+4. Vulnerable population protections: are adequate protections in place for any vulnerable groups?
+5. Research integrity: are there design elements that could coerce participation or manipulate participants?
+6. Flagged concerns requiring protocol revision before submission
+7. IRB review level recommendation: Exempt / Expedited / Full Board review
+```
+
+**Prompt 2: Informed Consent Form Drafter**
+```
+Draft an informed consent form for the following research study.
+
+Study title: [title]
+Principal investigator institution: [institution name]
+Study purpose: [1–2 sentence plain language description of what the study is examining]
+What participants will be asked to do: [describe tasks, time required, session format]
+Data collected: [describe]
+Risks: [describe]
+Benefits: [describe]
+Compensation: [describe or "None"]
+Confidentiality and data handling: [describe how data will be protected and stored]
+Voluntary participation and withdrawal rights: [describe — can they withdraw, any consequences]
+Contact information: [IRB contact and researcher contact — use placeholders]
+
+Draft an informed consent form that:
+1. Is written at an 8th-grade reading level
+2. Uses plain language throughout (no jargon)
+3. Clearly explains the study purpose without overselling benefits
+4. Provides a balanced and complete description of risks
+5. Clearly states voluntary participation and withdrawal rights
+6. Meets IRB formatting requirements (title, date, version, signature block)
+7. Includes a brief summary box at the top (key information in 5 bullet points)
+```
+
+**Prompt 3: Research Protocol Amendment Generator**
+```
+Draft a protocol amendment for the following change to an approved research study.
+
+Original study title: [title]
+Original IRB approval date: [date]
+Original protocol summary: [describe the originally approved study design]
+
+Amendment type: [Modification to procedures / Addition of population / Change to data collection / Change to risk level / Extension of study period / Other]
+
+Proposed change:
+[describe specifically what is changing in the research protocol]
+
+Rationale for the change:
+[describe why the change is necessary and how it improves the research]
+
+Impact assessment:
+- Impact on participant risk: [increased / unchanged / decreased — explain]
+- Impact on consent requirements: [does the consent form need to be updated?]
+- Impact on participant population: [any change in who is eligible?]
+- Impact on data collection: [any change in what is being collected?]
+
+Draft an IRB amendment submission including:
+1. Summary of proposed modification (1 paragraph)
+2. Rationale for the modification
+3. Side-by-side comparison: original language vs. proposed new language for changed sections
+4. Updated risk/benefit assessment if risk level changes
+5. Updated consent form changes if applicable
+6. Attestation that the modification does not change the fundamental nature of the approved research
+```
+
+:::
+
+## 25. AI Academic Publishing Strategy Advisor
+
+> Analyzes research manuscripts and findings to recommend target journals, estimate acceptance probability, and generate submission-ready abstracts and cover letters.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Researchers Waste Months on Journal Submissions That Were Never a Good Fit**
+
+Academic and research publishing is a slow, high-stakes process. A single journal submission cycle — submission, initial screening, peer review, decision, and response — takes 3–9 months. When a paper is rejected, researchers must reformat the manuscript for a different journal's style requirements, update the cover letter, and start the cycle again. Researchers who don't systematically analyze journal fit before submitting invest enormous time in submissions that fail at the desk review stage — rejected before peer review because the topic, methodology, or scope doesn't match the journal's scope or quality tier.
+
+Journal selection is also strategically important. Publishing in the right journal for the research's impact, audience, and prestige level shapes citation trajectory and professional reputation. Researchers often default to journals they are familiar with rather than systematically evaluating the best fit for each specific manuscript.
+
+**How COCO Solves It**
+
+1. **Journal Fit Analysis**: COCO analyzes the manuscript's methodology, topic, contribution type, and target audience to recommend journals with strong fit across multiple dimensions.
+2. **Acceptance Probability Estimation**: COCO estimates acceptance probability based on journal acceptance rates, recent published content, and manuscript quality indicators.
+3. **Submission Requirement Compilation**: COCO compiles formatting requirements, word limits, author guidelines, and submission checklist items for each target journal.
+4. **Abstract Optimization**: COCO drafts and optimizes abstracts for specific journal requirements and target audience expectations.
+5. **Cover Letter Generation**: COCO generates compelling cover letters that articulate the manuscript's contribution, relevance to the journal's scope, and significance to the field.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Submission cycle time**: Targeted journal selection reduces average time from completed manuscript to first submission from **3–4 weeks to 3–4 days**
+- **Desk rejection rate**: Systematic journal fit analysis reduces desk rejection rate by **40–60%** vs. convenience-based journal selection
+- **Submission formatting time**: Automated requirements compilation reduces reformatting time between submissions by **60–70%**
+- **Cover letter quality**: AI-drafted cover letters highlight methodological contributions that increase editor engagement during initial screening
+- **Publication timeline**: Reduced desk rejections and better initial fit compress overall publication timelines by **4–8 months** on average
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Journal Selection Analysis**
+```
+Analyze the following manuscript and recommend target journals for submission.
+
+Manuscript title: [title]
+Research area: [field and subfield]
+Methodology: [quantitative / qualitative / mixed / review / meta-analysis / theoretical]
+Main contribution: [describe what the paper contributes to the field — new theory, empirical findings, methodological advance, synthesis]
+Target audience: [describe the primary readership — academic researchers, practitioners, policymakers, interdisciplinary]
+Geographic scope of findings: [global / regional / country-specific]
+Open access requirement: [required / preferred / no preference]
+
+Current paper metrics:
+- Sample size (if empirical): [N]
+- Novelty: [describe what makes this contribution new]
+- Limitations: [describe main limitations the paper acknowledges]
+
+Recommend:
+1. Top 5 target journals with fit rationale for each (scope alignment, methodology fit, audience match, impact factor / CiteScore tier)
+2. Estimated acceptance probability for each: High / Medium / Low
+3. Submission sequence recommendation (which to try first and why)
+4. Any journals to explicitly avoid and why
+5. Impact vs. acceptance probability trade-offs to consider in the submission strategy
+```
+
+**Prompt 2: Abstract and Cover Letter Generator**
+```
+Draft an abstract and cover letter for the following research manuscript.
+
+Target journal: [journal name]
+Journal scope: [describe the journal focus and typical published content]
+Manuscript title: [title]
+Research summary: [describe the research question, methodology, key findings, and conclusions in 3–5 sentences]
+Main contribution to the field: [what does this paper add that is new?]
+Relevance to the target journal specifically: [why is this paper right for this journal?]
+
+Draft:
+1. Abstract (following journal guidelines for length: [X words])
+   Structure: [Background / Methods / Results / Conclusions or as specified by the journal]
+   Requirements: [include keywords list of [N] keywords]
+
+2. Cover letter (professional, addressed to the Editor-in-Chief)
+   Include: manuscript title, contribution statement, why this fits the journal scope, methodological highlights, any relevant disclosures (conflicts of interest, prior publication of related work)
+   Length: 3–4 paragraphs, under 400 words
+   Tone: Confident, collegial, factual — not overselling
+```
+
+**Prompt 3: Peer Review Response Letter Generator**
+```
+Draft a response to the following peer review comments for the manuscript revision.
+
+Manuscript title: [title]
+Journal: [name]
+Decision: [Minor Revision / Major Revision]
+Response deadline: [date]
+
+Reviewer comments:
+[Paste the reviewer comments — each reviewer numbered separately, with their specific comments]
+
+Manuscript revisions made:
+[Describe what changes were made in the revised manuscript in response to each comment — can be rough notes]
+
+Draft a point-by-point response letter that:
+1. Opens with a brief thank-you to the reviewers and editor (2–3 sentences)
+2. Addresses every reviewer comment individually with a numbered response
+3. For each response: acknowledges the concern, describes what change was made (with page/section reference in the revised manuscript), and explains the rationale
+4. For comments where no change was made: provides a respectful, evidence-based explanation of why the original approach is appropriate
+5. Closes with a brief summary of major revisions made
+6. Maintains a collegial, professional tone throughout — no defensiveness
+7. Uses consistent formatting (Reviewer X, Comment Y: [original comment] / Response: [your response])
+```
+
+:::
+
+## 26. AI Research Data Visualization Advisor
+
+> Recommends optimal chart types for research data, generates visualization specifications, and provides statistical chart annotation guidance for publications and presentations.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Poor Data Visualizations Undermine Research Communication and Publication Quality**
+
+Research findings are only as compelling as their presentation. A dataset that shows a statistically significant and practically meaningful result can be rendered unpersuasive by a poorly chosen chart type, inappropriate scale, missing error bars, or confusing labeling. Reviewers and readers who cannot quickly extract the key finding from a figure downgrade the perceived quality of the research regardless of methodological rigor. Publication-quality figures require careful attention to statistical annotation, color accessibility, and journal-specific formatting requirements that many researchers are not trained in.
+
+The chart type selection problem is pervasive. Researchers default to bar charts and scatter plots for every data type, missing opportunities to use more informative visualizations — forest plots for meta-analyses, violin plots for distribution comparison, heatmaps for correlation matrices, survival curves for time-to-event data. Choosing the wrong chart type not only reduces clarity but can misrepresent the data structure and statistical properties of the findings.
+
+**How COCO Solves It**
+
+1. **Chart Type Recommendation**: COCO analyzes data types, comparison objectives, and statistical properties to recommend the most appropriate visualization type for each figure.
+2. **Figure Specification Generation**: COCO generates detailed specifications for each recommended figure — axes, labels, scales, statistical annotation, color scheme, and formatting requirements.
+3. **Statistical Annotation Guidance**: COCO provides guidance on how to display error bars, confidence intervals, p-values, effect sizes, and significance markers following current reporting standards.
+4. **Accessibility Review**: COCO checks that visualization specifications meet color-blind accessibility standards and publication reproduction requirements.
+5. **Figure Caption Drafting**: COCO drafts publication-quality figure captions that are complete, precise, and formatted to target journal requirements.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Figure revision cycles**: AI-advised visualizations require **50–60% fewer** revision requests from journal reviewers and co-authors
+- **Chart type appropriateness**: Researchers using AI recommendations choose the optimal chart type for their data **85%+ of the time** vs. **40–50%** without guidance
+- **Statistical annotation completeness**: AI-generated specifications include all required statistical annotations, reducing reviewer requests for missing error indicators or significance marks
+- **Figure production time**: Detailed AI-generated specifications reduce figure production time (with visualization tools) by **30–40%**
+- **Publication acceptance correlation**: Manuscripts with consistently high-quality figures have **15–20% higher** acceptance rates at initial submission
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Research Figure Type Recommendation**
+```
+Recommend the optimal chart type(s) for the following research data and visualization objective.
+
+Research context: [describe the study and what the figure is meant to show]
+Data type: [continuous / categorical / ordinal / time series / proportions / frequencies]
+Number of variables: [X variables — describe each]
+Number of groups/conditions being compared: [N groups]
+Sample size per group: [N per group]
+Visualization objective: [comparison / distribution / correlation / trend / composition / flow]
+Statistical analysis used: [describe — e.g., ANOVA, regression, survival analysis, correlation]
+
+Recommend:
+1. Primary recommendation: chart type with rationale
+2. Alternative options: 1–2 alternative chart types with when to use each
+3. What NOT to use: chart types that would be inappropriate for this data and why
+4. Key design decisions: axes, scales, grouping, error representation
+5. Statistical annotation required: what statistical information must appear on the figure
+6. Accessibility considerations: color scheme recommendations and accessible alternatives
+```
+
+**Prompt 2: Figure Specification Generator**
+```
+Generate a detailed figure specification for the following visualization.
+
+Figure purpose: [describe what this figure shows and the key message it should communicate]
+Chart type selected: [e.g., grouped bar chart, box plot, scatter plot with regression, forest plot]
+Data summary:
+[describe the data to be plotted — groups, values, sample sizes, statistical results]
+Statistical results to display: [describe — means, SDs, CIs, p-values, effect sizes, regression coefficients]
+Target journal: [name — to apply journal-specific formatting requirements if known]
+
+Generate a complete figure specification including:
+1. X-axis: label, units, scale range, tick marks and labels
+2. Y-axis: label, units, scale range, tick marks and labels (address any zero-baseline considerations)
+3. Data representation: exact format for each data series (bars, points, lines, boxes)
+4. Error representation: what to use (SD / SEM / 95% CI) and how to display
+5. Statistical significance markers: how to display p-values and significance brackets
+6. Color scheme: specific colors for each group (with hex codes if possible)
+7. Legend: what to include, placement, and formatting
+8. Draft figure caption (complete, standalone caption meeting publication standards)
+```
+
+**Prompt 3: Research Presentation Figure Simplifier**
+```
+Simplify the following research figure for a conference presentation or general audience.
+
+Original figure description:
+[describe the current figure — chart type, what it shows, current level of detail]
+Original audience: [academic journal readers]
+New audience: [conference audience / executive stakeholders / general public / media]
+Key message: [what is the single most important thing this figure should communicate?]
+
+Recommend:
+1. How to simplify the chart type or reduce data series for the new audience
+2. What statistical detail to remove and what to retain (with rationale)
+3. How to restructure the visual hierarchy to lead with the key message
+4. Accessibility improvements for presentation (larger fonts, higher contrast, simpler color scheme)
+5. Alternative presentations: if the data has a more intuitive representation format for this audience, suggest it
+6. Key annotation or callout to add that communicates the significance of the finding to a non-specialist audience
+7. Draft simplified figure caption appropriate for the presentation context
+```
+
+:::

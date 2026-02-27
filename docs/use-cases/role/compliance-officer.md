@@ -3692,3 +3692,300 @@ Produce a board report (3-4 pages) including:
 ```
 
 :::
+
+## 24. AI Third-Party Risk Compliance Screener
+
+> Screens vendors, partners, and suppliers against sanctions lists, adverse media, and regulatory exclusions — flags high-risk relationships before onboarding completes.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Third-Party Risk Reviews Are Slow, Inconsistent, and Under-Resourced**
+
+Organizations onboard hundreds of vendors, contractors, and partners each year. Compliance teams are expected to screen each one against sanctions lists, debarment databases, adverse media, and internal risk criteria — but the volume of onboarding requests consistently outpaces available compliance bandwidth. Screening is often delegated to procurement or legal staff who lack the compliance context to apply consistent risk standards.
+
+When compliance reviews are inconsistent, high-risk vendors slip through. Sanctions violations, undisclosed conflicts of interest, and regulatory exclusions that should have blocked a vendor relationship are discovered after contracts are signed and payments are made — creating legal exposure and reputational damage that is far more costly to remediate than a proper upfront review.
+
+**How COCO Solves It**
+
+1. **Automated Sanctions and Debarment Screening**: COCO cross-references vendor names, beneficial owners, and jurisdiction against OFAC, EU, UN, and government debarment lists, flagging exact and fuzzy matches for review.
+2. **Adverse Media Monitoring**: COCO scans news databases and regulatory bulletins for negative coverage of prospective vendors — identifying corruption allegations, enforcement actions, and reputational concerns.
+3. **Risk Classification and Prioritization**: COCO scores vendors by risk tier based on spend level, data access, jurisdiction, and industry, routing high-risk cases to senior compliance review.
+4. **Ongoing Monitoring**: For active vendors, COCO monitors for sanctions updates, enforcement actions, and adverse events — alerting compliance when a previously approved vendor's risk profile changes.
+5. **Screening Documentation**: COCO generates a structured screening record for each vendor, suitable for audit files, regulatory examinations, and board reporting.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Screening cycle time**: Average vendor compliance review drops from **3–5 business days to same-day** for standard-risk vendors
+- **Screening coverage**: Organizations move from screening **40–60%** of vendors to **100%** with automated first-pass review
+- **High-risk vendor detection**: Adverse media and sanctions hit rate increases **3x** vs. manual keyword searches
+- **Audit readiness**: Structured screening records eliminate documentation gaps that previously required retroactive reconstruction
+- **Compliance team capacity**: Reviewers shift from data collection to risk judgment — handling **4x the volume** with the same headcount
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Vendor Sanctions and Debarment Screen**
+```
+Screen the following vendor for sanctions, debarment, and adverse media risk.
+
+Vendor name: [legal entity name]
+Beneficial owners / key principals: [names if known]
+Country of incorporation: [country]
+Operating jurisdictions: [list]
+Services/goods provided: [describe]
+Estimated annual spend: $[amount]
+Data access level: [none / limited / significant — describe]
+
+Screening required:
+1. OFAC SDN and consolidated sanctions lists (US, EU, UN, UK)
+2. US government debarment and exclusion databases
+3. Adverse media scan — corruption, fraud, enforcement, sanctions violations
+4. Politically exposed persons (PEP) check for key principals
+5. Negative regulatory history in operating jurisdictions
+
+Output: Risk rating (High / Medium / Low), key findings, recommended next steps, and documentation summary for the screening file.
+```
+
+**Prompt 2: Third-Party Risk Questionnaire Analyzer**
+```
+Review the following completed third-party risk questionnaire and identify gaps, red flags, and areas requiring follow-up.
+
+Vendor: [name]
+Questionnaire type: [information security / anti-corruption / data privacy / general]
+Questionnaire responses:
+[paste responses or summarize key answers]
+
+Analyze:
+1. Incomplete or evasive responses that require follow-up
+2. Answers inconsistent with publicly available information about the vendor
+3. High-risk disclosures requiring escalation (prior enforcement actions, ongoing investigations, material litigation)
+4. Missing certifications or controls that are required for this vendor risk tier
+5. Specific follow-up questions to send to the vendor based on gaps identified
+
+Output a follow-up action list with priority level and specific questions to ask.
+```
+
+**Prompt 3: Active Vendor Compliance Monitoring Alert Summary**
+```
+Summarize the following compliance monitoring alerts for our active vendor portfolio and recommend actions.
+
+Monitoring period: [date range]
+Alert source: [sanctions update / adverse media / enforcement action / news]
+
+Alerts received:
+[paste or describe each alert — vendor name, nature of alert, date, source]
+
+For each alert:
+1. Assess relevance — does this alert affect our relationship with this vendor?
+2. Recommend immediate action: escalate / monitor / no action required
+3. Identify contract provisions that may be triggered (termination rights, cure periods, notification obligations)
+4. Draft a one-paragraph summary for the compliance file
+5. Flag any alerts requiring senior compliance or legal review within 24 hours
+```
+
+:::
+
+## 25. AI Whistleblower Report Intake Analyzer
+
+> Triages incoming ethics hotline submissions — classifies allegation type, assesses credibility indicators, and generates structured intake summaries for investigators.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Ethics Hotline Volume and Inconsistent Triage Undermine Investigation Quality**
+
+Ethics hotlines receive reports that range from clearly actionable fraud allegations to vague interpersonal complaints. Compliance teams must triage each submission quickly — but the combination of high volume, inconsistent report quality, and limited investigator bandwidth means that triage decisions are often rushed. Serious allegations can be misclassified as low-priority; vague reports that signal systemic issues can be dismissed prematurely.
+
+The intake documentation problem compounds the challenge. When triage is manual, the quality of intake summaries varies by analyst. Critical detail — specific dates, named individuals, described transactions — is sometimes captured incompletely or omitted entirely. Investigators receive intake packages that require significant reconstruction before meaningful analysis can begin.
+
+**How COCO Solves It**
+
+1. **Allegation Classification**: COCO analyzes report text and classifies the allegation type (financial misconduct, harassment, safety, conflict of interest, data privacy, retaliation, etc.) with confidence scoring.
+2. **Credibility Indicator Assessment**: COCO identifies factors that increase or decrease report credibility — specific details, corroborating information, reporter relationship to the alleged conduct, and internal consistency.
+3. **Structured Intake Summary**: COCO generates a standardized intake summary extracting the who, what, when, where, and how from freeform report text.
+4. **Priority Routing**: COCO recommends investigation priority (urgent / standard / monitor) based on allegation severity, credibility score, and potential regulatory implications.
+5. **Investigation Checklist**: COCO generates a preliminary investigation checklist based on allegation type, identifying initial document requests, interview candidates, and relevant policies.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Triage consistency**: Structured AI-assisted intake produces **uniform quality** across all reports regardless of analyst experience level
+- **High-priority identification**: Credibility scoring identifies allegations warranting expedited review with **85%+ accuracy** vs. analyst-only triage
+- **Intake time**: Generating a structured intake summary drops from **45–90 minutes to under 10 minutes** per report
+- **Investigation prep time**: Investigators receive structured intake packages that reduce preliminary fact-gathering time by **60%**
+- **Documentation quality**: Audit-ready intake records eliminate the retroactive documentation issues that arise from rushed manual triage
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Whistleblower Report Intake Analysis**
+```
+Analyze the following ethics hotline submission and produce a structured intake summary.
+
+Report date: [date]
+Report channel: [hotline / email / in-person / web portal]
+Reporter anonymity: [anonymous / identified]
+
+Report text:
+[paste or summarize the report content]
+
+Produce:
+1. Allegation classification: primary category and subcategory
+2. Key facts extracted: who (individuals named or described), what (conduct alleged), when (timeframe), where (location/business unit), how (method/mechanism)
+3. Credibility assessment: specific details present, internal consistency, corroborating information available, reporter apparent knowledge level
+4. Priority recommendation: Urgent / Standard / Monitor
+5. Preliminary investigation checklist: first 5 investigative steps based on the allegation type
+6. Regulatory notification assessment: does this allegation type have mandatory reporting requirements?
+```
+
+**Prompt 2: Investigation Scope and Plan Generator**
+```
+Based on the following intake summary, generate an investigation scope document and preliminary work plan.
+
+Allegation type: [classification]
+Key facts: [from intake summary]
+Priority level: [urgent / standard]
+Business unit involved: [describe]
+Regulatory context: [any applicable regulations, reporting requirements]
+
+Generate:
+1. Formal investigation scope statement (1 paragraph suitable for documentation)
+2. Document preservation list — what records should be immediately preserved and from whom
+3. Witness interview list — who should be interviewed, in what sequence, and why
+4. Key questions to answer through the investigation (5–8 specific factual questions)
+5. Potential regulatory or HR implications that should be identified upfront
+6. Estimated investigation timeline with key milestones
+```
+
+**Prompt 3: Investigation Closure and Findings Report**
+```
+Draft an investigation closure report based on the following investigation findings.
+
+Allegation summary: [original allegation]
+Investigation conducted by: [title only, no personal names]
+Investigation period: [date range]
+Evidence reviewed: [list document types and interview count, no identifying details]
+
+Findings:
+[describe what the investigation found — substantiated / unsubstantiated / inconclusive, with key evidentiary basis]
+
+Corrective actions taken: [describe]
+
+Draft a closure report including:
+1. Investigation summary (methodology and scope)
+2. Findings statement (substantiated / unsubstantiated / inconclusive with rationale)
+3. Contributing factors identified (if applicable)
+4. Corrective actions implemented or recommended
+5. Systemic risk observations (any broader compliance program implications)
+6. Case closure determination and rationale
+```
+
+:::
+
+## 26. AI Regulatory Examination Response Coordinator
+
+> Organizes regulatory examination requests, tracks document production deadlines, and drafts response cover letters and gap explanations for examiner review.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Regulatory Examinations Consume Disproportionate Compliance Resources**
+
+Regulatory examinations arrive with information requests that must be fulfilled on tight timelines. A single examination can generate 50–200 discrete document requests, each requiring collection from multiple business units, quality review, privilege assessment, and organized production. Managing the process manually stretches compliance teams thin, creates tracking gaps, and risks missing production deadlines that examiners notice.
+
+The quality of examination responses directly affects regulatory outcomes. Examiners assess not just the documents produced but how they are presented — whether requests are fully addressed, whether gaps are explained proactively, and whether the organization demonstrates systematic control over its compliance records. Poor response quality signals a weak compliance infrastructure even when underlying practices are sound.
+
+**How COCO Solves It**
+
+1. **Request Inventory and Tracking**: COCO ingests examination request letters and creates a structured tracking register with assigned owners, due dates, and completion status for each item.
+2. **Response Drafting**: COCO drafts production cover letters, response narratives, and explanations for partial responses or gaps.
+3. **Gap Analysis**: COCO identifies requests where responsive documents are incomplete and helps draft proactive explanations acceptable to regulators.
+4. **Status Reporting**: COCO generates examination status dashboards for senior leadership showing production progress, upcoming deadlines, and outstanding items.
+5. **Exam Prep Briefings**: COCO prepares examination briefing packages for subject matter experts being interviewed.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Examination response time**: Organizations fulfill information requests **30–40% faster** with structured tracking and AI-assisted drafting
+- **Coverage rate**: Teams produce responses to **100% of examination requests** vs. missing 10–15% of items in unmanaged processes
+- **Response quality**: Proactive gap explanations and organized productions reduce follow-up examiner questions by **50%**
+- **Senior management time**: Status dashboards reduce examination management meetings from weekly hours to **15-minute reviews**
+- **Exam outcome improvement**: Organized, complete, and professionally presented responses correlate with faster examination close and fewer findings
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Examination Request Register Builder**
+```
+Create an examination request tracking register from the following information request letter.
+
+Regulator: [name]
+Examination type: [routine / for cause / targeted]
+Request letter date: [date]
+Production deadline: [date]
+
+Request letter content:
+[paste the request letter or list of items]
+
+For each request item, create a register entry with:
+1. Item number and summary description
+2. Responsive document types (what would satisfy this request)
+3. Likely document owner / business unit
+4. Production complexity: Simple (1–2 days) / Moderate (3–5 days) / Complex (1+ week)
+5. Privilege review required: Yes / No / TBD
+6. Status: Not Started
+
+Output as a structured table suitable for tracking in a shared system.
+```
+
+**Prompt 2: Examination Response Cover Letter**
+```
+Draft a regulatory examination response cover letter for the following production.
+
+Regulator: [name and division]
+Examination reference number: [if provided]
+Production date: [date]
+Items being produced: [list item numbers being addressed in this production]
+
+Partial responses / gaps to address:
+[describe any items where production is incomplete, with reason]
+
+Privilege assertions: [describe any documents being withheld and the basis, if applicable]
+
+Draft a cover letter that:
+1. Acknowledges the examination request and identifies the production contents
+2. Addresses partial responses proactively with explanations and committed timelines
+3. Identifies any privilege assertions clearly
+4. Offers a contact for examiner questions
+5. Maintains a professional, cooperative tone appropriate for a regulatory relationship
+```
+
+**Prompt 3: Examiner Interview Preparation Brief**
+```
+Prepare a briefing document for a subject matter expert scheduled for an examiner interview.
+
+Regulator: [name]
+Interview date: [date]
+Subject matter expert role: [title / function]
+Interview topic per examination notice: [describe the scope]
+
+Organization context:
+- Relevant policies and procedures: [list titles]
+- Recent changes to this area: [describe]
+- Known examination focus areas: [describe from prior history or public guidance]
+
+Prepare a briefing covering:
+1. Interview scope summary — what the examiner is likely to focus on
+2. Key facts the SME should know: recent changes, metrics, policy updates
+3. Anticipated examiner questions with suggested responses (5–8 questions)
+4. Documents the SME should review before the interview
+5. Key messages the organization wants to communicate
+6. What to do if asked questions outside the SME knowledge area
+```
+
+:::

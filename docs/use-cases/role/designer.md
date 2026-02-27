@@ -601,222 +601,7 @@ Provide a prioritized remediation plan for non-ready components.
 ---
 
 :::
-## 4. AI Accessibility Compliance Checker
-
-> Catches **92% of WCAG 2.1 AA violations** at the design stage — preventing accessibility debt before a single line of code is written.
-
-::: details Pain Point & How COCO Solves It
-
-**The Pain: Accessibility Is Treated as a Retrofit Instead of a Design Requirement**
-
-Accessibility compliance isn't optional — it's a legal requirement in most markets (ADA, EAA, AODA, Section 508) and a moral imperative for inclusive design. Yet the overwhelming majority of accessibility issues originate in the design phase and are only discovered during development or post-launch audits. By that point, fixing them requires redesigning components, rewriting code, and retesting — at 10-30x the cost of catching the issue during design.
-
-The root cause is a skills and tooling gap. Most designers understand accessibility conceptually but lack the expertise to evaluate their designs against the 78 success criteria in WCAG 2.1 AA. Color contrast checkers exist, but they only cover one dimension. Typography sizing, touch target dimensions, focus indicator design, reading order, animation safety, alternative text strategy, form error handling patterns — these all have specific WCAG requirements that designers rarely check comprehensively. Design tools like Figma have basic contrast plugins but nothing that evaluates a full design against the complete WCAG specification.
-
-The consequence is systematic accessibility debt. Organizations discover during annual audits that hundreds of design decisions created compliance gaps. Engineering teams face a backlog of retroactive fixes competing with feature work. And users with disabilities encounter broken experiences that could have been prevented. The most expensive accessibility bugs are the ones that require layout-level redesigns — precisely the kind that originate in early design decisions.
-
-**How COCO Solves It**
-
-COCO's AI Accessibility Compliance Checker embeds WCAG evaluation directly into the design workflow, enabling designers to catch and fix compliance issues before handoff to engineering.
-
-1. **WCAG Specification Mapping**: COCO maintains a comprehensive mapping of design-relevant WCAG criteria:
-   - Color contrast requirements for text, interactive elements, and graphical objects (1.4.3, 1.4.6, 1.4.11)
-   - Text sizing and spacing requirements (1.4.4, 1.4.8, 1.4.12)
-   - Touch target minimum dimensions (2.5.5, 2.5.8)
-   - Focus indicator visibility specifications (2.4.7, 2.4.11, 2.4.13)
-   - Motion and animation safety thresholds (2.3.1, 2.3.3)
-   - Content structure and heading hierarchy requirements (1.3.1, 2.4.6)
-   - Form labeling and error identification patterns (1.3.5, 3.3.1, 3.3.2)
-
-2. **Design File Analysis**: Given a design (Figma export, screenshot, or description), COCO:
-   - Extracts all color combinations and checks foreground/background contrast ratios
-   - Measures text sizes against minimum requirements (16px body, 12px minimum for non-decorative)
-   - Validates touch/click target dimensions against 44x44px (AA) or 24x24px (minimum) thresholds
-   - Checks focus indicator design against 2px minimum width and 3:1 contrast requirements
-   - Evaluates heading hierarchy for correct nesting (no skipped levels)
-   - Assesses form designs for visible labels, error states, and help text placement
-
-3. **Violation Severity and Legal Risk Classification**: COCO prioritizes issues by compliance impact:
-   - **Level A violations**: Fundamental barriers that prevent access entirely (missing alt text strategy, no keyboard focus indicators, insufficient contrast on critical elements)
-   - **Level AA violations**: Significant barriers that impair usability (contrast below 4.5:1 for normal text, touch targets below 44px, missing error identification)
-   - **Level AAA recommendations**: Best-practice enhancements (enhanced contrast 7:1, extended touch targets 48px, sign language provisions)
-   - Legal risk assessment based on jurisdiction (ADA litigation frequency by violation type)
-
-4. **Automated Fix Suggestions with Design Tokens**: COCO doesn't just flag problems — it proposes solutions:
-   - Suggests accessible color alternatives that maintain brand identity (nearest accessible color in the brand palette)
-   - Recommends specific type scale adjustments to meet sizing requirements
-   - Provides focus indicator design patterns that meet WCAG 2.4.11 requirements
-   - Generates accessible component state specifications (hover, focus, active, disabled, error)
-   - Offers layout adjustments to increase touch target sizes without breaking visual rhythm
-
-5. **Inclusive Design Pattern Library**: COCO references established accessible design patterns:
-   - Navigation patterns (skip links, landmark regions, breadcrumb accessibility)
-   - Form patterns (inline validation, error summary, required field indication)
-   - Modal and dialog patterns (focus trap, return focus, escape dismissal)
-   - Data visualization patterns (colorblind-safe palettes, text alternatives for charts)
-   - Motion patterns (reduced-motion alternatives, pause controls, safe animation durations)
-
-6. **Compliance Tracking and Reporting**: COCO enables ongoing accessibility governance:
-   - Per-design compliance scorecard against WCAG 2.1 AA (with optional AAA scoring)
-   - Historical tracking of compliance improvement across design iterations
-   - Team-level accessibility maturity metrics
-   - Pre-development compliance certificate to attach to handoff documentation
-   - Audit trail showing which criteria were checked, when, and by whom
-
-:::
-
-::: details Results & Who Benefits
-
-**Measurable Results**
-
-- **Design-stage violation detection**: **92% of WCAG AA violations** caught before engineering handoff (vs. 15% without automated checking)
-- **Remediation cost savings**: Average cost-per-fix drops from **$12,000 post-launch to $320 at design stage** (97% reduction)
-- **Compliance audit pass rate**: First-pass WCAG audit score improved from 47% to **88%** within one quarter
-- **Legal risk exposure**: Accessibility-related legal complaints reduced **85%** year-over-year after implementation
-- **Time to compliance**: New feature time-to-WCAG-AA from 6 weeks of retrofitting to **built-in from day one**
-
-**Who Benefits**
-
-- **Product Designers**: Build accessibility into designs naturally with real-time feedback, rather than learning WCAG criteria from dense specification documents
-- **Accessibility Specialists**: Spend less time on basic violation detection and more on complex inclusive experience design and user research
-- **Engineering Teams**: Receive designs that are already accessibility-compliant, eliminating the cycle of build-discover-rebuild that wastes sprint velocity
-- **Legal and Compliance Officers**: Demonstrate proactive accessibility governance with audit trails, reducing litigation risk and regulatory exposure
-
----
-
-:::
-
-::: details 💡 Practical Prompts
-
-**Prompt 1: Full WCAG 2.1 AA Design Audit**
-```
-Audit this design against WCAG 2.1 AA success criteria and produce an accessibility compliance report.
-
-Design: [paste or describe the design, including colors, typography, layout, interactive elements]
-
-Check against these WCAG criteria:
-- 1.4.3 Contrast (Minimum): Text contrast ratio ≥ 4.5:1 (normal), ≥ 3:1 (large)
-- 1.4.11 Non-text Contrast: UI components and graphical objects ≥ 3:1 contrast
-- 2.5.5 Target Size: Touch/click targets ≥ 44x44px
-- 2.4.7 Focus Visible: All interactive elements have visible focus indicators
-- 1.3.1 Info and Relationships: Heading hierarchy is correct, no skipped levels
-- 3.3.2 Labels or Instructions: All form inputs have visible labels
-- 1.4.4 Resize Text: Text can scale to 200% without loss of content
-
-For each criterion:
-1. Status: PASS / FAIL / NEEDS REVIEW
-2. Specific elements affected
-3. Current value vs. required value (e.g. contrast ratio 2.8:1, required 4.5:1)
-4. Fix recommendation with specific values
-5. Legal risk: High / Medium / Low
-
-Output an overall compliance score and prioritized fix list.
-```
-
-**Prompt 2: Color Contrast Analysis with Brand-Safe Alternatives**
-```
-Analyze all color combinations in this design for WCAG contrast compliance and suggest accessible alternatives that stay within our brand palette.
-
-Color palette:
-- Background colors: [list with HEX values]
-- Text colors: [list with HEX values]
-- Interactive element colors: [list with HEX values]
-- Accent/highlight colors: [list with HEX values]
-
-Current color usage in design:
-[Describe which colors are used where — e.g. "#667085 text on #FFFFFF background for body copy"]
-
-For each color combination:
-1. Current contrast ratio
-2. Required ratio (4.5:1 for normal text, 3:1 for large text, 3:1 for non-text elements)
-3. PASS or FAIL
-4. If FAIL: suggest the nearest color from our palette that achieves compliance
-5. If no palette color works: suggest a new color that's visually closest to the intended brand color while meeting contrast requirements
-
-Output a color compliance matrix and a recommended accessible color mapping.
-```
-
-**Prompt 3: Interactive Component Accessibility Specification**
-```
-Generate a complete accessibility specification for this interactive component.
-
-Component: [describe — e.g. "dropdown select menu with search, multi-select, and tag display"]
-
-Generate specifications for:
-1. ARIA roles and properties (role, aria-label, aria-expanded, aria-selected, etc.)
-2. Keyboard interaction model:
-   - How to open/close
-   - How to navigate options
-   - How to select/deselect
-   - How to dismiss
-3. Focus management:
-   - Initial focus on open
-   - Focus movement during interaction
-   - Focus return on close
-4. Screen reader announcements:
-   - What's announced on open
-   - How options are announced
-   - How selection changes are communicated
-   - Error state announcements
-5. Visual states that must be designed:
-   - Default, hover, focus, active, selected, disabled, error
-   - Focus indicator specs (minimum 2px, 3:1 contrast)
-   - Selected state indicator (not color-only)
-
-Output as a specification document a designer and engineer can both reference.
-```
-
-**Prompt 4: Accessibility Remediation Priority Matrix**
-```
-We've completed an accessibility audit and found the following violations. Help us prioritize remediation.
-
-Violations found:
-[List each violation with: criterion, description, affected pages/components, severity]
-
-For prioritization, consider:
-1. Legal risk: Which violations are most commonly cited in ADA lawsuits?
-2. User impact: Which violations completely block access vs. merely inconvenience?
-3. Affected population: How many users are impacted (consider disability prevalence data)?
-4. Fix complexity: Quick CSS fix vs. component redesign vs. architectural change?
-5. Dependencies: Which fixes must happen before others?
-
-Output a remediation roadmap with:
-- Sprint 1 (critical, must-fix): [items]
-- Sprint 2 (high-impact, moderate effort): [items]
-- Sprint 3 (medium-impact, higher effort): [items]
-- Backlog (nice-to-have, complex): [items]
-
-Include estimated effort hours per item and total effort per sprint.
-```
-
-**Prompt 5: Inclusive Design Review Checklist**
-```
-Review this design for inclusive design considerations beyond WCAG compliance.
-
-Design: [describe]
-Target audience: [describe user demographics]
-
-Evaluate against these inclusive design dimensions:
-1. Visual: Does it work for colorblind users? (protanopia, deuteranopia, tritanopia simulations)
-2. Motor: Can all actions be completed without precise mouse movements? (Fitts's law considerations)
-3. Cognitive: Is the information architecture clear? Are error messages helpful? Is cognitive load managed?
-4. Situational: Does it work in bright sunlight? On a shaky bus? With one hand? While distracted?
-5. Technical: Does it work on slow connections? Old devices? Small screens?
-6. Cultural: Are icons universally understood? Are there cultural assumptions in the design?
-
-For each dimension:
-- Current score: Good / Needs Improvement / Poor
-- Specific issues found
-- Recommendation with design example or reference
-- Priority: Must-fix / Should-fix / Nice-to-have
-
-Output as a design review scorecard with actionable next steps.
-```
-
----
-
-:::
-## 5. AI Design-to-Code Fidelity Validator
+## 4. AI Design-to-Code Fidelity Validator
 
 > Reduces design-to-code discrepancy resolution from **5 days of back-and-forth** to **2-hour automated comparison** — achieving 98% pixel-level fidelity on first implementation.
 
@@ -1029,7 +814,7 @@ Format for design team sign-off — this will be attached to the release notes.
 ---
 
 :::
-## 6. AI UI Pattern Library Curator
+## 5. AI UI Pattern Library Curator
 
 > Cuts pattern library maintenance from **40 hours/month** to **6 hours/month** — ensuring 95% pattern adoption across product teams.
 
@@ -1228,7 +1013,7 @@ Format as a self-contained migration guide document.
 ```
 
 :::
-## 7. AI Color Palette Accessibility Optimizer
+## 6. AI Color Palette Accessibility Optimizer
 
 > Transforms brand palettes into **WCAG AAA-compliant** color systems in **under 2 hours** — maintaining 94% perceptual brand similarity while achieving full accessibility.
 
@@ -1447,7 +1232,7 @@ Output:
 ```
 
 :::
-## 8. AI Design Sprint Facilitator
+## 7. AI Design Sprint Facilitator
 
 > Compresses a **5-day design sprint** into **2 days** — generating research synthesis, sketches, and test protocols that would normally require a full facilitation team.
 
@@ -1667,7 +1452,7 @@ Format for stakeholder presentation — executive summary on page 1, details fol
 ```
 
 :::
-## 9. AI User Flow Wireframe Generator
+## 8. AI User Flow Wireframe Generator
 
 > Generates complete user flow wireframes in **3 hours** instead of **3 days** — producing 40+ screens with consistent interaction patterns and edge case coverage.
 
@@ -1897,7 +1682,7 @@ Output as a navigation specification with wireframes for each navigation level.
 ```
 
 :::
-## 10. AI Design Handoff Documentation Builder
+## 9. AI Design Handoff Documentation Builder
 
 > Reduces design handoff documentation time from **8 hours per feature** to **45 minutes** — generating pixel-perfect specs that eliminate 90% of engineer follow-up questions.
 
@@ -2129,7 +1914,7 @@ Output as a change log document that developers can use as a PR checklist.
 ```
 
 :::
-## 11. AI Icon Set Consistency Checker
+## 10. AI Icon Set Consistency Checker
 
 > Audits icon libraries of **500+ icons** in **under 30 minutes** — catching 98% of visual inconsistencies that manual reviews miss across stroke weight, optical size, and grid alignment.
 
@@ -2351,7 +2136,7 @@ Output: Icon usability scorecard with prioritized improvements and alternative i
 ```
 
 :::
-## 12. AI Design Critique & Feedback Synthesizer
+## 11. AI Design Critique & Feedback Synthesizer
 
 > Synthesizes feedback from **15+ stakeholders** into actionable design direction in **20 minutes** — resolving contradictory opinions that previously stalled projects for weeks.
 
@@ -2579,7 +2364,7 @@ Output as a design review retrospective report with specific, implementable reco
 ```
 
 :::
-## 13. AI Figma Component Usage Analyzer
+## 12. AI Figma Component Usage Analyzer
 
 > Analyzes component usage across **200+ Figma files** in **under 1 hour** — identifying orphaned components, detached instances, and adoption gaps that waste 30% of design system investment.
 
@@ -2809,7 +2594,7 @@ Format as an executive presentation with key metrics on page 1 and supporting de
 ```
 
 :::
-## 14. AI Dark Mode Design Converter
+## 13. AI Dark Mode Design Converter
 
 > Converts light mode designs to **production-ready dark mode** in **4 hours** instead of **3 weeks** — handling semantic color mapping, elevation adjustments, and image treatments across 100+ screens.
 
@@ -3043,7 +2828,7 @@ Output: Copy-paste-ready token files with implementation instructions.
 ```
 
 :::
-## 15. AI Micro-Interaction Prototype Generator
+## 14. AI Micro-Interaction Prototype Generator
 
 > Generates **production-ready micro-interaction specifications** in **90 minutes** — complete with timing curves, state transitions, and code snippets that previously took **2 weeks** to prototype and document.
 
@@ -3328,7 +3113,7 @@ Format as a design system documentation page.
 ```
 
 :::
-## 16. AI Design Token Manager
+## 15. AI Design Token Manager
 
 > Automates design token lifecycle across **Figma, code, and documentation** — reducing token drift incidents from **35 per quarter** to **fewer than 2** while cutting token management overhead by 85%.
 
@@ -3573,7 +3358,7 @@ Output:
 ```
 
 :::
-## 17. AI Visual Regression Testing Engine
+## 16. AI Visual Regression Testing Engine
 
 > Catches **100% of unintended visual changes** before deployment — reducing visual bugs in production from **22 per release** to **zero** with automated screenshot comparison across 50+ page-component combinations.
 
@@ -3806,7 +3591,7 @@ Format for a team retrospective presentation — data-driven, actionable, under 
 ```
 
 :::
-## 18. AI Typography Pairing Advisor
+## 17. AI Typography Pairing Advisor
 
 > Generates **professionally harmonious typography pairings** in **15 minutes** — replacing weeks of trial-and-error with data-driven recommendations that improve readability scores by 28%.
 
@@ -4054,7 +3839,7 @@ Format as a brand guidelines chapter ready for the brand book.
 ```
 
 :::
-## 19. AI Design Portfolio Review Assistant
+## 18. AI Design Portfolio Review Assistant
 
 > Reviews design portfolios in **10 minutes** with institutional-quality critique — helping designers improve presentation quality by **65%** and doubling interview callback rates.
 
@@ -4291,7 +4076,7 @@ Output as a presentation prep document with scripted talking points for key mome
 ```
 
 :::
-## 20. AI Multi-Platform Asset Exporter
+## 19. AI Multi-Platform Asset Exporter
 
 > Exports design assets for **7+ platforms** simultaneously in **under 30 minutes** — replacing a manual process that takes **2 full days** and eliminates the platform-specific sizing errors that cause 40% of asset-related bug reports.
 
@@ -4561,7 +4346,7 @@ Output as an implementation specification with HTML/CSS code examples for each i
 
 :::
 
-## 21. AI Design Workshop Planner
+## 20. AI Design Workshop Planner
 
 > Run focused, high-output design workshops with structured facilitation that keeps teams aligned and moving.
 
@@ -4727,7 +4512,7 @@ Include: a list of phrases facilitators must avoid that could bias responses.
 
 :::
 
-## 22. AI Localization Design Advisor
+## 21. AI Localization Design Advisor
 
 > Design products that feel native in every language — not just translated.
 
@@ -4883,7 +4668,7 @@ Also provide:
 
 :::
 
-## 23. AI Interaction Pattern Library Builder
+## 22. AI Interaction Pattern Library Builder
 
 > Build a living, consistent interaction pattern library that the whole team actually uses.
 
@@ -5064,6 +4849,293 @@ For each scenario specify:
 6. Error transition: how does the loading state transition to an error state if the load fails?
 
 Also specify: how loading states should behave differently on mobile (where data connections are slower and screens are smaller).
+```
+
+:::
+
+## 23. AI Design System Documentation Generator
+
+> Produces comprehensive component documentation, usage guidelines, and do/don't examples from design system tokens and component specs — keeping docs in sync with the system.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Design System Documentation Is Always Outdated and Under-Maintained**
+
+Design systems create organizational leverage — when components are well-documented, teams build faster and more consistently. But documentation is the part of design system maintenance that is almost universally neglected. As components evolve, documentation lags. Usage guidelines written months ago don't reflect current best practices. A design system with 50+ components requires hundreds of hours of documentation work, and that work must be repeated every time a component is updated. The manual effort required is prohibitive, so documentation is perpetually incomplete.
+
+**How COCO Solves It**
+
+1. **Component Documentation Generation**: COCO generates structured documentation for each component from design token specifications, prop definitions, and visual examples.
+2. **Usage Guideline Writing**: COCO writes clear when-to-use and when-not-to-use guidelines based on component purpose and design system patterns.
+3. **Accessibility Documentation**: COCO documents WCAG compliance details, keyboard navigation patterns, and screen reader behaviors for each component.
+4. **Code Example Generation**: COCO generates usage code examples in the primary implementation framework showing common use cases.
+5. **Changelog Drafting**: COCO generates component changelog entries when specification changes are provided, maintaining a consistent documentation history.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Documentation coverage**: Teams move from **30–40% component coverage** to **90%+ coverage** within a quarter
+- **Documentation time**: Average time to document a component drops from **3–5 hours to 45–90 minutes** with AI-generated first drafts
+- **Documentation freshness**: AI-assisted updates ensure changelog and usage notes are updated with **95%+ of component changes**
+- **Developer adoption**: Well-documented design systems show **40% higher component adoption rates** from engineering teams
+- **Design review reduction**: Clear usage guidelines reduce component misuse in development, cutting design review cycles by **25–35%**
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Component Documentation Page Generator**
+```
+Generate a complete documentation page for the following design system component.
+
+Component name: [e.g., Button, Modal, Data Table, Form Field]
+Component purpose: [describe what the component does and its primary use cases]
+Variants available: [list variants and sizes]
+States: [list states — Default, Hover, Active, Disabled, Loading, Focus]
+Props/configuration options: [list key props with types and descriptions]
+Design tokens used: [list relevant tokens]
+
+Generate a documentation page including:
+1. Overview (1–2 sentence description of the component)
+2. When to use / when not to use (3–4 bullet points each)
+3. Variant guide (description and use case for each variant)
+4. Accessibility considerations (WCAG compliance, keyboard navigation, ARIA attributes)
+5. Usage examples (2–3 annotated examples showing correct usage)
+6. Common mistakes (2–3 do/don't pairs)
+7. Related components (components commonly used with this one)
+```
+
+**Prompt 2: Component Changelog Entry Generator**
+```
+Generate a changelog entry for the following design system component update.
+
+Component: [name]
+Version: [old version] → [new version]
+Update type: [Breaking Change / Feature Addition / Bug Fix / Visual Update / Deprecation]
+Changes made: [describe the changes]
+Migration requirements: [describe what teams need to do to adopt the update]
+
+Generate:
+1. Changelog entry in standard format (version, date, type, description)
+2. Migration guide section (if breaking change or deprecation)
+3. Code comparison example (before/after usage snippet, if applicable)
+4. Announcement message for design system Slack/Teams channel (2–3 sentences, accessible to non-technical designers)
+```
+
+**Prompt 3: Design Token Documentation Generator**
+```
+Generate documentation for the following design token set.
+
+Token category: [color / spacing / typography / elevation / motion / border-radius]
+
+Token definitions:
+[list tokens with their values — e.g.:
+color.primary.50: #EFF6FF
+color.primary.100: #DBEAFE]
+
+Token naming convention: [describe how the naming system works]
+Usage context: [describe where and how these tokens should be applied]
+
+Generate token documentation including:
+1. Category overview (what these tokens represent and how they are used)
+2. Token reference table (token name, value, usage guidance)
+3. Usage examples (2–3 common implementation patterns)
+4. Do/don't examples (correct vs. incorrect token application)
+5. Theming notes (how these tokens behave in light/dark mode)
+6. Implementation code snippet (how to reference tokens in CSS/design tooling)
+```
+
+:::
+
+## 24. AI UX Research Synthesis Engine
+
+> Processes user research interview transcripts, usability test recordings, and survey responses to extract themes, prioritize findings, and generate research reports.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: User Research Insights Sit Unprocessed in Spreadsheets and Interview Transcripts**
+
+UX research generates valuable insight — but the synthesis process between raw data collection and actionable findings is the bottleneck that determines whether research influences product decisions. Manual affinity mapping and thematic analysis for a standard usability study (5–8 participants, 60-minute sessions) requires 12–20 hours of analysis work. Most design teams cannot afford this throughput, so research is conducted less frequently than the product roadmap needs, or synthesis is skipped in favor of gut-feel interpretations of raw observations.
+
+**How COCO Solves It**
+
+1. **Interview Transcript Analysis**: COCO processes interview transcripts and extracts observations, quotes, and behavioral patterns per participant.
+2. **Thematic Synthesis**: COCO groups observations into themes across participants, identifying the frequency and severity of each pattern.
+3. **Usability Severity Scoring**: COCO rates each finding by severity (critical / high / medium / low) based on frequency of occurrence and impact on task completion.
+4. **Insight Report Generation**: COCO generates structured research reports with executive summaries, prioritized findings, representative quotes, and design recommendations.
+5. **Persona and Journey Map Inputs**: COCO extracts mental models, motivations, and pain points from research data suitable for persona and journey map development.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Research synthesis time**: Full thematic analysis of a 5-participant study drops from **12–20 hours to 3–5 hours**
+- **Finding coverage**: AI-assisted synthesis surfaces **35% more** observations that would be filtered out in manual rapid synthesis
+- **Insight report delivery time**: Reports are delivered to stakeholders within **1–2 days** of research completion vs. **1–2 weeks** for manual synthesis
+- **Research influence on product decisions**: Teams with faster synthesis see **50% higher** rate of research-influenced product decisions
+- **Stakeholder engagement**: Clear, prioritized reports increase research engagement from non-UX stakeholders by **40%**
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: User Interview Synthesis Report Generator**
+```
+Synthesize the following user research interview data and generate a findings report.
+
+Study name: [name]
+Research questions: [list 2–4 primary research questions]
+Participant count: [N participants]
+Interview format: [moderated / unmoderated, in-person / remote, duration]
+
+Interview data:
+[paste interview transcripts, observation notes, or key quotes organized by participant]
+
+Generate a research synthesis report including:
+1. Executive summary (3–5 bullet points answering the primary research questions)
+2. Key themes (5–7 themes with frequency count, supporting quotes, and severity)
+3. Participant mental model summary
+4. Critical pain points (prioritized with representative quotes)
+5. Positive signals (what works well)
+6. Design recommendations (actionable implications for each major finding)
+7. Questions for follow-up research
+```
+
+**Prompt 2: Usability Test Finding Prioritization**
+```
+Analyze the following usability test observations and prioritize findings for the design team.
+
+Product/feature tested: [describe]
+Test tasks: [list the tasks participants were asked to complete]
+Participant count: [N]
+Completion rate by task: [list]
+
+Observation notes by task:
+[paste raw observations, errors, and think-aloud notes per task and participant]
+
+Generate:
+1. Prioritized findings table: Finding description, frequency (of N participants), severity, affected task
+2. Critical path issues requiring immediate design attention (fix before launch)
+3. Root cause analysis for the top 3 usability failures
+4. Quick wins: low-effort design changes with high impact
+5. Recommended design changes for each critical and high severity finding
+```
+
+**Prompt 3: Survey Response Theme Extractor**
+```
+Extract themes and generate a quantitative summary from the following survey responses.
+
+Survey purpose: [describe what the survey was measuring]
+Question analyzed: [the specific open-text question to analyze]
+Response count: [N responses]
+
+Raw responses:
+[paste the open-text responses — at minimum a representative sample of 20–30]
+
+Analyze:
+1. Top 5–7 themes with frequency counts
+2. Sentiment breakdown per theme (positive / neutral / negative)
+3. Representative quotes for each theme (1–2 verbatim quotes)
+4. Unexpected findings
+5. Actionable insights: what decisions are implied by the top themes
+6. Cross-tabulation suggestions: what demographic variables might explain theme differences
+```
+
+:::
+
+## 25. AI Design Critique Feedback Synthesizer
+
+> Structures design critique sessions, synthesizes feedback from multiple reviewers into actionable priorities, and identifies conflicting feedback that needs resolution.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Design Critique Feedback Is Inconsistent, Conflicting, and Hard to Act On**
+
+Design critique sessions produce feedback that is difficult to act on. Comments range from subjective preferences to objective usability concerns, with no distinction between the two. Conflicting feedback from different stakeholders leaves designers paralyzed. Without a structured framework for evaluating critique quality and prioritizing feedback, designers either act on everything (creating design by committee) or dismiss feedback they disagree with (missing valid concerns). The synthesis challenge is compounded when feedback comes from multiple channels — Figma comments, meeting notes, Slack messages — at different times.
+
+**How COCO Solves It**
+
+1. **Feedback Collection and Structuring**: COCO organizes raw critique feedback into categories (usability, visual, business, technical) and separates factual observations from subjective preferences.
+2. **Conflict Detection**: COCO identifies contradictory feedback from different reviewers and flags conflicts that require a design decision.
+3. **Priority Ranking**: COCO applies severity and feasibility criteria to rank feedback by implementation priority.
+4. **Response Drafting**: COCO drafts responses to each piece of feedback — either a design change plan or a documented rationale for not implementing.
+5. **Critique Session Facilitation**: COCO generates structured critique agendas and evaluation criteria to make live critique sessions more productive.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Critique session efficiency**: Structured critique with AI-generated agendas produces **2x more actionable feedback** in the same session time
+- **Feedback response rate**: Designers using AI-assisted synthesis respond to **95%+ of feedback** vs. **40–60%** without structured tracking
+- **Conflict resolution time**: Identifying and surfacing feedback conflicts for decision drops from days to **same session**
+- **Stakeholder satisfaction**: Structured feedback responses with documented rationale increase stakeholder satisfaction with the design process by **35%**
+- **Design iteration speed**: Clear, prioritized feedback lists reduce average iteration cycle from **3–5 days to 1–2 days**
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Design Critique Feedback Synthesizer**
+```
+Synthesize the following design critique feedback and create a prioritized action list.
+
+Design being critiqued: [describe — feature, screen, flow, component]
+Design stage: [early concept / mid-fidelity / final review]
+
+Feedback received (from multiple reviewers):
+[paste all feedback — include source role for each comment, e.g., "PM:", "UX Lead:", "Engineer:", "Stakeholder:"]
+
+Synthesize:
+1. Usability concerns (affects the user ability to accomplish goals) — list with severity
+2. Visual/aesthetic feedback (appearance, brand alignment, polish) — list
+3. Business requirement concerns (features, functionality, edge cases) — list
+4. Technical feasibility concerns — list
+5. Conflicting feedback requiring a design decision — identify the conflict and stakeholders involved
+6. Prioritized action list: Critical / High / Nice-to-Have
+7. Feedback to defer or deprioritize with documentation rationale
+```
+
+**Prompt 2: Critique Session Agenda Builder**
+```
+Build a structured agenda for the following design critique session.
+
+Design to be reviewed: [describe]
+Session duration: [30 / 45 / 60 / 90 minutes]
+Attendees and roles: [list titles]
+Design stage: [describe]
+Specific questions the designer wants feedback on: [list 3–5 specific areas of uncertainty]
+Known concerns going in: [describe any issues the designer already knows about]
+
+Build a session agenda including:
+1. Framing (5 min): context, constraints, what feedback is needed
+2. Walkthrough structure: how to present the design to maximize useful feedback
+3. Structured feedback rounds: specific questions to pose to the group
+4. Conflict resolution protocol: how to handle disagreements
+5. Decision-making framework: how the designer will use the feedback
+6. Time allocations for each agenda item
+```
+
+**Prompt 3: Async Feedback Response Drafter**
+```
+Draft responses to the following async design feedback comments.
+
+Design: [describe]
+Platform where feedback was left: [Figma / Miro / Document / Email / Slack]
+
+Feedback comments (include commenter role and comment text):
+[list each comment — e.g.:
+"PM: The CTA is too small, users will miss it"
+"UX Lead: Good hierarchy but secondary action is competing visually with primary"
+"Engineer: We cannot implement the blur effect without significant performance impact"]
+
+For each comment:
+1. Category: Usability / Visual / Business / Technical / Preference
+2. Validity assessment: Valid concern / Subjective preference / Factual misunderstanding / Needs more information
+3. Design response: What change will be made, OR documented rationale for not changing
+4. Response message to send to the commenter (professional, specific, appreciative)
+
+Also identify: any comments that conflict with each other and require a design decision before responding.
 ```
 
 :::
