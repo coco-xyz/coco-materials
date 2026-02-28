@@ -133,6 +133,7 @@ export default defineConfig({
                 { text: 'Research Analyst', link: '/use-cases/role/research-analyst' },
                 { text: 'Due Diligence Analyst', link: '/use-cases/role/due-diligence-analyst' },
                 { text: 'Designer', link: '/use-cases/role/designer' },
+                { text: 'Multi-Agent Architect', link: '/use-cases/role/multi-agent-architect' },
               ]
             },
             {
@@ -257,6 +258,7 @@ export default defineConfig({
                 { text: '研究分析师', link: '/zh/use-cases/role/research-analyst' },
                 { text: '尽职调查分析师', link: '/zh/use-cases/role/due-diligence-analyst' },
                 { text: '设计师', link: '/zh/use-cases/role/designer' },
+                { text: '多Agent协同架构师', link: '/zh/use-cases/role/multi-agent-architect' },
               ]
             },
             {

@@ -1,6 +1,6 @@
 # Use Cases
 
-Discover **961 real-world scenarios** where COCO AI employees save time and money. Browse by **Role**, **Task**, or **Industry**.
+Discover **1001 real-world scenarios** where COCO AI employees save time and money. Browse by **Role**, **Task**, or **Industry**.
 
 ## Browse by Role
 
@@ -37,6 +37,7 @@ Find use cases for your specific job function:
 | [AI Product Manager](/use-cases/role/ai-product-manager) | 48 | Model Evaluation Framework Builder, Prompt Engineering Optimizer, Bias Detection & Fairness Audit, ... |
 | [Research Analyst](/use-cases/role/research-analyst) | 39 | Market Sizing & TAM/SAM/SOM Calculator, Competitive Intelligence Report Builder, Industry Trend Aggregator, ... |
 | [Designer](/use-cases/role/designer) | 25 | Brand Asset Consistency Auditor, Design System Component Auditor, Responsive Design QA, ... |
+| [Multi-Agent Architect](/use-cases/role/multi-agent-architect) | 40 | Multi-Agent Sprint Team Deployer, Supervisor-Worker Hierarchy Builder, Cross-Functional Deal Room Orchestrator, Parallel Research Swarm Coordinator, ... |
 
 ## Browse by Task
 

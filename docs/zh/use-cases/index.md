@@ -1,6 +1,6 @@
 # 用例库
 
-发现 **961个真实场景**，COCO AI员工如何为各部门节省时间和成本。按**角色**、**任务**或**行业**浏览。
+发现 **1001个真实场景**，COCO AI员工如何为各部门节省时间和成本。按**角色**、**任务**或**行业**浏览。
 
 ## 按角色浏览
 
@@ -37,6 +37,7 @@
 | [AI产品经理](/zh/use-cases/role/ai-product-manager) | 48 | AI模型评估框架构建器、AI提示词工程工作流优化器、AI偏见检测与公平性审计引擎... |
 | [研究分析师](/zh/use-cases/role/research-analyst) | 39 | AI市场规模与TAM/SAM/SOM计算器、AI竞争情报深度报告构建器、AI行业趋势信号聚合与综合器... |
 | [设计师](/zh/use-cases/role/designer) | 25 | AI品牌资产一致性审计员、AI设计系统组件审计员、AI响应式设计QA引擎、AI用户流程线框生成器... |
+| [多Agent协同架构师](/zh/use-cases/role/multi-agent-architect) | 40 | AI多Agent冲刺团队部署器、AI主管-执行Agent层级构建器、AI跨职能交易室编排器、AI并行研究集群协调器... |
 
 ## 按任务浏览
 
