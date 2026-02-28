@@ -78,7 +78,6 @@
 | 支付方式 | 支持货币 | 状态 | 说明 |
 |---------|---------|------|------|
 | **信用卡 / 借记卡**（Stripe） | USD（美元） | 已支持 | 支持 Visa、Mastercard、American Express、Discover 等主流卡种 |
-| **加密货币** | USD等值 | 即将支持 | USDT/USDC，支持ETH/BSC/Tron/Arbitrum等链 |
 
 > **注意：** 当前所有套餐价格均以**美元（USD）**计价和结算。
 

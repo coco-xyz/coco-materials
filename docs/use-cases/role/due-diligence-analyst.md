@@ -5913,7 +5913,7 @@ Due diligence teams facing multi-jurisdictional acquisitions typically lack the 
    - Identifies product recall coordination requirements across jurisdictions for any product safety issues discovered in diligence
 
 5. **Financial Services Regulatory Licensing and Authorization Assessment**: COCO maps the license portfolio for financial services acquisitions:
-   - Inventories all financial services licenses, authorizations, and registrations across all jurisdictions: banking licenses, investment advisor registrations, insurance licenses, payment institution authorizations, crypto asset service provider registrations
+   - Inventories all financial services licenses, authorizations, and registrations across all jurisdictions: banking licenses, investment advisor registrations, insurance licenses, payment institution authorizations
    - Identifies change-of-control approval requirements for each license — typically requiring 60–180 days advance application to each regulator
    - Assesses regulatory capital requirements that must be satisfied at each licensed entity post-acquisition — merger of entities may trigger minimum capital re-calculation
    - Reviews passporting arrangements under EU financial services law that may be disrupted by change of ownership or group restructuring
@@ -6035,7 +6035,7 @@ Output: Privacy compliance gap matrix by jurisdiction + international transfer m
 You are a financial services regulatory specialist conducting change-of-control license assessment for a fintech / financial services acquisition. Map all licenses requiring pre-close regulatory approval.
 
 Target company: [Company Name]
-Financial services activities: [payments / lending / investment advisory / insurance / banking / crypto / other]
+Financial services activities: [payments / lending / investment advisory / insurance / banking / other]
 License inventory: [list all known licenses, registrations, and authorizations held by entity and its subsidiaries]
 Jurisdictions of operation: [list all jurisdictions — US states, EU member states, UK, APAC, etc.]
 Acquirer profile: [describe the acquirer — is acquirer already regulated in these jurisdictions?]

@@ -78,7 +78,6 @@ After registration, you're automatically directed to the pricing page (also acce
 | Method | Currency | Status | Details |
 |--------|----------|--------|---------|
 | **Credit/Debit Card** (Stripe) | USD | Available | Visa, Mastercard, American Express, Discover |
-| **Crypto** | USD equivalent | Coming Soon | USDT/USDC via ETH/BSC/Tron/Arbitrum |
 
 > **Note:** All plans are priced and billed in **USD**.
 

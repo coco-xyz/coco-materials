@@ -345,6 +345,13 @@ export default defineConfig({
     search: {
       provider: 'local',
       options: {
+        detailedView: false,
+        _render(src, env, md) {
+          // Only index headings and first paragraph to reduce index size
+          const html = md.render(src, env)
+          // Strip details/summary blocks to avoid indexing fold content
+          return html.replace(/<details[\s\S]*?<\/details>/g, '')
+        },
         locales: {
           zh: {
             translations: {

@@ -1,3 +1,7 @@
+<script setup>
+import { withBase } from 'vitepress'
+</script>
+
 # 渠道部署指南
 
 将AI员工连接到Telegram或飞书的详细指南。
@@ -101,7 +105,7 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 2. 使用你的飞书账号登录
 3. 点击右上角 **开发者后台** 进入管理页面
 
-![飞书开放平台首页 — 点击右上角「开发者后台」](/feishu-open-platform.png)
+<img :src="withBase('/feishu-open-platform.png')" alt="飞书开放平台首页 — 点击右上角「开发者后台」" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 <br>
 
@@ -109,18 +113,18 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 
 1. 在开发者后台，点击 **创建企业自建应用**
 
-![飞书开发者后台 — 点击「创建企业自建应用」](/feishu-create-app.png)
+<img :src="withBase('/feishu-create-app.png')" alt="飞书开发者后台 — 点击「创建企业自建应用」" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 2. 填写应用名称（如 `COCO AI员工`）和描述，选择应用图标
 
-![填写应用名称和描述](/feishu-create-app-form.png)
+<img :src="withBase('/feishu-create-app-form.png')" alt="填写应用名称和描述" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 3. 点击 **创建** 完成
 4. 创建成功后，进入左侧 **凭证与基础信息** 页面，记录以下信息：
    - **App ID**
    - **App Secret**
 
-![凭证与基础信息 — 复制 App ID 和 App Secret](/feishu-credentials.png)
+<img :src="withBase('/feishu-credentials.png')" alt="凭证与基础信息 — 复制 App ID 和 App Secret" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 > **提示：** 需要企业管理员权限创建应用。如果你不是管理员，请联系你的IT部门协助。或者先使用飞书个人版账号体验。
 
@@ -130,11 +134,11 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 
 在应用管理页面，进入左侧 **添加应用能力**，找到 **机器人** 卡片，点击「配置」或「+ 添加」。添加完成后，左侧会出现 **机器人** 菜单项，同时可以在 **权限管理** 中配置相关权限：
 
-![点击添加机器人卡片，再进行权限配置](/feishu-add-bot-capability.png)
+<img :src="withBase('/feishu-add-bot-capability.png')" alt="点击添加机器人卡片，再进行权限配置" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 > **重要：** 必须先添加机器人能力，然后才能配置消息相关的权限（如 `im:message.group_at_msg:readonly`）。否则权限页面会提示「请在开启 bot 能力后，再申请开通此权限」，该权限的勾选框将无法选中：
 
-![未添加机器人能力时，im:message.group_at_msg:readonly 权限无法勾选](/feishu-permission-bot-required.png)
+<img :src="withBase('/feishu-permission-bot-required.png')" alt="未添加机器人能力时，im:message.group_at_msg:readonly 权限无法勾选" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 <br>
 
@@ -142,15 +146,15 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 
 添加机器人能力后，进入左侧 **权限管理**，点击 **开通权限** 按钮：
 
-![权限管理页面 — 点击「开通权限」添加所需API权限](/feishu-permissions.png)
+<img :src="withBase('/feishu-permissions.png')" alt="权限管理页面 — 点击「开通权限」添加所需API权限" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 在弹出的权限搜索框中，输入权限ID（如 `im:message`）搜索并勾选所需权限，然后点击 **确认开通权限**：
 
-![搜索权限 — 输入权限ID搜索，勾选后确认开通](/feishu-enable-permissions.png)
+<img :src="withBase('/feishu-enable-permissions.png')" alt="搜索权限 — 输入权限ID搜索，勾选后确认开通" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 部分权限开通后会弹出「可访问的数据范围」配置窗口，选择默认配置并点击 **确认** 即可：
 
-![权限数据范围配置 — 保持默认配置，点击确认](/feishu-permission-scope.png)
+<img :src="withBase('/feishu-permission-scope.png')" alt="权限数据范围配置 — 保持默认配置，点击确认" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 **必需权限（最小权限集）：**
 
@@ -219,7 +223,7 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 
 配置完成后，权限管理页面应显示所有权限状态为「已开通」：
 
-![权限配置完成 — 所有必需权限显示「已开通」状态](/feishu-permissions-done.png)
+<img :src="withBase('/feishu-permissions-done.png')" alt="权限配置完成 — 所有必需权限显示「已开通」状态" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 开启权限后，点击顶部的 **创建版本** → **发布版本**，提交管理员审批。
 
@@ -237,7 +241,7 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 2. 在「事件配置」标签下，选择订阅方式为 **将事件发送至开发者服务器**
 3. 在 **请求地址** 中填入你的专属 Webhook URL：`https://<username>.coco.site/webhook/lark/`（将 `<username>` 替换为你在 COCO 平台注册的用户名）
 
-![事件与回调 — 选择「将事件发送至开发者服务器」，填入COCO提供的Webhook地址](/feishu-events.png)
+<img :src="withBase('/feishu-events.png')" alt="事件与回调 — 选择「将事件发送至开发者服务器」，填入COCO提供的Webhook地址" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 4. 点击下方 **添加事件**，订阅以下事件：
    - `im.message.receive_v1` — 接收消息（必需）
@@ -246,7 +250,7 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 
 配置完成后，可以在飞书客户端搜索你的应用名称，确认机器人已正确创建：
 
-![在飞书中搜索你的应用名称，确认机器人已创建](/feishu-search-bot.png)
+<img :src="withBase('/feishu-search-bot.png')" alt="在飞书中搜索你的应用名称，确认机器人已创建" style="max-width: 320px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 <br>
 
@@ -258,7 +262,7 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 2. 点击 **加密策略** 标签
 3. 在页面底部找到 **Verification Token**，点击眼睛图标查看并复制
 
-![事件与回调 → 加密策略 — 在页面底部找到 Verification Token](/feishu-verification-token.png)
+<img :src="withBase('/feishu-verification-token.png')" alt="事件与回调 → 加密策略 — 在页面底部找到 Verification Token" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 > **提示：** 同一页面还有 **Encrypt Key**（可选），如果你需要加密通信，也请一并记录。
 
@@ -291,26 +295,26 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 
 首先，在飞书开放平台确认应用状态已从「待上线」变为「已开启」：
 
-![飞书开放平台 — 确认应用状态已变为「已开启」](/feishu-app-status.png)
+<img :src="withBase('/feishu-app-status.png')" alt="飞书开放平台 — 确认应用状态已变为「已开启」" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 1. 在飞书开放平台，进入 **机器人** 菜单，确认机器人功能已开启
 2. 打开飞书客户端
 3. 创建或进入一个群组
 4. 点击右上角 **...** 菜单 → **Settings**（设置）
 
-![进入群组后，点击右上角「...」→「Settings」](/feishu-group-settings.png)
+<img :src="withBase('/feishu-group-settings.png')" alt="进入群组后，点击右上角「...」→「Settings」" style="max-width: 320px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 5. 在设置中找到 **Bots**（机器人）选项，点击进入（也可以直接点击群组顶部的小机器人图标快速打开）
 
-![群设置 — 点击「Bots」进入机器人管理](/feishu-group-bots.png)
+<img :src="withBase('/feishu-group-bots.png')" alt="群设置 — 点击「Bots」进入机器人管理" style="max-width: 320px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 6. 点击 **Add Bot**（添加机器人） → 搜索你的应用名称 → 点击添加
 
-![添加机器人 — 搜索Bot名称，点击添加](/feishu-add-bot.png)
+<img :src="withBase('/feishu-add-bot.png')" alt="添加机器人 — 搜索Bot名称，点击添加" style="max-width: 320px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 7. 添加成功后，你的机器人会出现在 Bots 列表中
 
-![机器人添加完毕 — 也可通过群组顶部机器人图标快速查看](/feishu-bot-added.png)
+<img :src="withBase('/feishu-bot-added.png')" alt="机器人添加完毕 — 也可通过群组顶部机器人图标快速查看" style="max-width: 320px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 8. 在群中 @你的机器人 发送消息
 9. AI员工响应 → 部署完成！
@@ -327,7 +331,7 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 2. 使用你的 Lark 账号登录
 3. 点击 **创建应用** 进入应用创建流程
 
-![Lark 开放平台首页 — 点击「创建应用」](/lark-open-platform.png)
+<img :src="withBase('/lark-open-platform.png')" alt="Lark 开放平台首页 — 点击「创建应用」" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 > **提示：** Lark 是飞书的海外版本，界面为英文。功能与飞书基本一致，但平台地址和部分操作名称不同。
 
@@ -337,22 +341,22 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 
 1. 在开发者后台，点击 **创建企业自建应用**
 
-![Lark 开发者后台 — 点击「创建企业自建应用」](/lark-create-app.png)
+<img :src="withBase('/lark-create-app.png')" alt="Lark 开发者后台 — 点击「创建企业自建应用」" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 2. 填写应用名称（如 `COCO AI Employee`）和描述，选择应用图标
 
-![填写应用名称和描述](/lark-create-app-form.png)
+<img :src="withBase('/lark-create-app-form.png')" alt="填写应用名称和描述" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 3. 点击 **创建** 完成
 4. 创建成功后，可以在工作台看到你的应用
 
-![工作台 — 查看已创建的应用，点击右上角「创建应用」可创建更多](/lark-workspace.png)
+<img :src="withBase('/lark-workspace.png')" alt="工作台 — 查看已创建的应用，点击右上角「创建应用」可创建更多" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 5. 进入应用，在左侧 **凭证与基础信息** 页面，记录以下信息：
    - **App ID**
    - **App Secret**
 
-![凭证与基础信息 — 复制 App ID 和 App Secret](/lark-credentials.png)
+<img :src="withBase('/lark-credentials.png')" alt="凭证与基础信息 — 复制 App ID 和 App Secret" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 > **提示：** 需要 Lark 企业管理员权限。如果你不是管理员，请联系你的 IT 部门协助。或者先使用 Lark 个人版账号体验。
 
@@ -362,11 +366,11 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 
 在应用管理页面，进入左侧 **权限管理**，点击 **开通权限** 按钮：
 
-![权限管理页面 — 点击「开通权限」添加所需API权限](/lark-permissions.png)
+<img :src="withBase('/lark-permissions.png')" alt="权限管理页面 — 点击「开通权限」添加所需API权限" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 在弹出的权限搜索框中，输入权限ID（如 `im:chat:readonly`）搜索并勾选所需权限，然后点击 **确认开通权限**：
 
-![搜索权限 — 输入权限ID搜索，勾选后确认开通](/lark-permission-search.png)
+<img :src="withBase('/lark-permission-search.png')" alt="搜索权限 — 输入权限ID搜索，勾选后确认开通" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 **必需权限（Required Permissions）：**
 
@@ -445,7 +449,7 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 1. 在应用管理页面，进入左侧 **事件与回调**
 2. 在「事件配置」标签下，选择订阅方式为 **将事件发送至开发者服务器**
 
-![事件与回调 — 选择「将事件发送至开发者服务器」](/lark-events.png)
+<img :src="withBase('/lark-events.png')" alt="事件与回调 — 选择「将事件发送至开发者服务器」" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 3. 在 **请求地址** 中填入你的专属 Webhook URL：`https://<username>.coco.site/webhook/lark/`（将 `<username>` 替换为你在 COCO 平台注册的用户名）
 4. 订阅以下事件：
@@ -453,7 +457,7 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
    - `im.chat.member.bot.added_v1` — Bot added to group（可选）
 5. 点击 **加密策略** 标签，找到并记录 **Verification Token**（必填）和 **Encrypt Key**（如有）
 
-![事件与回调 → 加密策略 — 找到 Verification Token](/lark-verification-token.png)
+<img :src="withBase('/lark-verification-token.png')" alt="事件与回调 → 加密策略 — 找到 Verification Token" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 #### 第5步：发布应用版本
 
@@ -463,7 +467,7 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 2. 填写更新说明
 3. 点击 **保存** 后提交审批
 
-![版本管理与发布 — 填写版本号和更新说明](/lark-publish-version.png)
+<img :src="withBase('/lark-publish-version.png')" alt="版本管理与发布 — 填写版本号和更新说明" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 > **管理员审批：** 提交后需要企业管理员审批。个人版账号无需此步骤。
 
