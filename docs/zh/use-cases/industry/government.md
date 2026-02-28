@@ -6,7 +6,7 @@ AI驱动的政府行业用例。
 
 > 跨部门追踪200+许可证申请——提前7天标记缺失文件和临近截止日期。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/114-ai-permit-application-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -130,7 +130,7 @@ COCO的AI许可证申请追踪器直接集成到你现有的工作流程中，�
 
 > 同时搜索15个政府数据库——5分钟编撰房产、法院和商业记录。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/129-ai-public-records-researcher.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -254,7 +254,7 @@ COCO的AI公共记录研究员直接集成到你现有的工作流程中，充�
 
 > 处理市政厅和调查中的1万+市民评论——将主题、情绪和紧急程度聚类为可操作简报。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/144-ai-constituent-feedback-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -378,7 +378,7 @@ COCO的AI选民反馈分析器直接集成到你现有的工作流程中，充�
 
 > 对照豁免标准审查信息公开请求——编辑敏感内容并起草回复，处理周期从30天缩短到5天。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/159-ai-foia-request-processor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -502,7 +502,7 @@ COCO的AI信息公开请求处理器直接集成到你现有的工作流程中�
 
 > 每月对比200个预算项的实际支出——突出超过5%的差异并提供下钻分析。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/176-ai-budget-variance-analyst.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -626,7 +626,7 @@ COCO的AI预算差异分析师直接集成到你现有的工作流程中，充�
 
 > 按25项加权标准评分30份供应商投标——45分钟生成比较矩阵并筛选前3名。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/191-ai-procurement-bid-evaluator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 

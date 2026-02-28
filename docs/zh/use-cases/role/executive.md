@@ -6,7 +6,7 @@ AI驱动的高管专业人员用例。
 
 > 将6个部门数据综合为2页周一晨报——KPI、风险、待决事项，仅需5分钟。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/167-ai-executive-briefing-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -130,7 +130,7 @@ COCO的AI高管简报生成器直接集成到你现有的工作流程中，充�
 
 > 提取财务、项目成果和捐赠数据——3小时汇编包含图表和叙述的印刷就绪年度报告。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/190-ai-annual-report-assembler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -254,7 +254,7 @@ COCO的AI年度报告汇编器直接集成到你现有的工作流程中，充�
 
 > 从Jira、Salesforce等6个工具同步关键结果——生成周度OKR评分卡显示红黄绿状态。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/200-ai-okr-progress-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -378,7 +378,7 @@ COCO的AI OKR进度追踪器直接集成到你现有的工作流程中，充当�
 
 > 从8个部门更新汇编董事会资料包——将财务、战略和表决事项格式化为品牌化40页PPT。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/203-ai-board-meeting-prep-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 

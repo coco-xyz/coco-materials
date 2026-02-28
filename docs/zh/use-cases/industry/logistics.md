@@ -6,7 +6,7 @@ AI驱动的物流行业用例。
 
 > 跨承运商监控500+在途货物——在延误影响交付前4小时发出预警。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/109-ai-shipment-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -130,7 +130,7 @@ COCO的AI货运追踪器直接集成到你现有的工作流程中，充当一�
 
 > 分析拣货频率和订单模式——重新设计仓库分区，平均拣货时间缩短35%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/124-ai-warehouse-layout-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -254,7 +254,7 @@ COCO的AI仓库布局优化器直接集成到你现有的工作流程中，充�
 
 > 规划每日80个站点的最优配送路线——综合交通、时间窗和车辆容量，燃油成本降低20%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/139-ai-route-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -378,7 +378,7 @@ COCO的AI路线优化器直接集成到你现有的工作流程中，充当一�
 
 > 将运费与200+航线的市场数据对标——发现平均每批货物可节省12%的机会。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/154-ai-freight-rate-negotiator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -502,7 +502,7 @@ COCO的AI运费谈判助手直接集成到你现有的工作流程中，充当�
 
 > 在20个月台协调进出车辆——通过实时时段优化将停留时间缩短45%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/171-ai-cross-dock-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -626,7 +626,7 @@ COCO的AI越库调度器直接集成到你现有的工作流程中，充当一�
 
 > 将货物归入HS编码、计算关税并预填报关单——清关时间从48小时缩短到6小时。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/186-ai-customs-declaration-filer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 

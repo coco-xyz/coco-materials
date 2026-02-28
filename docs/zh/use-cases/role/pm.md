@@ -6,7 +6,7 @@ AI驱动的项目经理专业人员用例。
 
 > 协调300人活动的场地、餐饮、音视频和人员——15分钟生成时间线、检查单和供应商订单。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/155-ai-event-logistics-planner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -130,7 +130,7 @@ COCO的AI活动后勤规划器直接集成到你现有的工作流程中，充�
 
 > 策划500人晚宴——在一个面板管理RSVP、座位安排、拍卖目录和赞助方案。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/175-ai-fundraising-event-planner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
