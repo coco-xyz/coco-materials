@@ -9,35 +9,35 @@ Find use cases for your specific job function:
 | Role | Cases | Key Scenarios |
 |------|-------|--------------|
 | [Product Manager](/use-cases/role/product) | 23 | Sentiment Analyzer, Project Status Reporter, Sprint Planning, Release Notes, Workflow Automator |
-| [Developer / Engineering](/use-cases/role/dev) | 54 | Code Review, Test Gen, Deploy Monitor, API Docs, Security Scanner, Bug Prioritizer, ... |
-| [Operations](/use-cases/role/operations) | 69 | Meeting Notes, Inventory Forecasting, Vendor Evaluation, ... |
+| [Developer / Engineering](/use-cases/role/dev) | 52 | Code Review, Test Gen, Deploy Monitor, API Docs, Security Scanner, Bug Prioritizer, ... |
+| [Operations](/use-cases/role/operations) | 93 | Meeting Notes, Inventory Forecasting, Vendor Evaluation, ... |
 | [Finance](/use-cases/role/finance) | 41 | Expense Auditing, Financial Reports, Invoice Processing, ... |
 | [Content / Marketing](/use-cases/role/content-marketing) | 48 | SEO Writing, Social Media, Ad Copy, Brand Monitor, ... |
-| [Customer Support](/use-cases/role/customer-support) | 40 | Ticket Classification, Knowledge Base, Multi-language, ... |
-| [HR / Recruiting](/use-cases/role/hr-recruiting) | 39 | Resume Screening, JD Writing, Interview Scheduling, ... |
-| [Sales](/use-cases/role/sales) | 50 | Lead Research, CRM Updates, Proposals, Sales Forecaster, ... |
-| [Legal](/use-cases/role/legal) | 36 | Contract Analyzer, NDA Generator, IP Portfolio Analyzer, ... |
-| [Executive](/use-cases/role/executive) | 23 | Executive Briefing Generator, Annual Report Assembler, OKR Progress Tracker, ... |
-| [Data Analyst](/use-cases/role/data-analyst) | 50 | Property Valuation Assistant, Crop Yield Predictor, Script Coverage Reader, ... |
+| [Customer Support](/use-cases/role/customer-support) | 48 | Ticket Classification, Knowledge Base, Multi-language, ... |
+| [HR / Recruiting](/use-cases/role/hr-recruiting) | 37 | Resume Screening, JD Writing, Interview Scheduling, ... |
+| [Sales](/use-cases/role/sales) | 49 | Lead Research, CRM Updates, Proposals, Sales Forecaster, ... |
+| [Legal](/use-cases/role/legal) | 34 | Contract Analyzer, NDA Generator, IP Portfolio Analyzer, ... |
+| [Executive](/use-cases/role/executive) | 26 | Executive Briefing Generator, Annual Report Assembler, OKR Progress Tracker, ... |
+| [Data Analyst](/use-cases/role/data-analyst) | 48 | Property Valuation Assistant, Crop Yield Predictor, Script Coverage Reader, ... |
 | [DevOps](/use-cases/role/devops) | 24 | Network Capacity Planner, Container Image Vulnerability Scanner, CI/CD Pipeline Failure Predictor, ... |
 | [Project Manager](/use-cases/role/pm) | 24 | Event Logistics Planner, Fundraising Event Planner, ... |
-| [QA Engineer](/use-cases/role/qa-engineer) | 23 | Production Defect Detector, Bug Report Triage, Visual UI Regression Detector, ... |
-| [Compliance Officer](/use-cases/role/compliance-officer) | 23 | Permit Application Tracker, Vehicle Recall Monitor, Carbon Footprint Reporter, ... |
-| [Consultant](/use-cases/role/consultant) | 23 | Strategy Brief Writer, Due Diligence Compiler, Consulting Deck Builder, ... |
-| [Logistics Manager](/use-cases/role/logistics-manager) | 23 | Shipment Tracker, Warehouse Layout Optimizer, Route Optimizer, ... |
-| [Procurement](/use-cases/role/procurement) | 23 | Bill of Materials Checker, Freight Rate Negotiator, Supply Chain Risk Scorer, ... |
+| [QA Engineer](/use-cases/role/qa-engineer) | 26 | Production Defect Detector, Bug Report Triage, Visual UI Regression Detector, ... |
+| [Compliance Officer](/use-cases/role/compliance-officer) | 26 | Permit Application Tracker, Vehicle Recall Monitor, Carbon Footprint Reporter, ... |
+| [Consultant](/use-cases/role/consultant) | 25 | Strategy Brief Writer, Due Diligence Compiler, Consulting Deck Builder, ... |
+| [Logistics Manager](/use-cases/role/logistics-manager) | 26 | Shipment Tracker, Warehouse Layout Optimizer, Route Optimizer, ... |
+| [Procurement](/use-cases/role/procurement) | 26 | Bill of Materials Checker, Freight Rate Negotiator, Supply Chain Risk Scorer, ... |
 | [Trainer](/use-cases/role/trainer) | 23 | Curriculum Designer, Student Progress Tracker, Plagiarism Checker, ... |
-| [Customer Success](/use-cases/role/customer-success) | 23 | Onboarding Playbook Builder, Churn Risk Early Warning, QBR Prep Engine, ... |
-| [Data Scientist](/use-cases/role/data-scientist) | 23 | Churn Prediction Modeler, Feature Engineering Advisor, Model Explainability Reporter, ... |
-| [Researcher](/use-cases/role/researcher) | 23 | Literature Review Synthesizer, Research Grant Proposal Reviewer, Bibliometric Analysis, ... |
-| [Tech Lead](/use-cases/role/tech-lead) | 23 | Architecture Decision Advisor, Team Velocity Optimizer, Technical Debt Prioritizer, ... |
-| [Writer](/use-cases/role/writer) | 23 | Technical Documentation Planner, White Paper Research Compiler, Press Release Generator, ... |
+| [Customer Success](/use-cases/role/customer-success) | 26 | Onboarding Playbook Builder, Churn Risk Early Warning, QBR Prep Engine, ... |
+| [Data Scientist](/use-cases/role/data-scientist) | 26 | Churn Prediction Modeler, Feature Engineering Advisor, Model Explainability Reporter, ... |
+| [Researcher](/use-cases/role/researcher) | 26 | Literature Review Synthesizer, Research Grant Proposal Reviewer, Bibliometric Analysis, ... |
+| [Tech Lead](/use-cases/role/tech-lead) | 25 | Architecture Decision Advisor, Team Velocity Optimizer, Technical Debt Prioritizer, ... |
+| [Writer](/use-cases/role/writer) | 26 | Technical Documentation Planner, White Paper Research Compiler, Press Release Generator, ... |
 | [Due Diligence Analyst](/use-cases/role/due-diligence-analyst) | 35 | Subsidiary & Affiliated Entity Mapper, Beneficial Owner Identification Engine, Sanctions & PEP Screening, ... |
 | [Crypto & Web3 Analyst](/use-cases/role/crypto-analyst) | 40 | On-Chain Transaction Pattern Analyzer, DeFi Protocol Risk Assessor, Token Economics Model Builder, ... |
-| [Fund Manager / VC Analyst](/use-cases/role/fund-manager) | 40 | LP Quarterly Report Generator, Deal Flow Pipeline Scoring, Term Sheet Clause Comparator, ... |
-| [AI Product Manager](/use-cases/role/ai-product-manager) | 49 | Model Evaluation Framework Builder, Prompt Engineering Optimizer, Bias Detection & Fairness Audit, ... |
-| [Research Analyst](/use-cases/role/research-analyst) | 40 | Market Sizing & TAM/SAM/SOM Calculator, Competitive Intelligence Report Builder, Industry Trend Aggregator, ... |
-| [Designer](/use-cases/role/designer) | 23 | Brand Asset Consistency Auditor, Design System Component Auditor, Responsive Design QA, ... |
+| [Fund Manager / VC Analyst](/use-cases/role/fund-manager) | 47 | LP Quarterly Report Generator, Deal Flow Pipeline Scoring, Term Sheet Clause Comparator, ... |
+| [AI Product Manager](/use-cases/role/ai-product-manager) | 57 | Model Evaluation Framework Builder, Prompt Engineering Optimizer, Bias Detection & Fairness Audit, ... |
+| [Research Analyst](/use-cases/role/research-analyst) | 39 | Market Sizing & TAM/SAM/SOM Calculator, Competitive Intelligence Report Builder, Industry Trend Aggregator, ... |
+| [Designer](/use-cases/role/designer) | 25 | Brand Asset Consistency Auditor, Design System Component Auditor, Responsive Design QA, ... |
 
 ## Browse by Task
 
