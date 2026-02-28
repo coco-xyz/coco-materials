@@ -167,6 +167,56 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 |------|--------|------|
 | 上传下载文件 | `im:resource` | AI处理文件和图片 |
 
+::: details 快捷配置：通过 JSON 批量导入权限
+
+无需逐个添加权限，可直接粘贴以下 JSON 批量导入所有权限。**文档类权限为可选项** — 仅在需要机器人读取飞书文档、表格或知识库时才需添加。
+
+```json
+{
+  "scopes": {
+    "tenant": [
+      // ── 核心消息 ──
+      "im:message",
+      "im:message.group_at_msg:readonly",
+      "im:message.group_msg",
+      "im:message.p2p_msg:readonly",
+      "im:message:readonly",
+      "im:message:recall",
+      "im:message:send_as_bot",
+      "im:message:send_multi_users",
+      "im:message:update",
+
+      // ── 群组与通讯录 ──
+      "im:chat.members:bot_access",
+      "im:chat:readonly",
+      "contact:contact.base:readonly",
+      "contact:user.base:readonly",
+      "contact:user.employee_id:readonly",
+      "contact:user.id:readonly",
+
+      // ── 媒体与互动 ──
+      "im:resource",
+      "im:message.pins:read",
+      "im:message.pins:write_only",
+      "im:message.reactions:read",
+      "im:message.reactions:write_only",
+      "im:url_preview.update",
+
+      // ── 文档（可选 — 仅在需要机器人读取飞书文档时添加）──
+      "bitable:app:readonly",
+      "calendar:calendar:readonly",
+      "docs:doc:readonly",
+      "docx:document:readonly",
+      "sheets:spreadsheet:readonly",
+      "wiki:wiki:readonly"
+    ],
+    "user": []
+  }
+}
+```
+
+:::
+
 配置完成后，权限管理页面应显示所有权限状态为「已开通」：
 
 ![权限配置完成 — 所有必需权限显示「已开通」状态](/feishu-permissions-done.png)
@@ -332,6 +382,58 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 |------|---------------|------|
 | Upload/download files | `im:resource` | AI处理文件和图片 |
 
+::: details 快捷配置：通过 JSON 批量导入权限
+
+无需逐个添加权限，可直接粘贴以下 JSON 批量导入所有权限。**文档类权限为可选项** — 仅在需要机器人读取 Lark Docs、Sheets 或 Wiki 时才需添加。
+
+```json
+{
+  "scopes": {
+    "tenant": [
+      // ── Core Messaging ──
+      "im:message",
+      "im:message.group_at_msg:readonly",
+      "im:message.group_msg",
+      "im:message.group_msg:readonly",
+      "im:message.p2p_msg:readonly",
+      "im:message:readonly",
+      "im:message:recall",
+      "im:message:send_as_bot",
+      "im:message:send_multi_users",
+      "im:message:update",
+
+      // ── Chat & Contacts ──
+      "im:chat.members:bot_access",
+      "im:chat:readonly",
+      "contact:contact.base:readonly",
+      "contact:user.base:readonly",
+      "contact:user.employee_id:readonly",
+      "contact:user.id:readonly",
+
+      // ── Media & Interactions ──
+      "im:resource",
+      "im:message.pins:read",
+      "im:message.pins:write_only",
+      "im:message.reactions:read",
+      "im:message.reactions:write_only",
+      "im:url_preview.update",
+
+      // ── Documents (optional — add only if you want the bot to read Lark Docs) ──
+      "bitable:app:readonly",
+      "calendar:calendar:readonly",
+      "docs:doc:readonly",
+      "docx:document:readonly",
+      "sheets:spreadsheet:readonly",
+      "wiki:wiki:readonly"
+    ],
+    "user": []
+  }
+}
+```
+
+> **注意：** Lark 版本比飞书多一个权限 `im:message.group_msg:readonly`（读取群组消息），飞书不支持该权限。
+
+:::
 > **管理员审批：** Lark 自建应用发布后，需要企业管理员在 Lark Admin Console 中审批通过后，应用才能正式使用。如果你是个人版账号，则无需此步骤。
 
 > **注意：** 接收消息的能力（`im.message.receive_v1`）在下一步「Events & Callbacks」中配置，不在权限管理中。

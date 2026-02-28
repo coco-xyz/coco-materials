@@ -129,6 +129,57 @@ In the app management page, go to **Permissions & Scopes** and enable:
 |-----------|---------------|---------|
 | Upload/download files | `im:resource` | AI handles files and images |
 
+::: details Quick Setup: Batch Import Permissions via JSON
+
+Instead of adding permissions one by one, you can paste the following JSON to import all permissions at once. **Document-related permissions are optional** — only add them if you want the bot to read Lark Docs, Sheets, or Wiki.
+
+```json
+{
+  "scopes": {
+    "tenant": [
+      // ── Core Messaging ──
+      "im:message",
+      "im:message.group_at_msg:readonly",
+      "im:message.group_msg",
+      "im:message.group_msg:readonly",
+      "im:message.p2p_msg:readonly",
+      "im:message:readonly",
+      "im:message:recall",
+      "im:message:send_as_bot",
+      "im:message:send_multi_users",
+      "im:message:update",
+
+      // ── Chat & Contacts ──
+      "im:chat.members:bot_access",
+      "im:chat:readonly",
+      "contact:contact.base:readonly",
+      "contact:user.base:readonly",
+      "contact:user.employee_id:readonly",
+      "contact:user.id:readonly",
+
+      // ── Media & Interactions ──
+      "im:resource",
+      "im:message.pins:read",
+      "im:message.pins:write_only",
+      "im:message.reactions:read",
+      "im:message.reactions:write_only",
+      "im:url_preview.update",
+
+      // ── Documents (optional — add only if you want the bot to read Lark Docs) ──
+      "bitable:app:readonly",
+      "calendar:calendar:readonly",
+      "docs:doc:readonly",
+      "docx:document:readonly",
+      "sheets:spreadsheet:readonly",
+      "wiki:wiki:readonly"
+    ],
+    "user": []
+  }
+}
+```
+
+:::
+
 After enabling, click **Create Version** to submit for admin approval.
 
 > **Admin Approval:** After publishing a Lark custom app, the enterprise admin must approve it in the **Lark Admin Console** before the app becomes active. If you're using a personal Lark account, this step is not needed. Approval typically takes 1-2 business days. You can check the approval status on the app management page.
@@ -231,6 +282,56 @@ In the Permission Management page, click **Enable Permissions** to search and ad
 | Permission | Permission ID | Purpose |
 |-----------|---------------|---------|
 | Upload/download files | `im:resource` | AI handles files and images |
+
+::: details Quick Setup: Batch Import Permissions via JSON
+
+Instead of adding permissions one by one, you can paste the following JSON to import all permissions at once. **Document-related permissions are optional** — only add them if you want the bot to read Feishu Docs, Sheets, or Wiki.
+
+```json
+{
+  "scopes": {
+    "tenant": [
+      // ── Core Messaging ──
+      "im:message",
+      "im:message.group_at_msg:readonly",
+      "im:message.group_msg",
+      "im:message.p2p_msg:readonly",
+      "im:message:readonly",
+      "im:message:recall",
+      "im:message:send_as_bot",
+      "im:message:send_multi_users",
+      "im:message:update",
+
+      // ── Chat & Contacts ──
+      "im:chat.members:bot_access",
+      "im:chat:readonly",
+      "contact:contact.base:readonly",
+      "contact:user.base:readonly",
+      "contact:user.employee_id:readonly",
+      "contact:user.id:readonly",
+
+      // ── Media & Interactions ──
+      "im:resource",
+      "im:message.pins:read",
+      "im:message.pins:write_only",
+      "im:message.reactions:read",
+      "im:message.reactions:write_only",
+      "im:url_preview.update",
+
+      // ── Documents (optional — add only if you want the bot to read Feishu Docs) ──
+      "bitable:app:readonly",
+      "calendar:calendar:readonly",
+      "docs:doc:readonly",
+      "docx:document:readonly",
+      "sheets:spreadsheet:readonly",
+      "wiki:wiki:readonly"
+    ],
+    "user": []
+  }
+}
+```
+
+:::
 
 After enabling, click **Publish Version** to submit for admin approval.
 
