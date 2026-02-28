@@ -10,10 +10,10 @@ Find use cases for your specific job function:
 |------|-------|--------------|
 | [Product Manager](/use-cases/role/product) | 23 | Sentiment Analyzer, Project Status Reporter, Sprint Planning, Release Notes, Workflow Automator |
 | [Developer / Engineering](/use-cases/role/dev) | 52 | Code Review, Test Gen, Deploy Monitor, API Docs, Security Scanner, Bug Prioritizer, ... |
-| [Operations](/use-cases/role/operations) | 93 | Meeting Notes, Inventory Forecasting, Vendor Evaluation, ... |
+| [Operations](/use-cases/role/operations) | 74 | Meeting Notes, Inventory Forecasting, Vendor Evaluation, ... |
 | [Finance](/use-cases/role/finance) | 41 | Expense Auditing, Financial Reports, Invoice Processing, ... |
 | [Content / Marketing](/use-cases/role/content-marketing) | 48 | SEO Writing, Social Media, Ad Copy, Brand Monitor, ... |
-| [Customer Support](/use-cases/role/customer-support) | 48 | Ticket Classification, Knowledge Base, Multi-language, ... |
+| [Customer Support](/use-cases/role/customer-support) | 40 | Ticket Classification, Knowledge Base, Multi-language, ... |
 | [HR / Recruiting](/use-cases/role/hr-recruiting) | 37 | Resume Screening, JD Writing, Interview Scheduling, ... |
 | [Sales](/use-cases/role/sales) | 49 | Lead Research, CRM Updates, Proposals, Sales Forecaster, ... |
 | [Legal](/use-cases/role/legal) | 34 | Contract Analyzer, NDA Generator, IP Portfolio Analyzer, ... |
@@ -34,8 +34,8 @@ Find use cases for your specific job function:
 | [Writer](/use-cases/role/writer) | 26 | Technical Documentation Planner, White Paper Research Compiler, Press Release Generator, ... |
 | [Due Diligence Analyst](/use-cases/role/due-diligence-analyst) | 35 | Subsidiary & Affiliated Entity Mapper, Beneficial Owner Identification Engine, Sanctions & PEP Screening, ... |
 | [Crypto & Web3 Analyst](/use-cases/role/crypto-analyst) | 40 | On-Chain Transaction Pattern Analyzer, DeFi Protocol Risk Assessor, Token Economics Model Builder, ... |
-| [Fund Manager / VC Analyst](/use-cases/role/fund-manager) | 47 | LP Quarterly Report Generator, Deal Flow Pipeline Scoring, Term Sheet Clause Comparator, ... |
-| [AI Product Manager](/use-cases/role/ai-product-manager) | 57 | Model Evaluation Framework Builder, Prompt Engineering Optimizer, Bias Detection & Fairness Audit, ... |
+| [Fund Manager / VC Analyst](/use-cases/role/fund-manager) | 40 | LP Quarterly Report Generator, Deal Flow Pipeline Scoring, Term Sheet Clause Comparator, ... |
+| [AI Product Manager](/use-cases/role/ai-product-manager) | 48 | Model Evaluation Framework Builder, Prompt Engineering Optimizer, Bias Detection & Fairness Audit, ... |
 | [Research Analyst](/use-cases/role/research-analyst) | 39 | Market Sizing & TAM/SAM/SOM Calculator, Competitive Intelligence Report Builder, Industry Trend Aggregator, ... |
 | [Designer](/use-cases/role/designer) | 25 | Brand Asset Consistency Auditor, Design System Component Auditor, Responsive Design QA, ... |
 

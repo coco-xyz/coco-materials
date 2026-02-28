@@ -10,10 +10,10 @@
 |------|------|---------|
 | [产品经理](/zh/use-cases/role/product) | 23 | 情感分析、项目状态报告、冲刺规划、发版说明、工作流自动化 |
 | [研发工程](/zh/use-cases/role/dev) | 52 | 代码审查、测试生成、部署监控、API文档、安全扫描、缺陷排序... |
-| [运营](/zh/use-cases/role/operations) | 93 | 会议纪要、库存预测、供应商评估... |
+| [运营](/zh/use-cases/role/operations) | 74 | 会议纪要、库存预测、供应商评估... |
 | [财务](/zh/use-cases/role/finance) | 41 | 费用审核、财务报告、发票处理... |
 | [内容/营销](/zh/use-cases/role/content-marketing) | 48 | SEO写作、社媒管理、广告文案、品牌监控... |
-| [客服](/zh/use-cases/role/customer-support) | 48 | 工单分类、知识库、多语言客服... |
+| [客服](/zh/use-cases/role/customer-support) | 40 | 工单分类、知识库、多语言客服... |
 | [HR/招聘](/zh/use-cases/role/hr-recruiting) | 37 | 简历筛选、JD撰写、面试排期、入职助手... |
 | [销售](/zh/use-cases/role/sales) | 49 | 线索挖掘、CRM更新、方案生成、销售预测... |
 | [法律](/zh/use-cases/role/legal) | 34 | AI合同分析师、AI保密协议生成器、AI知识产权组合分析器... |
@@ -34,8 +34,8 @@
 | [内容创作者](/zh/use-cases/role/writer) | 26 | AI技术文档规划器、AI白皮书研究编译器、AI新闻稿生成器、AI电商产品描述规模化生成器... |
 | [尽职调查分析师](/zh/use-cases/role/due-diligence-analyst) | 35 | AI子公司与关联实体图谱构建器、AI受益所有人识别引擎、AI制裁名单与PEP筛查编排器... |
 | [加密货币与Web3分析师](/zh/use-cases/role/crypto-analyst) | 40 | AI链上交易模式分析器、AI DeFi协议风险与漏洞暴露评估器、AI代币经济学模型构建器... |
-| [基金经理](/zh/use-cases/role/fund-manager) | 47 | AI LP季度报告生成器、AI交易流量管线评分与优先级排序引擎、AI条款清单条款对比与红旗提示工具... |
-| [AI产品经理](/zh/use-cases/role/ai-product-manager) | 57 | AI模型评估框架构建器、AI提示词工程工作流优化器、AI偏见检测与公平性审计引擎... |
+| [基金经理](/zh/use-cases/role/fund-manager) | 40 | AI LP季度报告生成器、AI交易流量管线评分与优先级排序引擎、AI条款清单条款对比与红旗提示工具... |
+| [AI产品经理](/zh/use-cases/role/ai-product-manager) | 48 | AI模型评估框架构建器、AI提示词工程工作流优化器、AI偏见检测与公平性审计引擎... |
 | [研究分析师](/zh/use-cases/role/research-analyst) | 39 | AI市场规模与TAM/SAM/SOM计算器、AI竞争情报深度报告构建器、AI行业趋势信号聚合与综合器... |
 | [设计师](/zh/use-cases/role/designer) | 25 | AI品牌资产一致性审计员、AI设计系统组件审计员、AI响应式设计QA引擎、AI用户流程线框生成器... |
 
