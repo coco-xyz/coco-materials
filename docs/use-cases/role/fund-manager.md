@@ -4186,7 +4186,7 @@ Output: Board meeting summary + action item register + follow-up communication d
 ```
 
 :::
-## 27. AI Fund Vintage Year Performance Benchmarker
+## 21. AI Fund Vintage Year Performance Benchmarker
 
 > Know exactly where your fund stands relative to the market — before your LPs tell you.
 
@@ -4401,7 +4401,7 @@ Generate:
 ```
 
 :::
-## 28. AI Deal Pipeline Conversion Rate Analytics Engine
+## 22. AI Deal Pipeline Conversion Rate Analytics Engine
 
 > Know which deals are dying and why — before you've spent 200 hours on due diligence.
 
@@ -4605,7 +4605,7 @@ Generate:
 ```
 
 :::
-## 29. AI LP Co-Investment Rights & Pro-Rata Tracker
+## 23. AI LP Co-Investment Rights & Pro-Rata Tracker
 
 > Never miss a co-investment or pro-rata obligation — and never create an LP relations problem from a missed right.
 
@@ -4824,7 +4824,7 @@ Generate:
 ```
 
 :::
-## 30. AI Private Company Valuation Methodology Selector
+## 24. AI Private Company Valuation Methodology Selector
 
 > Stop debating valuation methodology at the board table — arrive with the right framework already chosen.
 
@@ -5035,7 +5035,7 @@ This sensitivity table will be included in the ASC 820 valuation memo.
 ```
 
 :::
-## 31. AI Cross-Fund Investment Conflict of Interest Detector
+## 25. AI Cross-Fund Investment Conflict of Interest Detector
 
 > Surface conflicts between funds before they become LP disputes or SEC enforcement actions.
 
@@ -5241,7 +5241,7 @@ Generate:
 ```
 
 :::
-## 32. AI Emerging Market Fund Risk Adjustment Calculator
+## 26. AI Emerging Market Fund Risk Adjustment Calculator
 
 > Price emerging market risk correctly — so LPs understand what they're getting and GPs can justify the premium.
 
@@ -5461,7 +5461,7 @@ Draft a 1-page emerging market risk section for the LP quarterly report covering
 ```
 
 :::
-## 33. AI Sector Rotation Signal Monitor for VC Portfolios
+## 27. AI Sector Rotation Signal Monitor for VC Portfolios
 
 > Know when the market is rotating away from your thesis before the term sheets stop coming.
 
@@ -5664,7 +5664,7 @@ Draft a 1-page sector analysis section that demonstrates GP's thesis awareness a
 ```
 
 :::
-## 34. AI Fund Wind-Down & Liquidation Planning Advisor
+## 28. AI Fund Wind-Down & Liquidation Planning Advisor
 
 > Navigate the most complex phase of fund management with a systematic plan — not improvisation.
 
@@ -5883,7 +5883,7 @@ Draft: final fund closing letter that is professional, honest, grateful, and set
 ```
 
 :::
-## 35. AI Manager Selection Due Diligence Scorecard Builder
+## 29. AI Manager Selection Due Diligence Scorecard Builder
 
 > Evaluate fund managers the way the best endowments do — with a systematic framework, not gut instinct.
 
@@ -6115,7 +6115,7 @@ Escalation triggers (initiate formal review if):
 ```
 
 :::
-## 36. AI GP Stakes Secondary Transaction Analyzer
+## 30. AI GP Stakes Secondary Transaction Analyzer
 
 > Model GP stakes economics with precision before selling a piece of your firm's future carry.
 
@@ -6333,7 +6333,7 @@ Calculate for 20-year horizon (year 2024–2044):
 ```
 
 :::
-## 37. AI Revenue-Based Financing Term Optimizer
+## 31. AI Revenue-Based Financing Term Optimizer
 
 > Structure RBF deals that win competitive deals while protecting downside — without sacrificing return.
 
@@ -6551,7 +6551,7 @@ Generate: 1-page RBF portfolio section for LP quarterly report covering: portfol
 ```
 
 :::
-## 38. AI Micro-VC Fund Economics & Carry Scenario Modeler
+## 32. AI Micro-VC Fund Economics & Carry Scenario Modeler
 
 > Model the math of running a small fund before you raise it — and optimize for GP economics, not just LP returns.
 
@@ -6785,7 +6785,7 @@ Recommend: optimal Fund II size and rationale.
 ```
 
 :::
-## 39. AI QSBS Tax Benefit Eligibility Tracker
+## 33. AI QSBS Tax Benefit Eligibility Tracker
 
 > Maximize your LPs' Section 1202 exclusion — the most valuable tax benefit in venture investing.
 
@@ -6994,7 +6994,7 @@ Draft:
 ```
 
 :::
-## 40. AI Dollar-Denominated Fund (USD Fund) Structuring Advisor
+## 34. AI Dollar-Denominated Fund (USD Fund) Structuring Advisor
 
 > Structure offshore USD-denominated funds correctly the first time — before regulatory complexity derails your fundraise.
 
@@ -7245,7 +7245,7 @@ Estimated formation costs by category: [itemize legal, registration, administrat
 
 :::
 
-## 41. AI Secondaries Market Pricing and Liquidity Analyzer
+## 35. AI Secondaries Market Pricing and Liquidity Analyzer
 
 **Role**: Fund Manager / VC Analyst | **Industry**: Financial Services | **Task**: Data Analysis
 
@@ -7483,7 +7483,7 @@ IMPLEMENTATION TIMELINE
 
 :::
 
-## 42. AI Venture Debt Portfolio Risk Monitor
+## 36. AI Venture Debt Portfolio Risk Monitor
 
 **Role**: Fund Manager / VC Analyst | **Industry**: Financial Services | **Task**: Research & Monitoring
 
@@ -7736,7 +7736,7 @@ recommended at next scheduled meeting.
 
 :::
 
-## 43. AI Real Estate Fund Acquisition Underwriting Engine
+## 37. AI Real Estate Fund Acquisition Underwriting Engine
 
 **Role**: Fund Manager / VC Analyst | **Industry**: Real Estate, Financial Services | **Task**: Data Analysis
 
@@ -8007,7 +8007,7 @@ above our 15% threshold.
 :::
 
 
-## 44. AI Emerging Market Sovereign Debt Scenario Modeler
+## 38. AI Emerging Market Sovereign Debt Scenario Modeler
 
 **Role**: Fund Manager / VC Analyst | **Industry**: Financial Services | **Task**: Data Analysis
 
@@ -8238,7 +8238,7 @@ vs. current maximum loss of -$125M. Risk reduced by 72-80%.
 
 :::
 
-## 45. AI Infrastructure Fund Asset Performance Benchmarker
+## 39. AI Infrastructure Fund Asset Performance Benchmarker
 
 **Role**: Fund Manager / VC Analyst | **Industry**: Financial Services, Energy | **Task**: Data Analysis
 
@@ -8469,7 +8469,7 @@ Fund-level impact: +$13.8M recurring annual value = approximately
 
 :::
 
-## 46. AI Private Credit Covenant Monitoring and Early Warning System
+## 40. AI Private Credit Covenant Monitoring and Early Warning System
 
 **Role**: Fund Manager / VC Analyst | **Industry**: Financial Services | **Task**: Research & Monitoring
 

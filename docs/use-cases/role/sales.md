@@ -2123,7 +2123,7 @@ Present findings in a format suitable for a sales team meeting, with specific ex
 
 :::
 
-## 16. AI Customer Health Scorer
+## 15. AI Customer Health Scorer
 
 > Customer health coverage: 20% → 100%. Churn prediction: 87% accurate.
 
@@ -2447,7 +2447,7 @@ For each scenario, provide:
 
 :::
 
-## 17. AI RFP Response Writer
+## 16. AI RFP Response Writer
 
 > RFP response: 40 hours → 8 hours. Win rate: 5% → 18%.
 
@@ -2754,7 +2754,7 @@ Analyze and provide:
 
 :::
 
-## 18. AI Donor Engagement Tracker
+## 17. AI Donor Engagement Tracker
 
 > Scores 5,000+ donors on engagement, giving history, and capacity — prioritizes outreach to boost renewal rates by 25%.
 
@@ -2878,7 +2878,7 @@ This week's data:
 
 :::
 
-## 19. AI Policy Renewal Optimizer
+## 18. AI Policy Renewal Optimizer
 
 > Analyzes claim history, risk profile, and market rates — recommends optimal renewal terms 30 days before expiry.
 
@@ -3002,7 +3002,7 @@ This week's data:
 
 :::
 
-## 20. AI Dealership Inventory Matcher
+## 19. AI Dealership Inventory Matcher
 
 > Matches customer preferences to available inventory across 15 dealerships — suggests best-fit vehicles with trade-in estimates.
 
@@ -3126,7 +3126,7 @@ This week's data:
 
 :::
 
-## 21. AI Guest Upsell Recommender
+## 20. AI Guest Upsell Recommender
 
 > Analyzes booking history and guest profiles — suggests personalized room upgrades and packages that increase RevPAR by 18%.
 
@@ -3250,7 +3250,7 @@ This week's data:
 
 :::
 
-## 22. AI Test Drive Scheduler
+## 21. AI Test Drive Scheduler
 
 > Qualifies online leads, matches vehicle preferences, and books test drives — fills 90% of available slots with confirmed appointments.
 
@@ -3374,7 +3374,7 @@ This week's data:
 
 :::
 
-## 23. AI Referral Network Mapper
+## 22. AI Referral Network Mapper
 
 > Maps physician referral patterns across 200 providers — identifies high-value relationship gaps and outreach priorities.
 
@@ -3498,7 +3498,7 @@ This week's data:
 
 :::
 
-## 24. AI Comparative Market Analysis Builder
+## 23. AI Comparative Market Analysis Builder
 
 > Pulls 30 recent sales, adjusts for features and timing — generates client-ready CMA presentations with photos and price justifications.
 
@@ -3622,7 +3622,7 @@ This week's data:
 
 :::
 
-## 25. AI Sales Pipeline Health Analyzer {#use-case-373}
+## 24. AI Sales Pipeline Health Analyzer
 
 > Identifies stalled deals, multi-threading gaps, and forecast fiction — producing a risk-ranked pipeline assessment that improves forecast accuracy from ±30% to ±12% variance within two quarters.
 
@@ -3820,7 +3820,7 @@ Analyze:
 ```
 
 :::
-## 26. AI Prospect Research Synthesizer {#use-case-374}
+## 25. AI Prospect Research Synthesizer
 
 > Compresses 45–60 minutes of pre-call research into 10–15 minutes while producing a more comprehensive brief — improving discovery-to-opportunity conversion by 34%.
 
@@ -4018,7 +4018,7 @@ Based on what's publicly available about this company's tech stack, hiring patte
 ```
 
 :::
-## 27. AI Sales Email Personalization Engine {#use-case-375}
+## 26. AI Sales Email Personalization Engine
 
 > Produces research-backed, trigger-event-driven outreach emails in 3–5 minutes per email — achieving 8–12% response rates versus 2–3% for templated sequences on the same prospect universe.
 
@@ -4234,7 +4234,7 @@ Email requirements:
 ```
 
 :::
-## 28. AI Deal Risk Assessor {#use-case-376}
+## 27. AI Deal Risk Assessor
 
 > Produces a structured deal risk assessment that reduces late-stage loss rates by 30–35% and deal slippage by 40% by identifying the specific risks — stakeholder gaps, competitive threats, process failures — 30+ days before close.
 
@@ -4469,7 +4469,7 @@ Please provide:
 ```
 
 :::
-## 29. AI Win-Loss Debrief Analyzer {#use-case-377}
+## 28. AI Win-Loss Debrief Analyzer
 
 > Transforms individual deal debrief notes into pattern-level intelligence — identifying competitive win/loss drivers, sales process failures, and persona-level insights that improve win rates 15–20% over four quarters.
 
@@ -4687,7 +4687,7 @@ Prioritize updates by expected win rate impact: High / Medium / Low
 ```
 
 :::
-## 30. AI Sales Call Summary Generator {#use-case-378}
+## 29. AI Sales Call Summary Generator
 
 > Transforms raw call notes into structured, CRM-ready summaries in 3–5 minutes instead of 20–30 minutes — recovering 2–4 hours per week per rep for selling activities while improving CRM data completeness by 65%.
 
@@ -4898,7 +4898,7 @@ Overall objection analysis:
 ```
 
 :::
-## 31. AI CRM Data Quality Auditor {#use-case-379}
+## 30. AI CRM Data Quality Auditor
 
 > Systematically identifies data quality issues across the pipeline — missing fields, stage misclassification, stale records — and generates a targeted remediation plan that improves forecast accuracy 20–25% within two quarters.
 
@@ -5090,7 +5090,7 @@ Generate:
 ```
 
 :::
-## 32. AI Sales Proposal Generator {#use-case-380}
+## 31. AI Sales Proposal Generator
 
 > Produces personalized, prospect-specific proposals in 45–60 minutes instead of 3–6 hours — using discovery findings to frame value in the prospect's language, improving proposal win rates by 25–30%.
 
@@ -5314,7 +5314,7 @@ Length: 300-500 words for narrative, plus a clean pricing table
 ```
 
 :::
-## 33. AI Territory Planning Advisor {#use-case-381}
+## 32. AI Territory Planning Advisor
 
 > Reduces territory planning cycles from 4–6 weeks to 2 weeks and narrows the spread between highest and lowest potential territories by 30–40% — enabling earlier rep communication and reducing attrition from perceived unfairness.
 
@@ -5515,7 +5515,7 @@ Produce a prioritized top 15 whitespace accounts I should approach this quarter,
 ```
 
 :::
-## 34. AI Sales Forecast Builder {#use-case-382}
+## 33. AI Sales Forecast Builder
 
 > Produces three-scenario (conservative/base/upside) quarterly forecasts with explicit deal-level assumptions — improving quarter-over-quarter accuracy from ±25% to ±12% variance within two cycles.
 
@@ -5740,7 +5740,7 @@ Calculate:
 ```
 
 :::
-## 35. AI Customer Objection Handler {#use-case-383}
+## 34. AI Customer Objection Handler
 
 > Develops evidence-backed, contextually calibrated objection responses that convert persistent objections into deal advancement 28% more often and reduce unplanned discounting by 35%.
 
@@ -5949,7 +5949,7 @@ Format the champion kit as content they can actually use — concise, plain lang
 ```
 
 :::
-## 36. AI RFP Response Assistant {#use-case-384}
+## 35. AI RFP Response Assistant
 
 > Reduces RFP response time from 40–80 hours to 20–35 hours with AI-assisted answer drafting, routing, and completeness review — enabling response to RFPs that were previously declined due to bandwidth.
 
@@ -6174,7 +6174,7 @@ Format for storage in a shared knowledge base that team members can search and r
 ```
 
 :::
-## 37. AI Account Expansion Opportunity Identifier {#use-case-385}
+## 36. AI Account Expansion Opportunity Identifier
 
 > Identifies expansion signals across the existing customer base — feature usage, org growth, new use cases — and produces a ranked expansion pipeline that drives NRR from 105% toward 115–125%.
 
@@ -6395,7 +6395,7 @@ Generate:
 ```
 
 :::
-## 38. AI Sales Enablement Content Creator {#use-case-386}
+## 37. AI Sales Enablement Content Creator
 
 > Produces competitive battlecards, objection handling guides, and conversation frameworks from field intel and product updates — maintaining 90%+ content accuracy versus the typical 60–70% at quarterly review.
 
@@ -6619,7 +6619,7 @@ Keep each template to a realistic length — these should feel like genuine emai
 ```
 
 :::
-## 39. AI Buyer Persona Builder {#use-case-387}
+## 38. AI Buyer Persona Builder
 
 > Builds evidence-based buyer personas from deal data and win/loss patterns — improving outbound meeting acceptance rates 28% and discovery-to-opportunity conversion 22% by calibrating messaging to current buyer reality.
 
@@ -6839,7 +6839,7 @@ For each section, include:
 ```
 
 :::
-## 40. AI Partnership Proposal Writer {#use-case-388}
+## 39. AI Partnership Proposal Writer
 
 > Produces mutual-value-framed partnership proposals that advance to a second conversation 40% more often and achieve 25–30% response rates on cold outreach — versus 5–10% for generic "let's explore" approaches.
 
@@ -7066,7 +7066,7 @@ Also provide: the one objection from this list that is most likely to be a real 
 ```
 
 :::
-## 41. AI Sales Playbook Updater {#use-case-389}
+## 40. AI Sales Playbook Updater
 
 > Audits playbook sections for staleness against recent product changes, competitive shifts, and win/loss insights — maintaining 90%+ accuracy versus the typical 60–70% at quarterly review without AI assistance.
 
@@ -7296,7 +7296,7 @@ Format as a quick-reference card reps can use during live calls.
 ```
 
 :::
-## 42. AI Sales Call Coaching Engine
+## 41. AI Sales Call Coaching Engine
 
 > Sales teams lose deals not because their product is inferior, but because reps make predictable, coachable mistakes on calls — speaking too much, failing to ask discovery questions, mishandling objections, skipping urgency creation, or losing control of the buying conversation
 
@@ -7472,7 +7472,7 @@ Assess:
 ```
 
 :::
-## 43. AI Sales Territory Plan Optimizer
+## 42. AI Sales Territory Plan Optimizer
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
@@ -7671,7 +7671,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 44. AI Sales Competitive Battlecard Generator
+## 43. AI Sales Competitive Battlecard Generator
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
@@ -7870,7 +7870,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 45. AI Sales Pipeline Forecast Optimizer
+## 44. AI Sales Pipeline Forecast Optimizer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
@@ -8069,7 +8069,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 46. AI Sales Account Expansion Opportunity Finder
+## 45. AI Sales Account Expansion Opportunity Finder
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
@@ -8268,7 +8268,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 47. AI Deal Desk Pricing Advisor
+## 46. AI Deal Desk Pricing Advisor
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
@@ -8467,7 +8467,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 48. AI Sales Proposal Win Rate Optimizer
+## 47. AI Sales Proposal Win Rate Optimizer
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
@@ -8666,7 +8666,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 49. AI Inbound Lead Scoring Engine
+## 48. AI Inbound Lead Scoring Engine
 
 > Organizations operating in E-Commerce face mounting pressure to deliver results with constrained resources
 
@@ -8865,7 +8865,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 50. AI Customer Reference Story Builder
+## 49. AI Customer Reference Story Builder
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 

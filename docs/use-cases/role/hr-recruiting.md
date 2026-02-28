@@ -1273,7 +1273,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 :::
 
-## 11. AI Compliance Training Tracker
+## 10. AI Compliance Training Tracker
 
 > Compliance training completion: 52% → 96%. Overdue training: near zero.
 
@@ -1495,7 +1495,7 @@ Present with executive-ready visualizations described in markdown (tables, compa
 
 :::
 
-## 13. AI Resume Screener and Shortlister
+## 11. AI Resume Screener and Shortlister
 
 > Screens 500 resumes in hours instead of weeks — 75% reduction in screening time, shortlist-to-hire conversion up 42%.
 
@@ -1574,7 +1574,7 @@ Here are the screening decisions made by two different recruiters for the same [
 ```
 
 :::
-## 14. AI Interview Question Generator
+## 12. AI Interview Question Generator
 
 > Structured interview guides in under 45 minutes — inter-rater reliability up 55%, legally problematic questions reduced 80%.
 
@@ -1651,7 +1651,7 @@ Design [5] situational interview questions for a [VP of Operations] role at a [l
 ```
 
 :::
-## 15. AI Offer Letter Composer
+## 13. AI Offer Letter Composer
 
 > Personalized, legally compliant offer letters in under 15 minutes — acceptance rate up 18%, legal compliance incidents reduced 85%.
 
@@ -1743,7 +1743,7 @@ A candidate [Alex Morgan] verbally declined our offer for [Head of UX Design] ci
 ```
 
 :::
-## 16. AI Employee Performance Review Writer
+## 14. AI Employee Performance Review Writer
 
 > Specific, behavior-grounded performance reviews at scale — manager writing time down 65%, review quality scores up 48%.
 
@@ -1834,7 +1834,7 @@ I am preparing for our [Q4 review calibration session]. I have [12] direct manag
 ```
 
 :::
-## 17. AI Onboarding Plan Builder
+## 15. AI Onboarding Plan Builder
 
 > Role-specific 90-day onboarding plans that accelerate productivity — time-to-productivity up 34%, 90-day retention up 28%.
 
@@ -1909,7 +1909,7 @@ Generate a detailed hour-by-hour schedule for [Alex Kim's] first week at [TechSt
 ```
 
 :::
-## 18. AI Employee Survey Analyzer
+## 16. AI Employee Survey Analyzer
 
 > 100% open-text coverage in days, not weeks — analysis cycle down from 4-6 weeks to 3-5 days, attrition prediction up 41%.
 
@@ -1984,7 +1984,7 @@ We ran our annual DEI climate survey. I will share the data split by [gender, et
 ```
 
 :::
-## 19. AI Compensation Benchmarker
+## 17. AI Compensation Benchmarker
 
 > Market-calibrated compensation in days, not weeks — benchmarking cycle down 75%, offer rejections for compensation down 31%.
 
@@ -2061,7 +2061,7 @@ I need to prepare talking points for [15] managers who will be having annual com
 ```
 
 :::
-## 20. AI L&D Curriculum Designer
+## 18. AI L&D Curriculum Designer
 
 > Compress curriculum design from months to weeks — 6-12 month design cycles to 4-8 weeks, L&D capacity increased 4x.
 
@@ -2136,7 +2136,7 @@ I have designed a [Leadership Development Program] for [senior individual contri
 ```
 
 :::
-## 21. AI Employee Handbook Updater
+## 19. AI Employee Handbook Updater
 
 > Keep handbooks current and compliant — update cycle from 4-6 months to 4-6 weeks, legal review costs down 55%.
 
@@ -2211,7 +2211,7 @@ We are rolling out an updated employee handbook for [CompanyName] effective [Mar
 ```
 
 :::
-## 22. AI Workforce Planning Advisor
+## 20. AI Workforce Planning Advisor
 
 > Transform reactive headcount management into strategic foresight — planning cycle halved, attrition surprises down 40%.
 
@@ -2365,7 +2365,7 @@ Format for a [C-suite / board] audience.
 ```
 
 :::
-## 23. AI Talent Pipeline Builder
+## 21. AI Talent Pipeline Builder
 
 > Build candidate pipelines before roles open — time-to-fill down 35-50 days, quality-of-hire up 23%.
 
@@ -2509,7 +2509,7 @@ Please produce:
 ```
 
 :::
-## 24. AI DEI Reporting Analyzer
+## 22. AI DEI Reporting Analyzer
 
 > Turn DEI data into targeted action — identify 4-6 funnel-stage gaps invisible in summary reporting, analysis time down 85%.
 
@@ -2671,7 +2671,7 @@ Tone: credible, direct, neither overclaiming progress nor catastrophizing challe
 ```
 
 :::
-## 25. AI Employee Retention Risk Predictor
+## 23. AI Employee Retention Risk Predictor
 
 > Identify flight risks 6-9 months before departure — preventable attrition down 25-35%, $1.5-3M in replacement cost avoided.
 
@@ -2825,7 +2825,7 @@ Please:
 ```
 
 :::
-## 26. AI Benefits Administration Advisor
+## 24. AI Benefits Administration Advisor
 
 > Reduce enrollment errors 45% and compliance failures — plain-language communications that employees actually read and act on.
 
@@ -2983,7 +2983,7 @@ Please draft:
 ```
 
 :::
-## 27. AI Succession Planning Assistant
+## 25. AI Succession Planning Assistant
 
 > Go from 28% to 78% succession coverage in 12 months — leadership transition cost down 40%, internal promotion rate up to 65%.
 
@@ -3143,7 +3143,7 @@ Please help me design:
 ```
 
 :::
-## 28. AI HR Metrics Dashboard Narrator
+## 26. AI HR Metrics Dashboard Narrator
 
 > Turn HR numbers into leadership decisions — executive meeting explanation time down 35%, decision-to-data lag down 50%.
 
@@ -3320,7 +3320,7 @@ Please draft a 500-600 word all-hands narrative that:
 ```
 
 :::
-## 29. AI Employee Onboarding Experience Designer
+## 27. AI Employee Onboarding Experience Designer
 
 > Companies spend $4,000–$7,000 recruiting and hiring a single employee, then deliver an onboarding experience that consistently fails to set them up for success
 
@@ -3495,7 +3495,7 @@ Identify:
 ```
 
 :::
-## 30. AI HR Compensation Benchmarking Engine
+## 28. AI HR Compensation Benchmarking Engine
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
@@ -3694,7 +3694,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 31. AI HR Performance Review Writer
+## 29. AI HR Performance Review Writer
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
@@ -3893,7 +3893,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 32. AI HR Employee Engagement Pulse Analyzer
+## 30. AI HR Employee Engagement Pulse Analyzer
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
 
@@ -4092,7 +4092,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 33. AI HR Job Description Optimization Writer
+## 31. AI HR Job Description Optimization Writer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
@@ -4291,7 +4291,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 34. AI HR Training Needs Assessment Engine
+## 32. AI HR Training Needs Assessment Engine
 
 > Organizations operating in Education face mounting pressure to deliver results with constrained resources
 
@@ -4490,7 +4490,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 35. AI HR Recruitment Pipeline Optimizer
+## 33. AI HR Recruitment Pipeline Optimizer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
@@ -4689,7 +4689,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 36. AI HR Succession Planning Advisor
+## 34. AI HR Succession Planning Advisor
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
@@ -4888,7 +4888,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 37. AI HR Organizational Design Advisor
+## 35. AI HR Organizational Design Advisor
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
@@ -5087,7 +5087,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 38. AI Workforce Planning Scenario Modeler
+## 36. AI Workforce Planning Scenario Modeler
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
@@ -5286,7 +5286,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 39. AI Exit Interview Insights Analyzer
+## 37. AI Exit Interview Insights Analyzer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 

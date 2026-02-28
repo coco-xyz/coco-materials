@@ -2,7 +2,7 @@
 
 AI-powered use cases for legal professionals.
 
-## 2. AI NDA Generator
+## 1. AI NDA Generator
 
 > Generates jurisdiction-specific NDAs in 60 seconds — customizes scope, duration, and carve-outs based on deal context.
 
@@ -126,7 +126,7 @@ This week's data:
 
 :::
 
-## 3. AI IP Portfolio Analyzer
+## 2. AI IP Portfolio Analyzer
 
 > Maps your patent portfolio against competitor filings — identifies white spaces and potential infringement risks across 300+ patents.
 
@@ -250,7 +250,7 @@ This week's data:
 
 :::
 
-## 4. AI Trademark Conflict Searcher
+## 3. AI Trademark Conflict Searcher
 
 > Searches USPTO, EUIPO, and 20+ trademark databases — delivers a comprehensive conflict report with risk scores in 10 minutes.
 
@@ -374,7 +374,7 @@ This week's data:
 
 :::
 
-## 5. AI FOIA Request Processor
+## 4. AI FOIA Request Processor
 
 > Reviews FOIA requests against exemption criteria — redacts sensitive content and drafts responses, cutting turnaround from 30 to 5 days.
 
@@ -498,7 +498,7 @@ This week's data:
 
 :::
 
-## 6. AI Regulatory Change Tracker
+## 5. AI Regulatory Change Tracker
 
 > Monitors SEC, FINRA, and 12 global regulators daily — maps new rules to your compliance obligations with 48-hour advance alerts.
 
@@ -622,7 +622,7 @@ This week's data:
 
 :::
 
-## 7. AI Litigation Hold Manager
+## 6. AI Litigation Hold Manager
 
 > Identifies custodians, sends hold notices, tracks acknowledgments, and monitors compliance — manages 50+ active holds with zero missed deadlines.
 
@@ -746,7 +746,7 @@ This week's data:
 
 :::
 
-## 8. AI Content Rights Tracker
+## 7. AI Content Rights Tracker
 
 > Tracks licensing windows for 10,000+ titles across 30 territories — alerts you 60 days before rights expire for renewal decisions.
 
@@ -870,7 +870,7 @@ This week's data:
 
 :::
 
-## 9. AI PPA Reviewer
+## 8. AI PPA Reviewer
 
 > Reviews 80-page power purchase agreements — flags escalation clauses, curtailment risks, and unfavorable terms in 10 minutes.
 
@@ -994,7 +994,7 @@ This week's data:
 
 :::
 
-## 10. AI Contract Clause Risk Analyzer {#use-case-357}
+## 9. AI Contract Clause Risk Analyzer
 
 > Cuts contract review time from 4 hours to 45 minutes by systematically flagging high-risk clauses — liability caps, indemnification scope, auto-renewal traps, governing law conflicts — against company policy.
 
@@ -1117,7 +1117,7 @@ CONTRACT:
 ```
 
 :::
-## 11. AI Privacy Policy Generator {#use-case-358}
+## 10. AI Privacy Policy Generator
 
 > Produces a complete, jurisdiction-appropriate privacy policy for SaaS applications — covering cloud storage, analytics, AI training data use, and third-party integrations — in 2–3 hours instead of 12–20 hours.
 
@@ -1247,7 +1247,7 @@ PRIVACY POLICY:
 ```
 
 :::
-## 12. AI GDPR Compliance Checklist Builder {#use-case-359}
+## 11. AI GDPR Compliance Checklist Builder
 
 > Generates a dynamic, organization-specific GDPR compliance checklist — covering data inventory, consent mechanisms, processor agreements, and breach response — and tracks remediation progress against regulatory requirements.
 
@@ -1367,7 +1367,7 @@ Our company context: [DESCRIBE COMPANY TYPE, SYSTEMS USED, TEAM RESPONSIBLE]
 ```
 
 :::
-## 13. AI Terms of Service Reviewer {#use-case-360}
+## 12. AI Terms of Service Reviewer
 
 > Reviews vendor Terms of Service documents in 35 minutes instead of 3 hours, flagging provisions that expose the company to liability, data rights issues, unilateral change clauses, and unfavorable dispute resolution terms.
 
@@ -1500,7 +1500,7 @@ NEW FEATURE DESCRIPTION:
 ```
 
 :::
-## 14. AI NDA Redline Suggester {#use-case-361}
+## 13. AI NDA Redline Suggester
 
 > Reduces NDA turnaround from 2–3 business days to 4–6 hours by automatically identifying the 15–20 standard negotiating points in any NDA and generating policy-consistent redlines for each.
 
@@ -1631,7 +1631,7 @@ NDA:
 ```
 
 :::
-## 15. AI Regulatory Filing Summarizer {#use-case-362}
+## 14. AI Regulatory Filing Summarizer
 
 > Compresses 8–12 hours of regulatory filing review into 90 minutes by extracting all compliance obligations, deadlines, and action items from agency rulemakings, guidance documents, and enforcement actions.
 
@@ -1763,7 +1763,7 @@ OUR COMPANY CONTEXT:
 ```
 
 :::
-## 17. AI Legal Research Synthesizer {#use-case-364}
+## 15. AI Legal Research Synthesizer
 
 > Reduces legal research time by 60–75% per question — systematically covering all relevant legal issues, preserving findings in searchable memos, and enabling in-house teams to handle 3–4× more advisory requests without adding headcount.
 
@@ -1908,7 +1908,7 @@ BUSINESS CONTEXT: [DESCRIBE]
 ```
 
 :::
-## 18. AI Corporate Policy Drafter {#use-case-365}
+## 16. AI Corporate Policy Drafter
 
 > Produces tailored corporate policies — anti-bribery, code of conduct, data retention, acceptable use — in 3–5 days instead of 15–25+ attorney hours, with appropriate jurisdictional adjustments and plain-language employee communications.
 
@@ -2049,7 +2049,7 @@ POLICY:
 ```
 
 :::
-## 19. AI Compliance Training Content Creator {#use-case-366}
+## 17. AI Compliance Training Content Creator
 
 > Produces scenario-based, role-specific compliance training modules — in 12–18 hours instead of 100+ hours — with post-training assessments, reducing training-related audit findings by 60% in the first audit cycle.
 
@@ -2183,7 +2183,7 @@ COMPANY CONTEXT: [INDUSTRY, GEOGRAPHY, RELEVANT REGULATORY FRAMEWORK]
 ```
 
 :::
-## 20. AI Due Diligence Checklist Generator {#use-case-367}
+## 18. AI Due Diligence Checklist Generator
 
 > Generates deal-specific, industry-customized due diligence checklists in 4–6 hours instead of 3–5 days, reducing post-closing dispute rates by 20–30% by systematically surfacing risks that generic templates miss.
 
@@ -2314,7 +2314,7 @@ REGULATORY ENVIRONMENT: [LIST APPLICABLE REGULATIONS]
 ```
 
 :::
-## 21. AI Litigation Risk Assessor {#use-case-368}
+## 19. AI Litigation Risk Assessor
 
 > Produces structured early case assessments in 2 weeks instead of 6–8 weeks, improving reserve accuracy by 35–45% and enabling confident settlement recommendations that reduce outside counsel fees by 40%.
 
@@ -2461,7 +2461,7 @@ JURISDICTIONS INVOLVED: [LIST]
 ```
 
 :::
-## 22. AI Employment Law Compliance Advisor {#use-case-369}
+## 20. AI Employment Law Compliance Advisor
 
 > Provides same-day employment law compliance guidance across jurisdictions — reducing manager compliance errors by 45–55% and employment litigation exposure by 30–40% in the first year.
 
@@ -2599,7 +2599,7 @@ Identify:
 ```
 
 :::
-## 23. AI Data Processing Agreement Generator {#use-case-370}
+## 21. AI Data Processing Agreement Generator
 
 > Drafts or reviews GDPR-compliant Data Processing Agreements in 30–45 minutes instead of 2–4 hours — enabling SaaS vendors to close enterprise deals 20–35% faster by eliminating the DPA bottleneck.
 
@@ -2738,7 +2738,7 @@ VENDOR RELATIONSHIP:
 ```
 
 :::
-## 24. AI Board Meeting Minutes Summarizer {#use-case-371}
+## 22. AI Board Meeting Minutes Summarizer
 
 > Transforms meeting notes and recordings into complete, legally defensible board minutes — with precise resolution language, quorum confirmation, voting record, and privileged deliberation protection — in days instead of weeks.
 
@@ -2881,7 +2881,7 @@ CORPORATE HISTORY:
 ```
 
 :::
-## 25. AI Contract Renewal Terms Optimizer {#use-case-372}
+## 23. AI Contract Renewal Terms Optimizer
 
 > Transforms passive contract auto-renewals into active value-creation opportunities — identifying 90-day renewal windows, benchmarking current terms against market, and generating negotiation strategies that capture savings before contracts auto-renew.
 
@@ -3027,7 +3027,7 @@ Estimated value impact of proposed changes vs. current terms: [CALCULATE]
 ```
 
 :::
-## 26. AI Legal Contract Risk Extractor
+## 24. AI Legal Contract Risk Extractor
 
 > Organizations operating in Legal Services face mounting pressure to deliver results with constrained resources
 
@@ -3226,7 +3226,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 27. AI Government FOIA Response Assistant
+## 25. AI Government FOIA Response Assistant
 
 > Organizations operating in Government face mounting pressure to deliver results with constrained resources
 
@@ -3425,7 +3425,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 28. AI Media Content Rights Clearance Assistant
+## 26. AI Media Content Rights Clearance Assistant
 
 > Organizations operating in Media face mounting pressure to deliver results with constrained resources
 
@@ -3624,7 +3624,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 29. AI Legal Due Diligence Document Scanner
+## 27. AI Legal Due Diligence Document Scanner
 
 > Organizations operating in Legal Services face mounting pressure to deliver results with constrained resources
 
@@ -3823,7 +3823,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 30. AI Real Estate Lease Abstraction Engine
+## 28. AI Real Estate Lease Abstraction Engine
 
 > Organizations operating in Real Estate face mounting pressure to deliver results with constrained resources
 
@@ -4022,7 +4022,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 31. AI Legal IP Trademark Search Assistant
+## 29. AI Legal IP Trademark Search Assistant
 
 > Organizations operating in Legal Services face mounting pressure to deliver results with constrained resources
 
@@ -4221,7 +4221,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 32. AI Legal Litigation Timeline Builder
+## 30. AI Legal Litigation Timeline Builder
 
 > Organizations operating in Legal Services face mounting pressure to deliver results with constrained resources
 
@@ -4420,7 +4420,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 33. AI Real Estate Tenant Screening Assistant
+## 31. AI Real Estate Tenant Screening Assistant
 
 > Organizations operating in Real Estate face mounting pressure to deliver results with constrained resources
 
@@ -4619,7 +4619,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 34. AI Employment Contract Drafting Assistant
+## 32. AI Employment Contract Drafting Assistant
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
@@ -4818,7 +4818,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 35. AI NDA Review and Redlining Assistant
+## 33. AI NDA Review and Redlining Assistant
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
@@ -5017,7 +5017,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 36. AI Corporate Governance Compliance Advisor
+## 34. AI Corporate Governance Compliance Advisor
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 

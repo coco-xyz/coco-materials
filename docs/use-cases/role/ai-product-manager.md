@@ -812,7 +812,7 @@ Output: Risk assessment register + mitigation roadmap with priority ranking and 
 ```
 
 :::
-## 6. AI Inference Cost Optimization Analyzer
+## 5. AI Inference Cost Optimization Analyzer
 
 > Identifies and quantifies every lever available to reduce LLM inference costs — from prompt compression to model routing to caching — and generates a prioritized cost reduction roadmap.
 
@@ -1029,7 +1029,7 @@ Output: 90-day roadmap table + cumulative savings projection by week + leadershi
 ```
 
 :::
-## 7. AI Governance & Risk Framework Builder
+## 6. AI Governance & Risk Framework Builder
 
 > Constructs a comprehensive AI governance program covering risk assessment, approval workflows, incident management, and regulatory alignment — enabling AI PMs to ship responsibly at speed.
 
@@ -1257,7 +1257,7 @@ Output: Complete governance policy document in formal policy format with version
 ```
 
 :::
-## 8. AI Training Data Quality Assessment Tool
+## 7. AI Training Data Quality Assessment Tool
 
 > Evaluates training, fine-tuning, and RAG retrieval datasets for quality issues — coverage gaps, label noise, distribution bias, and contamination — before they degrade model performance in production.
 
@@ -1479,7 +1479,7 @@ Output: Data quality gate document + measurement protocol + gating workflow inte
 ```
 
 :::
-## 9. AI Fine-Tuning ROI Planner
+## 8. AI Fine-Tuning ROI Planner
 
 > Builds a rigorous cost-benefit analysis for fine-tuning decisions — quantifying the quality gain, cost structure, and maintenance burden relative to prompt engineering and RAG alternatives.
 
@@ -1690,7 +1690,7 @@ Output: Fine-tuned model lifecycle plan document + annual maintenance cost estim
 ```
 
 :::
-## 10. AI Feature Prioritization Scoring Engine
+## 9. AI Feature Prioritization Scoring Engine
 
 > Applies an AI-product-specific scoring engine to rank feature candidates — accounting for model maturity, data availability, safety requirements, and the unique value dynamics of AI capabilities.
 
@@ -1904,7 +1904,7 @@ Output: Not-now register document + stakeholder communication templates for each
 ```
 
 :::
-## 11. AI User Research Synthesis & Insight Extractor
+## 10. AI User Research Synthesis & Insight Extractor
 
 > Synthesizes large volumes of user research — interviews, surveys, support tickets, session recordings — into structured AI product insights with specific implications for model behavior, feature design, and quality thresholds.
 
@@ -2113,7 +2113,7 @@ Output: Traceability matrix table + gap analysis + recommended roadmap adjustmen
 ```
 
 :::
-## 12. AI Agent Workflow & Orchestration Designer
+## 11. AI Agent Workflow & Orchestration Designer
 
 > Designs reliable, observable multi-agent and agentic AI workflows — defining task decomposition, tool selection, error handling, and human escalation points before any code is written.
 
@@ -2352,7 +2352,7 @@ Output: Observability specification + monitoring dashboard layout + alert thresh
 ```
 
 :::
-## 13. AI Model Hallucination Rate Benchmark Tracker
+## 12. AI Model Hallucination Rate Benchmark Tracker
 
 > Establishes repeatable hallucination measurement methodology, tracks hallucination rates across model versions and prompt changes, and generates actionable remediation guidance for AI PMs.
 
@@ -2563,7 +2563,7 @@ Output: Disclosure language set + confidence communication design + known-unknow
 ```
 
 :::
-## 14. AI System Prompt Security & Injection Risk Reviewer
+## 13. AI System Prompt Security & Injection Risk Reviewer
 
 > Audits system prompts for prompt injection vulnerabilities, instruction override risks, and data leakage attack vectors — protecting AI products against adversarial manipulation before and after launch.
 
@@ -2802,7 +2802,7 @@ Output: Testing program specification + automation recommendations + responsible
 ```
 
 :::
-## 15. AI Product Launch Readiness Checklist Generator
+## 14. AI Product Launch Readiness Checklist Generator
 
 > Generates a comprehensive, AI-specific pre-launch checklist covering model quality, safety testing, infrastructure readiness, legal review, and stakeholder alignment — ensuring nothing critical is missed before go-live.
 
@@ -3045,7 +3045,7 @@ Output: Post-launch review template with discussion questions for each section +
 ```
 
 :::
-## 16. AI RAG Pipeline Architecture Advisor
+## 15. AI RAG Pipeline Architecture Advisor
 
 > Designs, evaluates, and optimizes Retrieval-Augmented Generation pipelines — from document ingestion strategy to chunking, embedding, retrieval, reranking, and generation — for accuracy and performance.
 
@@ -3276,7 +3276,7 @@ Output: Latency optimization roadmap + expected improvement per optimization + i
 ```
 
 :::
-## 17. AI Model Latency & Throughput Optimization Guide
+## 16. AI Model Latency & Throughput Optimization Guide
 
 > Identifies and resolves AI inference latency bottlenecks — streaming, batching, model selection, infrastructure tuning — to meet user experience SLAs without sacrificing output quality.
 
@@ -3500,7 +3500,7 @@ Output: Latency budget table by step + parallelization design + optimization pri
 ```
 
 :::
-## 18. AI Competitor AI Feature Gap Analyzer
+## 17. AI Competitor AI Feature Gap Analyzer
 
 > Systematically maps competitor AI features, identifies gaps in your product's AI capabilities, and generates a strategic response framework for AI roadmap prioritization.
 
@@ -3703,7 +3703,7 @@ Output: Quarterly competitive report + recommended actions + competitive monitor
 ```
 
 :::
-## 19. AI Dataset Annotation Quality Control Reviewer
+## 18. AI Dataset Annotation Quality Control Reviewer
 
 > Designs and implements annotation quality control programs for AI training datasets — inter-annotator agreement measurement, systematic error detection, and guideline refinement to maximize training data value.
 
@@ -3921,7 +3921,7 @@ Output: Formal training data readiness certification document with all sections 
 ```
 
 :::
-## 20. AI Regulatory Compliance Checklist for AI Products
+## 19. AI Regulatory Compliance Checklist for AI Products
 
 > Generates jurisdiction-specific, use-case-specific regulatory compliance checklists for AI products — covering EU AI Act, US sector regulations, data protection laws, and emerging AI legislation.
 
@@ -4180,7 +4180,7 @@ Output: Complete enterprise compliance package + customization guide for differe
 ```
 
 :::
-## 21. AI Customer Feedback Loop Automation Engine
+## 20. AI Customer Feedback Loop Automation Engine
 
 > Turn unstructured customer signals into prioritized product decisions in hours, not weeks.
 
@@ -4423,7 +4423,7 @@ Generate: Resolution effectiveness dashboard + zombie issue alert list + feedbac
 ```
 
 :::
-## 22. AI AI-Native Feature Flag & Experimentation Platform
+## 21. AI AI-Native Feature Flag & Experimentation Platform
 
 > Run statistically rigorous AI model experiments without engineering overhead or deployment risk.
 
@@ -4676,7 +4676,7 @@ Output: Experiment portfolio plan + calendar view + learning roadmap narrative
 ```
 
 :::
-## 23. AI Model Drift & Performance Degradation Detector
+## 22. AI Model Drift & Performance Degradation Detector
 
 > Catch AI quality regressions before users do — with automated monitoring built for model behavior.
 
@@ -4930,7 +4930,7 @@ Output: Complete post-mortem document ready for engineering all-hands + action i
 ```
 
 :::
-## 24. AI LLM Output Quality Scoring & Routing System
+## 23. AI LLM Output Quality Scoring & Routing System
 
 > Automatically score, filter, and route LLM outputs to deliver consistently high-quality responses at scale.
 
@@ -5202,7 +5202,7 @@ Output: Multi-model routing specification + model assignment matrix + cost-quali
 ```
 
 :::
-## 25. AI Product Metrics & KPI Dashboard Builder
+## 24. AI Product Metrics & KPI Dashboard Builder
 
 > Define, instrument, and visualize the metrics that actually matter for AI product health and growth.
 
@@ -5486,7 +5486,7 @@ Output: Complete weekly review system — pre-read template + meeting agenda + d
 ```
 
 :::
-## 26. AI Cross-Functional AI Requirements Specification Writer
+## 25. AI Cross-Functional AI Requirements Specification Writer
 
 > Transform ambiguous AI feature requests into precise, engineering-ready specifications that prevent scope creep and costly rework.
 
@@ -5820,7 +5820,7 @@ Output: AI governance requirements specification + compliance evidence checklist
 ```
 
 :::
-## 27. AI Product Beta Testing Feedback Synthesizer
+## 26. AI Product Beta Testing Feedback Synthesizer
 
 > Extract actionable product insights from beta user chaos — fast enough to act before launch.
 
@@ -6107,7 +6107,7 @@ Output: Roadmap intelligence report with specific recommendations + supporting e
 ```
 
 :::
-## 28. AI Competitive AI Product Teardown Analyzer
+## 27. AI Competitive AI Product Teardown Analyzer
 
 > Systematically dissect competitor AI products to surface capability gaps, positioning opportunities, and strategic vulnerabilities.
 
@@ -6415,7 +6415,7 @@ Output: 5 competitive threat scenarios + strategic priorities matrix + monitorin
 ```
 
 :::
-## 29. AI AI Product Pricing Strategy Modeler
+## 28. AI AI Product Pricing Strategy Modeler
 
 > Design AI product pricing that captures maximum value while driving adoption, retention, and sustainable unit economics.
 
@@ -6740,7 +6740,7 @@ Output: Price increase strategy document + communication sequence + message draf
 ```
 
 :::
-## 30. AI AI Safety Red-Teaming Scenario Generator
+## 29. AI AI Safety Red-Teaming Scenario Generator
 
 > Systematically probe your AI product for safety vulnerabilities before adversarial users find them in production.
 
@@ -7070,7 +7070,7 @@ Output: Ongoing safety program specification + monitoring dashboard design + inc
 ```
 
 :::
-## 31. AI Product User Onboarding Flow Optimizer
+## 30. AI Product User Onboarding Flow Optimizer
 
 > Design AI product onboarding that transforms confused new users into confident power users in their first session.
 
@@ -7368,7 +7368,7 @@ Output: Complete 35-prompt library organized by level + progression guide + fail
 ```
 
 :::
-## 32. AI Model Card & AI Product Documentation Generator
+## 31. AI Model Card & AI Product Documentation Generator
 
 > Produce the technical documentation that enterprise buyers, regulators, and AI-literate users require — without drowning your team.
 
@@ -7729,7 +7729,7 @@ Output: Complete documentation maintenance system specification + responsibility
 
 :::
 
-## 33. AI Product Market Fit Signal Detector
+## 32. AI Product Market Fit Signal Detector
 
 > Identify the behavioral signals that distinguish genuine product-market fit from early adopter enthusiasm before scaling prematurely.
 
@@ -8035,7 +8035,7 @@ Output: PMF evidence package — narrative + slide spec + data presentation guid
 ```
 
 :::
-## 34. AI Multi-Model Routing & Fallback Logic Designer
+## 33. AI Multi-Model Routing & Fallback Logic Designer
 
 > Build intelligent model orchestration that maximizes quality, minimizes cost, and guarantees reliability across your AI infrastructure.
 
@@ -8375,7 +8375,7 @@ Output: Dashboard specification for each panel + alerting configuration + on-cal
 ```
 
 :::
-## 35. AI Product Incident Response & Rollback Planner
+## 34. AI Product Incident Response & Rollback Planner
 
 > Respond to AI product failures with speed and precision — minimizing user impact and restoring quality before crises become catastrophes.
 
@@ -8720,7 +8720,7 @@ Output: Complete incident communication template library + guidance + escalation
 ```
 
 :::
-## 36. AI Responsible AI Checklist & Audit Trail Generator
+## 35. AI Responsible AI Checklist & Audit Trail Generator
 
 > Embed responsible AI practices into every product decision with comprehensive checklists and documentation that satisfy regulators and enterprise buyers.
 
@@ -9092,7 +9092,7 @@ Output: Governance program design + role definitions + policy framework outline 
 ```
 
 :::
-## 37. AI Product Localization & Multilingual Expansion Planner
+## 36. AI Product Localization & Multilingual Expansion Planner
 
 > Scale your AI product across languages and markets without degrading quality, trust, or the user experience that made you successful.
 
@@ -9423,7 +9423,7 @@ Output: Multilingual launch plan + pre-launch gate checklist + beta program desi
 ```
 
 :::
-## 38. AI AI-Powered Feature Usage Analytics Engine
+## 37. AI AI-Powered Feature Usage Analytics Engine
 
 > Understand not just whether users use AI features, but whether those features are delivering genuine value — and where the opportunities are.
 
@@ -9767,7 +9767,7 @@ Output: Dashboard specifications + data requirements + implementation guide + al
 ```
 
 :::
-## 39. AI Product OKR & Success Metrics Framework Builder
+## 38. AI Product OKR & Success Metrics Framework Builder
 
 > Align your entire product team around AI-specific OKRs that connect model quality improvements to business outcomes everyone cares about.
 
@@ -10104,7 +10104,7 @@ Output: Retrospective facilitation guide + analysis frameworks + output document
 ```
 
 :::
-## 40. AI Enterprise AI Product Go-to-Market Strategy Advisor
+## 39. AI Enterprise AI Product Go-to-Market Strategy Advisor
 
 > Build a go-to-market strategy that wins enterprise AI deals by addressing the unique trust, compliance, and organizational challenges of selling AI to risk-conscious buyers.
 
@@ -10467,7 +10467,7 @@ Output: Complete enterprise GTM launch plan + pre-launch readiness checklist + s
 ```
 
 :::
-## 41. AI Product Accessibility & Inclusive Design Auditor
+## 40. AI Product Accessibility & Inclusive Design Auditor
 
 > Ensures AI products are inclusive and accessible to all users — eliminating algorithmic bias and interface barriers so that diverse user populations can benefit equally from AI capabilities.
 
@@ -10612,7 +10612,7 @@ Output: Inclusive design roadmap + quarterly OKR recommendations + resource requ
 ```
 
 :::
-## 42. AI Product Technical Debt Assessment & Refactoring Planner
+## 41. AI Product Technical Debt Assessment & Refactoring Planner
 
 > Systematically identifies accumulated technical debt in AI products, creates data-driven refactoring priorities and migration plans, and improves system maintainability without disrupting product iteration.
 
@@ -10763,7 +10763,7 @@ Output: Three-quarter technical debt roadmap + resource allocation recommendatio
 ```
 
 :::
-## 43. AI Product User Segmentation & Personalization Engine
+## 42. AI Product User Segmentation & Personalization Engine
 
 > Uses AI capabilities to build a fine-grained user segmentation system and deliver personalized product experiences — serving users at scale while providing each user with highly relevant AI interactions.
 
@@ -10904,7 +10904,7 @@ Output: Experiment design document + statistical power analysis + implementation
 ```
 
 :::
-## 44. AI Product Competitive Intelligence Monitoring System
+## 43. AI Product Competitive Intelligence Monitoring System
 
 > Establishes a continuously running AI competitive intelligence monitoring system that tracks competitor moves, industry trends, and technology breakthroughs in real time — providing timely, structured market insights for product decisions.
 
@@ -11058,7 +11058,7 @@ Output: Competitive white space opportunity map + strategic entry assessment for
 ```
 
 :::
-## 45. AI Product Knowledge Management & Documentation System
+## 44. AI Product Knowledge Management & Documentation System
 
 > Builds a knowledge management system for AI product teams — systematically preserving product decisions, experiment insights, and best practices, eliminating knowledge silos and information loss, and accelerating team learning velocity.
 
@@ -11220,7 +11220,7 @@ Output: Structured knowledge onboarding plan + checkpoint definitions + knowledg
 ```
 
 :::
-## 46. AI Product Crisis Communication & Stakeholder Management Playbook
+## 45. AI Product Crisis Communication & Stakeholder Management Playbook
 
 > Builds a professional crisis communication and stakeholder management system for AI product failures, data incidents, and ethical controversies — protecting product reputation and user trust in high-pressure moments.
 
@@ -11374,7 +11374,7 @@ Output: Trust rebuilding roadmap + phased communication plan + trust metrics mon
 ```
 
 :::
-## 47. AI Product Revenue Attribution & Business Case Builder
+## 46. AI Product Revenue Attribution & Business Case Builder
 
 > Precisely connects AI feature investment to quantifiable business outcomes — building data-driven AI product business cases that provide credible financial justification for resource acquisition and strategic decisions.
 
@@ -11547,7 +11547,7 @@ Output: Budget request document + financial justification + decision-maker speci
 ```
 
 :::
-## 48. AI Product Ecosystem & Partnership Strategy Builder
+## 47. AI Product Ecosystem & Partnership Strategy Builder
 
 > Plans the ecosystem layout and partnership strategy for AI products — accelerating product capability expansion and widening distribution channels through strategic partnerships to build a platform moat that is difficult to replicate.
 
@@ -11706,7 +11706,7 @@ Output: Partner operations handbook + tiering standards + performance tracking d
 ```
 
 :::
-## 49. AI Product Long-Term Vision & Innovation Pipeline Builder
+## 48. AI Product Long-Term Vision & Innovation Pipeline Builder
 
 > Builds a long-term vision narrative and innovation pipeline management system for AI products — systematically exploring breakthrough opportunities under daily iteration pressure to ensure the product maintains strategic leadership over a 3–5 year horizon.
 
