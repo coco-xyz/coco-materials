@@ -248,11 +248,11 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 3. 创建或进入一个群组
 4. 点击右上角 **...** 菜单 → **Settings**（设置）
 
-<img src="/feishu-group-settings.png" alt="进入群组后，点击右上角「...」→「Settings」" style="max-width: 480px;">
+![进入群组后，点击右上角「...」→「Settings」](/feishu-group-settings.png)
 
 5. 在设置中找到 **Bots**（机器人）选项，点击进入（也可以直接点击群组顶部的小机器人图标快速打开）
 
-<img src="/feishu-group-bots.png" alt="群设置 — 点击「Bots」进入机器人管理" style="max-width: 320px;" />
+![群设置 — 点击「Bots」进入机器人管理](/feishu-group-bots.png)
 
 6. 点击 **Add Bot**（添加机器人） → 搜索你的应用名称 → 点击添加
 
@@ -260,7 +260,7 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 
 7. 添加成功后，你的机器人会出现在 Bots 列表中
 
-<img src="/feishu-bot-added.png" alt="机器人添加完毕 — 也可通过群组顶部机器人图标快速查看" style="max-width: 480px;">
+![机器人添加完毕 — 也可通过群组顶部机器人图标快速查看](/feishu-bot-added.png)
 
 8. 在群中 @你的机器人 发送消息
 9. AI员工响应 → 部署完成！

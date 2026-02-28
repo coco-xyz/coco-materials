@@ -2,6 +2,8 @@ import { defineConfig } from 'vitepress'
 
 const base = process.env.VITEPRESS_BASE || '/'
 
+const basePrefix = base !== '/' ? base.replace(/\/$/, '') : ''
+
 export default defineConfig({
   base,
   cleanUrls: true,
@@ -21,10 +23,33 @@ export default defineConfig({
     }
   },
 
+  markdown: {
+    config: (md) => {
+      if (!basePrefix) return
+      // Rewrite image src in markdown ![alt](/path) to include base prefix.
+      // This runs at compile time so it works for both SSR and SPA navigation.
+      const defaultImageRender = md.renderer.rules.image || function (tokens, idx, options, env, self) {
+        return self.renderToken(tokens, idx, options)
+      }
+      md.renderer.rules.image = (tokens, idx, options, env, self) => {
+        const token = tokens[idx]
+        const srcIdx = token.attrIndex('src')
+        if (srcIdx >= 0) {
+          const src = token.attrs[srcIdx][1]
+          if (src.startsWith('/') && !src.startsWith(basePrefix + '/') && !src.startsWith('/http')) {
+            token.attrs[srcIdx][1] = basePrefix + src
+          }
+        }
+        return defaultImageRender(tokens, idx, options, env, self)
+      }
+    },
+  },
+
   transformHtml(code) {
     if (base !== '/') {
       const prefix = base.replace(/\/$/, '')
       // Fix src/href attributes for public assets that lack the base prefix
+      // (covers raw HTML <img>/<video> tags in markdown)
       return code
         .replace(/src="\/(?!docs\/|assets\/|http)/g, `src="${prefix}/`)
         .replace(/href="\/coco-icon\.png"/g, `href="${prefix}/coco-icon.png"`)
