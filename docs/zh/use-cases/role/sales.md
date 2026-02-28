@@ -6,7 +6,7 @@ AI驱动的SDR、客户经理和销售负责人用例。
 
 > 一天调研200个线索，自动从LinkedIn、企查查抓取并打分。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/015-ai-lead-researcher.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -190,7 +190,7 @@ LinkedIn URL：[URL]
 
 > 通话、邮件、会议自动同步CRM，45分钟/天数据录入变为0。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/016-ai-crm-updater.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -348,7 +348,7 @@ Pipeline数据：
 
 > 15分钟生成定制化方案书，基于客户需求自动匹配。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/017-ai-proposal-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -521,7 +521,7 @@ RFP问题/要求：
 
 > 2分钟生成个性化跟进邮件，基于会议上下文和客户行为。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/018-ai-follow-up-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -694,7 +694,7 @@ COCO的AI Follow-up Writer通过生成及时、有上下文的跟进沟通确保
 
 > 8分钟生成客户会议简报，多源情报汇聚，高管画像深入。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/019-ai-client-research-brief.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -844,7 +844,7 @@ COCO的AI Client Research Brief在几分钟内为每次客户会议提供全面�
 
 > 10分钟完成复杂报价计算，自动匹配折扣规则和审批流程。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/020-ai-quote-calculator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1007,7 +1007,7 @@ COCO的AI Quote Calculator将报价流程从手动、易出错的工作流转变
 
 > 销售预测误差从40%降至8%，成交预测91%准确。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/045-ai-sales-forecaster.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1113,7 +1113,7 @@ COCO的AI Quote Calculator将报价流程从手动、易出错的工作流转变
 
 > 演示准备从4小时降至15分钟，演示转化率从18%提至34%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/046-ai-demo-personalizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1219,7 +1219,7 @@ COCO的AI Quote Calculator将报价流程从手动、易出错的工作流转变
 
 > 实时竞品定价监控，响应时间从3周到4小时，用户收入+23%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/047-ai-pricing-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1325,7 +1325,7 @@ COCO的AI Quote Calculator将报价流程从手动、易出错的工作流转变
 
 > 合同审查从5天降至45分钟，风险检出率从72%提至99%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/048-ai-contract-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1431,7 +1431,7 @@ COCO的AI Quote Calculator将报价流程从手动、易出错的工作流转变
 
 > 客户流失预测87%准确，挽回率从12%提至41%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/049-ai-churn-predictor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1537,7 +1537,7 @@ COCO的AI Quote Calculator将报价流程从手动、易出错的工作流转变
 
 > 销售区域平衡度提升45%，区域间业绩差距缩小60%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/073-ai-sales-territory-mapper.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1716,7 +1716,7 @@ COCO的AI销售区域规划器将这种混乱转变为流畅的智能工作流�
 
 > 流失客户挽回率从8%提升到35%，获客成本降低60%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/086-ai-customer-win-back-campaigner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1895,7 +1895,7 @@ COCO的AI客户挽回营销器将这种混乱转变为流畅的智能工作流�
 
 > 销售异议处理成功率从35%提升到72%，成交周期缩短25%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/098-ai-sales-objection-handler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -2127,7 +2127,7 @@ COCO的AI销售异议处理器将经验知识转化为可扩展的、始终最�
 
 > 客户健康度评估覆盖率从20%提升到100%，流失预警准确率87%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/102-ai-customer-health-scorer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -2339,7 +2339,7 @@ COCO的AI客户健康评分器用全面的预测系统替代简单的手动健�
 
 > RFP响应时间从40小时降至8小时，中标率从5%提升到18%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/104-ai-rfp-response-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -2569,7 +2569,7 @@ RFP表现数据（过去12个月）：
 
 > 对5000+捐赠者进行参与度、捐赠历史和能力评分——优先联络以提升续捐率25%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/128-ai-donor-engagement-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -2693,7 +2693,7 @@ COCO的AI捐赠者互动追踪器直接集成到你现有的工作流程中，�
 
 > 分析理赔历史、风险画像和市场费率——到期前30天推荐最优续保方案。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/132-ai-policy-renewal-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -2817,7 +2817,7 @@ COCO的AI保单续保优化器直接集成到你现有的工作流程中，充�
 
 > 将客户偏好与15家经销商库存匹配——推荐最佳车型并估算置换价格。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/135-ai-dealership-inventory-matcher.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -2941,7 +2941,7 @@ COCO的AI经销商库存匹配器直接集成到你现有的工作流程中，�
 
 > 分析预订历史和客人画像——推荐个性化房间升级和套餐，RevPAR提升18%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/140-ai-guest-upsell-recommender.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -3065,7 +3065,7 @@ COCO的AI客人升级推荐器直接集成到你现有的工作流程中，充�
 
 > 筛选在线潜客、匹配车型偏好并预约试驾——以确认预约填满90%可用时段。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/197-ai-test-drive-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -3189,7 +3189,7 @@ COCO的AI试驾调度器直接集成到你现有的工作流程中，充当一�
 
 > 绘制200名医师的转诊模式——识别高价值关系缺口和拓展优先级。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/201-ai-referral-network-mapper.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -3313,7 +3313,7 @@ COCO的AI转诊网络绘制器直接集成到你现有的工作流程中，充�
 
 > 提取30笔近期成交，调整特征和时间因素——生成含照片和定价依据的客户报告。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/202-ai-comparative-market-analysis.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 

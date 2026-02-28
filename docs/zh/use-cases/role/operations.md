@@ -6,7 +6,7 @@ AI驱动的运营经理、采购和通用业务运营用例。
 
 > 会议结束即出纪要：转录、摘要、待办分配一步到位。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/032-ai-meeting-notes.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -168,7 +168,7 @@ COCO的AI Meeting Notes捕获一切、结构化它、并确保跟进。
 
 > 实时库存预测，替代每周手动盘点，减少滞销和缺货。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/033-ai-inventory-forecaster.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -326,7 +326,7 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
 
 > 2小时完成供应商评估排名，替代1周人工调研。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/034-ai-vendor-evaluator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -473,7 +473,7 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 > SLA违约从12次/季降至1次/季，罚金从$20万/年降至$1.5万/年。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/052-ai-sla-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -579,7 +579,7 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 > 847份政策文档更新从6周缩短到4天，合规风险降89%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/059-ai-policy-updater.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -685,7 +685,7 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 > 流程时间从14天降至4天，返工率从31%降至8%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/062-ai-process-miner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -791,7 +791,7 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 > 文档搜索从18分钟降至30秒，错误分类从34%降至3%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/063-ai-document-classifier.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -897,7 +897,7 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 > 风险预测84%准确，每年预防$420万损失。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/064-ai-risk-scorer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1003,7 +1003,7 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 > 数据录入自动化，准确率从96%提升至99.7%，处理时间减少94%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/065-ai-data-entry-automator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1190,7 +1190,7 @@ COCO的AI数据录入自动化工具连接你现有的文档来源和目标系�
 
 > 邮件处理时间减少73%，优先邮件响应从4.2小时降至23分钟。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/066-ai-email-triage-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1361,7 +1361,7 @@ COCO的AI邮件分诊管理器将这种混乱转变为流畅的智能工作流�
 
 > 会议安排后勤时间减少87%，跨时区会议安排速度提升3倍。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/067-ai-meeting-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1531,7 +1531,7 @@ COCO的AI会议调度助手将这种混乱转变为流畅的智能工作流。�
 
 > 供应链可视性从30%提升到95%，中断响应时间减少76%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/077-ai-supply-chain-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1710,7 +1710,7 @@ COCO的AI供应链追踪器将这种混乱转变为流畅的智能工作流。�
 
 > 90秒数字化患者入院表——将人口统计、保险信息和病史自动录入电子病历系统。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/106-ai-patient-intake-processor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1834,7 +1834,7 @@ COCO的AI患者入院处理器直接集成到你现有的工作流程中，充�
 
 > 根据资助方要求撰写拨款申请——20分钟生成预算、时间表和影响力指标。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/113-ai-grant-proposal-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1958,7 +1958,7 @@ COCO的AI拨款申请撰写器直接集成到你现有的工作流程中，充�
 
 > 关联1000+电网节点传感器数据——2分钟定位故障根因，替代原来的2小时。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/116-ai-grid-outage-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -2082,7 +2082,7 @@ COCO的AI电网故障分析器直接集成到你现有的工作流程中，充�
 
 > 对照保单条款审核理赔申请——自动通过简单案件，处理时间从5天缩短到4小时。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/117-ai-claims-adjuster.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -2206,7 +2206,7 @@ COCO的AI理赔评估师直接集成到你现有的工作流程中，充当一�
 
 > 分析100+设备的振动、温度和运行数据——在故障前安排维护，停机时间减少40%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/126-ai-predictive-maintenance-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -2330,7 +2330,7 @@ COCO的AI预测性维护调度器直接集成到你现有的工作流程中，�
 
 > 结合土壤湿度传感器、天气预报和作物需求——优化灌溉计划，减少30%用水量。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/130-ai-irrigation-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -2454,7 +2454,7 @@ COCO的AI灌溉调度器直接集成到你现有的工作流程中，充当一�
 
 > 根据技能、空闲时间和历史表现将500名志愿者匹配到30个活动岗位——自动发送确认。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/143-ai-volunteer-coordinator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -2578,7 +2578,7 @@ COCO的AI志愿者协调器直接集成到你现有的工作流程中，充当�
 
 > 跨3个系统同步OEM零件编号、定价和适配数据——每晚核对保持8万SKU准确。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/150-ai-parts-catalog-updater.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -2702,7 +2702,7 @@ COCO的AI零件目录更新器直接集成到你现有的工作流程中，充�
 
 > 将20页患者病历浓缩为结构化1页摘要——突出活跃问题、用药和待处理医嘱。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/162-ai-clinical-notes-summarizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -2826,7 +2826,7 @@ COCO的AI临床笔记摘要器直接集成到你现有的工作流程中，充�
 
 > 根据退房时间、特殊需求和距离将80间房分配给15名清洁员——周转时间缩短25%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/172-ai-housekeeping-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -2950,7 +2950,7 @@ COCO的AI客房清洁调度器直接集成到你现有的工作流程中，充�
 
 > 排序200个生产订单以最小化换线时间——在满足所有交期的同时提升15%产量。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/173-ai-production-batch-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -3074,7 +3074,7 @@ COCO的AI生产批次优化器直接集成到你现有的工作流程中，充�
 
 > 处理500辆车的GPS、油耗和驾驶行为数据——生成周度评分卡，发现每年$8万节油机会。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/182-ai-fleet-telematics-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -3198,7 +3198,7 @@ COCO的AI车队远程信息分析器直接集成到你现有的工作流程中�
 
 > 追踪1000头牲畜的采食量、运动和体温——在可见症状出现前48小时检测疾病指标。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/192-ai-livestock-health-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -3322,7 +3322,7 @@ COCO的AI牲畜健康监控器直接集成到你现有的工作流程中，充�
 
 > 提取信用、就业和租赁历史——3分钟生成符合公平住房法的带风险评分筛查报告。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/199-ai-tenant-screening-processor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 

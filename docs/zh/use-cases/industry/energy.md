@@ -6,7 +6,7 @@ AI驱动的能源行业用例。
 
 > 关联1000+电网节点传感器数据——2分钟定位故障根因，替代原来的2小时。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/116-ai-grid-outage-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -130,7 +130,7 @@ COCO的AI电网故障分析器直接集成到你现有的工作流程中，充�
 
 > 从12个数据源汇总范围1-3排放数据——生成符合GHG协议的审计就绪碳排放报告。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/131-ai-carbon-footprint-reporter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -254,7 +254,7 @@ COCO的AI碳足迹报告生成器直接集成到你现有的工作流程中，�
 
 > 实时追踪2000+太阳能板产出——10分钟内检测衰减、遮挡问题和逆变器故障。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/146-ai-solar-panel-performance-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -378,7 +378,7 @@ COCO的AI太阳能板性能监控器直接集成到你现有的工作流程中�
 
 > 监控现货价格、天气预报和需求曲线——建议次日能源市场的最优买卖时间窗口。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/178-ai-energy-trading-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -502,7 +502,7 @@ COCO的AI能源交易助手直接集成到你现有的工作流程中，充当�
 
 > 审查80页购电协议——10分钟标记价格升级条款、限电风险和不利条款。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/193-ai-power-purchase-agreement-reviewer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 

@@ -6,7 +6,7 @@ AI驱动的企业行业用例。
 
 > 3分钟扫描50页合同——签字前标记风险条款、缺失条款和异常条件。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/105-ai-contract-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -130,7 +130,7 @@ COCO的AI合同分析师直接集成到你现有的工作流程中，充当一�
 
 > 搜索USPTO、EUIPO等20+商标数据库——10分钟交付带风险评分的全面冲突报告。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/153-ai-trademark-conflict-searcher.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -254,7 +254,7 @@ COCO的AI商标冲突检索器直接集成到你现有的工作流程中，充�
 
 > 将6个部门数据综合为2页周一晨报——KPI、风险、待决事项，仅需5分钟。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/167-ai-executive-briefing-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -378,7 +378,7 @@ COCO的AI高管简报生成器直接集成到你现有的工作流程中，充�
 
 > 识别保管人、发送保全通知、追踪确认并监控合规——管理50+活跃保全，零遗漏截止日期。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/170-ai-litigation-hold-manager.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -502,7 +502,7 @@ COCO的AI诉讼保全管理器直接集成到你现有的工作流程中，充�
 
 > 从10个部门收集ESG指标——2小时内起草符合TCFD和GRI标准的披露文件并验证数据。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/185-ai-esg-disclosure-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -626,7 +626,7 @@ COCO的AI ESG披露撰写器直接集成到你现有的工作流程中，充当�
 
 > 从Jira、Salesforce等6个工具同步关键结果——生成周度OKR评分卡显示红黄绿状态。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/200-ai-okr-progress-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -750,7 +750,7 @@ COCO的AI OKR进度追踪器直接集成到你现有的工作流程中，充当�
 
 > 从8个部门更新汇编董事会资料包——将财务、战略和表决事项格式化为品牌化40页PPT。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/203-ai-board-meeting-prep-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 

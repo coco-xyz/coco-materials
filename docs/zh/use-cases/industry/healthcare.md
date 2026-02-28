@@ -6,7 +6,7 @@ AI驱动的医疗健康行业用例。
 
 > 90秒数字化患者入院表——将人口统计、保险信息和病史自动录入电子病历系统。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/106-ai-patient-intake-processor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -130,7 +130,7 @@ COCO的AI患者入院处理器直接集成到你现有的工作流程中，充�
 
 > 将患者记录与40+试验标准匹配——筛选合格候选人速度比人工快10倍。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/121-ai-clinical-trial-screener.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -254,7 +254,7 @@ COCO的AI临床试验筛查器直接集成到你现有的工作流程中，充�
 
 > 扫描访问日志、加密配置和数据流——15分钟识别HIPAA违规并生成整改任务。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/136-ai-hipaa-compliance-auditor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -378,7 +378,7 @@ COCO的AI HIPAA合规审计师直接集成到你现有的工作流程中，充�
 
 > 阅读临床记录分配ICD-10和CPT编码——首次准确率96%，拒付率降低40%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/151-ai-medical-coding-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -502,7 +502,7 @@ COCO的AI医疗编码助手直接集成到你现有的工作流程中，充当�
 
 > 将20页患者病历浓缩为结构化1页摘要——突出活跃问题、用药和待处理医嘱。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/162-ai-clinical-notes-summarizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -626,7 +626,7 @@ COCO的AI临床笔记摘要器直接集成到你现有的工作流程中，充�
 
 > 映射新旧电子病历系统间的字段——转换50万条患者记录，带验证检查和错误日志。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/168-ai-ehr-data-migrator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -750,7 +750,7 @@ COCO的AI电子病历数据迁移器直接集成到你现有的工作流程中�
 
 > 对比5家PBM的药品目录方案——找到节省22%药品支出的等效替代品，不影响疗效。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/183-ai-pharmacy-benefit-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -874,7 +874,7 @@ COCO的AI药品福利优化器直接集成到你现有的工作流程中，充�
 
 > 绘制200名医师的转诊模式——识别高价值关系缺口和拓展优先级。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/201-ai-referral-network-mapper.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
