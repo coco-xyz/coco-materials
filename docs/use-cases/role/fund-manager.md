@@ -5471,14 +5471,14 @@ Draft a 1-page emerging market risk section for the LP quarterly report covering
 
 Venture capital investment theses are typically written when a fund is being raised — often 12–24 months before significant capital is deployed. By the time a fund is 60% deployed, the market may have shifted substantially: the sector that attracted euphoric valuations at fund formation may be experiencing multiple compression, regulatory headwinds, or competitive consolidation that fundamentally changes the investment thesis. GPs who don't systematically monitor sector rotation signals continue deploying capital into deteriorating theses because they're too close to the work to see the macro shift happening around them.
 
-The signals of sector rotation in venture are diverse and require synthesis from multiple sources. Funding data (which sectors are receiving more/less venture capital than 12 months ago?) is the most direct signal, but it lags the underlying trend. Talent flows (are engineers leaving fintech for AI? Are crypto developers moving to DePIN or RWA?) are leading indicators that often precede funding trend changes by 6–12 months. Corporate M&A activity signals which sectors strategic acquirers are prioritizing. IPO market receptivity by sector determines exit feasibility. Regulatory developments can make or break entire sectors (crypto, neobanking, AI content generation, healthcare data). Synthesizing all these signals into a coherent picture of sector rotation requires sustained research capacity that most VC firms simply don't have.
+The signals of sector rotation in venture are diverse and require synthesis from multiple sources. Funding data (which sectors are receiving more/less venture capital than 12 months ago?) is the most direct signal, but it lags the underlying trend. Talent flows (are engineers leaving fintech for AI? Are developers moving between sectors?) are leading indicators that often precede funding trend changes by 6–12 months. Corporate M&A activity signals which sectors strategic acquirers are prioritizing. IPO market receptivity by sector determines exit feasibility. Regulatory developments can make or break entire sectors (neobanking, AI content generation, healthcare data). Synthesizing all these signals into a coherent picture of sector rotation requires sustained research capacity that most VC firms simply don't have.
 
 For portfolio management, sector rotation creates specific acute problems. Portfolio companies in out-of-favor sectors find it harder to raise follow-on financing, forcing GPs to either provide bridge capital (concentrating risk), accept down-rounds (diluting prior LPs), or watch companies fail for want of capital despite viable businesses. Companies in in-favor sectors face valuation inflation that makes follow-on rounds expensive. GPs who see rotation signals early can prepare portfolio companies to raise while the window is open, adjust reserve allocations, and update their LP narrative before questions arise.
 
 **How COCO Solves It**
 
 1. **Funding Trend Surveillance by Sector**: Tracks capital flow direction across VC sectors:
-   - Monitors weekly funding announcements by sector: fintech, AI/ML, climate tech, healthtech, crypto/web3, enterprise SaaS, consumer, defense tech, biotech
+   - Monitors weekly funding announcements by sector: fintech, AI/ML, climate tech, healthtech, enterprise SaaS, consumer, defense tech, biotech
    - Calculates quarter-over-quarter and year-over-year funding volume change by sector
    - Tracks median round size and median pre-money valuation by sector and stage (seed, Series A, Series B)
    - Identifies sectors with accelerating vs. decelerating funding velocity
@@ -5617,7 +5617,7 @@ Assessment needed:
 Assess regulatory risk for sectors in our portfolio.
 
 Portfolio sectors with regulatory exposure:
-Sector 1 — [FINTECH / AI / CRYPTO / HEALTHCARE DATA / OTHER]:
+Sector 1 — [FINTECH / AI / HEALTHCARE DATA / OTHER]:
 - Relevant regulators: [SEC / CFPB / FDA / FTC / other]
 - Recent regulatory actions: [describe]
 - Pending regulation: [describe — proposed rules, congressional activity]
