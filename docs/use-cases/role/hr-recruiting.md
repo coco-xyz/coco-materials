@@ -1273,186 +1273,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 :::
 
-## 10. AI Recruitment Marketing Writer
-
-> Job ad click-through +65%. Quality candidate applications +40%.
-
-::: details 🎬 Watch Demo Video
-
-<video controls src="/videos/en/093-ai-recruitment-marketing-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
-
-:::
-
-::: details Pain Point & How COCO Solves It
-
-**The Pain: Job Postings All Sound the Same — And Your Best Candidates Scroll Past**
-
-In today's fast-paced enterprise environment, job postings all sound the same — and your best candidates scroll past is a challenge that organizations can no longer afford to ignore. Studies show that teams spend an average of 15-25 hours per week on tasks that could be automated or significantly streamlined. For a mid-size company with 200 employees, this translates to over 100,000 hours of lost productivity annually — equivalent to $4.8M in labor costs that deliver no strategic value.
-
-The problem compounds over time. As teams grow and operations scale, the manual processes that "worked fine" at 20 people become unsustainable at 200. Critical information gets siloed in individual inboxes, spreadsheets, and tribal knowledge. Handoffs between teams introduce delays and errors. And the best employees — the ones you can't afford to lose — burn out fastest because they're the ones most often pulled into the operational firefighting that prevents them from doing their highest-value work. According to a 2025 Deloitte survey, 67% of professionals in enterprise organizations report that manual processes are their biggest barrier to career satisfaction and productivity.
-
-**How COCO Solves It**
-
-COCO's AI Recruitment Marketing Writer transforms this chaos into a streamlined, intelligent workflow. Here's the step-by-step process:
-
-1. **Intelligent Data Collection**: COCO's AI Recruitment Marketing Writer continuously monitors your connected systems and data sources — email, project management tools, CRMs, databases, and communication platforms. It automatically identifies relevant information, extracts key data points, and organizes them into structured workflows without any manual input.
-
-2. **Smart Analysis & Classification**: Every incoming item is analyzed using contextual understanding, not just keyword matching. COCO classifies information by urgency, topic, responsible party, and required action type. It understands the relationships between data points and identifies patterns that humans might miss when processing items individually.
-
-3. **Automated Processing & Routing**: Based on the analysis, COCO automatically routes items to the right team members, triggers appropriate workflows, and initiates standard responses. Routine tasks are handled end-to-end without human intervention, while complex items are escalated with full context to the right decision-maker.
-
-4. **Quality Validation & Cross-Referencing**: Before any output is finalized, COCO validates results against your existing records and business rules. It cross-references multiple data sources to ensure accuracy, flags inconsistencies for review, and maintains a confidence score for every automated decision.
-
-5. **Continuous Learning & Optimization**: COCO learns from every interaction — human corrections, feedback, and outcome data all feed into improving accuracy over time. It identifies bottlenecks, suggests process improvements, and adapts to changing business rules without requiring reprogramming.
-
-6. **Reporting & Insights Dashboard**: Comprehensive dashboards provide real-time visibility into process performance: throughput metrics, accuracy rates, exception patterns, team workload distribution, and trend analysis. Weekly summary reports highlight wins, flag concerns, and recommend optimization opportunities.
-
-:::
-
-::: details Results & Who Benefits
-
-**Measurable Results**
-
-- **78% reduction in manual processing time for Recruitment Marketing Writer tasks**
-- **99.2% accuracy rate compared to 94-97% for manual processes**
-- **3.5x faster turnaround from request to completion**
-- **$150K+ annual savings for mid-size teams from reduced labor and error correction costs**
-- **Employee satisfaction increased 28% as team focuses on strategic work instead of repetitive tasks**
-
-**Who Benefits**
-
-- **Marketing Teams**: Eliminate manual overhead and focus on strategic initiatives with automated recruitment marketing writer workflows
-- **Operations Managers**: Gain real-time visibility into recruitment marketing writer performance with comprehensive dashboards and trend analysis
-- **Executive Leadership**: Reduce errors and compliance risks with automated validation, audit trails, and quality checks on every transaction
-- **Compliance Officers**: Scale operations without proportionally scaling headcount — handle 3x the volume with the same team size
-
-:::
-
-::: details Practical Prompts
-
-**Prompt 1: Set Up Recruitment Marketing Writer Workflow**
-```
-Design a comprehensive recruitment marketing writer workflow for our organization. We are a enterprise company with 150 employees.
-
-Current state:
-- Most recruitment marketing writer tasks are done manually
-- Average processing time: [X hours per week]
-- Error rate: approximately [X%]
-- Tools currently used: [list tools]
-
-Design an automated workflow that:
-1. Identifies all recruitment marketing writer tasks that can be automated
-2. Defines triggers for each automated process
-3. Sets up validation rules and quality gates
-4. Creates escalation paths for exceptions
-5. Establishes reporting metrics and dashboards
-6. Includes rollout plan (phased over 4 weeks)
-
-Output: Detailed workflow diagram with decision points, automation rules, and integration requirements.
-```
-
-**Prompt 2: Analyze Current Recruitment Marketing Writer Performance**
-```
-Analyze our current recruitment marketing writer process and identify optimization opportunities.
-
-Data provided:
-- Process logs from the past 90 days
-- Team capacity and workload data
-- Error/exception reports
-- Customer satisfaction scores related to this area
-
-Analyze and report:
-1. Current throughput: items processed per day/week
-2. Average processing time per item
-3. Error rate by category and root cause
-4. Peak load times and capacity bottlenecks
-5. Cost per processed item (labor + tools)
-6. Comparison to industry benchmarks
-7. Top 5 optimization recommendations with projected ROI
-
-Format as an executive report with charts and data tables.
-
-[attach process data]
-```
-
-**Prompt 3: Create Recruitment Marketing Writer Quality Checklist**
-```
-Create a comprehensive quality assurance checklist for our recruitment marketing writer process. The checklist should cover:
-
-1. Input validation: What data/documents need to be verified before processing?
-2. Processing rules: What business rules must be followed at each step?
-3. Output validation: How do we verify the output is correct and complete?
-4. Exception handling: What constitutes an exception and how should each type be handled?
-5. Compliance requirements: What regulatory or policy requirements apply?
-6. Audit trail: What needs to be logged for each transaction?
-
-For each checklist item, include:
-- Description of the check
-- Pass/fail criteria
-- Automated vs. manual check designation
-- Responsible party
-- Escalation path if check fails
-
-Output as a structured checklist template we can use in our quality management system.
-```
-
-**Prompt 4: Build Recruitment Marketing Writer Dashboard**
-```
-Design a real-time dashboard for monitoring our recruitment marketing writer operations. The dashboard should include:
-
-Key Metrics (top section):
-1. Items processed today vs. target
-2. Current processing backlog
-3. Average processing time (last 24 hours)
-4. Error rate (last 24 hours)
-5. SLA compliance percentage
-
-Trend Charts:
-1. Daily/weekly throughput trend (line chart)
-2. Error rate trend with root cause breakdown (stacked bar)
-3. Processing time distribution (histogram)
-4. Team member workload heatmap
-
-Alerts Section:
-1. SLA at risk items (approaching deadline)
-2. Unusual patterns detected (volume spikes, error clusters)
-3. System health indicators (integration status, API response times)
-
-Specify data sources, refresh intervals, and alert thresholds for each component.
-
-[attach current data schema]
-```
-
-**Prompt 5: Generate Recruitment Marketing Writer Monthly Report**
-```
-Generate a comprehensive monthly performance report for our recruitment marketing writer operations. The report is for our VP of Operations.
-
-Data inputs:
-- Monthly processing volume: [number]
-- SLA compliance: [percentage]
-- Error rate: [percentage]
-- Cost per item: [$amount]
-- Team utilization: [percentage]
-- Customer satisfaction: [score]
-
-Report sections:
-1. Executive Summary (3-5 key takeaways)
-2. Volume & Throughput Analysis (month-over-month trends)
-3. Quality Metrics (error rates, root causes, corrective actions)
-4. SLA Performance (by category, by priority)
-5. Cost Analysis (labor, tools, total cost per item)
-6. Team Performance & Capacity
-7. Automation Impact (manual vs. automated processing comparison)
-8. Next Month Priorities & Improvement Plan
-
-Include visual charts where appropriate. Highlight wins and flag areas needing attention.
-
-[attach monthly data export]
-```
-
-:::
-
-## 11. AI Compliance Training Tracker
+## 10. AI Compliance Training Tracker
 
 > Compliance training completion: 52% → 96%. Overdue training: near zero.
 
@@ -1674,82 +1495,7 @@ Present with executive-ready visualizations described in markdown (tables, compa
 
 :::
 
-## 12. AI Job Description Writer
-
-> Generates bias-free, brand-aligned job descriptions in 30 minutes — drafting time reduced 85%, application quality scores up 34%.
-
-::: details Pain Point & How COCO Solves It
-
-Writing an effective job description is one of the most deceptively difficult tasks in human resources. On the surface it appears simple — list the responsibilities, requirements, and perks, then post the role. In practice, HR professionals and hiring managers consistently underestimate the time, expertise, and cross-functional coordination required to produce a job description that simultaneously attracts top talent, accurately reflects the role, satisfies legal and compliance requirements, and aligns with a company's employer brand.
-
-Industry research consistently shows that organizations spend an average of 3 to 5 hours per job description when the process involves back-and-forth between HR, the hiring manager, and legal reviewers. For companies that hire at scale — posting 50, 100, or 500 roles per year — this represents hundreds of hours of lost productivity annually. Worse, poorly written job descriptions create downstream damage: they attract mismatched candidates, inflate time-to-fill metrics, increase early attrition when hires realize the role differs from what was advertised, and expose organizations to legal risk if language inadvertently discriminates against protected groups.
-
-A 2023 LinkedIn Talent Trends report found that 72% of hiring managers report that the quality of job descriptions directly affects the quality of the candidate pipeline. Yet most organizations lack standardized templates, rely on outdated descriptions copied from previous postings, or defer entirely to overloaded hiring managers who may not have the HR or copywriting expertise to produce compelling content. The result is a patchwork of inconsistent, jargon-heavy, or vague postings that fail to differentiate the employer in a competitive talent market.
-
-COCO transforms this workflow by serving as an intelligent writing partner that combines deep knowledge of HR best practices, industry benchmarks, and employer branding principles. Rather than starting from a blank page, HR professionals provide COCO with a structured brief — the role title, team, key responsibilities, required and preferred qualifications, reporting structure, and any relevant context — and COCO drafts a complete, polished job description within seconds.
-
-1. **Brief intake**: The HR professional or hiring manager feeds COCO a short structured prompt including role title, department, seniority level, 3-5 core responsibilities, must-have qualifications, and any unique aspects of the role or team culture. No special formatting is required.
-
-2. **Draft generation**: COCO produces a complete job description with all standard sections: role summary, what you'll do, what you'll bring, nice-to-haves, about the team, and compensation range guidance. The output uses active language, avoids unnecessary jargon, and is calibrated to the seniority level.
-
-3. **Tone and brand alignment**: The HR team can instruct COCO to match their employer voice — formal and corporate, startup-casual, mission-driven — and COCO adjusts vocabulary, sentence structure, and emphasis accordingly. This ensures consistency across all postings company-wide.
-
-4. **Compliance review pass**: COCO flags potentially problematic language — age-related terms ("young and energetic"), gendered language, unnecessary physical requirements — before the description is finalized, reducing legal review cycles.
-
-5. **Iterative refinement**: If the hiring manager wants more emphasis on growth opportunities, or legal wants a specific disclaimer added, HR simply gives COCO a follow-up instruction and receives a revised version instantly.
-
-6. **Multi-format export**: COCO can reformat the same description for different posting platforms — a longer LinkedIn version, a shorter Indeed-optimized version, or an internal intranet posting — without requiring the HR team to rewrite from scratch.
-
-:::
-
-::: details Results & Who Benefits
-
-**Measurable Results**
-
-- **Job description drafting time** reduced from 3-5 hours to under 30 minutes per role (85% time reduction)
-- **Consistency scores** across job postings improved by 60% when measured against brand voice rubrics
-- **Legal review cycles** reduced from an average of 2.3 rounds to under 1 round due to cleaner first drafts
-- **Application quality scores** (hiring manager rating of candidate pool relevance) improved by 34% at pilot organizations
-- **Time-to-fill** reduced by an average of 8 days when JDs accurately reflect role requirements upfront
-
-**Who Benefits**
-
-- **HR Business Partners** who own the hiring process end-to-end and need to produce high-quality content quickly across many open roles simultaneously
-- **Talent Acquisition Specialists** responsible for posting consistency, employer brand representation, and pipeline quality
-- **Hiring Managers** who understand the role deeply but lack the writing expertise or time to craft compelling descriptions without HR scaffolding
-- **HR Operations / Compliance Teams** who need to ensure all job descriptions meet regulatory standards before publication
-
-:::
-
-::: details 💡 Practical Prompts
-
-**Prompt 1 — Full draft from scratch**
-```
-Write a job description for a [Senior Product Manager] at [a B2B SaaS company with 300 employees]. The role sits within the [Platform] team and reports to the [VP of Product]. Core responsibilities include [roadmap ownership, cross-functional alignment with engineering, and customer discovery]. Requirements: [5+ years in product management, experience with API products, strong data fluency]. Nice-to-haves: [fintech domain experience, MBA]. Our culture is [collaborative and low-ego]. Use an engaging, direct tone and avoid corporate jargon.
-```
-
-**Prompt 2 — Rewrite an existing JD**
-```
-Here is our current job description for [Data Analyst]: [paste existing text]. Please rewrite it to: (1) lead with the impact of the role rather than a generic company overview, (2) use active voice throughout, (3) split requirements into "must-have" and "nice-to-have" sections, and (4) add a brief "why join us" section that highlights [remote-first culture and strong learning budget].
-```
-
-**Prompt 3 — Multi-level role family**
-```
-We are hiring for three levels of the same role: [Junior, Mid, and Senior Software Engineer]. Please write three job descriptions that share a common intro about our engineering culture at [Company Name] but clearly differentiate the experience expectations, scope of responsibilities, and growth opportunities for each level. Use consistent formatting across all three.
-```
-
-**Prompt 4 — Employer brand adaptation**
-```
-Take this standard job description for [HR Generalist] and rewrite it in the voice of our employer brand. Our brand pillars are: [bold, human, and growth-obsessed]. Key phrases we use: ["we build things that matter," "no bureaucracy," "you own your career here"]. Remove any passive voice and replace generic phrases like "competitive salary" with specific details: [salary range $65K–$80K, 20 days PTO, $2,000 annual learning stipend].
-```
-
-**Prompt 5 — Compliance and bias check**
-```
-Review the following job description for [Operations Manager] and identify: (1) any language that may inadvertently screen out protected groups (gender-coded words, age bias, unnecessary physical requirements), (2) vague qualifiers that could be replaced with specific criteria, and (3) any missing legally recommended sections (equal opportunity statement, accommodation notice). Provide a revised version with all issues corrected. Original JD: [paste text].
-```
-
-:::
-## 13. AI Resume Screener and Shortlister
+## 11. AI Resume Screener and Shortlister
 
 > Screens 500 resumes in hours instead of weeks — 75% reduction in screening time, shortlist-to-hire conversion up 42%.
 
@@ -1828,7 +1574,7 @@ Here are the screening decisions made by two different recruiters for the same [
 ```
 
 :::
-## 14. AI Interview Question Generator
+## 12. AI Interview Question Generator
 
 > Structured interview guides in under 45 minutes — inter-rater reliability up 55%, legally problematic questions reduced 80%.
 
@@ -1905,7 +1651,7 @@ Design [5] situational interview questions for a [VP of Operations] role at a [l
 ```
 
 :::
-## 15. AI Offer Letter Composer
+## 13. AI Offer Letter Composer
 
 > Personalized, legally compliant offer letters in under 15 minutes — acceptance rate up 18%, legal compliance incidents reduced 85%.
 
@@ -1997,7 +1743,7 @@ A candidate [Alex Morgan] verbally declined our offer for [Head of UX Design] ci
 ```
 
 :::
-## 16. AI Employee Performance Review Writer
+## 14. AI Employee Performance Review Writer
 
 > Specific, behavior-grounded performance reviews at scale — manager writing time down 65%, review quality scores up 48%.
 
@@ -2088,7 +1834,7 @@ I am preparing for our [Q4 review calibration session]. I have [12] direct manag
 ```
 
 :::
-## 17. AI Onboarding Plan Builder
+## 15. AI Onboarding Plan Builder
 
 > Role-specific 90-day onboarding plans that accelerate productivity — time-to-productivity up 34%, 90-day retention up 28%.
 
@@ -2163,7 +1909,7 @@ Generate a detailed hour-by-hour schedule for [Alex Kim's] first week at [TechSt
 ```
 
 :::
-## 18. AI Employee Survey Analyzer
+## 16. AI Employee Survey Analyzer
 
 > 100% open-text coverage in days, not weeks — analysis cycle down from 4-6 weeks to 3-5 days, attrition prediction up 41%.
 
@@ -2238,7 +1984,7 @@ We ran our annual DEI climate survey. I will share the data split by [gender, et
 ```
 
 :::
-## 19. AI Compensation Benchmarker
+## 17. AI Compensation Benchmarker
 
 > Market-calibrated compensation in days, not weeks — benchmarking cycle down 75%, offer rejections for compensation down 31%.
 
@@ -2315,7 +2061,7 @@ I need to prepare talking points for [15] managers who will be having annual com
 ```
 
 :::
-## 20. AI L&D Curriculum Designer
+## 18. AI L&D Curriculum Designer
 
 > Compress curriculum design from months to weeks — 6-12 month design cycles to 4-8 weeks, L&D capacity increased 4x.
 
@@ -2390,7 +2136,7 @@ I have designed a [Leadership Development Program] for [senior individual contri
 ```
 
 :::
-## 21. AI Employee Handbook Updater
+## 19. AI Employee Handbook Updater
 
 > Keep handbooks current and compliant — update cycle from 4-6 months to 4-6 weeks, legal review costs down 55%.
 
@@ -2465,7 +2211,7 @@ We are rolling out an updated employee handbook for [CompanyName] effective [Mar
 ```
 
 :::
-## 22. AI Workforce Planning Advisor
+## 20. AI Workforce Planning Advisor
 
 > Transform reactive headcount management into strategic foresight — planning cycle halved, attrition surprises down 40%.
 
@@ -2619,7 +2365,7 @@ Format for a [C-suite / board] audience.
 ```
 
 :::
-## 23. AI Talent Pipeline Builder
+## 21. AI Talent Pipeline Builder
 
 > Build candidate pipelines before roles open — time-to-fill down 35-50 days, quality-of-hire up 23%.
 
@@ -2763,7 +2509,7 @@ Please produce:
 ```
 
 :::
-## 24. AI DEI Reporting Analyzer
+## 22. AI DEI Reporting Analyzer
 
 > Turn DEI data into targeted action — identify 4-6 funnel-stage gaps invisible in summary reporting, analysis time down 85%.
 
@@ -2925,7 +2671,7 @@ Tone: credible, direct, neither overclaiming progress nor catastrophizing challe
 ```
 
 :::
-## 25. AI Employee Retention Risk Predictor
+## 23. AI Employee Retention Risk Predictor
 
 > Identify flight risks 6-9 months before departure — preventable attrition down 25-35%, $1.5-3M in replacement cost avoided.
 
@@ -3079,7 +2825,7 @@ Please:
 ```
 
 :::
-## 26. AI Benefits Administration Advisor
+## 24. AI Benefits Administration Advisor
 
 > Reduce enrollment errors 45% and compliance failures — plain-language communications that employees actually read and act on.
 
@@ -3237,7 +2983,7 @@ Please draft:
 ```
 
 :::
-## 27. AI Succession Planning Assistant
+## 25. AI Succession Planning Assistant
 
 > Go from 28% to 78% succession coverage in 12 months — leadership transition cost down 40%, internal promotion rate up to 65%.
 
@@ -3397,7 +3143,7 @@ Please help me design:
 ```
 
 :::
-## 28. AI HR Metrics Dashboard Narrator
+## 26. AI HR Metrics Dashboard Narrator
 
 > Turn HR numbers into leadership decisions — executive meeting explanation time down 35%, decision-to-data lag down 50%.
 
@@ -3574,7 +3320,7 @@ Please draft a 500-600 word all-hands narrative that:
 ```
 
 :::
-## 29. AI Employee Onboarding Experience Designer
+## 27. AI Employee Onboarding Experience Designer
 
 > Companies spend $4,000–$7,000 recruiting and hiring a single employee, then deliver an onboarding experience that consistently fails to set them up for success
 
@@ -3749,7 +3495,7 @@ Identify:
 ```
 
 :::
-## 30. AI HR Compensation Benchmarking Engine
+## 28. AI HR Compensation Benchmarking Engine
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
@@ -3948,7 +3694,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 31. AI HR Performance Review Writer
+## 29. AI HR Performance Review Writer
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
@@ -4147,7 +3893,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 32. AI HR Employee Engagement Pulse Analyzer
+## 30. AI HR Employee Engagement Pulse Analyzer
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
 
@@ -4346,7 +4092,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 33. AI HR Job Description Optimization Writer
+## 31. AI HR Job Description Optimization Writer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
@@ -4545,7 +4291,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 34. AI HR Training Needs Assessment Engine
+## 32. AI HR Training Needs Assessment Engine
 
 > Organizations operating in Education face mounting pressure to deliver results with constrained resources
 
@@ -4744,7 +4490,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 35. AI HR Recruitment Pipeline Optimizer
+## 33. AI HR Recruitment Pipeline Optimizer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
@@ -4943,7 +4689,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 36. AI HR Succession Planning Advisor
+## 34. AI HR Succession Planning Advisor
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
@@ -5142,7 +4888,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 37. AI HR Organizational Design Advisor
+## 35. AI HR Organizational Design Advisor
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
@@ -5341,7 +5087,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 38. AI Workforce Planning Scenario Modeler
+## 36. AI Workforce Planning Scenario Modeler
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
@@ -5540,7 +5286,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 39. AI Exit Interview Insights Analyzer
+## 37. AI Exit Interview Insights Analyzer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 

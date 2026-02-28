@@ -4431,3 +4431,304 @@ Include: annotated Python or R code for each step.
 ```
 
 :::
+
+## 24. AI Model Monitoring and Drift Alerting Engine
+
+> Tracks production model performance metrics, detects data drift and concept drift, and generates diagnostic reports when model accuracy degrades.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Production Models Decay Silently Until Business Impact Is Undeniable**
+
+ML models deployed in production are not static. Data distributions shift, user behavior changes, and upstream systems are modified. Without continuous monitoring, models silently degrade — prediction accuracy drifts and decision quality erodes. The first signal organizations often receive is a business metric decline: fraud losses spike, churn predictions miss, or revenue forecasts go wrong. By then, the model has been degraded for weeks or months. Monitoring production models manually is not feasible at scale, and alerting thresholds set conservatively cause genuine drift to go undetected.
+
+**How COCO Solves It**
+
+1. **Prediction Distribution Monitoring**: COCO tracks output distributions for classification and regression models, flagging shifts in prediction confidence, class balance, or output range.
+2. **Feature Drift Detection**: COCO monitors input feature distributions and identifies statistical drift against training baseline using PSI, KL divergence, and other tests.
+3. **Concept Drift Analysis**: COCO identifies when model performance degrades even when input distributions appear stable — signaling that the feature-target relationship has changed.
+4. **Root Cause Diagnostic Reports**: When drift is detected, COCO generates structured reports identifying the most likely contributing features and suggested remediation paths.
+5. **Retraining Trigger Recommendations**: COCO applies configured performance thresholds to recommend whether models should be retrained, recalibrated, or replaced.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Drift detection time**: Average time to detect meaningful model degradation drops from **weeks to hours** with continuous monitoring
+- **Business impact reduction**: Organizations catch model performance issues before business metric impact in **80%+** of cases
+- **Diagnostic time**: Root cause identification drops from **3–5 days to same-day** with AI-generated diagnostic reports
+- **False positive rate**: Structured drift analysis reduces alert noise by **60%** vs. simple threshold-based monitoring
+- **Retraining efficiency**: Clear degradation diagnosis reduces unnecessary full retrains by **40%**
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Model Drift Diagnostic Report**
+```
+Analyze the following model monitoring data and produce a drift diagnostic report.
+
+Model: [name and version]
+Model type: [classification / regression / ranking]
+Monitoring period: [date range]
+
+Baseline statistics (from training/validation):
+[describe baseline feature distributions, prediction distributions, and performance metrics]
+
+Current period statistics:
+[describe current feature distributions, prediction distributions, and performance metrics]
+
+Performance metrics comparison:
+[e.g., Accuracy: 94.2% → 87.1%; AUC-ROC: 0.91 → 0.84]
+
+Analyze:
+1. Performance degradation severity: Critical / High / Medium / Low
+2. Type of drift detected: data drift / concept drift / both / undetermined
+3. Top 3 features contributing to drift with statistical evidence
+4. Most likely business explanation for the drift
+5. Recommended action: immediate retrain / targeted recalibration / monitor / investigate upstream
+6. Urgent escalation needed: Yes / No with rationale
+```
+
+**Prompt 2: Model Retraining Decision Framework**
+```
+Help me decide whether and how to retrain the following degraded model.
+
+Model: [name] used for [describe business purpose]
+Business impact of degradation: [describe]
+Data available for retraining: [describe — volume, recency, label quality]
+Drift type identified: [data drift / concept drift / both]
+Time since last training: [X months]
+Retraining cost estimate: [describe — engineering time, compute cost, validation effort]
+
+Evaluate:
+1. Full retrain vs. incremental fine-tuning: which approach is appropriate and why
+2. Data requirements: minimum volume, recency window, and label requirements
+3. Feature engineering review: should any features be updated, removed, or added?
+4. Validation strategy: how to confirm the retrained model addresses the drift
+5. Rollout approach: shadow deployment, A/B test, or direct replacement
+6. Expected performance recovery timeline
+```
+
+**Prompt 3: Automated Model Health Summary**
+```
+Generate a weekly model health summary report for the following model portfolio.
+
+Reporting week: [date range]
+Models in portfolio: [list model names, types, and business purposes]
+
+For each model:
+[Model name]: Predictions made: [X], Performance metric: [value], Drift alerts: [Y], Data completeness: [Z%], Last retrain: [date]
+
+Generate a weekly health summary including:
+1. Portfolio-level health overview: % models healthy / watch / degraded / critical
+2. Models requiring immediate action with priority ranking
+3. Models to monitor this week with specific metrics to watch
+4. Scheduled retraining completions and new models going live
+5. Notable trends across the portfolio
+6. Recommended priorities for the data science team this week
+```
+
+:::
+
+## 25. AI A/B Test Design and Statistical Analysis Assistant
+
+> Designs statistically rigorous A/B tests with proper sample size calculations, analyzes results for significance, and generates decision-ready experiment reports.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Most A/B Tests Are Underpowered, Misanalyzed, or Interpreted Incorrectly**
+
+Most organizations run tests poorly. Sample sizes are set by gut feel rather than statistical power calculations. Tests are stopped early when early results look promising — creating peeking bias. Multiple metrics are tested without corrections for multiple comparisons. The consequences are costly: product teams ship changes that hurt engagement because underpowered tests failed to detect negative effects, and "winning" tests fail to replicate in production because significance thresholds were too low.
+
+**How COCO Solves It**
+
+1. **Experiment Design Consultation**: COCO helps formulate testable hypotheses, identifies the primary metric and guardrail metrics, and designs the test structure to minimize threats to validity.
+2. **Sample Size and Power Calculation**: COCO calculates required sample sizes based on minimum detectable effect, baseline conversion rate, desired power, and significance threshold.
+3. **Test Duration Estimation**: COCO estimates required test runtime and calculates risk of false positives from early stopping.
+4. **Statistical Analysis**: COCO analyzes experiment results using appropriate statistical tests with corrections for multiple comparisons.
+5. **Decision-Ready Reports**: COCO generates experiment closure reports with effect size estimates, confidence intervals, segment breakdowns, and a clear ship/no-ship recommendation.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Underpowered test rate**: Teams applying COCO-assisted design reduce underpowered experiments from **60%+ to under 15%** of the test portfolio
+- **False positive rate**: Proper significance thresholds and multiple comparison corrections reduce false positives by **50–70%**
+- **Analysis time**: Generating a complete experiment analysis report drops from **4–8 hours to 30–60 minutes**
+- **Shipping quality**: Teams using rigorous experiment design report **30% fewer regressions** from shipped features
+- **Experiment velocity**: Faster design and analysis review cycles allow teams to run **40% more experiments** per quarter
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: A/B Test Design and Sample Size Calculator**
+```
+Design an A/B test for the following product hypothesis and calculate the required sample size.
+
+Hypothesis: [describe what you believe and what change you are testing]
+Primary metric: [e.g., checkout conversion rate, 7-day retention]
+Baseline metric value: [current rate/value]
+Minimum detectable effect: [smallest change that would be business-meaningful]
+Statistical significance threshold: [typically 95% or 99%]
+Statistical power: [typically 80% or 90%]
+Test type: [one-sided / two-sided]
+Weekly traffic to the test surface: [users/week]
+
+Calculate:
+1. Required sample size per variant
+2. Estimated test duration at current traffic levels
+3. Recommended launch and end dates
+4. Guardrail metrics to monitor
+5. Key assumptions and risks in this test design
+6. Randomization unit recommendation: user-level / session-level / account-level
+```
+
+**Prompt 2: Experiment Results Statistical Analysis**
+```
+Analyze the following A/B test results and determine whether the experiment should ship.
+
+Experiment name: [name]
+Hypothesis: [what you were testing]
+Test duration: [start date to end date]
+Sample sizes: Control: [N], Treatment: [N]
+
+Results:
+Primary metric — Control: [value ± CI], Treatment: [value ± CI]
+Guardrail metrics: [list with control and treatment values]
+
+Pre-specified significance threshold: [95%]
+Pre-specified MDE: [X%]
+
+Analyze:
+1. Primary metric: Is the result statistically significant? What is the p-value and CI?
+2. Effect size: Is the observed effect practically meaningful?
+3. Guardrail metrics: Were any guardrails violated?
+4. Segment analysis: Are there interaction effects across key segments?
+5. Decision recommendation: Ship / No-Ship / Run-Longer with clear rationale
+6. Limitations and caveats that should accompany the decision
+```
+
+**Prompt 3: Multi-Metric Experiment Report Generator**
+```
+Generate a complete experiment closure report for the following A/B test.
+
+Experiment: [name]
+Hypothesis: [describe]
+Test dates: [start] to [end]
+Traffic: [% of eligible users, total N per variant]
+Summary results: [primary metric and secondary metrics with values, significance, and direction]
+Segment breakdowns: [results by key segments if available]
+Decision: [Ship / No-Ship / Iterate] and rationale: [brief explanation]
+
+Generate a closure report including:
+1. Executive summary (3 sentences: what was tested, what we found, what we decided)
+2. Methodology section (test design, randomization, metrics definitions)
+3. Results section (formatted table with statistical summary)
+4. Segment insights (any meaningful differential effects)
+5. Business impact estimate (projected annual impact if shipped to 100% of users)
+6. Learnings and follow-up experiments to consider
+```
+
+:::
+
+## 26. AI Feature Engineering Recommendation Engine
+
+> Analyzes raw datasets and existing features to recommend high-potential derived features, transformations, and interaction terms — with expected predictive value rationale.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Feature Engineering Is the Highest-Value and Most Time-Consuming Step in ML Development**
+
+Feature engineering consistently has more impact on model performance than algorithm choice — yet it is the most time-consuming and knowledge-intensive part of the ML development process. A skilled data scientist can spend 60–70% of total project time on feature creation, selection, and validation. For less experienced practitioners, the challenge is greater still: knowing which transformations to try, which interaction terms to create, and how to encode domain knowledge requires years of experience. A dataset with 50 raw variables has thousands of possible first-order transformations and tens of thousands of potential interaction terms — manual exploration is both slow and incomplete.
+
+**How COCO Solves It**
+
+1. **Dataset Analysis**: COCO examines raw feature distributions, data types, missing value patterns, and correlations to understand the data landscape.
+2. **Domain-Aware Feature Suggestions**: COCO generates feature engineering recommendations grounded in domain knowledge (finance, healthcare, retail, etc.).
+3. **Transformation Recommendations**: COCO recommends appropriate transformations (log, polynomial, normalization, binning) based on distribution characteristics.
+4. **Interaction Term Identification**: COCO identifies potentially valuable interaction terms based on domain logic and statistical correlation patterns.
+5. **Implementation Code Generation**: COCO generates Python/Pandas code for each recommended feature, ready for data scientists to review and incorporate.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Feature engineering time**: AI-assisted recommendation reduces exploration time by **40–60%** for typical tabular datasets
+- **Model performance lift**: Teams using AI-suggested features achieve **5–15% improvement** in primary metric over manually engineered baselines
+- **Junior data scientist effectiveness**: Junior practitioners approach senior practitioner feature quality within **2–3 months** vs. **12–18 months** of experience-building
+- **Feature set coverage**: AI exploration generates **3–5x more candidate features** for evaluation vs. manual approaches
+- **Code quality**: AI-generated feature implementations reduce pipeline errors and increase reproducibility
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Feature Engineering Brainstorm for Classification Problem**
+```
+Recommend feature engineering approaches for the following classification problem.
+
+Problem: [describe the prediction task — e.g., customer churn prediction, fraud detection]
+Target variable: [binary / multiclass — describe]
+Prediction horizon: [e.g., 30-day churn]
+
+Raw features available:
+[list feature names, types, and descriptions]
+
+Domain context:
+[describe the business context — what drives the target behavior]
+
+Recommend:
+1. Time-based features to derive from date/timestamp columns
+2. Ratio and rate features (e.g., support tickets per active day)
+3. Behavioral trajectory features (trend indicators comparing recent vs. historical activity)
+4. Domain-specific interaction terms with rationale
+5. Categorical encoding recommendations for high-cardinality features
+6. Features to consider from external data sources
+
+For each recommendation: feature name, construction logic, and expected predictive value rationale.
+```
+
+**Prompt 2: Feature Selection and Importance Analysis**
+```
+Help me select the most valuable features for the following trained model.
+
+Model type: [gradient boosting / random forest / logistic regression / neural network]
+Training dataset size: [N rows, M features]
+Target: [describe]
+Feature importance scores (top 20): [list feature names with importance scores]
+Correlation matrix findings: [describe any high-correlation feature pairs]
+Current model performance: [primary metric value]
+Target performance improvement: [desired lift]
+
+Analyze:
+1. Which features appear redundant based on high correlation and similar importance?
+2. Which features to consider dropping (low importance, high correlation with stronger feature, data leakage risk)?
+3. Are there feature interaction terms suggested by the importance pattern?
+4. Features that may be causing overfitting based on their data type and importance score
+5. Recommended final feature set with rationale
+6. Expected impact on model performance and training time from the proposed selection
+```
+
+**Prompt 3: Feature Pipeline Code Generator**
+```
+Generate Python feature engineering code for the following feature specifications.
+
+Dataset: [describe the raw data structure]
+Target features to create:
+[list each feature to create with its construction logic, e.g.:
+- days_since_last_purchase: days between last_purchase_date and snapshot_date
+- purchase_frequency_90d: count of purchases in last 90 days / 90
+- high_value_customer_flag: 1 if avg_order_value > $500, else 0]
+
+Generate clean, production-ready Python/Pandas code that:
+1. Creates all specified features in a single function
+2. Handles null values and edge cases for each feature
+3. Adds appropriate type casting
+4. Includes docstrings for each feature
+5. Follows best practices for pandas performance (avoid iterrows, use vectorized operations)
+6. Includes a simple unit test for each feature transformation
+```
+
+:::

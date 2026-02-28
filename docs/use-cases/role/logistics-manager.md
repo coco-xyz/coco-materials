@@ -3762,3 +3762,329 @@ Please generate a business case document including:
 ```
 
 :::
+
+## 24. AI Carrier Performance Scorecard Builder
+
+> Aggregates shipment data, on-time delivery rates, damage claims, and cost metrics to produce carrier scorecards — identifying which carriers to retain, renegotiate, or replace.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Carrier Management Decisions Are Made Without Systematic Performance Data**
+
+Most logistics teams manage 5–15 active carrier relationships and make routing, volume allocation, and contract renewal decisions based on incomplete, anecdotal performance information. Operational teams track on-time delivery in one system, finance tracks freight costs in another, and claims data lives in yet another. Synthesizing this data into a carrier performance view requires manual extraction and compilation that takes hours and is done inconsistently — if it is done at all.
+
+Without systematic carrier scorecards, poor-performing carriers are retained because relationships are easier to maintain than to replace. High-performing carriers don't receive the volume increases that would deepen the relationship and improve negotiating leverage. Carrier contract renewals happen on the carrier's timeline and terms because the shipper lacks the performance evidence to negotiate from a position of strength.
+
+**How COCO Solves It**
+
+1. **Multi-Source Data Aggregation**: COCO pulls shipment records, POD scans, claims history, and invoice data from TMS and ERP systems to build a consolidated carrier performance database.
+2. **KPI Calculation and Trending**: COCO calculates on-time delivery rate, damage rate, claims resolution time, accessorial frequency, and cost-per-mile trends for each carrier by lane and service type.
+3. **Scorecard Generation**: COCO builds structured carrier scorecards with performance ratings, trend indicators, and peer benchmarks for quarterly business reviews.
+4. **Volume Allocation Recommendations**: COCO recommends volume allocation changes based on carrier performance — increasing share to high performers and reducing exposure to chronic underperformers.
+5. **Negotiation Brief Preparation**: COCO generates carrier negotiation briefs with performance data, market benchmarks, and recommended contractual terms for upcoming renewals.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Carrier scorecard preparation**: Quarterly scorecard generation drops from **8–12 hours to under 2 hours** per carrier
+- **On-time delivery improvement**: Systematic performance management and volume reallocation improves network-wide OTD from **78–82% to 88–93%** within two quarters
+- **Claims reduction**: Carriers aware of systematic claims tracking reduce damage rates by **25–35%** vs. carriers with no performance visibility
+- **Freight cost reduction**: Data-driven carrier negotiations supported by performance evidence achieve **8–12% lower rates** at renewal vs. negotiation without data
+- **Carrier relationship quality**: Regular QBRs with structured scorecards improve carrier responsiveness and capacity availability during peak periods
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Carrier Performance Scorecard Generator**
+```
+Generate a carrier performance scorecard for the following carrier based on the data below.
+
+Carrier: [name]
+Evaluation period: [quarter / year]
+Service types: [FTL / LTL / parcel / intermodal]
+Primary lanes: [list key origin-destination pairs]
+
+Performance data:
+- Total shipments: [N]
+- On-time delivery rate: [X%] (define on-time as: [X hours/days from pickup to delivery])
+- Late shipments: [N] — primary reason categories: [list]
+- Damage/claim rate: [X%], total claims filed: [N], total claim value: $[X]
+- Average transit time vs. standard: [X days, Y% faster/slower than contracted]
+- Invoice accuracy rate: [X%], accessorial charges vs. contract: [describe]
+- Cost per mile: $[X] vs. prior period: $[Y] vs. market rate: $[Z]
+
+Generate a carrier scorecard including:
+1. Overall performance rating: A / B / C / D with rationale
+2. KPI summary table with current period vs. prior period vs. target
+3. Strengths and areas for improvement
+4. Volume allocation recommendation: Increase / Maintain / Reduce
+5. Contract action recommendation: Renew / Renegotiate / Qualify alternative
+6. QBR agenda topics for the carrier discussion
+```
+
+**Prompt 2: Carrier Negotiation Brief**
+```
+Prepare a carrier contract negotiation brief for the following upcoming renewal.
+
+Carrier: [name]
+Current contract expiration: [date]
+Current contracted rates: [describe or attach rate schedule]
+Contract volume: [annual shipments and spend]
+Performance summary: [paste key scorecard metrics]
+
+Market context:
+- Current spot market rates for primary lanes: [describe vs. contracted]
+- Carrier financial health signals: [describe any relevant news or capacity situation]
+- Alternative carrier options: [list qualified alternatives and their approximate rates]
+
+Prepare a negotiation brief including:
+1. Negotiation objectives: [target rate reduction %, service improvements, capacity commitments]
+2. Performance leverage points: [where the carrier underperformed relative to contract]
+3. Market leverage points: [where spot rates or alternative options give us pricing leverage]
+4. Opening position and fallback positions for each key term
+5. Non-rate terms to negotiate (capacity guarantees, claims resolution SLA, fuel surcharge formula)
+6. Walk-away scenario: under what conditions should we not renew?
+7. Talking points for the opening negotiation conversation
+```
+
+**Prompt 3: Network Lane Performance Analysis**
+```
+Analyze the following lane-level performance data and identify optimization opportunities.
+
+Analysis period: [date range]
+Total lanes analyzed: [N]
+
+Lane data (for each key lane):
+[Origin city/region] → [Destination city/region]: Shipments: [N], OTD: [X%], Avg transit: [X days], Cost/lb: $[X], Carriers used: [list]
+
+Network-wide benchmarks:
+- Target OTD: [X%]
+- Target cost/lb: $[X]
+- Max acceptable transit time: [X days]
+
+Analyze:
+1. Top 5 underperforming lanes by OTD rate with root cause hypotheses
+2. Top 5 most expensive lanes vs. benchmarks with optimization options
+3. Lanes where carrier consolidation could reduce complexity and cost
+4. Lanes with inconsistent transit times suggesting carrier or mode suitability issues
+5. Recommended mode changes for lanes where alternative modes (intermodal, LTL consolidation) could reduce cost without sacrificing service
+6. Priority action list ranked by potential impact
+```
+
+:::
+
+## 25. AI Inbound Freight Cost Analyzer
+
+> Analyzes inbound freight invoices against purchase orders, contracted rates, and delivery terms to identify overcharges, rate deviations, and cost reduction opportunities.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Inbound Freight Costs Are Poorly Controlled and Systematically Overcharged**
+
+Inbound freight — transportation charges incurred on supplier shipments — represents a significant and under-managed cost for most manufacturing, distribution, and retail organizations. Unlike outbound freight, which logistics teams typically control directly, inbound freight is often controlled by suppliers who use their preferred carriers at their contracted rates. Prepaid terms give suppliers little incentive to optimize freight costs. The result is that companies routinely pay for expedited shipments when standard delivery would have sufficed, pay carrier rates that are above the buyer's own contracted rates, and pay accessorial charges that are unjustified.
+
+Invoice auditing for inbound freight is even less systematic than for outbound. Freight invoices are processed by accounts payable based on amounts submitted, without systematic comparison to contracted rates or delivery terms. Rate errors, duplicate billings, and unauthorized accessorial charges accumulate undetected.
+
+**How COCO Solves It**
+
+1. **Invoice vs. Contract Rate Comparison**: COCO matches each freight invoice line against contracted rate tariffs and flags deviations above a configurable threshold.
+2. **Delivery Terms Audit**: COCO identifies shipments billed under prepaid terms where collect terms would have applied the buyer's lower rates, and flags where suppliers changed delivery terms without authorization.
+3. **Accessorial Charge Audit**: COCO reviews accessorial charges (fuel surcharge, liftgate, inside delivery, detention) against contracted terms and industry norms, flagging overbilling.
+4. **Carrier Selection Analysis**: COCO compares supplier-selected carrier rates against the buyer's preferred carrier rates for the same lanes, quantifying the cost of carrier non-compliance.
+5. **Recovery Claim Generation**: COCO drafts freight invoice dispute letters and recovery claim documentation for overcharges identified in the audit.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Invoice audit coverage**: Moving from sample-based to comprehensive audit increases overbilling detection by **5–10x**
+- **Recovery rate**: Organizations conducting systematic freight audits recover **2–4%** of total freight spend in overcharges annually
+- **Accessorial charge reduction**: Carrier notification of systematic auditing reduces unauthorized accessorial charges by **30–40%**
+- **Inbound freight cost reduction**: Identifying and correcting delivery terms on key supplier lanes reduces inbound freight cost by **8–15%**
+- **AP process efficiency**: Automated rate comparison eliminates manual invoice review for **85–90%** of compliant invoices, focusing auditor attention on exceptions
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Freight Invoice Audit Report**
+```
+Audit the following freight invoices against contracted rates and identify overcharges and discrepancies.
+
+Audit period: [date range]
+Total invoices: [N], Total amount: $[X]
+Contracted rate tariff: [describe or attach — carrier, lane, mode, rate basis]
+Delivery terms: [prepaid / collect / third-party by agreement]
+
+Invoice data:
+[For each invoice or a representative sample:
+Invoice #: [X], Carrier: [name], Origin: [city], Destination: [city], Weight: [lbs], Mode: [FTL/LTL], Billed rate: $[X], Accessorials billed: [list and amounts]]
+
+Contracted rates for these lanes:
+[list contracted rates for the same carrier/lane combinations]
+
+Audit and identify:
+1. Rate overcharges: invoices billed above contracted rates (list with variance amount)
+2. Accessorial overbilling: charges not permitted under contract or above contracted rates
+3. Delivery terms violations: prepaid shipments that should have been collect
+4. Duplicate invoices: same shipment billed more than once
+5. Weight discrepancies: invoiced weight materially different from PO/receiving weight
+6. Total recovery opportunity: sum of all overcharge categories
+7. Priority recovery targets: top 10 invoices to dispute first
+```
+
+**Prompt 2: Supplier Freight Terms Conversion Analysis**
+```
+Analyze the following supplier shipping data and quantify the savings from converting prepaid to collect freight terms.
+
+Spend summary:
+- Supplier: [name]
+- Current inbound freight charges (prepaid — billed by supplier): $[X]/year
+- Carrier(s) used by supplier: [list]
+- Shipment volume: [N shipments/year], average weight: [X lbs], primary lanes: [list]
+
+Our contracted rates for equivalent lanes and carriers:
+[list our contracted rates for the carriers and lanes this supplier uses]
+
+Analyze:
+1. Estimated annual freight cost under our contracted rates for these shipments
+2. Estimated savings from converting to collect terms: $[X] per year
+3. Operational requirements to convert to collect (routing guide, carrier setup, billing process)
+4. Supplier negotiation approach: how to propose the change in a way that maintains the supplier relationship
+5. Implementation timeline and steps
+6. Payback period for any implementation costs
+```
+
+**Prompt 3: Freight Dispute Letter Generator**
+```
+Draft a freight invoice dispute letter for the following overcharge.
+
+Carrier: [name]
+Invoice number: [X]
+Invoice date: [date]
+Shipment details: Origin [city], Destination [city], Weight [lbs], Mode [FTL/LTL], Shipment date [date]
+Amount billed: $[X]
+
+Dispute basis:
+[e.g., "Billed rate $X.XX/cwt exceeds contracted rate of $Y.YY/cwt per Rate Agreement dated [date], Section [X]"
+or "Detention charge of $[X] billed without documented carrier notification as required under contract Section [Y]"
+or "Fuel surcharge applied at [Z%] vs. contracted cap of [W%] for this weight break"]
+
+Amount in dispute: $[X]
+
+Draft a formal dispute letter that:
+1. Clearly identifies the invoice and shipment in question
+2. States the specific contractual basis for the dispute with section references
+3. Provides the correct calculation of what should have been charged
+4. Requests credit or corrected invoice within [N] business days
+5. References attachment requirements (supporting rate documentation)
+6. Maintains a professional, factual tone without being adversarial
+```
+
+:::
+
+## 26. AI Cold Chain Compliance Monitor
+
+> Monitors temperature data from cold chain shipments, identifies excursion events, generates compliance reports, and coordinates investigation and disposition of affected inventory.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Temperature Excursions in Cold Chain Shipments Are Discovered Too Late**
+
+Cold chain integrity is critical for food, pharmaceutical, biotech, and specialty chemical products. A temperature excursion — even brief — can render entire shipments unusable, trigger regulatory non-compliance, or create product liability exposure. Yet most organizations discover temperature excursions after the fact, when the product has already arrived at its destination and the window for intervention has closed. The investigation that follows requires reconstructing the cold chain record from fragmented data sources, and the disposition decision — destroy, use, quarantine — is made under time pressure without complete information.
+
+Regulatory requirements for cold chain documentation are also increasing. FDA, EU GMP, and food safety standards require complete temperature chain-of-custody documentation for audits and investigations. Manual documentation processes that rely on paper logs and periodic data downloads create documentation gaps and audit vulnerabilities.
+
+**How COCO Solves It**
+
+1. **Real-Time Excursion Alerting**: COCO monitors temperature logger data and triggers alerts when temperature thresholds are exceeded — enabling intervention during transit rather than at delivery.
+2. **Excursion Investigation Report**: COCO generates structured excursion investigation reports documenting the duration, magnitude, and location of the excursion with supporting sensor data.
+3. **Disposition Recommendation**: COCO applies product-specific stability data and regulatory guidelines to generate evidence-based disposition recommendations for excursed product.
+4. **Chain-of-Custody Documentation**: COCO compiles complete temperature chain-of-custody documentation from multiple data sources for regulatory submissions and audits.
+5. **Carrier Responsibility Analysis**: COCO determines whether excursions occurred during carrier custody and generates carrier notification and claims documentation.
+
+:::
+
+::: details Results & Who Benefits
+
+- **In-transit intervention rate**: Real-time alerting enables intervention during transit for **60–70%** of excursions that would have been discovered only at delivery
+- **Product loss reduction**: Proactive intervention reduces cold chain product losses by **20–30%** annually
+- **Investigation time**: Structured excursion investigation report generation drops from **4–8 hours to under 1 hour**
+- **Regulatory audit readiness**: Complete chain-of-custody documentation reduces audit preparation time by **70%** and eliminates documentation gaps
+- **Carrier claims recovery**: Systematic carrier responsibility analysis and documentation increases cold chain claims recovery by **40–60%**
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Temperature Excursion Investigation Report**
+```
+Generate a temperature excursion investigation report for the following cold chain event.
+
+Product: [name and description]
+Shipment ID: [X]
+Origin: [facility name and location]
+Destination: [facility name and location]
+Carrier: [name]
+Shipment dates: [pickup date to delivery date]
+Required temperature range: [e.g., 2°C to 8°C]
+
+Temperature log data:
+[Paste or describe the temperature data — timestamps and temperature readings, or summarize: "Temperature maintained 2–7°C for 18 hours; excursion detected at [time], temperature reached [X°C], duration [Y hours], returned to range at [time]"]
+
+Generate an investigation report including:
+1. Excursion summary: onset time, duration, maximum temperature deviation, location in transit
+2. Root cause assessment: based on available data, most likely cause of excursion
+3. Carrier custody determination: was the product in carrier custody during the excursion?
+4. Regulatory notification assessment: does this excursion require regulatory reporting?
+5. Product impact assessment: what is the risk to product quality based on duration and magnitude?
+6. Disposition recommendation: Use / Quarantine pending testing / Destroy — with rationale
+7. Corrective action recommendations to prevent recurrence
+```
+
+**Prompt 2: Cold Chain Compliance Documentation Package**
+```
+Compile a cold chain compliance documentation package for the following regulatory submission or audit.
+
+Product type: [pharmaceutical / food / biotech / medical device]
+Applicable regulation: [FDA 21 CFR Part 211 / EU GMP / FSMA / other]
+Documentation purpose: [routine audit / product release / regulatory submission / investigation]
+Shipment(s) covered: [describe scope — single shipment, monthly batch, or date range]
+
+Available data sources:
+[describe what cold chain documentation is available — e.g., electronic temperature logger files, carrier POD records, warehouse temperature logs, chain-of-custody forms]
+
+Compile documentation including:
+1. Chain-of-custody narrative (chronological record of product custody with temperature evidence at each step)
+2. Temperature compliance summary (table: segment, handler, temperature range maintained, compliance status)
+3. Any excursion events with investigation and disposition records
+4. Data integrity attestation statement
+5. Gaps in documentation and how they should be addressed
+6. Regulatory compliance assessment: does the documentation meet the applicable standard?
+```
+
+**Prompt 3: Cold Chain Carrier Claims Package**
+```
+Prepare a carrier liability claim package for a cold chain temperature excursion during carrier transit.
+
+Carrier: [name]
+Shipment details: [origin, destination, dates, product, value]
+Temperature excursion: [describe — when it occurred, magnitude, duration]
+Product disposition: [outcome — destroyed, downgraded, used under deviation]
+Product loss value: $[X]
+Carrier custody evidence: [describe the data confirming the excursion occurred during carrier custody — e.g., "temperature log shows excursion from 14:00–18:00 on [date]; POD records confirm carrier maintained custody during this period; pre-shipment log confirms product was in range at departure"]
+
+Carrier contract provisions: [describe relevant cold chain SLA terms from the carrier agreement]
+
+Prepare a claim package including:
+1. Claim summary letter (carrier, shipment reference, claim amount, basis)
+2. Timeline of custody and excursion events (evidence-based chronology)
+3. Financial documentation: replacement cost, disposal cost, labor cost for investigation
+4. Contractual basis for carrier liability
+5. Evidence exhibit list (what supporting documents are attached)
+6. Response deadline and escalation process
+```
+
+:::

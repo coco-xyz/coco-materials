@@ -3406,7 +3406,7 @@ Produce a dependency debt roadmap with effort estimates and risk ratings for eac
 ```
 
 :::
-## 23. AI Code Refactoring Advisor {#case-23}
+## 23. AI Code Refactoring Advisor
 
 **Role**: Developer / Senior Engineer / Tech Lead | **Industry**: Technology, SaaS, Fintech, Enterprise Software | **Task**: Legacy Code Modernization, Refactoring Strategy, Code Quality Improvement
 
@@ -3581,7 +3581,7 @@ Please recommend:
 ```
 
 :::
-## 24. AI Code Coverage Gap Finder {#case-24}
+## 24. AI Code Coverage Gap Finder
 
 **Role**: Developer / QA Engineer / Tech Lead | **Industry**: Technology, SaaS, Fintech, Healthcare Software | **Task**: Test Coverage Analysis, Quality Risk Assessment, Test Strategy
 
@@ -3768,7 +3768,7 @@ Please design:
 ```
 
 :::
-## 25. AI Incident Root Cause Analyzer {#case-25}
+## 25. AI Incident Root Cause Analyzer
 
 **Role**: Developer / SRE / DevOps Engineer | **Industry**: Technology, SaaS, Fintech, E-commerce | **Task**: Production Incident Response, Root Cause Analysis, Post-Mortem Generation
 
@@ -3924,7 +3924,7 @@ Questions to answer:
 ```
 
 :::
-## 26. AI Infrastructure Cost Optimizer {#case-26}
+## 26. AI Infrastructure Cost Optimizer
 
 **Role**: Developer / DevOps Engineer / SRE / Engineering Manager | **Industry**: Technology, SaaS, Fintech, E-commerce | **Task**: Cloud Cost Optimization, FinOps, Infrastructure Right-Sizing
 
@@ -4091,7 +4091,7 @@ Please:
 ```
 
 :::
-## 27. AI CI/CD Pipeline Optimizer {#case-27}
+## 27. AI CI/CD Pipeline Optimizer
 
 **Role**: Developer / DevOps Engineer / Platform Engineer | **Industry**: Technology, SaaS, Fintech, Enterprise Software | **Task**: CI/CD Optimization, Build Performance, Developer Productivity
 
@@ -4261,7 +4261,7 @@ Please:
 ```
 
 :::
-## 28. AI System Design Reviewer {#case-28}
+## 28. AI System Design Reviewer
 
 **Role**: Developer / Senior Engineer / Tech Lead / Solution Architect | **Industry**: Technology, SaaS, Fintech, Enterprise Software | **Task**: Architecture Review, Design Validation, Scalability Assessment
 
@@ -4418,7 +4418,7 @@ Please:
 ```
 
 :::
-## 29. AI Microservices Dependency Analyzer {#case-29}
+## 29. AI Microservices Dependency Analyzer
 
 **Role**: Developer / Senior Engineer / Platform Engineer / Solution Architect | **Industry**: Technology, SaaS, Fintech, Enterprise Software | **Task**: Service Dependency Mapping, Microservices Architecture, System Reliability
 
@@ -4589,7 +4589,7 @@ Please:
 ```
 
 :::
-## 30. AI API Design Validator {#case-30}
+## 30. AI API Design Validator
 
 **Role**: Developer / API Engineer / Tech Lead / Platform Engineer | **Industry**: Technology, SaaS, Fintech, Developer Platforms | **Task**: API Design Review, Contract Validation, API Governance
 
@@ -4757,7 +4757,7 @@ Please review:
 ```
 
 :::
-## 31. AI Threat Model Generator {#case-31}
+## 31. AI Threat Model Generator
 
 **Role**: Developer / Security Engineer / Tech Lead / Application Architect | **Industry**: Technology, SaaS, Fintech, Healthcare, Enterprise Software | **Task**: Threat Modeling, Security Architecture, Risk Assessment
 
@@ -4921,7 +4921,7 @@ Please generate:
 ```
 
 :::
-## 32. AI Security Incident Forensics Assistant {#case-32}
+## 32. AI Security Incident Forensics Assistant
 
 **Role**: Developer / Security Engineer / DevOps Engineer / Incident Responder | **Industry**: Technology, SaaS, Fintech, Healthcare, Enterprise Software | **Task**: Security Incident Investigation, Digital Forensics, Incident Timeline Analysis
 
@@ -5092,7 +5092,7 @@ Questions to answer:
 ```
 
 :::
-## 33. AI Access Permission Auditor {#case-33}
+## 33. AI Access Permission Auditor
 
 **Role**: Developer / DevOps Engineer / Security Engineer / Platform Engineer | **Industry**: Technology, SaaS, Fintech, Healthcare, Enterprise | **Task**: IAM Audit, Least Privilege Enforcement, Compliance Review
 
@@ -5266,7 +5266,7 @@ Please:
 ```
 
 :::
-## 34. AI Legacy Code Archaeologist {#case-34}
+## 34. AI Legacy Code Archaeologist
 
 **Role**: Software Developer / Senior Engineer / Tech Lead | **Industry**: SaaS, Enterprise Software, Financial Services, Healthcare IT | **Task**: Code Review, Legacy System Modernization, Technical Debt Analysis, Documentation
 
@@ -5461,7 +5461,7 @@ Please produce a modernization assessment:
 ```
 
 :::
-## 35. AI Code Documentation Generator {#case-35}
+## 35. AI Code Documentation Generator
 
 **Role**: Developer | **Industry**: SaaS, Enterprise Software, Developer Tools, Platform Engineering | **Task**: Documentation, Code Review, Knowledge Management
 
@@ -5655,7 +5655,7 @@ Please:
 ```
 
 :::
-## 36. AI Performance Bottleneck Detective {#case-36}
+## 36. AI Performance Bottleneck Detective
 
 **Role**: Developer | **Industry**: SaaS, E-commerce, Fintech, Enterprise Software | **Task**: Performance Optimization, Profiling, System Tuning
 
@@ -5874,7 +5874,7 @@ Please:
 ```
 
 :::
-## 37. AI API Design Reviewer {#case-37}
+## 37. AI API Design Reviewer
 
 **Role**: Developer | **Industry**: SaaS, Platform Engineering, Fintech, Enterprise Software | **Task**: Code Review, API Design, Developer Experience
 
@@ -6066,7 +6066,7 @@ Please evaluate:
 ```
 
 :::
-## 38. AI Database Schema Optimizer {#case-38}
+## 38. AI Database Schema Optimizer
 
 **Role**: Developer | **Industry**: SaaS, Fintech, E-commerce, Enterprise Software | **Task**: Database Design, Performance Optimization, Schema Review
 
@@ -6276,7 +6276,7 @@ Please design:
 ```
 
 :::
-## 39. AI Incident Post-Mortem Writer {#case-39}
+## 39. AI Incident Post-Mortem Writer
 
 **Role**: Developer | **Industry**: SaaS, E-commerce, Fintech, Enterprise Software | **Task**: Incident Response, Post-Mortem Documentation, Reliability
 
@@ -6497,207 +6497,7 @@ Please evaluate:
 ```
 
 :::
-## 40. AI Dependency Vulnerability Scanner {#case-40}
-
-**Role**: Developer | **Industry**: SaaS, Enterprise Software, Fintech, Healthcare Software | **Task**: Security, Dependency Management, Supply Chain Security
-
-::: details Pain Point & How COCO Solves It
-
-**The Pain: Open Source Dependencies Are a Security Attack Surface Most Teams Don't Manage**
-
-Modern applications are mostly assembled, not written. A typical Node.js application has 500-2,000 transitive dependencies; a Python data science project may have 300+; a Java enterprise application can have 1,000+ dependencies when transitive dependencies are counted. The code written by the engineering team might represent 5% of the total codebase by line count. The remaining 95% — open source libraries, frameworks, and their dependencies — is code that the team didn't write, doesn't review, and often doesn't track.
-
-This creates a massive, continuously expanding attack surface. The Log4Shell vulnerability (CVE-2021-44228) affected an estimated 3 billion devices and virtually every Java application because Log4j was a ubiquitous transitive dependency in Java ecosystems. The Equifax breach, which exposed 147 million consumers' personal data, was caused by an unpatched Apache Struts vulnerability that had a known CVE with an available patch. The SolarWinds attack, one of the most significant supply chain attacks in history, involved compromised build dependencies. These aren't edge cases — they're the expected behavior of an attack surface that grows with every dependency added and is poorly monitored by most engineering teams.
-
-The remediation challenge is significant even when vulnerabilities are known. Upgrading a major dependency is not always trivial — it may involve API changes, behavior changes, or cascading dependency conflicts. A team that discovers they're running a vulnerable version of a database driver in a 5-year-old codebase may find that upgrading to the patched version requires first upgrading three other libraries, which requires code changes in 12 places. The correct response is proactive dependency management, but most teams don't have a systematic process for it.
-
-**How COCO Solves It**
-
-COCO's AI Dependency Vulnerability Scanner analyzes dependency manifests, identifies known vulnerabilities, evaluates the severity and exploitability in context, and generates prioritized remediation plans — turning an unmanaged risk into a systematically addressed backlog.
-
-1. **Vulnerability Identification and Enrichment**: Surfaces CVEs with context, not just CVE numbers.
-   - Analyzes package manifests (package.json, requirements.txt, pom.xml, Cargo.toml, go.mod, Gemfile) and their lock files
-   - Cross-references dependencies against NVD, GitHub Advisory Database, and OSV for known CVEs
-   - Enriches each finding with: CVSS score, attack vector, affected versions, fixed version, and public exploit availability
-   - Analyzes transitive dependencies: vulnerabilities in your dependencies' dependencies
-   - Identifies license compliance issues alongside security vulnerabilities
-
-2. **Exploitability Context Assessment**: Not all CVEs matter equally in your context.
-   - Evaluates whether the vulnerable code path is actually reachable in the application
-   - Assesses whether the attack vector applies (e.g., a remote code execution vulnerability in a library only used for offline file parsing)
-   - Identifies whether compensating controls (WAF rules, network isolation) reduce exploitability
-   - Distinguishes between critical-in-context and critical-in-theory vulnerabilities
-
-3. **Remediation Path Analysis**: Identifies the specific steps to fix each vulnerability.
-   - Identifies the minimum version upgrade that resolves the vulnerability
-   - Checks for breaking changes in the upgrade path and flags API incompatibilities
-   - Analyzes the dependency graph for upgrade conflicts: cases where upgrading one dependency requires upgrading another
-   - Generates the specific package manager commands to perform the upgrade
-   - Identifies cases where no fix is available (abandoned library) and recommends replacement
-
-4. **Supply Chain Risk Assessment**: Evaluates beyond known CVEs.
-   - Identifies dependencies with no recent maintenance activity (abandoned packages)
-   - Flags packages with very low download counts that may be targets for typosquatting
-   - Identifies packages with unusually broad permission requirements
-   - Reviews dependency provenance: are packages from expected publishers?
-   - Identifies dependencies with large numbers of transitive dependencies (larger attack surface)
-
-5. **Remediation Prioritization**: Not everything can be fixed at once.
-   - Scores each vulnerability by: CVSS score × exploitability in context × data sensitivity × public exploit availability
-   - Generates a prioritized remediation backlog: Critical (fix this week) / High (fix this sprint) / Medium (fix this quarter) / Low (track and monitor)
-   - Groups vulnerabilities that can be resolved by a single upgrade
-   - Estimates the engineering effort for each remediation and the risk of the upgrade
-
-6. **Continuous Monitoring Integration**: Vulnerability management as a continuous process.
-   - Generates CI/CD configuration to run vulnerability scanning on every pull request
-   - Configures severity thresholds: which severities block merging, which generate warnings
-   - Creates a dependency update schedule: automated PRs for patch-version security updates
-   - Generates SBOM (Software Bill of Materials) for compliance requirements
-
-:::
-
-::: details Results & Who Benefits
-
-**Measurable Results**
-
-- **Vulnerability coverage**: Systematic scanning identifies 100% of known CVEs in dependencies vs. 20-40% for teams relying on ad-hoc awareness
-- **Time to remediation**: COCO-generated remediation plans reduce mean time to patch critical vulnerabilities from 45 days to 7 days
-- **False positive reduction**: Context-based exploitability assessment reduces actionable vulnerability list by 60% compared to raw CVE counts
-- **Supply chain risk**: Proactive dependency health monitoring identifies 3-8 abandoned or high-risk dependencies per project on first audit
-- **Compliance**: SBOM generation and vulnerability tracking satisfies NIST SSDF, Executive Order 14028, and SLSA requirements
-
-**Who Benefits**
-
-- **Developers**: Know which dependency vulnerabilities actually matter for their application and have a clear path to fix them
-- **Security Teams**: Scale vulnerability management across many development teams without manual review of every dependency tree
-- **Engineering Managers**: Meet security SLAs for vulnerability remediation with visibility into the current state
-- **Compliance and Legal Teams**: Demonstrate due diligence in supply chain security with documented scanning and remediation
-
-:::
-
-::: details 💡 Practical Prompts
-
-**Prompt 1: Full Dependency Vulnerability Audit**
-```
-Analyze our application's dependencies for security vulnerabilities and prioritize remediation.
-
-Application context:
-- Language/runtime: [Node.js 18 / Python 3.11 / Java 17 / Go 1.21 / Ruby 3.2 / etc.]
-- Application type: [web API / data pipeline / mobile backend / CLI tool]
-- Data sensitivity: [processes PII / financial data / healthcare data / public data only]
-- Compliance requirements: [SOC 2 / PCI DSS / HIPAA / FedRAMP / none]
-
-Package manifest (paste):
-[paste package.json / requirements.txt / pom.xml / Cargo.toml / go.mod / Gemfile]
-
-Lock file (paste if available):
-[paste package-lock.json / poetry.lock / pom.xml resolved / Gemfile.lock]
-
-Known context:
-- External attack surface: [internet-facing / internal only / both]
-- Authentication: [public endpoints / authenticated only]
-
-Please:
-1. Identify all dependencies with known CVEs (include transitive dependencies)
-2. For each CVE: CVSS score, attack vector, and whether the vulnerable code is likely reachable
-3. Prioritize vulnerabilities: Critical / High / Medium / Low with remediation urgency
-4. For each critical/high vulnerability: provide the specific upgrade command to fix it
-5. Identify any dependencies that are abandoned or unmaintained
-6. Generate a 30-day remediation plan with prioritized order and effort estimates
-```
-
-**Prompt 2: Vulnerability Remediation Planning**
-```
-I've identified vulnerabilities in our dependencies and need help planning the remediation.
-
-Current vulnerabilities (paste from scanning tool output or describe):
-[paste vulnerability list with CVE IDs, affected packages, and current/fixed versions]
-
-Dependency context:
-- Package manager: [npm / pip / Maven / Cargo / Go modules / Bundler]
-- Current version of affected packages: [list]
-- Application: [brief description of what it does]
-
-Constraints:
-- Breaking change tolerance: [can we accept breaking changes, or must upgrades be backward compatible?]
-- Test coverage: [do we have tests that would catch regressions from upgrades?]
-- Deployment frequency: [how often can we ship a security fix?]
-
-Please:
-1. For each vulnerability: identify the minimum upgrade that resolves it
-2. Flag any upgrades that involve breaking API changes and what code changes may be required
-3. Identify conflicts: can all vulnerabilities be resolved simultaneously, or are there dependency conflicts?
-4. Recommend the remediation sequence: what to upgrade first
-5. Generate the specific package manager commands for each upgrade
-6. Identify any vulnerabilities with no available fix and recommend replacement libraries
-```
-
-**Prompt 3: CI/CD Security Scanning Setup**
-```
-Help me set up automated dependency vulnerability scanning in our CI/CD pipeline.
-
-CI system: [GitHub Actions / GitLab CI / Jenkins / CircleCI / other]
-Language/package manager: [Node.js/npm / Python/pip / Java/Maven / etc.]
-Security scanning tools available: [Dependabot / Snyk / OWASP Dependency Check / Trivy / pip-audit / npm audit]
-
-Requirements:
-- Block PRs with: [Critical only / Critical + High / any vulnerability]
-- Alert on: [all vulnerabilities / High and above / Critical only]
-- Report format: [SARIF / JSON / GitHub annotations]
-- Exemption process: [how to handle accepted risks]
-
-Please:
-1. Write the CI pipeline configuration (YAML) for our CI system that runs vulnerability scanning
-2. Configure appropriate thresholds: what severity blocks merging vs. generates a warning
-3. Set up automated Dependabot/Renovate configuration for security updates
-4. Create an exemption workflow for accepted risks with expiry dates
-5. Add SBOM generation to the pipeline for compliance purposes
-6. Set up a weekly scheduled scan that catches new CVEs affecting existing dependencies
-```
-
-**Prompt 4: License Compliance Audit**
-```
-Audit our dependencies for license compliance issues.
-
-Application type: [commercial SaaS / open source / internal tool]
-Distribution method: [server-side only / shipped to customers / published as library]
-
-Prohibited or restricted licenses in our context:
-- Prohibited: [e.g., AGPL, GPL v3 in a proprietary commercial product]
-- Requires disclosure: [LGPL, MPL]
-- Copyleft licenses that need legal review: [GPL variants]
-
-Package manifest:
-[paste package.json / requirements.txt / pom.xml / etc.]
-
-Please:
-1. Identify all dependency licenses (direct and transitive)
-2. Flag any dependencies with prohibited or restricted licenses for our use case
-3. Identify copyleft licenses that require our code to also be open source if we use them
-4. Flag dependencies with multiple licenses where the applicable one is unclear
-5. Identify dependencies with no license specified (legally ambiguous)
-6. Generate a license inventory report suitable for legal review
-```
-
-**Prompt 5: Abandoned and Risky Dependency Assessment**
-```
-Help me assess the health and risk of our dependencies beyond just CVEs.
-
-Package manifest (paste):
-[paste your dependency manifest]
-
-Please assess each dependency for:
-1. Maintenance status: last release date, open issues count, repository activity
-2. Abandonment risk: packages with no commits in 12+ months
-3. Popularity and ecosystem health: low download counts that might indicate supply chain risk
-4. Ownership risk: packages owned by single maintainers with no bus-factor protection
-5. Transitive dependency count: packages with huge dependency trees that expand your attack surface
-6. For each risky dependency: recommend either an alternative library or mitigation strategy
-7. Prioritize findings: which dependency risks should be addressed first?
-```
-
-:::
-## 41. AI Test Case Generator {#case-41}
+## 40. AI Test Case Generator
 
 **Role**: Developer | **Industry**: SaaS, Enterprise Software, Fintech, Healthcare Software | **Task**: Testing, Quality Assurance, Test-Driven Development
 
@@ -6905,7 +6705,7 @@ Please design:
 ```
 
 :::
-## 42. AI Code Refactoring Strategist {#case-42}
+## 41. AI Code Refactoring Strategist
 
 **Role**: Developer | **Industry**: SaaS, Enterprise Software, Fintech, Developer Tools | **Task**: Code Review, Refactoring, Technical Debt
 
@@ -7105,7 +6905,7 @@ Please evaluate:
 ```
 
 :::
-## 43. AI System Architecture Advisor {#case-43}
+## 42. AI System Architecture Advisor
 
 **Role**: Developer | **Industry**: SaaS, Enterprise Software, Platform Engineering, Fintech | **Task**: Analysis, Architecture, System Design
 
@@ -7316,222 +7116,7 @@ Please:
 ```
 
 :::
-## 44. AI CI/CD Pipeline Optimizer {#case-44}
-
-**Role**: Developer | **Industry**: SaaS, Enterprise Software, Developer Tools, Platform Engineering | **Task**: Automation, DevOps, Performance Optimization
-
-::: details Pain Point & How COCO Solves It
-
-**The Pain: Slow, Flaky CI/CD Pipelines Are a Hidden Tax on Engineering Productivity That Compounds Every Day**
-
-CI/CD pipelines are the nervous system of a modern engineering team — the mechanism by which code changes move from a developer's laptop to production safely and repeatedly. When that nervous system is healthy, software teams can deploy multiple times per day, catch issues early, and maintain the rapid iteration velocity that is the defining competitive advantage of software organizations. When it's unhealthy — when pipelines take 45 minutes, fail intermittently for no apparent reason, and require manual intervention to get builds through — engineering productivity degrades visibly and continuously.
-
-The math is unforgiving. A pipeline that runs in 45 minutes instead of 15 minutes costs 30 minutes of developer feedback time per run. A developer who triggers 8 pipeline runs per day is losing 4 hours per day to waiting — waiting to know if their change works, waiting for the build to complete before they can move to the next task. At 20 engineers, each running 6 pipeline runs per day, a 30-minute pipeline delay costs 2,400 engineer-hours per month. At an engineering fully-loaded cost of $150/hour, that's $360,000/month in productivity consumed by slow pipelines. This number is never tracked, which is why it persists.
-
-Pipeline flakiness is the second dimension of the problem and arguably the more corrosive one. Flaky tests — tests that fail intermittently without corresponding code changes — are one of the most frustrating and demoralizing experiences in software engineering. A developer whose test suite has a 15% flakiness rate — where roughly 1 in 7 runs will have a spurious failure requiring a rerun — eventually learns to automatically rerun failures rather than investigate them. This learned helplessness causes real bugs to be ignored because the developer assumes the failure is flaky. It also undermines the psychological contract between developers and their test suite: if the tests lie sometimes, how much should I trust them when they tell the truth?
-
-**How COCO Solves It**
-
-COCO's AI CI/CD Pipeline Optimizer analyzes pipeline configurations, build times, test patterns, and security practices to recommend specific optimizations for speed, reliability, and security.
-
-1. **Pipeline Speed Analysis and Optimization**: Identifies the specific bottlenecks consuming build time.
-   - Analyzes build stage timing to identify the longest-running stages and their root causes
-   - Identifies parallelization opportunities: test suites, build steps, or deployment stages that can run concurrently instead of sequentially
-   - Recommends caching strategies: dependency caches, Docker layer caches, build artifact caches
-   - Identifies unnecessary work: steps that rebuild artifacts that haven't changed, tests that run when unrelated code changes
-   - Designs test sharding strategies for large test suites across multiple runner instances
-   - Recommends build tool optimizations: incremental compilation, gradle/maven optimization flags, turbo repo configurations
-
-2. **Flaky Test Detection and Resolution**: Identifies and fixes unreliable tests.
-   - Analyzes historical pipeline run data to identify tests with inconsistent pass/fail patterns
-   - Classifies flakiness root causes: timing-dependent tests, test isolation failures (shared state), network-dependent tests, race conditions
-   - Generates investigation prompts for each flaky test category
-   - Recommends quarantine strategies for flaky tests that can't be immediately fixed
-   - Designs deterministic test infrastructure: test containers, fixed seeds, mocked external dependencies
-
-3. **Pipeline Security Review**: Audits CI/CD configurations for security vulnerabilities.
-   - Identifies secrets exposure risks: environment variables printed to logs, credentials in build scripts, artifacts containing secrets
-   - Reviews secret management: are secrets stored in the CI provider's secret store, or hard-coded in configuration files?
-   - Evaluates third-party action/plugin risk: GitHub Actions, CircleCI Orbs, and other third-party integrations that could be compromised
-   - Identifies overprivileged pipeline credentials: CI systems with broader cloud permissions than needed to deploy
-   - Reviews artifact signing and verification: are build artifacts verified before deployment?
-
-4. **Deployment Pipeline Design**: Optimizes the deployment workflow for safety and speed.
-   - Reviews the staging environment strategy: is there a realistic production-equivalent environment where changes are validated?
-   - Evaluates the deployment sequencing: is there a canary or blue-green deployment step, or is all traffic cut over immediately?
-   - Designs automated rollback triggers: what metrics should trigger automatic rollback and how are they monitored?
-   - Identifies manual approval gates: where human approval is appropriate vs. where it adds latency without adding safety
-
-5. **Infrastructure as Code Integration**: Evaluates how infrastructure changes flow through the pipeline.
-   - Reviews Terraform/Pulumi/CDK plan and apply integration: is there a drift check? Is apply gated on plan review?
-   - Identifies risks in infrastructure change pipelines: changes that could cause downtime if applied without proper sequencing
-   - Recommends drift detection and compliance checking stages
-
-6. **Developer Experience Optimization**: Improves the feedback loop quality for developers.
-   - Designs fail-fast strategies: put high-probability failure steps early in the pipeline to fail quickly rather than 40 minutes in
-   - Recommends local pre-commit hooks that match CI checks to catch failures before pipeline runs
-   - Designs branch-specific pipeline strategies: fast feedback pipelines for feature branches, comprehensive pipelines for main
-
-:::
-
-::: details Results & Who Benefits
-
-**Measurable Results**
-
-- **Pipeline execution time**: Teams implementing COCO-recommended optimizations reduce average pipeline time by 52% — from median 38 minutes to 18 minutes
-- **Flaky test rate**: Systematic flaky test remediation guided by COCO reduces flaky failure rate from typical 12-18% to under 3%
-- **Deployment frequency**: Faster, more reliable pipelines enable teams to increase deployment frequency by an average of 3.2x within 90 days of optimization
-- **Security finding rate**: COCO pipeline security audit identifies an average of 6.8 security issues per pipeline on first review, including credential exposure risks
-- **Developer time recovered**: At 20 engineers, reducing average pipeline time from 38 to 18 minutes recovers an estimated 1,600 engineer-hours per month
-
-**Who Benefits**
-
-- **Software Developers**: Spend less time watching CI progress bars and more time writing code; get reliable, fast feedback on their changes
-- **Platform and DevOps Engineers**: Diagnose and fix pipeline issues systematically rather than firefighting individual failures
-- **Security Engineers**: Audit CI/CD pipeline security with the same rigor applied to production systems
-- **Engineering Managers**: Track and improve the deployment pipeline metrics that directly predict team delivery velocity
-
-:::
-
-::: details 💡 Practical Prompts
-
-**Prompt 1: Full CI/CD Pipeline Analysis and Optimization**
-```
-Please analyze our CI/CD pipeline configuration and recommend optimizations for speed, reliability, and security.
-
-Pipeline configuration (paste YAML or describe):
-[paste your .github/workflows/*.yml, .circleci/config.yml, Jenkinsfile, or equivalent]
-
-Current metrics:
-- Average pipeline duration: [e.g., 42 minutes]
-- Flaky test failure rate: [e.g., "about 1 in 8 runs fails for no apparent reason"]
-- Deployment frequency: [e.g., "we deploy 2-3 times per week"]
-- Most painful pipeline problems: [describe the biggest frustrations]
-
-Tech stack:
-- Language/runtime: [e.g., Node.js 18, Python 3.11]
-- Test framework: [e.g., Jest, pytest]
-- Build tool: [e.g., Webpack, Gradle, Cargo]
-- Container: [Docker? Base image?]
-- Cloud provider: [AWS/GCP/Azure]
-
-Please analyze:
-1. Speed: where is time being wasted? What can be parallelized? What should be cached?
-2. Reliability: what's likely causing flaky failures? How should they be fixed?
-3. Security: what security vulnerabilities exist in this pipeline configuration?
-4. Structure: is the pipeline logically organized for fast failure detection?
-5. Provide a rewritten/optimized version of the pipeline configuration
-6. Expected improvement: how much faster should the optimized pipeline be?
-```
-
-**Prompt 2: Diagnose and Fix Flaky Tests**
-```
-We have intermittently failing tests in our CI pipeline and need to find and fix the root causes.
-
-Test framework and language: [e.g., Jest + TypeScript, pytest + Python]
-CI provider: [GitHub Actions / CircleCI / Jenkins / etc.]
-
-Flaky test symptoms:
-[paste or describe the tests that fail intermittently — test names, failure messages, how often they fail]
-
-Pattern we've observed:
-- Do they fail more on first run vs. reruns? [yes/no/unknown]
-- Do they fail more in CI than locally? [yes/no]
-- Do they fail when other tests run in parallel? [yes/no/unknown]
-- Do they involve any of: databases, external APIs, time/dates, random numbers, file system? [describe]
-
-Sample failure output (paste a failure log):
-[paste a recent failure message for one of the flaky tests]
-
-Please:
-1. Diagnose the likely root cause of each described flaky test (categories: timing, state pollution, network, randomness, etc.)
-2. For each root cause category: explain why it causes intermittent failures
-3. Show the specific code fix or test infrastructure change that would make each test reliable
-4. Recommend a short-term quarantine strategy while permanent fixes are implemented
-5. What CI configuration changes would prevent this class of flakiness from being introduced in the future?
-```
-
-**Prompt 3: Pipeline Security Audit**
-```
-Please audit our CI/CD pipeline for security vulnerabilities.
-
-Pipeline configuration:
-[paste your pipeline YAML/config files]
-
-Additional context:
-- What secrets does the pipeline use: [list environment variables that contain secrets]
-- What permissions does the CI service account have: [describe cloud IAM role or CI permissions]
-- Third-party actions/plugins used: [list them]
-- What does the pipeline deploy to: [describe the deployment targets]
-
-Please check for:
-1. Secret exposure risks: are any secrets logged, included in artifacts, or accessible to PRs from forks?
-2. Overprivileged credentials: does the CI role have more permissions than needed to deploy?
-3. Third-party action risks: are any actions from unverified publishers or pinned to mutable references?
-4. Supply chain risks: are dependencies verified before use? Is the build reproducible?
-5. Access control: can arbitrary PRs trigger privileged pipeline steps?
-6. Artifact integrity: are build artifacts verified/signed before deployment?
-
-For each finding: describe the risk, the specific vulnerable configuration, and the remediation.
-```
-
-**Prompt 4: Design a Test Sharding and Parallelization Strategy**
-```
-Our test suite takes too long to run and we need to parallelize it.
-
-Test suite details:
-- Total test count: [number of tests]
-- Current serial runtime: [e.g., 28 minutes to run all tests]
-- Test framework: [e.g., Jest, pytest, RSpec, Go test]
-- CI provider: [GitHub Actions / CircleCI / etc.]
-- Available runners: [how many parallel runners we can use]
-
-Test composition:
-- Unit tests: [approximate count and typical run time]
-- Integration tests: [approximate count and run time, note any that need databases or external services]
-- E2E tests: [count and run time]
-- Slow tests: [any particularly slow tests you know about]
-
-Please design:
-1. A sharding strategy: how to divide tests across parallel runners for even distribution
-2. Which tests should be excluded from fast feedback loops (run only on main branch, not every PR)
-3. Which tests can run in parallel with database reset between them vs. which need sequential execution
-4. The pipeline YAML changes required to implement the parallelization on our CI provider
-5. Expected runtime after parallelization given the available runner count
-6. Caching strategy to minimize dependency install time across parallel runners
-```
-
-**Prompt 5: Optimize Docker Build Times**
-```
-Our Docker builds in CI are slow and I want to significantly reduce build times.
-
-Current Dockerfile:
-[paste your Dockerfile]
-
-Current build metrics:
-- Total build time: [e.g., 12 minutes for a full build]
-- Cache hit rate: [e.g., "the cache seems to be ignored most of the time"]
-- Layer breakdown (if known): [describe which layers take longest]
-
-CI configuration (for Docker build step):
-[paste the relevant CI config for the Docker build step]
-
-Application details:
-- Language: [e.g., Node.js, Python, Java, Go]
-- Dependencies: [e.g., 180 npm packages, 300MB total]
-- Build process: [e.g., compile TypeScript, bundle with webpack, run tests in Docker]
-
-Please:
-1. Identify caching inefficiencies in the current Dockerfile — which layers invalidate unnecessarily?
-2. Rewrite the Dockerfile with optimal layer ordering for cache utilization
-3. Recommend Docker BuildKit cache mount strategies for package managers
-4. Design the CI registry caching configuration: how to push/pull cache layers
-5. Are there multi-stage build optimizations that would reduce final image size?
-6. Expected build time improvement from the optimized Dockerfile and caching strategy
-```
-
-:::
-## 45. AI Error Log Analyzer {#case-45}
+## 43. AI Error Log Analyzer
 
 **Role**: Developer | **Industry**: SaaS, Enterprise Software, E-commerce, Fintech | **Task**: Monitoring, Debugging, Incident Response
 
@@ -7728,7 +7313,7 @@ Please design:
 ```
 
 :::
-## 46. AI Open Source Contribution Reviewer {#case-46}
+## 44. AI Open Source Contribution Reviewer
 
 **Role**: Developer | **Industry**: SaaS, Enterprise Software, Developer Tools, Platform Engineering | **Task**: Code Review, Open Source, Community
 
@@ -7937,7 +7522,7 @@ Please create:
 ```
 
 :::
-## 47. AI Developer Code Review Quality Auditor
+## 45. AI Developer Code Review Quality Auditor
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
@@ -8136,7 +7721,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 48. AI Developer API Documentation Generator
+## 46. AI Developer API Documentation Generator
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
@@ -8335,7 +7920,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 49. AI Developer Security Vulnerability Scanner
+## 47. AI Developer Security Vulnerability Scanner
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
@@ -8534,7 +8119,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 50. AI Developer Automated Test Case Generator
+## 48. AI Developer Automated Test Case Generator
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
@@ -8733,7 +8318,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 51. AI Legacy Code Modernization Guide
+## 49. AI Legacy Code Modernization Guide
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
@@ -8932,7 +8517,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 52. AI Database Query Performance Optimizer
+## 50. AI Database Query Performance Optimizer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
@@ -9131,7 +8716,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 53. AI Microservices Migration Planner
+## 51. AI Microservices Migration Planner
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
@@ -9330,7 +8915,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 54. AI Open Source Dependency Security Auditor
+## 52. AI Open Source Dependency Security Auditor
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 

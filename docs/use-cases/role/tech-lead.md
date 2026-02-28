@@ -997,206 +997,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 6. AI Sprint Retrospective Facilitator
-
-> Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
-
-::: details Pain Point & How COCO Solves It
-
-**The Pain: Sprint Retrospective Facilitator**
-
-Organizations operating in SaaS face mounting pressure to deliver results with constrained resources. The manual processes that once worked at smaller scales have become critical bottlenecks as complexity grows. Teams spend 60-70% of their time on repetitive analysis and documentation tasks, leaving little capacity for the strategic work that actually moves the needle. Without a systematic approach, decisions are made on incomplete information, costly errors go undetected until they compound into larger problems, and talented professionals burn out on low-value administrative work.
-
-The core challenge is that sprint planning requires synthesizing large volumes of structured and unstructured data into actionable recommendations — a task that takes experienced professionals hours or days to complete manually. As the volume of data grows, the gap between available information and what teams can actually process widens. Critical signals get missed, patterns go unrecognized, and opportunities for optimization remain invisible. Industry benchmarks show that companies investing in AI-assisted workflows in this area achieve 3-5x more throughput with the same headcount.
-
-The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
-
-**How COCO Solves It**
-
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
-   - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
-   - Identifies key entities, metrics, and relationships across disparate data sources
-   - Applies domain-specific schemas to structure raw inputs into analyzable formats
-   - Flags data quality issues, missing fields, and inconsistencies before analysis begins
-   - Maintains audit trails linking every output back to its source data
-
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
-   - Applies statistical models to identify trends, outliers, and emerging patterns
-   - Benchmarks current performance against historical baselines and industry standards
-   - Detects early warning signals before they escalate into critical issues
-   - Cross-references multiple data dimensions to reveal non-obvious correlations
-   - Prioritizes findings by potential business impact and urgency
-
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
-   - Generates structured reports following organization-specific templates and standards
-   - Produces executive summaries calibrated to the appropriate audience and detail level
-   - Creates supporting visualizations, tables, and data exhibits automatically
-   - Maintains consistent terminology, formatting, and citation standards across all outputs
-   - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
-
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
-   - Breaks complex workflows into discrete, trackable steps with clear ownership
-   - Automates handoffs between team members with appropriate context and instructions
-   - Tracks completion status and surfaces blockers before deadlines are missed
-   - Generates checklists, reminders, and escalation triggers at critical checkpoints
-   - Integrates with existing tools (Slack, email, project management) to reduce context switching
-
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
-   - Validates outputs against regulatory requirements and internal policy standards
-   - Checks for completeness, consistency, and accuracy before outputs are finalized
-   - Documents the reasoning behind key recommendations for review and audit purposes
-   - Flags potential compliance risks or policy violations with specific rule references
-   - Maintains a version history of all outputs for regulatory and audit purposes
-
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
-   - Tracks which recommendations were acted on and correlates with downstream outcomes
-   - Identifies systematic biases or gaps in the current process
-   - Recommends process improvements based on analysis of workflow bottlenecks
-   - Benchmarks team performance against prior periods and best-practice standards
-   - Generates quarterly process health reports with specific optimization opportunities
-
-:::
-
-::: details Results & Who Benefits
-
-**Measurable Results**
-
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
-- **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
-- **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
-- **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
-- **Decision latency**: Time from data availability to actionable recommendation cut from **5 days to same-day**
-
-**Who Benefits**
-
-- **Tech Lead**: Eliminate manual, repetitive execution work and redirect capacity toward high-value strategic analysis and decision-making
-- **Operations and Finance Leaders**: Gain visibility into process performance metrics and cost drivers, enabling data-backed resource allocation decisions
-- **Compliance and Risk Teams**: Maintain consistent quality standards and complete audit trails across all work product without adding review headcount
-- **Executive Leadership**: Receive timely, accurate intelligence on operational performance to support faster, more confident strategic decisions
-
-:::
-
-::: details 💡 Practical Prompts
-
-**Prompt 1: Core Sprint Planning Analysis**
-```
-Perform a comprehensive sprint planning analysis for [organization/project name].
-
-Context:
-- Industry: [SaaS]
-- Team/Department: [describe]
-- Data available: [describe key data sources and time range]
-- Primary objective: [what decision or outcome does this analysis support?]
-- Key constraints: [budget / timeline / regulatory / technical]
-
-Analyze:
-1. Current state assessment — where are we today vs. benchmark/target?
-2. Key gaps and risk areas requiring immediate attention
-3. Root cause analysis for the top 3 performance issues
-4. Opportunity identification — where is the highest-leverage improvement possible?
-5. Recommended actions ranked by impact and implementation complexity
-
-Output format: Executive summary (1 page) + detailed findings (structured sections) + action table with owner, timeline, and success metric.
-```
-
-**Prompt 2: Status Report Generator**
-```
-Generate a [weekly / monthly / quarterly] status report for [sprint planning] activities.
-
-Reporting period: [date range]
-Audience: [manager / executive / board / client]
-
-Data inputs:
-- Completed this period: [list key accomplishments]
-- In progress: [list ongoing items with % complete]
-- Blocked or at risk: [list with reason]
-- Key metrics: [list 4-6 metrics with current values and trend vs. prior period]
-- Issues escalated: [list any escalations and resolution status]
-
-Generate a report that:
-1. Opens with a 3-sentence executive summary (RAG status: Red/Amber/Green)
-2. Covers accomplishments, in-progress, and blocked items
-3. Presents metrics in a comparison table (current vs. target vs. prior period)
-4. Calls out the top 1-2 risks with mitigation recommendation
-5. Ends with next period priorities and resource needs
-```
-
-**Prompt 3: Exception and Anomaly Investigation**
-```
-Investigate this anomaly in our [sprint planning] data and recommend a response.
-
-Anomaly description: [describe what was flagged — metric, magnitude, timing]
-Normal range: [what is typical / expected]
-Current value: [actual value observed]
-First detected: [date]
-Affected scope: [which processes, teams, or customers are impacted]
-
-Historical context:
-- Has this happened before? [yes/no, when?]
-- Were there recent changes to the process/system? [describe]
-- External factors that might explain it? [describe]
-
-Analyze:
-1. Likely root cause(s) — rank top 3 hypotheses by probability
-2. How to validate each hypothesis (what additional data to look at)
-3. Immediate containment action (stop the bleeding)
-4. Short-term fix (resolve within [X] days)
-5. Long-term systemic change to prevent recurrence
-6. Stakeholders to notify and what to tell them
-```
-
-**Prompt 4: Performance Benchmarking Report**
-```
-Generate a performance benchmarking analysis comparing our [sprint planning] performance against industry standards.
-
-Our current metrics:
-- [Metric 1]: [value]
-- [Metric 2]: [value]
-- [Metric 3]: [value]
-- [Metric 4]: [value]
-- [Metric 5]: [value]
-
-Industry context:
-- Segment: [SaaS]
-- Company size: [employees / revenue range]
-- Geography: [region]
-- Benchmark source: [industry report / peer data / target]
-
-Produce:
-1. Gap analysis table (our performance vs. benchmark vs. best-in-class)
-2. Prioritized list of metrics where we have the largest gap
-3. Root cause hypotheses for gaps
-4. Case studies or best practices from top performers in each gap area
-5. Realistic 6-month and 12-month improvement targets with confidence level
-```
-
-**Prompt 5: Process Improvement Recommendation**
-```
-Analyze our current [sprint planning] process and recommend improvements.
-
-Current process description:
-[Describe the current workflow step by step — who does what, in what order, with what tools]
-
-Pain points identified by the team:
-1. [pain point]
-2. [pain point]
-3. [pain point]
-
-Constraints:
-- Budget available for improvements: $[X] or [low / medium / high]
-- Timeline to implement: [X months]
-- Change appetite of the team: [low / medium / high]
-- Systems that cannot be changed: [list]
-
-Recommend:
-1. Quick wins (implement in under 2 weeks with minimal cost)
-2. Medium-term improvements (1-3 months, moderate investment)
-3. Long-term strategic changes (3-6 months, higher investment)
-For each: expected impact, implementation steps, owner, dependencies, and success metrics.
-```
-
-:::
-## 7. AI Engineering Hiring Rubric Builder
+## 6. AI Engineering Hiring Rubric Builder
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
@@ -1395,7 +1196,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 8. AI Code Review Standards Enforcer
+## 7. AI Code Review Standards Enforcer
 
 > Automated code review governance reduces standards violations by 82% and cuts review cycle time from 4 days to 6 hours.
 
@@ -1573,7 +1374,7 @@ Generate:
 ```
 
 :::
-## 9. AI Engineering OKR Tracker
+## 8. AI Engineering OKR Tracker
 
 > Continuous OKR alignment monitoring increases key result completion rates from 43% to 78% and eliminates end-of-quarter surprises.
 
@@ -1767,7 +1568,7 @@ Output: Revised OKR set with improvements applied, plus a dependency map and a r
 ```
 
 :::
-## 10. AI System Design Document Generator
+## 9. AI System Design Document Generator
 
 > Automated system design documentation reduces document creation time from 3 weeks to 2 days while ensuring architectural consistency across 40+ microservices.
 
@@ -1953,7 +1754,7 @@ For each item, include: what to check, why it matters, and a pass/fail criterion
 ```
 
 :::
-## 11. AI Incident Post-Mortem Analyzer
+## 10. AI Incident Post-Mortem Analyzer
 
 > AI-driven post-mortem analysis reduces repeat incidents by 67% and cuts post-mortem completion time from 2 weeks to 48 hours.
 
@@ -2132,7 +1933,7 @@ Output: Status report + escalation recommendations + suggested sprint allocation
 ```
 
 :::
-## 12. AI Cross-Team Dependency Mapper
+## 11. AI Cross-Team Dependency Mapper
 
 > Automated dependency mapping reduces cross-team coordination failures by 71% and makes hidden service couplings visible across 50+ microservices.
 
@@ -2327,7 +2128,7 @@ Output: Executive summary (1 page) + detailed report with visualizations + prior
 ```
 
 :::
-## 13. AI Engineering Hiring Pipeline Optimizer
+## 12. AI Engineering Hiring Pipeline Optimizer
 
 > Data-driven hiring optimization reduces time-to-fill for engineering roles from 67 days to 34 days while improving offer acceptance rates from 62% to 84%.
 
@@ -2520,7 +2321,7 @@ Output: Calibration scorecard per interviewer + team-level recommendations + sug
 ```
 
 :::
-## 14. AI Sprint Capacity Planner
+## 13. AI Sprint Capacity Planner
 
 > Intelligent capacity modeling improves sprint commitment accuracy from 58% to 91% and reduces over-commitment burnout incidents by 74%.
 
@@ -2720,7 +2521,7 @@ Generate:
 ```
 
 :::
-## 15. AI Codebase Knowledge Graph Builder
+## 14. AI Codebase Knowledge Graph Builder
 
 > Automated codebase knowledge mapping reduces new engineer ramp-up time from 3 months to 5 weeks and cuts tribal knowledge loss from attrition by 80%.
 
@@ -2905,7 +2706,7 @@ Generate:
 ```
 
 :::
-## 16. AI Release Readiness Assessor
+## 15. AI Release Readiness Assessor
 
 > Automated release readiness assessment reduces production rollback rate from 14% to 3% and cuts release validation time from 2 days to 3 hours.
 
@@ -3119,7 +2920,7 @@ Output: Monitoring checklist + escalation flowchart + rollback decision tree.
 ```
 
 :::
-## 17. AI On-Call Rotation Optimizer
+## 16. AI On-Call Rotation Optimizer
 
 > Intelligent on-call scheduling reduces after-hours fatigue incidents by 63% and ensures equitable rotation distribution within a 5% variance across all engineers.
 
@@ -3324,7 +3125,7 @@ Recommendations:
 ```
 
 :::
-## 18. AI Technical RFC Review Assistant
+## 17. AI Technical RFC Review Assistant
 
 > AI-assisted RFC review reduces review cycle time from 3 weeks to 5 days and increases the average number of substantive review comments from 4 to 12 per document.
 
@@ -3532,7 +3333,7 @@ Output: Formal decision record document ready for archiving + notification messa
 ```
 
 :::
-## 19. AI Migration Risk Estimator
+## 18. AI Migration Risk Estimator
 
 > Data-driven migration risk assessment reduces failed migrations by 76% and provides accurate effort estimates within 15% of actual duration.
 
@@ -3725,7 +3526,7 @@ Output: Rollback readiness score (ready / ready with caveats / not ready) + gaps
 ```
 
 :::
-## 20. AI Developer Experience (DX) Survey Analyzer
+## 19. AI Developer Experience (DX) Survey Analyzer
 
 > Continuous DX survey analysis identifies friction points 3x faster than manual review and drives targeted improvements that increase developer satisfaction scores from 5.8/10 to 8.2/10.
 
@@ -3941,7 +3742,7 @@ Output: Benchmarking report + gap analysis + improvement target table + investme
 
 :::
 
-## 21. AI Engineering Metrics Dashboard Designer
+## 20. AI Engineering Metrics Dashboard Designer
 
 > Turn engineering data into clarity — build dashboards that drive decisions, not noise.
 
@@ -4095,7 +3896,7 @@ Please:
 
 :::
 
-## 22. AI Team Knowledge Graph Builder
+## 21. AI Team Knowledge Graph Builder
 
 > Surface what your team knows, map who knows it, and stop knowledge from walking out the door.
 
@@ -4249,7 +4050,7 @@ Please:
 
 :::
 
-## 23. AI Cross-Team Dependency Manager
+## 22. AI Cross-Team Dependency Manager
 
 > Eliminate the coordination tax — make cross-team dependencies visible, predictable, and unblocked.
 
@@ -4399,6 +4200,345 @@ Please:
 3. Identify which dependencies were discoverable earlier and what process change would have surfaced them sooner
 4. Recommend 3 specific process changes for next quarter to reduce dependency-related delays
 5. Draft a dependency health section for our quarterly engineering retrospective document (300 words), describing what happened and what we're changing
+```
+
+:::
+
+## 23. AI Engineering Onboarding Accelerator
+
+> Builds personalized onboarding plans for new engineers based on team context, codebase complexity, and role requirements — reducing ramp-up time from months to weeks.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: New Engineer Onboarding Takes Too Long and Falls Disproportionately on Senior Engineers**
+
+The cost of slow engineering onboarding compounds at every hiring stage. Each new engineer hired adds weeks of cognitive load on senior team members who must provide context, review work, answer questions, and guide system understanding. In a team already stretched on delivery, onboarding a new engineer can temporarily reduce the team's output before it increases it. Tech leads and senior engineers who are also responsible for delivery find onboarding quality deprioritized under deadline pressure — and new engineers receive inconsistent, incomplete context that extends their time to full productivity.
+
+Onboarding that relies on documentation reading and shadow assignments misses the most important dimension: understanding the why behind architectural and process decisions. New engineers who don't understand the reasoning behind system design and team practices make decisions that conflict with established patterns, generating rework and code review friction that persists long past the official onboarding period.
+
+**How COCO Solves It**
+
+1. **Personalized Onboarding Plan Generation**: COCO builds role-specific onboarding plans based on the engineer's background, the team's technology stack, and the codebase areas they will own.
+2. **System Context Documentation**: COCO assembles architecture decision records, design rationale, and codebase context into structured onboarding documentation that new engineers can consume independently.
+3. **Progressive Task Assignment**: COCO designs a progressive task sequence — starting with low-risk, high-learning tasks and escalating to production ownership — that builds confidence while managing risk.
+4. **Milestone and Check-in Framework**: COCO generates 30-60-90 day milestone plans with specific competency targets and check-in agendas that make onboarding progress measurable.
+5. **Q&A and FAQ Generation**: COCO anticipates the most common new engineer questions about the codebase, team processes, and architecture, generating pre-answered FAQs that reduce interruption load on senior engineers.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Time to first production contribution**: Structured onboarding plans reduce average time to first meaningful production contribution from **8–12 weeks to 4–6 weeks**
+- **Senior engineer interruption load**: Pre-documented context and FAQs reduce onboarding-related interruptions to senior engineers by **40–50%** in weeks 1–4
+- **30-day productivity self-assessment**: New engineers with structured onboarding plans report **35% higher** confidence and productivity self-assessment at day 30
+- **Onboarding satisfaction**: Structured, well-documented onboarding correlates with higher new hire retention (first-year attrition drops **20–30%** with better onboarding experience)
+- **Tech lead time savings**: AI-generated onboarding materials reduce tech lead onboarding preparation time by **60–70%** per new hire
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: New Engineer Onboarding Plan Generator**
+```
+Build a personalized 90-day onboarding plan for the following new engineering hire.
+
+Role: [backend engineer / frontend engineer / full-stack / ML engineer / data engineer / platform engineer]
+Level: [junior / mid-level / senior / staff]
+Start date: [date]
+New hire background summary: [describe prior experience — years, main languages/frameworks, domain experience]
+
+Team context:
+- Main technology stack: [list languages, frameworks, databases, infrastructure]
+- Codebase size and complexity: [describe — monolith / microservices, approximate size, main service domains]
+- Team size and structure: [N engineers, describe team topology]
+- Current priorities/projects: [describe what the team is working on in the next 3 months]
+- Areas the new hire will initially own: [describe specific components or services]
+
+Build a 90-day onboarding plan including:
+1. Week 1 plan: environment setup, team introductions, key readings, first shadow tasks
+2. Weeks 2–4 plan: first coding tasks (low-risk, mentor-supported), codebase exploration areas, key architecture deep-dives
+3. Months 2–3 plan: increasing production ownership, first solo delivery, code review participation
+4. 30/60/90-day milestones: specific competency targets and success criteria
+5. Key people to meet and topics to cover in each 1:1
+6. Codebase areas and documentation to prioritize by week
+```
+
+**Prompt 2: Engineering Team FAQ Builder**
+```
+Build an onboarding FAQ document for new engineers joining the following team.
+
+Team: [name or description]
+Technology stack: [list]
+Team processes: [describe — sprint methodology, code review process, deployment process, incident response]
+Common new engineer questions (based on past onboarding experience): [list any recurring questions you know new engineers ask]
+
+Build a FAQ document covering:
+1. Development environment setup — common setup issues and how to resolve them
+2. Codebase navigation — where to find key components, how the code is organized
+3. Development workflow — how to pick up work, branch naming, PR process, review expectations
+4. Testing approach — what tests are required, how to run the test suite, test coverage expectations
+5. Deployment process — how code gets to production, what the deployment pipeline looks like, who can deploy
+6. Incident response — what to do when something breaks, escalation process, on-call expectations
+7. Architectural decisions — top 5 "why did we do it this way?" questions with answers
+8. Team norms and culture — unwritten rules that new engineers should know
+```
+
+**Prompt 3: 30-60-90 Day Engineering Milestone Plan**
+```
+Create a 30-60-90 day milestone plan for the following engineering role.
+
+Role: [describe]
+Level: [junior / mid / senior]
+Team context: [describe the team, stack, and what the hire will be working on]
+New hire background: [describe]
+
+Create a milestone plan with:
+
+**30-Day Milestones (Foundation)**
+[List 5–8 specific, measurable milestones for day 30 — e.g., "Has successfully deployed a change to staging", "Has completed code review on 5 PRs", "Can explain the data model for the [X] service"]
+
+**60-Day Milestones (Contribution)**
+[List 5–8 milestones for day 60 — e.g., "Has independently delivered a small feature end-to-end", "Has participated in an incident response", "Has submitted a PR that was approved without major revisions"]
+
+**90-Day Milestones (Ownership)**
+[List 5–8 milestones for day 90 — e.g., "Owns a defined component/service area", "Has conducted code reviews for junior team members", "Can handle on-call for their owned services"]
+
+For each milestone:
+- What does success look like?
+- How will we measure it?
+- What support/resources does the engineer need to achieve it?
+
+Also: Check-in agenda for the week 4, week 8, and week 12 review sessions.
+```
+
+:::
+
+## 24. AI Architecture Trade-Off Analysis Engine
+
+> Evaluates architectural options against technical requirements, scalability constraints, and team capabilities — generating structured trade-off analyses and decision documentation.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Architecture Decisions Are Made Without Systematic Trade-Off Analysis**
+
+Architecture decisions have long-lived consequences — the database choice made today shapes the system's performance characteristics, scaling costs, and operational complexity for years. Yet most architecture decisions are made through informal discussion, influenced heavily by the most vocal participant and anchored to whatever approach team members have used before. Trade-offs are explored incompletely. Options that would have been superior for the specific requirements are dismissed too early because no one champions them. And the reasoning behind decisions is rarely documented, leaving future engineers to reverse-engineer the context.
+
+For tech leads, the challenge is facilitating architecture discussions that are both rigorous and time-efficient. Teams can spend days debating database or framework choices that should be resolved in hours with clear criteria and systematic analysis. And the decisions that get made need to be documented in a way that helps future engineers understand not just what was decided but why.
+
+**How COCO Solves It**
+
+1. **Option Identification**: COCO ensures architecture options are considered systematically — surfacing alternatives that might not emerge from team discussion alone.
+2. **Requirements-Based Evaluation**: COCO maps each option against stated technical requirements, performance targets, and operational constraints, producing a structured comparison.
+3. **Risk Assessment**: COCO identifies risks specific to each option — complexity, vendor lock-in, scaling limitations, team capability gaps, and operational overhead.
+4. **Trade-Off Visualization**: COCO produces trade-off matrices and scoring frameworks that make the relative strengths and weaknesses of each option explicit.
+5. **Architecture Decision Record Drafting**: COCO drafts Architecture Decision Records (ADRs) that document the context, options considered, decision, and rationale in a standard format.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Decision quality**: Teams using structured trade-off analysis report **40% fewer** architecture regrets (needing to undo architectural decisions) within 18 months
+- **Decision discussion efficiency**: Structured options analysis reduces architecture decision meeting time from **multiple sessions over days to 1–2 focused sessions**
+- **ADR coverage**: Teams with AI-assisted ADR drafting document **3–5x more** architecture decisions vs. teams relying on manual documentation
+- **Onboarding efficiency**: New engineers with access to comprehensive ADRs reach architectural understanding **30–40% faster**
+- **Technical debt reduction**: Decisions made with explicit risk documentation are revisited proactively rather than discovered as problems — reducing reactive technical debt
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Architecture Options Trade-Off Analysis**
+```
+Conduct a trade-off analysis for the following architecture decision.
+
+Decision context: [describe what architectural choice needs to be made and why now]
+System context: [describe the system — current scale, growth projections, team size, operational constraints]
+
+Requirements and constraints:
+- Performance requirements: [describe — e.g., "sub-100ms p99 response time at 10K req/sec"]
+- Scalability requirements: [describe expected growth]
+- Reliability requirements: [SLA, availability targets]
+- Team constraints: [existing expertise, team size, operational capacity]
+- Cost constraints: [budget considerations, operational cost sensitivity]
+- Timeline constraints: [when does this need to be implemented?]
+
+Options to evaluate:
+- Option A: [describe]
+- Option B: [describe]
+- Option C: [describe if applicable]
+
+Evaluate each option against:
+1. Requirements fulfillment: does it meet each stated requirement?
+2. Scalability: how does it perform at 3x, 10x, and 100x current scale?
+3. Operational complexity: what ongoing operational overhead does this create?
+4. Team capability fit: how well does this match the team existing expertise?
+5. Risk profile: what can go wrong and how recoverable is it?
+6. Migration cost: what is the effort to implement and what is the path to migrate off it later?
+7. Recommendation: which option is best for this context and why?
+```
+
+**Prompt 2: Architecture Decision Record (ADR) Generator**
+```
+Draft an Architecture Decision Record for the following architectural decision.
+
+ADR number: [ADR-XXX]
+Title: [Decision title — e.g., "Use PostgreSQL for primary transactional database"]
+
+Context:
+[Describe the situation, forces at play, and why this decision was needed. Include relevant constraints, requirements, and system context.]
+
+Options considered:
+[For each option: name, description, pros, cons]
+
+Decision made: [State the decision]
+Rationale: [Why this option was chosen over the alternatives]
+
+Consequences:
+- Positive consequences: [what becomes easier or better]
+- Negative consequences: [what tradeoffs are accepted, what becomes harder]
+- Risks: [what could go wrong with this decision]
+
+Review trigger: [what circumstances would cause us to revisit this decision?]
+
+Draft a complete, professional ADR that:
+1. Provides sufficient context for an engineer who wasn't in the discussion to understand the decision
+2. Is honest about the trade-offs and what was given up
+3. Is specific enough to be useful but concise enough to be read
+4. Follows MADR or similar ADR format
+5. Will remain useful as institutional knowledge 2–3 years from now
+```
+
+**Prompt 3: Technical Spike Research Plan Generator**
+```
+Generate a technical spike research plan for the following architectural uncertainty.
+
+Spike context: [describe what you don't know yet that is blocking an architecture decision]
+Time budget for spike: [X engineering days]
+Team members who will work on the spike: [N engineers, describe skill levels]
+Decision the spike should inform: [describe what decision will be made based on spike results]
+
+Questions the spike must answer:
+[list 3–6 specific questions the spike should answer — these should be answerable, not open-ended explorations]
+
+Generate a spike research plan including:
+1. Spike objectives: what specific knowledge will be produced
+2. Experiments to run: for each question, what experiment or proof-of-concept will answer it?
+3. Success criteria for each experiment: what result confirms or disproves the hypothesis?
+4. Time allocation: how to divide the spike time budget across experiments
+5. Risks to the spike: what could prevent the spike from producing useful results? How to mitigate?
+6. Output requirements: what should the spike produce? (decision document, proof-of-concept code, benchmark results, recommendation memo)
+7. Decision timeline: when should spike results be reviewed and when will the architecture decision be made?
+```
+
+:::
+
+## 25. AI Code Review Culture and Standards Builder
+
+> Develops team code review standards, reviewer assignment policies, and constructive feedback templates — improving review quality and reducing code review friction.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Code Review Is Either a Rubber Stamp or a Source of Team Friction**
+
+Code review is one of the highest-leverage engineering practices — when done well, it improves code quality, spreads knowledge, and catches defects. When done poorly, it becomes either a rubber stamp that provides false assurance, or a source of friction that slows delivery and demotivates contributors. Both failure modes are common and share a root cause: most engineering teams don't have explicit, documented code review standards. Reviewers apply their personal standards inconsistently. Feedback style varies from terse and dismissive to overthought and blocking. Authors don't know what to expect and can't reliably address reviewer concerns.
+
+For tech leads, improving code review culture is difficult to approach directly. Telling reviewers to "be more constructive" without providing a framework doesn't produce consistent change. And the implicit standards of experienced engineers — what they actually look for in a review, what merits a blocking comment vs. a suggestion — are rarely articulated in a way that can be taught to the whole team.
+
+**How COCO Solves It**
+
+1. **Code Review Standards Documentation**: COCO drafts team-specific code review standards covering what reviewers should check, what feedback style is expected, and how to handle disagreements.
+2. **Review Checklist Generation**: COCO generates context-specific review checklists for different code types (API endpoints, database migrations, security-sensitive code, performance-critical paths).
+3. **Feedback Template Library**: COCO creates a library of feedback templates that model constructive review comments across common feedback scenarios.
+4. **Reviewer Assignment Policy**: COCO designs reviewer assignment policies based on code area expertise, review load distribution, and knowledge-spreading objectives.
+5. **Review Culture Retrospective Analysis**: COCO analyzes code review metrics and patterns to identify culture and quality issues — excessive blocking comments, rubber-stamp approvals, reviewer bottlenecks.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Review quality score**: Teams with documented review standards see **40–60% improvement** in review quality metrics (comment specificity, action clarity, issue catch rate)
+- **Review cycle time**: Structured standards and checklists reduce average PR merge time from **3–5 days to 1–2 days** by reducing ambiguous feedback and rework loops
+- **Knowledge distribution**: Reviewer assignment policies that spread reviews across the team increase codebase familiarity scores by **30%** across non-senior engineers
+- **Author satisfaction**: Structured, constructive feedback templates increase author satisfaction with code review by **45%** in team surveys
+- **Defect catch rate**: Teams with explicit review checklists for security and performance catch **2–3x more** review-relevant defects vs. ad-hoc review
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Team Code Review Standards Document**
+```
+Draft a code review standards document for the following engineering team.
+
+Team context:
+- Team size: [N engineers at various levels]
+- Primary languages and frameworks: [list]
+- Deployment frequency: [daily / weekly / on-demand]
+- Current review pain points: [describe — e.g., "reviews too slow", "inconsistent standards", "feedback too harsh or too lenient", "certain engineers are review bottlenecks"]
+- Current PR size norms: [average lines of code per PR]
+
+Draft a code review standards document covering:
+1. What reviewers should check (by priority): correctness, security, performance, maintainability, test coverage, documentation
+2. Reviewer assignment rules: who reviews what, minimum reviewers, required reviewers for sensitive areas
+3. Feedback style guidelines: how to write constructive comments, blocking vs. non-blocking comment types
+4. Review response expectations: response time SLA for reviewers and authors
+5. Approval standards: when is a PR ready to merge? Who can approve?
+6. Disagreement resolution: how to handle persistent disagreements between reviewer and author
+7. What NOT to block on: style preferences that should be automated rather than reviewed manually
+```
+
+**Prompt 2: Code Review Feedback Template Library**
+```
+Create a code review feedback template library for the following common review scenarios.
+
+Team context: [describe stack and team norms]
+
+Create 10–15 feedback templates covering:
+1. Bug identified (blocking): [template for clear, actionable bug report with why it matters]
+2. Security concern (blocking): [template for security issue that needs attention before merge]
+3. Performance concern (potentially blocking): [template for performance issue requiring investigation]
+4. Naming and clarity (non-blocking suggestion): [template for suggesting better naming without demanding it]
+5. Missing test coverage (blocking or non-blocking based on severity): [template]
+6. Better alternative approach (non-blocking): [template for suggesting an alternative without requiring it]
+7. Code duplication (non-blocking): [template for pointing out DRY violation as a suggestion]
+8. Documentation needed (non-blocking): [template for requesting inline docs]
+9. Question / seeking understanding: [template for reviewer clarification questions]
+10. Positive feedback: [template for highlighting excellent work in a review]
+
+Each template should:
+- Lead with the observation, not the judgment
+- Explain the why (why does this matter?)
+- Suggest a specific resolution
+- Be clearly labeled as blocking or non-blocking
+```
+
+**Prompt 3: Code Review Culture Retrospective Analysis**
+```
+Analyze the following code review metrics and identify culture and quality issues to address.
+
+Team: [describe]
+Analysis period: [date range]
+
+Review metrics:
+- Average PR size: [X lines of code]
+- Average review cycle time (opened to merged): [X days]
+- Average comment count per PR: [X]
+- Approval without comments rate: [X%]
+- PR rejection rate (closed without merging): [X%]
+- Reviewer distribution: [e.g., "top 3 reviewers account for 70% of all review comments"]
+- Defect escape rate (defects found in production that passed code review): [X per month]
+
+Qualitative observations:
+[describe any known issues — e.g., "review comments often focus on style rather than logic", "certain engineers block PRs frequently with minor issues", "some engineers never receive review pushback regardless of code quality"]
+
+Analyze:
+1. Key culture indicators: what do these metrics suggest about review culture?
+2. Quality indicators: what do these metrics suggest about review effectiveness?
+3. Top 3 culture issues to address with specific recommendations
+4. Reviewer load distribution issues: are reviews too concentrated?
+5. Efficiency improvement opportunities: where is review time being spent unproductively?
+6. Recommended team retrospective topics based on this analysis
+7. 3 metrics to improve in the next 60 days with target values and tactics
 ```
 
 :::

@@ -812,214 +812,7 @@ Output: Risk assessment register + mitigation roadmap with priority ranking and 
 ```
 
 :::
-## 5. AI Product Roadmap Prioritization Engine
-
-> Applies structured AI-specific prioritization frameworks to product backlogs — accounting for model dependencies, data requirements, evaluation complexity, and the unique tradeoffs of shipping AI-powered features.
-
-::: details Pain Point & How COCO Solves It
-
-**The Pain: Standard Product Prioritization Frameworks Break Down for AI Features**
-
-AI product managers face a prioritization challenge that standard frameworks like RICE, MoSCoW, or weighted scoring cannot adequately address: AI features have fundamentally different risk, effort, and uncertainty profiles than conventional software features. A conventional feature's feasibility is largely known at the time of prioritization — the engineering team can estimate effort reasonably well because the technology is deterministic. An AI feature's feasibility depends on whether the underlying model can actually perform the task at required quality levels, which often cannot be known without a proof-of-concept that itself takes weeks. Prioritizing AI features without accounting for this uncertainty leads to roadmaps that look ambitious in planning but constantly slip in execution.
-
-The effort estimation problem is compounded by hidden dependencies that standard backlog management tools do not capture. An AI feature that seems straightforward — "add AI summarization to the document viewer" — may actually depend on: a RAG pipeline that doesn't exist yet, a data quality improvement project blocked by the data team, a latency optimization that requires infrastructure investment, and a safety review process that adds 3–4 weeks to any AI feature release. None of these dependencies appear in a traditional user story, and none of them are visible to stakeholders reviewing a roadmap. When these dependencies surface during execution, they cause cascading delays that damage credibility.
-
-The prioritization challenge is further complicated by the AI PM's need to balance three distinct types of AI roadmap work that require very different planning horizons: foundation work (building evaluation infrastructure, improving data quality, establishing model update processes — unglamorous but essential), feature work (shipping user-visible AI capabilities), and improvement work (reducing hallucination rates, improving latency, cutting inference costs — important but difficult to schedule against new feature pressure). Teams that prioritize exclusively on user-visible feature work consistently find themselves accumulating AI technical debt that eventually forces a costly roadmap reset.
-
-**How COCO Solves It**
-
-1. **AI Feature Dependency Mapping**: COCO surfaces hidden dependencies before commitment:
-   - Maps each AI feature to its model dependencies, data requirements, infrastructure prerequisites, and safety review requirements
-   - Identifies shared foundations that multiple roadmap items depend on, surfacing sequencing constraints
-   - Flags features with proof-of-concept uncertainty: items where feasibility cannot be assumed without a spike
-   - Estimates the full critical path including all AI-specific work streams often omitted from engineering estimates
-   - Generates a dependency graph visualization for roadmap planning sessions
-
-2. **AI-Adjusted Effort and Uncertainty Scoring**: COCO builds a realistic effort model:
-   - Applies AI-specific complexity multipliers: novel model capability required, new domain with limited training data, new safety territory, multilingual requirements
-   - Distinguishes known-feasible work from requires-experimentation work in effort estimates
-   - Adds evaluation and iteration cycles to effort estimates that standard engineering estimates omit
-   - Factors in regulatory review time for AI features in high-risk use case categories
-   - Produces confidence intervals on effort estimates rather than point estimates, with explicit uncertainty flags
-
-3. **Value Scoring Framework for AI Features**: COCO structures the value side of the prioritization equation:
-   - Assesses user value: adoption potential, task frequency, current pain intensity, willingness to pay signal
-   - Measures strategic value: competitive differentiation strength, platform leverage, data flywheel contribution
-   - Quantifies learning value: does this feature generate labeled data, user behavior signals, or model performance data that compounds value over time?
-   - Incorporates risk reduction value: features that reduce AI-specific risks (hallucination exposure, bias risk, compliance gap) that are often invisible in pure user-value frameworks
-   - Calculates a composite value score with transparent weighting that the team can inspect and adjust
-
-4. **Foundation vs. Feature vs. Improvement Portfolio Balancing**: COCO maintains healthy roadmap composition:
-   - Tracks the current portfolio split across the three AI work types and benchmarks against recommended healthy ratios
-   - Flags when the roadmap is over-indexed on new features at the expense of essential foundation work
-   - Recommends minimum foundation and improvement investment levels to prevent technical debt accumulation
-   - Calculates the velocity impact of deferred foundation work: how much future feature delivery capacity is being traded for current feature releases
-   - Generates a portfolio health report for leadership that frames technical investment in business terms
-
-5. **Stakeholder Alignment and Prioritization Facilitation**: COCO prepares for prioritization conversations:
-   - Generates a structured one-pager for each candidate roadmap item covering value, effort, uncertainty, and dependencies
-   - Produces a pre-read scoring matrix with populated data to make prioritization meetings more productive
-   - Identifies likely prioritization disagreements based on stakeholder value weight differences
-   - Generates stakeholder-specific views: engineering sees technical dependencies; leadership sees business value and risk
-   - Creates a decision log template to document prioritization rationale for future reference
-
-6. **Roadmap Communication and Commitment Management**: COCO manages the output of prioritization:
-   - Produces a roadmap document with explicit confidence levels on delivery timelines for AI features
-   - Generates a commitment communication that frames AI uncertainty appropriately for stakeholder expectations
-   - Creates a risk register for committed roadmap items with triggers that would change the plan
-   - Builds a quarterly roadmap review agenda that reassesses AI feature priorities against new learnings
-   - Designs the roadmap update communication process for when AI experiments fail to reach quality targets
-
-:::
-
-::: details Results & Who Benefits
-
-**Measurable Results**
-
-- **Roadmap commitment accuracy**: AI PMs using structured AI-specific prioritization report **68% fewer** missed roadmap commitments in the subsequent two quarters
-- **Hidden dependency discovery**: Systematic dependency mapping surfaces an average of **4.7 blocking dependencies per AI feature** that were not visible in the original backlog item
-- **Foundation work investment**: Teams using portfolio balancing frameworks maintain foundation work at **18–25% of roadmap capacity**, vs. **under 8%** without explicit balancing — reducing AI technical debt accumulation
-- **Prioritization meeting efficiency**: Structured pre-read scoring matrices reduce prioritization meeting time from **3–4 hours** to **60–90 minutes** while increasing stakeholder alignment scores
-- **Stakeholder expectation mismatch**: AI-uncertainty-adjusted roadmap communication reduces stakeholder surprise incidents by **54%** over a 6-month period
-
-**Who Benefits**
-
-- **AI Product Managers**: Replace the painful cycle of over-committed AI roadmaps with realistic plans that account for AI-specific complexity, dependency, and uncertainty
-- **Engineering and ML Teams**: Receive a prioritized backlog that already accounts for technical dependencies and includes foundation work, reducing mid-sprint discovery of blocking issues
-- **Product Leadership and C-Suite**: Get roadmap commitments that come with explicit confidence levels and risk flags, enabling better resource allocation and expectation management
-- **Business Stakeholders**: Experience more predictable delivery of AI features, replacing the common pattern of AI feature promises that repeatedly slip without clear explanation
-
-:::
-
-::: details 💡 Practical Prompts
-
-**Prompt 1: AI Feature Dependency Audit**
-```
-Perform a dependency audit for the following AI feature candidates before roadmap prioritization.
-
-AI features to audit:
-1. [Feature name]: [one-sentence description]
-2. [Feature name]: [one-sentence description]
-3. [Feature name]: [one-sentence description]
-[continue for all candidates]
-
-Current infrastructure state:
-- LLM infrastructure: [describe current API setup, RAG pipeline status, evaluation framework status]
-- Data infrastructure: [describe data pipelines, labeling capacity, data quality status]
-- Safety/compliance review: [describe current review process and cycle time]
-
-For each feature, identify:
-1. Model capability dependencies: does this require a model capability that is proven, experimental, or unknown?
-2. Data dependencies: what training data, fine-tuning data, or retrieval data does this require? Does it exist?
-3. Infrastructure dependencies: what pipeline components must be built or modified before this feature can ship?
-4. Safety/compliance dependencies: what review processes does this feature trigger and how long do they take?
-5. Team dependencies: which teams outside the AI product team must contribute to this feature?
-6. Sequencing constraint: can this feature be built in parallel with others, or does it block/get blocked by specific items?
-
-Output: Dependency map per feature + critical path analysis + recommended build sequence
-```
-
-**Prompt 2: AI Roadmap Prioritization Scoring**
-```
-Score the following AI feature candidates using an AI-product-appropriate prioritization framework.
-
-Feature candidates (for each, provide):
-- Feature name: [name]
-- Description: [what it does]
-- User problem: [what pain it solves]
-- Evidence of demand: [usage data, user research, sales requests]
-- Estimated effort: [engineering estimate in weeks]
-- Known dependencies: [list from dependency audit]
-- Feasibility confidence: [High=proven tech / Medium=requires PoC / Low=research required]
-
-Business context:
-- Strategic priority this quarter: [growth / retention / revenue / risk reduction]
-- Available engineering capacity: [team-weeks available]
-- Non-negotiable commitments: [items already committed to stakeholders]
-
-Score each feature on:
-1. User value (1–10): adoption potential × pain intensity × task frequency
-2. Strategic value (1–10): competitive differentiation × platform leverage
-3. Learning value (1–5): data flywheel and model improvement contribution
-4. Effort-adjusted score: value / (effort × uncertainty multiplier)
-5. Portfolio balance consideration: is this foundation, feature, or improvement work?
-
-Output: Prioritized feature ranking with scores + recommended 2-quarter roadmap + portfolio health assessment
-```
-
-**Prompt 3: AI Roadmap Stakeholder Communication**
-```
-Generate a stakeholder-ready roadmap communication for the following AI product plan.
-
-Audience: [executive leadership / engineering / sales / customers — specify which]
-Planning period: [Q3 2025, or specific months]
-Committed items (high confidence): [list features]
-Planned items (medium confidence): [list features]
-Exploratory items (low confidence, dependent on PoC): [list features]
-
-For each item, I'll provide:
-- Feature name and one-line description
-- Target delivery date
-- Confidence level (High / Medium / Low)
-- Key risk that could change the plan
-
-Generate:
-1. Roadmap narrative: 2–3 paragraphs framing the plan and its strategic intent for this audience
-2. Roadmap table: feature, description, target date, confidence indicator, key risk
-3. Uncertainty framing: how to explain AI delivery uncertainty to this audience without undermining confidence
-4. Dependency call-outs: which items require decisions or contributions from this audience's team
-5. Success metrics: how this audience should measure whether the plan is on track
-
-Output: Stakeholder-appropriate roadmap document with appropriate level of technical detail for the specified audience
-```
-
-**Prompt 4: Proof-of-Concept Scoping for Uncertain AI Features**
-```
-Design a time-boxed proof-of-concept for the following AI feature with uncertain feasibility.
-
-Feature: [description of the AI feature]
-Feasibility uncertainty: [what specifically is unknown — model capability, data availability, quality threshold reachability, latency achievability]
-Available time for PoC: [engineering-weeks]
-Available resources: [team members, compute budget, data available]
-Decision threshold: [what result from the PoC would confirm or deny roadmap commitment]
-
-Design the PoC:
-1. Core hypothesis: the single most important question the PoC must answer
-2. Minimum viable test: the smallest experiment that can answer the core hypothesis
-3. Success criteria: specific, measurable thresholds that define "feasible" vs. "not feasible"
-4. Failure modes: what results would lead to each of these conclusions: (a) fully feasible, (b) feasible with modifications, (c) not feasible with current approach
-5. Test plan: what to build, what data to use, how to measure, in what order
-6. Timeline and milestones: weekly checkpoint for the PoC with decision gates
-7. Decision memo template: what you will write when the PoC concludes
-
-Output: PoC brief + timeline + decision framework
-```
-
-**Prompt 5: Quarterly AI Roadmap Review Agenda**
-```
-Create a structured quarterly AI roadmap review agenda for our AI product team.
-
-Team: [team size, roles represented]
-Current quarter delivery: [what was committed vs. what shipped]
-Learnings from AI experiments this quarter: [what worked, what didn't reach quality bar]
-External changes: [model updates, competitor releases, regulatory changes, user research findings]
-Next quarter planning horizon: [what capacity is available]
-
-Design the review meeting:
-1. Retrospective section (30 min): structured analysis of this quarter — what shipped, what slipped, root causes for slips, what we learned from failed AI experiments
-2. Market context update (15 min): competitor AI feature releases, model capability changes, regulatory updates relevant to our roadmap
-3. Backlog re-scoring section (45 min): items whose priority should change based on this quarter's learnings
-4. Next quarter prioritization section (45 min): final priority ranking, dependency check, commitment level assignment
-5. Stakeholder alignment check (15 min): any commitments made outside this process that need to be reconciled
-6. Documentation (15 min): decision log update, roadmap document update, communication plan
-
-Generate a facilitation guide for each section with discussion questions, decision templates, and time management guidance.
-
-Output: Meeting agenda + facilitator guide + decision templates for each section
-```
-
-:::
-## 6. AI Inference Cost Optimization Analyzer
+## 5. AI Inference Cost Optimization Analyzer
 
 > Identifies and quantifies every lever available to reduce LLM inference costs — from prompt compression to model routing to caching — and generates a prioritized cost reduction roadmap.
 
@@ -1236,7 +1029,7 @@ Output: 90-day roadmap table + cumulative savings projection by week + leadershi
 ```
 
 :::
-## 7. AI Governance & Risk Framework Builder
+## 6. AI Governance & Risk Framework Builder
 
 > Constructs a comprehensive AI governance program covering risk assessment, approval workflows, incident management, and regulatory alignment — enabling AI PMs to ship responsibly at speed.
 
@@ -1464,7 +1257,7 @@ Output: Complete governance policy document in formal policy format with version
 ```
 
 :::
-## 8. AI Training Data Quality Assessment Tool
+## 7. AI Training Data Quality Assessment Tool
 
 > Evaluates training, fine-tuning, and RAG retrieval datasets for quality issues — coverage gaps, label noise, distribution bias, and contamination — before they degrade model performance in production.
 
@@ -1686,7 +1479,7 @@ Output: Data quality gate document + measurement protocol + gating workflow inte
 ```
 
 :::
-## 9. AI Fine-Tuning ROI Planner
+## 8. AI Fine-Tuning ROI Planner
 
 > Builds a rigorous cost-benefit analysis for fine-tuning decisions — quantifying the quality gain, cost structure, and maintenance burden relative to prompt engineering and RAG alternatives.
 
@@ -1897,7 +1690,7 @@ Output: Fine-tuned model lifecycle plan document + annual maintenance cost estim
 ```
 
 :::
-## 10. AI Feature Prioritization Scoring Engine
+## 9. AI Feature Prioritization Scoring Engine
 
 > Applies an AI-product-specific scoring engine to rank feature candidates — accounting for model maturity, data availability, safety requirements, and the unique value dynamics of AI capabilities.
 
@@ -2111,7 +1904,7 @@ Output: Not-now register document + stakeholder communication templates for each
 ```
 
 :::
-## 11. AI User Research Synthesis & Insight Extractor
+## 10. AI User Research Synthesis & Insight Extractor
 
 > Synthesizes large volumes of user research — interviews, surveys, support tickets, session recordings — into structured AI product insights with specific implications for model behavior, feature design, and quality thresholds.
 
@@ -2320,7 +2113,7 @@ Output: Traceability matrix table + gap analysis + recommended roadmap adjustmen
 ```
 
 :::
-## 12. AI Agent Workflow & Orchestration Designer
+## 11. AI Agent Workflow & Orchestration Designer
 
 > Designs reliable, observable multi-agent and agentic AI workflows — defining task decomposition, tool selection, error handling, and human escalation points before any code is written.
 
@@ -2559,7 +2352,7 @@ Output: Observability specification + monitoring dashboard layout + alert thresh
 ```
 
 :::
-## 13. AI Model Hallucination Rate Benchmark Tracker
+## 12. AI Model Hallucination Rate Benchmark Tracker
 
 > Establishes repeatable hallucination measurement methodology, tracks hallucination rates across model versions and prompt changes, and generates actionable remediation guidance for AI PMs.
 
@@ -2770,7 +2563,7 @@ Output: Disclosure language set + confidence communication design + known-unknow
 ```
 
 :::
-## 14. AI System Prompt Security & Injection Risk Reviewer
+## 13. AI System Prompt Security & Injection Risk Reviewer
 
 > Audits system prompts for prompt injection vulnerabilities, instruction override risks, and data leakage attack vectors — protecting AI products against adversarial manipulation before and after launch.
 
@@ -3009,7 +2802,7 @@ Output: Testing program specification + automation recommendations + responsible
 ```
 
 :::
-## 15. AI Product Launch Readiness Checklist Generator
+## 14. AI Product Launch Readiness Checklist Generator
 
 > Generates a comprehensive, AI-specific pre-launch checklist covering model quality, safety testing, infrastructure readiness, legal review, and stakeholder alignment — ensuring nothing critical is missed before go-live.
 
@@ -3252,7 +3045,7 @@ Output: Post-launch review template with discussion questions for each section +
 ```
 
 :::
-## 16. AI RAG Pipeline Architecture Advisor
+## 15. AI RAG Pipeline Architecture Advisor
 
 > Designs, evaluates, and optimizes Retrieval-Augmented Generation pipelines — from document ingestion strategy to chunking, embedding, retrieval, reranking, and generation — for accuracy and performance.
 
@@ -3483,7 +3276,7 @@ Output: Latency optimization roadmap + expected improvement per optimization + i
 ```
 
 :::
-## 17. AI Model Latency & Throughput Optimization Guide
+## 16. AI Model Latency & Throughput Optimization Guide
 
 > Identifies and resolves AI inference latency bottlenecks — streaming, batching, model selection, infrastructure tuning — to meet user experience SLAs without sacrificing output quality.
 
@@ -3707,7 +3500,7 @@ Output: Latency budget table by step + parallelization design + optimization pri
 ```
 
 :::
-## 18. AI Competitor AI Feature Gap Analyzer
+## 17. AI Competitor AI Feature Gap Analyzer
 
 > Systematically maps competitor AI features, identifies gaps in your product's AI capabilities, and generates a strategic response framework for AI roadmap prioritization.
 
@@ -3910,7 +3703,7 @@ Output: Quarterly competitive report + recommended actions + competitive monitor
 ```
 
 :::
-## 19. AI Dataset Annotation Quality Control Reviewer
+## 18. AI Dataset Annotation Quality Control Reviewer
 
 > Designs and implements annotation quality control programs for AI training datasets — inter-annotator agreement measurement, systematic error detection, and guideline refinement to maximize training data value.
 
@@ -4128,7 +3921,7 @@ Output: Formal training data readiness certification document with all sections 
 ```
 
 :::
-## 20. AI Regulatory Compliance Checklist for AI Products
+## 19. AI Regulatory Compliance Checklist for AI Products
 
 > Generates jurisdiction-specific, use-case-specific regulatory compliance checklists for AI products — covering EU AI Act, US sector regulations, data protection laws, and emerging AI legislation.
 
@@ -4387,7 +4180,7 @@ Output: Complete enterprise compliance package + customization guide for differe
 ```
 
 :::
-## 21. AI Customer Feedback Loop Automation Engine
+## 20. AI Customer Feedback Loop Automation Engine
 
 > Turn unstructured customer signals into prioritized product decisions in hours, not weeks.
 
@@ -4630,7 +4423,7 @@ Generate: Resolution effectiveness dashboard + zombie issue alert list + feedbac
 ```
 
 :::
-## 22. AI AI-Native Feature Flag & Experimentation Platform
+## 21. AI AI-Native Feature Flag & Experimentation Platform
 
 > Run statistically rigorous AI model experiments without engineering overhead or deployment risk.
 
@@ -4883,7 +4676,7 @@ Output: Experiment portfolio plan + calendar view + learning roadmap narrative
 ```
 
 :::
-## 23. AI Model Drift & Performance Degradation Detector
+## 22. AI Model Drift & Performance Degradation Detector
 
 > Catch AI quality regressions before users do — with automated monitoring built for model behavior.
 
@@ -5137,7 +4930,7 @@ Output: Complete post-mortem document ready for engineering all-hands + action i
 ```
 
 :::
-## 24. AI LLM Output Quality Scoring & Routing System
+## 23. AI LLM Output Quality Scoring & Routing System
 
 > Automatically score, filter, and route LLM outputs to deliver consistently high-quality responses at scale.
 
@@ -5409,7 +5202,7 @@ Output: Multi-model routing specification + model assignment matrix + cost-quali
 ```
 
 :::
-## 25. AI Product Metrics & KPI Dashboard Builder
+## 24. AI Product Metrics & KPI Dashboard Builder
 
 > Define, instrument, and visualize the metrics that actually matter for AI product health and growth.
 
@@ -5693,7 +5486,7 @@ Output: Complete weekly review system — pre-read template + meeting agenda + d
 ```
 
 :::
-## 26. AI Cross-Functional AI Requirements Specification Writer
+## 25. AI Cross-Functional AI Requirements Specification Writer
 
 > Transform ambiguous AI feature requests into precise, engineering-ready specifications that prevent scope creep and costly rework.
 
@@ -6027,7 +5820,7 @@ Output: AI governance requirements specification + compliance evidence checklist
 ```
 
 :::
-## 27. AI Product Beta Testing Feedback Synthesizer
+## 26. AI Product Beta Testing Feedback Synthesizer
 
 > Extract actionable product insights from beta user chaos — fast enough to act before launch.
 
@@ -6314,7 +6107,7 @@ Output: Roadmap intelligence report with specific recommendations + supporting e
 ```
 
 :::
-## 28. AI Competitive AI Product Teardown Analyzer
+## 27. AI Competitive AI Product Teardown Analyzer
 
 > Systematically dissect competitor AI products to surface capability gaps, positioning opportunities, and strategic vulnerabilities.
 
@@ -6622,7 +6415,7 @@ Output: 5 competitive threat scenarios + strategic priorities matrix + monitorin
 ```
 
 :::
-## 29. AI AI Product Pricing Strategy Modeler
+## 28. AI AI Product Pricing Strategy Modeler
 
 > Design AI product pricing that captures maximum value while driving adoption, retention, and sustainable unit economics.
 
@@ -6947,7 +6740,7 @@ Output: Price increase strategy document + communication sequence + message draf
 ```
 
 :::
-## 30. AI AI Safety Red-Teaming Scenario Generator
+## 29. AI AI Safety Red-Teaming Scenario Generator
 
 > Systematically probe your AI product for safety vulnerabilities before adversarial users find them in production.
 
@@ -7277,7 +7070,7 @@ Output: Ongoing safety program specification + monitoring dashboard design + inc
 ```
 
 :::
-## 31. AI Product User Onboarding Flow Optimizer
+## 30. AI Product User Onboarding Flow Optimizer
 
 > Design AI product onboarding that transforms confused new users into confident power users in their first session.
 
@@ -7575,7 +7368,7 @@ Output: Complete 35-prompt library organized by level + progression guide + fail
 ```
 
 :::
-## 32. AI Model Card & AI Product Documentation Generator
+## 31. AI Model Card & AI Product Documentation Generator
 
 > Produce the technical documentation that enterprise buyers, regulators, and AI-literate users require — without drowning your team.
 
@@ -7936,7 +7729,7 @@ Output: Complete documentation maintenance system specification + responsibility
 
 :::
 
-## 33. AI Product Market Fit Signal Detector
+## 32. AI Product Market Fit Signal Detector
 
 > Identify the behavioral signals that distinguish genuine product-market fit from early adopter enthusiasm before scaling prematurely.
 
@@ -8242,7 +8035,7 @@ Output: PMF evidence package — narrative + slide spec + data presentation guid
 ```
 
 :::
-## 34. AI Multi-Model Routing & Fallback Logic Designer
+## 33. AI Multi-Model Routing & Fallback Logic Designer
 
 > Build intelligent model orchestration that maximizes quality, minimizes cost, and guarantees reliability across your AI infrastructure.
 
@@ -8582,7 +8375,7 @@ Output: Dashboard specification for each panel + alerting configuration + on-cal
 ```
 
 :::
-## 35. AI Product Incident Response & Rollback Planner
+## 34. AI Product Incident Response & Rollback Planner
 
 > Respond to AI product failures with speed and precision — minimizing user impact and restoring quality before crises become catastrophes.
 
@@ -8927,7 +8720,7 @@ Output: Complete incident communication template library + guidance + escalation
 ```
 
 :::
-## 36. AI Responsible AI Checklist & Audit Trail Generator
+## 35. AI Responsible AI Checklist & Audit Trail Generator
 
 > Embed responsible AI practices into every product decision with comprehensive checklists and documentation that satisfy regulators and enterprise buyers.
 
@@ -9299,7 +9092,7 @@ Output: Governance program design + role definitions + policy framework outline 
 ```
 
 :::
-## 37. AI Product Localization & Multilingual Expansion Planner
+## 36. AI Product Localization & Multilingual Expansion Planner
 
 > Scale your AI product across languages and markets without degrading quality, trust, or the user experience that made you successful.
 
@@ -9630,7 +9423,7 @@ Output: Multilingual launch plan + pre-launch gate checklist + beta program desi
 ```
 
 :::
-## 38. AI AI-Powered Feature Usage Analytics Engine
+## 37. AI AI-Powered Feature Usage Analytics Engine
 
 > Understand not just whether users use AI features, but whether those features are delivering genuine value — and where the opportunities are.
 
@@ -9974,7 +9767,7 @@ Output: Dashboard specifications + data requirements + implementation guide + al
 ```
 
 :::
-## 39. AI Product OKR & Success Metrics Framework Builder
+## 38. AI Product OKR & Success Metrics Framework Builder
 
 > Align your entire product team around AI-specific OKRs that connect model quality improvements to business outcomes everyone cares about.
 
@@ -10311,7 +10104,7 @@ Output: Retrospective facilitation guide + analysis frameworks + output document
 ```
 
 :::
-## 40. AI Enterprise AI Product Go-to-Market Strategy Advisor
+## 39. AI Enterprise AI Product Go-to-Market Strategy Advisor
 
 > Build a go-to-market strategy that wins enterprise AI deals by addressing the unique trust, compliance, and organizational challenges of selling AI to risk-conscious buyers.
 
@@ -10674,7 +10467,7 @@ Output: Complete enterprise GTM launch plan + pre-launch readiness checklist + s
 ```
 
 :::
-## 41. AI Product Accessibility & Inclusive Design Auditor
+## 40. AI Product Accessibility & Inclusive Design Auditor
 
 > Ensures AI products are inclusive and accessible to all users — eliminating algorithmic bias and interface barriers so that diverse user populations can benefit equally from AI capabilities.
 
@@ -10819,7 +10612,7 @@ Output: Inclusive design roadmap + quarterly OKR recommendations + resource requ
 ```
 
 :::
-## 42. AI Product Technical Debt Assessment & Refactoring Planner
+## 41. AI Product Technical Debt Assessment & Refactoring Planner
 
 > Systematically identifies accumulated technical debt in AI products, creates data-driven refactoring priorities and migration plans, and improves system maintainability without disrupting product iteration.
 
@@ -10970,7 +10763,7 @@ Output: Three-quarter technical debt roadmap + resource allocation recommendatio
 ```
 
 :::
-## 43. AI Product User Segmentation & Personalization Engine
+## 42. AI Product User Segmentation & Personalization Engine
 
 > Uses AI capabilities to build a fine-grained user segmentation system and deliver personalized product experiences — serving users at scale while providing each user with highly relevant AI interactions.
 
@@ -11111,7 +10904,7 @@ Output: Experiment design document + statistical power analysis + implementation
 ```
 
 :::
-## 44. AI Product Competitive Intelligence Monitoring System
+## 43. AI Product Competitive Intelligence Monitoring System
 
 > Establishes a continuously running AI competitive intelligence monitoring system that tracks competitor moves, industry trends, and technology breakthroughs in real time — providing timely, structured market insights for product decisions.
 
@@ -11265,7 +11058,7 @@ Output: Competitive white space opportunity map + strategic entry assessment for
 ```
 
 :::
-## 45. AI Product Knowledge Management & Documentation System
+## 44. AI Product Knowledge Management & Documentation System
 
 > Builds a knowledge management system for AI product teams — systematically preserving product decisions, experiment insights, and best practices, eliminating knowledge silos and information loss, and accelerating team learning velocity.
 
@@ -11427,7 +11220,7 @@ Output: Structured knowledge onboarding plan + checkpoint definitions + knowledg
 ```
 
 :::
-## 46. AI Product Crisis Communication & Stakeholder Management Playbook
+## 45. AI Product Crisis Communication & Stakeholder Management Playbook
 
 > Builds a professional crisis communication and stakeholder management system for AI product failures, data incidents, and ethical controversies — protecting product reputation and user trust in high-pressure moments.
 
@@ -11581,7 +11374,7 @@ Output: Trust rebuilding roadmap + phased communication plan + trust metrics mon
 ```
 
 :::
-## 47. AI Product Revenue Attribution & Business Case Builder
+## 46. AI Product Revenue Attribution & Business Case Builder
 
 > Precisely connects AI feature investment to quantifiable business outcomes — building data-driven AI product business cases that provide credible financial justification for resource acquisition and strategic decisions.
 
@@ -11754,7 +11547,7 @@ Output: Budget request document + financial justification + decision-maker speci
 ```
 
 :::
-## 48. AI Product Ecosystem & Partnership Strategy Builder
+## 47. AI Product Ecosystem & Partnership Strategy Builder
 
 > Plans the ecosystem layout and partnership strategy for AI products — accelerating product capability expansion and widening distribution channels through strategic partnerships to build a platform moat that is difficult to replicate.
 
@@ -11913,7 +11706,7 @@ Output: Partner operations handbook + tiering standards + performance tracking d
 ```
 
 :::
-## 49. AI Product Long-Term Vision & Innovation Pipeline Builder
+## 48. AI Product Long-Term Vision & Innovation Pipeline Builder
 
 > Builds a long-term vision narrative and innovation pipeline management system for AI products — systematically exploring breakthrough opportunities under daily iteration pressure to ensure the product maintains strategic leadership over a 3–5 year horizon.
 

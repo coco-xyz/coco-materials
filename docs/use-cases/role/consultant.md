@@ -2802,161 +2802,7 @@ For each option:
 
 :::
 
-## 19. AI Regulatory Impact Assessment Tool
-
-> Analyzes new regulatory developments and models their operational, financial, and strategic implications for client organizations across multiple jurisdictions.
-
-::: details Pain Point & How COCO Solves It
-
-**The Pain: Regulatory Changes That Catch Clients Off Guard Despite Being Publicly Available**
-
-Regulatory risk is one of the most common sources of value destruction for large organizations — yet it is also one of the most preventable. Most major regulatory changes are announced months or years before they take effect, with extensive public consultation periods, draft legislation, and commentary from regulators. Organizations that engage proactively during this period can shape implementation, build compliance capabilities in advance, and sometimes achieve competitive advantages through early adaptation. Those who discover the regulation when it's already effective pay a steep price.
-
-The challenge is that monitoring and interpreting regulatory developments is a full-time job that most organizations can't staff adequately. A multinational must track regulations across dozens of jurisdictions, multiple functional domains (employment, environment, data privacy, financial services, trade), and multiple regulatory bodies simultaneously. Even well-resourced legal and compliance teams struggle to maintain this coverage while also handling day-to-day compliance operations.
-
-Consultants who can deliver rapid, high-quality regulatory impact assessments create substantial value for clients in this environment. The bottleneck is speed and breadth of analysis: producing an assessment that's rigorous enough to be useful, covering multiple jurisdictions, before the window for proactive response closes. COCO enables consultants to produce this analysis in days rather than weeks.
-
-**How COCO Solves It**
-
-1. **Regulatory Development Monitoring**: COCO tracks the landscape:
-   - Monitors regulatory announcement feeds, official gazette publications, and consultation portals
-   - Identifies regulatory developments relevant to the client's industry, operations, and geography
-   - Summarizes complex regulatory language into accessible plain-language descriptions
-   - Flags effective dates, transition periods, and milestone compliance deadlines
-   - Tracks regulatory trajectory — is a proposal likely to pass, be amended, or be delayed?
-
-2. **Multi-Jurisdiction Analysis**: COCO covers the global landscape:
-   - Compares regulatory requirements across multiple jurisdictions for the same issue domain
-   - Identifies where jurisdictions are converging vs. diverging in their regulatory approaches
-   - Maps which of the client's entities, operations, or products are subject to each jurisdiction's requirements
-   - Identifies cross-border conflicts where compliance with one jurisdiction may complicate another
-   - Generates jurisdiction-prioritized assessment based on revenue exposure and compliance deadline proximity
-
-3. **Operational Impact Modeling**: COCO quantifies what compliance requires:
-   - Maps regulatory requirements to specific business processes, systems, and data flows affected
-   - Estimates the operational changes required: process redesign, technology investment, staffing additions
-   - Calculates the time and cost to achieve compliance under the required timeline
-   - Identifies dependencies and sequencing requirements across compliance workstreams
-   - Generates a compliance readiness assessment against each major requirement
-
-4. **Financial Impact Quantification**: COCO estimates the cost and risk:
-   - Models the one-time compliance investment required (technology, process redesign, legal support)
-   - Estimates ongoing compliance operating costs after initial implementation
-   - Calculates the penalty exposure for non-compliance under the proposed enforcement regime
-   - Identifies revenue impact if the regulation restricts certain products, markets, or practices
-   - Develops a financial risk range (base, upside, downside) appropriate for board-level discussion
-
-5. **Strategic Implication Analysis**: COCO identifies competitive consequences:
-   - Assesses whether the regulation creates asymmetric impact favoring certain competitors
-   - Identifies market structure changes that will result from regulation (consolidation, new entrant barriers)
-   - Maps first-mover advantages available to early compliers
-   - Identifies whether the regulation changes the competitive basis in the client's market
-   - Evaluates regulatory engagement opportunities — can the client influence implementation through consultation?
-
-6. **Client-Ready Deliverable Production**: COCO generates action-ready outputs:
-   - Produces regulatory impact assessment reports in client-ready format
-   - Creates executive summaries calibrated for board-level review
-   - Generates compliance roadmaps with milestone timelines and resource requirements
-   - Drafts regulatory consultation responses for client review
-   - Produces regulatory monitoring dashboards for ongoing client use
-
-:::
-
-::: details Results & Who Benefits
-
-**Measurable Results**
-
-- **Assessment turnaround time**: Comprehensive regulatory impact assessments delivered in **3-5 days** vs. 3-4 weeks with traditional approaches
-- **Jurisdiction coverage**: Multi-jurisdiction assessments cover **3x more regulatory scope** with the same team size
-- **Early warning lead time**: Clients receiving proactive regulatory monitoring achieve **average 14-month advance notice** of material compliance requirements
-- **Compliance cost reduction**: Clients who engage proactively based on early assessments achieve **35-45% lower compliance implementation costs** vs. reactive response
-- **Regulatory surprise elimination**: Zero instances of clients discovered to be non-compliant with a regulation that COCO's monitoring identified in advance
-
-**Who Benefits**
-
-- **Regulatory Affairs Consultant**: Delivers comprehensive assessments faster, covering more jurisdictions with higher confidence in completeness
-- **Client General Counsel**: Receives structured regulatory intelligence that supports board reporting and proactive compliance planning
-- **Client CFO**: Gets quantified financial exposure estimates that support budgeting and risk reserve decisions
-- **Client CEO**: Avoids the reputational and financial damage of regulatory non-compliance through better early warning
-
-:::
-
-::: details 💡 Practical Prompts
-
-**Prompt 1: Regulatory Impact Assessment**
-```
-Conduct a regulatory impact assessment for the following development.
-
-Client context:
-- Industry: [describe]
-- Geography of operations: [countries/regions]
-- Relevant business activities: [describe what aspects of operations are affected]
-- Organizational size: [approximate revenue, employee count]
-
-Regulatory development:
-- Regulation name/reference: [describe]
-- Issuing authority: [regulator/government body]
-- Summary of key requirements: [describe or paste key provisions]
-- Effective date: [date]
-- Jurisdiction: [countries/regions in scope]
-
-Assess:
-1. Which of the client's operations, entities, or products are in scope?
-2. What specific changes are required to achieve compliance?
-3. Operational impact: processes, systems, and data affected
-4. Financial impact: estimated one-time and ongoing compliance costs
-5. Timeline feasibility: can compliance be achieved by the effective date?
-6. Recommended immediate actions in the next 30/60/90 days
-```
-
-**Prompt 2: Multi-Jurisdiction Regulatory Comparison**
-```
-Compare regulatory requirements across the following jurisdictions for [topic/domain].
-
-Domain: [e.g., data privacy / ESG disclosure / AI governance / employment law]
-Client's key jurisdictions: [list 4-6 countries/regions]
-Applicable client business activities: [describe]
-
-For each jurisdiction, document:
-1. Applicable regulation name and current status (enacted / draft / consultation)
-2. Key requirements summary (3-5 bullet points)
-3. Effective date and transition timeline
-4. Enforcement regime: penalties for non-compliance
-5. Notable differences from other jurisdictions that create compliance complexity
-
-Cross-jurisdiction synthesis:
-- Where requirements align (single compliance program may suffice)
-- Where requirements conflict (genuine tension requiring separate approaches)
-- Jurisdiction prioritized by compliance urgency and financial exposure
-- Recommended compliance program architecture given the multi-jurisdiction reality
-```
-
-**Prompt 3: Board Regulatory Risk Briefing**
-```
-Draft a board-level regulatory risk briefing on [topic/domain].
-
-Client: [company name]
-Board meeting date: [date]
-Audience: [board composition — executives, independent directors]
-Current compliance status: [describe where the organization stands today]
-
-Key regulatory developments to cover:
-1. [Regulation 1]: status, requirements, timeline, financial impact
-2. [Regulation 2]: status, requirements, timeline, financial impact
-3. [Regulation 3]: status, requirements, timeline, financial impact
-
-Format requirements:
-- Maximum 3 pages or 10 slides
-- Lead with the most material near-term risk
-- Financial exposure quantified where possible
-- Compliance timeline with milestone dates
-- Management's recommended response and resource request
-- What board approval or direction is needed today
-```
-
-:::
-
-## 20. AI Client Value Realization Tracker
+## 19. AI Client Value Realization Tracker
 
 > Monitors whether the recommendations made in consulting engagements are being implemented and delivering the expected business impact.
 
@@ -3108,7 +2954,7 @@ Structure the presentation:
 
 :::
 
-## 21. AI M&A Integration Readiness Advisor
+## 20. AI M&A Integration Readiness Advisor
 
 > Assesses integration complexity, maps Day 1 readiness requirements, and generates post-merger integration workplans for consulting teams supporting transaction clients.
 
@@ -3264,7 +3110,7 @@ Generate:
 
 :::
 
-## 22. AI Client Communication Strategy Builder
+## 21. AI Client Communication Strategy Builder
 
 > Designs structured communication plans for consulting engagements — ensuring the right messages reach the right stakeholders at the right moments to maintain trust and momentum.
 
@@ -3419,7 +3265,7 @@ Prepare:
 
 :::
 
-## 23. AI Consulting Methodology Library Builder
+## 22. AI Consulting Methodology Library Builder
 
 > Captures, structures, and maintains the firm's proprietary methodologies, frameworks, and analytical tools in a searchable, reusable knowledge architecture.
 
@@ -3564,6 +3410,330 @@ Review and recommend:
 4. Specific revision recommendations: what to add, change, or remove
 5. Priority: is this a minor update or a substantial methodology rebuild?
 6. Suggested owner and timeline for implementing the refresh
+```
+
+:::
+
+## 23. AI Client Retention Risk Analyzer
+
+> Monitors engagement signals, project health, and relationship indicators to flag consulting clients at risk of not renewing — with actionable retention recommendations.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Consulting Client Attrition Is Discovered Too Late to Prevent**
+
+Consulting engagements end for predictable reasons — perceived ROI gaps, relationship deterioration, budget pressure, competing priorities, or a change in client leadership. Yet most consulting firms identify client retention risk after the client has already decided not to renew. The warning signals — declining engagement, reduced sponsor access, delayed responses, shrinking scope requests — are visible weeks or months before a client communicates their decision, but without a systematic process to surface them, they are missed or rationalized away.
+
+The cost of client loss extends far beyond the revenue from a single engagement. Acquired clients represent pipeline relationships, referral networks, and expansion potential. Winning a replacement client costs 5–10x more than retaining an existing one. In professional services, where trust is slow to build and fast to lose, even temporary relationship deterioration can shift clients toward competitors who have been nurturing the relationship in parallel.
+
+**How COCO Solves It**
+
+1. **Engagement Health Monitoring**: COCO analyzes project delivery metrics, meeting frequency, sponsor responsiveness, and scope change patterns to identify early deterioration signals.
+2. **Relationship Signal Analysis**: COCO reviews CRM notes, email response latency, and stakeholder participation patterns to surface relationship health trends.
+3. **Retention Risk Scoring**: COCO scores each active client on renewal risk (High / Medium / Low) based on composite engagement and relationship signals.
+4. **Root Cause Classification**: COCO categorizes the likely driver of each at-risk relationship — delivery concern, budget pressure, stakeholder change, competitive threat, or strategic shift.
+5. **Retention Action Recommendations**: COCO generates personalized retention playbooks for each at-risk client, including suggested interventions, messaging, and escalation timing.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Retention risk identification lead time**: Average signal detection moves **60–90 days earlier** vs. reactive client communication
+- **At-risk client save rate**: Firms with systematic retention monitoring save **25–40%** of clients flagged as high-risk vs. under 10% without monitoring
+- **Client lifetime value**: Improved retention extends average engagement duration by **30–50%**, compounding revenue per account
+- **Principal time efficiency**: AI-generated retention briefs reduce relationship review meeting prep from **2 hours to 20 minutes**
+- **Win-back cost avoidance**: Each saved at-risk client avoids an average of $150K–$500K in replacement business development cost
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Client Engagement Health Assessment**
+```
+Assess the engagement health and retention risk for the following consulting client.
+
+Client: [company name]
+Engagement type: [strategy / implementation / advisory / audit]
+Engagement start date: [date]
+Renewal / next milestone date: [date]
+Primary sponsor: [title only]
+
+Engagement signals:
+- Deliverable feedback quality (last 3 deliverables): [describe — positive/mixed/negative/absent]
+- Meeting attendance rate (last 8 weeks): [X% of invited stakeholders attending]
+- Scope change pattern: [expanding / stable / contracting]
+- Response latency trend: [improving / stable / increasing]
+- New work requests in pipeline: [yes/no + describe if yes]
+
+Relationship signals:
+- Executive sponsor access: [regular / declining / difficult]
+- Relationship breadth: [number of active client relationships at director+ level]
+- Recent competitor interactions mentioned: [yes/no]
+- Budget conversation signals: [any mentions of budget pressure or reallocation]
+
+Assess:
+1. Retention risk rating: High / Medium / Low with rationale
+2. Primary risk driver(s): what is most likely causing any deterioration
+3. Recommended interventions: specific actions for the next 30 days
+4. Escalation decision: should a practice leader or senior principal engage?
+5. Message framework: what to say to the sponsor in the next interaction
+```
+
+**Prompt 2: Client Value Demonstration Brief**
+```
+Create a client value demonstration brief to strengthen a at-risk consulting relationship.
+
+Client: [company name]
+Engagement period: [date range]
+Client's original objectives: [list 2–4 goals stated at engagement start]
+Deliverables completed: [list]
+Measurable outcomes achieved: [describe with specific metrics where available]
+Current pain points in the relationship: [describe what is causing concern]
+
+Create a value brief that:
+1. Maps completed deliverables to original objectives (objective → deliverable → outcome achieved)
+2. Quantifies business impact where possible (cost savings, revenue impact, risk reduction, time saved)
+3. Highlights 2–3 standout accomplishments that directly delivered against the client's strategic priorities
+4. Addresses known concerns directly with facts, not defensiveness
+5. Positions upcoming work as critical to sustaining the results already achieved
+6. Includes a forward-looking roadmap that shows the path to full objective completion
+
+Format: executive briefing suitable for a 20-minute sponsor conversation
+```
+
+**Prompt 3: Consulting Win/Loss Analysis Report**
+```
+Analyze the following consulting engagement outcomes and identify patterns to improve client retention.
+
+Analysis period: [quarter/year]
+Renewals: [X engagements renewed]
+Non-renewals: [Y engagements not renewed]
+Win-back success: [Z lost clients reactivated]
+
+For non-renewals, summarize exit feedback by category:
+[Delivery quality: N mentions]
+[Pricing/value perception: N mentions]
+[Relationship/communication: N mentions]
+[Scope/capability mismatch: N mentions]
+[Budget / business change: N mentions]
+[Competitive displacement: N mentions]
+
+Analyze:
+1. Top 3 retention risk drivers with frequency and pattern analysis
+2. Early warning signals that preceded non-renewals (what did these clients have in common 90 days before they left?)
+3. Engagement types or client profiles with the highest attrition risk
+4. Recommended process changes to improve retention rate
+5. 3 specific retention program initiatives to implement next quarter
+```
+
+:::
+
+## 24. AI Consulting Engagement Scoping Assistant
+
+> Structures engagement scope documents, work breakdown structures, and SOW language from client briefings — reducing scoping time from days to hours.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Engagement Scoping Is a High-Stakes, Time-Intensive Bottleneck**
+
+The transition from a client conversation to a signed statement of work is one of the most labor-intensive steps in the consulting business development process. Scoping a new engagement requires synthesizing client requirements, translating them into deliverable specifications, estimating effort across workstreams, pricing the engagement, and documenting everything in proposal and SOW language that is commercially precise, legally sound, and compelling to the client — all under deadline pressure while managing active engagements.
+
+Poor scoping creates costly problems throughout the engagement lifecycle. Underscoped work leads to margin erosion as teams absorb out-of-scope requests to maintain the relationship. Overscoped work creates pricing that loses deals. Ambiguous SOW language generates disputes about what was promised and sets up client satisfaction problems when deliverables don't match expectations.
+
+**How COCO Solves It**
+
+1. **Requirement Structuring**: COCO converts unstructured client briefings, RFP responses, and meeting notes into organized scope requirements mapped to workstreams.
+2. **Work Breakdown Structure Generation**: COCO builds detailed WBS documents from scope requirements, breaking down phases, workstreams, and activities with effort estimates.
+3. **SOW Language Drafting**: COCO drafts statement of work sections including scope, deliverables, assumptions, exclusions, timelines, and acceptance criteria.
+4. **Scope Risk Identification**: COCO flags ambiguous requirements, missing exclusions, and common scope creep triggers based on engagement type and industry.
+5. **Comparable Engagement Benchmarking**: COCO compares the proposed scope against similar engagement structures to validate effort estimates and identify gaps.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Scoping time**: Drafting a complete SOW drops from **2–4 days to 4–8 hours** with AI-assisted structuring
+- **Scope change requests**: Engagements with AI-structured SOWs experience **40% fewer** out-of-scope disputes
+- **Win rate on proposals**: Tighter, more precisely scoped proposals show **15–20% higher** acceptance rates vs. loosely defined alternatives
+- **Margin protection**: Proper scope boundary documentation reduces unbilled work by **20–30%** per engagement
+- **Scoping consistency**: Standardized AI-assisted scoping produces consistent quality regardless of which partner or director leads the engagement
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Engagement Scope Document Builder**
+```
+Structure an engagement scope document from the following client briefing.
+
+Client: [company name]
+Engagement type: [strategy / implementation / assessment / advisory]
+Background: [describe the client situation and what prompted this engagement]
+
+Client-stated objectives:
+[list the goals the client wants to achieve]
+
+Known constraints:
+- Timeline: [describe]
+- Budget range: $[X–Y]
+- Stakeholders: [describe who is involved and their priorities]
+- Organizational constraints: [describe — e.g., no organizational changes, existing technology stack must be maintained]
+
+In-scope requirements discussed:
+[describe what the client expects to be included]
+
+Build a scope document including:
+1. Engagement objective statement (1 paragraph, precise and measurable)
+2. In-scope workstreams with phase structure
+3. Deliverable list with descriptions and acceptance criteria
+4. Key assumptions underlying the scope
+5. Explicit exclusions (what is NOT included)
+6. Dependencies and prerequisites (what the client must provide)
+7. Risk and contingency notes (what could cause scope expansion)
+```
+
+**Prompt 2: Statement of Work Drafter**
+```
+Draft statement of work language for the following engagement.
+
+Engagement type: [describe]
+Client industry: [describe]
+Scope document: [paste or summarize the agreed scope, deliverables, and timeline]
+Commercial terms: [fee structure — fixed fee / T&M / retainer, payment milestones]
+
+Draft SOW sections:
+1. Engagement Overview and Objectives
+2. Scope of Services (detailed workstream descriptions)
+3. Deliverables (formatted as a numbered list with description and delivery format for each)
+4. Timeline and Milestones (table format)
+5. Assumptions and Dependencies
+6. Exclusions (what is not included)
+7. Client Responsibilities
+8. Fees and Payment Schedule
+9. Change Order Process (when and how out-of-scope requests are handled)
+
+Use precise, commercially appropriate language suitable for a professional services contract.
+```
+
+**Prompt 3: Scope Creep Risk Analyzer**
+```
+Analyze the following engagement scope and identify scope creep risks before the SOW is signed.
+
+Engagement type: [describe]
+Draft SOW or scope description:
+[paste the proposed scope, deliverables, and timeline]
+
+Client behavior notes from sales process:
+[describe any signals about client expectations, scope expansion tendencies, or stakeholder dynamics that could affect scope management]
+
+Identify:
+1. Ambiguous deliverable descriptions that could be interpreted broadly by the client
+2. Missing exclusions that should be explicitly stated based on engagement type
+3. Assumptions that are likely to be challenged and need to be confirmed in writing
+4. Scope elements that commonly expand in this type of engagement (from similar project patterns)
+5. Recommended SOW language edits to protect scope boundaries
+6. Change order trigger scenarios to anticipate and prepare for
+```
+
+:::
+
+## 25. AI Consulting Knowledge Management Assistant
+
+> Extracts reusable methodologies, frameworks, and insights from completed engagement deliverables — building institutional knowledge that accelerates future engagements.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Consulting Firms Solve the Same Problems Repeatedly Without Capturing What They Learn**
+
+Professional services firms invest enormous intellectual effort in every engagement — developing frameworks, testing hypotheses, synthesizing research, and building tools. Yet the vast majority of this intellectual capital is locked inside individual project files, accessible only to team members who worked on that specific engagement. When a similar problem arises on a new engagement, the team starts largely from scratch, reinventing approaches and missing opportunities to apply insights from prior work.
+
+Knowledge management initiatives consistently fail in consulting firms because the capture process competes with billable work. Asking engagement teams to document and codify their insights after an intense delivery period produces superficial summaries that don't capture the methodological nuance that makes the knowledge valuable. The result is a knowledge base full of outdated case studies and generic templates rather than the specific, context-rich insights that differentiate a firm's approach.
+
+**How COCO Solves It**
+
+1. **Deliverable Analysis and Insight Extraction**: COCO processes completed engagement deliverables and extracts reusable methodological elements, frameworks, and analytical approaches.
+2. **Case Study Generation**: COCO drafts anonymized case study summaries from engagement data, suitable for business development and knowledge sharing.
+3. **Framework Documentation**: COCO converts ad-hoc analytical approaches from individual engagements into documented, reusable frameworks with application guidance.
+4. **Knowledge Gap Analysis**: COCO audits the firm's existing knowledge base against current client demand patterns, identifying gaps in captured expertise.
+5. **Proposal Content Mining**: COCO searches existing deliverables for content that can be repurposed for new proposals, saving research and drafting time.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Engagement startup time**: Teams with AI-curated knowledge bases reduce engagement kickoff research time by **40–60%**
+- **Proposal win rate**: Proposals incorporating evidence from prior engagements convert at **25–35% higher rates** vs. generic capability statements
+- **Knowledge capture rate**: AI-assisted extraction after engagement completion achieves **70–80% capture** vs. under **20%** with manual documentation processes
+- **Duplicate effort reduction**: Readily accessible prior work reduces duplicated analytical effort by **30–45%** on comparable engagements
+- **New consultant productivity**: Access to organized prior work accelerates junior consultant contribution within **30–40% less onboarding time**
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Engagement Knowledge Extraction**
+```
+Extract reusable knowledge and insights from the following completed engagement deliverable.
+
+Engagement type: [strategy / implementation / assessment / advisory]
+Industry: [client industry]
+Engagement summary: [brief description of what was done and what was found]
+Deliverable type: [assessment report / strategy deck / implementation playbook / analysis / workshop output]
+
+Deliverable content:
+[paste the deliverable or key sections — anonymize client-specific details]
+
+Extract:
+1. Reusable analytical frameworks or methodologies used (describe the approach that could be applied on other engagements)
+2. Key insights that generalize beyond this specific client (industry trends, common patterns, best practices identified)
+3. Tools or templates developed that could be reused (assessment tools, scoring frameworks, templates)
+4. Lessons learned: what worked well and what should be done differently
+5. Draft case study summary (3 paragraphs, fully anonymized, highlighting challenge, approach, and outcome)
+6. Knowledge tags for the knowledge base: industry, engagement type, problem type, methodology used
+```
+
+**Prompt 2: Proposal Content Search and Compilation**
+```
+Find and compile relevant prior work for the following new proposal.
+
+New engagement type: [describe]
+Client industry: [describe]
+Client challenge: [describe the problem the new client wants to solve]
+Proof points needed: [list what the proposal needs to demonstrate — e.g., "experience with post-merger integration in manufacturing", "quantified ROI examples from supply chain engagements"]
+
+Existing knowledge base summary:
+[describe or paste summaries of prior engagements, case studies, and frameworks available]
+
+Compile:
+1. Most relevant prior engagements to reference (with suggested citation angles)
+2. Applicable frameworks from prior work that should be featured in the approach section
+3. Quantified results from prior work that could serve as proof points
+4. Gaps in available evidence that require primary research or should be addressed differently in the proposal
+5. Recommended narrative structure for the experience and credentials section based on available material
+```
+
+**Prompt 3: Methodology Documentation Generator**
+```
+Document the following consulting methodology as a reusable framework for the firm knowledge base.
+
+Methodology name: [proposed name]
+Engagement context where it was developed: [engagement type and industry]
+Problem it solves: [describe the client problem this methodology addresses]
+
+How it works (as described by the engagement team):
+[describe the steps, tools, or analytical approach used — can be rough notes or outline form]
+
+What made it effective: [describe why this approach worked — what assumptions it was based on, what differentiated it]
+
+Results it produced: [outcomes from the engagement where it was first used]
+
+Document this as a formal methodology guide including:
+1. Methodology overview (1 paragraph suitable for a proposal or capabilities deck)
+2. When to use this methodology (client situations and problem types where it applies)
+3. Step-by-step process description (with detail sufficient for a consultant who hasn't used it before)
+4. Tools and templates required
+5. Common variations and when to adapt
+6. Limitations and situations where this methodology is NOT appropriate
 ```
 
 :::

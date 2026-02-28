@@ -2123,282 +2123,7 @@ Present findings in a format suitable for a sales team meeting, with specific ex
 
 :::
 
-## 15. AI Pitch Deck Builder
-
-> Pitch deck creation: 15 hours → 1 hour. Client customization 300% more.
-
-::: details 🎬 Watch Demo Video
-
-<video controls src="/videos/en/101-ai-pitch-deck-builder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
-
-:::
-
-::: details Pain Point & How COCO Solves It
-
-**The Pain: Custom Pitch Decks Devour Sales Time and Still Miss the Mark**
-
-Sales teams live and die by their presentations, yet the process of creating pitch decks is one of the most inefficient activities in the entire revenue organization. The average sales representative spends 8 to 15 hours creating a custom pitch deck for a single prospect. For a team of 50 reps each preparing 2-3 custom decks per month, that is 800 to 2,250 hours monthly -- the equivalent of 5-14 full-time employees doing nothing but building slides.
-
-The inefficiency is compounded by an astonishing waste rate: 72% of custom pitch decks are never reused. Each deck is treated as a one-off creation, built from scratch or clumsily adapted from an outdated "master deck" that nobody maintains. Reps copy slides from different presentations, creating Frankenstein decks with inconsistent messaging, varying data vintages, and conflicting visual styles. The institutional knowledge embedded in a great pitch to a healthcare prospect in Q2 is lost when a new healthcare opportunity appears in Q4.
-
-Brand consistency is a persistent problem. When 50 different salespeople create their own variations of the company pitch, the result is 50 different brand experiences. Fonts change, colors drift from brand guidelines, logos appear in different sizes and positions, and competitive claims become inconsistent. Marketing teams spend significant effort creating brand templates and slide libraries, only to watch sales teams ignore them under deadline pressure.
-
-The content quality issue runs deeper than aesthetics. Sales reps are not data visualization experts, not copywriters, and not designers. They know their product and their prospect, but translating that knowledge into compelling visual narratives is a different skill entirely. The result is text-heavy slides, poorly formatted data, generic value propositions, and missed opportunities to tell the story that would actually resonate with the specific audience.
-
-Last-minute requests are the final stressor. Prospects frequently request custom presentations on short timelines -- "Can you present to our executive team on Thursday?" When the answer requires a 25-slide custom deck and it is Tuesday afternoon, the quality of the output is predictably poor. Reps either pull an all-nighter producing mediocre slides or repurpose a generic deck that fails to connect with the audience.
-
-The opportunity cost is the real tragedy. Every hour a salesperson spends formatting slides is an hour they are not spending on prospecting, relationship building, discovery calls, or closing deals. The highest-paid, highest-skilled people in the revenue organization are doing work that should take minutes, not days.
-
-**How COCO Solves It**
-
-COCO's AI Pitch Deck Builder transforms the presentation creation process from a manual, time-intensive grind into a rapid, intelligent workflow.
-
-1. **Intelligent Client Research Integration**: Before generating a single slide, COCO researches the prospect. It pulls publicly available information -- recent earnings calls, press releases, job postings (indicating strategic priorities), industry analyst reports, and social media activity of key stakeholders. This research informs every slide, ensuring the deck speaks directly to what the prospect cares about right now.
-
-2. **Automated Slide Generation**: Based on the research and your input about the deal context, COCO generates a complete pitch deck with the optimal structure for the audience. For a technical evaluation committee, it emphasizes architecture, security, and integration. For a C-suite business review, it leads with ROI, competitive positioning, and strategic alignment. Each slide has clear messaging, appropriate data visualization, and a logical flow that builds toward the ask.
-
-3. **Dynamic Data Visualization**: COCO transforms raw data into compelling visualizations. Customer metrics become ROI calculators tailored to the prospect's scale. Market data becomes competitive landscape maps. Usage statistics become value-realization timelines. Every chart is formatted correctly, labeled clearly, and designed to support the slide's key message -- not just fill space.
-
-4. **Brand Compliance Engine**: Every slide automatically adheres to your brand guidelines -- fonts, colors, logo placement, image style, and messaging framework. Whether the deck is created by a first-week SDR or a 10-year veteran, it looks like it came from the same polished, professional organization. Marketing can update brand guidelines once, and every future deck reflects the changes.
-
-5. **Version Management and Analytics**: COCO maintains every version of every deck, tracks which presentations were sent to which prospects, and (when integrated with document sharing platforms) provides analytics on how prospects engage with the content -- which slides they spend the most time on, which they skip, and where they share the deck internally. This intelligence feeds back into future deck optimization.
-
-6. **Performance Analytics and Optimization**: Over time, COCO identifies which slide structures, messaging approaches, and content elements correlate with successful outcomes. It learns that healthcare prospects respond to compliance-focused slides, that C-suite audiences engage with 3-slide ROI sections, and that competitive comparison slides in position 4 outperform them in position 8. These insights continuously improve the decks it generates.
-
-:::
-
-::: details Results & Who Benefits
-
-**Measurable Results**
-
-- **Deck creation time**: From 12 hours average to 45 minutes (94% reduction)
-- **Brand compliance**: 100% adherence to guidelines (up from 63%)
-- **Deck-to-meeting conversion**: Improved 28% (better decks lead to more follow-up meetings)
-- **Sales time on presentations**: Reduced 89%, freeing 8+ hours per rep per month for selling
-- **Client relevance score**: 4.7/5 in post-meeting surveys (up from 3.1/5)
-
-**Who Benefits**
-
-- **Sales Representatives**: Create compelling, customized presentations in under an hour
-- **Marketing Teams**: Finally achieve brand consistency across all sales collateral
-- **Sales Managers**: Reps spend time selling instead of building slides
-- **Prospects**: Receive relevant, polished presentations that respect their time
-
-:::
-
-::: details Practical Prompts
-
-**Prompt 1: Custom Pitch Deck Outline and Content**
-```
-Create a complete pitch deck outline and slide-by-slide content for presenting [Our Product/Service] to [Prospect Company Name].
-
-Our company:
-- Product: [description]
-- Key value propositions: [list top 3-5]
-- Differentiators vs. competitors: [list]
-- Relevant case studies: [list 2-3 with results]
-- Pricing model: [overview]
-
-Prospect information:
-- Company: [name, industry, size, revenue]
-- Meeting audience: [titles and roles of attendees]
-- Known pain points: [what we know about their challenges]
-- Current solution: [what they use today, if known]
-- Decision timeline: [when they want to decide]
-- Budget: [if known]
-- Previous interactions: [summary of prior conversations]
-
-Generate a [15/20/25]-slide deck with:
-
-For each slide, provide:
-1. **Slide title** (compelling, not generic)
-2. **Key message** (one sentence the audience should remember)
-3. **Content** (bullet points, data, or narrative -- fully written out)
-4. **Visual recommendation** (what type of chart, image, or layout)
-5. **Speaker notes** (what the presenter should say, 3-4 sentences)
-6. **Transition** (how this slide connects to the next)
-
-The deck structure should follow:
-- Opening hook (1-2 slides): Capture attention with a prospect-specific insight
-- Problem definition (2-3 slides): Articulate their pain in their language
-- Solution overview (3-4 slides): How we solve it, with emphasis on their priorities
-- Proof points (2-3 slides): Case studies and data relevant to their industry/size
-- Differentiation (1-2 slides): Why us vs. alternatives
-- ROI/Business case (2-3 slides): Quantified value for their specific situation
-- Implementation (1-2 slides): How it works, timeline, effort required
-- Call to action (1 slide): Clear next step
-
-Ensure the entire narrative is tailored to [prospect's industry] and speaks to the concerns of [audience roles].
-```
-
-**Prompt 2: Competitive Differentiation Slides**
-```
-Create compelling competitive differentiation slides for our pitch deck. We need to position [Our Product] against [Competitor 1], [Competitor 2], and [Competitor 3] without being overtly negative.
-
-Our strengths:
-- [Strength 1 with proof point]
-- [Strength 2 with proof point]
-- [Strength 3 with proof point]
-- [Strength 4 with proof point]
-
-Their strengths (honest assessment):
-- [Competitor 1]: [what they're good at]
-- [Competitor 2]: [what they're good at]
-- [Competitor 3]: [what they're good at]
-
-Prospect's stated evaluation criteria:
-- [Criterion 1]: [importance level]
-- [Criterion 2]: [importance level]
-- [Criterion 3]: [importance level]
-- [Criterion 4]: [importance level]
-
-Generate 3 differentiation slides:
-
-**Slide 1: Evaluation Framework**
-- Create a comparison framework that naturally highlights our strengths
-- Weight criteria based on what matters most to this prospect
-- Design as a matrix or scorecard visual
-
-**Slide 2: Unique Value**
-- Focus on 2-3 capabilities that ONLY we provide
-- Connect each to a specific business outcome for the prospect
-- Include a customer quote or metric for each
-
-**Slide 3: Total Value Analysis**
-- Go beyond feature comparison to total cost of ownership and value delivered
-- Include hidden costs of alternatives (implementation, training, maintenance, risk)
-- Show 3-year value projection specific to prospect's scale
-
-For each slide, provide complete content, visual layout recommendation, and speaker notes that handle the "but competitor X does that too" pushback.
-```
-
-**Prompt 3: ROI Calculator Slide Content**
-```
-Create a prospect-specific ROI calculation for our pitch deck that makes the financial case compelling and credible.
-
-Our product:
-- Annual cost: $[amount] for [what tier/package]
-- Implementation cost: $[amount] (one-time)
-- Time to value: [weeks/months to see results]
-
-Prospect details:
-- Company size: [employees]
-- Revenue: $[amount]
-- Industry: [industry]
-- Key operational metrics (if known): [e.g., support tickets/month, sales cycle length, employee turnover]
-
-Value drivers (what our product improves):
-1. [Value driver 1]: [benchmark improvement, e.g., "reduces support ticket handling time by 40%"]
-2. [Value driver 2]: [benchmark improvement]
-3. [Value driver 3]: [benchmark improvement]
-4. [Value driver 4]: [benchmark improvement]
-
-Generate:
-
-1. **ROI Summary Slide**:
-   - Total 3-year value delivered (specific dollar amount calculated from their metrics)
-   - Total 3-year cost
-   - Net ROI percentage
-   - Payback period in months
-   - Present as a clean, impactful visual with one hero number and supporting detail
-
-2. **Value Breakdown Slide**:
-   - For each value driver, show:
-     - Current state (their likely cost/metric today, based on industry benchmarks)
-     - Future state (projected improvement with our solution)
-     - Annual dollar impact
-   - Show calculation methodology (transparent, not hand-wavy)
-   - Include conservative, moderate, and aggressive scenarios
-
-3. **Time-to-Value Slide**:
-   - Month-by-month ramp showing when they start seeing returns
-   - Cumulative value curve crossing the investment line (payback moment)
-   - Key milestones in the implementation that unlock each value driver
-
-All calculations should be conservative and defensible. Include assumptions clearly so the prospect can adjust numbers to their reality. The goal is credibility, not overpromising.
-```
-
-**Prompt 4: Executive Summary Slide for C-Suite**
-```
-Create a single, high-impact executive summary slide for a C-suite audience that captures our entire value proposition for [Prospect Company] in one view.
-
-Context:
-- We're presenting to: [CEO/CFO/CTO/COO and other attendees]
-- They have: [5/10/15] minutes for this overview before the detailed presentation
-- Their known priorities: [list top 3 strategic priorities]
-- Their known challenges: [list top 2-3 pain points]
-- Our solution addresses: [which priorities and challenges]
-
-The executive summary slide must include:
-1. A headline that connects our solution to their top strategic priority (not our product name)
-2. Three key value pillars (each in one sentence with a supporting metric)
-3. A proof point (one impressive customer result relevant to their situation)
-4. The financial summary (investment vs. return in the simplest possible terms)
-5. The ask (clear next step)
-
-Constraints:
-- Maximum 40 words on the slide itself (rest goes in speaker notes)
-- No jargon, no buzzwords, no feature names they won't recognize
-- Every element must connect to THEIR priorities, not our capabilities
-- The slide must be understandable in 30 seconds without narration
-
-Provide:
-- Complete slide content (exact text to appear on the slide)
-- Detailed speaker notes (2-minute narration)
-- Visual layout recommendation
-- Backup data points the presenter should be prepared to discuss if asked
-```
-
-**Prompt 5: Pitch Deck Performance Analysis and Optimization**
-```
-Analyze our pitch deck performance data and recommend optimizations.
-
-Current deck details:
-- Number of slides: [X]
-- Slide order: [list slide titles in current order]
-- Average presentation length: [X minutes]
-- Number of times presented in past quarter: [X]
-
-Performance data (if available from sharing/viewing analytics):
-- Most viewed slides: [list]
-- Least viewed slides (or most skipped): [list]
-- Average time spent per slide: [if available]
-- Drop-off point: [where do viewers stop if viewing async]
-
-Outcome data:
-- Presentations that led to next meeting: [X] out of [X] ([X]%)
-- Presentations that led to proposal: [X] out of [X] ([X]%)
-- Presentations that led to closed deal: [X] out of [X] ([X]%)
-- Common feedback from prospects: [list any recurring themes]
-- Common objections raised after/during presentation: [list]
-
-Analyze and recommend:
-
-1. **Content Audit**: For each slide, assess:
-   - Is it necessary? (Does removing it hurt conversion?)
-   - Is it in the right position? (Should it come earlier/later?)
-   - Is the message clear? (Can it be understood in 10 seconds?)
-   - Does it advance the narrative? (Does it build toward the ask?)
-
-2. **Structural Optimization**:
-   - Recommended slide order (with rationale for changes)
-   - Slides to add (gaps in the narrative)
-   - Slides to remove (not pulling their weight)
-   - Slides to combine (redundant messaging)
-
-3. **Content Improvements**: For the top 5 slides needing improvement:
-   - Current weakness
-   - Specific rewrite recommendation
-   - Expected impact on engagement
-
-4. **A/B Testing Plan**: 3 specific slide variations to test with metrics for measuring which version wins
-
-5. **Audience-Specific Variations**: Key modifications needed for different audiences (technical vs. business, C-suite vs. practitioner, industry A vs. industry B)
-```
-
-:::
-
-## 16. AI Customer Health Scorer
+## 15. AI Customer Health Scorer
 
 > Customer health coverage: 20% → 100%. Churn prediction: 87% accurate.
 
@@ -2722,7 +2447,7 @@ For each scenario, provide:
 
 :::
 
-## 17. AI RFP Response Writer
+## 16. AI RFP Response Writer
 
 > RFP response: 40 hours → 8 hours. Win rate: 5% → 18%.
 
@@ -3029,7 +2754,7 @@ Analyze and provide:
 
 :::
 
-## 18. AI Donor Engagement Tracker
+## 17. AI Donor Engagement Tracker
 
 > Scores 5,000+ donors on engagement, giving history, and capacity — prioritizes outreach to boost renewal rates by 25%.
 
@@ -3153,7 +2878,7 @@ This week's data:
 
 :::
 
-## 19. AI Policy Renewal Optimizer
+## 18. AI Policy Renewal Optimizer
 
 > Analyzes claim history, risk profile, and market rates — recommends optimal renewal terms 30 days before expiry.
 
@@ -3277,7 +3002,7 @@ This week's data:
 
 :::
 
-## 20. AI Dealership Inventory Matcher
+## 19. AI Dealership Inventory Matcher
 
 > Matches customer preferences to available inventory across 15 dealerships — suggests best-fit vehicles with trade-in estimates.
 
@@ -3401,7 +3126,7 @@ This week's data:
 
 :::
 
-## 21. AI Guest Upsell Recommender
+## 20. AI Guest Upsell Recommender
 
 > Analyzes booking history and guest profiles — suggests personalized room upgrades and packages that increase RevPAR by 18%.
 
@@ -3525,7 +3250,7 @@ This week's data:
 
 :::
 
-## 22. AI Test Drive Scheduler
+## 21. AI Test Drive Scheduler
 
 > Qualifies online leads, matches vehicle preferences, and books test drives — fills 90% of available slots with confirmed appointments.
 
@@ -3649,7 +3374,7 @@ This week's data:
 
 :::
 
-## 23. AI Referral Network Mapper
+## 22. AI Referral Network Mapper
 
 > Maps physician referral patterns across 200 providers — identifies high-value relationship gaps and outreach priorities.
 
@@ -3773,7 +3498,7 @@ This week's data:
 
 :::
 
-## 24. AI Comparative Market Analysis Builder
+## 23. AI Comparative Market Analysis Builder
 
 > Pulls 30 recent sales, adjusts for features and timing — generates client-ready CMA presentations with photos and price justifications.
 
@@ -3897,7 +3622,7 @@ This week's data:
 
 :::
 
-## 25. AI Sales Pipeline Health Analyzer {#use-case-373}
+## 24. AI Sales Pipeline Health Analyzer
 
 > Identifies stalled deals, multi-threading gaps, and forecast fiction — producing a risk-ranked pipeline assessment that improves forecast accuracy from ±30% to ±12% variance within two quarters.
 
@@ -4095,7 +3820,7 @@ Analyze:
 ```
 
 :::
-## 26. AI Prospect Research Synthesizer {#use-case-374}
+## 25. AI Prospect Research Synthesizer
 
 > Compresses 45–60 minutes of pre-call research into 10–15 minutes while producing a more comprehensive brief — improving discovery-to-opportunity conversion by 34%.
 
@@ -4293,7 +4018,7 @@ Based on what's publicly available about this company's tech stack, hiring patte
 ```
 
 :::
-## 27. AI Sales Email Personalization Engine {#use-case-375}
+## 26. AI Sales Email Personalization Engine
 
 > Produces research-backed, trigger-event-driven outreach emails in 3–5 minutes per email — achieving 8–12% response rates versus 2–3% for templated sequences on the same prospect universe.
 
@@ -4509,7 +4234,7 @@ Email requirements:
 ```
 
 :::
-## 28. AI Deal Risk Assessor {#use-case-376}
+## 27. AI Deal Risk Assessor
 
 > Produces a structured deal risk assessment that reduces late-stage loss rates by 30–35% and deal slippage by 40% by identifying the specific risks — stakeholder gaps, competitive threats, process failures — 30+ days before close.
 
@@ -4744,7 +4469,7 @@ Please provide:
 ```
 
 :::
-## 29. AI Win-Loss Debrief Analyzer {#use-case-377}
+## 28. AI Win-Loss Debrief Analyzer
 
 > Transforms individual deal debrief notes into pattern-level intelligence — identifying competitive win/loss drivers, sales process failures, and persona-level insights that improve win rates 15–20% over four quarters.
 
@@ -4962,7 +4687,7 @@ Prioritize updates by expected win rate impact: High / Medium / Low
 ```
 
 :::
-## 30. AI Sales Call Summary Generator {#use-case-378}
+## 29. AI Sales Call Summary Generator
 
 > Transforms raw call notes into structured, CRM-ready summaries in 3–5 minutes instead of 20–30 minutes — recovering 2–4 hours per week per rep for selling activities while improving CRM data completeness by 65%.
 
@@ -5173,7 +4898,7 @@ Overall objection analysis:
 ```
 
 :::
-## 31. AI CRM Data Quality Auditor {#use-case-379}
+## 30. AI CRM Data Quality Auditor
 
 > Systematically identifies data quality issues across the pipeline — missing fields, stage misclassification, stale records — and generates a targeted remediation plan that improves forecast accuracy 20–25% within two quarters.
 
@@ -5365,7 +5090,7 @@ Generate:
 ```
 
 :::
-## 32. AI Sales Proposal Generator {#use-case-380}
+## 31. AI Sales Proposal Generator
 
 > Produces personalized, prospect-specific proposals in 45–60 minutes instead of 3–6 hours — using discovery findings to frame value in the prospect's language, improving proposal win rates by 25–30%.
 
@@ -5589,7 +5314,7 @@ Length: 300-500 words for narrative, plus a clean pricing table
 ```
 
 :::
-## 33. AI Territory Planning Advisor {#use-case-381}
+## 32. AI Territory Planning Advisor
 
 > Reduces territory planning cycles from 4–6 weeks to 2 weeks and narrows the spread between highest and lowest potential territories by 30–40% — enabling earlier rep communication and reducing attrition from perceived unfairness.
 
@@ -5790,7 +5515,7 @@ Produce a prioritized top 15 whitespace accounts I should approach this quarter,
 ```
 
 :::
-## 34. AI Sales Forecast Builder {#use-case-382}
+## 33. AI Sales Forecast Builder
 
 > Produces three-scenario (conservative/base/upside) quarterly forecasts with explicit deal-level assumptions — improving quarter-over-quarter accuracy from ±25% to ±12% variance within two cycles.
 
@@ -6015,7 +5740,7 @@ Calculate:
 ```
 
 :::
-## 35. AI Customer Objection Handler {#use-case-383}
+## 34. AI Customer Objection Handler
 
 > Develops evidence-backed, contextually calibrated objection responses that convert persistent objections into deal advancement 28% more often and reduce unplanned discounting by 35%.
 
@@ -6224,7 +5949,7 @@ Format the champion kit as content they can actually use — concise, plain lang
 ```
 
 :::
-## 36. AI RFP Response Assistant {#use-case-384}
+## 35. AI RFP Response Assistant
 
 > Reduces RFP response time from 40–80 hours to 20–35 hours with AI-assisted answer drafting, routing, and completeness review — enabling response to RFPs that were previously declined due to bandwidth.
 
@@ -6449,7 +6174,7 @@ Format for storage in a shared knowledge base that team members can search and r
 ```
 
 :::
-## 37. AI Account Expansion Opportunity Identifier {#use-case-385}
+## 36. AI Account Expansion Opportunity Identifier
 
 > Identifies expansion signals across the existing customer base — feature usage, org growth, new use cases — and produces a ranked expansion pipeline that drives NRR from 105% toward 115–125%.
 
@@ -6670,7 +6395,7 @@ Generate:
 ```
 
 :::
-## 38. AI Sales Enablement Content Creator {#use-case-386}
+## 37. AI Sales Enablement Content Creator
 
 > Produces competitive battlecards, objection handling guides, and conversation frameworks from field intel and product updates — maintaining 90%+ content accuracy versus the typical 60–70% at quarterly review.
 
@@ -6894,7 +6619,7 @@ Keep each template to a realistic length — these should feel like genuine emai
 ```
 
 :::
-## 39. AI Buyer Persona Builder {#use-case-387}
+## 38. AI Buyer Persona Builder
 
 > Builds evidence-based buyer personas from deal data and win/loss patterns — improving outbound meeting acceptance rates 28% and discovery-to-opportunity conversion 22% by calibrating messaging to current buyer reality.
 
@@ -7114,7 +6839,7 @@ For each section, include:
 ```
 
 :::
-## 40. AI Partnership Proposal Writer {#use-case-388}
+## 39. AI Partnership Proposal Writer
 
 > Produces mutual-value-framed partnership proposals that advance to a second conversation 40% more often and achieve 25–30% response rates on cold outreach — versus 5–10% for generic "let's explore" approaches.
 
@@ -7341,7 +7066,7 @@ Also provide: the one objection from this list that is most likely to be a real 
 ```
 
 :::
-## 41. AI Sales Playbook Updater {#use-case-389}
+## 40. AI Sales Playbook Updater
 
 > Audits playbook sections for staleness against recent product changes, competitive shifts, and win/loss insights — maintaining 90%+ accuracy versus the typical 60–70% at quarterly review without AI assistance.
 
@@ -7571,7 +7296,7 @@ Format as a quick-reference card reps can use during live calls.
 ```
 
 :::
-## 42. AI Sales Call Coaching Engine
+## 41. AI Sales Call Coaching Engine
 
 > Sales teams lose deals not because their product is inferior, but because reps make predictable, coachable mistakes on calls — speaking too much, failing to ask discovery questions, mishandling objections, skipping urgency creation, or losing control of the buying conversation
 
@@ -7747,7 +7472,7 @@ Assess:
 ```
 
 :::
-## 43. AI Sales Territory Plan Optimizer
+## 42. AI Sales Territory Plan Optimizer
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
@@ -7946,7 +7671,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 44. AI Sales Competitive Battlecard Generator
+## 43. AI Sales Competitive Battlecard Generator
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
@@ -8145,7 +7870,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 45. AI Sales Pipeline Forecast Optimizer
+## 44. AI Sales Pipeline Forecast Optimizer
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
@@ -8344,7 +8069,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 46. AI Sales Account Expansion Opportunity Finder
+## 45. AI Sales Account Expansion Opportunity Finder
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
@@ -8543,7 +8268,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 47. AI Deal Desk Pricing Advisor
+## 46. AI Deal Desk Pricing Advisor
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
@@ -8742,7 +8467,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 48. AI Sales Proposal Win Rate Optimizer
+## 47. AI Sales Proposal Win Rate Optimizer
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
@@ -8941,7 +8666,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 49. AI Inbound Lead Scoring Engine
+## 48. AI Inbound Lead Scoring Engine
 
 > Organizations operating in E-Commerce face mounting pressure to deliver results with constrained resources
 
@@ -9140,7 +8865,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 50. AI Customer Reference Story Builder
+## 49. AI Customer Reference Story Builder
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 

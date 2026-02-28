@@ -3603,3 +3603,333 @@ Draft:
 ```
 
 :::
+
+## 24. AI Contract Expiry and Renewal Alert Manager
+
+> Tracks contract expiration dates, renewal windows, and notice periods across the supplier portfolio — generating alerts and renewal preparation packages 90 days in advance.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Contract Expiry Surprises Are Expensive and Preventable**
+
+Procurement teams manage dozens or hundreds of active supplier contracts with different expiration dates, auto-renewal clauses, notice periods, and renegotiation windows. Missing a notice deadline locks the organization into another contract term at existing rates. Missing a renewal window eliminates the opportunity to renegotiate terms when market conditions have improved. Auto-renewals trigger at old rates when lower market rates could have been captured.
+
+Most organizations manage contract dates in spreadsheets that require manual updating and generate reminders through personal calendar entries. This approach fails systematically: spreadsheets become outdated, ownership of contracts changes with staff turnover, and reminders get dismissed when procurement teams are busy. The cost of missed opportunities and locked-in unfavorable terms across a large contract portfolio is substantial.
+
+**How COCO Solves It**
+
+1. **Contract Portfolio Database**: COCO maintains a structured contract portfolio with expiration dates, notice periods, auto-renewal clauses, and renewal action dates for every active supplier agreement.
+2. **Automated Alert System**: COCO generates alerts at 90, 60, and 30 days before contract expiration and notice deadlines, routed to the appropriate contract owner.
+3. **Renewal Preparation Package**: COCO generates a renewal preparation brief for each upcoming contract, including performance history, market benchmark comparisons, and recommended negotiation objectives.
+4. **Auto-Renewal Risk Tracker**: COCO flags contracts with auto-renewal clauses and tight notice periods where inaction will trigger renewal at current rates.
+5. **Renewal Action Tracker**: COCO tracks the status of all in-process renewals and escalates items where action deadlines are approaching without completion.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Missed notice period incidents**: Organizations using automated contract tracking reduce missed notice periods to **near zero** vs. 10–15% annual miss rate with manual tracking
+- **Rate improvement at renewal**: Procurement teams with 90-day advance preparation achieve **12–18% better rates** at renewal vs. rushed last-minute negotiations
+- **Auto-renewal prevention**: Systematic tracking prevents unwanted auto-renewals, saving **$50K–$500K per year** depending on contract portfolio size
+- **Contract visibility**: 100% of active contracts with known expiration dates vs. **40–60%** in typical manually managed portfolios
+- **Procurement team capacity**: Automated alerts eliminate manual contract date tracking, freeing 2–4 hours per week per procurement manager
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Contract Renewal Preparation Brief**
+```
+Generate a contract renewal preparation brief for the following upcoming supplier contract renewal.
+
+Supplier: [name]
+Contract type: [describe — services / goods / SaaS / professional services]
+Current contract expiration: [date]
+Notice period required: [X days] → Notice deadline: [date]
+Auto-renewal clause: [Yes — renews for [X year/months] / No]
+Current annual spend: $[X]
+Contract start date: [date]
+
+Performance summary (contract period):
+[describe — on-time delivery rate, quality issues, service level compliance, invoice accuracy, relationship quality]
+
+Market benchmark:
+[describe — current market pricing for equivalent services, competitive alternatives available]
+
+Generate a renewal brief including:
+1. Renewal recommendation: Renew / Renegotiate / Terminate and rebid — with rationale
+2. Performance-based negotiation leverage points (where supplier underperformed)
+3. Market-based negotiation leverage points (where alternatives exist or market rates have moved)
+4. Target outcome for renewal: rate target, SLA improvements, term length recommendation
+5. Opening negotiation position and acceptable fallback
+6. Risk assessment: what is the cost and risk of changing suppliers if negotiation fails?
+7. Notice deadline action required: specific steps and dates for the next 30 days
+```
+
+**Prompt 2: Contract Portfolio Expiry Calendar**
+```
+Generate a contract expiry and action calendar from the following contract portfolio data.
+
+Organization: [describe]
+Analysis period: [next 12 months]
+
+Contract portfolio:
+[For each contract:
+Supplier: [name], Category: [type], Annual spend: $[X], Expiry date: [date], Notice period: [X days], Auto-renew: [Y/N], Contract owner: [title/function]]
+
+Generate:
+1. Calendar view: contracts expiring by month for the next 12 months
+2. Urgent actions: contracts where notice deadlines fall within the next 30 days
+3. High-priority renewals: top 10 by spend with preparation timeline
+4. Auto-renewal risk register: contracts that will auto-renew without action, sorted by spend
+5. Recommended procurement calendar: when to start preparation for each major renewal
+6. Resource requirements: estimated procurement hours needed for each renewal category
+```
+
+**Prompt 3: Supplier Contract Non-Renewal Notification**
+```
+Draft a supplier contract non-renewal notification for the following contract.
+
+Supplier: [company name]
+Contract reference: [number or title]
+Contract expiration date: [date]
+Notice required: [X days] — Notice deadline: [date]
+Reason category: [price uncompetitive / service issues / strategic insourcing / consolidation / business change]
+
+Relationship sensitivity: [strategic partner / standard supplier / arm-length / adversarial]
+
+Draft a non-renewal notification that:
+1. Is delivered within the required notice period
+2. References the contract and notice provision correctly
+3. Communicates the non-renewal decision clearly without unnecessary detail or apology
+4. Specifies transition requirements (wind-down timeline, data return, final billing)
+5. Maintains a professional tone appropriate for the relationship sensitivity level
+6. Leaves the door open for future engagement where appropriate
+7. Does not create any legal commitments or admissions
+
+Also draft: an internal memo to relevant stakeholders explaining the transition plan and timeline.
+```
+
+:::
+
+## 25. AI Sourcing Category Strategy Builder
+
+> Develops category management strategies for direct and indirect spend categories — analyzing supply market conditions, spend patterns, and risk factors to recommend optimal sourcing approaches.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Most Procurement Organizations Operate Reactively Without Category-Level Strategies**
+
+Category management — developing deliberate sourcing strategies for each spend category based on supply market analysis and internal demand patterns — is the foundation of mature procurement. Yet most procurement organizations manage categories reactively: running RFPs when contracts expire, negotiating when price increases are threatened, and managing suppliers one issue at a time without a long-term strategic perspective.
+
+Without category strategies, procurement teams repeat the same analysis work every time a sourcing event occurs. Market conditions, supply market structure, and cost drivers that were researched for one RFP cycle are not documented and must be re-researched for the next cycle. Category-specific risks — sole-source dependencies, geographic concentration, raw material volatility — are managed as emergencies rather than anticipated and mitigated.
+
+**How COCO Solves It**
+
+1. **Supply Market Analysis**: COCO analyzes supply market structure, competitive dynamics, key cost drivers, and market trends for each spend category.
+2. **Spend Analysis**: COCO structures internal spend data to identify concentration, trend, compliance, and demand patterns within each category.
+3. **Risk Assessment**: COCO identifies and scores supply chain risks (supply continuity, quality, regulatory, financial) specific to each category.
+4. **Strategy Recommendation**: COCO applies category positioning frameworks (Kraljic matrix, portfolio analysis) to recommend the appropriate sourcing approach for each category.
+5. **Category Plan Documentation**: COCO drafts the formal category strategy document — including market overview, current state assessment, strategic objectives, and sourcing roadmap.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Category strategy coverage**: Organizations using AI-assisted category planning develop strategies for **3–5x more categories** in the same annual planning cycle
+- **Cost savings identification**: Structured category analysis identifies **15–25% more** savings opportunities than reactive, event-driven sourcing
+- **RFP preparation time**: Category plans reduce RFP preparation time by **40–50%** because market research and requirements are already documented
+- **Supply risk reduction**: Proactive risk identification and mitigation reduces supply disruption incidents by **30–40%** in managed categories
+- **Procurement credibility**: Category strategies with documented market analysis increase procurement influence over business unit spend decisions by **35–45%**
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Spend Category Strategy Development**
+```
+Develop a category sourcing strategy for the following spend category.
+
+Category name: [e.g., IT Hardware, Logistics Services, Marketing Services, Raw Material X]
+Annual spend: $[X]
+Spend distribution: [number of suppliers, concentration — top 3 suppliers = X% of spend]
+Current sourcing approach: [describe — long-term agreements / spot buying / preferred vendor / competitive bids]
+
+Supply market overview:
+[describe what you know about the supply market — number of viable suppliers, competitive dynamics, pricing trends, lead times]
+
+Internal demand characteristics:
+[describe — volume stability, specification complexity, criticality to operations, internal stakeholder preferences]
+
+Current performance:
+[describe — cost trends, quality/delivery performance, risk incidents, stakeholder satisfaction]
+
+Develop a category strategy covering:
+1. Kraljic positioning: Strategic / Leverage / Bottleneck / Routine — with rationale
+2. Key cost drivers and how to influence them
+3. Supply market risk assessment: top 3 risks and current mitigation
+4. Recommended sourcing approach: competitive bid / negotiated renewal / partnership / consolidation
+5. 12-month sourcing roadmap with milestones
+6. Target outcomes: cost, quality, risk, and relationship targets
+```
+
+**Prompt 2: Supplier Consolidation Business Case**
+```
+Build a business case for consolidating the following spend category to fewer suppliers.
+
+Category: [describe]
+Current state: [N suppliers], total spend: $[X]/year
+Spend distribution: [Supplier A: $X (Y%), Supplier B: $X (Y%), etc.]
+Current terms: [describe rate structures, volume tiers, contract terms for each supplier]
+
+Consolidation scenario:
+[Reduce to X suppliers — describe proposed allocation — e.g., "70% to Supplier A, 30% to Supplier B"]
+
+Potential volume leverage with consolidated suppliers: [estimate based on proposed allocation]
+
+Generate a business case including:
+1. Financial analysis: estimated savings from volume leverage negotiation (range)
+2. Operational risk: service risk if consolidated supplier has performance issues
+3. Competitive leverage considerations: impact of reducing supplier competition
+4. Transition cost estimate: effort to consolidate and migrate business
+5. Net present value of consolidation over 3 years
+6. Implementation plan: how to negotiate and transition over [X months]
+7. Recommendation: proceed / do not proceed / hybrid approach — with rationale
+```
+
+**Prompt 3: RFP Requirements and Evaluation Criteria Builder**
+```
+Build a structured RFP requirements document and evaluation scoring framework for the following procurement.
+
+Category: [describe]
+Procurement objective: [describe what you are buying and why you are going to market now]
+Annual spend: $[X]
+Contract term: [X years]
+
+Key requirements (from stakeholders):
+[list the functional/technical requirements, service level expectations, and mandatory qualifications]
+
+Historical issues to address:
+[describe any performance problems or gaps with incumbent(s) that the new contract should resolve]
+
+Evaluation priorities (rank in order): [price / quality / service reliability / technical capability / innovation / sustainability / diversity / risk management]
+
+Build:
+1. RFP requirements sections (organized by category: technical, commercial, service, compliance)
+2. Mandatory qualification criteria (pass/fail)
+3. Weighted scoring criteria aligned to evaluation priorities (total = 100 points)
+4. Scoring rubric: what responses earn full, partial, or no points for each criterion
+5. Total cost of ownership calculation template (cost basis to use for price scoring)
+6. Reference check framework: what to ask references about this supplier type
+```
+
+:::
+
+## 26. AI Procurement Spend Analytics Dashboard Builder
+
+> Processes raw transactional spend data to generate categorized spend reports, savings tracking, compliance metrics, and strategic procurement insights.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Procurement Teams Cannot See the Spend Data They Need to Make Decisions**
+
+Strategic procurement requires visibility into spend patterns — which categories are growing, where maverick buying is occurring, which suppliers have consolidated relationships, and whether savings initiatives are delivering projected returns. But generating this visibility from raw transactional data is laborious. Finance systems categorize spend for accounting purposes, not procurement purposes. PO data and invoice data are in different systems. Direct and indirect spend require different analytical lenses.
+
+Building useful spend analytics in Excel requires hours of data cleaning, categorization mapping, and pivot table construction each reporting cycle. The result is that most procurement organizations report spend data quarterly at best — too infrequently to catch emerging issues and far too slowly to support the agile decision-making that category management requires.
+
+**How COCO Solves It**
+
+1. **Spend Classification**: COCO applies category taxonomy to raw transactional data, classifying spend into procurement-relevant categories using supplier names, cost center codes, and description text.
+2. **Supplier Spend Consolidation**: COCO deduplicates supplier names and consolidates spend across legal entities, subsidiaries, and naming variations to produce accurate supplier-level spend totals.
+3. **Maverick Spend Identification**: COCO identifies off-contract purchasing by comparing transactional spend to preferred supplier agreements and approved vendor lists.
+4. **Savings Tracking**: COCO tracks procurement savings against baseline targets and prior period spend, calculating realized vs. projected savings for each initiative.
+5. **Report and Dashboard Generation**: COCO generates structured spend analytics reports with executive summaries, category deep-dives, and action-oriented insights.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Spend report cycle time**: Monthly spend reporting drops from **2–3 days to 2–4 hours** with AI-assisted classification and analysis
+- **Spend classification accuracy**: AI-assisted categorization achieves **85–92% accuracy** on initial pass, vs. **60–70%** for keyword-only automation
+- **Maverick spend detection**: Systematic off-contract spend identification surfaces **15–25%** of spend occurring outside preferred supplier agreements
+- **Savings realization tracking**: Organizations with structured savings tracking report **20–30% higher** savings capture rates vs. organizations relying on projected savings only
+- **Category coverage**: AI-assisted analysis enables procurement to provide strategic insight on **3x more** spend categories per reporting cycle
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Spend Data Classification and Analysis**
+```
+Classify and analyze the following procurement spend data and generate a spend analytics report.
+
+Analysis period: [quarter / year]
+Total spend: $[X]
+Data source: [ERP extract / P-card data / AP invoices / combined]
+
+Raw spend data (or summary):
+[paste or describe — supplier names, amounts, cost centers, GL codes, description text for a representative sample or the full dataset]
+
+Category taxonomy to apply:
+[list your procurement categories — e.g., IT Hardware, IT Software, Professional Services, Marketing, Facilities, Raw Materials, Logistics, etc.]
+
+Generate a spend analytics report including:
+1. Total spend by category (table + trend vs. prior period)
+2. Top 20 suppliers by spend with category and YoY trend
+3. Spend concentration analysis: top 10 suppliers as % of total
+4. Category spend trends: fastest growing and declining categories
+5. Data quality flags: spend that could not be classified or appears misallocated
+6. Strategic insights: 3–5 observations that should drive procurement action
+7. Recommended deep-dive areas for category strategy development
+```
+
+**Prompt 2: Maverick Spend Identification Report**
+```
+Identify off-contract and maverick spend in the following transactional data.
+
+Analysis period: [date range]
+Preferred supplier list: [list contracted suppliers by category]
+Approved vendor list policy: [describe — e.g., "all purchases >$10K must use preferred supplier or require category manager approval"]
+
+Transactional data:
+[paste or describe spend data including supplier, amount, category, cost center, PO vs. non-PO indicator]
+
+Identify:
+1. Spend with suppliers not on the preferred list by category (maverick spend)
+2. Highest maverick spend categories (where non-compliance is most costly)
+3. Highest maverick spend cost centers (which business units are bypassing procurement)
+4. Specific large transactions with non-preferred suppliers that should be reviewed
+5. Total maverick spend as % of addressable spend
+6. Estimated cost impact: what premium is being paid vs. preferred supplier rates?
+7. Recommended interventions: compliance program priorities for next quarter
+```
+
+**Prompt 3: Procurement Savings Tracker Report**
+```
+Generate a procurement savings tracking report for the following initiatives.
+
+Reporting period: [quarter]
+Total savings target for period: $[X]
+
+Savings initiatives:
+[For each initiative:
+Initiative name: [describe]
+Category: [describe]
+Baseline spend: $[X]
+Projected savings: $[Y]
+Methodology: [cost reduction / cost avoidance / demand reduction / rebate]
+Status: [Complete / In Progress / At Risk / Not Started]
+Actual savings realized this period: $[Z]
+Supporting evidence: [describe — e.g., "signed contract at $X vs. $Y baseline"; "invoice data showing X% reduction"]]
+
+Generate a savings tracking report including:
+1. Executive summary: total savings realized vs. target ([X]% of goal)
+2. Savings by category and initiative (table)
+3. Variance analysis: why are some initiatives under or over target?
+4. Savings methodology breakdown: cost reduction vs. cost avoidance vs. other
+5. Pipeline for next quarter: initiatives in progress with projected timing
+6. Year-to-date tracking: cumulative progress toward annual savings target
+7. Credibility flags: any savings claims that lack strong supporting evidence and should be validated
+```
+
+:::

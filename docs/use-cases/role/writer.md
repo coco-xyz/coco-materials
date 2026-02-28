@@ -4235,3 +4235,307 @@ Please:
 ```
 
 :::
+
+## 24. AI Thought Leadership Content Planner
+
+> Develops thought leadership content strategies from expertise mapping and audience analysis — building editorial calendars, angle frameworks, and topic hierarchies for sustained authority building.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Thought Leadership Content Is Reactive, Inconsistent, and Fails to Build Cumulative Authority**
+
+Thought leadership content works through accumulation — a single article rarely establishes authority, but a consistent body of work on a well-defined set of topics builds the recognition and trust that creates inbound opportunities. Yet most organizations and professionals produce thought leadership reactively: writing about whatever seems timely, responding to trends rather than setting them, and failing to connect individual pieces into a coherent intellectual perspective.
+
+The result is content that is high-quality in isolation but strategically incoherent. Readers who see a series of disconnected articles on different topics don't build a clear picture of what the author stands for. The cumulative effect of years of content production is far less than it should be because there is no strategy connecting it.
+
+**How COCO Solves It**
+
+1. **Expertise Mapping**: COCO analyzes the subject matter expert's knowledge, experience, and genuine perspectives to identify the specific territory where they have authentic authority.
+2. **Audience Analysis**: COCO defines the target audience, their information needs, and the specific problems they want thought leaders to illuminate.
+3. **Topic Hierarchy Development**: COCO builds a structured topic hierarchy — core themes, sub-topics, and specific angles — that organizes the expertise into a coherent intellectual framework.
+4. **Editorial Calendar Generation**: COCO generates an annual editorial calendar with content planned to build from foundational to advanced perspectives, establishing authority progressively.
+5. **Content Angle Library**: COCO generates multiple angles, frameworks, and entry points for each topic — ensuring variety across the content series without losing thematic coherence.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Content strategy development time**: AI-assisted expertise mapping and topic hierarchy development reduces strategy creation from **2–4 weeks to 3–5 days**
+- **Content production consistency**: Writers with editorial calendars produce content **3x more consistently** than those working reactively
+- **Audience engagement growth**: Strategic thought leadership content with coherent themes grows engaged readership **40–60% faster** than disconnected topic coverage
+- **Speaking and media opportunity correlation**: Consistent thought leadership on defined topics generates **2–3x more** inbound speaking invitations and media requests within 12 months
+- **Content reuse efficiency**: Hierarchical topic structure enables **60–70%** of content elements to be reused across formats (articles, talks, newsletters, social posts) without redundancy
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Thought Leadership Topic Hierarchy Builder**
+```
+Build a thought leadership topic hierarchy for the following subject matter expert.
+
+Expert background:
+[Describe the expert — role, industry, years of experience, specific areas of expertise, notable career experiences, research or work that has shaped their perspective]
+
+Core perspective or belief:
+[Describe 1–3 strong opinions or perspectives the expert holds about their field — things they believe that many others don't, or things they believe more deeply or specifically than most]
+
+Target audience:
+[Describe who the expert wants to reach — titles, industries, problems they are facing, what they want to learn from thought leadership in this space]
+
+Content goals:
+[Describe what the expert wants the thought leadership to achieve — speaking invitations, client trust, team authority, job market positioning, book proposal]
+
+Build a topic hierarchy including:
+1. Core theme (the central idea that defines this expert's point of view)
+2. 3–5 pillar topics (major areas where the expert has deep, distinctive perspective)
+3. For each pillar: 4–6 specific sub-topics with a brief angle description
+4. 3 "contrarian" positions the expert can take that will generate distinctive engagement
+5. Topics to intentionally avoid (areas where the expert doesn't have distinctive perspective)
+6. Content format recommendations: which topics suit long-form articles, short-form posts, talks, podcasts
+```
+
+**Prompt 2: Annual Thought Leadership Editorial Calendar**
+```
+Build a 12-month thought leadership editorial calendar for the following expert and platform.
+
+Expert name/role: [describe]
+Platform(s): [LinkedIn / newsletter / blog / podcast / speaking circuit / combined]
+Publishing frequency: [weekly / bi-weekly / monthly — by platform]
+Topic hierarchy: [paste the topic hierarchy from prior step or describe the core themes]
+Upcoming events or seasonality: [describe any conferences, industry cycles, or dates that should anchor content]
+
+Build a 12-month editorial calendar including:
+1. Monthly theme: what pillar topic will each month emphasize?
+2. Specific content pieces: for each month, 2–4 specific articles/posts with titles, angles, and target platforms
+3. Content series: identify 2–3 multi-part content series that build across multiple months
+4. Key dates and hooks: content tied to industry events, publication cycles, or timely topics
+5. Content format variation: ensure mix of long-form, short-form, data-driven, narrative, and opinion pieces
+6. Repurposing schedule: for each major piece, identify derivative content (LinkedIn post from article, newsletter excerpt, talk topic)
+```
+
+**Prompt 3: Content Angle Generator for Overworked Topics**
+```
+Generate fresh angles for the following overworked thought leadership topic.
+
+Topic: [describe a topic that is widely covered and needs a fresh angle — e.g., "AI in marketing", "leadership in remote teams", "sustainable supply chain"]
+Expert perspective: [describe the expert unique experience or perspective on this topic]
+Target audience: [describe who will read this]
+What has been written before: [describe the typical angles and framings used by others on this topic — what is the clichéd version?]
+
+Generate 8–10 fresh angles that:
+1. Avoid the most common framings and entry points
+2. Are specific enough to be credible and avoid generic claims
+3. Are counterintuitive or challenging to the conventional wisdom — in a way that reflects the expert genuine perspective
+4. Are accessible enough for the target audience to immediately see relevance
+5. Could generate a response — either agreement from people who felt the same, or productive disagreement from people with a different perspective
+
+For each angle: a working title, a 1-sentence framing of the core argument, and a brief explanation of why this angle is distinctive.
+```
+
+:::
+
+## 25. AI Long-Form Content Research Compiler
+
+> Gathers, organizes, and synthesizes research from multiple sources into structured outlines and annotated source libraries — accelerating long-form article and report writing.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Research Takes Longer Than Writing for Most Long-Form Content Projects**
+
+For data-driven, well-sourced long-form content — industry reports, white papers, in-depth articles — research typically takes 2–3x as long as the actual writing. Writers must identify credible sources, access relevant studies and statistics, synthesize findings from multiple conflicting sources, organize research into a usable structure, and keep track of citations — before writing a single word of the actual content. This research burden limits how much high-quality long-form content can be produced and often leads writers to either over-rely on familiar sources (reducing content freshness) or produce undercited content that lacks credibility.
+
+Research quality also drives content quality. Writers who do thorough research produce articles with specific statistics, nuanced perspectives, and credible citations that build reader trust. Writers who skim research produce generic content that mirrors what already exists.
+
+**How COCO Solves It**
+
+1. **Research Question Scoping**: COCO structures the research needed for a long-form piece by generating the key questions the content must answer, organizing the research agenda before gathering begins.
+2. **Multi-Source Synthesis**: COCO processes research inputs from multiple sources — studies, reports, expert quotes, data — and synthesizes contradictions, consensus findings, and knowledge gaps.
+3. **Annotated Source Library**: COCO builds a structured source library with key findings, relevant statistics, and citation metadata for each source.
+4. **Research-to-Outline Translation**: COCO translates organized research into a content outline with evidence mapped to each section.
+5. **Statistics and Data Verification**: COCO cross-references statistics against original sources, flags claims that need stronger citation support, and identifies data gaps.
+
+:::
+
+::: details Results & Who Benefits
+
+- **Research-to-writing ratio**: AI-assisted research compilation reduces research time as a percentage of total content production from **60–70% to 30–40%**
+- **Source diversity**: AI-assisted research surfaces **2–3x more** source diversity vs. writer-only research within the same time budget
+- **Citation density**: Long-form content produced with AI research assistance includes **40–60% more** specific statistics and cited claims vs. unresearched content
+- **Content freshness**: Systematic source discovery finds recent studies and data that writer-only research typically misses, improving content recency
+- **Fact-checking efficiency**: Organized, annotated source libraries reduce fact-checking and revision time by **50%** in the editing phase
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Long-Form Content Research Plan Generator**
+```
+Build a research plan for the following long-form content project.
+
+Content type: [industry report / white paper / long-form article / guide / book chapter]
+Working title or topic: [describe]
+Target audience: [describe — expertise level, industry, role]
+Desired length: [approximate word count or pages]
+Key arguments or positions the content will take: [describe the thesis or main points]
+Deadline: [date]
+
+Build a research plan including:
+1. Research questions: 8–12 specific questions the content must answer (organized by section)
+2. Information types needed: statistics, expert quotes, case studies, academic research, industry surveys, regulatory data
+3. Source categories to search: academic databases, industry associations, government sources, company reports, news archives, expert commentary
+4. Priority research areas: which questions are most critical to answer first?
+5. Research gaps to acknowledge: what will you disclose as "outside scope" or "limitations of available research"?
+6. Estimated research time by section: where should the most research effort be concentrated?
+```
+
+**Prompt 2: Research Synthesis and Outline Builder**
+```
+Synthesize the following research inputs and build a structured content outline.
+
+Content project: [working title and topic]
+Target audience: [describe]
+Core thesis: [the main argument or perspective the content is advancing]
+
+Research collected (paste or summarize):
+[For each source: Source name/title, Key finding or relevant quote, Statistics or data points, Citation information]
+
+Synthesize and build:
+1. Key themes emerging from the research (what do multiple sources agree on?)
+2. Contradictions or debates in the research (where sources disagree and how to handle)
+3. Most compelling statistics and data points to anchor each section
+4. Gaps in the research that should be acknowledged in the content
+5. Structured outline with:
+   - Main sections and section purpose
+   - Key research points mapped to each section
+   - Suggested statistics or quotes for each section
+   - Logical flow and transition rationale between sections
+```
+
+**Prompt 3: Citation and Fact-Check Audit**
+```
+Audit the following content draft for citation quality, factual accuracy, and sourcing gaps.
+
+Content draft:
+[paste the draft or key sections]
+
+Sources available:
+[list the sources the writer is drawing on with brief descriptions]
+
+Audit for:
+1. Claims that need citation but currently have none
+2. Statistics presented without source attribution
+3. Claims that are overstated relative to the source evidence (hedging language needed)
+4. Sources that are too old for the claim being made (recommend recency threshold for this topic)
+5. Single-source claims that should be corroborated by additional sources
+6. Any factual errors or inconsistencies detected (where claims contradict each other or common knowledge)
+7. Citation format inconsistencies
+
+Output a detailed audit report with:
+- Line-by-line flags with specific concern type
+- Recommended resolution for each flag
+- Priority order for addressing issues (critical / important / minor)
+- Overall citation quality rating: Strong / Adequate / Needs Work
+```
+
+:::
+
+## 26. AI Ghostwriting Project Manager
+
+> Manages ghostwriting engagements end-to-end — from client voice extraction and brief creation to revision management and final delivery — keeping projects on scope and on time.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Ghostwriting Projects Fail at the Voice Capture Stage and Drag at Revision**
+
+Ghostwriting succeeds or fails based on the quality of voice extraction at the start. When a ghostwriter doesn't deeply understand the client's voice, perspective, and communication style before beginning, the first draft requires extensive revision — and extensive revision breeds client frustration and scope disputes. Most ghostwriters use informal discovery processes that produce inconsistent results: some clients articulate their voice clearly, others cannot, and the ghostwriter is left to guess. The resulting mismatch between what the client imagined and what the first draft delivers is the leading cause of ghostwriting project delays, scope creep, and relationship deterioration.
+
+On the project management side, ghostwriting engagements are also poorly structured for revision management. Without clear revision protocols, clients feel entitled to unlimited revisions. Ghostwriters without strong revision processes find themselves making the same changes repeatedly, losing the efficiency that makes the engagement economically viable.
+
+**How COCO Solves It**
+
+1. **Voice Extraction Interview**: COCO generates structured voice extraction interview guides that capture the client's vocabulary, sentence patterns, perspective, and stylistic preferences systematically.
+2. **Voice Style Guide Creation**: COCO synthesizes voice extraction interview outputs into a written style guide that can be referenced throughout the engagement.
+3. **Content Brief Generation**: COCO produces detailed content briefs for each deliverable — purpose, audience, key messages, tone, structure, and source materials — that align client and writer expectations before drafting begins.
+4. **Revision Management System**: COCO creates structured revision request forms and change tracking processes that bound revision scope and maintain project momentum.
+5. **Delivery Package Assembly**: COCO assembles final delivery packages with all deliverables organized, formatted, and accompanied by usage guidance for the client.
+
+:::
+
+::: details Results & Who Benefits
+
+- **First-draft approval rate**: Ghostwriters using AI-assisted voice extraction achieve client approval on the first draft **50–60% of the time** vs. **20–30%** without structured voice capture
+- **Revision rounds per project**: Structured revision management reduces average revision rounds from **4–6 to 2–3** per deliverable
+- **Project timeline adherence**: Ghostwriting projects with AI-structured briefs and revision protocols complete on time at **75–80% rates** vs. **40–50%** without structure
+- **Client satisfaction**: Voice guide-based drafting produces significantly higher client satisfaction scores with first drafts, reducing relationship tension throughout the engagement
+- **Ghostwriter capacity**: Reduced revision cycles and structured project management enable ghostwriters to manage **30–40% more projects** simultaneously
+
+:::
+
+::: details Practical Prompts
+
+**Prompt 1: Client Voice Extraction Interview Guide**
+```
+Generate a voice extraction interview guide for the following ghostwriting engagement.
+
+Client profile: [describe — professional background, current role, type of content to be ghostwritten]
+Content type: [LinkedIn posts / articles / book / speeches / newsletter / op-eds]
+Client goals for the content: [describe what they want the content to achieve — personal brand, business development, establishing expertise, media visibility]
+
+Generate a voice extraction interview guide including:
+1. Background questions (5–7): to understand the client's story, perspective, and what they genuinely believe
+2. Voice and style questions (5–7): to capture vocabulary preferences, communication style, sentence rhythm, and tone
+3. Perspective questions (5–7): to identify the specific points of view, opinions, and frameworks the client brings to their subject matter
+4. Audience and purpose questions (3–5): to understand who they are writing for and what they want that audience to do or think
+5. Examples and references (3–5): questions asking them to share examples of content they love and hate
+6. Topic and content priority questions (3–5): to build a topic library of what they want to write about
+
+Also include: instructions for how to conduct the interview (recording recommended, approx. duration, follow-up prompts)
+```
+
+**Prompt 2: Ghostwriting Content Brief Template**
+```
+Generate a content brief for the following ghostwriting deliverable.
+
+Deliverable type: [article / blog post / LinkedIn post / newsletter / speech / op-ed]
+Client: [describe — role and general background]
+Client voice summary: [paste or summarize the voice style guide key points]
+Working title or topic: [describe]
+Target publication or platform: [describe — where will this be published?]
+Target audience: [describe who will read this]
+Primary message: [what is the 1 key thing the reader should take away?]
+Supporting points: [list 2–4 points that support the primary message]
+Tone: [describe — e.g., authoritative but accessible, conversational, urgent, inspiring]
+Length: [word count or approximate]
+Source materials provided by client: [list any materials — research, data, prior writing, notes]
+Deadline: [date]
+
+Generate a complete content brief including:
+1. Project summary (purpose, audience, key message)
+2. Structural outline (main sections with brief description of each)
+3. Tone and voice guidance specific to this piece
+4. Must-include elements (statistics, stories, quotes to incorporate)
+5. Explicitly avoid (topics, framing, or phrases that don't fit the client voice or this piece)
+6. SEO or platform-specific requirements (if applicable)
+7. Approval criteria: what does a successful first draft look like?
+```
+
+**Prompt 3: Revision Management and Scope Control Framework**
+```
+Design a revision management framework for the following ghostwriting engagement.
+
+Engagement scope: [describe — number of pieces, type, timeline, approximate total words]
+Client type: [describe — detail-oriented executive, busy founder, collaborative, specific/vague feedback style]
+Common revision friction patterns: [describe any known issues — e.g., "client often changes direction after approval", "feedback is emotional rather than specific", "revision requests come from multiple stakeholders"]
+
+Design a revision management framework including:
+1. Revision definition: what counts as a revision vs. a scope change (clear delineation)
+2. Revision rounds included in scope: how many rounds per deliverable, what triggers a scope change conversation
+3. Revision request format: a structured feedback form for the client to use (specific, actionable feedback categories)
+4. Response protocol: how the ghostwriter will respond to revision requests (acknowledgment, questions for clarification, timeline)
+5. Scope change conversation guide: how to address requests that exceed the agreed scope
+6. Final approval process: what constitutes final approval and what it means for revision rights
+7. Dispute resolution: how to handle disagreements about whether a request is in or out of scope
+```
+
+:::

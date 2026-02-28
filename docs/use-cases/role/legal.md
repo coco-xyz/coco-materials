@@ -2,131 +2,7 @@
 
 AI-powered use cases for legal professionals.
 
-## 1. AI Contract Analyzer
-
-> Scans 50-page contracts in 3 minutes — flags risks, missing clauses, and unusual terms before you sign.
-
-::: details 🎬 Watch Demo Video
-
-<video controls src="/videos/en/105-ai-contract-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
-
-:::
-
-::: details Pain Point & How COCO Solves It
-
-**The Pain: Manual Contract Review Is Costing You Deals and Dollars**
-
-In today's fast-paced Enterprise landscape, Legal professionals face mounting pressure to deliver results faster with fewer resources. The traditional approach to contract review is manual, error-prone, and unsustainably slow.
-
-Industry data shows that teams spend an average of 15-25 hours per week on tasks that could be automated or significantly accelerated. For Legal teams specifically, this translates to delayed deliverables, missed opportunities, and rising operational costs.
-
-The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
-
-**How COCO Solves It**
-
-COCO's AI Contract Analyzer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
-
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
-
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Enterprise.
-
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
-
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
-
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
-
-:::
-
-::: details Results & Who Benefits
-
-**Measurable Results**
-
-Teams using COCO's AI Contract Analyzer report:
-- **83% reduction** in task completion time
-- **57% decrease** in operational costs for this workflow
-- **90% accuracy** rate, exceeding manual benchmarks
-- **22+ hours/week** freed up for strategic work
-- **Faster turnaround**: What took days now takes minutes
-
-**Who Benefits**
-
-- **Legal Teams**: Direct productivity boost — handle 3x the volume with the same headcount
-- **Team Leads & Managers**: Better visibility into work quality and consistent output standards
-- **Executive Leadership**: Reduced operational costs and faster time-to-insight for decision making
-- **Cross-Functional Partners**: Faster handoffs and fewer bottlenecks in collaborative workflows
-
-:::
-
-::: details 💡 Practical Prompts
-
-**Prompt 1: Quick Contract Review Analysis**
-```
-Analyze the following contract review materials and provide a structured summary. Focus on:
-1. Key findings and critical items
-2. Risk areas or issues requiring attention
-3. Recommended actions with priority levels
-4. Timeline estimates for each action item
-
-Industry context: Enterprise
-Role perspective: Legal
-
-Materials:
-[paste your content here]
-```
-
-**Prompt 2: Contract Review Report Generation**
-```
-Generate a comprehensive contract review report based on the following data. The report should include:
-1. Executive summary (2-3 paragraphs)
-2. Detailed findings organized by category
-3. Data visualizations recommendations
-4. Actionable recommendations with expected impact
-5. Risk assessment and mitigation strategies
-
-Audience: Legal team and management
-Format: Professional report suitable for stakeholder presentation
-
-Data:
-[paste your data here]
-```
-
-**Prompt 3: Contract Review Process Optimization**
-```
-Review our current contract review process and suggest improvements:
-
-Current process:
-[describe your current workflow]
-
-Pain points:
-[list specific issues]
-
-Please provide:
-1. Process bottleneck analysis
-2. Automation opportunities
-3. Best practices from enterprise industry
-4. Step-by-step implementation plan
-5. Expected time and cost savings
-```
-
-**Prompt 4: Weekly Contract Review Summary**
-```
-Create a weekly contract review summary from the following updates. Format as:
-
-1. **Status Overview**: High-level progress (green/yellow/red)
-2. **Key Metrics**: Top 5 KPIs with week-over-week trends
-3. **Completed Items**: What was finished this week
-4. **In Progress**: Active items with expected completion
-5. **Blockers & Risks**: Issues needing attention
-6. **Next Week Priorities**: Top 3 focus areas
-
-This week's data:
-[paste updates here]
-```
-
-:::
-
-## 2. AI NDA Generator
+## 1. AI NDA Generator
 
 > Generates jurisdiction-specific NDAs in 60 seconds — customizes scope, duration, and carve-outs based on deal context.
 
@@ -250,7 +126,7 @@ This week's data:
 
 :::
 
-## 3. AI IP Portfolio Analyzer
+## 2. AI IP Portfolio Analyzer
 
 > Maps your patent portfolio against competitor filings — identifies white spaces and potential infringement risks across 300+ patents.
 
@@ -374,7 +250,7 @@ This week's data:
 
 :::
 
-## 4. AI Trademark Conflict Searcher
+## 3. AI Trademark Conflict Searcher
 
 > Searches USPTO, EUIPO, and 20+ trademark databases — delivers a comprehensive conflict report with risk scores in 10 minutes.
 
@@ -498,7 +374,7 @@ This week's data:
 
 :::
 
-## 5. AI FOIA Request Processor
+## 4. AI FOIA Request Processor
 
 > Reviews FOIA requests against exemption criteria — redacts sensitive content and drafts responses, cutting turnaround from 30 to 5 days.
 
@@ -622,7 +498,7 @@ This week's data:
 
 :::
 
-## 6. AI Regulatory Change Tracker
+## 5. AI Regulatory Change Tracker
 
 > Monitors SEC, FINRA, and 12 global regulators daily — maps new rules to your compliance obligations with 48-hour advance alerts.
 
@@ -746,7 +622,7 @@ This week's data:
 
 :::
 
-## 7. AI Litigation Hold Manager
+## 6. AI Litigation Hold Manager
 
 > Identifies custodians, sends hold notices, tracks acknowledgments, and monitors compliance — manages 50+ active holds with zero missed deadlines.
 
@@ -870,7 +746,7 @@ This week's data:
 
 :::
 
-## 8. AI Content Rights Tracker
+## 7. AI Content Rights Tracker
 
 > Tracks licensing windows for 10,000+ titles across 30 territories — alerts you 60 days before rights expire for renewal decisions.
 
@@ -994,7 +870,7 @@ This week's data:
 
 :::
 
-## 9. AI PPA Reviewer
+## 8. AI PPA Reviewer
 
 > Reviews 80-page power purchase agreements — flags escalation clauses, curtailment risks, and unfavorable terms in 10 minutes.
 
@@ -1118,7 +994,7 @@ This week's data:
 
 :::
 
-## 10. AI Contract Clause Risk Analyzer {#use-case-357}
+## 9. AI Contract Clause Risk Analyzer
 
 > Cuts contract review time from 4 hours to 45 minutes by systematically flagging high-risk clauses — liability caps, indemnification scope, auto-renewal traps, governing law conflicts — against company policy.
 
@@ -1241,7 +1117,7 @@ CONTRACT:
 ```
 
 :::
-## 11. AI Privacy Policy Generator {#use-case-358}
+## 10. AI Privacy Policy Generator
 
 > Produces a complete, jurisdiction-appropriate privacy policy for SaaS applications — covering cloud storage, analytics, AI training data use, and third-party integrations — in 2–3 hours instead of 12–20 hours.
 
@@ -1371,7 +1247,7 @@ PRIVACY POLICY:
 ```
 
 :::
-## 12. AI GDPR Compliance Checklist Builder {#use-case-359}
+## 11. AI GDPR Compliance Checklist Builder
 
 > Generates a dynamic, organization-specific GDPR compliance checklist — covering data inventory, consent mechanisms, processor agreements, and breach response — and tracks remediation progress against regulatory requirements.
 
@@ -1491,7 +1367,7 @@ Our company context: [DESCRIBE COMPANY TYPE, SYSTEMS USED, TEAM RESPONSIBLE]
 ```
 
 :::
-## 13. AI Terms of Service Reviewer {#use-case-360}
+## 12. AI Terms of Service Reviewer
 
 > Reviews vendor Terms of Service documents in 35 minutes instead of 3 hours, flagging provisions that expose the company to liability, data rights issues, unilateral change clauses, and unfavorable dispute resolution terms.
 
@@ -1624,7 +1500,7 @@ NEW FEATURE DESCRIPTION:
 ```
 
 :::
-## 14. AI NDA Redline Suggester {#use-case-361}
+## 13. AI NDA Redline Suggester
 
 > Reduces NDA turnaround from 2–3 business days to 4–6 hours by automatically identifying the 15–20 standard negotiating points in any NDA and generating policy-consistent redlines for each.
 
@@ -1755,7 +1631,7 @@ NDA:
 ```
 
 :::
-## 15. AI Regulatory Filing Summarizer {#use-case-362}
+## 14. AI Regulatory Filing Summarizer
 
 > Compresses 8–12 hours of regulatory filing review into 90 minutes by extracting all compliance obligations, deadlines, and action items from agency rulemakings, guidance documents, and enforcement actions.
 
@@ -1887,136 +1763,7 @@ OUR COMPANY CONTEXT:
 ```
 
 :::
-## 16. AI IP Portfolio Analyzer {#use-case-363}
-
-> Provides systematic IP portfolio analysis — patent maintenance prioritization, trademark monitoring, open source license compliance, and M&A due diligence preparation — reducing IP maintenance costs by 15–25% and M&A due diligence time from 6–8 weeks to 2–3 weeks.
-
-::: details Pain Point & How COCO Solves It
-
-For technology companies, intellectual property is often the most valuable asset on the balance sheet — yet it is frequently the least systematically managed. A SaaS company that has been operating for 5–10 years may have accumulated patents (granted and pending), trademarks (registered and common law), copyrights in source code and marketing materials, trade secrets in algorithms and customer data, and open source obligations — all tracked in disparate systems or, in many cases, in spreadsheets maintained by individuals who have since left the company.
-
-The consequences of poor IP portfolio management are severe and immediate. A patent that lapses for non-payment of maintenance fees is lost permanently. A trademark that is not defended against infringers can become unenforceable through abandonment. Open source license obligations that are not honored expose companies to significant litigation risk — multiple companies have faced GPL enforcement actions resulting in product injunctions and six-figure settlements. M&A transactions frequently surface IP defects that reduce deal value by 10–30% or kill deals outright: a patent that was assumed to cover a core product feature that it does not actually cover, a key source code repository containing GPL-licensed code without proper license tracking, a trademark registered in the wrong entity name.
-
-The challenge is not just tracking — it is strategic prioritization. A company with 150 patent assets cannot afford to prosecute all of them with equal vigor. Decisions about which patents to maintain, which to abandon, which to license, which to assert, and which to sell require analysis of claim scope, competitive relevance, citation strength, licensing revenue potential, and litigation risk — analysis that takes experienced IP counsel many hours per asset to perform at any depth.
-
-**How COCO Solves It**
-
-COCO transforms IP portfolio management from a reactive, fragmented process into a proactive, intelligence-driven workflow:
-
-1. **Portfolio ingestion**: The IP team uploads the portfolio data — patent numbers, status, maintenance fee due dates, trademark registrations, copyright registrations, open source component inventories, license agreements.
-2. **Risk flagging**: COCO identifies immediate risks — patents approaching maintenance fee deadlines, trademark registrations in jurisdictions where the company has not filed, open source components with license obligations that may not be honored.
-3. **Claim scope analysis**: For patent assets, COCO analyzes claim language to assess the breadth of protection and identifies whether key products or features appear to be covered by each patent.
-4. **Competitive mapping**: Given a list of competitor products or publicly known competitor patents, COCO assesses potential infringement risks (freedom-to-operate gaps) and potential licensing or assertion opportunities.
-5. **Portfolio rationalization**: COCO generates a tiered recommendation: assets to maintain and actively prosecute, assets to maintain for defensive value, assets to license, and assets to abandon to reduce costs.
-6. **M&A readiness report**: COCO produces an IP due diligence readiness assessment identifying gaps that would surface in a buyer's due diligence review and recommending remediation steps before a sale process begins.
-
-Technology companies using this workflow report reducing annual IP maintenance costs by 15–25% through systematic abandonment of non-strategic assets. IP due diligence preparation time for M&A transactions drops from 6–8 weeks to 2–3 weeks. Open source compliance gaps that would have been discovered by acquirers or through litigation are identified and remediated proactively, preserving deal value.
-
-:::
-
-::: details Results & Who Benefits
-
-**Measurable Results**
-
-- **Annual IP maintenance costs**: 15–25% reduction through strategic abandonment of non-strategic assets
-- **M&A due diligence preparation**: 6–8 weeks → 2–3 weeks
-- **Open source compliance gaps**: identified and remediated before discovery by acquirers or litigation
-
-**Who Benefits**
-
-- **IP counsel and patent attorneys**: who manage large patent portfolios and need to make strategic prosecution and maintenance decisions with limited budget
-- **Chief Legal Officers and General Counsel**: who must provide board-level visibility into IP portfolio health and risk
-- **M&A and corporate development teams**: who need to assess IP portfolio quality quickly in both sell-side and buy-side transactions
-- **Engineering and product leaders**: who need to understand open source obligations before shipping and to ensure freedom to operate in competitive markets
-
-:::
-
-::: details 💡 Practical Prompts
-
-**Prompt 1 — IP portfolio health assessment**
-```
-Analyze our IP portfolio and produce a health assessment. Portfolio data below.
-
-For each asset category, identify:
-1. Assets at immediate risk (expiring, lapsing, contested)
-2. Coverage gaps (key products or markets without IP protection)
-3. License compliance obligations not currently documented
-4. Recommended immediate actions with priority: Critical / High / Medium / Low
-
-PATENT PORTFOLIO: [LIST WITH STATUS, MAINTENANCE DATES, ASSIGNEE]
-TRADEMARK PORTFOLIO: [LIST WITH JURISDICTIONS, RENEWAL DATES]
-KEY SOFTWARE COMPONENTS: [LIST WITH OPEN SOURCE LICENSES]
-KEY LICENSE AGREEMENTS (INBOUND/OUTBOUND): [DESCRIBE]
-
-OUR KEY PRODUCTS/FEATURES: [LIST]
-OUR KEY MARKETS: [LIST JURISDICTIONS]
-```
-
-**Prompt 2 — Patent claim scope analysis**
-```
-Analyze the following patent claims and assess:
-1. The scope of protection each independent claim provides (broad, moderate, narrow)
-2. Whether our product [PRODUCT DESCRIPTION] appears to fall within the scope of each claim
-3. Whether any competitor product [COMPETITOR PRODUCT DESCRIPTION] appears to infringe these claims
-4. Claim construction risks — language that could be interpreted narrowly by a court
-5. Recommended prosecution strategy: maintain as-is / file continuation / broaden claims / abandon
-
-PATENT NUMBER: [NUMBER]
-INDEPENDENT CLAIMS: [PASTE CLAIMS]
-OUR PRODUCT DESCRIPTION: [DESCRIBE KEY FEATURES]
-```
-
-**Prompt 3 — Open source license compliance audit**
-```
-Our software product uses the following open source components. For each component:
-1. Identify the license type (MIT, Apache 2.0, GPL v2, GPL v3, LGPL, AGPL, etc.)
-2. State the key obligations that license imposes on us
-3. Assess whether our current distribution method triggers copyleft obligations
-4. Identify any license incompatibilities between components we are using together
-5. Flag any components where we may be out of compliance and recommend remediation
-
-OPEN SOURCE COMPONENTS:
-[LIST COMPONENTS WITH VERSION NUMBERS AND LICENSE IDENTIFIERS]
-
-OUR DISTRIBUTION METHOD:
-[DESCRIBE: e.g., SaaS (no distribution), binary distribution, source distribution]
-```
-
-**Prompt 4 — Freedom-to-operate risk assessment**
-```
-We are planning to launch the following new product feature: [DESCRIBE FEATURE IN TECHNICAL DETAIL].
-
-Conduct a preliminary freedom-to-operate risk assessment:
-1. Identify the key technical concepts and methods our feature employs
-2. List the patent classification codes (CPC/IPC) most relevant to this technology
-3. Identify any publicly known patents held by competitors [LIST COMPETITORS] that could be relevant
-4. Assess the risk level: High / Medium / Low, with reasoning
-5. Recommend whether a formal FTO opinion from patent counsel is warranted
-6. Suggest design-around options if risk is High
-
-FEATURE DESCRIPTION:
-[DETAILED TECHNICAL DESCRIPTION]
-KNOWN COMPETITOR PATENTS (if any):
-[LIST]
-```
-
-**Prompt 5 — M&A IP due diligence readiness**
-```
-We are preparing for a potential [SALE / ACQUISITION / INVESTMENT] transaction. Conduct an IP due diligence readiness assessment:
-
-1. Chain of title — identify any gaps in assignment or work-for-hire documentation for our key IP assets
-2. Employee/contractor IP agreements — flag any employees or contractors who may have created IP without proper assignment agreements
-3. Third-party IP — identify any third-party IP embedded in our products that requires licenses we may not have
-4. Open source risk — summarize our open source compliance posture and any known gaps
-5. Encumbrances — are any IP assets pledged as security, subject to liens, or covered by exclusivity licenses?
-6. Jurisdiction gaps — are key trademarks registered in all jurisdictions where we operate commercially?
-7. Priority remediation list — the 5 items that, if unaddressed, are most likely to reduce deal value or kill a transaction
-
-OUR BUSINESS: [DESCRIBE PRODUCTS, MARKETS, KEY IP ASSETS]
-```
-
-:::
-## 17. AI Legal Research Synthesizer {#use-case-364}
+## 15. AI Legal Research Synthesizer
 
 > Reduces legal research time by 60–75% per question — systematically covering all relevant legal issues, preserving findings in searchable memos, and enabling in-house teams to handle 3–4× more advisory requests without adding headcount.
 
@@ -2161,7 +1908,7 @@ BUSINESS CONTEXT: [DESCRIBE]
 ```
 
 :::
-## 18. AI Corporate Policy Drafter {#use-case-365}
+## 16. AI Corporate Policy Drafter
 
 > Produces tailored corporate policies — anti-bribery, code of conduct, data retention, acceptable use — in 3–5 days instead of 15–25+ attorney hours, with appropriate jurisdictional adjustments and plain-language employee communications.
 
@@ -2302,7 +2049,7 @@ POLICY:
 ```
 
 :::
-## 19. AI Compliance Training Content Creator {#use-case-366}
+## 17. AI Compliance Training Content Creator
 
 > Produces scenario-based, role-specific compliance training modules — in 12–18 hours instead of 100+ hours — with post-training assessments, reducing training-related audit findings by 60% in the first audit cycle.
 
@@ -2436,7 +2183,7 @@ COMPANY CONTEXT: [INDUSTRY, GEOGRAPHY, RELEVANT REGULATORY FRAMEWORK]
 ```
 
 :::
-## 20. AI Due Diligence Checklist Generator {#use-case-367}
+## 18. AI Due Diligence Checklist Generator
 
 > Generates deal-specific, industry-customized due diligence checklists in 4–6 hours instead of 3–5 days, reducing post-closing dispute rates by 20–30% by systematically surfacing risks that generic templates miss.
 
@@ -2567,7 +2314,7 @@ REGULATORY ENVIRONMENT: [LIST APPLICABLE REGULATIONS]
 ```
 
 :::
-## 21. AI Litigation Risk Assessor {#use-case-368}
+## 19. AI Litigation Risk Assessor
 
 > Produces structured early case assessments in 2 weeks instead of 6–8 weeks, improving reserve accuracy by 35–45% and enabling confident settlement recommendations that reduce outside counsel fees by 40%.
 
@@ -2714,7 +2461,7 @@ JURISDICTIONS INVOLVED: [LIST]
 ```
 
 :::
-## 22. AI Employment Law Compliance Advisor {#use-case-369}
+## 20. AI Employment Law Compliance Advisor
 
 > Provides same-day employment law compliance guidance across jurisdictions — reducing manager compliance errors by 45–55% and employment litigation exposure by 30–40% in the first year.
 
@@ -2852,7 +2599,7 @@ Identify:
 ```
 
 :::
-## 23. AI Data Processing Agreement Generator {#use-case-370}
+## 21. AI Data Processing Agreement Generator
 
 > Drafts or reviews GDPR-compliant Data Processing Agreements in 30–45 minutes instead of 2–4 hours — enabling SaaS vendors to close enterprise deals 20–35% faster by eliminating the DPA bottleneck.
 
@@ -2991,7 +2738,7 @@ VENDOR RELATIONSHIP:
 ```
 
 :::
-## 24. AI Board Meeting Minutes Summarizer {#use-case-371}
+## 22. AI Board Meeting Minutes Summarizer
 
 > Transforms meeting notes and recordings into complete, legally defensible board minutes — with precise resolution language, quorum confirmation, voting record, and privileged deliberation protection — in days instead of weeks.
 
@@ -3134,7 +2881,7 @@ CORPORATE HISTORY:
 ```
 
 :::
-## 25. AI Contract Renewal Terms Optimizer {#use-case-372}
+## 23. AI Contract Renewal Terms Optimizer
 
 > Transforms passive contract auto-renewals into active value-creation opportunities — identifying 90-day renewal windows, benchmarking current terms against market, and generating negotiation strategies that capture savings before contracts auto-renew.
 
@@ -3280,7 +3027,7 @@ Estimated value impact of proposed changes vs. current terms: [CALCULATE]
 ```
 
 :::
-## 26. AI Legal Contract Risk Extractor
+## 24. AI Legal Contract Risk Extractor
 
 > Organizations operating in Legal Services face mounting pressure to deliver results with constrained resources
 
@@ -3479,7 +3226,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 27. AI Government FOIA Response Assistant
+## 25. AI Government FOIA Response Assistant
 
 > Organizations operating in Government face mounting pressure to deliver results with constrained resources
 
@@ -3678,7 +3425,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 28. AI Media Content Rights Clearance Assistant
+## 26. AI Media Content Rights Clearance Assistant
 
 > Organizations operating in Media face mounting pressure to deliver results with constrained resources
 
@@ -3877,7 +3624,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 29. AI Legal Due Diligence Document Scanner
+## 27. AI Legal Due Diligence Document Scanner
 
 > Organizations operating in Legal Services face mounting pressure to deliver results with constrained resources
 
@@ -4076,7 +3823,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 30. AI Real Estate Lease Abstraction Engine
+## 28. AI Real Estate Lease Abstraction Engine
 
 > Organizations operating in Real Estate face mounting pressure to deliver results with constrained resources
 
@@ -4275,7 +4022,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 31. AI Legal IP Trademark Search Assistant
+## 29. AI Legal IP Trademark Search Assistant
 
 > Organizations operating in Legal Services face mounting pressure to deliver results with constrained resources
 
@@ -4474,7 +4221,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 32. AI Legal Litigation Timeline Builder
+## 30. AI Legal Litigation Timeline Builder
 
 > Organizations operating in Legal Services face mounting pressure to deliver results with constrained resources
 
@@ -4673,7 +4420,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 33. AI Real Estate Tenant Screening Assistant
+## 31. AI Real Estate Tenant Screening Assistant
 
 > Organizations operating in Real Estate face mounting pressure to deliver results with constrained resources
 
@@ -4872,7 +4619,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 34. AI Employment Contract Drafting Assistant
+## 32. AI Employment Contract Drafting Assistant
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
@@ -5071,7 +4818,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 35. AI NDA Review and Redlining Assistant
+## 33. AI NDA Review and Redlining Assistant
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
@@ -5270,7 +5017,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 ```
 
 :::
-## 36. AI Corporate Governance Compliance Advisor
+## 34. AI Corporate Governance Compliance Advisor
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
