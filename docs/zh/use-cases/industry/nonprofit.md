@@ -6,7 +6,7 @@ AI驱动的非营利行业用例。
 
 > 根据资助方要求撰写拨款申请——20分钟生成预算、时间表和影响力指标。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/113-ai-grant-proposal-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -130,7 +130,7 @@ COCO的AI拨款申请撰写器直接集成到你现有的工作流程中，充�
 
 > 对5000+捐赠者进行参与度、捐赠历史和能力评分——优先联络以提升续捐率25%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/128-ai-donor-engagement-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -254,7 +254,7 @@ COCO的AI捐赠者互动追踪器直接集成到你现有的工作流程中，�
 
 > 根据技能、空闲时间和历史表现将500名志愿者匹配到30个活动岗位——自动发送确认。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/143-ai-volunteer-coordinator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -378,7 +378,7 @@ COCO的AI志愿者协调器直接集成到你现有的工作流程中，充当�
 
 > 从8个数据源汇总项目数据——20分钟生成包含可视化和成果指标的资助方报告。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/158-ai-impact-measurement-reporter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -502,7 +502,7 @@ COCO的AI影响力评估报告器直接集成到你现有的工作流程中，�
 
 > 策划500人晚宴——在一个面板管理RSVP、座位安排、拍卖目录和赞助方案。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/175-ai-fundraising-event-planner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -626,7 +626,7 @@ COCO的AI筹款活动策划器直接集成到你现有的工作流程中，充�
 
 > 提取财务、项目成果和捐赠数据——3小时汇编包含图表和叙述的印刷就绪年度报告。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/190-ai-annual-report-assembler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 

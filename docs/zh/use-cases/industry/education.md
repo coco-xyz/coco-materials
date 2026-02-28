@@ -6,7 +6,7 @@ AI驱动的教育行业用例。
 
 > 10分钟内生成12周课程大纲——包含学习目标、作业设计和评分标准。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/107-ai-curriculum-designer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -130,7 +130,7 @@ COCO的AI课程设计师直接集成到你现有的工作流程中，充当一�
 
 > 汇总200名学生的成绩、出勤和参与数据——每周标记高风险学生并建议干预措施。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/122-ai-student-progress-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -254,7 +254,7 @@ COCO的AI学生进度追踪器直接集成到你现有的工作流程中，充�
 
 > 将学生提交内容与1000万+来源和AI生成模式对比——标记可疑段落并给出置信度评分。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/137-ai-plagiarism-checker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -378,7 +378,7 @@ COCO的AI抄袭检测器直接集成到你现有的工作流程中，充当一�
 
 > 将课程项目与150+认证标准对照——突出差距并自动生成证据文档。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/152-ai-accreditation-compliance-checker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -502,7 +502,7 @@ COCO的AI认证合规检查器直接集成到你现有的工作流程中，充�
 
 > 按评分标准批改研究论文——2分钟提供论证、证据和写作质量的段落级反馈。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/163-ai-research-paper-grader.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -626,7 +626,7 @@ COCO的AI论文评分助手直接集成到你现有的工作流程中，充当�
 
 > 通过诊断测验评估学生技能——生成个性化8周学习路径，含资源、里程碑和检查点。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/169-ai-learning-path-builder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -750,7 +750,7 @@ COCO的AI学习路径构建器直接集成到你现有的工作流程中，充�
 
 > 建模人口趋势、申请漏斗和竞争动态——以3%以内误差预测下一年招生人数。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/184-ai-enrollment-forecaster.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 

@@ -6,7 +6,7 @@ AI驱动的合规官专业人员用例。
 
 > 跨部门追踪200+许可证申请——提前7天标记缺失文件和临近截止日期。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/114-ai-permit-application-tracker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -130,7 +130,7 @@ COCO的AI许可证申请追踪器直接集成到你现有的工作流程中，�
 
 > 每日扫描NHTSA数据库和服务公告——将召回信息匹配车队库存并生成行动方案。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/120-ai-vehicle-recall-monitor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -254,7 +254,7 @@ COCO的AI车辆召回监控器直接集成到你现有的工作流程中，充�
 
 > 从12个数据源汇总范围1-3排放数据——生成符合GHG协议的审计就绪碳排放报告。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/131-ai-carbon-footprint-reporter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -378,7 +378,7 @@ COCO的AI碳足迹报告生成器直接集成到你现有的工作流程中，�
 
 > 扫描访问日志、加密配置和数据流——15分钟识别HIPAA违规并生成整改任务。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/136-ai-hipaa-compliance-auditor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -502,7 +502,7 @@ COCO的AI HIPAA合规审计师直接集成到你现有的工作流程中，充�
 
 > 将课程项目与150+认证标准对照——突出差距并自动生成证据文档。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/152-ai-accreditation-compliance-checker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -626,7 +626,7 @@ COCO的AI认证合规检查器直接集成到你现有的工作流程中，充�
 
 > 从自然语言中提取事故细节——生成符合OSHA标准的报告，包含根因分析和纠正措施。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/156-ai-safety-incident-reporter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -750,7 +750,7 @@ COCO的AI安全事故报告器直接集成到你现有的工作流程中，充�
 
 > 从10个部门收集ESG指标——2小时内起草符合TCFD和GRI标准的披露文件并验证数据。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/185-ai-esg-disclosure-writer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 

@@ -6,7 +6,7 @@ AI驱动的数据分析师专业人员用例。
 
 > 提取20+可比房产数据，调整位置和条件因素，5分钟生成市场估值报告。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/108-ai-property-valuation-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -130,7 +130,7 @@ COCO的AI房产估值助手直接集成到你现有的工作流程中，充当�
 
 > 结合气象数据、土壤报告和历史产量，以8%以内的误差预测收获量。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/115-ai-crop-yield-predictor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -254,7 +254,7 @@ COCO的AI作物产量预测器直接集成到你现有的工作流程中，充�
 
 > 阅读120页剧本生成专业评审——8分钟完成剧情概要、角色分析和市场适配度评估。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/118-ai-script-coverage-reader.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -378,7 +378,7 @@ COCO的AI剧本评审阅读器直接集成到你现有的工作流程中，充�
 
 > 将患者记录与40+试验标准匹配——筛选合格候选人速度比人工快10倍。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/121-ai-clinical-trial-screener.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -502,7 +502,7 @@ COCO的AI临床试验筛查器直接集成到你现有的工作流程中，充�
 
 > 同时搜索15个政府数据库——5分钟编撰房产、法院和商业记录。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/129-ai-public-records-researcher.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -626,7 +626,7 @@ COCO的AI公共记录研究员直接集成到你现有的工作流程中，充�
 
 > 处理射频传播数据、地形图和分区规则——20分钟按覆盖潜力对50个候选站点排名。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/134-ai-5g-site-survey-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -750,7 +750,7 @@ COCO的AI 5G站点勘测分析器直接集成到你现有的工作流程中，�
 
 > 处理市政厅和调查中的1万+市民评论——将主题、情绪和紧急程度聚类为可操作简报。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/144-ai-constituent-feedback-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -874,7 +874,7 @@ COCO的AI选民反馈分析器直接集成到你现有的工作流程中，充�
 
 > 对照50项风险因素评估申请人数据——8分钟生成带置信度评分的核保建议。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/147-ai-underwriting-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -998,7 +998,7 @@ COCO的AI核保助手直接集成到你现有的工作流程中，充当一个�
 
 > 从8个数据源汇总项目数据——20分钟生成包含可视化和成果指标的资助方报告。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/158-ai-impact-measurement-reporter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1122,7 +1122,7 @@ COCO的AI影响力评估报告器直接集成到你现有的工作流程中，�
 
 > 从上传的平面图提取房间尺寸、计算可用面积并标记违规——仅需2分钟。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/166-ai-floor-plan-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1246,7 +1246,7 @@ COCO的AI平面图分析器直接集成到你现有的工作流程中，充当�
 
 > 解读50个田区的pH值、营养和有机质化验结果——推荐施肥方案及成本估算。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/177-ai-soil-health-reporter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1370,7 +1370,7 @@ COCO的AI土壤健康报告器直接集成到你现有的工作流程中，充�
 
 > 分析10万条理赔记录——以92%精度识别可疑聚类和伪造事故指标。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/179-ai-fraud-pattern-detector.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1494,7 +1494,7 @@ COCO的AI欺诈模式检测器直接集成到你现有的工作流程中，充�
 
 > 建模人口趋势、申请漏斗和竞争动态——以3%以内误差预测下一年招生人数。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/184-ai-enrollment-forecaster.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 

@@ -6,7 +6,7 @@ AI驱动的酒店/餐饮行业用例。
 
 > 在6个平台上为客人评论撰写个性化回复——每条30秒，完美匹配品牌语调。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/110-ai-hotel-review-responder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -130,7 +130,7 @@ COCO的AI酒店评论回复器直接集成到你现有的工作流程中，充�
 
 > 计算每道菜品的食材成本占比——建议价格调整和替代方案以达到30%毛利目标。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/125-ai-menu-cost-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -254,7 +254,7 @@ COCO的AI菜单成本分析器直接集成到你现有的工作流程中，充�
 
 > 分析预订历史和客人画像——推荐个性化房间升级和套餐，RevPAR提升18%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/140-ai-guest-upsell-recommender.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -378,7 +378,7 @@ COCO的AI客人升级推荐器直接集成到你现有的工作流程中，充�
 
 > 协调300人活动的场地、餐饮、音视频和人员——15分钟生成时间线、检查单和供应商订单。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/155-ai-event-logistics-planner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -502,7 +502,7 @@ COCO的AI活动后勤规划器直接集成到你现有的工作流程中，充�
 
 > 根据退房时间、特殊需求和距离将80间房分配给15名清洁员——周转时间缩短25%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/172-ai-housekeeping-scheduler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -626,7 +626,7 @@ COCO的AI客房清洁调度器直接集成到你现有的工作流程中，充�
 
 > 基于需求、活动和竞争定价动态调整房价——比静态定价提升12% RevPAR。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/187-ai-revenue-management-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 

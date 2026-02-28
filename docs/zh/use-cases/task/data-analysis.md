@@ -6,7 +6,7 @@ AI驱动的数据分析、报告、审计和财务智能用例。
 
 > 8分钟生成客户会议简报，多源情报汇聚，高管画像深入。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/019-ai-client-research-brief.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -156,7 +156,7 @@ COCO的AI Client Research Brief在几分钟内为每次客户会议提供全面�
 
 > 10分钟完成复杂报价计算，自动匹配折扣规则和审批流程。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/020-ai-quote-calculator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -319,7 +319,7 @@ COCO的AI Quote Calculator将报价流程从手动、易出错的工作流转变
 
 > 2小时筛选500份简历，替代3天人工筛选。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/025-ai-resume-screener.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -472,7 +472,7 @@ COCO的AI Resume Screener对每份申请进行深度、一致的分析，对照�
 
 > 费用报告即时审核，合规自动通过，异常自动标记。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/029-ai-expense-auditor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -628,7 +628,7 @@ COCO的AI Expense Auditor提供100%的审计覆盖和一致的政策执行。
 
 > 3小时生成多源数据对账的财务报告，替代2天人工。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/030-ai-financial-report-generator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -766,7 +766,7 @@ COCO的AI Financial Report Generator自动化数据组装、计算和叙事生�
 
 > 实时库存预测，替代每周手动盘点，减少滞销和缺货。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/033-ai-inventory-forecaster.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -924,7 +924,7 @@ COCO的AI Inventory Forecaster将历史分析与实时信号检测相结合，�
 
 > 2小时完成供应商评估排名，替代1周人工调研。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/034-ai-vendor-evaluator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1071,7 +1071,7 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 > 页面加载从4.7秒优化到0.9秒，3周诊断时间变4小时。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/036-ai-performance-profiler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1177,7 +1177,7 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 > 慢查询从12秒优化到0.3秒，云计算成本降低42%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/038-ai-database-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1282,7 +1282,7 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 > 统一6渠道23个活动的归因分析，ROAS提升37%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/042-ai-campaign-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1388,7 +1388,7 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 > 用户画像创建从6周缩短到2天，细分准确度89%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/044-ai-persona-builder.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1494,7 +1494,7 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 > 销售预测误差从40%降至8%，成交预测91%准确。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/045-ai-sales-forecaster.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1600,7 +1600,7 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 > 实时竞品定价监控，响应时间从3周到4小时，用户收入+23%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/047-ai-pricing-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1706,7 +1706,7 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 > 合同审查从5天降至45分钟，风险检出率从72%提至99%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/048-ai-contract-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1812,7 +1812,7 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 > 100%处理14000条月度反馈，问题发现从3周到24小时。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/053-ai-sentiment-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -1918,7 +1918,7 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 > 实时薪酬对标，Offer竞争力从52%提至89%，遗憾离职降35%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/057-ai-comp-benchmarker.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -2024,7 +2024,7 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 > 现金流预测准确率从64%提至93%，全年零现金危机。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/060-ai-cash-flow-forecaster.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -2130,7 +2130,7 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 > 流程时间从14天降至4天，返工率从31%降至8%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/062-ai-process-miner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -2236,7 +2236,7 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 > 风险预测84%准确，每年预防$420万损失。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/064-ai-risk-scorer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -2342,7 +2342,7 @@ COCO的AI Vendor Evaluator标准化、加速并深化供应商评估流程。
 
 > 产品反馈分析从2周缩短到2小时，覆盖100%的用户反馈。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/070-ai-product-feedback-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -2521,7 +2521,7 @@ COCO的AI产品反馈分析器将这种混乱转变为流畅的智能工作流�
 
 > 销售区域平衡度提升45%，区域间业绩差距缩小60%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/073-ai-sales-territory-mapper.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -2700,7 +2700,7 @@ COCO的AI销售区域规划器将这种混乱转变为流畅的智能工作流�
 
 > 营销ROI报告生成从3天降至实时，跨渠道归因准确率92%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/079-ai-marketing-roi-dashboard.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -2879,7 +2879,7 @@ COCO的AI营销ROI仪表盘将这种混乱转变为流畅的智能工作流。�
 
 > 专利检索从3周缩短到4小时，现有技术覆盖率从60%提升到97%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/081-ai-patent-research-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -3058,7 +3058,7 @@ COCO的AI专利研究助手将这种混乱转变为流畅的智能工作流。�
 
 > QA覆盖率从40%提升到92%，回归缺陷减少67%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/083-ai-quality-assurance-auditor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -3237,7 +3237,7 @@ COCO的AI质量保证审计器将这种混乱转变为流畅的智能工作流�
 
 > 税务准备时间减少70%，申报错误降低92%，罚款归零。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/085-ai-tax-preparation-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -3416,7 +3416,7 @@ COCO的AI税务准备助手将这种混乱转变为流畅的智能工作流。�
 
 > 流失客户挽回率从8%提升到35%，获客成本降低60%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/086-ai-customer-win-back-campaigner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -3595,7 +3595,7 @@ COCO的AI客户挽回营销器将这种混乱转变为流畅的智能工作流�
 
 > 发票核对时间减少85%，差异检出率从72%提升到99.5%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/088-ai-vendor-invoice-reconciler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -3774,7 +3774,7 @@ COCO的AI供应商发票核对器将这种混乱转变为流畅的智能工作�
 
 > 冲刺规划会议从3小时缩短到45分钟，交付准确率提升38%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/090-ai-sprint-planning-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -3971,7 +3971,7 @@ COCO的AI冲刺规划助手将冲刺规划从主观辩论转变为数据驱动�
 
 > 租赁合同审查从5天降至1小时，隐藏条款识别率提升到98%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/091-ai-lease-agreement-reviewer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -4159,7 +4159,7 @@ COCO的AI租赁合同审查师充当你不知疲倦的租赁分析师，结合�
 
 > 差旅费用合规率从68%提升到97%，差旅开支节省23%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/092-ai-travel-expense-optimizer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -4358,7 +4358,7 @@ COCO的AI差旅费用优化师管理从预订到报销的整个差旅生命周�
 
 > 董事会报告编制从40小时降至4小时，数据准确率达99.8%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/096-ai-board-report-compiler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -4575,7 +4575,7 @@ KPI数据（本季度 vs 上季度 vs 计划）：
 
 > 销售异议处理成功率从35%提升到72%，成交周期缩短25%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/098-ai-sales-objection-handler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -4807,7 +4807,7 @@ COCO的AI销售异议处理器将经验知识转化为可扩展的、始终最�
 
 > 需求预测误差从35%降至8%，库存成本降低28%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/100-ai-demand-forecaster.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -5006,7 +5006,7 @@ COCO的AI需求预测器通过结合先进的机器学习和外部信号集成�
 
 > 客户健康度评估覆盖率从20%提升到100%，流失预警准确率87%。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/102-ai-customer-health-scorer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -5219,7 +5219,7 @@ COCO的AI客户健康评分器用全面的预测系统替代简单的手动健�
 
 > 提取20+可比房产数据，调整位置和条件因素，5分钟生成市场估值报告。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/108-ai-property-valuation-assistant.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -5231,7 +5231,7 @@ COCO的AI客户健康评分器用全面的预测系统替代简单的手动健�
 
 > 结合气象数据、土壤报告和历史产量，以8%以内的误差预测收获量。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/115-ai-crop-yield-predictor.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -5243,7 +5243,7 @@ COCO的AI客户健康评分器用全面的预测系统替代简单的手动健�
 
 > 关联1000+电网节点传感器数据——2分钟定位故障根因，替代原来的2小时。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/116-ai-grid-outage-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -5255,7 +5255,7 @@ COCO的AI客户健康评分器用全面的预测系统替代简单的手动健�
 
 > 计算每道菜品的食材成本占比——建议价格调整和替代方案以达到30%毛利目标。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/125-ai-menu-cost-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -5267,7 +5267,7 @@ COCO的AI客户健康评分器用全面的预测系统替代简单的手动健�
 
 > 处理射频传播数据、地形图和分区规则——20分钟按覆盖潜力对50个候选站点排名。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/134-ai-5g-site-survey-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -5279,7 +5279,7 @@ COCO的AI客户健康评分器用全面的预测系统替代简单的手动健�
 
 > 将专利组合与竞争对手申请对比——跨300+专利识别空白领域和潜在侵权风险。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/138-ai-ip-portfolio-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -5291,7 +5291,7 @@ COCO的AI客户健康评分器用全面的预测系统替代简单的手动健�
 
 > 处理市政厅和调查中的1万+市民评论——将主题、情绪和紧急程度聚类为可操作简报。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/144-ai-constituent-feedback-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -5303,7 +5303,7 @@ COCO的AI客户健康评分器用全面的预测系统替代简单的手动健�
 
 > 处理8个平台的流媒体数据——30分钟按分成协议精确计算5万首曲目的艺人版税。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/148-ai-royalty-calculator.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -5315,7 +5315,7 @@ COCO的AI客户健康评分器用全面的预测系统替代简单的手动健�
 
 > 收集50+同行运营KPI——排名客户绩效并识别达到上四分位的改进目标。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/157-ai-benchmarking-analyst.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -5327,7 +5327,7 @@ COCO的AI客户健康评分器用全面的预测系统替代简单的手动健�
 
 > 从上传的平面图提取房间尺寸、计算可用面积并标记违规——仅需2分钟。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/166-ai-floor-plan-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -5339,7 +5339,7 @@ COCO的AI客户健康评分器用全面的预测系统替代简单的手动健�
 
 > 基于公开数据构建TAM/SAM/SOM模型——20分钟生成自下而上和自上而下的估算及数据来源。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/174-ai-market-sizing-modeler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -5351,7 +5351,7 @@ COCO的AI客户健康评分器用全面的预测系统替代简单的手动健�
 
 > 每月对比200个预算项的实际支出——突出超过5%的差异并提供下钻分析。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/176-ai-budget-variance-analyst.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -5363,7 +5363,7 @@ COCO的AI客户健康评分器用全面的预测系统替代简单的手动健�
 
 > 解读50个田区的pH值、营养和有机质化验结果——推荐施肥方案及成本估算。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/177-ai-soil-health-reporter.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -5375,7 +5375,7 @@ COCO的AI客户健康评分器用全面的预测系统替代简单的手动健�
 
 > 处理500辆车的GPS、油耗和驾驶行为数据——生成周度评分卡，发现每年$8万节油机会。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/182-ai-fleet-telematics-analyzer.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -5387,7 +5387,7 @@ COCO的AI客户健康评分器用全面的预测系统替代简单的手动健�
 
 > 运行100个定价场景结合弹性曲线和竞品数据——推荐使LTV最大化20%的层级结构。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/189-ai-pricing-strategy-modeler.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -5399,7 +5399,7 @@ COCO的AI客户健康评分器用全面的预测系统替代简单的手动健�
 
 > 对保险账簿运行500个死亡率和发病率情景——30分钟压力测试准备金并突出资金不足环节。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/194-ai-actuarial-scenario-runner.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
@@ -5411,7 +5411,7 @@ COCO的AI客户健康评分器用全面的预测系统替代简单的手动健�
 
 > 提取30笔近期成交，调整特征和时间因素——生成含照片和定价依据的客户报告。
 
-::: details 🎬 Watch Demo Video
+::: details 🎬 观看演示视频
 
 <video controls src="/videos/cn/202-ai-comparative-market-analysis.mp4" style="width: 100%; max-width: 480px; max-height: 400px; border-radius: 8px; margin: 0.5rem 0 1rem;"></video>
 
