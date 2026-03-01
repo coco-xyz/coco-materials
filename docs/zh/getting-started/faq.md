@@ -286,8 +286,6 @@ AI 员工会告诉你当前的支持情况和推荐的接入方式。
 
 一句话：ChatGPT 是聪明的问答工具，COCO 是会主动干活、记住你、越用越强的数字员工。
 
-参考文档：[COCO vs ChatGPT 详细对比](https://zylos100.coco.site/docs/md-viewer.html?file=coco-vs-chatgpt-cn.md)
-
 :::
 
 ::: details Q10：如何开始使用 COCO？

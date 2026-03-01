@@ -286,8 +286,6 @@ When using the collected data, please ensure compliance with local data protecti
 
 In short: ChatGPT is a smart Q&A tool. COCO is a digital employee that proactively gets work done, remembers you, and grows more capable over time.
 
-Reference: [COCO vs ChatGPT Detailed Comparison](https://zylos100.coco.site/docs/md-viewer.html?file=coco-vs-chatgpt-cn.md)
-
 :::
 
 ::: details Q10: How do I get started with COCO?
