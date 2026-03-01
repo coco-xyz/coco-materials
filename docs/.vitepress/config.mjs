@@ -62,6 +62,8 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#FFD646' }],
     ['meta', { property: 'og:title', content: 'COCO Docs' }],
     ['meta', { property: 'og:description', content: 'AI Digital Employee — Use Cases, Resources & Documentation' }],
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-GTMD3JHWQN' }],
+    ['script', {}, "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-GTMD3JHWQN');"],
   ],
 
   locales: {
