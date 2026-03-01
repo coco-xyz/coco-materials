@@ -1,4 +1,10 @@
+/* ===== Font: Plus Jakarta Sans (match dashboard) ===== */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
 :root {
+  --vp-font-family-base: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+  --vp-font-family-mono: ui-monospace, 'Cascadia Code', 'Source Code Pro', monospace;
+
   /* COCO brand yellow (from main) */
   --vp-c-brand-1: #F5C542;
   --vp-c-brand-2: #E0B23A;
@@ -187,6 +193,51 @@
   .hero-video-container video {
     max-width: 220px;
   }
+}
+
+/* ===== Hide VitePress default nav bar + footer (using custom components) ===== */
+/* Hide the top nav bar content but keep the mobile sidebar toggle functional */
+.VPNavBar .content {
+  visibility: hidden !important;
+  height: 0 !important;
+  overflow: hidden !important;
+}
+/* Keep VPNav container for mobile sidebar hamburger (VPNavBarHamburger) */
+.VPNavBar {
+  background: transparent !important;
+  border-bottom: none !important;
+  pointer-events: none;
+}
+/* Re-enable pointer events on the hamburger button for sidebar access */
+.VPNavBarHamburger {
+  pointer-events: auto;
+  position: fixed;
+  top: 18px;
+  left: auto;
+  right: 16px;
+  z-index: 41;
+}
+/* Hide CocoHeader's hamburger on mobile when VitePress sidebar hamburger is present
+   (doc pages with sidebar) — let VitePress handle sidebar toggle */
+.VPDoc ~ .coco-header .mobile-menu-btn {
+  display: none !important;
+}
+/* Hide VPNav on desktop — sidebar is always visible */
+@media (min-width: 960px) {
+  .VPNavBar {
+    display: none !important;
+  }
+}
+.VPFooter {
+  display: none !important;
+}
+/* Compensate for custom header: add top padding */
+.VPContent {
+  padding-top: 64px !important;
+}
+/* On home page, hero needs no extra top space */
+.VPHome {
+  padding-top: 0 !important;
 }
 
 /* ===== Tables ===== */

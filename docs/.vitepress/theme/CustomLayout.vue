@@ -2,20 +2,32 @@
 import DefaultTheme from 'vitepress/theme'
 import { onMounted } from 'vue'
 import { useRoute, withBase } from 'vitepress'
+import CocoHeader from './CocoHeader.vue'
+import CocoFooter from './CocoFooter.vue'
 
 const { Layout } = DefaultTheme
 const route = useRoute()
 
 function highlightHeroText() {
-  // Find the hero text element and highlight "AI" in gold
   setTimeout(() => {
     const textEl = document.querySelector('.VPHero .text')
     if (!textEl) return
 
     const raw = textEl.textContent
-    // Highlight "AI" keyword in warm gold
-    if (raw && raw.includes('AI')) {
-      textEl.innerHTML = raw.replace(/AI/g, '<span class="hero-highlight">AI</span>')
+    if (!raw || !raw.includes('AI')) return
+
+    // Build DOM nodes safely instead of innerHTML to avoid XSS
+    textEl.textContent = ''
+    const parts = raw.split(/(AI)/g)
+    for (const part of parts) {
+      if (part === 'AI') {
+        const span = document.createElement('span')
+        span.className = 'hero-highlight'
+        span.textContent = 'AI'
+        textEl.appendChild(span)
+      } else if (part) {
+        textEl.appendChild(document.createTextNode(part))
+      }
     }
   }, 100)
 }
@@ -26,6 +38,7 @@ onMounted(() => {
 </script>
 
 <template>
+  <CocoHeader />
   <Layout>
     <template #home-hero-image>
       <div class="hero-video-container">
@@ -39,6 +52,7 @@ onMounted(() => {
       </div>
     </template>
   </Layout>
+  <CocoFooter />
 </template>
 
 <style>
