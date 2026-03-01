@@ -167,15 +167,7 @@ Security tips:
 - Set an expiry date
 - Only select the necessary permission scopes
 
-**Option 2: Provide session credentials after logging in yourself**
-
-1. Log into GitHub on your own computer
-2. Provide the login cookie / session token to the AI employee
-3. The AI employee uses your session to complete the operation
-
-Note: This approach has lower security — once the session expires, you'll need to repeat the process. PAT is preferred.
-
-**Option 3: Install Browser Component + Remote VNC**
+**Option 2: Install Browser Component + Remote VNC**
 
 1. Tell the AI employee "help me install the Browser component" — they will automatically install and configure the virtual browser
 2. Once installed, you'll receive a remote desktop (VNC) link
@@ -189,7 +181,6 @@ Use case: Complex authorization flows requiring a full browser environment. Even
 | Option | Difficulty | Security | Best For |
 |--------|------------|----------|----------|
 | PAT | Lowest | High (controllable scopes) | GitHub, GitLab, and other token-supporting platforms |
-| Cookie/Session | Low | Medium (expires) | Temporary operations |
 | Browser + VNC | Medium | High (full browser) | Complex auth flows, multi-factor authentication |
 
 :::
@@ -223,9 +214,9 @@ After authorization is revoked, COCO no longer holds your credentials and will n
 
 ::: details Q5: After the Agent service ends, does COCO retain my credentials?
 
-**Clear Commitment**
+**Our Commitment**
 
-- Once you actively disconnect, the COCO system will delete the stored credentials (SSH Keys, API Tokens, etc.)
+- After service termination, COCO commits to promptly deleting all stored credentials (SSH Keys, API Tokens, etc.)
 
 **Recommendation**: Regardless, after revoking authorization please also delete the corresponding keys on your server / cloud platform side — this is the most thorough security guarantee.
 
@@ -290,7 +281,7 @@ When using the collected data, please ensure compliance with local data protecti
 | **Memory** | Forgets everything after the conversation ends | Persistent cross-conversation memory — gets smarter the more you use it |
 | **Automation** | Not supported | Supports scheduled tasks with no manual trigger needed |
 | **Channels** | ChatGPT app | Platforms you already use: Lark/Telegram |
-| **Underlying model** | OpenAI GPT | Claude (Anthropic) |
+| **Underlying model** | OpenAI GPT | Top-tier reasoning models |
 | **Team collaboration** | Personal tool | Can join group chats — the whole team shares one AI employee |
 
 In short: ChatGPT is a smart Q&A tool. COCO is a digital employee that proactively gets work done, remembers you, and grows more capable over time.
@@ -316,10 +307,10 @@ COCO is a **fully managed service** — the underlying AI models are managed by 
 
 | Plan | Model Used | Capabilities |
 |------|-----------|--------------|
-| **Air** | Mainstream standard model (Claude Sonnet tier) | Everyday tasks: writing, organizing, analysis |
-| **Pro / Ultra** | Top-tier model (Claude Opus tier) | Complex reasoning, very long documents, high-frequency use |
+| **Air** | Mainstream large language model | Everyday tasks: writing, organizing, analysis |
+| **Pro / Ultra** | Top-tier reasoning model | Complex reasoning, very long documents, high-frequency use |
 
-**Model switching**: COCO automatically selects the most suitable model based on task type and cost efficiency — this is transparent to users. For special requirements (e.g., Enterprise compliance requiring a specific model), contact us to discuss separately.
+**Model switching**: COCO automatically selects the most suitable model based on task type and cost efficiency — this is transparent to users. We continuously evaluate and integrate the best models on the market to ensure you always have the optimal solution. For special requirements (e.g., Enterprise compliance requiring a specific model), contact us to discuss separately.
 
 :::
 
