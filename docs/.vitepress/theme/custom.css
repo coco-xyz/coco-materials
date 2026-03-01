@@ -95,6 +95,34 @@
   width: auto;
 }
 
+/* ===== Section intro fold (distinct from Q&A details) ===== */
+.section-intro details {
+  border: 1px solid var(--vp-c-brand-1);
+  border-left: 3px solid var(--vp-c-brand-1);
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin: 16px 0;
+  background: var(--vp-c-brand-soft);
+}
+.section-intro details summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--vp-c-brand-2);
+  list-style: none;
+}
+.section-intro details summary::before {
+  content: '▸ ';
+}
+.section-intro details[open] summary::before {
+  content: '▾ ';
+}
+.section-intro details summary::-webkit-details-marker {
+  display: none;
+}
+.section-intro details[open] > *:not(summary) {
+  margin-top: 12px;
+}
+
 /* ===== Tables ===== */
 /* Ensure horizontal scroll on narrow viewports */
 .vp-doc table {

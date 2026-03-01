@@ -1,6 +1,12 @@
+<script setup>
+import { withBase } from 'vitepress'
+</script>
+
 # Getting Started
 
 Welcome to COCO! Your dedicated AI employee is ready. Get started in 3 simple steps.
+
+<img :src="withBase('/faq-banner.png')" alt="COCO" style="width:100%;border-radius:12px;margin:16px 0;" />
 
 ## Guides
 
@@ -15,6 +21,9 @@ New to COCO? Start here. Learn how to choose your AI employee's role, give it ta
 
 ### [Important Notes](./tips)
 Group/private chat settings, long-term memory & SOP storage, message limits, file handling, and other usage notes.
+
+### [FAQ](./faq)
+Answers to common questions about Cloud Agent Authorization, social media & third-party platforms, product features, and security & privacy.
 
 ---
 

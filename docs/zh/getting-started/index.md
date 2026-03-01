@@ -1,6 +1,12 @@
+<script setup>
+import { withBase } from 'vitepress'
+</script>
+
 # 快速开始
 
 欢迎来到COCO！你的专属AI员工已经部署完成。3步快速上手。
+
+<img :src="withBase('/faq-banner.png')" alt="COCO" style="width:100%;border-radius:12px;margin:16px 0;" />
 
 ## 指南
 
@@ -15,6 +21,9 @@
 
 ### [注意事项](./tips)
 群聊/私聊白名单、长期记忆与SOP存储、消息限制、文件处理等使用须知。
+
+### [常见问题 FAQ](./faq)
+关于云主机 Agent 授权、社媒与第三方平台、产品功能、安全与隐私的常见问题解答。
 
 ---
 

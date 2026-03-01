@@ -1,6 +1,12 @@
+<script setup>
+import { withBase } from 'vitepress'
+</script>
+
 # Use Cases
 
 Discover **1001 real-world scenarios** where COCO AI employees save time and money. Browse by **Role**, **Task**, or **Industry**.
+
+<img :src="withBase('/getting-started-banner.png')" alt="COCO" style="width:100%;border-radius:12px;margin:16px 0;" />
 
 ## Browse by Role
 
