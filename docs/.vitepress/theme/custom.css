@@ -1,4 +1,10 @@
+/* ===== Font: Plus Jakarta Sans (match dashboard) ===== */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
 :root {
+  --vp-font-family-base: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+  --vp-font-family-mono: ui-monospace, 'Cascadia Code', 'Source Code Pro', monospace;
+
   /* COCO brand yellow (from main) */
   --vp-c-brand-1: #F5C542;
   --vp-c-brand-2: #E0B23A;
@@ -187,6 +193,22 @@
   .hero-video-container video {
     max-width: 220px;
   }
+}
+
+/* ===== Hide VitePress default nav + footer (using custom components) ===== */
+.VPNav {
+  display: none !important;
+}
+.VPFooter {
+  display: none !important;
+}
+/* Compensate for hidden VPNav: add top padding for fixed custom header */
+.VPContent {
+  padding-top: 64px !important;
+}
+/* On home page, hero needs extra top space */
+.VPHome {
+  padding-top: 0 !important;
 }
 
 /* ===== Tables ===== */

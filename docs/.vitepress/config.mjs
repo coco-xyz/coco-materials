@@ -70,9 +70,11 @@ export default defineConfig({
 
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/coco-icon.png' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['meta', { name: 'theme-color', content: '#FFD646' }],
     ['meta', { property: 'og:title', content: 'COCO Docs' }],
-    ['meta', { property: 'og:description', content: 'AI Digital Employee — Use Cases, Resources & Documentation' }],
+    ['meta', { property: 'og:description', content: 'AI Teams — Use Cases, Resources & Documentation' }],
     ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-GTMD3JHWQN' }],
     ['script', {}, "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-GTMD3JHWQN');"],
   ],
@@ -82,7 +84,7 @@ export default defineConfig({
       label: 'English',
       lang: 'en-US',
       title: 'COCO Docs',
-      description: 'AI Digital Employee — Use Cases, Resources & Documentation',
+      description: 'AI Teams — Use Cases, Resources & Documentation',
       themeConfig: {
         outline: { level: [2, 3] },
         nav: [
