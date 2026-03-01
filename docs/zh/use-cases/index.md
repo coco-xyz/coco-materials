@@ -113,9 +113,9 @@ import { withBase } from 'vitepress'
 | 25 | [AI费用审计](/zh/use-cases/role/finance#_1-ai费用审计) | 财务 | 金融服务 | 数据分析 | 20分钟/份→即时 | 
 | 26 | [AI财务报告生成](/zh/use-cases/role/finance#_2-ai财务报告生成) | 财务 | 金融服务 | 数据分析 | 2天→3小时 | 
 | 27 | [AI发票处理](/zh/use-cases/role/finance#_3-ai发票处理) | 财务 | 电商/零售, 金融服务 | 流程自动化 | 15分钟/张→30秒 | 
-| 28 | [PROCESS PARAMETER VERIFICATION](/zh/use-cases/role/operations#_1-ai会议纪要) | 运营 | 科技/SaaS | 流程自动化 | 30分钟→即时 | 
-| 29 | [YIELD CALCULATION VERIFICATION](/zh/use-cases/role/operations#_2-ai库存预测) | 运营 | 电商/零售 | 数据分析 | 每周→实时 | 
-| 30 | [ANALYTICAL RESULTS VERIFICATION](/zh/use-cases/role/operations#_3-ai供应商评估) | 运营 | - | 数据分析 | 1周→2小时 | 
+| 28 | [AI会议纪要](/zh/use-cases/role/operations#_1-ai会议纪要) | 运营 | 科技/SaaS | 流程自动化 | 30分钟→即时 |
+| 29 | [AI库存预测](/zh/use-cases/role/operations#_2-ai库存预测) | 运营 | 电商/零售 | 数据分析 | 每周→实时 |
+| 30 | [AI供应商评估](/zh/use-cases/role/operations#_3-ai供应商评估) | 运营 | - | 数据分析 | 1周→2小时 |
 | 31 | [AI代码迁移](/zh/use-cases/role/dev#_6-ai代码迁移) | 研发 | 科技/SaaS, 金融服务 | 流程自动化 | 2周→4小时 | 
 | 32 | [AI性能分析](/zh/use-cases/role/dev#_7-ai性能分析) | 研发 | 科技/SaaS | 数据分析 | 3天→30分钟 | 
 | 33 | [AI安全扫描](/zh/use-cases/role/dev#_8-ai安全扫描) | 研发 | 科技/SaaS | 调研与监控 | 每周→持续 | 
