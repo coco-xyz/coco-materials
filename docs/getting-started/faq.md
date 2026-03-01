@@ -293,7 +293,7 @@ In short: ChatGPT is a smart Q&A tool. COCO is a digital employee that proactive
 **Full Onboarding Flow (approximately 15 minutes)**
 
 1. Register a COCO account and choose a plan
-2. Follow the [Channel Deployment Guide](https://docs.coco.xyz) to connect your channel (Telegram: ~5 minutes; Lark: ~10 minutes)
+2. Follow the [Channel Deployment Guide](https://docs.coco.xyz/getting-started/channel-deployment) to connect your channel (Telegram: ~5 minutes; Lark: ~10 minutes)
 3. Complete the Onboarding in the Dashboard (select your role; the AI employee initializes automatically)
 4. Send your first message and start collaborating
 

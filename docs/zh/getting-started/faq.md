@@ -293,7 +293,7 @@ AI 员工会告诉你当前的支持情况和推荐的接入方式。
 **完整流程（约 15 分钟）**
 
 1. 注册 COCO 账号并选择套餐
-2. 参考 [渠道部署指南](https://docs.coco.xyz) 完成渠道连接（Telegram 约 5 分钟；Lark 约 10 分钟）
+2. 参考 [渠道部署指南](https://docs.coco.xyz/zh/getting-started/channel-deployment) 完成渠道连接（Telegram 约 5 分钟；Lark 约 10 分钟）
 3. 在 Dashboard 完成 Onboarding（选择你的角色，AI 员工自动初始化）
 4. 发送第一条消息，开始协作
 
