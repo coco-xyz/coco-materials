@@ -20,9 +20,9 @@ const columns = computed(() => {
       {
         title: '用例',
         links: [
-          { text: '按角色', href: withBase('/zh/use-cases/') },
-          { text: '按任务', href: withBase('/zh/use-cases/') },
-          { text: '按行业', href: withBase('/zh/use-cases/') },
+          { text: '按角色', href: withBase('/zh/use-cases/role/product') },
+          { text: '按任务', href: withBase('/zh/use-cases/task/writing-content') },
+          { text: '按行业', href: withBase('/zh/use-cases/industry/technology') },
         ],
       },
       {
@@ -53,9 +53,9 @@ const columns = computed(() => {
     {
       title: 'Use Cases',
       links: [
-        { text: 'Role', href: withBase('/use-cases/') },
-        { text: 'Task', href: withBase('/use-cases/') },
-        { text: 'Industry', href: withBase('/use-cases/') },
+        { text: 'Role', href: withBase('/use-cases/role/product') },
+        { text: 'Task', href: withBase('/use-cases/task/writing-content') },
+        { text: 'Industry', href: withBase('/use-cases/industry/technology') },
       ],
     },
     {

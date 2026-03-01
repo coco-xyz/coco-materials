@@ -14,8 +14,20 @@ function highlightHeroText() {
     if (!textEl) return
 
     const raw = textEl.textContent
-    if (raw && raw.includes('AI')) {
-      textEl.innerHTML = raw.replace(/AI/g, '<span class="hero-highlight">AI</span>')
+    if (!raw || !raw.includes('AI')) return
+
+    // Build DOM nodes safely instead of innerHTML to avoid XSS
+    textEl.textContent = ''
+    const parts = raw.split(/(AI)/g)
+    for (const part of parts) {
+      if (part === 'AI') {
+        const span = document.createElement('span')
+        span.className = 'hero-highlight'
+        span.textContent = 'AI'
+        textEl.appendChild(span)
+      } else if (part) {
+        textEl.appendChild(document.createTextNode(part))
+      }
     }
   }, 100)
 }

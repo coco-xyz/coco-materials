@@ -208,13 +208,19 @@
   border-bottom: none !important;
   pointer-events: none;
 }
-/* Re-enable pointer events on the hamburger button */
+/* Re-enable pointer events on the hamburger button for sidebar access */
 .VPNavBarHamburger {
   pointer-events: auto;
   position: fixed;
-  top: 16px;
-  left: 16px;
+  top: 18px;
+  left: auto;
+  right: 16px;
   z-index: 41;
+}
+/* Hide CocoHeader's hamburger on mobile when VitePress sidebar hamburger is present
+   (doc pages with sidebar) — let VitePress handle sidebar toggle */
+.VPDoc ~ .coco-header .mobile-menu-btn {
+  display: none !important;
 }
 /* Hide VPNav on desktop — sidebar is always visible */
 @media (min-width: 960px) {

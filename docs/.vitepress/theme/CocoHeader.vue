@@ -2,7 +2,7 @@
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useData, useRoute, withBase } from 'vitepress'
 
-const { isDark, lang, site } = useData()
+const { isDark, lang } = useData()
 const route = useRoute()
 
 const mobileMenuOpen = ref(false)
@@ -25,17 +25,16 @@ function toggleDark() {
 }
 
 function toggleLang() {
-  // route.path is relative to base (no base prefix), e.g. '/zh/use-cases/' or '/use-cases/'
   const routePath = route.path
+  // Preserve hash and query from current URL
+  const { search, hash } = window.location
+  let newPath
   if (lang.value === 'zh-CN') {
-    // Switch to English: remove /zh/ prefix
-    const stripped = routePath.replace(/^\/zh(\/|$)/, '/')
-    window.location.href = withBase(stripped || '/')
+    newPath = routePath.replace(/^\/zh(\/|$)/, '/') || '/'
   } else {
-    // Switch to Chinese: add /zh/ prefix
-    const zhPath = '/zh' + (routePath.startsWith('/') ? routePath : '/' + routePath)
-    window.location.href = withBase(zhPath)
+    newPath = '/zh' + (routePath.startsWith('/') ? routePath : '/' + routePath)
   }
+  window.location.href = withBase(newPath) + search + hash
 }
 
 function onScroll() {
@@ -95,7 +94,7 @@ onUnmounted(() => {
         </button>
 
         <!-- Dark Mode Toggle -->
-        <button class="control-pill dark-toggle" @click="toggleDark" :title="isDark ? 'Light mode' : 'Dark mode'">
+        <button class="control-pill dark-toggle" @click="toggleDark" :title="isDark ? 'Light mode' : 'Dark mode'" :aria-label="isDark ? 'Switch to light mode' : 'Switch to dark mode'">
           <span class="toggle-track">
             <span class="toggle-thumb" :class="{ dark: isDark }">
               <!-- Sun -->
@@ -119,7 +118,7 @@ onUnmounted(() => {
         </button>
 
         <!-- Mobile menu button -->
-        <button class="mobile-menu-btn" @click="mobileMenuOpen = !mobileMenuOpen">
+        <button class="mobile-menu-btn" @click="mobileMenuOpen = !mobileMenuOpen" aria-label="Toggle navigation menu" :aria-expanded="mobileMenuOpen">
           <svg v-if="!mobileMenuOpen" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <line x1="3" y1="6" x2="21" y2="6"/>
             <line x1="3" y1="12" x2="21" y2="12"/>
