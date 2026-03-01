@@ -2,6 +2,12 @@
 title: FAQ
 ---
 
+<script setup>
+import { withBase } from 'vitepress'
+</script>
+
+<img :src="withBase('/faq-banner.png')" alt="COCO FAQ" style="width:100%;border-radius:12px;margin-bottom:24px;" />
+
 # FAQ
 
 ## I. Cloud Agent Authorization

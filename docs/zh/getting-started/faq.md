@@ -2,6 +2,12 @@
 title: 常见问题 FAQ
 ---
 
+<script setup>
+import { withBase } from 'vitepress'
+</script>
+
+<img :src="withBase('/faq-banner.png')" alt="COCO FAQ" style="width:100%;border-radius:12px;margin-bottom:24px;" />
+
 # 常见问题 FAQ
 
 ## 一、云主机 Agent 授权
