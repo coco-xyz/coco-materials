@@ -8,6 +8,17 @@ export default defineConfig({
   base,
   cleanUrls: true,
 
+  srcExclude: [
+    '**/use-cases/enterprise-ai-use-cases-research.md',
+    '**/use-cases/template.md',
+    '**/use-cases/dev-team/**',
+    '**/use-cases/operations/**',
+    '**/use-cases/marketing/index.md',
+    '**/use-cases/product/index.md',
+    '**/social-media/video-scripts/**',
+    '**/social-media/channels.md',
+  ],
+
   vite: {
     server: {
       allowedHosts: ['zylos100.jinglever.com']

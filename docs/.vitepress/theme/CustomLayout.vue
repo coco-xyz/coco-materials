@@ -1,7 +1,7 @@
 <script setup>
 import DefaultTheme from 'vitepress/theme'
 import { onMounted } from 'vue'
-import { useRoute } from 'vitepress'
+import { useRoute, withBase } from 'vitepress'
 
 const { Layout } = DefaultTheme
 const route = useRoute()
@@ -26,7 +26,19 @@ onMounted(() => {
 </script>
 
 <template>
-  <Layout />
+  <Layout>
+    <template #home-hero-image>
+      <div class="hero-video-container">
+        <video
+          autoplay
+          loop
+          muted
+          playsinline
+          :src="withBase('/videos/coco-bird-wave.mp4')"
+        />
+      </div>
+    </template>
+  </Layout>
 </template>
 
 <style>

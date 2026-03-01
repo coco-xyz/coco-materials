@@ -123,6 +123,56 @@
   margin-top: 12px;
 }
 
+/* ===== Hero Video ===== */
+/* Remove default yellow glow behind hero image area */
+.VPHero .image-bg {
+  background-image: none !important;
+  filter: none !important;
+}
+/* Align video bottom with buttons bottom on desktop */
+.VPHero .image-container {
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+.hero-video-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+}
+.hero-video-container video {
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  object-fit: contain;
+}
+/* Mobile: video above text, fully separated (no overlap) */
+@media (max-width: 959px) {
+  /* Override VitePress negative bottom margin (-48px) that pulls text under image */
+  .VPHero .image {
+    margin: 0 auto !important;
+  }
+  .VPHero .image-container {
+    transform: none !important;
+    width: 200px !important;
+    height: auto !important;
+    margin: 0 auto !important;
+  }
+  .hero-video-container {
+    justify-content: center;
+  }
+  .hero-video-container video {
+    max-width: 200px;
+  }
+}
+/* Mid-range tablets */
+@media (min-width: 960px) and (max-width: 1200px) {
+  .hero-video-container video {
+    max-width: 220px;
+  }
+}
+
 /* ===== Tables ===== */
 /* Ensure horizontal scroll on narrow viewports */
 .vp-doc table {
