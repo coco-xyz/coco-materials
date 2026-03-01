@@ -344,7 +344,7 @@ export default defineConfig({
   },
 
   themeConfig: {
-    logo: '/coco-logo-black.png',
+    logo: { light: '/coco-logo-black.png', dark: '/coco-logo-yellow.png' },
     siteTitle: false,
 
     socialLinks: [

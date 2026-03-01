@@ -129,11 +129,23 @@
   background-image: none !important;
   filter: none !important;
 }
-/* Align video bottom with buttons bottom on desktop */
+/* Give text side more room (default max-width: 592px) */
+@media (min-width: 960px) {
+  .VPHero.has-image .main {
+    max-width: 680px !important;
+  }
+}
+/* Align video to bottom-right on desktop */
 .VPHero .image-container {
   display: flex;
   align-items: flex-end;
+  justify-content: flex-end;
   overflow: hidden;
+}
+@media (min-width: 960px) {
+  .VPHero .image-container {
+    transform: none !important;
+  }
 }
 .hero-video-container {
   display: flex;
@@ -143,9 +155,13 @@
 }
 .hero-video-container video {
   width: 100%;
-  max-width: 260px;
+  max-width: 300px;
   height: auto;
   object-fit: contain;
+}
+/* Dark mode: soften the white video background */
+.dark .hero-video-container video {
+  border-radius: 16px;
 }
 /* Mobile: video above text, fully separated (no overlap) */
 @media (max-width: 959px) {

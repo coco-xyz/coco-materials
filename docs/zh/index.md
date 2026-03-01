@@ -3,7 +3,7 @@ layout: home
 hero:
   name: "COCO 文档"
   text: "AI数字员工"
-  tagline: "用例、资源与文档"
+  tagline: "1,001+ 真实场景用例 · 完整资源库 · 部署文档 · FAQ"
   actions:
     - theme: brand
       text: 快速开始
