@@ -85,7 +85,7 @@ const year = new Date().getFullYear()
       <div class="footer-top">
         <!-- Brand -->
         <div class="footer-brand">
-          <a :href="withBase('/')" class="footer-logo-link">
+          <a :href="withBase(isZh ? '/zh/' : '/')" class="footer-logo-link">
             <img
               :src="withBase(isDark ? '/coco-logo-yellow.png' : '/coco-logo-black.png')"
               alt="COCO"
