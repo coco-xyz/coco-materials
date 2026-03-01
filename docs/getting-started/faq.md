@@ -19,8 +19,7 @@ title: FAQ
 >
 > Common third-party authorization scenarios include: GitHub (code repositories), Lark (team collaboration), Telegram (instant messaging), cloud platform APIs (AWS, GCP, etc.).
 
-<details>
-<summary>Q1: What permissions does the Agent need? How is the scope controlled?</summary>
+::: details Q1: What permissions does the Agent need? How is the scope controlled?
 
 **Principle of Least Privilege**
 
@@ -72,10 +71,9 @@ The Agent has a memory system to remember your preferences and work context:
 - **Data isolation**: Each user's information is stored separately and not leaked between users
 - **Viewable & deletable**: You can request to view or delete any information the Agent has stored at any time
 
-</details>
+:::
 
-<details>
-<summary>Q2: What authorization methods are supported? How do I choose between SSH Key, API Token, and browser login?</summary>
+::: details Q2: What authorization methods are supported? How do I choose between SSH Key, API Token, and browser login?
 
 COCO supports three mainstream authorization methods. Choose based on your platform and security requirements:
 
@@ -136,10 +134,9 @@ Security notes:
 | API Token | Cloud platforms / SaaS | Low (delete directly on the platform) | Medium–High (varies by platform) |
 | Browser Login | Web-based platforms | Low (clear browser login state) | Medium (cookies expire) |
 
-</details>
+:::
 
-<details>
-<summary>Q3: Real-world example of cloud Agent authorization</summary>
+::: details Q3: Real-world example of cloud Agent authorization
 
 This is a very common question. Cloud hosts are typically headless Linux environments — no browser, no graphical UI for redirect-based logins. Here are three solutions:
 
@@ -186,10 +183,9 @@ Use case: Complex authorization flows requiring a full browser environment. Even
 | Cookie/Session | Low | Medium (expires) | Temporary operations |
 | Browser + VNC | Medium | High (full browser) | Complex auth flows, multi-factor authentication |
 
-</details>
+:::
 
-<details>
-<summary>Q4: How do I revoke the Agent's authorization?</summary>
+::: details Q4: How do I revoke the Agent's authorization?
 
 **Revoke via Conversation**
 
@@ -214,10 +210,9 @@ If you notice abnormal activity, in addition to the above steps:
 
 After authorization is revoked, COCO no longer holds your credentials and will not initiate new operations.
 
-</details>
+:::
 
-<details>
-<summary>Q5: After the Agent service ends, does COCO retain my credentials?</summary>
+::: details Q5: After the Agent service ends, does COCO retain my credentials?
 
 **Clear Commitment**
 
@@ -225,12 +220,11 @@ After authorization is revoked, COCO no longer holds your credentials and will n
 
 **Recommendation**: Regardless, after revoking authorization please also delete the corresponding keys on your server / cloud platform side — this is the most thorough security guarantee.
 
-</details>
+:::
 
 ## II. Social Media & Third-Party Platforms
 
-<details>
-<summary>Q6: What social media and third-party platforms are supported?</summary>
+::: details Q6: What social media and third-party platforms are supported?
 
 COCO AI employees can access various third-party platforms via API or the Browser component. The specific scope of support depends on your use case and the openness of each platform.
 
@@ -241,10 +235,9 @@ The AI employee will tell you the current support status and recommend the best 
 
 For platforms that require web-based interaction, installing the Browser component (virtual browser) is recommended — just tell the AI employee "help me install the browser component" to get started.
 
-</details>
+:::
 
-<details>
-<summary>Q7: How is data timeliness guaranteed?</summary>
+::: details Q7: How is data timeliness guaranteed?
 
 **Three Timeliness Guarantees**
 
@@ -262,10 +255,9 @@ For platforms that require web-based interaction, installing the Browser compone
 
 If the content you're monitoring is highly time-sensitive (e.g., real-time sentiment monitoring), it's recommended to set the highest scraping frequency and enable instant push notifications.
 
-</details>
+:::
 
-<details>
-<summary>Q8: Is social media data scraping compliant?</summary>
+::: details Q8: Is social media data scraping compliant?
 
 **Our Approach**
 
@@ -277,12 +269,11 @@ If the content you're monitoring is highly time-sensitive (e.g., real-time senti
 
 When using the collected data, please ensure compliance with local data protection regulations (e.g., GDPR, data security laws). COCO provides data collection tools, but compliance with regulations for how you use that data is your responsibility.
 
-</details>
+:::
 
 ## III. Product Usage
 
-<details>
-<summary>Q9: What's the difference between COCO and regular ChatGPT?</summary>
+::: details Q9: What's the difference between COCO and regular ChatGPT?
 
 | Dimension | ChatGPT | COCO |
 |-----------|---------|------|
@@ -297,10 +288,9 @@ In short: ChatGPT is a smart Q&A tool. COCO is a digital employee that proactive
 
 Reference: [COCO vs ChatGPT Detailed Comparison](https://zylos100.coco.site/docs/md-viewer.html?file=coco-vs-chatgpt-cn.md)
 
-</details>
+:::
 
-<details>
-<summary>Q10: How do I get started with COCO?</summary>
+::: details Q10: How do I get started with COCO?
 
 **Full Onboarding Flow (approximately 15 minutes)**
 
@@ -311,10 +301,9 @@ Reference: [COCO vs ChatGPT Detailed Comparison](https://zylos100.coco.site/docs
 
 For deployment assistance, contact support (support@coco.xyz) or your customer group — we offer 1-on-1 Onboarding support.
 
-</details>
+:::
 
-<details>
-<summary>Q11: What AI models does COCO support?</summary>
+::: details Q11: What AI models does COCO support?
 
 COCO is a **fully managed service** — the underlying AI models are managed by us, so you don't need to supply your own API key:
 
@@ -325,12 +314,11 @@ COCO is a **fully managed service** — the underlying AI models are managed by 
 
 **Model switching**: COCO automatically selects the most suitable model based on task type and cost efficiency — this is transparent to users. For special requirements (e.g., Enterprise compliance requiring a specific model), contact us to discuss separately.
 
-</details>
+:::
 
 ## IV. Security & Privacy
 
-<details>
-<summary>Q12: Data Security and Privacy Protection</summary>
+::: details Q12: Data Security and Privacy Protection
 
 As a managed service provider, your conversation data passes through COCO's servers to be processed by the AI model. Throughout this process, we strictly protect your data security. We have established a comprehensive data security framework to fully ensure information safety.
 
@@ -345,4 +333,4 @@ As a managed service provider, your conversation data passes through COCO's serv
 - We do not sell, share, or use user data for model training or any other purpose
 - A formal privacy protection agreement is being finalized and will clearly define all data rights in writing
 
-</details>
+:::
