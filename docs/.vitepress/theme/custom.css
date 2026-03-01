@@ -195,18 +195,41 @@
   }
 }
 
-/* ===== Hide VitePress default nav + footer (using custom components) ===== */
-.VPNav {
-  display: none !important;
+/* ===== Hide VitePress default nav bar + footer (using custom components) ===== */
+/* Hide the top nav bar content but keep the mobile sidebar toggle functional */
+.VPNavBar .content {
+  visibility: hidden !important;
+  height: 0 !important;
+  overflow: hidden !important;
+}
+/* Keep VPNav container for mobile sidebar hamburger (VPNavBarHamburger) */
+.VPNavBar {
+  background: transparent !important;
+  border-bottom: none !important;
+  pointer-events: none;
+}
+/* Re-enable pointer events on the hamburger button */
+.VPNavBarHamburger {
+  pointer-events: auto;
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 41;
+}
+/* Hide VPNav on desktop — sidebar is always visible */
+@media (min-width: 960px) {
+  .VPNavBar {
+    display: none !important;
+  }
 }
 .VPFooter {
   display: none !important;
 }
-/* Compensate for hidden VPNav: add top padding for fixed custom header */
+/* Compensate for custom header: add top padding */
 .VPContent {
   padding-top: 64px !important;
 }
-/* On home page, hero needs extra top space */
+/* On home page, hero needs no extra top space */
 .VPHome {
   padding-top: 0 !important;
 }
