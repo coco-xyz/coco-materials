@@ -90,6 +90,7 @@ export default defineConfig({
                 { text: 'Channel Deployment', link: '/getting-started/channel-deployment' },
                 { text: 'First-Time Tutorial', link: '/getting-started/first-time-tutorial' },
                 { text: 'Important Notes', link: '/getting-started/tips' },
+                { text: 'FAQ', link: '/getting-started/faq' },
               ]
             },
           ],
@@ -215,6 +216,7 @@ export default defineConfig({
                 { text: '渠道部署指南', link: '/zh/getting-started/channel-deployment' },
                 { text: '首次使用教程', link: '/zh/getting-started/first-time-tutorial' },
                 { text: '注意事项', link: '/zh/getting-started/tips' },
+                { text: '常见问题 FAQ', link: '/zh/getting-started/faq' },
               ]
             },
           ],
