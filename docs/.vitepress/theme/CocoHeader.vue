@@ -25,15 +25,16 @@ function toggleDark() {
 }
 
 function toggleLang() {
-  const path = route.path
+  // route.path is relative to base (no base prefix), e.g. '/zh/use-cases/' or '/use-cases/'
+  const routePath = route.path
   if (lang.value === 'zh-CN') {
     // Switch to English: remove /zh/ prefix
-    const newPath = path.replace(/^\/zh\//, '/').replace(/^\/zh$/, '/')
-    window.location.href = withBase(newPath)
+    const stripped = routePath.replace(/^\/zh(\/|$)/, '/')
+    window.location.href = withBase(stripped || '/')
   } else {
     // Switch to Chinese: add /zh/ prefix
-    const newPath = '/zh' + (path === '/' ? '/' : path)
-    window.location.href = withBase(newPath)
+    const zhPath = '/zh' + (routePath.startsWith('/') ? routePath : '/' + routePath)
+    window.location.href = withBase(zhPath)
   }
 }
 
