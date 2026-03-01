@@ -718,7 +718,7 @@ import { withBase } from 'vitepress'
 | 630 | [AI股权结构表稀释情景建模器](/zh/use-cases/role/fund-manager#_4-ai股权结构表稀释情景建模器) | 基金经理 | 金融服务 | 数据分析 | 从源文件构建完全稀释股权结构表（含所有可转换工具）从2–3个分析师工作日缩短至每家公司不足4小时 | 
 | 631 | [AI基金管理费用分摊自动化工具](/zh/use-cases/role/fund-manager#_5-ai基金管理费用分摊自动化工具) | 基金经理 | 金融服务 | 数据分析 | 季度审查中识别的分摊错误从平均每基金每季度7次降至不足1次，剩余错误在发出通知前自动标记 | 
 | 632 | [AI投资组合公司KPI健康监控器](/zh/use-cases/role/fund-manager#_6-ai投资组合公司kpi健康监控器) | 基金经理 | 金融服务 | 数据分析 | 重大表现恶化比其出现在董事会层面报告中平均提前3.4个月被标记，使GP能够更早介入 | 
-| 633 | [AI IRR(内部收益率)与MOIC(资本倍数)敏感性情景计算器](/zh/use-cases/role/fund-manager#_7-ai-irr-内部收益率-与moic-资本倍数-敏感性情景计算器)与moic(资本倍数)敏感性情景计算器) | 基金经理 | 金融服务 | 数据分析 | 投委会演示现在包含200+个情景组合，而典型手动模型只有3个情景，提供了真实的结果分布而非精... | 
+| 633 | [AI IRR(内部收益率)与MOIC(资本倍数)敏感性情景计算器](/zh/use-cases/role/fund-manager#_7-ai-irr-内部收益率-与moic-资本倍数-敏感性情景计算器) | 基金经理 | 金融服务 | 数据分析 | 投委会演示现在包含200+个情景组合，而典型手动模型只有3个情景，提供了真实的结果分布而非精... | 
 | 634 | [AI联合投资机会风险回报分析工具](/zh/use-cases/role/fund-manager#_8-ai联合投资机会风险回报分析工具) | 基金经理 | 金融服务 | 数据分析 | 从收到GP材料起不足4小时内完成全面的风险回报评估，使承诺决策能在典型的5至10天联合投资窗... | 
 | 635 | [AI并购附加目标筛选引擎](/zh/use-cases/role/fund-manager#_9-ai并购附加目标筛选引擎) | 基金经理 | 金融服务 | 数据分析 | COCO识别出的潜在收购目标平均是分散行业合并策略中仅靠管理团队关系网络识别出的数量的4.2倍 | 
 | 636 | [AI投资备忘录起草助手](/zh/use-cases/role/fund-manager#_10-ai投资备忘录起草助手) | 基金经理 | 金融服务 | 数据分析 | 从提交结构化输入起不足6小时生成第一份完整草稿，而分析师手动起草需要2–4天 | 
@@ -1011,42 +1011,42 @@ import { withBase } from 'vitepress'
 | 923 | [AI品牌语调一致性执行官](/zh/use-cases/role/writer#_21-ai品牌语调一致性执行官) | 写作 | 媒体 | 写作 | — | 
 | 924 | [AI故事弧线与叙事结构顾问](/zh/use-cases/role/writer#_22-ai故事弧线与叙事结构顾问) | 写作 | 媒体 | 写作 | — | 
 | 925 | [AI读者心理与说服力顾问](/zh/use-cases/role/writer#_23-ai读者心理与说服力顾问) | 写作 | 媒体 | 写作 | — | 
-| 926 | [AI第三方合规风险筛查器](/zh/use-cases/role/compliance-officer#_24-ai第三方合规风险筛查器) | 合规官 | 企业 | 自动化 | 100% vendor screening coverage | 
-| 927 | [AI监管检查响应协调器](/zh/use-cases/role/compliance-officer#_25-ai举报报告受理分析器) | 合规官 | 企业 | 自动化 | Intake time: 90min → 10min | 
-| 928 | [AI 监管检查应对协调员](/zh/use-cases/role/compliance-officer#_26-ai-监管检查应对协调员) | 合规官 | 企业 | 自动化 | Response time -30–40% | 
-| 929 | [AI客户留存风险分析器](/zh/use-cases/role/consultant#_23-ai客户留存风险分析器) | 咨询 | 咨询 | 研究 | — | 
-| 930 | [AI咨询知识管理助手](/zh/use-cases/role/consultant#_24-ai咨询项目范围界定助手) | 咨询顾问 | 咨询 | 写作与内容 | SOW drafting: 3 days → 8 hours | 
-| 931 | [AI咨询知识管理助手](/zh/use-cases/role/consultant#_25-ai-咨询知识管理助手) | 咨询顾问 | 咨询 | 数据分析 | Knowledge capture: 20% → 70–80% | 
-| 932 | [AI高管业务回顾材料生成器](/zh/use-cases/role/customer-success#_24-ai高管业务回顾材料生成器) | 客户成功经理 | 科技/SaaS | 自动化 | QBR prep: 8h → 90min | 
-| 933 | [AI客户成功手册生成器](/zh/use-cases/role/customer-success#_25-ai-客户扩展信号探测器) | 客户成功经理 | 科技/SaaS | 调研与监控 | 3x expansion opportunities | 
-| 934 | [AI 客户成功剧本生成器](/zh/use-cases/role/customer-success#_26-ai-客户成功剧本生成器) | 客户成功经理 | 科技/SaaS | 写作与内容 | Ramp time: 9mo → 3–4mo | 
-| 935 | [AI模型监控与漂移预警引擎](/zh/use-cases/role/data-scientist#_24-ai模型监控与漂移预警引擎) | 数据科学家 | 科技/SaaS | 自动化 | Drift detection: weeks → hours | 
-| 936 | [AI特征工程推荐引擎](/zh/use-cases/role/data-scientist#_25-ai-a-b-测试设计与统计分析助手) | 数据科学家 | 科技/SaaS | 数据分析 | False positives -50–70% | 
-| 937 | [AI 特征工程推荐引擎](/zh/use-cases/role/data-scientist#_26-ai-特征工程推荐引擎) | 数据科学家 | 科技/SaaS | 数据分析 | Model lift +5–15% | 
-| 938 | [AI设计系统文档生成器](/zh/use-cases/role/designer#_23-ai设计系统文档生成器) | 设计 | 科技/SaaS | 自动化 | — | 
-| 939 | [AI设计评审反馈综合器](/zh/use-cases/role/designer#_24-ai-用户体验研究综合引擎) | 设计师 | 科技/SaaS | 调研与监控 | Synthesis: 20h → 5h | 
-| 940 | [AI 设计评审反馈综合器](/zh/use-cases/role/designer#_25-ai-设计评审反馈综合器) | 设计师 | 科技/SaaS | 自动化 | Iteration: 5 days → 2 days | 
-| 941 | [AI董事会沟通材料生成器](/zh/use-cases/role/executive#_24-ai董事会沟通材料生成器) | 高管 | 企业 | 写作与内容 | Board prep: 15h → 5h | 
-| 942 | [AI战略规划辅助助手](/zh/use-cases/role/executive#_25-ai竞争情报简报生成器) | 高管 | 企业 | 调研与监控 | 3–6mo early warning signals | 
-| 943 | [AI 战略规划促进助手](/zh/use-cases/role/executive#_26-ai-战略规划促进助手) | 高管 | 企业 | 自动化 | Planning cycle -3–4 weeks | 
-| 944 | [AI承运商绩效评分卡构建器](/zh/use-cases/role/logistics-manager#_24-ai承运商绩效评分卡构建器) | 物流经理 | 物流 | 数据分析 | OTD: 80% → 90%+ | 
-| 945 | [AI冷链合规监控器](/zh/use-cases/role/logistics-manager#_25-ai-入境货运成本分析器) | 物流经理 | 物流 | 数据分析 | Freight cost recovery 2–4% | 
-| 946 | [AI 冷链合规监控器](/zh/use-cases/role/logistics-manager#_26-ai-冷链合规监控器) | 物流经理 | 物流 | 自动化 | Product loss -20–30% | 
-| 947 | [AI合同到期与续约预警管理器](/zh/use-cases/role/procurement#_24-ai合同到期与续约预警管理器) | 采购 | 企业 | 自动化 | Zero missed notice periods | 
-| 948 | [AI采购品类战略构建器](/zh/use-cases/role/procurement#_25-ai采购品类战略构建器) | 采购 | 企业 | 数据分析 | 3–5x category strategy coverage | 
-| 949 | [AI 采购支出分析仪表盘构建器](/zh/use-cases/role/procurement#_26-ai-采购支出分析仪表盘构建器) | 采购 | 企业 | 数据分析 | Spend reporting: 3 days → 4 hours | 
-| 950 | [AI 测试环境配置验证器](/zh/use-cases/role/qa-engineer#_24-ai-测试环境配置验证器) | QA工程师 | 科技/SaaS | 自动化 | Config defects -40–60% | 
-| 951 | [AI 安全渗透测试报告分析器](/zh/use-cases/role/qa-engineer#_25-ai-安全渗透测试报告分析器) | QA工程师 | 科技/SaaS | 数据分析 | Findings triage: 12h → 3h | 
-| 952 | [AI 测试覆盖缺口检测器](/zh/use-cases/role/qa-engineer#_26-ai-测试覆盖缺口检测器) | QA工程师 | 科技/SaaS | 调研与监控 | Defect escape rate -25–40% | 
-| 953 | [AI 研究伦理协议审查员](/zh/use-cases/role/researcher#_24-ai-研究伦理协议审查员) | 研究员 | 学术 | 调研与监控 | IRB cycle -3–4 weeks | 
-| 954 | [AI 学术发表策略顾问](/zh/use-cases/role/researcher#_25-ai-学术发表策略顾问) | 研究员 | 学术 | 写作与内容 | Desk rejection -40–60% | 
-| 955 | [AI 研究数据可视化顾问](/zh/use-cases/role/researcher#_26-ai-研究数据可视化顾问) | 研究员 | 学术 | 数据分析 | Figure revisions -50–60% | 
-| 956 | [AI 工程师入职加速器](/zh/use-cases/role/tech-lead#_23-ai-工程师入职加速器) | 技术主管 | 科技/SaaS | 自动化 | — | 
-| 957 | [AI 架构权衡分析引擎](/zh/use-cases/role/tech-lead#_24-ai-架构权衡分析引擎) | 技术负责人 | 科技/SaaS | 数据分析 | Architecture regrets -40% | 
-| 958 | [AI 代码审查文化与标准建设者](/zh/use-cases/role/tech-lead#_25-ai-代码审查文化与标准建设者) | 技术负责人 | 科技/SaaS | 自动化 | Review quality +40–60% | 
-| 959 | [AI 思想领导力内容规划师](/zh/use-cases/role/writer#_24-ai-思想领导力内容规划师) | 内容创作者 | 科技/SaaS | 写作与内容 | Authority content 3x consistency | 
-| 960 | [AI 长篇内容研究编译器](/zh/use-cases/role/writer#_25-ai-长篇内容研究编译器) | 内容创作者 | 科技/SaaS | 调研与监控 | Research time -60–70% |
-| 961 | [AI 代笔项目管理器](/zh/use-cases/role/writer#_26-ai-代笔项目管理器) | 内容创作者 | 企业 | 自动化 | First-draft approval: 25% → 55% |
+| 926 | [AI第三方合规风险筛查器](/zh/use-cases/role/compliance-officer#_24-ai第三方合规风险筛查器) | 合规官 | 企业 | 自动化 | 供应商筛查覆盖率100% | 
+| 927 | [AI举报报告受理分析器](/zh/use-cases/role/compliance-officer#_25-ai举报报告受理分析器) | 合规官 | 企业 | 自动化 | 受理时间：90分钟→10分钟 | 
+| 928 | [AI 监管检查应对协调员](/zh/use-cases/role/compliance-officer#_26-ai-监管检查应对协调员) | 合规官 | 企业 | 自动化 | 响应时间 -30–40% | 
+| 929 | [AI客户留存风险分析器](/zh/use-cases/role/consultant#_23-ai客户留存风险分析器) | 咨询 | 咨询 | 研究 | 风险检测提前60–90天 | 
+| 930 | [AI咨询项目范围界定助手](/zh/use-cases/role/consultant#_24-ai咨询项目范围界定助手) | 咨询顾问 | 咨询 | 写作与内容 | SOW起草：3天→8小时 | 
+| 931 | [AI咨询知识管理助手](/zh/use-cases/role/consultant#_25-ai-咨询知识管理助手) | 咨询顾问 | 咨询 | 数据分析 | 知识沉淀：20%→70–80% | 
+| 932 | [AI高管业务回顾材料生成器](/zh/use-cases/role/customer-success#_24-ai高管业务回顾材料生成器) | 客户成功经理 | 科技/SaaS | 自动化 | QBR准备：8小时→90分钟 | 
+| 933 | [AI客户扩展信号探测器](/zh/use-cases/role/customer-success#_25-ai-客户扩展信号探测器) | 客户成功经理 | 科技/SaaS | 调研与监控 | 扩展机会3倍增长 | 
+| 934 | [AI 客户成功剧本生成器](/zh/use-cases/role/customer-success#_26-ai-客户成功剧本生成器) | 客户成功经理 | 科技/SaaS | 写作与内容 | 上手时间：9个月→3–4个月 | 
+| 935 | [AI模型监控与漂移预警引擎](/zh/use-cases/role/data-scientist#_24-ai模型监控与漂移预警引擎) | 数据科学家 | 科技/SaaS | 自动化 | 漂移检测：数周→数小时 | 
+| 936 | [AI A/B 测试设计与统计分析助手](/zh/use-cases/role/data-scientist#_25-ai-a-b-测试设计与统计分析助手) | 数据科学家 | 科技/SaaS | 数据分析 | 误报率 -50–70% | 
+| 937 | [AI 特征工程推荐引擎](/zh/use-cases/role/data-scientist#_26-ai-特征工程推荐引擎) | 数据科学家 | 科技/SaaS | 数据分析 | 模型提升 +5–15% | 
+| 938 | [AI设计系统文档生成器](/zh/use-cases/role/designer#_23-ai设计系统文档生成器) | 设计 | 科技/SaaS | 自动化 | 文档覆盖率：40%→90%+ | 
+| 939 | [AI用户体验研究综合引擎](/zh/use-cases/role/designer#_24-ai-用户体验研究综合引擎) | 设计师 | 科技/SaaS | 调研与监控 | 综合分析：20小时→5小时 | 
+| 940 | [AI 设计评审反馈综合器](/zh/use-cases/role/designer#_25-ai-设计评审反馈综合器) | 设计师 | 科技/SaaS | 自动化 | 迭代周期：5天→2天 | 
+| 941 | [AI董事会沟通材料生成器](/zh/use-cases/role/executive#_24-ai董事会沟通材料生成器) | 高管 | 企业 | 写作与内容 | 董事会准备：15小时→5小时 | 
+| 942 | [AI竞争情报简报生成器](/zh/use-cases/role/executive#_25-ai竞争情报简报生成器) | 高管 | 企业 | 调研与监控 | 提前3–6个月预警信号 | 
+| 943 | [AI 战略规划促进助手](/zh/use-cases/role/executive#_26-ai-战略规划促进助手) | 高管 | 企业 | 自动化 | 规划周期 -3–4周 | 
+| 944 | [AI承运商绩效评分卡构建器](/zh/use-cases/role/logistics-manager#_24-ai承运商绩效评分卡构建器) | 物流经理 | 物流 | 数据分析 | OTD：80%→90%+ | 
+| 945 | [AI入境货运成本分析器](/zh/use-cases/role/logistics-manager#_25-ai-入境货运成本分析器) | 物流经理 | 物流 | 数据分析 | 运费回收 2–4% | 
+| 946 | [AI 冷链合规监控器](/zh/use-cases/role/logistics-manager#_26-ai-冷链合规监控器) | 物流经理 | 物流 | 自动化 | 产品损耗 -20–30% | 
+| 947 | [AI合同到期与续约预警管理器](/zh/use-cases/role/procurement#_24-ai合同到期与续约预警管理器) | 采购 | 企业 | 自动化 | 零遗漏通知期 | 
+| 948 | [AI采购品类战略构建器](/zh/use-cases/role/procurement#_25-ai采购品类战略构建器) | 采购 | 企业 | 数据分析 | 品类战略覆盖 3–5倍 | 
+| 949 | [AI 采购支出分析仪表盘构建器](/zh/use-cases/role/procurement#_26-ai-采购支出分析仪表盘构建器) | 采购 | 企业 | 数据分析 | 支出报告：3天→4小时 | 
+| 950 | [AI 测试环境配置验证器](/zh/use-cases/role/qa-engineer#_24-ai-测试环境配置验证器) | QA工程师 | 科技/SaaS | 自动化 | 配置缺陷 -40–60% | 
+| 951 | [AI 安全渗透测试报告分析器](/zh/use-cases/role/qa-engineer#_25-ai-安全渗透测试报告分析器) | QA工程师 | 科技/SaaS | 数据分析 | 发现分诊：12小时→3小时 | 
+| 952 | [AI 测试覆盖缺口检测器](/zh/use-cases/role/qa-engineer#_26-ai-测试覆盖缺口检测器) | QA工程师 | 科技/SaaS | 调研与监控 | 缺陷逃逸率 -25–40% | 
+| 953 | [AI 研究伦理协议审查员](/zh/use-cases/role/researcher#_24-ai-研究伦理协议审查员) | 研究员 | 学术 | 调研与监控 | IRB周期 -3–4周 | 
+| 954 | [AI 学术发表策略顾问](/zh/use-cases/role/researcher#_25-ai-学术发表策略顾问) | 研究员 | 学术 | 写作与内容 | 初筛退稿 -40–60% | 
+| 955 | [AI 研究数据可视化顾问](/zh/use-cases/role/researcher#_26-ai-研究数据可视化顾问) | 研究员 | 学术 | 数据分析 | 图表修改 -50–60% | 
+| 956 | [AI 工程师入职加速器](/zh/use-cases/role/tech-lead#_23-ai-工程师入职加速器) | 技术主管 | 科技/SaaS | 自动化 | 上手时间：12周→6周 | 
+| 957 | [AI 架构权衡分析引擎](/zh/use-cases/role/tech-lead#_24-ai-架构权衡分析引擎) | 技术负责人 | 科技/SaaS | 数据分析 | 架构决策失误 -40% | 
+| 958 | [AI 代码审查文化与标准建设者](/zh/use-cases/role/tech-lead#_25-ai-代码审查文化与标准建设者) | 技术负责人 | 科技/SaaS | 自动化 | 评审质量 +40–60% | 
+| 959 | [AI 思想领导力内容规划师](/zh/use-cases/role/writer#_24-ai-思想领导力内容规划师) | 内容创作者 | 科技/SaaS | 写作与内容 | 权威内容一致性提升3倍 | 
+| 960 | [AI 长篇内容研究编译器](/zh/use-cases/role/writer#_25-ai-长篇内容研究编译器) | 内容创作者 | 科技/SaaS | 调研与监控 | 研究时间 -60–70% |
+| 961 | [AI 代笔项目管理器](/zh/use-cases/role/writer#_26-ai-代笔项目管理器) | 内容创作者 | 企业 | 自动化 | 初稿通过率：25%→55% |
 | 962 | [AI多Agent冲刺团队部署器](/zh/use-cases/role/multi-agent-architect#_1-ai多agent冲刺团队部署器) | 多Agent协同架构师 | 科技/SaaS | 自动化 | 团队部署：4–6月 → 2小时 |
 | 963 | [AI主管-执行Agent层级构建器](/zh/use-cases/role/multi-agent-architect#_2-ai主管-执行agent层级构建器) | 多Agent协同架构师 | 科技/SaaS | 自动化 | Agent舰队效率 +71% |
 | 964 | [AI跨职能交易室编排器](/zh/use-cases/role/multi-agent-architect#_3-ai跨职能交易室编排器) | 多Agent协同架构师 | 企业 | 自动化 | 销售周期：90天 → 34天 |
