@@ -6,7 +6,9 @@ title: FAQ
 
 ## I. Cloud Agent Authorization
 
-::: details What is Cloud Agent Authorization?
+<div class="section-intro">
+<details>
+<summary>What is Cloud Agent Authorization?</summary>
 
 **Cloud Agent Authorization** means granting an AI Agent (like CoCo) deployed on a cloud server the permissions to operate third-party platforms.
 
@@ -17,7 +19,8 @@ Breaking it down:
 
 Common third-party authorization scenarios include: GitHub (code repositories), Lark (team collaboration), Telegram (instant messaging), cloud platform APIs (AWS, GCP, etc.).
 
-:::
+</details>
+</div>
 
 ::: details Q1: What permissions does the Agent need? How is the scope controlled?
 

@@ -6,7 +6,9 @@ title: 常见问题 FAQ
 
 ## 一、云主机 Agent 授权
 
-::: details 什么是云主机 Agent 授权？
+<div class="section-intro">
+<details>
+<summary>什么是云主机 Agent 授权？</summary>
 
 **云主机 Agent 授权**，就是让部署在云服务器上的 AI Agent（比如 CoCo）获得操作第三方平台的权限。
 
@@ -17,7 +19,8 @@ title: 常见问题 FAQ
 
 常见的第三方授权场景包括：GitHub（代码仓库）、飞书/Lark（团队协作）、Telegram（即时通讯）、云平台 API（AWS、GCP 等）。
 
-:::
+</details>
+</div>
 
 ::: details Q1：Agent 需要什么权限？权限范围如何控制？
 
