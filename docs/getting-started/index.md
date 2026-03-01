@@ -1,6 +1,12 @@
+<script setup>
+import { withBase } from 'vitepress'
+</script>
+
 # Getting Started
 
 Welcome to COCO! Your dedicated AI employee is ready. Get started in 3 simple steps.
+
+<img :src="withBase('/faq-banner.png')" alt="COCO" style="width:100%;border-radius:12px;margin:16px 0;" />
 
 ## Guides
 
