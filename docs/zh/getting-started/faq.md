@@ -6,7 +6,7 @@ title: 常见问题 FAQ
 import { withBase } from 'vitepress'
 </script>
 
-<img :src="withBase('/faq-banner.png')" alt="COCO FAQ" style="width:100%;border-radius:12px;margin-bottom:24px;" />
+<img :src="withBase('/faq-banner-new.png')" alt="COCO FAQ" style="width:100%;border-radius:12px;margin-bottom:24px;" />
 
 # 常见问题 FAQ
 
