@@ -12,9 +12,9 @@ const columns = computed(() => {
       {
         title: '产品',
         links: [
-          { text: 'Agent Cloud', href: 'https://coco.xyz' },
+          { text: 'Agent Cloud', href: 'https://coco.xyz/#pricing' },
           { text: 'Zylos', href: 'https://github.com/zylos-ai' },
-          { text: 'HxA Suite', href: 'https://github.com/hxa-k' },
+          { text: 'HxA Suite', href: 'https://github.com/coco-xyz' },
         ],
       },
       {
@@ -45,9 +45,9 @@ const columns = computed(() => {
     {
       title: 'Products',
       links: [
-        { text: 'Agent Cloud', href: 'https://coco.xyz' },
+        { text: 'Agent Cloud', href: 'https://coco.xyz/#pricing' },
         { text: 'Zylos', href: 'https://github.com/zylos-ai' },
-        { text: 'HxA Suite', href: 'https://github.com/hxa-k' },
+        { text: 'HxA Suite', href: 'https://github.com/coco-xyz' },
       ],
     },
     {
