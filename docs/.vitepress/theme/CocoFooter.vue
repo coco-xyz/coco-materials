@@ -12,24 +12,25 @@ const columns = computed(() => {
       {
         title: '产品',
         links: [
-          { text: 'Agent Cloud', href: 'https://coco.xyz' },
-          { text: '定价', href: 'https://coco.xyz/#pricing' },
-          { text: 'Labs', href: 'https://labs.coco.xyz' },
+          { text: 'Agent Cloud', href: 'https://coco.xyz/#pricing' },
+          { text: 'Zylos', href: 'https://github.com/zylos-ai' },
+          { text: 'HxA Suite', href: 'https://github.com/coco-xyz' },
         ],
       },
       {
         title: '用例',
         links: [
-          { text: '按角色', href: withBase('/zh/use-cases/#按角色浏览') },
-          { text: '按任务', href: withBase('/zh/use-cases/#按任务浏览') },
-          { text: '按行业', href: withBase('/zh/use-cases/#按行业浏览') },
+          { text: '按角色', href: withBase('/zh/use-cases/role/product') },
+          { text: '按任务', href: withBase('/zh/use-cases/task/writing-content') },
+          { text: '按行业', href: withBase('/zh/use-cases/industry/technology') },
         ],
       },
       {
         title: '资源',
         links: [
           { text: '文档', href: withBase('/zh/') },
-          { text: 'GitHub', href: 'https://github.com/coco-xyz' },
+          { text: 'COCO', href: 'https://coco.xyz' },
+          { text: 'ZYLOS-Ai', href: 'https://github.com/zylos-ai' },
         ],
       },
       {
@@ -44,24 +45,25 @@ const columns = computed(() => {
     {
       title: 'Products',
       links: [
-        { text: 'Agent Cloud', href: 'https://coco.xyz' },
-        { text: 'Pricing', href: 'https://coco.xyz/#pricing' },
-        { text: 'Labs', href: 'https://labs.coco.xyz' },
+        { text: 'Agent Cloud', href: 'https://coco.xyz/#pricing' },
+        { text: 'Zylos', href: 'https://github.com/zylos-ai' },
+        { text: 'HxA Suite', href: 'https://github.com/coco-xyz' },
       ],
     },
     {
       title: 'Use Cases',
       links: [
-        { text: 'Role', href: withBase('/use-cases/#browse-by-role') },
-        { text: 'Task', href: withBase('/use-cases/#browse-by-task') },
-        { text: 'Industry', href: withBase('/use-cases/#browse-by-industry') },
+        { text: 'Role', href: withBase('/use-cases/role/product') },
+        { text: 'Task', href: withBase('/use-cases/task/writing-content') },
+        { text: 'Industry', href: withBase('/use-cases/industry/technology') },
       ],
     },
     {
       title: 'Resources',
       links: [
         { text: 'Docs', href: withBase('/') },
-        { text: 'GitHub', href: 'https://github.com/coco-xyz' },
+        { text: 'COCO', href: 'https://coco.xyz' },
+        { text: 'ZYLOS-Ai', href: 'https://github.com/zylos-ai' },
       ],
     },
     {
