@@ -12,7 +12,7 @@ const navItems = computed(() => {
   const isZh = lang.value === 'zh-CN'
   return [
     { text: isZh ? '用例' : 'Use Cases', link: isZh ? '/zh/use-cases/' : '/use-cases/' },
-    { text: isZh ? '定价' : 'Pricing', link: 'https://coco.xyz/pricing', external: true },
+    { text: isZh ? '定价' : 'Pricing', link: 'https://coco.xyz/#pricing', external: true },
     { text: 'Labs', link: 'https://labs.coco.xyz', external: true },
     { text: isZh ? '文档' : 'Docs', link: isZh ? '/zh/' : '/', active: true },
   ]
