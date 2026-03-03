@@ -285,3 +285,16 @@ CoCo is a **fully managed AI digital employee**. Not a chatbot. Not a copilot. A
 ---
 
 *Core cases reflect real customer experiences. Customer quotes are illustrative — written to reflect documented outcomes and team sentiment, not verbatim transcripts. Supplementary cases are real customers.*
+
+---
+
+<!-- Internal reference: case-to-customer mapping (not public) -->
+<!-- 1. State-owned bank → Mr. Sun (one of China's Big Four) -->
+<!-- 2. Web3 founder → Bman -->
+<!-- 3. Blockchain compliance company → Sara / TrustIn -->
+<!-- 4. Singapore blockchain media → BitcoinTV SG -->
+<!-- 5. Cat breed identifier app → Stephanie -->
+<!-- 6. CoCo CRM → Zylos (internal case) -->
+<!-- 7. DeFi protocol → Folks Finance -->
+<!-- 8. Startup team → Vernal Team -->
+<!-- 9. Word-of-mouth conversion → Evan referral -->
