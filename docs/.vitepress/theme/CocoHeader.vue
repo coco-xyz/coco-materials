@@ -313,42 +313,5 @@ onUnmounted(() => {
   .mobile-menu {
     display: flex;
   }
-  .header-inner {
-    gap: 12px;
-    padding: 0 16px;
-  }
-}
-@media (max-width: 420px) {
-  .header-inner {
-    gap: 8px;
-    padding: 0 12px;
-  }
-  .control-pill {
-    padding: 4px 8px;
-    font-size: 12px;
-    gap: 4px;
-  }
-  .control-pill svg {
-    width: 14px;
-    height: 14px;
-  }
-  .logo-img {
-    height: 22px;
-  }
-  .toggle-track {
-    width: 38px;
-    height: 20px;
-  }
-  .toggle-thumb {
-    width: 16px;
-    height: 16px;
-  }
-  .toggle-thumb svg {
-    width: 10px;
-    height: 10px;
-  }
-  .toggle-thumb.dark {
-    transform: translateX(18px);
-  }
 }
 </style>
