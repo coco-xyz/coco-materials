@@ -1,3 +1,7 @@
+<script setup>
+import { withBase } from 'vitepress'
+</script>
+
 # Channel Deployment Guide
 
 Detailed guide for connecting your AI employee to Telegram or Lark.
@@ -9,6 +13,7 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 | Telegram | Available | International users, personal use |
 | Lark (Feishu) | Available | Domestic teams, enterprise use |
 | WeCom (企业微信) | Available | Domestic enterprise users |
+| DingTalk (钉钉) | Available | Domestic teams, no public callback needed |
 | WhatsApp | Coming Soon | International business users |
 | Discord | Coming Soon | Developer/community scenarios |
 | Slack | Planned | European/US enterprise users |
@@ -402,88 +407,178 @@ After configuring event subscriptions, you need to get the **Verification Token*
 
 > **Note:** WeCom (企业微信) is Tencent's enterprise messaging platform, widely used by Chinese companies. Setting up a self-built application requires **enterprise admin access** to the WeCom Admin Console.
 
-### Step 1: Access WeCom Admin Console
+Five credentials are required:
 
-1. Log in to the [WeCom Admin Console](https://work.weixin.qq.com/wework_admin/frame)
-2. Go to **App Management** (应用管理) → **Self-Built** (自建)
-3. Click **Create Application** (创建应用)
+| Credential | Description |
+|------------|-------------|
+| Corp ID (CorpID) | Enterprise unique identifier |
+| App Secret | Application credential key |
+| Agent ID (AgentId) | Application identifier |
+| Token | Callback verification token |
+| EncodingAESKey | Callback message encryption key (43 characters) |
 
-### Step 2: Create a Custom Application
+### Step 1: Get Your Corp ID (CorpID)
 
-1. Upload an application logo
-2. Enter the application name (e.g., `COCO AI Employee`)
-3. Set the **Visible Scope** (可见范围) — select the team members who will use the bot
-4. Click **Create Application** (创建应用)
-5. After creation, the application detail page shows:
-   - **AgentId** — copy and save this
-   - Click **Get Secret** to obtain the **Secret** — copy and save this
+Visit the WeCom Admin Console [My Enterprise](https://work.weixin.qq.com/wework_admin/frame#/profile) page. Scroll to the bottom to find the **Enterprise ID** (企业ID). Copy and save this value.
+
+<img :src="withBase('/wecom-step1-corp-id.png')" alt="Get Corp ID" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+### Step 2: Go to App Management and Create an Application
+
+In the left sidebar, go to **App Management** (应用管理). In the "Self-Built" (自建) section at the bottom, click **Create Application** (创建应用).
+
+<img :src="withBase('/wecom-step2-create-app.png')" alt="Create Application" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+### Step 3: Set Application Name and Visible Scope
+
+Give your Bot a memorable name (e.g., `COCO AI Employee`) and set the **Visible Scope** (可见范围) to select which team members can see and use the Bot.
+
+<img :src="withBase('/wecom-step3-app-name.png')" alt="Set App Name and Visible Scope" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+### Step 4: Get AgentId and Secret, Set Up API Reception
+
+After the application is created, on the application detail page:
+
+- **AgentId** — displayed directly on the page
+- **Secret** — click "View" to obtain
+
+Then in the "Features" section at the bottom, click **Receive Messages → Set Up API** (接收消息 → 设置API接收).
+
+<img :src="withBase('/wecom-step4-agent-secret.png')" alt="Get AgentId and Secret" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 > **Important:** The Secret is only shown once. Save it immediately.
 
-### Step 3: Get Your Corp ID
+### Step 5: Get Token and EncodingAESKey (Do Not Save Yet)
 
-1. In the Admin Console, go to **My Enterprise** (我的企业) in the left sidebar
-2. Scroll to the bottom of the page to find **Enterprise ID** (企业ID), also called **CorpID**
-3. Copy and save this value
+In the "API Message Reception" configuration page:
 
-### Step 4: Configure API Message Reception
+- **Token** — click "Randomly Generate" (随机获取)
+- **EncodingAESKey** — click "Randomly Generate" (随机获取)
 
-1. Return to **App Management** → your application
-2. Scroll down to find **Receive Messages** (接收消息) and click **Set Up API** (设置API接收)
-3. In the API configuration panel, you need to fill in:
-   - **URL** — your COCO webhook URL (see below)
-   - **Token** — click **Randomly Generate** (随机获取) and copy the value
-   - **EncodingAESKey** — click **Randomly Generate** (随机获取) and copy the value (must be 43 characters)
+<img :src="withBase('/wecom-step5-token-aeskey-new.png')" alt="Get Token and EncodingAESKey" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-> **Important:** Your COCO backend must be deployed and able to respond to WeCom's verification request before you can save this configuration. Do not click **Save** until your COCO instance is live and connected — otherwise the setup will fail.
+> **Important:** Do not save yet — the URL field needs to be filled in Step 7. Keep this page open.
 
-### Step 5: Connect in COCO Dashboard
+### Step 6: Enter Credentials in Dashboard and Connect
 
-> **Free Trial Note:** During the free trial period, payment and automated setup steps are skipped. After completing the WeCom configuration above, please provide the following to the COCO technical team. Our team will manually assist with the configuration and will complete your deployment within **24 hours**.
+In the COCO Dashboard's WeCom channel configuration page, enter all the credentials obtained above. Note the **Webhook URL** and **Server IP** displayed on the page, then click **Connect** and wait for the connection to succeed.
 
-Provide the following five values to the COCO team:
+<img :src="withBase('/wecom-step6-dashboard-credentials.png')" alt="Dashboard Credentials" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-| Field | Where to Find It |
-|-------|-----------------|
-| **Corp ID** (CorpID) | Admin Console → My Enterprise → Enterprise ID |
-| **Agent ID** (AgentId) | App Management → your app → application detail page |
-| **Secret** | App Management → your app → Get Secret |
-| **Token** | App Management → your app → Receive Messages → API config |
-| **EncodingAESKey** | App Management → your app → Receive Messages → API config |
+### Step 7: Enter Webhook URL Back in WeCom
 
-<!--
-1. Log into [COCO Dashboard](https://coco.site/dashboard)
-2. Go to **Connect** or **Channels** page
-3. Select **WeCom**
-4. Enter:
+After the connection succeeds, copy the **Webhook URL** from the Dashboard and paste it into the **URL** field on the "API Message Reception" configuration page you kept open in Step 5. Click **Save**.
 
-| Field | Source |
-|-------|--------|
-| Corp ID | WeCom Admin Console → My Enterprise → Enterprise ID |
-| Agent ID | WeCom Admin Console → App Management → app detail |
-| Secret | WeCom Admin Console → App Management → app detail |
-| Token | WeCom Admin Console → App Management → Receive Messages |
-| EncodingAESKey | WeCom Admin Console → App Management → Receive Messages |
+### Step 8: Configure Trusted IP
 
-5. Click **Verify and Connect**
-6. System configures the webhook and completes connection
--->
+Enter the **Server IP** from the Dashboard into WeCom's **Trusted Enterprise IP** (企业可信IP) settings to ensure the server can call WeCom APIs.
 
-### Step 6: Start Using
+<img :src="withBase('/wecom-step8-trusted-ip.png')" alt="Configure Trusted IP" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-Once the COCO team completes the configuration:
-1. Open WeCom and find the application in your workspace
-2. Send any message to the application — your AI employee responds immediately
-3. You can also add the application to a WeCom group to enable team-wide access
+### Step 9: Start Chatting
+
+Once configuration is complete:
+1. Search for the Bot name in WeCom and start a conversation
+2. Send any message — your AI employee responds immediately
+3. You can also add the application to a WeCom group for team-wide access
 4. Deployment complete!
 
-> **Group usage:** In a WeCom group chat, @mention your application to interact with the AI employee. All group members can use it.
+> **Group usage:** In a WeCom group chat, @mention your application to interact with the AI employee. All group members within the Visible Scope can use it.
 
 ### WeCom FAQ
 
 | Issue | Solution |
 |-------|----------|
-| Cannot save API configuration | Ensure the COCO backend is deployed and responding before saving — WeCom validates the URL on save |
+| Cannot save API configuration | Ensure you complete the Dashboard connection (Step 6) first — WeCom validates the URL on save |
 | Application not visible to team members | Check the Visible Scope setting in App Management — make sure all intended users are included |
 | Bot not responding in group | Confirm the application has been added to the group and members are within the Visible Scope |
-| Secret lost or forgotten | In App Management, click Get Secret again — the old Secret is invalidated; provide the new one to COCO team |
+| Secret lost or forgotten | In App Management, click Get Secret again — the old Secret is invalidated; reconfigure as needed |
+
+---
+
+## Option D: DingTalk (钉钉) Deployment
+
+**Estimated time: 8-12 minutes**
+
+> **Note:** DingTalk (钉钉) is Alibaba's enterprise collaboration platform, widely used by Chinese companies. DingTalk uses **Stream mode** (WebSocket long connection), so no public callback URL is needed — deployment is simpler.
+
+Three credentials are required:
+
+| Credential | Description |
+|------------|-------------|
+| AppKey | Application unique identifier |
+| AppSecret | Application credential key |
+| RobotCode | Robot identifier (usually same as AppKey) |
+
+### Step 1: Access DingTalk Open Platform and Create an Application
+
+Visit the DingTalk Open Platform [App Management](https://open-dev.dingtalk.com/fe/app) page and click **Create Application**.
+
+<img :src="withBase('/dingtalk-step1-create-app.png')" alt="Create Application" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+### Step 2: Enter Application Name and Description
+
+Enter the **Application Name** (e.g., `COCO AI Employee`) and **Description**, then click **Save**.
+
+<img :src="withBase('/dingtalk-step2-app-name.png')" alt="Set App Name" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+### Step 3: Add Robot Capability
+
+After saving, you'll be redirected to the "Add Capabilities" page. Click **Add Robot** capability.
+
+<img :src="withBase('/dingtalk-step3-add-robot.png')" alt="Add Robot Capability" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+### Step 4: Configure Robot and Select Stream Mode
+
+Open the robot configuration page, fill in the required information, select **Stream Mode** for message reception, then publish.
+
+<img :src="withBase('/dingtalk-step4a-robot-config.png')" alt="Robot Configuration" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+<img :src="withBase('/dingtalk-step4b-stream-mode.png')" alt="Select Stream Mode" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+> **Note:** Stream mode uses WebSocket long connections to receive messages — no public callback URL configuration needed, making deployment simpler.
+
+### Step 5: Version Management and Publishing
+
+In the left sidebar, select **Version Management & Publishing** and click **Create New Version**.
+
+<img :src="withBase('/dingtalk-step5-version-publish.png')" alt="Create New Version" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+### Step 6: Set Application Visible Scope
+
+Enter the version information, select the appropriate **Visible Scope** (which team members can see and use the Bot), then save and publish.
+
+<img :src="withBase('/dingtalk-step6-visible-range.png')" alt="Set Visible Scope" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+### Step 7: Get AppKey, AppSecret, and RobotCode
+
+In the application detail page under "Credentials & Basic Info":
+
+- **AppKey** — application unique identifier
+- **AppSecret** — click "Show" to view
+
+<img :src="withBase('/dingtalk-step7a-credentials.png')" alt="Get AppKey and AppSecret" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+On the robot configuration page, find the **RobotCode** (usually the same as AppKey).
+
+<img :src="withBase('/dingtalk-step7b-robot-code.png')" alt="Get RobotCode" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+### Step 8: Enter Credentials in Dashboard
+
+Enter the **AppKey**, **AppSecret**, and **RobotCode** into the COCO Dashboard's DingTalk channel configuration page and click Connect.
+
+### Step 9: Start Chatting
+
+Search for the Bot name in DingTalk and start chatting with your AI employee.
+
+<img :src="withBase('/dingtalk-step9-search-bot.png')" alt="Search Bot and Start Chatting" style="max-width: 320px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+> **Group usage:** In a DingTalk group chat, @mention your Bot to interact with the AI employee.
+
+### DingTalk FAQ
+
+| Issue | Solution |
+|-------|----------|
+| Application not visible to team members | Check the Visible Scope in version publishing — ensure all intended users are included |
+| Bot not responding in group | Confirm the robot has been added to the group and use @mention to trigger |
+| AppSecret forgotten | View or reset in the application credentials page |
