@@ -8,10 +8,10 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 |---------|--------|----------|
 | Telegram | Available | International users, personal use |
 | Lark (Feishu) | Available | Domestic teams, enterprise use |
+| WeCom (企业微信) | Available | Domestic enterprise users |
 | WhatsApp | Coming Soon | International business users |
 | Discord | Coming Soon | Developer/community scenarios |
 | Slack | Planned | European/US enterprise users |
-| WeChat Work | Planned | Domestic enterprise users |
 
 > **Tip:** You can connect multiple channels simultaneously. Your AI employee responds across all connected channels. Pro plan supports Telegram + Lark dual-channel access.
 
@@ -393,3 +393,97 @@ After configuring event subscriptions, you need to get the **Verification Token*
 7. AI employee responds → Deployment complete!
 
 > **Also works in private chat:** Search for your app name in Feishu and start a direct conversation.
+
+---
+
+## Option C: WeCom (企业微信) Deployment
+
+**Estimated time: 10-15 minutes**
+
+> **Note:** WeCom (企业微信) is Tencent's enterprise messaging platform, widely used by Chinese companies. Setting up a self-built application requires **enterprise admin access** to the WeCom Admin Console.
+
+### Step 1: Access WeCom Admin Console
+
+1. Log in to the [WeCom Admin Console](https://work.weixin.qq.com/wework_admin/frame)
+2. Go to **App Management** (应用管理) → **Self-Built** (自建)
+3. Click **Create Application** (创建应用)
+
+### Step 2: Create a Custom Application
+
+1. Upload an application logo
+2. Enter the application name (e.g., `COCO AI Employee`)
+3. Set the **Visible Scope** (可见范围) — select the team members who will use the bot
+4. Click **Create Application** (创建应用)
+5. After creation, the application detail page shows:
+   - **AgentId** — copy and save this
+   - Click **Get Secret** to obtain the **Secret** — copy and save this
+
+> **Important:** The Secret is only shown once. Save it immediately.
+
+### Step 3: Get Your Corp ID
+
+1. In the Admin Console, go to **My Enterprise** (我的企业) in the left sidebar
+2. Scroll to the bottom of the page to find **Enterprise ID** (企业ID), also called **CorpID**
+3. Copy and save this value
+
+### Step 4: Configure API Message Reception
+
+1. Return to **App Management** → your application
+2. Scroll down to find **Receive Messages** (接收消息) and click **Set Up API** (设置API接收)
+3. In the API configuration panel, you need to fill in:
+   - **URL** — your COCO webhook URL (see below)
+   - **Token** — click **Randomly Generate** (随机获取) and copy the value
+   - **EncodingAESKey** — click **Randomly Generate** (随机获取) and copy the value (must be 43 characters)
+
+> **Important:** Your COCO backend must be deployed and able to respond to WeCom's verification request before you can save this configuration. Do not click **Save** until your COCO instance is live and connected — otherwise the setup will fail.
+
+### Step 5: Connect in COCO Dashboard
+
+> **Free Trial Note:** During the free trial period, payment and automated setup steps are skipped. After completing the WeCom configuration above, please provide the following to the COCO technical team. Our team will manually assist with the configuration and will complete your deployment within **24 hours**.
+
+Provide the following five values to the COCO team:
+
+| Field | Where to Find It |
+|-------|-----------------|
+| **Corp ID** (CorpID) | Admin Console → My Enterprise → Enterprise ID |
+| **Agent ID** (AgentId) | App Management → your app → application detail page |
+| **Secret** | App Management → your app → Get Secret |
+| **Token** | App Management → your app → Receive Messages → API config |
+| **EncodingAESKey** | App Management → your app → Receive Messages → API config |
+
+<!--
+1. Log into [COCO Dashboard](https://coco.site/dashboard)
+2. Go to **Connect** or **Channels** page
+3. Select **WeCom**
+4. Enter:
+
+| Field | Source |
+|-------|--------|
+| Corp ID | WeCom Admin Console → My Enterprise → Enterprise ID |
+| Agent ID | WeCom Admin Console → App Management → app detail |
+| Secret | WeCom Admin Console → App Management → app detail |
+| Token | WeCom Admin Console → App Management → Receive Messages |
+| EncodingAESKey | WeCom Admin Console → App Management → Receive Messages |
+
+5. Click **Verify and Connect**
+6. System configures the webhook and completes connection
+-->
+
+### Step 6: Start Using
+
+Once the COCO team completes the configuration:
+1. Open WeCom and find the application in your workspace
+2. Send any message to the application — your AI employee responds immediately
+3. You can also add the application to a WeCom group to enable team-wide access
+4. Deployment complete!
+
+> **Group usage:** In a WeCom group chat, @mention your application to interact with the AI employee. All group members can use it.
+
+### WeCom FAQ
+
+| Issue | Solution |
+|-------|----------|
+| Cannot save API configuration | Ensure the COCO backend is deployed and responding before saving — WeCom validates the URL on save |
+| Application not visible to team members | Check the Visible Scope setting in App Management — make sure all intended users are included |
+| Bot not responding in group | Confirm the application has been added to the group and members are within the Visible Scope |
+| Secret lost or forgotten | In App Management, click Get Secret again — the old Secret is invalidated; provide the new one to COCO team |
