@@ -25,8 +25,8 @@ function toggleDark() {
 }
 
 function toggleLang() {
-  const routePath = route.path
-  // Preserve hash and query from current URL
+  // route.path may include .md extension (e.g. '/index.md'); strip it for clean URLs
+  const routePath = route.path.replace(/\.md$/, '').replace(/\/index$/, '/')
   const { search, hash } = window.location
   let newPath
   if (lang.value === 'zh-CN') {
