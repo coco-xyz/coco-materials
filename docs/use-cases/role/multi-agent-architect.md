@@ -2970,7 +2970,7 @@ Machine learning fraud detection models improve accuracy but create a different 
 Set up a multi-agent fraud detection and response system for [company name].
 
 Transaction environment:
-- Transaction types: [card-not-present, card-present, ACH/wire, P2P, crypto]
+- Transaction types: [card-not-present, card-present, ACH/wire, P2P]
 - Daily transaction volume: [N] transactions, average value: $[X]
 - Current fraud rate: [X] basis points
 - Current false positive rate: [X%]
