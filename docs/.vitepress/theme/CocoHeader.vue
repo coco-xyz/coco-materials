@@ -25,8 +25,14 @@ function toggleDark() {
 }
 
 function toggleLang() {
-  // route.path may include .md extension (e.g. '/index.md'); strip it for clean URLs
-  const routePath = route.path.replace(/\.md$/, '').replace(/\/index$/, '/')
+  // route.path may include .md extension and sometimes the base prefix;
+  // strip both to get a clean locale-relative path
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '')
+  let routePath = route.path.replace(/\.md$/, '').replace(/\/index$/, '/')
+  // Strip base prefix if route.path unexpectedly includes it
+  if (base && routePath.startsWith(base + '/')) {
+    routePath = routePath.slice(base.length)
+  }
   const { search, hash } = window.location
   let newPath
   if (lang.value === 'zh-CN') {
