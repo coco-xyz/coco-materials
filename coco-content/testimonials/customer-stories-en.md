@@ -31,7 +31,10 @@ The team still reviews and signs off. CoCo isn't replacing financial judgment �
 
 **The result:** They converted to paid before the trial period ended. CoCo's first enterprise financial client.
 
-> *[Illustrative quote]* "We didn't expect an AI tool to handle the analytical depth our reports require. When it produced a financing report that only needed minor edits before it was usable, we knew this was different from what we'd seen before."
+> **User feedback:**
+> - 24/7 responsiveness with flexible task switching — from financial credit reports to interior design plans, cross-domain switching requires no warm-up, response speed is stable, and there are no time constraints.
+> - Structured output is consistent, but deep judgment still relies on humans. Tables, sections, and formatted documents are reliably generated, but for areas requiring industry experience and subjective judgment (e.g., credit risk qualitative assessment, renovation budget reasonableness), it's more "well-sourced synthesis" than "expert-level insight."
+> - Memory and context continuity perform well. Across sessions, it remembers your preferences, ongoing projects, and historical decisions — no need to re-explain background every time, which saves significant communication overhead.
 
 **Why this matters:** If CoCo passes the bar at a state-owned bank — an environment with strict documentation standards, regulatory scrutiny, and senior executives who review every word — it will work in your organization. This isn't a startup using AI for speed hacks. This is a serious institution using it for serious work.
 
