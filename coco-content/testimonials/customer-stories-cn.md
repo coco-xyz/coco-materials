@@ -219,7 +219,7 @@ CoCo 扫描了 **325 个关注账号**，找出 **4 条近期 KOL 推文**，附
 
 **完整 CRM 设计与 SOP：**
 
-![CoCo CRM 设计与 SOP](https://raw.githubusercontent.com/coco-xyz/coco-materials/main/coco-content/testimonials/images/coco-crm-design-sop.png)
+<img src="https://raw.githubusercontent.com/coco-xyz/coco-materials/main/coco-content/testimonials/images/coco-crm-design-sop.png" alt="CoCo CRM 设计与 SOP" width="400">
 
 **为什么这个案例重要：** CoCo 团队用 CoCo 做的，不是把原有工作加速一点点——而是让原本根本不会存在的运营流水线跑起来了，因为用传统方式搭需要几周时间和真金白银。
 

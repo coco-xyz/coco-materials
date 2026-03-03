@@ -219,7 +219,7 @@ The result: a 7-sheet Lark Sheets CRM with three automated daily pipelines runni
 
 **Full CRM design and SOP:**
 
-![CoCo CRM Design & SOP](https://raw.githubusercontent.com/coco-xyz/coco-materials/main/coco-content/testimonials/images/coco-crm-design-sop.png)
+<img src="https://raw.githubusercontent.com/coco-xyz/coco-materials/main/coco-content/testimonials/images/coco-crm-design-sop.png" alt="CoCo CRM Design & SOP" width="400">
 
 **Why this matters:** CoCo's team doesn't use CoCo to make their existing work slightly faster. They use it to run operations that wouldn't exist otherwise — because building them the traditional way would have taken weeks and cost real money.
 
