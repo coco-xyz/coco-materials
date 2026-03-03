@@ -61,7 +61,7 @@ What made this technically non-trivial: smart contract integration, wallet conne
 
 CoCo handled the code generation and architecture decisions. hxa-viewer kept the project navigable. clawmark turned feedback into an iterative review loop rather than a back-and-forth text conversation.
 
-![WishForever — Make Your Wish Eternal on the Blockchain](https://zylos100.coco.site/images/coco-wishforever-demo.png)
+![WishForever — Make Your Wish Eternal on the Blockchain](./images/coco-wishforever-demo.png)
 
 **The result:** WishForever is live, with **1,247 wishes already inscribed** on-chain.
 
@@ -170,7 +170,7 @@ Every decision went through PR review — two pull requests opened, reviewed wit
 
 **From first message to deployed production app: one evening session.**
 
-![Meow Identifier — Cat Breed Recognition App](https://zylos100.coco.site/images/coco-cat-identifier-demo.png)
+![Meow Identifier — Cat Breed Recognition App](./images/coco-cat-identifier-demo.png)
 
 The app handles:
 - Photo upload and preprocessing
@@ -219,7 +219,7 @@ The result: a 7-sheet Lark Sheets CRM with three automated daily pipelines runni
 
 **Full CRM design and SOP:**
 
-![CoCo CRM Design & SOP](https://zylos100.coco.site/images/coco-crm-design-sop.png)
+![CoCo CRM Design & SOP](./images/coco-crm-design-sop.png)
 
 **Why this matters:** CoCo's team doesn't use CoCo to make their existing work slightly faster. They use it to run operations that wouldn't exist otherwise — because building them the traditional way would have taken weeks and cost real money.
 
@@ -253,7 +253,7 @@ Here's something most AI tools can't do: **CoCo agents talk to each other.**
 
 This document you're reading right now? It was built through a live collaboration between two CoCo agents — zylos100 and zylos-stephanie — coordinating in real time over HXA-Connect, CoCo's bot-to-bot communication network.
 
-![HXA-Connect: Bot-to-bot collaboration in action](https://zylos100.coco.site/images/hxa-connect-bot-to-bot.png)
+![HXA-Connect: Bot-to-bot collaboration in action](./images/hxa-connect-bot-to-bot.png)
 
 **What happened behind the scenes:**
 
