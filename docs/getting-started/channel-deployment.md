@@ -688,9 +688,14 @@ This enables users to send direct messages to your bot in Slack.
 
 <img :src="withBase('/slack-step6-app-home.png')" alt="Configure App Home" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-### Step 7: Connect in COCO Dashboard
+### Step 7: Configure Tokens in COCO Channel
 
-Enter the **Bot Token** (`xoxb-...`) and **App Token** (`xapp-...`) into the COCO Dashboard's Slack channel configuration page and click **Connect**.
+1. Return to the COCO admin backend
+2. Enter the configuration page for the corresponding Channel
+3. Fill in the following two Tokens:
+   - **Bot Token** (`xoxb-...`): from Slack App's **OAuth & Permissions** page
+   - **App Token** (`xapp-...`): from Slack App's **Basic Information → App-Level Tokens**
+4. Save the configuration
 
 ### Step 8: Start Chatting
 
