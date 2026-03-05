@@ -690,12 +690,11 @@ This enables users to send direct messages to your bot in Slack.
 
 ### Step 7: Configure Tokens in COCO Channel
 
-1. Return to the COCO admin backend
-2. Enter the configuration page for the corresponding Channel
-3. Fill in the following two Tokens:
-   - **Bot Token** (`xoxb-...`): from Slack App's **OAuth & Permissions** page
-   - **App Token** (`xapp-...`): from Slack App's **Basic Information → App-Level Tokens**
-4. Save the configuration
+1. Return to the [COCO Dashboard](https://coco.site/dashboard) and enter the configuration page for the corresponding Channel
+2. Fill in the following two Tokens:
+   - **Bot Token** (`xoxb-...`): from Slack App's [OAuth & Permissions](https://api.slack.com/apps) page
+   - **App Token** (`xapp-...`): the token generated in Step 2 above
+3. Save the configuration
 
 ### Step 8: Start Chatting
 
