@@ -16,7 +16,7 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 | DingTalk (钉钉) | Available | Domestic teams, no public callback needed |
 | WhatsApp | Coming Soon | International business users |
 | Discord | Coming Soon | Developer/community scenarios |
-| Slack | Planned | European/US enterprise users |
+| [Slack](#slack) | Available | European/US enterprise users |
 
 > **Tip:** You can connect multiple channels simultaneously. Your AI employee responds across all connected channels. Pro plan supports Telegram + Lark dual-channel access.
 
@@ -582,3 +582,136 @@ Search for the Bot name in DingTalk and start chatting with your AI employee.
 | Application not visible to team members | Check the Visible Scope in version publishing — ensure all intended users are included |
 | Bot not responding in group | Confirm the robot has been added to the group and use @mention to trigger |
 | AppSecret forgotten | View or reset in the application credentials page |
+
+---
+
+## Option E: Slack Deployment {#slack}
+
+**Estimated time: 8-12 minutes**
+
+> **Note:** Slack is widely used by European and US enterprises for team collaboration. Slack uses **Socket Mode** (WebSocket connection), so no public callback URL is needed — deployment is straightforward.
+
+Two credentials are required:
+
+| Credential | Format | Description |
+|------------|--------|-------------|
+| Bot Token | `xoxb-...` | Bot User OAuth Token, used to call the Slack API |
+| App Token | `xapp-...` | App-Level Token, used for Socket Mode connection |
+
+### Step 1: Create a Slack App
+
+1. Visit [Slack App Management](https://api.slack.com/apps) and log in
+2. Click **Create New App** in the top-right corner
+3. Select **From scratch** in the popup
+4. Enter your App name (e.g., `COCO AI Employee`) and select the Workspace to install to
+5. Click **Create App** to finish
+
+<img :src="withBase('/slack-step1-create-app.png')" alt="Create Slack App" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+### Step 2: Enable Socket Mode and Generate App Token
+
+1. In the App settings left sidebar, find **Socket Mode**
+2. Toggle **Enable Socket Mode** on
+3. When prompted to generate an App-Level Token:
+   - Name the Token (e.g., `zylos-socket`)
+   - Add Scope: search and select **`connections:write`**
+   - Click **Generate**
+4. Copy and save the generated Token (format: `xapp-...`)
+
+<img :src="withBase('/slack-step2-socket-mode-new.png')" alt="Enable Socket Mode" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+<img :src="withBase('/slack-step2-generate-token.png')" alt="Generate App-Level Token" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+> **Important:** The App Token is displayed only once after generation. Save it immediately. If lost, you'll need to regenerate it.
+
+### Step 3: Configure Bot Token Scopes
+
+1. In the left sidebar, go to **OAuth & Permissions**
+2. Scroll down to the **Scopes** section
+3. Under **Bot Token Scopes**, click **Add an OAuth Scope** and add the following permissions:
+
+| Scope | Purpose |
+|-------|---------|
+| `app_mentions:read` | Read @mentions of the bot |
+| `channels:history` | Read messages in public channels |
+| `channels:read` | View basic channel info |
+| `chat:write` | Send messages as the bot |
+| `files:read` | Read files shared with the bot |
+| `files:write` | Upload files |
+| `groups:history` | Read messages in private channels |
+| `groups:read` | View basic private channel info |
+| `im:history` | Read direct message history |
+| `im:read` | View basic DM info |
+| `im:write` | Start direct messages |
+| `reactions:read` | Read emoji reactions |
+| `reactions:write` | Add emoji reactions |
+| `users:read` | View user info |
+
+<img :src="withBase('/slack-step3-scopes-new.png')" alt="Configure Bot Token Scopes" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+### Step 4: Install App to Workspace
+
+1. Go back to the top of the **OAuth & Permissions** page
+2. Click **Install to Workspace** (or **Reinstall to Workspace**)
+3. Confirm the permissions in the authorization popup, click **Allow**
+4. After installation, copy and save the **Bot User OAuth Token** (format: `xoxb-...`)
+
+<img :src="withBase('/slack-step4-install.png')" alt="Install App to Workspace" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+> **Important:** Each time you modify Scopes, you must reinstall the App to Workspace. The Token will be regenerated — update your configuration accordingly.
+
+### Step 5: Enable Event Subscriptions
+
+1. In the left sidebar, go to **Event Subscriptions**
+2. Toggle **Enable Events** on
+3. Expand **Subscribe to bot events**, click **Add Bot User Event**, and add:
+
+| Event | Purpose |
+|-------|---------|
+| `message.im` | Receive direct messages |
+| `message.channels` | Receive messages in public channels |
+| `message.groups` | Receive messages in private channels |
+| `app_mention` | Receive @mentions |
+
+4. Click **Save Changes** at the bottom
+
+<img :src="withBase('/slack-step5-events.png')" alt="Enable Event Subscriptions" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+### Step 6: Configure App Home
+
+1. In the left sidebar, go to **App Home**
+2. Under **Show Tabs**:
+   - Check **Messages Tab**
+   - Check **Allow users to send Slash commands and messages from the messages tab**
+
+This enables users to send direct messages to your bot in Slack.
+
+<img :src="withBase('/slack-step6-app-home.png')" alt="Configure App Home" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+### Step 7: Configure Tokens in COCO Channel
+
+1. Return to the [COCO Dashboard](https://coco.site/dashboard) and enter the configuration page for the corresponding Channel
+2. Fill in the following two Tokens:
+   - **Bot Token** (`xoxb-...`): from Slack App's [OAuth & Permissions](https://api.slack.com/apps) page
+   - **App Token** (`xapp-...`): the token generated in Step 2 above
+3. Save the configuration
+
+### Step 8: Start Chatting
+
+1. In Slack, search for your Bot name or find it in the **Apps** list
+2. Click to start a DM conversation — AI employee responds immediately
+3. To use in a channel, invite the Bot by typing `/invite @BotName` in the channel
+4. @mention your Bot to trigger responses in the channel
+5. Deployment complete!
+
+> **Tip:** Slack Bot supports both DMs and channel @mentions. You can use it across multiple channels simultaneously.
+
+### Slack FAQ
+
+| Issue | Solution |
+|-------|----------|
+| Bot not responding | Verify both Bot Token and App Token are correct in the Dashboard |
+| Bot not visible in Slack | Ensure the App is installed to Workspace (Step 4) and App Home is configured (Step 6) |
+| Bot not responding in channels | The Bot must be invited to the channel first using `/invite @BotName` |
+| Token regenerated after scope change | Reinstall the App to Workspace after any scope modification, then update tokens in Dashboard |
+| Cannot send DMs to Bot | Confirm Messages Tab is enabled in App Home settings |
