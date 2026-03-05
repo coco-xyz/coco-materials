@@ -117,73 +117,71 @@ Lark (international) and Feishu (domestic China) have slightly different interfa
 
 #### Step 3: Configure Permissions
 
-In the app management page, go to **Permissions & Scopes** and enable:
-
-**Required Permissions (minimum set):**
-
-| Permission | Permission ID | Purpose |
-|-----------|---------------|---------|
-| Send & receive messages | `im:message` | AI sends and receives messages |
-| Read group @bot messages | `im:message.group_at_msg:readonly` | Receive @mentions in groups (required, otherwise bot won't respond in group chats) |
-| Get group info | `im:chat:readonly` | Identify chat groups |
-| Get user info | `contact:user.base:readonly` | Identify users |
-
-**Recommended Permissions (enhanced experience):**
-
-| Permission | Permission ID | Purpose |
-|-----------|---------------|---------|
-| Upload/download files | `im:resource` | AI handles files and images |
-
-::: details Quick Setup: Batch Import Permissions via JSON
-
-Instead of adding permissions one by one, you can paste the following JSON to import all permissions at once. **Document-related permissions are optional** — only add them if you want the bot to read Lark Docs, Sheets, or Wiki.
+In the app management page, go to **Permissions & Scopes**. Copy the following JSON and import all permissions at once:
 
 ```json
 {
   "scopes": {
     "tenant": [
-      // ── Core Messaging ──
+      "contact:contact.base:readonly",
+      "contact:user.base:readonly",
+      "im:app_feed_card:write",
+      "im:chat",
+      "im:chat.announcement:read",
+      "im:chat.announcement:write_only",
+      "im:chat.chat_pins:read",
+      "im:chat.chat_pins:write_only",
+      "im:chat.collab_plugins:read",
+      "im:chat.collab_plugins:write_only",
+      "im:chat.labels",
+      "im:chat.managers:write_only",
+      "im:chat.members:bot_access",
+      "im:chat.members:read",
+      "im:chat.members:write_only",
+      "im:chat.menu_tree:read",
+      "im:chat.menu_tree:write_only",
+      "im:chat.moderation:read",
+      "im:chat.tabs:read",
+      "im:chat.tabs:write_only",
+      "im:chat.top_notice:write_only",
+      "im:chat.widgets:read",
+      "im:chat.widgets:write_only",
+      "im:chat:create",
+      "im:chat:delete",
+      "im:chat:moderation:write_only",
+      "im:chat:operate_as_owner",
+      "im:chat:read",
+      "im:chat:readonly",
+      "im:chat:update",
+      "im:datasync.feed_card.time_sensitive:write",
       "im:message",
       "im:message.group_at_msg:readonly",
       "im:message.group_msg",
       "im:message.group_msg:readonly",
       "im:message.p2p_msg:readonly",
-      "im:message:readonly",
-      "im:message:recall",
-      "im:message:send_as_bot",
-      "im:message:send_multi_users",
-      "im:message:update",
-
-      // ── Chat & Contacts ──
-      "im:chat.members:bot_access",
-      "im:chat:readonly",
-      "contact:contact.base:readonly",
-      "contact:user.base:readonly",
-      "contact:user.employee_id:readonly",
-      "contact:user.id:readonly",
-
-      // ── Media & Interactions ──
-      "im:resource",
       "im:message.pins:read",
       "im:message.pins:write_only",
       "im:message.reactions:read",
       "im:message.reactions:write_only",
+      "im:message.urgent",
+      "im:message.urgent:phone",
+      "im:message.urgent:sms",
+      "im:message:readonly",
+      "im:message:recall",
+      "im:message:send_as_bot",
+      "im:message:send_multi_depts",
+      "im:message:send_sys_msg",
+      "im:message:update",
+      "im:resource",
       "im:url_preview.update",
-
-      // ── Documents (optional — add only if you want the bot to read Lark Docs) ──
-      "bitable:app:readonly",
-      "calendar:calendar:readonly",
-      "docs:doc:readonly",
-      "docx:document:readonly",
-      "sheets:spreadsheet:readonly",
-      "wiki:wiki:readonly"
+      "im:user_agent:read"
     ],
     "user": []
   }
 }
 ```
 
-:::
+> **Scope overview:** The scopes above cover contacts (read), chat management (full), messaging (send/receive/recall/pin/react), group @mention listening, urgent messages, file resources, and feed cards. The `im:message:send_multi_depts` scope replaces the older `im:message:send_multi_users` name used in previous versions of the platform. Lark and Feishu share the same API -- the scope sets are identical.
 
 After enabling, click **Create Version** to submit for admin approval.
 
@@ -271,72 +269,71 @@ After configuring event subscriptions, you need to get the **Verification Token*
 
 In the app management page, first add the **Bot** capability by clicking **+ Add**, then go to **Permission Management** in the left sidebar.
 
-In the Permission Management page, click **Enable Permissions** to search and add required permissions. Type the Permission ID (e.g., `im:message`), check the needed permissions, then click **Confirm**.
-
-**Required Permissions:**
-
-| Permission | Permission ID | Purpose |
-|-----------|---------------|---------|
-| Send & receive messages | `im:message` | AI sends and receives messages |
-| Read group @bot messages | `im:message.group_at_msg:readonly` | Receive @mentions in groups (required, otherwise bot won't respond in group chats) |
-| Get group info | `im:chat:readonly` | Identify chat groups |
-| Get user info | `contact:user.base:readonly` | Identify users |
-
-**Recommended Permissions:**
-
-| Permission | Permission ID | Purpose |
-|-----------|---------------|---------|
-| Upload/download files | `im:resource` | AI handles files and images |
-
-::: details Quick Setup: Batch Import Permissions via JSON
-
-Instead of adding permissions one by one, you can paste the following JSON to import all permissions at once. **Document-related permissions are optional** — only add them if you want the bot to read Feishu Docs, Sheets, or Wiki.
+In the Permission Management page, copy the following JSON and import all permissions at once:
 
 ```json
 {
   "scopes": {
     "tenant": [
-      // ── Core Messaging ──
+      "contact:contact.base:readonly",
+      "contact:user.base:readonly",
+      "im:app_feed_card:write",
+      "im:chat",
+      "im:chat.announcement:read",
+      "im:chat.announcement:write_only",
+      "im:chat.chat_pins:read",
+      "im:chat.chat_pins:write_only",
+      "im:chat.collab_plugins:read",
+      "im:chat.collab_plugins:write_only",
+      "im:chat.labels",
+      "im:chat.managers:write_only",
+      "im:chat.members:bot_access",
+      "im:chat.members:read",
+      "im:chat.members:write_only",
+      "im:chat.menu_tree:read",
+      "im:chat.menu_tree:write_only",
+      "im:chat.moderation:read",
+      "im:chat.tabs:read",
+      "im:chat.tabs:write_only",
+      "im:chat.top_notice:write_only",
+      "im:chat.widgets:read",
+      "im:chat.widgets:write_only",
+      "im:chat:create",
+      "im:chat:delete",
+      "im:chat:moderation:write_only",
+      "im:chat:operate_as_owner",
+      "im:chat:read",
+      "im:chat:readonly",
+      "im:chat:update",
+      "im:datasync.feed_card.time_sensitive:write",
       "im:message",
       "im:message.group_at_msg:readonly",
       "im:message.group_msg",
+      "im:message.group_msg:readonly",
       "im:message.p2p_msg:readonly",
-      "im:message:readonly",
-      "im:message:recall",
-      "im:message:send_as_bot",
-      "im:message:send_multi_users",
-      "im:message:update",
-
-      // ── Chat & Contacts ──
-      "im:chat.members:bot_access",
-      "im:chat:readonly",
-      "contact:contact.base:readonly",
-      "contact:user.base:readonly",
-      "contact:user.employee_id:readonly",
-      "contact:user.id:readonly",
-
-      // ── Media & Interactions ──
-      "im:resource",
       "im:message.pins:read",
       "im:message.pins:write_only",
       "im:message.reactions:read",
       "im:message.reactions:write_only",
+      "im:message.urgent",
+      "im:message.urgent:phone",
+      "im:message.urgent:sms",
+      "im:message:readonly",
+      "im:message:recall",
+      "im:message:send_as_bot",
+      "im:message:send_multi_depts",
+      "im:message:send_sys_msg",
+      "im:message:update",
+      "im:resource",
       "im:url_preview.update",
-
-      // ── Documents (optional — add only if you want the bot to read Feishu Docs) ──
-      "bitable:app:readonly",
-      "calendar:calendar:readonly",
-      "docs:doc:readonly",
-      "docx:document:readonly",
-      "sheets:spreadsheet:readonly",
-      "wiki:wiki:readonly"
+      "im:user_agent:read"
     ],
     "user": []
   }
 }
 ```
 
-:::
+> **Lark/Feishu scope parity:** Feishu (domestic) and Lark (international) share the same API, so the scope sets above are identical. The scope `im:message:send_multi_depts` replaces the older `im:message:send_multi_users` name used in previous versions of the platform.
 
 After enabling, click **Publish Version** to submit for admin approval.
 
