@@ -181,7 +181,7 @@ In the app management page, go to **Permissions & Scopes**. Copy the following J
 }
 ```
 
-> **Scope overview:** The scopes above cover contacts (read), chat management (full), messaging (send/receive/recall/pin/react), group @mention listening, urgent messages, file resources, and feed cards. The `im:message:send_multi_depts` scope replaces the older `im:message:send_multi_users` name used in previous versions of the platform. Lark and Feishu share the same API -- the scope sets are identical.
+> **Scope overview:** The scopes above cover contacts (read), chat management (full), messaging (send/receive/recall/pin/react), group @mention listening, urgent messages, file resources, and feed cards. The `im:message:send_multi_depts` scope replaces the older `im:message:send_multi_users` name used in previous versions of the platform. The Feishu (domestic China) version uses a slightly smaller scope set — see the [Feishu section](#feishu) for details.
 
 After enabling, click **Create Version** to submit for admin approval.
 
@@ -285,7 +285,6 @@ In the Permission Management page, copy the following JSON and import all permis
       "im:chat.chat_pins:write_only",
       "im:chat.collab_plugins:read",
       "im:chat.collab_plugins:write_only",
-      "im:chat.labels",
       "im:chat.managers:write_only",
       "im:chat.members:bot_access",
       "im:chat.members:read",
@@ -309,7 +308,6 @@ In the Permission Management page, copy the following JSON and import all permis
       "im:message",
       "im:message.group_at_msg:readonly",
       "im:message.group_msg",
-      "im:message.group_msg:readonly",
       "im:message.p2p_msg:readonly",
       "im:message.pins:read",
       "im:message.pins:write_only",
@@ -333,7 +331,7 @@ In the Permission Management page, copy the following JSON and import all permis
 }
 ```
 
-> **Lark/Feishu scope parity:** Feishu (domestic) and Lark (international) share the same API, so the scope sets above are identical. The scope `im:message:send_multi_depts` replaces the older `im:message:send_multi_users` name used in previous versions of the platform.
+> **Feishu vs Lark scopes:** The Feishu (domestic China) scope set above differs slightly from the Lark (international) version. Two scopes — `im:chat.labels` and `im:message.group_msg:readonly` — are not supported on the Feishu China platform and have been removed. All other scopes are identical.
 
 After enabling, click **Publish Version** to submit for admin approval.
 
