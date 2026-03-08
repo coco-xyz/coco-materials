@@ -45,6 +45,9 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 </video>
 
 ### Step 1: Create a Telegram Bot
+
+<img :src="withBase('/tg-botfather-create.png')" alt="Create a Telegram Bot — Complete 4 steps via BotFather" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
 1. Open Telegram, search for **@BotFather** (official bot manager)
 2. Send `/newbot` command
 3. Enter your Bot display name (e.g., `My COCO AI`)
@@ -68,6 +71,8 @@ In @BotFather:
 3. Paste the **Bot Token** from Step 1
 4. Click **Verify and Connect**
 5. System automatically validates the Token and completes connection
+
+<img :src="withBase('/tg-dashboard-token.png')" alt="Enter Bot Token in COCO Dashboard and verify connection" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 ### Step 4: Start Using
 1. In Telegram, search for your Bot username (e.g., `@my_coco_ai_bot`)
