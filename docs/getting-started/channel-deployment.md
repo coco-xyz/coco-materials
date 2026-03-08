@@ -40,7 +40,14 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 
 **Estimated time: 5-8 minutes**
 
+<video controls style="max-width: 720px; width: 100%; border-radius: 8px; margin: 1rem 0;">
+  <source src="https://github.com/coco-xyz/coco-materials/releases/download/assets-v1/tg-deploy-guide-v1.7.mp4" type="video/mp4">
+</video>
+
 ### Step 1: Create a Telegram Bot
+
+<img :src="withBase('/tg-botfather-create.png')" alt="Create a Telegram Bot — Complete 4 steps via BotFather" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
 1. Open Telegram, search for **@BotFather** (official bot manager)
 2. Send `/newbot` command
 3. Enter your Bot display name (e.g., `My COCO AI`)
