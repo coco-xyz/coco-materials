@@ -42,7 +42,7 @@ import { withBase } from 'vitepress'
 **预计耗时：5-8分钟**
 
 <video controls style="max-width: 720px; width: 100%; border-radius: 8px; margin: 1rem 0;">
-  <source src="https://zylos150.coco.site/tg-deploy-guide-v1.7.mp4" type="video/mp4">
+  <source src="https://github.com/coco-xyz/coco-materials/releases/download/assets-v1/tg-deploy-guide-v1.7.mp4" type="video/mp4">
 </video>
 
 #### 第1步：创建Telegram Bot

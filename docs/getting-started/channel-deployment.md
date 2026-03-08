@@ -41,7 +41,7 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 **Estimated time: 5-8 minutes**
 
 <video controls style="max-width: 720px; width: 100%; border-radius: 8px; margin: 1rem 0;">
-  <source src="https://zylos150.coco.site/tg-deploy-guide-v1.7.mp4" type="video/mp4">
+  <source src="https://github.com/coco-xyz/coco-materials/releases/download/assets-v1/tg-deploy-guide-v1.7.mp4" type="video/mp4">
 </video>
 
 ### Step 1: Create a Telegram Bot
