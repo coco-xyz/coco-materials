@@ -41,7 +41,14 @@ import { withBase } from 'vitepress'
 
 **预计耗时：5-8分钟**
 
+<video controls style="max-width: 720px; width: 100%; border-radius: 8px; margin: 1rem 0;">
+  <source src="https://zylos150.coco.site/tg-deploy-guide-v1.7.mp4" type="video/mp4">
+</video>
+
 #### 第1步：创建Telegram Bot
+
+<img :src="withBase('/tg-botfather-create.png')" alt="创建 Telegram 机器人 — 通过 BotFather 完成4步操作" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
 1. 打开 Telegram，搜索 **@BotFather**（Telegram官方机器人管理器）
 2. 发送 `/newbot` 命令
 3. 按提示输入你的Bot名称（显示名），例如：`My COCO AI`
@@ -60,16 +67,13 @@ import { withBase } from 'vitepress'
 
 #### 第3步：在COCO Dashboard绑定
 
-> **免费试用期提示：** 在免费试用期间，支付和自动化配置步骤将被跳过。完成 Bot 创建后，请将你的 **Bot Token** 提供给 COCO 技术团队，我们将人工协助完成配置。配置过程可能需要一定时间，我们会在 **24小时内** 为你完成部署。
-
-<!--
 1. 登录 [COCO Dashboard](https://coco.xyz/dashboard)
-2. 进入 **Connect** 或 **Channels** 页面
-3. 选择 **Telegram**
-4. 粘贴上一步获取的 Bot Token
-5. 点击 **验证并连接**
-6. 系统会自动验证Token有效性并完成连接
--->
+2. 进入渠道配置页面，选择 **Telegram**
+3. 粘贴上一步获取的 **Bot Token**
+4. 点击 **验证并连接**
+5. 系统会自动验证Token有效性并完成连接
+
+<img :src="withBase('/tg-dashboard-token.png')" alt="在 COCO Dashboard 中输入 Bot Token 并验证连接" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 #### 第4步：开始使用
 1. 在Telegram中搜索你创建的Bot用户名（如 `@my_coco_ai_bot`）
