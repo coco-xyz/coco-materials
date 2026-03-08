@@ -41,7 +41,7 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 **Estimated time: 5-8 minutes**
 
 <video controls style="max-width: 720px; width: 100%; border-radius: 8px; margin: 1rem 0;">
-  <source src="https://github.com/coco-xyz/coco-materials/releases/download/assets-v1/tg-deploy-guide-v1.7.mp4" type="video/mp4">
+  <source src="https://github.com/coco-xyz/coco-materials/releases/download/assets-v1/tg-deploy-guide-en-v1.7.mp4" type="video/mp4">
 </video>
 
 ### Step 1: Create a Telegram Bot
@@ -100,6 +100,10 @@ In @BotFather:
 Lark (international) and Feishu (domestic China) have slightly different interfaces. Choose the guide that matches your platform:
 
 ### Lark Deployment (Recommended for international teams) {#lark}
+
+<video controls style="max-width: 720px; width: 100%; border-radius: 8px; margin: 1rem 0;">
+  <source src="https://github.com/coco-xyz/coco-materials/releases/download/assets-v1/lark-deploy-guide-en-v1.7.mp4" type="video/mp4">
+</video>
 
 #### Step 1: Access Lark Open Platform
 
@@ -244,6 +248,18 @@ In the app management page, go to **Permissions & Scopes**. Copy the following J
 ---
 
 ### Feishu Deployment (Recommended for domestic China teams) {#feishu}
+
+**WebSocket (Recommended):** Simplest setup — only needs App ID and App Secret, no Webhook URL or verification required.
+
+<video controls style="max-width: 720px; width: 100%; border-radius: 8px; margin: 1rem 0;">
+  <source src="https://github.com/coco-xyz/coco-materials/releases/download/assets-v1/feishu_ws_en_v17.mp4" type="video/mp4">
+</video>
+
+**Webhook (Traditional):** Feishu pushes events to a Webhook URL — requires Verification Token configuration.
+
+<video controls style="max-width: 720px; width: 100%; border-radius: 8px; margin: 1rem 0;">
+  <source src="https://github.com/coco-xyz/coco-materials/releases/download/assets-v1/feishu_wh_en_v17.mp4" type="video/mp4">
+</video>
 
 #### Step 1: Access Feishu Open Platform
 
