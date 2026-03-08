@@ -40,7 +40,14 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 
 **Estimated time: 5-8 minutes**
 
+<video controls style="max-width: 720px; width: 100%; border-radius: 8px; margin: 1rem 0;">
+  <source src="https://github.com/coco-xyz/coco-materials/releases/download/assets-v1/tg-deploy-guide-v1.7.mp4" type="video/mp4">
+</video>
+
 ### Step 1: Create a Telegram Bot
+
+<img :src="withBase('/tg-botfather-create.png')" alt="Create a Telegram Bot — Complete 4 steps via BotFather" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
 1. Open Telegram, search for **@BotFather** (official bot manager)
 2. Send `/newbot` command
 3. Enter your Bot display name (e.g., `My COCO AI`)
@@ -59,16 +66,13 @@ In @BotFather:
 
 ### Step 3: Connect in COCO Dashboard
 
-> **Free Trial Note:** During the free trial period, payment and automated setup steps are skipped. After creating your Bot, please provide your **Bot Token** to the COCO technical team. Our team will manually assist with the configuration. This may take some time — we will complete your deployment within **24 hours**.
+1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
+2. Go to the channel configuration page, select **Telegram**
+3. Paste the **Bot Token** from Step 1
+4. Click **Verify and Connect**
+5. System automatically validates the Token and completes connection
 
-<!--
-1. Log into [COCO Dashboard](https://coco.site/dashboard)
-2. Go to **Connect** or **Channels** page
-3. Select **Telegram**
-4. Paste the Bot Token from Step 1
-5. Click **Verify and Connect**
-6. System automatically validates the Token and completes connection
--->
+<img :src="withBase('/tg-dashboard-token.png')" alt="Enter Bot Token in COCO Dashboard and verify connection" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 ### Step 4: Start Using
 1. In Telegram, search for your Bot username (e.g., `@my_coco_ai_bot`)
