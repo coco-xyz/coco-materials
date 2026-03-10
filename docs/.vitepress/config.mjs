@@ -61,8 +61,9 @@ export default defineConfig({
       const prefix = base.replace(/\/$/, '')
       // Fix src/href attributes for public assets that lack the base prefix
       // (covers raw HTML <img>/<video> tags in markdown)
+      const escapedPrefix = prefix.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
       return code
-        .replace(/src="\/(?!docs\/|assets\/|http)/g, `src="${prefix}/`)
+        .replace(new RegExp(`src="\\/(?!docs\\/|assets\\/|http|${escapedPrefix.slice(1)}\\/)`, 'g'), `src="${prefix}/`)
         .replace(/href="\/coco-icon\.png"/g, `href="${prefix}/coco-icon.png"`)
     }
     return code
