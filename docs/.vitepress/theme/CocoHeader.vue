@@ -22,7 +22,7 @@ const navItems = computed(() => {
         {
           title: isZh ? '案例研究' : 'Case Studies',
           items: [
-            { icon: '📊', text: isZh ? 'CoCo CRM' : 'CoCo CRM', desc: isZh ? 'AI 搭建，AI 运营' : 'Built by AI, Run by AI', link: isZh ? '/zh/case-studies/crm' : '/case-studies/crm' },
+            { icon: '📊', text: isZh ? 'COCO CRM' : 'COCO CRM', desc: isZh ? 'AI 搭建，AI 运营' : 'Built by AI, Run by AI', link: isZh ? '/zh/case-studies/crm' : '/case-studies/crm' },
             { icon: '📱', text: isZh ? '社媒自动化' : 'Social Media & BD', desc: isZh ? '两家公司，同一个突破' : 'Two Companies, One Breakthrough', link: isZh ? '/zh/case-studies/social-media' : '/case-studies/social-media' },
           ]
         },

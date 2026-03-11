@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "CoCo CRM — AI 搭建，AI 运营"
+title: "COCO CRM — AI 搭建，AI 运营"
 description: "一套由 AI Agent 从零设计、搭建并每天自动运营的 CRM 系统。不是辅助工具，是真正的数字员工。"
 head:
   - - meta
     - property: og:title
-      content: "CoCo CRM — Built by AI, Run by AI"
+      content: "COCO CRM — Built by AI, Run by AI"
   - - meta
     - property: og:description
       content: "A complete CRM system designed, built, and operated daily by an AI Agent."
@@ -795,7 +795,7 @@ head:
 
 <div class="case-hero">
   <div class="hero-text-box">
-    <h1>CoCo CRM<br/><em>由 AI 搭建，由 AI 运营</em></h1>
+    <h1>COCO CRM<br/><em>由 AI 搭建，由 AI 运营</em></h1>
     <p class="subtitle">一个 AI Agent 用一个晚上设计了 7 张表的完整 CRM，<br/>然后每天自动运营——巡检、对账、报告，零人工介入。</p>
     <div class="hero-stats">
       <div class="stat">
@@ -819,7 +819,7 @@ head:
 
 ## 背景：<em>用自己的产品运营自己</em>
 
-CoCo 团队需要追踪从注册到试用到付费的完整销售流程。传统做法是：买一个 SaaS CRM、花几周配置、再安排人每天维护。
+COCO 团队需要追踪从注册到试用到付费的完整销售流程。传统做法是：买一个 SaaS CRM、花几周配置、再安排人每天维护。
 
 他们选了另一条路——让 AI Agent **Zylos** 直接设计并搭建整套系统。
 
@@ -827,7 +827,7 @@ CoCo 团队需要追踪从注册到试用到付费的完整销售流程。传统
 
 <div class="video-showcase">
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/u7o-1GCO89E" title="CoCo CRM 自动化演示" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/u7o-1GCO89E" title="COCO CRM 自动化演示" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 
@@ -988,7 +988,7 @@ CoCo 团队需要追踪从注册到试用到付费的完整销售流程。传统
 
 ## 为什么这个案例重要
 
-CoCo 团队用 CoCo 做的，不是把原有工作加速一点点——而是让原本**根本不会存在**的运营流水线跑起来了，因为用传统方式搭需要几周时间和真金白银。
+COCO 团队用 COCO 做的，不是把原有工作加速一点点——而是让原本**根本不会存在**的运营流水线跑起来了，因为用传统方式搭需要几周时间和真金白银。
 
 这是一个简单的验证：**如果 AI 连自己公司的 CRM 都能从零搭建并持续运营，它也能为你做同样的事。**
 
@@ -997,7 +997,7 @@ CoCo 团队用 CoCo 做的，不是把原有工作加速一点点——而是让
 <div class="blog-meta">
   <div class="blog-meta-item">
     <span class="blog-meta-label">Written by</span>
-    <span class="blog-meta-value">CoCo Team</span>
+    <span class="blog-meta-value">COCO Team</span>
   </div>
   <div class="blog-meta-item">
     <span class="blog-meta-label">Published on</span>
@@ -1008,8 +1008,8 @@ CoCo 团队用 CoCo 做的，不是把原有工作加速一点点——而是让
 <div class="case-section">
   <div class="case-cta">
     <h2>让 AI 帮你搭建运营系统</h2>
-    <p>像 CoCo 一样，从一个需求描述开始</p>
-    <a href="https://coco.xyz" class="cta-btn">开始试用 CoCo</a>
+    <p>像 COCO 一样，从一个需求描述开始</p>
+    <a href="https://coco.xyz" class="cta-btn">开始试用 COCO</a>
   </div>
 </div>
 
@@ -1017,7 +1017,7 @@ CoCo 团队用 CoCo 做的，不是把原有工作加速一点点——而是让
   <div class="blog-divider-shell">🐚</div>
   <h3>更多案例</h3>
   <div class="blog-related-grid">
-    <a class="blog-related-card" href="/docs/zh/case-studies/social-media">
+    <a class="blog-related-card" href="/zh/case-studies/social-media">
       <div class="blog-related-card-img">📱</div>
       <div class="blog-related-card-body">
         <div class="blog-related-card-label">AI Agent 案例研究</div>
