@@ -202,6 +202,8 @@ export default defineConfig({
               text: 'Case Studies',
               items: [
                 { text: 'Capability Showcase', link: '/case-studies/' },
+                { text: 'CoCo CRM — Built by AI, Run by AI', link: '/case-studies/crm' },
+                { text: 'Social Media & BD Automation', link: '/case-studies/social-media' },
               ]
             },
           ],
@@ -328,6 +330,8 @@ export default defineConfig({
               text: '案例研究',
               items: [
                 { text: '能力展示', link: '/zh/case-studies/' },
+                { text: 'CoCo CRM — AI 搭建，AI 运营', link: '/zh/case-studies/crm' },
+                { text: '社媒与 BD 自动化', link: '/zh/case-studies/social-media' },
               ]
             },
           ],
