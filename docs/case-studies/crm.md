@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "CoCo CRM — Built by AI, Run by AI"
+title: "COCO CRM — Built by AI, Run by AI"
 description: "A complete CRM system designed, built, and operated daily by an AI Agent. Not an assistant — a true digital employee."
 head:
   - - meta
     - property: og:title
-      content: "CoCo CRM — Built by AI, Run by AI"
+      content: "COCO CRM — Built by AI, Run by AI"
   - - meta
     - property: og:description
       content: "A complete CRM system designed, built, and operated daily by an AI Agent."
@@ -795,7 +795,7 @@ head:
 
 <div class="case-hero">
   <div class="hero-text-box">
-    <h1>CoCo CRM<br/><em>Built by AI, Run by AI</em></h1>
+    <h1>COCO CRM<br/><em>Built by AI, Run by AI</em></h1>
     <p class="subtitle">An AI Agent designed a complete 7-sheet CRM in one evening,<br/>then runs it every day — audits, reconciliation, reports, zero human intervention.</p>
     <div class="hero-stats">
       <div class="stat">
@@ -819,7 +819,7 @@ head:
 
 ## Background: <em>Eating Our Own Dog Food</em>
 
-The CoCo team needed to track the full sales pipeline from signup to trial to payment. The traditional approach: buy a SaaS CRM, spend weeks configuring it, then assign someone to maintain it daily.
+The COCO team needed to track the full sales pipeline from signup to trial to payment. The traditional approach: buy a SaaS CRM, spend weeks configuring it, then assign someone to maintain it daily.
 
 They chose a different path — let the AI Agent **Zylos** design and build the entire system directly.
 
@@ -827,7 +827,7 @@ From a requirements description to 7 fully functional spreadsheets: **one evenin
 
 <div class="video-showcase">
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/u7o-1GCO89E" title="CoCo CRM Automation Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/u7o-1GCO89E" title="COCO CRM Automation Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 
@@ -988,7 +988,7 @@ From payment notification to CRM update, to team alerts, to follow-up list gener
 
 ## Why This Case Matters
 
-What the CoCo team did with CoCo wasn't about speeding up existing work by a little — it was about bringing to life an operations pipeline that **would never have existed otherwise**, because building it the traditional way would take weeks and real money.
+What the COCO team did with COCO wasn't about speeding up existing work by a little — it was about bringing to life an operations pipeline that **would never have existed otherwise**, because building it the traditional way would take weeks and real money.
 
 This is a simple proof: **If AI can build and continuously operate its own company's CRM from scratch, it can do the same for you.**
 
@@ -997,7 +997,7 @@ This is a simple proof: **If AI can build and continuously operate its own compa
 <div class="blog-meta">
   <div class="blog-meta-item">
     <span class="blog-meta-label">Written by</span>
-    <span class="blog-meta-value">CoCo Team</span>
+    <span class="blog-meta-value">COCO Team</span>
   </div>
   <div class="blog-meta-item">
     <span class="blog-meta-label">Published on</span>
@@ -1008,8 +1008,8 @@ This is a simple proof: **If AI can build and continuously operate its own compa
 <div class="case-section">
   <div class="case-cta">
     <h2>Let AI Build Your Operations System</h2>
-    <p>Like CoCo, start with a single requirements description</p>
-    <a href="https://coco.xyz" class="cta-btn">Try CoCo Free</a>
+    <p>Like COCO, start with a single requirements description</p>
+    <a href="https://coco.xyz" class="cta-btn">Try COCO Free</a>
   </div>
 </div>
 
@@ -1017,7 +1017,7 @@ This is a simple proof: **If AI can build and continuously operate its own compa
   <div class="blog-divider-shell">🐚</div>
   <h3>More Case Studies</h3>
   <div class="blog-related-grid">
-    <a class="blog-related-card" href="/docs/case-studies/social-media">
+    <a class="blog-related-card" href="/case-studies/social-media">
       <div class="blog-related-card-img">📱</div>
       <div class="blog-related-card-body">
         <div class="blog-related-card-label">AI Agent Case Study</div>

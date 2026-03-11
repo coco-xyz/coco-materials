@@ -825,7 +825,7 @@ head:
     <div class="card-label compliance">科技合规</div>
     <h3>某科技合规公司</h3>
     <div class="card-meta">BD 和市场负责人 · 一人扛全部</div>
-    <p>工作覆盖 KOL 监控、内容生产、会议 BD、线索管理——这个范围通常需要好几个专岗。她带着一个具体需求来找 CoCo。</p>
+    <p>工作覆盖 KOL 监控、内容生产、会议 BD、线索管理——这个范围通常需要好几个专岗。她带着一个具体需求来找 COCO。</p>
   </div>
   <div class="company-card">
     <div class="card-label media">科技媒体</div>
@@ -839,7 +839,7 @@ head:
 
 <div class="video-showcase">
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/jFGNry0BohA" title="CoCo 社媒自动化演示" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/jFGNry0BohA" title="COCO 社媒自动化演示" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 
@@ -855,7 +855,7 @@ head:
   <p>找一下某项目关注列表里有哪些 KOL 最近发了新闻，最近两小时的</p>
 </div>
 
-CoCo 扫描了 **325 个关注账号**，找出 **4 条近期 KOL 推文**，附带直链，结果里包括多个头部账号（百万级粉丝）——**几分钟内完成**，不需要人工刷 Twitter。
+COCO 扫描了 **325 个关注账号**，找出 **4 条近期 KOL 推文**，附带直链，结果里包括多个头部账号（百万级粉丝）——**几分钟内完成**，不需要人工刷 Twitter。
 
 这一个交互打开了一场更大的对话。
 
@@ -865,7 +865,7 @@ CoCo 扫描了 **325 个关注账号**，找出 **4 条近期 KOL 推文**，附
 
 ## 从 prompt 到 <em>完整运营模型</em>
 
-CoCo 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
+COCO 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
 
 <div class="workflow-section">
   <div class="workflow-block marketing">
@@ -926,7 +926,7 @@ CoCo 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
 
 ## 媒体团队的 <em>半自动化发布</em>
 
-新加坡的科技媒体小团队接入 CoCo 后：
+新加坡的科技媒体小团队接入 COCO 后：
 
 - AI 数字员工自动生成**符合各平台调性**的内容——Telegram 群、Twitter、Newsletter 各不相同
 - 定时发布到社群和社交媒体渠道
@@ -939,7 +939,7 @@ CoCo 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
   <div class="publish-flow">
     <div class="publish-source">
       <div class="publish-icon">🤖</div>
-      <div class="publish-label">CoCo AI</div>
+      <div class="publish-label">COCO AI</div>
       <div class="publish-sub">内容引擎</div>
     </div>
     <div class="publish-arrows">
@@ -1002,7 +1002,7 @@ CoCo 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
 
 <div class="insight-block">
   <h3>两个案例放在一起看</h3>
-  <p>无论你是合规公司里一个人扛起 BD 和市场的负责人，还是小媒体团队想覆盖整个行业，CoCo 的解法是一样的——<strong>AI 扛产量，人管策略</strong>。谁先发布、谁先触达对的人，谁就赢。</p>
+  <p>无论你是合规公司里一个人扛起 BD 和市场的负责人，还是小媒体团队想覆盖整个行业，COCO 的解法是一样的——<strong>AI 扛产量，人管策略</strong>。谁先发布、谁先触达对的人，谁就赢。</p>
 </div>
 
 </div>
@@ -1010,7 +1010,7 @@ CoCo 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
 <div class="blog-meta">
   <div class="blog-meta-item">
     <span class="blog-meta-label">Written by</span>
-    <span class="blog-meta-value">CoCo Team</span>
+    <span class="blog-meta-value">COCO Team</span>
   </div>
   <div class="blog-meta-item">
     <span class="blog-meta-label">Published on</span>
@@ -1022,7 +1022,7 @@ CoCo 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
   <div class="case-cta">
     <h2>让 AI 接管你的内容产量</h2>
     <p>从一条消息开始，构建完整运营模型</p>
-    <a href="https://coco.xyz" class="cta-btn">开始试用 CoCo</a>
+    <a href="https://coco.xyz" class="cta-btn">开始试用 COCO</a>
   </div>
 </div>
 
@@ -1030,11 +1030,11 @@ CoCo 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
   <div class="blog-divider-shell">🐚</div>
   <h3>更多案例</h3>
   <div class="blog-related-grid">
-    <a class="blog-related-card" href="/docs/zh/case-studies/crm">
+    <a class="blog-related-card" href="/zh/case-studies/crm">
       <div class="blog-related-card-img">📊</div>
       <div class="blog-related-card-body">
         <div class="blog-related-card-label">AI Agent 案例研究</div>
-        <div class="blog-related-card-title">CoCo CRM — AI 搭建，AI 运营</div>
+        <div class="blog-related-card-title">COCO CRM — AI 搭建，AI 运营</div>
         <div class="blog-related-card-desc">一套由 AI Agent 从零设计、搭建并每天自动运营的 CRM 系统。</div>
       </div>
     </a>
