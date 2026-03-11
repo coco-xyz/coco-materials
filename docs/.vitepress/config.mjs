@@ -8,6 +8,10 @@ export default defineConfig({
   base,
   cleanUrls: true,
 
+  sitemap: {
+    hostname: 'https://docs.coco.xyz'
+  },
+
   srcExclude: [
     '**/use-cases/enterprise-ai-use-cases-research.md',
     '**/use-cases/template.md',
