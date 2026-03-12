@@ -14,7 +14,7 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 | Lark (Feishu) | Available | Domestic teams, enterprise use |
 | WeCom (企业微信) | Available | Domestic enterprise users |
 | DingTalk (钉钉) | Available | Domestic teams, no public callback needed |
-| WhatsApp | Coming Soon | International business users |
+| [WhatsApp](#whatsapp) | Available | International business users |
 | Discord | Coming Soon | Developer/community scenarios |
 | [Slack](#slack) | Available | European/US enterprise users |
 
@@ -718,3 +718,75 @@ This enables users to send direct messages to your bot in Slack.
 | Bot not responding in channels | The Bot must be invited to the channel first using `/invite @BotName` |
 | Token regenerated after scope change | Reinstall the App to Workspace after any scope modification, then update tokens in Dashboard |
 | Cannot send DMs to Bot | Confirm Messages Tab is enabled in App Home settings |
+
+---
+
+## Option F: WhatsApp Deployment {#whatsapp}
+
+**Estimated time: ~5 minutes**
+
+> **Note:** WhatsApp connects via **QR code scanning** (linked device), similar to using WhatsApp Web. No API keys, developer accounts, or app configuration are needed — just a phone with WhatsApp installed.
+
+No credentials are required. You only need:
+
+| Item | Description |
+|------|-------------|
+| COCO AI Employee | An existing instance in COCO Dashboard |
+| WhatsApp Account | A phone with WhatsApp installed and logged in |
+| ~5 minutes | Time to complete deployment |
+
+### Step 1: Create an AI Employee and Enter Configuration Page
+
+1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
+2. Create a new AI employee or select an existing instance
+3. Click **Configure →** on the employee card to enter the instance detail page
+
+<img :src="withBase('/whatsapp-step1-dashboard.png')" alt="Dashboard Configuration Entry" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+### Step 2: Click WhatsApp "Connect" and Wait for QR Code
+
+1. In the channel list on the instance detail page, find the **WhatsApp** card
+2. Click the **Connect** button
+3. The system will prepare a WhatsApp session in the background — the QR code takes **~30 seconds** to generate, please be patient
+4. Once generated, the QR code refreshes automatically every 15 seconds
+
+<img :src="withBase('/whatsapp-step2-qr-code.png')" alt="WhatsApp QR Code" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+> **Important:** Do not close the page or click repeatedly while waiting — this may trigger duplicate requests.
+
+### Step 3: Open WhatsApp on Your Phone → Linked Devices
+
+1. Open **WhatsApp** on your phone
+2. Tap **Me** (profile icon) in the bottom-right corner
+3. In the settings list, tap **Linked Devices**
+
+<img :src="withBase('/whatsapp-step3-linked-devices.png')" alt="WhatsApp Linked Devices" style="max-width: 320px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+### Step 4: Tap "Link a Device" and Scan the QR Code
+
+1. On the "Linked Devices" page, tap the **Link a Device** button at the bottom
+2. Your phone's camera opens — point it at the QR code displayed on the Dashboard in Step 2
+3. Wait a few seconds for the connection to complete
+
+<img :src="withBase('/whatsapp-step4-link-device.png')" alt="Link a Device" style="max-width: 320px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+> **Tip:** If the QR code has expired, the Dashboard will automatically refresh it. Scan the latest QR code displayed.
+
+### Step 5: Connection Complete — Start Chatting
+
+1. After successful scanning, the Dashboard automatically detects the connection — the WhatsApp card shows **Connected**
+2. You can now send messages to your WhatsApp account, and the AI employee will respond automatically
+3. Share the AI employee's WhatsApp contact with others to let them chat with your AI directly
+4. Deployment complete!
+
+> **Note:** WhatsApp linked devices may disconnect automatically if the phone is offline for an extended period. If disconnected, return to the Dashboard and scan the QR code again to reconnect.
+
+### WhatsApp FAQ
+
+| Issue | Solution |
+|-------|----------|
+| QR code takes a long time to appear | The first generation may take 30-60 seconds — this is normal. Do not close the page |
+| QR code expired before scanning | The QR code auto-refreshes every 15 seconds. Use the latest one displayed |
+| "Already in progress" error | A previous QR request is still running. Wait a moment and it will resolve automatically |
+| WhatsApp disconnected after some time | Phone was offline too long. Reconnect by scanning QR code again from the Dashboard |
+| Want to disconnect WhatsApp | Click the **Disconnect** button on the WhatsApp card in the instance detail page |
