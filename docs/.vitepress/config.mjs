@@ -9,7 +9,54 @@ export default defineConfig({
   cleanUrls: true,
 
   sitemap: {
-    hostname: 'https://docs.coco.xyz'
+    hostname: 'https://docs.coco.xyz',
+    transformItems(items) {
+      const now = new Date().toISOString().split('T')[0]
+      return items.map(item => {
+        const url = item.url
+
+        // Assign priority based on page type
+        let priority = 0.5
+        let changefreq = 'monthly'
+
+        if (url === '' || url === 'zh') {
+          // Homepage — highest priority
+          priority = 1.0
+          changefreq = 'weekly'
+        } else if (/^(zh\/)?(getting-started|use-cases|case-studies|social-media)\/?$/.test(url)) {
+          // Section index pages
+          priority = 0.9
+          changefreq = 'weekly'
+        } else if (/^(zh\/)?getting-started\//.test(url)) {
+          // Getting started guides — high value for new users
+          priority = 0.8
+          changefreq = 'weekly'
+        } else if (/^(zh\/)?case-studies\//.test(url)) {
+          // Case studies — high value content
+          priority = 0.8
+          changefreq = 'monthly'
+        } else if (/^(zh\/)?use-cases\//.test(url)) {
+          // Use case pages
+          priority = 0.7
+          changefreq = 'monthly'
+        } else if (/^(zh\/)?social-media\//.test(url)) {
+          // Social media pages
+          priority = 0.6
+          changefreq = 'monthly'
+        } else if (/^(zh\/)?(privacy-policy|user-agreement)/.test(url)) {
+          // Legal pages — low priority for search
+          priority = 0.3
+          changefreq = 'yearly'
+        }
+
+        return {
+          ...item,
+          lastmod: now,
+          changefreq,
+          priority,
+        }
+      })
+    }
   },
 
   srcExclude: [
