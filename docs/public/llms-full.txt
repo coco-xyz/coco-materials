@@ -1,0 +1,155 @@
+# COCO Docs
+
+> COCO is an AI Digital Employee platform. Deploy AI employees to Telegram, Lark (Feishu), WeCom (企业微信), DingTalk (钉钉), Slack, or WhatsApp — no coding required. AI employees work 7x24, handling writing, research, coding, data analysis, CRM management, and over 1,001 real-world tasks across 30 roles and 19 industries. Supports bilingual Chinese-English. Website: https://coco.xyz
+
+## Getting Started (English)
+- [Overview](https://docs.coco.xyz/getting-started/): Welcome guide — hire your first AI digital employee in 10-20 minutes, no technical skills required
+- [Registration & Payment](https://docs.coco.xyz/getting-started/registration-payment): Step-by-step signup, plan selection (Air / Pro / Ultra / Enterprise), and Stripe payment guide
+- [Channel Deployment](https://docs.coco.xyz/getting-started/channel-deployment): Connect AI employee to Telegram, Lark (Feishu), WeCom, DingTalk, Slack, or WhatsApp — detailed per-platform guides
+- [First-Time Tutorial](https://docs.coco.xyz/getting-started/first-time-tutorial): Learn how to assign roles, give tasks, and get results — no technical background needed
+- [Important Notes](https://docs.coco.xyz/getting-started/tips): Group and private chat settings, long-term memory, SOP storage, message limits, file handling, and usage tips
+- [FAQ](https://docs.coco.xyz/getting-started/faq): Common questions on Cloud Agent Authorization, social media integrations, product features, security, and privacy
+
+## Use Cases — By Role (English)
+- [Overview](https://docs.coco.xyz/use-cases/): 1,001+ real-world scenarios organized by role, task, and industry with demo videos and practical prompts
+- [Product Manager](https://docs.coco.xyz/use-cases/role/product): AI sentiment analysis, PRD writing, product feedback processing, feature scoping
+- [Developer / Engineering](https://docs.coco.xyz/use-cases/role/dev): Code review automation, API documentation generation, bug triage, PR analysis
+- [Operations](https://docs.coco.xyz/use-cases/role/operations): Automated report generation, smart email management, workflow optimization
+- [Finance](https://docs.coco.xyz/use-cases/role/finance): Financial report generation, budget analysis, variance tracking, forecasting
+- [Content / Marketing](https://docs.coco.xyz/use-cases/role/content-marketing): Multi-platform content creation, campaign automation, SEO, competitive tracking
+- [Customer Support](https://docs.coco.xyz/use-cases/role/customer-support): Ticket handling, FAQ generation, escalation routing, sentiment analysis
+- [HR / Recruiting](https://docs.coco.xyz/use-cases/role/hr-recruiting): Resume screening (500 resumes in 2 hours), interview scheduling, onboarding documentation
+- [Sales](https://docs.coco.xyz/use-cases/role/sales): Lead mining (10x volume increase), CRM auto-maintenance, proposal generation, outreach
+- [Legal](https://docs.coco.xyz/use-cases/role/legal): Contract review, compliance monitoring, legal research, policy drafting
+- [Executive](https://docs.coco.xyz/use-cases/role/executive): Strategic summaries, competitive briefings, board presentation prep, KPI monitoring
+- [Data Analyst](https://docs.coco.xyz/use-cases/role/data-analyst): Data processing, dashboard creation, insight extraction, automated analysis pipelines
+- [DevOps](https://docs.coco.xyz/use-cases/role/devops): Deployment automation, incident reporting, infrastructure monitoring, runbook generation
+- [Project Manager](https://docs.coco.xyz/use-cases/role/pm): Project status reports, risk tracking, meeting notes (instant, auto-distributed), action item follow-up
+- [QA Engineer](https://docs.coco.xyz/use-cases/role/qa-engineer): Test case generation, bug report automation, regression coverage analysis
+- [Compliance Officer](https://docs.coco.xyz/use-cases/role/compliance-officer): Regulatory monitoring, audit trail generation, policy gap analysis
+- [Consultant](https://docs.coco.xyz/use-cases/role/consultant): Client research, proposal writing, competitive landscape reports
+- [Logistics Manager](https://docs.coco.xyz/use-cases/role/logistics-manager): Supply chain monitoring, delay alerts, route optimization analysis
+- [Procurement](https://docs.coco.xyz/use-cases/role/procurement): Vendor research, RFP drafting, contract comparison, spend analysis
+- [Trainer](https://docs.coco.xyz/use-cases/role/trainer): Training material creation, quiz generation, learner progress tracking
+- [Customer Success](https://docs.coco.xyz/use-cases/role/customer-success): Health score monitoring, renewal risk alerts, QBR preparation
+- [Data Scientist](https://docs.coco.xyz/use-cases/role/data-scientist): Exploratory data analysis, model documentation, experiment tracking
+- [Researcher](https://docs.coco.xyz/use-cases/role/researcher): Literature review, trend synthesis, competitive analysis (2 days to 1 hour)
+- [Tech Lead](https://docs.coco.xyz/use-cases/role/tech-lead): Architecture documentation, code standards enforcement, technical debt tracking
+- [Writer](https://docs.coco.xyz/use-cases/role/writer): Long-form content, editing assistance, brand voice consistency
+- [Fund Manager / VC Analyst](https://docs.coco.xyz/use-cases/role/fund-manager): Deal flow screening, portfolio monitoring, investment memo drafting
+- [AI Product Manager](https://docs.coco.xyz/use-cases/role/ai-product-manager): AI feature spec writing, model evaluation frameworks, AI roadmap planning
+- [Research Analyst](https://docs.coco.xyz/use-cases/role/research-analyst): Market sizing, industry reports, data-driven strategic recommendations
+- [Due Diligence Analyst](https://docs.coco.xyz/use-cases/role/due-diligence-analyst): Company background research, financial document review, risk flagging
+- [Designer](https://docs.coco.xyz/use-cases/role/designer): Design brief creation, competitive UI analysis, user research synthesis
+- [Multi-Agent Architect](https://docs.coco.xyz/use-cases/role/multi-agent-architect): Designing and orchestrating multi-AI agent systems and workflows
+
+## Use Cases — By Task (English)
+- [Writing & Content](https://docs.coco.xyz/use-cases/task/writing-content): API documentation, blog posts, marketing copy, technical documentation, creative writing
+- [Data Analysis](https://docs.coco.xyz/use-cases/task/data-analysis): Automated data processing, reporting pipelines, visualization, statistical analysis
+- [Process Automation](https://docs.coco.xyz/use-cases/task/process-automation): Workflow automation, system integrations, scheduled tasks, approval routing
+- [Research & Monitoring](https://docs.coco.xyz/use-cases/task/research-monitoring): Competitive intelligence, market news monitoring, real-time web research
+
+## Use Cases — By Industry (English)
+- [Technology / SaaS](https://docs.coco.xyz/use-cases/industry/technology): Code review, developer productivity, product feedback, technical documentation
+- [E-commerce / Retail](https://docs.coco.xyz/use-cases/industry/ecommerce): Product listing optimization, customer service, order tracking, campaign automation
+- [Financial Services](https://docs.coco.xyz/use-cases/industry/financial-services): Compliance reporting, market monitoring, client communication, risk analysis
+- [Healthcare](https://docs.coco.xyz/use-cases/industry/healthcare): Clinical documentation, research synthesis, patient communication, compliance
+- [Education](https://docs.coco.xyz/use-cases/industry/education): Course content creation, student feedback analysis, administrative automation
+- [Enterprise](https://docs.coco.xyz/use-cases/industry/enterprise): Cross-department AI deployment, knowledge management, executive reporting
+- [Manufacturing](https://docs.coco.xyz/use-cases/industry/manufacturing): Quality control documentation, supply chain monitoring, safety reporting
+- [Logistics](https://docs.coco.xyz/use-cases/industry/logistics): Shipment tracking, delay analysis, vendor communication, route reporting
+- [Energy](https://docs.coco.xyz/use-cases/industry/energy): Regulatory compliance, field report generation, asset monitoring
+- [Government](https://docs.coco.xyz/use-cases/industry/government): Document processing, public communication, policy research
+- [Real Estate](https://docs.coco.xyz/use-cases/industry/real-estate): Property research, listing content, client follow-up automation
+- [Insurance](https://docs.coco.xyz/use-cases/industry/insurance): Claims documentation, underwriting research, regulatory filings
+- [Automotive](https://docs.coco.xyz/use-cases/industry/automotive): Technical documentation, dealer communication, warranty analysis
+- [Agriculture](https://docs.coco.xyz/use-cases/industry/agriculture): Market price monitoring, supply chain coordination, compliance reporting
+- [Consulting](https://docs.coco.xyz/use-cases/industry/consulting): Client research, deliverable creation, knowledge base management
+- [Hospitality](https://docs.coco.xyz/use-cases/industry/hospitality): Guest communication, review monitoring, operations reporting
+- [Media & Entertainment](https://docs.coco.xyz/use-cases/industry/media-entertainment): Content production automation, trend monitoring, audience analysis
+- [Nonprofit](https://docs.coco.xyz/use-cases/industry/nonprofit): Grant writing, donor communication, impact reporting
+- [Telecom](https://docs.coco.xyz/use-cases/industry/telecom): Network incident reporting, customer churn analysis, regulatory compliance
+
+## Case Studies (English)
+- [Capability Showcase](https://docs.coco.xyz/case-studies/): 8 benchmarked real-world scenarios — code review 4hrs→15min, social media ops 3hrs/day→15min, competitive research 2days→1hr, resume screening 3days→2hrs, CRM maintenance 4hrs/week→0, document generation 1week→2hrs, lead mining 20/day→200/day, meeting notes instant
+- [COCO CRM — Built by AI, Run by AI](https://docs.coco.xyz/case-studies/crm): A complete CRM system designed, built, and operated daily by a COCO AI Agent — not an assistant, a true digital employee
+- [Social Media & BD Automation](https://docs.coco.xyz/case-studies/social-media): Two companies achieve breakthrough results — AI handles volume content production and BD outreach, humans handle strategy
+
+## Chinese Documentation — Getting Started (中文 — 快速开始)
+- [概览](https://docs.coco.xyz/zh/getting-started/): COCO快速入门 — 10-20分钟完成首位AI数字员工入职，无需技术背景
+- [注册与支付](https://docs.coco.xyz/zh/getting-started/registration-payment): 注册账户、选择套餐（Air/Pro/Ultra/企业版）及Stripe支付指南
+- [渠道部署指南](https://docs.coco.xyz/zh/getting-started/channel-deployment): 将AI员工接入Telegram、飞书、企业微信、钉钉、Slack或WhatsApp
+- [首次使用教程](https://docs.coco.xyz/zh/getting-started/first-time-tutorial): 如何设置角色、分配任务并获得结果
+- [注意事项](https://docs.coco.xyz/zh/getting-started/tips): 群聊/私聊设置、长期记忆、SOP存储、消息限制与文件处理
+- [常见问题 FAQ](https://docs.coco.xyz/zh/getting-started/faq): 云端代理授权、第三方平台集成、功能特性、安全与隐私问答
+
+## Chinese Documentation — Use Cases (中文 — 用例库)
+- [用例库概览](https://docs.coco.xyz/zh/use-cases/): 按角色、任务和行业分类的1001+真实工作场景，含演示视频
+- [产品经理](https://docs.coco.xyz/zh/use-cases/role/product): AI情感分析、PRD撰写、产品反馈处理
+- [研发工程](https://docs.coco.xyz/zh/use-cases/role/dev): 代码审查自动化、API文档生成、Bug分类
+- [运营](https://docs.coco.xyz/zh/use-cases/role/operations): 自动报告生成、智能邮件管理、流程优化
+- [财务](https://docs.coco.xyz/zh/use-cases/role/finance): 财务报告生成、预算分析、差异追踪
+- [内容/营销](https://docs.coco.xyz/zh/use-cases/role/content-marketing): 多平台内容创作、营销活动自动化
+- [客服](https://docs.coco.xyz/zh/use-cases/role/customer-support): 工单处理、FAQ生成、情感分析
+- [HR/招聘](https://docs.coco.xyz/zh/use-cases/role/hr-recruiting): 简历筛选（500份简历2小时完成）、面试安排、入职文档
+- [销售](https://docs.coco.xyz/zh/use-cases/role/sales): 线索挖掘（10倍提量）、CRM自动维护、提案生成
+- [法律](https://docs.coco.xyz/zh/use-cases/role/legal): 合同审查、合规监控、法律研究
+- [高管](https://docs.coco.xyz/zh/use-cases/role/executive): 战略摘要、竞情简报、董事会材料
+- [数据分析师](https://docs.coco.xyz/zh/use-cases/role/data-analyst): 数据处理、报表生成、洞察提取
+- [DevOps运维](https://docs.coco.xyz/zh/use-cases/role/devops): 部署自动化、故障报告、监控告警
+- [项目经理](https://docs.coco.xyz/zh/use-cases/role/pm): 项目状态报告、风险追踪、会议纪要、行动项跟进
+- [QA工程师](https://docs.coco.xyz/zh/use-cases/role/qa-engineer): 测试用例生成、Bug报告自动化
+- [合规官](https://docs.coco.xyz/zh/use-cases/role/compliance-officer): 法规监控、审计报告、政策差距分析
+- [咨询顾问](https://docs.coco.xyz/zh/use-cases/role/consultant): 客户研究、提案撰写、竞争格局报告
+- [物流经理](https://docs.coco.xyz/zh/use-cases/role/logistics-manager): 供应链监控、延迟告警、路线分析
+- [采购](https://docs.coco.xyz/zh/use-cases/role/procurement): 供应商研究、RFP起草、合同对比
+- [培训师](https://docs.coco.xyz/zh/use-cases/role/trainer): 培训材料创作、测验生成、学员进度跟踪
+- [客户成功经理](https://docs.coco.xyz/zh/use-cases/role/customer-success): 健康度监控、续约风险预警、QBR准备
+- [数据科学家](https://docs.coco.xyz/zh/use-cases/role/data-scientist): 探索性数据分析、模型文档、实验追踪
+- [研究员](https://docs.coco.xyz/zh/use-cases/role/researcher): 文献综述、趋势合成、竞品分析
+- [技术负责人](https://docs.coco.xyz/zh/use-cases/role/tech-lead): 架构文档、代码规范执行、技术债追踪
+- [内容创作者](https://docs.coco.xyz/zh/use-cases/role/writer): 长文创作、编辑辅助、品牌声音一致性
+- [基金经理](https://docs.coco.xyz/zh/use-cases/role/fund-manager): 项目流筛选、投资组合监控、投资备忘录
+- [AI产品经理](https://docs.coco.xyz/zh/use-cases/role/ai-product-manager): AI功能规格、模型评估框架、AI路线图
+- [研究分析师](https://docs.coco.xyz/zh/use-cases/role/research-analyst): 市场规模测算、行业报告、数据驱动建议
+- [尽职调查分析师](https://docs.coco.xyz/zh/use-cases/role/due-diligence-analyst): 公司背调、财务文件审查、风险标记
+- [设计师](https://docs.coco.xyz/zh/use-cases/role/designer): 设计简报创作、竞品UI分析、用研合成
+- [多Agent协同架构师](https://docs.coco.xyz/zh/use-cases/role/multi-agent-architect): 设计和编排多AI智能体系统与工作流
+
+## Chinese Documentation — Use Cases by Task (中文 — 按任务)
+- [写作与内容](https://docs.coco.xyz/zh/use-cases/task/writing-content): API文档、博客文章、营销文案、技术文档
+- [数据分析](https://docs.coco.xyz/zh/use-cases/task/data-analysis): 自动化数据处理、报表管道、可视化
+- [流程自动化](https://docs.coco.xyz/zh/use-cases/task/process-automation): 工作流自动化、系统集成、定时任务
+- [调研与监控](https://docs.coco.xyz/zh/use-cases/task/research-monitoring): 竞品情报、市场新闻监控、实时网络调研
+
+## Chinese Documentation — Use Cases by Industry (中文 — 按行业)
+- [科技/SaaS](https://docs.coco.xyz/zh/use-cases/industry/technology): 代码审查、开发者效率、产品反馈、技术文档
+- [电商/零售](https://docs.coco.xyz/zh/use-cases/industry/ecommerce): 商品描述优化、客服自动化、营销活动
+- [金融服务](https://docs.coco.xyz/zh/use-cases/industry/financial-services): 合规报告、市场监控、客户沟通、风险分析
+- [医疗健康](https://docs.coco.xyz/zh/use-cases/industry/healthcare): 临床文档、研究合成、患者沟通
+- [教育](https://docs.coco.xyz/zh/use-cases/industry/education): 课程内容创作、学生反馈分析、行政自动化
+- [企业通用](https://docs.coco.xyz/zh/use-cases/industry/enterprise): 跨部门AI部署、知识管理、高管汇报
+- [制造业](https://docs.coco.xyz/zh/use-cases/industry/manufacturing): 质量控制文档、供应链监控、安全报告
+- [物流](https://docs.coco.xyz/zh/use-cases/industry/logistics): 货运追踪、延迟分析、供应商沟通
+- [能源](https://docs.coco.xyz/zh/use-cases/industry/energy): 合规监控、现场报告生成、资产监控
+- [政府](https://docs.coco.xyz/zh/use-cases/industry/government): 文件处理、公众沟通、政策研究
+- [房地产](https://docs.coco.xyz/zh/use-cases/industry/real-estate): 房产调研、房源内容、客户跟进自动化
+- [保险](https://docs.coco.xyz/zh/use-cases/industry/insurance): 理赔文档、承保研究、监管申报
+- [汽车](https://docs.coco.xyz/zh/use-cases/industry/automotive): 技术文档、经销商沟通、保修分析
+- [农业](https://docs.coco.xyz/zh/use-cases/industry/agriculture): 市场价格监控、供应链协调、合规报告
+- [咨询](https://docs.coco.xyz/zh/use-cases/industry/consulting): 客户研究、交付物创作、知识库管理
+- [酒店餐饮](https://docs.coco.xyz/zh/use-cases/industry/hospitality): 宾客沟通、评价监控、运营报告
+- [媒体娱乐](https://docs.coco.xyz/zh/use-cases/industry/media-entertainment): 内容生产自动化、趋势监控、受众分析
+- [非营利](https://docs.coco.xyz/zh/use-cases/industry/nonprofit): 基金申请写作、捐赠者沟通、影响力报告
+- [电信](https://docs.coco.xyz/zh/use-cases/industry/telecom): 网络故障报告、客户流失分析、合规
+
+## Chinese Documentation — Case Studies (中文 — 案例研究)
+- [能力展示](https://docs.coco.xyz/zh/case-studies/): 8个基准场景 — 代码审查4小时→15分钟，简历筛选3天→2小时，5-10倍效率提升
+- [COCO CRM — AI搭建，AI运营](https://docs.coco.xyz/zh/case-studies/crm): 由COCO AI Agent完整设计、构建并每日运营的CRM系统
+- [社媒与BD自动化](https://docs.coco.xyz/zh/case-studies/social-media): 两家公司实现突破 — AI负责批量内容生产和BD外拓，人类负责战略
+
+## Legal
+- [Privacy Policy](https://docs.coco.xyz/privacy-policy): Data collection, processing, and privacy practices
+- [User Agreement](https://docs.coco.xyz/user-agreement): Terms of service and usage conditions
+- [隐私政策 (Chinese)](https://docs.coco.xyz/zh/privacy-policy): 数据收集与隐私政策（中文）
+- [用户协议 (Chinese)](https://docs.coco.xyz/zh/user-agreement): 服务条款与使用条件（中文）
