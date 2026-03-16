@@ -1,0 +1,44 @@
+# COCO Docs
+
+> COCO is an AI Digital Employee platform. Deploy AI employees to Telegram, Lark, WeCom, DingTalk, Slack, or WhatsApp — no coding required. They work 7x24, handle writing, research, coding, data analysis, and more. Plans available for individuals and enterprises.
+
+## Getting Started
+- [Overview](https://docs.coco.xyz/getting-started/): Get started in 3 steps — hire your first AI employee in 10-20 minutes, no technical skills required
+- [Registration & Payment](https://docs.coco.xyz/getting-started/registration-payment): Sign up, choose a plan (Air / Pro / Ultra / Enterprise), and pay via Stripe
+- [Channel Deployment](https://docs.coco.xyz/getting-started/channel-deployment): Connect your AI employee to Telegram, Lark, WeCom, DingTalk, Slack, or WhatsApp
+- [First-Time Tutorial](https://docs.coco.xyz/getting-started/first-time-tutorial): How to assign roles, give tasks, and get results — no technical skills needed
+- [Important Notes](https://docs.coco.xyz/getting-started/tips): Group/private chat settings, long-term memory, SOP storage, message limits, file handling
+- [FAQ](https://docs.coco.xyz/getting-started/faq): Answers on Cloud Agent Authorization, third-party platforms, features, and security
+
+## Use Cases — By Role
+- [Product Manager](https://docs.coco.xyz/use-cases/role/product): AI sentiment analysis, PRD writing, feedback processing
+- [Developer / Engineering](https://docs.coco.xyz/use-cases/role/dev): Code review, API doc generation, bug triage
+- [Operations](https://docs.coco.xyz/use-cases/role/operations): Automated report generation, process optimization
+- [Finance](https://docs.coco.xyz/use-cases/role/finance): Financial reports, budget analysis, variance tracking
+- [Content / Marketing](https://docs.coco.xyz/use-cases/role/content-marketing): Multi-platform content creation, campaign automation
+- [Customer Support](https://docs.coco.xyz/use-cases/role/customer-support): Ticket handling, FAQ generation, escalation routing
+- [HR / Recruiting](https://docs.coco.xyz/use-cases/role/hr-recruiting): Resume screening, interview scheduling, onboarding docs
+- [Sales](https://docs.coco.xyz/use-cases/role/sales): Lead mining, CRM maintenance, proposal generation
+- [Data Analyst](https://docs.coco.xyz/use-cases/role/data-analyst): Data processing, dashboard creation, insight extraction
+- [Executive](https://docs.coco.xyz/use-cases/role/executive): Strategic summaries, competitive briefings, board prep
+
+## Use Cases — By Task
+- [Writing & Content](https://docs.coco.xyz/use-cases/task/writing-content): API docs, blog posts, copy, documentation
+- [Data Analysis](https://docs.coco.xyz/use-cases/task/data-analysis): Automated analysis, reporting, visualization
+- [Process Automation](https://docs.coco.xyz/use-cases/task/process-automation): Workflow automation, integration, scheduling
+- [Research & Monitoring](https://docs.coco.xyz/use-cases/task/research-monitoring): Competitive intelligence, market tracking, news monitoring
+
+## Case Studies
+- [Capability Showcase](https://docs.coco.xyz/case-studies/): 8 benchmarked scenarios — code review 4hrs→15min, resume screening 3 days→2hrs, 5-10x efficiency gains
+- [COCO CRM — Built by AI, Run by AI](https://docs.coco.xyz/case-studies/crm): A complete CRM system designed, built, and operated daily by an AI Agent
+- [Social Media & BD Automation](https://docs.coco.xyz/case-studies/social-media): From a single prompt to a complete operations model — AI handles volume, humans handle strategy
+
+## Chinese Documentation (中文文档)
+- [首页 / Home](https://docs.coco.xyz/zh/): COCO AI数字员工平台中文文档入口
+- [快速开始 / Getting Started](https://docs.coco.xyz/zh/getting-started/): 注册、支付、渠道部署与首次使用教程
+- [用例库 / Use Cases](https://docs.coco.xyz/zh/use-cases/): 按角色、任务、行业分类的1001+用例
+- [案例研究 / Case Studies](https://docs.coco.xyz/zh/case-studies/): COCO CRM与社媒BD自动化案例
+
+## Legal
+- [Privacy Policy](https://docs.coco.xyz/privacy-policy): Data collection and privacy practices
+- [User Agreement](https://docs.coco.xyz/user-agreement): Terms of service
