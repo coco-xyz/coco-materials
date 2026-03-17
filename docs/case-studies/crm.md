@@ -1065,52 +1065,12 @@ Simply visit coco.xyz to start a free trial, describe your business requirements
   <div class="blog-divider-shell">🐚</div>
   <h3>More Case Studies</h3>
   <div class="blog-related-grid">
-    <a class="blog-related-card" href="/case-studies/wishforever">
-      <div class="blog-related-card-img">⛓️</div>
-      <div class="blog-related-card-body">
-        <div class="blog-related-card-label">AI Agent Case Study</div>
-        <div class="blog-related-card-title">WishForever — Solo Web3 dApp, On-Chain</div>
-        <div class="blog-related-card-desc">1,247 wishes permanently inscribed on Ethereum. One founder, one AI, production dApp.</div>
-      </div>
-    </a>
-    <a class="blog-related-card" href="/case-studies/cat-identifier">
-      <div class="blog-related-card-img">🐱</div>
-      <div class="blog-related-card-body">
-        <div class="blog-related-card-label">AI Agent Case Study</div>
-        <div class="blog-related-card-title">Zero Coding Experience to Production App in 60 Minutes</div>
-        <div class="blog-related-card-desc">HxA Team multi-agent framework ships a cat breed identifier app. No code written by hand.</div>
-      </div>
-    </a>
     <a class="blog-related-card" href="/case-studies/social-media">
       <div class="blog-related-card-img">📱</div>
       <div class="blog-related-card-body">
         <div class="blog-related-card-label">AI Agent Case Study</div>
         <div class="blog-related-card-title">Social Media & BD Automation</div>
         <div class="blog-related-card-desc">From a single prompt to a complete operations model. AI handles volume, humans handle strategy.</div>
-      </div>
-    </a>
-    <a class="blog-related-card" href="/case-studies/deal-flow-dd">
-      <div class="blog-related-card-img">📈</div>
-      <div class="blog-related-card-body">
-        <div class="blog-related-card-label">AI Agent Case Study</div>
-        <div class="blog-related-card-title">AI-Driven Investment Due Diligence</div>
-        <div class="blog-related-card-desc">DD time cut from 20 hours to 2. Risk identification rate up 40%.</div>
-      </div>
-    </a>
-    <a class="blog-related-card" href="/case-studies/hxa-team">
-      <div class="blog-related-card-img">🐙</div>
-      <div class="blog-related-card-body">
-        <div class="blog-related-card-label">AI Agent Case Study</div>
-        <div class="blog-related-card-title">From 1 AI Employee to a Full AI Team</div>
-        <div class="blog-related-card-desc">7 Agents running in parallel. Kevin sets direction, the team executes.</div>
-      </div>
-    </a>
-    <a class="blog-related-card" href="/case-studies/email-automation">
-      <div class="blog-related-card-img">📧</div>
-      <div class="blog-related-card-body">
-        <div class="blog-related-card-label">AI Agent Case Study</div>
-        <div class="blog-related-card-title">Customer Service Email Automation</div>
-        <div class="blog-related-card-desc">Inbox scanned every 10 minutes. AI classifies and filters. Zero user emails missed.</div>
       </div>
     </a>
   </div>
