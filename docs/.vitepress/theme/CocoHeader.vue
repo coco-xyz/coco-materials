@@ -24,6 +24,9 @@ const navItems = computed(() => {
           items: [
             { icon: '📊', text: isZh ? 'COCO CRM' : 'COCO CRM', desc: isZh ? 'AI 搭建，AI 运营' : 'Built by AI, Run by AI', link: isZh ? '/zh/case-studies/crm' : '/case-studies/crm' },
             { icon: '📱', text: isZh ? '社媒自动化' : 'Social Media & BD', desc: isZh ? '两家公司，同一个突破' : 'Two Companies, One Breakthrough', link: isZh ? '/zh/case-studies/social-media' : '/case-studies/social-media' },
+            { icon: '🔍', text: isZh ? 'AI 投资尽调' : 'AI Due Diligence', desc: isZh ? '20小时压缩到2小时' : '20 Hours to 2', link: isZh ? '/zh/case-studies/deal-flow-dd' : '/case-studies/deal-flow-dd' },
+            { icon: '🤝', text: isZh ? 'HxA 团队协作' : 'HxA Team', desc: isZh ? 'AI 协作实录' : 'AI Collaboration', link: isZh ? '/zh/case-studies/hxa-team' : '/case-studies/hxa-team' },
+            { icon: '✉️', text: isZh ? '客服邮件自动化' : 'Email Automation', desc: isZh ? '全自动邮件响应' : 'Zero-Touch Email Ops', link: isZh ? '/zh/case-studies/email-automation' : '/case-studies/email-automation' },
           ]
         },
       ]
