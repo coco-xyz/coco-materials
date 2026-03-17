@@ -208,9 +208,6 @@ export default defineConfig({
                 { text: 'Capability Showcase', link: '/case-studies/' },
                 { text: 'COCO CRM — Built by AI, Run by AI', link: '/case-studies/crm' },
                 { text: 'Social Media & BD Automation', link: '/case-studies/social-media' },
-                { text: 'AI Due Diligence — 20 Hours to 2', link: '/case-studies/deal-flow-dd' },
-                { text: 'HxA Team — AI Collaboration', link: '/case-studies/hxa-team' },
-                { text: 'Email Automation', link: '/case-studies/email-automation' },
               ]
             },
           ],
@@ -339,9 +336,6 @@ export default defineConfig({
                 { text: '能力展示', link: '/zh/case-studies/' },
                 { text: 'COCO CRM — AI 搭建，AI 运营', link: '/zh/case-studies/crm' },
                 { text: '社媒与 BD 自动化', link: '/zh/case-studies/social-media' },
-                { text: 'AI 投资尽调 — 20小时压缩到2小时', link: '/zh/case-studies/deal-flow-dd' },
-                { text: 'HxA 团队 — AI 协作实录', link: '/zh/case-studies/hxa-team' },
-                { text: '客服邮件自动化', link: '/zh/case-studies/email-automation' },
               ]
             },
           ],
