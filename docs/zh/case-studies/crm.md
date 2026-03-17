@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "COCO CRM — AI 搭建，AI 运营"
-description: "一套由 AI Agent 从零设计、搭建并每天自动运营的 CRM 系统。不是辅助工具，是真正的数字员工。"
+title: "COCO CRM — AI Agent 企业自动化搭建与运营的 CRM 系统"
+description: "一套由 COCO AI Agent 从零设计、搭建并每天自动运营的 CRM 系统。企业AI自动化的真实案例：数字员工替代人工录入，试用转化率达 33%，每日维护零人工介入。"
 head:
   - - meta
     - property: og:title
@@ -146,6 +146,7 @@ head:
   font-size: 1.05rem;
   line-height: 1.75;
   color: var(--vp-c-text-2);
+  margin-bottom: 1.2em;
 }
 
 /* Pipeline cards — timeline style */
@@ -272,7 +273,6 @@ head:
   }
   .case-section p {
     font-size: 0.95rem;
-    text-align: center;
   }
   .pipeline-grid {
     text-align: left;
@@ -791,6 +791,110 @@ head:
 .dark .blog-related-card {
   background: rgba(255, 255, 255, 0.02);
 }
+
+/* ===== Mobile Responsiveness & Visual Polish ===== */
+*, *::before, *::after { box-sizing: border-box; }
+
+/* Prevent horizontal overflow */
+.case-body { overflow-x: hidden; }
+
+/* Table scroll wrapper */
+.arch-table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 24px 0;
+}
+.arch-table-wrapper .arch-table { margin: 0; }
+
+/* Better word breaking */
+.case-hero h1, .case-section h2 {
+  word-break: break-word;
+  hyphens: auto;
+}
+
+/* Section max-width for readability */
+.case-section { max-width: 720px; }
+
+/* Section heading accent */
+.case-section h2 {
+  border-left: 4px solid #5CC5C5;
+  padding-left: 16px;
+}
+
+/* Anchor nav scroll offset */
+.case-section h2 { scroll-margin-top: 80px; }
+
+/* Result cards equal height */
+.results-grid { align-items: stretch; }
+
+/* Table zebra striping */
+.arch-table tr:nth-child(even) td { background: var(--vp-c-bg-soft); }
+
+/* Pipeline card left-border accent matching dot color */
+.pipeline-card { border-left: 3px solid #5CC5C5; }
+.pipeline-card:nth-child(2) { border-left-color: #B388D9; }
+.pipeline-card:nth-child(3) { border-left-color: #FF7B7B; }
+
+/* 480px breakpoint */
+@media (max-width: 480px) {
+  .case-hero h1 { font-size: 1.4rem; }
+  .case-hero .hero-stats { gap: 16px; }
+  .case-hero .stat-value { font-size: 1.6rem; }
+  .pipeline-grid { padding-left: 24px; }
+  .pipeline-card::before { left: -17px; }
+  .case-section { padding: 0 8px; }
+  .results-grid { gap: 12px; }
+}
+
+/* ===== Project Overview Card ===== */
+.project-overview {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 0 0 40px;
+  padding: 20px;
+  border-radius: 16px;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  text-align: left;
+}
+.po-field {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  background: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-divider);
+}
+.po-icon { font-size: 1.3rem; flex-shrink: 0; line-height: 1.4; }
+.po-content { display: flex; flex-direction: column; min-width: 0; }
+.po-label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--vp-c-text-3);
+  margin-bottom: 4px;
+}
+.po-value {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  line-height: 1.4;
+  word-break: break-word;
+}
+/* FAQ spacing — space between each Q&A pair */
+.case-section h3 {
+  margin-top: 2.5em;
+  margin-bottom: 0.4em;
+}
+.case-section h3:first-child { margin-top: 0; }
+
+@media (max-width: 640px) {
+  .project-overview { grid-template-columns: 1fr; padding: 14px; gap: 8px; }
+  .po-field { padding: 10px 12px; }
+}
 </style>
 
 <div class="case-hero">
@@ -817,13 +921,64 @@ head:
 <div class="case-body">
 <div class="case-section">
 
+<div class="project-overview">
+  <div class="po-field">
+    <span class="po-icon">🏢</span>
+    <div class="po-content">
+      <span class="po-label">行业</span>
+      <span class="po-value">SaaS / 早期创业</span>
+    </div>
+  </div>
+  <div class="po-field">
+    <span class="po-icon">👥</span>
+    <div class="po-content">
+      <span class="po-label">团队规模</span>
+      <span class="po-value">5 人内部团队</span>
+    </div>
+  </div>
+  <div class="po-field">
+    <span class="po-icon">⚡</span>
+    <div class="po-content">
+      <span class="po-label">搭建时间</span>
+      <span class="po-value">1 个晚上</span>
+    </div>
+  </div>
+  <div class="po-field">
+    <span class="po-icon">🔧</span>
+    <div class="po-content">
+      <span class="po-label">核心工具</span>
+      <span class="po-value">飞书多维表格 + Stripe</span>
+    </div>
+  </div>
+  <div class="po-field">
+    <span class="po-icon">📊</span>
+    <div class="po-content">
+      <span class="po-label">自动化范围</span>
+      <span class="po-value">试用巡检 · 支付同步 · 月度看板</span>
+    </div>
+  </div>
+  <div class="po-field">
+    <span class="po-icon">📈</span>
+    <div class="po-content">
+      <span class="po-label">转化率</span>
+      <span class="po-value">33%（行业均值 3 倍）</span>
+    </div>
+  </div>
+</div>
+
 ## 背景：<em>用自己的产品运营自己</em>
 
-COCO 团队需要追踪从注册到试用到付费的完整销售流程。传统做法是：买一个 SaaS CRM、花几周配置、再安排人每天维护。
+COCO 团队需要追踪从注册到试用到付费的完整销售流程。他们手头有 27 位试用和付费客户，需要记录每个人的状态、套餐、到期时间，同时追踪每天的支付情况，并且在试用快到期的时候主动跟进。传统做法是：买一个 SaaS CRM、花几周配置、再安排人每天维护。
 
 他们选了另一条路——让 AI Agent **Zylos** 直接设计并搭建整套系统。
 
 从需求描述到 7 张飞书多维表格全部就位：**一个晚上**。
+
+对于大多数早期创业公司来说，CRM 是一件长期拖延的项目——Salesforce 和 HubSpot 太贵，用 Excel 手动管理太容易出错，找外包定制开发太耗时间。这不是创始人不想要好的 CRM，是传统方式的成本结构对早期团队根本不友好。COCO 的解法是彻底绕开这个三角困境：把 CRM 的设计、搭建、维护权全部交给 AI Agent 数字员工来执行。这不是"AI 辅助"，而是真正的企业 AI 自动化——AI 是 CRM 的设计者，也是每天 0 成本运营它的维护者。
+
+这个案例之所以特别，在于它是 COCO 在用自己的产品运营自己的公司。Zylos 同时扮演两个角色：既是 COCO 的 AI Agent 产品，也是 COCO 内部运营的数字员工。这种"dogfooding"有独特的证明价值——如果 AI 能在信任门槛最高的地方（自己公司的核心业务数据）跑起来，它就能在你的组织里跑起来。这不是展示给别人看的演示案例，这是 COCO 每天真实依赖的生产系统。
+
+最终结果说明了一切：27 人试用，9 人付费，转化率 33%，约为 SaaS 行业平均水平的三倍。这个数字背后，有一部分原因直接来自 CRM 系统的自动化运营——每天早上 10 点精准推送的试用到期提醒，确保了跟进动作不会因为繁忙被忘记；实时的 Stripe 支付同步，确保了付款用户立刻得到对应的服务激活。
 
 <div class="video-showcase">
   <div class="video-container">
@@ -836,6 +991,12 @@ COCO 团队需要追踪从注册到试用到付费的完整销售流程。传统
 <div class="case-section">
 
 ## 每天自动运转的 <em>三条流水线</em>
+
+企业 AI 自动化的价值，不是执行某个单一任务，而是把原本需要每天人工重复执行的整套流程转化为可靠运行的自动化管道。COCO 的 CRM 数字员工工作流由三条并行流水线构成：每日试用巡检、实时支付同步、月度看板重建。
+
+想象这套系统不存在时的日常：每天早上，有人需要打开飞书表格，逐个检查 27 个用户的试用状态，手动标记今天到期的是谁，写一封"今日跟进名单"发到群里。每当 Stripe 收到支付通知，有人需要登录后台确认，然后手动在表格里把对应用户从"试用"改为"付费"，再更新相关字段。每个月初，有人需要重新整理一份状态看板，确保团队在新的一个月开始时对用户全貌有清晰认知。这三件事单独拿出来任何一件都不难，但加在一起，每天需要的不止是时间，更需要专注力——而这对早期团队来说是最稀缺的资源。
+
+COCO AI 用调度任务（Scheduled Tasks）完全替代了这些人工操作。每条流水线的触发时间、执行逻辑、通知格式都经过精心设计，让团队始终掌握最新状态而无需任何主动查询。这是自动化与人工最本质的区别：自动化系统不会因为今天特别忙而跳过检查，不会因为周末而延误更新，不会因为分心而漏掉一个今天到期的关键用户。
 
 <div class="pipeline-grid">
   <div class="pipeline-card">
@@ -866,6 +1027,11 @@ COCO 团队需要追踪从注册到试用到付费的完整销售流程。传统
 
 ## CRM 架构
 
+这套 CRM 系统由 7 张飞书多维表格构成，每张表格有清晰的职责边界。从用户全量档案、去重付费用户、月度日历看板，到 SOP 操作手册、客户 FAQ 知识库、实例技术状态追踪、潜在客户池——整个 CRM 不是随机拼凑，而是经过系统架构设计、由 AI Agent Zylos 在一晚上从零完成的企业级数据管理体系。
+
+与市面上现成的 SaaS CRM 相比，这套方案的核心优势在于它是完全贴合 COCO 业务场景定制的：表格结构、更新逻辑、通知规则都与实际运营流程完美对应。每一次 Stripe 支付触发的自动录入，每一次试用到期的自动提醒，都在无需人工干预的情况下精准执行。这正是企业 AI 自动化与传统 CRM 工具最本质的区别。
+
+<div class="arch-table-wrapper">
 <table class="arch-table">
   <thead>
     <tr>
@@ -912,6 +1078,7 @@ COCO 团队需要追踪从注册到试用到付费的完整销售流程。传统
     </tr>
   </tbody>
 </table>
+</div>
 
 </div>
 
@@ -957,6 +1124,10 @@ COCO 团队需要追踪从注册到试用到付费的完整销售流程。传统
 
 ## 结果
 
+试用转化率 33% 是 SaaS 行业平均水平的三倍以上——这并非偶然。当团队每天早上 10 点收到精准的试用到期巡检报告，知道今天谁要跟进、谁已经过期、谁在关键节点，跟进效率自然提升。COCO AI 数字员工的价值不只是节省了手动录入的时间，更重要的是它把"信息延迟"这个隐形成本彻底消除了。
+
+100% 自动化录入意味着从 Stripe 收到支付通知的那一刻起，CRM 就已经更新完毕。没有"等一下我待会儿录"，没有漏录，没有数据不一致。对于一个快速增长的 SaaS 团队来说，实时准确的客户数据是所有决策的基础——而这个基础现在由 AI 数字员工 7×24 小时自动维护。
+
 <div class="results-grid">
   <div class="result-card">
     <div class="result-number">33%</div>
@@ -992,6 +1163,42 @@ COCO 团队用 COCO 做的，不是把原有工作加速一点点——而是让
 
 这是一个简单的验证：**如果 AI 连自己公司的 CRM 都能从零搭建并持续运营，它也能为你做同样的事。**
 
+在企业 AI 自动化的实践中，CRM 往往是最直接的切入点，原因在于它覆盖销售、客户成功、运营多个职能，日常工作中充满重复性的数据录入和状态更新。每一次用户状态变化、每一笔支付到账、每一个试用到期节点，都需要有人注意到并采取行动。传统的解法是雇人来做，或者购买昂贵的自动化工具。COCO AI 的解法是直接用 AI Agent 数字员工把这条链路端到端承包。
+
+更重要的是，这套系统揭示了 AI 驱动的 CRM 与传统 CRM 的根本区别：传统 CRM 是数据库，等着人去更新；AI 驱动的 CRM 是一个会自己跑的数字员工，主动监控状态、主动执行更新、主动推送提醒。这不是同一件事的两个版本，这是两种完全不同的运营哲学。
+
+对于资源有限的创业公司和中小企业而言，这是企业 AI 自动化能带来的最实际的业务价值：不需要投入大量前期成本搭建一套复杂系统，只需要描述你的业务需求，AI 帮你设计、搭建、运营——整套系统可以在一个晚上从零到上线。
+
+</div>
+
+<div class="case-section">
+
+## 常见问题
+
+### Q: COCO AI Agent 搭建 CRM 系统需要多长时间？
+
+从提出需求到 7 张飞书多维表格全部就位，COCO 团队的 AI Agent Zylos 花了一个晚上完成整套 CRM 系统的设计与搭建。对比传统方式（购买 SaaS CRM 需要数周配置），企业 AI 自动化在初始搭建速度上有数量级的优势。
+
+### Q: 这套 CRM 自动化系统每天需要人工介入吗？
+
+几乎不需要。三条自动化流水线（试用巡检、支付同步、月度看板）全部由调度任务驱动，自动执行。人工的参与仅限于审核通知后的业务决策，例如决定是否跟进某个到期用户——而不是数据录入或状态维护本身。
+
+### Q: AI 数字员工如何保证 CRM 数据的准确性？
+
+COCO AI Agent 通过与 Stripe 支付数据进行交叉验证来确保数据准确性。每当 Stripe 支付通知到达，Zylos 会自动核对 CRM 现有记录，检查邮箱和员工 ID 是否已存在，防止重复录入。SOP 中明确规定了企业订阅与个人订阅的识别规则，进一步提高数据质量。
+
+### Q: 这套方案适合哪些类型的企业？
+
+任何依赖订阅制收入模式的 SaaS 公司都高度适用。特别是处于快速增长阶段、用户规模在数十到数百之间、运营团队人手有限的创业公司——这正是传统 CRM 工具性价比最低、但手动管理压力又最大的阶段。COCO AI 企业自动化可以以极低的成本填补这一运营空白。
+
+### Q: COCO AI 的 CRM 自动化与市面上现成 CRM 工具（如 Salesforce、HubSpot）相比有什么优劣势？
+
+优势在于完全定制化、成本极低、与现有工具（飞书）深度集成。现成 CRM 的优势在于功能更完整、有客户支持。选择取决于业务阶段：早期团队用 COCO AI 数字员工搭建轻量 CRM 是性价比最高的方案；当业务规模到一定体量后，两者也可以并存——用 COCO AI Agent 处理日常自动化任务，用专业 CRM 管理复杂销售流程。
+
+### Q: 如何让 COCO AI Agent 自动运营我们公司的 CRM？
+
+只需访问 coco.xyz 注册试用，向 AI Agent 描述你的业务需求和现有数据结构，它会帮你设计表格架构、搭建自动化流程、配置触发规则。整个过程不需要编程背景，也不需要 CRM 专业知识——用自然语言描述你想要什么即可。
+
 </div>
 
 <div class="blog-meta">
@@ -1017,12 +1224,36 @@ COCO 团队用 COCO 做的，不是把原有工作加速一点点——而是让
   <div class="blog-divider-shell">🐚</div>
   <h3>更多案例</h3>
   <div class="blog-related-grid">
-    <a class="blog-related-card" href="/zh/case-studies/social-media">
+    <a class="blog-related-card" href="./social-media">
       <div class="blog-related-card-img">📱</div>
       <div class="blog-related-card-body">
         <div class="blog-related-card-label">AI Agent 案例研究</div>
         <div class="blog-related-card-title">社媒与 BD 自动化：AI 全流程运营</div>
         <div class="blog-related-card-desc">从内容发布到商务拓展，一个 AI Agent 替代整个运营团队的工作流。</div>
+      </div>
+    </a>
+    <a class="blog-related-card" href="./deal-flow-dd">
+      <div class="blog-related-card-img">📈</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent 案例研究</div>
+        <div class="blog-related-card-title">AI 驱动的投资尽调</div>
+        <div class="blog-related-card-desc">DD 时间从 20 小时压缩到 2 小时，风险识别率提升 40%。</div>
+      </div>
+    </a>
+    <a class="blog-related-card" href="./hxa-team">
+      <div class="blog-related-card-img">🐙</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent 案例研究</div>
+        <div class="blog-related-card-title">从 1 个 AI 员工到 1 支 AI 团队</div>
+        <div class="blog-related-card-desc">7 个 Agent 并行，Kevin 只管方向，20 分钟网站上线。</div>
+      </div>
+    </a>
+    <a class="blog-related-card" href="./email-automation">
+      <div class="blog-related-card-img">📧</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent 案例研究</div>
+        <div class="blog-related-card-title">客服邮件自动化</div>
+        <div class="blog-related-card-desc">每 10 分钟扫描收件箱，AI 分类过滤，0 漏掉用户邮件。</div>
       </div>
     </a>
   </div>
