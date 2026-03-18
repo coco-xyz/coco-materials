@@ -772,12 +772,30 @@ No credentials are required. You only need:
 
 > **Tip:** If the QR code has expired, the Dashboard will automatically refresh it. Scan the latest QR code displayed.
 
-### Step 5: Connection Complete — Start Chatting
+### Step 5: Verify Connection and Manage Chat Permissions
 
 1. After successful scanning, the Dashboard automatically detects the connection — the WhatsApp card shows **Connected**
-2. You can now send messages to your WhatsApp account, and the AI employee will respond automatically
-3. Share the AI employee's WhatsApp contact with others to let them chat with your AI directly
-4. Deployment complete!
+2. Deployment complete! You are now the **Owner** (administrator) of this WhatsApp bot
+
+#### Verify the Bot Is Working
+
+Search for your own WhatsApp account and send yourself a message — the AI employee will reply automatically. This confirms the connection is live.
+
+#### Managing Who Can Chat with the Bot
+
+By default, **only the Owner** can chat with the bot. To allow others to interact, configure access via two modes — just send a natural language instruction to the bot:
+
+**Allowlist Mode** — Only specified phone numbers can chat:
+
+> Send to bot: `Enable allowlist mode, add +1 555xxxx888 to the list`
+
+The bot will update its configuration automatically. Only users on the allowlist can initiate conversations.
+
+**Open Mode** — Anyone can chat:
+
+> Send to bot: `Enable open mode, anyone can DM you`
+
+The bot will open chat access to all users.
 
 > **Note:** WhatsApp linked devices may disconnect automatically if the phone is offline for an extended period. If disconnected, return to the Dashboard and scan the QR code again to reconnect.
 
@@ -788,5 +806,6 @@ No credentials are required. You only need:
 | QR code takes a long time to appear | The first generation may take 30-60 seconds — this is normal. Do not close the page |
 | QR code expired before scanning | The QR code auto-refreshes every 15 seconds. Use the latest one displayed |
 | "Already in progress" error | A previous QR request is still running. Wait a moment and it will resolve automatically |
+| Others can't message the bot | By default only the Owner can chat. Enable Allowlist or Open mode to grant access |
 | WhatsApp disconnected after some time | Phone was offline too long. Reconnect by scanning QR code again from the Dashboard |
 | Want to disconnect WhatsApp | Click the **Disconnect** button on the WhatsApp card in the instance detail page |
