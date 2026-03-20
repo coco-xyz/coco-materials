@@ -691,13 +691,14 @@ This enables users to send direct messages to your bot in Slack.
 
 <img :src="withBase('/slack-step6-app-home.png')" alt="Configure App Home" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-### Step 7: Configure Tokens in COCO Channel
+### Step 7: Send Tokens to Your AI Employee
 
-1. Return to the [COCO Dashboard](https://coco.site/dashboard) and enter the configuration page for the corresponding Channel
-2. Fill in the following two Tokens:
-   - **Bot Token** (`xoxb-...`): from Slack App's [OAuth & Permissions](https://api.slack.com/apps) page
-   - **App Token** (`xapp-...`): the token generated in Step 2 above
-3. Save the configuration
+Once the Slack App setup is complete, simply send both tokens to your AI employee in chat to finish the connection. For example:
+
+> Bot Token: xoxb-xxxxxxxx
+> App Token: xapp-xxxxxxxx
+
+Your AI employee will automatically configure the Slack channel connection.
 
 ### Step 8: Start Chatting
 
@@ -713,7 +714,7 @@ This enables users to send direct messages to your bot in Slack.
 
 | Issue | Solution |
 |-------|----------|
-| Bot not responding | Verify both Bot Token and App Token are correct in the Dashboard |
+| Bot not responding | Re-send both Bot Token and App Token to your AI employee in chat |
 | Bot not visible in Slack | Ensure the App is installed to Workspace (Step 4) and App Home is configured (Step 6) |
 | Bot not responding in channels | The Bot must be invited to the channel first using `/invite @BotName` |
 | Token regenerated after scope change | Reinstall the App to Workspace after any scope modification, then update tokens in Dashboard |
