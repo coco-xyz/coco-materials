@@ -406,96 +406,48 @@ In the Permission Management page, copy the following JSON and import all permis
 
 ## Option C: WeCom (企业微信) Deployment
 
-**Estimated time: 10-15 minutes**
+**Estimated time: ~5 minutes**
 
-> **Note:** WeCom (企业微信) is Tencent's enterprise messaging platform, widely used by Chinese companies. Setting up a self-built application requires **enterprise admin access** to the WeCom Admin Console.
+> **Version Note:** This guide applies to WeCom component **v0.1.1 and above** (WebSocket long connection mode — no public IP or SSL required). If you are on the older v0.1.0 webhook mode, upgrade by sending `帮我升级 wecom 组件` via the Dashboard Web Console.
 
-Five credentials are required:
+Only 2 credentials are required:
 
 | Credential | Description |
 |------------|-------------|
-| Corp ID (CorpID) | Enterprise unique identifier |
-| App Secret | Application credential key |
-| Agent ID (AgentId) | Application identifier |
-| Token | Callback verification token |
-| EncodingAESKey | Callback message encryption key (43 characters) |
+| Bot ID | Unique identifier for the intelligent robot |
+| Secret | Robot authentication key |
 
-### Step 1: Get Your Corp ID (CorpID)
+### Step 1: Create an Intelligent Robot
 
-Visit the WeCom Admin Console [My Enterprise](https://work.weixin.qq.com/wework_admin/frame#/profile) page. Scroll to the bottom to find the **Enterprise ID** (企业ID). Copy and save this value.
+In the WeCom Admin Console, go to **Workbench** (工作台) → **Intelligent Robots** (智能机器人) → click **Create Robot** (创建机器人).
 
-<img :src="withBase('/wecom-step1-corp-id.png')" alt="Get Corp ID" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+### Step 2: Select Creation Method
 
-### Step 2: Go to App Management and Create an Application
+In the dialog, click **手动创建 >** (Manual Creation), or use AI auto-generation.
 
-In the left sidebar, go to **App Management** (应用管理). In the "Self-Built" (自建) section at the bottom, click **Create Application** (创建应用).
+### Step 3: Switch to API Mode
 
-<img :src="withBase('/wecom-step2-create-app.png')" alt="Create Application" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+At the bottom of the page, click **切换至 API 模式创建** (Switch to API Mode Creation).
 
-### Step 3: Set Application Name and Visible Scope
+### Step 4: Enable Long Connection and Copy Credentials
 
-Give your Bot a memorable name (e.g., `COCO AI Employee`) and set the **Visible Scope** (可见范围) to select which team members can see and use the Bot.
+1. Select **使用长连接** (Use Long Connection)
+2. Copy the **Bot ID** and **Secret** displayed on the page
+3. Set the **Visibility Scope** (可见范围) to determine who can use the bot
+4. Click **Save**
 
-<img :src="withBase('/wecom-step3-app-name.png')" alt="Set App Name and Visible Scope" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+> **Important:** The Secret is only shown once at creation. Save it immediately.
 
-### Step 4: Get AgentId and Secret, Set Up API Reception
+### Step 5: Connect in Dashboard
 
-After the application is created, on the application detail page:
-
-- **AgentId** — displayed directly on the page
-- **Secret** — click "View" to obtain
-
-Then in the "Features" section at the bottom, click **Receive Messages → Set Up API** (接收消息 → 设置API接收).
-
-<img :src="withBase('/wecom-step4-agent-secret.png')" alt="Get AgentId and Secret" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
-
-> **Important:** The Secret is only shown once. Save it immediately.
-
-### Step 5: Get Token and EncodingAESKey (Do Not Save Yet)
-
-In the "API Message Reception" configuration page:
-
-- **Token** — click "Randomly Generate" (随机获取)
-- **EncodingAESKey** — click "Randomly Generate" (随机获取)
-
-<img :src="withBase('/wecom-step5-token-aeskey-new.png')" alt="Get Token and EncodingAESKey" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
-
-> **Important:** Do not save yet — the URL field needs to be filled in Step 7. Keep this page open.
-
-### Step 6: Enter Credentials in Dashboard and Connect
-
-In the COCO Dashboard's WeCom channel configuration page, enter all the credentials obtained above. Note the **Webhook URL** and **Server IP** displayed on the page, then click **Connect** and wait for the connection to succeed.
-
-<img :src="withBase('/wecom-step6-dashboard-credentials.png')" alt="Dashboard Credentials" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
-
-### Step 7: Enter Webhook URL Back in WeCom
-
-After the connection succeeds, copy the **Webhook URL** from the Dashboard and paste it into the **URL** field on the "API Message Reception" configuration page you kept open in Step 5. Click **Save**.
-
-### Step 8: Configure Trusted IP
-
-Enter the **Server IP** from the Dashboard into WeCom's **Trusted Enterprise IP** (企业可信IP) settings to ensure the server can call WeCom APIs.
-
-<img :src="withBase('/wecom-step8-trusted-ip.png')" alt="Configure Trusted IP" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
-
-### Step 9: Start Chatting
-
-Once configuration is complete:
-1. Search for the Bot name in WeCom and start a conversation
-2. Send any message — your AI employee responds immediately
-3. You can also add the application to a WeCom group for team-wide access
-4. Deployment complete!
-
-> **Group usage:** In a WeCom group chat, @mention your application to interact with the AI employee. All group members within the Visible Scope can use it.
+In the COCO Dashboard, go to the employee instance detail page → **Conversation Entrance** (会话入口) → click the **WeCom Connection** button → enter the **Bot ID** and **Secret** from Step 4. Click **Connect**.
 
 ### WeCom FAQ
 
 | Issue | Solution |
 |-------|----------|
-| Cannot save API configuration | Ensure you complete the Dashboard connection (Step 6) first — WeCom validates the URL on save |
-| Application not visible to team members | Check the Visible Scope setting in App Management — make sure all intended users are included |
-| Bot not responding in group | Confirm the application has been added to the group and members are within the Visible Scope |
-| Secret lost or forgotten | In App Management, click Get Secret again — the old Secret is invalidated; reconfigure as needed |
+| Bot not responding | Verify that Long Connection mode is enabled and the Bot ID / Secret are entered correctly |
+| Secret lost | Delete the robot and create a new one — Secrets cannot be retrieved after creation |
 
 ---
 
@@ -726,6 +678,10 @@ This enables users to send direct messages to your bot in Slack.
 **Estimated time: ~5 minutes**
 
 > **Note:** WhatsApp connects via **QR code scanning** (linked device), similar to using WhatsApp Web. No API keys, developer accounts, or app configuration are needed — just a phone with WhatsApp installed.
+
+::: warning Use a Dedicated WhatsApp Account
+Please use a **newly registered, dedicated WhatsApp account** for the bot — do **not** use your personal WhatsApp account. The connected account will serve exclusively as the bot's number.
+:::
 
 No credentials are required. You only need:
 
