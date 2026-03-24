@@ -1038,6 +1038,14 @@ After the Singapore tech media team integrated COCO:
         <div class="blog-related-card-desc">A complete CRM system designed, built, and operated daily by an AI Agent.</div>
       </div>
     </a>
+    <a class="blog-related-card" href="/case-studies/deal-flow-dd">
+      <div class="blog-related-card-img">📋</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent Case Study</div>
+        <div class="blog-related-card-title">AI Due Diligence — 20 Hours to 2</div>
+        <div class="blog-related-card-desc">A full DD workflow compressed into a structured AI execution chain with analyst-grade outputs.</div>
+      </div>
+    </a>
   </div>
 </div>
 
