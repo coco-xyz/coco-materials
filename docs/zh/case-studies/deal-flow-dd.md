@@ -559,6 +559,16 @@ head:
   height: 100%;
   border-radius: 16px;
 }
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+  background: #000;
+}
 
 .case-cta {
   text-align: center;
@@ -1066,6 +1076,12 @@ COCO AI Agent 的企业自动化方案，把这些可以被结构化的工作全
     <tr><td><strong>每笔交易总计</strong></td><td><strong>20-28 小时</strong></td></tr>
   </tbody>
 </table>
+</div>
+
+<div class="video-showcase">
+  <div class="video-container">
+    <video controls playsinline src="https://william.coco.site/dd-demo-subtitled-v3.mp4" aria-label="COCO AI 金融尽调演示"></video>
+  </div>
 </div>
 
 </div>
