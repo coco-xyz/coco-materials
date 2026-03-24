@@ -559,6 +559,16 @@ head:
   height: 100%;
   border-radius: 16px;
 }
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+  background: #000;
+}
 
 .case-cta {
   text-align: center;
@@ -917,6 +927,12 @@ Every deal, analysts burn through an entire week in data rooms and spreadsheets.
     <tr><td><strong>Total per deal</strong></td><td><strong>20–28 hours</strong></td></tr>
   </tbody>
 </table>
+
+<div class="video-showcase">
+  <div class="video-container">
+    <video controls playsinline src="https://william.coco.site/dd-demo-subtitled-v3.mp4" aria-label="COCO AI due diligence demo"></video>
+  </div>
+</div>
 
 </div>
 
