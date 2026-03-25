@@ -1082,14 +1082,6 @@ The standard setup process involves five steps: (1) provide the email credential
   <div class="blog-divider-shell">🐚</div>
   <h3>More Case Studies</h3>
   <div class="blog-related-grid">
-    <a class="blog-related-card" href="/case-studies/hxa-team">
-      <div class="blog-related-card-img">🐙</div>
-      <div class="blog-related-card-body">
-        <div class="blog-related-card-label">AI Agent Case Study</div>
-        <div class="blog-related-card-title">From 1 AI Employee to a Full AI Team</div>
-        <div class="blog-related-card-desc">7 Agents running in parallel. 20 minutes from brief to live website.</div>
-      </div>
-    </a>
     <a class="blog-related-card" href="/case-studies/social-media">
       <div class="blog-related-card-img">📡</div>
       <div class="blog-related-card-body">
@@ -1112,6 +1104,14 @@ The standard setup process involves five steps: (1) provide the email credential
         <div class="blog-related-card-label">AI Agent Case Study</div>
         <div class="blog-related-card-title">AI-Driven Investment Due Diligence</div>
         <div class="blog-related-card-desc">DD time cut from 20 hours to 2. Risk identification rate up 40%.</div>
+      </div>
+    </a>
+    <a class="blog-related-card" href="/case-studies/">
+      <div class="blog-related-card-img">✨</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent Case Study</div>
+        <div class="blog-related-card-title">Capability Showcase</div>
+        <div class="blog-related-card-desc">Explore the broader benchmark set across operations, CRM, research, and content workflows.</div>
       </div>
     </a>
   </div>

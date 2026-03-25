@@ -1209,14 +1209,6 @@ COCO AI Agent 可以扩展到多种企业邮件自动化场景：销售跟进邮
   <div class="blog-divider-shell">🐚</div>
   <h3>更多案例</h3>
   <div class="blog-related-grid">
-    <a class="blog-related-card" href="./hxa-team">
-      <div class="blog-related-card-img">🐙</div>
-      <div class="blog-related-card-body">
-        <div class="blog-related-card-label">AI Agent 案例研究</div>
-        <div class="blog-related-card-title">从 1 个 AI 员工到 1 支 AI 团队</div>
-        <div class="blog-related-card-desc">7 个 Agent 并行，Kevin 只管方向，20 分钟网站上线。</div>
-      </div>
-    </a>
     <a class="blog-related-card" href="./social-media">
       <div class="blog-related-card-img">📱</div>
       <div class="blog-related-card-body">
@@ -1239,6 +1231,14 @@ COCO AI Agent 可以扩展到多种企业邮件自动化场景：销售跟进邮
         <div class="blog-related-card-label">AI Agent 案例研究</div>
         <div class="blog-related-card-title">AI 驱动的投资尽调</div>
         <div class="blog-related-card-desc">DD 时间从 20 小时压缩到 2 小时，风险识别率提升 40%。</div>
+      </div>
+    </a>
+    <a class="blog-related-card" href="./">
+      <div class="blog-related-card-img">✨</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent 案例研究</div>
+        <div class="blog-related-card-title">能力展示</div>
+        <div class="blog-related-card-desc">继续查看运营、CRM、调研、内容等更多核心场景的实战基准。</div>
       </div>
     </a>
   </div>

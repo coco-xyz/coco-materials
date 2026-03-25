@@ -1065,6 +1065,14 @@ Simply visit coco.xyz to start a free trial, describe your business requirements
   <div class="blog-divider-shell">🐚</div>
   <h3>More Case Studies</h3>
   <div class="blog-related-grid">
+    <a class="blog-related-card" href="/case-studies/email-automation">
+      <div class="blog-related-card-img">📧</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent Case Study</div>
+        <div class="blog-related-card-title">Customer Service Email Automation</div>
+        <div class="blog-related-card-desc">AI monitors every inbound email, filters noise, drafts replies, and keeps humans in control of every send.</div>
+      </div>
+    </a>
     <a class="blog-related-card" href="/case-studies/social-media">
       <div class="blog-related-card-img">📱</div>
       <div class="blog-related-card-body">

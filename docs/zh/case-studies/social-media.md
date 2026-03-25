@@ -1030,6 +1030,14 @@ COCO 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
   <div class="blog-divider-shell">🐚</div>
   <h3>更多案例</h3>
   <div class="blog-related-grid">
+    <a class="blog-related-card" href="/zh/case-studies/email-automation">
+      <div class="blog-related-card-img">📧</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent 案例研究</div>
+        <div class="blog-related-card-title">客服邮件自动化</div>
+        <div class="blog-related-card-desc">真实用户邮件几分钟内识别出来，营销噪音自动过滤，回复草稿先起好再交给人审核。</div>
+      </div>
+    </a>
     <a class="blog-related-card" href="/zh/case-studies/crm">
       <div class="blog-related-card-img">📊</div>
       <div class="blog-related-card-body">
