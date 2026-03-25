@@ -1106,14 +1106,6 @@ The standard setup process involves five steps: (1) provide the email credential
         <div class="blog-related-card-desc">DD time cut from 20 hours to 2. Risk identification rate up 40%.</div>
       </div>
     </a>
-    <a class="blog-related-card" href="/case-studies/">
-      <div class="blog-related-card-img">✨</div>
-      <div class="blog-related-card-body">
-        <div class="blog-related-card-label">AI Agent Case Study</div>
-        <div class="blog-related-card-title">Capability Showcase</div>
-        <div class="blog-related-card-desc">Explore the broader benchmark set across operations, CRM, research, and content workflows.</div>
-      </div>
-    </a>
   </div>
 </div>
 
