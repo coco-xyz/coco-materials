@@ -24,6 +24,7 @@ const navItems = computed(() => {
           items: [
             { icon: '📊', text: isZh ? 'COCO CRM' : 'COCO CRM', desc: isZh ? 'AI 搭建，AI 运营' : 'Built by AI, Run by AI', link: isZh ? '/zh/case-studies/crm' : '/case-studies/crm' },
             { icon: '📱', text: isZh ? '社媒自动化' : 'Social Media & BD', desc: isZh ? '两家公司，同一个突破' : 'Two Companies, One Breakthrough', link: isZh ? '/zh/case-studies/social-media' : '/case-studies/social-media' },
+            { icon: '📋', text: isZh ? 'AI 投资尽调' : 'AI Due Diligence', desc: isZh ? '20小时压缩到2小时' : '20 hours down to 2', link: isZh ? '/zh/case-studies/deal-flow-dd' : '/case-studies/deal-flow-dd' },
             { icon: '📧', text: isZh ? '邮件自动化' : 'Email Automation', desc: isZh ? '真实用户邮件识别、提醒与草稿起草' : 'Detect, alert, and draft replies for real customer emails', link: isZh ? '/zh/case-studies/email-automation' : '/case-studies/email-automation' },
           ]
         },

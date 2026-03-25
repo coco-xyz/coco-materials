@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "Social Media & BD Automation — Two Companies, One Breakthrough"
-description: "From a single prompt to a complete operations model. AI handles volume, humans handle strategy."
+title: "AI Agent for Investment Due Diligence Automation — DD Time Cut from 20 Hours to 2"
+description: "COCO AI Agent automates the full investment due diligence workflow: data room parsing, financial modeling, risk identification, and IC memo generation. Enterprise AI automation transforms analysts from document handlers into true investment decision-makers, tripling quarterly deal throughput."
 head:
   - - meta
     - property: og:title
-      content: "Social Media & BD Automation — Two Companies, One Breakthrough"
+      content: "AI Agent for Investment Due Diligence Automation — DD Time Cut from 20 Hours to 2"
   - - meta
     - property: og:description
-      content: "From a single prompt to a complete operations model. AI handles volume, humans handle strategy."
+      content: "COCO AI Agent enterprise automation for investment due diligence: data room to IC memo, fully automated. Digital employee replaces manual document handling, 3x quarterly deal throughput."
 ---
 
 <style>
@@ -559,6 +559,16 @@ head:
   height: 100%;
   border-radius: 16px;
 }
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+  background: #000;
+}
 
 .case-cta {
   text-align: center;
@@ -653,7 +663,7 @@ head:
 .sop-item:nth-child(3) { transition-delay: 0.2s; }
 .sop-item:nth-child(4) { transition-delay: 0.3s; }
 
-/* ===== Premium Font ===== */
+/* ===== Premium Handwritten Font (import at top of style block) ===== */
 .case-hero h1,
 .case-section h2 {
   font-family: 'Playfair Display', Georgia, 'Noto Serif SC', serif;
@@ -799,18 +809,92 @@ head:
     grid-template-columns: 1fr;
   }
 }
+
+/* DD-specific: result table */
+.dd-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0;
+  font-size: 0.92rem;
+}
+.dd-table th {
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-2);
+  font-weight: 600;
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 2px solid var(--vp-c-divider);
+}
+.dd-table td {
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--vp-c-divider);
+  color: var(--vp-c-text-2);
+}
+.dd-table tr:last-child td {
+  border-bottom: none;
+  font-weight: 700;
+  color: var(--vp-c-text-1);
+  background: rgba(92, 197, 197, 0.04);
+}
+.dd-table td:last-child {
+  color: #FF7B7B;
+  font-weight: 600;
+}
+.dd-table tr:last-child td:last-child {
+  color: #FF7B7B;
+}
+
+/* Hero stats */
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+.hero-stat {
+  text-align: center;
+}
+.hero-stat .stat-num {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #5CC5C5;
+  display: block;
+  line-height: 1.1;
+}
+.hero-stat .stat-label {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.65);
+  margin-top: 4px;
+  display: block;
+}
 </style>
 
 <div class="case-hero">
   <div class="hero-text-box">
-    <h1>Social Media & BD<br/><em>Two Companies, One Breakthrough</em></h1>
-    <p class="subtitle">From a single prompt to a complete operations model.<br/>AI handles volume, humans handle strategy. First to publish wins.</p>
+    <div class="badge">FinTech · AI Due Diligence</div>
+    <h1>AI-Powered Investment DD<br/><em>20 Hours of Work, Done in 2</em></h1>
+    <p class="subtitle">From data room to IC memo, fully automated.<br/>Analysts focus on decisions, not document handling.</p>
     <div class="hero-tags">
-      <span class="tag">KOL Monitoring</span>
-      <span class="tag">Content Engine</span>
-      <span class="tag">BD Pipeline</span>
-      <span class="tag">Scheduled Publishing</span>
-      <span class="tag">CRM Management</span>
+      <span class="tag">Data Room Analysis</span>
+      <span class="tag">Risk Identification</span>
+      <span class="tag">Financial Modeling</span>
+      <span class="tag">IC Memo Generation</span>
+      <span class="tag">Continuous Monitoring</span>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="stat-num">90%</span>
+        <span class="stat-label">Time Saved</span>
+      </div>
+      <div class="hero-stat">
+        <span class="stat-num">3x</span>
+        <span class="stat-label">Deal Throughput</span>
+      </div>
+      <div class="hero-stat">
+        <span class="stat-num">+40%</span>
+        <span class="stat-label">Risk Detection Rate</span>
+      </div>
     </div>
   </div>
 </div>
@@ -818,28 +902,35 @@ head:
 <div class="case-body">
 <div class="case-section">
 
-## Two Companies, <em>One Pain Point</em>
+## The Hidden Cost of <em>Manual DD</em>
 
-<div class="company-duo">
-  <div class="company-card">
-    <div class="card-label compliance">Tech Compliance</div>
-    <h3>A Tech Compliance Firm</h3>
-    <div class="card-meta">BD & Marketing Lead · One Person Does Everything</div>
-    <p>Her work spans KOL monitoring, content production, conference BD, and lead management — a scope that typically requires several dedicated roles. She came to COCO with a specific need.</p>
-  </div>
-  <div class="company-card">
-    <div class="card-label media">Tech Media</div>
-    <h3>A Singapore Tech Media Company</h3>
-    <div class="card-meta">< 20 Person Team · Massive Content Pressure</div>
-    <p>Every day they need to publish industry news, analysis, and original content across multiple social platforms and communities, but the team is stretched thin. 15 people doing the work of 50.</p>
-  </div>
-</div>
+Investment due diligence is one of the most information-intensive workflows in professional services, and it has resisted automation for years because the tasks seem to require deep human expertise: reading between the lines of a pitch deck, spotting inconsistencies across financial models, evaluating founder credibility, assessing regulatory exposure. Traditional DD frameworks were built around the assumption that these tasks must be done by experienced analysts working sequentially through a stack of documents. The result is a workflow that is simultaneously expensive, slow, and prone to the cognitive fatigue that lets critical risks slip through.
 
-The bottleneck was the same: **more content to produce, more channels to cover, not enough people.**
+COCO AI's enterprise automation approach reframes this problem. The tasks that consume analyst hours — document parsing, financial data extraction, competitive research, risk flagging — are high-volume, structured, and pattern-based. These are precisely the tasks where AI Agent automation delivers the most dramatic time savings. By deploying a dedicated digital employee to each deal, the AI handles the 20-hour information processing burden so human analysts can focus entirely on the 2-hour judgment and decision-making work at the end.
+
+Every deal, analysts burn through an entire week in data rooms and spreadsheets. Time that should go toward investment judgment gets consumed by document logistics.
+
+<table class="dd-table">
+  <thead>
+    <tr>
+      <th>DD Task</th>
+      <th>Manual Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Reading & summarizing investment materials</td><td>3–4 hours</td></tr>
+    <tr><td>Extracting & validating financial models</td><td>4–6 hours</td></tr>
+    <tr><td>Market sizing & desktop research</td><td>3–5 hours</td></tr>
+    <tr><td>Competitive landscape mapping</td><td>3–4 hours</td></tr>
+    <tr><td>Risk flag identification</td><td>2–3 hours</td></tr>
+    <tr><td>IC memo writing</td><td>4–6 hours</td></tr>
+    <tr><td><strong>Total per deal</strong></td><td><strong>20–28 hours</strong></td></tr>
+  </tbody>
+</table>
 
 <div class="video-showcase">
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/jFGNry0BohA" title="COCO Social Media Automation Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <video controls playsinline src="https://william.coco.site/dd-demo-subtitled-v3.mp4" aria-label="COCO AI due diligence demo"></video>
   </div>
 </div>
 
@@ -847,50 +938,96 @@ The bottleneck was the same: **more content to produce, more channels to cover, 
 
 <div class="case-section">
 
-## The Demo That <em>Changed Everything</em>
+## Four <em>Core Problems</em>
 
-She sent one message:
+Before designing the AI-powered DD pipeline, COCO AI conducted a structured analysis of where manual due diligence breaks down. Across investment teams that evaluated the system, four recurring failure modes emerged consistently — and each one compounds the others. Slowness forces teams to be selective about which deals get thorough DD, which creates coverage gaps. Coverage gaps mean missed risks, which reach IC committees in incomplete reports. And the inability to scale means teams face a permanent ceiling on deal volume that no amount of analyst effort can overcome. These four problems are interconnected, and solving one partially while leaving the others unchanged produces only marginal improvement.
 
-<div class="case-quote">
-  <p>Find which KOLs on a certain project's follow list have posted news recently — in the last two hours</p>
+The COCO AI Agent approach addresses all four simultaneously, because they share a common root cause: the mismatch between the volume of information that must be processed in a professional DD workflow and the throughput capacity of human information workers. When you remove that constraint with AI automation, the entire bottleneck dissolves.
+
+<div class="company-duo">
+  <div class="company-card">
+    <div class="card-label compliance">Bottleneck</div>
+    <h3>Too Slow</h3>
+    <div class="card-meta">3–5 days per deal</div>
+    <p>By the time your IC report is ready, competitors may have already signed a term sheet. Hot deals move faster than manual workflows allow.</p>
+  </div>
+  <div class="company-card">
+    <div class="card-label media">Stale Data</div>
+    <h3>Static Snapshots</h3>
+    <div class="card-meta">Reports go stale at completion</div>
+    <p>Market shifts, competitor fundraises, regulatory changes — these continue after your DD closes. The report is outdated the moment it's finished.</p>
+  </div>
+  <div class="company-card">
+    <div class="card-label compliance">Coverage Gap</div>
+    <h3>Missed Risks</h3>
+    <div class="card-meta">~60% risk detection rate</div>
+    <p>Human reviewers fatigue. Cap table inconsistencies, revenue projection anomalies, related-party transactions — these slip through under time pressure.</p>
+  </div>
+  <div class="company-card">
+    <div class="card-label media">Scale Wall</div>
+    <h3>Can't Scale</h3>
+    <div class="card-meta">Hire more or lower quality</div>
+    <p>To process more deals you face a binary choice: expand headcount (expensive) or reduce DD depth per deal. Neither is a good answer.</p>
+  </div>
 </div>
-
-COCO scanned **325 followed accounts**, found **4 recent KOL posts** with direct links, including several top-tier accounts (millions of followers) — **completed in minutes**, no manual Twitter scrolling needed.
-
-That single interaction opened up a much bigger conversation.
 
 </div>
 
 <div class="case-section">
 
-## From Prompt to <em>Complete Operations Model</em>
+## The AI-Powered <em>DD Pipeline</em>
 
-COCO worked with her to design a full suite of workflows covering marketing, BD, and sales operations:
+The COCO AI due diligence pipeline was designed from the ground up to mirror how an elite analyst team would approach a deal — not to replace human judgment, but to eliminate the document logistics that prevent analysts from exercising that judgment efficiently. Each step in the pipeline corresponds to a distinct category of analytical work, and each step runs concurrently where possible, rather than sequentially. This parallel execution architecture is what compresses 20–28 hours of sequential manual work into a 2–3 hour end-to-end workflow.
+
+The pipeline is configured once per fund or team, with customizable templates that match existing IC memo formats, risk frameworks, and LP reporting requirements. New deals enter the pipeline through a simple material upload — analysts don't need to learn new software or change their existing workflow architecture. The AI digital employee handles the transformation from raw data room materials to structured, IC-ready intelligence automatically.
 
 <div class="workflow-section">
   <div class="workflow-block marketing">
-    <h4>📡 Marketing</h4>
+    <h4>📥 Step 1: Ingest</h4>
     <ul>
-      <li>24/7 KOL and industry news monitoring, summary push every 2 hours</li>
-      <li>Instant alerts when hot topics break</li>
-      <li>3 long-form articles per week (research → first draft → revision loop)</li>
-      <li>Monthly industry reports auto-generated</li>
-      <li>Viral content reverse engineering: analyze what works and extract reusable patterns</li>
+      <li>Upload materials in any format: PDF, Excel, Notion links</li>
+      <li>Full document parsing and structuring in under 3 minutes</li>
+      <li>Auto-classifies financial statements, pitch decks, legal docs</li>
     </ul>
   </div>
   <div class="workflow-block bd">
-    <h4>🤝 Business Development</h4>
+    <h4>📈 Step 2: Extract</h4>
     <ul>
-      <li>Conference radar: filter upcoming events by relevance</li>
-      <li>Lead scoring: account profiles + recent activity + fit signals</li>
-      <li>Pitch deck version control and background tracking</li>
+      <li>Auto-pulls key metrics: revenue, burn rate, unit economics</li>
+      <li>Cap table structure and dilution analysis</li>
+      <li>Historical financials cross-validated with anomaly flagging</li>
     </ul>
   </div>
   <div class="workflow-block sales">
-    <h4>💰 Sales Operations</h4>
+    <h4>🔍 Step 3: Research</h4>
     <ul>
-      <li>Daily outreach: 10+ new contacts with personalized reasons</li>
-      <li>Full-lifecycle CRM management: track lead progress, next actions, follow-up timing</li>
+      <li>Cross-validates TAM/SAM figures against third-party sources</li>
+      <li>Tracks competitor dynamics and funding history automatically</li>
+      <li>Founder background checks via LinkedIn, news, public records</li>
+    </ul>
+  </div>
+  <div class="workflow-block marketing">
+    <h4>⚠️ Step 4: Analyze</h4>
+    <ul>
+      <li>Auto-flags high-risk signals: revenue projection outliers, cap table gaps</li>
+      <li>Benchmarks against comparable deals and industry standards</li>
+      <li>Risk matrix generated: probability × impact × mitigability</li>
+    </ul>
+  </div>
+  <div class="workflow-block bd">
+    <h4>📡 Step 5: Monitor</h4>
+    <ul>
+      <li>Real-time tracking of competitor fundraises and regulatory shifts</li>
+      <li>Team changes flagged via LinkedIn signals</li>
+      <li>Portfolio company KPIs updated automatically each quarter</li>
+    </ul>
+  </div>
+  <div class="workflow-block sales">
+    <h4>📄 Step 6: Generate Report</h4>
+    <ul>
+      <li>IC-ready structured memo: executive summary, financial analysis, risk matrix</li>
+      <li>Customizable templates to match LP or IC committee preferences</li>
+      <li>From material upload to final report: 2–3 hours, end to end</li>
     </ul>
   </div>
 </div>
@@ -899,93 +1036,65 @@ COCO worked with her to design a full suite of workflows covering marketing, BD,
 
 <div class="case-section">
 
-## Daily <em>SOP</em>
+## <em>Results</em>
 
-<div class="sop-timeline">
-  <div class="sop-item">
-    <div class="sop-time">9:00 AM</div>
-    <div class="sop-desc">Industry Briefing — overnight events, competitor moves, market sentiment</div>
-  </div>
-  <div class="sop-item">
-    <div class="sop-time">11:00 AM</div>
-    <div class="sop-desc">Today's outreach list + approach angles — 10+ new contacts with context and talking points</div>
-  </div>
-  <div class="sop-item">
-    <div class="sop-time">3:00 PM</div>
-    <div class="sop-desc">Content topic recommendations based on today's trends — with angle suggestions and reference material</div>
-  </div>
-  <div class="sop-item">
-    <div class="sop-time">Weekly / Monthly</div>
-    <div class="sop-desc">Auto-generated review reports — content performance, lead conversion, outreach efficiency</div>
-  </div>
-</div>
+The impact of AI-powered DD automation on investment team performance is measurable across five dimensions, each of which addresses one of the failure modes identified in the problem analysis. These results are not theoretical projections — they reflect actual operational outcomes from teams that have deployed COCO AI Agent as their standard DD workflow. The most significant change isn't the time savings, though those are substantial. It's the structural shift in how analyst talent is allocated: away from document processing and toward the sourcing, relationship-building, and judgment work that determines whether a fund outperforms its benchmark.
 
-</div>
-
-<div class="case-section">
-
-## The Media Team's <em>Semi-Automated Publishing</em>
-
-After the Singapore tech media team integrated COCO:
-
-- AI digital employees auto-generate **platform-specific content** — Telegram groups, Twitter, Newsletters, each with its own tone
-- Scheduled publishing to communities and social media channels
-- Content covers news digests, deep analysis, and community engagement
-
-**Result:** Content production to publishing became semi-automated. The team shifted from scrambling to produce content to **focusing on editorial strategy**.
-
-<div class="publish-visual">
-  <div class="publish-title">Multi-Platform Scheduled Publishing Flow</div>
-  <div class="publish-flow">
-    <div class="publish-source">
-      <div class="publish-icon">🤖</div>
-      <div class="publish-label">COCO AI</div>
-      <div class="publish-sub">Content Engine</div>
-    </div>
-    <div class="publish-arrows">
-      <div class="publish-line"></div>
-    </div>
-    <div class="publish-targets">
-      <div class="publish-target tg"><span class="target-icon">✈️</span> Telegram Groups</div>
-      <div class="publish-target tw"><span class="target-icon">𝕏</span> Twitter/X</div>
-      <div class="publish-target nl"><span class="target-icon">📧</span> Newsletter</div>
-      <div class="publish-target dc"><span class="target-icon">💬</span> Discord</div>
-    </div>
-  </div>
-  <div class="publish-tags">
-    <span class="pub-tag">News Digests</span>
-    <span class="pub-tag">Deep Analysis</span>
-    <span class="pub-tag">Community Engagement</span>
-    <span class="pub-tag">Scheduled Publishing</span>
-  </div>
-</div>
-
-</div>
-
-<div class="case-section">
-
-## Capability Assessment
+Investment committees report a secondary benefit that doesn't show up in throughput metrics: the quality and consistency of IC memos has improved because the AI processes every document with equal rigor, every time. There is no "tired Friday afternoon review" that misses a cap table anomaly. The AI reads every line of every document with the same attention, regardless of deal volume or analyst workload.
 
 <div class="capability-bar">
   <div class="bar-label">
-    <span>Ready to Deploy Now</span>
-    <span><strong>60–70%</strong></span>
+    <span>DD Time: 20–28 hrs → 2–3 hrs</span>
+    <span><strong>–90%</strong></span>
   </div>
   <div class="bar-track">
-    <div class="bar-fill" style="width: 65%"></div>
+    <div class="bar-fill" style="width: 90%"></div>
   </div>
-  <div class="bar-note">Content generation, KOL monitoring, analysis reports, publishing scheduling — ready to run immediately</div>
+  <div class="bar-note">From materials upload to IC memo — same day</div>
 </div>
 
 <div class="capability-bar">
   <div class="bar-label">
-    <span>Unlocked After API Integration</span>
-    <span><strong>30–40%</strong></span>
+    <span>Quarterly Deal Flow: 30–50 → 90–150</span>
+    <span><strong>3x</strong></span>
   </div>
   <div class="bar-track">
-    <div class="bar-fill" style="width: 35%; background: linear-gradient(90deg, #B388D9, #9B6CC4)"></div>
+    <div class="bar-fill" style="width: 75%; background: linear-gradient(90deg, #B388D9, #9B6CC4)"></div>
   </div>
-  <div class="bar-note">Enabled once clients connect their own Twitter API, CRM systems, and other credentials</div>
+  <div class="bar-note">Same team size, triple the deal throughput</div>
+</div>
+
+<div class="capability-bar">
+  <div class="bar-label">
+    <span>Risk Detection Rate: ~60% → ~85%</span>
+    <span><strong>+40%</strong></span>
+  </div>
+  <div class="bar-track">
+    <div class="bar-fill" style="width: 85%; background: linear-gradient(90deg, #FF7B7B, #FF5096)"></div>
+  </div>
+  <div class="bar-note">AI doesn't fatigue — it reads every line every time</div>
+</div>
+
+<div class="capability-bar">
+  <div class="bar-label">
+    <span>IC Memo: 3–5 days → same day</span>
+    <span><strong>–80%</strong></span>
+  </div>
+  <div class="bar-track">
+    <div class="bar-fill" style="width: 80%"></div>
+  </div>
+  <div class="bar-note">Investment committees no longer wait a week for reports</div>
+</div>
+
+<div class="capability-bar">
+  <div class="bar-label">
+    <span>Analyst time on sourcing: 20% → 60%</span>
+    <span><strong>3x</strong></span>
+  </div>
+  <div class="bar-track">
+    <div class="bar-fill" style="width: 60%; background: linear-gradient(90deg, #A8D8B9, #5CC5C5)"></div>
+  </div>
+  <div class="bar-note">From document handler to actual investment decision-maker</div>
 </div>
 
 </div>
@@ -993,7 +1102,7 @@ After the Singapore tech media team integrated COCO:
 <div class="case-section">
 
 <div class="case-quote">
-  <p>I came in wanting to automate one thing. After our conversation, I walked out with a complete operations model for the entire role. I didn't expect to get a full SOP.</p>
+  <p>Analysts shouldn't be document movers. Let AI handle the data room — humans handle the judgment.</p>
 </div>
 
 </div>
@@ -1001,9 +1110,39 @@ After the Singapore tech media team integrated COCO:
 <div class="case-section">
 
 <div class="insight-block">
-  <h3>Two Cases, One Lesson</h3>
-  <p>Whether you're one person running BD and marketing at a compliance firm, or a small media team trying to cover an entire industry, COCO's solution is the same — <strong>AI handles volume, humans handle strategy</strong>. First to publish, first to reach the right people, wins.</p>
+  <h3>Individual vs. Enterprise</h3>
+  <p>Individuals use AI to help research a topic. Enterprises use AI to give every deal its own tireless analyst — reading PDFs, running models, checking competitors, and drafting the memo all at once, from the moment materials arrive.</p>
 </div>
+
+</div>
+
+<div class="case-section">
+
+## Frequently Asked Questions
+
+### Q: What file formats and document types does the COCO AI DD pipeline support?
+
+The COCO AI Agent accepts all major document formats used in standard data rooms: PDF, Excel (.xlsx, .xls), Word documents (.docx), PowerPoint presentations, and links to Notion pages or other web-based documentation. The system auto-classifies documents by type — financial statements, pitch decks, legal agreements, cap table records — and routes each document type to the appropriate extraction and analysis workflow. For financial models specifically, the AI extracts structured data from Excel sheets and validates figures against the narrative claims in pitch materials, flagging inconsistencies for analyst review.
+
+### Q: How does the quality of the AI-generated IC memo compare to analyst-written memos?
+
+The AI-generated IC memo matches or exceeds the structural completeness of analyst-written memos, with consistent coverage of executive summary, market analysis, financial analysis, risk matrix, and investment thesis sections. The depth of the financial analysis and risk identification typically surpasses what a single analyst can produce under time pressure, because the AI processes the full document set without fatigue or time constraints. Investment committees that have reviewed AI-generated memos alongside manually written ones report that the AI memos are more comprehensive and better-structured, though they sometimes require analyst annotations to add relationship context or qualitative judgment calls that go beyond what documents contain.
+
+### Q: How is sensitive deal data and portfolio company information protected?
+
+Data security is handled through COCO's enterprise deployment model, which supports private cloud or on-premise installation for funds with strict data governance requirements. Deal materials are processed within the customer's own infrastructure and are never sent to shared third-party AI services. Access controls, encryption at rest and in transit, and audit logging are standard components of the enterprise deployment. For funds with specific regulatory requirements (GDPR, MAS TRM, SEC compliance), COCO's implementation team works with the fund's legal and compliance officers to configure appropriate data handling protocols before go-live.
+
+### Q: Can the continuous monitoring feature track portfolio companies after investment?
+
+Yes — post-investment portfolio monitoring is one of the highest-value applications of the COCO AI Agent in the investment lifecycle. After a deal closes, the AI continues monitoring the portfolio company for team changes (LinkedIn signals, press releases), competitive dynamics (competitor fundraises, product launches), regulatory developments (jurisdiction-specific regulatory feeds), and financial milestone indicators (public filings, funding announcements). Quarterly KPI update workflows pull structured data from portfolio company reports and populate portfolio dashboards automatically. This post-investment monitoring was previously done manually by associates who could only cover a subset of the portfolio consistently.
+
+### Q: How many deals can run through the pipeline simultaneously?
+
+Unlike human analyst teams where each additional concurrent deal requires proportionally more analyst time, the COCO AI pipeline scales horizontally. Multiple deals can be processed simultaneously without degradation in analysis quality or increase in processing time per deal. The practical limit is determined by the fund's API and infrastructure configuration, not by analyst headcount. Funds that previously processed 30–50 deals per quarter with a team of three analysts have run 90–150 deals per quarter through the COCO pipeline with the same team size, with analysts shifting from document processing to sourcing and relationship work.
+
+### Q: What is the implementation timeline, and does the team need to change their existing workflow?
+
+Full implementation — from initial configuration through first live deal — typically takes five to seven working days for a standard investment team deployment. This includes configuring the document ingestion pipeline, customizing IC memo templates to match existing formats, setting up the continuous monitoring watchlists, and running parallel tests on historical deals to validate output quality against existing memos. The workflow change for analysts is minimal by design: the material upload process is familiar, and the output lands in the same memo format the IC committee already uses. The difference is that what used to take 20–28 hours now takes 2–3.
 
 </div>
 
@@ -1020,8 +1159,8 @@ After the Singapore tech media team integrated COCO:
 
 <div class="case-section">
   <div class="case-cta">
-    <h2>Let AI Take Over Your Content Volume</h2>
-    <p>Start with a single message, build a complete operations model</p>
+    <h2>Let AI Take Over Your Data Room</h2>
+    <p>Focus on finding the next great deal — leave the documents to COCO</p>
     <a href="https://coco.xyz" class="cta-btn">Try COCO Free</a>
   </div>
 </div>
@@ -1030,14 +1169,6 @@ After the Singapore tech media team integrated COCO:
   <div class="blog-divider-shell">🐚</div>
   <h3>More Case Studies</h3>
   <div class="blog-related-grid">
-    <a class="blog-related-card" href="/case-studies/email-automation">
-      <div class="blog-related-card-img">📧</div>
-      <div class="blog-related-card-body">
-        <div class="blog-related-card-label">AI Agent Case Study</div>
-        <div class="blog-related-card-title">Customer Service Email Automation</div>
-        <div class="blog-related-card-desc">Catch real user emails in minutes, filter marketing noise, and draft replies with human review.</div>
-      </div>
-    </a>
     <a class="blog-related-card" href="/case-studies/crm">
       <div class="blog-related-card-img">📊</div>
       <div class="blog-related-card-body">
@@ -1046,12 +1177,12 @@ After the Singapore tech media team integrated COCO:
         <div class="blog-related-card-desc">A complete CRM system designed, built, and operated daily by an AI Agent.</div>
       </div>
     </a>
-    <a class="blog-related-card" href="/case-studies/deal-flow-dd">
-      <div class="blog-related-card-img">📋</div>
+    <a class="blog-related-card" href="/case-studies/social-media">
+      <div class="blog-related-card-img">📱</div>
       <div class="blog-related-card-body">
         <div class="blog-related-card-label">AI Agent Case Study</div>
-        <div class="blog-related-card-title">AI Due Diligence — 20 Hours to 2</div>
-        <div class="blog-related-card-desc">A full DD workflow compressed into a structured AI execution chain with analyst-grade outputs.</div>
+        <div class="blog-related-card-title">Social Media & BD Automation</div>
+        <div class="blog-related-card-desc">From a single prompt to a complete operations model. AI handles volume, humans handle strategy.</div>
       </div>
     </a>
   </div>

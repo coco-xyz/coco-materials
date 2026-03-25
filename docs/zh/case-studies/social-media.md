@@ -1046,6 +1046,14 @@ COCO 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
         <div class="blog-related-card-desc">一套由 AI Agent 从零设计、搭建并每天自动运营的 CRM 系统。</div>
       </div>
     </a>
+    <a class="blog-related-card" href="/zh/case-studies/deal-flow-dd">
+      <div class="blog-related-card-img">📋</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent 案例研究</div>
+        <div class="blog-related-card-title">AI 投资尽调 — 20小时压缩到2小时</div>
+        <div class="blog-related-card-desc">把完整尽调流程压缩成结构化 AI 执行链，直接产出分析师级结果。</div>
+      </div>
+    </a>
   </div>
 </div>
 
