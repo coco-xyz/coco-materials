@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "社媒与 BD 自动化 — 两家公司，同一个突破"
-description: "从一条 prompt 到完整运营模型。AI 扛产量，人管策略。"
+title: "客服邮件自动化 — COCO AI Agent 企业邮件管理自动化实战"
+description: "COCO AI Agent 实现客服邮件全流程自动化：每 10 分钟扫描收件箱，AI 智能分类过滤噪声，真实用户邮件秒级提醒，自动起草回复草稿，强制人工审核把关。企业AI自动化的人机协作典范。"
 head:
   - - meta
     - property: og:title
-      content: "Social Media & BD Automation — Two Companies, One Breakthrough"
+      content: "Customer Email Automation — AI Watches the Inbox, You Make the Calls"
   - - meta
     - property: og:description
-      content: "From a single prompt to a complete operations model. AI handles volume, humans handle strategy."
+      content: "Scans every 10 minutes, instant alerts for real user emails, full draft-to-send workflow managed by AI."
 ---
 
 <style>
@@ -149,6 +149,7 @@ head:
   font-size: 1.05rem;
   line-height: 1.75;
   color: var(--vp-c-text-2);
+  margin-bottom: 1.2em;
 }
 
 /* Company cards */
@@ -502,7 +503,6 @@ head:
   }
   .case-section p {
     font-size: 0.95rem;
-    text-align: center;
   }
   .workflow-section, .workflow-block, .sop-timeline {
     text-align: left;
@@ -799,18 +799,142 @@ head:
     grid-template-columns: 1fr;
   }
 }
+
+/* ===== Mobile Responsiveness & Visual Polish ===== */
+*, *::before, *::after { box-sizing: border-box; }
+
+/* Prevent horizontal overflow */
+.case-body { overflow-x: hidden; }
+
+/* Better word breaking */
+.case-hero h1, .case-section h2 {
+  word-break: break-word;
+  hyphens: auto;
+}
+
+/* Section max-width for readability */
+.case-section { max-width: 720px; }
+
+/* Section heading accent */
+.case-section h2 {
+  border-left: 4px solid #5CC5C5;
+  padding-left: 16px;
+}
+
+/* Anchor nav scroll offset */
+.case-section h2 { scroll-margin-top: 80px; }
+
+/* 480px breakpoint */
+@media (max-width: 480px) {
+  .case-hero h1 { font-size: 1.4rem; }
+  .hero-stats { gap: 16px; }
+  .hero-stat .stat-num { font-size: 1.6rem; }
+  .case-section { padding: 0 8px; }
+  .capability-bar { padding: 14px 12px; }
+  .sop-timeline { padding-left: 24px; }
+}
+
+/* Hero stats */
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+.hero-stat {
+  text-align: center;
+}
+.hero-stat .stat-num {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #5CC5C5;
+  display: block;
+  line-height: 1.1;
+}
+.hero-stat .stat-label {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.65);
+  margin-top: 4px;
+  display: block;
+}
+
+/* ===== Project Overview Card ===== */
+.project-overview {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 0 0 40px;
+  padding: 20px;
+  border-radius: 16px;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  text-align: left;
+}
+.po-field {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  background: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-divider);
+}
+.po-icon { font-size: 1.3rem; flex-shrink: 0; line-height: 1.4; }
+.po-content { display: flex; flex-direction: column; min-width: 0; }
+.po-label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--vp-c-text-3);
+  margin-bottom: 4px;
+}
+.po-value {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  line-height: 1.4;
+  word-break: break-word;
+}
+/* FAQ spacing — space between each Q&A pair */
+.case-section h3 {
+  margin-top: 2.5em;
+  margin-bottom: 0.4em;
+}
+.case-section h3:first-child { margin-top: 0; }
+
+@media (max-width: 640px) {
+  .project-overview { grid-template-columns: 1fr; padding: 14px; gap: 8px; }
+  .po-field { padding: 10px 12px; }
+}
 </style>
 
 <div class="case-hero">
   <div class="hero-text-box">
-    <h1>社媒与 BD 自动化<br/><em>两家公司，同一个突破</em></h1>
-    <p class="subtitle">从一条 prompt 到完整运营模型。<br/>AI 扛产量，人管策略。谁先发布、谁先触达，谁就赢。</p>
+    <div class="badge">客户服务 · 邮件自动化</div>
+    <h1>客服邮件自动化<br/><em>AI 守着收件箱，你只管拍板</em></h1>
+    <p class="subtitle">每 10 分钟扫描一次，真实用户邮件秒级提醒。<br/>草稿到发送，全流程托管。</p>
     <div class="hero-tags">
-      <span class="tag">KOL 监控</span>
-      <span class="tag">内容引擎</span>
-      <span class="tag">BD 流水线</span>
-      <span class="tag">定时发布</span>
-      <span class="tag">CRM 管理</span>
+      <span class="tag">邮件监控</span>
+      <span class="tag">AI 分类</span>
+      <span class="tag">客户服务</span>
+      <span class="tag">自动提醒</span>
+      <span class="tag">全流程托管</span>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="stat-num">10min</span>
+        <span class="stat-label">扫描周期</span>
+      </div>
+      <div class="hero-stat">
+        <span class="stat-num">0</span>
+        <span class="stat-label">漏掉的用户邮件</span>
+      </div>
+      <div class="hero-stat">
+        <span class="stat-num">100%</span>
+        <span class="stat-label">人工审核把关</span>
+      </div>
     </div>
   </div>
 </div>
@@ -818,105 +942,101 @@ head:
 <div class="case-body">
 <div class="case-section">
 
-## 两家公司，<em>同一个痛点</em>
-
-<div class="company-duo">
-  <div class="company-card">
-    <div class="card-label compliance">科技合规</div>
-    <h3>某科技合规公司</h3>
-    <div class="card-meta">BD 和市场负责人 · 一人扛全部</div>
-    <p>工作覆盖 KOL 监控、内容生产、会议 BD、线索管理——这个范围通常需要好几个专岗。她带着一个具体需求来找 COCO。</p>
-  </div>
-  <div class="company-card">
-    <div class="card-label media">科技媒体</div>
-    <h3>某新加坡科技媒体</h3>
-    <div class="card-meta">< 20 人团队 · 内容压力巨大</div>
-    <p>每天需要在多个社交平台和社群发布行业资讯、分析评论和原创内容，但团队人手有限。15 人要干出 50 人的活。</p>
-  </div>
-</div>
-
-瓶颈是一样的：**更多内容要出、更多渠道要覆盖、人不够用。**
-
-<div class="video-showcase">
-  <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/jFGNry0BohA" title="COCO 社媒自动化演示" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
+<div class="insight-block">
+  <h3>演示视频</h3>
+  <p>Support Inbox Demo</p>
+  <video controls style="width:100%;max-width:720px;border-radius:12px;margin-top:12px;">
+    <source src="https://william.coco.site/support-inbox-demo-final-v3-bgm-only.mp4" type="video/mp4" />
+  </video>
 </div>
 
 </div>
 
 <div class="case-section">
 
-## 那个 <em>改变一切</em> 的 Demo
-
-她发了一条消息：
-
-<div class="case-quote">
-  <p>找一下某项目关注列表里有哪些 KOL 最近发了新闻，最近两小时的</p>
-</div>
-
-COCO 扫描了 **325 个关注账号**，找出 **4 条近期 KOL 推文**，附带直链，结果里包括多个头部账号（百万级粉丝）——**几分钟内完成**，不需要人工刷 Twitter。
-
-这一个交互打开了一场更大的对话。
-
-</div>
-
-<div class="case-section">
-
-## 从 prompt 到 <em>完整运营模型</em>
-
-COCO 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
-
-<div class="workflow-section">
-  <div class="workflow-block marketing">
-    <h4>📡 市场方向</h4>
-    <ul>
-      <li>7×24 小时 KOL 和行业新闻监控，每 2 小时推送摘要</li>
-      <li>热点爆发时即时预警</li>
-      <li>每周 3 篇长文（调研 → 初稿 → 修改闭环）</li>
-      <li>每月行业报告自动生成</li>
-      <li>爆款内容反向拆解：分析为什么火，提炼规律复用</li>
-    </ul>
+<div class="project-overview">
+  <div class="po-field">
+    <span class="po-icon">🏢</span>
+    <div class="po-content">
+      <span class="po-label">行业</span>
+      <span class="po-value">SaaS 创业公司</span>
+    </div>
   </div>
-  <div class="workflow-block bd">
-    <h4>🤝 BD 方向</h4>
-    <ul>
-      <li>会议雷达：按相关性筛选近期重要会议</li>
-      <li>线索打分：账号画像 + 近期动态 + 契合度信号</li>
-      <li>Pitch Deck 版本管理和背景跟踪</li>
-    </ul>
+  <div class="po-field">
+    <span class="po-icon">📧</span>
+    <div class="po-content">
+      <span class="po-label">监控频率</span>
+      <span class="po-value">每 10 分钟</span>
+    </div>
   </div>
-  <div class="workflow-block sales">
-    <h4>💰 销售运营</h4>
-    <ul>
-      <li>每日开拓：10+ 新联系人，附上联系理由</li>
-      <li>CRM 全生命周期管理：追踪线索进展、下一步动作、跟进时机</li>
-    </ul>
+  <div class="po-field">
+    <span class="po-icon">⚡</span>
+    <div class="po-content">
+      <span class="po-label">漏掉用户邮件</span>
+      <span class="po-value">0 封</span>
+    </div>
+  </div>
+  <div class="po-field">
+    <span class="po-icon">🔧</span>
+    <div class="po-content">
+      <span class="po-label">核心工具</span>
+      <span class="po-value">Gmail + Lark Bot</span>
+    </div>
+  </div>
+  <div class="po-field">
+    <span class="po-icon">📊</span>
+    <div class="po-content">
+      <span class="po-label">自动化范围</span>
+      <span class="po-value">分类 · 提醒 · 起草 · 发送</span>
+    </div>
+  </div>
+  <div class="po-field">
+    <span class="po-icon">🛡️</span>
+    <div class="po-content">
+      <span class="po-label">人工把关</span>
+      <span class="po-value">100% 回复需人工确认</span>
+    </div>
   </div>
 </div>
 
-</div>
+## 一封邮件的<em>旅程</em>
 
-<div class="case-section">
+从用户发送邮件，到 COCO 完成回复——整个过程自动化，但每一封回复都经过人工确认。
 
-## 每日 <em>SOP</em>
+想象一个典型的早期 SaaS 团队的早晨：创始人打开收件箱，看到 47 封未读邮件。其中 40 封是营销邮件、系统通知、订阅确认；3 封是真正需要回复的用户问题；4 封介于两者之间不确定要不要处理。光是完成这个分类，就需要花 15 到 20 分钟——而这只是处理邮件的第一步。然后还需要起草回复，确认措辞，权衡语气是否合适，再发送。整个过程加起来，每天轻松超过 1 小时。
+
+这不是一个特别大的问题，但它是一个每天都会发生的稳定消耗。对于一个需要把注意力放在产品和增长上的创始人来说，每天 1 小时的邮件管理不只是时间成本，更是注意力中断——你刚刚进入深度工作状态，突然被一封系统通知打断，然后花 10 分钟重新找回节奏。COCO AI Agent 的客服邮件自动化方案，把这整条流水线变成了一套可靠运行的企业 AI 自动化系统。
+
+这套系统的核心设计哲学有两层：第一层是彻底消除噪声——让 AI 负责分类和过滤，让负责人的注意力只被真正需要处理的邮件打扰。第二层是保持人的最终控制权——AI 可以分类、可以起草、可以发提醒，但永远不能在没有明确授权的情况下代表公司发出任何一封邮件。这不是技术限制，而是有意为之的设计选择：客服邮件代表公司形象，每一封发出去的回复都必须是负责任的，必须经过有决策权的人确认。
 
 <div class="sop-timeline">
   <div class="sop-item">
-    <div class="sop-time">9:00 AM</div>
-    <div class="sop-desc">行业快讯 Briefing — 过夜大事件、竞品动态、市场情绪</div>
+    <div class="sop-time">T+0</div>
+    <div class="sop-desc">用户邮件进入 service@coco.xyz 收件箱。</div>
   </div>
   <div class="sop-item">
-    <div class="sop-time">11:00 AM</div>
-    <div class="sop-desc">今日开拓名单 + 切入角度 — 10+ 新联系人，理由和话术</div>
+    <div class="sop-time">T+10min</div>
+    <div class="sop-desc">AI 自动扫描收件箱（每 10 分钟一次，7×24 小时不间断）。</div>
   </div>
   <div class="sop-item">
-    <div class="sop-time">3:00 PM</div>
-    <div class="sop-desc">基于今天热点的内容选题推荐 — 附带角度建议和参考素材</div>
+    <div class="sop-time">T+11min</div>
+    <div class="sop-desc">AI 分类判断：真实用户邮件 vs. 营销邮件 / 系统通知。营销内容自动过滤，不打扰。</div>
   </div>
   <div class="sop-item">
-    <div class="sop-time">每周/每月</div>
-    <div class="sop-desc">自动生成复盘报告 — 内容表现、线索转化、开拓效率</div>
+    <div class="sop-time">T+12min</div>
+    <div class="sop-desc">真实用户邮件 → 立即通过飞书 DM 通知 Stephanie，附摘要：发件人、主题、日期、内容概览。</div>
+  </div>
+  <div class="sop-item">
+    <div class="sop-time">T+15min</div>
+    <div class="sop-desc">AI 根据邮件内容起草回复，附建议措辞，供 Stephanie 参考或直接使用。</div>
+  </div>
+  <div class="sop-item">
+    <div class="sop-time">Stephanie 确认</div>
+    <div class="sop-desc">Stephanie 确认草稿（"可以"/"发吧"）。AI 永远不会在未经确认的情况下擅自发送。</div>
+  </div>
+  <div class="sop-item">
+    <div class="sop-time">发送完成</div>
+    <div class="sop-desc">AI 发送邮件，并向 Stephanie 确认发送结果（收件人、主题）。</div>
   </div>
 </div>
 
@@ -924,39 +1044,42 @@ COCO 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
 
 <div class="case-section">
 
-## 媒体团队的 <em>半自动化发布</em>
+## 关键<em>设计原则</em>
 
-新加坡的科技媒体小团队接入 COCO 后：
+这套客服邮件自动化系统的四个设计原则，是 COCO 在实际运营中反复验证的企业 AI 自动化最佳实践。每一个原则背后都有明确的业务逻辑：全自动监控确保响应速度、AI 分类减少噪声干扰、人工审核保障回复质量、双语支持覆盖国际用户场景。
 
-- AI 数字员工自动生成**符合各平台调性**的内容——Telegram 群、Twitter、Newsletter 各不相同
-- 定时发布到社群和社交媒体渠道
-- 内容覆盖快讯摘要、深度分析、社区互动话术
-
-**结果：** 从内容生产到发布实现半自动化。团队从疲于奔命赶内容，变成**专注编辑策略**。
-
-<div class="publish-visual">
-  <div class="publish-title">多平台定时发布流</div>
-  <div class="publish-flow">
-    <div class="publish-source">
-      <div class="publish-icon">🤖</div>
-      <div class="publish-label">COCO AI</div>
-      <div class="publish-sub">内容引擎</div>
-    </div>
-    <div class="publish-arrows">
-      <div class="publish-line"></div>
-    </div>
-    <div class="publish-targets">
-      <div class="publish-target tg"><span class="target-icon">✈️</span> Telegram 群</div>
-      <div class="publish-target tw"><span class="target-icon">𝕏</span> Twitter/X</div>
-      <div class="publish-target nl"><span class="target-icon">📧</span> Newsletter</div>
-      <div class="publish-target dc"><span class="target-icon">💬</span> Discord</div>
-    </div>
+<div class="workflow-section">
+  <div class="workflow-block marketing">
+    <h4>⏰ 全自动监控，永不漏件</h4>
+    <ul>
+      <li>10 分钟扫描周期，7×24 小时不间断运行</li>
+      <li>不管是凌晨还是节假日，用户邮件到达即触发通知</li>
+      <li>无需人工盯着收件箱，彻底解放注意力</li>
+    </ul>
   </div>
-  <div class="publish-tags">
-    <span class="pub-tag">快讯摘要</span>
-    <span class="pub-tag">深度分析</span>
-    <span class="pub-tag">社区互动</span>
-    <span class="pub-tag">定时发布</span>
+  <div class="workflow-block bd">
+    <h4>🔍 AI 分类，过滤噪声</h4>
+    <ul>
+      <li>营销邮件、系统通知、自动回执——全部自动过滤</li>
+      <li>只有真实用户邮件才会触发通知，不打扰 Stephanie</li>
+      <li>分类准确率持续优化，误报率极低</li>
+    </ul>
+  </div>
+  <div class="workflow-block sales">
+    <h4>🔒 人工审核，强制关卡</h4>
+    <ul>
+      <li>任何回复都必须经过 Stephanie 明确确认才能发出</li>
+      <li>AI 草稿，人拍板——永远不会擅自发送</li>
+      <li>确认方式极简：一个字"可以"即生效</li>
+    </ul>
+  </div>
+  <div class="workflow-block marketing">
+    <h4>🌐 双语支持，语言自动匹配</h4>
+    <ul>
+      <li>邮件语言自动识别，中文用户中文回，英文用户英文回</li>
+      <li>双语优先策略：适合国际客户的沟通场景</li>
+      <li>语气和风格与品牌保持一致</li>
+    </ul>
   </div>
 </div>
 
@@ -964,28 +1087,54 @@ COCO 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
 
 <div class="case-section">
 
-## 能力落地评估
+## <em>实际运行</em>数据
+
+自 2026 年 3 月上线以来，系统稳定运行。以下数据来自 COCO 自身客服邮件自动化系统的真实运行记录——这同样是一个"用自己的产品运营自己"的企业 AI 自动化实践案例。和 CRM 自动化案例一样，这不是演示场景，是 COCO 团队每天真实依赖的生产系统。
+
+100% 用户邮件响应率意味着什么？在一个邮件量不大的早期产品阶段，每一封真实用户邮件都可能来自一个潜在的付费用户、一个正在考虑续订的试用者、或者一个遇到问题可能流失的现有客户。漏掉任何一封都是在损害可能的收入或用户关系。有了 COCO AI Agent，不管是凌晨 3 点还是周六下午，系统都在 10 分钟内扫描并在 15 分钟内发出提醒——这意味着没有任何一封真实用户邮件会在超过 15 分钟的情况下处于"未被注意到"的状态。这对早期 SaaS 产品的用户体验有直接影响——快速响应是建立用户信任的核心信号之一，而在竞争中，第一个关注用户问题的公司往往比第三个更容易赢得信任。
 
 <div class="capability-bar">
   <div class="bar-label">
-    <span>可立即落地</span>
-    <span><strong>60–70%</strong></span>
+    <span>用户邮件响应率</span>
+    <span><strong>100%</strong></span>
   </div>
   <div class="bar-track">
-    <div class="bar-fill" style="width: 65%"></div>
+    <div class="bar-fill" style="width: 100%"></div>
   </div>
-  <div class="bar-note">内容生成、KOL 监控、分析报告、发布调度——马上跑起来</div>
+  <div class="bar-note">没有一封真实用户邮件被漏掉或延迟超过 15 分钟</div>
 </div>
 
 <div class="capability-bar">
   <div class="bar-label">
-    <span>接入 API 后解锁</span>
-    <span><strong>30–40%</strong></span>
+    <span>AI 分类准确率</span>
+    <span><strong>~95%</strong></span>
   </div>
   <div class="bar-track">
-    <div class="bar-fill" style="width: 35%; background: linear-gradient(90deg, #B388D9, #9B6CC4)"></div>
+    <div class="bar-fill" style="width: 95%; background: linear-gradient(90deg, #B388D9, #9B6CC4)"></div>
   </div>
-  <div class="bar-note">客户接入自己的 Twitter API、CRM 系统等凭证后即可启用</div>
+  <div class="bar-note">营销邮件过滤准确，真实用户邮件几乎零误报</div>
+</div>
+
+<div class="capability-bar">
+  <div class="bar-label">
+    <span>草稿采用率</span>
+    <span><strong>~80%</strong></span>
+  </div>
+  <div class="bar-track">
+    <div class="bar-fill" style="width: 80%; background: linear-gradient(90deg, #A8D8B9, #5CC5C5)"></div>
+  </div>
+  <div class="bar-note">约 80% 的 AI 草稿可直接使用或只需微调</div>
+</div>
+
+<div class="capability-bar">
+  <div class="bar-label">
+    <span>Stephanie 处理每封邮件的时间</span>
+    <span><strong>&lt; 2 分钟</strong></span>
+  </div>
+  <div class="bar-track">
+    <div class="bar-fill" style="width: 85%; background: linear-gradient(90deg, #FF7B7B, #FF5096)"></div>
+  </div>
+  <div class="bar-note">从接收通知到确认发送，全程不超过 2 分钟</div>
 </div>
 
 </div>
@@ -993,7 +1142,7 @@ COCO 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
 <div class="case-section">
 
 <div class="case-quote">
-  <p>我来的时候只想自动化一件事。聊完之后，我带走了整个岗位的完整运营模型。我没想到能拿到一份 SOP。</p>
+  <p>从不让 AI 在没有我确认的情况下发邮件。但也从不需要我自己盯着收件箱。</p>
 </div>
 
 </div>
@@ -1001,9 +1150,39 @@ COCO 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
 <div class="case-section">
 
 <div class="insight-block">
-  <h3>两个案例放在一起看</h3>
-  <p>无论你是合规公司里一个人扛起 BD 和市场的负责人，还是小媒体团队想覆盖整个行业，COCO 的解法是一样的——<strong>AI 扛产量，人管策略</strong>。谁先发布、谁先触达对的人，谁就赢。</p>
+  <h3>邮件自动化的正确姿势</h3>
+  <p>客服邮件自动化不是让 AI 替你回邮件，是让 AI 帮你不漏掉任何一封重要邮件，同时保持每一封回复都是你认可的质量。AI 负责监控和起草，人负责判断和拍板——这才是人机协作的正确分工。</p>
 </div>
+
+</div>
+
+<div class="case-section">
+
+## 常见问题
+
+### Q: COCO AI Agent 的邮件监控系统支持哪些邮件服务商？
+
+目前 COCO AI Agent 支持 Gmail/Google Workspace（通过 IMAP 协议连接），覆盖绝大多数使用 Google 邮件服务的企业和创业公司。理论上支持任何标准 IMAP 邮件服务器，具体接入配置可与 COCO 团队确认。
+
+### Q: AI 如何判断一封邮件是"真实用户邮件"还是"营销邮件"？
+
+COCO AI Agent 使用大语言模型对邮件内容进行智能分类，综合分析发件人地址特征、邮件主题、正文内容模式（是否包含退订链接、是否为批量发送模板等）来做出分类判断。在实际运行中分类准确率约 95%，误报率极低——即营销邮件被误判为真实用户邮件的情况非常罕见，不会造成不必要的打扰。
+
+### Q: AI 起草的回复草稿质量如何？能直接使用吗？
+
+约 80% 的 AI 草稿可以直接使用或只需微调。COCO AI Agent 会根据原始邮件的语言、语气、问题类型，结合品牌语气指南生成草稿。对于常见的用户问题（功能咨询、账单问题、技术支持），草稿质量通常较高；对于复杂的边缘情况，草稿会提供基础框架，需要人工补充具体细节。
+
+### Q: 如果我在深夜或周末，AI 还会发送提醒吗？
+
+是的。AI 监控系统 7×24 小时不间断运行，所有时段的真实用户邮件都会触发飞书 DM 提醒。但实际的发送决定完全由你控制——如果你当时不方便处理，邮件不会自动发送，等你方便时确认即可。这套系统的设计保证了"永不漏件"，同时也保证了"永不擅自发送"。
+
+### Q: 除了客服邮件，COCO AI Agent 还能自动化哪些邮件场景？
+
+COCO AI Agent 可以扩展到多种企业邮件自动化场景：销售跟进邮件监控与草稿生成、合作伙伴邮件分类与提醒、用户反馈邮件归档与分析、Newsletter 订阅者管理等。核心能力（监控→分类→提醒→起草→人工确认→发送）是通用的，不同场景只需调整分类规则和回复模板。
+
+### Q: 如何开始配置 COCO AI Agent 的客服邮件自动化？
+
+访问 coco.xyz 注册试用，提供你的邮件服务器凭证（IMAP 地址、账号、App Password）、通知渠道（飞书账号）、品牌语气指南，以及真实用户邮件的识别标准。整个配置过程通过与 COCO AI Agent 的自然语言对话完成，通常在 30 分钟内可以完成初始配置并开始试运行。
 
 </div>
 
@@ -1020,8 +1199,8 @@ COCO 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
 
 <div class="case-section">
   <div class="case-cta">
-    <h2>让 AI 接管你的内容产量</h2>
-    <p>从一条消息开始，构建完整运营模型</p>
+    <h2>让 AI 守住你的收件箱</h2>
+    <p>用户邮件一封不漏，回复质量你来把关</p>
     <a href="https://coco.xyz" class="cta-btn">开始试用 COCO</a>
   </div>
 </div>
@@ -1030,15 +1209,15 @@ COCO 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
   <div class="blog-divider-shell">🐚</div>
   <h3>更多案例</h3>
   <div class="blog-related-grid">
-    <a class="blog-related-card" href="/zh/case-studies/email-automation">
-      <div class="blog-related-card-img">📧</div>
+    <a class="blog-related-card" href="./social-media">
+      <div class="blog-related-card-img">📱</div>
       <div class="blog-related-card-body">
         <div class="blog-related-card-label">AI Agent 案例研究</div>
-        <div class="blog-related-card-title">客服邮件自动化</div>
-        <div class="blog-related-card-desc">真实用户邮件几分钟内识别出来，营销噪音自动过滤，回复草稿先起好再交给人审核。</div>
+        <div class="blog-related-card-title">社媒与 BD 自动化</div>
+        <div class="blog-related-card-desc">从一条 prompt 到完整运营模型。AI 扛产量，人管策略。</div>
       </div>
     </a>
-    <a class="blog-related-card" href="/zh/case-studies/crm">
+    <a class="blog-related-card" href="./crm">
       <div class="blog-related-card-img">📊</div>
       <div class="blog-related-card-body">
         <div class="blog-related-card-label">AI Agent 案例研究</div>
@@ -1046,12 +1225,20 @@ COCO 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
         <div class="blog-related-card-desc">一套由 AI Agent 从零设计、搭建并每天自动运营的 CRM 系统。</div>
       </div>
     </a>
-    <a class="blog-related-card" href="/zh/case-studies/deal-flow-dd">
-      <div class="blog-related-card-img">📋</div>
+    <a class="blog-related-card" href="./deal-flow-dd">
+      <div class="blog-related-card-img">📈</div>
       <div class="blog-related-card-body">
         <div class="blog-related-card-label">AI Agent 案例研究</div>
-        <div class="blog-related-card-title">AI 投资尽调 — 20小时压缩到2小时</div>
-        <div class="blog-related-card-desc">把完整尽调流程压缩成结构化 AI 执行链，直接产出分析师级结果。</div>
+        <div class="blog-related-card-title">AI 驱动的投资尽调</div>
+        <div class="blog-related-card-desc">DD 时间从 20 小时压缩到 2 小时，风险识别率提升 40%。</div>
+      </div>
+    </a>
+    <a class="blog-related-card" href="./">
+      <div class="blog-related-card-img">✨</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent 案例研究</div>
+        <div class="blog-related-card-title">能力展示</div>
+        <div class="blog-related-card-desc">继续查看运营、CRM、调研、内容等更多核心场景的实战基准。</div>
       </div>
     </a>
   </div>

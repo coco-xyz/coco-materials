@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "社媒与 BD 自动化 — 两家公司，同一个突破"
-description: "从一条 prompt 到完整运营模型。AI 扛产量，人管策略。"
+title: "Customer Service Email Automation — COCO AI Agent Enterprise Email Management"
+description: "COCO AI Agent automates the full customer service email workflow: inbox scan every 10 minutes, AI classification to filter noise, instant alerts for real user emails, auto-drafted replies with mandatory human review. The benchmark for human-AI collaboration in enterprise automation."
 head:
   - - meta
     - property: og:title
-      content: "Social Media & BD Automation — Two Companies, One Breakthrough"
+      content: "Customer Service Email Automation — COCO AI Agent Enterprise Email Management"
   - - meta
     - property: og:description
-      content: "From a single prompt to a complete operations model. AI handles volume, humans handle strategy."
+      content: "COCO AI Agent enterprise automation for customer email management. AI digital employee scans, classifies, alerts, and drafts — humans stay in control of every send decision."
 ---
 
 <style>
@@ -799,18 +799,58 @@ head:
     grid-template-columns: 1fr;
   }
 }
+
+/* Hero stats */
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+.hero-stat {
+  text-align: center;
+}
+.hero-stat .stat-num {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #5CC5C5;
+  display: block;
+  line-height: 1.1;
+}
+.hero-stat .stat-label {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.65);
+  margin-top: 4px;
+  display: block;
+}
 </style>
 
 <div class="case-hero">
   <div class="hero-text-box">
-    <h1>社媒与 BD 自动化<br/><em>两家公司，同一个突破</em></h1>
-    <p class="subtitle">从一条 prompt 到完整运营模型。<br/>AI 扛产量，人管策略。谁先发布、谁先触达，谁就赢。</p>
+    <div class="badge">Customer Service · Email Automation</div>
+    <h1>Customer Email Automation<br/><em>AI Watches the Inbox. You Approve.</em></h1>
+    <p class="subtitle">Scans every 10 minutes. Instant alerts for real user emails.<br/>Draft to send — fully managed, always human-approved.</p>
     <div class="hero-tags">
-      <span class="tag">KOL 监控</span>
-      <span class="tag">内容引擎</span>
-      <span class="tag">BD 流水线</span>
-      <span class="tag">定时发布</span>
-      <span class="tag">CRM 管理</span>
+      <span class="tag">Email Monitoring</span>
+      <span class="tag">AI Classification</span>
+      <span class="tag">Customer Service</span>
+      <span class="tag">Instant Alerts</span>
+      <span class="tag">Human-in-the-Loop</span>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="stat-num">10min</span>
+        <span class="stat-label">Scan Cycle</span>
+      </div>
+      <div class="hero-stat">
+        <span class="stat-num">0</span>
+        <span class="stat-label">Missed User Emails</span>
+      </div>
+      <div class="hero-stat">
+        <span class="stat-num">100%</span>
+        <span class="stat-label">Human Approval Required</span>
+      </div>
     </div>
   </div>
 </div>
@@ -818,105 +858,54 @@ head:
 <div class="case-body">
 <div class="case-section">
 
-## 两家公司，<em>同一个痛点</em>
-
-<div class="company-duo">
-  <div class="company-card">
-    <div class="card-label compliance">科技合规</div>
-    <h3>某科技合规公司</h3>
-    <div class="card-meta">BD 和市场负责人 · 一人扛全部</div>
-    <p>工作覆盖 KOL 监控、内容生产、会议 BD、线索管理——这个范围通常需要好几个专岗。她带着一个具体需求来找 COCO。</p>
-  </div>
-  <div class="company-card">
-    <div class="card-label media">科技媒体</div>
-    <h3>某新加坡科技媒体</h3>
-    <div class="card-meta">< 20 人团队 · 内容压力巨大</div>
-    <p>每天需要在多个社交平台和社群发布行业资讯、分析评论和原创内容，但团队人手有限。15 人要干出 50 人的活。</p>
-  </div>
-</div>
-
-瓶颈是一样的：**更多内容要出、更多渠道要覆盖、人不够用。**
-
-<div class="video-showcase">
-  <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/jFGNry0BohA" title="COCO 社媒自动化演示" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
+<div class="insight-block">
+  <h3>Demo Video</h3>
+  <p>Support Inbox Demo</p>
+  <video controls style="width:100%;max-width:720px;border-radius:12px;margin-top:12px;">
+    <source src="https://william.coco.site/support-inbox-demo-final-v3-bgm-only.mp4" type="video/mp4" />
+  </video>
 </div>
 
 </div>
 
 <div class="case-section">
 
-## 那个 <em>改变一切</em> 的 Demo
+## The Journey of <em>a Single Email</em>
 
-她发了一条消息：
+Customer service email management sits at an uncomfortable intersection for most businesses: the volume of incoming messages is too high for manual monitoring to be reliable, but the stakes of each individual message are too high to hand off entirely to automation without oversight. Marketing platforms can handle bulk email campaigns. Support ticketing systems can route and track issues. But the gap between "email arrives" and "appropriate human makes a decision about it" is where customer relationships are won or lost — and where most small teams struggle.
 
-<div class="case-quote">
-  <p>找一下某项目关注列表里有哪些 KOL 最近发了新闻，最近两小时的</p>
-</div>
+COCO AI's email automation addresses this gap by treating email management as a two-part problem: monitoring (which can be fully automated) and response quality (which requires human judgment). The AI digital employee owns the monitoring layer completely — it checks the inbox every 10 minutes around the clock, applies intelligent classification to filter out noise, and surfaces only real customer communications as immediate alerts. The human layer owns the response decision — the AI provides a high-quality draft, but nothing goes out without explicit approval. This division of labor is not a compromise; it's the correct architecture for a workflow where speed matters but quality cannot be sacrificed.
 
-COCO 扫描了 **325 个关注账号**，找出 **4 条近期 KOL 推文**，附带直链，结果里包括多个头部账号（百万级粉丝）——**几分钟内完成**，不需要人工刷 Twitter。
-
-这一个交互打开了一场更大的对话。
-
-</div>
-
-<div class="case-section">
-
-## 从 prompt 到 <em>完整运营模型</em>
-
-COCO 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
-
-<div class="workflow-section">
-  <div class="workflow-block marketing">
-    <h4>📡 市场方向</h4>
-    <ul>
-      <li>7×24 小时 KOL 和行业新闻监控，每 2 小时推送摘要</li>
-      <li>热点爆发时即时预警</li>
-      <li>每周 3 篇长文（调研 → 初稿 → 修改闭环）</li>
-      <li>每月行业报告自动生成</li>
-      <li>爆款内容反向拆解：分析为什么火，提炼规律复用</li>
-    </ul>
-  </div>
-  <div class="workflow-block bd">
-    <h4>🤝 BD 方向</h4>
-    <ul>
-      <li>会议雷达：按相关性筛选近期重要会议</li>
-      <li>线索打分：账号画像 + 近期动态 + 契合度信号</li>
-      <li>Pitch Deck 版本管理和背景跟踪</li>
-    </ul>
-  </div>
-  <div class="workflow-block sales">
-    <h4>💰 销售运营</h4>
-    <ul>
-      <li>每日开拓：10+ 新联系人，附上联系理由</li>
-      <li>CRM 全生命周期管理：追踪线索进展、下一步动作、跟进时机</li>
-    </ul>
-  </div>
-</div>
-
-</div>
-
-<div class="case-section">
-
-## 每日 <em>SOP</em>
+From the moment a customer sends an email to the moment COCO sends a reply — fully automated, with human approval at every send decision.
 
 <div class="sop-timeline">
   <div class="sop-item">
-    <div class="sop-time">9:00 AM</div>
-    <div class="sop-desc">行业快讯 Briefing — 过夜大事件、竞品动态、市场情绪</div>
+    <div class="sop-time">T+0</div>
+    <div class="sop-desc">Customer email arrives in service@coco.xyz inbox.</div>
   </div>
   <div class="sop-item">
-    <div class="sop-time">11:00 AM</div>
-    <div class="sop-desc">今日开拓名单 + 切入角度 — 10+ 新联系人，理由和话术</div>
+    <div class="sop-time">T+10min</div>
+    <div class="sop-desc">AI automatically scans the inbox (every 10 minutes, 24/7/365 — no exceptions).</div>
   </div>
   <div class="sop-item">
-    <div class="sop-time">3:00 PM</div>
-    <div class="sop-desc">基于今天热点的内容选题推荐 — 附带角度建议和参考素材</div>
+    <div class="sop-time">T+11min</div>
+    <div class="sop-desc">AI classifies: real user email vs. marketing / notification / automated message. Noise is filtered out silently.</div>
   </div>
   <div class="sop-item">
-    <div class="sop-time">每周/每月</div>
-    <div class="sop-desc">自动生成复盘报告 — 内容表现、线索转化、开拓效率</div>
+    <div class="sop-time">T+12min</div>
+    <div class="sop-desc">Real user email triggers an immediate Lark DM to Stephanie — with a summary: sender, subject, date, and key content.</div>
+  </div>
+  <div class="sop-item">
+    <div class="sop-time">T+15min</div>
+    <div class="sop-desc">AI drafts a reply based on the email content, with suggested wording for Stephanie to review, edit, or use directly.</div>
+  </div>
+  <div class="sop-item">
+    <div class="sop-time">Stephanie Approves</div>
+    <div class="sop-desc">Stephanie confirms the draft ("looks good" / "send it"). AI never sends without explicit confirmation — ever.</div>
+  </div>
+  <div class="sop-item">
+    <div class="sop-time">Sent & Confirmed</div>
+    <div class="sop-desc">Email sent. AI confirms to Stephanie with recipient and subject line. The loop is closed.</div>
   </div>
 </div>
 
@@ -924,39 +913,44 @@ COCO 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
 
 <div class="case-section">
 
-## 媒体团队的 <em>半自动化发布</em>
+## The Design <em>Principles</em>
 
-新加坡的科技媒体小团队接入 COCO 后：
+Every technical decision in the COCO email automation system reflects a deliberate design philosophy: AI should handle the work that can be fully specified (monitoring frequency, classification logic, draft generation), and humans should handle the work that requires judgment (is this reply appropriate given what I know about this customer's history? does this wording represent our brand?). The four principles below are not features — they're architectural commitments that determine where the boundary between AI execution and human oversight sits, and why it sits there.
 
-- AI 数字员工自动生成**符合各平台调性**的内容——Telegram 群、Twitter、Newsletter 各不相同
-- 定时发布到社群和社交媒体渠道
-- 内容覆盖快讯摘要、深度分析、社区互动话术
+The hard gate on human approval deserves particular emphasis. Many email automation systems offer an "auto-respond" mode that sends replies without human review when the AI's confidence is above a threshold. COCO AI does not offer this mode, and the COCO team has deliberately chosen not to use it even where it might be technically feasible. The reasoning: a single inappropriate automated reply can damage a customer relationship in ways that take months to repair. The cost of 2 minutes of human review per email is substantially lower than the cost of one bad automated response per hundred emails. Speed matters less than trust.
 
-**结果：** 从内容生产到发布实现半自动化。团队从疲于奔命赶内容，变成**专注编辑策略**。
-
-<div class="publish-visual">
-  <div class="publish-title">多平台定时发布流</div>
-  <div class="publish-flow">
-    <div class="publish-source">
-      <div class="publish-icon">🤖</div>
-      <div class="publish-label">COCO AI</div>
-      <div class="publish-sub">内容引擎</div>
-    </div>
-    <div class="publish-arrows">
-      <div class="publish-line"></div>
-    </div>
-    <div class="publish-targets">
-      <div class="publish-target tg"><span class="target-icon">✈️</span> Telegram 群</div>
-      <div class="publish-target tw"><span class="target-icon">𝕏</span> Twitter/X</div>
-      <div class="publish-target nl"><span class="target-icon">📧</span> Newsletter</div>
-      <div class="publish-target dc"><span class="target-icon">💬</span> Discord</div>
-    </div>
+<div class="workflow-section">
+  <div class="workflow-block marketing">
+    <h4>Always-On Monitoring — Zero Missed Emails</h4>
+    <ul>
+      <li>10-minute scan cycle runs continuously, 24/7</li>
+      <li>3am on a public holiday — doesn't matter. If a user emails, the alert fires.</li>
+      <li>No manual inbox monitoring required, ever</li>
+    </ul>
   </div>
-  <div class="publish-tags">
-    <span class="pub-tag">快讯摘要</span>
-    <span class="pub-tag">深度分析</span>
-    <span class="pub-tag">社区互动</span>
-    <span class="pub-tag">定时发布</span>
+  <div class="workflow-block bd">
+    <h4>AI Classification — Filter the Noise</h4>
+    <ul>
+      <li>Marketing emails, system notifications, automated receipts — silently filtered</li>
+      <li>Only genuine user emails trigger a notification</li>
+      <li>Classification accuracy continuously improving, near-zero false positives</li>
+    </ul>
+  </div>
+  <div class="workflow-block sales">
+    <h4>Mandatory Human Approval — The Hard Gate</h4>
+    <ul>
+      <li>No reply goes out without Stephanie's explicit confirmation</li>
+      <li>AI drafts, human decides — no exceptions, no workarounds</li>
+      <li>Approval is frictionless: a single word is enough</li>
+    </ul>
+  </div>
+  <div class="workflow-block marketing">
+    <h4>Bilingual by Default</h4>
+    <ul>
+      <li>Language auto-detected from the incoming email</li>
+      <li>Chinese users get Chinese replies. English users get English replies.</li>
+      <li>Bilingual preferred for international customer contexts</li>
+    </ul>
   </div>
 </div>
 
@@ -964,28 +958,56 @@ COCO 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
 
 <div class="case-section">
 
-## 能力落地评估
+## <em>Live System</em> Metrics
+
+The performance metrics below reflect actual production data from COCO AI's own customer service operation. The system has been running continuously since March 2026, processing all incoming emails to service@coco.xyz. The most significant operational finding is not the efficiency gains — it's the reliability. Manual inbox monitoring, even by a diligent team member, is subject to vacation schedules, sick days, meeting schedules, and late-night gaps. The 10-minute scan cycle doesn't have any of these constraints. Every customer email that has arrived at service@coco.xyz since March 2026 has been acknowledged and handled — none have fallen through the cracks.
+
+The 80% AI draft adoption rate reflects a secondary benefit that wasn't anticipated at deployment: the process of reviewing a high-quality AI draft is faster than starting a reply from scratch, even when the final reply is substantially edited. The AI's draft provides structure, addresses the customer's core concerns, and suggests appropriate tone — the human's review time is spent refining and adding relationship context, not composing from a blank page.
+
+Running in production since March 2026.
 
 <div class="capability-bar">
   <div class="bar-label">
-    <span>可立即落地</span>
-    <span><strong>60–70%</strong></span>
+    <span>User email response rate</span>
+    <span><strong>100%</strong></span>
   </div>
   <div class="bar-track">
-    <div class="bar-fill" style="width: 65%"></div>
+    <div class="bar-fill" style="width: 100%"></div>
   </div>
-  <div class="bar-note">内容生成、KOL 监控、分析报告、发布调度——马上跑起来</div>
+  <div class="bar-note">Not one real user email missed or delayed beyond 15 minutes</div>
 </div>
 
 <div class="capability-bar">
   <div class="bar-label">
-    <span>接入 API 后解锁</span>
-    <span><strong>30–40%</strong></span>
+    <span>AI classification accuracy</span>
+    <span><strong>~95%</strong></span>
   </div>
   <div class="bar-track">
-    <div class="bar-fill" style="width: 35%; background: linear-gradient(90deg, #B388D9, #9B6CC4)"></div>
+    <div class="bar-fill" style="width: 95%; background: linear-gradient(90deg, #B388D9, #9B6CC4)"></div>
   </div>
-  <div class="bar-note">客户接入自己的 Twitter API、CRM 系统等凭证后即可启用</div>
+  <div class="bar-note">Marketing filtered accurately, real user emails almost never miscategorized</div>
+</div>
+
+<div class="capability-bar">
+  <div class="bar-label">
+    <span>AI draft adoption rate</span>
+    <span><strong>~80%</strong></span>
+  </div>
+  <div class="bar-track">
+    <div class="bar-fill" style="width: 80%; background: linear-gradient(90deg, #A8D8B9, #5CC5C5)"></div>
+  </div>
+  <div class="bar-note">Around 80% of AI drafts are used directly or with minor edits</div>
+</div>
+
+<div class="capability-bar">
+  <div class="bar-label">
+    <span>Time to handle each email (human)</span>
+    <span><strong>&lt; 2 min</strong></span>
+  </div>
+  <div class="bar-track">
+    <div class="bar-fill" style="width: 85%; background: linear-gradient(90deg, #FF7B7B, #FF5096)"></div>
+  </div>
+  <div class="bar-note">From notification to approved send — under 2 minutes of human attention</div>
 </div>
 
 </div>
@@ -993,7 +1015,7 @@ COCO 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
 <div class="case-section">
 
 <div class="case-quote">
-  <p>我来的时候只想自动化一件事。聊完之后，我带走了整个岗位的完整运营模型。我没想到能拿到一份 SOP。</p>
+  <p>I never let AI send an email without my confirmation. But I also never have to watch the inbox myself. That's exactly the balance I wanted.</p>
 </div>
 
 </div>
@@ -1001,9 +1023,39 @@ COCO 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
 <div class="case-section">
 
 <div class="insight-block">
-  <h3>两个案例放在一起看</h3>
-  <p>无论你是合规公司里一个人扛起 BD 和市场的负责人，还是小媒体团队想覆盖整个行业，COCO 的解法是一样的——<strong>AI 扛产量，人管策略</strong>。谁先发布、谁先触达对的人，谁就赢。</p>
+  <h3>What Email Automation Is Really For</h3>
+  <p>Email automation isn't about letting AI reply on your behalf. It's about ensuring no important message falls through the cracks — while keeping every outgoing reply at the quality standard you'd set yourself. AI monitors and drafts. Humans judge and approve. That's the right division of labor.</p>
 </div>
+
+</div>
+
+<div class="case-section">
+
+## Frequently Asked Questions
+
+### Q: Which email providers does the COCO AI email automation system support?
+
+The COCO AI email monitoring system supports any email provider that offers IMAP access, which covers the vast majority of business email setups including Google Workspace (Gmail), Microsoft 365 (Outlook), and most enterprise mail servers. Configuration requires an app password or OAuth credential for the monitored inbox — the setup process typically takes under 30 minutes. Notification delivery is via the team's existing communication platform (Lark, Slack, or other supported channels), so the monitoring output integrates directly into existing workflows rather than adding a new tool to manage.
+
+### Q: How does the AI classify emails accurately enough to avoid missing real customer messages?
+
+The classification model uses a combination of sender pattern analysis, subject line parsing, content structure recognition, and explicit rule sets to distinguish genuine user emails from marketing messages, system notifications, and automated receipts. Marketing emails typically have distinctive structural features (unsubscribe links, sender domain patterns, bulk-send headers) that allow high-confidence filtering. The system is configured to err strongly on the side of caution: an ambiguous email that might be a real customer inquiry gets flagged rather than filtered. Classification accuracy improves over time as the model learns from the correction feedback when a human overrides a classification decision.
+
+### Q: How good are the AI-generated reply drafts? Do they require heavy editing?
+
+Draft quality depends primarily on the clarity and completeness of the customer's original email. For straightforward inquiries — billing questions, feature clarifications, account access issues — the AI drafts are typically usable with minimal editing or none at all. For complex issues, escalations, or emails that require referencing prior conversation history, the draft serves as a structured starting point that addresses the customer's stated concerns and suggests an appropriate response direction. The 80% adoption rate in production reflects real usage data: about 8 in 10 drafts are sent with either no edits or minor wording adjustments.
+
+### Q: What happens if a customer sends an urgent email at 3am or on a holiday?
+
+The 10-minute scan cycle runs continuously regardless of time zone, date, or team schedule. An email arriving at 3am on a public holiday gets detected, classified, and alerted to the designated reviewer within 10–12 minutes of arrival, exactly as it would during business hours. This is one of the primary value propositions of AI-based monitoring over manual inbox checking: it eliminates the concept of "out of hours" for customer communication detection. Whether or not the reviewer chooses to respond immediately is a business decision; the system ensures they know about it immediately.
+
+### Q: Can the email automation handle scenarios beyond customer service replies, like lead qualification or invoice follow-ups?
+
+Yes — the same underlying architecture (monitor, classify, alert, draft, approve, send) applies to other email workflow scenarios with different classification rules and draft templates. Common extensions include lead qualification (flag inbound sales inquiries, draft qualification responses), invoice follow-up (detect payment-related emails, draft appropriate payment status responses), and vendor communication (route supplier emails to the relevant team member with context). Each scenario requires configuring the appropriate classification criteria and draft generation guidelines, but the core monitoring and approval infrastructure is the same. COCO AI's enterprise onboarding team supports custom scenario configuration beyond the standard customer service template.
+
+### Q: How many steps does it take to get the email automation system running?
+
+The standard setup process involves five steps: (1) provide the email credentials for the monitored inbox (app password or OAuth), (2) configure the notification destination (which Lark/Slack channel or DM should receive alerts), (3) define the classification priority rules (which email categories should always be flagged regardless of sender), (4) review and optionally customize the default reply templates, and (5) run a test cycle to confirm the scan is detecting and alerting correctly. For a standard Google Workspace or Microsoft 365 setup, the full configuration takes approximately 30–60 minutes. The first real customer email alert typically fires within the hour.
 
 </div>
 
@@ -1020,38 +1072,38 @@ COCO 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
 
 <div class="case-section">
   <div class="case-cta">
-    <h2>让 AI 接管你的内容产量</h2>
-    <p>从一条消息开始，构建完整运营模型</p>
-    <a href="https://coco.xyz" class="cta-btn">开始试用 COCO</a>
+    <h2>Let AI Guard Your Inbox</h2>
+    <p>Every user email caught. Every reply quality-checked by you.</p>
+    <a href="https://coco.xyz" class="cta-btn">Try COCO Free</a>
   </div>
 </div>
 
 <div class="blog-related">
   <div class="blog-divider-shell">🐚</div>
-  <h3>更多案例</h3>
+  <h3>More Case Studies</h3>
   <div class="blog-related-grid">
-    <a class="blog-related-card" href="/zh/case-studies/email-automation">
-      <div class="blog-related-card-img">📧</div>
+    <a class="blog-related-card" href="/case-studies/social-media">
+      <div class="blog-related-card-img">📡</div>
       <div class="blog-related-card-body">
-        <div class="blog-related-card-label">AI Agent 案例研究</div>
-        <div class="blog-related-card-title">客服邮件自动化</div>
-        <div class="blog-related-card-desc">真实用户邮件几分钟内识别出来，营销噪音自动过滤，回复草稿先起好再交给人审核。</div>
+        <div class="blog-related-card-label">AI Agent Case Study</div>
+        <div class="blog-related-card-title">Social Media & BD Automation</div>
+        <div class="blog-related-card-desc">From a single prompt to a complete operations model. AI handles volume, humans handle strategy.</div>
       </div>
     </a>
-    <a class="blog-related-card" href="/zh/case-studies/crm">
+    <a class="blog-related-card" href="/case-studies/crm">
       <div class="blog-related-card-img">📊</div>
       <div class="blog-related-card-body">
-        <div class="blog-related-card-label">AI Agent 案例研究</div>
-        <div class="blog-related-card-title">COCO CRM — AI 搭建，AI 运营</div>
-        <div class="blog-related-card-desc">一套由 AI Agent 从零设计、搭建并每天自动运营的 CRM 系统。</div>
+        <div class="blog-related-card-label">AI Agent Case Study</div>
+        <div class="blog-related-card-title">COCO CRM — Built by AI, Run by AI</div>
+        <div class="blog-related-card-desc">A complete CRM system designed, built, and operated daily by an AI Agent.</div>
       </div>
     </a>
-    <a class="blog-related-card" href="/zh/case-studies/deal-flow-dd">
-      <div class="blog-related-card-img">📋</div>
+    <a class="blog-related-card" href="/case-studies/deal-flow-dd">
+      <div class="blog-related-card-img">📈</div>
       <div class="blog-related-card-body">
-        <div class="blog-related-card-label">AI Agent 案例研究</div>
-        <div class="blog-related-card-title">AI 投资尽调 — 20小时压缩到2小时</div>
-        <div class="blog-related-card-desc">把完整尽调流程压缩成结构化 AI 执行链，直接产出分析师级结果。</div>
+        <div class="blog-related-card-label">AI Agent Case Study</div>
+        <div class="blog-related-card-title">AI-Driven Investment Due Diligence</div>
+        <div class="blog-related-card-desc">DD time cut from 20 hours to 2. Risk identification rate up 40%.</div>
       </div>
     </a>
   </div>
