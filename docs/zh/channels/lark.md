@@ -1,81 +1,81 @@
 # Lark / 飞书 — 使用技巧
 
-Get the most out of your COCO AI employee on Lark (international) and Feishu (China).
+充分发挥 COCO AI 员工在 Lark（国际版）和飞书（中国版）上的能力。
 
-## Basic Usage
+## 基本使用
 
-### Direct Messages (DM)
-Send any message directly to the bot. No @mention needed.
+### 私信（DM）
+直接向机器人发送任意消息，无需 @mention。
 
-### Group Chats
-@mention the bot in any group conversation:
+### 群聊
+在群聊中 @mention 机器人：
 ```
-@YourBot please summarize the above discussion
+@你的机器人 帮我总结一下上面的讨论
 ```
 
-### Document Integration
-Add your AI employee to any Lark document as a **Document App**:
+### 文档集成
+将 AI 员工添加到任意 Lark 文档，作为**文档应用**使用：
 
-1. Open a Lark document
-2. Click **···** (top-right menu)
-3. Select **Add Document App** (添加文档应用)
-4. Search for your bot name
-5. Confirm to add
+1. 打开一篇 Lark 文档
+2. 点击右上角 **···** 菜单
+3. 选择**添加文档应用**
+4. 搜索你的机器人名称
+5. 确认添加
 
-Once added, @mention the bot inside the document to get AI assistance with the content.
+添加后，在文档中 @mention 机器人，即可获得针对文档内容的 AI 协助。
 
-## Group Chat Best Practices
+## 群聊最佳实践
 
-### Smart Mode vs. Mention Mode
-- **Mention mode** (recommended for most groups): Bot only responds when @mentioned
-- **Smart mode**: Bot monitors all messages and proactively chimes in when relevant
+### 智能模式 vs. 提及模式
+- **提及模式**（推荐大多数群使用）：机器人仅在被 @mention 时响应
+- **智能模式**：机器人监听所有消息，主动在相关时机发言
 
-Configure this in COCO Dashboard → Channel Settings → Lark.
+在 COCO Dashboard → 渠道设置 → Lark 中进行配置。
 
-### Setting Standing Instructions
-You can give your bot persistent instructions that apply to all responses in a group. Example:
-> "You are an assistant for our marketing team. Always respond in Chinese. Keep answers under 200 words."
+### 设置常驻指令
+可以为机器人设置持久化指令，适用于群内所有响应。示例：
+> "你是我们市场团队的助理。请始终用中文回答。回答不超过 200 字。"
 
-Set this in COCO Dashboard → Bot Settings → System Prompt.
+在 COCO Dashboard → 机器人设置 → 系统提示词 中进行设置。
 
-### Thread Replies
-The bot responds in threads to keep group chats organized. If you want a direct reply, the bot will still create a thread from your message.
+### 话题回复
+机器人以话题（Thread）形式回复，保持群聊整洁。如果你直接发消息，机器人也会在该消息下新建话题进行回复。
 
-## Document App Features
+## 文档应用功能
 
-When added to a Lark document, your AI employee can:
+将 AI 员工添加到 Lark 文档后，可以：
 
-- **Answer questions** about document content: @mention + ask your question
-- **Generate content**: @mention + "write a section about X"
-- **Summarize**: @mention + "summarize this document"
-- **Translate**: @mention + "translate this to English"
+- **回答文档相关问题**：@mention + 提问
+- **生成内容**：@mention + "帮我写一段关于 X 的内容"
+- **总结文档**：@mention + "总结这篇文档"
+- **翻译**：@mention + "将这段内容翻译成英文"
 
-> **Tip:** For documents with sensitive content, ensure the bot only has read access. Configure permissions in Lark Admin.
+> **提示：** 对于含有敏感内容的文档，请确保机器人仅有只读权限。可在 Lark 管理后台配置权限。
 
-## Feishu (飞书) Notes
+## 飞书说明
 
-Feishu and Lark share the same platform — the same COCO bot configuration works for both. If your organization uses Feishu internally and Lark externally, the bot handles both from a single connection.
+飞书与 Lark 共享同一平台——同一套 COCO 机器人配置对两者均适用。如果你的组织内部使用飞书、对外使用 Lark，机器人可通过单一连接同时处理两端消息。
 
-## Pro Tips
+## 进阶技巧
 
-**@mention in comments**: You can @mention the bot in document comments for inline Q&A.
+**在评论中 @mention**：可在文档评论中 @mention 机器人，进行行内问答。
 
-**Group summary**: At the end of a long group discussion, @mention the bot and say "summarize the discussion above" for a quick recap.
+**群聊总结**：在一段长时间的群聊结束后，@mention 机器人并说"总结上面的讨论"，即可快速获取摘要。
 
-**Multi-language**: The bot auto-detects the language you write in and responds accordingly. Or specify: "reply in English."
+**多语言**：机器人自动识别你的输入语言并以相同语言回复。也可以明确指定："请用中文回答。"
 
-**Forward to DM**: For sensitive questions, forward a group message to the bot's DM for a private response.
+**转发至私信**：涉及敏感问题时，将群消息转发给机器人私信，获得私密回复。
 
-## Troubleshooting
+## 故障排除
 
-**Bot not appearing in document app search?**
-- The bot must have been granted document app permissions in the Lark admin console
-- Contact your Lark admin to enable external app access
+**在文档应用搜索中找不到机器人？**
+- 机器人需要在 Lark 管理后台获得文档应用权限
+- 请联系 Lark 管理员开启外部应用访问权限
 
-**Bot not responding in group?**
-- Confirm the bot was added to the group (not just the organization)
-- Check that group mention mode is enabled in COCO Dashboard
+**机器人在群聊中不响应？**
+- 确认机器人已加入该群（而非仅加入组织）
+- 检查 COCO Dashboard 中是否已启用群聊提及模式
 
-**Messages showing as "failed to send"?**
-- Check if the COCO service is online at [coco.xyz/dashboard](https://coco.xyz/dashboard)
-- Verify your subscription is active
+**消息显示"发送失败"？**
+- 前往 [coco.xyz/dashboard](https://coco.xyz/dashboard) 检查 COCO 服务是否在线
+- 确认你的订阅状态正常

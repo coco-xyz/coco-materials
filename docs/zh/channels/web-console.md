@@ -1,46 +1,46 @@
 # Web 控制台 — 使用技巧
 
-The Web Console is your browser-based interface for chatting with your COCO AI employee — no app installation required.
+Web 控制台是基于浏览器的对话界面，无需安装任何应用，即可与 COCO AI 员工沟通。
 
-## Accessing the Web Console
+## 访问 Web 控制台
 
-Your Web Console URL is provided when you set up your AI employee. It typically looks like:
+设置 AI 员工时会提供你的 Web 控制台地址，格式通常如下：
 ```
-https://[your-domain].coco.xyz/console/
+https://[你的域名].coco.xyz/console/
 ```
 
-Access it from any browser on desktop or mobile.
+可在桌面端或移动端的任意浏览器中访问。
 
-## Basic Usage
+## 基本使用
 
-### Starting a Conversation
-1. Open your Web Console URL
-2. Type your message in the input box at the bottom
-3. Press **Enter** or click **Send**
+### 开始对话
+1. 打开 Web 控制台地址
+2. 在底部输入框中输入消息
+3. 按 **Enter** 或点击**发送**
 
-### Uploading Files
-Click the **paperclip icon** (📎) to attach:
-- PDF documents
-- Images (PNG, JPG, WEBP)
-- Text files
+### 上传文件
+点击**回形针图标**（📎）可附加：
+- PDF 文档
+- 图片（PNG、JPG、WEBP）
+- 文本文件
 
-### Keyboard Shortcuts
+### 键盘快捷键
 
-| Shortcut | Action |
-|----------|--------|
-| `Enter` | Send message |
-| `Shift + Enter` | New line (multi-line input) |
-| `↑` | Recall last message |
-| `Esc` | Cancel current input |
+| 快捷键 | 操作 |
+|--------|------|
+| `Enter` | 发送消息 |
+| `Shift + Enter` | 换行（多行输入） |
+| `↑` | 调出上一条消息 |
+| `Esc` | 取消当前输入 |
 
-## Embedding in Your Website
+## 嵌入到你的网站
 
-You can embed the Web Console as a chat widget on your website:
+可以将 Web 控制台作为聊天窗口嵌入网站：
 
-### Option A: iFrame Embed
+### 方式 A：iFrame 嵌入
 ```html
 <iframe
-  src="https://[your-domain].coco.xyz/console/"
+  src="https://[你的域名].coco.xyz/console/"
   width="400"
   height="600"
   frameborder="0"
@@ -48,8 +48,8 @@ You can embed the Web Console as a chat widget on your website:
 ></iframe>
 ```
 
-### Option B: Floating Widget
-Add the COCO widget script to your page:
+### 方式 B：浮动挂件
+在页面中引入 COCO 挂件脚本：
 ```html
 <script>
   window.COCO_CONFIG = {
@@ -61,46 +61,46 @@ Add the COCO widget script to your page:
 <script src="https://coco.xyz/widget.js" async></script>
 ```
 
-Configure widget settings in COCO Dashboard → Web Console → Embed Settings.
+在 COCO Dashboard → Web 控制台 → 嵌入设置 中配置挂件参数。
 
-## Advanced Features
+## 高级功能
 
-### Custom Welcome Message
-Set a greeting that appears when users first open the console:
-> Dashboard → Bot Settings → Welcome Message
+### 自定义欢迎语
+设置用户首次打开控制台时显示的问候语：
+> Dashboard → 机器人设置 → 欢迎消息
 
-### Conversation History
-- The Web Console saves conversation history in the browser session
-- Users can scroll up to review the full conversation
-- History clears when the browser tab is closed (by default)
+### 对话历史
+- Web 控制台在浏览器会话中保存对话历史
+- 用户可向上滚动查看完整对话
+- 默认情况下，关闭浏览器标签页后历史记录清空
 
-### Authentication Options
-- **Open access**: Anyone with the URL can chat (good for public websites)
-- **Password protected**: Require a password to access
-- **SSO**: Integrate with your existing auth system (enterprise plan)
+### 访问权限控制
+- **开放访问**：任何拥有链接的人都可以对话（适合公开网站）
+- **密码保护**：需要输入密码才能访问
+- **单点登录（SSO）**：与现有认证系统集成（企业版）
 
-## Pro Tips
+## 进阶技巧
 
-**Copy responses**: Hover over any bot response to see copy and thumbs-up/down buttons.
+**复制回复**：将鼠标悬停在机器人的任意回复上，可以看到复制和点赞/踩按钮。
 
-**Regenerate**: Click "Regenerate" on the last response if you want the bot to try a different answer.
+**重新生成**：如果想让机器人给出不同的回答，点击最后一条回复上的"重新生成"。
 
-**Share conversation**: Use the share button to generate a link to the current conversation.
+**分享对话**：使用分享按钮生成当前对话的链接。
 
-**Mobile**: The Web Console is fully responsive — works on phones and tablets without any app install.
+**移动端**：Web 控制台完全适配移动端——无需安装任何应用，在手机和平板上均可正常使用。
 
-**Dark mode**: The console follows your system's dark/light mode preference automatically.
+**深色模式**：控制台自动跟随系统的深色/浅色模式设置。
 
-## Troubleshooting
+## 故障排除
 
-**Console not loading?**
-- Check that your subscription is active
-- Clear browser cache and cookies
-- Try a different browser
+**控制台无法加载？**
+- 检查订阅是否有效
+- 清除浏览器缓存和 Cookie
+- 尝试换用其他浏览器
 
-**Responses cut off?**
-- Very long responses may be truncated — reply "continue" to get the rest
+**回复被截断？**
+- 超长回复可能被截断——回复"继续"获取剩余内容
 
-**File upload failing?**
-- Maximum file size: 20MB
-- Supported formats: PDF, PNG, JPG, WEBP, TXT, MD, CSV
+**文件上传失败？**
+- 文件大小上限：20MB
+- 支持格式：PDF、PNG、JPG、WEBP、TXT、MD、CSV

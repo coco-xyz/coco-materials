@@ -1,75 +1,75 @@
 # Telegram — 使用技巧
 
-Everything you need to get the most out of your COCO AI employee on Telegram.
+在 Telegram 上充分发挥 COCO AI 员工的能力。
 
-## Basic Usage
+## 基本使用
 
-### Direct Messages (DM)
-Send any message to your bot and it will respond immediately. No @mention needed in DMs.
-
-```
-You: Summarize this article for me: [paste text]
-Bot: Here's a summary...
-```
-
-### Group Chats
-In a group, you must @mention your bot to trigger it:
+### 私信（DM）
+直接向机器人发送任意消息，机器人会立即回复。私信中无需 @mention。
 
 ```
-@YourBot help me draft a reply to this email
+你：帮我总结这篇文章：[粘贴文本]
+机器人：以下是摘要……
 ```
 
-> **Tip:** Add your bot to a team group so the whole team can query the same AI employee.
+### 群聊
+在群聊中，需要 @mention 机器人才能触发响应：
 
-## Commands
+```
+@你的机器人 帮我草拟一封回复邮件
+```
 
-| Command | Description |
-|---------|-------------|
-| `/start` | Initialize the bot, see welcome message |
-| `/help` | List available commands |
-| `/reset` | Clear the current conversation context |
-| `/lang en` | Switch response language to English |
-| `/lang zh` | Switch response language to Chinese |
+> **提示：** 将机器人添加到团队群，让整个团队可以使用同一个 AI 员工。
 
-## Group Chat Best Practices
+## 命令
 
-### Setting Up for a Team
-1. Add your bot to the group
-2. Grant the bot **admin rights** so it can read all messages
-3. Use `/start` in the group to activate
-4. Mention the bot whenever you need AI assistance
+| 命令 | 说明 |
+|------|------|
+| `/start` | 初始化机器人，查看欢迎消息 |
+| `/help` | 列出可用命令 |
+| `/reset` | 清空当前对话上下文 |
+| `/lang en` | 切换回复语言为英文 |
+| `/lang zh` | 切换回复语言为中文 |
 
-### Controlling When the Bot Responds
-By default, the bot only responds when @mentioned in groups. You can also:
-- Set it to respond to all messages (configure in COCO Dashboard → Channel Settings)
-- Set specific trigger keywords
+## 群聊最佳实践
 
-### Forwarding Messages
-You can forward any message to the bot and ask it to analyze, translate, or summarize it.
+### 为团队配置
+1. 将机器人添加到群组
+2. 授予机器人**管理员权限**，使其可以读取所有消息
+3. 在群内发送 `/start` 激活
+4. 需要 AI 协助时 @mention 机器人
 
-## Pro Tips
+### 控制机器人的响应范围
+默认情况下，机器人在群聊中仅在被 @mention 时响应。你也可以：
+- 设置为响应所有消息（在 COCO Dashboard → 渠道设置 中配置）
+- 设置特定触发关键词
 
-**Long documents**: Paste large texts directly — the bot handles up to 100,000 characters per message.
+### 转发消息
+可以将任意消息转发给机器人，让它进行分析、翻译或总结。
 
-**Voice messages**: Send voice messages and the bot will transcribe and respond to them.
+## 进阶技巧
 
-**Files & images**: Send PDFs, images, or documents. The bot can read and analyze them.
+**长文档**：直接粘贴大段文字——机器人每条消息最多支持 10 万字符。
 
-**Reply-to-quote**: Reply to any specific message in the chat and @mention the bot — it will respond in context of that message.
+**语音消息**：发送语音消息，机器人会转录并进行回复。
 
-**Pinned instructions**: Pin a message with your bot's standing instructions (e.g., "Always reply in English, be concise") so team members know the bot's behavior.
+**文件与图片**：发送 PDF、图片或文档，机器人可以读取和分析。
 
-## Troubleshooting
+**引用回复**：在群聊中引用某条特定消息并 @mention 机器人——机器人会结合该消息上下文进行回复。
 
-**Bot not responding in group?**
-- Make sure you @mentioned the bot
-- Check that the bot has not been muted or restricted
-- Verify the bot is still a member of the group
+**置顶指令**：将机器人的常驻指令置顶（例如"请始终用英文回复，保持简洁"），让团队成员了解机器人的行为规则。
 
-**Slow responses?**
-- Large requests take longer — complex analysis can take 30–60 seconds
-- Check your COCO Dashboard for any quota or rate limit warnings
+## 故障排除
 
-**Context lost?**
-- Use `/reset` to start a fresh conversation
-- Context is per-session; very long conversations may auto-reset
+**机器人在群聊中不响应？**
+- 确认你已 @mention 机器人
+- 检查机器人是否被静音或受限
+- 确认机器人仍是群成员
+
+**响应缓慢？**
+- 复杂的分析请求需要更多时间，可能需要 30–60 秒
+- 在 COCO Dashboard 中检查是否有配额或限速提示
+
+**上下文丢失？**
+- 使用 `/reset` 重新开始一段对话
+- 上下文按会话计算；过长的对话可能会自动重置

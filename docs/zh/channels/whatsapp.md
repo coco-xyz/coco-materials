@@ -1,74 +1,74 @@
 # WhatsApp — 使用技巧
 
-Use your COCO AI employee in WhatsApp for customer-facing and international business scenarios.
+在 WhatsApp 上使用 COCO AI 员工，适用于客户服务和国际业务场景。
 
-## Basic Usage
+## 基本使用
 
-### Direct Messages
-Send any message to the bot's WhatsApp number. No special commands needed to start.
+### 私信
+直接向机器人的 WhatsApp 号码发送消息，无需特殊命令即可开始。
 
-### Group Chats
-@mention the bot in group chats:
+### 群聊
+在群聊中 @mention 机器人：
 ```
-@YourBot can you translate this message to Spanish?
+@你的机器人 能帮我把这条消息翻译成西班牙语吗？
 ```
 
-## Setting Up WhatsApp
+## 配置 WhatsApp
 
-1. Go to **COCO Dashboard → Channel Deployment → WhatsApp**
-2. Scan the QR code with your WhatsApp app
-3. Wait for connection confirmation (green dot)
-4. Start messaging
+1. 进入 **COCO Dashboard → 渠道部署 → WhatsApp**
+2. 用你的 WhatsApp 扫描二维码
+3. 等待连接确认（绿色指示灯）
+4. 开始发消息
 
-> **Note:** The WhatsApp connection uses WhatsApp Web protocol. Keep the connection active by accessing COCO Dashboard periodically.
+> **注意：** WhatsApp 连接使用 WhatsApp Web 协议。请定期访问 COCO Dashboard 以保持连接活跃。
 
-## Best Use Cases
+## 适用场景
 
-### Customer Service Bot
-Connect to a dedicated business number and use as a customer-facing support channel:
-- Auto-reply to FAQs
-- Triage requests and escalate to humans when needed
-- Collect customer information
+### 客服机器人
+接入专属商务号码，作为面向客户的支持渠道：
+- 自动回复常见问题
+- 分类请求，必要时转接人工
+- 采集客户信息
 
-### Team Broadcast & Summaries
-In internal WhatsApp groups:
-- @mention to get meeting summaries
-- Translate messages between team members in different regions
-- Get quick data lookups without switching apps
+### 团队广播与总结
+在内部 WhatsApp 群中：
+- @mention 机器人获取会议纪要
+- 在不同地区的团队成员之间翻译消息
+- 无需切换应用，直接查询数据
 
-### International Communication
-WhatsApp is widely used in Southeast Asia, Latin America, Middle East, and Europe — ideal for:
-- Multilingual customer support
-- Cross-border sales follow-up
-- International team coordination
+### 国际业务沟通
+WhatsApp 在东南亚、拉丁美洲、中东和欧洲广泛使用，适合：
+- 多语言客户支持
+- 跨境销售跟进
+- 国际团队协作
 
-## Pro Tips
+## 进阶技巧
 
-**Voice notes**: Send voice messages — the bot transcribes and responds to them.
+**语音消息**：发送语音消息——机器人会转录并回复。
 
-**Image & document analysis**: Send photos, PDFs, or screenshots. The bot can read receipts, contracts, or any visual content.
+**图片与文档分析**：发送照片、PDF 或截图，机器人可以读取收据、合同或任何可视化内容。
 
-**Status checking**: Message the bot "what's my account status?" to check subscription details without opening the dashboard.
+**状态查询**：发消息"我的账户状态如何？"即可查看订阅详情，无需打开 Dashboard。
 
-**Quick replies**: For frequently-asked questions, set up quick-reply templates in COCO Dashboard → Bot Settings.
+**快捷回复**：在 COCO Dashboard → 机器人设置 中为常见问题设置快捷回复模板。
 
-## Limitations & Notes
+## 限制与说明
 
-- WhatsApp does not support message editing — if you make a mistake, send a follow-up message to clarify
-- Group chats require @mention; DMs respond to everything
-- Media files over 16MB cannot be processed
-- Voice-to-text accuracy depends on audio quality and language
+- WhatsApp 不支持消息编辑——如有错误，请发一条新消息补充说明
+- 群聊中需要 @mention；私信中对所有消息均响应
+- 超过 16MB 的媒体文件无法处理
+- 语音转文字的准确度取决于音频质量和语言
 
-## Troubleshooting
+## 故障排除
 
-**Bot went offline?**
-- WhatsApp connections occasionally drop — go to COCO Dashboard and reconnect (rescan QR if needed)
-- This is a WhatsApp limitation; connections need periodic reauthorization
+**机器人掉线？**
+- WhatsApp 连接有时会断开——前往 COCO Dashboard 重新连接（如需要，重新扫描二维码）
+- 这是 WhatsApp 的限制；连接需要定期重新授权
 
-**Not receiving responses?**
-- Check if the bot number has been blocked in WhatsApp
-- Verify your COCO subscription is active
+**收不到回复？**
+- 检查机器人号码是否在 WhatsApp 中被屏蔽
+- 确认 COCO 订阅状态正常
 
-**Slow response in groups?**
-- Large groups with high message volume may cause delays
-- Consider using a dedicated group for bot interactions
+**群聊响应缓慢？**
+- 消息量较大的群组可能出现延迟
+- 建议建立专用群组用于机器人交互
