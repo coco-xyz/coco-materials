@@ -145,9 +145,22 @@ export default defineConfig({
           { text: 'Use Cases', link: '/use-cases/' },
           { text: 'Case Studies', link: '/case-studies/' },
           { text: 'Social Media', link: '/social-media/' },
+          { text: 'Channels', link: '/channels/' },
           { text: 'coco.xyz', link: 'https://coco.xyz' },
         ],
         sidebar: {
+          '/channels/': [
+            {
+              text: 'Channel Usage Tips',
+              items: [
+                { text: 'Overview', link: '/channels/' },
+                { text: 'Telegram', link: '/channels/telegram' },
+                { text: 'Lark / Feishu', link: '/channels/lark' },
+                { text: 'WhatsApp', link: '/channels/whatsapp' },
+                { text: 'Web Console', link: '/channels/web-console' },
+              ]
+            },
+          ],
           '/getting-started/': [
             {
               text: 'Getting Started',
@@ -274,9 +287,22 @@ export default defineConfig({
           { text: '用例库', link: '/zh/use-cases/' },
           { text: '案例研究', link: '/zh/case-studies/' },
           { text: '社交媒体', link: '/zh/social-media/' },
+          { text: '渠道技巧', link: '/zh/channels/' },
           { text: 'coco.xyz', link: 'https://coco.xyz' },
         ],
         sidebar: {
+          '/zh/channels/': [
+            {
+              text: '渠道使用技巧',
+              items: [
+                { text: '概览', link: '/zh/channels/' },
+                { text: 'Telegram', link: '/zh/channels/telegram' },
+                { text: 'Lark / 飞书', link: '/zh/channels/lark' },
+                { text: 'WhatsApp', link: '/zh/channels/whatsapp' },
+                { text: 'Web 控制台', link: '/zh/channels/web-console' },
+              ]
+            },
+          ],
           '/zh/getting-started/': [
             {
               text: '快速开始',
