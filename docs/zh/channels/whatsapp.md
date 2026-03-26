@@ -1,74 +1,86 @@
-# WhatsApp — 使用技巧
+# WhatsApp 接入指南
 
-在 WhatsApp 上使用 COCO AI 员工，适用于客户服务和国际业务场景。
+COCO Dashboard 中的 WhatsApp 渠道采用扫码关联设备方式接入，无需 API 密钥或应用配置。
 
-## 基本使用
+::: danger 重要提醒
+为了让这个 AI 员工像一个独立 Bot 一样被正常使用，请务必给它绑定一个新的、专属的 WhatsApp 号码。
 
-### 私信
-直接向机器人的 WhatsApp 号码发送消息，无需特殊命令即可开始。
+- 不要直接绑定你自己常用的 WhatsApp 账号
+- Bot 需要独立身份，其他人才能把它当成单独账号来发消息、拉群、@它
+- 请准备并注册一个新的 WhatsApp 号码，专门给这个 Bot 使用
+:::
 
-### 群聊
-在群聊中 @mention 机器人：
-```
-@你的机器人 能帮我把这条消息翻译成西班牙语吗？
-```
+::: info 准备事项
+- 需要一部已注册 WhatsApp 账号的手机
+- 需要先在 COCO Dashboard 创建 AI 员工实例
+- 整个流程约 5 分钟
+:::
 
-## 配置 WhatsApp
+## 第1步：创建 AI 员工并进入配置页面
 
-1. 进入 **COCO Dashboard → 渠道部署 → WhatsApp**
-2. 用你的 WhatsApp 扫描二维码
-3. 等待连接确认（绿色指示灯）
-4. 开始发消息
+登录 COCO Dashboard，创建一个 AI 员工，或选择已有实例。在仪表盘中点击该员工卡片下方的 **配置 →** 进入实例详情页。
 
-> **注意：** WhatsApp 连接使用 WhatsApp Web 协议。请定期访问 COCO Dashboard 以保持连接活跃。
+<img src="/whatsapp-step1-dashboard.png" alt="仪表盘配置入口" style="max-width: 640px; width: 100%; border-radius: 8px; margin: 0.75rem 0;" />
 
-## 适用场景
+## 第2步：点击 WhatsApp「连接」，等待二维码生成
 
-### 客服机器人
-接入专属商务号码，作为面向客户的支持渠道：
-- 自动回复常见问题
-- 分类请求，必要时转接人工
-- 采集客户信息
+在实例详情页的渠道列表中找到 **WhatsApp** 卡片，点击 **连接** 按钮。
 
-### 团队广播与总结
-在内部 WhatsApp 群中：
-- @mention 机器人获取会议纪要
-- 在不同地区的团队成员之间翻译消息
-- 无需切换应用，直接查询数据
+系统会在后台为你的实例准备 WhatsApp 会话，二维码需要几十秒生成，请耐心等待。生成后二维码会每 15 秒自动刷新。
 
-### 国际业务沟通
-WhatsApp 在东南亚、拉丁美洲、中东和欧洲广泛使用，适合：
-- 多语言客户支持
-- 跨境销售跟进
-- 国际团队协作
+<img src="/whatsapp-step2-qr-code.png" alt="WhatsApp 二维码" style="max-width: 640px; width: 100%; border-radius: 8px; margin: 0.75rem 0;" />
 
-## 进阶技巧
+::: warning 注意
+等待过程中请勿关闭页面或反复点击，否则可能触发重复请求。
+:::
 
-**语音消息**：发送语音消息——机器人会转录并回复。
+## 第3步：打开手机 WhatsApp，进入「已关联的设备」
 
-**图片与文档分析**：发送照片、PDF 或截图，机器人可以读取收据、合同或任何可视化内容。
+在手机上打开 **WhatsApp**，点击右下角 **自己**（个人头像），在设置列表中找到并点击 **已关联的设备**。
 
-**状态查询**：发消息"我的账户状态如何？"即可查看订阅详情，无需打开 Dashboard。
+<img src="/whatsapp-step3-linked-devices.png" alt="WhatsApp 已关联的设备" style="max-width: 320px; width: 100%; border-radius: 8px; margin: 0.75rem 0;" />
 
-**快捷回复**：在 COCO Dashboard → 机器人设置 中为常见问题设置快捷回复模板。
+## 第4步：点击「关联设备」并扫描二维码
 
-## 限制与说明
+在「已关联的设备」页面中，点击底部的 **关联设备** 绿色按钮，手机会打开扫码界面。
 
-- WhatsApp 不支持消息编辑——如有错误，请发一条新消息补充说明
-- 群聊中需要 @mention；私信中对所有消息均响应
-- 超过 16MB 的媒体文件无法处理
-- 语音转文字的准确度取决于音频质量和语言
+将手机摄像头对准第 2 步中 Dashboard 页面上显示的二维码进行扫描。
 
-## 故障排除
+<img src="/whatsapp-step4-link-device.png" alt="关联设备" style="max-width: 320px; width: 100%; border-radius: 8px; margin: 0.75rem 0;" />
 
-**机器人掉线？**
-- WhatsApp 连接有时会断开——前往 COCO Dashboard 重新连接（如需要，重新扫描二维码）
-- 这是 WhatsApp 的限制；连接需要定期重新授权
+::: tip 提示
+如果二维码已过期，Dashboard 会自动刷新，请扫描最新显示的二维码。
+:::
 
-**收不到回复？**
-- 检查机器人号码是否在 WhatsApp 中被屏蔽
-- 确认 COCO 订阅状态正常
+## 第5步：验证连接并管理聊天权限
 
-**群聊响应缓慢？**
-- 消息量较大的群组可能出现延迟
-- 建议建立专用群组用于机器人交互
+扫码成功后，Dashboard 会自动检测到连接状态，WhatsApp 卡片会显示为 **已连接**。
+
+### 验证 Bot 是否正常工作
+
+连接成功后，你就是该 Bot 的 Owner（管理员）。在 WhatsApp 中搜索自己的账号，给自己发一条消息，Bot 会自动回复你。
+
+### 让其他人与 Bot 聊天
+
+默认只有 Owner 可以和 Bot 对话。如果需要让其他人也能聊天，有两种方式：
+
+- **Allowlist 模式**：仅指定的人可以和 Bot 聊天
+- **Open 模式**：所有人都可以和 Bot 聊天
+
+设置方式很简单，直接用自然语言告诉 Bot 即可。
+
+::: tip Allowlist 示例
+给 Bot 发消息：「打开 allowlist 模式，将 +86 188xxxx8888 加入到列表中」
+
+Bot 会自动更新配置，该号码的用户即可开始与 Bot 对话。
+:::
+
+::: tip Open 示例
+给 Bot 发消息：「打开 open 模式，任何人都可以 DM 你」
+
+Bot 会开放所有人的聊天权限。
+:::
+
+::: warning 注意
+WhatsApp 关联设备会在手机长时间离线后自动断开。如果断开，回到 Dashboard 重新扫码即可恢复。
+:::
