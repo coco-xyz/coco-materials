@@ -72,7 +72,7 @@ export default defineConfig({
 
   vite: {
     server: {
-      allowedHosts: ['zylos100.jinglever.com']
+      allowedHosts: ['zylos100.jinglever.com', 'jessie.coco.site']
     },
   },
 
@@ -140,13 +140,11 @@ export default defineConfig({
       themeConfig: {
         outline: { level: [2, 3] },
         nav: [
-          { text: 'Home', link: '/' },
-          { text: 'Getting Started', link: '/getting-started/' },
           { text: 'Use Cases', link: '/use-cases/' },
           { text: 'Case Studies', link: '/case-studies/' },
-          { text: 'Social Media', link: '/social-media/' },
           { text: 'Channels', link: '/channels/' },
-          { text: 'coco.xyz', link: 'https://coco.xyz' },
+          { text: 'Pricing', link: 'https://coco.xyz/#pricing' },
+          { text: 'Get Started', link: '/getting-started/' },
         ],
         sidebar: {
           '/channels/': [
@@ -283,13 +281,11 @@ export default defineConfig({
       description: 'AI数字员工 — 用例、资源与文档',
       themeConfig: {
         nav: [
-          { text: '首页', link: '/zh/' },
-          { text: '快速开始', link: '/zh/getting-started/' },
-          { text: '用例库', link: '/zh/use-cases/' },
-          { text: '案例研究', link: '/zh/case-studies/' },
-          { text: '社交媒体', link: '/zh/social-media/' },
-          { text: '渠道技巧', link: '/zh/channels/' },
-          { text: 'coco.xyz', link: 'https://coco.xyz' },
+          { text: '用例', link: '/zh/use-cases/' },
+          { text: '案例', link: '/zh/case-studies/' },
+          { text: '渠道', link: '/zh/channels/' },
+          { text: '定价', link: 'https://coco.xyz/#pricing' },
+          { text: '开始使用', link: '/zh/getting-started/' },
         ],
         sidebar: {
           '/zh/channels/': [

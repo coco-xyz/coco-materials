@@ -12,25 +12,15 @@ const navItems = computed(() => {
   const isZh = lang.value === 'zh-CN'
   return [
     { text: isZh ? '用例' : 'Use Cases', link: isZh ? '/zh/use-cases/' : '/use-cases/' },
+    { text: isZh ? '案例' : 'Case Studies', link: isZh ? '/zh/case-studies/' : '/case-studies/' },
+    { text: isZh ? '渠道' : 'Channels', link: isZh ? '/zh/channels/' : '/channels/' },
     { text: isZh ? '定价' : 'Pricing', link: 'https://coco.xyz/#pricing', external: true },
-    {
-      text: isZh ? '文档' : 'Docs',
-      link: isZh ? '/zh/' : '/',
-      active: true,
-      dropdown: true,
-      sections: [
-        {
-          title: isZh ? '案例研究' : 'Case Studies',
-          items: [
-            { icon: '📊', text: isZh ? 'COCO CRM' : 'COCO CRM', desc: isZh ? 'AI 搭建，AI 运营' : 'Built by AI, Run by AI', link: isZh ? '/zh/case-studies/crm' : '/case-studies/crm' },
-            { icon: '📱', text: isZh ? '社媒自动化' : 'Social Media & BD', desc: isZh ? '两家公司，同一个突破' : 'Two Companies, One Breakthrough', link: isZh ? '/zh/case-studies/social-media' : '/case-studies/social-media' },
-            { icon: '📋', text: isZh ? 'AI 投资尽调' : 'AI Due Diligence', desc: isZh ? '20小时压缩到2小时' : '20 hours down to 2', link: isZh ? '/zh/case-studies/deal-flow-dd' : '/case-studies/deal-flow-dd' },
-            { icon: '📧', text: isZh ? '邮件自动化' : 'Email Automation', desc: isZh ? '真实用户邮件识别、提醒与草稿起草' : 'Detect, alert, and draft replies for real customer emails', link: isZh ? '/zh/case-studies/email-automation' : '/case-studies/email-automation' },
-          ]
-        },
-      ]
-    },
   ]
+})
+
+const ctaItem = computed(() => {
+  const isZh = lang.value === 'zh-CN'
+  return { text: isZh ? '开始使用' : 'Get Started', link: isZh ? '/zh/getting-started/' : '/getting-started/' }
 })
 
 const currentLang = computed(() => lang.value === 'zh-CN' ? '中文' : 'EN')
@@ -80,37 +70,8 @@ onUnmounted(() => {
       <!-- Desktop Nav -->
       <nav class="desktop-nav">
         <template v-for="item in navItems" :key="item.text">
-          <!-- Dropdown nav item -->
-          <div v-if="item.dropdown" class="nav-dropdown">
-            <a :href="withBase(item.link)" class="nav-link dropdown-trigger" :class="{ active: item.active }">
-              {{ item.text }}
-              <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-            </a>
-            <div class="mega-menu">
-              <div class="mega-menu-inner">
-                <div v-for="section in item.sections" :key="section.title" class="mega-section">
-                  <div class="mega-section-title">{{ section.title }}</div>
-                  <div class="mega-section-grid">
-                    <a
-                      v-for="child in section.items"
-                      :key="child.text"
-                      :href="child.external ? child.link : withBase(child.link)"
-                      :target="child.external ? '_blank' : undefined"
-                      :rel="child.external ? 'noopener' : undefined"
-                      class="mega-item"
-                    >
-                      <span class="mega-item-icon">{{ child.icon }}</span>
-                      <span class="mega-item-text">{{ child.text }}</span>
-                      <span class="mega-item-desc">{{ child.desc }}</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Regular nav items -->
           <a
-            v-else-if="item.external"
+            v-if="item.external"
             :href="item.link"
             class="nav-link"
             target="_blank"
@@ -120,9 +81,10 @@ onUnmounted(() => {
             v-else
             :href="withBase(item.link)"
             class="nav-link"
-            :class="{ active: item.active }"
           >{{ item.text }}</a>
         </template>
+        <!-- CTA Button -->
+        <a :href="withBase(ctaItem.link)" class="nav-cta">{{ ctaItem.text }}</a>
       </nav>
 
       <!-- Controls -->
@@ -179,31 +141,8 @@ onUnmounted(() => {
     <!-- Mobile Menu -->
     <div class="mobile-menu" v-if="mobileMenuOpen">
       <template v-for="item in navItems" :key="item.text">
-        <!-- Mobile dropdown -->
-        <template v-if="item.dropdown">
-          <div class="mobile-nav-label">{{ item.text }}</div>
-          <template v-for="section in item.sections" :key="section.title">
-            <template v-for="child in section.items" :key="child.text">
-              <a
-                v-if="child.external"
-                :href="child.link"
-                class="mobile-nav-link mobile-nav-child"
-                target="_blank"
-                rel="noopener"
-                @click="mobileMenuOpen = false"
-              >{{ child.icon }} {{ child.text }}</a>
-              <a
-                v-else
-                :href="withBase(child.link)"
-                class="mobile-nav-link mobile-nav-child"
-                @click="mobileMenuOpen = false"
-              >{{ child.icon }} {{ child.text }}</a>
-            </template>
-          </template>
-        </template>
-        <!-- Regular mobile items -->
         <a
-          v-else-if="item.external"
+          v-if="item.external"
           :href="item.link"
           class="mobile-nav-link"
           target="_blank"
@@ -214,10 +153,10 @@ onUnmounted(() => {
           v-else
           :href="withBase(item.link)"
           class="mobile-nav-link"
-          :class="{ active: item.active }"
           @click="mobileMenuOpen = false"
         >{{ item.text }}</a>
       </template>
+      <a :href="withBase(ctaItem.link)" class="mobile-nav-cta" @click="mobileMenuOpen = false">{{ ctaItem.text }}</a>
     </div>
   </header>
 </template>
@@ -370,106 +309,37 @@ onUnmounted(() => {
   color: var(--vp-c-brand-1);
 }
 
-/* Dropdown */
-.nav-dropdown {
-  position: relative;
-}
-.dropdown-trigger {
-  cursor: pointer;
-  display: flex;
+/* Nav CTA Button */
+.nav-cta {
+  display: inline-flex;
   align-items: center;
-  gap: 4px;
-}
-.dropdown-arrow {
-  transition: transform 0.25s ease;
-}
-.nav-dropdown:hover .dropdown-arrow {
-  transform: rotate(180deg);
-}
-
-/* Mega Menu */
-.mega-menu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  min-width: 420px;
-  z-index: 50;
-  padding-top: 8px;
-}
-.nav-dropdown:hover .mega-menu,
-.mega-menu:hover {
-  display: block;
-}
-.mega-menu-inner {
-  background: linear-gradient(135deg, #1a3a4a, #1e4d5e);
-  border-radius: 16px;
-  padding: 24px 28px;
-  box-shadow: 0 16px 48px rgba(92, 197, 197, 0.15), 0 0 0 1px rgba(92, 197, 197, 0.1);
-}
-.mega-section {
-  margin-bottom: 20px;
-}
-.mega-section:last-child {
-  margin-bottom: 0;
-}
-.mega-section-title {
-  font-size: 11px;
+  padding: 6px 18px;
+  border-radius: 999px;
+  background: var(--vp-c-brand-1);
+  color: #1a1a1a;
+  font-size: 13px;
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: rgba(255, 255, 255, 0.4);
-  margin-bottom: 12px;
-  padding-left: 4px;
-}
-.mega-section-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  gap: 4px;
-}
-.mega-item {
-  display: flex;
-  flex-direction: column;
-  padding: 12px 14px;
-  border-radius: 10px;
   text-decoration: none;
-  transition: background 0.15s;
+  transition: background 0.2s;
+  margin-left: 8px;
+  white-space: nowrap;
 }
-.mega-item:hover {
-  background: rgba(92, 197, 197, 0.12);
-}
-.mega-item-icon {
-  font-size: 1.4rem;
-  margin-bottom: 6px;
-}
-.mega-item-text {
-  font-size: 14px;
-  font-weight: 600;
-  color: #fff;
-  line-height: 1.3;
-}
-.mega-item-desc {
-  font-size: 12px;
-  color: rgba(255, 255, 255, 0.45);
-  margin-top: 2px;
-  line-height: 1.4;
+.nav-cta:hover {
+  background: var(--vp-c-brand-2);
 }
 
-/* Mobile dropdown */
-.mobile-nav-label {
-  padding: 10px 0 4px;
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--vp-c-text-3);
-  border-bottom: none;
-}
-.mobile-nav-child {
-  padding-left: 12px;
-  font-size: 14px;
-  color: var(--vp-c-text-2);
+/* Mobile CTA */
+.mobile-nav-cta {
+  display: block;
+  text-align: center;
+  padding: 12px 0;
+  margin-top: 8px;
+  border-radius: 999px;
+  background: var(--vp-c-brand-1);
+  color: #1a1a1a;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
