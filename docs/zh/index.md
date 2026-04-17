@@ -147,6 +147,18 @@ COCO 在你团队已有的工具中工作。无需切换。
 <div class="channel-icon">💬</div>
 <div class="channel-name">WhatsApp</div>
 </a>
+<a href="./getting-started/channel-deployment#option-c-wecom-企业微信-deployment" class="channel-card">
+<div class="channel-icon">💼</div>
+<div class="channel-name">企业微信</div>
+</a>
+<a href="./getting-started/channel-deployment#option-d-dingtalk-钉钉-deployment" class="channel-card">
+<div class="channel-icon">🔔</div>
+<div class="channel-name">钉钉</div>
+</a>
+<a href="./getting-started/channel-deployment#slack" class="channel-card">
+<div class="channel-icon">💜</div>
+<div class="channel-name">Slack</div>
+</a>
 <a href="./channels/web-console" class="channel-card">
 <div class="channel-icon">🌐</div>
 <div class="channel-name">Web 控制台</div>

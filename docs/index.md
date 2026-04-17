@@ -147,6 +147,18 @@ COCO works in the tools your team already uses. No context switching.
 <div class="channel-icon">💬</div>
 <div class="channel-name">WhatsApp</div>
 </a>
+<a href="./getting-started/channel-deployment#option-c-wecom-企业微信-deployment" class="channel-card">
+<div class="channel-icon">💼</div>
+<div class="channel-name">WeCom</div>
+</a>
+<a href="./getting-started/channel-deployment#option-d-dingtalk-钉钉-deployment" class="channel-card">
+<div class="channel-icon">🔔</div>
+<div class="channel-name">DingTalk</div>
+</a>
+<a href="./getting-started/channel-deployment#slack" class="channel-card">
+<div class="channel-icon">💜</div>
+<div class="channel-name">Slack</div>
+</a>
 <a href="./channels/web-console" class="channel-card">
 <div class="channel-icon">🌐</div>
 <div class="channel-name">Web Console</div>
