@@ -75,6 +75,8 @@ onUnmounted(() => {
 
       <!-- Desktop Nav -->
       <nav class="desktop-nav">
+        <!-- CTA Button (first) -->
+        <a :href="withBase(ctaItem.link)" class="nav-cta">{{ ctaItem.text }}</a>
         <template v-for="item in navItems" :key="item.text">
           <a
             v-if="item.external"
@@ -89,8 +91,6 @@ onUnmounted(() => {
             class="nav-link"
           >{{ item.text }}</a>
         </template>
-        <!-- CTA Button -->
-        <a :href="withBase(ctaItem.link)" class="nav-cta">{{ ctaItem.text }}</a>
       </nav>
 
       <!-- Controls -->
@@ -327,7 +327,7 @@ onUnmounted(() => {
   font-weight: 600;
   text-decoration: none;
   transition: background 0.2s;
-  margin-left: 8px;
+  margin-right: 8px;
   white-space: nowrap;
 }
 .nav-cta:hover {
