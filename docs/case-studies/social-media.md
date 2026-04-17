@@ -1,14 +1,17 @@
 ---
 layout: page
-title: "Social Media & BD Automation — Two Companies, One Breakthrough"
-description: "From a single prompt to a complete operations model. AI handles volume, humans handle strategy."
+title: "AI Social Media Automation & BD Operations: From One Prompt to Full Operations Model | COCO"
+description: "Two companies automated their social media content creation and BD outreach with COCO AI Agents. From a single prompt to a complete operations model — AI handles volume, humans handle strategy."
 head:
   - - meta
     - property: og:title
-      content: "Social Media & BD Automation — Two Companies, One Breakthrough"
+      content: "AI Social Media Automation & BD Operations: From One Prompt to Full Operations Model | COCO"
   - - meta
     - property: og:description
-      content: "From a single prompt to a complete operations model. AI handles volume, humans handle strategy."
+      content: "Automate social media content and BD outreach with AI Agents. From one prompt to a full operations model — AI handles volume, humans handle strategy."
+  - - meta
+    - property: og:image
+      content: "https://docs.coco.xyz/coco-logo-black.png"
 ---
 
 <style>

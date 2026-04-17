@@ -1,14 +1,17 @@
 ---
 layout: page
-title: "AI Agent for Investment Due Diligence Automation — DD Time Cut from 20 Hours to 2"
-description: "COCO AI Agent automates the full investment due diligence workflow: data room parsing, financial modeling, risk identification, and IC memo generation. Enterprise AI automation transforms analysts from document handlers into true investment decision-makers, tripling quarterly deal throughput."
+title: "AI Due Diligence Automation: 20 Hours to 2 — Data Room to IC Memo | COCO"
+description: "COCO AI Agent automates the full investment due diligence workflow: data room parsing, financial modeling, risk identification, and IC memo generation. Analysts shift from document handling to decision-making, 3x quarterly deal throughput."
 head:
   - - meta
     - property: og:title
-      content: "AI Agent for Investment Due Diligence Automation — DD Time Cut from 20 Hours to 2"
+      content: "AI Due Diligence Automation: 20 Hours to 2 — Data Room to IC Memo | COCO"
   - - meta
     - property: og:description
-      content: "COCO AI Agent enterprise automation for investment due diligence: data room to IC memo, fully automated. Digital employee replaces manual document handling, 3x quarterly deal throughput."
+      content: "AI Agent automates investment due diligence end-to-end: data room to IC memo in 2 hours instead of 20. 3x quarterly deal throughput."
+  - - meta
+    - property: og:image
+      content: "https://docs.coco.xyz/coco-logo-black.png"
 ---
 
 <style>

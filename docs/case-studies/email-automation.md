@@ -1,14 +1,17 @@
 ---
 layout: page
-title: "Customer Service Email Automation — COCO AI Agent Enterprise Email Management"
-description: "COCO AI Agent automates the full customer service email workflow: inbox scan every 10 minutes, AI classification to filter noise, instant alerts for real user emails, auto-drafted replies with mandatory human review. The benchmark for human-AI collaboration in enterprise automation."
+title: "AI Customer Service Email Automation: Scan, Classify, Draft, Review | COCO"
+description: "AI Agent monitors inboxes every 10 minutes, classifies emails, filters noise, sends instant alerts, and drafts replies — with mandatory human review before sending. A real-world human-AI collaboration case study for enterprise email management."
 head:
   - - meta
     - property: og:title
-      content: "Customer Service Email Automation — COCO AI Agent Enterprise Email Management"
+      content: "AI Customer Service Email Automation: Scan, Classify, Draft, Review | COCO"
   - - meta
     - property: og:description
-      content: "COCO AI Agent enterprise automation for customer email management. AI digital employee scans, classifies, alerts, and drafts — humans stay in control of every send decision."
+      content: "AI Agent scans inboxes every 10 minutes, classifies and drafts replies — humans review before sending. Real enterprise email automation case study."
+  - - meta
+    - property: og:image
+      content: "https://docs.coco.xyz/coco-logo-black.png"
 ---
 
 <style>

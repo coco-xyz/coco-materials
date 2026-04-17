@@ -1,14 +1,17 @@
 ---
 layout: page
-title: "Manufacturing AI Adoption — From Pain Points to Solutions"
-description: "A traditional manufacturing company's AI selection journey: four real problems, four practical solutions. No dodging hard questions, just solving problems."
+title: "Manufacturing AI Adoption: 4 Real Problems, 4 Practical Solutions | COCO"
+description: "A traditional manufacturing company's AI selection journey: four real pain points (quality, inventory, cross-department, compliance), four practical AI solutions. No dodging hard questions — real enterprise AI automation for manufacturing."
 head:
   - - meta
     - property: og:title
-      content: "Manufacturing AI Adoption — From Pain Points to Solutions"
+      content: "Manufacturing AI Adoption: 4 Real Problems, 4 Practical Solutions | COCO"
   - - meta
     - property: og:description
-      content: "A traditional manufacturing company's AI selection journey: four real problems, four practical solutions."
+      content: "Manufacturing AI case study: four real pain points, four practical AI solutions. Enterprise AI automation that actually works on the factory floor."
+  - - meta
+    - property: og:image
+      content: "https://docs.coco.xyz/coco-logo-black.png"
 ---
 
 <style>

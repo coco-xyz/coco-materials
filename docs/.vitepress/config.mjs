@@ -103,6 +103,48 @@ export default defineConfig({
     },
   },
 
+  transformHead(context) {
+    const { pageData } = context
+    const head = []
+
+    // Set og:type to "article" for case study pages
+    if (pageData.relativePath.includes('case-studies/') && pageData.relativePath !== 'case-studies/index.md' && pageData.relativePath !== 'zh/case-studies/index.md') {
+      head.push(['meta', { property: 'og:type', content: 'article' }])
+
+      // Build canonical URL
+      const cleanPath = pageData.relativePath.replace(/\.md$/, '').replace(/index$/, '')
+      const canonicalUrl = `https://docs.coco.xyz/${cleanPath}`
+      head.push(['meta', { property: 'og:url', content: canonicalUrl }])
+
+      // JSON-LD Article structured data
+      const jsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: pageData.title || '',
+        description: pageData.description || '',
+        publisher: {
+          '@type': 'Organization',
+          name: 'COCO',
+          url: 'https://coco.xyz',
+          logo: {
+            '@type': 'ImageObject',
+            url: 'https://docs.coco.xyz/coco-logo-black.png',
+          },
+        },
+        mainEntityOfPage: {
+          '@type': 'WebPage',
+          '@id': canonicalUrl,
+        },
+        image: 'https://docs.coco.xyz/coco-logo-black.png',
+        datePublished: '2025-06-01',
+        dateModified: pageData.lastUpdated ? new Date(pageData.lastUpdated).toISOString().split('T')[0] : '2025-06-01',
+      }
+      head.push(['script', { type: 'application/ld+json' }, JSON.stringify(jsonLd)])
+    }
+
+    return head
+  },
+
   transformHtml(code) {
     if (base !== '/') {
       const prefix = base.replace(/\/$/, '')
@@ -121,8 +163,13 @@ export default defineConfig({
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['meta', { name: 'theme-color', content: '#FFD646' }],
+    ['meta', { property: 'og:site_name', content: 'COCO' }],
+    ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'COCO Docs' }],
     ['meta', { property: 'og:description', content: 'AI Teams — Use Cases, Resources & Documentation' }],
+    ['meta', { property: 'og:image', content: 'https://docs.coco.xyz/coco-logo-black.png' }],
+    ['meta', { name: 'twitter:card', content: 'summary' }],
+    ['meta', { name: 'twitter:site', content: '@CocoAIxyz' }],
     ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-GTMD3JHWQN' }],
     ['script', {}, "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-GTMD3JHWQN');"],
   ],

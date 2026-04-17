@@ -1,14 +1,17 @@
 ---
 layout: page
-title: "COCO CRM — AI Agent 企业自动化搭建与运营的 CRM 系统"
-description: "一套由 COCO AI Agent 从零设计、搭建并每天自动运营的 CRM 系统。企业AI自动化的真实案例：数字员工替代人工录入，试用转化率达 33%，每日维护零人工介入。"
+title: "AI Agent 自动搭建 CRM 系统：33% 转化率，0 人工维护 | COCO"
+description: "COCO AI Agent 从零设计、搭建并每天自动运营完整 CRM 系统。数字员工替代人工录入，试用转化率达 33%，每日维护零人工介入。企业 AI 自动化真实落地案例。"
 head:
   - - meta
     - property: og:title
-      content: "COCO CRM — Built by AI, Run by AI"
+      content: "AI Agent 自动搭建 CRM 系统：33% 转化率，0 人工维护 | COCO"
   - - meta
     - property: og:description
-      content: "A complete CRM system designed, built, and operated daily by an AI Agent."
+      content: "AI Agent 从零搭建并运营完整 CRM — 33% 转化率，零人工维护。企业 AI 自动化真实案例。"
+  - - meta
+    - property: og:image
+      content: "https://docs.coco.xyz/coco-logo-black.png"
 ---
 
 <style>

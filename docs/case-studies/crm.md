@@ -1,14 +1,17 @@
 ---
 layout: page
-title: "COCO CRM — AI Agent Enterprise Automation for Customer Relationship Management"
-description: "A complete CRM system designed, built, and operated daily by a COCO AI Agent digital employee. Real enterprise AI automation: replaces manual data entry, achieves 33% trial conversion, zero human maintenance required daily."
+title: "AI Agent Builds and Runs a CRM Automatically: 33% Conversion, Zero Maintenance | COCO"
+description: "How COCO's AI Agent designed, built, and operates a full CRM system end-to-end. No manual data entry, 33% trial-to-paid conversion, zero daily human maintenance. A real-world enterprise AI automation case study."
 head:
   - - meta
     - property: og:title
-      content: "COCO CRM — AI Agent Enterprise Automation for Customer Relationship Management"
+      content: "AI Agent Builds and Runs a CRM Automatically: 33% Conversion, Zero Maintenance | COCO"
   - - meta
     - property: og:description
-      content: "A complete CRM system designed, built, and operated daily by a COCO AI Agent digital employee. Real enterprise AI automation: replaces manual data entry, 33% trial conversion, zero daily maintenance."
+      content: "AI Agent designs, builds, and operates a full CRM — 33% conversion, zero daily maintenance. Real enterprise AI automation case study."
+  - - meta
+    - property: og:image
+      content: "https://docs.coco.xyz/coco-logo-black.png"
 ---
 
 <style>

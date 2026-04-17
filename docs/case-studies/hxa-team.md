@@ -1,14 +1,17 @@
 ---
 layout: page
-title: "HxA AI Team — 7 Parallel AI Agents for Enterprise Team Automation"
-description: "HxA built a 7-agent AI team with COCO: Coordinator, Frontend, Backend, DevOps, UI/UX, and Copywriter AI Agents working in parallel. A 3-4 person team delivers 10x output. Enterprise AI automation that goes from idea to a live website in 20 minutes."
+title: "7 AI Agents in Parallel: How a 3-Person Team Gets 10x Output | COCO"
+description: "HxA built a 7-agent AI team with COCO — Coordinator, Frontend, Backend, DevOps, UI/UX, and Copywriter Agents working in parallel. A 3-4 person team delivers 10x output, from idea to live website in 20 minutes. Multi-agent enterprise AI automation case study."
 head:
   - - meta
     - property: og:title
-      content: "HxA AI Team — 7 Parallel AI Agents for Enterprise Team Automation"
+      content: "7 AI Agents in Parallel: How a 3-Person Team Gets 10x Output | COCO"
   - - meta
     - property: og:description
-      content: "COCO AI Agent enterprise automation: 7 specialized AI Agents running in parallel as a digital employee team. 3-4 person team achieves 10x output, website live in 20 minutes."
+      content: "7 specialized AI Agents run in parallel — from idea to live website in 20 minutes. Multi-agent enterprise automation case study."
+  - - meta
+    - property: og:image
+      content: "https://docs.coco.xyz/coco-logo-black.png"
 ---
 
 <style>

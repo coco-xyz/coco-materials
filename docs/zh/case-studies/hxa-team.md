@@ -1,14 +1,17 @@
 ---
 layout: page
-title: "HxA AI 团队案例研究：7 个并行 Agent 如何实现企业AI自动化与 10 倍交付效率"
-description: "HxA 用 COCO 搭建 7 个并行 AI Agent，覆盖协调、前端、后端、DevOps、UI/UX 与文案，让 3-4 人团队获得 10 倍交付杠杆，20 分钟从想法到上线。"
+title: "7 个 AI Agent 并行协作：3 人团队如何实现 10 倍交付效率 | COCO"
+description: "HxA 用 COCO 搭建 7 个并行 AI Agent — 协调、前端、后端、DevOps、UI/UX 与文案全覆盖。3-4 人团队获得 10 倍交付杠杆，20 分钟从想法到上线。多 Agent 企业 AI 自动化案例。"
 head:
   - - meta
     - property: og:title
-      content: "HxA AI 团队案例研究：7 个并行 Agent 如何实现企业AI自动化与 10 倍交付效率"
+      content: "7 个 AI Agent 并行协作：3 人团队如何实现 10 倍交付效率 | COCO"
   - - meta
     - property: og:description
-      content: "HxA 用 COCO 搭建可管理的多 Agent AI 团队，把企业AI自动化从单点提效升级为团队级协作执行。"
+      content: "7 个 AI Agent 并行运行 — 从想法到上线仅需 20 分钟。多 Agent 企业 AI 自动化案例。"
+  - - meta
+    - property: og:image
+      content: "https://docs.coco.xyz/coco-logo-black.png"
 ---
 
 <style>

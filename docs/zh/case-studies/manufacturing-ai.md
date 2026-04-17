@@ -1,14 +1,17 @@
 ---
 layout: page
-title: "制造业 AI 落地实录 — 从痛点到方案"
-description: "一家传统制造企业的 AI 选型之路：四个真实问题，四套落地方案。不回避难题，只解决问题。制造业企业 AI 自动化的完整选型记录。"
+title: "制造业 AI 落地：4 个真实痛点，4 套实战方案 | COCO"
+description: "传统制造企业 AI 选型实录：质量检测、库存管理、跨部门协同、合规审查四大痛点，四套 AI 落地方案。不回避难题，只解决问题。制造业企业 AI 自动化完整案例。"
 head:
   - - meta
     - property: og:title
-      content: "制造业 AI 落地实录 — 从痛点到方案"
+      content: "制造业 AI 落地：4 个真实痛点，4 套实战方案 | COCO"
   - - meta
     - property: og:description
-      content: "一家传统制造企业的 AI 选型之路：四个真实问题，四套落地方案。不回避难题，只解决问题。"
+      content: "制造业 AI 案例：四大痛点，四套实战方案。企业 AI 自动化在工厂的真正落地。"
+  - - meta
+    - property: og:image
+      content: "https://docs.coco.xyz/coco-logo-black.png"
 ---
 
 <style>

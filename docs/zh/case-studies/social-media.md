@@ -1,14 +1,17 @@
 ---
 layout: page
-title: "社媒与 BD 自动化 — 两家公司，同一个突破"
-description: "从一条 prompt 到完整运营模型。AI 扛产量，人管策略。"
+title: "AI 社媒自动化与 BD 运营：从一条 prompt 到完整运营模型 | COCO"
+description: "两家公司用 COCO AI Agent 实现社交媒体内容创作与 BD 外联自动化。从一条 prompt 到完整运营模型 — AI 扛产量，人管策略。社媒自动化真实落地案例。"
 head:
   - - meta
     - property: og:title
-      content: "Social Media & BD Automation — Two Companies, One Breakthrough"
+      content: "AI 社媒自动化与 BD 运营：从一条 prompt 到完整运营模型 | COCO"
   - - meta
     - property: og:description
-      content: "From a single prompt to a complete operations model. AI handles volume, humans handle strategy."
+      content: "AI Agent 自动化社媒内容创作与 BD 外联。从一条 prompt 到完整运营模型 — AI 扛产量，人管策略。"
+  - - meta
+    - property: og:image
+      content: "https://docs.coco.xyz/coco-logo-black.png"
 ---
 
 <style>
