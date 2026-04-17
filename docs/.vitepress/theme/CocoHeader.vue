@@ -322,7 +322,7 @@ onUnmounted(() => {
   padding: 6px 18px;
   border-radius: 999px;
   background: var(--vp-c-brand-1);
-  color: var(--vp-c-bg);
+  color: #1a1a2e;
   font-size: 13px;
   font-weight: 600;
   text-decoration: none;
@@ -342,7 +342,7 @@ onUnmounted(() => {
   margin-top: 8px;
   border-radius: 999px;
   background: var(--vp-c-brand-1);
-  color: var(--vp-c-bg);
+  color: #1a1a2e;
   font-size: 15px;
   font-weight: 600;
   text-decoration: none;

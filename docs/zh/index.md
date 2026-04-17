@@ -242,7 +242,7 @@ COCO 在你团队已有的工具中工作。无需切换。
   height: 40px;
   border-radius: 50%;
   background: var(--vp-c-brand-1);
-  color: var(--vp-c-bg);
+  color: #1a1a2e;
   font-weight: 800;
   font-size: 18px;
   margin-bottom: 16px;
@@ -356,7 +356,7 @@ COCO 在你团队已有的工具中工作。无需切换。
   padding: 12px 32px;
   border-radius: 999px;
   background: var(--vp-c-brand-1);
-  color: var(--vp-c-bg);
+  color: #1a1a2e;
   font-weight: 600;
   font-size: 16px;
   text-decoration: none;
