@@ -136,11 +136,11 @@ export default defineConfig({
       themeConfig: {
         outline: { level: [2, 3] },
         nav: [
+          { text: 'Get Started', link: '/getting-started/' },
           { text: 'Use Cases', link: '/use-cases/' },
           { text: 'Case Studies', link: '/case-studies/' },
           { text: 'Channels', link: '/channels/' },
           { text: 'Pricing', link: 'https://coco.xyz/#pricing' },
-          { text: 'Get Started', link: '/getting-started/' },
         ],
         sidebar: {
           '/channels/': [
@@ -282,11 +282,11 @@ export default defineConfig({
       description: 'AI数字员工 — 用例、资源与文档',
       themeConfig: {
         nav: [
+          { text: '开始使用', link: '/zh/getting-started/' },
           { text: '用例', link: '/zh/use-cases/' },
           { text: '案例', link: '/zh/case-studies/' },
-          { text: '渠道', link: '/zh/channels/' },
+          { text: '通讯渠道', link: '/zh/channels/' },
           { text: '定价', link: 'https://coco.xyz/#pricing' },
-          { text: '开始使用', link: '/zh/getting-started/' },
         ],
         sidebar: {
           '/zh/channels/': [
