@@ -351,7 +351,8 @@ Start free. No credit card required. Your first AI employee is 2 minutes away.
   margin-top: 24px;
   flex-wrap: wrap;
 }
-.cta-primary {
+.cta-primary,
+.vp-doc .cta-primary {
   display: inline-block;
   padding: 12px 32px;
   border-radius: 999px;
@@ -362,8 +363,10 @@ Start free. No credit card required. Your first AI employee is 2 minutes away.
   text-decoration: none;
   transition: background 0.2s;
 }
-.cta-primary:hover {
+.cta-primary:hover,
+.vp-doc .cta-primary:hover {
   background: var(--vp-c-brand-2);
+  color: #1a1a2e;
 }
 .cta-secondary {
   display: inline-block;
