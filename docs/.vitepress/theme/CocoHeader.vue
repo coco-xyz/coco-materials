@@ -33,8 +33,11 @@ function toggleDark() {
 }
 
 function toggleLang() {
-  const routePath = route.path
-  // Preserve hash and query from current URL
+  // route.path in browser includes base prefix — strip it first
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '')
+  const routePath = base && route.path.startsWith(base)
+    ? route.path.slice(base.length) || '/'
+    : route.path
   const { search, hash } = window.location
   let newPath
   if (lang.value === 'zh-CN') {
