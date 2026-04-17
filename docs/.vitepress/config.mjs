@@ -151,6 +151,9 @@ export default defineConfig({
                 { text: 'Telegram', link: '/channels/telegram' },
                 { text: 'Lark / Feishu', link: '/channels/lark' },
                 { text: 'WhatsApp', link: '/channels/whatsapp' },
+                { text: 'WeCom', link: '/getting-started/channel-deployment#option-c-wecom-企业微信-deployment' },
+                { text: 'DingTalk', link: '/getting-started/channel-deployment#option-d-dingtalk-钉钉-deployment' },
+                { text: 'Slack', link: '/getting-started/channel-deployment#slack' },
                 { text: 'Web Console', link: '/channels/web-console' },
               ]
             },
@@ -292,6 +295,9 @@ export default defineConfig({
                 { text: 'Telegram', link: '/zh/channels/telegram' },
                 { text: 'Lark / 飞书', link: '/zh/channels/lark' },
                 { text: 'WhatsApp', link: '/zh/channels/whatsapp' },
+                { text: '企业微信', link: '/zh/getting-started/channel-deployment#option-c-wecom-企业微信-deployment' },
+                { text: '钉钉', link: '/zh/getting-started/channel-deployment#option-d-dingtalk-钉钉-deployment' },
+                { text: 'Slack', link: '/zh/getting-started/channel-deployment#slack' },
                 { text: 'Web 控制台', link: '/zh/channels/web-console' },
               ]
             },

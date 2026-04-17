@@ -9,6 +9,9 @@
 | [Telegram](./telegram) | 国际用户、个人及团队使用 | ✅ 可用 |
 | [Lark / 飞书](./lark) | 企业团队、文档协作 | ✅ 可用 |
 | [WhatsApp](./whatsapp) | 国际业务、面向客户的场景 | ✅ 可用 |
+| [企业微信](../getting-started/channel-deployment#option-c-wecom-企业微信-deployment) | 国内企业团队 | ✅ 可用 |
+| [钉钉](../getting-started/channel-deployment#option-d-dingtalk-钉钉-deployment) | 国内企业团队 | ✅ 可用 |
+| [Slack](../getting-started/channel-deployment#slack) | 国际团队、开发者工作流 | ✅ 可用 |
 | [Web 控制台](./web-console) | 浏览器访问、快速测试 | ✅ 可用 |
 
 ## 通用技巧
