@@ -2,25 +2,28 @@
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useData, useRoute, withBase } from 'vitepress'
 
-const { isDark, lang } = useData()
+const { isDark, lang, theme } = useData()
 const route = useRoute()
 
 const mobileMenuOpen = ref(false)
 const scrolled = ref(false)
 
+// Read nav from VitePress config (single source of truth)
 const navItems = computed(() => {
-  const isZh = lang.value === 'zh-CN'
-  return [
-    { text: isZh ? '用例' : 'Use Cases', link: isZh ? '/zh/use-cases/' : '/use-cases/' },
-    { text: isZh ? '案例' : 'Case Studies', link: isZh ? '/zh/case-studies/' : '/case-studies/' },
-    { text: isZh ? '渠道' : 'Channels', link: isZh ? '/zh/channels/' : '/channels/' },
-    { text: isZh ? '定价' : 'Pricing', link: 'https://coco.xyz/#pricing', external: true },
-  ]
+  const configNav = theme.value.nav || []
+  return configNav
+    .filter(item => item.link && item.text !== 'Get Started' && item.text !== '开始使用')
+    .map(item => ({
+      text: item.text,
+      link: item.link,
+      external: typeof item.link === 'string' && item.link.startsWith('http'),
+    }))
 })
 
 const ctaItem = computed(() => {
-  const isZh = lang.value === 'zh-CN'
-  return { text: isZh ? '开始使用' : 'Get Started', link: isZh ? '/zh/getting-started/' : '/getting-started/' }
+  const configNav = theme.value.nav || []
+  const cta = configNav.find(item => item.text === 'Get Started' || item.text === '开始使用')
+  return cta || { text: lang.value === 'zh-CN' ? '开始使用' : 'Get Started', link: lang.value === 'zh-CN' ? '/zh/getting-started/' : '/getting-started/' }
 })
 
 const currentLang = computed(() => lang.value === 'zh-CN' ? '中文' : 'EN')
@@ -316,7 +319,7 @@ onUnmounted(() => {
   padding: 6px 18px;
   border-radius: 999px;
   background: var(--vp-c-brand-1);
-  color: #1a1a1a;
+  color: var(--vp-c-bg);
   font-size: 13px;
   font-weight: 600;
   text-decoration: none;
@@ -336,7 +339,7 @@ onUnmounted(() => {
   margin-top: 8px;
   border-radius: 999px;
   background: var(--vp-c-brand-1);
-  color: #1a1a1a;
+  color: var(--vp-c-bg);
   font-size: 15px;
   font-weight: 600;
   text-decoration: none;

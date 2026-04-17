@@ -27,7 +27,6 @@ head:
   position: sticky;
   top: 64px;
   z-index: 5;
-  overflow: hidden;
   padding: 100px 24px 72px;
   text-align: center;
   background: url('/reef-banner.png') center/cover no-repeat;

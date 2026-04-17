@@ -70,11 +70,7 @@ export default defineConfig({
     '**/social-media/channels.md',
   ],
 
-  vite: {
-    server: {
-      allowedHosts: ['zylos100.jinglever.com']
-    },
-  },
+  vite: {},
 
   vue: {
     template: {
