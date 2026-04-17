@@ -98,25 +98,25 @@ features:
 
 <div class="cases-grid">
 
-<a href="/zh/case-studies/crm" class="case-card">
+<a href="./case-studies/crm" class="case-card">
 <div class="case-tag">CRM</div>
 <div class="case-title">COCO CRM — AI 搭建，AI 运营</div>
 <div class="case-result">完整 CRM 系统由 AI 员工搭建和维护。自动同步通话、邮件和会议记录。数据完整度：61% → 94%。</div>
 </a>
 
-<a href="/zh/case-studies/deal-flow-dd" class="case-card">
+<a href="./case-studies/deal-flow-dd" class="case-card">
 <div class="case-tag">金融</div>
 <div class="case-title">AI 投资尽调 — 20 小时压缩到 2 小时</div>
 <div class="case-result">一个团队需要 20 小时完成的投资尽调，一个人 + COCO 只用 2 小时。</div>
 </a>
 
-<a href="/zh/case-studies/social-media" class="case-card">
+<a href="./case-studies/social-media" class="case-card">
 <div class="case-tag">营销</div>
 <div class="case-title">社媒与 BD 自动化</div>
 <div class="case-result">内容产出量提升 2.8 倍。运营从内容生产中解放，转而聚焦策略。</div>
 </a>
 
-<a href="/zh/case-studies/manufacturing-ai" class="case-card">
+<a href="./case-studies/manufacturing-ai" class="case-card">
 <div class="case-tag">制造业</div>
 <div class="case-title">制造业 AI 落地实录</div>
 <div class="case-result">传统制造企业从 ERP 到 AI 的转型之路 — OCR 识别、浏览器自动化、OTP 转发、数据安全。</div>
@@ -135,19 +135,19 @@ features:
 COCO 在你团队已有的工具中工作。无需切换。
 
 <div class="channels-grid">
-<a href="/zh/channels/telegram" class="channel-card">
+<a href="./channels/telegram" class="channel-card">
 <div class="channel-icon">✈️</div>
 <div class="channel-name">Telegram</div>
 </a>
-<a href="/zh/channels/lark" class="channel-card">
+<a href="./channels/lark" class="channel-card">
 <div class="channel-icon">🐦</div>
 <div class="channel-name">飞书 / Lark</div>
 </a>
-<a href="/zh/channels/whatsapp" class="channel-card">
+<a href="./channels/whatsapp" class="channel-card">
 <div class="channel-icon">💬</div>
 <div class="channel-name">WhatsApp</div>
 </a>
-<a href="/zh/channels/web-console" class="channel-card">
+<a href="./channels/web-console" class="channel-card">
 <div class="channel-icon">🌐</div>
 <div class="channel-name">Web 控制台</div>
 </a>
@@ -162,7 +162,7 @@ COCO 在你团队已有的工具中工作。无需切换。
 免费开始，无需信用卡。2 分钟内拥有你的第一位 AI 员工。
 
 <div class="cta-buttons">
-<a href="/zh/getting-started/" class="cta-primary">免费开始</a>
+<a href="./getting-started/" class="cta-primary">免费开始</a>
 <a href="https://coco.xyz" class="cta-secondary" target="_blank">了解更多</a>
 </div>
 
@@ -242,7 +242,7 @@ COCO 在你团队已有的工具中工作。无需切换。
   height: 40px;
   border-radius: 50%;
   background: var(--vp-c-brand-1);
-  color: #1a1a1a;
+  color: var(--vp-c-bg);
   font-weight: 800;
   font-size: 18px;
   margin-bottom: 16px;
@@ -356,7 +356,7 @@ COCO 在你团队已有的工具中工作。无需切换。
   padding: 12px 32px;
   border-radius: 999px;
   background: var(--vp-c-brand-1);
-  color: #1a1a1a;
+  color: var(--vp-c-bg);
   font-weight: 600;
   font-size: 16px;
   text-decoration: none;

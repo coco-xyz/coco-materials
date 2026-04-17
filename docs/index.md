@@ -98,25 +98,25 @@ Real numbers from real teams — not benchmarks, not demos.
 
 <div class="cases-grid">
 
-<a href="/case-studies/crm" class="case-card">
+<a href="./case-studies/crm" class="case-card">
 <div class="case-tag">CRM</div>
 <div class="case-title">COCO CRM — Built by AI, Run by AI</div>
 <div class="case-result">Full CRM system built and maintained by AI employees. Auto-syncs calls, emails, and meetings. Data completeness: 61% → 94%.</div>
 </a>
 
-<a href="/case-studies/deal-flow-dd" class="case-card">
+<a href="./case-studies/deal-flow-dd" class="case-card">
 <div class="case-tag">Finance</div>
 <div class="case-title">AI Due Diligence — 20 Hours to 2</div>
 <div class="case-result">Investment due diligence that took a team 20 hours, completed in 2 hours by one person + COCO.</div>
 </a>
 
-<a href="/case-studies/social-media" class="case-card">
+<a href="./case-studies/social-media" class="case-card">
 <div class="case-tag">Marketing</div>
 <div class="case-title">Social Media & BD Automation</div>
 <div class="case-result">Content output increased 2.8x. Operations staff freed from production to focus on strategy.</div>
 </a>
 
-<a href="/case-studies/manufacturing-ai" class="case-card">
+<a href="./case-studies/manufacturing-ai" class="case-card">
 <div class="case-tag">Manufacturing</div>
 <div class="case-title">Manufacturing AI Adoption</div>
 <div class="case-result">Traditional manufacturer's journey from ERP to AI — OCR, browser automation, OTP forwarding, data security.</div>
@@ -135,19 +135,19 @@ Real numbers from real teams — not benchmarks, not demos.
 COCO works in the tools your team already uses. No context switching.
 
 <div class="channels-grid">
-<a href="/channels/telegram" class="channel-card">
+<a href="./channels/telegram" class="channel-card">
 <div class="channel-icon">✈️</div>
 <div class="channel-name">Telegram</div>
 </a>
-<a href="/channels/lark" class="channel-card">
+<a href="./channels/lark" class="channel-card">
 <div class="channel-icon">🐦</div>
 <div class="channel-name">Lark / Feishu</div>
 </a>
-<a href="/channels/whatsapp" class="channel-card">
+<a href="./channels/whatsapp" class="channel-card">
 <div class="channel-icon">💬</div>
 <div class="channel-name">WhatsApp</div>
 </a>
-<a href="/channels/web-console" class="channel-card">
+<a href="./channels/web-console" class="channel-card">
 <div class="channel-icon">🌐</div>
 <div class="channel-name">Web Console</div>
 </a>
@@ -162,7 +162,7 @@ COCO works in the tools your team already uses. No context switching.
 Start free. No credit card required. Your first AI employee is 2 minutes away.
 
 <div class="cta-buttons">
-<a href="/getting-started/" class="cta-primary">Get Started Free</a>
+<a href="./getting-started/" class="cta-primary">Get Started Free</a>
 <a href="https://coco.xyz" class="cta-secondary" target="_blank">Learn More at coco.xyz</a>
 </div>
 
@@ -242,7 +242,7 @@ Start free. No credit card required. Your first AI employee is 2 minutes away.
   height: 40px;
   border-radius: 50%;
   background: var(--vp-c-brand-1);
-  color: #1a1a1a;
+  color: var(--vp-c-bg);
   font-weight: 800;
   font-size: 18px;
   margin-bottom: 16px;
@@ -356,7 +356,7 @@ Start free. No credit card required. Your first AI employee is 2 minutes away.
   padding: 12px 32px;
   border-radius: 999px;
   background: var(--vp-c-brand-1);
-  color: #1a1a1a;
+  color: var(--vp-c-bg);
   font-weight: 600;
   font-size: 16px;
   text-decoration: none;

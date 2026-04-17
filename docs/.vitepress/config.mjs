@@ -72,7 +72,7 @@ export default defineConfig({
 
   vite: {
     server: {
-      allowedHosts: ['zylos100.jinglever.com', 'jessie.coco.site']
+      allowedHosts: ['zylos100.jinglever.com']
     },
   },
 
