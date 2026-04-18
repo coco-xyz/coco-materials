@@ -110,25 +110,64 @@ export default defineConfig({
     const isCaseStudy = pageData.relativePath.includes('case-studies/') &&
       pageData.relativePath !== 'case-studies/index.md' &&
       pageData.relativePath !== 'zh/case-studies/index.md'
+    const cleanPath = pageData.relativePath.replace(/\.md$/, '').replace(/index$/, '')
+
+    // P1-3: Canonical URL for every page
+    const canonicalUrl = `https://docs.coco.xyz/${cleanPath}`
+    head.push(['link', { rel: 'canonical', href: canonicalUrl }])
+
+    // P1-4: hreflang alternate links for bilingual pages
+    const enPath = isZh ? cleanPath.replace(/^zh\//, '') : cleanPath
+    const zhPath = isZh ? cleanPath : `zh/${cleanPath}`
+    head.push(['link', { rel: 'alternate', hreflang: 'en', href: `https://docs.coco.xyz/${enPath}` }])
+    head.push(['link', { rel: 'alternate', hreflang: 'zh', href: `https://docs.coco.xyz/${zhPath}` }])
+    head.push(['link', { rel: 'alternate', hreflang: 'x-default', href: `https://docs.coco.xyz/${enPath}` }])
 
     // P0-1: Override OG tags for Chinese pages (global head sets English defaults)
+    // P1-5: og:locale (already included)
     if (isZh) {
       const zhTitle = pageData.title || 'COCO — AI 数字员工平台'
       const zhDesc = pageData.description || 'AI 数字员工平台 — 用例、案例与文档'
       head.push(['meta', { property: 'og:title', content: zhTitle }])
       head.push(['meta', { property: 'og:description', content: zhDesc }])
       head.push(['meta', { property: 'og:locale', content: 'zh_CN' }])
+      head.push(['meta', { property: 'og:locale:alternate', content: 'en_US' }])
     } else {
       head.push(['meta', { property: 'og:locale', content: 'en_US' }])
+      head.push(['meta', { property: 'og:locale:alternate', content: 'zh_CN' }])
+    }
+
+    // og:url for all pages
+    head.push(['meta', { property: 'og:url', content: canonicalUrl }])
+
+    // P1-7: Homepage Organization + WebSite JSON-LD
+    const isHomepage = pageData.relativePath === 'index.md' || pageData.relativePath === 'zh/index.md'
+    if (isHomepage) {
+      const orgJsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: 'COCO',
+        url: 'https://coco.xyz',
+        logo: 'https://docs.coco.xyz/coco-logo-black.png',
+        sameAs: [
+          'https://x.com/CocoAIxyz',
+          'https://github.com/coco-xyz',
+        ],
+      }
+      const siteJsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: isZh ? 'COCO — AI 数字员工平台' : 'COCO — AI Digital Employee Platform',
+        url: 'https://docs.coco.xyz',
+        inLanguage: isZh ? 'zh-CN' : 'en-US',
+      }
+      head.push(['script', { type: 'application/ld+json' }, JSON.stringify(orgJsonLd)])
+      head.push(['script', { type: 'application/ld+json' }, JSON.stringify(siteJsonLd)])
     }
 
     // Case study pages: article type + JSON-LD
     if (isCaseStudy) {
       head.push(['meta', { property: 'og:type', content: 'article' }])
-
-      const cleanPath = pageData.relativePath.replace(/\.md$/, '').replace(/index$/, '')
-      const canonicalUrl = `https://docs.coco.xyz/${cleanPath}`
-      head.push(['meta', { property: 'og:url', content: canonicalUrl }])
 
       const jsonLd = {
         '@context': 'https://schema.org',
