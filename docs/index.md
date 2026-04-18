@@ -9,7 +9,7 @@ hero:
     alt: COCO AI
   actions:
     - theme: brand
-      text: Get Started Free
+      text: Get Started
       link: /getting-started/
     - theme: alt
       text: See What COCO Can Do
@@ -171,10 +171,10 @@ COCO works in the tools your team already uses. No context switching.
 
 ## Ready to Hire Your AI Team?
 
-Start free. No credit card required. Your first AI employee is 2 minutes away.
+Your first AI employee is 2 minutes away.
 
 <div class="cta-buttons">
-<a href="./getting-started/" class="cta-primary">Get Started Free</a>
+<a href="./getting-started/" class="cta-primary">Get Started</a>
 <a href="https://coco.xyz" class="cta-secondary" target="_blank">Learn More at coco.xyz</a>
 </div>
 

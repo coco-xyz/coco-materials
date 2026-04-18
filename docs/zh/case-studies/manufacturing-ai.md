@@ -923,51 +923,6 @@ head:
 <div class="case-body">
 <div class="case-section">
 
-<div class="project-overview">
-  <div class="po-field">
-    <span class="po-icon">🏭</span>
-    <div class="po-content">
-      <span class="po-label">行业</span>
-      <span class="po-value">传统制造业（造纸）</span>
-    </div>
-  </div>
-  <div class="po-field">
-    <span class="po-icon">🏢</span>
-    <div class="po-content">
-      <span class="po-label">企业规模</span>
-      <span class="po-value">大型集团，多部门协同</span>
-    </div>
-  </div>
-  <div class="po-field">
-    <span class="po-icon">🖥️</span>
-    <div class="po-content">
-      <span class="po-label">现有系统</span>
-      <span class="po-value">用友 ERP（传统版本）</span>
-    </div>
-  </div>
-  <div class="po-field">
-    <span class="po-icon">📋</span>
-    <div class="po-content">
-      <span class="po-label">评估阶段</span>
-      <span class="po-value">选型测试期（2026 Q2）</span>
-    </div>
-  </div>
-  <div class="po-field">
-    <span class="po-icon">🎯</span>
-    <div class="po-content">
-      <span class="po-label">核心诉求</span>
-      <span class="po-value">从 10% 替代到绝大部分办公工作自动化</span>
-    </div>
-  </div>
-  <div class="po-field">
-    <span class="po-icon">🤝</span>
-    <div class="po-content">
-      <span class="po-label">合作模式</span>
-      <span class="po-value">3 个月选型 → 首批部门部署 → 全面推广</span>
-    </div>
-  </div>
-</div>
-
 ## 背景：<em>第一个吃螃蟹的人</em>
 
 这是一家传统造纸行业的大型制造集团，内部使用用友老版 ERP 系统管理核心业务流程。老板的目标非常清晰——不满足于 AI 仅仅替代 10% 的重复性工作，而是要替代绝大部分办公室员工的日常工作。
@@ -1032,72 +987,6 @@ head:
 
 </div>
 
-<div class="case-section">
-
-## 为什么这个案例 <em>重要</em>
-
-这不是一个展示成功的案例。这是一段真实选型对话的完整记录。
-
-每个问题都是制造业企业在 AI 落地过程中必然遇到的共性挑战：OCR 精度、浏览器自动化的局限、验证码流程的断点、数据安全的信任门槛。这些问题不会因为回避而消失，只会因为正面解决而被克服。
-
-COCO 的回应方式是：不回避技术局限，给出务实方案，承诺产品迭代路线。对于做不到的事情不打包票，对于能做到的事情给出明确路径。
-
-更值得关注的是潜在的行业标杆效应——造纸行业有互相分享经验的传统，客户的同行都在关注这次尝试的结果。一旦验证成功，这不是一家公司的故事，而是整个行业 AI 落地的起点。
-
-<div class="results-grid">
-  <div class="result-card">
-    <div class="result-number">4</div>
-    <div class="result-desc">个真实问题<br/><small>来自实际操作场景</small></div>
-  </div>
-  <div class="result-card">
-    <div class="result-number">4</div>
-    <div class="result-desc">套落地方案<br/><small>务实可执行</small></div>
-  </div>
-  <div class="result-card">
-    <div class="result-number">3 个月</div>
-    <div class="result-desc">选型周期<br/><small>首批部门 → 全面推广</small></div>
-  </div>
-</div>
-
-</div>
-
-<div class="case-section">
-
-## COCO 的 <em>差异化竞争力</em>
-
-在选型会上，COCO 团队总结了四个核心竞争力：
-
-<div class="pipeline-grid">
-  <div class="pipeline-card">
-    <div class="card-icon">🧠</div>
-    <div class="time-badge">竞争力 1</div>
-    <h3>自有 AI 操作系统，非套壳</h3>
-    <p>COCO 拥有自研的 AI 操作系统，不依赖单一模型提供商。别人的模型下线不影响 COCO 运行——系统层面的抗风险能力。</p>
-  </div>
-  <div class="pipeline-card">
-    <div class="card-icon">🌏</div>
-    <div class="time-badge">竞争力 2</div>
-    <h3>新加坡企业，全球最优模型</h3>
-    <p>作为新加坡企业，COCO 可以选择全球最优的 AI 模型，不受单一地域限制。无论 Claude、GPT 还是其他新兴模型，始终为客户接入最佳选择。</p>
-  </div>
-  <div class="pipeline-card">
-    <div class="card-icon">🚀</div>
-    <div class="time-badge">竞争力 3</div>
-    <h3>企业协作套件持续领先</h3>
-    <p>下一版本的企业协作体验将领先业界 1-2 个月。COCO 不只是 AI 工具，更是一套为企业协作而生的完整系统。</p>
-  </div>
-</div>
-
-<div class="pipeline-grid">
-  <div class="pipeline-card">
-    <div class="card-icon">📊</div>
-    <div class="time-badge">竞争力 4</div>
-    <h3>垂直行业案例持续积累</h3>
-    <p>COCO 持续在各行业积累落地案例。参考案例：Width（KYC SaaS 公司）的非技术 CEO 用 3-4 天重建了 CRM + Zendesk + DocuSign 一体化系统——证明非技术人员也能用 COCO 完成复杂系统搭建。</p>
-  </div>
-</div>
-
-</div>
 
 <div class="case-section">
 
@@ -1119,13 +1008,6 @@ COCO 提供三层安全保障：ISO/SOC2 认证 + 全程加密传输、Agent 信
 
 当前版本中，Skill 的持久化需要通过可视化存储（Git/飞书）来管理。下一版 Workspace 产品将把这些最佳实践产品化——用户可以直接看到 Agent 拥有哪些 Skill、何时调用、如何管理，彻底解决"教了就忘"的问题。
 
-### Q: 从测试到全面部署需要多长时间？
-
-建议采用分阶段推进策略：3 个月选型测试期（验证核心场景）→ 首批部门试点（选择 1-2 个最适合自动化的部门）→ 逐步推广至全公司。这种方式风险最低，每个阶段都有明确的验证指标。
-
-### Q: COCO 与国内 AI 产品（如 Kimi、扣子）相比有什么优势？
-
-核心差异有三点：第一，COCO 拥有自研 AI 操作系统而非套壳，不依赖单一模型提供商，抗风险能力更强；第二，作为新加坡企业可选用全球最优模型，不受地域限制；第三，COCO 专注企业协作深度——不只是对话式 AI，更是一套能设计、搭建、运营完整业务系统的企业级解决方案。
 
 </div>
 

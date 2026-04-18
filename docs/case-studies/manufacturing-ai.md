@@ -923,51 +923,6 @@ head:
 <div class="case-body">
 <div class="case-section">
 
-<div class="project-overview">
-  <div class="po-field">
-    <span class="po-icon">🏭</span>
-    <div class="po-content">
-      <span class="po-label">Industry</span>
-      <span class="po-value">Traditional Manufacturing (Paper)</span>
-    </div>
-  </div>
-  <div class="po-field">
-    <span class="po-icon">🏢</span>
-    <div class="po-content">
-      <span class="po-label">Company Size</span>
-      <span class="po-value">Large group, multi-department</span>
-    </div>
-  </div>
-  <div class="po-field">
-    <span class="po-icon">🖥️</span>
-    <div class="po-content">
-      <span class="po-label">Existing Systems</span>
-      <span class="po-value">Yonyou ERP (legacy version)</span>
-    </div>
-  </div>
-  <div class="po-field">
-    <span class="po-icon">📋</span>
-    <div class="po-content">
-      <span class="po-label">Evaluation Stage</span>
-      <span class="po-value">Selection & testing (2026 Q2)</span>
-    </div>
-  </div>
-  <div class="po-field">
-    <span class="po-icon">🎯</span>
-    <div class="po-content">
-      <span class="po-label">Core Objective</span>
-      <span class="po-value">From 10% automation to full office workflow coverage</span>
-    </div>
-  </div>
-  <div class="po-field">
-    <span class="po-icon">🤝</span>
-    <div class="po-content">
-      <span class="po-label">Engagement Model</span>
-      <span class="po-value">3-month evaluation → pilot departments → full rollout</span>
-    </div>
-  </div>
-</div>
-
 ## Background: <em>First Mover in the Industry</em>
 
 This is a large paper manufacturing conglomerate running a legacy Yonyou ERP system for their core business processes. The CEO's vision was crystal clear -- not satisfied with AI replacing just 10% of repetitive work, the goal was to automate the vast majority of daily office operations.
@@ -1032,72 +987,6 @@ This is a real and widespread issue. The current solution involves visual storag
 
 </div>
 
-<div class="case-section">
-
-## Why This Case Study <em>Matters</em>
-
-This is not a success showcase. It is a complete record of a real vendor selection conversation.
-
-Every problem documented here is a universal challenge that manufacturing enterprises will inevitably face during AI adoption: OCR accuracy, browser automation limitations, authentication workflow gaps, and data security trust thresholds. These problems don't disappear by being avoided -- they are overcome only by being confronted directly.
-
-COCO's approach: don't dodge technical limitations, provide pragmatic solutions, and commit to product iteration timelines. No empty promises about what can't be done yet; clear pathways for what can be achieved.
-
-What makes this particularly noteworthy is the potential industry benchmark effect -- the paper manufacturing sector has a tradition of sharing experiences among peers. The customer's industry contacts are closely watching this experiment. If validated, this isn't just one company's story -- it becomes the starting point for AI adoption across the entire industry.
-
-<div class="results-grid">
-  <div class="result-card">
-    <div class="result-number">4</div>
-    <div class="result-desc">Real Problems<br/><small>From actual operations</small></div>
-  </div>
-  <div class="result-card">
-    <div class="result-number">4</div>
-    <div class="result-desc">Practical Solutions<br/><small>Actionable & pragmatic</small></div>
-  </div>
-  <div class="result-card">
-    <div class="result-number">3 mo</div>
-    <div class="result-desc">Evaluation Period<br/><small>Pilot → full rollout</small></div>
-  </div>
-</div>
-
-</div>
-
-<div class="case-section">
-
-## COCO's <em>Competitive Differentiation</em>
-
-During the selection meeting, the COCO team outlined four core competitive advantages:
-
-<div class="pipeline-grid">
-  <div class="pipeline-card">
-    <div class="card-icon">🧠</div>
-    <div class="time-badge">Advantage 1</div>
-    <h3>Proprietary AI Operating System</h3>
-    <p>COCO has its own AI operating system -- not a wrapper around third-party models. If another provider's model goes offline, COCO keeps running. This is system-level risk resilience.</p>
-  </div>
-  <div class="pipeline-card">
-    <div class="card-icon">🌏</div>
-    <div class="time-badge">Advantage 2</div>
-    <h3>Singapore-Based, Best Global Models</h3>
-    <p>As a Singapore company, COCO can select the best AI models globally without being restricted to a single region. Whether Claude, GPT, or emerging models -- customers always get the optimal choice.</p>
-  </div>
-  <div class="pipeline-card">
-    <div class="card-icon">🚀</div>
-    <div class="time-badge">Advantage 3</div>
-    <h3>Enterprise Collaboration Suite Leading the Market</h3>
-    <p>The next version of COCO's enterprise collaboration experience will be 1-2 months ahead of the industry. COCO isn't just an AI tool -- it's a complete system built for enterprise collaboration.</p>
-  </div>
-</div>
-
-<div class="pipeline-grid">
-  <div class="pipeline-card">
-    <div class="card-icon">📊</div>
-    <div class="time-badge">Advantage 4</div>
-    <h3>Growing Vertical Industry Case Library</h3>
-    <p>COCO continues to accumulate real-world deployment cases across industries. Reference case: Width (a KYC SaaS company) -- their non-technical CEO rebuilt an integrated CRM + Zendesk + DocuSign system in just 3-4 days, proving that non-technical users can build complex systems with COCO.</p>
-  </div>
-</div>
-
-</div>
 
 <div class="case-section">
 
@@ -1119,13 +1008,6 @@ COCO provides three layers of security: ISO/SOC2 certification with end-to-end e
 
 In the current version, Skill persistence is managed through visual storage (Git/Lark docs). The upcoming Workspace product will productize these best practices -- users will be able to directly see their Agent's Skills, when they're used, and how to manage them, fully solving the "taught today, forgotten tomorrow" problem.
 
-### Q: How long does it take from testing to full deployment?
-
-We recommend a phased approach: 3-month evaluation period (validate core scenarios) → pilot departments (select 1-2 departments best suited for automation) → gradual expansion company-wide. This approach minimizes risk, with clear validation metrics at each stage.
-
-### Q: What advantages does COCO have over domestic AI products (like Kimi, Coze)?
-
-Three core differentiators: First, COCO has a proprietary AI operating system rather than being a wrapper, making it independent of any single model provider and more resilient to disruption. Second, as a Singapore company, COCO can access the best global models without regional restrictions. Third, COCO focuses on deep enterprise collaboration -- it's not just a conversational AI, but a complete enterprise solution capable of designing, building, and operating full business systems.
 
 </div>
 

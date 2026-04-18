@@ -9,7 +9,7 @@ hero:
     alt: COCO AI
   actions:
     - theme: brand
-      text: 免费开始
+      text: 开始使用
       link: /zh/getting-started/
     - theme: alt
       text: 看看 COCO 能做什么
@@ -171,10 +171,10 @@ COCO 在你团队已有的工具中工作。无需切换。
 
 ## 准备好组建你的 AI 团队了吗？
 
-免费开始，无需信用卡。2 分钟内拥有你的第一位 AI 员工。
+2 分钟内拥有你的第一位 AI 员工。
 
 <div class="cta-buttons">
-<a href="./getting-started/" class="cta-primary">免费开始</a>
+<a href="./getting-started/" class="cta-primary">开始使用</a>
 <a href="https://coco.xyz" class="cta-secondary" target="_blank">了解更多</a>
 </div>
 
