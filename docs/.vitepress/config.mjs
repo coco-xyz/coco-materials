@@ -106,17 +106,30 @@ export default defineConfig({
   transformHead(context) {
     const { pageData } = context
     const head = []
+    const isZh = pageData.relativePath.startsWith('zh/')
+    const isCaseStudy = pageData.relativePath.includes('case-studies/') &&
+      pageData.relativePath !== 'case-studies/index.md' &&
+      pageData.relativePath !== 'zh/case-studies/index.md'
 
-    // Set og:type to "article" for case study pages
-    if (pageData.relativePath.includes('case-studies/') && pageData.relativePath !== 'case-studies/index.md' && pageData.relativePath !== 'zh/case-studies/index.md') {
+    // P0-1: Override OG tags for Chinese pages (global head sets English defaults)
+    if (isZh) {
+      const zhTitle = pageData.title || 'COCO — AI 数字员工平台'
+      const zhDesc = pageData.description || 'AI 数字员工平台 — 用例、案例与文档'
+      head.push(['meta', { property: 'og:title', content: zhTitle }])
+      head.push(['meta', { property: 'og:description', content: zhDesc }])
+      head.push(['meta', { property: 'og:locale', content: 'zh_CN' }])
+    } else {
+      head.push(['meta', { property: 'og:locale', content: 'en_US' }])
+    }
+
+    // Case study pages: article type + JSON-LD
+    if (isCaseStudy) {
       head.push(['meta', { property: 'og:type', content: 'article' }])
 
-      // Build canonical URL
       const cleanPath = pageData.relativePath.replace(/\.md$/, '').replace(/index$/, '')
       const canonicalUrl = `https://docs.coco.xyz/${cleanPath}`
       head.push(['meta', { property: 'og:url', content: canonicalUrl }])
 
-      // JSON-LD Article structured data
       const jsonLd = {
         '@context': 'https://schema.org',
         '@type': 'Article',
@@ -165,8 +178,8 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#FFD646' }],
     ['meta', { property: 'og:site_name', content: 'COCO' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'COCO Docs' }],
-    ['meta', { property: 'og:description', content: 'AI Teams — Use Cases, Resources & Documentation' }],
+    ['meta', { property: 'og:title', content: 'COCO — AI Digital Employee Platform' }],
+    ['meta', { property: 'og:description', content: 'AI teams that live in your chat tools — write docs, run research, automate operations, chase leads.' }],
     ['meta', { property: 'og:image', content: 'https://docs.coco.xyz/coco-logo-black.png' }],
     ['meta', { name: 'twitter:card', content: 'summary' }],
     ['meta', { name: 'twitter:site', content: '@CocoAIxyz' }],
@@ -178,8 +191,8 @@ export default defineConfig({
     root: {
       label: 'English',
       lang: 'en-US',
-      title: 'COCO Docs',
-      description: 'AI Teams — Use Cases, Resources & Documentation',
+      title: 'COCO — AI Digital Employee Platform | Use Cases, Resources & Docs',
+      description: 'AI teams that live in your chat tools — write docs, run research, automate operations, chase leads. No deployment, no code, just results.',
       themeConfig: {
         outline: { level: [2, 3] },
         nav: [
@@ -325,8 +338,8 @@ export default defineConfig({
     zh: {
       label: '中文',
       lang: 'zh-CN',
-      title: 'COCO 文档',
-      description: 'AI数字员工 — 用例、资源与文档',
+      title: 'COCO — AI 数字员工平台 | 用例、案例与文档',
+      description: 'AI 员工驻扎在你的聊天工具中 — 写文档、做调研、跑运营、追客户。无需部署，无需代码，只要结果。',
       themeConfig: {
         nav: [
           { text: '开始使用', link: '/zh/getting-started/' },
