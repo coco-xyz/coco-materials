@@ -70,11 +70,7 @@ export default defineConfig({
     '**/social-media/channels.md',
   ],
 
-  vite: {
-    server: {
-      allowedHosts: ['zylos100.jinglever.com']
-    },
-  },
+  vite: {},
 
   vue: {
     template: {
@@ -107,6 +103,100 @@ export default defineConfig({
     },
   },
 
+  transformHead(context) {
+    const { pageData } = context
+    const head = []
+    const isZh = pageData.relativePath.startsWith('zh/')
+    const isCaseStudy = pageData.relativePath.includes('case-studies/') &&
+      pageData.relativePath !== 'case-studies/index.md' &&
+      pageData.relativePath !== 'zh/case-studies/index.md'
+    const cleanPath = pageData.relativePath.replace(/\.md$/, '').replace(/index$/, '')
+
+    // P1-3: Canonical URL for every page
+    const canonicalUrl = `https://docs.coco.xyz/${cleanPath}`
+    head.push(['link', { rel: 'canonical', href: canonicalUrl }])
+
+    // P1-4: hreflang alternate links for bilingual pages
+    const enPath = isZh ? cleanPath.replace(/^zh\//, '') : cleanPath
+    const zhPath = isZh ? cleanPath : `zh/${cleanPath}`
+    head.push(['link', { rel: 'alternate', hreflang: 'en', href: `https://docs.coco.xyz/${enPath}` }])
+    head.push(['link', { rel: 'alternate', hreflang: 'zh', href: `https://docs.coco.xyz/${zhPath}` }])
+    head.push(['link', { rel: 'alternate', hreflang: 'x-default', href: `https://docs.coco.xyz/${enPath}` }])
+
+    // P0-1: Override OG tags for Chinese pages (global head sets English defaults)
+    // P1-5: og:locale (already included)
+    if (isZh) {
+      const zhTitle = pageData.title || 'COCO — AI 数字员工平台'
+      const zhDesc = pageData.description || 'AI 数字员工平台 — 用例、案例与文档'
+      head.push(['meta', { property: 'og:title', content: zhTitle }])
+      head.push(['meta', { property: 'og:description', content: zhDesc }])
+      head.push(['meta', { property: 'og:locale', content: 'zh_CN' }])
+      head.push(['meta', { property: 'og:locale:alternate', content: 'en_US' }])
+    } else {
+      head.push(['meta', { property: 'og:locale', content: 'en_US' }])
+      head.push(['meta', { property: 'og:locale:alternate', content: 'zh_CN' }])
+    }
+
+    // og:url for all pages
+    head.push(['meta', { property: 'og:url', content: canonicalUrl }])
+
+    // P1-7: Homepage Organization + WebSite JSON-LD
+    const isHomepage = pageData.relativePath === 'index.md' || pageData.relativePath === 'zh/index.md'
+    if (isHomepage) {
+      const orgJsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: 'COCO',
+        url: 'https://coco.xyz',
+        logo: 'https://docs.coco.xyz/coco-logo-black.png',
+        sameAs: [
+          'https://x.com/CocoAIxyz',
+          'https://github.com/coco-xyz',
+        ],
+      }
+      const siteJsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: isZh ? 'COCO — AI 数字员工平台' : 'COCO — AI Digital Employee Platform',
+        url: 'https://docs.coco.xyz',
+        inLanguage: isZh ? 'zh-CN' : 'en-US',
+      }
+      head.push(['script', { type: 'application/ld+json' }, JSON.stringify(orgJsonLd)])
+      head.push(['script', { type: 'application/ld+json' }, JSON.stringify(siteJsonLd)])
+    }
+
+    // Case study pages: article type + JSON-LD
+    if (isCaseStudy) {
+      head.push(['meta', { property: 'og:type', content: 'article' }])
+
+      const jsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: pageData.title || '',
+        description: pageData.description || '',
+        publisher: {
+          '@type': 'Organization',
+          name: 'COCO',
+          url: 'https://coco.xyz',
+          logo: {
+            '@type': 'ImageObject',
+            url: 'https://docs.coco.xyz/coco-logo-black.png',
+          },
+        },
+        mainEntityOfPage: {
+          '@type': 'WebPage',
+          '@id': canonicalUrl,
+        },
+        image: 'https://docs.coco.xyz/coco-logo-black.png',
+        datePublished: '2025-06-01',
+        dateModified: pageData.lastUpdated ? new Date(pageData.lastUpdated).toISOString().split('T')[0] : '2025-06-01',
+      }
+      head.push(['script', { type: 'application/ld+json' }, JSON.stringify(jsonLd)])
+    }
+
+    return head
+  },
+
   transformHtml(code) {
     if (base !== '/') {
       const prefix = base.replace(/\/$/, '')
@@ -125,8 +215,13 @@ export default defineConfig({
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['meta', { name: 'theme-color', content: '#FFD646' }],
-    ['meta', { property: 'og:title', content: 'COCO Docs' }],
-    ['meta', { property: 'og:description', content: 'AI Teams — Use Cases, Resources & Documentation' }],
+    ['meta', { property: 'og:site_name', content: 'COCO' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: 'COCO — AI Digital Employee Platform' }],
+    ['meta', { property: 'og:description', content: 'AI teams that live in your chat tools — write docs, run research, automate operations, chase leads.' }],
+    ['meta', { property: 'og:image', content: 'https://docs.coco.xyz/coco-logo-black.png' }],
+    ['meta', { name: 'twitter:card', content: 'summary' }],
+    ['meta', { name: 'twitter:site', content: '@CocoAIxyz' }],
     ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-GTMD3JHWQN' }],
     ['script', {}, "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-GTMD3JHWQN');"],
   ],
@@ -135,18 +230,16 @@ export default defineConfig({
     root: {
       label: 'English',
       lang: 'en-US',
-      title: 'COCO Docs',
-      description: 'AI Teams — Use Cases, Resources & Documentation',
+      title: 'COCO — AI Digital Employee Platform | Use Cases, Resources & Docs',
+      description: 'AI teams that live in your chat tools — write docs, run research, automate operations, chase leads. No deployment, no code, just results.',
       themeConfig: {
         outline: { level: [2, 3] },
         nav: [
-          { text: 'Home', link: '/' },
-          { text: 'Getting Started', link: '/getting-started/' },
+          { text: 'Get Started', link: '/getting-started/' },
           { text: 'Use Cases', link: '/use-cases/' },
           { text: 'Case Studies', link: '/case-studies/' },
-          { text: 'Social Media', link: '/social-media/' },
           { text: 'Channels', link: '/channels/' },
-          { text: 'coco.xyz', link: 'https://coco.xyz' },
+          { text: 'Pricing', link: 'https://coco.xyz/#pricing' },
         ],
         sidebar: {
           '/channels/': [
@@ -157,6 +250,9 @@ export default defineConfig({
                 { text: 'Telegram', link: '/channels/telegram' },
                 { text: 'Lark / Feishu', link: '/channels/lark' },
                 { text: 'WhatsApp', link: '/channels/whatsapp' },
+                { text: 'WeCom', link: '/getting-started/channel-deployment#option-c-wecom-企业微信-deployment' },
+                { text: 'DingTalk', link: '/getting-started/channel-deployment#option-d-dingtalk-钉钉-deployment' },
+                { text: 'Slack', link: '/getting-started/channel-deployment#slack' },
                 { text: 'Web Console', link: '/channels/web-console' },
               ]
             },
@@ -267,9 +363,11 @@ export default defineConfig({
               items: [
                 { text: 'Capability Showcase', link: '/case-studies/' },
                 { text: 'COCO CRM — Built by AI, Run by AI', link: '/case-studies/crm' },
+                { text: 'HxA AI Team — 7 Parallel Agents', link: '/case-studies/hxa-team' },
                 { text: 'Social Media & BD Automation', link: '/case-studies/social-media' },
                 { text: 'AI Due Diligence — 20 Hours to 2', link: '/case-studies/deal-flow-dd' },
                 { text: 'Customer Service Email Automation', link: '/case-studies/email-automation' },
+                { text: 'Manufacturing AI — From Pain Points to Smart Production', link: '/case-studies/manufacturing-ai' },
               ]
             },
           ],
@@ -279,17 +377,15 @@ export default defineConfig({
     zh: {
       label: '中文',
       lang: 'zh-CN',
-      title: 'COCO 文档',
-      description: 'AI数字员工 — 用例、资源与文档',
+      title: 'COCO — AI 数字员工平台 | 用例、案例与文档',
+      description: 'AI 员工驻扎在你的聊天工具中 — 写文档、做调研、跑运营、追客户。无需部署，无需代码，只要结果。',
       themeConfig: {
         nav: [
-          { text: '首页', link: '/zh/' },
-          { text: '快速开始', link: '/zh/getting-started/' },
-          { text: '用例库', link: '/zh/use-cases/' },
-          { text: '案例研究', link: '/zh/case-studies/' },
-          { text: '社交媒体', link: '/zh/social-media/' },
-          { text: '渠道技巧', link: '/zh/channels/' },
-          { text: 'coco.xyz', link: 'https://coco.xyz' },
+          { text: '开始使用', link: '/zh/getting-started/' },
+          { text: '用例', link: '/zh/use-cases/' },
+          { text: '案例', link: '/zh/case-studies/' },
+          { text: '通讯渠道', link: '/zh/channels/' },
+          { text: '定价', link: 'https://coco.xyz/#pricing' },
         ],
         sidebar: {
           '/zh/channels/': [
@@ -300,6 +396,9 @@ export default defineConfig({
                 { text: 'Telegram', link: '/zh/channels/telegram' },
                 { text: 'Lark / 飞书', link: '/zh/channels/lark' },
                 { text: 'WhatsApp', link: '/zh/channels/whatsapp' },
+                { text: '企业微信', link: '/zh/getting-started/channel-deployment#option-c-wecom-企业微信-deployment' },
+                { text: '钉钉', link: '/zh/getting-started/channel-deployment#option-d-dingtalk-钉钉-deployment' },
+                { text: 'Slack', link: '/zh/getting-started/channel-deployment#slack' },
                 { text: 'Web 控制台', link: '/zh/channels/web-console' },
               ]
             },
@@ -410,9 +509,11 @@ export default defineConfig({
               items: [
                 { text: '能力展示', link: '/zh/case-studies/' },
                 { text: 'COCO CRM — AI 搭建，AI 运营', link: '/zh/case-studies/crm' },
+                { text: 'HxA AI 团队 — 7 个 Agent 并行协作', link: '/zh/case-studies/hxa-team' },
                 { text: '社媒与 BD 自动化', link: '/zh/case-studies/social-media' },
                 { text: 'AI 投资尽调 — 20小时压缩到2小时', link: '/zh/case-studies/deal-flow-dd' },
                 { text: '客服邮件自动化', link: '/zh/case-studies/email-automation' },
+                { text: '制造业 AI — 从痛点到产线智能', link: '/zh/case-studies/manufacturing-ai' },
               ]
             },
           ],

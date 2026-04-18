@@ -1,14 +1,17 @@
 ---
 layout: page
-title: "客服邮件自动化 — COCO AI Agent 企业邮件管理自动化实战"
-description: "COCO AI Agent 实现客服邮件全流程自动化：每 10 分钟扫描收件箱，AI 智能分类过滤噪声，真实用户邮件秒级提醒，自动起草回复草稿，强制人工审核把关。企业AI自动化的人机协作典范。"
+title: "AI 客服邮件自动化：扫描、分类、起草、审核全流程 | COCO"
+description: "COCO AI Agent 每 10 分钟扫描收件箱，智能分类过滤噪声，真实用户邮件秒级提醒，自动起草回复草稿，强制人工审核把关。企业 AI 自动化的人机协作典范。"
 head:
   - - meta
     - property: og:title
-      content: "Customer Email Automation — AI Watches the Inbox, You Make the Calls"
+      content: "AI 客服邮件自动化：扫描、分类、起草、审核全流程 | COCO"
   - - meta
     - property: og:description
-      content: "Scans every 10 minutes, instant alerts for real user emails, full draft-to-send workflow managed by AI."
+      content: "AI Agent 每 10 分钟扫描收件箱，智能分类、自动起草、人工审核 — 企业邮件管理自动化实战案例。"
+  - - meta
+    - property: og:image
+      content: "https://docs.coco.xyz/coco-logo-black.png"
 ---
 
 <style>
@@ -19,7 +22,6 @@ head:
   position: sticky;
   top: 64px;
   z-index: 5;
-  overflow: hidden;
   padding: 100px 24px 72px;
   text-align: center;
   background: url('/reef-banner.png') center/cover no-repeat;

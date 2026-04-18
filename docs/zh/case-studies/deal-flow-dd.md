@@ -1,14 +1,17 @@
 ---
 layout: page
-title: "AI Agent 驱动的投资尽调自动化 — DD 时间从 20 小时压缩到 2 小时"
-description: "COCO AI Agent 实现投资尽职调查全流程自动化：数据室解析、财务建模、风险识别到 IC 备忘录生成。企业AI自动化让分析师从文件搬运工转型为真正的投资决策者，季度处理量提升 3 倍。"
+title: "AI 投资尽调自动化：20 小时压缩到 2 小时，数据室到 IC 备忘录全流程 | COCO"
+description: "COCO AI Agent 实现投资尽职调查全流程自动化：数据室解析、财务建模、风险识别到 IC 备忘录生成。分析师从文件搬运工转型为投资决策者，季度处理量提升 3 倍。"
 head:
   - - meta
     - property: og:title
-      content: "AI-Powered Investment Due Diligence — DD Time Cut from 20 Hours to 2"
+      content: "AI 投资尽调自动化：20 小时压缩到 2 小时，数据室到 IC 备忘录全流程 | COCO"
   - - meta
     - property: og:description
-      content: "From data room to IC memo, fully automated. Analysts focus on decisions, not document handling."
+      content: "AI Agent 投资尽调全流程自动化：数据室到 IC 备忘录，20 小时压缩到 2 小时，季度处理量 3 倍提升。"
+  - - meta
+    - property: og:image
+      content: "https://docs.coco.xyz/coco-logo-black.png"
 ---
 
 <style>
@@ -19,7 +22,6 @@ head:
   position: sticky;
   top: 64px;
   z-index: 5;
-  overflow: hidden;
   padding: 100px 24px 72px;
   text-align: center;
   background: url('/reef-banner.png') center/cover no-repeat;
