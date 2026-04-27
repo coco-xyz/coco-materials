@@ -40,13 +40,7 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 
 **Estimated time: 5-8 minutes**
 
-<video controls style="max-width: 720px; width: 100%; border-radius: 8px; margin: 1rem 0;">
-  <source src="https://github.com/coco-xyz/coco-materials/releases/download/assets-v1/tg-deploy-guide-en-v1.7.mp4" type="video/mp4">
-</video>
-
 ### Step 1: Create a Telegram Bot
-
-<img :src="withBase('/tg-botfather-create.png')" alt="Create a Telegram Bot — Complete 4 steps via BotFather" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 1. Open Telegram, search for **@BotFather** (official bot manager)
 2. Send `/newbot` command
@@ -57,22 +51,17 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 
 > **Important:** The Bot Token is your bot's unique credential. Do not share it with others.
 
-### Step 2: Configure Bot Settings (Optional but recommended)
-In @BotFather:
-1. Send `/setdescription` → Select your Bot → Enter description
-   - Suggested: `COCO AI Digital Employee - Your Dedicated AI Assistant`
-2. Send `/setuserpic` → Select your Bot → Upload an avatar
-   - Recommended: Use COCO logo or your company logo
-
-### Step 3: Connect in COCO Dashboard
+### Step 2: Connect in COCO Dashboard
 
 1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
-2. Go to the channel configuration page, select **Telegram**
+2. Open the **Channels** page and find the **Telegram** card
 3. Paste the **Bot Token** from Step 1
-4. Click **Verify and Connect**
+4. Click **Connect**
 5. System automatically validates the Token and completes connection
 
-### Step 4: Start Using
+<img :src="withBase('/tg-dashboard-token.png')" alt="Paste the Bot Token into the Telegram card on the COCO Dashboard Channels page and click Connect" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+### Step 3: Start Using
 1. In Telegram, search for your Bot username (e.g., `@my_coco_ai_bot`)
 2. Click **Start** or send `/start`
 3. Send any message — AI employee responds immediately
