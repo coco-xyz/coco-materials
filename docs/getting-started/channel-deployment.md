@@ -101,6 +101,8 @@ Lark (international) and Feishu (domestic China) have slightly different interfa
 
 ### Lark Deployment (Recommended for international teams) {#lark}
 
+**WebSocket long connection:** Only App ID and App Secret required — no Webhook URL, Verification Token, or public domain needed.
+
 <video controls style="max-width: 720px; width: 100%; border-radius: 8px; margin: 1rem 0;">
   <source src="https://github.com/coco-xyz/coco-materials/releases/download/assets-v1/lark-deploy-guide-en-v1.7.mp4" type="video/mp4">
 </video>
@@ -115,13 +117,21 @@ Lark (international) and Feishu (domestic China) have slightly different interfa
 
 1. In the Developer Backend, click **Create Custom App**
 2. Enter app name (e.g., `COCO AI Employee`) and description
-3. After creation, note down:
-   - **App ID**
-   - **App Secret**
+3. Click **Create** to finish
 
 > **Tip:** Enterprise admin permissions are required. If you're not an admin, contact your IT department or use a Lark personal account first.
 
-#### Step 3: Configure Permissions
+#### Step 3: Add Bot Capability
+
+In the app management page, go to **Add Capabilities** in the left sidebar, find the **Bot** card, and click "Configure" or "+ Add". After adding, a **Bot** menu item will appear in the left sidebar.
+
+> **Important:** You must add the Bot capability first before configuring messaging-related permissions (e.g., `im:message.group_at_msg:readonly`). Otherwise the permission checkbox will be disabled.
+
+After adding, go to **Credentials & Basic Info** in the left sidebar and note down:
+   - **App ID**
+   - **App Secret**
+
+#### Step 4: Configure Permissions
 
 In the app management page, go to **Permissions & Scopes**. Copy the following JSON and import all permissions at once:
 
@@ -189,14 +199,6 @@ In the app management page, go to **Permissions & Scopes**. Copy the following J
 
 > **Scope overview:** The scopes above cover contacts (read), chat management (full), messaging (send/receive/recall/pin/react), group @mention listening, urgent messages, file resources, and feed cards. The `im:message:send_multi_depts` scope replaces the older `im:message:send_multi_users` name used in previous versions of the platform. The Feishu (domestic China) version uses a slightly smaller scope set — see the [Feishu section](#feishu) for details.
 
-#### Step 4: Get Verification Token
-
-1. In app management, go to **Events & Callbacks**
-2. Click the **Encryption Strategy** tab
-3. Find the **Verification Token** at the bottom of the page, click the eye icon to view and copy it
-
-> **Tip:** On the same page you'll also find the **Encrypt Key** (optional). If you need encrypted communication, record this as well.
-
 #### Step 5: Connect in COCO Dashboard and Deploy
 
 1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
@@ -207,21 +209,22 @@ In the app management page, go to **Permissions & Scopes**. Copy the following J
 |-------|--------|
 | App ID | Lark Open Platform → Credentials & Basic Info |
 | App Secret | Lark Open Platform → Credentials & Basic Info |
-| Verification Token | Lark Open Platform → Events & Callbacks → Encryption Strategy |
-| Encrypt Key (optional) | Lark Open Platform → Events & Callbacks → Encryption Strategy |
 
 4. Click **Connect** — the system will automatically deploy your AI employee (typically takes 2-3 minutes)
-5. After deployment, the page will display your dedicated **Webhook URL** — copy this URL (needed in the next step)
+
+> **Tip:** With WebSocket long connection, only App ID and App Secret are needed — no Verification Token, Encrypt Key, or Webhook URL required.
 
 #### Step 6: Configure Event Subscription
 
 1. Return to the Lark Developer Backend, go to **Events & Callbacks**
-2. Under "Event Configuration", select **Send events to developer server**
-3. Paste the Webhook URL from the previous step into the **Request URL** field
-4. Subscribe to events:
+2. Under subscription mode, select **Receive events through persistent connection**
+
+3. Click **Add Events** and subscribe to:
    - `im.message.receive_v1` — Receive messages (required)
    - `im.chat.member.bot.added_v1` — Bot added to group (optional)
-5. Click **Save**
+4. Click **Save**
+
+> **Tip:** With persistent connection mode, no Request URL is needed — events are received automatically via WebSocket.
 
 #### Step 7: Create Version and Publish
 
