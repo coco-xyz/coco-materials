@@ -103,10 +103,6 @@ Lark (international) and Feishu (domestic China) have slightly different interfa
 
 **WebSocket long connection:** Only App ID and App Secret required — no Webhook URL, Verification Token, or public domain needed.
 
-<video controls style="max-width: 720px; width: 100%; border-radius: 8px; margin: 1rem 0;">
-  <source src="https://github.com/coco-xyz/coco-materials/releases/download/assets-v1/lark-deploy-guide-en-v1.7.mp4" type="video/mp4">
-</video>
-
 #### Step 1: Access Lark Open Platform
 
 1. Visit [Lark Open Platform](https://open.larksuite.com)
@@ -133,7 +129,7 @@ After adding, go to **Credentials & Basic Info** in the left sidebar and note do
 
 #### Step 4: Configure Permissions
 
-In the app management page, go to **Permissions & Scopes**. Copy the following JSON and import all permissions at once:
+In the app management page, go to **Permissions & Scopes**. Click **Batch Import/Export Permissions**, paste the following JSON, and import all permissions at once:
 
 ```json
 {
