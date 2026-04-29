@@ -241,6 +241,27 @@
   padding-top: 0 !important;
 }
 
+/* ===== Medium-zoom z-index fix ===== */
+/* Prevent code blocks / positioned elements from bleeding through zoomed images */
+.medium-zoom-overlay {
+  z-index: 1000 !important;
+}
+.medium-zoom-image--opened,
+.medium-zoom--opened .medium-zoom-image {
+  z-index: 1001 !important;
+}
+
+/* ===== Event name code blocks (yellow text) ===== */
+.event-code div[class*="language-"] {
+  margin: 4px 0 !important;
+}
+.event-code div[class*="language-"] code {
+  color: #F5C542 !important;
+}
+.event-code div[class*="language-"] code span {
+  color: #F5C542 !important;
+}
+
 /* ===== Tables ===== */
 /* Ensure horizontal scroll on narrow viewports */
 .vp-doc table {
