@@ -839,12 +839,6 @@ head:
 
 The bottleneck was the same: **more content to produce, more channels to cover, not enough people.**
 
-<div class="video-showcase">
-  <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/jFGNry0BohA" title="COCO Social Media Automation Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-</div>
-
 </div>
 
 <div class="case-section">

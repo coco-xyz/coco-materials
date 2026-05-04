@@ -839,12 +839,6 @@ head:
 
 瓶颈是一样的：**更多内容要出、更多渠道要覆盖、人不够用。**
 
-<div class="video-showcase">
-  <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/jFGNry0BohA" title="COCO 社媒自动化演示" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-</div>
-
 </div>
 
 <div class="case-section">
