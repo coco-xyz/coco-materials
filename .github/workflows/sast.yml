@@ -16,8 +16,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: semgrep scan --config auto --error --severity ERROR
-        env:
-          SEMGREP_SEND_METRICS: "off"
 
   gitleaks:
     name: Gitleaks Secret Scan
