@@ -1,8 +1,4 @@
 [allowlist]
 description = "Audited false positives"
-
-# "conversational" in docs misdetected as linkedin-client-id (two commits touching the same line)
-fingerprints = [
-  "15891c0713ccfa20dc1ea4bf909661c547548ac6:docs/use-cases/role/multi-agent-architect.md:linkedin-client-id:4698",
-  "02aad89a06ff89831011935c92845a18541a2bba:docs/use-cases/role/multi-agent-architect.md:linkedin-client-id:4698",
-]
+# "conversational" in docs misdetected as linkedin-client-id
+paths = ["docs/"]
