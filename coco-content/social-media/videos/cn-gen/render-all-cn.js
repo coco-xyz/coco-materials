@@ -56,7 +56,7 @@ async function renderVideo(browser, videoConfig) {
   const ffmpegCmd = `ffmpeg -y -framerate ${FPS} -i "${framesDir}/frame-%04d.png" -c:v libx264 -pix_fmt yuv420p -crf 23 -preset fast "${outputPath}" 2>&1`;
   console.log(`  Running ffmpeg...`);
   try {
-    execSync(ffmpegCmd, { stdio: 'pipe' });
+    execSync(ffmpegCmd, { stdio: 'pipe' }); // nosemgrep: javascript.lang.security.detect-child-process.detect-child-process — ffmpeg command built from hardcoded config, not user input
     console.log(`  Video saved: ${outputPath}`);
   } catch (e) {
     console.error(`  ffmpeg error for ${output}:`, e.message);
