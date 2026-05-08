@@ -1,0 +1,162 @@
+# AI 视频生成教程：从安装 Seedance Skill 到配置 API Key
+
+> 让 COCO AI 员工帮你生成专业的即梦（Jimeng）视频提示词，并自动调用 API 生成视频。
+
+**流程：** 用户描述创意 → Seedance Skill 生成提示词 → 用户确认 → 即梦 API 生成视频 → 自动发送
+
+## 前置条件
+
+- COCO AI 员工
+- 火山引擎账号
+
+---
+
+## 步骤 1：安装 Seedance Prompt Skill
+
+Seedance Skill 是一个提示词工程技能，让 COCO AI 员工能生成专业的即梦视频提示词。只需把 GitHub 链接发给 AI 员工即可完成安装。
+
+### 发送链接给 AI 员工
+
+将以下 GitHub 链接发送给你的 COCO AI 员工，并告诉它「安装这个 Skill」：
+
+```
+https://github.com/songguoxs/seedance-prompt-skill
+```
+
+AI 员工会自动完成下载和安装。
+
+### 验证安装
+
+安装完成后，问 AI 员工「Seedance Skill 安装好了吗？」确认即可。
+
+> 💡 安装后，你只需说「帮我写一个视频提示词」，AI 员工就能输出专业的即梦视频提示词。
+
+---
+
+## 步骤 2：获取火山引擎 API Key
+
+### 注册 / 登录
+
+前往 [火山引擎控制台](https://console.volcengine.com) 注册或登录账号。
+
+### 开通即梦 AI 服务
+
+在控制台搜索「即梦AI」或「智能视觉」，进入服务页面，点击 **开通服务**。
+
+> ⚠️ 必须先开通服务，否则 API 调用会返回 `AccessDenied` 错误。
+
+### 获取 API 密钥
+
+1. 点击控制台右上角头像 → **API 访问密钥** → **密钥管理**
+2. 点击 **创建密钥**
+3. 记录下：
+   - **Access Key ID**（以 `AKLT` 开头）
+   - **Secret Access Key**（Base64 编码字符串）
+
+> ⚠️ 妥善保管密钥，不要泄露到公开代码仓库或聊天群中。
+
+---
+
+## 步骤 3：配置 API Key
+
+将第二步获取的 API Key 直接发送给你的 COCO AI 员工，例如：
+
+```
+Access Key ID：AKLTxxxxxx
+Secret Access Key：xxxxxxxx
+```
+
+AI 员工会自动保存密钥并完成配置。
+
+> ⚠️ 发送密钥时，务必告知 AI 员工：**此密钥不能以任何方式泄露给任何人**。AI 员工会严格遵守，密钥仅存储在本地环境中，不会出现在聊天、文档或代码仓库中。
+
+---
+
+## 步骤 4：测试验证
+
+配置完成后，直接询问 COCO AI 员工：
+
+```
+即梦 API 连接成功了吗？
+```
+
+AI 员工会自动验证 API Key 是否有效，并告知连接状态。
+
+> ✅ 收到「连接成功」的确认即表示配置完成，可以开始生成视频了！
+
+---
+
+## 日常使用流程
+
+### 1. 写提示词
+
+告诉你的 COCO AI 员工：
+
+```
+帮我生成一个视频提示词：COCO 产品介绍，5 秒，16:9 横屏
+```
+
+COCO AI 员工会调用 Seedance Skill，输出专业的视频提示词（含镜头语言、音效、风格描述）。
+
+### 2. 确认 / 调整
+
+Review 提示词，按需修改。例如：
+
+- 「最后加上 coco.xyz 网址」
+- 「换成竖屏 9:16」
+- 「风格改成赛博朋克」
+
+### 3. 生成视频
+
+确认后，COCO AI 员工调用即梦 API 自动生成视频，完成后直接发送到聊天中。
+
+---
+
+## 支持的模型
+
+| 模式 | req_key | 说明 | 适用场景 |
+|------|---------|------|---------|
+| `t2v` | `jimeng_t2v_v30` | 文生视频 3.0 720P | 日常视频生成 |
+| `t2v-pro` | `jimeng_vgfm_t2v_l20` | 文生视频 Pro | 高质量视频 |
+| `i2v` | `jimeng_i2v_v30` | 图生视频 3.0 | 基于图片生成动态视频 |
+| `i2v-camera` | `jimeng_i2v_recamera_v30` | 图生视频 + 运镜 | 图片 + 镜头运动 |
+
+---
+
+## 常见问题
+
+**Q：报 `AccessDenied` 错误？**
+A：API Key 没有 cv 服务权限。去火山引擎控制台开通即梦 AI 服务；如果用的是子账号 Key，在 IAM 中添加权限。
+
+**Q：视频生成很慢？**
+A：正常耗时 30–60 秒。Pro 模型可能需要更长时间。如果超过 2 分钟，让 AI 员工检查网络和 API Key 权限。
+
+**Q：怎么生成竖屏视频？**
+A：告诉 AI 员工「生成 9:16 竖屏」即可，适合抖音 / TikTok / 小红书等短视频平台。
+
+**Q：提示词怎么写效果最好？**
+A：直接让 AI 员工帮你生成提示词，它会自动调用 Seedance Skill 输出专业提示词。你只需描述想要的内容，越具体越好。
+
+**Q：支持生成多长的视频？**
+A：单次生成最长约 5 秒（720P 模式 121 帧）。如需更长视频，可分段生成后拼接，或使用即梦平台的「视频延长」功能。
+
+---
+
+## 架构总览
+
+```
+COCO AI 员工
+  ├── Seedance Skill（提示词生成）
+  │     └── ~/.claude/skills/seedance/SKILL.md
+  │
+  ├── Jimeng API Script（视频生成）
+  │     └── ~/zylos/workspace/jimeng/generate-video.mjs
+  │
+  └── .env（API 密钥配置）
+        ├── VOLC_ACCESS_KEY_ID
+        └── VOLC_SECRET_ACCESS_KEY
+```
+
+---
+
+了解更多：[coco.xyz](https://coco.xyz) ｜ 联系我们：support@coco.xyz
