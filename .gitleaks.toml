@@ -1,0 +1,4 @@
+[allowlist]
+description = "Audited false positives"
+# "conversational" in docs misdetected as linkedin-client-id
+paths = ["docs/"]
