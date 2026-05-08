@@ -114,12 +114,12 @@ Review 提示词，按需修改。例如：
 
 ## 支持的模型
 
-| 模式 | req_key | 说明 | 适用场景 |
-|------|---------|------|---------|
-| `t2v` | `jimeng_t2v_v30` | 文生视频 3.0 720P | 日常视频生成 |
-| `t2v-pro` | `jimeng_vgfm_t2v_l20` | 文生视频 Pro | 高质量视频 |
-| `i2v` | `jimeng_i2v_v30` | 图生视频 3.0 | 基于图片生成动态视频 |
-| `i2v-camera` | `jimeng_i2v_recamera_v30` | 图生视频 + 运镜 | 图片 + 镜头运动 |
+| 模式 | 说明 | 适用场景 |
+|------|------|---------|
+| 文生视频 | 文字描述生成 720P 视频 | 日常视频生成 |
+| 文生视频 Pro | 更高质量的文生视频 | 高质量视频 |
+| 图生视频 | 基于图片生成动态视频 | 产品图/海报动态化 |
+| 图生视频 + 运镜 | 图片 + 镜头运动效果 | 电影感镜头 |
 
 ---
 
@@ -140,23 +140,3 @@ A：直接让 AI 员工帮你生成提示词，它会自动调用 Seedance Skill
 **Q：支持生成多长的视频？**
 A：单次生成最长约 5 秒（720P 模式 121 帧）。如需更长视频，可分段生成后拼接，或使用即梦平台的「视频延长」功能。
 
----
-
-## 架构总览
-
-```
-COCO AI 员工
-  ├── Seedance Skill（提示词生成）
-  │     └── ~/.claude/skills/seedance/SKILL.md
-  │
-  ├── Jimeng API Script（视频生成）
-  │     └── ~/zylos/workspace/jimeng/generate-video.mjs
-  │
-  └── .env（API 密钥配置）
-        ├── VOLC_ACCESS_KEY_ID
-        └── VOLC_SECRET_ACCESS_KEY
-```
-
----
-
-了解更多：[coco.xyz](https://coco.xyz) ｜ 联系我们：support@coco.xyz
