@@ -368,6 +368,7 @@ export default defineConfig({
                 { text: 'AI Due Diligence — 20 Hours to 2', link: '/case-studies/deal-flow-dd' },
                 { text: 'Customer Service Email Automation', link: '/case-studies/email-automation' },
                 { text: 'Manufacturing AI — From Pain Points to Smart Production', link: '/case-studies/manufacturing-ai' },
+                { text: 'COCO Automated Video Generation', link: '/case-studies/seedance-video' },
               ]
             },
           ],
@@ -514,6 +515,7 @@ export default defineConfig({
                 { text: 'AI 投资尽调 — 20小时压缩到2小时', link: '/zh/case-studies/deal-flow-dd' },
                 { text: '客服邮件自动化', link: '/zh/case-studies/email-automation' },
                 { text: '制造业 AI — 从痛点到产线智能', link: '/zh/case-studies/manufacturing-ai' },
+                { text: 'COCO 自动化生成视频', link: '/zh/case-studies/seedance-video' },
               ]
             },
           ],
