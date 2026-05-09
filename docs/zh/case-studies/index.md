@@ -161,4 +161,10 @@ COCO不是聊天机器人，是你的全职AI员工。你在Telegram或飞书里
 
 ---
 
+## 实操教程
+
+- [AI 视频生成教程：从安装 Seedance Skill 到配置 API Key](./seedance-video) — 用 COCO AI 员工 + 即梦 API，几步搭好视频生成能力
+
+---
+
 了解更多：[coco.xyz](https://coco.xyz) 联系我们：support@coco.xyz
