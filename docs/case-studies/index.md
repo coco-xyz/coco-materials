@@ -159,4 +159,10 @@ COCO is not a chatbot — it's your full-time AI employee. Send a message via Te
 
 ---
 
+## Tutorials
+
+- [COCO Automated Video Generation](./seedance-video) — Use COCO AI Employee + Jimeng API to set up AI video generation in a few steps
+
+---
+
 Learn more: [coco.xyz](https://coco.xyz) | Contact us: support@coco.xyz
