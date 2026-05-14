@@ -49,6 +49,8 @@ AI 员工会自动完成下载和安装。
    - **Access Key ID**（以 `AKLT` 开头）
    - **Secret Access Key**（Base64 编码字符串）
 
+![火山引擎 API 密钥管理](/volcengine-api-key-management.png)
+
 > ⚠️ 妥善保管密钥，不要泄露到公开代码仓库或聊天群中。
 
 ## 步骤 3：配置 API Key
