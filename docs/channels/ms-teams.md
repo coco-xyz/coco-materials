@@ -47,16 +47,12 @@ After registration, note down:
 
 ### Step 3: Add Graph API Permissions (Optional but Recommended)
 
-These permissions enable file attachments, chat history context, and user resolution. They are not required for basic messaging but unlock the full feature set.
+Graph API permissions unlock the full feature set. There are two types:
 
-| Permission | Purpose |
-|------------|---------|
-| `Chat.Read.All` | Read DM and group chat history + attachments |
-| `ChannelMessage.Read.All` | Read channel message history + attachments |
-| `Files.Read.All` | Download files from OneDrive/SharePoint shared links |
-| `User.Read.All` | Resolve user mentions and search users |
+- **Application permissions** — the bot acts as a service (no user sign-in needed). Enables chat history, file downloads, and user resolution.
+- **Delegated permissions** — the bot acts on behalf of a signed-in user. Required for reactions (💬 thinking indicators), group/channel image downloads, and sending channel messages via Graph.
 
-**Option A: Bulk import via App Manifest (recommended)**
+**Bulk import via App Manifest (recommended)**
 
 1. In your App Registration, go to the **Manifest** tab
 2. Find the `"requiredResourceAccess"` array and replace it with:
@@ -69,7 +65,13 @@ These permissions enable file attachments, chat history context, and user resolu
       { "id": "6b7d71aa-70aa-4810-a8d9-5d9fb2830017", "type": "Role" },
       { "id": "7b2449af-571a-4f28-b208-4b8f865d5da6", "type": "Role" },
       { "id": "01d4f6a5-17f3-4c51-b160-bfc8e3fe57ba", "type": "Role" },
-      { "id": "df021288-bdef-4463-88db-98f22de89214", "type": "Role" }
+      { "id": "df021288-bdef-4463-88db-98f22de89214", "type": "Role" },
+      { "id": "6b7d71aa-70aa-4810-a8d9-5d9fb2830017", "type": "Scope" },
+      { "id": "7b2449af-571a-4f28-b208-4b8f865d5da6", "type": "Scope" },
+      { "id": "01d4f6a5-17f3-4c51-b160-bfc8e3fe57ba", "type": "Scope" },
+      { "id": "b9bb2381-47a4-46cd-aafb-00cb12f68504", "type": "Scope" },
+      { "id": "116b7235-7cc6-461e-b163-8e55691d839e", "type": "Scope" },
+      { "id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d", "type": "Scope" }
     ]
   }
 ]
@@ -77,18 +79,40 @@ These permissions enable file attachments, chat history context, and user resolu
 
 3. Click **Save** at the top of the Manifest page
 4. Go to **API permissions** and click **Grant admin consent for [your tenant]**
-5. Verify all four permissions show a green checkmark
+5. Verify all permissions show a green checkmark
 
-> **Permission GUIDs:** `6b7d71aa` = Chat.Read.All, `7b2449af` = ChannelMessage.Read.All, `01d4f6a5` = Files.Read.All, `df021288` = User.Read.All. The `resourceAppId` `00000003-...` is Microsoft Graph.
+| Permission | Type | Purpose |
+|------------|------|---------|
+| `Chat.Read.All` | Application | Read DM and group chat history + attachments |
+| `ChannelMessage.Read.All` | Application | Read channel message history + attachments |
+| `Files.Read.All` | Application | Download files from OneDrive/SharePoint shared links |
+| `User.Read.All` | Application | Resolve user mentions and search users |
+| `Chat.ReadWrite` | Delegated | Send reactions (💬 thinking indicators) |
+| `ChannelMessage.Send` | Delegated | Send reactions in channels |
+| `ChannelMessage.Read.All` | Delegated | Download images/files from channels |
+| `Files.Read.All` | Delegated | Download shared files on behalf of user |
+| `offline_access` | Delegated | Keep delegated tokens alive via refresh |
 
-**Option B: Add permissions one by one**
+**Alternative: Add permissions one by one**
 
 1. In your App Registration, go to **API permissions**
-2. Click **Add a permission** → **Microsoft Graph** → **Application permissions**
-3. Search for and add each permission from the table above
-4. Click **Grant admin consent for [your tenant]**
+2. Click **Add a permission** → **Microsoft Graph**
+3. Add **Application permissions**: Chat.Read.All, ChannelMessage.Read.All, Files.Read.All, User.Read.All
+4. Add **Delegated permissions**: Chat.ReadWrite, ChannelMessage.Send, ChannelMessage.Read.All, Files.Read.All, offline_access
+5. Click **Grant admin consent for [your tenant]**
 
 > **Note:** Admin consent requires tenant admin privileges. If you are not an admin, ask your IT department to grant consent. Basic messaging works without these permissions.
+
+#### Delegated Auth Setup
+
+Delegated permissions require a one-time OAuth sign-in by the bot owner after deployment:
+
+1. In the COCO Dashboard or via the bot, initiate delegated auth setup
+2. A Microsoft sign-in URL is generated — open it in your browser
+3. Sign in with your Microsoft account and grant the requested permissions
+4. After consent, the bot stores a refresh token and keeps itself authenticated
+
+This enables reactions (the 💬 thinking indicator while processing) and image/file downloads in group chats and channels.
 
 ### Step 4: Connect in COCO Dashboard
 
@@ -247,21 +271,23 @@ When updating the bot (e.g., new icon, new description):
 
 ## Features
 
-| Feature | Requires Graph API | Status |
-|---------|-------------------|--------|
-| DM messaging | No | Available |
-| Group chat messaging | No | Available |
-| Teams channel messaging | No | Available |
-| @mention detection | No | Available |
-| Image attachments (inbound) | No* | Available |
-| File attachments (inbound) | Yes | Available |
-| OneDrive/SharePoint files | Yes | Available |
-| Chat history context | Yes | Available |
-| Voice transcription | No | Available |
-| Proactive messaging | No | Available |
-| Image sending (outbound) | No | Available |
+| Feature | Requires | Status |
+|---------|----------|--------|
+| DM messaging | — | Available |
+| Group chat messaging | — | Available |
+| Teams channel messaging | — | Available |
+| @mention detection | — | Available |
+| Image attachments (DM) | — | Available |
+| Image attachments (group/channel) | Delegated | Available |
+| File attachments (inbound) | Application | Available |
+| OneDrive/SharePoint files | Application | Available |
+| Chat history context | Application | Available |
+| Reactions (💬 thinking indicator) | Delegated | Available |
+| Voice transcription | — | Available |
+| Proactive messaging | — | Available |
+| Image sending (outbound) | — | Available |
 
-\* Image download in DMs uses Bot Framework token. Graph API is needed for channel images and OneDrive files.
+DM image downloads use the Bot Framework token (no Graph needed). Group/channel images and reactions require delegated permissions (see Step 3).
 
 ## Known Limitations
 
