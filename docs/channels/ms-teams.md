@@ -63,15 +63,14 @@ Graph API permissions unlock the full feature set. There are two types:
     "resourceAppId": "00000003-0000-0000-c000-000000000000",
     "resourceAccess": [
       { "id": "6b7d71aa-70aa-4810-a8d9-5d9fb2830017", "type": "Role" },
-      { "id": "7b2449af-571a-4f28-b208-4b8f865d5da6", "type": "Role" },
-      { "id": "01d4f6a5-17f3-4c51-b160-bfc8e3fe57ba", "type": "Role" },
+      { "id": "7b2449af-6ccd-4f4d-9f78-e550c193f0d1", "type": "Role" },
+      { "id": "01d4889c-1287-42c6-ac1f-5d1e02578ef6", "type": "Role" },
       { "id": "df021288-bdef-4463-88db-98f22de89214", "type": "Role" },
-      { "id": "6b7d71aa-70aa-4810-a8d9-5d9fb2830017", "type": "Scope" },
-      { "id": "7b2449af-571a-4f28-b208-4b8f865d5da6", "type": "Scope" },
-      { "id": "01d4f6a5-17f3-4c51-b160-bfc8e3fe57ba", "type": "Scope" },
-      { "id": "b9bb2381-47a4-46cd-aafb-00cb12f68504", "type": "Scope" },
-      { "id": "116b7235-7cc6-461e-b163-8e55691d839e", "type": "Scope" },
-      { "id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d", "type": "Scope" }
+      { "id": "767156cb-16ae-4d10-8f8b-41b657c8c8c8", "type": "Scope" },
+      { "id": "ebf0f66e-9fb1-49e4-a278-222f76911cf4", "type": "Scope" },
+      { "id": "9ff7295e-131b-4d94-90e1-69fde507ac11", "type": "Scope" },
+      { "id": "df85f4d6-205c-4ac5-a5ea-6bf408dba283", "type": "Scope" },
+      { "id": "7427e0e9-2fba-42fe-b0c0-848c9e6a8182", "type": "Scope" }
     ]
   }
 ]
