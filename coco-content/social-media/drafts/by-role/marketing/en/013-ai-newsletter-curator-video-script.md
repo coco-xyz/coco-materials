@@ -24,4 +24,4 @@ Voiceover: "Newsletter production: 6 hours down to 75 minutes. Open rate after 4
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

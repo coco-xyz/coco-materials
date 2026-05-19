@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: New team member, first week, confidently accessing organized knowledge base. Senior leader preparing for client meeting with a pre-built knowledge pull.
-[Voiceover]: "60% less search time. Knowledge that compounds instead of disappearing. — Try COCO at coco.xyz"
+[Voiceover]: "60% less search time. Knowledge that compounds instead of disappearing. — Try COCO at icoco.ai"

@@ -11,7 +11,7 @@ head:
       content: "AI Agent 自动化社媒内容创作与 BD 外联。从一条 prompt 到完整运营模型 — AI 扛产量，人管策略。"
   - - meta
     - property: og:image
-      content: "https://docs.coco.xyz/coco-logo-black.png"
+      content: "https://docs.icoco.ai/coco-logo-black.png"
 ---
 
 <style>
@@ -1018,7 +1018,7 @@ COCO 和她一起设计了覆盖市场、BD、销售运营的全套工作流：
   <div class="case-cta">
     <h2>让 AI 接管你的内容产量</h2>
     <p>从一条消息开始，构建完整运营模型</p>
-    <a href="https://coco.xyz" class="cta-btn">开始试用 COCO</a>
+    <a href="https://icoco.ai" class="cta-btn">开始试用 COCO</a>
   </div>
 </div>
 

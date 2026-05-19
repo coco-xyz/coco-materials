@@ -24,4 +24,4 @@ Voiceover: "Idle resource cleanup and rightsizing produce 10-20% immediate cost 
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

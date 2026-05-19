@@ -24,4 +24,4 @@ Voiceover: "APIs reviewed with COCO receive 40% higher developer satisfaction sc
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

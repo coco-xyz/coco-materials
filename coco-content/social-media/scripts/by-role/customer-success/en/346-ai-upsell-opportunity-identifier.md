@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: CSM closing an upsell with a confident, customer-first conversation; NRR dashboard climbing past 120%
-[Voiceover]: "Expansion conversion up to 41%. NRR from 109% to 124%. Try COCO at coco.xyz"
+[Voiceover]: "Expansion conversion up to 41%. NRR from 109% to 124%. Try COCO at icoco.ai"

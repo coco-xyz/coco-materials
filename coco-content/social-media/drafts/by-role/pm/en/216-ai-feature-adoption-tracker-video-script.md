@@ -24,4 +24,4 @@ Voiceover: "Mid-use abandonment rates down 30-45%. Expansion campaigns targeted 
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

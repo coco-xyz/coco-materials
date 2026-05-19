@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Green milestone checkmarks advancing on a customer dashboard, CSM shaking hands with a happy customer at a QBR
-[Voiceover]: "90-day churn cut by more than half. First value achieved in 30 days, not 47. Try COCO at coco.xyz"
+[Voiceover]: "90-day churn cut by more than half. First value achieved in 30 days, not 47. Try COCO at icoco.ai"

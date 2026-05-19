@@ -29,6 +29,6 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: Researcher reviewing a polished literature review draft, submitting to a journal, then receiving an acceptance notification
-[Voiceover]: "3x more papers covered. 22% fewer desk rejections. Your literature review done right — Try COCO at coco.xyz"
+[Voiceover]: "3x more papers covered. 22% fewer desk rejections. Your literature review done right — Try COCO at icoco.ai"
 
 ---

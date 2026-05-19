@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: CFO presenting benchmark data to department heads. Clear, depersonalized targets. G&A efficiency roadmap on screen.
-[Voiceover]: "$2.1M in above-benchmark spending identified. Management alignment improved 58%. Try COCO at coco.xyz"
+[Voiceover]: "$2.1M in above-benchmark spending identified. Management alignment improved 58%. Try COCO at icoco.ai"

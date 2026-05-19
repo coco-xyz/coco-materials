@@ -56,7 +56,7 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 
 ### Step 2: Connect in COCO Dashboard
 
-1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
+1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
 2. Open the **Channels** page and find the **Telegram** card
 3. Paste the **Bot Token** from Step 1
 4. Click **Connect**
@@ -189,7 +189,7 @@ In the app management page, go to **Permissions & Scopes**. Click **Batch Import
 
 #### Step 5: Connect in COCO Dashboard and Deploy
 
-1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
+1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
 2. Go to the channel configuration page, select **Lark**
 3. Enter the following credentials:
 
@@ -347,7 +347,7 @@ In the Permission Management page, copy the following JSON and import all permis
 
 #### Step 5: Connect in COCO Dashboard and Deploy
 
-1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
+1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
 2. Go to the channel configuration page, select **Feishu**
 3. Enter the following credentials:
 
@@ -685,7 +685,7 @@ No credentials are required. You only need:
 
 ### Step 1: Create an AI Employee and Enter Configuration Page
 
-1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
+1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
 2. Create a new AI employee or select an existing instance
 3. Click **Configure →** on the employee card to enter the instance detail page
 

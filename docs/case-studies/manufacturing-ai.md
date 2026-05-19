@@ -11,7 +11,7 @@ head:
       content: "Manufacturing AI case study: four real pain points, four practical AI solutions. Enterprise AI automation that actually works on the factory floor."
   - - meta
     - property: og:image
-      content: "https://docs.coco.xyz/coco-logo-black.png"
+      content: "https://docs.icoco.ai/coco-logo-black.png"
 ---
 
 <style>
@@ -1026,7 +1026,7 @@ In the current version, Skill persistence is managed through visual storage (Git
   <div class="case-cta">
     <h2>Bring AI to Your Factory Floor</h2>
     <p>Start with a real problem, find the right solution</p>
-    <a href="https://coco.xyz" class="cta-btn">Try COCO Today</a>
+    <a href="https://icoco.ai" class="cta-btn">Try COCO Today</a>
   </div>
 </div>
 

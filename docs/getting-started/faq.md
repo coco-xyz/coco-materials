@@ -212,7 +212,7 @@ You can also take action directly on the source platform for the most thorough r
 **Emergency Situations**
 
 If you notice abnormal activity, in addition to the above steps:
-- Contact COCO support immediately (support@coco.xyz) — we will help investigate
+- Contact COCO support immediately (support@icoco.ai) — we will help investigate
 - For server security concerns, you can disable the account directly on the server side (`usermod -L coco-agent`)
 
 **Data Handling After Revocation**
@@ -302,11 +302,11 @@ In short: ChatGPT is a smart Q&A tool. COCO is a digital employee that proactive
 **Full Onboarding Flow (approximately 15 minutes)**
 
 1. Register a COCO account and choose a plan
-2. Follow the [Channel Deployment Guide](https://docs.coco.xyz) to connect your channel (Telegram: ~5 min; Lark: ~10 min; Zalo (Official): ~5 min)
+2. Follow the [Channel Deployment Guide](https://docs.icoco.ai) to connect your channel (Telegram: ~5 min; Lark: ~10 min; Zalo (Official): ~5 min)
 3. Complete the Onboarding in the Dashboard (select your role; the AI employee initializes automatically)
 4. Send your first message and start collaborating
 
-For deployment assistance, contact support (support@coco.xyz) or your customer group — we offer 1-on-1 Onboarding support.
+For deployment assistance, contact support (support@icoco.ai) or your customer group — we offer 1-on-1 Onboarding support.
 
 :::
 

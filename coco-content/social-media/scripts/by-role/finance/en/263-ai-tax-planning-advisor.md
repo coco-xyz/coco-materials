@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: Finance team executing 7 year-end actions. Tax provision showing a 4-point rate reduction. CFO presenting improved after-tax earnings.
-[Voiceover]: "Average effective tax rate down 4 points. Year-end planning actions up from 2 to 7. Try COCO at coco.xyz"
+[Voiceover]: "Average effective tax rate down 4 points. Year-end planning actions up from 2 to 7. Try COCO at icoco.ai"

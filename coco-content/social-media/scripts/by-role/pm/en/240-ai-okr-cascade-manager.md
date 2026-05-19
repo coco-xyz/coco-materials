@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: A clean OKR review session where every KR is clearly connected to company strategy; a PM nodding confidently
-[Voiceover]: "58% higher OKR quality. 8-day planning cycle instead of 3 weeks. Try COCO at coco.xyz"
+[Voiceover]: "58% higher OKR quality. 8-day planning cycle instead of 3 weeks. Try COCO at icoco.ai"

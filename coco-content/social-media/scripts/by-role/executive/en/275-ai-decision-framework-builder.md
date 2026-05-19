@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: Executive presenting a decision confidently to board members, who nod approvingly. Clean decision memo on screen.
-[Voiceover]: "Better decisions, documented reasoning, 41% fewer regrets. — Try COCO at coco.xyz"
+[Voiceover]: "Better decisions, documented reasoning, 41% fewer regrets. — Try COCO at icoco.ai"

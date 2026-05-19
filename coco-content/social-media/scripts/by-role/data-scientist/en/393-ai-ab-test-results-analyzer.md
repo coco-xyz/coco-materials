@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Data scientist presenting a rigorous experiment readout in 20 minutes instead of 3 hours, PM saying "this is the clearest experiment analysis we've ever gotten"
-[Voiceover]: "Rigorous A/B analysis in minutes. Ship with confidence. Try COCO at coco.xyz"
+[Voiceover]: "Rigorous A/B analysis in minutes. Ship with confidence. Try COCO at icoco.ai"

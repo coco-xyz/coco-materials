@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: CSM proactively calling a customer 52 days before renewal, health scores turning green across the portfolio
-[Voiceover]: "Cut gross churn from 12% to 7.4%. Catch problems 52 days earlier. Try COCO at coco.xyz"
+[Voiceover]: "Cut gross churn from 12% to 7.4%. Catch problems 52 days earlier. Try COCO at icoco.ai"

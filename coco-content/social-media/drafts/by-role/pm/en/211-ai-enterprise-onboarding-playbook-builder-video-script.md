@@ -24,4 +24,4 @@ Voiceover: "CSM ramp time cut from 10 weeks to 5. Onboarding NPS improves 20-30 
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

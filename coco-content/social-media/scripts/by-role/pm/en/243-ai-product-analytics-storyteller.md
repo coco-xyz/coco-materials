@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: An executive meeting where a PM presents a crisp narrative and a decision gets made on the spot
-[Voiceover]: "47% more decisions per analytics presentation. 76% of executives actually understand your product performance. Try COCO at coco.xyz"
+[Voiceover]: "47% more decisions per analytics presentation. 76% of executives actually understand your product performance. Try COCO at icoco.ai"

@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: CSM confidently calling the customer with a clear agenda, health score moving from yellow to green over 30 days
-[Voiceover]: "Health score utilization up to 81%. Churn on interpreted accounts: 6.2% vs 17.8%. Try COCO at coco.xyz"
+[Voiceover]: "Health score utilization up to 81%. Churn on interpreted accounts: 6.2% vs 17.8%. Try COCO at icoco.ai"

@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Leadership meeting with clear findings on screen, managers receiving specific action plans, employees noticing things are changing
-[Voiceover]: "100% of responses analyzed. 41% better attrition prediction. Action in days. Try COCO at coco.xyz"
+[Voiceover]: "100% of responses analyzed. 41% better attrition prediction. Action in days. Try COCO at icoco.ai"

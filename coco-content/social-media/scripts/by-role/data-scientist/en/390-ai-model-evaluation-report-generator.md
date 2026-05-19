@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Polished model evaluation doc shared in Notion, PM commenting "finally I understand what recall means for us", model review meeting lasting 20 minutes instead of 90
-[Voiceover]: "From 4 hours to 35 minutes. Complete reports, every time. Try COCO at coco.xyz"
+[Voiceover]: "From 4 hours to 35 minutes. Complete reports, every time. Try COCO at icoco.ai"

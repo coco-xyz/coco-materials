@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: New team member understanding 3 months of experimental history in half a day; audit readout showing clear model selection rationale; no repeated experiments
-[Voiceover]: "78% more reproducible. 45% fewer repeated experiments. Try COCO at coco.xyz"
+[Voiceover]: "78% more reproducible. 45% fewer repeated experiments. Try COCO at icoco.ai"

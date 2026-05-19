@@ -35,7 +35,7 @@
 ### Scene 7: CTA (50-55s)
 **Visual:** COCO logo centered, tagline
 **Text:** "COCO — The employee that never forgets to report"
-**URL:** "coco.xyz"
+**URL:** "icoco.ai"
 
 ---
 

@@ -11,7 +11,7 @@ head:
       content: "Automate social media content and BD outreach with AI Agents. From one prompt to a full operations model — AI handles volume, humans handle strategy."
   - - meta
     - property: og:image
-      content: "https://docs.coco.xyz/coco-logo-black.png"
+      content: "https://docs.icoco.ai/coco-logo-black.png"
 ---
 
 <style>
@@ -1018,7 +1018,7 @@ After the Singapore tech media team integrated COCO:
   <div class="case-cta">
     <h2>Let AI Take Over Your Content Volume</h2>
     <p>Start with a single message, build a complete operations model</p>
-    <a href="https://coco.xyz" class="cta-btn">Try COCO Free</a>
+    <a href="https://icoco.ai" class="cta-btn">Try COCO Free</a>
   </div>
 </div>
 

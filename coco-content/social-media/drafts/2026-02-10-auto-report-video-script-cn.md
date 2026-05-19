@@ -41,7 +41,7 @@
 ### 场景7：CTA（40.5-45秒）
 **画面：** COCO Logo
 **文字：** "COCO — 永远不忘写日报的员工"
-**URL：** coco.xyz
+**URL：** icoco.ai
 
 ---
 

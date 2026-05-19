@@ -24,4 +24,4 @@ Voiceover: "CRM data completeness: from 61% to 94%. Pipeline forecast accuracy: 
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

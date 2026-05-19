@@ -41,7 +41,7 @@
 ### 场景7：CTA（32-36秒）
 **画面：** COCO Logo
 **文字：** "COCO — 永不休息的竞品分析师"
-**URL：** coco.xyz
+**URL：** icoco.ai
 
 ---
 

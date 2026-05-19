@@ -24,4 +24,4 @@ Voiceover: "6 months later: competitive win rate improved from 34% to 52%. Deals
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

@@ -21,7 +21,7 @@ Complete guide from registration to getting started.
 ## Step 1: Register / Login
 
 ### 1.1 Visit COCO Website
-- Open [coco.xyz](https://coco.xyz)
+- Open [icoco.ai](https://icoco.ai)
 - Click the **Login** button in the top right
 
 ### 1.2 Registration Methods
@@ -37,8 +37,8 @@ Complete guide from registration to getting started.
   - **Dashboard** — Management console
   - **Settings** — Personal settings
   - **Billing** — Subscription management
-  - **Use Cases** — View use cases (redirects to docs.coco.xyz)
-  - **Docs** — Help documentation (redirects to docs.coco.xyz)
+  - **Use Cases** — View use cases (redirects to docs.icoco.ai)
+  - **Docs** — Help documentation (redirects to docs.icoco.ai)
   - **Log out** — Sign out
 
 ---

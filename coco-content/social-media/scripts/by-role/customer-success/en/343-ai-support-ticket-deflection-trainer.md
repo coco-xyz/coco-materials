@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Customer finding self-service answer at 2 AM, support queue shrinking, deflection rate climbing
-[Voiceover]: "28% more tickets deflected. Knowledge base coverage from 41% to 87%. Try COCO at coco.xyz"
+[Voiceover]: "28% more tickets deflected. Knowledge base coverage from 41% to 87%. Try COCO at icoco.ai"

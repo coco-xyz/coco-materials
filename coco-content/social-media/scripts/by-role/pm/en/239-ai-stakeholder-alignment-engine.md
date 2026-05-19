@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: A PM presenting in an executive meeting with full confidence; a calendar with 1.5 days freed up
-[Voiceover]: "41% fewer launch-blocking conflicts. 1.5 days per week back for actual product work. Try COCO at coco.xyz"
+[Voiceover]: "41% fewer launch-blocking conflicts. 1.5 days per week back for actual product work. Try COCO at icoco.ai"

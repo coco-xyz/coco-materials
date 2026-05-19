@@ -212,7 +212,7 @@ AI 员工会协助你完成凭证删除，并确认撤销完成。
 **紧急情况**
 
 如果发现异常操作，除以上步骤外：
-- 立即联系 COCO 客服（support@coco.xyz），我们会协助排查
+- 立即联系 COCO 客服（support@icoco.ai），我们会协助排查
 - 如涉及服务器安全，可直接在服务器侧禁用该账号（`usermod -L coco-agent`）
 
 **撤销后的数据处理**
@@ -302,11 +302,11 @@ AI 员工会告诉你当前的支持情况和推荐的接入方式。
 **完整流程（约 15 分钟）**
 
 1. 注册 COCO 账号并选择套餐
-2. 参考 [渠道部署指南](https://docs.coco.xyz) 完成渠道连接（Telegram 约 5 分钟；Lark 约 10 分钟；Zalo (官方) 约 5 分钟）
+2. 参考 [渠道部署指南](https://docs.icoco.ai) 完成渠道连接（Telegram 约 5 分钟；Lark 约 10 分钟；Zalo (官方) 约 5 分钟）
 3. 在 Dashboard 完成 Onboarding（选择你的角色，AI 员工自动初始化）
 4. 发送第一条消息，开始协作
 
-如需协助部署，联系客服（support@coco.xyz）或客户群，我们提供 1 对 1 Onboarding 支持。
+如需协助部署，联系客服（support@icoco.ai）或客户群，我们提供 1 对 1 Onboarding 支持。
 
 :::
 

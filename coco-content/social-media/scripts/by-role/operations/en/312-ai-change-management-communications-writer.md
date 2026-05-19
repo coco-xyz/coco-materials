@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Adoption dashboard showing 85% system adoption at 30 days. Employees confidently using the new system. Manager having a calm, informed team conversation.
-[Voiceover]: "3x higher adoption. Teams that actually embrace change instead of fighting it — try COCO at coco.xyz"
+[Voiceover]: "3x higher adoption. Teams that actually embrace change instead of fighting it — try COCO at icoco.ai"

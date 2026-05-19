@@ -21,7 +21,7 @@
 ## 步骤1：注册 / 登录
 
 ### 1.1 访问COCO官网
-- 打开 [coco.xyz](https://coco.xyz)
+- 打开 [icoco.ai](https://icoco.ai)
 - 点击右上角 **Login** 按钮
 
 ### 1.2 注册方式
@@ -37,8 +37,8 @@
   - **Dashboard** — 进入管理后台
   - **Settings** — 个人设置
   - **Billing** — 账单与套餐管理
-  - **Use Cases** — 查看使用案例（跳转 docs.coco.xyz）
-  - **Docs** — 帮助文档（跳转 docs.coco.xyz）
+  - **Use Cases** — 查看使用案例（跳转 docs.icoco.ai）
+  - **Docs** — 帮助文档（跳转 docs.icoco.ai）
   - **Log out** — 退出登录
 
 ---

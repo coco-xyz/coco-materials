@@ -24,7 +24,7 @@ COCO's AI Resume Screener does it in 2 hours -- and explains WHY each candidate 
 
 No black box. Just faster, fairer hiring.
 
-Try it free: coco.xyz
+Try it free: icoco.ai
 
 #### 中文社媒文案
 
@@ -38,7 +38,7 @@ Try it free: coco.xyz
 HR小姐姐终于不用加班到凌晨了。
 
 真正的AI数字员工，不是聊天机器人。
-coco.xyz 免费试用
+icoco.ai 免费试用
 
 #### Video Script (English, 45-60s)
 
@@ -62,7 +62,7 @@ coco.xyz 免费试用
 **Scene 4 (40-50s): CTA**
 [Visual]: COCO logo (yellow coconut tree)
 [Text]: "Hire your AI employee today"
-[URL]: coco.xyz
+[URL]: icoco.ai
 
 ---
 
@@ -79,7 +79,7 @@ Writing job descriptions takes 2 hours each. Most still use gendered language an
 
 COCO writes inclusive, SEO-optimized JDs in 10 minutes. From role brief to publish-ready.
 
-Stop losing candidates to bad listings: coco.xyz
+Stop losing candidates to bad listings: icoco.ai
 
 #### 中文社媒文案
 
@@ -92,7 +92,7 @@ COCO的AI JD写手：
 - 支持中英双语输出
 
 一天写10个JD？轻松搞定。
-coco.xyz
+icoco.ai
 
 #### Video Script (English, 45-60s)
 
@@ -116,7 +116,7 @@ coco.xyz
 **Scene 4 (40-50s): CTA**
 [Visual]: COCO logo (yellow coconut tree)
 [Text]: "Hire your AI employee today"
-[URL]: coco.xyz
+[URL]: icoco.ai
 
 ---
 
@@ -133,7 +133,7 @@ Scheduling one interview = 45 min of calendar Tetris across 5 people.
 
 COCO's AI Interview Scheduler checks availability, finds slots, and sends invites in 3 minutes. Handles reschedules too.
 
-Free your recruiters from email chains: coco.xyz
+Free your recruiters from email chains: icoco.ai
 
 #### 中文社媒文案
 
@@ -148,7 +148,7 @@ COCO的AI面试调度员：
 - 候选人改时间？AI自动重新协调
 
 再也不用当"人肉日历同步器"了。
-coco.xyz
+icoco.ai
 
 #### Video Script (English, 45-60s)
 
@@ -172,7 +172,7 @@ coco.xyz
 **Scene 4 (40-50s): CTA**
 [Visual]: COCO logo (yellow coconut tree)
 [Text]: "Hire your AI employee today"
-[URL]: coco.xyz
+[URL]: icoco.ai
 
 ---
 
@@ -189,7 +189,7 @@ New hires wait 2 weeks to feel productive. Half their questions go unanswered un
 
 COCO builds personalized onboarding plans and answers questions 24/7. 2 weeks --> 3 days to full ramp.
 
-Better starts at coco.xyz
+Better starts at icoco.ai
 
 #### 中文社媒文案
 
@@ -206,7 +206,7 @@ COCO的AI入职助手：
 - 3天完成原来2周的事
 
 让新同事第一天就有"被重视"的感觉。
-coco.xyz
+icoco.ai
 
 #### Video Script (English, 45-60s)
 
@@ -230,7 +230,7 @@ coco.xyz
 **Scene 4 (40-50s): CTA**
 [Visual]: COCO logo (yellow coconut tree)
 [Text]: "Hire your AI employee today"
-[URL]: coco.xyz
+[URL]: icoco.ai
 
 ---
 
@@ -251,7 +251,7 @@ Your finance team reviews 200 expense reports monthly. That's 66 hours of checki
 
 COCO's AI Expense Auditor reviews instantly. Flags violations. Auto-approves the rest.
 
-66 hours --> 0. See how: coco.xyz
+66 hours --> 0. See how: icoco.ai
 
 #### 中文社媒文案
 
@@ -266,7 +266,7 @@ COCO的AI报销审核员：
 - 违规的标注原因，推给人工复核
 
 月底再也不用加班核报销了。
-coco.xyz
+icoco.ai
 
 #### Video Script (English, 45-60s)
 
@@ -290,7 +290,7 @@ coco.xyz
 **Scene 4 (40-50s): CTA**
 [Visual]: COCO logo (yellow coconut tree)
 [Text]: "Hire your AI employee today"
-[URL]: coco.xyz
+[URL]: icoco.ai
 
 ---
 
@@ -307,7 +307,7 @@ Monthly financial reports: 2 days pulling data from 6 systems, fixing formatting
 
 COCO compiles, reconciles, and formats your reports in 3 hours. From raw data to board-ready.
 
-Finance teams love this: coco.xyz
+Finance teams love this: icoco.ai
 
 #### 中文社媒文案
 
@@ -322,7 +322,7 @@ COCO的AI财报生成员：
 - 2天的活，3小时搞定
 
 CFO再也不用催了。
-coco.xyz
+icoco.ai
 
 #### Video Script (English, 45-60s)
 
@@ -346,7 +346,7 @@ coco.xyz
 **Scene 4 (40-50s): CTA**
 [Visual]: COCO logo (yellow coconut tree)
 [Text]: "Hire your AI employee today"
-[URL]: coco.xyz
+[URL]: icoco.ai
 
 ---
 
@@ -363,7 +363,7 @@ Manual invoice processing: 15 min each. Data entry, PO matching, approval routin
 
 COCO extracts, matches, and routes invoices in 30 seconds. 30x faster. Zero typos.
 
-Accounts payable, automated: coco.xyz
+Accounts payable, automated: icoco.ai
 
 #### 中文社媒文案
 
@@ -378,7 +378,7 @@ COCO的AI发票处理员：
 - 异常发票自动拦截标注
 
 一天处理500张发票？COCO说没问题。
-coco.xyz
+icoco.ai
 
 #### Video Script (English, 45-60s)
 
@@ -402,7 +402,7 @@ coco.xyz
 **Scene 4 (40-50s): CTA**
 [Visual]: COCO logo (yellow coconut tree)
 [Text]: "Hire your AI employee today"
-[URL]: coco.xyz
+[URL]: icoco.ai
 
 ---
 
@@ -423,7 +423,7 @@ Every meeting ends the same way: "Can someone send notes?" Then 30 min of writin
 
 COCO records, summarizes, and assigns action items -- instantly. Zero post-meeting work.
 
-Meetings that actually matter: coco.xyz
+Meetings that actually matter: icoco.ai
 
 #### 中文社媒文案
 
@@ -440,7 +440,7 @@ COCO的AI会议记录员：
 - 跟踪进度，到期自动提醒
 
 开会的价值不在"记住说了什么"，而在"做到说的事"。
-coco.xyz
+icoco.ai
 
 #### Video Script (English, 45-60s)
 
@@ -464,7 +464,7 @@ coco.xyz
 **Scene 4 (40-50s): CTA**
 [Visual]: COCO logo (yellow coconut tree)
 [Text]: "Hire your AI employee today"
-[URL]: coco.xyz
+[URL]: icoco.ai
 
 ---
 
@@ -481,7 +481,7 @@ Manual inventory forecasting: one spreadsheet, once a week, always slightly wron
 
 COCO analyzes sales trends, seasons, and supplier lead times -- in real time. Fewer stockouts. Less dead stock.
 
-Predict smarter: coco.xyz
+Predict smarter: icoco.ai
 
 #### 中文社媒文案
 
@@ -497,7 +497,7 @@ COCO的AI库存预测员：
 
 从"每周猜一次"变成"实时精准预测"。
 某零售客户用了3个月，库存周转率提升35%。
-coco.xyz
+icoco.ai
 
 #### Video Script (English, 45-60s)
 
@@ -521,7 +521,7 @@ coco.xyz
 **Scene 4 (40-50s): CTA**
 [Visual]: COCO logo (yellow coconut tree)
 [Text]: "Hire your AI employee today"
-[URL]: coco.xyz
+[URL]: icoco.ai
 
 ---
 
@@ -538,7 +538,7 @@ Evaluating 5 vendor proposals: 1 week of reading contracts, building comparison 
 
 COCO analyzes, compares, and ranks vendors in 2 hours -- with a written recommendation for each.
 
-Procurement, accelerated: coco.xyz
+Procurement, accelerated: icoco.ai
 
 #### 中文社媒文案
 
@@ -553,7 +553,7 @@ COCO的AI供应商评估员：
 - 每家都有详细评估理由
 
 1周的活 → 2小时。采购效率直接翻倍。
-coco.xyz
+icoco.ai
 
 #### Video Script (English, 45-60s)
 
@@ -577,7 +577,7 @@ coco.xyz
 **Scene 4 (40-50s): CTA**
 [Visual]: COCO logo (yellow coconut tree)
 [Text]: "Hire your AI employee today"
-[URL]: coco.xyz
+[URL]: icoco.ai
 
 ---
 

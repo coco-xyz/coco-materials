@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Recruiter making a competitive offer with confidence, compensation committee approving a clear range structure, employees reading total rewards statements
-[Voiceover]: "31% fewer rejected offers. 60% faster compliance prep. Pay you can defend. Try COCO at coco.xyz"
+[Voiceover]: "31% fewer rejected offers. 60% faster compliance prep. Pay you can defend. Try COCO at icoco.ai"

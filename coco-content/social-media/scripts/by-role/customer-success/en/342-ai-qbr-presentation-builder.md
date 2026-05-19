@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Executive engaged at QBR, nodding, the renewal conversation is being scheduled on the spot
-[Voiceover]: "Executive attendance up to 71%. Renewal rate 89% for accounts with quality QBRs. Try COCO at coco.xyz"
+[Voiceover]: "Executive attendance up to 71%. Renewal rate 89% for accounts with quality QBRs. Try COCO at icoco.ai"

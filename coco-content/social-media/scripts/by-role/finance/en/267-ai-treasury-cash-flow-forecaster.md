@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: Cash forecast accuracy chart rising. Treasury team updating the forecast in 2 hours instead of 8. CFO seeing a clear cash runway graphic.
-[Voiceover]: "Forecast accuracy up to 92%. Prep time down from 8 to 2 hours. $75K saved in revolving interest. Try COCO at coco.xyz"
+[Voiceover]: "Forecast accuracy up to 92%. Prep time down from 8 to 2 hours. $75K saved in revolving interest. Try COCO at icoco.ai"

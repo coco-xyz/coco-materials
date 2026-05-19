@@ -24,4 +24,4 @@ Voiceover: "After 3 months: Ad Strength scores went from 48% "Good/Excellent" to
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

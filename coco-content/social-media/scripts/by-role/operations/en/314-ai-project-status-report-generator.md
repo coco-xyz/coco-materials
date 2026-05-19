@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Crisp, one-page status report on screen. Steering committee making a clear, timely decision. Project back on track.
-[Voiceover]: "70% less reporting time. Status reports that drive decisions, not just check boxes — generate yours at coco.xyz"
+[Voiceover]: "70% less reporting time. Status reports that drive decisions, not just check boxes — generate yours at icoco.ai"

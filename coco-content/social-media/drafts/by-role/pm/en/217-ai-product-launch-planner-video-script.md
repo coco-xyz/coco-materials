@@ -24,4 +24,4 @@ Voiceover: "Day-1 support ticket volume down 30% through better CS training and 
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

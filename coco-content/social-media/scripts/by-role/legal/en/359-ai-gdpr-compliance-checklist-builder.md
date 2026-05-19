@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Compliance officer presenting a green-dominant compliance dashboard to the board, a DPA authority audit letter showing "No Action Required."
-[Voiceover]: "55% faster audit prep. 10× lower remediation cost. Board-ready compliance visibility — try COCO at coco.xyz"
+[Voiceover]: "55% faster audit prep. 10× lower remediation cost. Board-ready compliance visibility — try COCO at icoco.ai"

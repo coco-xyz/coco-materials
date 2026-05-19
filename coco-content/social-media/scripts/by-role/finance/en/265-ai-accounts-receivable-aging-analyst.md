@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: AR team working from a COCO priority list. DSO graph trending down. CFO reviewing improved cash flow forecast.
-[Voiceover]: "DSO down 9 days. Bad debt write-offs down 30%. $700K cash released. Try COCO at coco.xyz"
+[Voiceover]: "DSO down 9 days. Bad debt write-offs down 30%. $700K cash released. Try COCO at icoco.ai"

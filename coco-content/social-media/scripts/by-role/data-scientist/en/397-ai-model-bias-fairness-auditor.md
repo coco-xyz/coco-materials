@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Complete fairness audit report delivered to compliance team, regulatory review resolved with documentation, model cleared for deployment
-[Voiceover]: "60% less time on audit documentation. Compliance confidence. Try COCO at coco.xyz"
+[Voiceover]: "60% less time on audit documentation. Compliance confidence. Try COCO at icoco.ai"

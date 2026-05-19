@@ -24,4 +24,4 @@ Voiceover: "Screening time: from 56 hours to 23 minutes. Quality of shortlist: 3
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: Executive starting Monday morning reviewing a clean next-week priority card. Calm and focused instead of reactive.
-[Voiceover]: "20-minute review. 28% better priority achievement. Start every Monday knowing exactly where to focus. — Try COCO at coco.xyz"
+[Voiceover]: "20-minute review. 28% better priority achievement. Start every Monday knowing exactly where to focus. — Try COCO at icoco.ai"

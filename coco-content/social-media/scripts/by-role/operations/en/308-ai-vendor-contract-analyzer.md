@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Operations manager negotiating confidently with a vendor, renewal dates tracked on a clean dashboard, finance team reviewing favorable contract terms.
-[Voiceover]: "Review contracts in 90 minutes, not 8 hours. Catch risk before it costs you — start at coco.xyz"
+[Voiceover]: "Review contracts in 90 minutes, not 8 hours. Catch risk before it costs you — start at icoco.ai"

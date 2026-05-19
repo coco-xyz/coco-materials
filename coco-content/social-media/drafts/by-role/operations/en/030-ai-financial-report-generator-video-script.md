@@ -24,4 +24,4 @@ Voiceover: "Report production time: from 3 days to 4 hours. Error rate in financ
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

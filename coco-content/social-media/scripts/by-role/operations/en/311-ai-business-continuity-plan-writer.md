@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Tabletop exercise in progress, team confidently executing recovery procedures, auditor approving documentation, operations returning to normal within target timeframes.
-[Voiceover]: "Recover 50% faster. Pass audits with confidence. Know exactly what to do when things go wrong — build your BCP at coco.xyz"
+[Voiceover]: "Recover 50% faster. Pass audits with confidence. Know exactly what to do when things go wrong — build your BCP at icoco.ai"

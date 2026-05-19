@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: Clean one-page executive report. Budget waste reduction counter. Marketing manager presenting confidently to CFO.
-[Voiceover]: "2 hours of analysis instead of 12. 28% less wasted ad spend. Reports your CFO actually trusts. Try COCO at coco.xyz"
+[Voiceover]: "2 hours of analysis instead of 12. 28% less wasted ad spend. Reports your CFO actually trusts. Try COCO at icoco.ai"

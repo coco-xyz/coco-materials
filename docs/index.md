@@ -15,8 +15,8 @@ hero:
       text: See What COCO Can Do
       link: /use-cases/
     - theme: alt
-      text: Visit coco.xyz
-      link: https://coco.xyz
+      text: Visit icoco.ai
+      link: https://icoco.ai
 
 features:
   - icon: ⚡
@@ -189,7 +189,7 @@ Your first AI employee is 2 minutes away.
 
 <div class="cta-buttons">
 <a href="./getting-started/" class="cta-primary">Get Started</a>
-<a href="https://coco.xyz" class="cta-secondary" target="_blank">Learn More at coco.xyz</a>
+<a href="https://icoco.ai" class="cta-secondary" target="_blank">Learn More at icoco.ai</a>
 </div>
 
 </div>

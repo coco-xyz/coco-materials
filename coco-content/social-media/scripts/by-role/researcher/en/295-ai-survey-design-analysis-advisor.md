@@ -29,6 +29,6 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: Clean, validated survey instrument; acceptance notification from journal; confident researcher presenting findings
-[Voiceover]: "31% fewer missed responses. 45% fewer analysis errors. Survey research done right — Try COCO at coco.xyz"
+[Voiceover]: "31% fewer missed responses. 45% fewer analysis errors. Survey research done right — Try COCO at icoco.ai"
 
 ---

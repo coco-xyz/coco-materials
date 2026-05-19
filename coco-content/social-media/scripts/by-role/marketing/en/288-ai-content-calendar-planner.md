@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: Publishing consistency dashboard showing 90% adherence. Content strategist planning for next quarter — not firefighting today's gaps.
-[Voiceover]: "90% publishing consistency. 60 minutes of planning instead of 6 hours. Content that actually compounds. Try COCO at coco.xyz"
+[Voiceover]: "90% publishing consistency. 60 minutes of planning instead of 6 hours. Content that actually compounds. Try COCO at icoco.ai"

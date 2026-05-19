@@ -24,4 +24,4 @@ Voiceover: "Journey mapping time drops from 3-4 weeks to 2-3 days. Onboarding co
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

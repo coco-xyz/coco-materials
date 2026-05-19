@@ -29,6 +29,6 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: Strategy team reviewing a clean market research report and making a clear entry decision; 65% cost reduction badge appears
-[Voiceover]: "65% lower research costs. 2x the source coverage. Market intelligence that arrives before the decision — Try COCO at coco.xyz"
+[Voiceover]: "65% lower research costs. 2x the source coverage. Market intelligence that arrives before the decision — Try COCO at icoco.ai"
 
 ---

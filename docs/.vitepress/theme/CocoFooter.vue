@@ -12,7 +12,7 @@ const columns = computed(() => {
       {
         title: '产品',
         links: [
-          { text: 'Agent Cloud', href: 'https://coco.xyz/#pricing' },
+          { text: 'Agent Cloud', href: 'https://icoco.ai/#pricing' },
           { text: 'Zylos', href: 'https://github.com/zylos-ai' },
           { text: 'HxA Suite', href: 'https://github.com/coco-xyz' },
         ],
@@ -29,14 +29,14 @@ const columns = computed(() => {
         title: '资源',
         links: [
           { text: '文档', href: withBase('/zh/') },
-          { text: 'COCO', href: 'https://coco.xyz' },
+          { text: 'COCO', href: 'https://icoco.ai' },
           { text: 'ZYLOS-Ai', href: 'https://github.com/zylos-ai' },
         ],
       },
       {
         title: '公司',
         links: [
-          { text: '联系我们', href: 'mailto:hi@coco.xyz' },
+          { text: '联系我们', href: 'mailto:hi@icoco.ai' },
         ],
       },
     ]
@@ -45,7 +45,7 @@ const columns = computed(() => {
     {
       title: 'Products',
       links: [
-        { text: 'Agent Cloud', href: 'https://coco.xyz/#pricing' },
+        { text: 'Agent Cloud', href: 'https://icoco.ai/#pricing' },
         { text: 'Zylos', href: 'https://github.com/zylos-ai' },
         { text: 'HxA Suite', href: 'https://github.com/coco-xyz' },
       ],
@@ -62,14 +62,14 @@ const columns = computed(() => {
       title: 'Resources',
       links: [
         { text: 'Docs', href: withBase('/') },
-        { text: 'COCO', href: 'https://coco.xyz' },
+        { text: 'COCO', href: 'https://icoco.ai' },
         { text: 'ZYLOS-Ai', href: 'https://github.com/zylos-ai' },
       ],
     },
     {
       title: 'Company',
       links: [
-        { text: 'Contact', href: 'mailto:hi@coco.xyz' },
+        { text: 'Contact', href: 'mailto:hi@icoco.ai' },
       ],
     },
   ]

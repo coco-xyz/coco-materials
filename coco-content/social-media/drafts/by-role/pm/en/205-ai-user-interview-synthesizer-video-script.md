@@ -24,4 +24,4 @@ Voiceover: "Research-to-roadmap lag cut from 6 weeks to under 2. Teams surface 3
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

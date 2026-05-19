@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Job posting live on LinkedIn, applicant tracker filling with relevant candidates, hiring manager giving thumbs up
-[Voiceover]: "85% faster JDs, better candidate quality, fewer legal rounds. Try COCO at coco.xyz"
+[Voiceover]: "85% faster JDs, better candidate quality, fewer legal rounds. Try COCO at icoco.ai"

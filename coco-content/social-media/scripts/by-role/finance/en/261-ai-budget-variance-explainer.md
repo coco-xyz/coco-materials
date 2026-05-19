@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: CFO presenting with confidence. A concise variance commentary slide. Management meeting wrapping up 20 minutes early.
-[Voiceover]: "78% of COCO's variance explanations get accepted first pass. Monthly prep time drops from 30 hours to 5. Try COCO at coco.xyz"
+[Voiceover]: "78% of COCO's variance explanations get accepted first pass. Monthly prep time drops from 30 hours to 5. Try COCO at icoco.ai"

@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: Before/after content comparison. Brand voice alignment scores rising across all channels. Published content looking and sounding coherent.
-[Voiceover]: "84% voice alignment across all content. 40% fewer voice errors per piece. A brand that sounds like one company. Try COCO at coco.xyz"
+[Voiceover]: "84% voice alignment across all content. 40% fewer voice errors per piece. A brand that sounds like one company. Try COCO at icoco.ai"

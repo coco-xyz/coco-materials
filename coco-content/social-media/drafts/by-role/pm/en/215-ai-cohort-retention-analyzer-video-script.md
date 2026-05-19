@@ -24,4 +24,4 @@ Voiceover: "Churn prediction precision at Day 7 reaches 75-85%. At-risk user ide
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

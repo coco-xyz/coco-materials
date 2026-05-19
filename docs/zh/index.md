@@ -15,8 +15,8 @@ hero:
       text: 看看 COCO 能做什么
       link: /zh/use-cases/
     - theme: alt
-      text: 访问 coco.xyz
-      link: https://coco.xyz
+      text: 访问 icoco.ai
+      link: https://icoco.ai
 
 features:
   - icon: ⚡
@@ -189,7 +189,7 @@ COCO 在你团队已有的工具中工作。无需切换。
 
 <div class="cta-buttons">
 <a href="./getting-started/" class="cta-primary">开始使用</a>
-<a href="https://coco.xyz" class="cta-secondary" target="_blank">了解更多</a>
+<a href="https://icoco.ai" class="cta-secondary" target="_blank">了解更多</a>
 </div>
 
 </div>

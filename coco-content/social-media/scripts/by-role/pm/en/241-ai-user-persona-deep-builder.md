@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: A product decision meeting where the PM references a specific persona finding to settle a feature debate; everyone nods
-[Voiceover]: "Personas consulted in 78% of decisions. 3.2x more often cited in actual decision documentation. Try COCO at coco.xyz"
+[Voiceover]: "Personas consulted in 78% of decisions. 3.2x more often cited in actual decision documentation. Try COCO at icoco.ai"

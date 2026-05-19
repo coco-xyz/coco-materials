@@ -24,4 +24,4 @@ Voiceover: "94% less manual entry. 99.7% accuracy. Your team finally works on th
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered on warm yellow background. URL fades in below. Subtle particle glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

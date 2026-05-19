@@ -29,6 +29,6 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: Researcher confidently writing a literature review with precise citations, submitting it, receiving positive peer review comments on literature depth
-[Voiceover]: "5x more papers. 3x more methodological detail. Zero vague citations — Try COCO at coco.xyz"
+[Voiceover]: "5x more papers. 3x more methodological detail. Zero vague citations — Try COCO at icoco.ai"
 
 ---

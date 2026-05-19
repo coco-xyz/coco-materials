@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Operations team activating a pre-planned contingency, alternative supplier onboarded smoothly, production continuing without interruption.
-[Voiceover]: "14 days earlier warning. Crises turned into managed transitions — monitor your supply chain with COCO at coco.xyz"
+[Voiceover]: "14 days earlier warning. Crises turned into managed transitions — monitor your supply chain with COCO at icoco.ai"

@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: Board presentation with honest risk narrative. CFO presenting with credibility. A covenant breach averted because the risk was found 6 months early.
-[Voiceover]: "4.3 hidden risks surfaced per model. Covenant breach predicted 6 months early. Try COCO at coco.xyz"
+[Voiceover]: "4.3 hidden risks surfaced per model. Covenant breach predicted 6 months early. Try COCO at icoco.ai"
