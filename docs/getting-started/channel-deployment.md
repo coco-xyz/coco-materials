@@ -15,6 +15,8 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 | WeCom (企业微信) | Available | Domestic enterprise users |
 | DingTalk (钉钉) | Available | Domestic teams, no public callback needed |
 | [WhatsApp](#whatsapp) | Available | International business users |
+| [Microsoft Teams](/channels/ms-teams) | Available | Enterprise teams, Microsoft 365 organizations |
+| [Zalo](/channels/zalo) | Available | Vietnam users, personal & business use |
 | Discord | Coming Soon | Developer/community scenarios |
 | [Slack](#slack) | Available | European/US enterprise users |
 
