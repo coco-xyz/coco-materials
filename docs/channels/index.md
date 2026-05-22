@@ -12,6 +12,7 @@ Learn how to get the most out of each communication channel with your COCO AI em
 | [WeCom](../getting-started/channel-deployment#option-c-wecom-企业微信-deployment) | China enterprise teams | ✅ Available |
 | [DingTalk](../getting-started/channel-deployment#option-d-dingtalk-钉钉-deployment) | China enterprise teams | ✅ Available |
 | [Slack](../getting-started/channel-deployment#slack) | International teams, developer workflows | ✅ Available |
+| [Zalo Personal](./zalo-personal) | Vietnam users, personal account, full features | ✅ Available |
 | [Web Console](./web-console) | Browser-based access, testing | ✅ Available |
 
 ## Quick Tips
