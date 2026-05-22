@@ -17,6 +17,8 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 | [WhatsApp](#whatsapp) | Available | International business users |
 | Discord | Coming Soon | Developer/community scenarios |
 | [Slack](#slack) | Available | European/US enterprise users |
+| [Zalo](#zalo) | Available | Vietnam users, Zalo Bot Platform |
+| [Zalo Personal](#zalo-personal) | Available | Vietnam users, personal account, full features |
 
 > **Tip:** You can connect multiple channels simultaneously. Your AI employee responds across all connected channels. Pro plan supports Telegram + Lark dual-channel access.
 
@@ -754,3 +756,126 @@ The bot will open chat access to all users.
 | Others can't message the bot | By default only the Owner can chat. Enable Allowlist or Open mode to grant access |
 | WhatsApp disconnected after some time | Phone was offline too long. Reconnect by scanning QR code again from the Dashboard |
 | Want to disconnect WhatsApp | Click the **Disconnect** button on the WhatsApp card in the instance detail page |
+
+---
+
+## Option G: Zalo Deployment {#zalo}
+
+**Estimated time: ~5 minutes**
+
+> **Note:** Zalo is Vietnam's most popular messaging platform. The Zalo Bot Platform uses the official API with **polling mode** by default — no public URL or server is needed.
+
+Only 1 credential is required:
+
+| Credential | Format | Description |
+|------------|--------|-------------|
+| Bot Token | `numeric_id:secret` | From the Zalo Bot Platform developer portal |
+
+### Step 1: Create a Zalo Bot
+
+1. Visit [Zalo Bot Platform](https://bot.zaloplatforms.com) and log in
+2. Click **Create Bot**
+3. Enter a bot name and description
+4. After creation, find the **Bot Token** on the bot's settings page
+5. Copy and save the Token — you'll need it next
+
+> **Important:** The Bot Token is your bot's unique credential. Do not share it with others.
+
+### Step 2: Connect in COCO Dashboard
+
+1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
+2. Go to the employee instance detail page → **Conversation Entrance** → click the **Zalo** connection button
+3. Paste the **Bot Token** from Step 1
+4. Click **Connect**
+
+### Step 3: Start Using
+
+1. Open Zalo and search for your bot's name
+2. Send any message — the AI employee responds immediately
+3. Deployment complete!
+
+> **Tip:** Zalo Bot uses polling mode by default — no public URL or server is needed. For real-time delivery, an optional webhook mode is available (requires a public HTTPS URL).
+
+### Zalo FAQ
+
+| Issue | Solution |
+|-------|----------|
+| Bot not responding | Verify the Bot Token is correct and check connection status in Dashboard |
+| Slow responses | Polling mode has slight latency — consider webhook mode for real-time delivery |
+| Can't add bot to groups | Group access must be explicitly configured — ask your AI employee to enable it |
+| Image sending fails | Outbound images require a public URL — local file paths are not supported |
+
+---
+
+## Option H: Zalo Personal Deployment {#zalo-personal}
+
+**Estimated time: ~5 minutes**
+
+> **Note:** Zalo Personal connects via a real Zalo account using **QR code scanning**, similar to WhatsApp deployment. It offers richer features than the Bot Platform — full group support, file sharing, stickers, and reactions.
+
+::: warning Use a Dedicated Zalo Account
+Please use a **dedicated Zalo account** for the bot — do **not** use your personal Zalo account. The connected account will serve exclusively as the bot. Using Zalo Web in a browser will disconnect the bot session.
+:::
+
+No credentials are required. You only need:
+
+| Item | Description |
+|------|-------------|
+| COCO AI Employee | An existing instance in COCO Dashboard |
+| Zalo Account | A phone with Zalo installed and logged in |
+| ~5 minutes | Time to complete deployment |
+
+### Step 1: Connect in COCO Dashboard
+
+1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
+2. Go to the employee instance detail page → **Conversation Entrance** → click the **Zalo Personal** connection button
+3. The system generates a QR code (may take ~30 seconds)
+
+### Step 2: Scan the QR Code
+
+1. Open **Zalo** on your phone
+2. Go to **Settings → QR code scanner** (or tap the QR icon)
+3. Scan the QR code displayed on the Dashboard
+4. Confirm the login on your phone
+
+### Step 3: Start Using
+
+1. The Dashboard shows the connection as active
+2. Send a message to the connected Zalo account from another account
+3. AI employee responds — deployment complete!
+
+> **Note:** Zalo allows only one web session at a time. If you open Zalo Web in a browser, the bot session will disconnect. To reconnect, scan the QR code again from the Dashboard.
+
+### Managing Chat Permissions
+
+By default, **only the Owner** can chat with the bot. To allow others to interact, configure access via two modes — just send a natural language instruction to the bot:
+
+**Allowlist Mode** — Only specified users can chat:
+
+> Send to bot: `Enable allowlist mode, add user 123456 to the list`
+
+**Open Mode** — Anyone can chat:
+
+> Send to bot: `Enable open mode, anyone can DM you`
+
+### Zalo Personal vs. Zalo Bot Platform
+
+| Feature | Zalo Personal | Zalo Bot Platform |
+|---------|---------------|-------------------|
+| Setup | QR code scan | Bot Token |
+| Groups | Full support | Allowlist only |
+| Files & PDFs | Yes | No |
+| Reactions | Yes (11 types) | No |
+| Images | Send/receive files | URL only |
+| API type | Unofficial (zca-js) | Official API |
+| Stability | May disconnect | Stable |
+
+### Zalo Personal FAQ
+
+| Issue | Solution |
+|-------|----------|
+| Bot went offline | Zalo only allows one web session — if you opened Zalo Web in a browser, the bot disconnected. Reconnect via Dashboard |
+| QR code not appearing | First generation may take 30–60 seconds. Do not close the page |
+| Bot not responding in group | Ensure the bot account has been added to the group and is @mentioned |
+| Session expired | Zalo sessions may expire if the phone is offline too long. Reconnect by scanning a new QR code |
+| Others can't message the bot | By default only the Owner can chat. Enable Allowlist or Open mode to grant access |

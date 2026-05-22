@@ -253,6 +253,8 @@ export default defineConfig({
                 { text: 'WeCom', link: '/getting-started/channel-deployment#option-c-wecom-企业微信-deployment' },
                 { text: 'DingTalk', link: '/getting-started/channel-deployment#option-d-dingtalk-钉钉-deployment' },
                 { text: 'Slack', link: '/getting-started/channel-deployment#slack' },
+                { text: 'Zalo', link: '/getting-started/channel-deployment#zalo' },
+                { text: 'Zalo Personal', link: '/getting-started/channel-deployment#zalo-personal' },
                 { text: 'Web Console', link: '/channels/web-console' },
               ]
             },
@@ -400,6 +402,8 @@ export default defineConfig({
                 { text: '企业微信', link: '/zh/getting-started/channel-deployment#option-c-wecom-企业微信-deployment' },
                 { text: '钉钉', link: '/zh/getting-started/channel-deployment#option-d-dingtalk-钉钉-deployment' },
                 { text: 'Slack', link: '/zh/getting-started/channel-deployment#slack' },
+                { text: 'Zalo', link: '/zh/getting-started/channel-deployment#zalo' },
+                { text: 'Zalo Personal', link: '/zh/getting-started/channel-deployment#zalo-personal' },
                 { text: 'Web 控制台', link: '/zh/channels/web-console' },
               ]
             },
