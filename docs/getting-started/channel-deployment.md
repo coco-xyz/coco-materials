@@ -17,6 +17,7 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 | [WhatsApp](#whatsapp) | Available | International business users |
 | Discord | Coming Soon | Developer/community scenarios |
 | [Slack](#slack) | Available | European/US enterprise users |
+| [Microsoft Teams](#ms-teams) | Available | Enterprise teams, Microsoft 365 integration |
 | [Zalo](#zalo) | Available | Vietnam users, Zalo Bot Platform |
 | [Zalo Personal](#zalo-personal) | Available | Vietnam users, personal account, full features |
 
@@ -759,7 +760,155 @@ The bot will open chat access to all users.
 
 ---
 
-## Option G: Zalo Deployment {#zalo}
+## Option G: Microsoft Teams Deployment {#ms-teams}
+
+**Estimated time: 10-15 minutes**
+
+> **Note:** Microsoft Teams uses a **webhook-based messaging endpoint** — your COCO instance needs a public HTTPS URL. The COCO Dashboard handles this automatically when you connect.
+
+Three credentials are required:
+
+| Credential | Source | Description |
+|------------|--------|-------------|
+| App ID | Azure Portal → App Registration → Application (client) ID | Bot's unique identifier |
+| App Password | Azure Portal → App Registration → Certificates & secrets | Client secret value |
+| Tenant ID | Azure Portal → App Registration → Directory (tenant) ID | Your organization's tenant |
+
+### Step 1: Create an Azure App Registration
+
+1. Go to [Azure Portal](https://portal.azure.com) → **Microsoft Entra ID** → **App registrations**
+2. Click **New registration**
+3. Enter a name (e.g., `COCO AI Employee`)
+4. Under **Supported account types**, select **Single tenant**
+5. Leave **Redirect URI** blank
+6. Click **Register**
+7. Note down the **Application (client) ID** and **Directory (tenant) ID**
+
+### Step 2: Create a Client Secret
+
+1. In your App Registration, go to **Certificates & secrets**
+2. Click **New client secret**
+3. Enter a description (e.g., `coco-bot-secret`) and select an expiry period
+4. Click **Add**
+5. **Copy the secret value immediately** — it is only shown once
+
+> **Important:** The secret value is displayed only once after creation. If you lose it, you must create a new secret.
+
+### Step 3: Add Graph API Permissions (Optional but Recommended)
+
+Graph API permissions unlock the full feature set (chat history, file downloads, reactions).
+
+1. In your App Registration, go to the **Manifest** tab
+2. Find the `"requiredResourceAccess"` array and replace it with:
+
+```json
+"requiredResourceAccess": [
+  {
+    "resourceAppId": "00000003-0000-0000-c000-000000000000",
+    "resourceAccess": [
+      { "id": "6b7d71aa-70aa-4810-a8d9-5d9fb2830017", "type": "Role" },
+      { "id": "7b2449af-6ccd-4f4d-9f78-e550c193f0d1", "type": "Role" },
+      { "id": "01d4889c-1287-42c6-ac1f-5d1e02578ef6", "type": "Role" },
+      { "id": "df021288-bdef-4463-88db-98f22de89214", "type": "Role" },
+      { "id": "767156cb-16ae-4d10-8f8b-41b657c8c8c8", "type": "Scope" },
+      { "id": "ebf0f66e-9fb1-49e4-a278-222f76911cf4", "type": "Scope" },
+      { "id": "9ff7295e-131b-4d94-90e1-69fde507ac11", "type": "Scope" },
+      { "id": "df85f4d6-205c-4ac5-a5ea-6bf408dba283", "type": "Scope" },
+      { "id": "7427e0e9-2fba-42fe-b0c0-848c9e6a8182", "type": "Scope" }
+    ]
+  }
+]
+```
+
+3. Click **Save**
+4. Go to **API permissions** and click **Grant admin consent for [your tenant]**
+5. Verify all permissions show a green checkmark
+
+| Permission | Type | Purpose |
+|------------|------|---------|
+| `Chat.Read.All` | Application | Read DM and group chat history + attachments |
+| `ChannelMessage.Read.All` | Application | Read channel message history + attachments |
+| `Files.Read.All` | Application | Download files from OneDrive/SharePoint |
+| `User.Read.All` | Application | Resolve user mentions and search users |
+| `Chat.ReadWrite` | Delegated | Send reactions (thinking indicators) |
+| `ChannelMessage.Send` | Delegated | Send reactions in channels |
+| `ChannelMessage.Read.All` | Delegated | Download images/files from channels |
+| `Files.Read.All` | Delegated | Download shared files on behalf of user |
+| `offline_access` | Delegated | Keep delegated tokens alive via refresh |
+
+> **Note:** Admin consent requires tenant admin privileges. Basic messaging works without these permissions.
+
+### Step 4: Connect in COCO Dashboard
+
+1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
+2. Go to the employee instance detail page → **Conversation Entrance** → click the **Microsoft Teams** connection button
+3. Enter the **App ID**, **App Password**, and **Tenant ID**
+4. Click **Connect** — the system configures the bot endpoint automatically
+
+### Step 5: Create a Teams App Manifest
+
+Create a file named `manifest.json`:
+
+```json
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.17/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.17",
+  "version": "1.0.0",
+  "id": "<your App ID>",
+  "developer": {
+    "name": "Your Organization",
+    "websiteUrl": "https://your-domain.com",
+    "privacyUrl": "https://your-domain.com/privacy",
+    "termsOfUseUrl": "https://your-domain.com/terms"
+  },
+  "name": { "short": "COCO AI", "full": "COCO AI Employee" },
+  "description": {
+    "short": "AI employee for Teams",
+    "full": "COCO AI digital employee — your AI assistant on Microsoft Teams."
+  },
+  "icons": { "color": "color.png", "outline": "outline.png" },
+  "bots": [{
+    "botId": "<your App ID>",
+    "scopes": ["personal", "team", "groupChat"],
+    "supportsFiles": true,
+    "isNotificationOnly": false
+  }],
+  "permissions": ["messageTeamMembers"],
+  "validDomains": []
+}
+```
+
+Replace `<your App ID>` (both places) with your Application (client) ID from Step 1.
+
+### Step 6: Package and Install
+
+1. Create two icon files: `color.png` (192×192) and `outline.png` (32×32)
+2. Place `manifest.json` and both icons in one folder, compress into a `.zip`
+3. In Microsoft Teams → **Apps** → **Manage your apps** → **Upload a custom app**
+4. Select the `.zip` file, click **Add**
+
+> **Note:** Sideloading requires the "Upload custom apps" policy to be enabled. Contact your Teams admin if the option is unavailable.
+
+### Step 7: Start Using
+
+1. In Teams, search for your bot name (e.g., "COCO AI")
+2. Start a DM conversation — AI employee responds immediately
+3. To use in channels, add the bot to a team during installation
+4. Deployment complete!
+
+### Microsoft Teams FAQ
+
+| Issue | Solution |
+|-------|----------|
+| Bot not responding | Verify App ID, App Password, and Tenant ID are correct. Check messaging endpoint is reachable |
+| "App not found" when searching | Ensure the manifest was packaged and sideloaded correctly. Quit and relaunch Teams |
+| 401 errors on file attachments | Grant admin consent for Graph API permissions (Step 3) |
+| Bot not visible in group/channel | The bot must be added to the team first — use "Add to a team" during installation |
+| Graph features not working | All three credentials must be configured, and admin consent must be granted |
+
+---
+
+## Option H: Zalo Deployment {#zalo}
 
 **Estimated time: ~5 minutes**
 
@@ -807,7 +956,7 @@ Only 1 credential is required:
 
 ---
 
-## Option H: Zalo Personal Deployment {#zalo-personal}
+## Option I: Zalo Personal Deployment {#zalo-personal}
 
 **Estimated time: ~5 minutes**
 
