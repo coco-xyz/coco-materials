@@ -17,6 +17,8 @@ import { withBase } from 'vitepress'
 | [企业微信](#wecom) | 已支持 | 国内企业用户首选 |
 | [钉钉](#dingtalk) | 已支持 | 国内团队协作，无需公网回调 |
 | [WhatsApp](#whatsapp) | 已支持 | 海外商务用户 |
+| [Microsoft Teams](/channels/ms-teams) | 已支持 | 企业团队、Microsoft 365 组织 |
+| [Zalo Personal](/zh/channels/zalo-personal) | 已支持 | 越南用户、通过个人账号使用完整 Zalo 功能 |
 | Discord | 即将支持 | 开发者/社区场景 |
 | [Slack](#slack) | 已支持 | 欧美企业用户 |
 
