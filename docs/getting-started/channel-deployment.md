@@ -858,6 +858,10 @@ After connecting, the employee detail page displays a **Messaging Endpoint** URL
 
 To make the bot available in Teams, you need a Teams App Manifest:
 
+::: warning The manifest below is NOT copy-paste ready
+You must replace all `<YOUR_APP_ID>` placeholders (3 places) with your actual App ID from Step 1 before zipping and uploading.
+:::
+
 1. Create a folder with three files:
 
 **manifest.json:**
