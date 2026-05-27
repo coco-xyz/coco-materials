@@ -18,6 +18,7 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 | Discord | Coming Soon | Developer/community scenarios |
 | [Slack](#slack) | Available | European/US enterprise users |
 | [Microsoft Teams](#ms-teams) | Available | Enterprise teams, Microsoft 365 organizations |
+| [Zalo](#zalo) | Available | Vietnam users, personal & business use |
 
 > **Tip:** You can connect multiple channels simultaneously. Your AI employee responds across all connected channels. Pro plan supports Telegram + Lark dual-channel access.
 
@@ -912,7 +913,17 @@ To make the bot available in Teams, you need a Teams App Manifest:
 - **Sideload (testing):** In Teams → Apps → Manage your apps → Upload a custom app → select the `.zip`
 - **Admin deploy (organization-wide):** Teams Admin Center → Manage apps → Upload new app → select the `.zip`, then assign it to users/groups
 
-### Step 8: Start Chatting
+### Step 8: Copy the App Catalog ID
+
+After installing the app in the previous step, you need to copy its catalog ID:
+
+1. Open the [Teams Admin Center](https://admin.teams.microsoft.com/policies/manage-apps)
+2. Search for your app by name
+3. Click on the app to open its details
+4. Copy the **App ID** shown on the app detail page (this is the catalog ID, different from the Azure App Registration ID)
+5. Go back to the COCO Dashboard and paste it into the **App Catalog ID** field
+
+### Step 9: Start Chatting
 
 1. In Teams, search for your app name (e.g., `COCO AI Employee`)
 2. Click to start a DM conversation
@@ -933,3 +944,54 @@ To make the bot available in Teams, you need a Teams App Manifest:
 | Smart mode not working | Verify `ChannelMessage.Read.All` has admin consent, and ensure the channel is set to smart mode |
 | Client secret expired | Azure client secrets expire on the schedule you set. Create a new secret and update the App Password in COCO Dashboard |
 | Want to disconnect | Click the **Disconnect** button on the Microsoft Teams card in the employee detail page |
+
+---
+
+## Option H: Zalo Deployment {#zalo}
+
+**Estimated time: ~5 minutes**
+
+> **Note:** Zalo connects via the official [Zalo Bot Platform](https://bot.zaloplatforms.com) API. Only a personal Zalo account is required — no Official Account (OA) registration, no servers, and no coding skills needed.
+
+One credential is required:
+
+| Credential | Where to Find | Description |
+|------------|---------------|-------------|
+| Bot Token | Zalo Bot Platform → Bot details page | Unique token identifying your bot (format: `numeric_id:secret`) |
+
+### Step 1: Create a Bot on the Zalo Bot Platform
+
+1. Visit the [Zalo Bot Platform](https://bot.zaloplatforms.com) and log in with your Zalo account
+2. Click **Create Bot**
+3. Enter a bot name (e.g., `COCO AI`) and description
+4. After creation, you will see your **Bot Token** (format: `numeric_id:secret`)
+5. **Copy and save this Token** — you'll need it in the next step
+
+> **Important:** The Bot Token is your bot's unique credential. Do not share it with others.
+
+### Step 2: Connect in COCO Dashboard
+
+1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
+2. Go to the employee instance detail page
+3. Find the **Zalo** card and click **Connect**
+4. Paste the **Bot Token** from Step 1
+5. Click **Connect** — the system will validate the token and complete the connection
+
+### Step 3: Start Chatting
+
+1. Open Zalo on your phone or desktop
+2. Search for your bot name
+3. Send any message — AI employee responds immediately
+4. Deployment complete!
+
+> **First message:** The first user to send a DM to the bot becomes the **Owner**. The owner always has full access regardless of policy settings.
+
+### Zalo FAQ
+
+| Issue | Solution |
+|-------|----------|
+| Bot not responding | Verify the Bot Token is correct. Check the connection status in COCO Dashboard |
+| Cannot send images to bot | Ensure the image is under 10 MB. Supported formats: JPG, PNG |
+| Bot image not displaying | Outbound images must be hosted on a publicly accessible HTTPS URL |
+| Others can't message the bot | By default only the Owner can chat. Enable Allowlist or Open mode to grant access |
+| Want to disconnect | Click the **Disconnect** button on the Zalo card in the employee detail page |
