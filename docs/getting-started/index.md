@@ -14,7 +14,7 @@ Welcome to COCO! Your dedicated AI employee is ready. Get started in 3 simple st
 Step-by-step guide for signing up, choosing the right plan (Air / Pro / Ultra / Enterprise), and completing payment via Stripe.
 
 ### [Channel Deployment](./channel-deployment)
-Connect your AI employee to Telegram or Lark (Feishu) in minutes. Detailed deployment guides for each platform.
+Connect your AI employee to Telegram, Lark (Feishu), Microsoft Teams, or other channels in minutes. Detailed deployment guides for each platform.
 
 ### [First-Time Tutorial](./first-time-tutorial)
 New to COCO? Start here. Learn how to choose your AI employee's role, give it tasks, and get results. No technical skills needed.

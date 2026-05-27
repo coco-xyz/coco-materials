@@ -1148,14 +1148,14 @@ Enterprises typically see 3-10x efficiency gains from AI agent deployment, with 
 <details>
 <summary><strong>How does COCO compare to other AI agent platforms?</strong></summary>
 
-COCO is built on an open-source AI agent infrastructure (Zylos.ai) with an enterprise cloud layer (coco.xyz). Unlike DIY agent-building platforms, COCO provides a three-layer architecture: open-source framework, multi-agent orchestration (HXA Connect), and enterprise-ready deployment. COCO supports multi-agent team architectures where agents collaborate autonomously, works across both Western and Chinese markets, and integrates with the communication tools your team already uses (Slack, Lark/Feishu, Telegram, and more).
+COCO is built on an open-source AI agent infrastructure (Zylos.ai) with an enterprise cloud layer (coco.xyz). Unlike DIY agent-building platforms, COCO provides a three-layer architecture: open-source framework, multi-agent orchestration (HXA Connect), and enterprise-ready deployment. COCO supports multi-agent team architectures where agents collaborate autonomously, works across both Western and Chinese markets, and integrates with the communication tools your team already uses (Slack, Lark/Feishu, Telegram, Microsoft Teams, and more).
 
 </details>
 
 <details>
-<summary><strong>Can AI agents work with existing enterprise tools like Slack, Lark, and Telegram?</strong></summary>
+<summary><strong>Can AI agents work with existing enterprise tools like Slack, Lark, Microsoft Teams, and Telegram?</strong></summary>
 
-Yes. COCO AI agents integrate natively with popular enterprise communication and collaboration platforms including Slack, Lark (Feishu), Telegram, and more. Agents can receive tasks, send updates, and collaborate with human team members directly within your existing workflows -- no context switching required. This means your AI employees work where your human employees already work.
+Yes. COCO AI agents integrate natively with popular enterprise communication and collaboration platforms including Slack, Lark (Feishu), Telegram, Microsoft Teams, and more. Agents can receive tasks, send updates, and collaborate with human team members directly within your existing workflows -- no context switching required. This means your AI employees work where your human employees already work.
 
 </details>
 

@@ -26,7 +26,7 @@ features:
     linkText: See the numbers
   - icon: 💬
     title: "Works Where You Work"
-    details: "Telegram, Lark, WhatsApp, Web Console. No new app to install. Just message your AI employee like you'd message a colleague."
+    details: "Telegram, Lark, WhatsApp, Microsoft Teams, Web Console. No new app to install. Just message your AI employee like you'd message a colleague."
     link: /channels/
     linkText: View channels
   - icon: 🎯
@@ -76,7 +76,7 @@ Real numbers from real teams — not benchmarks, not demos.
 <div class="step-card">
 <div class="step-number">1</div>
 <div class="step-title">Connect Your Channel</div>
-<div class="step-desc">Add COCO to Telegram, Lark, or WhatsApp. Takes 2 minutes. No API keys, no technical setup.</div>
+<div class="step-desc">Add COCO to Telegram, Lark, WhatsApp, or Microsoft Teams. Takes 2 minutes. No API keys, no technical setup.</div>
 </div>
 <div class="step-card">
 <div class="step-number">2</div>
@@ -158,6 +158,10 @@ COCO works in the tools your team already uses. No context switching.
 <a href="./getting-started/channel-deployment#slack" class="channel-card">
 <div class="channel-icon">💜</div>
 <div class="channel-name">Slack</div>
+</a>
+<a href="./channels/ms-teams" class="channel-card">
+<div class="channel-icon">🟣</div>
+<div class="channel-name">Microsoft Teams</div>
 </a>
 <a href="./channels/web-console" class="channel-card">
 <div class="channel-icon">🌐</div>

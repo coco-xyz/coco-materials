@@ -108,6 +108,7 @@ In Dashboard → Connect, select your messaging platform:
 |---------|----------|-----------|------|
 | **Telegram** | International users, personal use | Easy | 5-8 min |
 | **Lark (Feishu)** | Domestic teams, enterprise use | Medium | 8-15 min |
+| **Microsoft Teams** | Enterprise teams, M365 users | Medium | 10-15 min |
 
 > For detailed deployment steps, see the [Channel Deployment Guide](./channel-deployment).
 

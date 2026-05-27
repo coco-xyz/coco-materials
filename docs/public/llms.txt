@@ -1,11 +1,11 @@
 # COCO Docs
 
-> COCO is an AI Digital Employee platform. Deploy AI employees to Telegram, Lark, WeCom, DingTalk, Slack, or WhatsApp — no coding required. They work 7x24, handle writing, research, coding, data analysis, and more. Plans available for individuals and enterprises.
+> COCO is an AI Digital Employee platform. Deploy AI employees to Telegram, Lark, WeCom, DingTalk, Slack, WhatsApp, or Microsoft Teams — no coding required. They work 7x24, handle writing, research, coding, data analysis, and more. Plans available for individuals and enterprises.
 
 ## Getting Started
 - [Overview](https://docs.coco.xyz/getting-started/): Get started in 3 steps — hire your first AI employee in 10-20 minutes, no technical skills required
 - [Registration & Payment](https://docs.coco.xyz/getting-started/registration-payment): Sign up, choose a plan (Air / Pro / Ultra / Enterprise), and pay via Stripe
-- [Channel Deployment](https://docs.coco.xyz/getting-started/channel-deployment): Connect your AI employee to Telegram, Lark, WeCom, DingTalk, Slack, or WhatsApp
+- [Channel Deployment](https://docs.coco.xyz/getting-started/channel-deployment): Connect your AI employee to Telegram, Lark, WeCom, DingTalk, Slack, WhatsApp, or Microsoft Teams
 - [First-Time Tutorial](https://docs.coco.xyz/getting-started/first-time-tutorial): How to assign roles, give tasks, and get results — no technical skills needed
 - [Important Notes](https://docs.coco.xyz/getting-started/tips): Group/private chat settings, long-term memory, SOP storage, message limits, file handling
 - [FAQ](https://docs.coco.xyz/getting-started/faq): Answers on Cloud Agent Authorization, third-party platforms, features, and security

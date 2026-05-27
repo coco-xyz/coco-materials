@@ -17,6 +17,7 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 | [WhatsApp](#whatsapp) | Available | International business users |
 | Discord | Coming Soon | Developer/community scenarios |
 | [Slack](#slack) | Available | European/US enterprise users |
+| [Microsoft Teams](#ms-teams) | Available | Enterprise teams, Microsoft 365 organizations |
 
 > **Tip:** You can connect multiple channels simultaneously. Your AI employee responds across all connected channels. Pro plan supports Telegram + Lark dual-channel access.
 
@@ -754,3 +755,181 @@ The bot will open chat access to all users.
 | Others can't message the bot | By default only the Owner can chat. Enable Allowlist or Open mode to grant access |
 | WhatsApp disconnected after some time | Phone was offline too long. Reconnect by scanning QR code again from the Dashboard |
 | Want to disconnect WhatsApp | Click the **Disconnect** button on the WhatsApp card in the instance detail page |
+
+---
+
+## Option G: Microsoft Teams Deployment {#ms-teams}
+
+**Estimated time: 10-15 minutes**
+
+> **Note:** Microsoft Teams is widely used by enterprises on Microsoft 365. Deployment requires creating an Azure App Registration and Bot resource. No servers or coding skills needed — a free Azure tier is sufficient.
+
+Three credentials are required:
+
+| Credential | Where to Find | Description |
+|------------|---------------|-------------|
+| App ID | Azure Portal → App Registration → Application (client) ID | Identifies your bot application |
+| App Password | Azure Portal → App Registration → Certificates & secrets → Secret Value | Authenticates your bot |
+| Tenant ID | Azure Portal → App Registration → Directory (tenant) ID | Required for single-tenant bots only |
+
+### Step 1: Create an Azure App Registration
+
+1. Go to [Azure Portal](https://portal.azure.com) → **Microsoft Entra ID** → **App registrations**
+2. Click **New registration**
+3. Enter a name (e.g., `COCO AI Employee`)
+4. Under **Supported account types**, select your preference:
+   - **Single tenant** — only users in your organization (recommended for enterprise)
+   - **Multitenant** — users in any organization
+5. Leave **Redirect URI** blank
+6. Click **Register**
+
+After creation, note down:
+- **Application (client) ID** — this is your **App ID**
+- **Directory (tenant) ID** — needed if single-tenant
+
+### Step 2: Create a Client Secret
+
+1. In your App Registration, go to **Certificates & secrets**
+2. Click **New client secret**
+3. Enter a description (e.g., `COCO Bot Secret`) and choose an expiration period
+4. Click **Add**
+5. **Copy the secret Value immediately** — it is only shown once
+
+> **Important:** The client secret cannot be viewed again after you leave this page. Save it securely.
+
+### Step 3: Configure Graph API Permissions
+
+In your App Registration, go to **API permissions** → **Add a permission** → **Microsoft Graph** → **Application permissions**.
+
+Add the following permissions:
+
+| Permission | Purpose |
+|------------|---------|
+| `Files.Read.All` | Download files from OneDrive/SharePoint |
+| `Chat.Read.All` | Read DM and group chat history |
+| `ChannelMessage.Read.All` | Read team channel message history |
+| `User.Read.All` | Resolve user mentions and search users |
+
+After adding all four, click **Grant admin consent for [your organization]** and confirm. All permissions should show a green checkmark.
+
+> **Important:** Admin consent is required. Without it, file downloads, chat history, and smart mode features will not work.
+
+### Step 4: Create an Azure Bot Resource
+
+1. In Azure Portal, search for **Azure Bot** and click **Create**
+2. Fill in:
+   - **Bot handle**: a unique name (e.g., `coco-ai-employee`)
+   - **Pricing tier**: F0 (Free)
+   - **Microsoft App ID**: select **Use existing app registration**, enter the **App ID** from Step 1
+3. Click **Review + create**, then **Create**
+4. After deployment, go to the Bot resource → **Configuration**
+5. Leave the **Messaging endpoint** blank for now — you'll set it after connecting via the Dashboard
+
+### Step 5: Connect in COCO Dashboard
+
+1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
+2. Go to the employee instance detail page
+3. Find the **Microsoft Teams** card and click **Connect**
+4. Enter the credentials:
+
+| Field | Source |
+|-------|--------|
+| App ID | Azure Portal → App Registration → Application (client) ID |
+| App Password | Azure Portal → App Registration → Client Secret Value |
+| Tenant ID | Azure Portal → App Registration → Directory (tenant) ID (single-tenant only) |
+
+5. Click **Connect** — the system will validate your credentials and deploy the channel
+
+> **Tip:** If your bot is multi-tenant, the Tenant ID field can be left empty.
+
+### Step 6: Set the Messaging Endpoint in Azure
+
+After connecting, the employee detail page displays a **Messaging Endpoint** URL. Copy this URL.
+
+1. Return to Azure Portal → your **Azure Bot** resource → **Configuration**
+2. Paste the URL into the **Messaging endpoint** field
+3. Click **Apply**
+
+> **Important:** This step is required. Without the messaging endpoint, Azure Bot Service cannot forward Teams messages to your AI employee.
+
+### Step 7: Create and Install the Teams App Manifest
+
+To make the bot available in Teams, you need a Teams App Manifest:
+
+1. Create a folder with three files:
+
+**manifest.json:**
+```json
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.17/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.17",
+  "version": "1.0.0",
+  "id": "<YOUR_APP_ID>",
+  "developer": {
+    "name": "Your Company",
+    "websiteUrl": "https://coco.xyz",
+    "privacyUrl": "https://coco.xyz/privacy",
+    "termsOfUseUrl": "https://coco.xyz/terms"
+  },
+  "name": { "short": "COCO AI Employee" },
+  "description": {
+    "short": "AI-powered assistant",
+    "full": "COCO AI Employee connected via Microsoft Teams"
+  },
+  "icons": { "color": "color.png", "outline": "outline.png" },
+  "accentColor": "#4F6BED",
+  "bots": [{
+    "botId": "<YOUR_APP_ID>",
+    "scopes": ["personal", "team", "groupChat"],
+    "supportsFiles": true,
+    "isNotificationOnly": false
+  }],
+  "permissions": ["messageTeamMembers"],
+  "validDomains": [],
+  "webApplicationInfo": {
+    "id": "<YOUR_APP_ID>",
+    "resource": "https://graph.microsoft.com"
+  },
+  "authorization": {
+    "permissions": {
+      "resourceSpecific": [
+        { "name": "ChatMessage.Read.Chat", "type": "Application" },
+        { "name": "ChannelMessage.Read.Group", "type": "Application" }
+      ]
+    }
+  }
+}
+```
+
+> **Note:** Replace `<YOUR_APP_ID>` in all three places (`id`, `botId`, `webApplicationInfo.id`). The `webApplicationInfo` section enables Graph API integration. The `resourceSpecific` permissions enable resource-specific consent (RSC) for reading messages in chats and channels where the bot is installed.
+
+2. Add two icon files:
+   - **color.png** — 192x192 pixels, full-color app icon
+   - **outline.png** — 32x32 pixels, transparent outline icon
+3. Zip all three files into a single `.zip` file
+
+**Install in Teams:**
+- **Sideload (testing):** In Teams → Apps → Manage your apps → Upload a custom app → select the `.zip`
+- **Admin deploy (organization-wide):** Teams Admin Center → Manage apps → Upload new app → select the `.zip`, then assign it to users/groups
+
+### Step 8: Start Chatting
+
+1. In Teams, search for your app name (e.g., `COCO AI Employee`)
+2. Click to start a DM conversation
+3. Send any message — AI employee responds immediately
+4. Deployment complete!
+
+> **Tip:** To use in group chats or team channels, add the bot to a team or group chat, then @mention it to trigger a response.
+
+### Microsoft Teams FAQ
+
+| Issue | Solution |
+|-------|----------|
+| Bot not responding | Verify the Messaging endpoint is set correctly in Azure Bot Configuration. Check that credentials (App ID, App Password) match |
+| Credential validation failed | Ensure App Password is the **Value** (not the Secret ID). For single-tenant bots, confirm the Tenant ID is correct |
+| Bot not appearing in Teams | The Teams App Manifest must be installed (sideloaded or admin-deployed). Check that the App ID in manifest.json matches your Azure App Registration |
+| Messages not reaching the bot | Confirm the Messaging endpoint URL is HTTPS and publicly reachable. Check that the Azure Bot resource is active |
+| File downloads failing | Verify `Files.Read.All` has admin consent in Azure Portal → App Registration → API permissions |
+| Smart mode not working | Verify `ChannelMessage.Read.All` has admin consent, and ensure the channel is set to smart mode |
+| Client secret expired | Azure client secrets expire on the schedule you set. Create a new secret and update the App Password in COCO Dashboard |
+| Want to disconnect | Click the **Disconnect** button on the Microsoft Teams card in the employee detail page |

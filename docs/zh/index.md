@@ -26,7 +26,7 @@ features:
     linkText: 查看数据
   - icon: 💬
     title: "在你常用的工具里工作"
-    details: "Telegram、飞书、WhatsApp、Web 控制台。不用装新应用，像给同事发消息一样指挥你的 AI 员工。"
+    details: "Telegram、飞书、WhatsApp、Microsoft Teams、Web 控制台。不用装新应用，像给同事发消息一样指挥你的 AI 员工。"
     link: /zh/channels/
     linkText: 查看渠道
   - icon: 🎯
@@ -76,7 +76,7 @@ features:
 <div class="step-card">
 <div class="step-number">1</div>
 <div class="step-title">接入渠道</div>
-<div class="step-desc">将 COCO 添加到 Telegram、飞书或 WhatsApp。2 分钟完成，无需 API Key，无需技术配置。</div>
+<div class="step-desc">将 COCO 添加到 Telegram、飞书、WhatsApp 或 Microsoft Teams。2 分钟完成，无需 API Key，无需技术配置。</div>
 </div>
 <div class="step-card">
 <div class="step-number">2</div>
@@ -158,6 +158,10 @@ COCO 在你团队已有的工具中工作。无需切换。
 <a href="./getting-started/channel-deployment#slack" class="channel-card">
 <div class="channel-icon">💜</div>
 <div class="channel-name">Slack</div>
+</a>
+<a href="./channels/ms-teams" class="channel-card">
+<div class="channel-icon">🟣</div>
+<div class="channel-name">Microsoft Teams</div>
 </a>
 <a href="./channels/web-console" class="channel-card">
 <div class="channel-icon">🌐</div>
