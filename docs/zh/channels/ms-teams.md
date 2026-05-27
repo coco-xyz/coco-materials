@@ -39,7 +39,7 @@ Teams 与 Microsoft 365 生态深度整合，适合：
 
 **文件共享**：直接在聊天中分享图片、PDF、Word 文档等文件。机器人可以读取、分析并回复文件内容。OneDrive 和 SharePoint 中的文件通过 Graph API 自动下载。
 
-**表情回复**：机器人使用表情作为处理指示器——消息处理中会显示表情，处理完成后移除。
+**表情回复**：机器人会在收到消息时添加 💬 表情作为处理指示器，处理完成后移除。
 
 **语音消息**：在 Teams 中发送语音消息——在语音转写可用时，机器人会转录并回复。
 
@@ -55,4 +55,5 @@ Teams 与 Microsoft 365 生态深度整合，适合：
 | 文件下载失败 | 确认 Azure Portal 中 `Files.Read.All` 权限已获得管理员同意 |
 | 智能模式不生效 | 确认 `ChannelMessage.Read.All` 已获得管理员同意，确保频道已设置为智能模式 |
 | 凭据验证失败 | 确认 App Password 使用的是 **Value**（非 Secret ID）。单租户机器人请确认 Tenant ID 正确 |
+| DM 中没有 💬 反应 | 未配置 App Catalog ID。请参阅部署指南第8步 |
 | 想要断开连接 | 在员工详情页的 Microsoft Teams 卡片上点击 **断开连接** 按钮 |

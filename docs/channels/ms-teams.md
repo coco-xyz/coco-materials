@@ -39,7 +39,7 @@ Teams is deeply integrated with the Microsoft 365 ecosystem — ideal for:
 
 **File sharing**: Share images, PDFs, Word docs, and other files directly in chat. The bot can read, analyze, and respond to file content. Files from OneDrive and SharePoint are automatically downloaded via Graph API.
 
-**Reactions**: The bot uses reactions as processing indicators — you'll see a reaction when your message is being processed, which is removed when the response is ready.
+**Reactions**: The bot reacts with 💬 on incoming messages as a processing indicator. Removed when the response is ready.
 
 **Voice messages**: Send voice messages in Teams — the bot transcribes and responds to them when voice transcription is available.
 
@@ -55,4 +55,5 @@ Teams is deeply integrated with the Microsoft 365 ecosystem — ideal for:
 | File downloads failing | Verify `Files.Read.All` permission has admin consent in Azure Portal |
 | Smart mode not working | Verify `ChannelMessage.Read.All` has admin consent. Ensure the channel is set to smart mode |
 | Credential validation failed | Ensure App Password is the **Value** (not the Secret ID). For single-tenant bots, confirm the Tenant ID is correct |
+| No 💬 reaction in DMs | App Catalog ID is not configured. See Step 8 in the deployment guide |
 | Want to disconnect | Click the **Disconnect** button on the Microsoft Teams card in the employee detail page |

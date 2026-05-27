@@ -912,7 +912,17 @@ To make the bot available in Teams, you need a Teams App Manifest:
 - **Sideload (testing):** In Teams → Apps → Manage your apps → Upload a custom app → select the `.zip`
 - **Admin deploy (organization-wide):** Teams Admin Center → Manage apps → Upload new app → select the `.zip`, then assign it to users/groups
 
-### Step 8: Start Chatting
+### Step 8: Copy the App Catalog ID
+
+After installing the app in the previous step, you need to copy its catalog ID:
+
+1. Open the [Teams Admin Center](https://admin.teams.microsoft.com/policies/manage-apps)
+2. Search for your app by name
+3. Click on the app to open its details
+4. Copy the **App ID** shown on the app detail page (this is the catalog ID, different from the Azure App Registration ID)
+5. Go back to the COCO Dashboard and paste it into the **App Catalog ID** field
+
+### Step 9: Start Chatting
 
 1. In Teams, search for your app name (e.g., `COCO AI Employee`)
 2. Click to start a DM conversation
