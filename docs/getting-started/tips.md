@@ -135,6 +135,7 @@ Best regards,
 |---------|-------------------|----------------------|
 | Telegram | 4,096 characters | Automatically split into multiple messages |
 | Lark/Feishu | ~30,000 characters | Content auto-truncated if exceeded |
+| Microsoft Teams | ~28 KB | Automatically split into multiple messages |
 
 ### File Handling
 
