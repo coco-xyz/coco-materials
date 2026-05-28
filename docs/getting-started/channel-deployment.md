@@ -872,63 +872,21 @@ After connecting, the employee detail page displays a **Messaging Endpoint** URL
 
 ### Step 7: Create and Install the Teams App Manifest
 
-To make the bot available in Teams, you need a Teams App Manifest:
+To make the bot available in Teams, you need a Teams App Manifest — a `.zip` file containing a `manifest.json` and two icon files.
 
-::: warning The manifest below is NOT copy-paste ready
-You must replace all `<YOUR_APP_ID>` placeholders (3 places) with your actual App ID from Step 1 before zipping and uploading.
+We provide a ready-made template with the COCO icon included. Download all three files:
+
+- [manifest.json](/ms-teams-manifest/manifest.json) — app manifest template
+- [color.png](/ms-teams-manifest/color.png) — 192x192 full-color app icon
+- [outline.png](/ms-teams-manifest/outline.png) — 32x32 transparent outline icon
+
+::: warning Replace YOUR_APP_ID before zipping
+Open `manifest.json` in any text editor and replace all `<YOUR_APP_ID>` placeholders (3 places) with your actual App ID from Step 1.
 :::
 
-1. Create a folder with three files:
+> **Note:** The `<YOUR_APP_ID>` placeholder appears in three fields: `id`, `botId`, and `webApplicationInfo.id`. The `webApplicationInfo` section enables Graph API integration. The `resourceSpecific` permissions enable resource-specific consent (RSC) for reading messages in chats and channels where the bot is installed.
 
-**manifest.json:**
-```json
-{
-  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.17/MicrosoftTeams.schema.json",
-  "manifestVersion": "1.17",
-  "version": "1.0.0",
-  "id": "<YOUR_APP_ID>",
-  "developer": {
-    "name": "Your Company",
-    "websiteUrl": "https://coco.xyz",
-    "privacyUrl": "https://coco.xyz/privacy",
-    "termsOfUseUrl": "https://coco.xyz/terms"
-  },
-  "name": { "short": "COCO AI Employee" },
-  "description": {
-    "short": "AI-powered assistant",
-    "full": "COCO AI Employee connected via Microsoft Teams"
-  },
-  "icons": { "color": "color.png", "outline": "outline.png" },
-  "accentColor": "#4F6BED",
-  "bots": [{
-    "botId": "<YOUR_APP_ID>",
-    "scopes": ["personal", "team", "groupChat"],
-    "supportsFiles": true,
-    "isNotificationOnly": false
-  }],
-  "permissions": ["messageTeamMembers"],
-  "validDomains": [],
-  "webApplicationInfo": {
-    "id": "<YOUR_APP_ID>",
-    "resource": "https://graph.microsoft.com"
-  },
-  "authorization": {
-    "permissions": {
-      "resourceSpecific": [
-        { "name": "ChatMessage.Read.Chat", "type": "Application" },
-        { "name": "ChannelMessage.Read.Group", "type": "Application" }
-      ]
-    }
-  }
-}
-```
-
-> **Note:** Replace `<YOUR_APP_ID>` in all three places (`id`, `botId`, `webApplicationInfo.id`). The `webApplicationInfo` section enables Graph API integration. The `resourceSpecific` permissions enable resource-specific consent (RSC) for reading messages in chats and channels where the bot is installed.
-
-2. Add two icon files:
-   - **color.png** — 192x192 pixels, full-color app icon
-   - **outline.png** — 32x32 pixels, transparent outline icon
-3. Zip all three files into a single `.zip` file
+After editing `manifest.json`, select all three files and compress them into a single `.zip` file.
 
 **Install in Teams:**
 - **Sideload (testing):** In Teams → Apps → Manage your apps → Upload a custom app → select the `.zip`

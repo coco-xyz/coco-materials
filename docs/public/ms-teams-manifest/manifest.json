@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.17/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.17",
+  "version": "1.0.0",
+  "id": "<YOUR_APP_ID>",
+  "developer": {
+    "name": "Your Company",
+    "websiteUrl": "https://coco.xyz",
+    "privacyUrl": "https://coco.xyz/privacy",
+    "termsOfUseUrl": "https://coco.xyz/terms"
+  },
+  "name": { "short": "COCO AI Employee" },
+  "description": {
+    "short": "AI-powered assistant",
+    "full": "COCO AI Employee connected via Microsoft Teams"
+  },
+  "icons": { "color": "color.png", "outline": "outline.png" },
+  "accentColor": "#4F6BED",
+  "bots": [{
+    "botId": "<YOUR_APP_ID>",
+    "scopes": ["personal", "team", "groupChat"],
+    "supportsFiles": true,
+    "isNotificationOnly": false
+  }],
+  "permissions": ["messageTeamMembers"],
+  "validDomains": [],
+  "webApplicationInfo": {
+    "id": "<YOUR_APP_ID>",
+    "resource": "https://graph.microsoft.com"
+  },
+  "authorization": {
+    "permissions": {
+      "resourceSpecific": [
+        { "name": "ChatMessage.Read.Chat", "type": "Application" },
+        { "name": "ChannelMessage.Read.Group", "type": "Application" }
+      ]
+    }
+  }
+}
