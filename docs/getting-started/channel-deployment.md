@@ -1007,10 +1007,14 @@ One credential is required:
 
 **Estimated time: ~2 minutes**
 
-> **Note:** Zalo Personal uses your real Zalo account via QR code scanning — no bot registration, API keys, or developer accounts needed. It connects through [zca-js](https://github.com/nicenathapong/zca-js), a reverse-engineered protocol library.
+> **Note:** Zalo Personal uses a real Zalo account via QR code scanning — no bot registration, API keys, or developer accounts needed. It connects through [zca-js](https://github.com/nicenathapong/zca-js), a reverse-engineered protocol library.
 
 ::: warning Unofficial Protocol
 Zalo Personal uses an unofficial, reverse-engineered protocol (zca-js) that is **not endorsed by Zalo/VNG**. Your account could potentially be restricted or banned by Zalo. **Use at your own risk.** For an official integration, consider [Zalo Bot Platform](#zalo) instead.
+:::
+
+::: warning Use a Dedicated Zalo Account
+Please use a **separate, dedicated Zalo account** for the bot — do **not** use the same Zalo account that users will use to talk to your COCO agent. The connected account becomes the bot's identity, so it must be a different account from any user who will interact with it.
 :::
 
 No credentials are required. Authentication is done entirely via QR code:
@@ -1018,7 +1022,7 @@ No credentials are required. Authentication is done entirely via QR code:
 | Item | Description |
 |------|-------------|
 | COCO AI Employee | An existing instance in COCO Dashboard |
-| Zalo Account | A phone with Zalo installed and logged in |
+| Dedicated Zalo Account | A phone with Zalo installed and logged in to a **separate account** — not the same account users will use to message your COCO agent |
 | ~2 minutes | Time to complete deployment |
 
 ### Step 1: Click Connect on the Zalo Personal Card
@@ -1028,9 +1032,9 @@ No credentials are required. Authentication is done entirely via QR code:
 3. Find the **Zalo Personal** card and click **Connect**
 4. The system will generate a QR code — this may take a few seconds
 
-### Step 2: Scan the QR Code with Your Zalo App
+### Step 2: Scan the QR Code with Your Dedicated Zalo Account
 
-1. Open **Zalo** on your phone
+1. Open **Zalo** on the phone logged in to your **dedicated bot account** (not your personal account)
 2. Tap the **QR code scanner** (usually in the top-right corner of the home screen or in the search bar)
 3. Point your camera at the QR code displayed on the Dashboard
 4. Confirm the login on your phone when prompted
@@ -1038,11 +1042,11 @@ No credentials are required. Authentication is done entirely via QR code:
 ### Step 3: Wait for Connection Confirmation
 
 1. After scanning, the Dashboard automatically detects the connection — the Zalo Personal card shows **Connected**
-2. The connection is established through your personal Zalo account
+2. The connection is established through your dedicated Zalo account
 
 ### Step 4: Start Chatting
 
-1. Anyone who sends a message to your Zalo account will receive AI-powered responses
+1. Anyone who sends a message to your dedicated bot Zalo account will receive AI-powered responses
 2. Deployment complete!
 
 > **First message:** The first user to send a DM becomes the **Owner** (administrator). The owner always has full access regardless of policy settings.
