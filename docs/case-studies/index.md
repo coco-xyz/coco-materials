@@ -1,6 +1,6 @@
 # Capability Showcase
 
-COCO is not a chatbot — it's your full-time AI employee. Send a message via Telegram, Lark, Microsoft Teams, or Zalo, and it gets to work: writing documents, doing research, coding, processing data. 7x24, no breaks.
+COCO is not a chatbot — it's your full-time AI employee. Send a message via Telegram, Lark, Microsoft Teams, or Zalo (Official), and it gets to work: writing documents, doing research, coding, processing data. 7x24, no breaks.
 
 ## Core Scenarios
 
@@ -142,7 +142,7 @@ COCO is not a chatbot — it's your full-time AI employee. Send a message via Te
 | Cost Savings | 80%+ compared to junior staff |
 | Response Time | Instant response, 7x24 online |
 | Language Support | Bilingual Chinese-English |
-| Channels | Telegram, Lark, Microsoft Teams, Zalo, and more |
+| Channels | Telegram, Lark, Microsoft Teams, Zalo (Official), and more |
 | No Installation | Works directly in your chat tools |
 
 ---
