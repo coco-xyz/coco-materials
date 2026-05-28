@@ -167,10 +167,10 @@ COCO 在你团队已有的工具中工作。无需切换。
 <div class="channel-icon">💙</div>
 <div class="channel-name">Zalo (官方)</div>
 </a>
-<!-- Commented out: Zalo (Hacked) 卡片从首页移除（设置流程已改为 AI 员工引导，不再通过 Dashboard）
+<!-- Commented out: Zalo Personal (Unofficial) 卡片从首页移除（设置流程已改为 AI 员工引导，不再通过 Dashboard）
 <a href="./getting-started/channel-deployment#zalo-personal" class="channel-card">
 <div class="channel-icon">💙</div>
-<div class="channel-name">Zalo (Hacked)</div>
+<div class="channel-name">Zalo Personal (Unofficial)</div>
 </a>
 -->
 <a href="./channels/web-console" class="channel-card">

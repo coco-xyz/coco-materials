@@ -14,7 +14,7 @@ Learn how to get the most out of each communication channel with your COCO AI em
 | [Slack](../getting-started/channel-deployment#slack) | International teams, developer workflows | ✅ Available |
 | [Microsoft Teams](./ms-teams) | Enterprise teams, Microsoft 365 organizations | ✅ Available |
 | [Zalo (Official)](../getting-started/channel-deployment#zalo) | Vietnam users, personal & business use | ✅ Available |
-| [Zalo (Hacked)](../getting-started/channel-deployment#zalo-personal) | Vietnam users, personal Zalo account (unofficial) | ✅ Available |
+| [Zalo Personal (Unofficial)](../getting-started/channel-deployment#zalo-personal) | Vietnam users, personal Zalo account (unofficial) | ✅ Available |
 | [Web Console](./web-console) | Browser-based access, testing | ✅ Available |
 
 ## Quick Tips

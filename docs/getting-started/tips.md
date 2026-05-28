@@ -137,7 +137,7 @@ Best regards,
 | Lark/Feishu | ~30,000 characters | Content auto-truncated if exceeded |
 | Microsoft Teams | ~28 KB | Automatically split into multiple messages |
 | Zalo (Official) | 2,000 characters | Automatically split into multiple messages |
-| Zalo (Hacked) | 2,000 characters | Automatically split into multiple messages |
+| Zalo Personal (Unofficial) | 2,000 characters | Automatically split into multiple messages |
 
 ### File Handling
 
