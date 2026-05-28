@@ -19,7 +19,7 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 | [Slack](#slack) | Available | European/US enterprise users |
 | [Microsoft Teams](#ms-teams) | Available | Enterprise teams, Microsoft 365 organizations |
 | [Zalo (Official)](#zalo) | Available | Vietnam users, personal & business use |
-| [Zalo (Hacked)](#zalo-personal) | Available | Vietnam users, personal Zalo account (unofficial) |
+| [Zalo Personal (Unofficial)](#zalo-personal) | Available | Vietnam users, personal Zalo account (unofficial) |
 
 > **Tip:** You can connect multiple channels simultaneously. Your AI employee responds across all connected channels. Pro plan supports Telegram + Lark dual-channel access.
 
@@ -987,14 +987,14 @@ One credential is required:
 
 ---
 
-## Option I: Zalo (Hacked) Deployment {#zalo-personal}
+## Option I: Zalo Personal (Unofficial) Deployment {#zalo-personal}
 
 **Estimated time: ~2 minutes**
 
-> **Note:** Zalo (Hacked) uses a real Zalo account via QR code scanning — no bot registration, API keys, or developer accounts needed. It connects through [zca-js](https://github.com/nicenathapong/zca-js), a reverse-engineered protocol library.
+> **Note:** Zalo Personal (Unofficial) uses a real Zalo account via QR code scanning — no bot registration, API keys, or developer accounts needed. It connects through [zca-js](https://github.com/nicenathapong/zca-js), a reverse-engineered protocol library.
 
 ::: warning Unofficial Protocol
-Zalo (Hacked) uses an unofficial, reverse-engineered protocol (zca-js) that is **not endorsed by Zalo/VNG**. Your account could potentially be restricted or banned by Zalo. **Use at your own risk.** For an official integration, consider [Zalo Bot Platform](#zalo) instead.
+Zalo Personal (Unofficial) uses an unofficial, reverse-engineered protocol (zca-js) that is **not endorsed by Zalo/VNG**. Your account could potentially be restricted or banned by Zalo. **Use at your own risk.** For an official integration, consider [Zalo Bot Platform](#zalo) instead.
 :::
 
 ::: warning Use a Dedicated Zalo Account
@@ -1009,13 +1009,13 @@ No credentials are required. Authentication is done entirely via QR code:
 | Dedicated Zalo Account | A phone with Zalo installed and logged in to a **separate account** — not the same account users will use to message your COCO agent |
 | ~2 minutes | Time to complete deployment |
 
-### Step 1: Ask Your AI Employee to Install Zalo (Hacked)
+### Step 1: Ask Your AI Employee to Install Zalo Personal (Unofficial)
 
 Message your AI employee in any connected channel (Telegram, Lark, WhatsApp, etc.):
 
-> "Install the Zalo (Hacked) channel"
+> "Install the Zalo Personal (Unofficial) channel"
 
-Your AI employee will install the Zalo (Hacked) component and generate a QR code, which it sends back to you in the chat.
+Your AI employee will install the Zalo Personal (Unofficial) component and generate a QR code, which it sends back to you in the chat.
 
 ### Step 2: Scan the QR Code with Your Dedicated Zalo Account
 
@@ -1035,17 +1035,17 @@ Your AI employee will confirm the connection is established. Your dedicated Zalo
 
 > **First message:** The first user to send a DM becomes the **Owner** (administrator). The owner always has full access regardless of policy settings.
 
-### Zalo (Hacked) FAQ
+### Zalo Personal (Unofficial) FAQ
 
 | Issue | Solution |
 |-------|----------|
-| QR code expired before scanning | Ask your AI employee to generate a new QR code (e.g., "Reconnect Zalo (Hacked)") |
-| Connection lost after some time | Zalo may disconnect long-running sessions. Ask your AI employee to reconnect (e.g., "Reconnect Zalo (Hacked)") |
+| QR code expired before scanning | Ask your AI employee to generate a new QR code (e.g., "Reconnect Zalo Personal (Unofficial)") |
+| Connection lost after some time | Zalo may disconnect long-running sessions. Ask your AI employee to reconnect (e.g., "Reconnect Zalo Personal (Unofficial)") |
 | Account warning or restriction | This uses an unofficial protocol. If you receive a warning from Zalo, stop using the integration and consider switching to the official [Zalo Bot Platform](#zalo) |
 | Others can't message the bot | By default only the Owner can chat. Ask your AI employee to enable Allowlist or Open mode to grant access |
-| Want to disconnect | Ask your AI employee to disconnect the Zalo (Hacked) channel (e.g., "Disconnect Zalo (Hacked)") |
+| Want to disconnect | Ask your AI employee to disconnect the Zalo Personal (Unofficial) channel (e.g., "Disconnect Zalo Personal (Unofficial)") |
 
-<!-- Commented out: previous dashboard-based setup flow (replaced by agent-based flow above — Zalo (Hacked) is no longer configured through the COCO Dashboard UI)
+<!-- Commented out: previous dashboard-based setup flow (replaced by agent-based flow above — Zalo Personal (Unofficial) is no longer configured through the COCO Dashboard UI)
 
 No credentials are required. Authentication is done entirely via QR code:
 
@@ -1055,11 +1055,11 @@ No credentials are required. Authentication is done entirely via QR code:
 | Dedicated Zalo Account | A phone with Zalo installed and logged in to a **separate account** — not the same account users will use to message your COCO agent |
 | ~2 minutes | Time to complete deployment |
 
-### Step 1: Click Connect on the Zalo (Hacked) Card
+### Step 1: Click Connect on the Zalo Personal (Unofficial) Card
 
 1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
 2. Go to the employee instance detail page
-3. Find the **Zalo (Hacked)** card and click **Connect**
+3. Find the **Zalo Personal (Unofficial)** card and click **Connect**
 4. The system will generate a QR code — this may take a few seconds
 
 ### Step 2: Scan the QR Code with Your Dedicated Zalo Account
@@ -1071,7 +1071,7 @@ No credentials are required. Authentication is done entirely via QR code:
 
 ### Step 3: Wait for Connection Confirmation
 
-1. After scanning, the Dashboard automatically detects the connection — the Zalo (Hacked) card shows **Connected**
+1. After scanning, the Dashboard automatically detects the connection — the Zalo Personal (Unofficial) card shows **Connected**
 2. The connection is established through your dedicated Zalo account
 
 ### Step 4: Start Chatting
@@ -1081,7 +1081,7 @@ No credentials are required. Authentication is done entirely via QR code:
 
 > **First message:** The first user to send a DM becomes the **Owner** (administrator). The owner always has full access regardless of policy settings.
 
-### Zalo (Hacked) FAQ
+### Zalo Personal (Unofficial) FAQ
 
 | Issue | Solution |
 |-------|----------|
@@ -1089,6 +1089,6 @@ No credentials are required. Authentication is done entirely via QR code:
 | Connection lost after some time | Zalo may disconnect long-running sessions. Return to the Dashboard and scan a new QR code to reconnect |
 | Account warning or restriction | This uses an unofficial protocol. If you receive a warning from Zalo, stop using the integration and consider switching to the official [Zalo Bot Platform](#zalo) |
 | Others can't message the bot | By default only the Owner can chat. Enable Allowlist or Open mode to grant access |
-| Want to disconnect | Click the **Disconnect** button on the Zalo (Hacked) card in the employee detail page |
+| Want to disconnect | Click the **Disconnect** button on the Zalo Personal (Unofficial) card in the employee detail page |
 
 -->

@@ -167,10 +167,10 @@ COCO works in the tools your team already uses. No context switching.
 <div class="channel-icon">💙</div>
 <div class="channel-name">Zalo (Official)</div>
 </a>
-<!-- Commented out: Zalo (Hacked) grid card removed from homepage (setup is now agent-based, not through Dashboard)
+<!-- Commented out: Zalo Personal (Unofficial) grid card removed from homepage (setup is now agent-based, not through Dashboard)
 <a href="./getting-started/channel-deployment#zalo-personal" class="channel-card">
 <div class="channel-icon">💙</div>
-<div class="channel-name">Zalo (Hacked)</div>
+<div class="channel-name">Zalo Personal (Unofficial)</div>
 </a>
 -->
 <a href="./channels/web-console" class="channel-card">

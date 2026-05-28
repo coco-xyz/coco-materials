@@ -137,7 +137,7 @@ Best regards,
 | Lark/飞书 | 约 30,000 字符 | 超长内容会自动截断 |
 | Microsoft Teams | 约 28 KB | 自动拆分为多条消息发送 |
 | Zalo (官方) | 2000 字符 | 自动拆分为多条消息发送 |
-| Zalo (Hacked) | 2000 字符 | 自动拆分为多条消息发送 |
+| Zalo Personal (Unofficial) | 2000 字符 | 自动拆分为多条消息发送 |
 
 ### 文件处理
 

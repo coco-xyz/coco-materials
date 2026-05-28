@@ -14,7 +14,7 @@
 | [Slack](../getting-started/channel-deployment#slack) | 国际团队、开发者工作流 | ✅ 可用 |
 | [Microsoft Teams](./ms-teams) | 企业团队、Microsoft 365 组织 | ✅ 可用 |
 | [Zalo (官方)](../getting-started/channel-deployment#zalo) | 越南用户、个人及商务使用 | ✅ 可用 |
-| [Zalo (Hacked)](../getting-started/channel-deployment#zalo-personal) | 越南用户、个人 Zalo 账号（非官方） | ✅ 可用 |
+| [Zalo Personal (Unofficial)](../getting-started/channel-deployment#zalo-personal) | 越南用户、个人 Zalo 账号（非官方） | ✅ 可用 |
 | [Web 控制台](./web-console) | 浏览器访问、快速测试 | ✅ 可用 |
 
 ## 通用技巧
