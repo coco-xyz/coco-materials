@@ -801,34 +801,50 @@ After creation, note down:
 
 ### Step 3: Configure Graph API Permissions
 
-In your App Registration, go to **API permissions** → **Add a permission** → **Microsoft Graph**.
+Instead of adding permissions one by one through the UI, you can paste them all at once via the **Manifest editor**.
 
-#### Application Permissions
+1. In your App Registration, go to the **Manifest** tab
+2. Find the `"requiredResourceAccess"` section (around line 40)
+3. Replace its value with the following JSON:
 
-Select **Application permissions** and add:
+```json
+"requiredResourceAccess": [
+  {
+    "resourceAppId": "00000003-0000-0000-c000-000000000000",
+    "resourceAccess": [
+      { "id": "01d4889c-1287-42c6-ac1f-5d1e02578ef6", "type": "Role" },
+      { "id": "6b7d71aa-70aa-4810-a8d9-5d9fb2830017", "type": "Role" },
+      { "id": "7b2449af-6ccd-4f4d-9f78-e550c193f0d1", "type": "Role" },
+      { "id": "df021288-bdef-4463-88db-98f22de89214", "type": "Role" },
+      { "id": "9ff7295e-131b-4d94-90e1-69fde507ac11", "type": "Scope" },
+      { "id": "ebf0f66e-9fb1-49e4-a278-222f76911cf4", "type": "Scope" },
+      { "id": "767156cb-16ae-4d10-8f8b-41b657c8c8c8", "type": "Scope" },
+      { "id": "df85f4d6-205c-4ac5-a5ea-6bf408dba283", "type": "Scope" },
+      { "id": "7427e0e9-2fba-42fe-b0c0-848c9e6a8182", "type": "Scope" }
+    ]
+  }
+]
+```
 
-| Permission | Purpose |
-|------------|---------|
-| `Files.Read.All` | Download files from OneDrive/SharePoint |
-| `Chat.Read.All` | Read DM and group chat history |
-| `ChannelMessage.Read.All` | Read team channel message history |
-| `User.Read.All` | Resolve user mentions and search users |
+4. Click **Save** at the top of the Manifest page
 
-#### Delegated Permissions
+This adds all 9 permissions at once:
 
-Go back to **Add a permission** → **Microsoft Graph** → **Delegated permissions** and add:
-
-| Permission | Purpose |
-|------------|---------|
-| `Chat.ReadWrite` | Read and send chat messages on behalf of the user |
-| `ChannelMessage.Send` | Send channel messages on behalf of the user |
-| `ChannelMessage.Read.All` | Read channel messages on behalf of the user |
-| `Files.Read.All` | Access files the user can access |
-| `offline_access` | Maintain access when the user is not actively signed in |
+| Permission | Type | What It Does |
+|------------|------|-------------|
+| `Files.Read.All` | Application | Download files from OneDrive/SharePoint |
+| `Chat.Read.All` | Application | Read DM and group chat history |
+| `ChannelMessage.Read.All` | Application | Read team channel message history |
+| `User.Read.All` | Application | Resolve user mentions and search users |
+| `Chat.ReadWrite` | Delegated | Read and send chat messages on behalf of the user |
+| `ChannelMessage.Send` | Delegated | Send channel messages on behalf of the user |
+| `ChannelMessage.Read.All` | Delegated | Read channel messages on behalf of the user |
+| `Files.Read.All` | Delegated | Access files the user can access |
+| `offline_access` | Delegated | Maintain access when the user is not actively signed in |
 
 #### Grant Admin Consent
 
-After adding all 9 permissions (4 application + 5 delegated), click **Grant admin consent for [your organization]** and confirm. All permissions should show a green checkmark.
+After saving the manifest, go to **API permissions** and click **Grant admin consent for [your organization]**. Confirm, and all 9 permissions should show a green checkmark.
 
 > **Important:** Admin consent is required. Without it, file downloads, chat history, emoji reactions, and smart mode features will not work.
 
