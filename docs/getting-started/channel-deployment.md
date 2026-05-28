@@ -801,9 +801,11 @@ After creation, note down:
 
 ### Step 3: Configure Graph API Permissions
 
-In your App Registration, go to **API permissions** → **Add a permission** → **Microsoft Graph** → **Application permissions**.
+In your App Registration, go to **API permissions** → **Add a permission** → **Microsoft Graph**.
 
-Add the following permissions:
+#### Application Permissions
+
+Select **Application permissions** and add:
 
 | Permission | Purpose |
 |------------|---------|
@@ -812,9 +814,23 @@ Add the following permissions:
 | `ChannelMessage.Read.All` | Read team channel message history |
 | `User.Read.All` | Resolve user mentions and search users |
 
-After adding all four, click **Grant admin consent for [your organization]** and confirm. All permissions should show a green checkmark.
+#### Delegated Permissions
 
-> **Important:** Admin consent is required. Without it, file downloads, chat history, and smart mode features will not work.
+Go back to **Add a permission** → **Microsoft Graph** → **Delegated permissions** and add:
+
+| Permission | Purpose |
+|------------|---------|
+| `Chat.ReadWrite` | Read and send chat messages on behalf of the user |
+| `ChannelMessage.Send` | Send channel messages on behalf of the user |
+| `ChannelMessage.Read.All` | Read channel messages on behalf of the user |
+| `Files.Read.All` | Access files the user can access |
+| `offline_access` | Maintain access when the user is not actively signed in |
+
+#### Grant Admin Consent
+
+After adding all 9 permissions (4 application + 5 delegated), click **Grant admin consent for [your organization]** and confirm. All permissions should show a green checkmark.
+
+> **Important:** Admin consent is required. Without it, file downloads, chat history, emoji reactions, and smart mode features will not work.
 
 ### Step 4: Create an Azure Bot Resource
 
