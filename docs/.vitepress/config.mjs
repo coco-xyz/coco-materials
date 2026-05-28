@@ -254,6 +254,8 @@ export default defineConfig({
                 { text: 'DingTalk', link: '/getting-started/channel-deployment#option-d-dingtalk-钉钉-deployment' },
                 { text: 'Slack', link: '/getting-started/channel-deployment#slack' },
                 { text: 'Microsoft Teams', link: '/channels/ms-teams' },
+                { text: 'Zalo', link: '/getting-started/channel-deployment#zalo' },
+                { text: 'Zalo Personal', link: '/getting-started/channel-deployment#zalo-personal' },
                 { text: 'Web Console', link: '/channels/web-console' },
               ]
             },
@@ -402,6 +404,8 @@ export default defineConfig({
                 { text: '钉钉', link: '/zh/getting-started/channel-deployment#option-d-dingtalk-钉钉-deployment' },
                 { text: 'Slack', link: '/zh/getting-started/channel-deployment#slack' },
                 { text: 'Microsoft Teams', link: '/zh/channels/ms-teams' },
+                { text: 'Zalo', link: '/zh/getting-started/channel-deployment#zalo' },
+                { text: 'Zalo 个人版', link: '/zh/getting-started/channel-deployment#zalo-personal' },
                 { text: 'Web 控制台', link: '/zh/channels/web-console' },
               ]
             },
