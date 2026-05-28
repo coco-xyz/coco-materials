@@ -4,15 +4,15 @@
   "version": "1.0.0",
   "id": "<YOUR_APP_ID>",
   "developer": {
-    "name": "Your Company",
+    "name": "<YOUR_COMPANY_NAME>",
     "websiteUrl": "https://coco.xyz",
     "privacyUrl": "https://coco.xyz/privacy",
     "termsOfUseUrl": "https://coco.xyz/terms"
   },
-  "name": { "short": "COCO AI Employee" },
+  "name": { "short": "<YOUR_BOT_DISPLAY_NAME>" },
   "description": {
-    "short": "AI-powered assistant",
-    "full": "COCO AI Employee connected via Microsoft Teams"
+    "short": "<SHORT_DESCRIPTION>",
+    "full": "<FULL_DESCRIPTION>"
   },
   "icons": { "color": "color.png", "outline": "outline.png" },
   "accentColor": "#4F6BED",

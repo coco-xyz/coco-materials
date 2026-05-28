@@ -880,11 +880,21 @@ We provide a ready-made template with the COCO icon included. Download all three
 - [color.png](/ms-teams-manifest/color.png) — 192x192 full-color app icon
 - [outline.png](/ms-teams-manifest/outline.png) — 32x32 transparent outline icon
 
-::: warning Replace YOUR_APP_ID before zipping
-Open `manifest.json` in any text editor and replace all `<YOUR_APP_ID>` placeholders (3 places) with your actual App ID from Step 1.
+::: warning Edit manifest.json before zipping
+Open `manifest.json` in any text editor and replace all placeholders with your actual values.
 :::
 
-> **Note:** The `<YOUR_APP_ID>` placeholder appears in three fields: `id`, `botId`, and `webApplicationInfo.id`. The `webApplicationInfo` section enables Graph API integration. The `resourceSpecific` permissions enable resource-specific consent (RSC) for reading messages in chats and channels where the bot is installed.
+**Placeholders to replace:**
+
+| Placeholder | Replace With | Where |
+|-------------|-------------|-------|
+| `<YOUR_APP_ID>` | Your App ID from Step 1 | `id`, `botId`, `webApplicationInfo.id` (3 places) |
+| `<YOUR_COMPANY_NAME>` | Your company or team name | `developer.name` |
+| `<YOUR_BOT_DISPLAY_NAME>` | Bot name shown in Teams (e.g., `COCO AI Employee`) | `name.short` |
+| `<SHORT_DESCRIPTION>` | One-line summary (e.g., `AI-powered assistant`) | `description.short` |
+| `<FULL_DESCRIPTION>` | Longer description | `description.full` |
+
+> **Note on scopes:** The `scopes` field defines where the bot can be used: `personal` = 1:1 DM conversations, `team` = team channels, `groupChat` = group chats. All three are enabled by default. The `resourceSpecific` permissions enable resource-specific consent (RSC) for reading messages in chats and channels where the bot is installed.
 
 After editing `manifest.json`, select all three files and compress them into a single `.zip` file.
 
