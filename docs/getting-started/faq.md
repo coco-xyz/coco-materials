@@ -69,7 +69,7 @@ You can configure independently for each communication channel who can interact 
 | Whitelist mode | Only designated users can talk to the Agent |
 | @mention mode | In group chats, the Agent only responds when @mentioned, preventing accidental triggers |
 
-Each channel (Lark, Telegram, Zalo, Web Console, etc.) can be configured independently without affecting others.
+Each channel (Lark, Telegram, Zalo (Official), Web Console, etc.) can be configured independently without affecting others.
 
 **III. Memory & Data Management**
 
@@ -289,7 +289,7 @@ When using the collected data, please ensure compliance with local data protecti
 | **How you use it** | You open the app and ask questions | The AI employee proactively executes tasks end-to-end and pushes results to you |
 | **Memory** | Forgets everything after the conversation ends | Persistent cross-conversation memory — gets smarter the more you use it |
 | **Automation** | Not supported | Supports scheduled tasks with no manual trigger needed |
-| **Channels** | ChatGPT app | Platforms you already use: Lark/Telegram/Zalo/Teams |
+| **Channels** | ChatGPT app | Platforms you already use: Lark/Telegram/Zalo (Official)/Teams |
 | **Underlying model** | OpenAI GPT | Claude (Anthropic) |
 | **Team collaboration** | Personal tool | Can join group chats — the whole team shares one AI employee |
 
@@ -302,7 +302,7 @@ In short: ChatGPT is a smart Q&A tool. COCO is a digital employee that proactive
 **Full Onboarding Flow (approximately 15 minutes)**
 
 1. Register a COCO account and choose a plan
-2. Follow the [Channel Deployment Guide](https://docs.coco.xyz) to connect your channel (Telegram: ~5 min; Lark: ~10 min; Zalo: ~5 min)
+2. Follow the [Channel Deployment Guide](https://docs.coco.xyz) to connect your channel (Telegram: ~5 min; Lark: ~10 min; Zalo (Official): ~5 min)
 3. Complete the Onboarding in the Dashboard (select your role; the AI employee initializes automatically)
 4. Send your first message and start collaborating
 
