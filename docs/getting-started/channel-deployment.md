@@ -1021,6 +1021,52 @@ No credentials are required. Authentication is done entirely via QR code:
 
 | Item | Description |
 |------|-------------|
+| COCO AI Employee | An existing AI employee with at least one channel already connected (e.g., Telegram, Lark, WhatsApp) |
+| Dedicated Zalo Account | A phone with Zalo installed and logged in to a **separate account** — not the same account users will use to message your COCO agent |
+| ~2 minutes | Time to complete deployment |
+
+### Step 1: Ask Your AI Employee to Install Zalo Personal
+
+Message your AI employee in any connected channel (Telegram, Lark, WhatsApp, etc.):
+
+> "Install the Zalo Personal channel"
+
+Your AI employee will install the Zalo Personal component and generate a QR code, which it sends back to you in the chat.
+
+### Step 2: Scan the QR Code with Your Dedicated Zalo Account
+
+1. Open **Zalo** on the phone logged in to your **dedicated bot account** (not your personal account)
+2. Tap the **QR code scanner** (usually in the top-right corner of the home screen or in the search bar)
+3. Point your camera at the QR code your AI employee sent you
+4. Confirm the login on your phone when prompted
+
+### Step 3: Connection Confirmed
+
+Your AI employee will confirm the connection is established. Your dedicated Zalo account is now the bot's identity on Zalo.
+
+### Step 4: Start Chatting
+
+1. Anyone who sends a message to your dedicated bot Zalo account will receive AI-powered responses
+2. Deployment complete!
+
+> **First message:** The first user to send a DM becomes the **Owner** (administrator). The owner always has full access regardless of policy settings.
+
+### Zalo Personal FAQ
+
+| Issue | Solution |
+|-------|----------|
+| QR code expired before scanning | Ask your AI employee to generate a new QR code (e.g., "Reconnect Zalo Personal") |
+| Connection lost after some time | Zalo may disconnect long-running sessions. Ask your AI employee to reconnect (e.g., "Reconnect Zalo Personal") |
+| Account warning or restriction | This uses an unofficial protocol. If you receive a warning from Zalo, stop using the integration and consider switching to the official [Zalo Bot Platform](#zalo) |
+| Others can't message the bot | By default only the Owner can chat. Ask your AI employee to enable Allowlist or Open mode to grant access |
+| Want to disconnect | Ask your AI employee to disconnect the Zalo Personal channel (e.g., "Disconnect Zalo Personal") |
+
+<!-- Commented out: previous dashboard-based setup flow (replaced by agent-based flow above — Zalo Personal is no longer configured through the COCO Dashboard UI)
+
+No credentials are required. Authentication is done entirely via QR code:
+
+| Item | Description |
+|------|-------------|
 | COCO AI Employee | An existing instance in COCO Dashboard |
 | Dedicated Zalo Account | A phone with Zalo installed and logged in to a **separate account** — not the same account users will use to message your COCO agent |
 | ~2 minutes | Time to complete deployment |
@@ -1060,3 +1106,5 @@ No credentials are required. Authentication is done entirely via QR code:
 | Account warning or restriction | This uses an unofficial protocol. If you receive a warning from Zalo, stop using the integration and consider switching to the official [Zalo Bot Platform](#zalo) |
 | Others can't message the bot | By default only the Owner can chat. Enable Allowlist or Open mode to grant access |
 | Want to disconnect | Click the **Disconnect** button on the Zalo Personal card in the employee detail page |
+
+-->
