@@ -799,6 +799,9 @@ Four credentials are required:
    You can find this on the **Microsoft Teams** card in your employee's channel grid on the COCO Dashboard. Copy it and paste it here.
 3. Note down the **Microsoft App ID** (this is your **App ID**) and **App Tenant ID** (this is your **Tenant ID**)
 4. Click **Apply**
+5. Go to **Channels** in the left sidebar, click **Microsoft Teams**, accept the terms, and click **Apply** to enable the Teams channel
+
+> **Important:** The Teams channel must be enabled on the Azure Bot resource. Without it, Teams will show an "Invalid Bot" error when users try to chat with the bot.
 
 ### Step 3: Create a Client Secret
 
