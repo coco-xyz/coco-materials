@@ -13,14 +13,33 @@ COCO supports two ways to connect to Zalo. Choose the one that fits your needs:
 | **Account needed** | A Zalo account to register a bot on the Bot Platform | A dedicated Zalo account (separate from users who will chat with it) |
 | **Setup** | Create bot → paste Bot Token in Dashboard | Scan a QR code — no tokens or developer setup |
 | **Account risk** | None — official API | Possible account restriction or ban — use at your own risk |
-| **Best for** | Production use, customer-facing bots, long-term stability | Quick personal use, testing, or when you don't want to register a bot |
 | **Deployment time** | ~5 minutes | ~2 minutes |
 | **Deployment guide** | [Zalo (Official) deployment →](../getting-started/channel-deployment#zalo) | [Zalo Personal (Unofficial) deployment →](../getting-started/channel-deployment#zalo-personal) |
 
-::: tip Which one should I choose?
-**Use Zalo (Official)** if you want a stable, long-term connection with no risk of account issues. This is the recommended option for most users.
+### Capability Comparison
 
-**Use Zalo Personal (Unofficial)** if you want the fastest possible setup (just scan a QR code) and are comfortable with the risk of using an unofficial protocol. Good for testing or personal use.
+| Capability | Zalo (Official) | Zalo Personal (Unofficial) |
+|---|:---:|:---:|
+| **Text messages** (send & receive) | ✅ | ✅ |
+| **Images** (receive) | ✅ | ✅ |
+| **Images** (send) | ⚠️ Public URL only | ✅ Local files supported |
+| **Files & documents** (send & receive) | ❌ | ✅ |
+| **Voice messages** (send) | ❌ | ✅ |
+| **Stickers** (send & receive) | ✅ | ✅ |
+| **Sticker search** | ❌ | ✅ |
+| **Reactions** (send & receive) | ❌ | ✅ 6 types |
+| **Quote-reply** | ❌ | ✅ |
+| **Typing indicator** | ✅ | ✅ |
+| **Read receipts** | ❌ | ✅ |
+| **@Mentions** | ❌ | ✅ |
+| **Group chats** | ✅ Basic | ✅ Full (smart + mention modes) |
+| **1:1 DMs** | ✅ | ✅ |
+| **Friend / group management** | ❌ | ✅ |
+
+::: tip Which one should I choose?
+**Zalo (Official)** is stable and risk-free, but limited to text, images, and stickers. Choose this if reliability matters more than features.
+
+**Zalo Personal (Unofficial)** supports the full Zalo experience — files, reactions, voice, quote-reply, smart group modes — but uses an unofficial protocol that could lead to account restrictions. Choose this if you need richer capabilities and accept the trade-off.
 :::
 
 ## Zalo (Official) — Usage
