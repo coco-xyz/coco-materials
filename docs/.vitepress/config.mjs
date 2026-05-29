@@ -239,6 +239,7 @@ export default defineConfig({
           { text: 'Use Cases', link: '/use-cases/' },
           { text: 'Case Studies', link: '/case-studies/' },
           { text: 'Channels', link: '/channels/' },
+          { text: 'Announcements', link: '/announcements/' },
           { text: 'Pricing', link: 'https://coco.xyz/#pricing' },
         ],
         sidebar: {
@@ -360,6 +361,15 @@ export default defineConfig({
               ]
             },
           ],
+          '/announcements/': [
+            {
+              text: 'Announcements',
+              items: [
+                { text: 'All Announcements', link: '/announcements/' },
+                { text: 'New Domain: icoco.ai', link: '/announcements/new-domain-icoco-ai' },
+              ]
+            },
+          ],
           '/case-studies/': [
             {
               text: 'Case Studies',
@@ -389,6 +399,7 @@ export default defineConfig({
           { text: '用例', link: '/zh/use-cases/' },
           { text: '案例', link: '/zh/case-studies/' },
           { text: '通讯渠道', link: '/zh/channels/' },
+          { text: '公告', link: '/zh/announcements/' },
           { text: '定价', link: 'https://coco.xyz/#pricing' },
         ],
         sidebar: {
@@ -507,6 +518,15 @@ export default defineConfig({
               text: '社交媒体',
               items: [
                 { text: '渠道', link: '/zh/social-media/' },
+              ]
+            },
+          ],
+          '/zh/announcements/': [
+            {
+              text: '公告',
+              items: [
+                { text: '全部公告', link: '/zh/announcements/' },
+                { text: '全新域名 icoco.ai 上线', link: '/zh/announcements/new-domain-icoco-ai' },
               ]
             },
           ],
