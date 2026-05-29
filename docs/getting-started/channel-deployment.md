@@ -801,34 +801,50 @@ After creation, note down:
 
 ### Step 3: Configure Graph API Permissions
 
-In your App Registration, go to **API permissions** → **Add a permission** → **Microsoft Graph**.
+Instead of adding permissions one by one through the UI, you can paste them all at once via the **Manifest editor**.
 
-#### Application Permissions
+1. In your App Registration, go to the **Manifest** tab
+2. Find the `"requiredResourceAccess"` section (around line 40)
+3. Replace its value with the following JSON:
 
-Select **Application permissions** and add:
+```json
+"requiredResourceAccess": [
+  {
+    "resourceAppId": "00000003-0000-0000-c000-000000000000",
+    "resourceAccess": [
+      { "id": "01d4889c-1287-42c6-ac1f-5d1e02578ef6", "type": "Role" },
+      { "id": "6b7d71aa-70aa-4810-a8d9-5d9fb2830017", "type": "Role" },
+      { "id": "7b2449af-6ccd-4f4d-9f78-e550c193f0d1", "type": "Role" },
+      { "id": "df021288-bdef-4463-88db-98f22de89214", "type": "Role" },
+      { "id": "9ff7295e-131b-4d94-90e1-69fde507ac11", "type": "Scope" },
+      { "id": "ebf0f66e-9fb1-49e4-a278-222f76911cf4", "type": "Scope" },
+      { "id": "767156cb-16ae-4d10-8f8b-41b657c8c8c8", "type": "Scope" },
+      { "id": "df85f4d6-205c-4ac5-a5ea-6bf408dba283", "type": "Scope" },
+      { "id": "7427e0e9-2fba-42fe-b0c0-848c9e6a8182", "type": "Scope" }
+    ]
+  }
+]
+```
 
-| Permission | Purpose |
-|------------|---------|
-| `Files.Read.All` | Download files from OneDrive/SharePoint |
-| `Chat.Read.All` | Read DM and group chat history |
-| `ChannelMessage.Read.All` | Read team channel message history |
-| `User.Read.All` | Resolve user mentions and search users |
+4. Click **Save** at the top of the Manifest page
 
-#### Delegated Permissions
+This adds all 9 permissions at once:
 
-Go back to **Add a permission** → **Microsoft Graph** → **Delegated permissions** and add:
-
-| Permission | Purpose |
-|------------|---------|
-| `Chat.ReadWrite` | Read and send chat messages on behalf of the user |
-| `ChannelMessage.Send` | Send channel messages on behalf of the user |
-| `ChannelMessage.Read.All` | Read channel messages on behalf of the user |
-| `Files.Read.All` | Access files the user can access |
-| `offline_access` | Maintain access when the user is not actively signed in |
+| Permission | Type | What It Does |
+|------------|------|-------------|
+| `Files.Read.All` | Application | Download files from OneDrive/SharePoint |
+| `Chat.Read.All` | Application | Read DM and group chat history |
+| `ChannelMessage.Read.All` | Application | Read team channel message history |
+| `User.Read.All` | Application | Resolve user mentions and search users |
+| `Chat.ReadWrite` | Delegated | Read and send chat messages on behalf of the user |
+| `ChannelMessage.Send` | Delegated | Send channel messages on behalf of the user |
+| `ChannelMessage.Read.All` | Delegated | Read channel messages on behalf of the user |
+| `Files.Read.All` | Delegated | Access files the user can access |
+| `offline_access` | Delegated | Maintain access when the user is not actively signed in |
 
 #### Grant Admin Consent
 
-After adding all 9 permissions (4 application + 5 delegated), click **Grant admin consent for [your organization]** and confirm. All permissions should show a green checkmark.
+After saving the manifest, go to **API permissions** and click **Grant admin consent for [your organization]**. Confirm, and all 9 permissions should show a green checkmark.
 
 > **Important:** Admin consent is required. Without it, file downloads, chat history, emoji reactions, and smart mode features will not work.
 
@@ -841,7 +857,14 @@ After adding all 9 permissions (4 application + 5 delegated), click **Grant admi
    - **Microsoft App ID**: select **Use existing app registration**, enter the **App ID** from Step 1
 3. Click **Review + create**, then **Create**
 4. After deployment, go to the Bot resource → **Configuration**
-5. Leave the **Messaging endpoint** blank for now — you'll set it after connecting via the Dashboard
+5. Set the **Messaging endpoint** to your agent's MS Teams webhook URL. The format is:
+   ```
+   https://<your-agent-domain>/ms-teams/api/messages
+   ```
+   You can find this on the **Microsoft Teams** card in your employee's channel grid on the COCO Dashboard. Copy it and paste it here.
+6. Click **Apply**
+
+> **Important:** The messaging endpoint is required. Without it, Azure Bot Service cannot forward Teams messages to your AI employee.
 
 ### Step 5: Connect in COCO Dashboard
 
@@ -854,23 +877,11 @@ After adding all 9 permissions (4 application + 5 delegated), click **Grant admi
 |-------|--------|
 | App ID | Azure Portal → App Registration → Application (client) ID |
 | App Password | Azure Portal → App Registration → Client Secret Value |
-| Tenant ID | Azure Portal → App Registration → Directory (tenant) ID (single-tenant only) |
+| Tenant ID | Azure Portal → App Registration → Directory (tenant) ID |
 
 5. Click **Connect** — the system will validate your credentials and deploy the channel
 
-> **Tip:** If your bot is multi-tenant, the Tenant ID field can be left empty.
-
-### Step 6: Set the Messaging Endpoint in Azure
-
-After connecting, the employee detail page displays a **Messaging Endpoint** URL. Copy this URL.
-
-1. Return to Azure Portal → your **Azure Bot** resource → **Configuration**
-2. Paste the URL into the **Messaging endpoint** field
-3. Click **Apply**
-
-> **Important:** This step is required. Without the messaging endpoint, Azure Bot Service cannot forward Teams messages to your AI employee.
-
-### Step 7: Create and Install the Teams App Manifest
+### Step 6: Create and Install the Teams App Manifest
 
 To make the bot available in Teams, you need a Teams App Manifest — a `.zip` file containing a `manifest.json` and two icon files.
 
