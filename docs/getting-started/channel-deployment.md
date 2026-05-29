@@ -857,7 +857,14 @@ After saving the manifest, go to **API permissions** and click **Grant admin con
    - **Microsoft App ID**: select **Use existing app registration**, enter the **App ID** from Step 1
 3. Click **Review + create**, then **Create**
 4. After deployment, go to the Bot resource → **Configuration**
-5. Leave the **Messaging endpoint** blank for now — you'll set it after connecting via the Dashboard
+5. Set the **Messaging endpoint** to your agent's MS Teams webhook URL. The format is:
+   ```
+   https://<your-agent-domain>/ms-teams/api/messages
+   ```
+   You can find this on the **Microsoft Teams** card in your employee's channel grid on the COCO Dashboard. Copy it and paste it here.
+6. Click **Apply**
+
+> **Important:** The messaging endpoint is required. Without it, Azure Bot Service cannot forward Teams messages to your AI employee.
 
 ### Step 5: Connect in COCO Dashboard
 
@@ -870,23 +877,11 @@ After saving the manifest, go to **API permissions** and click **Grant admin con
 |-------|--------|
 | App ID | Azure Portal → App Registration → Application (client) ID |
 | App Password | Azure Portal → App Registration → Client Secret Value |
-| Tenant ID | Azure Portal → App Registration → Directory (tenant) ID (single-tenant only) |
+| Tenant ID | Azure Portal → App Registration → Directory (tenant) ID |
 
 5. Click **Connect** — the system will validate your credentials and deploy the channel
 
-> **Tip:** If your bot is multi-tenant, the Tenant ID field can be left empty.
-
-### Step 6: Set the Messaging Endpoint in Azure
-
-After connecting, the employee detail page displays a **Messaging Endpoint** URL. Copy this URL.
-
-1. Return to Azure Portal → your **Azure Bot** resource → **Configuration**
-2. Paste the URL into the **Messaging endpoint** field
-3. Click **Apply**
-
-> **Important:** This step is required. Without the messaging endpoint, Azure Bot Service cannot forward Teams messages to your AI employee.
-
-### Step 7: Create and Install the Teams App Manifest
+### Step 6: Create and Install the Teams App Manifest
 
 To make the bot available in Teams, you need a Teams App Manifest — a `.zip` file containing a `manifest.json` and two icon files.
 
