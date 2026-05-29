@@ -762,53 +762,65 @@ The bot will open chat access to all users.
 
 ## Option G: Microsoft Teams Deployment {#ms-teams}
 
-**Estimated time: 10-15 minutes**
+**Estimated time: 15-20 minutes**
 
-> **Note:** Microsoft Teams is widely used by enterprises on Microsoft 365. Deployment requires creating an Azure App Registration and Bot resource. No servers or coding skills needed — a free Azure tier is sufficient.
+> **Note:** Microsoft Teams is widely used by enterprises on Microsoft 365. Deployment requires creating an Azure Bot resource, configuring permissions, and publishing the app via the Teams Developer Portal. No servers or coding skills needed — a free Azure tier is sufficient.
 
-Three credentials are required:
+Four credentials are required:
 
 | Credential | Where to Find | Description |
 |------------|---------------|-------------|
-| App ID | Azure Portal → App Registration → Application (client) ID | Identifies your bot application |
-| App Password | Azure Portal → App Registration → Certificates & secrets → Secret Value | Authenticates your bot |
-| Tenant ID | Azure Portal → App Registration → Directory (tenant) ID | Required for single-tenant bots only |
+| App ID | Azure Bot → Configuration → Microsoft App ID | Identifies your bot application |
+| App Password | App Registration → Certificates & secrets → Secret Value | Authenticates your bot |
+| Tenant ID | Azure Bot → Configuration → Directory (tenant) ID | Your organization's tenant identifier |
+| App Catalog ID | Teams Developer Portal → Basic information → App ID | Identifies the app in the Teams catalog |
 
-### Step 1: Create an Azure App Registration
+### Step 1: Create an Azure Bot
 
-1. Go to [Azure Portal](https://portal.azure.com) → **Microsoft Entra ID** → **App registrations**
-2. Click **New registration**
-3. Enter a name (e.g., `COCO AI Employee`)
-4. Under **Supported account types**, select your preference:
-   - **Single tenant** — only users in your organization (recommended for enterprise)
-   - **Multitenant** — users in any organization
-5. Leave **Redirect URI** blank
-6. Click **Register**
+1. Go to [Azure Portal](https://portal.azure.com), click **Create a resource**, and search for **Azure Bot**
+2. Click **Create** and fill in:
+   - **Bot handle**: a unique name (e.g., `coco-ai-employee`)
+   - **Resource group**: select an existing one or create new
+   - **Pricing tier**: F0 (Free)
+   - **Type of App**: Single Tenant
+   - **Creation type**: Create new Microsoft App ID
+3. Click **Review + create**, then **Create**
+4. When deployment completes, click **Go to resource**
 
-After creation, note down:
-- **Application (client) ID** — this is your **App ID**
-- **Directory (tenant) ID** — needed if single-tenant
+> **Note:** Creating an Azure Bot automatically creates an App Registration for you — no separate step needed.
 
-### Step 2: Create a Client Secret
+### Step 2: Configure the Bot and Note Credentials
 
-1. In your App Registration, go to **Certificates & secrets**
-2. Click **New client secret**
-3. Enter a description (e.g., `COCO Bot Secret`) and choose an expiration period
-4. Click **Add**
-5. **Copy the secret Value immediately** — it is only shown once
+1. In the Azure Bot resource, go to **Configuration**
+2. Set the **Messaging endpoint** to your agent's MS Teams webhook URL:
+   ```
+   https://<your-agent-domain>/ms-teams/api/messages
+   ```
+   You can find this on the **Microsoft Teams** card in your employee's channel grid on the COCO Dashboard. Copy it and paste it here.
+3. Note down the **Microsoft App ID** (this is your **App ID**) and **App Tenant ID** (this is your **Tenant ID**)
+4. Click **Apply**
 
-> **Important:** The client secret cannot be viewed again after you leave this page. Save it securely.
+### Step 3: Create a Client Secret
 
-### Step 3: Configure Graph API Permissions
+1. On the Configuration page, click **Manage Password** — this takes you to the App Registration page
+2. Go to **Certificates & secrets**
+3. Click **New client secret**
+4. Enter a description (e.g., `COCO Bot Secret`) and choose an expiration period
+5. Click **Add**
+6. **Copy the secret Value immediately** — it is only shown once
 
-Instead of adding permissions one by one through the UI, you can paste them all at once via the **Manifest editor**.
+> **Important:** The client secret cannot be viewed again after you leave this page. Save it securely. This is your **App Password**.
 
-1. In your App Registration, go to the **Manifest** tab
-2. Find the `"requiredResourceAccess"` section (around line 40)
-3. Replace its value with the following JSON:
+### Step 4: Configure Graph API Permissions
+
+Instead of adding permissions one by one through the UI, you can paste them all at once via the manifest editor.
+
+1. In the App Registration page (you should already be here from Step 3), go to the **Manifest** tab
+2. Select the **Microsoft Graph App Manifest (New)** tab at the top
+3. Find `"requiredResourceAccess": []` and replace only the `[]` with the following array:
 
 ```json
-"requiredResourceAccess": [
+[
   {
     "resourceAppId": "00000003-0000-0000-c000-000000000000",
     "resourceAccess": [
@@ -827,6 +839,8 @@ Instead of adding permissions one by one through the UI, you can paste them all 
 ```
 
 4. Click **Save** at the top of the Manifest page
+
+> **Important:** Replace only the empty `[]` after `"requiredResourceAccess":` — do not replace the entire line including the key name.
 
 This adds all 9 permissions at once:
 
@@ -848,25 +862,105 @@ After saving the manifest, go to **API permissions** and click **Grant admin con
 
 > **Important:** Admin consent is required. Without it, file downloads, chat history, emoji reactions, and smart mode features will not work.
 
-### Step 4: Create an Azure Bot Resource
+### Step 5: Create App in Teams Developer Portal
 
-1. In Azure Portal, search for **Azure Bot** and click **Create**
-2. Fill in:
-   - **Bot handle**: a unique name (e.g., `coco-ai-employee`)
-   - **Pricing tier**: F0 (Free)
-   - **Microsoft App ID**: select **Use existing app registration**, enter the **App ID** from Step 1
-3. Click **Review + create**, then **Create**
-4. After deployment, go to the Bot resource → **Configuration**
-5. Set the **Messaging endpoint** to your agent's MS Teams webhook URL. The format is:
-   ```
-   https://<your-agent-domain>/ms-teams/api/messages
-   ```
-   You can find this on the **Microsoft Teams** card in your employee's channel grid on the COCO Dashboard. Copy it and paste it here.
-6. Click **Apply**
+1. Go to [Teams Developer Portal](https://dev.teams.microsoft.com) and sign in
+2. Click **Apps** in the left sidebar, then **+ New app**
+3. Enter an app name (e.g., `COCO AI Employee`)
+4. In **Basic information**, note the **App ID** shown at the top — this is your **App Catalog ID** (you'll need it when connecting in the COCO Dashboard)
+5. Fill in the required fields:
+   - **Short description**: e.g., `AI-powered digital employee`
+   - **Long description**: e.g., `COCO AI employee that helps your team with writing, research, translation, data analysis, and daily tasks — right inside Microsoft Teams.`
+   - **Developer name**: e.g., `COCO`
+   - **Website**: `https://coco.xyz`
+   - **Privacy policy**: `https://docs.coco.xyz/privacy-policy`
+   - **Terms of use**: `https://docs.coco.xyz/user-agreement`
+6. Click **Save**
 
-> **Important:** The messaging endpoint is required. Without it, Azure Bot Service cannot forward Teams messages to your AI employee.
+### Step 6: Configure the App Manifest
 
-### Step 5: Connect in COCO Dashboard
+1. In the Teams Developer Portal, go to your app's **App package** → **App package editor**
+2. Paste the following manifest JSON, replacing the two placeholders with your actual values:
+   - Replace `<TEAMS_APP_ID>` (1 place) with the **App ID** from Step 5 (the App Catalog ID)
+   - Replace `<AZURE_APP_ID>` (2 places) with the **App ID** from Step 2 (the Azure App Registration ID)
+
+```json
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.19/MicrosoftTeams.schema.json",
+  "version": "1.0.0",
+  "manifestVersion": "1.19",
+  "id": "<TEAMS_APP_ID>",
+  "name": { "short": "COCO AI Employee" },
+  "developer": {
+    "name": "COCO",
+    "websiteUrl": "https://coco.xyz",
+    "privacyUrl": "https://docs.coco.xyz/privacy-policy",
+    "termsOfUseUrl": "https://docs.coco.xyz/user-agreement"
+  },
+  "description": {
+    "short": "AI-powered digital employee",
+    "full": "COCO AI employee that helps your team with writing, research, translation, data analysis, and daily tasks — right inside Microsoft Teams."
+  },
+  "icons": { "outline": "outline.png", "color": "color.png" },
+  "accentColor": "#FFD646",
+  "bots": [{
+    "botId": "<AZURE_APP_ID>",
+    "scopes": ["personal", "team", "groupChat"],
+    "isNotificationOnly": false,
+    "supportsCalling": false,
+    "supportsVideo": false,
+    "supportsFiles": true
+  }],
+  "permissions": ["messageTeamMembers"],
+  "validDomains": [],
+  "webApplicationInfo": {
+    "id": "<AZURE_APP_ID>",
+    "resource": "https://graph.microsoft.com"
+  },
+  "authorization": {
+    "permissions": {
+      "resourceSpecific": [
+        { "name": "ChatMessage.Read.Chat", "type": "Application" },
+        { "name": "ChannelMessage.Read.Group", "type": "Application" }
+      ]
+    }
+  }
+}
+```
+
+3. Click **Save** at the top of the editor
+4. Return to the **App package editor** page and click the **Update** button to apply your changes
+
+> **Note on placeholders:** The manifest has two different IDs. `<TEAMS_APP_ID>` is the App ID from the Teams Developer Portal (Step 5) — it appears once in the `id` field. `<AZURE_APP_ID>` is the App ID from Azure (Step 2) — it appears in `botId` and `webApplicationInfo.id`.
+
+### Step 7: Upload App Icons (Optional)
+
+1. In the Teams Developer Portal, go to your app's **Branding** section
+2. Upload the app icons:
+   - **Color icon**: 192x192 PNG
+   - **Outline icon**: 32x32 PNG with transparent background
+3. Click **Save**
+
+> **Tip:** If you skip this step, Teams will use default placeholder icons.
+
+### Step 8: Publish the App
+
+You have two options to distribute the app:
+
+**Option A — Publish to your organization:**
+1. In the Teams Developer Portal, go to **Distribute** → **Publish to org**
+2. Submit the app for admin approval
+3. An admin must approve the app in the [Teams Admin Center](https://admin.teams.microsoft.com) → **Manage apps**
+4. After approval, users should **restart Microsoft Teams** to see the new app
+
+**Option B — Sideload via app package (for admins):**
+1. In the Teams Developer Portal, click **Download app package** to get the `.zip` file
+2. In Microsoft Teams, go to **Apps** → **Manage your apps** → **Upload a custom app**
+3. Select the downloaded `.zip` file
+
+### Step 9: Connect in COCO Dashboard
+
+> **Important:** This step must be done **last** — all 4 credentials are required.
 
 1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
 2. Go to the employee instance detail page
@@ -875,55 +969,14 @@ After saving the manifest, go to **API permissions** and click **Grant admin con
 
 | Field | Source |
 |-------|--------|
-| App ID | Azure Portal → App Registration → Application (client) ID |
-| App Password | Azure Portal → App Registration → Client Secret Value |
-| Tenant ID | Azure Portal → App Registration → Directory (tenant) ID |
+| App ID | Azure Bot → Configuration → Microsoft App ID (Step 2) |
+| App Password | App Registration → Client Secret Value (Step 3) |
+| App Catalog ID | Teams Developer Portal → Basic information → App ID (Step 5) |
+| Tenant ID | Azure Bot → Configuration → App Tenant ID (Step 2) |
 
 5. Click **Connect** — the system will validate your credentials and deploy the channel
 
-### Step 6: Create and Install the Teams App Manifest
-
-To make the bot available in Teams, you need a Teams App Manifest — a `.zip` file containing a `manifest.json` and two icon files.
-
-We provide a ready-made template with the COCO icon included. Download all three files:
-
-- [manifest.json](/ms-teams-manifest/manifest.json) — app manifest template
-- [color.png](/ms-teams-manifest/color.png) — 192x192 full-color app icon
-- [outline.png](/ms-teams-manifest/outline.png) — 32x32 transparent outline icon
-
-::: warning Edit manifest.json before zipping
-Open `manifest.json` in any text editor and replace all placeholders with your actual values.
-:::
-
-**Placeholders to replace:**
-
-| Placeholder | Replace With | Where |
-|-------------|-------------|-------|
-| `<YOUR_APP_ID>` | Your App ID from Step 1 | `id`, `botId`, `webApplicationInfo.id` (3 places) |
-| `<YOUR_COMPANY_NAME>` | Your company or team name | `developer.name` |
-| `<YOUR_BOT_DISPLAY_NAME>` | Bot name shown in Teams (e.g., `COCO AI Employee`) | `name.short` |
-| `<SHORT_DESCRIPTION>` | One-line summary (e.g., `AI-powered assistant`) | `description.short` |
-| `<FULL_DESCRIPTION>` | Longer description | `description.full` |
-
-> **Note on scopes:** The `scopes` field defines where the bot can be used: `personal` = 1:1 DM conversations, `team` = team channels, `groupChat` = group chats. All three are enabled by default. The `resourceSpecific` permissions enable resource-specific consent (RSC) for reading messages in chats and channels where the bot is installed.
-
-After editing `manifest.json`, select all three files and compress them into a single `.zip` file.
-
-**Install in Teams:**
-- **Sideload (testing):** In Teams → Apps → Manage your apps → Upload a custom app → select the `.zip`
-- **Admin deploy (organization-wide):** Teams Admin Center → Manage apps → Upload new app → select the `.zip`, then assign it to users/groups
-
-### Step 8: Copy the App Catalog ID
-
-After installing the app in the previous step, you need to copy its catalog ID:
-
-1. Open the [Teams Admin Center](https://admin.teams.microsoft.com/policies/manage-apps)
-2. Search for your app by name
-3. Click on the app to open its details
-4. Copy the **App ID** shown on the app detail page (this is the catalog ID, different from the Azure App Registration ID)
-5. Go back to the COCO Dashboard and paste it into the **App Catalog ID** field
-
-### Step 9: Start Chatting
+### Step 10: Start Chatting
 
 1. In Teams, search for your app name (e.g., `COCO AI Employee`)
 2. Click to start a DM conversation
@@ -937,8 +990,9 @@ After installing the app in the previous step, you need to copy its catalog ID:
 | Issue | Solution |
 |-------|----------|
 | Bot not responding | Verify the Messaging endpoint is set correctly in Azure Bot Configuration. Check that credentials (App ID, App Password) match |
-| Credential validation failed | Ensure App Password is the **Value** (not the Secret ID). For single-tenant bots, confirm the Tenant ID is correct |
-| Bot not appearing in Teams | The Teams App Manifest must be installed (sideloaded or admin-deployed). Check that the App ID in manifest.json matches your Azure App Registration |
+| Credential validation failed | Ensure App Password is the **Value** (not the Secret ID). Confirm the Tenant ID is correct |
+| Bot not appearing in Teams | The app must be published and approved (or sideloaded). Check that the Azure App ID in the manifest matches your App Registration |
+| App not visible after admin approval | Restart the Microsoft Teams client to pick up newly approved apps |
 | Messages not reaching the bot | Confirm the Messaging endpoint URL is HTTPS and publicly reachable. Check that the Azure Bot resource is active |
 | File downloads failing | Verify `Files.Read.All` has admin consent in Azure Portal → App Registration → API permissions |
 | Smart mode not working | Verify `ChannelMessage.Read.All` has admin consent, and ensure the channel is set to smart mode |
