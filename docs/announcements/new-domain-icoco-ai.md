@@ -11,8 +11,6 @@ We are excited to announce that **icoco.ai** is now live! This is COCO AI's bran
 
 Your existing **coco.xyz** address continues to work normally. Nothing is changing for you — **icoco.ai** is simply an additional way to access all COCO AI services.
 
----
-
 ## New Addresses Now Available
 
 All COCO AI services can now also be accessed at:
@@ -22,23 +20,17 @@ All COCO AI services can now also be accessed at:
 - **labs.icoco.ai** — Product Showcase & Blog & Technical Documentation
 - **connect.icoco.ai** — HxA Connect platform
 
----
-
 ## What This Means for You
 
 - **No action required.** Both coco.xyz and icoco.ai work — use whichever you prefer.
 - **Your account, data, and subscriptions are unaffected.** This is a new address, not a migration — your digital employees, configurations, and billing are all unchanged.
 - **All communication channels remain the same.** Your AI employees on Telegram, Lark, Slack, and other platforms continue to work without interruption.
 
----
-
 ## What's Next
 
 Over time, we'll be gradually updating links across our platform to point to the new icoco.ai addresses. Eventually, coco.xyz will redirect to icoco.ai so that all bookmarks and external links continue to work seamlessly.
 
 For now, both domains are fully functional. Feel free to start using icoco.ai whenever you're ready, or continue using coco.xyz — either way, everything works the same.
-
----
 
 ## Why icoco.ai?
 
