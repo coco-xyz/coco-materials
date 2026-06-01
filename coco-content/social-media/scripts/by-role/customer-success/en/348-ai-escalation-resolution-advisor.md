@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Customer responding positively 48 hours later, escalation resolved, relationship stronger
-[Voiceover]: "First response time: 47 minutes. Post-escalation retention: 63%. Try COCO at coco.xyz"
+[Voiceover]: "First response time: 47 minutes. Post-escalation retention: 63%. Try COCO at icoco.ai"

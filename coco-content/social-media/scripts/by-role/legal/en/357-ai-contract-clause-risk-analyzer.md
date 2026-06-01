@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Attorney reviewing a clean one-page risk summary, smiling, sending it to the CFO. Clock shows 9 AM, not midnight.
-[Voiceover]: "45 minutes. 90% risk consistency. 40% fewer escalations to outside counsel — try COCO at coco.xyz"
+[Voiceover]: "45 minutes. 90% risk consistency. 40% fewer escalations to outside counsel — try COCO at icoco.ai"

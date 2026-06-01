@@ -24,4 +24,4 @@ Voiceover: "Stop debugging alone. Pair with an AI that's read every line of your
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

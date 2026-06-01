@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: New team member understanding the pipeline in 1.5 days; 3am incident handled in 45 minutes using the runbook; compliance audit documentation ready in 2 hours
-[Voiceover]: "Onboarding in 1.5 days. Incidents resolved with a runbook. Try COCO at coco.xyz"
+[Voiceover]: "Onboarding in 1.5 days. Incidents resolved with a runbook. Try COCO at icoco.ai"

@@ -24,4 +24,4 @@ Voiceover: "New hire satisfaction (first 30 days): from 62% to 91%. Time-to-prod
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

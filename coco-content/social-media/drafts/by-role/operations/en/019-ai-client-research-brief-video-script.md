@@ -24,4 +24,4 @@ Voiceover: "I haven't walked into an unprepared meeting since. Close rate on exe
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

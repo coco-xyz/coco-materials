@@ -24,4 +24,4 @@ Voiceover: "Output went from 15 posts/week to 42 posts/week. Engagement rate up 
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

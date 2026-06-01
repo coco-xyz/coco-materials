@@ -6,7 +6,7 @@ The Web Console is your browser-based interface for chatting with your COCO AI e
 
 Your Web Console URL is provided when you set up your AI employee. It typically looks like:
 ```
-https://[your-domain].coco.xyz/console/
+https://[your-domain].icoco.ai/console/
 ```
 
 Access it from any browser on desktop or mobile.
@@ -40,7 +40,7 @@ You can embed the Web Console as a chat widget on your website:
 ### Option A: iFrame Embed
 ```html
 <iframe
-  src="https://[your-domain].coco.xyz/console/"
+  src="https://[your-domain].icoco.ai/console/"
   width="400"
   height="600"
   frameborder="0"
@@ -58,7 +58,7 @@ Add the COCO widget script to your page:
     primaryColor: '#FFD646'
   };
 </script>
-<script src="https://coco.xyz/widget.js" async></script>
+<script src="https://icoco.ai/widget.js" async></script>
 ```
 
 Configure widget settings in COCO Dashboard → Web Console → Embed Settings.

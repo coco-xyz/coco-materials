@@ -24,4 +24,4 @@ Voiceover: "Processing time per invoice: from 14 minutes to 45 seconds. Error ra
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

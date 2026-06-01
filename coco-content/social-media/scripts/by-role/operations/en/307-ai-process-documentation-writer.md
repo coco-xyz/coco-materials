@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: New employee following a clear SOP, auditor reviewing well-structured documents with approval, operations manager closing a laptop with satisfaction.
-[Voiceover]: "Onboarding 50% faster. Audits with confidence. Knowledge that stays when people leave — build your documentation practice at coco.xyz"
+[Voiceover]: "Onboarding 50% faster. Audits with confidence. Knowledge that stays when people leave — build your documentation practice at icoco.ai"

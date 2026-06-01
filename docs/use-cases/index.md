@@ -10,7 +10,7 @@ head:
       content: "Explore 1001 AI agent use cases for enterprise automation. From customer support to code review, see how COCO's multi-agent platform delivers 3-10x efficiency gains across industries."
   - - meta
     - property: og:image
-      content: "https://docs.coco.xyz/use-cases-og.png"
+      content: "https://docs.icoco.ai/use-cases-og.png"
   - - meta
     - property: og:type
       content: website
@@ -1148,7 +1148,7 @@ Enterprises typically see 3-10x efficiency gains from AI agent deployment, with 
 <details>
 <summary><strong>How does COCO compare to other AI agent platforms?</strong></summary>
 
-COCO is built on an open-source AI agent infrastructure (Zylos.ai) with an enterprise cloud layer (coco.xyz). Unlike DIY agent-building platforms, COCO provides a three-layer architecture: open-source framework, multi-agent orchestration (HXA Connect), and enterprise-ready deployment. COCO supports multi-agent team architectures where agents collaborate autonomously, works across both Western and Chinese markets, and integrates with the communication tools your team already uses (Slack, Lark/Feishu, Telegram, Microsoft Teams, and more).
+COCO is built on an open-source AI agent infrastructure (Zylos.ai) with an enterprise cloud layer (icoco.ai). Unlike DIY agent-building platforms, COCO provides a three-layer architecture: open-source framework, multi-agent orchestration (HXA Connect), and enterprise-ready deployment. COCO supports multi-agent team architectures where agents collaborate autonomously, works across both Western and Chinese markets, and integrates with the communication tools your team already uses (Slack, Lark/Feishu, Telegram, Microsoft Teams, and more).
 
 </details>
 
@@ -1162,6 +1162,6 @@ Yes. COCO AI agents integrate natively with popular enterprise communication and
 <details>
 <summary><strong>Is there a free trial for COCO AI agent platform?</strong></summary>
 
-Yes, COCO offers a free trial so you can experience AI agent capabilities firsthand. Visit [coco.xyz](https://coco.xyz) to get started, or check our [Getting Started guide](/getting-started/) for step-by-step onboarding instructions. You can deploy your first AI agent team and see measurable results before committing to a plan.
+Yes, COCO offers a free trial so you can experience AI agent capabilities firsthand. Visit [icoco.ai](https://icoco.ai) to get started, or check our [Getting Started guide](/getting-started/) for step-by-step onboarding instructions. You can deploy your first AI agent team and see measurable results before committing to a plan.
 
 </details>

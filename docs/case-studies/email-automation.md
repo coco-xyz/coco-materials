@@ -11,7 +11,7 @@ head:
       content: "AI Agent scans inboxes every 10 minutes, classifies and drafts replies — humans review before sending. Real enterprise email automation case study."
   - - meta
     - property: og:image
-      content: "https://docs.coco.xyz/coco-logo-black.png"
+      content: "https://docs.icoco.ai/coco-logo-black.png"
 ---
 
 <style>
@@ -883,7 +883,7 @@ From the moment a customer sends an email to the moment COCO sends a reply — f
 <div class="sop-timeline">
   <div class="sop-item">
     <div class="sop-time">T+0</div>
-    <div class="sop-desc">Customer email arrives in service@coco.xyz inbox.</div>
+    <div class="sop-desc">Customer email arrives in service@icoco.ai inbox.</div>
   </div>
   <div class="sop-item">
     <div class="sop-time">T+10min</div>
@@ -962,7 +962,7 @@ The hard gate on human approval deserves particular emphasis. Many email automat
 
 ## <em>Live System</em> Metrics
 
-The performance metrics below reflect actual production data from COCO AI's own customer service operation. The system has been running continuously since March 2026, processing all incoming emails to service@coco.xyz. The most significant operational finding is not the efficiency gains — it's the reliability. Manual inbox monitoring, even by a diligent team member, is subject to vacation schedules, sick days, meeting schedules, and late-night gaps. The 10-minute scan cycle doesn't have any of these constraints. Every customer email that has arrived at service@coco.xyz since March 2026 has been acknowledged and handled — none have fallen through the cracks.
+The performance metrics below reflect actual production data from COCO AI's own customer service operation. The system has been running continuously since March 2026, processing all incoming emails to service@icoco.ai. The most significant operational finding is not the efficiency gains — it's the reliability. Manual inbox monitoring, even by a diligent team member, is subject to vacation schedules, sick days, meeting schedules, and late-night gaps. The 10-minute scan cycle doesn't have any of these constraints. Every customer email that has arrived at service@icoco.ai since March 2026 has been acknowledged and handled — none have fallen through the cracks.
 
 The 80% AI draft adoption rate reflects a secondary benefit that wasn't anticipated at deployment: the process of reviewing a high-quality AI draft is faster than starting a reply from scratch, even when the final reply is substantially edited. The AI's draft provides structure, addresses the customer's core concerns, and suggests appropriate tone — the human's review time is spent refining and adding relationship context, not composing from a blank page.
 
@@ -1076,7 +1076,7 @@ The standard setup process involves five steps: (1) provide the email credential
   <div class="case-cta">
     <h2>Let AI Guard Your Inbox</h2>
     <p>Every user email caught. Every reply quality-checked by you.</p>
-    <a href="https://coco.xyz" class="cta-btn">Try COCO Free</a>
+    <a href="https://icoco.ai" class="cta-btn">Try COCO Free</a>
   </div>
 </div>
 

@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: A flag dashboard showing 45% fewer stale flags; an engineer giving a thumbs up at a code review
-[Voiceover]: "45% fewer stale flags. 31% fewer customer-impacting rollout incidents. Feature flags as a strategy, not a mess. Try COCO at coco.xyz"
+[Voiceover]: "45% fewer stale flags. 31% fewer customer-impacting rollout incidents. Feature flags as a strategy, not a mess. Try COCO at icoco.ai"

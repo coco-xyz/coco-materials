@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Candidate reading the letter with a smile, clicking accept, HR team celebrating a completed hire
-[Voiceover]: "85% fewer compliance issues. 18% higher acceptance rates. Offers out in 15 minutes. Try COCO at coco.xyz"
+[Voiceover]: "85% fewer compliance issues. 18% higher acceptance rates. Offers out in 15 minutes. Try COCO at icoco.ai"

@@ -9,7 +9,7 @@ export default defineConfig({
   cleanUrls: true,
 
   sitemap: {
-    hostname: 'https://docs.coco.xyz',
+    hostname: 'https://docs.icoco.ai',
     transformItems(items) {
       const now = new Date().toISOString().split('T')[0]
       return items.map(item => {
@@ -113,15 +113,15 @@ export default defineConfig({
     const cleanPath = pageData.relativePath.replace(/\.md$/, '').replace(/index$/, '')
 
     // P1-3: Canonical URL for every page
-    const canonicalUrl = `https://docs.coco.xyz/${cleanPath}`
+    const canonicalUrl = `https://docs.icoco.ai/${cleanPath}`
     head.push(['link', { rel: 'canonical', href: canonicalUrl }])
 
     // P1-4: hreflang alternate links for bilingual pages
     const enPath = isZh ? cleanPath.replace(/^zh\//, '') : cleanPath
     const zhPath = isZh ? cleanPath : `zh/${cleanPath}`
-    head.push(['link', { rel: 'alternate', hreflang: 'en', href: `https://docs.coco.xyz/${enPath}` }])
-    head.push(['link', { rel: 'alternate', hreflang: 'zh', href: `https://docs.coco.xyz/${zhPath}` }])
-    head.push(['link', { rel: 'alternate', hreflang: 'x-default', href: `https://docs.coco.xyz/${enPath}` }])
+    head.push(['link', { rel: 'alternate', hreflang: 'en', href: `https://docs.icoco.ai/${enPath}` }])
+    head.push(['link', { rel: 'alternate', hreflang: 'zh', href: `https://docs.icoco.ai/${zhPath}` }])
+    head.push(['link', { rel: 'alternate', hreflang: 'x-default', href: `https://docs.icoco.ai/${enPath}` }])
 
     // P0-1: Override OG tags for Chinese pages (global head sets English defaults)
     // P1-5: og:locale (already included)
@@ -147,8 +147,8 @@ export default defineConfig({
         '@context': 'https://schema.org',
         '@type': 'Organization',
         name: 'COCO',
-        url: 'https://coco.xyz',
-        logo: 'https://docs.coco.xyz/coco-logo-black.png',
+        url: 'https://icoco.ai',
+        logo: 'https://docs.icoco.ai/coco-logo-black.png',
         sameAs: [
           'https://x.com/CocoAIxyz',
           'https://github.com/coco-xyz',
@@ -158,7 +158,7 @@ export default defineConfig({
         '@context': 'https://schema.org',
         '@type': 'WebSite',
         name: isZh ? 'COCO — AI 数字员工平台' : 'COCO — AI Digital Employee Platform',
-        url: 'https://docs.coco.xyz',
+        url: 'https://docs.icoco.ai',
         inLanguage: isZh ? 'zh-CN' : 'en-US',
       }
       head.push(['script', { type: 'application/ld+json' }, JSON.stringify(orgJsonLd)])
@@ -177,17 +177,17 @@ export default defineConfig({
         publisher: {
           '@type': 'Organization',
           name: 'COCO',
-          url: 'https://coco.xyz',
+          url: 'https://icoco.ai',
           logo: {
             '@type': 'ImageObject',
-            url: 'https://docs.coco.xyz/coco-logo-black.png',
+            url: 'https://docs.icoco.ai/coco-logo-black.png',
           },
         },
         mainEntityOfPage: {
           '@type': 'WebPage',
           '@id': canonicalUrl,
         },
-        image: 'https://docs.coco.xyz/coco-logo-black.png',
+        image: 'https://docs.icoco.ai/coco-logo-black.png',
         datePublished: '2025-06-01',
         dateModified: pageData.lastUpdated ? new Date(pageData.lastUpdated).toISOString().split('T')[0] : '2025-06-01',
       }
@@ -219,7 +219,7 @@ export default defineConfig({
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'COCO — AI Digital Employee Platform' }],
     ['meta', { property: 'og:description', content: 'AI teams that live in your chat tools — write docs, run research, automate operations, chase leads.' }],
-    ['meta', { property: 'og:image', content: 'https://docs.coco.xyz/coco-logo-black.png' }],
+    ['meta', { property: 'og:image', content: 'https://docs.icoco.ai/coco-logo-black.png' }],
     ['meta', { name: 'twitter:card', content: 'summary' }],
     ['meta', { name: 'twitter:site', content: '@CocoAIxyz' }],
     ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-GTMD3JHWQN' }],
@@ -240,7 +240,7 @@ export default defineConfig({
           { text: 'Case Studies', link: '/case-studies/' },
           { text: 'Channels', link: '/channels/' },
           { text: 'Announcements', link: '/announcements/' },
-          { text: 'Pricing', link: 'https://coco.xyz/#pricing' },
+          { text: 'Pricing', link: 'https://icoco.ai/#pricing' },
         ],
         sidebar: {
           '/channels/': [
@@ -399,7 +399,7 @@ export default defineConfig({
           { text: '案例', link: '/zh/case-studies/' },
           { text: '通讯渠道', link: '/zh/channels/' },
           { text: '公告', link: '/zh/announcements/' },
-          { text: '定价', link: 'https://coco.xyz/#pricing' },
+          { text: '定价', link: 'https://icoco.ai/#pricing' },
         ],
         sidebar: {
           '/zh/channels/': [

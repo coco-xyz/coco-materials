@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Legal team member clicking "Publish" on the updated privacy policy, an enterprise prospect's procurement checklist showing a green checkmark for "Privacy Documentation."
-[Voiceover]: "2 hours. Multi-jurisdiction compliant. Enterprise deals unblocked — try COCO at coco.xyz"
+[Voiceover]: "2 hours. Multi-jurisdiction compliant. Enterprise deals unblocked — try COCO at icoco.ai"

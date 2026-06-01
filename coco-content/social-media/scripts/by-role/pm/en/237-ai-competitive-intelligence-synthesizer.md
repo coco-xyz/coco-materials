@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: Before/after — left side shows a PM scrambling before a board meeting; right side shows a PM confidently presenting a clean competitive landscape slide
-[Voiceover]: "18-24% better win rates against named competitors. Competitive blindspots closed in weeks, not months. Try COCO at coco.xyz"
+[Voiceover]: "18-24% better win rates against named competitors. Competitive blindspots closed in weeks, not months. Try COCO at icoco.ai"

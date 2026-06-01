@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: Executive reviewing a clean, complete itinerary on a phone at the airport — calm, coffee in hand, fully prepared.
-[Voiceover]: "Complete trip. Zero scrambling. 5 hours of planning compressed to 45 minutes — try COCO at coco.xyz"
+[Voiceover]: "Complete trip. Zero scrambling. 5 hours of planning compressed to 45 minutes — try COCO at icoco.ai"

@@ -35,7 +35,7 @@
 ### Scene 7: CTA (42-48s)
 **Visual:** COCO logo centered, tagline
 **Text:** "COCO — The analyst that never sleeps"
-**URL:** "coco.xyz"
+**URL:** "icoco.ai"
 
 ---
 

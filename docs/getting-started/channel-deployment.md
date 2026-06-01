@@ -56,7 +56,7 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 
 ### Step 2: Connect in COCO Dashboard
 
-1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
+1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
 2. Open the **Channels** page and find the **Telegram** card
 3. Paste the **Bot Token** from Step 1
 4. Click **Connect**
@@ -189,7 +189,7 @@ In the app management page, go to **Permissions & Scopes**. Click **Batch Import
 
 #### Step 5: Connect in COCO Dashboard and Deploy
 
-1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
+1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
 2. Go to the channel configuration page, select **Lark**
 3. Enter the following credentials:
 
@@ -347,7 +347,7 @@ In the Permission Management page, copy the following JSON and import all permis
 
 #### Step 5: Connect in COCO Dashboard and Deploy
 
-1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
+1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
 2. Go to the channel configuration page, select **Feishu**
 3. Enter the following credentials:
 
@@ -685,7 +685,7 @@ No credentials are required. You only need:
 
 ### Step 1: Create an AI Employee and Enter Configuration Page
 
-1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
+1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
 2. Create a new AI employee or select an existing instance
 3. Click **Configure →** on the employee card to enter the instance detail page
 
@@ -875,9 +875,9 @@ After saving the manifest, go to **API permissions** and click **Grant admin con
    - **Short description**: e.g., `AI-powered digital employee`
    - **Long description**: e.g., `COCO AI employee that helps your team with writing, research, translation, data analysis, and daily tasks — right inside Microsoft Teams.`
    - **Developer name**: e.g., `COCO`
-   - **Website**: `https://coco.xyz`
-   - **Privacy policy**: `https://docs.coco.xyz/privacy-policy`
-   - **Terms of use**: `https://docs.coco.xyz/user-agreement`
+   - **Website**: `https://icoco.ai`
+   - **Privacy policy**: `https://docs.icoco.ai/privacy-policy`
+   - **Terms of use**: `https://docs.icoco.ai/user-agreement`
 6. Click **Save**
 
 ### Step 6: Configure the App Manifest
@@ -896,9 +896,9 @@ After saving the manifest, go to **API permissions** and click **Grant admin con
   "name": { "short": "COCO AI Employee" },
   "developer": {
     "name": "COCO",
-    "websiteUrl": "https://coco.xyz",
-    "privacyUrl": "https://docs.coco.xyz/privacy-policy",
-    "termsOfUseUrl": "https://docs.coco.xyz/user-agreement"
+    "websiteUrl": "https://icoco.ai",
+    "privacyUrl": "https://docs.icoco.ai/privacy-policy",
+    "termsOfUseUrl": "https://docs.icoco.ai/user-agreement"
   },
   "description": {
     "short": "AI-powered digital employee",
@@ -965,7 +965,7 @@ You have two options to distribute the app:
 
 > **Important:** This step must be done **last** — all 4 credentials are required.
 
-1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
+1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
 2. Go to the employee instance detail page
 3. Find the **Microsoft Teams** card and click **Connect**
 4. Enter the credentials:
@@ -1028,7 +1028,7 @@ One credential is required:
 
 ### Step 2: Connect in COCO Dashboard
 
-1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
+1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
 2. Go to the employee instance detail page
 3. Find the **Zalo (Official)** card and click **Connect**
 4. Paste the **Bot Token** from Step 1
@@ -1125,7 +1125,7 @@ No credentials are required. Authentication is done entirely via QR code:
 
 ### Step 1: Click Connect on the Zalo Personal (Unofficial) Card
 
-1. Log into [COCO Dashboard](https://coco.xyz/dashboard)
+1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
 2. Go to the employee instance detail page
 3. Find the **Zalo Personal (Unofficial)** card and click **Connect**
 4. The system will generate a QR code — this may take a few seconds

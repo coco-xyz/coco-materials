@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Recruiter reviewing a clean shortlist of 8 candidates, hiring manager nodding in a meeting, clock showing early afternoon
-[Voiceover]: "75% less screening time. 42% better shortlist quality. No more guessing. Try COCO at coco.xyz"
+[Voiceover]: "75% less screening time. 42% better shortlist quality. No more guessing. Try COCO at icoco.ai"

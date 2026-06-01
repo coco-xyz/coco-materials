@@ -24,4 +24,4 @@ Voiceover: "Proposal output per AE: up 3x. Win rate on proposals: up 22% (better
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

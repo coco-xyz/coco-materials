@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: Response rate dashboard jumping from 6% to 24%. Calendar filling with creator calls.
-[Voiceover]: "24% response rate. 4x more creator partnerships. Content that actually converts. Try COCO at coco.xyz"
+[Voiceover]: "24% response rate. 4x more creator partnerships. Content that actually converts. Try COCO at icoco.ai"

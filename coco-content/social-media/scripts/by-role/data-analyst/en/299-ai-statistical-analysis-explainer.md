@@ -29,6 +29,6 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: Analyst presents; executive says "got it — let's test the onboarding change"; decision logged; analysis reaches production
-[Voiceover]: "48% higher stakeholder comprehension. 3x faster decisions. Analysis that actually gets used — Try COCO at coco.xyz"
+[Voiceover]: "48% higher stakeholder comprehension. 3x faster decisions. Analysis that actually gets used — Try COCO at icoco.ai"
 
 ---

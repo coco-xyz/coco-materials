@@ -24,4 +24,4 @@ Voiceover: "Average expansion deal cycle cut from 90+ days to 30-45 days. Expans
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

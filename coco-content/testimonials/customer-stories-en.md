@@ -46,7 +46,7 @@ The team still reviews and signs off. CoCo isn't replacing financial judgment �
 **Plan:** Pro Monthly
 **Who:** An active Web3 founder who signed up entirely self-service through the Dashboard
 **What he built:** WishForever — a consumer dApp where users write a wish, pay 10 USDT, and have it inscribed on Ethereum
-**Where it lives:** [https://abcde.zylos.coco.xyz/wish/](https://abcde.zylos.coco.xyz/wish/)
+**Where it lives:** [https://abcde.zylos.icoco.ai/wish/](https://abcde.zylos.icoco.ai/wish/)
 
 The founder discovered CoCo Pro's multi-model orchestration during his trial — the ability to chain complex tasks (smart contract analysis → risk reports → social media summaries) in ways that single-model tools simply can't match. He signed up through the Dashboard, no sales call needed, and started building immediately via Telegram.
 
@@ -282,7 +282,7 @@ CoCo is a **fully managed AI digital employee**. Not a chatbot. Not a copilot. A
 - **Operations-grade stability:** PM2 process management, automated health checks, auto-restart on failure, 12/12 services uptime — the same reliability standard you'd expect from production infrastructure, not a chatbot
 - Requires zero technical setup — start chatting, get results
 
-**Try it at [coco.xyz](https://coco.xyz)**
+**Try it at [icoco.ai](https://icoco.ai)**
 
 ---
 

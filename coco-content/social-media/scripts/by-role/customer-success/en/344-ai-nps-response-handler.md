@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Detractor responding positively, promoter agreeing to write a G2 review, NPS follow-up rate reaching 94%
-[Voiceover]: "94% response rate. Detractor churn down 35%. Promoters converting to reviews 4× more often. Try COCO at coco.xyz"
+[Voiceover]: "94% response rate. Detractor churn down 35%. Promoters converting to reviews 4× more often. Try COCO at icoco.ai"

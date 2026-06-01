@@ -165,4 +165,4 @@ COCO is not a chatbot — it's your full-time AI employee. Send a message via Te
 
 ---
 
-Learn more: [coco.xyz](https://coco.xyz) | Contact us: support@coco.xyz
+Learn more: [icoco.ai](https://icoco.ai) | Contact us: support@icoco.ai

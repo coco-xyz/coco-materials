@@ -5,9 +5,9 @@
   "id": "<YOUR_APP_ID>",
   "developer": {
     "name": "<YOUR_COMPANY_NAME>",
-    "websiteUrl": "https://coco.xyz",
-    "privacyUrl": "https://coco.xyz/privacy",
-    "termsOfUseUrl": "https://coco.xyz/terms"
+    "websiteUrl": "https://icoco.ai",
+    "privacyUrl": "https://icoco.ai/privacy",
+    "termsOfUseUrl": "https://icoco.ai/terms"
   },
   "name": { "short": "<YOUR_BOT_DISPLAY_NAME>" },
   "description": {

@@ -26,4 +26,4 @@ Key features:
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Text: "Your AI Digital Employee — coco.xyz"
+Text: "Your AI Digital Employee — icoco.ai"

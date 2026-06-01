@@ -24,4 +24,4 @@ Voiceover: "We scaled to 23 countries with the same team size. Multi-language CS
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

@@ -29,6 +29,6 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: Clean 7-slide presentation; executive makes a clear decision in the meeting; analyst receives a positive Slack message
-[Voiceover]: "34% higher decision rates. 41% fewer follow-up requests. Tell the story your data already knows — Try COCO at coco.xyz"
+[Voiceover]: "34% higher decision rates. 41% fewer follow-up requests. Tell the story your data already knows — Try COCO at icoco.ai"
 
 ---

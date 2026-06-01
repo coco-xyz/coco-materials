@@ -41,7 +41,7 @@
 ### 场景7：CTA（40.5-45秒）
 **画面：** COCO Logo
 **文字：** "COCO — 驯服你收件箱的助手"
-**URL：** coco.xyz
+**URL：** icoco.ai
 
 ---
 

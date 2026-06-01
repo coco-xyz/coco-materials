@@ -77,5 +77,5 @@ Feishu and Lark share the same platform — the same COCO bot configuration work
 - Check that group mention mode is enabled in COCO Dashboard
 
 **Messages showing as "failed to send"?**
-- Check if the COCO service is online at [coco.xyz/dashboard](https://coco.xyz/dashboard)
+- Check if the COCO service is online at [icoco.ai/dashboard](https://icoco.ai/dashboard)
 - Verify your subscription is active

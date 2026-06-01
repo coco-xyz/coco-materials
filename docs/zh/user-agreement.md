@@ -16,7 +16,7 @@ editLink: false
 
 ## 一、定义
 
-**COCO：** 指 COCO Labs Limited（以下简称"我们"）运营的 AI Teams 平台，包括但不限于 coco.xyz 网站、Dashboard 控制台、API 接口及相关配套服务。
+**COCO：** 指 COCO Labs Limited（以下简称"我们"）运营的 AI Teams 平台，包括但不限于 icoco.ai 网站、Dashboard 控制台、API 接口及相关配套服务。
 
 **服务：** 指 COCO 提供的 AI 智能体（AI Agent / AI Employee）创建、配置、部署、管理及多渠道接入等功能服务，以及相关的托管基础设施服务。
 
@@ -203,8 +203,8 @@ editLink: false
 
 如您对本协议有任何疑问或意见，请通过以下方式与我们联系：
 
-- **邮箱：** service@coco.xyz
-- **网站：** [https://coco.xyz](https://coco.xyz)
+- **邮箱：** service@icoco.ai
+- **网站：** [https://icoco.ai](https://icoco.ai)
 
 ---
 

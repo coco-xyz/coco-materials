@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Structured data quality report shared with engineering team, 3 critical bugs fixed before model training starts, compliance officer approving the audit documentation
-[Voiceover]: "3.7 critical issues caught per dataset on average. Clean data, trustworthy models. Try COCO at coco.xyz"
+[Voiceover]: "3.7 critical issues caught per dataset on average. Clean data, trustworthy models. Try COCO at icoco.ai"

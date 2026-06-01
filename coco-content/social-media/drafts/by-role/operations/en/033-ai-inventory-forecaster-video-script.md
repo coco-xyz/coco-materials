@@ -24,4 +24,4 @@ Voiceover: "Stockout events: down 67%. Overstock write-downs: down 43%. Inventor
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

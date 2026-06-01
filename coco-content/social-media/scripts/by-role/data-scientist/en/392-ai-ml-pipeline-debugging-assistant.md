@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Root cause found in 2 hours instead of 11 days, fix committed, training running stably
-[Voiceover]: "65% faster to root cause. No more guessing. Try COCO at coco.xyz"
+[Voiceover]: "65% faster to root cause. No more guessing. Try COCO at icoco.ai"

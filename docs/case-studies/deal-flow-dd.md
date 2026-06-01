@@ -11,7 +11,7 @@ head:
       content: "AI Agent automates investment due diligence end-to-end: data room to IC memo in 2 hours instead of 20. 3x quarterly deal throughput."
   - - meta
     - property: og:image
-      content: "https://docs.coco.xyz/coco-logo-black.png"
+      content: "https://docs.icoco.ai/coco-logo-black.png"
 ---
 
 <style>
@@ -1163,7 +1163,7 @@ Full implementation — from initial configuration through first live deal — t
   <div class="case-cta">
     <h2>Let AI Take Over Your Data Room</h2>
     <p>Focus on finding the next great deal — leave the documents to COCO</p>
-    <a href="https://coco.xyz" class="cta-btn">Try COCO Free</a>
+    <a href="https://icoco.ai" class="cta-btn">Try COCO Free</a>
   </div>
 </div>
 

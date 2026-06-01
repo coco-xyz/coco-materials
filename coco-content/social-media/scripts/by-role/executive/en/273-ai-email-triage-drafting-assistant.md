@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: Executive closes laptop at 9:30am — inbox handled. Opens a strategy document and begins focused work.
-[Voiceover]: "60 minutes of email. The rest of your morning, yours. — Try COCO at coco.xyz"
+[Voiceover]: "60 minutes of email. The rest of your morning, yours. — Try COCO at icoco.ai"

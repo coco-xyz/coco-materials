@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Meeting ends on time, action items are clearly assigned on screen, the operations manager sends a clean summary in under 5 minutes.
-[Voiceover]: "30% shorter meetings, clearer decisions, zero ambiguity. Run better meetings starting today — try COCO at coco.xyz"
+[Voiceover]: "30% shorter meetings, clearer decisions, zero ambiguity. Run better meetings starting today — try COCO at icoco.ai"

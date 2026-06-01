@@ -16,7 +16,7 @@ Welcome to COCO! Please carefully read this User Service Agreement (hereinafter 
 
 ## 1. Definitions
 
-**COCO:** Refers to the AI Teams platform operated by COCO Labs Limited (hereinafter referred to as "we," "us," or "our"), including but not limited to the coco.xyz website, Dashboard console, API interfaces, and related ancillary services.
+**COCO:** Refers to the AI Teams platform operated by COCO Labs Limited (hereinafter referred to as "we," "us," or "our"), including but not limited to the icoco.ai website, Dashboard console, API interfaces, and related ancillary services.
 
 **Services:** Refers to the functional services provided by COCO for creating, configuring, deploying, managing, and integrating AI agents (AI Agent / AI Employee) across multiple channels, as well as related managed infrastructure services.
 
@@ -203,8 +203,8 @@ You agree to indemnify and hold harmless us and our affiliates, directors, and e
 
 If you have any questions or comments about this Agreement, please contact us through the following channels:
 
-- **Email:** service@coco.xyz
-- **Website:** [https://coco.xyz](https://coco.xyz)
+- **Email:** service@icoco.ai
+- **Website:** [https://icoco.ai](https://icoco.ai)
 
 ---
 

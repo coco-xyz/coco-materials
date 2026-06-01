@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: Active community feed full of member posts, reactions, and threads. Retention dashboard showing 75% 90-day retention.
-[Voiceover]: "75% member retention. 5x more user-generated posts. A community that actually builds pipeline. Try COCO at coco.xyz"
+[Voiceover]: "75% member retention. 5x more user-generated posts. A community that actually builds pipeline. Try COCO at icoco.ai"

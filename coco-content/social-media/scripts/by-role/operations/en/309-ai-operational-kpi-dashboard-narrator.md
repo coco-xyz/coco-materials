@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Leadership nodding in a focused review meeting, clear decisions being made, operations manager presenting with confidence rather than scrambling.
-[Voiceover]: "75% less report writing time. Leadership that actually understands the data. Make every dashboard actionable — try COCO at coco.xyz"
+[Voiceover]: "75% less report writing time. Leadership that actually understands the data. Make every dashboard actionable — try COCO at icoco.ai"

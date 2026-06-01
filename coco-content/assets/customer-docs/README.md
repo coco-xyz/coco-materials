@@ -22,7 +22,7 @@
 
 公司业务介绍的 PPT（另行提供）
 
-COCO平台登录官网：coco.xyz
+COCO平台登录官网：icoco.ai
 
 ---
 

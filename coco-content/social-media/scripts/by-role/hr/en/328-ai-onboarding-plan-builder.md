@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: New hire confidently presenting in week 8, shaking hands with colleagues, manager giving thumbs up
-[Voiceover]: "34% faster time to productivity. 28% better 90-day retention. Under 1 hour of prep. Try COCO at coco.xyz"
+[Voiceover]: "34% faster time to productivity. 28% better 90-day retention. Under 1 hour of prep. Try COCO at icoco.ai"

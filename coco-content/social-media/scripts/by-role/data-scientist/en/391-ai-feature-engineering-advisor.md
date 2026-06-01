@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: AUC climbing from 0.72 to 0.81 after implementing COCO's feature suggestions, model review showing 3 leakage risks caught before deployment
-[Voiceover]: "40% fewer experiments. Leakage caught before production. Try COCO at coco.xyz"
+[Voiceover]: "40% fewer experiments. Leakage caught before production. Try COCO at icoco.ai"

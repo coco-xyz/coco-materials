@@ -108,6 +108,6 @@ cp social-media/drafts/by-role/developer/en/005-ai-code-reviewer-video-script.md
 
 ## References
 
-- [COCO Landing Page](https://coco.xyz)
+- [COCO Landing Page](https://icoco.ai)
 - [COCO Dashboard PRD](https://zylos100.jinglever.com/docs/dashboard/v1.5/prd.md)
 - [COCO Pricing](https://zylos100.jinglever.com/coco-pricing.md)

@@ -24,4 +24,4 @@ Voiceover: "KB articles: from 340 (127 outdated) to 520 (all current). Self-serv
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"

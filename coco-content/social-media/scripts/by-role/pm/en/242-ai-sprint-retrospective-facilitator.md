@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: A velocity chart trending upward over 6 sprints; a team having an engaged, focused retro discussion
-[Voiceover]: "67% action item completion. 23% velocity improvement over six sprints. Retros that actually make the team faster. Try COCO at coco.xyz"
+[Voiceover]: "67% action item completion. 23% velocity improvement over six sprints. Retros that actually make the team faster. Try COCO at icoco.ai"

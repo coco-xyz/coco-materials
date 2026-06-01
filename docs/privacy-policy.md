@@ -14,7 +14,7 @@ editLink: false
 
 ## Introduction
 
-This Privacy Policy describes how **COCO Labs Limited** ("COCO," "we," "us," or "our") collects, uses, shares, and protects personal information when you use the COCO AI digital employee platform at **coco.xyz**, related services, and client-facing channels (collectively, the "Platform").
+This Privacy Policy describes how **COCO Labs Limited** ("COCO," "we," "us," or "our") collects, uses, shares, and protects personal information when you use the COCO AI digital employee platform at **icoco.ai**, related services, and client-facing channels (collectively, the "Platform").
 
 COCO is an AI digital employee platform that deploys autonomous AI agents through messaging channels including Telegram, Lark/Feishu, Slack, and enterprise messaging platforms. Each AI digital employee is an independent agent instance with persistent memory, tool-calling capabilities, and multi-channel communication.
 
@@ -123,7 +123,7 @@ This commitment applies equally to all subscription tiers (Air, Pro, Ultra, Ente
 
 COCO supports multi-agent collaboration through the HXA-Connect protocol. When your digital employee communicates with other agents:
 
-- Messages are routed through the HXA-Connect hub (connect.coco.xyz) via encrypted WebSocket connections
+- Messages are routed through the HXA-Connect hub (connect.icoco.ai) via encrypted WebSocket connections
 - Communication is scoped to authorized agents within your organization
 - Agent-to-agent logs are stored and accessible within your workspace
 
@@ -238,7 +238,7 @@ Regardless of your location, you may:
 - **Clear** your digital employee's persistent memory at any time
 - **Opt out** of marketing communications at any time
 
-To exercise these rights, contact us at **service@coco.xyz**. We will respond within 15 business days.
+To exercise these rights, contact us at **service@icoco.ai**. We will respond within 15 business days.
 
 ### 7.2 European Economic Area, United Kingdom, and Switzerland (GDPR)
 
@@ -314,7 +314,7 @@ For Enterprise and Pro customers deploying COCO digital employees within their o
 
 The Platform is not intended for individuals under the age of 16 (or the applicable age of consent in your jurisdiction). We do not knowingly collect personal information from children.
 
-If we become aware that we have collected data from a child, we will promptly delete it and take steps to prevent further collection. Please contact us at **service@coco.xyz** if you believe a child has provided personal data.
+If we become aware that we have collected data from a child, we will promptly delete it and take steps to prevent further collection. Please contact us at **service@icoco.ai** if you believe a child has provided personal data.
 
 ---
 
@@ -342,6 +342,6 @@ The "Last Updated" date at the top indicates the most recent revision.
 
 If you have questions about this Privacy Policy or our data practices:
 
-- **Email:** service@coco.xyz
-- **Website:** https://coco.xyz
+- **Email:** service@icoco.ai
+- **Website:** https://icoco.ai
 - **Response time:** Within 15 business days

@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: Notification feed lighting up with comments and connection requests. Analytics dashboard showing follower growth curve turning sharply upward.
-[Voiceover]: "4x more comments. 65% follower growth in 90 days. Pipeline that starts on LinkedIn. Try COCO at coco.xyz"
+[Voiceover]: "4x more comments. 65% follower growth in 90 days. Pipeline that starts on LinkedIn. Try COCO at icoco.ai"

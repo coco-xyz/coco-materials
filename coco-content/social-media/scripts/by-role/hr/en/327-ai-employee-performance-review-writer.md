@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Employee reading a thoughtful, specific review, nodding with understanding, manager submitting on time and smiling
-[Voiceover]: "65% less time writing. 39% better employee satisfaction. No more blank pages. Try COCO at coco.xyz"
+[Voiceover]: "65% less time writing. 39% better employee satisfaction. No more blank pages. Try COCO at icoco.ai"

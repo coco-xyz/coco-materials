@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Project portfolio moving on track. Team workload balanced on screen. Operations manager making a confident resource decision in 20 minutes instead of 3 hours.
-[Voiceover]: "35% better on-time delivery. Allocation decisions in minutes, not hours — optimize your resources at coco.xyz"
+[Voiceover]: "35% better on-time delivery. Allocation decisions in minutes, not hours — optimize your resources at icoco.ai"

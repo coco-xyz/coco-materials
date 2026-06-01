@@ -29,4 +29,4 @@
 **Scene 4 (0:50–1:00): The Result**
 
 [Visual]: Confident CFO fielding questions smoothly. IR team finishing prep in half the time. Stock ticker steady after the call.
-[Voiceover]: "90% analyst question coverage. Earnings prep cut from 60 hours to 25. Try COCO at coco.xyz"
+[Voiceover]: "90% analyst question coverage. Earnings prep cut from 60 hours to 25. Try COCO at icoco.ai"

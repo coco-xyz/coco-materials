@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: New CSM confidently following a playbook on screen, churn in playbook-covered segments dropping
-[Voiceover]: "Ramp time cut to 6 weeks. Playbook coverage from 28% to 91%. Churn in documented segments: 9.1%. Try COCO at coco.xyz"
+[Voiceover]: "Ramp time cut to 6 weeks. Playbook coverage from 28% to 91%. Churn in documented segments: 9.1%. Try COCO at icoco.ai"

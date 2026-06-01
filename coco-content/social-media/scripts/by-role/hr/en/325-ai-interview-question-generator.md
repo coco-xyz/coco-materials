@@ -25,4 +25,4 @@
 
 **Scene 4 (0:50–1:00): The Result**
 [Visual]: Confident hiring manager leading a structured interview, candidates leaving looking engaged, team comparing evaluation scores
-[Voiceover]: "55% better inter-rater consistency. 80% fewer legal risks. Better hires. Try COCO at coco.xyz"
+[Voiceover]: "55% better inter-rater consistency. 80% fewer legal risks. Better hires. Try COCO at icoco.ai"

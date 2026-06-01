@@ -11,7 +11,7 @@ head:
       content: "制造业 AI 案例：四大痛点，四套实战方案。企业 AI 自动化在工厂的真正落地。"
   - - meta
     - property: og:image
-      content: "https://docs.coco.xyz/coco-logo-black.png"
+      content: "https://docs.icoco.ai/coco-logo-black.png"
 ---
 
 <style>
@@ -1026,7 +1026,7 @@ COCO 提供三层安全保障：ISO/SOC2 认证 + 全程加密传输、Agent 信
   <div class="case-cta">
     <h2>让 AI 走进你的工厂</h2>
     <p>从一个真实问题开始，找到属于你的落地方案</p>
-    <a href="https://coco.xyz" class="cta-btn">开始试用 COCO</a>
+    <a href="https://icoco.ai" class="cta-btn">开始试用 COCO</a>
   </div>
 </div>
 

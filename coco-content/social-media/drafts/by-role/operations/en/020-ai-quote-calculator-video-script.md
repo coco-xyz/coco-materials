@@ -24,4 +24,4 @@ Voiceover: "Quote generation time: from 45 minutes to 4 minutes. Approval cycle:
 
 ## Scene 5 (28-30s): CTA
 [COCO logo centered. URL fades in below. Warm glow effect.]
-Voiceover: "Visit coco.xyz"
+Voiceover: "Visit icoco.ai"
