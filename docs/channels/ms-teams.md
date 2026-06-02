@@ -55,5 +55,5 @@ Teams is deeply integrated with the Microsoft 365 ecosystem — ideal for:
 | File downloads failing | Verify `Files.Read.All` permission has admin consent in Azure Portal |
 | Smart mode not working | Verify `ChannelMessage.Read.All` has admin consent. Ensure the channel is set to smart mode |
 | Credential validation failed | Ensure App Password is the **Value** (not the Secret ID). For single-tenant bots, confirm the Tenant ID is correct |
-| No 💬 reaction in DMs | App Catalog ID is not configured. See Step 8 in the deployment guide |
+| No 💬 reaction | Visit `https://<your-agent-domain>/ms-teams/auth/sign-in` to complete the one-time OAuth sign-in. See Step 10 in the deployment guide |
 | Want to disconnect | Click the **Disconnect** button on the Microsoft Teams card in the employee detail page |

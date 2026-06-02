@@ -833,8 +833,6 @@ Instead of adding permissions one by one through the UI, you can paste them all 
       { "id": "df021288-bdef-4463-88db-98f22de89214", "type": "Role" },
       { "id": "9ff7295e-131b-4d94-90e1-69fde507ac11", "type": "Scope" },
       { "id": "ebf0f66e-9fb1-49e4-a278-222f76911cf4", "type": "Scope" },
-      { "id": "767156cb-16ae-4d10-8f8b-41b657c8c8c8", "type": "Scope" },
-      { "id": "df85f4d6-205c-4ac5-a5ea-6bf408dba283", "type": "Scope" },
       { "id": "7427e0e9-2fba-42fe-b0c0-848c9e6a8182", "type": "Scope" }
     ]
   }
@@ -845,7 +843,7 @@ Instead of adding permissions one by one through the UI, you can paste them all 
 
 > **Important:** Replace only the empty `[]` after `"requiredResourceAccess":` — do not replace the entire line including the key name.
 
-This adds all 9 permissions at once:
+This adds all 7 permissions at once:
 
 | Permission | Type | What It Does |
 |------------|------|-------------|
@@ -853,15 +851,23 @@ This adds all 9 permissions at once:
 | `Chat.Read.All` | Application | Read DM and group chat history |
 | `ChannelMessage.Read.All` | Application | Read team channel message history |
 | `User.Read.All` | Application | Resolve user mentions and search users |
-| `Chat.ReadWrite` | Delegated | Read and send chat messages on behalf of the user |
-| `ChannelMessage.Send` | Delegated | Send channel messages on behalf of the user |
-| `ChannelMessage.Read.All` | Delegated | Read channel messages on behalf of the user |
-| `Files.Read.All` | Delegated | Access files the user can access |
+| `Chat.ReadWrite` | Delegated | React to chat messages on behalf of the user |
+| `ChannelMessage.Send` | Delegated | React to channel messages on behalf of the user |
 | `offline_access` | Delegated | Maintain access when the user is not actively signed in |
+
+#### Add Redirect URI for Reactions
+
+To enable emoji reactions (💬 thinking indicator, 👍, etc.), add a redirect URI:
+
+1. In the App Registration page, go to **Authentication**
+2. Click **+ Add a platform** → **Web**
+3. Enter the redirect URI: `https://<your-agent-domain>/ms-teams/auth/callback`
+   (Use the same domain from your Messaging endpoint in Step 2)
+4. Click **Configure**
 
 #### Grant Admin Consent
 
-After saving the manifest, go to **API permissions** and click **Grant admin consent for [your organization]**. Confirm, and all 9 permissions should show a green checkmark.
+After saving the manifest, go to **API permissions** and click **Grant admin consent for [your organization]**. Confirm, and all 7 permissions should show a green checkmark.
 
 > **Important:** Admin consent is required. Without it, file downloads, chat history, emoji reactions, and smart mode features will not work.
 
@@ -979,7 +985,18 @@ You have two options to distribute the app:
 
 5. Click **Connect** — the system will validate your credentials and deploy the channel
 
-### Step 10: Start Chatting
+### Step 10: Enable Reactions (One-Time Setup)
+
+To activate the 💬 thinking indicator and emoji reactions:
+
+1. Open your browser and visit: `https://<your-agent-domain>/ms-teams/auth/sign-in`
+   (Use the same domain from your Messaging endpoint)
+2. Sign in with your Microsoft 365 account
+3. After seeing "Signed in successfully", close the tab
+
+> **Note:** This only needs to be done once. The bot stores the delegated token and uses it automatically for all reactions going forward.
+
+### Step 11: Start Chatting
 
 1. In Teams, search for your app name (e.g., `COCO AI Employee`)
 2. Click to start a DM conversation
