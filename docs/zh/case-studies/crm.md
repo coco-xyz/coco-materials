@@ -548,27 +548,6 @@ head:
 }
 
 /* CTA block */
-.video-showcase {
-  margin: 32px auto 0;
-  max-width: 800px;
-}
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  border-radius: 16px;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
-}
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 16px;
-}
-
 .case-cta {
   text-align: center;
   padding: 64px 24px;
@@ -981,12 +960,6 @@ COCO 团队需要追踪从注册到试用到付费的完整销售流程。他们
 这个案例之所以特别，在于它是 COCO 在用自己的产品运营自己的公司。Zylos 同时扮演两个角色：既是 COCO 的 AI Agent 产品，也是 COCO 内部运营的数字员工。这种"dogfooding"有独特的证明价值——如果 AI 能在信任门槛最高的地方（自己公司的核心业务数据）跑起来，它就能在你的组织里跑起来。这不是展示给别人看的演示案例，这是 COCO 每天真实依赖的生产系统。
 
 最终结果说明了一切：27 人试用，9 人付费，转化率 33%，约为 SaaS 行业平均水平的三倍。这个数字背后，有一部分原因直接来自 CRM 系统的自动化运营——每天早上 10 点精准推送的试用到期提醒，确保了跟进动作不会因为繁忙被忘记；实时的 Stripe 支付同步，确保了付款用户立刻得到对应的服务激活。
-
-<div class="video-showcase">
-  <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/u7o-1GCO89E" title="COCO CRM 自动化演示" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-</div>
 
 </div>
 

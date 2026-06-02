@@ -548,27 +548,6 @@ head:
 }
 
 /* CTA block */
-.video-showcase {
-  margin: 32px auto 0;
-  max-width: 800px;
-}
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  border-radius: 16px;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
-}
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 16px;
-}
-
 .case-cta {
   text-align: center;
   padding: 64px 24px;
@@ -830,12 +809,6 @@ From a requirements description to 7 fully functional spreadsheets: **one evenin
 For most early-stage startups, CRM is a perpetual backlog item — too expensive to buy, too complex to configure, too demanding to maintain daily. COCO's solution bypasses this triangle entirely: hand the design, build, and ongoing operation of the CRM to an AI Agent digital employee. This isn't "AI assistance" — it's true enterprise AI automation where the AI is both architect and daily operator.
 
 What makes this case particularly notable is that COCO runs its own company on the same product it sells. Zylos plays a dual role: COCO's AI Agent product and COCO's internal operations digital employee simultaneously. This real-world self-deployment validates that COCO's enterprise AI automation approach delivers results in actual business scenarios — not just demos.
-
-<div class="video-showcase">
-  <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/u7o-1GCO89E" title="COCO CRM Automation Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-</div>
 
 </div>
 
