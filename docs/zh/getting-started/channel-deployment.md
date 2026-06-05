@@ -17,7 +17,7 @@ import { withBase } from 'vitepress'
 | [企业微信](#wecom) | 已支持 | 国内企业用户首选 |
 | [钉钉](#dingtalk) | 已支持 | 国内团队协作，无需公网回调 |
 | [WhatsApp](#whatsapp) | 已支持 | 海外商务用户 |
-| Discord | 即将支持 | 开发者/社区场景 |
+| [Discord](#discord) | 已支持 | 开发者/社区场景 |
 | [Slack](#slack) | 已支持 | 欧美企业用户 |
 | [Microsoft Teams](#ms-teams) | 已支持 | 企业团队、Microsoft 365 组织 |
 | [Zalo (官方)](#zalo) | 已支持 | 越南用户、个人及商业使用 |
@@ -1242,6 +1242,82 @@ AI 员工会确认连接已建立。你的专用 Zalo 账号现在是 Bot 在 Za
 | 账号收到警告或被限制 | 此功能使用非官方协议。如果收到 Zalo 的警告，请停止使用该集成，考虑切换到官方的 [Zalo Bot Platform](#zalo) |
 | 其他人无法和 Bot 聊天 | 默认只有 Owner 可以聊天。让 AI 员工启用 Allowlist 或 Open 模式以开放访问权限 |
 | 想要断开连接 | 让 AI 员工断开 Zalo 个人版（非官方） 渠道（如："断开 Zalo 个人版（非官方）"） |
+
+---
+
+## 选项K：Discord 部署 {#discord}
+
+**预计耗时：约8分钟**
+
+> **说明：** Discord 通过 Gateway（WebSocket）连接——无需公网回调地址或 Webhook。你只需要在 Discord 开发者门户获取一个 Bot Token。
+
+只需 **1 个配置项**：
+
+| 配置项 | 格式 | 说明 |
+|--------|------|------|
+| Bot Token | 一串不透明的长令牌字符串 | 用于在 Discord Gateway 上对你的 Bot 进行身份验证 |
+
+### 第1步：创建 Discord 应用
+
+1. 访问 [Discord 开发者门户](https://discord.com/developers/applications) 并登录
+2. 点击页面右上角的 **New Application**
+3. 输入名称（例如 `COCO AI Employee`），点击 **Create** 完成创建
+
+### 第2步：添加 Bot 并复制 Token
+
+1. 在左侧导航栏，进入 **Bot** 标签页
+2. 点击 **Reset Token**（如有提示则点击 **Add Bot**），并确认
+3. 复制 **Bot Token** 并妥善保存
+
+> **重要：** Bot Token 仅显示一次。如果丢失，需要重置并复制新的 Token。
+
+### 第3步：启用 Message Content Intent（必需）
+
+1. 仍在 **Bot** 标签页，下拉至 **Privileged Gateway Intents**
+2. 将 **Message Content Intent** 开关打开
+3. 保存更改
+
+> **重要：** 未启用 Message Content Intent 时，Bot 收到的消息文本为空，无法读取用户发送的内容。
+
+### 第4步：将 Bot 邀请到你的服务器
+
+1. 在左侧导航栏，进入 **OAuth2** → **URL Generator**
+2. 在 **Scopes** 下，勾选 **`bot`**
+3. 在 **Bot Permissions** 下，勾选：
+   - **View Channels**（查看频道）
+   - **Send Messages**（发送消息）
+   - **Read Message History**（读取消息历史）
+   - **Attach Files**（上传文件）
+   - **Add Reactions**（添加表情回复）
+4. 复制页面底部生成的 URL，并在浏览器中打开
+5. 选择要添加 Bot 的服务器，然后点击 **Authorize**（授权）
+
+> **说明：** 私信无需服务器邀请——只有在服务器/频道中使用时才需要邀请进服务器。
+
+### 第5步：在 COCO Dashboard 中连接
+
+1. 登录 [COCO Dashboard](https://icoco.ai/dashboard)
+2. 进入员工实例详情页
+3. 找到 **Discord** 卡片，点击 **Connect**（连接）
+4. 粘贴第2步获取的 **Bot Token**
+5. 点击 **Connect** — 系统将验证 Token 并完成连接
+
+### 第6步：开始聊天
+
+1. 直接私信 Bot，或在服务器频道中 @mention 它
+2. 发送任意消息 — AI 员工立即回复
+3. 部署完成！
+
+> **首条消息：** 第一个给 Bot 发送私聊消息的用户将成为 **Owner**（管理员）。Owner 始终拥有完整访问权限，不受策略设置限制。
+
+### Discord 常见问题
+
+| 问题 | 解决方案 |
+|------|----------|
+| Bot 离线 | 确认 Bot Token 正确，并已在 Discord 开发者门户中启用 Message Content Intent |
+| 服务器频道中无回复 | 确认 Bot 已被邀请进服务器、在该频道中拥有查看和发送消息的权限，并已被 @mention |
+| Bot 收到空消息或无消息文本 | 在 Discord 开发者门户的 Bot 标签页中启用 **Message Content Intent** |
+| 想要断开连接 | 在员工详情页的 Discord 卡片上点击 **断开连接** 按钮 |
 
 <!-- 已注释：之前基于 Dashboard 的设置流程（已替换为上方的 AI 员工引导流程——Zalo 个人版（非官方） 不再通过 COCO Dashboard 界面配置）
 

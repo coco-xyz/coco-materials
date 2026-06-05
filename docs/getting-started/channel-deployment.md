@@ -15,7 +15,7 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 | WeCom (企业微信) | Available | Domestic enterprise users |
 | DingTalk (钉钉) | Available | Domestic teams, no public callback needed |
 | [WhatsApp](#whatsapp) | Available | International business users |
-| Discord | Coming Soon | Developer/community scenarios |
+| [Discord](#discord) | Available | Developer/community scenarios |
 | [Slack](#slack) | Available | European/US enterprise users |
 | [Microsoft Teams](#ms-teams) | Available | Enterprise teams, Microsoft 365 organizations |
 | [Zalo (Official)](#zalo) | Available | Vietnam users, personal & business use |
@@ -1129,6 +1129,82 @@ Your AI employee will confirm the connection is established. Your dedicated Zalo
 | Account warning or restriction | This uses an unofficial protocol. If you receive a warning from Zalo, stop using the integration and consider switching to the official [Zalo Bot Platform](#zalo) |
 | Others can't message the bot | By default only the Owner can chat. Ask your AI employee to enable Allowlist or Open mode to grant access |
 | Want to disconnect | Ask your AI employee to disconnect the Zalo Personal (Unofficial) channel (e.g., "Disconnect Zalo Personal (Unofficial)") |
+
+---
+
+## Option J: Discord Deployment {#discord}
+
+**Estimated time: ~8 minutes**
+
+> **Note:** Discord connects over the Gateway (WebSocket) — no public callback URL or webhook is required. You only need a Bot Token from the Discord Developer Portal.
+
+One credential is required:
+
+| Credential | Format | Description |
+|------------|--------|-------------|
+| Bot Token | A long opaque token string | Authenticates your bot over the Discord Gateway |
+
+### Step 1: Create a Discord Application
+
+1. Visit the [Discord Developer Portal](https://discord.com/developers/applications) and log in
+2. Click **New Application** in the top-right corner
+3. Enter a name (e.g., `COCO AI Employee`) and click **Create**
+
+### Step 2: Add a Bot & Copy the Token
+
+1. In the left sidebar, go to the **Bot** tab
+2. Click **Reset Token** (or **Add Bot** if prompted), then confirm
+3. Copy the **Bot Token** and save it somewhere safe
+
+> **Important:** The Bot Token is shown only once. If you lose it, you'll need to reset it and copy the new one.
+
+### Step 3: Enable the Message Content Intent (required)
+
+1. Still on the **Bot** tab, scroll to **Privileged Gateway Intents**
+2. Toggle **Message Content Intent** ON
+3. Save your changes
+
+> **Important:** Without the Message Content Intent enabled, the bot receives empty message text and cannot read what users send.
+
+### Step 4: Invite the Bot to Your Server
+
+1. In the left sidebar, go to **OAuth2** → **URL Generator**
+2. Under **Scopes**, select **`bot`**
+3. Under **Bot Permissions**, select:
+   - **View Channels**
+   - **Send Messages**
+   - **Read Message History**
+   - **Attach Files**
+   - **Add Reactions**
+4. Copy the generated URL at the bottom and open it in your browser
+5. Choose the server to add the bot to, then click **Authorize**
+
+> **Note:** DMs work without a server invite — a server invite is only needed for server/channel use.
+
+### Step 5: Connect in COCO Dashboard
+
+1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
+2. Go to the employee instance detail page
+3. Find the **Discord** card and click **Connect**
+4. Paste the **Bot Token** from Step 2
+5. Click **Connect** — the system will validate the token and complete the connection
+
+### Step 6: Start Chatting
+
+1. DM the bot directly, or @mention it in a server channel
+2. Send any message — AI employee responds immediately
+3. Deployment complete!
+
+> **First message:** The first person to DM the bot becomes the **Owner** (administrator). The owner always has full access regardless of policy settings.
+
+### Discord FAQ
+
+| Issue | Solution |
+|-------|----------|
+| Bot offline | Verify the Bot Token is correct and the Message Content Intent is enabled in the Discord Developer Portal |
+| No reply in a server channel | Ensure the bot is invited to the server, has permission to view and send messages in the channel, and is @mentioned |
+| Bot sees empty or no message text | Enable the **Message Content Intent** in the Bot tab of the Discord Developer Portal |
+| Want to disconnect | Click the **Disconnect** button on the Discord card in the employee detail page |
 
 <!-- Commented out: previous dashboard-based setup flow (replaced by agent-based flow above — Zalo Personal (Unofficial) is no longer configured through the COCO Dashboard UI)
 
