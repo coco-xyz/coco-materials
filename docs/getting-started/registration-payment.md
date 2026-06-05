@@ -110,6 +110,7 @@ In Dashboard → Connect, select your messaging platform:
 | **Lark (Feishu)** | Domestic teams, enterprise use | Medium | 8-15 min |
 | **Microsoft Teams** | Enterprise teams, M365 users | Medium | 10-15 min |
 | **Zalo (Official)** | Vietnam users, business use | Easy | ~5 min |
+| **Discord** | Developer & community servers | Easy | ~8 min |
 <!-- Commented out: Zalo Personal (Unofficial) removed from dashboard channel selection table (setup is now agent-based, not through Dashboard)
 | **Zalo Personal (Unofficial)** | Vietnam users, personal account | Easy | ~2 min |
 -->

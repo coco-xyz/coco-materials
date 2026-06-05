@@ -138,6 +138,7 @@ Best regards,
 | Microsoft Teams | ~28 KB | Automatically split into multiple messages |
 | Zalo (Official) | 2,000 characters | Automatically split into multiple messages |
 | Zalo Personal (Unofficial) | 2,000 characters | Automatically split into multiple messages |
+| Discord | 2,000 characters | Automatically split into multiple messages |
 
 ### File Handling
 

@@ -15,6 +15,7 @@
 | [Microsoft Teams](./ms-teams) | 企业团队、Microsoft 365 组织 | ✅ 可用 |
 | [Zalo (官方)](./zalo) | 越南用户、个人及商务使用 | ✅ 可用 |
 | [Zalo 个人版（非官方）](./zalo) | 越南用户、个人 Zalo 账号（非官方） | ✅ 可用 |
+| [Discord](./discord) | 开发者与社区服务器 | ✅ 可用 |
 | [Web 控制台](./web-console) | 浏览器访问、快速测试 | ✅ 可用 |
 
 ## 通用技巧

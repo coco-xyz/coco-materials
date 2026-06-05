@@ -1,11 +1,11 @@
 # COCO Docs
 
-> COCO is an AI Digital Employee platform. Deploy AI employees to Telegram, Lark (Feishu), WeCom (企业微信), DingTalk (钉钉), Slack, WhatsApp, or Microsoft Teams — no coding required. AI employees work 7x24, handling writing, research, coding, data analysis, CRM management, and over 1,001 real-world tasks across 30 roles and 19 industries. Supports bilingual Chinese-English. Website: https://coco.xyz
+> COCO is an AI Digital Employee platform. Deploy AI employees to Telegram, Lark (Feishu), WeCom (企业微信), DingTalk (钉钉), Slack, WhatsApp, Microsoft Teams, or Discord — no coding required. AI employees work 7x24, handling writing, research, coding, data analysis, CRM management, and over 1,001 real-world tasks across 30 roles and 19 industries. Supports bilingual Chinese-English. Website: https://coco.xyz
 
 ## Getting Started (English)
 - [Overview](https://docs.coco.xyz/getting-started/): Welcome guide — hire your first AI digital employee in 10-20 minutes, no technical skills required
 - [Registration & Payment](https://docs.coco.xyz/getting-started/registration-payment): Step-by-step signup, plan selection (Air / Pro / Ultra / Enterprise), and Stripe payment guide
-- [Channel Deployment](https://docs.coco.xyz/getting-started/channel-deployment): Connect AI employee to Telegram, Lark (Feishu), WeCom, DingTalk, Slack, WhatsApp, or Microsoft Teams — detailed per-platform guides
+- [Channel Deployment](https://docs.coco.xyz/getting-started/channel-deployment): Connect AI employee to Telegram, Lark (Feishu), WeCom, DingTalk, Slack, WhatsApp, Microsoft Teams, or Discord — detailed per-platform guides
 - [First-Time Tutorial](https://docs.coco.xyz/getting-started/first-time-tutorial): Learn how to assign roles, give tasks, and get results — no technical background needed
 - [Important Notes](https://docs.coco.xyz/getting-started/tips): Group and private chat settings, long-term memory, SOP storage, message limits, file handling, and usage tips
 - [FAQ](https://docs.coco.xyz/getting-started/faq): Common questions on Cloud Agent Authorization, social media integrations, product features, security, and privacy
@@ -78,7 +78,7 @@
 ## Chinese Documentation — Getting Started (中文 — 快速开始)
 - [概览](https://docs.coco.xyz/zh/getting-started/): COCO快速入门 — 10-20分钟完成首位AI数字员工入职，无需技术背景
 - [注册与支付](https://docs.coco.xyz/zh/getting-started/registration-payment): 注册账户、选择套餐（Air/Pro/Ultra/企业版）及Stripe支付指南
-- [渠道部署指南](https://docs.coco.xyz/zh/getting-started/channel-deployment): 将AI员工接入Telegram、飞书、企业微信、钉钉、Slack、WhatsApp或Microsoft Teams
+- [渠道部署指南](https://docs.coco.xyz/zh/getting-started/channel-deployment): 将AI员工接入Telegram、飞书、企业微信、钉钉、Slack、WhatsApp、Microsoft Teams或Discord
 - [首次使用教程](https://docs.coco.xyz/zh/getting-started/first-time-tutorial): 如何设置角色、分配任务并获得结果
 - [注意事项](https://docs.coco.xyz/zh/getting-started/tips): 群聊/私聊设置、长期记忆、SOP存储、消息限制与文件处理
 - [常见问题 FAQ](https://docs.coco.xyz/zh/getting-started/faq): 云端代理授权、第三方平台集成、功能特性、安全与隐私问答

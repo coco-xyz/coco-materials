@@ -15,6 +15,7 @@ Learn how to get the most out of each communication channel with your COCO AI em
 | [Microsoft Teams](./ms-teams) | Enterprise teams, Microsoft 365 organizations | ✅ Available |
 | [Zalo (Official)](./zalo) | Vietnam users, personal & business use | ✅ Available |
 | [Zalo Personal (Unofficial)](./zalo) | Vietnam users, personal Zalo account (unofficial) | ✅ Available |
+| [Discord](./discord) | Developer & community servers | ✅ Available |
 | [Web Console](./web-console) | Browser-based access, testing | ✅ Available |
 
 ## Quick Tips
