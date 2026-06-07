@@ -169,16 +169,8 @@ COCO不是聊天机器人，是你的全职AI员工。你在Telegram、飞书、
 
 按平台整理的常见客户需求操作指南：
 
-### 飞书 / Lark
-- [群成员共用 Bot](./lark-group-bot) — 将 Bot 拉入飞书群，让所有成员直接使用
-
 ### 钉钉
 - [一个 Agent 连接多个组织](./dingtalk-multi-org) — 一套 AI 服务多个钉钉组织
-- [群聊中使用 Bot](./dingtalk-group-bot) — 将 Bot 拉入钉钉群聊供成员使用
-
-### 企业微信
-- [群成员共用 Bot](./wecom-group-bot) — 将 Bot 拉入企微群并授权成员使用
-- [机器人 @群成员通知](./wecom-webhook-mention) — 通过 Webhook 实现 @通知功能
 
 ---
 

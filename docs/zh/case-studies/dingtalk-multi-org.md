@@ -16,30 +16,45 @@
 
 确保 dingtalk 组件版本 ≥ v0.1.3（该版本支持服务自定义端口）。
 
+![升级钉钉组件](./images/dingtalk-upgrade.png)
+
 ### 第二步：在钉钉开发者平台创建应用
 
 1. 登录 [钉钉开发者平台](https://open.dingtalk.com/)
 2. 切换到第二个组织
-3. 创建应用（步骤与部署指南相同）
+
+![切换组织](./images/dingtalk-switch-org.png)
+
+3. 创建应用（步骤与[部署指南](/zh/getting-started/channel-deployment#dingtalk)相同）
+
+![创建应用](./images/dingtalk-create-app.png)
 
 ### 第三步：配置新实例
 
-在 Web Console 中发送新应用的凭证信息：
+1. 在 Web Console 中发送「现在通过独立运行新的zylos-dingtalk的方式接入新钉钉组织」
+
+![发送接入请求](./images/dingtalk-webconsole-msg.png)
+
+2. 待 Bot 回复后，继续发送新创建的应用凭证信息（详情可见[钉钉部署指南](/zh/getting-started/channel-deployment#dingtalk)）：
 
 ```
-App Key: xxx
-App Secret: xxx
-Robot Code: xxx
-实例名称: xxx
+App Key：
+App Secret：
+Robot Code：
+实例命名：
 ```
 
-Bot 会自动创建并启动新的钉钉实例。
+![发送凭证信息](./images/dingtalk-credentials.png)
+
+3. Bot 会自动创建并启动新的钉钉实例。
 
 ### 第四步：测试
 
 1. 在钉钉客户端切换到对应组织
 2. 搜索你设定的实例名称
 3. 发送消息测试，确认 Bot 正常响应
+
+![测试结果](./images/dingtalk-test-result.png)
 
 ## 注意事项
 

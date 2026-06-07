@@ -547,11 +547,7 @@ export default defineConfig({
             {
               text: '场景教程',
               items: [
-                { text: '飞书 — 群成员共用 Bot', link: '/zh/case-studies/lark-group-bot' },
-                { text: '钉钉 — 多组织连接', link: '/zh/case-studies/dingtalk-multi-org' },
-                { text: '钉钉 — 群聊中使用 Bot', link: '/zh/case-studies/dingtalk-group-bot' },
-                { text: '企微 — 群成员共用 Bot', link: '/zh/case-studies/wecom-group-bot' },
-                { text: '企微 — @群成员通知', link: '/zh/case-studies/wecom-webhook-mention' },
+                { text: '钉钉 — 一个 Agent 连接多个组织', link: '/zh/case-studies/dingtalk-multi-org' },
               ]
             },
           ],
