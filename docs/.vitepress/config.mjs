@@ -544,6 +544,16 @@ export default defineConfig({
                 { text: 'COCO 自动化生成视频', link: '/zh/case-studies/seedance-video' },
               ]
             },
+            {
+              text: '场景教程',
+              items: [
+                { text: '飞书 — 群成员共用 Bot', link: '/zh/case-studies/lark-group-bot' },
+                { text: '钉钉 — 多组织连接', link: '/zh/case-studies/dingtalk-multi-org' },
+                { text: '钉钉 — 群聊中使用 Bot', link: '/zh/case-studies/dingtalk-group-bot' },
+                { text: '企微 — 群成员共用 Bot', link: '/zh/case-studies/wecom-group-bot' },
+                { text: '企微 — @群成员通知', link: '/zh/case-studies/wecom-webhook-mention' },
+              ]
+            },
           ],
         },
         outline: { level: [2, 3], label: '本页目录' },
