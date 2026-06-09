@@ -544,6 +544,12 @@ export default defineConfig({
                 { text: 'COCO 自动化生成视频', link: '/zh/case-studies/seedance-video' },
               ]
             },
+            {
+              text: '场景教程',
+              items: [
+                { text: '钉钉 — 一个 Agent 连接多个组织', link: '/zh/case-studies/dingtalk-multi-org' },
+              ]
+            },
           ],
         },
         outline: { level: [2, 3], label: '本页目录' },
