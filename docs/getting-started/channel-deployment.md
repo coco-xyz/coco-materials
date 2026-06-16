@@ -136,18 +136,13 @@ In the Developer Backend, find the **Create Lark Smart Agent App** banner at the
 
 ##### Step 4: Fill in Credentials in COCO Dashboard and Deploy
 
-1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
-2. Click **Channels** on the left sidebar, select **Lark**
+1. After the Smart Agent is created, you will see the **App Created** page — copy the **App ID** and **App Secret**
 
-<img :src="withBase('/lark-smart-agent-dashboard-channel.png')" alt="COCO Dashboard — click Channels, select Lark" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+<img :src="withBase('/lark-smart-agent-credentials.png')" alt="App Created page — copy App ID and App Secret" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-3. Go back to the Smart Agent **Created Successfully** page, copy the App ID and App Secret into the Lark channel configuration
+2. Log into [COCO Dashboard](https://icoco.ai/dashboard), click **Channels** on the left sidebar, select **Lark**, fill in the **App ID** and **App Secret**, then click **Connect** — the system will automatically deploy your AI employee (typically takes 2-3 minutes)
 
-<img :src="withBase('/lark-smart-agent-credentials.png')" alt="Created Successfully page — copy App ID and App Secret" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
-
-4. After filling in **App ID** and **App Secret**, click **Connect** — the system will automatically deploy your AI employee (typically takes 2-3 minutes)
-
-<img :src="withBase('/lark-smart-agent-connect.png')" alt="Fill in App ID and App Secret then click Connect" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+<img :src="withBase('/lark-smart-agent-dashboard-channel.png')" alt="COCO Dashboard — fill in App ID and App Secret, click Connect" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 <br>
 
