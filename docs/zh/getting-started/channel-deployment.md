@@ -421,13 +421,18 @@ Lark 提供两种部署方式，请根据你的需求选择：
 
 ##### 第4步：在 COCO Dashboard 填写凭证并部署
 
-1. 智能体创建成功后，你会看到 **App Created** 页面 — 复制 **App ID** 和 **App Secret**
+1. 登录 [COCO Dashboard](https://icoco.ai/dashboard)
+2. 点击左侧的「对话入口」，选择 **Lark（飞书国际版）**
+
+<img :src="withBase('/lark-smart-agent-dashboard-channel.png')" alt="COCO Dashboard — 点击「对话入口」，选择 Lark" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+3. 回到智能体 **创建成功** 页面，将 App ID 和 App Secret 复制到「对话入口」的 Lark 中
 
 <img :src="withBase('/lark-smart-agent-credentials.png')" alt="创建成功页面 — 复制 App ID 和 App Secret" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-2. 登录 [COCO Dashboard](https://icoco.ai/dashboard)，点击左侧的「对话入口」，选择 **Lark（飞书国际版）**，填写 **App ID** 和 **App Secret**，点击 **连接** — 系统将自动部署你的 AI 员工（通常需要 2-3 分钟）
+4. 填写完 **App ID** 和 **App Secret**，点击 **连接**，系统将自动部署你的 AI 员工（通常需要 2-3 分钟）
 
-<img :src="withBase('/lark-smart-agent-dashboard-channel.png')" alt="COCO Dashboard — 填写 App ID 和 App Secret 后点击连接" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+<img :src="withBase('/lark-smart-agent-connect.png')" alt="填写 App ID 和 App Secret 后点击连接" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 <br>
 
