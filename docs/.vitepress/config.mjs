@@ -382,6 +382,7 @@ export default defineConfig({
                 { text: 'Customer Service Email Automation', link: '/case-studies/email-automation' },
                 { text: 'Manufacturing AI — From Pain Points to Smart Production', link: '/case-studies/manufacturing-ai' },
                 { text: 'COCO Automated Video Generation', link: '/case-studies/seedance-video' },
+                { text: 'Browser Automation: Let AI Operate Web Pages', link: '/case-studies/browser-automation' },
               ]
             },
           ],
@@ -542,6 +543,7 @@ export default defineConfig({
                 { text: '客服邮件自动化', link: '/zh/case-studies/email-automation' },
                 { text: '制造业 AI — 从痛点到产线智能', link: '/zh/case-studies/manufacturing-ai' },
                 { text: 'COCO 自动化生成视频', link: '/zh/case-studies/seedance-video' },
+                { text: '浏览器自动化：让 AI 帮你操作网页', link: '/zh/case-studies/browser-automation' },
               ]
             },
             {
