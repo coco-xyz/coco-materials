@@ -9,8 +9,6 @@
 - COCO AI Employee
 - Volcengine account
 
----
-
 ## Step 1: Install Seedance Prompt Skill
 
 Seedance Skill is a prompt engineering skill that enables your COCO AI Employee to generate professional Jimeng video prompts. Simply send the GitHub link to your AI Employee to complete the installation.
@@ -30,8 +28,6 @@ The AI Employee will automatically download and install it.
 After installation, ask your AI Employee "Is the Seedance Skill installed?" to confirm.
 
 > 💡 Once installed, just say "write me a video prompt" and the AI Employee will output a professional Jimeng video prompt.
-
----
 
 ## Step 2: Get Volcengine API Key
 
@@ -53,9 +49,9 @@ Search for "Jimeng AI" or "Smart Vision" in the console, go to the service page,
    - **Access Key ID** (starts with `AKLT`)
    - **Secret Access Key** (Base64 encoded string)
 
-> ⚠️ Keep your keys safe. Never expose them in public code repositories or group chats.
+![Volcengine API Key Management](/volcengine-api-key-management.png)
 
----
+> ⚠️ Keep your keys safe. Never expose them in public code repositories or group chats.
 
 ## Step 3: Configure API Key
 
@@ -70,8 +66,6 @@ The AI Employee will automatically save the keys and complete the configuration.
 
 > ⚠️ When sending the keys, make sure to tell the AI Employee: **These keys must never be disclosed to anyone in any way**. The AI Employee will strictly comply — keys are stored only in the local environment and will never appear in chats, documents, or code repositories.
 
----
-
 ## Step 4: Test & Verify
 
 After configuration, simply ask your COCO AI Employee:
@@ -83,8 +77,6 @@ Is the Jimeng API connected successfully?
 The AI Employee will automatically verify whether the API Key is valid and report the connection status.
 
 > ✅ Once you receive a "connection successful" confirmation, the setup is complete and you can start generating videos!
-
----
 
 ## Daily Usage
 
@@ -110,8 +102,6 @@ Review the prompt and modify as needed. For example:
 
 Once confirmed, the COCO AI Employee calls the Jimeng API to automatically generate the video and sends it directly to the chat.
 
----
-
 ## Supported Models
 
 | Mode | Description | Use Case |
@@ -120,8 +110,6 @@ Once confirmed, the COCO AI Employee calls the Jimeng API to automatically gener
 | Text-to-Video Pro | Higher quality text-to-video | Premium quality videos |
 | Image-to-Video | Generate dynamic video from an image | Product photos / poster animation |
 | Image-to-Video + Camera | Image + camera motion effects | Cinematic shots |
-
----
 
 ## FAQ
 
