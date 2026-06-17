@@ -382,6 +382,7 @@ export default defineConfig({
                 { text: 'Customer Service Email Automation', link: '/case-studies/email-automation' },
                 { text: 'Manufacturing AI — From Pain Points to Smart Production', link: '/case-studies/manufacturing-ai' },
                 { text: 'COCO Automated Video Generation', link: '/case-studies/seedance-video' },
+                { text: 'Browser Automation: Let AI Operate Web Pages', link: '/case-studies/browser-automation' },
               ]
             },
           ],
