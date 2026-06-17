@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # DevOps运维
 
 AI驱动的DevOps运维专业人员用例。

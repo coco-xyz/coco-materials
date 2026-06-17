@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # 媒体/娱乐
 
 AI驱动的媒体/娱乐行业用例。

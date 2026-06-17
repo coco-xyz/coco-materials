@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # QA Engineer
 
 AI-powered use cases for qa engineer professionals.

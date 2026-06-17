@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # Logistics Manager
 
 AI-powered use cases for logistics manager professionals.

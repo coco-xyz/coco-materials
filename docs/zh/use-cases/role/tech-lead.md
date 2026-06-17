@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # 技术负责人
 
 AI驱动的技术负责人专业人员用例。

@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # 内容创作者
 
 AI驱动的内容创作者专业人员用例。

@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # QA工程师
 
 AI驱动的QA工程师专业人员用例。

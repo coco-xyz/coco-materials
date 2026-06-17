@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # Tech Lead
 
 AI-powered use cases for tech lead professionals.

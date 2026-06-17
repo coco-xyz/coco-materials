@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # 项目经理
 
 AI驱动的项目经理专业人员用例。

@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # Nonprofit
 
 AI use cases for the nonprofit industry.

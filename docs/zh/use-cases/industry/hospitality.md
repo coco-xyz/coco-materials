@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # 酒店/餐饮
 
 AI驱动的酒店/餐饮行业用例。

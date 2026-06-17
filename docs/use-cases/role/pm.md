@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # Project Manager
 
 AI-powered use cases for project manager professionals.
