@@ -93,15 +93,84 @@ Lark (international) and Feishu (domestic China) have slightly different interfa
 
 ### Lark Deployment (Recommended for international teams) {#lark}
 
-**WebSocket long connection:** Only App ID and App Secret required — no Webhook URL, Verification Token, or public domain needed.
+Lark offers two deployment options — choose the one that fits your needs:
 
-#### Step 1: Access Lark Open Platform
+- **Option 1: Smart Agent Quick Deploy (Recommended)** — 1-2 minutes, system auto-configures permissions and events, suitable for most users
+- **Option 2: Custom App Deploy** — requires manual permission configuration, event subscription, and version publishing, suitable for advanced users who need fine-grained control
+
+---
+
+#### Option 1: Smart Agent Quick Deploy (Recommended) {#lark-quick}
+
+**Estimated time: 1-2 minutes** | System auto-configures permissions and event subscriptions — just create a Smart Agent and fill in credentials to complete deployment.
+
+##### Step 1: Access Lark Open Platform
 
 1. Visit [Lark Open Platform](https://open.larksuite.com)
 2. Log in with your Lark account
 3. Click **Developer Backend** in the top-right corner
 
-#### Step 2: Create a Custom App
+<img :src="withBase('/lark-smart-agent-open-platform.png')" alt="Lark Open Platform homepage — click Developer Backend in the top-right corner" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+<br>
+
+##### Step 2: Click "Create Now" to Create a Lark Smart Agent App
+
+In the Developer Backend, find the **Create Lark Smart Agent App** banner at the top and click **Create Now** on the right side.
+
+<img :src="withBase('/lark-smart-agent-create.png')" alt="Lark Developer Backend — click Create Now for Smart Agent app" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+<br>
+
+##### Step 3: Fill in Information and Create
+
+1. Choose your preferred **avatar**
+2. Fill in the name (e.g., `COCO AI Employee`)
+3. Click **Create Now**
+
+<img :src="withBase('/lark-smart-agent-form.png')" alt="Create Lark Smart Agent — choose avatar, fill in name, click Create Now" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+> **Enterprise account note:** After creation, if you are using an enterprise Lark account, the enterprise admin must approve the app in the Lark Admin Console before it becomes active. If you are using a personal account, this step is not needed.
+
+<br>
+
+##### Step 4: Fill in Credentials in COCO Dashboard and Deploy
+
+1. After the Smart Agent is created, you will see the **App Created** page — copy the **App ID** and **App Secret**
+
+<img :src="withBase('/lark-smart-agent-credentials.png')" alt="App Created page — copy App ID and App Secret" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+2. Log into [COCO Dashboard](https://icoco.ai/dashboard), click **Channels** on the left sidebar, select **Lark**, fill in the **App ID** and **App Secret**, then click **Connect** — the system will automatically deploy your AI employee (typically takes 2-3 minutes)
+
+<img :src="withBase('/lark-smart-agent-dashboard-channel.png')" alt="COCO Dashboard — fill in App ID and App Secret, click Connect" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+<br>
+
+##### Step 5: Search for Bot and Start Chatting
+
+Once connected, search for the bot name you just set up in the **Lark client**, confirm the bot has been created, and click to start chatting.
+
+<img :src="withBase('/lark-smart-agent-search-bot.png')" alt="Search for bot name in Lark" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+<img :src="withBase('/lark-smart-agent-chat.png')" alt="Click bot to start chatting" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+> **Deployment complete!** Your AI employee is now online. You can chat with it directly or add it to group chats.
+
+---
+
+#### Option 2: Custom App Deploy (Full Configuration) {#lark-custom}
+
+**Estimated time: 8-15 minutes** | Manually create a custom app and configure permissions, event subscriptions, and version publishing step by step. Suitable for advanced users who need fine-grained control.
+
+**WebSocket long connection (Recommended):** Simplest configuration — only App ID and App Secret needed, no Webhook URL or verification required.
+
+##### Step 1: Access Lark Open Platform
+
+1. Visit [Lark Open Platform](https://open.larksuite.com)
+2. Log in with your Lark account
+3. Click **Developer Backend** in the top-right corner
+
+##### Step 2: Create a Custom App
 
 1. In the Developer Backend, click **Create Custom App**
 2. Enter app name (e.g., `COCO AI Employee`) and description
@@ -109,7 +178,7 @@ Lark (international) and Feishu (domestic China) have slightly different interfa
 
 > **Tip:** Enterprise admin permissions are required. If you're not an admin, contact your IT department or use a Lark personal account first.
 
-#### Step 3: Add Bot Capability
+##### Step 3: Add Bot Capability
 
 In the app management page, go to **Add Capabilities** in the left sidebar, find the **Bot** card, and click "Configure" or "+ Add". After adding, a **Bot** menu item will appear in the left sidebar.
 
@@ -119,7 +188,7 @@ After adding, go to **Credentials & Basic Info** in the left sidebar and note do
    - **App ID**
    - **App Secret**
 
-#### Step 4: Configure Permissions
+##### Step 4: Configure Permissions
 
 In the app management page, go to **Permissions & Scopes**. Click **Batch Import/Export Permissions**, paste the following JSON, and import all permissions at once:
 
@@ -187,7 +256,29 @@ In the app management page, go to **Permissions & Scopes**. Click **Batch Import
 
 > **Scope overview:** The scopes above cover contacts (read), chat management (full), messaging (send/receive/recall/pin/react), group @mention listening, urgent messages, file resources, and feed cards. The `im:message:send_multi_depts` scope replaces the older `im:message:send_multi_users` name used in previous versions of the platform. The Feishu (domestic China) version uses a slightly smaller scope set — see the [Feishu section](#feishu) for details.
 
-#### Step 5: Connect in COCO Dashboard and Deploy
+##### Step 5: Configure Event Subscription
+
+1. Return to the Lark Developer Backend, go to **Events & Callbacks**
+2. Under subscription mode, select **Receive events through persistent connection**
+
+3. Click **Add Events** and subscribe to:
+   - `im.message.receive_v1` — Receive messages (required)
+   - `im.chat.member.bot.added_v1` — Bot added to group (optional)
+4. Click **Save**
+
+> **Tip:** With persistent connection mode, no Request URL is needed — events are received automatically via WebSocket.
+
+##### Step 6: Create Version and Publish
+
+1. In the Lark Developer Backend, go to **Version Management & Publishing**
+2. Click **Create Version**
+3. Enter version number (e.g., `1.0.0`) and update description
+4. Confirm app capabilities and permissions, click **Save**
+5. In the confirmation dialog, click **Confirm Publish**
+
+> **Admin Approval:** After publishing a Lark custom app, the enterprise admin must approve it in the **Lark Admin Console** before the app becomes active. If you're using a personal account, this step is not needed.
+
+##### Step 7: Connect in COCO Dashboard and Deploy
 
 1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
 2. Go to the channel configuration page, select **Lark**
@@ -202,29 +293,7 @@ In the app management page, go to **Permissions & Scopes**. Click **Batch Import
 
 > **Tip:** With WebSocket long connection, only App ID and App Secret are needed — no Verification Token, Encrypt Key, or Webhook URL required.
 
-#### Step 6: Configure Event Subscription
-
-1. Return to the Lark Developer Backend, go to **Events & Callbacks**
-2. Under subscription mode, select **Receive events through persistent connection**
-
-3. Click **Add Events** and subscribe to:
-   - `im.message.receive_v1` — Receive messages (required)
-   - `im.chat.member.bot.added_v1` — Bot added to group (optional)
-4. Click **Save**
-
-> **Tip:** With persistent connection mode, no Request URL is needed — events are received automatically via WebSocket.
-
-#### Step 7: Create Version and Publish
-
-1. In the Lark Developer Backend, go to **Version Management & Publishing**
-2. Click **Create Version**
-3. Enter version number (e.g., `1.0.0`) and update description
-4. Confirm app capabilities and permissions, click **Save**
-5. In the confirmation dialog, click **Confirm Publish**
-
-> **Admin Approval:** After publishing a Lark custom app, the enterprise admin must approve it in the **Lark Admin Console** before the app becomes active. If you're using a personal account, this step is not needed.
-
-#### Step 8: Enable Bot and Add to Groups
+##### Step 8: Enable Bot and Add to Groups
 
 1. In Lark Open Platform, go to **Bot** menu, confirm bot functionality is enabled
 2. Open Lark client
@@ -240,6 +309,80 @@ In the app management page, go to **Permissions & Scopes**. Click **Batch Import
 
 ### Feishu Deployment (Recommended for domestic China teams) {#feishu}
 
+Feishu offers two deployment options — choose the one that fits your needs:
+
+- **Option 1: Smart Agent Quick Deploy (Recommended)** — 1-2 minutes, system auto-configures permissions and events, suitable for most users
+- **Option 2: Custom App Deploy** — requires manual permission configuration, event subscription, and version publishing, suitable for advanced users who need fine-grained control
+
+---
+
+#### Option 1: Smart Agent Quick Deploy (Recommended) {#feishu-quick}
+
+**Estimated time: 1-2 minutes** | System auto-configures permissions and event subscriptions — just create a Smart Agent and fill in credentials to complete deployment.
+
+##### Step 1: Access Feishu Open Platform
+
+1. Visit [Feishu Open Platform](https://open.feishu.cn)
+2. Log in with your Feishu account
+3. Click **Developer Backend** in the top-right corner
+
+<img :src="withBase('/feishu-open-platform.png')" alt="Feishu Open Platform homepage — click Developer Backend in the top-right corner" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+<br>
+
+##### Step 2: Click "Create Now" to Create a Feishu Smart Agent App
+
+In the Developer Backend, find the **Create Feishu Smart Agent App** banner at the top and click **Create Now** on the right side.
+
+<img :src="withBase('/feishu-smart-agent-create.png')" alt="Feishu Developer Backend — click Create Now for Smart Agent app" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+<br>
+
+##### Step 3: Fill in Information and Create
+
+1. Choose your preferred **avatar**
+2. Fill in the name (e.g., `COCO AI Employee`)
+3. Click **Create Now**
+
+<img :src="withBase('/feishu-smart-agent-form.png')" alt="Create Feishu Smart Agent — choose avatar, fill in name, click Create Now" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+> **Enterprise account note:** After creation, if you are using an enterprise Feishu account, the enterprise admin must approve the app in the [Feishu Admin Console](https://feishu.cn/admin) before it becomes active. If you are using a personal account, this step is not needed.
+
+<br>
+
+##### Step 4: Fill in Credentials in COCO Dashboard and Deploy
+
+1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
+2. Click **Channels** on the left sidebar, select **Feishu**
+
+<img :src="withBase('/feishu-smart-agent-dashboard-channel.png')" alt="COCO Dashboard — click Channels, select Feishu" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+3. Go back to the Smart Agent **Created Successfully** page, copy the App ID and App Secret
+
+<img :src="withBase('/feishu-smart-agent-credentials.png')" alt="Created Successfully page — copy App ID and App Secret" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+4. Fill in the **App ID** and **App Secret**, click **Connect** — the system will automatically deploy your AI employee (typically takes 2-3 minutes)
+
+<img :src="withBase('/feishu-smart-agent-connect.png')" alt="Fill in App ID and App Secret then click Connect" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+<br>
+
+##### Step 5: Search for Bot and Start Chatting
+
+After connection is complete, search for your bot name in the **Feishu client**, confirm the bot has been created correctly, and click to start chatting.
+
+<img :src="withBase('/feishu-smart-agent-search-bot.png')" alt="Search for bot name in Feishu" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+<img :src="withBase('/feishu-smart-agent-chat.png')" alt="Click bot to start chatting" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+> **Deployment complete!** Your AI employee is now online. You can chat with it directly or add it to group chats.
+
+---
+
+#### Option 2: Custom App Deploy (Full Configuration) {#feishu-custom}
+
+**Estimated time: 8-15 minutes** | Manually create a custom app and configure permissions, event subscriptions, and version publishing step by step. Suitable for advanced users who need fine-grained permission control or custom configuration.
+
 **WebSocket (Recommended):** Simplest setup — only needs App ID and App Secret, no Webhook URL or verification required.
 
 <video controls style="max-width: 720px; width: 100%; border-radius: 8px; margin: 1rem 0;">
@@ -252,13 +395,13 @@ In the app management page, go to **Permissions & Scopes**. Click **Batch Import
   <source src="https://github.com/coco-xyz/coco-materials/releases/download/assets-v1/feishu_wh_en_v17.mp4" type="video/mp4">
 </video>
 
-#### Step 1: Access Feishu Open Platform
+##### Step 1: Access Feishu Open Platform
 
 1. Visit [Feishu Open Platform](https://open.feishu.cn)
 2. Log in with your Feishu account
 3. Click **Developer Backend** in the top-right corner
 
-#### Step 2: Create an Enterprise App
+##### Step 2: Create an Enterprise App
 
 1. In the Developer Backend, click **Create Custom App**
 2. Enter app name (e.g., `COCO AI Employee`) and description, select an app icon
@@ -269,7 +412,7 @@ In the app management page, go to **Permissions & Scopes**. Click **Batch Import
 
 > **Tip:** Enterprise admin permissions are required. If you're not an admin, contact your IT department or use a Feishu personal account first.
 
-#### Step 3: Add Bot Capability and Configure Permissions
+##### Step 3: Add Bot Capability and Configure Permissions
 
 In the app management page, first add the **Bot** capability by clicking **+ Add**, then go to **Permission Management** in the left sidebar.
 
@@ -337,7 +480,7 @@ In the Permission Management page, copy the following JSON and import all permis
 
 > **Feishu vs Lark scopes:** The Feishu (domestic China) scope set above differs slightly from the Lark (international) version. Two scopes — `im:chat.labels` and `im:message.group_msg:readonly` — are not supported on the Feishu China platform and have been removed. All other scopes are identical.
 
-#### Step 4: Get Verification Token
+##### Step 4: Get Verification Token
 
 1. In app management, go to **Events & Callbacks**
 2. Click the **Encryption Strategy** tab
@@ -345,7 +488,7 @@ In the Permission Management page, copy the following JSON and import all permis
 
 > **Tip:** On the same page you'll also find the **Encrypt Key** (optional). If you need encrypted communication, record this as well.
 
-#### Step 5: Connect in COCO Dashboard and Deploy
+##### Step 5: Connect in COCO Dashboard and Deploy
 
 1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
 2. Go to the channel configuration page, select **Feishu**
@@ -361,7 +504,7 @@ In the Permission Management page, copy the following JSON and import all permis
 4. Click **Connect** — the system will automatically deploy your AI employee (typically takes 2-3 minutes)
 5. After deployment, the page will display your dedicated **Webhook URL** — copy this URL (needed in the next step)
 
-#### Step 6: Configure Event Subscription
+##### Step 6: Configure Event Subscription
 
 1. Return to the Feishu Developer Backend, go to **Events & Callbacks**
 2. Under "Event Configuration", select **Send events to developer server**
@@ -371,7 +514,7 @@ In the Permission Management page, copy the following JSON and import all permis
    - `im.chat.member.bot.added_v1` — Bot added to group (optional)
 5. Click **Save**
 
-#### Step 7: Create Version and Publish
+##### Step 7: Create Version and Publish
 
 1. In the Feishu Developer Backend, go to **Version Management & Publishing**
 2. Click **Create Version**
@@ -381,7 +524,7 @@ In the Permission Management page, copy the following JSON and import all permis
 
 > **Admin Approval:** After publishing a Feishu custom app, the enterprise admin must approve it in the **Feishu Admin Console** before the app becomes active. If you're using a personal account, this step is not needed.
 
-#### Step 8: Enable Bot and Add to Groups
+##### Step 8: Enable Bot and Add to Groups
 
 1. In Feishu Open Platform, go to **Bot** menu, confirm bot functionality is enabled
 2. Open Feishu client
