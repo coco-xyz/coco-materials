@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # Energy
 
 AI use cases for the energy industry.

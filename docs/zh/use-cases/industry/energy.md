@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # 能源
 
 AI驱动的能源行业用例。

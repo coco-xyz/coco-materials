@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # 物流
 
 AI驱动的物流行业用例。

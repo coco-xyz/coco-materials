@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # 企业
 
 AI驱动的企业行业用例。

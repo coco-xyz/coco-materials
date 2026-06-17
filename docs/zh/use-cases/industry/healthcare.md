@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # 医疗健康
 
 AI驱动的医疗健康行业用例。

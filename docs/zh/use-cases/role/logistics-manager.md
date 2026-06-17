@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # 物流经理
 
 AI驱动的物流经理专业人员用例。

@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # 客户成功经理
 
 AI驱动的客户成功经理专业人员用例。

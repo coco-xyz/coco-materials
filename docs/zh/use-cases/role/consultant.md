@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # 咨询顾问
 
 AI驱动的咨询顾问专业人员用例。

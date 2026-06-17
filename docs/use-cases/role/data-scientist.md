@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # Data Scientist
 
 AI-powered use cases for data scientist professionals.

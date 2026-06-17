@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # Customer Success Manager
 
 AI-powered use cases for customer success manager professionals.

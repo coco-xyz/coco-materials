@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # Manufacturing
 
 AI use cases for the manufacturing industry.

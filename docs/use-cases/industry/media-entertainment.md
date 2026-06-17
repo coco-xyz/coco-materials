@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # Media & Entertainment
 
 AI use cases for the media & entertainment industry.

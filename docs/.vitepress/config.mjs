@@ -12,6 +12,13 @@ export default defineConfig({
     hostname: 'https://docs.icoco.ai',
     transformItems(items) {
       const now = new Date().toISOString().split('T')[0]
+
+      // Issue #1820 Bucket B: noindex pages must be dropped from the sitemap
+      // to avoid mixed signals. Matches both EN and zh/ mirrors.
+      const bucketBIndustry = /^(zh\/)?use-cases\/industry\/(healthcare|manufacturing|enterprise|education|logistics|government|nonprofit|hospitality|insurance|energy|agriculture|automotive|media-entertainment|telecom|real-estate|consulting)$/
+      const bucketBRole = /^(zh\/)?use-cases\/role\/(devops|qa-engineer|researcher|customer-success|logistics-manager|procurement|consultant|data-scientist|pm|trainer|tech-lead|writer)$/
+      items = items.filter(item => !bucketBIndustry.test(item.url) && !bucketBRole.test(item.url))
+
       return items.map(item => {
         const url = item.url
 

@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: robots
+      content: noindex,follow
+---
+
 # 数据科学家
 
 AI驱动的数据科学家专业人员用例。
