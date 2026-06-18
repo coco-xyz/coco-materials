@@ -163,6 +163,9 @@ COCO is not a chatbot — it's your full-time AI employee. Send a message via Te
 
 - [COCO Automated Video Generation](./seedance-video) — Use COCO AI Employee + Jimeng API to set up AI video generation in a few steps
 
+### WhatsApp
+- [Let Others Use Your Bot](./whatsapp-setup) — Connect via Dashboard QR code, let the Bot auto-reply to customer messages
+
 ---
 
 Learn more: [icoco.ai](https://icoco.ai) | Contact us: support@icoco.ai

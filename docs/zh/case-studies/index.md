@@ -172,6 +172,9 @@ COCO不是聊天机器人，是你的全职AI员工。你在Telegram、飞书、
 ### 钉钉
 - [一个 Agent 连接多个组织](./dingtalk-multi-org) — 一套 AI 服务多个钉钉组织
 
+### WhatsApp
+- [允许他人使用 Bot](./whatsapp-setup) — 通过 Dashboard 扫码关联，Bot 自动回复客户消息
+
 ---
 
 了解更多：[icoco.ai](https://icoco.ai) 联系我们：support@icoco.ai
