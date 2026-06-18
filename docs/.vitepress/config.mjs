@@ -392,6 +392,12 @@ export default defineConfig({
                 { text: 'Browser Automation: Let AI Operate Web Pages', link: '/case-studies/browser-automation' },
               ]
             },
+            {
+              text: 'Tutorials',
+              items: [
+                { text: 'WhatsApp — Let Others Use Your Bot', link: '/case-studies/whatsapp-setup' },
+              ]
+            },
           ],
         },
       },
@@ -557,6 +563,7 @@ export default defineConfig({
               text: '场景教程',
               items: [
                 { text: '钉钉 — 一个 Agent 连接多个组织', link: '/zh/case-studies/dingtalk-multi-org' },
+                { text: 'WhatsApp — 允许他人使用 Bot', link: '/zh/case-studies/whatsapp-setup' },
               ]
             },
           ],
