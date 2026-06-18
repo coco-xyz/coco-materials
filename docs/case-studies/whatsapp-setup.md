@@ -2,7 +2,9 @@
 
 ## Use Case
 
-Connect your COCO AI Agent to WhatsApp so the Bot can automatically reply to customer messages. Link via QR code on the COCO Dashboard — no extra linked device slot required.
+Your COCO AI Agent is connected to WhatsApp and can automatically reply to messages. But by default, only the Owner (admin) can chat with the Bot — how do you let team members or customers use it too?
+
+This tutorial shows how to quickly open up Bot chat permissions to others using natural language commands.
 
 See the [WhatsApp Deployment Guide](/getting-started/channel-deployment#whatsapp) for details.
 

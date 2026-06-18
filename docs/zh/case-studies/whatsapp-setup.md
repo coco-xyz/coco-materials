@@ -2,7 +2,9 @@
 
 ## 需求场景
 
-客户希望将 COCO AI Agent 接入 WhatsApp，让 Bot 自动回复客户消息。通过 COCO Dashboard 扫码关联，无需额外占用 WhatsApp 的可关联设备名额。
+客户已将 COCO AI Agent 接入 WhatsApp，Bot 可以自动回复消息。但默认只有 Owner（管理员）能和 Bot 对话——如何让团队成员或客户也能使用？
+
+本教程演示如何通过自然语言指令，快速开放 Bot 的聊天权限给其他人。
 
 详情请见 [WhatsApp 部署指南](/zh/getting-started/channel-deployment#whatsapp)。
 
