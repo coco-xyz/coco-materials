@@ -183,9 +183,9 @@ You agree to indemnify and hold harmless us and our affiliates, directors, and e
 
 ## 14. Dispute Resolution and Governing Law
 
-14.1 **Governing Law:** The formation, validity, interpretation, performance, and dispute resolution of this Agreement shall be governed by the laws of the Hong Kong Special Administrative Region.
+14.1 **Governing Law:** The formation, validity, interpretation, performance, and dispute resolution of this Agreement shall be governed by the laws of the Republic of Singapore.
 
-14.2 **Dispute Resolution:** Disputes arising from or related to this Agreement shall first be resolved through friendly negotiation. If negotiation fails, either party has the right to submit the dispute to the Hong Kong International Arbitration Centre (HKIAC) for arbitration in accordance with its then-effective arbitration rules. The place of arbitration shall be Hong Kong, and the language of arbitration shall be Chinese or English.
+14.2 **Dispute Resolution:** Disputes arising from or related to this Agreement shall first be resolved through friendly negotiation. If negotiation fails, either party has the right to submit the dispute to the Singapore International Arbitration Centre (SIAC) for arbitration in accordance with its then-effective arbitration rules. The place of arbitration shall be Singapore, and the language of arbitration shall be Chinese or English.
 
 14.3 **Severability:** If any provision of this Agreement is found to be invalid or unenforceable, such provision shall be modified to the minimum extent necessary to make it valid, and the remaining provisions shall continue in full force and effect.
 
