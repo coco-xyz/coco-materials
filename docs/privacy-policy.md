@@ -8,13 +8,13 @@ editLink: false
 # COCO AI Privacy Policy
 
 **Effective Date:** March 2026
-**Last Updated:** March 6, 2026
+**Last Updated:** June 19, 2026
 
 ---
 
 ## Introduction
 
-This Privacy Policy describes how **COCO Labs Limited** ("COCO," "we," "us," or "our") collects, uses, shares, and protects personal information when you use the COCO AI digital employee platform at **icoco.ai**, related services, and client-facing channels (collectively, the "Platform").
+This Privacy Policy describes how **COCO AI PTE. LTD.** ("COCO," "we," "us," or "our") collects, uses, shares, and protects personal information when you use the COCO AI digital employee platform at **icoco.ai**, related services, and client-facing channels (collectively, the "Platform").
 
 COCO is an AI digital employee platform that deploys autonomous AI agents through messaging channels including Telegram, Lark/Feishu, Slack, and enterprise messaging platforms. Each AI digital employee is an independent agent instance with persistent memory, tool-calling capabilities, and multi-channel communication.
 
