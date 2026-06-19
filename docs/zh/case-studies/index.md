@@ -173,7 +173,7 @@ COCO不是聊天机器人，是你的全职AI员工。你在Telegram、飞书、
 - [一个 Agent 连接多个组织](./dingtalk-multi-org) — 一套 AI 服务多个钉钉组织
 
 ### WhatsApp
-- [允许他人使用 Bot](./whatsapp-setup) — 通过 Dashboard 扫码关联，Bot 自动回复客户消息
+- [如何让团队成员或他人也能使用 Bot](./whatsapp-setup) — 通过自然语言指令，快速开放 Bot 使用权限给其他人
 
 ---
 

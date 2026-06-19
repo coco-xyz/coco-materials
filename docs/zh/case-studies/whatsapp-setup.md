@@ -1,12 +1,12 @@
-# WhatsApp — 允许他人使用 Bot
+# WhatsApp — 如何让团队成员或他人也能使用 Bot
 
 ## 需求场景
 
-客户已将 COCO AI Agent 接入 WhatsApp，Bot 可以自动回复消息。但默认只有 Owner（管理员）能和 Bot 对话——如何让团队成员或客户也能使用？
+您已将 COCO AI 接入 WhatsApp，并且在 WhatsApp 上能和 Bot 聊天。但默认只有您（Owner）能和 Bot 对话——如何让团队成员或其他人也能使用？
 
-本教程演示如何通过自然语言指令，快速开放 Bot 的聊天权限给其他人。
+本教程演示如何通过自然语言指令，快速开放 Bot 的使用权限给其他人。
 
-详情请见 [WhatsApp 部署指南](/zh/getting-started/channel-deployment#whatsapp)。
+需要先接入 WhatsApp，具体步骤请看：[WhatsApp 部署指南](/zh/getting-started/channel-deployment#whatsapp)。
 
 ![WhatsApp 连接概览](/whatsapp-overview.png)
 
@@ -45,7 +45,7 @@
 
 连接成功后，你就是该 Bot 的 Owner（管理员）。在 WhatsApp 中搜索自己的账号（即手机号），给自己发一条消息，Bot 会自动回复你。
 
-### 第六步：让其他人与 Bot 聊天
+### 第六步：给其他人开放使用 Bot 权限
 
 默认只有 Owner 可以和 Bot 对话。如需允许其他人使用，有两种模式：
 
@@ -59,10 +59,21 @@
 
 ![聊天权限管理](/whatsapp-chat-mode.png)
 
+### 第七步：让 Bot 主动 DM
+
+添加到 Allowlist 后，你还可以让 Bot 主动给名单上的人发消息打招呼，让对方知道可以直接向 Bot 提问。
+
+直接对 Bot 说：`你主动 DM allowlist 名单上所有人，允许他们提问你且你需要回答他们`
+
+Bot 会逐一给名单上的每个人发送消息，告知他们可以直接提问。
+
+![Bot 主动 DM](/whatsapp-proactive-dm.png)
+
 ## 注意事项
 
 - WhatsApp 关联设备会在手机长时间离线后自动断开，断开后回到 Dashboard 重新扫码即可恢复
 - 所有模式切换和白名单管理都可以通过自然语言指令完成，无需手动修改配置
+- 如需取消某人的 Bot 使用权限，直接对 Bot 说「将 +86 188xxxx8888 从 allowlist 中移除」即可
 
 ---
 
