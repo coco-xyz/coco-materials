@@ -7,7 +7,7 @@ editLink: false
 
 # COCO User Service Agreement
 
-**Last Updated: March 10, 2026**
+**Last Updated: June 19, 2026**
 **Effective Date: March 10, 2026**
 
 ---
@@ -16,7 +16,7 @@ Welcome to COCO! Please carefully read this User Service Agreement (hereinafter 
 
 ## 1. Definitions
 
-**COCO:** Refers to the AI Teams platform operated by COCO Labs Limited (hereinafter referred to as "we," "us," or "our"), including but not limited to the icoco.ai website, Dashboard console, API interfaces, and related ancillary services.
+**COCO:** Refers to the AI Teams platform operated by COCO AI PTE. LTD. (hereinafter referred to as "we," "us," or "our"), including but not limited to the icoco.ai website, Dashboard console, API interfaces, and related ancillary services.
 
 **Services:** Refers to the functional services provided by COCO for creating, configuring, deploying, managing, and integrating AI agents (AI Agent / AI Employee) across multiple channels, as well as related managed infrastructure services.
 
@@ -208,4 +208,4 @@ If you have any questions or comments about this Agreement, please contact us th
 
 ---
 
-**COCO Labs Limited**
+**COCO AI PTE. LTD.**

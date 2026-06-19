@@ -8,7 +8,7 @@ editLink: false
 # COCO AI Privacy Policy
 
 **Effective Date:** March 2026
-**Last Updated:** March 6, 2026
+**Last Updated:** June 19, 2026
 
 ---
 
