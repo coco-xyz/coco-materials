@@ -396,11 +396,6 @@ export default defineConfig({
                 { text: 'Manufacturing AI — From Pain Points to Smart Production', link: '/case-studies/manufacturing-ai' },
                 { text: 'COCO Automated Video Generation', link: '/case-studies/seedance-video' },
                 { text: 'Browser Automation: Let AI Operate Web Pages', link: '/case-studies/browser-automation' },
-              ]
-            },
-            {
-              text: 'Benchmark Cases',
-              items: [
                 { text: 'Tea Chain — Franchise Intelligence at Scale', link: '/case-studies/tea-brand-franchise' },
                 { text: 'FMCG Giant — Cross-Market Collaboration Automation', link: '/case-studies/fmcg-collaboration' },
                 { text: 'Building Materials — From Missed Orders to Smart Quoting', link: '/case-studies/building-materials' },
@@ -580,11 +575,6 @@ export default defineConfig({
                 { text: '制造业 AI — 从痛点到产线智能', link: '/zh/case-studies/manufacturing-ai' },
                 { text: 'COCO 自动化生成视频', link: '/zh/case-studies/seedance-video' },
                 { text: '浏览器自动化：让 AI 帮你操作网页', link: '/zh/case-studies/browser-automation' },
-              ]
-            },
-            {
-              text: '标杆案例',
-              items: [
                 { text: '某头部茶饮品牌 — 全球连锁加盟智能化', link: '/zh/case-studies/tea-brand-franchise' },
                 { text: '某顶级快消品公司 — 跨市场协作自动化', link: '/zh/case-studies/fmcg-collaboration' },
                 { text: '新加坡建材经销商 — 从漏单到智能报价', link: '/zh/case-studies/building-materials' },
