@@ -20,6 +20,7 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 | [Microsoft Teams](#ms-teams) | Available | Enterprise teams, Microsoft 365 organizations |
 | [Zalo (Official)](#zalo) | Available | Vietnam users, personal & business use |
 | [Zalo Personal (Unofficial)](#zalo-personal) | Available | Vietnam users, personal Zalo account (unofficial) |
+| [LINE](#line) | Available | Japan / Taiwan / Thailand users, personal & business use |
 
 > **Tip:** You can connect multiple channels simultaneously. Your AI employee responds across all connected channels. Pro plan supports Telegram + Lark dual-channel access.
 
@@ -1348,6 +1349,60 @@ One credential is required:
 | No reply in a server channel | Ensure the bot is invited to the server, has permission to view and send messages in the channel, and is @mentioned |
 | Bot sees empty or no message text | Enable the **Message Content Intent** in the Bot tab of the Discord Developer Portal |
 | Want to disconnect | Click the **Disconnect** button on the Discord card in the employee detail page |
+
+---
+
+## Option K: LINE Deployment {#line}
+
+**Estimated time: 5-10 minutes**
+
+LINE connects with two credentials — a **Channel Access Token** and a **Channel Secret** — plus a **Webhook URL** that the Dashboard generates for you. You do **not** need the numeric Channel ID.
+
+### Step 1: Create a LINE Official Account + Messaging API channel
+
+1. Go to the [LINE Official Account Manager](https://manager.line.biz/) and create (or open) an Official Account.
+2. Open **Settings → Messaging API** and click **Enable Messaging API**, then select or create a provider and agree to the terms.
+3. This creates a Messaging API channel in the [LINE Developers Console](https://developers.line.biz/console/).
+
+### Step 2: Get your credentials
+
+1. In the [LINE Developers Console](https://developers.line.biz/console/), open your provider → the channel.
+2. **Channel secret** — copy it from the **Basic settings** tab (also shown on the OA Manager Messaging API screen).
+3. **Channel access token (long-lived)** — open the **Messaging API** tab, scroll to **Channel access token**, click **Issue**, and copy the token.
+
+> **Important:** Both values are secrets — don't share them. The numeric Channel ID is **not** required.
+
+### Step 3: Connect in COCO Dashboard
+
+1. Log into [COCO Dashboard](https://icoco.ai/dashboard) and open the employee instance detail page (or the **Channels** step in the hire flow).
+2. Find the **LINE** card and click **Connect**.
+3. Paste the **Channel Access Token** and **Channel Secret** from Step 2.
+4. Click **Connect** — the system validates the token and deploys your LINE channel.
+5. Once connected, the card shows a **Webhook URL** (e.g. `https://<your-subdomain>.icoco.ai/line/webhook`). **Copy it.**
+
+### Step 4: Set the webhook in LINE
+
+1. Back in the LINE Developers Console → **Messaging API** tab → **Webhook settings**.
+2. Paste the **Webhook URL** from Step 3 and click **Save**, then turn **Use webhook** ON.
+3. In the LINE Official Account Manager → **Settings → Response settings**: turn **Webhooks** ON and turn **Auto-response messages** OFF — so your AI employee (not LINE's auto-responder) handles messages.
+
+### Step 5: Start Chatting
+
+1. Add your Official Account as a friend — scan its QR code in OA Manager, or search its Basic ID (e.g. `@xxxxxxx`).
+2. Send any message — your AI employee responds immediately.
+3. Deployment complete!
+
+> **First message:** The first user to DM the account becomes the **Owner** (administrator), who always has full access regardless of policy settings.
+
+### LINE FAQ
+
+| Issue | Solution |
+|-------|----------|
+| Bot not responding | Confirm **Use webhook** is ON, the Webhook URL is saved exactly as shown on the LINE card (including `/line/webhook`), and **Auto-response messages** is OFF |
+| Connected but no inbound messages | Ensure **Webhooks** is enabled in OA Manager → Response settings, and that you've added the Official Account as a friend |
+| Messages received but no reply | The Channel Access Token may be invalid or reissued — re-paste a fresh long-lived token from the Developers Console and reconnect |
+| Sending images / video / voice / files | Supported out of the box — send them in chat and the AI employee reads (and can transcribe voice) them |
+| Want to disconnect | Click the **Disconnect** button on the LINE card in the employee detail page |
 
 <!-- Commented out: previous dashboard-based setup flow (replaced by agent-based flow above — Zalo Personal (Unofficial) is no longer configured through the COCO Dashboard UI)
 
