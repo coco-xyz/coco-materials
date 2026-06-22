@@ -396,18 +396,23 @@ export default defineConfig({
                 { text: 'Manufacturing AI — From Pain Points to Smart Production', link: '/case-studies/manufacturing-ai' },
                 { text: 'COCO Automated Video Generation', link: '/case-studies/seedance-video' },
                 { text: 'Browser Automation: Let AI Operate Web Pages', link: '/case-studies/browser-automation' },
-                { text: 'Tea Chain — Franchise Intelligence at Scale', link: '/case-studies/tea-brand-franchise' },
-                { text: 'FMCG Giant — Cross-Market Collaboration Automation', link: '/case-studies/fmcg-collaboration' },
-                { text: 'Building Materials — From Missed Orders to Smart Quoting', link: '/case-studies/building-materials' },
-                { text: 'Game Studio — Building an AI-Native Organization', link: '/case-studies/game-studio' },
-                { text: 'Shipping Group — From AI Tools to an AI Network', link: '/case-studies/shipping-group' },
-                { text: 'RegTech Company — Practicing What You Preach', link: '/case-studies/regtech-company' },
               ]
             },
             {
               text: 'Tutorials',
               items: [
                 { text: 'WhatsApp — Let Others Use Your Bot', link: '/case-studies/whatsapp-setup' },
+              ]
+            },
+            {
+              text: 'Customer Stories',
+              items: [
+                { text: 'Tea Chain — Franchise Intelligence at Scale', link: '/case-studies/tea-brand-franchise' },
+                { text: 'FMCG Giant — Cross-Market Collaboration Automation', link: '/case-studies/fmcg-collaboration' },
+                { text: 'Building Materials — From Missed Orders to Smart Quoting', link: '/case-studies/building-materials' },
+                { text: 'Game Studio — Building an AI-Native Organization', link: '/case-studies/game-studio' },
+                { text: 'Shipping Group — From AI Tools to an AI Network', link: '/case-studies/shipping-group' },
+                { text: 'RegTech Company — Practicing What You Preach', link: '/case-studies/regtech-company' },
               ]
             },
           ],
@@ -575,12 +580,6 @@ export default defineConfig({
                 { text: '制造业 AI — 从痛点到产线智能', link: '/zh/case-studies/manufacturing-ai' },
                 { text: 'COCO 自动化生成视频', link: '/zh/case-studies/seedance-video' },
                 { text: '浏览器自动化：让 AI 帮你操作网页', link: '/zh/case-studies/browser-automation' },
-                { text: '某头部茶饮品牌 — 全球连锁加盟智能化', link: '/zh/case-studies/tea-brand-franchise' },
-                { text: '某顶级快消品公司 — 跨市场协作自动化', link: '/zh/case-studies/fmcg-collaboration' },
-                { text: '新加坡建材经销商 — 从漏单到智能报价', link: '/zh/case-studies/building-materials' },
-                { text: '某游戏工作室 — AI 原生组织实验', link: '/zh/case-studies/game-studio' },
-                { text: '某头部海运集团 — 从 AI 工具到 AI 协作网络', link: '/zh/case-studies/shipping-group' },
-                { text: '某金融合规科技公司 — AI 自我实践', link: '/zh/case-studies/regtech-company' },
               ]
             },
             {
@@ -588,6 +587,17 @@ export default defineConfig({
               items: [
                 { text: '钉钉 — 一个 Agent 连接多个组织', link: '/zh/case-studies/dingtalk-multi-org' },
                 { text: 'WhatsApp — 允许他人使用 Bot', link: '/zh/case-studies/whatsapp-setup' },
+              ]
+            },
+            {
+              text: '客户案例',
+              items: [
+                { text: '某头部茶饮品牌 — 全球连锁加盟智能化', link: '/zh/case-studies/tea-brand-franchise' },
+                { text: '某顶级快消品公司 — 跨市场协作自动化', link: '/zh/case-studies/fmcg-collaboration' },
+                { text: '新加坡建材经销商 — 从漏单到智能报价', link: '/zh/case-studies/building-materials' },
+                { text: '某游戏工作室 — AI 原生组织实验', link: '/zh/case-studies/game-studio' },
+                { text: '某头部海运集团 — 从 AI 工具到 AI 协作网络', link: '/zh/case-studies/shipping-group' },
+                { text: '某金融合规科技公司 — AI 自我实践', link: '/zh/case-studies/regtech-company' },
               ]
             },
           ],
