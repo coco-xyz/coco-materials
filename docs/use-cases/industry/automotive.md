@@ -628,3 +628,71 @@ This week's data:
 ```
 
 :::
+
+## 6. Automotive Dealer AI SDR: Lead Filtering & DMS Integration
+
+> AI filters invalid leads; DMS system seamlessly integrated; defeated leads auto-nurtured; sales team efficiency dramatically improved.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Large Volumes of Unqualified Leads Consume Sales Resources While DMS Data Sits Isolated**
+
+Automotive dealers receive large volumes of leads from websites, ad landing pages, and third-party platforms each month, but genuinely purchase-intent leads often make up less than 30% of the total. Sales advisors waste significant time on unqualified follow-ups while high-intent customers don't receive sufficient attention. At the same time, customer history data in the DMS (dealer management system) can't effectively connect with front-end sales communication tools, leaving advisors without context and at risk of repeating questions or missing critical information.
+
+**How COCO Solves It**
+
+1. **AI Intelligent Lead Scoring and Filtering**: COCO automatically scores incoming leads, using a standardized questionnaire (budget, purchase timeline, vehicle preferences) to rapidly filter low-intent contacts, routing high-quality leads to sales advisors first.
+2. **DMS System Seamless Integration**: COCO integrates with the dealer DMS, allowing sales advisors during follow-up to directly view a customer's history of visits, test drives, and service records — improving conversation relevance.
+3. **Defeated Lead Auto-nurture**: For customers who aren't ready to buy in the short term, COCO maintains connection through periodic seasonal greetings, new model announcements, and promotion notifications — ensuring the brand is top of mind when the customer is finally ready.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Sales advisor effective follow-up ratio**: From chasing all leads → only high-intent leads, efficiency up 2-3x
+- **Lead-to-test-drive conversion**: Up approximately 20-30%
+- **Defeated lead reactivation rate**: Up approximately 15% within 6 months with auto-nurture
+
+**Who Benefits**
+
+- **Sales Advisors**: No longer wasting time on unqualified leads, focused on quality customers
+- **Sales Directors**: Lead quality and conversion funnel fully visible
+- **Customers**: More timely and relevant contact, purchase experience smoother
+
+:::
+
+## 7. 4S Dealership Maintenance Appointment & Smart Bay Scheduling
+
+> Maintenance records instantly accessible; smart appointment system optimizes scheduling; wait time reduced 30-40 minutes; bay utilization up 25-30%.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Maintenance Appointments Rely on Phone Calls, Bay Scheduling Is Inefficient, Customers Wait Too Long**
+
+4S dealership service advisors handle large volumes of maintenance appointment phone calls daily, manually recording and allocating service bays. Scheduling lacks systematic management, resulting in the paradox of empty bays and overloaded queues existing simultaneously. Customers arriving at the dealership face additional waits due to poor scheduling, damaging satisfaction scores. Meanwhile, underutilized bays during peak periods represent direct revenue loss.
+
+**How COCO Solves It**
+
+1. **Smart Maintenance Record Query**: When a customer initiates an appointment via WeChat, mini-program, or phone (voice-to-text), COCO automatically retrieves the vehicle's maintenance history and advises on due services and estimated costs — enhancing the professional service impression.
+2. **Smart Appointment and Bay Scheduling**: COCO matches customers to optimal appointment slots based on each bay's current queue status, estimated repair time, and technician specializations, and updates the bay scheduling board in real time.
+3. **Pre-appointment Reminders and Satisfaction Follow-up**: Automatic reminders are sent 24 hours before the appointment, and a satisfaction survey is pushed automatically after service completion, with feedback delivered to the service manager.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Customer average wait time**: Reduced by 30-40 minutes
+- **Bay utilization rate**: Up 25-30%
+- **Appointment no-show rate**: Reduced approximately 35% with auto-reminders
+
+**Who Benefits**
+
+- **Service Advisors**: Appointment management moves from manual → automated, focused on high-value service conversations
+- **Customers**: Shorter waits, improved service experience
+- **4S Management**: Bay efficiency and revenue both improved
+
+:::

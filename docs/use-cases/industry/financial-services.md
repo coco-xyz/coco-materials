@@ -3751,3 +3751,105 @@ This week's data:
 ```
 
 :::
+
+## 26. AI Claims Review Acceleration & Multilingual OCR Compliance Check
+
+> Claims review compressed from 2 hours to 10 minutes; multilingual OCR auto-extracts data; compliance knowledge base provides precise clause citations.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Claims Review Depends on Manual Case-by-case Verification, Multilingual Documents Are Hard to Process, and Compliance Judgment Is Slow and Error-prone**
+
+Insurance company claims teams process large volumes of claims from customers across different countries and regions, with supporting documentation in Chinese, English, Arabic, French, and other languages — including medical bills, accident reports, and receipts. Manual case-by-case review averages 2 hours per claim. Compliance judgment requires consulting extensive policy clauses, and interpretation inconsistencies create customer complaint risk and regulatory exposure.
+
+**How COCO Solves It**
+
+1. **Multilingual OCR Auto-extraction**: COCO automatically parses multi-language claims documents, extracting key fields (claimant info, incident date, amount, medical diagnosis) with over 98% accuracy — no manual data entry required.
+2. **Intelligent Policy Eligibility Check**: COCO cross-references insurance policy terms to automatically verify whether a claim meets coverage conditions, generating a preliminary review conclusion with the specific clause citations, leaving adjusters to focus only on edge cases.
+3. **Compliance Knowledge Base with Precise Citations**: COCO's built-in policy terms, contract language, and regulatory requirements for each product line answer adjuster queries with exact original text references, ensuring all compliance decisions are traceable.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Per-claim review time**: 2 hours → 10 minutes (92% improvement)
+- **Manual entry error rate**: Reduced to near zero
+- **Claims processing capacity**: Same team size can handle approximately 10x the volume
+
+**Who Benefits**
+
+- **Claims Adjusters**: Focused on complex edge cases, repetitive work eliminated
+- **Customers**: Claims results communicated faster, satisfaction improved
+- **Compliance Team**: All review decisions have clear clause citation records
+
+:::
+
+## 27. Multi-currency Auto-reconciliation & Social Media Anomaly Radar
+
+> Multi-currency bills auto-reconciled; social media sentiment spikes detected in real time; financial and brand risk both protected.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Multi-currency Reconciliation Is Slow and Error-prone; Social Media Brand Crises Are Always Discovered Late**
+
+Multinational financial institutions and cross-border payment platforms handle reconciliation across dozens of currencies simultaneously. Exchange rate fluctuations, fee allocations, and cross-system data format differences make manual reconciliation extremely error-prone, with month-end bulk reconciliation a nightmarish time sink. At the same time, social media brand crises often aren't noticed by PR teams until hours after they've begun spreading — missing the golden response window.
+
+**How COCO Solves It**
+
+1. **Multi-currency Auto-reconciliation Engine**: COCO automatically imports account statements from multiple systems, converts to a common base currency, performs line-by-line matching, flags discrepancy items, and generates a difference report — humans only need to handle flagged exceptions.
+2. **Real-time Exchange Rate and Fee Validation**: During reconciliation, COCO automatically verifies that exchange rates were applied correctly and fees calculated per agreement, flagging deviations immediately.
+3. **Social Media Sentiment Anomaly Radar**: COCO continuously monitors major social platforms (Weibo, Twitter, Reddit, etc.) for brand-related discussion, detecting rapid spikes in negative sentiment or unusual complaint topics and immediately alerting PR and customer service teams.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Monthly reconciliation labor**: Reduced approximately 75%
+- **Reconciliation error rate**: From manual approximately 2% → near zero
+- **Sentiment response time**: From 4-8 hour discovery lag → real-time alert
+
+**Who Benefits**
+
+- **Finance Team**: Month-end pressure dramatically reduced
+- **PR Team**: Earlier detection means larger crisis management window
+- **CRO**: Financial risk and brand risk both under control
+
+:::
+
+## 28. Invoice OCR → Compliance Check → Duplicate Detection
+
+> Invoice auto-extracted, compliance verified, duplicates detected; review time reduced 85%; reimbursement cycle from 2 weeks to 5 days.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Invoice Reimbursement Relies on Manual Review, Duplicate Submissions Are Missed, and Month-end Backlogs Are Brutal**
+
+Enterprise finance teams process hundreds to thousands of reimbursement requests monthly. Each invoice must be manually verified for authenticity, tax number, amount, and date format compliance, then checked against the history for duplicate submissions. In traditional workflows, month-end reimbursement peaks force finance teams to work overtime — and duplicate reimbursements still slip through, creating unnecessary financial losses.
+
+**How COCO Solves It**
+
+1. **Invoice OCR Full Auto-extraction**: Employees upload invoice images or PDFs and COCO automatically identifies invoice type (VAT special, ordinary, electronic), extracts all key fields, with over 99% accuracy.
+2. **Automated Compliance Verification**: COCO checks invoices against tax law requirements and company reimbursement policy, auto-verifying tax number matches, amounts within limits, and reimbursement categories compliance. Non-compliant items are auto-rejected with explanations.
+3. **Duplicate Detection**: COCO matches against invoice number, amount, date, and vendor information across multiple dimensions to identify previously reimbursed invoices, alerting and blocking re-submission in real time.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Invoice review time**: Manual average 5 minutes per invoice → AI 30 seconds (over 90% reduction)
+- **Duplicate reimbursement detection rate**: From manual spot-check approximately 60% → AI full-volume detection near 100%
+- **Reimbursement-to-payment cycle**: From average 2 weeks → 5 days (65% reduction)
+
+**Who Benefits**
+
+- **Finance Reviewers**: No more month-end overtime, focused on exception handling
+- **Employees**: Faster reimbursement, less cash flow pressure
+- **CFO**: Financial compliance improved, duplicate reimbursement losses eliminated
+
+:::

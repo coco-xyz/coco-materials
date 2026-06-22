@@ -504,3 +504,37 @@ This week's data:
 ```
 
 :::
+
+## 5. Property Management AI Repair Request Parsing & Multi-modal Fault Triage
+
+> Smart parsing of resident repair requests; multi-modal fault grading; dispatch time from 30 minutes to 2 minutes.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Repair Request Formats Are Inconsistent, Fault Grading Depends on Manual Judgment, and Dispatch Efficiency Is Poor**
+
+Large residential communities generate large volumes of repair requests daily across WeChat, mini-programs, and phone calls. Descriptions vary wildly in format and specificity. Property management staff must call each resident individually to confirm fault location, severity, and trade type before manually assigning the relevant repair technician. The average dispatch process takes 30 minutes, and urgent faults (no water, no power) are especially slow to respond to — severely damaging resident satisfaction.
+
+**How COCO Solves It**
+
+1. **Smart Repair Information Parsing**: COCO automatically extracts key elements from resident text, voice, and photo repair submissions (fault type, location, description, urgency), generating standardized work orders without staff needing to make verification calls.
+2. **Multi-modal Fault Grading**: For photos or videos submitted by residents, COCO combines visual recognition to automatically determine fault severity level (routine maintenance / urgent repair / safety hazard), pushing high-priority work orders immediately to the on-duty supervisor.
+3. **Smart Dispatch Matching**: COCO automatically matches each work order type to available on-duty technicians with the relevant skills, factoring in current queue load for optimal dispatch — compressing dispatch time from 30 minutes to 2 minutes.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Dispatch time**: 30 minutes → 2 minutes (93% improvement)
+- **Urgent fault response time**: Dramatically shortened, safety hazard handling accelerated
+- **Property CS work order processing workload**: Reduced approximately 60%
+
+**Who Benefits**
+
+- **Residents**: Repairs are easier to request, faster to respond to — satisfaction significantly improved
+- **Property Managers**: Freed from tedious verification calls and manual dispatch
+- **Repair Teams**: Receive more complete and accurate work orders, better prepared on arrival
+
+:::

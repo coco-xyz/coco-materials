@@ -752,3 +752,139 @@ This week's data:
 ```
 
 :::
+
+## 7. Cross-border Logistics Real-time Quoting & Anomaly Work Orders
+
+> API integration with multiple freight forwarders for instant rate quotes; structured anomaly work orders auto-generated; customer experience significantly improved.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Long Quoting Chains and Manual Anomaly Relay Create Delays and Gaps**
+
+Cross-border e-commerce sellers comparing freight forwarders traditionally rely on email or phone, with response times of 1-2 days per forwarder. When cargo anomalies occur (delays, damage, customs holds), ops staff manually relay information across WeChat, email, and freight systems, creating non-standard work orders that are hard to track and slow to resolve.
+
+**How COCO Solves It**
+
+1. **Real-time Multi-forwarder API Integration**: COCO connects to major freight forwarder APIs. When a shipper inputs origin, destination, and cargo parameters, COCO instantly returns a side-by-side comparison of rates and transit times — no waiting for manual quotes.
+2. **Structured Anomaly Work Order Auto-generation**: When cargo anomalies occur, COCO automatically pulls relevant tracking data and generates a standardized work order (anomaly type, timestamps, responsible party, suggested action), pushing it to the right handler.
+3. **Automated Follow-up Tracking**: After a work order is created, COCO tracks resolution progress and sends reminders for overdue items, ensuring nothing falls through the cracks.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Quote response time**: 1-2 days → real-time (seconds)
+- **Anomaly work order creation**: 30-minute manual process → auto-generated instantly
+- **Work order drop rate**: From approximately 15% → near zero
+
+**Who Benefits**
+
+- **Freight Forwarder Coordinators**: Freed from repetitive quoting and work order filling
+- **Operations Team**: Anomalies detected immediately, customer complaints reduced
+- **Sellers**: Transparent pricing, faster and better-informed freight decisions
+
+:::
+
+## 8. Supply Chain Order Auto-tracking from WeChat, Email & Excel
+
+> Automatically extract order info from WeChat groups, email, and Excel files; cross-document OCR; manual data entry completely eliminated.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Order Data Arrives in Fragments Across Multiple Channels, Making Manual Entry Error-Prone**
+
+Small and mid-size cross-border logistics companies receive order instructions in WeChat groups, Excel attachments, PDF waybills, and more. Order coordinators spend significant time each day manually extracting and entering data across channels. Error rates are high, and when order volumes spike, coordinators become the bottleneck for the entire supply chain.
+
+**How COCO Solves It**
+
+1. **Multi-channel Auto-extraction**: COCO monitors WeChat groups and email inboxes, automatically identifying and extracting order-relevant information (shipper/consignee, cargo description, weight/dimensions, destination) without human transcription.
+2. **Cross-document OCR**: For Excel, PDF, and image-format waybills, COCO parses key fields via OCR, handling mixed formats in a single pass.
+3. **Unified System Write-back**: Extracted order data is automatically written to the logistics management system, creating a seamless pipeline from multi-source input to a single system of record.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Manual entry time**: Reduced by approximately 80%
+- **Entry error rate**: From manual average of 3-5% → near zero
+- **Per-coordinator order capacity**: 3-4x increase
+
+**Who Benefits**
+
+- **Order Coordinators**: Freed from repetitive entry, focused on exception handling and customer communication
+- **Operations Management**: Real-time accurate order data, management decisions better supported
+- **Customers**: Faster order confirmation, better overall experience
+
+:::
+
+## 9. Smart Parcel Query & Freight Auto-calculator
+
+> Customers self-serve parcel status queries; freight auto-calculated online; 80%+ of CS labor freed; conversion rate up 35-40%.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Simple Repetitive Queries Consume the Majority of CS Team Bandwidth**
+
+Logistics company CS teams field massive volumes of "Where is my parcel?" and "What's the rate for this lane?" inquiries daily — questions that account for 60-70% of total contacts yet require only a system lookup or rate table reference. This low-value repetitive work consumes CS capacity, leaving truly complex complaints and issues under-resourced and slow to resolve.
+
+**How COCO Solves It**
+
+1. **Smart Self-service Parcel Query**: Customers enter their tracking number via WeChat, website, or WhatsApp, and COCO retrieves the latest status from the logistics system in real time. No agent involvement required; multiple tracking number formats auto-recognized.
+2. **Freight Online Auto-calculator**: Customers input origin, destination, weight, and dimensions, and COCO matches the rate table and returns an accurate quote instantly, supporting multi-currency and complex pricing rules.
+3. **Intelligent Escalation**: For complaints or special needs COCO can't resolve automatically, it flags them and routes them to human agents, carrying over all collected customer context to avoid repeated questioning.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **CS labor freed**: Over 80% of standard inquiries handled by AI automatically
+- **Sales conversion rate**: Instant quote response drives 35-40% increase in inquiry-to-booking conversion
+- **Customer wait time**: Standard queries from average 30 minutes → instant
+
+**Who Benefits**
+
+- **CS Team**: Focused on scenarios that genuinely require human judgment
+- **Customers**: Self-serve convenience, frictionless experience
+- **Sales Team**: Fast quotes, shorter sales cycles
+
+:::
+
+## 10. Customs Declaration Pre-screening & HS Code Intelligent Validation
+
+> Multilingual OCR on declaration documents; HS code auto-validation; rejection rate reduced to near zero.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Declaration Errors Drive Customs Delays — Sometimes Cargo Seizures**
+
+In cross-border logistics, inaccurate customs information is the leading cause of clearance delays. Customer-submitted documentation comes in mixed formats (bilingual, PDF scans, handwritten forms), requiring customs agents to manually verify that product descriptions match HS codes — a time-consuming process requiring specialized expertise. Errors mean at minimum supplementary documentation delays, and at worst cargo being held — major losses for clients.
+
+**How COCO Solves It**
+
+1. **Multilingual OCR Document Recognition**: COCO handles customs documents in Chinese, English, Spanish, Arabic, and more, automatically extracting product names, quantities, values, and country of origin — no manual entry required.
+2. **HS Code Intelligent Matching and Validation**: Based on extracted product descriptions, COCO identifies the most likely HS code and cross-checks it against the client-declared code, flagging mismatches with suggestions.
+3. **Pre-declaration Compliance Report**: Before formal declaration, COCO generates a pre-screening report listing potential compliance risks and missing documentation, enabling customs agents to verify and resolve issues before filing.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Declaration rejection rate**: From industry average approximately 8% → near zero
+- **Per-declaration processing time**: Reduced approximately 60%
+- **Delays from declaration errors**: Nearly eliminated
+
+**Who Benefits**
+
+- **Customs Agents**: Freed from tedious manual verification, capacity dramatically increased
+- **Logistics Company**: Service quality improves, client complaints fall
+- **Clients**: Cargo clears on time, capital tied up for less time
+
+:::
