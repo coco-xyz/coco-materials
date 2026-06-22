@@ -264,6 +264,7 @@ export default defineConfig({
                 { text: 'Microsoft Teams', link: '/channels/ms-teams' },
                 { text: 'Zalo', link: '/channels/zalo' },
                 { text: 'Discord', link: '/channels/discord' },
+                { text: 'LINE', link: '/channels/line' },
                 { text: 'Web Console', link: '/channels/web-console' },
               ]
             },
@@ -431,6 +432,7 @@ export default defineConfig({
                 { text: 'Microsoft Teams', link: '/zh/channels/ms-teams' },
                 { text: 'Zalo', link: '/zh/channels/zalo' },
                 { text: 'Discord', link: '/zh/channels/discord' },
+                { text: 'LINE', link: '/zh/channels/line' },
                 { text: 'Web 控制台', link: '/zh/channels/web-console' },
               ]
             },

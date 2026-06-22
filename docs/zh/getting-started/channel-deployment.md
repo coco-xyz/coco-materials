@@ -22,6 +22,7 @@ import { withBase } from 'vitepress'
 | [Microsoft Teams](#ms-teams) | 已支持 | 企业团队、Microsoft 365 组织 |
 | [Zalo (官方)](#zalo) | 已支持 | 越南用户、个人及商业使用 |
 | [Zalo 个人版（非官方）](#zalo-personal) | 已支持 | 越南用户、个人 Zalo 账号（非官方） |
+| [LINE](#line) | 已支持 | 日本 / 台湾 / 泰国用户、个人及商业使用 |
 
 > **提示：** 你可以同时连接多个渠道，AI员工会在所有已连接的渠道中响应你的消息。Pro套餐支持 Telegram + Lark 双渠道同时接入。
 
@@ -1452,6 +1453,60 @@ AI 员工会确认连接已建立。你的专用 Zalo 账号现在是 Bot 在 Za
 | 服务器频道中无回复 | 确认 Bot 已被邀请进服务器、在该频道中拥有查看和发送消息的权限，并已被 @mention |
 | Bot 收到空消息或无消息文本 | 在 Discord 开发者门户的 Bot 标签页中启用 **Message Content Intent** |
 | 想要断开连接 | 在员工详情页的 Discord 卡片上点击 **断开连接** 按钮 |
+
+---
+
+## 选项L：LINE 部署 {#line}
+
+**预计耗时：5-10分钟**
+
+LINE 通过两个凭证连接——**Channel Access Token**（通道访问令牌）和 **Channel Secret**（通道密钥）——外加一个由 Dashboard 自动生成的 **Webhook URL**。无需数字 Channel ID。
+
+#### 第1步：创建 LINE 官方账号并启用 Messaging API
+
+1. 进入 [LINE 官方账号管理后台](https://manager.line.biz/)，创建（或打开）一个官方账号。
+2. 打开 **设置 → Messaging API**，点击 **启用 Messaging API**，按提示选择或创建一个 Provider 并同意条款。
+3. 这会在 [LINE Developers Console](https://developers.line.biz/console/) 中创建一个 Messaging API 通道。
+
+#### 第2步：获取凭证
+
+1. 在 [LINE Developers Console](https://developers.line.biz/console/) 中打开你的 Provider → 对应通道。
+2. **Channel secret（通道密钥）**——在 **Basic settings** 标签页复制（OA 管理后台的 Messaging API 页面也会显示）。
+3. **Channel access token（长期令牌）**——打开 **Messaging API** 标签页，滚动到 **Channel access token**，点击 **Issue（签发）** 并复制令牌。
+
+> **重要：** 两个值都是密钥，请勿泄露。数字 Channel ID **不需要**。
+
+#### 第3步：在 COCO Dashboard 绑定
+
+1. 登录 [COCO Dashboard](https://icoco.ai/dashboard)，进入员工实例详情页（或雇佣流程中的 **对话入口** 步骤）。
+2. 找到 **LINE** 卡片，点击 **连接**。
+3. 粘贴第2步获取的 **Channel Access Token** 和 **Channel Secret**。
+4. 点击 **连接**——系统会验证令牌并部署你的 LINE 通道。
+5. 连接成功后，卡片会显示一个 **Webhook URL**（例如 `https://<你的子域名>.icoco.ai/line/webhook`）。**复制它。**
+
+#### 第4步：在 LINE 中配置 Webhook
+
+1. 回到 LINE Developers Console → **Messaging API** 标签页 → **Webhook settings**。
+2. 粘贴第3步的 **Webhook URL** 并点击 **Save（保存）**，然后开启 **Use webhook（使用 Webhook）**。
+3. 在 LINE 官方账号管理后台 → **设置 → 回复设置** 中：开启 **Webhooks**，关闭 **自动回复消息**——这样由你的 AI 员工（而非 LINE 的自动回复）来处理消息。
+
+#### 第5步：开始聊天
+
+1. 将你的官方账号加为好友——在 OA 管理后台扫描其二维码，或搜索其 Basic ID（例如 `@xxxxxxx`）。
+2. 发送任意消息，AI 员工会立即响应。
+3. 部署完成！
+
+> **首条消息：** 第一个给该账号发私信的用户会成为 **Owner（管理员）**，无论权限设置如何始终拥有完全访问权限。
+
+#### LINE 常见问题
+
+| 问题 | 解决方案 |
+|------|---------|
+| Bot 无响应 | 确认已开启 **Use webhook**，且保存的 Webhook URL 与 LINE 卡片上显示的完全一致（包含 `/line/webhook`），并已关闭 **自动回复消息** |
+| 已连接但收不到消息 | 确认 OA 管理后台 → 回复设置中已开启 **Webhooks**，并已将官方账号加为好友 |
+| 收到消息但不回复 | Channel Access Token 可能失效或被重新签发——在 Developers Console 重新签发长期令牌并重新连接 |
+| 发送图片/视频/语音/文件 | 开箱即用——在聊天中发送即可，AI 员工能读取（语音会自动转写） |
+| 想要断开连接 | 在员工详情页的 LINE 卡片上点击 **断开连接** 按钮 |
 
 <!-- 已注释：之前基于 Dashboard 的设置流程（已替换为上方的 AI 员工引导流程——Zalo 个人版（非官方） 不再通过 COCO Dashboard 界面配置）
 
