@@ -401,7 +401,7 @@ export default defineConfig({
             {
               text: 'Tutorials',
               items: [
-                { text: 'WhatsApp — Let Others Use Your Bot', link: '/case-studies/whatsapp-setup' },
+                { text: 'WhatsApp — How to Let Team Members or Others Use Your Bot', link: '/case-studies/whatsapp-setup' },
               ]
             },
             {
@@ -586,7 +586,7 @@ export default defineConfig({
               text: '场景教程',
               items: [
                 { text: '钉钉 — 一个 Agent 连接多个组织', link: '/zh/case-studies/dingtalk-multi-org' },
-                { text: 'WhatsApp — 允许他人使用 Bot', link: '/zh/case-studies/whatsapp-setup' },
+                { text: 'WhatsApp — 如何让团队成员或他人也能使用 Bot', link: '/zh/case-studies/whatsapp-setup' },
               ]
             },
             {
