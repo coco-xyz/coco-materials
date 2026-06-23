@@ -352,6 +352,7 @@ head:
     border-radius: 20px 0 0 20px;
   }
   .result-card .result-number {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, 'Noto Sans SC', sans-serif;
     font-size: 2rem;
     min-width: 80px;
     flex-shrink: 0;
@@ -387,11 +388,11 @@ head:
   background: linear-gradient(90deg, #FF7B7B, #FFB3B3);
 }
 .result-card .result-number {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, 'Noto Sans SC', sans-serif;
   font-size: 2.6rem;
   font-weight: 800;
   color: #3BA8A8;
   line-height: 1.1;
-  font-family: 'Playfair Display', Georgia, serif;
 }
 .result-card:nth-child(2) .result-number { color: #9B6CC4; }
 .result-card:nth-child(3) .result-number { color: #E86060; }
