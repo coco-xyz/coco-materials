@@ -949,6 +949,14 @@ COCO 部署的真正亮点不仅在于咨询处理的自动化——而在于创
         <div class="blog-related-card-desc">游戏工作室如何利用 AI 数字员工优化开发运营和社区管理。</div>
       </div>
     </a>
+    <a class="blog-related-card" href="/zh/case-studies/shipping-group">
+      <div class="blog-related-card-img">🚢</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent 案例</div>
+        <div class="blog-related-card-title">某头部海运集团 — 从 AI 工具到 AI 协作网络</div>
+        <div class="blog-related-card-desc">一家全球海运集团如何将 AI 从单点工具扩展为跨部门协作网络。</div>
+      </div>
+    </a>
   </div>
 </div>
 

@@ -949,6 +949,14 @@ What makes COCO's deployment remarkable is not just the automation of inquiry ha
         <div class="blog-related-card-desc">How a game studio leveraged AI employees to streamline development operations and community management.</div>
       </div>
     </a>
+    <a class="blog-related-card" href="/case-studies/shipping-group">
+      <div class="blog-related-card-img">🚢</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent Case Study</div>
+        <div class="blog-related-card-title">Leading Shipping Group — From AI Tools to AI Collaboration Network</div>
+        <div class="blog-related-card-desc">How a global shipping group scaled AI from single-point tools to a cross-department collaboration network.</div>
+      </div>
+    </a>
   </div>
 </div>
 

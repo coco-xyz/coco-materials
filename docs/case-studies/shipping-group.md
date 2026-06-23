@@ -959,6 +959,14 @@ For the first time, management achieved real-time visibility into what their AI 
         <div class="blog-related-card-desc">A compliance technology company that turned its own AI tools inward, automating its own operations with the same rigor it demands of clients.</div>
       </div>
     </a>
+    <a class="blog-related-card" href="/case-studies/tea-brand-franchise">
+      <div class="blog-related-card-img">🍵</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent Case Study</div>
+        <div class="blog-related-card-title">Leading Tea Brand — Global Franchise Intelligence</div>
+        <div class="blog-related-card-desc">How a global tea brand uses AI to standardize and automate franchise management.</div>
+      </div>
+    </a>
   </div>
 </div>
 

@@ -951,6 +951,14 @@ COCO AI 部署后，效果几乎立竿见影。AI 自动调度系统取代了原
         <div class="blog-related-card-desc">为快速增长的合规科技公司实现监管监控与合规报告自动化。</div>
       </div>
     </a>
+    <a class="blog-related-card" href="/zh/case-studies/building-materials">
+      <div class="blog-related-card-img">🏗️</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent 案例</div>
+        <div class="blog-related-card-title">新加坡建材经销商 — 从漏单到智能报价</div>
+        <div class="blog-related-card-desc">日均 200+ 消息、发票处理瓶颈、一周的 QS 报价周期——AI 在一次部署中同时解决了这三个问题。</div>
+      </div>
+    </a>
   </div>
 </div>
 

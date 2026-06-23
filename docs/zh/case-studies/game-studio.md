@@ -953,6 +953,14 @@ COCO 帮助工作室构建了一套 **Agentic OS（智能体操作系统）**—
         <div class="blog-related-card-desc">一家加盟制茶饮品牌用 COCO AI 标准化运营，在数十家门店间保持品质一致。</div>
       </div>
     </a>
+    <a class="blog-related-card" href="/zh/case-studies/fmcg-collaboration">
+      <div class="blog-related-card-img">🛒</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent 案例</div>
+        <div class="blog-related-card-title">顶级快消品公司 — 跨市场协作自动化</div>
+        <div class="blog-related-card-desc">头部快消企业如何通过 AI 驱动的协调能力实现跨市场协作自动化。</div>
+      </div>
+    </a>
   </div>
 </div>
 

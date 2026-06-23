@@ -951,6 +951,14 @@ What makes this deployment particularly significant is the security validation. 
         <div class="blog-related-card-desc">Automated regulatory monitoring and compliance reporting for a fast-growing RegTech company.</div>
       </div>
     </a>
+    <a class="blog-related-card" href="/case-studies/building-materials">
+      <div class="blog-related-card-img">🏗️</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent Case Study</div>
+        <div class="blog-related-card-title">Singapore Building Materials Dealer — From Missed Orders to Smart Quoting</div>
+        <div class="blog-related-card-desc">200+ daily messages, invoice bottlenecks, week-long QS quoting — AI solved all three in one deployment.</div>
+      </div>
+    </a>
   </div>
 </div>
 

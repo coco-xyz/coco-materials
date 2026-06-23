@@ -953,6 +953,14 @@ This game studio proves that a sub-10-person team can build an AI-native operati
         <div class="blog-related-card-desc">A franchise tea brand used COCO AI to standardize operations and maintain quality across dozens of locations.</div>
       </div>
     </a>
+    <a class="blog-related-card" href="/case-studies/fmcg-collaboration">
+      <div class="blog-related-card-img">🛒</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent Case Study</div>
+        <div class="blog-related-card-title">Leading FMCG Company — Cross-Market Collaboration Automation</div>
+        <div class="blog-related-card-desc">How a leading FMCG company uses AI-driven coordination to automate cross-market collaboration.</div>
+      </div>
+    </a>
   </div>
 </div>
 

@@ -957,6 +957,14 @@ COCO 为该经销商搭建了覆盖前端客户沟通、发票处理和工程量
         <div class="blog-related-card-desc">10 人独立工作室的 AI 原生实践，将 AI 员工嵌入游戏开发的每一个环节。</div>
       </div>
     </a>
+    <a class="blog-related-card" href="/zh/case-studies/fmcg-collaboration">
+      <div class="blog-related-card-img">🛒</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent 案例</div>
+        <div class="blog-related-card-title">顶级快消品公司 — 跨市场协作自动化</div>
+        <div class="blog-related-card-desc">头部快消企业如何通过 AI 驱动的协调能力实现跨市场协作自动化。</div>
+      </div>
+    </a>
   </div>
 </div>
 

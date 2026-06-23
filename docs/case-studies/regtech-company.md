@@ -953,6 +953,14 @@ What COCO enabled was not just operational improvement but strategic alignment. 
         <div class="blog-related-card-desc">A sub-10-person indie studio deployed 3 AI employees to transform scattered AI tools into a cohesive operating structure.</div>
       </div>
     </a>
+    <a class="blog-related-card" href="/case-studies/building-materials">
+      <div class="blog-related-card-img">🏗️</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent Case Study</div>
+        <div class="blog-related-card-title">Singapore Building Materials Dealer — From Missed Orders to Smart Quoting</div>
+        <div class="blog-related-card-desc">200+ daily messages, invoice bottlenecks, week-long QS quoting — AI solved all three in one deployment.</div>
+      </div>
+    </a>
   </div>
 </div>
 

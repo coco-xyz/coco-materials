@@ -953,6 +953,14 @@ COCO 带来的不仅是运营效率的提升，更是战略层面的对齐。通
         <div class="blog-related-card-desc">不足 10 人的独立游戏团队部署 3 名 AI 员工，从工具堆叠跃迁为统一运作结构。</div>
       </div>
     </a>
+    <a class="blog-related-card" href="/zh/case-studies/building-materials">
+      <div class="blog-related-card-img">🏗️</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent 案例</div>
+        <div class="blog-related-card-title">新加坡建材经销商 — 从漏单到智能报价</div>
+        <div class="blog-related-card-desc">日均 200+ 消息、发票处理瓶颈、一周的 QS 报价周期——AI 在一次部署中同时解决了这三个问题。</div>
+      </div>
+    </a>
   </div>
 </div>
 
