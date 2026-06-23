@@ -874,7 +874,7 @@ What makes COCO's deployment remarkable is not just the automation of inquiry ha
   <div class="case-cta">
     <h2>Never Miss Another Franchise Inquiry</h2>
     <p>Deploy AI employees that work 7x24 in every language your prospects speak</p>
-    <a href="https://icoco.ai" class="cta-btn">开始使用 COCO</a>
+    <a href="https://icoco.ai" class="cta-btn">Get Started with COCO</a>
   </div>
 </div>
 

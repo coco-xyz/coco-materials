@@ -876,7 +876,7 @@ What makes this deployment particularly significant is the security validation. 
   <div class="case-cta">
     <h2>Bring AI to Your Enterprise Collaboration</h2>
     <p>Like this FMCG leader, start with the tools your team already uses</p>
-    <a href="https://icoco.ai" class="cta-btn">开始使用 COCO</a>
+    <a href="https://icoco.ai" class="cta-btn">Get Started with COCO</a>
   </div>
 </div>
 

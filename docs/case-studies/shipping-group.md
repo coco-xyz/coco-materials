@@ -884,7 +884,7 @@ For the first time, management achieved real-time visibility into what their AI 
   <div class="case-cta">
     <h2>Let AI Transform Your Operations</h2>
     <p>From isolated AI tools to a coordinated AI workforce — start the conversation</p>
-    <a href="https://icoco.ai" class="cta-btn">开始使用 COCO</a>
+    <a href="https://icoco.ai" class="cta-btn">Get Started with COCO</a>
   </div>
 </div>
 
