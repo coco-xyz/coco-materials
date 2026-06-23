@@ -925,7 +925,7 @@ COCO 为该经销商搭建了覆盖前端客户沟通、发票处理和工程量
   <div class="case-cta">
     <h2>让 AI 改变您的运营方式</h2>
     <p>从消息分拣到智能报价——从一次对话开始</p>
-    <a href="https://icoco.ai" class="cta-btn">免费试用 COCO</a>
+    <a href="https://icoco.ai" class="cta-btn">开始使用 COCO</a>
   </div>
 </div>
 

@@ -921,7 +921,7 @@ COCO 帮助工作室构建了一套 **Agentic OS（智能体操作系统）**—
   <div class="case-cta">
     <h2>构建你的 AI 原生组织</h2>
     <p>像这家工作室一样，从统一 AI 操作层开始</p>
-    <a href="https://icoco.ai" class="cta-btn">免费试用 COCO</a>
+    <a href="https://icoco.ai" class="cta-btn">开始使用 COCO</a>
   </div>
 </div>
 

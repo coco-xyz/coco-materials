@@ -925,7 +925,7 @@ The annualized savings from eliminating QS outsourcing alone represent a signifi
   <div class="case-cta">
     <h2>Let AI Transform Your Operations</h2>
     <p>From message triage to smart quoting — start with a single conversation</p>
-    <a href="https://icoco.ai" class="cta-btn">Try COCO Free</a>
+    <a href="https://icoco.ai" class="cta-btn">开始使用 COCO</a>
   </div>
 </div>
 

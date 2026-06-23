@@ -917,7 +917,7 @@ COCO 部署的真正亮点不仅在于咨询处理的自动化——而在于创
   <div class="case-cta">
     <h2>不再错过任何一条加盟咨询</h2>
     <p>部署全天候、全语言的 AI 数字员工</p>
-    <a href="https://icoco.ai" class="cta-btn">免费试用 COCO</a>
+    <a href="https://icoco.ai" class="cta-btn">开始使用 COCO</a>
   </div>
 </div>
 

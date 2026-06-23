@@ -921,7 +921,7 @@ This game studio proves that a sub-10-person team can build an AI-native operati
   <div class="case-cta">
     <h2>Build Your AI-Native Organization</h2>
     <p>Start with a unified AI operating layer — like this studio did</p>
-    <a href="https://icoco.ai" class="cta-btn">Try COCO Free</a>
+    <a href="https://icoco.ai" class="cta-btn">开始使用 COCO</a>
   </div>
 </div>
 

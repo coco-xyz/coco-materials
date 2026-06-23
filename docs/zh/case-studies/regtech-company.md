@@ -921,7 +921,7 @@ COCO 带来的不仅是运营效率的提升，更是战略层面的对齐。通
   <div class="case-cta">
     <h2>说到做到，从自身开始</h2>
     <p>像你向客户倡导的那样，把 AI 带进自己的运营</p>
-    <a href="https://icoco.ai" class="cta-btn">免费试用 COCO</a>
+    <a href="https://icoco.ai" class="cta-btn">开始使用 COCO</a>
   </div>
 </div>
 

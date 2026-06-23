@@ -921,7 +921,7 @@ What COCO enabled was not just operational improvement but strategic alignment. 
   <div class="case-cta">
     <h2>Practice What You Preach</h2>
     <p>Bring AI into your own operations — the way you advise your clients to</p>
-    <a href="https://icoco.ai" class="cta-btn">Try COCO Free</a>
+    <a href="https://icoco.ai" class="cta-btn">开始使用 COCO</a>
   </div>
 </div>
 

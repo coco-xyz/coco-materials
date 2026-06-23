@@ -919,7 +919,7 @@ COCO AI 部署后，效果几乎立竿见影。AI 自动调度系统取代了原
   <div class="case-cta">
     <h2>为你的企业协作引入 AI</h2>
     <p>像这家快消巨头一样，从团队已有的工具开始</p>
-    <a href="https://icoco.ai" class="cta-btn">免费试用 COCO</a>
+    <a href="https://icoco.ai" class="cta-btn">开始使用 COCO</a>
   </div>
 </div>
 
