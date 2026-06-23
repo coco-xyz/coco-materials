@@ -39,7 +39,7 @@
 
 扫码成功后，Dashboard 自动检测到连接，WhatsApp 卡片会显示为 **已连接（Connected）**。
 
-![连接成功](/whatsapp-connected.png)
+![连接成功](/whatsapp-connected-zh.png)
 
 ### 第五步：验证 Bot 是否正常工作
 
