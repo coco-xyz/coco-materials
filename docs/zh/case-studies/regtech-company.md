@@ -312,12 +312,7 @@ head:
   .arch-table th, .arch-table td {
     padding: 10px 12px;
   }
-  .blog-meta {
-    flex-direction: column;
-    gap: 16px;
-    align-items: flex-start;
-  }
-  .blog-related-grid {
+    .blog-related-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -678,33 +673,6 @@ head:
 }
 
 /* ===== NEW: Blog meta + Related posts ===== */
-.blog-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 32px 24px;
-  border-top: 1px solid var(--vp-c-divider);
-  font-size: 0.88rem;
-  color: var(--vp-c-text-3);
-}
-.blog-meta-item {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-.blog-meta-label {
-  font-size: 11px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--vp-c-text-3);
-}
-.blog-meta-value {
-  color: var(--vp-c-text-2);
-  font-weight: 500;
-}
 
 .blog-related {
   max-width: 800px;
@@ -906,22 +874,11 @@ COCO 带来的不仅是运营效率的提升，更是战略层面的对齐。通
 
 </div>
 
-<div class="blog-meta">
-  <div class="blog-meta-item">
-    <span class="blog-meta-label">作者</span>
-    <span class="blog-meta-value">COCO 团队</span>
-  </div>
-  <div class="blog-meta-item">
-    <span class="blog-meta-label">发布时间</span>
-    <span class="blog-meta-value">2025 年 6 月</span>
-  </div>
-</div>
-
 <div class="case-section">
   <div class="case-cta">
     <h2>说到做到，从自身开始</h2>
     <p>像你向客户倡导的那样，把 AI 带进自己的运营</p>
-    <a href="https://icoco.ai" class="cta-btn">免费试用 COCO</a>
+    <a href="https://icoco.ai" class="cta-btn">开始使用 COCO</a>
   </div>
 </div>
 
@@ -951,6 +908,14 @@ COCO 带来的不仅是运营效率的提升，更是战略层面的对齐。通
         <div class="blog-related-card-label">AI 智能体案例</div>
         <div class="blog-related-card-title">游戏工作室 — 构建 AI 原生组织</div>
         <div class="blog-related-card-desc">不足 10 人的独立游戏团队部署 3 名 AI 员工，从工具堆叠跃迁为统一运作结构。</div>
+      </div>
+    </a>
+    <a class="blog-related-card" href="/zh/case-studies/building-materials">
+      <div class="blog-related-card-img">🏗️</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent 案例</div>
+        <div class="blog-related-card-title">新加坡建材经销商 — 从漏单到智能报价</div>
+        <div class="blog-related-card-desc">日均 200+ 消息、发票处理瓶颈、一周的 QS 报价周期——AI 在一次部署中同时解决了这三个问题。</div>
       </div>
     </a>
   </div>

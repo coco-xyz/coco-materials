@@ -312,12 +312,7 @@ head:
   .arch-table th, .arch-table td {
     padding: 10px 12px;
   }
-  .blog-meta {
-    flex-direction: column;
-    gap: 16px;
-    align-items: flex-start;
-  }
-  .blog-related-grid {
+    .blog-related-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -678,33 +673,6 @@ head:
 }
 
 /* ===== NEW: Blog meta + Related posts ===== */
-.blog-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 32px 24px;
-  border-top: 1px solid var(--vp-c-divider);
-  font-size: 0.88rem;
-  color: var(--vp-c-text-3);
-}
-.blog-meta-item {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-.blog-meta-label {
-  font-size: 11px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--vp-c-text-3);
-}
-.blog-meta-value {
-  color: var(--vp-c-text-2);
-  font-weight: 500;
-}
 
 .blog-related {
   max-width: 800px;
@@ -902,22 +870,11 @@ COCO 部署的真正亮点不仅在于咨询处理的自动化——而在于创
 
 </div>
 
-<div class="blog-meta">
-  <div class="blog-meta-item">
-    <span class="blog-meta-label">作者</span>
-    <span class="blog-meta-value">COCO 团队</span>
-  </div>
-  <div class="blog-meta-item">
-    <span class="blog-meta-label">发布时间</span>
-    <span class="blog-meta-value">2025 年 6 月</span>
-  </div>
-</div>
-
 <div class="case-section">
   <div class="case-cta">
     <h2>不再错过任何一条加盟咨询</h2>
     <p>部署全天候、全语言的 AI 数字员工</p>
-    <a href="https://icoco.ai" class="cta-btn">免费试用 COCO</a>
+    <a href="https://icoco.ai" class="cta-btn">开始使用 COCO</a>
   </div>
 </div>
 
@@ -947,6 +904,14 @@ COCO 部署的真正亮点不仅在于咨询处理的自动化——而在于创
         <div class="blog-related-card-label">AI 数字员工案例</div>
         <div class="blog-related-card-title">游戏工作室 AI 运营</div>
         <div class="blog-related-card-desc">游戏工作室如何利用 AI 数字员工优化开发运营和社区管理。</div>
+      </div>
+    </a>
+    <a class="blog-related-card" href="/zh/case-studies/shipping-group">
+      <div class="blog-related-card-img">🚢</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent 案例</div>
+        <div class="blog-related-card-title">某头部海运集团 — 从 AI 工具到 AI 协作网络</div>
+        <div class="blog-related-card-desc">一家全球海运集团如何将 AI 从单点工具扩展为跨部门协作网络。</div>
       </div>
     </a>
   </div>

@@ -312,12 +312,7 @@ head:
   .arch-table th, .arch-table td {
     padding: 10px 12px;
   }
-  .blog-meta {
-    flex-direction: column;
-    gap: 16px;
-    align-items: flex-start;
-  }
-  .blog-related-grid {
+    .blog-related-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -678,33 +673,6 @@ head:
 }
 
 /* ===== NEW: Blog meta + Related posts ===== */
-.blog-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 32px 24px;
-  border-top: 1px solid var(--vp-c-divider);
-  font-size: 0.88rem;
-  color: var(--vp-c-text-3);
-}
-.blog-meta-item {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-.blog-meta-label {
-  font-size: 11px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--vp-c-text-3);
-}
-.blog-meta-value {
-  color: var(--vp-c-text-2);
-  font-weight: 500;
-}
 
 .blog-related {
   max-width: 800px;
@@ -904,22 +872,11 @@ What makes this deployment particularly significant is the security validation. 
 
 </div>
 
-<div class="blog-meta">
-  <div class="blog-meta-item">
-    <span class="blog-meta-label">Written by</span>
-    <span class="blog-meta-value">COCO Team</span>
-  </div>
-  <div class="blog-meta-item">
-    <span class="blog-meta-label">Published on</span>
-    <span class="blog-meta-value">June 2025</span>
-  </div>
-</div>
-
 <div class="case-section">
   <div class="case-cta">
     <h2>Bring AI to Your Enterprise Collaboration</h2>
     <p>Like this FMCG leader, start with the tools your team already uses</p>
-    <a href="https://icoco.ai" class="cta-btn">Try COCO Free</a>
+    <a href="https://icoco.ai" class="cta-btn">Get Started with COCO</a>
   </div>
 </div>
 
@@ -949,6 +906,14 @@ What makes this deployment particularly significant is the security validation. 
         <div class="blog-related-card-label">AI Agent Case Study</div>
         <div class="blog-related-card-title">RegTech Compliance Automation</div>
         <div class="blog-related-card-desc">Automated regulatory monitoring and compliance reporting for a fast-growing RegTech company.</div>
+      </div>
+    </a>
+    <a class="blog-related-card" href="/case-studies/building-materials">
+      <div class="blog-related-card-img">🏗️</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent Case Study</div>
+        <div class="blog-related-card-title">Singapore Building Materials Dealer — From Missed Orders to Smart Quoting</div>
+        <div class="blog-related-card-desc">200+ daily messages, invoice bottlenecks, week-long QS quoting — AI solved all three in one deployment.</div>
       </div>
     </a>
   </div>

@@ -312,12 +312,7 @@ head:
   .arch-table th, .arch-table td {
     padding: 10px 12px;
   }
-  .blog-meta {
-    flex-direction: column;
-    gap: 16px;
-    align-items: flex-start;
-  }
-  .blog-related-grid {
+    .blog-related-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -678,33 +673,6 @@ head:
 }
 
 /* ===== NEW: Blog meta + Related posts ===== */
-.blog-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 32px 24px;
-  border-top: 1px solid var(--vp-c-divider);
-  font-size: 0.88rem;
-  color: var(--vp-c-text-3);
-}
-.blog-meta-item {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-.blog-meta-label {
-  font-size: 11px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--vp-c-text-3);
-}
-.blog-meta-value {
-  color: var(--vp-c-text-2);
-  font-weight: 500;
-}
 
 .blog-related {
   max-width: 800px;
@@ -906,22 +874,11 @@ COCO 帮助工作室构建了一套 **Agentic OS（智能体操作系统）**—
 
 </div>
 
-<div class="blog-meta">
-  <div class="blog-meta-item">
-    <span class="blog-meta-label">作者</span>
-    <span class="blog-meta-value">COCO 团队</span>
-  </div>
-  <div class="blog-meta-item">
-    <span class="blog-meta-label">发布时间</span>
-    <span class="blog-meta-value">2025 年 6 月</span>
-  </div>
-</div>
-
 <div class="case-section">
   <div class="case-cta">
     <h2>构建你的 AI 原生组织</h2>
     <p>像这家工作室一样，从统一 AI 操作层开始</p>
-    <a href="https://icoco.ai" class="cta-btn">免费试用 COCO</a>
+    <a href="https://icoco.ai" class="cta-btn">开始使用 COCO</a>
   </div>
 </div>
 
@@ -951,6 +908,14 @@ COCO 帮助工作室构建了一套 **Agentic OS（智能体操作系统）**—
         <div class="blog-related-card-label">AI 智能体案例</div>
         <div class="blog-related-card-title">茶饮加盟品牌 — AI 赋能连锁运营</div>
         <div class="blog-related-card-desc">一家加盟制茶饮品牌用 COCO AI 标准化运营，在数十家门店间保持品质一致。</div>
+      </div>
+    </a>
+    <a class="blog-related-card" href="/zh/case-studies/fmcg-collaboration">
+      <div class="blog-related-card-img">🛒</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent 案例</div>
+        <div class="blog-related-card-title">顶级快消品公司 — 跨市场协作自动化</div>
+        <div class="blog-related-card-desc">头部快消企业如何通过 AI 驱动的协调能力实现跨市场协作自动化。</div>
       </div>
     </a>
   </div>

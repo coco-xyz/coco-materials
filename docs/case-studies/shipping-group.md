@@ -312,12 +312,7 @@ head:
   .arch-table th, .arch-table td {
     padding: 10px 12px;
   }
-  .blog-meta {
-    flex-direction: column;
-    gap: 16px;
-    align-items: flex-start;
-  }
-  .blog-related-grid {
+    .blog-related-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -678,33 +673,6 @@ head:
 }
 
 /* ===== NEW: Blog meta + Related posts ===== */
-.blog-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 32px 24px;
-  border-top: 1px solid var(--vp-c-divider);
-  font-size: 0.88rem;
-  color: var(--vp-c-text-3);
-}
-.blog-meta-item {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-.blog-meta-label {
-  font-size: 11px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--vp-c-text-3);
-}
-.blog-meta-value {
-  color: var(--vp-c-text-2);
-  font-weight: 500;
-}
 
 .blog-related {
   max-width: 800px;
@@ -912,22 +880,11 @@ For the first time, management achieved real-time visibility into what their AI 
 
 </div>
 
-<div class="blog-meta">
-  <div class="blog-meta-item">
-    <span class="blog-meta-label">Written by</span>
-    <span class="blog-meta-value">COCO Team</span>
-  </div>
-  <div class="blog-meta-item">
-    <span class="blog-meta-label">Published on</span>
-    <span class="blog-meta-value">June 2025</span>
-  </div>
-</div>
-
 <div class="case-section">
   <div class="case-cta">
     <h2>Let AI Transform Your Operations</h2>
     <p>From isolated AI tools to a coordinated AI workforce — start the conversation</p>
-    <a href="https://icoco.ai" class="cta-btn">Try COCO Free</a>
+    <a href="https://icoco.ai" class="cta-btn">Get Started with COCO</a>
   </div>
 </div>
 
@@ -957,6 +914,14 @@ For the first time, management achieved real-time visibility into what their AI 
         <div class="blog-related-card-label">AI Agent Case Study</div>
         <div class="blog-related-card-title">Financial RegTech Company — Practicing What You Preach</div>
         <div class="blog-related-card-desc">A compliance technology company that turned its own AI tools inward, automating its own operations with the same rigor it demands of clients.</div>
+      </div>
+    </a>
+    <a class="blog-related-card" href="/case-studies/tea-brand-franchise">
+      <div class="blog-related-card-img">🍵</div>
+      <div class="blog-related-card-body">
+        <div class="blog-related-card-label">AI Agent Case Study</div>
+        <div class="blog-related-card-title">Leading Tea Brand — Global Franchise Intelligence</div>
+        <div class="blog-related-card-desc">How a global tea brand uses AI to standardize and automate franchise management.</div>
       </div>
     </a>
   </div>
