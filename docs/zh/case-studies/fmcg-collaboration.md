@@ -312,12 +312,7 @@ head:
   .arch-table th, .arch-table td {
     padding: 10px 12px;
   }
-  .blog-meta {
-    flex-direction: column;
-    gap: 16px;
-    align-items: flex-start;
-  }
-  .blog-related-grid {
+    .blog-related-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -678,33 +673,6 @@ head:
 }
 
 /* ===== NEW: Blog meta + Related posts ===== */
-.blog-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 32px 24px;
-  border-top: 1px solid var(--vp-c-divider);
-  font-size: 0.88rem;
-  color: var(--vp-c-text-3);
-}
-.blog-meta-item {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-.blog-meta-label {
-  font-size: 11px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--vp-c-text-3);
-}
-.blog-meta-value {
-  color: var(--vp-c-text-2);
-  font-weight: 500;
-}
 
 .blog-related {
   max-width: 800px;
@@ -902,17 +870,6 @@ COCO AI 部署后，效果几乎立竿见影。AI 自动调度系统取代了原
 
 更具意义的是安全验证。对于全球性企业而言，通过三部门联合安全审查往往是任何技术引入过程中最难攻克的里程碑。COCO 的 GCP 新加坡私有化部署方案证明，企业级 AI 自动化无需在数据主权和合规性上妥协——它能满足最严格的标准，同时依然为运营团队提供所需的速度和灵活性。这一先例为 AI 驱动的协调能力在该公司全球范围内的推广打开了大门，远不止于东南亚。
 
-</div>
-
-<div class="blog-meta">
-  <div class="blog-meta-item">
-    <span class="blog-meta-label">作者</span>
-    <span class="blog-meta-value">COCO 团队</span>
-  </div>
-  <div class="blog-meta-item">
-    <span class="blog-meta-label">发布时间</span>
-    <span class="blog-meta-value">2025 年 6 月</span>
-  </div>
 </div>
 
 <div class="case-section">

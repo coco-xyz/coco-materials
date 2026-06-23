@@ -312,12 +312,7 @@ head:
   .arch-table th, .arch-table td {
     padding: 10px 12px;
   }
-  .blog-meta {
-    flex-direction: column;
-    gap: 16px;
-    align-items: flex-start;
-  }
-  .blog-related-grid {
+    .blog-related-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -678,33 +673,6 @@ head:
 }
 
 /* ===== NEW: Blog meta + Related posts ===== */
-.blog-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 32px 24px;
-  border-top: 1px solid var(--vp-c-divider);
-  font-size: 0.88rem;
-  color: var(--vp-c-text-3);
-}
-.blog-meta-item {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-.blog-meta-label {
-  font-size: 11px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--vp-c-text-3);
-}
-.blog-meta-value {
-  color: var(--vp-c-text-2);
-  font-weight: 500;
-}
 
 .blog-related {
   max-width: 800px;
@@ -904,17 +872,6 @@ Most teams adopt AI the same way: individual members sign up for individual tool
 
 This game studio proves that a sub-10-person team can build an AI-native operating structure that rivals the organizational sophistication of much larger companies. The key insight is that the bottleneck was never AI capability — it was AI architecture. By deploying COCO as a unified operating layer on top of their existing Google Workspace, the studio turned scattered AI experiments into a coherent system where human creativity and AI execution reinforce each other every single day.
 
-</div>
-
-<div class="blog-meta">
-  <div class="blog-meta-item">
-    <span class="blog-meta-label">Written by</span>
-    <span class="blog-meta-value">COCO Team</span>
-  </div>
-  <div class="blog-meta-item">
-    <span class="blog-meta-label">Published on</span>
-    <span class="blog-meta-value">June 2025</span>
-  </div>
 </div>
 
 <div class="case-section">

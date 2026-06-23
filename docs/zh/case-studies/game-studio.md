@@ -312,12 +312,7 @@ head:
   .arch-table th, .arch-table td {
     padding: 10px 12px;
   }
-  .blog-meta {
-    flex-direction: column;
-    gap: 16px;
-    align-items: flex-start;
-  }
-  .blog-related-grid {
+    .blog-related-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -678,33 +673,6 @@ head:
 }
 
 /* ===== NEW: Blog meta + Related posts ===== */
-.blog-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 32px 24px;
-  border-top: 1px solid var(--vp-c-divider);
-  font-size: 0.88rem;
-  color: var(--vp-c-text-3);
-}
-.blog-meta-item {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-.blog-meta-label {
-  font-size: 11px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--vp-c-text-3);
-}
-.blog-meta-value {
-  color: var(--vp-c-text-2);
-  font-weight: 500;
-}
 
 .blog-related {
   max-width: 800px;
@@ -904,17 +872,6 @@ COCO 帮助工作室构建了一套 **Agentic OS（智能体操作系统）**—
 
 这家游戏工作室证明了，一个不足 10 人的小团队完全可以构建出与大公司匹敌的 AI 原生运作结构。关键洞察是：瓶颈从来不是 AI 的能力，而是 AI 的架构。通过将 COCO 部署为覆盖在现有 Google Workspace 之上的统一操作层，工作室将零散的 AI 实验整合为一个有机的系统——在这个系统中，人类的创造力和 AI 的执行力每天都在相互增强。
 
-</div>
-
-<div class="blog-meta">
-  <div class="blog-meta-item">
-    <span class="blog-meta-label">作者</span>
-    <span class="blog-meta-value">COCO 团队</span>
-  </div>
-  <div class="blog-meta-item">
-    <span class="blog-meta-label">发布时间</span>
-    <span class="blog-meta-value">2025 年 6 月</span>
-  </div>
 </div>
 
 <div class="case-section">

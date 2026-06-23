@@ -312,12 +312,7 @@ head:
   .arch-table th, .arch-table td {
     padding: 10px 12px;
   }
-  .blog-meta {
-    flex-direction: column;
-    gap: 16px;
-    align-items: flex-start;
-  }
-  .blog-related-grid {
+    .blog-related-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -678,33 +673,6 @@ head:
 }
 
 /* ===== NEW: Blog meta + Related posts ===== */
-.blog-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 32px 24px;
-  border-top: 1px solid var(--vp-c-divider);
-  font-size: 0.88rem;
-  color: var(--vp-c-text-3);
-}
-.blog-meta-item {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-.blog-meta-label {
-  font-size: 11px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--vp-c-text-3);
-}
-.blog-meta-value {
-  color: var(--vp-c-text-2);
-  font-weight: 500;
-}
 
 .blog-related {
   max-width: 800px;
@@ -904,17 +872,6 @@ Every technology company faces a version of this challenge: the gap between what
 
 What COCO enabled was not just operational improvement but strategic alignment. By deploying AI employees internally using the same philosophy they advocate externally, the company closed the credibility gap and turned it into a competitive advantage. When prospects ask "Do you actually use this approach yourselves?" the answer is now an unequivocal yes — backed by the same unified platform, the same automated workflows, and the same AI-driven operations model they are selling. For any company in the business of selling AI transformation, this case is a reminder that the transformation must start at home.
 
-</div>
-
-<div class="blog-meta">
-  <div class="blog-meta-item">
-    <span class="blog-meta-label">Written by</span>
-    <span class="blog-meta-value">COCO Team</span>
-  </div>
-  <div class="blog-meta-item">
-    <span class="blog-meta-label">Published on</span>
-    <span class="blog-meta-value">June 2025</span>
-  </div>
 </div>
 
 <div class="case-section">

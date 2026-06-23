@@ -312,12 +312,7 @@ head:
   .arch-table th, .arch-table td {
     padding: 10px 12px;
   }
-  .blog-meta {
-    flex-direction: column;
-    gap: 16px;
-    align-items: flex-start;
-  }
-  .blog-related-grid {
+    .blog-related-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -678,33 +673,6 @@ head:
 }
 
 /* ===== NEW: Blog meta + Related posts ===== */
-.blog-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 32px 24px;
-  border-top: 1px solid var(--vp-c-divider);
-  font-size: 0.88rem;
-  color: var(--vp-c-text-3);
-}
-.blog-meta-item {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-.blog-meta-label {
-  font-size: 11px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--vp-c-text-3);
-}
-.blog-meta-value {
-  color: var(--vp-c-text-2);
-  font-weight: 500;
-}
 
 .blog-related {
   max-width: 800px;
@@ -910,17 +878,6 @@ COCO 为该集团部署了 COCO Workspace 协作层，在现有 AI 员工之上�
   <p>当你的 AI 员工超过 10 个，管理这些 AI 本身就变成了一个新问题。COCO Workspace 解决的是 AI 规模化之后的协作和治理层。</p>
 </div>
 
-</div>
-
-<div class="blog-meta">
-  <div class="blog-meta-item">
-    <span class="blog-meta-label">作者</span>
-    <span class="blog-meta-value">COCO 团队</span>
-  </div>
-  <div class="blog-meta-item">
-    <span class="blog-meta-label">发布时间</span>
-    <span class="blog-meta-value">2025 年 6 月</span>
-  </div>
 </div>
 
 <div class="case-section">

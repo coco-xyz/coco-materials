@@ -312,12 +312,7 @@ head:
   .arch-table th, .arch-table td {
     padding: 10px 12px;
   }
-  .blog-meta {
-    flex-direction: column;
-    gap: 16px;
-    align-items: flex-start;
-  }
-  .blog-related-grid {
+    .blog-related-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -678,33 +673,6 @@ head:
 }
 
 /* ===== NEW: Blog meta + Related posts ===== */
-.blog-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 32px 24px;
-  border-top: 1px solid var(--vp-c-divider);
-  font-size: 0.88rem;
-  color: var(--vp-c-text-3);
-}
-.blog-meta-item {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-.blog-meta-label {
-  font-size: 11px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--vp-c-text-3);
-}
-.blog-meta-value {
-  color: var(--vp-c-text-2);
-  font-weight: 500;
-}
 
 .blog-related {
   max-width: 800px;
@@ -902,17 +870,6 @@ This case represents a critical proof point for enterprise AI adoption in highly
 
 What makes this deployment particularly significant is the security validation. For global enterprises, passing a three-department security review is often the hardest milestone in any technology adoption. COCO's private GCP Singapore deployment model proved that enterprise-grade AI automation doesn't have to compromise on data sovereignty or compliance — it can meet the most stringent standards while still delivering the speed and flexibility that operations teams need. This precedent opens the door for AI-driven coordination across the company's global operations, not just Southeast Asia.
 
-</div>
-
-<div class="blog-meta">
-  <div class="blog-meta-item">
-    <span class="blog-meta-label">Written by</span>
-    <span class="blog-meta-value">COCO Team</span>
-  </div>
-  <div class="blog-meta-item">
-    <span class="blog-meta-label">Published on</span>
-    <span class="blog-meta-value">June 2025</span>
-  </div>
 </div>
 
 <div class="case-section">
