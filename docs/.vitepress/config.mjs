@@ -15,7 +15,7 @@ export default defineConfig({
 
       // Issue #1820 Bucket B: noindex pages must be dropped from the sitemap
       // to avoid mixed signals. Matches both EN and zh/ mirrors.
-      const bucketBIndustry = /^(zh\/)?use-cases\/industry\/(healthcare|manufacturing|enterprise|education|logistics|government|nonprofit|hospitality|insurance|energy|agriculture|automotive|media-entertainment|telecom|real-estate|consulting)$/
+      const bucketBIndustry = /^(zh\/)?use-cases\/industry\/(healthcare|manufacturing|enterprise|education|logistics|government|nonprofit|hospitality|insurance|energy|agriculture|automotive|media-entertainment|telecom|real-estate|consulting|retail|hr|legal|gaming|advertising)$/
       const bucketBRole = /^(zh\/)?use-cases\/role\/(devops|qa-engineer|researcher|customer-success|logistics-manager|procurement|consultant|data-scientist|pm|trainer|tech-lead|writer)$/
       items = items.filter(item => !bucketBIndustry.test(item.url) && !bucketBRole.test(item.url))
 
@@ -358,6 +358,11 @@ export default defineConfig({
                 { text: 'Media & Entertainment', link: '/use-cases/industry/media-entertainment' },
                 { text: 'Nonprofit', link: '/use-cases/industry/nonprofit' },
                 { text: 'Telecom', link: '/use-cases/industry/telecom' },
+                { text: 'Food & Beverage / Retail', link: '/use-cases/industry/retail' },
+                { text: 'Human Resources', link: '/use-cases/industry/hr' },
+                { text: 'Legal / Compliance', link: '/use-cases/industry/legal' },
+                { text: 'Gaming (Global)', link: '/use-cases/industry/gaming' },
+                { text: 'Advertising / Marketing Agency', link: '/use-cases/industry/advertising' },
               ]
             },
           ],
@@ -397,6 +402,17 @@ export default defineConfig({
               text: 'Tutorials',
               items: [
                 { text: 'WhatsApp — Let Others Use Your Bot', link: '/case-studies/whatsapp-setup' },
+              ]
+            },
+            {
+              text: 'Customer Stories',
+              items: [
+                { text: 'Tea Chain — Franchise Intelligence at Scale', link: '/case-studies/tea-brand-franchise' },
+                { text: 'FMCG Giant — Cross-Market Collaboration Automation', link: '/case-studies/fmcg-collaboration' },
+                { text: 'Building Materials — From Missed Orders to Smart Quoting', link: '/case-studies/building-materials' },
+                { text: 'Game Studio — Building an AI-Native Organization', link: '/case-studies/game-studio' },
+                { text: 'Shipping Group — From AI Tools to an AI Network', link: '/case-studies/shipping-group' },
+                { text: 'RegTech Company — Practicing What You Preach', link: '/case-studies/regtech-company' },
               ]
             },
           ],
@@ -526,6 +542,11 @@ export default defineConfig({
                 { text: '媒体娱乐', link: '/zh/use-cases/industry/media-entertainment' },
                 { text: '非营利', link: '/zh/use-cases/industry/nonprofit' },
                 { text: '电信', link: '/zh/use-cases/industry/telecom' },
+                { text: '餐饮连锁/零售', link: '/zh/use-cases/industry/retail' },
+                { text: '人力资源', link: '/zh/use-cases/industry/hr' },
+                { text: '法务/合规', link: '/zh/use-cases/industry/legal' },
+                { text: '游戏出海', link: '/zh/use-cases/industry/gaming' },
+                { text: '广告/营销乙方', link: '/zh/use-cases/industry/advertising' },
               ]
             },
           ],
@@ -566,6 +587,17 @@ export default defineConfig({
               items: [
                 { text: '钉钉 — 一个 Agent 连接多个组织', link: '/zh/case-studies/dingtalk-multi-org' },
                 { text: 'WhatsApp — 允许他人使用 Bot', link: '/zh/case-studies/whatsapp-setup' },
+              ]
+            },
+            {
+              text: '客户案例',
+              items: [
+                { text: '某头部茶饮品牌 — 全球连锁加盟智能化', link: '/zh/case-studies/tea-brand-franchise' },
+                { text: '某顶级快消品公司 — 跨市场协作自动化', link: '/zh/case-studies/fmcg-collaboration' },
+                { text: '新加坡建材经销商 — 从漏单到智能报价', link: '/zh/case-studies/building-materials' },
+                { text: '某游戏工作室 — AI 原生组织实验', link: '/zh/case-studies/game-studio' },
+                { text: '某头部海运集团 — 从 AI 工具到 AI 协作网络', link: '/zh/case-studies/shipping-group' },
+                { text: '某金融合规科技公司 — AI 自我实践', link: '/zh/case-studies/regtech-company' },
               ]
             },
           ],

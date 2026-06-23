@@ -4875,3 +4875,241 @@ This week's data:
 ```
 
 :::
+
+## 31. AI Data Analytics Agent for Cross-border E-commerce
+
+> Weekly reports compressed from 6-8 hours to 15 minutes; real-time anomaly diagnosis; natural language queries directly in Feishu.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Data Scattered Across Platforms Makes Manual Consolidation Slow and Error-Prone**
+
+Cross-border sellers typically operate across Amazon, independent sites, Shopee, and TikTok Shop simultaneously. Ad data is fragmented across Meta Ads, Google Ads, and Amazon AMS. Each week, operations staff spend half a day manually pulling, cleaning, and merging reports. By the time management asks "which SKU had the highest return rate yesterday?" in a Feishu group, they're waiting hours for an answer, and the response window has long passed.
+
+**How COCO Solves It**
+
+1. **Multi-platform Data Auto-aggregation**: COCO connects to e-commerce platform APIs and ad accounts, pulling sales, ad, inventory, and return data on schedule each day, automatically cleaning and merging into a unified dataset — no human intervention required.
+2. **Natural Language Query Engine**: Ask questions in plain language directly in Feishu groups or DMs, and COCO responds in real time with charts and narrative summaries — no need to open BI tools or wait for a data team.
+3. **Automatic Anomaly Diagnosis**: The system continuously monitors core metrics, and when it detects unusual movement (e.g., an ASIN's conversion rate drops sharply, or an ad group's ACOS breaches a threshold), it immediately sends a root-cause analysis report with recommended actions.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Weekly report generation time**: 6-8 hours → 15 minutes (95% reduction)
+- **Anomaly response speed**: From next-day manual discovery → real-time alerts
+- **Data query wait time**: Hours → seconds
+
+**Who Benefits**
+
+- **Operations Directors**: Full data visibility at any time, no waiting on people
+- **Data Analysts**: Freed from repetitive aggregation, focused on deep insights
+- **Brand Managers**: Query data mid-meeting in Feishu, dramatically more efficient
+
+:::
+
+## 32. Multilingual Customer Service for Cross-border 3C Independent Sites
+
+> Spanish, Indonesian, Arabic support 7×24; emotion-graded triage; negative review rates significantly reduced.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Multilingual CS Costs Are High, with Obvious Blind Spots During Off-Hours**
+
+3C independent sites selling across the Americas, Southeast Asia, and the Middle East need customer service in Spanish, Indonesian, Arabic, and more. Hiring multilingual CS teams is prohibitively expensive, and during nighttime hours (when many markets are active) coverage is nearly nonexistent. Frustrated buyers waiting without a response escalate to negative reviews, damaging brand reputation and repeat purchase rates.
+
+**How COCO Solves It**
+
+1. **Multilingual AI Customer Service**: COCO auto-detects the customer's language and replies in kind — using natural phrasing for each locale — for pre-sales inquiries, order status, and return/exchange policies. Quality matches native speakers.
+2. **Emotion-Graded Triage**: Real-time sentiment analysis flags high-frustration or escalating complaints, routing them immediately to human agents. Standard inquiries are fully handled by AI.
+3. **7×24 Uninterrupted Coverage**: Regardless of the customer's timezone, they receive an instant response. First response time drops from an average of 4 hours to under 2 minutes.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **First response time**: 4 hours → 2 minutes
+- **AI auto-resolution rate**: Over 75% of tickets need no human intervention
+- **Negative reviews from slow response**: Reduced by approximately 60%
+
+**Who Benefits**
+
+- **CS Team**: Freed to handle complex complaints, job satisfaction improves
+- **Buyers**: Native-language, instant, professional service experience
+- **Brand Operations**: Reputation metrics improve, repeat purchase rates rise
+
+:::
+
+## 33. Global Fashion Brand Competitor Price Monitoring & Listing Optimization
+
+> Real-time competitor price tracking; auto-generated multilingual SEO listings; traffic and conversion both improve.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Competitor Prices Change Daily, While Manual Listing Localization Can't Keep Pace**
+
+Fast-fashion cross-border brands operate in cutthroat competition where major competitors adjust pricing daily — far faster than any manual monitoring can track. At the same time, each SKU needs Listing titles, bullet points, and A+ content optimized for local language and search habits across multiple markets. Relying on translators and copywriters is slow and lacks localization depth, causing organic search rankings to lag behind competitors.
+
+**How COCO Solves It**
+
+1. **Real-time Competitor Price Monitoring**: COCO scrapes competitor pricing data daily, generates trend reports, and triggers alerts when competitors make significant price cuts — giving ops teams immediate data to decide whether to match or boost ad spend.
+2. **Multilingual Listing Generation**: Input product selling points and target market, and COCO generates algorithm-optimized titles, keywords, and descriptions for English, German, French, Japanese, Spanish, and other major market languages.
+3. **SEO Keyword Optimization**: Integrates platform search data to auto-embed high-volume, low-competition long-tail keywords, boosting organic traffic exposure.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Listing production efficiency**: Single SKU multilingual listing from 3 days → 2 hours
+- **Organic search ranking**: Core keywords average improvement of 15-20 positions
+- **Competitor response speed**: Price change detection from T+1 day → real-time
+
+**Who Benefits**
+
+- **Merchandising Ops**: Clear competitive intelligence, pricing decisions are data-driven
+- **Content Team**: Batch high-quality listings produced without heavy translation resources
+- **Brand Manager**: Multi-market SEO performance managed from one place
+
+:::
+
+## 34. Cross-border Beauty Brand Multi-Account Ad Daily Reports & Night-time ROI Monitoring
+
+> Multi-account ad data auto-aggregated into daily reports; night-time ROI anomaly alerts; inventory warning system activated.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Multi-Account Ad Data Is Fragmented, and Budget Burns Unmonitored Overnight**
+
+Cross-border beauty brands typically run ads on Facebook, Google, TikTok, and Pinterest — with separate accounts per market — creating completely siloed data. Every morning, ops teams log into each platform individually, download reports, and manually merge them. By the time they discover that an ad group's ROI collapsed overnight, the budget is already spent. On the inventory side, bestselling items go out of stock while slow movers pile up, with no warning system in place.
+
+**How COCO Solves It**
+
+1. **Multi-Account Ad Data Auto-aggregation**: COCO pulls data from all ad platform accounts on a daily schedule, generating standardized reports covering spend, ROI, ROAS, CPC, and conversions across all platforms — pushed directly to WeCom or Feishu groups.
+2. **Night-time ROI Real-time Monitoring**: The system continuously monitors ad performance, and when any ad group's ROI drops below preset thresholds, it immediately sends an alert with recommended actions (pause / reduce budget), protecting ad spend.
+3. **Inventory-Linked Alerts**: Combining sales velocity with current stock levels, COCO predicts stockout risk in advance and flags overstock items, supporting decisions on whether to increase ad spend to clear inventory.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Daily report generation time**: 2-hour manual process → fully automated, zero labor
+- **Night-time budget waste**: Early ROI crash detection estimated to reduce losses by 30-40%
+- **Inventory turnover efficiency**: Stockout and overstock rates each reduced by approximately 20%
+
+**Who Benefits**
+
+- **Ad Managers**: Wake up to a complete picture of yesterday's performance, optimize fast
+- **Supply Chain Team**: Inventory alerts enable early intervention, reducing both stockouts and overstock losses
+- **CFO**: Ad ROI made transparent, budget allocation better informed
+
+:::
+
+## 35. Cross-border 3C Brand Post-Holiday Returns Handling
+
+> Return ticket response time compressed from 24 hours to 30 minutes; product fault knowledge base enables accurate, fast resolution.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Holiday Return Surges Overwhelm CS Teams, Slow Processing Drives Negative Reviews**
+
+3C products have high average order values and complex return processes. After major sales events (Black Friday, Christmas, Double 11), return ticket volumes spike sharply. CS agents must verify order info, assess fault descriptions, and determine policy eligibility on a case-by-case basis — averaging over 24 hours per ticket. Negative reviews pile up fast, severely impacting store ratings. Complicating matters, fault diagnosis for different SKUs requires specialized knowledge that regular CS staff often lack, leading to a flood of escalated tickets.
+
+**How COCO Solves It**
+
+1. **Intelligent Ticket Triage and Prioritization**: COCO automatically parses return/exchange requests, classifying them by fault type, urgency, and order value, then queuing them so CS agents handle high-value and high-risk tickets first.
+2. **Product Fault Knowledge Base**: Pre-loaded with common faults, warranty policies, and handling scripts for each SKU, COCO helps CS agents quickly assess the cause and issue standard resolutions — drastically reducing escalation rates.
+3. **Auto-Reply Template Generation**: For standard return requests, COCO auto-generates policy-compliant replies and sends them pending agent review, multiplying throughput.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Ticket response time**: 24 hours → 30 minutes (96% improvement)
+- **Escalation rate**: Reduced by approximately 50%
+- **Holiday negative review rate**: Measurably lower from slow-response complaints
+
+**Who Benefits**
+
+- **CS Team**: No longer buried in repetitive tickets, focused on genuinely complex issues
+- **Buyers**: Clear answers fast, return experience satisfaction significantly improved
+- **Store Ops**: Ratings protected, recovery speed after peak events improved
+
+:::
+
+## 36. Outbound Fashion Brand KOL Batch Screening & Multilingual Outreach
+
+> Bulk KOL screening from CSV; auto-generated multilingual collaboration invites; business follow-up conversion rates significantly improved.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: KOL Screening is Labor-Intensive and Personalized Outreach Can't Scale**
+
+Influencer marketing teams at cross-border fashion brands need to screen hundreds to thousands of KOLs each season. Exported CSV data contains fields like follower count, engagement rate, content type, and audience demographics — and manually evaluating each one is brutally slow. Even harder: invitation copy for an English-speaking Instagram creator versus a Spanish-speaking TikTok creator must differ completely in tone and emphasis. Personalization can't scale manually.
+
+**How COCO Solves It**
+
+1. **Batch KOL Smart Scoring**: Upload KOL data CSV and COCO automatically scores and ranks based on brand-defined criteria (engagement rate thresholds, audience geo match, content style fit), outputting a prioritized outreach list.
+2. **Multilingual Personalized Invites**: For each KOL, COCO generates customized collaboration invitations matching their language, platform culture, and content niche — English, Spanish, French, Indonesian, and more — sounding natural, not machine-translated.
+3. **Follow-up Automation**: For KOLs who don't reply to initial outreach, COCO sends follow-ups at preset intervals and tracks reply and conversion rates by batch.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **KOL screening time**: 2-3 days manual → 30 minutes with AI
+- **Invite reply rate**: Personalized invites show approximately 40% improvement vs. generic templates
+- **BD capacity**: Single person scales from 50 → 500 KOL contacts per month
+
+**Who Benefits**
+
+- **Influencer Marketing Team**: Free from repetitive screening, focused on negotiation and creative direction
+- **Brand Manager**: Data-driven creator selection, lower collaboration risk
+- **Business BD**: Top-of-funnel dramatically widened
+
+:::
+
+## 37. Pet Supplies DTC Brand Community Operations & AI Pet Advisor
+
+> 100K-user community powered by an AI pet knowledge base; engagement up 3x; conversion rate up 50%.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: A Large Pet Community Can't Sustain Quality Engagement on Human Power Alone**
+
+DTC pet brands build loyal communities of 100K+ users across Facebook Groups, Discord, and WeChat groups. But community ops teams are small, and the daily flood of pet care, product use, and health questions is impossible to answer professionally at scale. Without satisfying answers, users go quiet, activity drops, and the community becomes an empty traffic pool. Sustained high-quality pet content requires scarce internal experts.
+
+**How COCO Solves It**
+
+1. **AI Pet Advisor Knowledge Base**: COCO is loaded with expert knowledge on pet nutrition, symptom recognition, medication precautions, and product use cases. It auto-identifies and answers user questions in the community at the level of a senior veterinary assistant.
+2. **Intelligent Community Activation**: COCO proactively starts topic discussions, sends seasonal care reminders, and surfaces user-generated content highlights — keeping the community lively and preventing inactivity.
+3. **Conversion Pathway**: While answering user questions, COCO naturally connects relevant product recommendations, guiding users from community to the independent store and improving content-driven conversion efficiency.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Community engagement rate**: 3x improvement
+- **Product conversion rate**: Community-to-purchase conversion up approximately 50%
+- **Professional question coverage**: From under 20% to over 85% of questions answered
+
+**Who Benefits**
+
+- **Community Ops**: Freed from repetitive answering, focused on content strategy and KOC cultivation
+- **Pet Owners**: Instant, expert, warm responses at any hour — community experience dramatically improved
+- **Brand Growth Team**: Community becomes a real engine for traffic and conversion
+
+:::

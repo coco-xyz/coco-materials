@@ -876,3 +876,139 @@ This week's data:
 ```
 
 :::
+
+## 8. Smart Knowledge Base & Rapid New Employee Onboarding
+
+> Feishu auto-indexed knowledge base with 10-second precision queries; new employee onboarding compressed from 3 weeks to 5 days.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Institutional Knowledge Lives in Veteran Employees' Heads, Making Onboarding Slow and Succession Risky**
+
+Manufacturing companies store production processes, equipment operating procedures, quality standards, and safety guidelines in scattered Word docs, PDF manuals, and tribal knowledge. New employees can't quickly find what they need and repeatedly interrupt experienced colleagues. When a veteran leaves, a vast amount of tacit knowledge walks out with them. Floor managers and quality inspectors spend their days fielding repetitive questions instead of managing production.
+
+**How COCO Solves It**
+
+1. **Auto-indexed, Structured Knowledge Base**: COCO connects to Feishu company documents and local file servers, automatically indexing all product manuals, SOPs, and quality standards into a searchable knowledge graph.
+2. **Natural Language Precision Queries**: Employees ask questions in plain language in Feishu groups or the COCO chat ("what are the temperature parameters for the Model X injection molder?"), and COCO returns a precise answer in under 10 seconds with source document citations.
+3. **Role-tailored Onboarding Assistant**: COCO generates customized learning paths by job role and acts as a 7×24 training assistant, accelerating new employees' path to job competency.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Knowledge query time**: 30-60 minutes searching filing cabinets → under 10 seconds
+- **New employee onboarding time**: 3 weeks → 5 days (75% reduction)
+- **Interruptions to senior staff**: Reduced by approximately 70%
+
+**Who Benefits**
+
+- **New Employees**: Faster ramp-up, less frustration, higher retention
+- **Floor Managers / Technical Experts**: Freed from repetitive Q&A, focused on core work
+- **HR / Training Departments**: Training cost dramatically reduced, standardization improved
+
+:::
+
+## 9. Full-chain AI Manufacturing: Quality Inspection, Scene Design & After-sales
+
+> AI visual quality inspection deployed; natural language-driven scene design; 7×24 intelligent after-sales coverage.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Manual Quality Control Is Inconsistent, Design Turnaround Is Slow, and After-sales Response Has Gaps**
+
+Smart home manufacturers face efficiency bottlenecks across three areas: quality inspection relies on human visual checks, prone to fatigue and subjectivity; customized scene design requires extensive back-and-forth between designers and customers; and after-sales complaints pile up during off-hours with no one responding, driving negative reviews.
+
+**How COCO Solves It**
+
+1. **AI Visual Quality Inspection**: COCO integrates computer vision models to automatically detect appearance defects (scratches, color inconsistency, assembly misalignment), exceeding human speed and accuracy, with near-zero miss rate.
+2. **Natural Language-driven Scene Design**: Customers or sales staff describe their preferred home style in plain language, and COCO auto-generates product pairing proposals and scene renderings, dramatically shortening the proposal confirmation cycle.
+3. **7×24 Intelligent After-sales**: COCO's built-in product fault decision tree handles common after-sales inquiries automatically, routing complex issues to human staff with a pre-generated diagnostic report — ensuring users get a response at any hour.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Quality inspection miss rate**: From human average 1-2% → near zero
+- **Scene proposal confirmation cycle**: From 1 week → 1 day
+- **After-sales first response time**: Night-time response from none → instant automatic reply
+
+**Who Benefits**
+
+- **Quality Inspection Team**: Freed from repetitive scanning, focused on anomaly analysis
+- **Sales Advisors**: Proposal generation accelerated, close rates improve
+- **End Users**: Round-the-clock professional after-sales support, satisfaction significantly improved
+
+:::
+
+## 10. Supply Chain Group Chat Q&A & ERP / Logistics / Warehouse Unified Query
+
+> Direct query of ERP, logistics, and warehouse data within supply chain group chats; delivery delay risk predicted in advance; coordination efficiency dramatically improved.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Supply Chain Data Silos Make Cross-system Queries Cumbersome and Delays Are Always Discovered Too Late**
+
+Manufacturing companies spread supply chain data across ERP, WMS, and TMS systems. Procurement, production, warehousing, and logistics teams each query their own systems, with data synchronization severely lagging. When supply delays, inventory shortages, or logistics anomalies emerge, they're often discovered only after the production line is already impacted — at which point recovery is difficult. Supply chain group chats are filled with "can you check X inventory" and "where is this shipment" — repetitive, low-value communication.
+
+**How COCO Solves It**
+
+1. **Unified Cross-system Query in Group Chat**: COCO integrates ERP, WMS, and TMS systems, allowing team members to ask natural language questions directly in WeCom or Feishu supply chain groups and get cross-system query results instantly — no switching between multiple system interfaces.
+2. **Delivery Delay Risk Prediction and Early Warning**: COCO continuously analyzes expected procurement arrival dates, production schedules, and inventory levels, predicting supply delay risks before they impact production and proactively alerting responsible parties.
+3. **Cross-department Anomaly Fast Response**: When anomalies are detected, COCO auto-mentions relevant owners, generates a structured resolution suggestion, and drives rapid cross-departmental response.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Cross-system query time**: From manually switching between systems for 15-30 minutes → instant group chat reply
+- **Supply delay detection lead time**: Average 3-5 days of advance warning
+- **Repetitive query communication**: Reduced approximately 60%
+
+**Who Benefits**
+
+- **Procurement Team**: Real-time visibility into supplier delivery status and inventory
+- **Production Planners**: Risk warnings arrive early, leaving ample time for schedule adjustment
+- **Supply Chain Director**: Full-chain data transparency, management decisions more precise
+
+:::
+
+## 11. Export Custom Furniture Smart Quoting & WhatsApp Buyer Parsing
+
+> Auto-parse buyer requirements from WhatsApp; quote time from 48 hours to hours; orders per sales rep up 3x.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Custom Furniture Quoting Depends on Expert Judgment, WhatsApp Communication Is Fragmented, and Slow Quotes Lose Deals**
+
+Export custom furniture companies depend heavily on experienced sales people to manage the quote process: extracting buyer requirements from WhatsApp conversations (materials, dimensions, quantity, finishing requirements, target price), relaying them to the factory for cost calculation, with the fastest turnaround still taking 48 hours. By the time the quote is sent, the buyer may have moved on. Worse, each sales rep has a ceiling on how many WhatsApp customers they can effectively manage simultaneously.
+
+**How COCO Solves It**
+
+1. **WhatsApp Requirement Auto-parsing**: COCO automatically extracts buyer requirement key points from WhatsApp chat (category, specs, quantity, special processes), consolidating them into a structured RFQ form — no manual summarization needed.
+2. **Intelligent Quote Assistance**: Based on historical order data and current material costs, COCO generates a quote reference range; sales confirms and sends — compressing quote turnaround from 48 hours to a few hours.
+3. **Multi-client Parallel Follow-up**: COCO helps sales reps manage the pacing of follow-ups across multiple WhatsApp clients, auto-reminding optimal follow-up moments, dramatically increasing the number of clients a single rep can effectively manage.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Quote response time**: 48 hours → a few hours (approximately 80% faster)
+- **Orders per sales rep**: Approximately 3x increase
+- **Inquiries lost to slow response**: Measurably reduced
+
+**Who Benefits**
+
+- **Sales Team**: Dramatically more efficient, no longer spending hours summarizing buyer needs
+- **Factory Operations**: Receives cleaner, clearer RFQ forms, costing efficiency improves
+- **Buyers**: Professional quotes arrive fast, decision experience improved
+
+:::

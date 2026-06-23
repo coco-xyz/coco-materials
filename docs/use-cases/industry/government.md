@@ -752,3 +752,37 @@ This week's data:
 ```
 
 :::
+
+## 7. Government Policy Knowledge Base & Citizen Self-service Q&A
+
+> Policy knowledge base deployed in WeCom; citizens get plain-language answers instantly; hotline volume down 60-65%; self-service rate reaches 85-90%.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Policy Language Is Dense, Citizens Flood Hotlines, and Grassroots Staff Are Overwhelmed by Repetitive Inquiries**
+
+Government policy documents use specialized language with extensive provisions that ordinary citizens and business owners find difficult to self-interpret. This drives large volumes of calls to government hotlines and visits to service windows, creating long hold times and queues. Front-line staff spend most of their day answering repetitive policy interpretation questions, unable to focus on cases that genuinely require human judgment. Frequent policy updates also make it hard for staff themselves to stay current, creating inconsistency risks in answers given.
+
+**How COCO Solves It**
+
+1. **Policy Knowledge Base Auto-build and Update**: COCO automatically indexes policy documents, service guides, and historical Q&A case records, building a structured knowledge base. When policies update, the knowledge base auto-syncs, ensuring answers are always current and accurate.
+2. **Plain-language Self-service Q&A**: Citizens ask questions in plain everyday language via WeCom, government mini-programs, or official websites (e.g., "how do I apply for a business license?", "how do I make up missed social insurance payments?"), and COCO responds in clear, accessible language with step-by-step guidance.
+3. **Complex Cases Intelligent Referral**: For matters requiring human review, COCO collects complete application information and generates a structured referral work order, helping window staff understand the situation in advance and improving on-site processing efficiency.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Government hotline call volume**: Reduced 60-65%
+- **Citizen self-service resolution rate**: Reaches 85-90%
+- **Front-line staff repetitive inquiry burden**: Significantly reduced, focused on complex matters
+
+**Who Benefits**
+
+- **Citizens / Business Owners**: 7×24 self-service queries, no more waiting on hold
+- **Front-line Staff**: Repetitive work reduced, job satisfaction improved
+- **Government Departments**: Service efficiency improved, public satisfaction scores better
+
+:::

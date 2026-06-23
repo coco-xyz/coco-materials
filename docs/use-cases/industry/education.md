@@ -876,3 +876,71 @@ This week's data:
 ```
 
 :::
+
+## 8. Multilingual Enrollment Across 12+ Time Zones
+
+> Enrollment consultations covered across 12+ timezones in multiple languages; trial class booking confirmed in under 2 minutes.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Cross-timezone Enrollment Inquiries Go Unanswered During Off-hours, and Language Barriers Lose Prospects**
+
+Online education institutions serving global learners have prospects spread across 12+ time zones across North America, Europe, Southeast Asia, and the Middle East. Traditional enrollment consulting depends on human advisors, leaving night-time hours (which are daytime for many key markets) essentially unattended. Large numbers of interested learners don't receive timely answers and go elsewhere. Language barriers across English, Spanish, Arabic, Portuguese, and others compound the problem.
+
+**How COCO Solves It**
+
+1. **7×24 Multilingual Enrollment Consulting**: COCO engages with prospective students in their native language, answering standard questions about course content, faculty, tuition, and admission requirements — instantly at any hour.
+2. **Automated Trial Class Booking**: Once a prospect expresses interest in a trial class, COCO presents available slots adjusted for the student's timezone, completes the booking confirmation, and sends reminders — the whole flow from inquiry to confirmed booking takes under 2 minutes.
+3. **Enrollment Funnel Tracking**: COCO tracks each prospect's inquiry progress, following up with non-bookers on a schedule and sending pre-session reminders to confirmed attendees to reduce no-shows.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Night-time inquiry response rate**: From near 0% → 100% instant response
+- **Trial class booking conversion rate**: Up approximately 30-40%
+- **Human enrollment advisor headcount requirement**: Reduced approximately 50%
+
+**Who Benefits**
+
+- **Enrollment Team**: Focused on following up with high-intent prospects, efficiency dramatically improved
+- **Prospective Students**: Instant professional answers regardless of timezone or language
+- **Institution Management**: Enrollment cost reduced, global coverage expanded
+
+:::
+
+## 9. Class Manager AI Assistant & Automated Homework Nudges
+
+> Single class manager scales from 2 to 12-15 groups; automatic homework reminders; AI teaching assistant active in classes.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Class Managers Are Capacity-constrained, Homework Nudges Depend on Manual Messages, and Teaching Support Is Inadequate**
+
+Class managers at online education platforms are critical to learner retention and course completion rates. But each class manager can effectively handle only 2-3 groups, spending most of their time on daily homework reminders, attendance follow-ups, and learner emotional check-ins — repetitive work that doesn't scale. Homework reminders sent manually are inconsistent in timing and effectiveness. When learners have course questions they can't immediately answer, satisfaction scores suffer.
+
+**How COCO Solves It**
+
+1. **Automated Homework Reminders and Follow-up**: COCO sends homework reminders to students at optimized timing based on the course schedule, with a tiered follow-up sequence for non-submitters (Day 1 reminder → Day 2 prompt → Day 3 flag for class manager attention).
+2. **AI Teaching Assistant in Class Groups**: When learners post course-related questions in the class group, COCO auto-replies to common questions, routing complex academic questions to the instructor — reducing the class manager's knowledge Q&A burden.
+3. **Class Manager Capacity Expansion**: With repetitive ops work handled by COCO, a single class manager effectively scales from 2 groups to 12-15 groups — approximately 6x efficiency improvement.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Groups per class manager**: 2 → 12-15 (approximately 6x improvement)
+- **Homework completion rate**: Up approximately 25% with automated nudges
+- **Learner satisfaction**: Faster question responses, satisfaction scores improve
+
+**Who Benefits**
+
+- **Class Managers**: Freed from repetitive work, focused on high-value learner emotional care
+- **Learners**: Timely homework reminders, course questions answered quickly
+- **Institution**: Course completion rates improve, word-of-mouth and re-enrollment rates increase
+
+:::

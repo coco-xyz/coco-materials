@@ -1000,3 +1000,71 @@ This week's data:
 ```
 
 :::
+
+## 9. Medical Device Tender Document Engine & Multi-country Compliance Support
+
+> Tender document preparation from 2 weeks to 2 hours; multi-country compliance auto-validated; multilingual technical support available around the clock.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Tender Document Preparation Is Enormously Time-consuming, Multi-country Compliance Requirements Vary Widely, and Technical Support Can't Cover All Languages**
+
+Medical device companies bidding for government procurement contracts globally must prepare hundreds of pages of technical specifications, qualification documentation, and compliance declarations for each bid — with significantly different regulatory requirements across markets (FDA, CE, NMPA, etc.). The research and verification workload typically takes 2+ weeks. At the same time, hospital customers from different countries submit technical inquiries in their local languages, and technical support teams' language coverage is limited, causing severe response delays.
+
+**How COCO Solves It**
+
+1. **Tender Document Engine**: Based on product registration files, technical specs, and historical bid documents, COCO auto-generates tender document drafts tailored to specific bid requirements — technical response letters, qualification documentation checklists, compliance declarations — dramatically compressing human review time.
+2. **Multi-country Compliance Auto-validation**: COCO contains built-in regulatory requirements for major markets (FDA 510(k), EU MDR, China Medical Device Registration, etc.), automatically checking product documentation for compliance gaps and generating gap analysis reports.
+3. **Multilingual Technical Support Agent**: COCO answers technical specification, operation method, and maintenance inquiries in customers' native languages (English, Chinese, German, Spanish, etc.) 7×24 — routing out-of-knowledge-base issues to the expert team automatically.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Tender document preparation time**: 2 weeks → 2 hours (approximately 93% reduction)
+- **Compliance gap discovery timing**: From pre-submission manual checks → ongoing automated validation
+- **Technical support language coverage**: From 3-4 languages → all major market languages
+
+**Who Benefits**
+
+- **Market / Tendering Team**: Freed from laborious document assembly, focused on commercial strategy
+- **Compliance Team**: Systematic compliance management, risks controlled
+- **Overseas Customers**: Native language technical support, purchasing confidence improved
+
+:::
+
+## 10. Post-procedure Q&A Knowledge Base & Automated Follow-up for Medical Aesthetics
+
+> Post-procedure questions automatically answered; Day 3/7/30 follow-ups automated; complaints reduced 80%; return visits up 35%.
+
+::: details Pain Point & How COCO Solves It
+
+**The Pain: Post-procedure Patient Questions Are Numerous and Time-scattered; Manual Follow-up Systems Are Costly and Prone to Gaps**
+
+After surgeries or treatment procedures, patients generate questions at various time points (the night of the procedure, Day 3, Day 7, Day 30) — common concerns like whether swelling is normal, what skincare products to avoid, or how to handle discomfort. These questions arrive at any hour, and medical staff cannot respond round the clock. Meanwhile, standardized follow-up work is entirely manual, with high omission rates. Patients who feel uncared for become dissatisfied, complaints increase, and return visit rates remain low.
+
+**How COCO Solves It**
+
+1. **Post-procedure Q&A Knowledge Base**: COCO hosts comprehensive post-care guides, FAQs, and emergency situation criteria for each procedure type. Patients query via WeChat or mini-program at any time and receive instant, professional answers — with escalation to medical staff when warranted.
+2. **Automated Staged Follow-up**: COCO automatically sends care messages, recovery guidance, and satisfaction surveys to patients at the critical Day 3, Day 7, and Day 30 checkpoints — no manual scheduling or execution required from medical staff.
+3. **Return Visit Guidance and Booking**: At appropriate checkpoints, COCO proactively reminds patients to schedule their follow-up appointment and supports online booking — shifting from passively waiting for patients to proactively driving return visits.
+
+:::
+
+::: details Results & Who Benefits
+
+**Measurable Results**
+
+- **Post-procedure complaint volume**: Reduced approximately 80%
+- **Return visit rate**: Up approximately 35%
+- **Medical staff follow-up labor**: Reduced approximately 70%
+
+**Who Benefits**
+
+- **Medical Staff**: Freed from laborious manual follow-up, focused on clinical work
+- **Patients**: Professional accompaniment throughout recovery, safety and satisfaction significantly improved
+- **Clinic Operations**: Reputation improves, return visit and referral cycle creates positive flywheel
+
+:::
