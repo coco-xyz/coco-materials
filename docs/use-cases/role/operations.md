@@ -10075,7 +10075,7 @@ TOTAL WEEKEND FINANCIAL SUMMARY (Projected)
 
 :::
 
-## 68. AI Port Container Terminal Throughput Optimizer
+## 67. AI Port Container Terminal Throughput Optimizer
 
 **Role**: Operations | **Industry**: Logistics, Maritime | **Task**: Process Automation
 
@@ -10284,7 +10284,7 @@ Payback period: 34 days
 
 :::
 
-## 69. AI School District Facilities Maintenance Coordinator
+## 68. AI School District Facilities Maintenance Coordinator
 
 **Role**: Operations | **Industry**: Education, Government | **Task**: Process Automation
 
