@@ -910,6 +910,17 @@ The bot will open chat access to all users.
 
 > **Note:** Microsoft Teams is widely used by enterprises on Microsoft 365. Deployment requires creating an Azure Bot resource, configuring permissions, and publishing the app via the Teams Developer Portal. No servers or coding skills needed — a free Azure tier is sufficient.
 
+### Prerequisites
+
+Unlike Telegram or Lark, Microsoft Teams requires two Microsoft accounts to be in place **before** you start:
+
+| Requirement | Details |
+|-------------|---------|
+| **A Microsoft 365 organization (work/school account)** | Teams must be running on a Microsoft Entra ID (Azure AD) tenant. A personal Microsoft account will not work — you need an organizational tenant where the bot can be installed. |
+| **An active Azure subscription** | Required to create the Azure Bot resource in Step 1 — **even on the Free (F0) tier**. A Microsoft 365 account is **not** the same as an Azure subscription: you can be signed in and still have none. If you don't have one, create a [free Azure subscription](https://azure.microsoft.com/free/) (pay-as-you-go also works) before continuing — otherwise **Create a resource → Azure Bot** in Step 1 cannot proceed. |
+
+> **Tip:** "Free Azure tier" refers to the bot's F0 pricing — the resource itself still has to live inside an Azure subscription. Creating the subscription is free, and the F0 bot tier has no charge.
+
 Four credentials are required:
 
 | Credential | Where to Find | Description |
