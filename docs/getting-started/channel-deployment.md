@@ -943,11 +943,17 @@ Four credentials are required:
    You can find this on the **Microsoft Teams** card in your employee's channel grid on the COCO Dashboard. Copy it and paste it here.
 3. Note down the **Microsoft App ID** (this is your **App ID**) and **App Tenant ID** (this is your **Tenant ID**)
 4. Click **Apply**
-5. Go to **Channels** in the left sidebar, click **Microsoft Teams**, accept the terms, and click **Apply** to enable the Teams channel
+### Step 3: Enable the Microsoft Teams Channel
+
+This step is **required and easy to miss** — the bot will not work in Teams without it.
+
+1. In the Azure Bot resource, go to **Channels** in the left sidebar
+2. Click **Microsoft Teams**, accept the Terms of Service, and click **Apply**
+3. The Microsoft Teams channel should now appear as **Running** in the channel list
 
 > **Important:** The Teams channel must be enabled on the Azure Bot resource. Without it, Teams will show an "Invalid Bot" error when users try to chat with the bot.
 
-### Step 3: Create a Client Secret
+### Step 4: Create a Client Secret
 
 1. On the Configuration page, click **Manage Password** — this takes you to the App Registration page
 2. Go to **Certificates & secrets**
@@ -958,7 +964,7 @@ Four credentials are required:
 
 > **Important:** The client secret cannot be viewed again after you leave this page. Save it securely. This is your **App Password**.
 
-### Step 4: Configure Graph API Permissions
+### Step 5: Configure Graph API Permissions
 
 Instead of adding permissions one by one through the UI, you can paste them all at once via the manifest editor.
 
@@ -1015,7 +1021,7 @@ After saving the manifest, go to **API permissions** and click **Grant admin con
 
 > **Important:** Admin consent is required. Without it, file downloads, chat history, emoji reactions, and smart mode features will not work.
 
-### Step 5: Create App in Teams Developer Portal
+### Step 6: Create App in Teams Developer Portal
 
 1. Go to [Teams Developer Portal](https://dev.teams.microsoft.com) and sign in
 2. Click **Apps** in the left sidebar, then **+ New app**
@@ -1030,7 +1036,7 @@ After saving the manifest, go to **API permissions** and click **Grant admin con
    - **Terms of use**: `https://docs.icoco.ai/user-agreement`
 6. Click **Save**
 
-### Step 6: Configure the App Manifest
+### Step 7: Configure the App Manifest
 
 1. In the Teams Developer Portal, go to your app's **App package** → **App package editor**
 2. Paste the following manifest JSON, replacing the two placeholders with your actual values:
@@ -1086,7 +1092,7 @@ After saving the manifest, go to **API permissions** and click **Grant admin con
 
 > **Note on placeholders:** The manifest has two different IDs. `<TEAMS_APP_ID>` is the App ID from the Teams Developer Portal (Step 5) — it appears once in the `id` field. `<AZURE_APP_ID>` is the App ID from Azure (Step 2) — it appears in `botId` and `webApplicationInfo.id`.
 
-### Step 7: Upload App Icons (Optional)
+### Step 8: Upload App Icons (Optional)
 
 1. In the Teams Developer Portal, go to your app's **Branding** section
 2. Upload the app icons:
@@ -1096,7 +1102,7 @@ After saving the manifest, go to **API permissions** and click **Grant admin con
 
 > **Tip:** If you skip this step, Teams will use default placeholder icons.
 
-### Step 8: Publish the App
+### Step 9: Publish the App
 
 You have two options to distribute the app:
 
@@ -1111,7 +1117,7 @@ You have two options to distribute the app:
 2. In Microsoft Teams, go to **Apps** → **Manage your apps** → **Upload a custom app**
 3. Select the downloaded `.zip` file
 
-### Step 9: Connect in COCO Dashboard
+### Step 10: Connect in COCO Dashboard
 
 > **Important:** This step must be done **last** — all 4 credentials are required.
 
@@ -1129,7 +1135,7 @@ You have two options to distribute the app:
 
 5. Click **Connect** — the system will validate your credentials and deploy the channel
 
-### Step 10: Enable Reactions (One-Time Setup)
+### Step 11: Enable Reactions (One-Time Setup)
 
 To activate the 💬 thinking indicator and emoji reactions:
 
@@ -1140,7 +1146,7 @@ To activate the 💬 thinking indicator and emoji reactions:
 
 > **Note:** This only needs to be done once. The bot stores the delegated token and uses it automatically for all reactions going forward.
 
-### Step 11: Start Chatting
+### Step 12: Start Chatting
 
 1. In Teams, search for your app name (e.g., `COCO AI Employee`)
 2. Click to start a DM conversation

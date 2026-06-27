@@ -55,5 +55,5 @@ Teams 与 Microsoft 365 生态深度整合，适合：
 | 文件下载失败 | 确认 Azure Portal 中 `Files.Read.All` 权限已获得管理员同意 |
 | 智能模式不生效 | 确认 `ChannelMessage.Read.All` 已获得管理员同意，确保频道已设置为智能模式 |
 | 凭据验证失败 | 确认 App Password 使用的是 **Value**（非 Secret ID）。单租户机器人请确认 Tenant ID 正确 |
-| DM 中没有 💬 反应 | 未配置 App Catalog ID。请参阅部署指南第8步 |
+| DM 中没有 💬 反应 | 未配置 App Catalog ID。请参阅部署指南第9步 |
 | 想要断开连接 | 在员工详情页的 Microsoft Teams 卡片上点击 **断开连接** 按钮 |
