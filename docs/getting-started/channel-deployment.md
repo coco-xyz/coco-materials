@@ -852,7 +852,7 @@ No credentials are required. You only need:
 2. Tap **Me** (profile icon) in the bottom-right corner
 3. In the settings list, tap **Linked Devices**
 
-<img :src="withBase('/whatsapp-step3-linked-devices.png')" alt="WhatsApp Linked Devices" style="max-width: 320px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+<img :src="withBase('/whatsapp-linked-devices-en.png')" alt="WhatsApp Linked Devices" style="max-width: 320px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 ### Step 4: Tap "Link a Device" and Scan the QR Code
 
@@ -860,7 +860,7 @@ No credentials are required. You only need:
 2. Your phone's camera opens — point it at the QR code displayed on the Dashboard in Step 2
 3. Wait a few seconds for the connection to complete
 
-<img :src="withBase('/whatsapp-step4-link-device.png')" alt="Link a Device" style="max-width: 320px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+<img :src="withBase('/whatsapp-scan-qr-en.png')" alt="Link a Device" style="max-width: 320px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 > **Tip:** If the QR code has expired, the Dashboard will automatically refresh it. Scan the latest QR code displayed.
 
