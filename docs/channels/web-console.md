@@ -58,7 +58,7 @@ Add the OpenMax widget script to your page:
     primaryColor: '#FFD646'
   };
 </script>
-<script src="https://icoco.ai/widget.js" async></script>
+<script src="https://openmax.com/widget.js" async></script>
 ```
 
 Configure widget settings in OpenMax Dashboard → Web Console → Embed Settings.

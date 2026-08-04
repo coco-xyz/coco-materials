@@ -11,7 +11,7 @@ head:
       content: "AI Agent designs, builds, and operates a full CRM — 33% conversion, zero daily maintenance. Real enterprise AI automation case study."
   - - meta
     - property: og:image
-      content: "https://docs.icoco.ai/coco-logo-black.png"
+      content: "https://docs.openmax.com/coco-logo-black.png"
 ---
 
 <style>
@@ -1041,7 +1041,7 @@ OpenMax AI's advantages: fully customized, extremely low cost, deep integration 
 
 ### Q: How do I get OpenMax AI Agent to automatically operate my company's CRM?
 
-Simply visit icoco.ai to start a free trial, describe your business requirements and existing data structure to the AI Agent, and it will help you design the table architecture, build automation workflows, and configure trigger rules. No programming background required — the entire process is completed through natural language conversation with the OpenMax AI Agent.
+Simply visit openmax.com to start a free trial, describe your business requirements and existing data structure to the AI Agent, and it will help you design the table architecture, build automation workflows, and configure trigger rules. No programming background required — the entire process is completed through natural language conversation with the OpenMax AI Agent.
 
 </div>
 
@@ -1060,7 +1060,7 @@ Simply visit icoco.ai to start a free trial, describe your business requirements
   <div class="case-cta">
     <h2>Let AI Build Your Operations System</h2>
     <p>Like OpenMax, start with a single requirements description</p>
-    <a href="https://icoco.ai" class="cta-btn">Try OpenMax Free</a>
+    <a href="https://openmax.com" class="cta-btn">Try OpenMax Free</a>
   </div>
 </div>
 

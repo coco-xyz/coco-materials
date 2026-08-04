@@ -11,7 +11,7 @@ head:
       content: "A Southeast Asian shipping group that had already deployed 10+ AI employees but couldn't see what they were doing. How OpenMax Workspace solved the black-box problem, compressed cross-border routing from 10+ minutes to seconds, and upgraded agents from Q&A to end-to-end workflow automation."
   - - meta
     - property: og:image
-      content: "https://docs.icoco.ai/coco-logo-black.png"
+      content: "https://docs.openmax.com/coco-logo-black.png"
 ---
 
 <style>
@@ -884,7 +884,7 @@ For the first time, management achieved real-time visibility into what their AI 
   <div class="case-cta">
     <h2>Let AI Transform Your Operations</h2>
     <p>From isolated AI tools to a coordinated AI workforce — start the conversation</p>
-    <a href="https://icoco.ai" class="cta-btn">Get Started with OpenMax</a>
+    <a href="https://openmax.com" class="cta-btn">Get Started with OpenMax</a>
   </div>
 </div>
 

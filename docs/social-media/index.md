@@ -2,14 +2,14 @@
 
 Follow us and connect with COCO across our platforms.
 
-## COCO (icoco.ai)
+## COCO (openmax.com)
 
 | Platform | Link | Status |
 |----------|------|--------|
 | **X / Twitter** | [@CocoAIxyz](https://x.com/CocoAIxyz) | Active |
 | **Telegram** | [COCO Support Group](https://t.me/cocoaixyz) | Active |
 | **Email** | support@icoco.ai | Active |
-| **Website** | [icoco.ai](https://icoco.ai) | Active |
+| **Website** | [openmax.com](https://openmax.com) | Active |
 | **TikTok** | @cocoaixyz | Active |
 | **LinkedIn** | [COCO AI](https://linkedin.com/company/cocoaixyz) | Active |
 

@@ -11,7 +11,7 @@ head:
       content: "AI Agent scans inboxes every 10 minutes, classifies and drafts replies — humans review before sending. Real enterprise email automation case study."
   - - meta
     - property: og:image
-      content: "https://docs.icoco.ai/coco-logo-black.png"
+      content: "https://docs.openmax.com/coco-logo-black.png"
 ---
 
 <style>
@@ -1076,7 +1076,7 @@ The standard setup process involves five steps: (1) provide the email credential
   <div class="case-cta">
     <h2>Let AI Guard Your Inbox</h2>
     <p>Every user email caught. Every reply quality-checked by you.</p>
-    <a href="https://icoco.ai" class="cta-btn">Try OpenMax Free</a>
+    <a href="https://openmax.com" class="cta-btn">Try OpenMax Free</a>
   </div>
 </div>
 

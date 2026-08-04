@@ -4,7 +4,7 @@ const base = process.env.VITEPRESS_BASE || '/'
 
 const basePrefix = base !== '/' ? base.replace(/\/$/, '') : ''
 
-const docsOrigin = 'https://docs.icoco.ai'
+const docsOrigin = 'https://docs.openmax.com'
 const openMaxIdentity = Object.freeze({
   name: 'OpenMax',
   website: 'https://openmax.com/',

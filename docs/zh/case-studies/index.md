@@ -177,4 +177,4 @@ OpenMax不是聊天机器人，是你的全职AI员工。你在Telegram、飞书
 
 ---
 
-了解更多：[icoco.ai](https://icoco.ai) 联系我们：support@icoco.ai
+了解更多：[openmax.com](https://openmax.com) 联系我们：support@icoco.ai

@@ -11,7 +11,7 @@ head:
       content: "A RegTech firm selling AI compliance platforms to banks across Asia-Pacific and the Middle East — but running its own marketing and operations manually. How OpenMax AI unified three fragmented systems, automated regulatory push, and enabled the company to operate the way it advises its clients to."
   - - meta
     - property: og:image
-      content: "https://docs.icoco.ai/coco-logo-black.png"
+      content: "https://docs.openmax.com/coco-logo-black.png"
 ---
 
 <style>
@@ -878,7 +878,7 @@ What OpenMax enabled was not just operational improvement but strategic alignmen
   <div class="case-cta">
     <h2>Practice What You Preach</h2>
     <p>Bring AI into your own operations — the way you advise your clients to</p>
-    <a href="https://icoco.ai" class="cta-btn">Get Started with OpenMax</a>
+    <a href="https://openmax.com" class="cta-btn">Get Started with OpenMax</a>
   </div>
 </div>
 

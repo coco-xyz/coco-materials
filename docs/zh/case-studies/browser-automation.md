@@ -99,7 +99,7 @@ AI 员工会给你一个 **网页链接** 和连接密码。
 ### 截图
 
 ```
-打开 https://icoco.ai 并截图发给我
+打开 https://openmax.com 并截图发给我
 ```
 
 ```
@@ -190,4 +190,4 @@ A：告诉 AI 员工「浏览器组件安装失败，帮我排查一下」，AI 
 
 ---
 
-了解更多：[icoco.ai](https://icoco.ai) 联系我们：support@icoco.ai
+了解更多：[openmax.com](https://openmax.com) 联系我们：support@icoco.ai

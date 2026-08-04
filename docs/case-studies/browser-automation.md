@@ -99,7 +99,7 @@ After installation, simply tell your AI Employee what you need in natural langua
 ### Screenshots
 
 ```
-Open https://icoco.ai and send me a screenshot
+Open https://openmax.com and send me a screenshot
 ```
 
 ```
@@ -190,4 +190,4 @@ A: Tell your AI Employee "The browser component installation failed, help me tro
 
 ---
 
-Learn more: [icoco.ai](https://icoco.ai) Contact us: support@icoco.ai
+Learn more: [openmax.com](https://openmax.com) Contact us: support@icoco.ai

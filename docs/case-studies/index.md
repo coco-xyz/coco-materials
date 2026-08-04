@@ -168,4 +168,4 @@ OpenMax is not a chatbot — it's your full-time AI employee. Send a message via
 
 ---
 
-Learn more: [icoco.ai](https://icoco.ai) | Contact us: support@icoco.ai
+Learn more: [openmax.com](https://openmax.com) | Contact us: support@icoco.ai

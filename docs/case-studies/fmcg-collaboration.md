@@ -11,7 +11,7 @@ head:
       content: "How a top FMCG company operating across 10+ Southeast Asian markets used OpenMax AI inside Lark to auto-dispatch tasks from 5–6 chat groups, enable real-time multilingual coordination, and pass a rigorous three-department security review with private GCP Singapore deployment."
   - - meta
     - property: og:image
-      content: "https://docs.icoco.ai/coco-logo-black.png"
+      content: "https://docs.openmax.com/coco-logo-black.png"
 ---
 
 <style>
@@ -876,7 +876,7 @@ What makes this deployment particularly significant is the security validation. 
   <div class="case-cta">
     <h2>Bring AI to Your Enterprise Collaboration</h2>
     <p>Like this FMCG leader, start with the tools your team already uses</p>
-    <a href="https://icoco.ai" class="cta-btn">Get Started with OpenMax</a>
+    <a href="https://openmax.com" class="cta-btn">Get Started with OpenMax</a>
   </div>
 </div>
 

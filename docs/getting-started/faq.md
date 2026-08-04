@@ -302,7 +302,7 @@ In short: ChatGPT is a smart Q&A tool. OpenMax is a digital employee that proact
 **Full Onboarding Flow (approximately 15 minutes)**
 
 1. Register an OpenMax account and choose a plan
-2. Follow the [Channel Deployment Guide](https://docs.icoco.ai) to connect your channel (Telegram: ~5 min; Lark: ~10 min; Zalo (Official): ~5 min)
+2. Follow the [Channel Deployment Guide](https://docs.openmax.com) to connect your channel (Telegram: ~5 min; Lark: ~10 min; Zalo (Official): ~5 min)
 3. Complete the Onboarding in the Dashboard (select your role; the AI employee initializes automatically)
 4. Send your first message and start collaborating
 

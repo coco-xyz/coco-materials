@@ -11,7 +11,7 @@ head:
       content: "日均 200+ WhatsApp 消息、每天 30 张人工发票上限、动辄数千新元的 QS 外包费——新加坡建材经销商如何用 OpenMax AI 实现近零漏单、发票效率倍增、工程量清单从 1 周压缩到数小时。"
   - - meta
     - property: og:image
-      content: "https://docs.icoco.ai/coco-logo-black.png"
+      content: "https://docs.openmax.com/coco-logo-black.png"
 ---
 
 <style>
@@ -882,7 +882,7 @@ OpenMax 为该经销商搭建了覆盖前端客户沟通、发票处理和工程
   <div class="case-cta">
     <h2>让 AI 改变您的运营方式</h2>
     <p>从消息分拣到智能报价——从一次对话开始</p>
-    <a href="https://icoco.ai" class="cta-btn">开始使用 OpenMax</a>
+    <a href="https://openmax.com" class="cta-btn">开始使用 OpenMax</a>
   </div>
 </div>
 

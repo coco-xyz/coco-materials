@@ -11,7 +11,7 @@ head:
       content: "一家横跨亚太与中东的 RegTech 企业，对外卖 AI 合规平台，对内却靠人工推送法规、三套系统割裂、客户数据零沉淀——直到用 OpenMax AI 把自己也变成 AI 驱动的公司。"
   - - meta
     - property: og:image
-      content: "https://docs.icoco.ai/coco-logo-black.png"
+      content: "https://docs.openmax.com/coco-logo-black.png"
 ---
 
 <style>
@@ -878,7 +878,7 @@ OpenMax 带来的不仅是运营效率的提升，更是战略层面的对齐。
   <div class="case-cta">
     <h2>说到做到，从自身开始</h2>
     <p>像你向客户倡导的那样，把 AI 带进自己的运营</p>
-    <a href="https://icoco.ai" class="cta-btn">开始使用 OpenMax</a>
+    <a href="https://openmax.com" class="cta-btn">开始使用 OpenMax</a>
   </div>
 </div>
 

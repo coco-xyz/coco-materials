@@ -11,7 +11,7 @@ head:
       content: "AI Agent 投资尽调全流程自动化：数据室到 IC 备忘录，20 小时压缩到 2 小时，季度处理量 3 倍提升。"
   - - meta
     - property: og:image
-      content: "https://docs.icoco.ai/coco-logo-black.png"
+      content: "https://docs.openmax.com/coco-logo-black.png"
 ---
 
 <style>
@@ -1300,7 +1300,7 @@ DD 完成后，OpenMax AI Agent 会持续监控已投或在审项目的关键信
 
 ### Q: OpenMax AI 的 DD 自动化方案如何收费？
 
-OpenMax AI Agent 按月订阅计费，不按处理的 DD 数量计费。具体方案请访问 icoco.ai 了解最新定价，或联系 OpenMax 团队咨询针对投资机构的企业方案。
+OpenMax AI Agent 按月订阅计费，不按处理的 DD 数量计费。具体方案请访问 openmax.com 了解最新定价，或联系 OpenMax 团队咨询针对投资机构的企业方案。
 
 </div>
 
@@ -1319,7 +1319,7 @@ OpenMax AI Agent 按月订阅计费，不按处理的 DD 数量计费。具体�
   <div class="case-cta">
     <h2>让 AI 接管你的数据室</h2>
     <p>专注找下一个好项目，文件的事交给 AI</p>
-    <a href="https://icoco.ai" class="cta-btn">开始试用 OpenMax</a>
+    <a href="https://openmax.com" class="cta-btn">开始试用 OpenMax</a>
   </div>
 </div>
 

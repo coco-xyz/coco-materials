@@ -14,7 +14,7 @@
 
 ### 第一步：登录 Dashboard 连接 WhatsApp
 
-1. 登录 [OpenMax Dashboard](https://icoco.ai/dashboard)
+1. 登录 [OpenMax Dashboard](https://openmax.com/dashboard)
 2. 右上角【Dashboard】→ 左侧【Channels】→ 【WhatsApp】Connect
 3. 等待二维码生成
 
@@ -77,4 +77,4 @@ Bot 会逐一给名单上的每个人发送消息，告知他们可以直接提�
 
 ---
 
-了解更多：[icoco.ai](https://icoco.ai) 联系我们：support@icoco.ai
+了解更多：[openmax.com](https://openmax.com) 联系我们：support@icoco.ai

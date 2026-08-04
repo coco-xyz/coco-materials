@@ -11,7 +11,7 @@ head:
       content: "How a global tea chain with ~60,000 stores deployed OpenMax AI to achieve 7×24 multilingual franchise inquiry coverage across Southeast Asia, auto-reply 60–80% of standard queries, and free up ~10 FTE."
   - - meta
     - property: og:image
-      content: "https://docs.icoco.ai/coco-logo-black.png"
+      content: "https://docs.openmax.com/coco-logo-black.png"
 ---
 
 <style>
@@ -874,7 +874,7 @@ What makes OpenMax's deployment remarkable is not just the automation of inquiry
   <div class="case-cta">
     <h2>Never Miss Another Franchise Inquiry</h2>
     <p>Deploy AI employees that work 7x24 in every language your prospects speak</p>
-    <a href="https://icoco.ai" class="cta-btn">Get Started with OpenMax</a>
+    <a href="https://openmax.com" class="cta-btn">Get Started with OpenMax</a>
   </div>
 </div>
 

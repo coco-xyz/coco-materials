@@ -102,7 +102,7 @@ The OpenMax AI Employee will invoke the Seedance Skill to output a professional 
 
 Review the prompt and modify as needed. For example:
 
-- "Add icoco.ai URL at the end"
+- "Add openmax.com URL at the end"
 - "Switch to portrait 9:16"
 - "Change the style to cyberpunk"
 

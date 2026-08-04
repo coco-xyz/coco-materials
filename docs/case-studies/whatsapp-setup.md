@@ -14,7 +14,7 @@ You'll need to connect WhatsApp first. For setup instructions, see the [WhatsApp
 
 ### Step 1: Log in to Dashboard and Connect WhatsApp
 
-1. Log in to [OpenMax Dashboard](https://icoco.ai/dashboard)
+1. Log in to [OpenMax Dashboard](https://openmax.com/dashboard)
 2. Top right **Dashboard** → Left sidebar **Channels** → **WhatsApp** Connect
 3. Wait for the QR code to generate
 
@@ -77,4 +77,4 @@ The Bot will reach out to each person on the list, letting them know they can st
 
 ---
 
-Learn more: [icoco.ai](https://icoco.ai) Contact us: support@icoco.ai
+Learn more: [openmax.com](https://openmax.com) Contact us: support@icoco.ai

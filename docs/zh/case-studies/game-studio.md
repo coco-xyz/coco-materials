@@ -11,7 +11,7 @@ head:
       content: "一个不足 10 人的游戏工作室如何用 OpenMax AI 构建 Agentic OS，打通 Google Workspace，让 3 个 AI 员工分别负责研发、市场与用户运营，从「用 AI 工具」升级为「AI 原生组织」。"
   - - meta
     - property: og:image
-      content: "https://docs.icoco.ai/coco-logo-black.png"
+      content: "https://docs.openmax.com/coco-logo-black.png"
 ---
 
 <style>
@@ -878,7 +878,7 @@ OpenMax 帮助工作室构建了一套 **Agentic OS（智能体操作系统）**
   <div class="case-cta">
     <h2>构建你的 AI 原生组织</h2>
     <p>像这家工作室一样，从统一 AI 操作层开始</p>
-    <a href="https://icoco.ai" class="cta-btn">开始使用 OpenMax</a>
+    <a href="https://openmax.com" class="cta-btn">开始使用 OpenMax</a>
   </div>
 </div>
 

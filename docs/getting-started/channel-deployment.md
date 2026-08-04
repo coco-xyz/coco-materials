@@ -58,7 +58,7 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 
 ### Step 2: Connect in OpenMax Dashboard
 
-1. Log into [OpenMax Dashboard](https://icoco.ai/dashboard)
+1. Log into [OpenMax Dashboard](https://openmax.com/dashboard)
 2. Open the **Channels** page and find the **Telegram** card
 3. Paste the **Bot Token** from Step 1
 4. Click **Connect**
@@ -142,7 +142,7 @@ In the Developer Backend, find the **Create Lark Smart Agent App** banner at the
 
 <img :src="withBase('/lark-smart-agent-credentials.png')" alt="App Created page — copy App ID and App Secret" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-2. Log into [OpenMax Dashboard](https://icoco.ai/dashboard), click **Channels** on the left sidebar, select **Lark**, fill in the **App ID** and **App Secret**, then click **Connect** — the system will automatically deploy your AI employee (typically takes 2-3 minutes)
+2. Log into [OpenMax Dashboard](https://openmax.com/dashboard), click **Channels** on the left sidebar, select **Lark**, fill in the **App ID** and **App Secret**, then click **Connect** — the system will automatically deploy your AI employee (typically takes 2-3 minutes)
 
 <img :src="withBase('/lark-smart-agent-dashboard-channel.png')" alt="OpenMax Dashboard — fill in App ID and App Secret, click Connect" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
@@ -301,7 +301,7 @@ In the app management page, go to **Permissions & Scopes**. Click **Batch Import
 
 ##### Step 7: Connect in OpenMax Dashboard and Deploy
 
-1. Log into [OpenMax Dashboard](https://icoco.ai/dashboard)
+1. Log into [OpenMax Dashboard](https://openmax.com/dashboard)
 2. Go to the channel configuration page, select **Lark**
 3. Enter the following credentials:
 
@@ -373,7 +373,7 @@ In the Developer Backend, find the **Create Feishu Smart Agent App** banner at t
 
 ##### Step 4: Fill in Credentials in OpenMax Dashboard and Deploy
 
-1. Log into [OpenMax Dashboard](https://icoco.ai/dashboard)
+1. Log into [OpenMax Dashboard](https://openmax.com/dashboard)
 2. Click **Channels** on the left sidebar, select **Feishu**
 
 <img :src="withBase('/feishu-smart-agent-dashboard-channel.png')" alt="OpenMax Dashboard — click Channels, select Feishu" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
@@ -530,7 +530,7 @@ In the Permission Management page, copy the following JSON and import all permis
 
 ##### Step 5: Connect in OpenMax Dashboard and Deploy
 
-1. Log into [OpenMax Dashboard](https://icoco.ai/dashboard)
+1. Log into [OpenMax Dashboard](https://openmax.com/dashboard)
 2. Go to the channel configuration page, select **Feishu**
 3. Enter the following credentials:
 
@@ -870,7 +870,7 @@ No credentials are required. You only need:
 
 ### Step 1: Create an AI Employee and Enter Configuration Page
 
-1. Log into [OpenMax Dashboard](https://icoco.ai/dashboard)
+1. Log into [OpenMax Dashboard](https://openmax.com/dashboard)
 2. Create a new AI employee or select an existing instance
 3. Click **Configure →** on the employee card to enter the instance detail page
 
@@ -1316,7 +1316,7 @@ One credential is required:
 
 ### Step 2: Connect in OpenMax Dashboard
 
-1. Log into [OpenMax Dashboard](https://icoco.ai/dashboard)
+1. Log into [OpenMax Dashboard](https://openmax.com/dashboard)
 2. Go to the employee instance detail page
 3. Find the **Zalo (Official)** card and click **Connect**
 4. Paste the **Bot Token** from Step 1
@@ -1454,7 +1454,7 @@ One credential is required:
 
 ### Step 5: Connect in OpenMax Dashboard
 
-1. Log into [OpenMax Dashboard](https://icoco.ai/dashboard)
+1. Log into [OpenMax Dashboard](https://openmax.com/dashboard)
 2. Go to the employee instance detail page
 3. Find the **Discord** card and click **Connect**
 4. Paste the **Bot Token** from Step 2
@@ -1501,7 +1501,7 @@ LINE connects with two credentials — a **Channel Access Token** and a **Channe
 
 ### Step 3: Connect in OpenMax Dashboard
 
-1. Log into [OpenMax Dashboard](https://icoco.ai/dashboard) and open the employee instance detail page (or the **Channels** step in the hire flow).
+1. Log into [OpenMax Dashboard](https://openmax.com/dashboard) and open the employee instance detail page (or the **Channels** step in the hire flow).
 2. Find the **LINE** card and click **Connect**.
 3. Paste the **Channel Access Token** and **Channel Secret** from Step 2.
 4. Click **Connect** — the system validates the token and deploys your LINE channel.
@@ -1543,7 +1543,7 @@ No credentials are required. Authentication is done entirely via QR code:
 
 ### Step 1: Click Connect on the Zalo Personal (Unofficial) Card
 
-1. Log into [OpenMax Dashboard](https://icoco.ai/dashboard)
+1. Log into [OpenMax Dashboard](https://openmax.com/dashboard)
 2. Go to the employee instance detail page
 3. Find the **Zalo Personal (Unofficial)** card and click **Connect**
 4. The system will generate a QR code — this may take a few seconds
@@ -1595,7 +1595,7 @@ No credentials are required. You only need:
 
 ### Step 1: Click Connect on the WhatsApp Business Card
 
-1. Log into [OpenMax Dashboard](https://icoco.ai/dashboard) and open the employee instance detail page
+1. Log into [OpenMax Dashboard](https://openmax.com/dashboard) and open the employee instance detail page
 2. Find the **WhatsApp Business** card and click **Connect**
 
 ### Step 2: Enter Your Phone Number and Display Name

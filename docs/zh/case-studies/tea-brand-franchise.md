@@ -11,7 +11,7 @@ head:
       content: "全球约 6 万家门店的头部茶饮品牌如何借助 OpenMax AI，实现东南亚加盟咨询 7×24 自动响应，释放约 10 个 FTE，60–80% 标准化问题全自动回复。"
   - - meta
     - property: og:image
-      content: "https://docs.icoco.ai/coco-logo-black.png"
+      content: "https://docs.openmax.com/coco-logo-black.png"
 ---
 
 <style>
@@ -874,7 +874,7 @@ OpenMax 部署的真正亮点不仅在于咨询处理的自动化——而在于
   <div class="case-cta">
     <h2>不再错过任何一条加盟咨询</h2>
     <p>部署全天候、全语言的 AI 数字员工</p>
-    <a href="https://icoco.ai" class="cta-btn">开始使用 OpenMax</a>
+    <a href="https://openmax.com" class="cta-btn">开始使用 OpenMax</a>
   </div>
 </div>
 

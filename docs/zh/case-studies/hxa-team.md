@@ -11,7 +11,7 @@ head:
       content: "7 个 AI Agent 并行运行 — 从想法到上线仅需 20 分钟。多 Agent 企业 AI 自动化案例。"
   - - meta
     - property: og:image
-      content: "https://docs.icoco.ai/coco-logo-black.png"
+      content: "https://docs.openmax.com/coco-logo-black.png"
 ---
 
 <style>
@@ -1098,7 +1098,7 @@ HxA 的价值不只是"AI 会写代码"。真正重要的是这支团队能并�
 
 ### Q: 如何开始搭建自己的多 Agent AI 团队？
 
-访问 icoco.ai 开始免费试用，向 AI Agent 描述你的团队结构和业务流程，它会帮你配置角色、协作规则和汇报流程。全程不需要编程基础。
+访问 openmax.com 开始免费试用，向 AI Agent 描述你的团队结构和业务流程，它会帮你配置角色、协作规则和汇报流程。全程不需要编程基础。
 
 </div>
 
@@ -1117,7 +1117,7 @@ HxA 的价值不只是"AI 会写代码"。真正重要的是这支团队能并�
   <div class="case-cta">
     <h2>把 1 个 AI 员工，扩成 1 支可管理的 AI 团队</h2>
     <p>你负责业务方向，执行、协作与交付交给 OpenMax。</p>
-    <a href="https://icoco.ai" class="cta-btn">开始试用 OpenMax</a>
+    <a href="https://openmax.com" class="cta-btn">开始试用 OpenMax</a>
   </div>
 </div>
 

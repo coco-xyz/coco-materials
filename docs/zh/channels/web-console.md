@@ -58,7 +58,7 @@ https://[你的域名].icoco.ai/console/
     primaryColor: '#FFD646'
   };
 </script>
-<script src="https://icoco.ai/widget.js" async></script>
+<script src="https://openmax.com/widget.js" async></script>
 ```
 
 在 OpenMax Dashboard → Web 控制台 → 嵌入设置 中配置挂件参数。

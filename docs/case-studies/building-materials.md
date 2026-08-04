@@ -11,7 +11,7 @@ head:
       content: "200+ daily WhatsApp messages, a 30-invoice-per-day human ceiling, and SGD 3–5K QS outsourcing fees with 5–7 day turnarounds. How a Singapore building materials distributor used OpenMax AI to achieve near-zero missed orders, multiply invoice throughput, and compress quantity surveying from a week to hours."
   - - meta
     - property: og:image
-      content: "https://docs.icoco.ai/coco-logo-black.png"
+      content: "https://docs.openmax.com/coco-logo-black.png"
 ---
 
 <style>
@@ -882,7 +882,7 @@ The annualized savings from eliminating QS outsourcing alone represent a signifi
   <div class="case-cta">
     <h2>Let AI Transform Your Operations</h2>
     <p>From message triage to smart quoting — start with a single conversation</p>
-    <a href="https://icoco.ai" class="cta-btn">Get Started with OpenMax</a>
+    <a href="https://openmax.com" class="cta-btn">Get Started with OpenMax</a>
   </div>
 </div>
 

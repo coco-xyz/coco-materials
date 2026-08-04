@@ -11,7 +11,7 @@ head:
       content: "AI Agent 从零搭建并运营完整 CRM — 33% 转化率，零人工维护。企业 AI 自动化真实案例。"
   - - meta
     - property: og:image
-      content: "https://docs.icoco.ai/coco-logo-black.png"
+      content: "https://docs.openmax.com/coco-logo-black.png"
 ---
 
 <style>
@@ -1200,7 +1200,7 @@ OpenMax AI Agent 通过与 Stripe 支付数据进行交叉验证来确保数据�
 
 ### Q: 如何让 OpenMax AI Agent 自动运营我们公司的 CRM？
 
-只需访问 icoco.ai 注册试用，向 AI Agent 描述你的业务需求和现有数据结构，它会帮你设计表格架构、搭建自动化流程、配置触发规则。整个过程不需要编程背景，也不需要 CRM 专业知识——用自然语言描述你想要什么即可。
+只需访问 openmax.com 注册试用，向 AI Agent 描述你的业务需求和现有数据结构，它会帮你设计表格架构、搭建自动化流程、配置触发规则。整个过程不需要编程背景，也不需要 CRM 专业知识——用自然语言描述你想要什么即可。
 
 </div>
 
@@ -1219,7 +1219,7 @@ OpenMax AI Agent 通过与 Stripe 支付数据进行交叉验证来确保数据�
   <div class="case-cta">
     <h2>让 AI 帮你搭建运营系统</h2>
     <p>像 OpenMax 一样，从一个需求描述开始</p>
-    <a href="https://icoco.ai" class="cta-btn">开始试用 OpenMax</a>
+    <a href="https://openmax.com" class="cta-btn">开始试用 OpenMax</a>
   </div>
 </div>
 

@@ -60,7 +60,7 @@ import { withBase } from 'vitepress'
 
 #### 第2步：在OpenMax Dashboard绑定
 
-1. 登录 [OpenMax Dashboard](https://icoco.ai/dashboard)
+1. 登录 [OpenMax Dashboard](https://openmax.com/dashboard)
 2. 进入 **对话入口** 页面，找到 **Telegram** 卡片
 3. 粘贴上一步获取的 **Bot Token**
 4. 点击 **连接**
@@ -140,7 +140,7 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 
 ##### 第4步：在 OpenMax Dashboard 填写凭证并部署
 
-1. 登录 [OpenMax Dashboard](https://icoco.ai/dashboard)
+1. 登录 [OpenMax Dashboard](https://openmax.com/dashboard)
 2. 点击左侧的「对话入口」，选择 **飞书**
 
 <img :src="withBase('/feishu-smart-agent-dashboard-channel.png')" alt="OpenMax Dashboard — 点击「对话入口」，选择飞书" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
@@ -355,7 +355,7 @@ Lark（海外版）和飞书（国内版）的操作流程略有不同，请根�
 
 ##### 第7步：在 OpenMax Dashboard 填写凭证并部署
 
-1. 登录 [OpenMax Dashboard](https://icoco.ai/dashboard)
+1. 登录 [OpenMax Dashboard](https://openmax.com/dashboard)
 2. 点击左侧的「对话入口」，选择 **飞书**
 
 <img :src="withBase('/coco-dashboard-feishu-channel.png')" alt="OpenMax Dashboard — 点击「对话入口」，选择飞书" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
@@ -442,7 +442,7 @@ Lark 提供两种部署方式，请根据你的需求选择：
 
 ##### 第4步：在 OpenMax Dashboard 填写凭证并部署
 
-1. 登录 [OpenMax Dashboard](https://icoco.ai/dashboard)
+1. 登录 [OpenMax Dashboard](https://openmax.com/dashboard)
 2. 点击左侧的「对话入口」，选择 **Lark（飞书国际版）**
 
 <img :src="withBase('/lark-smart-agent-dashboard-channel.png')" alt="OpenMax Dashboard — 点击「对话入口」，选择 Lark" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
@@ -657,7 +657,7 @@ Lark 提供两种部署方式，请根据你的需求选择：
 
 ##### 第7步：在 OpenMax Dashboard 填写凭证并部署
 
-1. 登录 [OpenMax Dashboard](https://icoco.ai/dashboard)
+1. 登录 [OpenMax Dashboard](https://openmax.com/dashboard)
 2. 点击左侧的「对话入口」，选择 **Lark**
 
 <img :src="withBase('/coco-dashboard-lark-channel.png')" alt="OpenMax Dashboard — 点击「对话入口」，选择 Lark" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
@@ -701,7 +701,7 @@ Lark 提供两种部署方式，请根据你的需求选择：
 
 ### 第2步：登录 Dashboard → 对话入口 → 微信连接 → 微信扫码（附截图）
 
-<a href="https://icoco.ai/dashboard" style="color: #f5a623; font-weight: 600;">登录 Dashboard</a> → 对话入口 → 选择微信连接 → 待二维码生成 → 手机微信扫码即可
+<a href="https://openmax.com/dashboard" style="color: #f5a623; font-weight: 600;">登录 Dashboard</a> → 对话入口 → 选择微信连接 → 待二维码生成 → 手机微信扫码即可
 
 <img :src="withBase('/wechat-dashboard-connect.png')" alt="OpenMax Dashboard 对话入口 — 点击微信连接按钮，扫码完成绑定" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
@@ -1008,7 +1008,7 @@ Bot 需要独立身份。只有使用专属号码，其他人才能把它当作�
 
 ### 第1步：创建 AI 员工并进入配置页面
 
-1. 登录 [OpenMax Dashboard](https://icoco.ai/dashboard)
+1. 登录 [OpenMax Dashboard](https://openmax.com/dashboard)
 2. 创建新的 AI 员工，或选择已有实例
 3. 点击员工卡片上的 **配置 →** 进入实例详情页
 
@@ -1433,7 +1433,7 @@ Bot 需要独立身份。只有使用专属号码，其他人才能把它当作�
 
 ### 第2步：在 OpenMax Dashboard 中连接
 
-1. 登录 [OpenMax Dashboard](https://icoco.ai/dashboard)
+1. 登录 [OpenMax Dashboard](https://openmax.com/dashboard)
 2. 进入员工实例详情页
 3. 找到 **Zalo (官方)** 卡片，点击 **Connect**（连接）
 4. 粘贴第1步获取的 **Bot Token**
@@ -1571,7 +1571,7 @@ AI 员工会确认连接已建立。你的专用 Zalo 账号现在是 Bot 在 Za
 
 ### 第5步：在 OpenMax Dashboard 中连接
 
-1. 登录 [OpenMax Dashboard](https://icoco.ai/dashboard)
+1. 登录 [OpenMax Dashboard](https://openmax.com/dashboard)
 2. 进入员工实例详情页
 3. 找到 **Discord** 卡片，点击 **Connect**（连接）
 4. 粘贴第2步获取的 **Bot Token**
@@ -1618,7 +1618,7 @@ LINE 通过两个凭证连接——**Channel Access Token**（通道访问令牌
 
 #### 第3步：在 OpenMax Dashboard 绑定
 
-1. 登录 [OpenMax Dashboard](https://icoco.ai/dashboard)，进入员工实例详情页（或雇佣流程中的 **对话入口** 步骤）。
+1. 登录 [OpenMax Dashboard](https://openmax.com/dashboard)，进入员工实例详情页（或雇佣流程中的 **对话入口** 步骤）。
 2. 找到 **LINE** 卡片，点击 **连接**。
 3. 粘贴第2步获取的 **Channel Access Token** 和 **Channel Secret**。
 4. 点击 **连接**——系统会验证令牌并部署你的 LINE 通道。
@@ -1660,7 +1660,7 @@ LINE 通过两个凭证连接——**Channel Access Token**（通道访问令牌
 
 ### 第1步：点击 Zalo 个人版（非官方） 卡片的「连接」
 
-1. 登录 [OpenMax Dashboard](https://icoco.ai/dashboard)
+1. 登录 [OpenMax Dashboard](https://openmax.com/dashboard)
 2. 进入员工实例详情页
 3. 找到 **Zalo 个人版（非官方）** 卡片，点击 **连接**
 4. 系统将生成二维码——可能需要几秒钟
@@ -1712,7 +1712,7 @@ LINE 通过两个凭证连接——**Channel Access Token**（通道访问令牌
 
 ### 第1步：点击 WhatsApp Business 卡片的「连接」
 
-1. 登录 [OpenMax Dashboard](https://icoco.ai/dashboard)，进入员工实例详情页
+1. 登录 [OpenMax Dashboard](https://openmax.com/dashboard)，进入员工实例详情页
 2. 找到 **WhatsApp Business** 卡片，点击 **连接**
 
 ### 第2步：输入电话号码和显示名称

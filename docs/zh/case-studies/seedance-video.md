@@ -102,7 +102,7 @@ OpenMax AI 员工会调用 Seedance Skill，输出专业的视频提示词（含
 
 Review 提示词，按需修改。例如：
 
-- 「最后加上 icoco.ai 网址」
+- 「最后加上 openmax.com 网址」
 - 「换成竖屏 9:16」
 - 「风格改成赛博朋克」
 

@@ -11,7 +11,7 @@ head:
       content: "AI Agent 每 10 分钟扫描收件箱，智能分类、自动起草、人工审核 — 企业邮件管理自动化实战案例。"
   - - meta
     - property: og:image
-      content: "https://docs.icoco.ai/coco-logo-black.png"
+      content: "https://docs.openmax.com/coco-logo-black.png"
 ---
 
 <style>
@@ -1184,7 +1184,7 @@ OpenMax AI Agent 可以扩展到多种企业邮件自动化场景：销售跟进
 
 ### Q: 如何开始配置 OpenMax AI Agent 的客服邮件自动化？
 
-访问 icoco.ai 注册试用，提供你的邮件服务器凭证（IMAP 地址、账号、App Password）、通知渠道（飞书账号）、品牌语气指南，以及真实用户邮件的识别标准。整个配置过程通过与 OpenMax AI Agent 的自然语言对话完成，通常在 30 分钟内可以完成初始配置并开始试运行。
+访问 openmax.com 注册试用，提供你的邮件服务器凭证（IMAP 地址、账号、App Password）、通知渠道（飞书账号）、品牌语气指南，以及真实用户邮件的识别标准。整个配置过程通过与 OpenMax AI Agent 的自然语言对话完成，通常在 30 分钟内可以完成初始配置并开始试运行。
 
 </div>
 
@@ -1203,7 +1203,7 @@ OpenMax AI Agent 可以扩展到多种企业邮件自动化场景：销售跟进
   <div class="case-cta">
     <h2>让 AI 守住你的收件箱</h2>
     <p>用户邮件一封不漏，回复质量你来把关</p>
-    <a href="https://icoco.ai" class="cta-btn">开始试用 OpenMax</a>
+    <a href="https://openmax.com" class="cta-btn">开始试用 OpenMax</a>
   </div>
 </div>
 

@@ -11,7 +11,7 @@ head:
       content: "How a sub-10-person game studio used OpenMax AI to build an Agentic OS on Google Workspace, deploy 3 AI employees across development, marketing, and user operations, and make the leap from 'using AI tools' to running an AI-native organization."
   - - meta
     - property: og:image
-      content: "https://docs.icoco.ai/coco-logo-black.png"
+      content: "https://docs.openmax.com/coco-logo-black.png"
 ---
 
 <style>
@@ -878,7 +878,7 @@ This game studio proves that a sub-10-person team can build an AI-native operati
   <div class="case-cta">
     <h2>Build Your AI-Native Organization</h2>
     <p>Start with a unified AI operating layer — like this studio did</p>
-    <a href="https://icoco.ai" class="cta-btn">Get Started with OpenMax</a>
+    <a href="https://openmax.com" class="cta-btn">Get Started with OpenMax</a>
   </div>
 </div>
 

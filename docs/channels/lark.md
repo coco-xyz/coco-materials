@@ -77,5 +77,5 @@ Feishu and Lark share the same platform — the same OpenMax bot configuration w
 - Check that group mention mode is enabled in OpenMax Dashboard
 
 **Messages showing as "failed to send"?**
-- Check if the OpenMax service is online at [icoco.ai/dashboard](https://icoco.ai/dashboard)
+- Check if the OpenMax service is online at [openmax.com/dashboard](https://openmax.com/dashboard)
 - Verify your subscription is active

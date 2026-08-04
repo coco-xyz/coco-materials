@@ -11,7 +11,7 @@ head:
       content: "7 specialized AI Agents run in parallel — from idea to live website in 20 minutes. Multi-agent enterprise automation case study."
   - - meta
     - property: og:image
-      content: "https://docs.icoco.ai/coco-logo-black.png"
+      content: "https://docs.openmax.com/coco-logo-black.png"
 ---
 
 <style>
@@ -1098,7 +1098,7 @@ A normal assistant is reactive and single-threaded. A system like HxA is a conti
 
 ### Q: How do I get started with a multi-agent AI team?
 
-Visit icoco.ai to start a free trial. Describe your team structure and workflows to the AI Agent, and it will help you configure roles, coordination rules, and reporting flows. No programming background required.
+Visit openmax.com to start a free trial. Describe your team structure and workflows to the AI Agent, and it will help you configure roles, coordination rules, and reporting flows. No programming background required.
 
 </div>
 
@@ -1117,7 +1117,7 @@ Visit icoco.ai to start a free trial. Describe your team structure and workflows
   <div class="case-cta">
     <h2>Start with one AI employee, then scale into a team.</h2>
     <p>You set the direction. A manageable AI team handles execution.</p>
-    <a href="https://icoco.ai" class="cta-btn">Try OpenMax Free</a>
+    <a href="https://openmax.com" class="cta-btn">Try OpenMax Free</a>
   </div>
 </div>
 

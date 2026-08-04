@@ -11,7 +11,7 @@ head:
       content: "已部署 10+ AI 员工的海运集团，如何通过 OpenMax Workspace 解决「看不见 AI 在干什么」的黑盒问题，实现跨组织路由从 10 分钟压缩到秒级，Agent 从问答升级为工作流自动化。"
   - - meta
     - property: og:image
-      content: "https://docs.icoco.ai/coco-logo-black.png"
+      content: "https://docs.openmax.com/coco-logo-black.png"
 ---
 
 <style>
@@ -884,7 +884,7 @@ OpenMax 为该集团部署了 OpenMax Workspace 协作层，在现有 AI 员工�
   <div class="case-cta">
     <h2>让 AI 改变您的运营方式</h2>
     <p>从孤立的 AI 工具到协同的 AI 团队——从一次对话开始</p>
-    <a href="https://icoco.ai" class="cta-btn">开始使用 OpenMax</a>
+    <a href="https://openmax.com" class="cta-btn">开始使用 OpenMax</a>
   </div>
 </div>
 

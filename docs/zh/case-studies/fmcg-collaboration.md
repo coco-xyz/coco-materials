@@ -11,7 +11,7 @@ head:
       content: "覆盖东南亚 10+ 市场的快消品巨头如何用 OpenMax AI 打通 Lark 多群组协作，实现多语言自动调度、促销审批提速，并通过私有化部署满足严格数据合规要求。"
   - - meta
     - property: og:image
-      content: "https://docs.icoco.ai/coco-logo-black.png"
+      content: "https://docs.openmax.com/coco-logo-black.png"
 ---
 
 <style>
@@ -876,7 +876,7 @@ OpenMax AI 部署后，效果几乎立竿见影。AI 自动调度系统取代了
   <div class="case-cta">
     <h2>为你的企业协作引入 AI</h2>
     <p>像这家快消巨头一样，从团队已有的工具开始</p>
-    <a href="https://icoco.ai" class="cta-btn">开始使用 OpenMax</a>
+    <a href="https://openmax.com" class="cta-btn">开始使用 OpenMax</a>
   </div>
 </div>
 

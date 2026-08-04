@@ -77,5 +77,5 @@
 - 检查 OpenMax Dashboard 中是否已启用群聊提及模式
 
 **消息显示"发送失败"？**
-- 前往 [icoco.ai/dashboard](https://icoco.ai/dashboard) 检查 OpenMax 服务是否在线
+- 前往 [openmax.com/dashboard](https://openmax.com/dashboard) 检查 OpenMax 服务是否在线
 - 确认你的订阅状态正常
